@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "name": "Fanju API",
+  "routes": [
+    { "method": "GET", "path": "/api/health" },
+    { "method": "GET", "path": "/api/status" },
+    { "method": "GET", "path": "/api/dinners" },
+    { "method": "POST", "path": "/api/dinners" },
+    { "method": "GET", "path": "/api/dinners/shenzhen-weekend-table" },
+    { "method": "POST", "path": "/api/seat" },
+    { "method": "GET", "path": "/api/seat/demo" },
+    { "method": "PATCH", "path": "/api/seat/demo" },
+    { "method": "GET", "path": "/api/channels" }
+  ]
+}

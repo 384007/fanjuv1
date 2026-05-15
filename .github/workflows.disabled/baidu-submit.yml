@@ -1,0 +1,27 @@
+name: Submit URLs to Baidu
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "20 19 * * *"
+  workflow_dispatch:
+
+jobs:
+  submit:
+    name: Submit URLs to Baidu
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      BAIDU_API: ${{ secrets.BAIDU_API }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Submit URLs
+        run: node scripts/submit-baidu.mjs

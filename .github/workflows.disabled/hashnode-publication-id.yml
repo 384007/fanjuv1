@@ -1,0 +1,75 @@
+name: Check Hashnode Publication ID
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      HASHNODE_TOKEN: ${{ secrets.HASHNODE_TOKEN }}
+    steps:
+      - name: Query Hashnode publications
+        run: |
+          node <<'NODE'
+          const token = process.env.HASHNODE_TOKEN;
+
+          if (!token) {
+            console.error("HASHNODE_TOKEN is missing.");
+            process.exit(1);
+          }
+
+          const query = `
+            query Me {
+              me {
+                username
+                publications(first: 20) {
+                  edges {
+                    node {
+                      id
+                      title
+                      url
+                    }
+                  }
+                }
+              }
+            }
+          `;
+
+          const res = await fetch("https://gql.hashnode.com", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Authorization: token.startsWith("Bearer ") ? token : `Bearer ${token}`,
+            },
+            body: JSON.stringify({ query }),
+          });
+
+          const body = await res.json();
+
+          if (!res.ok || body.errors) {
+            console.error(JSON.stringify(body, null, 2));
+            process.exit(1);
+          }
+
+          const pubs = body.data?.me?.publications?.edges?.map(e => e.node) || [];
+
+          console.log("Hashnode username:", body.data?.me?.username);
+          console.log("Publication count:", pubs.length);
+
+          if (!pubs.length) {
+            console.log("NO_PUBLICATION_FOUND");
+            console.log("你还没创建 Hashnode blog/publication。先去 Hashnode 创建 blog。");
+            process.exit(0);
+          }
+
+          for (const pub of pubs) {
+            console.log("================================");
+            console.log("HASHNODE_PUBLICATION_ID=" + pub.id);
+            console.log("title=" + pub.title);
+            console.log("url=" + pub.url);
+            console.log("复制这条命令设置 secret:");
+            console.log(`gh secret set HASHNODE_PUBLICATION_ID --body "${pub.id}"`);
+          }
+          NODE

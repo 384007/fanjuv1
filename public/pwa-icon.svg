@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1280" viewBox="0 0 1280 1280" role="img" aria-label="Fanju PWA icon">
+  <defs>
+    <filter id="s" x="0" y="0" width="1280" height="1280" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="22" stdDeviation="30" flood-color="#000" flood-opacity="0.18"/></filter>
+  </defs>
+  <g filter="url(#s)" fill="#000">
+    <path d="M287 566C307 812 456 974 640 974C824 974 973 812 993 566H287Z"/>
+    <path d="M348 565C348 357 479 193 640 193V565H348Z"/>
+    <path d="M640 193C801 193 936 357 936 565H640V193Z"/>
+    <circle cx="525" cy="322" r="36" opacity="0.28"/>
+    <circle cx="760" cy="322" r="36" opacity="0.28"/>
+    <path d="M260 568C334 641 946 641 1020 568" fill="none" stroke="#000" stroke-width="52" stroke-linecap="round"/>
+    <path d="M504 454C570 532 710 532 776 454" fill="none" stroke="#000" stroke-width="30" stroke-linecap="round"/>
+  </g>
+</svg>

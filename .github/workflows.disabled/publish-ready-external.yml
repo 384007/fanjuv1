@@ -1,0 +1,159 @@
+name: Publish Fanju ready articles externally
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "content/seo-ready/**"
+      - "scripts/seo/publish-ready-draft.mjs"
+      - "scripts/submit-baidu.mjs"
+      - "scripts/submit-indexnow.mjs"
+      - ".github/workflows/publish-ready-external.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fanju-ready-external-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 50
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.15.9
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - name: Snapshot published state
+        run: |
+          node <<'NODE'
+          const fs = require('fs')
+
+          const statePath = 'data/seo/published-ready-drafts.json'
+          let slugs = []
+          if (fs.existsSync(statePath)) {
+            const state = JSON.parse(fs.readFileSync(statePath, 'utf8'))
+            const articles = Array.isArray(state.articles) ? state.articles : []
+            slugs = articles.map((article) => article && article.slug).filter(Boolean)
+          }
+
+          fs.writeFileSync('/tmp/fanju-published-before.json', JSON.stringify(slugs))
+          console.log(`Snapshot published slug count: ${slugs.length}`)
+          NODE
+
+      - name: Publish up to three ready articles to external platforms
+        env:
+          SITE_URL: https://fanju.app
+          MIN_SCORE: "100"
+          PUBLISH_LIVE: "1"
+          STRICT_PUBLISH: "0"
+          PUBLISH_FRESH_FIRST: "1"
+
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          GIST_PUBLIC: "1"
+
+          DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+
+          HASHNODE_TOKEN: ${{ secrets.HASHNODE_TOKEN }}
+          HASHNODE_PUBLICATION_ID: ${{ secrets.HASHNODE_PUBLICATION_ID }}
+
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+
+          MASTODON_INSTANCE: ${{ secrets.MASTODON_INSTANCE }}
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+        run: |
+          set -e
+          for i in 1 2 3; do
+            echo "Publishing ready article attempt $i/3"
+            pnpm seo:publish-ready
+          done
+
+      - name: Remove published markdown from repository
+        run: |
+          node <<'NODE'
+          const fs = require('fs')
+          const path = require('path')
+
+          const statePath = 'data/seo/published-ready-drafts.json'
+          if (!fs.existsSync(statePath)) {
+            console.log('No published state file found; nothing to clean.')
+            process.exit(0)
+          }
+
+          const state = JSON.parse(fs.readFileSync(statePath, 'utf8'))
+          const beforePath = '/tmp/fanju-published-before.json'
+          const before = new Set(
+            fs.existsSync(beforePath) ? JSON.parse(fs.readFileSync(beforePath, 'utf8')) : [],
+          )
+          const articles = Array.isArray(state.articles) ? state.articles : []
+          const slugs = new Set(
+            articles
+              .map((article) => article && article.slug)
+              .filter((slug) => slug && !before.has(slug)),
+          )
+          if (!slugs.size) {
+            console.log('No newly published article slugs found; nothing to clean.')
+            process.exit(0)
+          }
+
+          for (const slug of slugs) {
+            for (const file of [
+              path.join('content/seo-ready', `${slug}.md`),
+              path.join('content/seo-ai-drafts', `${slug}.md`),
+            ]) {
+              if (fs.existsSync(file)) {
+                fs.unlinkSync(file)
+                console.log(`Deleted published markdown: ${file}`)
+              }
+            }
+          }
+          NODE
+
+      - name: Submit to IndexNow
+        env:
+          SITE_URL: https://fanju.app
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          INDEXNOW_HOST: fanju.app
+          INDEXNOW_MAX_URLS: "100"
+        run: pnpm seo:submit:indexnow
+
+      - name: Submit to Baidu
+        env:
+          SITE_URL: https://fanju.app
+          BAIDU_API: ${{ secrets.BAIDU_API }}
+          BAIDU_MAX_URLS: "50"
+        run: pnpm seo:submit:baidu
+
+      - name: Commit publish state
+        run: |
+          if [ -n "$(git status --porcelain data/seo/published-ready-drafts.json content/seo-ready content/seo-ai-drafts)" ]; then
+            git config user.name "fanju-publish-bot"
+            git config user.email "publish-bot@fanju.app"
+            git add -A -- data/seo/published-ready-drafts.json content/seo-ready content/seo-ai-drafts
+            git commit -m "chore: mark Fanju article published and clean markdown"
+            git push
+          else
+            echo "No publish state changes."
+          fi

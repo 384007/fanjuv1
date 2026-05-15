@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1280" viewBox="0 0 1280 1280" role="img" aria-label="Fanju logo">
+  <defs>
+    <linearGradient id="redFace" x1="360" y1="220" x2="640" y2="565" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff1651"/>
+      <stop offset="0.58" stop-color="#e20543"/>
+      <stop offset="1" stop-color="#b90d48"/>
+    </linearGradient>
+    <linearGradient id="purpleFace" x1="640" y1="220" x2="935" y2="565" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b861ff"/>
+      <stop offset="0.48" stop-color="#751fff"/>
+      <stop offset="1" stop-color="#4a00c8"/>
+    </linearGradient>
+    <linearGradient id="bowlBody" x1="270" y1="555" x2="1008" y2="982" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe66d"/>
+      <stop offset="0.22" stop-color="#ffd133"/>
+      <stop offset="0.58" stop-color="#f7ab00"/>
+      <stop offset="1" stop-color="#c77300"/>
+    </linearGradient>
+    <radialGradient id="bowlGlow" cx="43%" cy="51%" r="58%">
+      <stop offset="0" stop-color="#fff189" stop-opacity="0.58"/>
+      <stop offset="0.45" stop-color="#ffc721" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#6c2d00" stop-opacity="0.20"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="250" y1="548" x2="1030" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff7b7"/>
+      <stop offset="0.24" stop-color="#ffd949"/>
+      <stop offset="0.55" stop-color="#ffbf18"/>
+      <stop offset="0.80" stop-color="#fff08a"/>
+      <stop offset="1" stop-color="#ffc329"/>
+    </linearGradient>
+    <linearGradient id="rimShadow" x1="280" y1="598" x2="990" y2="628" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1a900" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#8a4b00" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#f1a900" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="smile" x1="485" y1="430" x2="786" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff07a"/>
+      <stop offset="0.46" stop-color="#ffd12e"/>
+      <stop offset="1" stop-color="#efa400"/>
+    </linearGradient>
+    <linearGradient id="leftEye" x1="485" y1="285" x2="565" y2="365" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b65bff"/>
+      <stop offset="1" stop-color="#8e42d5"/>
+    </linearGradient>
+    <linearGradient id="rightEye" x1="715" y1="285" x2="795" y2="365" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff6792"/>
+      <stop offset="1" stop-color="#ef4b88"/>
+    </linearGradient>
+    <filter id="softShadow" x="0" y="0" width="1280" height="1280" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="30" flood-color="#3a1700" flood-opacity="0.18"/>
+    </filter>
+    <filter id="innerSoft" x="250" y="170" width="780" height="820" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feComposite in="SourceGraphic" in2="b" operator="over"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <path d="M287 566C307 812 456 974 640 974C824 974 973 812 993 566H287Z" fill="url(#bowlBody)"/>
+    <path d="M303 585C350 818 482 927 640 927C798 927 930 818 977 585C902 642 378 642 303 585Z" fill="url(#bowlGlow)" opacity="0.76"/>
+    <path d="M312 592C358 793 480 908 640 908C800 908 922 793 968 592" fill="none" stroke="#ffe86d" stroke-width="4" opacity="0.64"/>
+
+    <path d="M348 565C348 357 479 193 640 193V565H348Z" fill="url(#redFace)" filter="url(#innerSoft)"/>
+    <path d="M640 193C801 193 936 357 936 565H640V193Z" fill="url(#purpleFace)" filter="url(#innerSoft)"/>
+    <path d="M640 193V565" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.50"/>
+
+    <circle cx="525" cy="322" r="36" fill="url(#leftEye)" opacity="0.48"/>
+    <circle cx="760" cy="322" r="36" fill="url(#rightEye)" opacity="0.48"/>
+    <path d="M504 454C570 532 710 532 776 454" fill="none" stroke="url(#smile)" stroke-width="30" stroke-linecap="round"/>
+
+    <path d="M260 568C334 641 946 641 1020 568" fill="none" stroke="url(#rim)" stroke-width="52" stroke-linecap="round"/>
+    <path d="M278 593C372 622 908 622 1002 593" fill="none" stroke="#fff2a0" stroke-width="7" opacity="0.66"/>
+    <path d="M310 620C428 650 852 650 970 620" fill="none" stroke="url(#rimShadow)" stroke-width="12" opacity="0.58"/>
+  </g>
+</svg>

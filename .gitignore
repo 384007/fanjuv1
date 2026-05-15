@@ -1,0 +1,27 @@
+.next/
+node_modules/
+out/
+.env*.local
+dist/ai-seo/
+.DS_Store
+.env.modal
+__pycache__/
+
+# dependencies
+node_modules/
+
+# build output
+.next/
+out/
+dist/
+.turbo/
+.vercel/
+
+# TypeScript cache
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# env
+.env
+.env.local
+.env.*.local

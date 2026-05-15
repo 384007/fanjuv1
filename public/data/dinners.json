@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "data": [
+    {
+      "id": "sz-001",
+      "slug": "shenzhen-weekend-table",
+      "title": "深圳周末小桌",
+      "city": "深圳",
+      "area": "南山",
+      "type": "周末饭局",
+      "date": "2026-06-06",
+      "time": "19:30",
+      "seats": 8,
+      "state": "review",
+      "summary": "公开餐厅、小桌交流、主理确认。"
+    },
+    {
+      "id": "sh-001",
+      "slug": "shanghai-business-table",
+      "title": "上海商务小桌",
+      "city": "上海",
+      "area": "静安",
+      "type": "商务饭局",
+      "date": "2026-06-08",
+      "time": "19:00",
+      "seats": 6,
+      "state": "open",
+      "summary": "创业、品牌、产品和城市生活方式交流。"
+    },
+    {
+      "id": "gz-001",
+      "slug": "guangzhou-food-table",
+      "title": "广州美食探店饭局",
+      "city": "广州",
+      "area": "天河",
+      "type": "美食饭局",
+      "date": "2026-06-12",
+      "time": "19:30",
+      "seats": 10,
+      "state": "open",
+      "summary": "美食探店、轻社交、同城新朋友。"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+name: Publish Fanju social and search links
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "content/seo-published/**"
+      - "app/**/page.tsx"
+      - "public/sitemap-index.xml"
+      - "public/seo-published-sitemap.xml"
+      - "public/llms-full.txt"
+      - "dist/ai-seo/**"
+      - "scripts/publish-*.mjs"
+      - "scripts/submit-baidu.mjs"
+      - "scripts/submit-indexnow.mjs"
+      - "scripts/generate-social-pack.mjs"
+      - "scripts/make-manual-post-pack.mjs"
+      - ".github/workflows/social-and-search-publish.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fanju-social-search-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.15.9
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - name: Generate social pack
+        run: pnpm social:pack
+
+      - name: Publish to Dev.to
+        env:
+          DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+          PUBLISH_LIVE: "1"
+        run: pnpm social:publish:devto
+
+      - name: Publish to Hashnode
+        env:
+          HASHNODE_TOKEN: ${{ secrets.HASHNODE_TOKEN }}
+          HASHNODE_PUBLICATION_ID: ${{ secrets.HASHNODE_PUBLICATION_ID }}
+          PUBLISH_LIVE: "1"
+        run: pnpm social:publish:hashnode
+
+      - name: Publish to Bluesky
+        env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          PUBLISH_LIVE: "1"
+        run: pnpm social:publish:bluesky
+
+      - name: Publish to Mastodon
+        env:
+          MASTODON_INSTANCE: ${{ secrets.MASTODON_INSTANCE }}
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          PUBLISH_LIVE: "1"
+        run: pnpm social:publish:mastodon
+
+      - name: Publish to GitHub Gist
+        env:
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          GIST_PUBLIC: "1"
+          PUBLISH_LIVE: "1"
+        run: pnpm social:publish:gist
+
+      - name: Submit to IndexNow
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          INDEXNOW_HOST: ${{ secrets.INDEXNOW_HOST }}
+          INDEXNOW_KEY_LOCATION: ${{ secrets.INDEXNOW_KEY_LOCATION }}
+          INDEXNOW_MAX_URLS: "100"
+          SITE_URL: "https://fanju.app"
+        run: pnpm seo:submit:indexnow
+
+      - name: Submit to Baidu
+        env:
+          BAIDU_API: ${{ secrets.BAIDU_API }}
+          BAIDU_MAX_URLS: "50"
+          SITE_URL: "https://fanju.app"
+        run: pnpm seo:submit:baidu

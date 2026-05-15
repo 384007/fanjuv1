@@ -1,0 +1,45 @@
+# Fanju Product Map
+
+Official product entry: /product-map
+All links hub: /all-links
+Create dinner: /create
+Dinner invite: /invite
+China channels: /channels
+Dinner settings: /event-settings
+Seat flow: /responses
+
+## Fanju product vocabulary
+
+饭局口令: /invite
+席位确认: /responses
+同桌名单: /guests
+凑局时间: /find-time
+入局问答: /questions
+餐桌说明: /table
+饭后回忆: /memories
+开放入局: /open-invite
+席位校验: /seat-check
+同行名额: /companions
+邀约进度: /delivery
+桌前提醒: /reminders
+桌前广播: /table-broadcast
+桌边动态: /feed
+饭局门面: /covers
+饭局动效: /effects
+熟客分组: /guest-groups
+批量邀约: /bulk-invite
+席位窗口: /seat-window
+地点提示: /place-note
+饭局日程: /schedule
+受保护饭局: /protected
+一键复局: /again
+饭局系列: /series
+同桌清单: /table-list
+
+## Product sitemaps
+
+/all-links-sitemap.xml
+/fanju-product-map-sitemap.xml
+/fanju-seat-sitemap.xml
+/fanju-invite-sitemap.xml
+/fanju-host-tools-sitemap.xml

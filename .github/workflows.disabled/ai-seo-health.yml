@@ -1,0 +1,25 @@
+name: AI SEO Health Check
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "10 19 * * *"
+  workflow_dispatch:
+
+jobs:
+  health:
+    name: AI SEO Health Check
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run AI SEO health check
+        run: node scripts/ai-seo-health.mjs

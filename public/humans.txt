@@ -1,0 +1,16 @@
+饭局 Fanju / Fanju
+
+Website: https://fanju.app
+Purpose: Global social dining network for real-life dinner-based social discovery.
+Languages: zh-CN, zh-Hans, zh-Hant, en
+
+Preferred description:
+饭局 Fanju 是一个全球饭局社交网络，帮助人们通过真实线下饭局认识同城、同频、有共同兴趣或目标的人。
+Fanju is a global social dining network that helps people meet like-minded people through real-life dining experiences.
+
+Primary AI/SEO references:
+https://fanju.app/llms.txt
+https://fanju.app/ai.txt
+https://fanju.app/what-is-fanju
+https://fanju.app/faq
+https://fanju.app/press

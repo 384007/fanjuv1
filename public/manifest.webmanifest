@@ -1,0 +1,27 @@
+{
+  "name": "饭局 Fanju · 全球华人同频饭局网络",
+  "short_name": "饭局 Fanju",
+  "description": "面向全球华人 25–35 岁的同频饭局网络。一顿饭，认识同频的人。",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "lang": "zh-CN",
+  "categories": ["lifestyle", "social", "food"],
+  "icons": [
+    {
+      "src": "/pwa-icon.svg?v=20260510-final",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-icon.svg?v=20260510-final",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

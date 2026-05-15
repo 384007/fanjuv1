@@ -1,0 +1,85 @@
+name: Fanju AI SEO Content Distribution
+
+on:
+  workflow_dispatch:
+    inputs:
+      live:
+        description: "Publish live?"
+        required: true
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+  schedule:
+    - cron: "35 18 * * *"
+
+jobs:
+  distribute:
+    name: Generate and distribute Fanju AI SEO content
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    env:
+      SITE_URL: ${{ secrets.SITE_URL }}
+      DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+      HASHNODE_TOKEN: ${{ secrets.HASHNODE_TOKEN }}
+      HASHNODE_PUBLICATION_ID: ${{ secrets.HASHNODE_PUBLICATION_ID }}
+      BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+      BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+      MASTODON_INSTANCE: ${{ secrets.MASTODON_INSTANCE }}
+      MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+      GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+      INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+      BAIDU_API: ${{ secrets.BAIDU_API }}
+      BAIDU_TOKEN: ${{ secrets.BAIDU_TOKEN }}
+      PUBLISH_LIVE: ${{ github.event_name == 'schedule' && '1' || inputs.live == 'true' && '1' || '0' }}
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.live != 'true' && '1' || '0' }}
+      GIST_PUBLIC: "1"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.15.9
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build Fanju
+        run: npm run build
+        env:
+          NODE_ENV: production
+
+      - name: Generate Fanju AI SEO article variants
+        run: npm run content:generate
+
+      - name: Generate platform social pack
+        run: npm run social:pack
+
+      - name: Publish to DEV.to
+        run: npm run social:publish:devto
+
+      - name: Publish to Hashnode
+        run: npm run social:publish:hashnode
+
+      - name: Publish to Bluesky
+        run: npm run social:publish:bluesky
+
+      - name: Publish to Mastodon
+        run: npm run social:publish:mastodon
+
+      - name: Publish GitHub Gist
+        run: npm run social:publish:gist
+
+      - name: Submit IndexNow
+        run: npm run seo:submit:indexnow
+
+      - name: Submit Baidu
+        run: npm run seo:submit:baidu
