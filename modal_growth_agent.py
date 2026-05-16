@@ -1,37 +1,79 @@
 from __future__ import annotations
 
-import os
+import json
+import shutil
 import subprocess
+import tarfile
 from datetime import datetime, timezone
+from pathlib import Path
 
 import modal
 
 app = modal.App("fanju-growth-agent")
 
+APP_DIR = "/app"
+WORKDIR = "/tmp/fanju-run"
+OUTPUT_ROOT = "/outputs"
+
+OUTPUT_PATHS = [
+    "content/seo-ready",
+    "content/seo-ai-drafts",
+    "data/seo",
+    "dist/seo",
+    "public/sitemap.xml",
+    "public/sitemap-index.xml",
+]
+
 image = (
     modal.Image.debian_slim()
-    .apt_install("git", "curl", "ca-certificates")
+    .apt_install("curl", "ca-certificates")
     .run_commands(
         "curl -fsSL https://deb.nodesource.com/setup_22.x | bash -",
         "apt-get install -y nodejs",
         "npm i -g pnpm@9.15.9",
     )
+    .add_local_dir(
+        ".",
+        APP_DIR,
+        copy=True,
+        ignore=[
+            ".git",
+            "node_modules",
+            ".next",
+            "dist",
+            ".turbo",
+            ".vercel",
+            ".wrangler",
+            ".env",
+            ".env.*",
+            "content/seo-ai-drafts",
+            "content/seo-ready",
+            "content/seo-published",
+            "public/sitemap.xml",
+            "public/sitemap-index.xml",
+            "tsconfig.tsbuildinfo",
+        ],
+    )
+    .run_commands(f"cd {APP_DIR} && pnpm install --frozen-lockfile")
 )
 
-REPO = "https://github.com/dytsui/fanju.git"
-WORKDIR = "/tmp/fanju"
-GIT_TIMEOUT = 120  # seconds for any git network operation
+volume = modal.Volume.from_name("fanju-growth-output", create_if_missing=True)
 
 
-def run(cmd: str, cwd: str | None = None, display_cmd: str | None = None,
-        env: dict | None = None, timeout: int = 300) -> None:
-    # Always print the display_cmd (safe/redacted version), never the raw cmd
-    print(f"$ {display_cmd or cmd}", flush=True)
+def utc_now() -> datetime:
+    return datetime.now(timezone.utc)
+
+
+def make_run_id(now: datetime | None = None) -> str:
+    return (now or utc_now()).strftime("%Y%m%dT%H%M%SZ")
+
+
+def run(cmd: str, cwd: str | None = None, timeout: int = 300) -> None:
+    print(f"$ {cmd}", flush=True)
     result = subprocess.run(
         cmd,
         shell=True,
         cwd=cwd,
-        env=env,
         text=True,
         capture_output=True,
         timeout=timeout,
@@ -41,120 +83,176 @@ def run(cmd: str, cwd: str | None = None, display_cmd: str | None = None,
     if result.stderr:
         print(result.stderr, flush=True)
     if result.returncode != 0:
-        raise RuntimeError(f"Command failed: {display_cmd or cmd}")
+        raise RuntimeError(f"Command failed with exit code {result.returncode}: {cmd}")
 
 
-def authed_repo_url(token: str) -> str:
-    return f"https://x-access-token:{token}@github.com/dytsui/fanju.git"
+def prepare_workdir() -> None:
+    workdir = Path(WORKDIR)
+    if workdir.exists():
+        shutil.rmtree(workdir)
+    shutil.copytree(APP_DIR, workdir, symlinks=True)
 
 
-def redacted_repo_url() -> str:
-    return f"https://x-access-token:***REDACTED***@github.com/dytsui/fanju.git"
+def ensure_dependencies() -> None:
+    if not Path(WORKDIR, "node_modules").exists():
+        run("pnpm install --frozen-lockfile", cwd=WORKDIR, timeout=600)
 
 
-def clone_repo(token: str) -> None:
-    run(f"rm -rf {WORKDIR}")
-    url = authed_repo_url(token)
-    run(
-        f"git clone --depth 1 {url} {WORKDIR}",
-        display_cmd=f"git clone --depth 1 {redacted_repo_url()} {WORKDIR}",
-        timeout=GIT_TIMEOUT,
+def copy_output_path(relative_path: str, destination_root: Path) -> bool:
+    source = Path(WORKDIR, relative_path)
+    if not source.exists():
+        return False
+
+    destination = destination_root / relative_path
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    if source.is_dir():
+        shutil.copytree(source, destination, dirs_exist_ok=True)
+    else:
+        shutil.copy2(source, destination)
+    return True
+
+
+def ready_markdown_files(output_dir: Path) -> list[str]:
+    ready_dir = output_dir / "content" / "seo-ready"
+    if not ready_dir.exists():
+        return []
+    return sorted(str(path.relative_to(ready_dir)) for path in ready_dir.rglob("*.md"))
+
+
+def create_archive(output_dir: Path, archive_name: str) -> None:
+    archive_path = output_dir / archive_name
+    with tarfile.open(archive_path, "w:gz") as archive:
+        for relative_path in OUTPUT_PATHS:
+            path = output_dir / relative_path
+            if path.exists():
+                archive.add(path, arcname=relative_path)
+        manifest_path = output_dir / "run-manifest.json"
+        if manifest_path.exists():
+            archive.add(manifest_path, arcname="run-manifest.json")
+
+
+def write_manifest(path: Path, manifest: dict) -> None:
+    path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def collect_outputs(run_id: str, started_at: str) -> dict:
+    output_root = Path(OUTPUT_ROOT)
+    run_output_dir = output_root / run_id
+    latest_dir = output_root / "latest"
+
+    if run_output_dir.exists():
+        shutil.rmtree(run_output_dir)
+    if latest_dir.exists():
+        shutil.rmtree(latest_dir)
+
+    run_output_dir.mkdir(parents=True, exist_ok=True)
+
+    missing_outputs = []
+    for relative_path in OUTPUT_PATHS:
+        if not copy_output_path(relative_path, run_output_dir):
+            missing_outputs.append(relative_path)
+
+    ready_files = ready_markdown_files(run_output_dir)
+    if not ready_files:
+        raise RuntimeError("No ready markdown files were produced in content/seo-ready.")
+
+    archive_name = f"fanju-seo-output-{run_id}.tar.gz"
+    latest_archive_name = "fanju-seo-output-latest.tar.gz"
+    finished_at = utc_now().isoformat()
+    sitemap_exists = (run_output_dir / "public" / "sitemap.xml").exists()
+    sitemap_index_exists = (run_output_dir / "public" / "sitemap-index.xml").exists()
+
+    manifest = {
+        "runId": run_id,
+        "startedAt": started_at,
+        "finishedAt": finished_at,
+        "status": "success",
+        "workdir": WORKDIR,
+        "outputDir": str(run_output_dir),
+        "latestDir": str(latest_dir),
+        "readyFileCount": len(ready_files),
+        "readyFiles": ready_files,
+        "sitemapExists": sitemap_exists,
+        "sitemapIndexExists": sitemap_index_exists,
+        "archive": archive_name,
+        "latestArchive": latest_archive_name,
+        "missingOutputs": missing_outputs,
+    }
+
+    write_manifest(run_output_dir / "run-manifest.json", manifest)
+    create_archive(run_output_dir, archive_name)
+
+    shutil.copytree(run_output_dir, latest_dir)
+    latest_archive_path = latest_dir / archive_name
+    if latest_archive_path.exists():
+        latest_archive_path.rename(latest_dir / latest_archive_name)
+    write_manifest(latest_dir / "run-manifest.json", manifest)
+
+    return manifest
+
+
+def run_hourly_generation_pipeline() -> dict:
+    started = utc_now()
+    started_at = started.isoformat()
+    run_id = make_run_id(started)
+    print(f"Fanju bilingual ready article generation started: {started_at} ({run_id})", flush=True)
+
+    prepare_workdir()
+    ensure_dependencies()
+    run("pnpm seo:ready:bilingual", cwd=WORKDIR, timeout=1200)
+
+    manifest = collect_outputs(run_id, started_at)
+    volume.commit()
+    print(
+        "Fanju bilingual ready article generation finished: "
+        f"{manifest['readyFileCount']} ready files saved to {manifest['outputDir']}",
+        flush=True,
     )
-    run('git config user.name "fanju-growth-bot"', cwd=WORKDIR)
-    run('git config user.email "growth-bot@fanju.app"', cwd=WORKDIR)
-    # embed token so push/pull never prompt — log only redacted form
-    run(
-        f"git remote set-url origin {url}",
-        cwd=WORKDIR,
-        display_cmd=f"git remote set-url origin {redacted_repo_url()}",
-    )
-
-
-def commit_and_push(token: str, message: str, paths: list[str]) -> None:
-    pathspec = " ".join(paths)
-    status = subprocess.run(
-        f"git status --porcelain -- {pathspec}",
-        shell=True, cwd=WORKDIR, capture_output=True, text=True, check=True,
-    ).stdout.strip()
-
-    if not status:
-        print("No repo changes to commit.", flush=True)
-        return
-
-    print("Changed files:\n" + status, flush=True)
-    run(f"git add -A -- {pathspec}", cwd=WORKDIR)
-    run(f'git commit -m "{message}"', cwd=WORKDIR)
-    # pull with rebase to handle concurrent pushes, then push
-    url = authed_repo_url(token)
-    run(
-        f"git pull --rebase {url} main",
-        cwd=WORKDIR,
-        display_cmd=f"git pull --rebase {redacted_repo_url()} main",
-        timeout=GIT_TIMEOUT,
-    )
-    run(
-        f"git push {url} main",
-        cwd=WORKDIR,
-        display_cmd=f"git push {redacted_repo_url()} main",
-        timeout=GIT_TIMEOUT,
-    )
-
-
-def run_hourly_generation_pipeline() -> None:
-    started = datetime.now(timezone.utc).isoformat()
-    print(f"Fanju hourly bilingual ready article generation started: {started}", flush=True)
-
-    token = os.environ["GITHUB_TOKEN"]
-    clone_repo(token)
-
-    run("pnpm install --frozen-lockfile", cwd=WORKDIR, timeout=300)
-
-    # ── Single atomic bilingual pipeline ─────────────────────────────────────
-    # Generates exactly 3 ZH + 3 EN ready articles, runs build, then commits once.
-    # If pnpm seo:ready:bilingual fails for any reason, we do NOT commit.
-    run("pnpm seo:ready:bilingual", cwd=WORKDIR, timeout=900)
-
-    # ── Show git status before committing ────────────────────────────────────
-    run("git status", cwd=WORKDIR)
-
-    # ── Single atomic commit ─────────────────────────────────────────────────
-    commit_and_push(
-        token,
-        "chore: hourly generate Fanju bilingual ready SEO articles",
-        [
-            "content/seo-ready",
-            "content/seo-ai-drafts",
-            "data/seo",
-            "dist/seo",
-            "public/sitemap.xml",
-            "public/sitemap-index.xml",
-        ],
-    )
-
-    print("Fanju hourly bilingual ready article generation finished.", flush=True)
+    return manifest
 
 
 @app.function(
     image=image,
-    secrets=[
-        modal.Secret.from_name("fanju-growth-secrets"),
-        modal.Secret.from_name("custom-secret"),
-    ],
-    timeout=1200,
-    schedule=modal.Cron("0 * * * *", timezone="Asia/Tokyo"),
+    secrets=[modal.Secret.from_name("custom-secret")],
+    volumes={OUTPUT_ROOT: volume},
+    timeout=1800,
+    schedule=modal.Cron("0 * * * *", timezone="Asia/Singapore"),
 )
 def hourly_publish_cron():
-    run_hourly_generation_pipeline()
+    return run_hourly_generation_pipeline()
 
 
 @app.function(
     image=image,
-    secrets=[
-        modal.Secret.from_name("fanju-growth-secrets"),
-        modal.Secret.from_name("custom-secret"),
-    ],
-    timeout=1200,
+    secrets=[modal.Secret.from_name("custom-secret")],
+    volumes={OUTPUT_ROOT: volume},
+    timeout=1800,
 )
 def run_once():
     """Manual trigger: python3 -m modal run modal_growth_agent.py::run_once"""
-    run_hourly_generation_pipeline()
+    return run_hourly_generation_pipeline()
+
+
+@app.function(
+    image=image,
+    secrets=[modal.Secret.from_name("custom-secret")],
+    volumes={OUTPUT_ROOT: volume},
+    timeout=300,
+)
+def list_outputs():
+    """Inspect outputs: python3 -m modal run modal_growth_agent.py::list_outputs"""
+    volume.reload()
+    output_root = Path(OUTPUT_ROOT)
+    if not output_root.exists():
+        raise RuntimeError(f"Output root does not exist: {OUTPUT_ROOT}")
+
+    entries = sorted(path.name for path in output_root.iterdir())
+    print(f"{OUTPUT_ROOT}: {entries}", flush=True)
+
+    manifest_path = output_root / "latest" / "run-manifest.json"
+    if not manifest_path.exists():
+        raise RuntimeError("Missing latest run manifest.")
+
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    print(json.dumps(manifest, indent=2, ensure_ascii=False), flush=True)
+    return manifest
