@@ -11,6 +11,7 @@ export default {
 
     const cacheUrl = new URL(request.url)
     cacheUrl.search = ""
+    cacheUrl.searchParams.set("_v", "2")  // bump to bust stale cache
     const cacheKey = new Request(cacheUrl.toString(), { method: "GET" })
     const canCache = request.method === "GET"
 
