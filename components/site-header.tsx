@@ -45,6 +45,7 @@ function toEnglishPath(pathname: string) {
   if (pathname === "/categories") return "/en/categories"
   if (pathname === "/features") return "/en/features"
   if (pathname === "/what-is-fanju") return "/en/what-is-fanju"
+  // /city/macau/third-place-dinner  →  /en/city/macau/third-place-dinner
   if (pathname.startsWith("/city/")) return `/en${pathname}`
   if (pathname.startsWith("/category/")) return `/en${pathname}`
   return "/en/what-is-fanju"
@@ -56,8 +57,10 @@ function toChinesePath(pathname: string) {
   if (pathname === "/en/cities") return "/cities"
   if (pathname === "/en/categories") return "/categories"
   if (pathname === "/en/features") return "/features"
+  // /en/city/macau/third-place-dinner  →  /city/macau/third-place-dinner
   if (pathname.startsWith("/en/city/")) return pathname.replace(/^\/en/, "")
   if (pathname.startsWith("/en/category/")) return pathname.replace(/^\/en/, "")
+  if (pathname.startsWith("/en/guides/")) return pathname.replace(/^\/en/, "")
   if (pathname.startsWith("/en/")) return "/"
   return pathname
 }
