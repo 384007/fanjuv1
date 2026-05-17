@@ -19,7 +19,7 @@ function timeoutPromise(ms, label) {
   return new Promise((_, reject) => setTimeout(() => reject(new Error(`${label} timeout after ${ms}ms`)), ms))
 }
 
-async function callOpenAICompat({ label, endpoint, apiKey, model, prompt, system, maxTokens, timeoutMs, tokenParam = "max_tokens", extraHeaders = {} }) {
+async function callOpenAICompat({ label, endpoint, apiKey, model, prompt, system, maxTokens, timeoutMs, tokenParam = "max_tokens", extraHeaders = {}, useJsonFormat = false }) {
   if (!apiKey) throw new Error(`${label}: missing API key`)
 
   const body = {
@@ -31,7 +31,7 @@ async function callOpenAICompat({ label, endpoint, apiKey, model, prompt, system
     temperature: 0.25,
   }
 
-  if (process.env.AI_RESPONSE_FORMAT !== "text") {
+  if (useJsonFormat && process.env.AI_RESPONSE_FORMAT !== "text") {
     body.response_format = { type: "json_object" }
   }
 
@@ -135,6 +135,7 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
       maxTokens,
       timeoutMs,
       tokenParam: "max_tokens",
+      useJsonFormat: false,
     })
   }
 
@@ -149,6 +150,7 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
       maxTokens,
       timeoutMs,
       tokenParam: "max_completion_tokens",
+      useJsonFormat: false,
     })
   }
 
