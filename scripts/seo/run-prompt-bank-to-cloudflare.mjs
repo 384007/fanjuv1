@@ -881,6 +881,19 @@ async function main() {
 
   const queue = filtered.filter((p) => !completed.has(p.promptId))
 
+  // In bilingual mode, interleave ZH and EN so we don't exhaust one lang first.
+  let finalQueue = queue
+  if (TARGET_READY_COUNT > 0 && !ONLY_LOCALE && TARGET_READY_COUNT % 2 === 0) {
+    const zhQueue = queue.filter((p) => p.locale === "zh")
+    const enQueue = queue.filter((p) => p.locale === "en")
+    finalQueue = []
+    const maxLen = Math.max(zhQueue.length, enQueue.length)
+    for (let i = 0; i < maxLen; i++) {
+      if (i < zhQueue.length) finalQueue.push(zhQueue[i])
+      if (i < enQueue.length) finalQueue.push(enQueue[i])
+    }
+  }
+
   console.log(`Prompt bank      : ${PROMPT_BANK_FILE}`)
   console.log(`Published file   : ${PUBLISHED_FILE}`)
   console.log(`D1 database      : ${CLOUDFLARE_D1_DATABASE} (${CLOUDFLARE_D1_DATABASE_ID})`)
@@ -890,8 +903,9 @@ async function main() {
   console.log(`Total prompts    : ${bank.length}`)
   console.log(`Already published: ${completed.size}`)
   console.log(`Locale filter    : ${ONLY_LOCALE || "(none)"}`)
-  console.log(`To process       : ${queue.length}`)
+  console.log(`To process       : ${finalQueue.length}`)
   console.log(`Target ready     : ${TARGET_READY_COUNT > 0 ? TARGET_READY_COUNT : "(all)"}`)
+  console.log(`Bilingual mode   : ${BILINGUAL_MODE ? `yes (${PER_LANG_LIMIT} per lang)` : "no"}`)
   console.log(`Concurrency      : ${CONCURRENCY}`)
   console.log(`Batch size       : ${BATCH_SIZE}`)
   console.log(`Rate delay (ms)  : ${RATE_DELAY_MS}`)
@@ -921,15 +935,25 @@ async function main() {
     console.log("Cloudflare D1 schema OK.")
   }
 
+  // Bilingual balance: when TARGET_READY_COUNT is set and no locale filter,
+  // enforce exactly half ZH + half EN (e.g. RUN_LIMIT=6 → 3 ZH + 3 EN).
+  const BILINGUAL_MODE = TARGET_READY_COUNT > 0 && !ONLY_LOCALE && TARGET_READY_COUNT % 2 === 0
+  const PER_LANG_LIMIT = BILINGUAL_MODE ? TARGET_READY_COUNT / 2 : 0
+  const readyByLang = { zh: 0, en: 0 }
+
   let ready = 0
   let failed = 0
   let needsReview = 0
   let readyBuffer = []
   let processedSinceCheckpoint = 0
 
-  for (let offset = 0; offset < queue.length; offset += CONCURRENCY) {
+  for (let offset = 0; offset < finalQueue.length; offset += CONCURRENCY) {
     if (TARGET_READY_COUNT > 0 && ready >= TARGET_READY_COUNT) break
-    const chunk = queue.slice(offset, offset + CONCURRENCY)
+    const chunk = finalQueue.slice(offset, offset + CONCURRENCY).filter((p) => {
+      if (!BILINGUAL_MODE || !PER_LANG_LIMIT) return true
+      return (readyByLang[p.locale] || 0) < PER_LANG_LIMIT
+    })
+    if (!chunk.length) continue
     const results = await Promise.allSettled(chunk.map((p) => runOne(p)))
 
     for (let i = 0; i < chunk.length; i++) {
@@ -955,6 +979,7 @@ async function main() {
       ready++
       const entry = readyEntryFromResult(result)
       readyBuffer.push({ ...entry, bodyHtml: result.bodyHtml })
+      if (BILINGUAL_MODE) readyByLang[entry.locale] = (readyByLang[entry.locale] || 0) + 1
       console.log(`[OK]   ${prompt.promptId} ${result.slug} via ${result.generation.provider} (score ${result.score})`)
 
       if (TARGET_READY_COUNT > 0 && ready >= TARGET_READY_COUNT) {
