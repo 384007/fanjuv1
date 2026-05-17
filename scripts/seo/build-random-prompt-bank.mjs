@@ -76,6 +76,32 @@ function shuffleInPlace(rng, arr) {
   return arr
 }
 
+function balancedRoutePool(rng, routes) {
+  const topicGroups = new Map()
+  for (const route of routes) {
+    if (!topicGroups.has(route.topicSlug)) topicGroups.set(route.topicSlug, [])
+    topicGroups.get(route.topicSlug).push(route)
+  }
+
+  const topics = shuffleInPlace(rng, [...topicGroups.keys()])
+  for (const topic of topics) shuffleInPlace(rng, topicGroups.get(topic))
+
+  const out = []
+  let round = 0
+  while (out.length < routes.length) {
+    let added = 0
+    for (const topic of topics) {
+      const group = topicGroups.get(topic)
+      if (round >= group.length) continue
+      out.push(group[round])
+      added++
+    }
+    if (added === 0) break
+    round++
+  }
+  return out
+}
+
 function sha256Hex(s) {
   return createHash("sha256").update(s).digest("hex")
 }
@@ -262,148 +288,50 @@ const EXAMPLE_TYPES = [
 function systemInstructionFor(locale) {
   if (locale === "en") {
     return [
-      "You are an editorial writer producing a public-facing Fanju city article.",
-      "Audience: real people thinking about joining a small in-person dinner.",
-      "Voice: human, specific, calm, useful. No hype, no marketing copy.",
-      "You do not invent statistics, restaurant names, user counts, awards, or partnerships.",
-      "You do not mention any tooling used to write the article.",
-      "Hard ban — never reveal these terms in the article body, headings, intro, or footer:",
-      "  AI, automation, prompt, prompt bank, random prompt, route manifest,",
-      "  pipeline, worker, cron, JSONL, provider, model, hash, generated,",
-      "  internal metadata, SEO script, Modal.",
-      "Do not write the article using the default order:",
-      "  What is X → Who it is for → How to join → FAQ → Final CTA.",
-      "Vary the structure to match the random profile you are given.",
-      "Return structured JSON only, no commentary outside the JSON.",
+      "Write one public Fanju city article as valid JSON only.",
+      "Voice: human, practical, city-specific, calm. No hype.",
+      "The body must be a complete article, not an outline, summary, or short answer.",
+      "Never invent statistics, restaurants, user counts, awards, or partnerships.",
+      "Never mention tools or production process.",
+      "Forbidden public words: AI, automation, prompt, provider, model, pipeline, worker, cron, JSONL, hash, Modal, generated.",
+      "Return exactly one JSON object and nothing else.",
     ].join("\n")
   }
   return [
-    "你正在为饭局 Fanju 撰写一篇面向公开访问的城市文章。",
-    "读者：正在考虑参加一桌真实线下饭局的普通人。",
-    "声音：自然、具体、平静、有用。不要营销腔，不要堆砌口号。",
-    "不要编造统计数据、餐厅名、用户数、奖项或合作伙伴。",
-    "不要提及任何写作工具或后台流程。",
-    "严格禁止在文章正文、标题、开头、结尾中出现以下词汇：",
-    "  AI、自动化、prompt、提示词、route manifest、",
-    "  pipeline、worker、定时任务、JSONL、provider、模型、哈希、生成、",
-    "  内部 metadata、SEO 脚本、Modal。",
-    "不要按以下默认顺序写作：",
-    "  什么是X → 适合谁 → 怎么加入 → 常见问题 → 立即加入。",
-    "请根据下方随机 profile 调整结构、顺序与节奏。",
-    "只返回结构化 JSON，不要在 JSON 之外写任何说明文字。",
+      "只写一个公开的饭局 Fanju 城市文章，输出必须是合法 JSON。",
+      "声音：自然、具体、平静、实用。不要营销腔。",
+      "正文必须是一篇完整文章，不是提纲、摘要或短回答。",
+      "不要编造统计数据、餐厅名、用户数、奖项或合作伙伴。",
+    "不要提及任何工具、后台或生产流程。",
+    "公开字段禁用词：AI、自动化、prompt、提示词、provider、模型、pipeline、worker、JSONL、哈希、Modal、生成。",
+    "只返回一个 JSON object，不要额外说明。",
   ].join("\n")
 }
 
 function userPromptFor(profile) {
   const isEn = profile.locale === "en"
-  const lines = []
   if (isEn) {
-    lines.push("You are writing a public-facing Fanju city SEO article.")
-    lines.push("")
-    lines.push("Do not mention:")
-    lines.push("- AI")
-    lines.push("- Modal")
-    lines.push("- prompt")
-    lines.push("- automation")
-    lines.push("- provider")
-    lines.push("- generated content")
-    lines.push("- internal metadata")
-    lines.push("- route manifest")
-    lines.push("- JSON")
-    lines.push("- script")
-    lines.push("- pipeline")
-    lines.push("")
-    lines.push("Do not use the default SEO template.")
-    lines.push("Do not write the article in this order:")
-    lines.push("What is X -> Who it is for -> How to join -> FAQ -> Final CTA.")
-    lines.push("")
-    lines.push("The article must follow this random profile:")
-    lines.push(`- City: ${profile.cityNameLocalized}`)
-    lines.push(`- Route: ${profile.route}`)
-    lines.push(`- Topic: ${profile.topicNameLocalized}`)
-    lines.push(`- Locale: ${profile.locale}`)
-    lines.push(`- Angle: ${profile.angle.name}`)
-    lines.push(`- Angle instruction: ${profile.angle.instruction}`)
-    lines.push(`- Structure: ${profile.structure}`)
-    lines.push(`- Opening style: ${profile.openingStyle}`)
-    lines.push(`- FAQ mode: ${profile.faqMode}`)
-    lines.push(`- CTA position: ${profile.ctaPosition}`)
-    lines.push(`- Example type: ${profile.exampleType}`)
-    lines.push(`- Tone: ${profile.tone}`)
-    lines.push(`- Title pattern: ${profile.titlePattern}`)
-    lines.push("")
-    lines.push("The title, intro, H2/H3 order, examples, CTA position, and FAQ style must all reflect this profile.")
-    lines.push("")
-    lines.push("Write in natural English.")
-    lines.push("Do not translate from Chinese.")
-    lines.push("Use English search intent.")
-    lines.push("Use natural English headings.")
-    lines.push("Do not mention translation.")
-    lines.push("")
-    lines.push("Return structured JSON only:")
-    lines.push("{")
-    lines.push('  "title": "...",')
-    lines.push('  "description": "...",')
-    lines.push('  "body": "...",')
-    lines.push('  "slug": "...",')
-    lines.push('  "locale": "en"')
-    lines.push("}")
-  } else {
-    lines.push("你正在为饭局 Fanju 写一篇公开展示的城市 SEO 文章。")
-    lines.push("")
-    lines.push("不要提到：")
-    lines.push("- AI")
-    lines.push("- Modal")
-    lines.push("- prompt")
-    lines.push("- 自动化")
-    lines.push("- provider")
-    lines.push("- 模型")
-    lines.push("- 生成内容")
-    lines.push("- 内部 metadata")
-    lines.push("- route manifest")
-    lines.push("- JSON")
-    lines.push("- 脚本")
-    lines.push("- pipeline")
-    lines.push("- 技术实现")
-    lines.push("")
-    lines.push("不要使用固定 SEO 模板。")
-    lines.push("不要写成这个顺序：")
-    lines.push("什么是X → 适合谁 → 怎么加入 → 常见问题 → 立即加入。")
-    lines.push("")
-    lines.push("这篇文章必须遵循以下随机 profile：")
-    lines.push(`- 城市：${profile.cityNameLocalized}`)
-    lines.push(`- 路由：${profile.route}`)
-    lines.push(`- 主题：${profile.topicNameLocalized}`)
-    lines.push(`- 语言：${profile.locale}`)
-    lines.push(`- 角度：${profile.angle.name}`)
-    lines.push(`- 角度说明：${profile.angle.instruction}`)
-    lines.push(`- 结构：${profile.structure}`)
-    lines.push(`- 开头方式：${profile.openingStyle}`)
-    lines.push(`- FAQ 模式：${profile.faqMode}`)
-    lines.push(`- CTA 位置：${profile.ctaPosition}`)
-    lines.push(`- 例子类型：${profile.exampleType}`)
-    lines.push(`- 语气：${profile.tone}`)
-    lines.push(`- 标题模式：${profile.titlePattern}`)
-    lines.push("")
-    lines.push("标题、开头、H2/H3 顺序、例子、CTA 位置、FAQ 方式都必须体现这个 profile。")
-    lines.push("")
-    lines.push("请用自然中文写作。")
-    lines.push("不要翻译英文文章。")
-    lines.push("不要使用机器翻译腔。")
-    lines.push("使用中文用户真实搜索意图。")
-    lines.push("标题、小标题、CTA 都必须是自然中文。")
-    lines.push("不要出现英文 SEO 模板痕迹。")
-    lines.push("")
-    lines.push("只返回结构化 JSON：")
-    lines.push("{")
-    lines.push('  "title": "...",')
-    lines.push('  "description": "...",')
-    lines.push('  "body": "...",')
-    lines.push('  "slug": "...",')
-    lines.push('  "locale": "zh"')
-    lines.push("}")
+    return [
+      `Write a high-quality long-form English article for route ${profile.route}.`,
+      `City: ${profile.cityNameLocalized}. Topic: ${profile.topicNameLocalized}.`,
+      `Primary keyword: Fanju app. Put "Fanju app" in title, description, and first 120 words with the city name.`,
+      `Angle: ${profile.angle.name}. Use this angle: ${profile.angle.instruction}`,
+      `Style profile: structure=${profile.structure}; opening=${profile.openingStyle}; faq=${profile.faqMode}; cta=${profile.ctaPosition}; example=${profile.exampleType}; tone=${profile.tone}; title=${profile.titlePattern}.`,
+      "Quality: practical editorial guide, not a landing page. Include city rhythm, neighbourhood choice, attendee concerns, host signals, safety context, and decision criteria. Every H2 section must have real article paragraphs.",
+      `Body requirements: 3,800-5,600 characters; at least 10 paragraphs; no filler. Use this exact markdown skeleton inside body. Write the intro plus 2 substantial paragraphs under each H2, about 90-130 English words per paragraph:\nIntro paragraph mentioning ${profile.cityNameLocalized} and Fanju app.\n\n## Why ${profile.topicNameLocalized} matters in ${profile.cityNameLocalized}\n\n## What a good Fanju app table should feel like\n\n## How to choose the right host, venue, and guest mix\n\n### Quick attendee checklist\n\n## Safety, boundaries, and practical expectations\n\n## When to use Fanju app for this kind of dinner`,
+      'Return valid JSON only, no code fence: {"title":"...","description":"...","body":"...","slug":"...","locale":"en"}',
+    ].join("\n")
   }
-  return lines.join("\n")
+  return [
+    `为路由 ${profile.route} 写一篇高质量中文长文。`,
+    `城市：${profile.cityNameLocalized}。主题：${profile.topicNameLocalized}。`,
+    `主关键词：饭局app。title、description、正文前 200 字必须自然出现「饭局app」和「${profile.cityNameLocalized}」。`,
+    `角度：${profile.angle.name}。按这个方向写：${profile.angle.instruction}`,
+    `风格 profile：结构=${profile.structure}；开头=${profile.openingStyle}；FAQ=${profile.faqMode}；CTA=${profile.ctaPosition}；例子=${profile.exampleType}；语气=${profile.tone}；标题=${profile.titlePattern}。`,
+    "质量：像真实城市饭局指南，不像落地页。写出城市节奏、街区选择、同桌人数、报名前顾虑、主理人信号、安全判断、报名建议。每个 H2 都必须有真实正文段落，不能只写清单或短句。",
+    `正文要求：3,200-4,800 字符；至少 10 个自然段；不要灌水。body 内必须使用下面这个 markdown 骨架。开头 1 段；每个 H2 下面写 2-3 个扎实段落，每段约 150-220 个汉字：\n开头段落，必须提到${profile.cityNameLocalized}和饭局app。\n\n## 为什么${profile.cityNameLocalized}需要${profile.topicNameLocalized}\n\n## 一桌靠谱的饭局app饭局应该是什么感觉\n\n## 怎么判断主理人、餐厅和同桌是否合适\n\n### 报名前快速清单\n\n## 安全边界和实际预期\n\n## 什么情况下适合用饭局app参加这类饭局`,
+    '只返回合法 JSON，不要代码块：{"title":"...","description":"...","body":"...","slug":"...","locale":"zh"}',
+  ].join("\n")
 }
 
 // ---------------------------------------------------------------------------
@@ -452,10 +380,9 @@ function buildLocalePrompts({ locale, count, manifestEntries, masterSeed }) {
   const subSeed = seedFromString(`${masterSeed}::${locale}`)
   const rng = mulberry32(subSeed)
 
-  // Pre-shuffle the route pool deterministically. We then iterate prompts in a
-  // round-robin fashion so every route is used at least once before any is
-  // used twice.
-  const routePool = shuffleInPlace(rng, enabledRoutes.slice())
+  // Balance by topic first so LIMIT=1000 covers 100+ article types instead of
+  // accidentally clustering around the original small category set.
+  const routePool = balancedRoutePool(rng, enabledRoutes)
 
   const profileKeySet = new Set()
   const promptHashSet = new Set()

@@ -1,4 +1,5 @@
-const DEFAULT_ORDER = "groq,cerebras,cloudflare,gemini,nvidia"
+const DEFAULT_ORDER = "groq,cerebras,openrouter,nvidia,cloudflare,gemini"
+const providerCooldownUntil = new Map()
 
 export function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms))
@@ -6,6 +7,7 @@ export function sleep(ms) {
 
 function cleanContent(content = "") {
   return String(content)
+    .replace(/^```json\s*/i, "")
     .replace(/^```markdown\s*/i, "")
     .replace(/```\s*$/i, "")
     .replace(/^Here is[\s\S]*?\n/i, "")
@@ -17,7 +19,7 @@ function timeoutPromise(ms, label) {
   return new Promise((_, reject) => setTimeout(() => reject(new Error(`${label} timeout after ${ms}ms`)), ms))
 }
 
-async function callOpenAICompat({ label, endpoint, apiKey, model, prompt, system, maxTokens, timeoutMs, tokenParam = "max_tokens" }) {
+async function callOpenAICompat({ label, endpoint, apiKey, model, prompt, system, maxTokens, timeoutMs, tokenParam = "max_tokens", extraHeaders = {} }) {
   if (!apiKey) throw new Error(`${label}: missing API key`)
 
   const body = {
@@ -29,6 +31,10 @@ async function callOpenAICompat({ label, endpoint, apiKey, model, prompt, system
     temperature: 0.25,
   }
 
+  if (process.env.AI_RESPONSE_FORMAT !== "text") {
+    body.response_format = { type: "json_object" }
+  }
+
   body[tokenParam] = maxTokens
 
   const req = async () => {
@@ -37,6 +43,7 @@ async function callOpenAICompat({ label, endpoint, apiKey, model, prompt, system
       headers: {
         Authorization: `Bearer ${apiKey}`,
         "Content-Type": "application/json",
+        ...extraHeaders,
       },
       body: JSON.stringify(body),
     })
@@ -59,11 +66,11 @@ async function callOpenAICompat({ label, endpoint, apiKey, model, prompt, system
 
 async function callCloudflare({ prompt, system, maxTokens, timeoutMs }) {
   const accountId = process.env.CLOUDFLARE_ACCOUNT_ID
-  const token = process.env.CLOUDFLARE_API_TOKEN || process.env.CLOUDFLARE_AUTH_TOKEN
+  const token = process.env.CLOUDFLARE_AI_API_TOKEN || process.env.CLOUDFLARE_API_TOKEN || process.env.CLOUDFLARE_AUTH_TOKEN
   const model = process.env.CLOUDFLARE_MODEL || "@cf/meta/llama-3.1-8b-instruct-fast"
 
   if (!accountId) throw new Error("Cloudflare: missing CLOUDFLARE_ACCOUNT_ID")
-  if (!token) throw new Error("Cloudflare: missing CLOUDFLARE_API_TOKEN")
+  if (!token) throw new Error("Cloudflare: missing CLOUDFLARE_AI_API_TOKEN/CLOUDFLARE_API_TOKEN")
 
   const req = async () => {
     const res = await fetch(`https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/${model}`, {
@@ -99,6 +106,24 @@ async function callCloudflare({ prompt, system, maxTokens, timeoutMs }) {
 }
 
 async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) {
+  if (provider === "openrouter") {
+    return callOpenAICompat({
+      label: "OpenRouter",
+      endpoint: "https://openrouter.ai/api/v1/chat/completions",
+      apiKey: process.env.OPENROUTER_API_KEY,
+      model: process.env.OPENROUTER_MODEL || "meta-llama/llama-3.3-70b-instruct:free",
+      prompt,
+      system,
+      maxTokens,
+      timeoutMs,
+      tokenParam: "max_tokens",
+      extraHeaders: {
+        "HTTP-Referer": process.env.OPENROUTER_SITE_URL || "https://fanju.app",
+        "X-Title": process.env.OPENROUTER_APP_NAME || "Fanju SEO Publisher",
+      },
+    })
+  }
+
   if (provider === "groq") {
     return callOpenAICompat({
       label: "Groq",
@@ -150,11 +175,11 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
       label: "NVIDIA",
       endpoint: "https://integrate.api.nvidia.com/v1/chat/completions",
       apiKey: process.env.NVIDIA_API_KEY,
-      model: process.env.NVIDIA_MODEL || "nvidia/llama-3.3-nemotron-super-49b-v1",
+      model: process.env.NVIDIA_MODEL || "meta/llama-3.1-8b-instruct",
       prompt,
       system,
       maxTokens,
-      timeoutMs,
+      timeoutMs: Number.parseInt(process.env.NVIDIA_TIMEOUT_MS || "30000", 10),
       tokenParam: "max_tokens",
     })
   }
@@ -162,15 +187,46 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
   throw new Error(`Unknown provider: ${provider}`)
 }
 
-export async function generateWithRouter({ prompt, system, maxTokens = 1200, timeoutMs = 45000 }) {
-  const order = (process.env.AI_PROVIDER_ORDER || DEFAULT_ORDER)
+function retryDelayMs(err) {
+  const text = `${err?.message || ""}\n${err?.body || ""}`
+  const retry = text.match(/(?:retry|try again) in ([0-9.]+)\s*s/i)
+  if (retry) return Math.ceil(Number.parseFloat(retry[1]) * 1000)
+  if (err?.status === 429) return 15000
+  return 0
+}
+
+function cooldownProvider(provider, err) {
+  const text = `${err?.message || ""}\n${err?.body || ""}`
+  let ms = 0
+  if (err?.status === 401 || err?.status === 403) ms = 60 * 60 * 1000
+  else if (err?.status === 429 && /free_tier_requests|quota exceeded|current quota/i.test(text)) ms = 60 * 60 * 1000
+  else if (err?.status === 429) ms = retryDelayMs(err)
+  if (ms > 0) {
+    const until = Date.now() + ms
+    providerCooldownUntil.set(provider, until)
+    console.log(`Provider ${provider} cooldown ${Math.ceil(ms / 1000)}s`)
+  }
+}
+
+export async function generateWithRouter({ prompt, system, maxTokens = 1200, timeoutMs = 45000, providerOrder = "", cooldownWaitPasses = 0 }) {
+  const order = (providerOrder || process.env.AI_PROVIDER_ORDER || DEFAULT_ORDER)
     .split(",")
     .map((x) => x.trim().toLowerCase())
     .filter(Boolean)
 
   const errors = []
+  let soonestCooldownUntil = Infinity
 
   for (const provider of order) {
+    const cooldownUntil = providerCooldownUntil.get(provider) || 0
+    if (cooldownUntil > Date.now()) {
+      const remaining = Math.ceil((cooldownUntil - Date.now()) / 1000)
+      console.log(`Skipping provider ${provider}: cooldown ${remaining}s`)
+      errors.push({ provider, error: `cooldown ${remaining}s` })
+      soonestCooldownUntil = Math.min(soonestCooldownUntil, cooldownUntil)
+      continue
+    }
+
     const started = Date.now()
 
     try {
@@ -186,12 +242,20 @@ export async function generateWithRouter({ prompt, system, maxTokens = 1200, tim
     } catch (err) {
       console.log(`Provider ${provider} failed: ${err.message.slice(0, 500)}`)
       errors.push({ provider, error: err.message })
+      cooldownProvider(provider, err)
 
       // 不要被 429 卡死，直接切下一个
       if (err.status === 429) {
         await sleep(1000)
       }
     }
+  }
+
+  if (Number.isFinite(soonestCooldownUntil) && cooldownWaitPasses < 3) {
+    const waitMs = Math.min(Math.max(soonestCooldownUntil - Date.now(), 1000), 30000)
+    console.log(`All available providers are cooling down; waiting ${Math.ceil(waitMs / 1000)}s before one more pass`)
+    await sleep(waitMs)
+    return generateWithRouter({ prompt, system, maxTokens, timeoutMs, providerOrder, cooldownWaitPasses: cooldownWaitPasses + 1 })
   }
 
   throw new Error(`All providers failed: ${JSON.stringify(errors, null, 2)}`)

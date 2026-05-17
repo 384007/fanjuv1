@@ -10,6 +10,7 @@ from pathlib import Path
 import modal
 
 app = modal.App("fanju-growth-agent")
+legacy_secret = modal.Secret.from_name("custom-secret")
 
 APP_DIR = "/app"
 WORKDIR = "/tmp/fanju-run"
@@ -75,13 +76,8 @@ def run(cmd: str, cwd: str | None = None, timeout: int = 300) -> None:
         shell=True,
         cwd=cwd,
         text=True,
-        capture_output=True,
         timeout=timeout,
     )
-    if result.stdout:
-        print(result.stdout, flush=True)
-    if result.stderr:
-        print(result.stderr, flush=True)
     if result.returncode != 0:
         raise RuntimeError(f"Command failed with exit code {result.returncode}: {cmd}")
 
@@ -213,7 +209,7 @@ def run_hourly_generation_pipeline() -> dict:
 
 @app.function(
     image=image,
-    secrets=[modal.Secret.from_name("custom-secret")],
+    secrets=[legacy_secret],
     volumes={OUTPUT_ROOT: volume},
     timeout=1800,
     schedule=modal.Cron("0 * * * *", timezone="Asia/Singapore"),
@@ -224,7 +220,7 @@ def hourly_publish_cron():
 
 @app.function(
     image=image,
-    secrets=[modal.Secret.from_name("custom-secret")],
+    secrets=[legacy_secret],
     volumes={OUTPUT_ROOT: volume},
     timeout=1800,
 )
@@ -235,7 +231,91 @@ def run_once():
 
 @app.function(
     image=image,
-    secrets=[modal.Secret.from_name("custom-secret")],
+    secrets=[legacy_secret],
+    volumes={OUTPUT_ROOT: volume},
+    timeout=21600,
+)
+def publish_prompt_bank_to_cloudflare(run_limit: int = 6, upload_r2: bool = True):
+    """Publish ready prompt-bank articles to Cloudflare D1/R2 without GitHub."""
+    safe_run_limit = max(1, int(run_limit))
+    upload_r2_flag = "1" if upload_r2 else "0"
+    prepare_workdir()
+    ensure_dependencies()
+    run("pnpm seo:routes", cwd=WORKDIR, timeout=600)
+    run("LIMIT=${LIMIT:-1000} LANG=all pnpm seo:prompt-bank", cwd=WORKDIR, timeout=600)
+    run("pnpm seo:prompt-bank:check", cwd=WORKDIR, timeout=600)
+    run(
+        f"RUN_LIMIT={safe_run_limit} CONCURRENCY=3 RATE_DELAY_MS=1000 BATCH_SIZE=3 "
+        f"UPLOAD_R2={upload_r2_flag} QUALITY_ATTEMPTS=2 QUALITY_RETRY_DELAY_MS=2500 MAX_TOKENS=4200 "
+        "NVIDIA_TIMEOUT_MS=30000 AI_PROVIDER_LANES=groq,cerebras,openrouter,nvidia,cloudflare,gemini "
+        "AI_PROVIDER_ORDER=groq,cerebras,openrouter,nvidia,cloudflare,gemini pnpm seo:prompt-bank:cloudflare",
+        cwd=WORKDIR,
+        timeout=21000,
+    )
+    run(f"URL_LIMIT={safe_run_limit} pnpm seo:cloudflare:submit", cwd=WORKDIR, timeout=600)
+    return {"ok": True, "publishedBy": "cloudflare", "runLimit": safe_run_limit, "uploadR2": upload_r2}
+
+
+@app.function(
+    image=image,
+    secrets=[legacy_secret],
+    volumes={OUTPUT_ROOT: volume},
+    timeout=900,
+)
+def submit_cloudflare_article_urls(platforms: str = "all"):
+    """Submit latest Cloudflare-published article URLs to indexing/link platforms."""
+    prepare_workdir()
+    ensure_dependencies()
+    safe_platforms = "".join(ch for ch in str(platforms) if ch.isalnum() or ch in ",_-").strip(",") or "all"
+    run(f"PLATFORMS={safe_platforms} pnpm seo:cloudflare:submit", cwd=WORKDIR, timeout=600)
+    return {"ok": True, "submitted": "latest-cloudflare-article-urls", "platforms": safe_platforms}
+
+
+@app.function(
+    image=image,
+    secrets=[legacy_secret],
+    timeout=120,
+)
+def debug_wordpress_env():
+    """Print which WordPress env vars exist in Modal without exposing values."""
+    import os
+
+    names = [
+        "WORDPRESS_SITE_URL",
+        "WORDPRESS_CLIENT_ID",
+        "WORDPRESS_CLIENT_SECRET",
+        "WORDPRESS_ACCESS_TOKEN",
+        "WORDPRESS_SITE_ID",
+        "WORDPRESS_URL",
+        "WORDPRESS_SITE",
+        "WORDPRESS_BASE_URL",
+        "WP_URL",
+        "WP_SITE_URL",
+        "WP_SITE",
+        "WORDPRESS_USERNAME",
+        "WORDPRESS_USER",
+        "WORDPRESS_LOGIN",
+        "WORDPRESS_EMAIL",
+        "WP_USERNAME",
+        "WP_USER",
+        "WP_LOGIN",
+        "WP_EMAIL",
+        "WORDPRESS_APP_PASSWORD",
+        "WORDPRESS_APPLICATION_PASSWORD",
+        "WORDPRESS_PASSWORD",
+        "WP_APP_PASSWORD",
+        "WP_APPLICATION_PASSWORD",
+        "WP_PASSWORD",
+        "WORDPRESS",
+    ]
+    presence = {name: bool(os.environ.get(name)) for name in names}
+    print(json.dumps(presence, indent=2), flush=True)
+    return presence
+
+
+@app.function(
+    image=image,
+    secrets=[legacy_secret],
     volumes={OUTPUT_ROOT: volume},
     timeout=300,
 )

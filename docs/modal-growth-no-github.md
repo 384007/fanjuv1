@@ -36,10 +36,20 @@ python3 -m modal secret create custom-secret \
   GROQ_API_KEY="xxx" \
   CLOUDFLARE_ACCOUNT_ID="xxx" \
   CLOUDFLARE_API_TOKEN="xxx" \
+  CLOUDFLARE_D1_DATABASE_ID="58d63133-adeb-4efd-b9eb-a9b056271ca5" \
+  CLOUDFLARE_R2_BUCKET="fanju-articles-prod" \
   GEMINI_API_KEY="xxx" \
   NVIDIA_API_KEY="xxx" \
   --force
 ```
+
+## Publish prompt bank to Cloudflare D1/R2
+
+```bash
+python3 -m modal run modal_growth_agent.py::publish_prompt_bank_to_cloudflare
+```
+
+The default manual run rebuilds a 1000-prompt bank and publishes up to 6 ready articles. The publisher runs three AI lanes at a time and rotates providers across Groq, Cerebras, OpenRouter, NVIDIA, Cloudflare, and Gemini. Pass a larger `run_limit` only after provider quotas are stable.
 
 ## Runtime behavior
 

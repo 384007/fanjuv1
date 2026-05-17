@@ -1,0 +1,20 @@
+name = "fanju-seo-worker"
+main = "worker.js"
+compatibility_date = "2026-05-17"
+
+routes = [
+  { pattern = "fanju.app/city/*", custom_domain = false },
+  { pattern = "fanju.app/en/city/*", custom_domain = false },
+]
+
+[vars]
+ORIGIN_BASE = "https://fanju.pages.dev"
+
+[[d1_databases]]
+binding = "FANJU_DB"
+database_name = "fanju-seo-prod"
+database_id = "58d63133-adeb-4efd-b9eb-a9b056271ca5"
+
+[[r2_buckets]]
+binding = "FANJU_ARTICLES"
+bucket_name = "fanju-articles-prod"
