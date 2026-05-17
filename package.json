@@ -11,6 +11,7 @@
     "cf:deploy": "pnpm build && npx wrangler pages deploy out --project-name fanjuv1 && cd workers/fanju-seo && npx wrangler deploy",
     "cf:deploy:worker": "cd workers/fanju-seo && npx wrangler deploy",
     "cf:deploy:pages": "pnpm build && npx wrangler pages deploy out --project-name fanjuv1",
+    "ship": "git push origin main && pnpm cf:deploy",
     "generate:sitemaps": "node scripts/generate-sitemaps.mjs",
     "content:generate": "node scripts/generate-variants.mjs",
     "social:pack": "node scripts/generate-social-pack.mjs && node scripts/make-manual-post-pack.mjs",
