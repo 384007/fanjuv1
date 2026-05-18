@@ -1,7 +1,9 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
+import { SeoReadyArticlePage, seoReadyArticleMetadata } from "@/components/seo-ready-article-page"
 import { BreadcrumbJsonLd, ContentBlock, FaqJsonLd, LinkGrid, SeoPage } from "@/components/seo-page"
 import { categories, cities, getCity } from "@/lib/seo-data"
+import { getSeoReadyArticleByPathOrAlternate, getSeoReadyCityParams } from "@/lib/seo-ready-articles"
 
 const SITE_URL = "https://fanju.app"
 
@@ -10,11 +12,20 @@ type PageProps = { params: Promise<{ city: string }> }
 export const dynamicParams = false
 
 export function generateStaticParams() {
-  return cities.map((city) => ({ city: city.slug }))
+  const seen = new Set<string>()
+  return [...cities.map((city) => ({ city: city.slug })), ...getSeoReadyCityParams("en")].filter((param) => {
+    if (seen.has(param.city)) return false
+    seen.add(param.city)
+    return true
+  })
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { city: slug } = await params
+  const pathname = `/en/city/${slug}`
+  const ready = getSeoReadyArticleByPathOrAlternate(pathname)
+  if (ready) return seoReadyArticleMetadata(ready.article, pathname)
+
   const city = getCity(slug)
   if (!city) return {}
   return {
@@ -27,6 +38,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function EnCityPage({ params }: PageProps) {
   const { city: slug } = await params
+  const pathname = `/en/city/${slug}`
+  const ready = getSeoReadyArticleByPathOrAlternate(pathname)
+  if (ready) return <SeoReadyArticlePage article={ready.article} currentPath={pathname} />
+
   const city = getCity(slug)
   if (!city) notFound()
   const breadcrumbs = [{ label: "Fanju", href: "/" }, { label: `${city.nameEn} Dinners`, href: `/en/city/${city.slug}` }]

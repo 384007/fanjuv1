@@ -1,7 +1,9 @@
 import type { Metadata } from "next"
 import { redirect } from "next/navigation"
+import { SeoReadyArticlePage, seoReadyArticleMetadata } from "@/components/seo-ready-article-page"
 import { BreadcrumbJsonLd, ContentBlock, FaqJsonLd, LinkGrid, SeoPage } from "@/components/seo-page"
 import { categories, cities, getCategory, getCity } from "@/lib/seo-data"
+import { getSeoReadyArticleByPathOrAlternate, getSeoReadyCityCategoryParams } from "@/lib/seo-ready-articles"
 
 const SITE_URL = "https://fanju.app"
 
@@ -10,13 +12,24 @@ type PageProps = { params: Promise<{ city: string; category: string }> }
 export const dynamicParams = false
 
 export function generateStaticParams() {
-  return cities.flatMap((city) =>
-    categories.map((category) => ({ city: city.slug, category: category.slug }))
-  )
+  const seen = new Set<string>()
+  return [
+    ...cities.flatMap((city) => categories.map((category) => ({ city: city.slug, category: category.slug }))),
+    ...getSeoReadyCityCategoryParams("zh"),
+  ].filter((param) => {
+    const key = `${param.city}/${param.category}`
+    if (seen.has(key)) return false
+    seen.add(key)
+    return true
+  })
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { city: citySlug, category: categorySlug } = await params
+  const pathname = `/city/${citySlug}/${categorySlug}`
+  const ready = getSeoReadyArticleByPathOrAlternate(pathname)
+  if (ready) return seoReadyArticleMetadata(ready.article, pathname)
+
   const city = getCity(citySlug)
   const category = getCategory(categorySlug)
   if (city && category) {
@@ -34,6 +47,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function CityCategoryPage({ params }: PageProps) {
   const { city: citySlug, category: categorySlug } = await params
+  const pathname = `/city/${citySlug}/${categorySlug}`
+  const ready = getSeoReadyArticleByPathOrAlternate(pathname)
+  if (ready) return <SeoReadyArticlePage article={ready.article} currentPath={pathname} />
+
   const city = getCity(citySlug)
   const category = getCategory(categorySlug)
 

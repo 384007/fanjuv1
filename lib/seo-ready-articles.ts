@@ -113,6 +113,29 @@ export function getAllSeoReadyArticlePaths(): string[] {
   return loadAll().map((a) => a.canonicalPath)
 }
 
+/** Returns city-only params for /city/[city] or /en/city/[city]. */
+export function getSeoReadyCityParams(lang: "zh" | "en"): { city: string }[] {
+  const result: { city: string }[] = []
+  const seen = new Set<string>()
+
+  function add(path: string) {
+    const prefix = lang === "en" ? "/en/city/" : "/city/"
+    if (!path.startsWith(prefix)) return
+    const parts = path.replace(prefix, "").split("/")
+    if (parts.length !== 1 || !parts[0]) return
+    if (seen.has(parts[0])) return
+    seen.add(parts[0])
+    result.push({ city: parts[0] })
+  }
+
+  for (const a of loadAll()) {
+    add(a.canonicalPath)
+    add(getAlternatePath(a.canonicalPath))
+  }
+
+  return result
+}
+
 /** Returns slug arrays for Next.js catch-all generateStaticParams.
  *  Includes both canonicalPath and derived alternatePath for non-/en/ paths. */
 export function getSeoReadyStaticParamsForCatchAll(): { slug: string[] }[] {
@@ -140,6 +163,15 @@ export function getSeoReadyStaticParamsForCatchAll(): { slug: string[] }[] {
     if (!isCityCategoryPath(zhPath)) add(zhPath)
   }
 
+  // Next 16 + output:"export" rejects an empty generateStaticParams() with
+  // "Page is missing generateStaticParams()". Insert a harmless placeholder so
+  // the route remains statically exportable even when no non-city/category
+  // ready articles exist yet (e.g. fresh image, only city/category drafts).
+  // The placeholder path renders nothing — the page redirects to "/".
+  if (result.length === 0) {
+    result.push({ slug: ["__seo_placeholder__"] })
+  }
+
   return result
 }
 
@@ -165,6 +197,12 @@ export function getSeoReadyStaticParamsForEnCatchAll(): { slug: string[] }[] {
       const enPath = getAlternatePath(a.canonicalPath) // /foo → /en/foo
       if (!isEnCityCategoryPath(enPath)) add(enPath)
     }
+  }
+
+  // See note in getSeoReadyStaticParamsForCatchAll — empty array breaks
+  // `next build` under output:"export".
+  if (result.length === 0) {
+    result.push({ slug: ["__seo_placeholder__"] })
   }
 
   return result
