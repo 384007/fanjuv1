@@ -257,6 +257,80 @@ function extractJsonObject(text) {
   return null
 }
 
+function unescapeLooseJsonString(value = "") {
+  return String(value)
+    .replace(/\\n/g, "\n")
+    .replace(/\\r/g, "")
+    .replace(/\\t/g, "\t")
+    .replace(/\\"/g, '"')
+    .replace(/\\\\/g, "\\")
+    .trim()
+}
+
+function extractLooseJsonArticle(prompt, text) {
+  const cleaned = stripMarkdownFence(text)
+  if (!/"title"\s*:/i.test(cleaned) || !/"body"\s*:/i.test(cleaned)) return null
+
+  const title = cleaned.match(/"title"\s*:\s*"([\s\S]*?)"\s*,\s*"description"\s*:/i)?.[1]
+  const description = cleaned.match(/"description"\s*:\s*"([\s\S]*?)"\s*,\s*"body"\s*:/i)?.[1]
+  let body = cleaned.match(/"body"\s*:\s*"([\s\S]*?)"\s*,\s*"slug"\s*:/i)?.[1]
+    || cleaned.match(/"body"\s*:\s*"([\s\S]*?)"\s*,\s*"locale"\s*:/i)?.[1]
+    || cleaned.match(/"body"\s*:\s*"([\s\S]*?)"\s*}\s*$/i)?.[1]
+  if (!body) {
+    const bodyStart = cleaned.match(/"body"\s*:\s*"/i)
+    if (bodyStart?.index !== undefined) {
+      const start = bodyStart.index + bodyStart[0].length
+      const tail = cleaned.slice(start)
+      const meta = tail.match(/"\s*,\s*"(?:slug|locale|route)"\s*:/i)
+      const end = meta?.index ?? tail.lastIndexOf('"')
+      body = end > 0 ? tail.slice(0, end) : tail
+    }
+  }
+
+  if (!title || !description || !body) return null
+  return {
+    title: unescapeLooseJsonString(title),
+    description: unescapeLooseJsonString(description),
+    body: unescapeLooseJsonString(body),
+    slug: modelSlugForR2(prompt),
+    locale: prompt.locale,
+  }
+}
+
+function stripMarkdownFence(text) {
+  return String(text || "")
+    .trim()
+    .replace(/^```(?:markdown|md|json)?\s*/i, "")
+    .replace(/\s*```$/i, "")
+    .trim()
+}
+
+function extractMarkdownArticle(prompt, text) {
+  const cleaned = stripMarkdownFence(text)
+  if (!cleaned || looksLikeJsonWrapper(cleaned)) return null
+  if (!/^#\s+.+$/m.test(cleaned)) return null
+  if (countMarkdownHeadings(cleaned, 2) < 5) return null
+
+  const h1 = cleaned.match(/^#\s+(.+)$/m)
+  const firstParagraph = cleaned
+    .split(/\n{2,}/)
+    .map((part) => part.trim())
+    .find((part) => part && !part.startsWith("#") && !/^[-*]\s+/m.test(part))
+  if (!h1?.[1] || !firstParagraph) return null
+
+  return {
+    title: h1[1].trim(),
+    description: firstParagraph.replace(/\s+/g, " ").slice(0, prompt.locale === "en" ? 220 : 120),
+    body: cleaned,
+    slug: modelSlugForR2(prompt),
+    locale: prompt.locale,
+  }
+}
+
+function parseModelArticle(prompt, content) {
+  return extractJsonObject(content) || extractLooseJsonArticle(prompt, content) || extractMarkdownArticle(prompt, content)
+}
+
 function looksLikeJsonWrapper(text = "") {
   const s = String(text || "").trim()
   if (!s) return false
@@ -386,7 +460,7 @@ function scoreArticle(prompt, parsed) {
   }
 
   let score = 100
-  if (issues.find((x) => x.startsWith("body-too-short"))) score -= 12
+  if (issues.find((x) => x.startsWith("body-too-short"))) score -= 8
   if (issues.find((x) => x.startsWith("body-too-long"))) score -= 4
   if (issues.find((x) => x.startsWith("too-few-h2"))) score -= 12
   if (issues.find((x) => x.startsWith("too-few-h3"))) score -= 4
@@ -595,7 +669,10 @@ async function runOneAttempt(prompt, attempt, previousIssues = []) {
 
   let best = null
   for (const generation of generations) {
-    const parsed = extractJsonObject(generation.content)
+    const parsed = parseModelArticle(prompt, generation.content)
+    if (!parsed) {
+      console.log(`[PARSE] ${prompt.promptId} ${generation.provider} preview=${JSON.stringify(String(generation.content || "").slice(0, 260))}`)
+    }
     const scored = scoreArticle(prompt, parsed)
     const candidate = { generation, parsed, score: scored.score, issues: scored.issues }
     if (

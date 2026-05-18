@@ -321,7 +321,7 @@ function scoreArticle(prompt, parsed) {
   }
   // soft penalties
   let score = 100
-  if (issues.find((x) => x.startsWith("body-too-short"))) score -= 12
+  if (issues.find((x) => x.startsWith("body-too-short"))) score -= 8
   if (issues.includes("missing-description")) score -= 8
   if (issues.includes("missing-title")) score -= 30
   return { score: Math.max(score, 0), issues }

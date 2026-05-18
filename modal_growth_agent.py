@@ -497,12 +497,12 @@ def publish_prompt_bank_to_cloudflare_rounds(rounds: int = 10, run_limit: int = 
         run(f"LIMIT=1000 LANG=all RANDOM_SEED={shlex.quote(f'{run_id}-round-{round_no}')} pnpm seo:prompt-bank", cwd=WORKDIR, timeout=600)
         run("pnpm seo:prompt-bank:check", cwd=WORKDIR, timeout=600)
         run(
-            f"RUN_LIMIT={safe_run_limit} CONCURRENCY=2 RATE_DELAY_MS=1000 BATCH_SIZE=1 "
-            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=0 QUALITY_ATTEMPTS=3 QUALITY_RETRY_DELAY_MS=2500 MAX_TOKENS=5200 "
+            f"RUN_LIMIT={safe_run_limit} CONCURRENCY=1 RATE_DELAY_MS=6500 BATCH_SIZE=1 "
+            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=0 QUALITY_ATTEMPTS=4 QUALITY_RETRY_DELAY_MS=2500 MAX_TOKENS=5200 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
-            "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=30000 "
-            "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "
-            "AI_PROVIDER_ORDER=gemini,openrouter,cerebras,groq,cloudflare,nvidia pnpm seo:prompt-bank:cloudflare",
+            "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=30000 NVIDIA_MODEL=nvidia/llama-3.3-nemotron-super-49b-v1 "
+            "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=0 FORCE_PROVIDER_ORDER=1 "
+            "AI_PROVIDER_ORDER=cerebras,nvidia pnpm seo:prompt-bank:cloudflare",
             cwd=WORKDIR,
             timeout=21000,
         )

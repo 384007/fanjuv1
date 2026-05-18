@@ -50,6 +50,7 @@
     "seo:prompt-bank:check": "node scripts/seo/check-prompt-bank-diversity.mjs",
     "seo:routes:check": "node scripts/seo/check-route-coverage.mjs",
     "seo:live:check": "node scripts/seo/check-live-routes.mjs",
+    "seo:article:live:check": "node scripts/seo/check-live-article-content.mjs",
     "seo:i18n:check": "node scripts/seo/check-i18n-coverage.mjs",
     "seo:locale:check": "node scripts/seo/check-locale-content.mjs",
     "seo:pages:check": "node scripts/seo/check-built-pages.mjs",
