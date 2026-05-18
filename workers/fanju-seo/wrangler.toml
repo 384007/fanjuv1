@@ -2,10 +2,11 @@ name = "fanju-seo-worker"
 main = "worker.js"
 compatibility_date = "2026-05-17"
 
-routes = [
-  { pattern = "fanju.app/city/*", custom_domain = false },
-  { pattern = "fanju.app/en/city/*", custom_domain = false },
-]
+# Routes intentionally empty.
+# /city/* and /en/city/* are served directly by Cloudflare Pages
+# from the static Next.js export — no runtime AI rendering, no AI translation.
+# D1/R2 bindings are kept so the worker can still be reused later if needed.
+routes = []
 
 [vars]
 ORIGIN_BASE = "https://fanju.pages.dev"
