@@ -145,7 +145,16 @@ function parseEntries(label, exportSignature) {
     const name = getStringField(objSrc, "name")
     const nameEn = getStringField(objSrc, "nameEn")
     if (!slug || !name || !nameEn) continue
-    out.push({ slug, name, nameEn })
+    out.push({
+      slug,
+      name,
+      nameEn,
+      province: getStringField(objSrc, "province"),
+      provinceEn: getStringField(objSrc, "provinceEn"),
+      country: getStringField(objSrc, "country"),
+      countryEn: getStringField(objSrc, "countryEn"),
+      countryCode: getStringField(objSrc, "countryCode"),
+    })
   }
   if (out.length === 0) throw new Error(`No ${label} parsed from lib/seo-data.ts`)
   return out

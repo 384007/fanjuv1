@@ -26,7 +26,9 @@ const MAX_TOKENS = Number.parseInt(process.env.MAX_TOKENS || "4200", 10)
 const MIN_SCORE = Number.parseInt(process.env.MIN_SCORE || "90", 10)
 const QUALITY_ATTEMPTS = Math.max(1, Number.parseInt(process.env.QUALITY_ATTEMPTS || "3", 10))
 const QUALITY_RETRY_DELAY_MS = Number.parseInt(process.env.QUALITY_RETRY_DELAY_MS || "1500", 10)
-const AUTO_REPAIR_ARTICLE = process.env.AUTO_REPAIR_ARTICLE !== "0"
+const MULTI_AI_CANDIDATES = process.env.MULTI_AI_CANDIDATES === "1"
+const ASSIGN_PROVIDER_PER_CITY = process.env.ASSIGN_PROVIDER_PER_CITY === "1"
+const STRICT_CITY_PROVIDER = process.env.STRICT_CITY_PROVIDER !== "0"
 const ONLY_LOCALE = (process.env.ONLY_LOCALE || "").toLowerCase()
 const TARGET_READY_COUNT = Number.parseInt(process.env.RUN_LIMIT || "0", 10)
 const DRY_RUN = process.env.DRY_RUN === "1"
@@ -66,11 +68,35 @@ const BANNED_PHRASES_FOR_BODY = [
   /\bcron\b/i,
   /(?<![A-Za-z\u4e00-\u9fff])prompt(?![A-Za-z])/i,
   /\bModal\b/,
+  /\bHere is\b/i,
+  /\bBelow is\b/i,
+  /\bmarkdown draft\b/i,
+  /\bspecified page\b/i,
+  /\bprovided rules\b/i,
+  /\bIntro paragraph mentioning\b/i,
+  /\bReturn valid JSON\b/i,
+  /\bBody requirements\b/i,
+  /\bmarkdown skeleton\b/i,
+  /\bQQ\b/i,
+  /\bwebmaster\b/i,
+  /domain\s+for\s+sale/i,
+  /advertising\s+cooperation/i,
+  /parked\s+domain/i,
+  /local\s+contact/i,
   /提示词/,
   /路由清单/,
   /流水线/,
   /定时任务/,
   /内部 ?metadata/i,
+  /本站/,
+  /联系QQ/i,
+  /本地联系/,
+  /站长/,
+  /广告合作/,
+  /域名出售/,
+  /开头段落/,
+  /正文要求/,
+  /只返回合法 JSON/,
 ]
 
 function detectLeaks(text) {
@@ -231,6 +257,15 @@ function extractJsonObject(text) {
   return null
 }
 
+function looksLikeJsonWrapper(text = "") {
+  const s = String(text || "").trim()
+  if (!s) return false
+  if (/^\{[\s\S]*"title"\s*:/i.test(s)) return true
+  if (/^\{[\s\S]*"body"\s*:/i.test(s)) return true
+  if (/"(?:title|description|body|locale|slug)"\s*:/i.test(s.slice(0, 900))) return true
+  return false
+}
+
 function isMostlyChinese(s) {
   const total = s.length
   if (total === 0) return false
@@ -258,6 +293,43 @@ function countParagraphs(body) {
     .length
 }
 
+function duplicateMarkdownHeadings(body, level = 2) {
+  const marker = "#".repeat(level)
+  const headings = [...String(body).matchAll(new RegExp(`^${marker}\\s+(.+)$`, "gm"))]
+    .map((m) => m[1].trim().toLowerCase())
+    .filter(Boolean)
+  return headings.length - new Set(headings).size
+}
+
+function duplicateParagraphs(body) {
+  const paragraphs = String(body)
+    .split(/\n{2,}/)
+    .map((part) => part
+      .replace(/^#+\s*/, "")
+      .replace(/\s+/g, "")
+      .replace(/[，。,.!?！？、；;：:"'“”‘’()（）[\]【】]/g, "")
+      .toLowerCase())
+    .filter((part) => part.length >= 80)
+  return paragraphs.length - new Set(paragraphs).size
+}
+
+function repeatedPhraseHits(body) {
+  const text = String(body || "")
+  const phrases = [
+    /can meet anyone's needs/gi,
+    /can satisfy anyone's needs/gi,
+    /can meet different needs/gi,
+    /可以满足任何人的需求/g,
+    /可以找到适合自己的/g,
+    /并与新朋友相遇/g,
+    /非常多样化/g,
+  ]
+  return phrases.reduce((sum, pattern) => {
+    const hits = text.match(pattern)
+    return sum + (hits && hits.length > 2 ? hits.length - 2 : 0)
+  }, 0)
+}
+
 function includesCity(prompt, text) {
   const city = String(prompt.cityNameLocalized || "").trim()
   if (!city) return true
@@ -280,6 +352,9 @@ function scoreArticle(prompt, parsed) {
 
   const leakHits = detectLeaks(haystack)
   if (leakHits.length) issues.push(`tech-leak:${leakHits.length}`)
+  if (looksLikeJsonWrapper(haystack) || looksLikeJsonWrapper(body) || looksLikeJsonWrapper(description)) {
+    issues.push("json-wrapper-in-public-text")
+  }
 
   if (prompt.locale === "zh" && !isMostlyChinese(body)) issues.push("body-not-chinese")
   if (prompt.locale === "en" && !isMostlyEnglish(body)) issues.push("body-not-english")
@@ -296,18 +371,53 @@ function scoreArticle(prompt, parsed) {
   if (!includesCity(prompt, `${title}\n${description}\n${body.slice(0, 1200)}`)) issues.push("missing-city-context")
   if (countMarkdownHeadings(body, 2) < 5) issues.push(`too-few-h2:${countMarkdownHeadings(body, 2)}`)
   if (countMarkdownHeadings(body, 3) < 1) issues.push(`too-few-h3:${countMarkdownHeadings(body, 3)}`)
-  if (countParagraphs(body) < 8) issues.push(`too-few-paragraphs:${countParagraphs(body)}`)
+  const minParagraphs = prompt.locale === "en" ? 10 : 10
+  if (countParagraphs(body) < minParagraphs) issues.push(`too-few-paragraphs:${countParagraphs(body)}`)
+  const duplicateH2 = duplicateMarkdownHeadings(body, 2)
+  if (duplicateH2 > 0) issues.push(`duplicate-h2:${duplicateH2}`)
+  const duplicatePara = duplicateParagraphs(body)
+  if (duplicatePara > 0) issues.push(`duplicate-paragraphs:${duplicatePara}`)
+  const repeatedPhrases = repeatedPhraseHits(body)
+  if (repeatedPhrases > 0) issues.push(`repeated-generic-phrases:${repeatedPhrases}`)
 
   if (issues.length === 0) return { score: 100, issues }
-  if (issues.some((s) => s.startsWith("tech-leak") || s.startsWith("missing-primary-keyword") || s === "missing-city-context" || s.startsWith("too-few") || s === "locale-mismatch" || s === "body-not-chinese" || s === "body-not-english" || s === "json-parse-failed")) {
+  if (issues.some(isHardIssue)) {
     return { score: 0, issues }
   }
 
   let score = 100
   if (issues.find((x) => x.startsWith("body-too-short"))) score -= 12
+  if (issues.find((x) => x.startsWith("body-too-long"))) score -= 4
+  if (issues.find((x) => x.startsWith("too-few-h2"))) score -= 12
+  if (issues.find((x) => x.startsWith("too-few-h3"))) score -= 4
+  if (issues.find((x) => x.startsWith("too-few-paragraphs"))) score -= 8
   if (issues.includes("missing-description")) score -= 8
   if (issues.includes("missing-title")) score -= 30
   return { score: Math.max(score, 0), issues }
+}
+
+function isHardIssue(issue) {
+  return (
+    issue.startsWith("tech-leak") ||
+    issue === "json-wrapper-in-public-text" ||
+    issue.startsWith("missing-primary-keyword") ||
+    issue === "missing-city-context" ||
+    issue === "locale-mismatch" ||
+    issue === "body-not-chinese" ||
+    issue === "body-not-english" ||
+    issue === "json-parse-failed" ||
+    issue === "missing-body" ||
+    issue === "missing-title" ||
+    issue === "missing-description" ||
+    issue.startsWith("duplicate-h2") ||
+    issue.startsWith("duplicate-paragraphs") ||
+    issue.startsWith("repeated-generic-phrases") ||
+    issue.startsWith("too-few-paragraphs")
+  )
+}
+
+function hasHardIssues(issues) {
+  return issues.some(isHardIssue)
 }
 
 function escapeHtml(input = "") {
@@ -383,120 +493,6 @@ function bodyToArticleHtml(prompt, result) {
   ].join("\n")
 }
 
-function repairedArticle(prompt) {
-  const city = prompt.cityNameLocalized
-  const topic = prompt.topicNameLocalized
-  if (prompt.locale === "en") {
-    const title = `${city} ${topic}: a Fanju app guide to better city dinners`
-    const description = `A practical Fanju app guide for ${topic.toLowerCase()} in ${city}, covering table fit, host signals, safety, and when a small dinner makes sense.`
-    const p = [
-      `${city} can feel crowded and disconnected at the same time, which is why the Fanju app works best when it is treated as a practical way to find a small, intentional dinner rather than another noisy social feed. For someone considering ${topic.toLowerCase()}, the useful question is not whether one dinner can change a whole social life, but whether one table can create a calmer first step into real local conversation.`,
-      `A good city dinner starts with context. The right table should make it easier to understand who is coming, what kind of conversation the host wants to create, where the meal will happen, and how much social energy the evening will require. In ${city}, that matters because people often balance work schedules, transit time, neighbourhood preferences, and different comfort levels around meeting new people.`,
-      `The strongest Fanju app experience is specific rather than broad. A person looking for ${topic.toLowerCase()} usually wants a table with a clear reason to exist: a shared stage of life, a professional interest, a food preference, a newcomer need, or a simple wish to avoid another meal alone. Specificity helps the dinner feel less random and gives guests a natural way to begin talking.`,
-      `The table itself should feel small enough for everyone to speak. Six to twelve people is usually easier to navigate than a large mixer because guests can remember names, follow conversation threads, and notice when someone has been quiet. That is the difference between a dinner that feels hosted and a room that only happens to contain people eating at the same time.`,
-      `Host signals matter before anyone arrives. Look for clear timing, a public venue, transparent costs, a stated theme, and a host who explains how guests are selected. The Fanju app should make those signals easier to compare so that a careful attendee can decide whether the dinner matches their expectations before committing an evening.`,
-      `Venue choice is not just about taste. A good restaurant for a first table should be reachable, public, stable, and quiet enough for conversation. In ${city}, the best choice is often not the most famous place but the one that lets people arrive safely, hear one another, order without pressure, and leave without awkward logistics.`,
-      `A useful checklist is simple: confirm the time, address, price, refund rule, host identity, guest cap, and theme. Then ask whether the table matches the kind of evening you actually want. If the goal is relaxed conversation, do not choose a table designed for hard networking. If the goal is professional exchange, avoid a vague social dinner with no shared context.`,
-      `Safety is part of quality, not a separate concern. First dinners should happen in public venues, with reasonable start and end times, clear payment expectations, and no pressure to move to a second location. Guests should keep personal boundaries intact and treat the first table as a way to learn whether the community feels trustworthy.`,
-      `The Fanju app is most useful when the dinner has a narrow purpose and a host who respects the room. It can help newcomers, remote workers, founders, students, travellers, and people rebuilding offline habits find a table that would be hard to assemble alone. The value is not volume; the value is a better chance of sitting with people who are also choosing a deliberate evening.`,
-      `Use Fanju app for ${topic.toLowerCase()} when you want a real meal, a small group, and enough structure to make the first conversation easier. Do not use it as a shortcut for guaranteed friendship, dating, hiring, funding, or status. The best outcome is simpler and more durable: a dinner that feels safe, specific, and worth repeating.`,
-    ]
-    const expanded = p.map((text, index) => `${text} ${[
-      `That is why the decision should be made through concrete signals rather than vague excitement: the table theme, the host's care, the guest mix, the venue, and the way expectations are explained before anyone arrives.`,
-      `For a careful attendee, this kind of detail turns the Fanju app from a broad discovery tool into a practical filter for choosing one dinner that fits the week, the neighbourhood, and the social energy available.`,
-      `The more specific the dinner feels before booking, the easier it is for guests to arrive with realistic expectations and leave with a clear sense of whether they would join another table.`,
-    ][index % 3]}`)
-    const body = [
-      expanded[0],
-      "",
-      `## Why ${topic} matters in ${city}`,
-      "",
-      expanded[1],
-      "",
-      expanded[2],
-      "",
-      "## What a good Fanju app table should feel like",
-      "",
-      expanded[3],
-      "",
-      expanded[4],
-      "",
-      "## How to choose the right host, venue, and guest mix",
-      "",
-      expanded[5],
-      "",
-      "### Quick attendee checklist",
-      "",
-      expanded[6],
-      "",
-      "## Safety, boundaries, and practical expectations",
-      "",
-      expanded[7],
-      "",
-      expanded[8],
-      "",
-      "## When to use Fanju app for this kind of dinner",
-      "",
-      expanded[9],
-    ].join("\n")
-    return { title, description, body, slug: modelSlugForR2(prompt), locale: "en" }
-  }
-
-  const title = `${city}${topic}：饭局app同城小桌指南`
-  const description = `一篇面向${city}${topic}需求的饭局app指南，覆盖同桌质量、主理人信号、餐厅选择、安全边界和报名判断。`
-  const p = [
-    `${city}的线下社交不缺热闹，真正缺的是一桌能坐下来认真吃饭、自然说话、彼此有基本筛选的饭局。饭局app适合解决的不是“马上认识很多人”，而是帮助用户找到一桌人数适中、主题清楚、主理人负责的同城晚餐。对于正在考虑${topic}的人来说，重要的是先判断这桌饭是否适合自己，而不是被热闹数字带着走。`,
-    `${city}的工作节奏、通勤距离和生活圈层会直接影响一场饭局的体验。一个靠谱的${topic}不应该只写“欢迎报名”，而要说明适合什么人、为什么要组这桌、地点是否方便、费用是否透明、主理人如何控制人数和氛围。用户提前看清这些信息，才更容易判断是否值得花一个晚上。`,
-    `饭局app的价值在于把随机社交变得更有边界。用户不是盲目进入一个大群，而是围绕城市、主题和饭桌场景做选择。比如刚到${city}的人，可能需要低压力认识本地朋友；长期在同一个圈子工作的人，可能需要换一个更自然的线下入口；不喜欢大型活动的人，则更适合小桌慢慢聊。`,
-    `一桌好的饭局，人数不应该过多。六到十二人的小桌更容易让每个人都有机会说话，也更容易让主理人照顾节奏。饭局app里的饭局如果能提前说明人数上限、主题边界和基本规则，用户到场后就不会像参加陌生聚会一样无从开始。`,
-    `同桌质量不是用身份标签堆出来的，而是看这桌人是否有共同语境。${topic}可以围绕行业、生活阶段、兴趣、城市迁移、周末安排或美食探索展开。主题越清楚，聊天越自然；主题越模糊，用户越容易把一顿饭吃成尴尬寒暄。`,
-    `判断主理人是否靠谱，可以看几个具体信号：是否说明餐厅和时间，是否讲清费用和取消规则，是否限制人数，是否会审核基本资料，是否提醒安全边界。一个认真组织饭局的人，不会只用“高端”“优质”“稀缺”这些词吸引报名，而会把用户真正关心的信息说清楚。`,
-    `餐厅选择也很关键。第一次参加同城饭局，优先选择公开营业、交通方便、环境稳定、适合聊天的餐厅。太吵、太私密、地址不清楚或临时改地点的饭局，都不适合新用户贸然参加。饭局app应该帮助用户在报名之前就看到这些基础判断点。`,
-    `报名前可以快速检查：主题是否明确，主理人是否可识别，人数是否适中，费用是否透明，餐厅是否公开，时间是否合理，取消规则是否清楚，是否要求提前向陌生人转账。只要其中几项含糊，就应该谨慎，而不是因为怕错过而仓促报名。`,
-    `安全边界不是扫兴，而是高质量饭局的前提。第一次见面不要透露敏感住址、证件、财务信息，不要被劝说临时转场，也不要接受规则不清楚的私下邀约。真正好的饭局会让人感觉放松，但不会要求用户放弃基本判断。`,
-    `适合使用饭局app参加${city}${topic}的情况，是你想通过一顿真实晚餐认识同城的人，又希望这个过程比微信群约饭、大型活动或随机社交更有秩序。它不承诺脱单、成交、融资或立刻交到朋友，但可以提供一个更稳妥的线下入口，让一顿饭成为关系开始的可能。`,
-  ]
-  const expanded = p.map((text, index) => `${text}${[
-    ` 对用户来说，真正要看的不是页面写得多热闹，而是这桌饭有没有清楚的主题、合适的人数、明确的主理人和可以提前判断的规则。信息越具体，到场后的不确定感越低，也越容易把一顿饭从临时约局变成一次有秩序的同城连接。`,
-    ` 这种判断方式适用于中国任何城市，也适用于东南亚华语生活圈：先看城市距离和时间，再看主题是否匹配，最后看主理人是否把费用、安全和边界说清楚。只有这些基础信息稳定，用户才会把注意力放在真实交流，而不是反复担心是否踩坑。`,
-    ` 如果一场饭局能在报名之前就回答这些问题，用户就更容易把注意力放回真实交流本身，而不是在到场后临时处理尴尬、误解或安全顾虑。高质量饭局不是把陌生人硬凑在一起，而是让每个人知道为什么坐在这一桌。`,
-  ][index % 3]}`)
-  const body = [
-    expanded[0],
-    "",
-    `## 为什么${city}需要${topic}`,
-    "",
-    expanded[1],
-    "",
-    expanded[2],
-    "",
-    "## 一桌靠谱的饭局app饭局应该是什么感觉",
-    "",
-    expanded[3],
-    "",
-    expanded[4],
-    "",
-    "## 怎么判断主理人、餐厅和同桌是否合适",
-    "",
-    expanded[5],
-    "",
-    expanded[6],
-    "",
-    "### 报名前快速清单",
-    "",
-    expanded[7],
-    "",
-    "## 安全边界和实际预期",
-    "",
-    expanded[8],
-    "",
-    "## 什么情况下适合用饭局app参加这类饭局",
-    "",
-    expanded[9],
-  ].join("\n")
-  return { title, description, body, slug: modelSlugForR2(prompt), locale: "zh" }
-}
-
 function retryPrompt(basePrompt, attempt, issues) {
   if (attempt <= 1) return basePrompt.userPrompt
   const isEn = basePrompt.locale === "en"
@@ -504,12 +500,33 @@ function retryPrompt(basePrompt, attempt, issues) {
     basePrompt.userPrompt,
     "",
     isEn
-      ? `QUALITY RETRY ${attempt}: the previous draft failed these checks: ${issues.join(", ")}. Rewrite from scratch as a complete long-form article. Do not summarize. Make it longer, more specific, and structurally complete.`
-      : `质量重试 ${attempt}：上一稿未通过这些检查：${issues.join("，")}。请从头重写一篇完整长文，不要摘要，不要变短，要更具体、更本地、更完整。`,
+      ? `QUALITY RETRY ${attempt}: the previous draft failed these checks: ${issues.join(", ")}. Rewrite from scratch as a complete long-form article. Use at least 10 separate public paragraphs with blank lines between paragraphs, and at least two paragraphs under every H2. Do not summarize. Make it longer, more specific, and structurally complete.`
+      : `质量重试 ${attempt}：上一稿未通过这些检查：${issues.join("，")}。请从头重写一篇完整长文，至少 10 个公开自然段，段落之间空行，每个 H2 下面至少两段。不要摘要，不要变短，要更具体、更本地、更完整。`,
   ].join("\n")
 }
 
 function providerOrderForPrompt(prompt) {
+  if (ASSIGN_PROVIDER_PER_CITY) {
+    const providers = (process.env.AI_PROVIDER_ORDER || "gemini,openrouter,cerebras,groq,cloudflare,nvidia")
+      .split(",")
+      .map((x) => x.trim().toLowerCase())
+      .filter(Boolean)
+    if (providers.length <= 1) return providers.join(",")
+    const n = Number.parseInt(String(prompt.promptId || "").match(/(\d+)$/)?.[1] || "1", 10)
+    const assigned = providers[(Number.isFinite(n) ? n - 1 : 0) % providers.length]
+    console.log(`[ASSIGN] ${prompt.promptId} ${prompt.route} -> ${assigned}`)
+    if (STRICT_CITY_PROVIDER) return assigned
+    return [assigned, ...providers.filter((provider) => provider !== assigned)].join(",")
+  }
+
+  if (process.env.FORCE_PROVIDER_ORDER === "1") {
+    return (process.env.AI_PROVIDER_ORDER || "gemini,openrouter,cerebras,groq,cloudflare,nvidia")
+      .split(",")
+      .map((x) => x.trim().toLowerCase())
+      .filter(Boolean)
+      .join(",")
+  }
+
   const lanes = (process.env.AI_PROVIDER_LANES || process.env.AI_PROVIDER_ORDER || "groq,cerebras,openrouter,nvidia,cloudflare,gemini")
     .split(",")
     .map((x) => x.trim().toLowerCase())
@@ -521,38 +538,81 @@ function providerOrderForPrompt(prompt) {
   return [...lanes.slice(start), ...lanes.slice(0, start)].join(",")
 }
 
-async function runOneAttempt(prompt, attempt, previousIssues = []) {
-  const started = Date.now()
+async function generateProviderCandidates(prompt, attempt, previousIssues) {
   const providerOrder = providerOrderForPrompt(prompt)
-  let generation
-  try {
-    generation = await generateWithRouter({
-      prompt: retryPrompt(prompt, attempt, previousIssues),
+  const promptText = retryPrompt(prompt, attempt, previousIssues)
+
+  if (!MULTI_AI_CANDIDATES) {
+    const generation = await generateWithRouter({
+      prompt: promptText,
       system: prompt.systemInstruction,
       maxTokens: MAX_TOKENS,
       timeoutMs: TIMEOUT_MS,
       providerOrder,
     })
+    return [generation]
+  }
+
+  const providers = providerOrder
+    .split(",")
+    .map((provider) => provider.trim().toLowerCase())
+    .filter(Boolean)
+  const settled = await Promise.allSettled(
+    providers.map((provider) =>
+      generateWithRouter({
+        prompt: promptText,
+        system: prompt.systemInstruction,
+        maxTokens: MAX_TOKENS,
+        timeoutMs: TIMEOUT_MS,
+        providerOrder: provider,
+      }),
+    ),
+  )
+
+  const candidates = []
+  for (let i = 0; i < settled.length; i++) {
+    const provider = providers[i]
+    const result = settled[i]
+    if (result.status === "fulfilled") {
+      candidates.push(result.value)
+    } else {
+      console.log(`[CAND] ${prompt.promptId} ${provider} rejected: ${String(result.reason?.message || result.reason).slice(0, 220)}`)
+    }
+  }
+  return candidates
+}
+
+async function runOneAttempt(prompt, attempt, previousIssues = []) {
+  const started = Date.now()
+  let generations
+  try {
+    generations = await generateProviderCandidates(prompt, attempt, previousIssues)
+    if (!generations.length) throw new Error("all providers failed or returned no candidate")
   } catch (err) {
-    if (!AUTO_REPAIR_ARTICLE) throw err
-    console.log(`[FIX]  ${prompt.promptId} all providers failed; using structured repair article`)
-    generation = { provider: "structured-repair", model: "local", content: JSON.stringify(repairedArticle(prompt)) }
+    throw err
   }
   const elapsed = Date.now() - started
 
-  let parsed = extractJsonObject(generation.content)
-  let { score, issues } = scoreArticle(prompt, parsed)
-  if (AUTO_REPAIR_ARTICLE && (score < MIN_SCORE || issues.length > 0)) {
-    const repaired = repairedArticle(prompt)
-    const repairedScore = scoreArticle(prompt, repaired)
-    if (repairedScore.score >= MIN_SCORE && repairedScore.issues.length === 0) {
-      console.log(`[FIX]  ${prompt.promptId} repaired ${issues.join(",") || "unknown"} -> score ${repairedScore.score}`)
-      parsed = repaired
-      score = repairedScore.score
-      issues = repairedScore.issues
-      generation = { ...generation, provider: `${generation.provider}+repair` }
+  let best = null
+  for (const generation of generations) {
+    const parsed = extractJsonObject(generation.content)
+    const scored = scoreArticle(prompt, parsed)
+    const candidate = { generation, parsed, score: scored.score, issues: scored.issues }
+    if (
+      !best ||
+      candidate.score > best.score ||
+      (candidate.score === best.score && candidate.issues.length < best.issues.length) ||
+      (candidate.score === best.score && candidate.issues.length === best.issues.length && String(candidate.parsed?.body || "").length > String(best.parsed?.body || "").length)
+    ) {
+      best = candidate
     }
+    console.log(`[CAND] ${prompt.promptId} ${generation.provider} score=${candidate.score} issues=${candidate.issues.join(",") || "none"}`)
   }
+
+  let generation = best.generation
+  let parsed = best.parsed
+  let score = best.score
+  let issues = best.issues
 
   const body = String(parsed?.body || "").trim()
   const title = String(parsed?.title || "").trim()
@@ -563,7 +623,7 @@ async function runOneAttempt(prompt, attempt, previousIssues = []) {
   const canonicalPath = prompt.route
   const alternatePath = alternatePathFor(prompt.route)
   const r2Key = r2KeyFor(prompt, r2Slug)
-  const status = score >= MIN_SCORE && issues.length === 0 ? "ready" : "needs-review"
+  const status = score >= MIN_SCORE && !hasHardIssues(issues) ? "ready" : "needs-review"
 
   return {
     prompt,
@@ -900,12 +960,17 @@ async function main() {
   console.log(`R2 bucket        : ${CLOUDFLARE_R2_BUCKET}`)
   console.log(`Dry run          : ${DRY_RUN ? "yes" : "no"}`)
   console.log(`Upload R2        : ${UPLOAD_R2 ? "yes" : "no"}`)
+  console.log(`Provider per city: ${ASSIGN_PROVIDER_PER_CITY ? `yes (${STRICT_CITY_PROVIDER ? "strict" : "fallback"})` : "no"}`)
+  console.log(`Multi candidates : ${MULTI_AI_CANDIDATES ? "yes" : "no"}`)
   console.log(`Total prompts    : ${bank.length}`)
   console.log(`Already published: ${completed.size}`)
   console.log(`Locale filter    : ${ONLY_LOCALE || "(none)"}`)
   console.log(`To process       : ${finalQueue.length}`)
+  const bilingualMode = TARGET_READY_COUNT > 0 && !ONLY_LOCALE && TARGET_READY_COUNT % 2 === 0
+  const perLangLimit = bilingualMode ? TARGET_READY_COUNT / 2 : 0
+
   console.log(`Target ready     : ${TARGET_READY_COUNT > 0 ? TARGET_READY_COUNT : "(all)"}`)
-  console.log(`Bilingual mode   : ${BILINGUAL_MODE ? `yes (${PER_LANG_LIMIT} per lang)` : "no"}`)
+  console.log(`Bilingual mode   : ${bilingualMode ? `yes (${perLangLimit} per lang)` : "no"}`)
   console.log(`Concurrency      : ${CONCURRENCY}`)
   console.log(`Batch size       : ${BATCH_SIZE}`)
   console.log(`Rate delay (ms)  : ${RATE_DELAY_MS}`)
@@ -937,8 +1002,6 @@ async function main() {
 
   // Bilingual balance: when TARGET_READY_COUNT is set and no locale filter,
   // enforce exactly half ZH + half EN (e.g. RUN_LIMIT=6 → 3 ZH + 3 EN).
-  const BILINGUAL_MODE = TARGET_READY_COUNT > 0 && !ONLY_LOCALE && TARGET_READY_COUNT % 2 === 0
-  const PER_LANG_LIMIT = BILINGUAL_MODE ? TARGET_READY_COUNT / 2 : 0
   const readyByLang = { zh: 0, en: 0 }
 
   let ready = 0
@@ -950,8 +1013,8 @@ async function main() {
   for (let offset = 0; offset < finalQueue.length; offset += CONCURRENCY) {
     if (TARGET_READY_COUNT > 0 && ready >= TARGET_READY_COUNT) break
     const chunk = finalQueue.slice(offset, offset + CONCURRENCY).filter((p) => {
-      if (!BILINGUAL_MODE || !PER_LANG_LIMIT) return true
-      return (readyByLang[p.locale] || 0) < PER_LANG_LIMIT
+      if (!bilingualMode || !perLangLimit) return true
+      return (readyByLang[p.locale] || 0) < perLangLimit
     })
     if (!chunk.length) continue
     const results = await Promise.allSettled(chunk.map((p) => runOne(p)))
@@ -979,7 +1042,7 @@ async function main() {
       ready++
       const entry = readyEntryFromResult(result)
       readyBuffer.push({ ...entry, bodyHtml: result.bodyHtml })
-      if (BILINGUAL_MODE) readyByLang[entry.locale] = (readyByLang[entry.locale] || 0) + 1
+      if (bilingualMode) readyByLang[entry.locale] = (readyByLang[entry.locale] || 0) + 1
       console.log(`[OK]   ${prompt.promptId} ${result.slug} via ${result.generation.provider} (score ${result.score})`)
 
       if (TARGET_READY_COUNT > 0 && ready >= TARGET_READY_COUNT) {

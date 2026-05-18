@@ -16,6 +16,8 @@ const MAX_TOKENS = Number.parseInt(process.env.MAX_TOKENS || (LANG === "en" ? "2
 const TIMEOUT_MS = Number.parseInt(process.env.TIMEOUT_MS || "60000", 10)
 const RATE_DELAY_MS = Number.parseInt(process.env.RATE_DELAY_MS || "4000", 10)
 const MIN_SCORE = Number.parseInt(process.env.MIN_SCORE || "90", 10)
+const QUALITY_ATTEMPTS = Math.max(1, Number.parseInt(process.env.QUALITY_ATTEMPTS || "3", 10))
+const QUALITY_RETRY_DELAY_MS = Number.parseInt(process.env.QUALITY_RETRY_DELAY_MS || "2500", 10)
 const TARGET_ROUTES = (process.env.TARGET_ROUTES || "")
   .split(",")
   .map((route) => route.trim())
@@ -223,6 +225,7 @@ Rules:
 - Do not mention QQ, 本站, 联系QQ, 本地联系, 站长, 广告合作, 域名出售, or similar spam-site contact text.
 - Allowed safety advice: choose public venues, set expectations clearly, share plans with a friend, review table description, state rules clearly.
 - No keyword stuffing. Useful for real users.
+- 正文必须自然出现英文品牌名 Fanju 至少 3 次，同时自然出现「饭局app」。
 - 像真实城市饭局指南，不像落地页；写出城市节奏、街区选择、同桌人数、报名前顾虑、主理人信号、安全判断、报名建议。
 - 每个 H2 下面写 2-3 个扎实段落；不要只写清单或短句。
 - 正文至少 2200 个汉字。不要用泛泛的“下载应用、填写信息、浏览活动”凑字。
@@ -281,28 +284,56 @@ function qualityCheck(content) {
   return { score, checks }
 }
 
-const generated = []
+function failedChecks(qc) {
+  return Object.entries(qc.checks || {})
+    .filter(([, ok]) => !ok)
+    .map(([key]) => key)
+}
 
-for (const op of opportunities) {
-  console.log(`Generating via AI router: ${op.canonicalPath}`)
+async function generateContentWithQualityRetry(op) {
+  const basePrompt = promptFor(op)
+  let last = null
 
-  let provider, content
-  try {
-    ;({ provider, content } = await generateWithRouter({
-      prompt: promptFor(op),
+  for (let attempt = 1; attempt <= QUALITY_ATTEMPTS; attempt++) {
+    const retryContext = last
+      ? `\n\nQUALITY RETRY ${attempt}: the previous draft scored ${last.qc.score}/${MIN_SCORE}. Failed checks: ${failedChecks(last.qc).join(", ")}. Rewrite from scratch. Keep the exact required headings. Make the article longer, more specific, and complete. Do not add forbidden terms.`
+      : ""
+
+    const { provider, content } = await generateWithRouter({
+      prompt: `${basePrompt}${retryContext}`,
       system: LANG === "en"
         ? "You are an expert content writer. Write long-form, high-quality English SEO articles. You do not invent facts."
         : "You write useful bilingual SEO/GEO page drafts. You do not invent facts.",
       maxTokens: MAX_TOKENS,
       timeoutMs: TIMEOUT_MS,
-    }))
+    })
+
+    const qc = qualityCheck(content)
+    last = { provider, content, qc }
+    if (qc.score >= MIN_SCORE) return last
+
+    console.log(`[RETRY] ${op.canonicalPath} attempt=${attempt}/${QUALITY_ATTEMPTS} score=${qc.score} failed=${failedChecks(qc).join(",")}`)
+    if (attempt < QUALITY_ATTEMPTS && QUALITY_RETRY_DELAY_MS > 0) {
+      await sleep(QUALITY_RETRY_DELAY_MS)
+    }
+  }
+
+  return last
+}
+
+const generated = []
+
+for (const op of opportunities) {
+  console.log(`Generating via AI router: ${op.canonicalPath}`)
+
+  let provider, content, qc
+  try {
+    ;({ provider, content, qc } = await generateContentWithQualityRetry(op))
   } catch (err) {
     console.warn(`Skipping ${op.canonicalPath}: ${err.message.slice(0, 200)}`)
     if (RATE_DELAY_MS > 0) await sleep(RATE_DELAY_MS)
     continue
   }
-
-  const qc = qualityCheck(content)
 
   // Derive lang, translationKey, alternatePath for bilingual pairing
   const lang = LANG === "en" ? "en" : "zh"

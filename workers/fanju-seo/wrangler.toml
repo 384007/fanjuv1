@@ -2,8 +2,8 @@ name = "fanju-seo-worker"
 main = "worker.js"
 compatibility_date = "2026-05-17"
 
-# These routes only proxy to the static Cloudflare Pages export.
-# No runtime AI rendering, no database fallback, no generated placeholder page.
+# City routes render ready D1/R2 articles first, then proxy to the static
+# Cloudflare Pages export. The Worker does not generate fallback article text.
 routes = [
   { pattern = "fanju.app/city/*", zone_name = "fanju.app" },
   { pattern = "fanju.app/en/city/*", zone_name = "fanju.app" },

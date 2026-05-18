@@ -71,11 +71,30 @@ const BANNED_PHRASES_FOR_BODY = [
   /\bcron\b/i,
   /(?<![A-Za-z\u4e00-\u9fff])prompt(?![A-Za-z])/i, // bare "prompt"
   /\bModal\b/, // capital-M Modal as a brand reference (case-sensitive)
+  /\bIntro paragraph mentioning\b/i,
+  /\bReturn valid JSON\b/i,
+  /\bBody requirements\b/i,
+  /\bmarkdown skeleton\b/i,
+  /\bQQ\b/i,
+  /\bwebmaster\b/i,
+  /domain\s+for\s+sale/i,
+  /advertising\s+cooperation/i,
+  /parked\s+domain/i,
+  /local\s+contact/i,
   /提示词/,
   /路由清单/,
   /流水线/,
   /定时任务/,
   /内部 ?metadata/i,
+  /本站/,
+  /联系QQ/i,
+  /本地联系/,
+  /站长/,
+  /广告合作/,
+  /域名出售/,
+  /开头段落/,
+  /正文要求/,
+  /只返回合法 JSON/,
 ]
 
 function detectLeaks(text) {
@@ -246,6 +265,23 @@ function isMostlyEnglish(s) {
   return ascii / total > 0.4
 }
 
+function looksLikeJsonWrapper(text = "") {
+  const s = String(text || "").trim()
+  if (!s) return false
+  if (/^\{[\s\S]*"title"\s*:/i.test(s)) return true
+  if (/^\{[\s\S]*"body"\s*:/i.test(s)) return true
+  if (/"(?:title|description|body|locale|slug)"\s*:/i.test(s.slice(0, 900))) return true
+  return false
+}
+
+function duplicateMarkdownHeadings(body, level = 2) {
+  const marker = "#".repeat(level)
+  const headings = [...String(body).matchAll(new RegExp(`^${marker}\\s+(.+)$`, "gm"))]
+    .map((m) => m[1].trim().toLowerCase())
+    .filter(Boolean)
+  return headings.length - new Set(headings).size
+}
+
 function scoreArticle(prompt, parsed) {
   const issues = []
   if (!parsed) return { score: 0, issues: ["json-parse-failed"] }
@@ -261,15 +297,26 @@ function scoreArticle(prompt, parsed) {
 
   const leakHits = detectLeaks(haystack)
   if (leakHits.length) issues.push(`tech-leak:${leakHits.length}`)
+  if (looksLikeJsonWrapper(haystack) || looksLikeJsonWrapper(body) || looksLikeJsonWrapper(description)) {
+    issues.push("json-wrapper-in-public-text")
+  }
 
   if (prompt.locale === "zh" && !isMostlyChinese(body)) issues.push("body-not-chinese")
   if (prompt.locale === "en" && !isMostlyEnglish(body)) issues.push("body-not-english")
 
   const minLen = prompt.locale === "en" ? 1500 : 900
   if (body.length < minLen) issues.push(`body-too-short:${body.length}`)
+  const paragraphCount = String(body)
+    .split(/\n{2,}/)
+    .map((part) => part.trim())
+    .filter((part) => part && !part.startsWith("#") && !/^[-*]\s+/m.test(part))
+    .length
+  if (paragraphCount < 10) issues.push(`too-few-paragraphs:${paragraphCount}`)
+  const duplicateH2 = duplicateMarkdownHeadings(body, 2)
+  if (duplicateH2 > 0) issues.push(`duplicate-h2:${duplicateH2}`)
 
   if (issues.length === 0) return { score: 100, issues }
-  if (issues.some((s) => s.startsWith("tech-leak") || s === "locale-mismatch" || s === "body-not-chinese" || s === "body-not-english" || s === "json-parse-failed")) {
+  if (issues.some((s) => s.startsWith("tech-leak") || s === "json-wrapper-in-public-text" || s.startsWith("duplicate-h2") || s.startsWith("too-few-paragraphs") || s === "locale-mismatch" || s === "body-not-chinese" || s === "body-not-english" || s === "json-parse-failed")) {
     return { score: 0, issues }
   }
   // soft penalties

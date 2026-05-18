@@ -39,6 +39,12 @@ const RANDOM_SEED = process.env.RANDOM_SEED || "20260516"
 const OUTPUT_FILE = process.env.OUTPUT_FILE
   ? join(ROOT, process.env.OUTPUT_FILE)
   : DEFAULT_OUT_FILE
+const TARGET_ROUTES = new Set(
+  (process.env.TARGET_ROUTES || "")
+    .split(",")
+    .map((route) => route.trim())
+    .filter(Boolean),
+)
 
 // ---------------------------------------------------------------------------
 // Deterministic PRNG (mulberry32) + 32-bit seed derived from the seed string.
@@ -77,21 +83,21 @@ function shuffleInPlace(rng, arr) {
 }
 
 function balancedRoutePool(rng, routes) {
-  const topicGroups = new Map()
+  const cityGroups = new Map()
   for (const route of routes) {
-    if (!topicGroups.has(route.topicSlug)) topicGroups.set(route.topicSlug, [])
-    topicGroups.get(route.topicSlug).push(route)
+    if (!cityGroups.has(route.citySlug)) cityGroups.set(route.citySlug, [])
+    cityGroups.get(route.citySlug).push(route)
   }
 
-  const topics = shuffleInPlace(rng, [...topicGroups.keys()])
-  for (const topic of topics) shuffleInPlace(rng, topicGroups.get(topic))
+  const cities = shuffleInPlace(rng, [...cityGroups.keys()])
+  for (const city of cities) shuffleInPlace(rng, cityGroups.get(city))
 
   const out = []
   let round = 0
   while (out.length < routes.length) {
     let added = 0
-    for (const topic of topics) {
-      const group = topicGroups.get(topic)
+    for (const city of cities) {
+      const group = cityGroups.get(city)
       if (round >= group.length) continue
       out.push(group[round])
       added++
@@ -100,6 +106,17 @@ function balancedRoutePool(rng, routes) {
     round++
   }
   return out
+}
+
+function routeEligibleForLocale(route, locale) {
+  const countryCode = String(route.countryCode || "CN").toUpperCase()
+  if (locale === "zh") {
+    return ["CN", "HK", "MO", "TW"].includes(countryCode)
+  }
+  if (locale === "en") {
+    return !["CN"].includes(countryCode)
+  }
+  return true
 }
 
 function sha256Hex(s) {
@@ -290,20 +307,26 @@ function systemInstructionFor(locale) {
     return [
       "Write one public Fanju city article as valid JSON only.",
       "Voice: human, practical, city-specific, calm. No hype.",
-      "The body must be a complete article, not an outline, summary, or short answer.",
+      "The body must be a complete editorial article, not an outline, template, summary, list of placeholders, or short answer.",
+      "Write original paragraphs with concrete local context. Do not repeat the same sentence pattern across sections.",
       "Never invent statistics, restaurants, user counts, awards, or partnerships.",
       "Never mention tools or production process.",
-      "Forbidden public words: AI, automation, prompt, provider, model, pipeline, worker, cron, JSONL, hash, Modal, generated.",
+      "Never print JSON keys, prompt instructions, section placeholders, or markdown skeleton text inside public fields.",
+      "Never include parked-domain, webmaster, local-contact, advertising-sales, QQ, or site-owner contact copy.",
+      "Forbidden public words: AI, automation, prompt, provider, model, pipeline, worker, cron, JSONL, hash, Modal, generated, QQ, webmaster, domain for sale, advertising cooperation, 本站, 联系QQ, 站长, 本地联系, 广告合作, 域名出售.",
       "Return exactly one JSON object and nothing else.",
     ].join("\n")
   }
   return [
       "只写一个公开的饭局 Fanju 城市文章，输出必须是合法 JSON。",
       "声音：自然、具体、平静、实用。不要营销腔。",
-      "正文必须是一篇完整文章，不是提纲、摘要或短回答。",
+      "正文必须是一篇完整、有编辑感的文章，不是提纲、模板、摘要、占位段落或短回答。",
+      "每段都要有真实城市语境，不要在不同小节反复套同一种句式。",
       "不要编造统计数据、餐厅名、用户数、奖项或合作伙伴。",
     "不要提及任何工具、后台或生产流程。",
-    "公开字段禁用词：AI、自动化、prompt、提示词、provider、模型、pipeline、worker、JSONL、哈希、Modal、生成。",
+    "公开字段里不要输出 JSON key、提示词内容、章节占位文字或 markdown 骨架说明。",
+    "不要出现停放域名、站长联系、本地联系、广告招商、QQ 或站主联系方式。",
+    "公开字段禁用词：AI、自动化、prompt、提示词、provider、模型、pipeline、worker、JSONL、哈希、Modal、生成、本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售。",
     "只返回一个 JSON object，不要额外说明。",
   ].join("\n")
 }
@@ -317,8 +340,9 @@ function userPromptFor(profile) {
       `Primary keyword: Fanju app. Put "Fanju app" in title, description, and first 120 words with the city name.`,
       `Angle: ${profile.angle.name}. Use this angle: ${profile.angle.instruction}`,
       `Style profile: structure=${profile.structure}; opening=${profile.openingStyle}; faq=${profile.faqMode}; cta=${profile.ctaPosition}; example=${profile.exampleType}; tone=${profile.tone}; title=${profile.titlePattern}.`,
-      "Quality: practical editorial guide, not a landing page. Include city rhythm, neighbourhood choice, attendee concerns, host signals, safety context, and decision criteria. Every H2 section must have real article paragraphs.",
-      `Body requirements: 3,800-5,600 characters; at least 10 paragraphs; no filler. Use this exact markdown skeleton inside body. Write the intro plus 2 substantial paragraphs under each H2, about 90-130 English words per paragraph:\nIntro paragraph mentioning ${profile.cityNameLocalized} and Fanju app.\n\n## Why ${profile.topicNameLocalized} matters in ${profile.cityNameLocalized}\n\n## What a good Fanju app table should feel like\n\n## How to choose the right host, venue, and guest mix\n\n### Quick attendee checklist\n\n## Safety, boundaries, and practical expectations\n\n## When to use Fanju app for this kind of dinner`,
+      "Quality: practical editorial guide, not a landing page. Include city rhythm, neighbourhood choice, attendee concerns, host signals, safety context, and decision criteria. Every H2 section must have real article paragraphs with distinct ideas.",
+      "Hard public-content rule: do not include QQ, webmaster contact, local contact, parked-domain text, advertising-sales copy, or any Chinese parked-domain phrase.",
+      `Body requirements: 4,200-6,200 characters; at least 12 natural paragraphs; no filler. Use blank lines between paragraphs. Start with a fully written intro paragraph that naturally mentions ${profile.cityNameLocalized} and Fanju app. Then write these markdown section headings. Every H2 must contain at least two separate paragraphs with distinct ideas. If the body has fewer than 10 public paragraphs, it will be rejected:\n## Why ${profile.topicNameLocalized} matters in ${profile.cityNameLocalized}\n## What a good Fanju app table should feel like\n## How to choose the right host, venue, and guest mix\n### Quick attendee checklist\n## Safety, boundaries, and practical expectations\n## When to use Fanju app for this kind of dinner`,
       'Return valid JSON only, no code fence: {"title":"...","description":"...","body":"...","slug":"...","locale":"en"}',
     ].join("\n")
   }
@@ -328,8 +352,9 @@ function userPromptFor(profile) {
     `主关键词：饭局app。title、description、正文前 200 字必须自然出现「饭局app」和「${profile.cityNameLocalized}」。`,
     `角度：${profile.angle.name}。按这个方向写：${profile.angle.instruction}`,
     `风格 profile：结构=${profile.structure}；开头=${profile.openingStyle}；FAQ=${profile.faqMode}；CTA=${profile.ctaPosition}；例子=${profile.exampleType}；语气=${profile.tone}；标题=${profile.titlePattern}。`,
-    "质量：像真实城市饭局指南，不像落地页。写出城市节奏、街区选择、同桌人数、报名前顾虑、主理人信号、安全判断、报名建议。每个 H2 都必须有真实正文段落，不能只写清单或短句。",
-    `正文要求：3,200-4,800 字符；至少 10 个自然段；不要灌水。body 内必须使用下面这个 markdown 骨架。开头 1 段；每个 H2 下面写 2-3 个扎实段落，每段约 150-220 个汉字：\n开头段落，必须提到${profile.cityNameLocalized}和饭局app。\n\n## 为什么${profile.cityNameLocalized}需要${profile.topicNameLocalized}\n\n## 一桌靠谱的饭局app饭局应该是什么感觉\n\n## 怎么判断主理人、餐厅和同桌是否合适\n\n### 报名前快速清单\n\n## 安全边界和实际预期\n\n## 什么情况下适合用饭局app参加这类饭局`,
+    "质量：像真实城市饭局指南，不像落地页。写出城市节奏、街区选择、同桌人数、报名前顾虑、主理人信号、安全判断、报名建议。每个 H2 都必须有真实正文段落，且各小节观点不能重复。",
+    "公开内容硬规则：不要出现本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售、停放域名、招商或站主联系方式。",
+    `正文要求：3,800-5,800 字符；至少 12 个自然段；段落之间必须空行；不要灌水。先写一个完整自然的开头段，必须提到${profile.cityNameLocalized}和饭局app。随后使用这些 markdown 小节标题，每个 H2 下至少写 2 个扎实、互不重复的段落，每段约 170-260 个汉字。少于 10 个公开自然段会被拒绝：\n## 为什么${profile.cityNameLocalized}需要${profile.topicNameLocalized}\n## 一桌靠谱的饭局app饭局应该是什么感觉\n## 怎么判断主理人、餐厅和同桌是否合适\n### 报名前快速清单\n## 安全边界和实际预期\n## 什么情况下适合用饭局app参加这类饭局`,
     '只返回合法 JSON，不要代码块：{"title":"...","description":"...","body":"...","slug":"...","locale":"zh"}',
   ].join("\n")
 }
@@ -362,7 +387,7 @@ function planLocaleCounts(limit, lang) {
 
 function buildLocalePrompts({ locale, count, manifestEntries, masterSeed }) {
   const enabledRoutes = manifestEntries.filter(
-    (e) => e.locale === locale && e.enabled === true
+    (e) => e.locale === locale && e.enabled === true && routeEligibleForLocale(e, locale) && (TARGET_ROUTES.size === 0 || TARGET_ROUTES.has(e.route))
   )
   if (enabledRoutes.length === 0) {
     throw new Error(`No enabled routes for locale=${locale} in route-manifest.json`)

@@ -10,6 +10,7 @@ import { fileURLToPath } from "url"
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, "../..")
 const BANK = join(ROOT, process.env.PROMPT_BANK_FILE || "data/seo/random-prompt-bank.jsonl")
+const MANIFEST = join(ROOT, "data/seo/route-manifest.json")
 
 if (!existsSync(BANK)) {
   console.error(`Missing prompt bank: ${BANK}`)
@@ -115,8 +116,51 @@ if (warnings.length) {
 
 const hasDup =
   promptHashes.size !== prompts.length || profileHashes.size !== prompts.length
-if (hasDup) {
-  console.error("Diversity check failed: duplicate hashes detected.")
+
+let coverageFailed = false
+if (existsSync(MANIFEST)) {
+  const manifest = JSON.parse(readFileSync(MANIFEST, "utf8"))
+  const entries = Array.isArray(manifest.entries) ? manifest.entries : []
+  const zhEligibleCities = new Set(
+    entries
+      .filter((entry) => entry.locale === "zh" && entry.enabled && ["CN", "HK", "MO", "TW"].includes(String(entry.countryCode || "CN").toUpperCase()))
+      .map((entry) => entry.citySlug),
+  )
+  const enEligibleCities = new Set(
+    entries
+      .filter((entry) => entry.locale === "en" && entry.enabled && String(entry.countryCode || "CN").toUpperCase() !== "CN")
+      .map((entry) => entry.citySlug),
+  )
+  const zhPromptCities = new Set(prompts.filter((p) => p.locale === "zh").map((p) => p.citySlug))
+  const enPromptCities = new Set(prompts.filter((p) => p.locale === "en").map((p) => p.citySlug))
+  const missingZh = [...zhEligibleCities].filter((city) => !zhPromptCities.has(city))
+  const missingEn = [...enEligibleCities].filter((city) => !enPromptCities.has(city))
+
+  console.log(`Eligible ZH China cities: ${zhEligibleCities.size}; covered in prompts: ${zhPromptCities.size}`)
+  console.log(`Eligible EN global cities: ${enEligibleCities.size}; covered in prompts: ${enPromptCities.size}`)
+
+  if (zhEligibleCities.size < 300) {
+    console.error(`Diversity check failed: expected at least 300 ZH China cities, got ${zhEligibleCities.size}.`)
+    coverageFailed = true
+  }
+  if (enEligibleCities.size < 100) {
+    console.error(`Diversity check failed: expected at least 100 EN global cities, got ${enEligibleCities.size}.`)
+    coverageFailed = true
+  }
+  if (missingZh.length) {
+    console.error(`Diversity check failed: ${missingZh.length} ZH China cities missing from prompt bank.`)
+    console.error(`Missing ZH sample: ${missingZh.slice(0, 20).join(", ")}`)
+    coverageFailed = true
+  }
+  if (missingEn.length) {
+    console.error(`Diversity check failed: ${missingEn.length} EN global cities missing from prompt bank.`)
+    console.error(`Missing EN sample: ${missingEn.slice(0, 20).join(", ")}`)
+    coverageFailed = true
+  }
+}
+
+if (hasDup || coverageFailed) {
+  if (hasDup) console.error("Diversity check failed: duplicate hashes detected.")
   process.exit(1)
 }
 
