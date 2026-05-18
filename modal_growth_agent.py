@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import shlex
 import shutil
 import subprocess
 import tarfile
@@ -47,9 +48,12 @@ image = (
             ".wrangler",
             ".env",
             ".env.*",
+            # NOTE: do NOT ignore content/seo-ready or content/seo-published —
+            # they hold the git-committed seed articles that the Next.js
+            # catch-all routes (app/[...slug], app/en/[...slug]) need at
+            # build time. With output:"export", an empty generateStaticParams()
+            # makes `next build` fail (#hourly_publish_cron 2026-05-17).
             "content/seo-ai-drafts",
-            "content/seo-ready",
-            "content/seo-published",
             "public/sitemap.xml",
             "public/sitemap-index.xml",
             "tsconfig.tsbuildinfo",
@@ -254,6 +258,153 @@ def publish_prompt_bank_to_cloudflare(run_limit: int = 6, upload_r2: bool = True
     )
     run(f"URL_LIMIT={safe_run_limit} pnpm seo:cloudflare:submit", cwd=WORKDIR, timeout=600)
     return {"ok": True, "publishedBy": "cloudflare", "runLimit": safe_run_limit, "uploadR2": upload_r2}
+
+
+@app.function(
+    image=image,
+    secrets=[legacy_secret],
+    volumes={OUTPUT_ROOT: volume},
+    timeout=21600,
+)
+def test_target_city_articles():
+    """Generate the known missing city article routes on Modal using the ready-draft pipeline."""
+    target_routes = [
+        "/en/city/hangzhou/curated-dinner",
+        "/en/city/san-francisco/newcomer-dinner",
+        "/en/city/tokyo/curated-dinner",
+        "/city/fuzhou/stranger-dinner",
+        "/city/jinan/chinese-social-dining",
+        "/city/ningbo/newcomer-dinner",
+    ]
+    target_slugs = [
+        "en-hangzhou-curated-dinner",
+        "en-san-francisco-newcomer-dinner",
+        "en-tokyo-curated-dinner",
+        "fuzhou-stranger-dinner",
+        "jinan-chinese-social-dining",
+        "ningbo-newcomer-dinner",
+    ]
+    started = utc_now()
+    run_id = f"target-city-articles-{make_run_id(started)}"
+    prepare_workdir()
+    ensure_dependencies()
+    for slug in target_slugs:
+        for relative_dir in ["content/seo-ready", "content/seo-ai-drafts"]:
+            path = Path(WORKDIR, relative_dir, f"{slug}.md")
+            if path.exists():
+                path.unlink()
+
+    zh_routes = [route for route in target_routes if not route.startswith("/en/")]
+    en_routes = [route for route in target_routes if route.startswith("/en/")]
+    zh_drafts_file = f"dist/seo/{run_id}-generated-drafts-zh.json"
+    en_drafts_file = f"dist/seo/{run_id}-generated-drafts-en.json"
+
+    def run_ready_pipeline(lang: str, routes: list[str], drafts_file: str) -> None:
+        if not routes:
+            return
+
+        routes_csv = ",".join(routes)
+        command = "pnpm seo:drafts:router:en" if lang == "en" else "pnpm seo:drafts:router"
+        max_tokens = "5200" if lang == "en" else "4200"
+
+        run(
+            " ".join(
+                [
+                    f"LANG={lang}",
+                    f"LIMIT={len(routes)}",
+                    "MIN_SCORE=100",
+                    f"MAX_TOKENS={max_tokens}",
+                    "TIMEOUT_MS=90000",
+                    "RATE_DELAY_MS=8000",
+                    "MAX_PER_CITY_PER_RUN=1",
+                    "RANDOMIZE_OPPORTUNITIES=0",
+                    "AI_PROVIDER_ORDER=gemini,openrouter,cerebras,groq,cloudflare,nvidia",
+                    f"TARGET_ROUTES={shlex.quote(routes_csv)}",
+                    f"GENERATED_DRAFTS_FILE={shlex.quote(drafts_file)}",
+                    'PUBLISHED_FILE="data/seo/published-ready-drafts.json"',
+                    command,
+                ]
+            ),
+            cwd=WORKDIR,
+            timeout=21000,
+        )
+        run(f"GENERATED_DRAFTS_FILE={shlex.quote(drafts_file)} pnpm seo:fix-drafts", cwd=WORKDIR, timeout=600)
+        run(f"GENERATED_DRAFTS_FILE={shlex.quote(drafts_file)} MIN_SCORE=100 pnpm seo:promote-ready", cwd=WORKDIR, timeout=600)
+
+    run("pnpm seo:opportunities", cwd=WORKDIR, timeout=600)
+    run_ready_pipeline("zh", zh_routes, zh_drafts_file)
+    run_ready_pipeline("en", en_routes, en_drafts_file)
+    run("pnpm generate:sitemaps", cwd=WORKDIR, timeout=600)
+    run("pnpm build", cwd=WORKDIR, timeout=1200)
+
+    def load_drafts(relative_path: str) -> list[dict]:
+        drafts_path = Path(WORKDIR, relative_path)
+        if not drafts_path.exists():
+            return []
+        return json.loads(drafts_path.read_text(encoding="utf-8")).get("drafts", [])
+
+    draft_entries = load_drafts(zh_drafts_file) + load_drafts(en_drafts_file)
+    ready_entries = []
+    failed_entries = []
+    for entry in draft_entries:
+        ready_path = Path(WORKDIR, "content/seo-ready", entry.get("file", ""))
+        if ready_path.exists():
+            ready_raw = ready_path.read_text(encoding="utf-8")
+            score = None
+            for line in ready_raw.splitlines():
+                if line.startswith("aiQualityScore:"):
+                    score = int(line.split(":", 1)[1].strip())
+                    break
+            ready_entries.append(
+                {
+                    "file": entry.get("file"),
+                    "route": entry.get("canonicalPath"),
+                    "score": score,
+                    "provider": entry.get("provider"),
+                }
+            )
+        else:
+            failed_entries.append(entry)
+
+    output_root = Path(OUTPUT_ROOT) / run_id
+    output_root.mkdir(parents=True, exist_ok=True)
+    generated_ready_dir = output_root / "generated-ready"
+    generated_ready_dir.mkdir(parents=True, exist_ok=True)
+    for entry in ready_entries:
+        source = Path(WORKDIR, "content/seo-ready", entry["file"])
+        if source.exists():
+            shutil.copy2(source, generated_ready_dir / entry["file"])
+
+    copy_output_path("content/seo-ready", output_root)
+    copy_output_path(zh_drafts_file, output_root)
+    copy_output_path(en_drafts_file, output_root)
+    copy_output_path("public/sitemap.xml", output_root)
+    copy_output_path("public/sitemap-index.xml", output_root)
+    write_manifest(
+        output_root / "run-manifest.json",
+        {
+            "runId": run_id,
+            "targetRoutes": target_routes,
+            "readyCount": len(ready_entries),
+            "failedCount": len(failed_entries),
+            "ready": ready_entries,
+            "failed": failed_entries,
+        },
+    )
+    volume.commit()
+    ok = len(ready_entries) == len(target_routes) and all((entry.get("score") or 0) >= 100 for entry in ready_entries)
+    print(f"TARGET_READY_RUN_ID={run_id}", flush=True)
+    print(json.dumps({"ready": ready_entries, "failed": failed_entries}, ensure_ascii=False, indent=2), flush=True)
+
+    return {
+        "ok": ok,
+        "runId": run_id,
+        "targetRoutes": target_routes,
+        "readyCount": len(ready_entries),
+        "failedCount": len(failed_entries),
+        "ready": ready_entries,
+        "failed": failed_entries,
+    }
 
 
 @app.function(

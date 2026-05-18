@@ -6,7 +6,7 @@ const READY_DIR = "content/seo-ready"
 const MIN_SCORE = Number.parseInt(process.env.MIN_SCORE || "100", 10)
 const GENERATED_DRAFTS_FILE = process.env.GENERATED_DRAFTS_FILE || "dist/seo/generated-drafts.json"
 
-const dangerRe = /(Modal|NVIDIA|Gemini|Groq|Cerebras|Cloudflare|Next\.js|API|backend|后端|技术栈|Below is|Here is|markdown draft|Verified Profiles|Rating System|Secure Communication|Emergency Contact|ID verification|background checks|payment protection|已认证|评分系统|安全通信|紧急联系人|身份认证|背景调查|支付保护|model|prompt|generator)/i
+const dangerRe = /(Modal|NVIDIA|Gemini|Groq|Cerebras|Cloudflare|Next\.js|API|backend|后端|技术栈|Below is|Here is|markdown draft|Verified Profiles|Rating System|Secure Communication|Emergency Contact|ID verification|background checks|payment protection|已认证|评分系统|安全通信|紧急联系人|身份认证|背景调查|支付保护|本站|联系QQ|本地联系|站长|广告合作|域名出售|QQ|model|prompt|generator)/i
 
 if (!existsSync(DRAFT_DIR)) {
   console.error(`Missing ${DRAFT_DIR}`)

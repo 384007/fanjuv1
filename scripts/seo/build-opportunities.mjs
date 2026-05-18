@@ -93,6 +93,20 @@ const REAL_CATEGORY_SLUGS = [
   "high-quality-social-dining",
 ]
 
+const categoryLabels = {
+  "singles-dinner": { zh: "单身饭局", en: "Singles Dinner" },
+  "curated-dinner": { zh: "精选饭局", en: "Curated Dinner" },
+  "business-dinner": { zh: "商务饭局", en: "Business Dinner" },
+  "founder-dinner": { zh: "创业者饭局", en: "Founder Dinner" },
+  "weekend-dinner": { zh: "周末饭局", en: "Weekend Dinner" },
+  "stranger-dinner": { zh: "陌生人饭局", en: "Stranger Dinner" },
+  "chinese-social-dining": { zh: "华人饭局社交", en: "Chinese Social Dining" },
+  "student-dinner": { zh: "留学生饭局", en: "Student Dinner" },
+  "newcomer-dinner": { zh: "新人饭局", en: "Newcomer Dinner" },
+  "local-dinner": { zh: "同城饭局", en: "Local Dinner" },
+  "high-quality-social-dining": { zh: "高质量饭局社交", en: "High-Quality Social Dining" },
+}
+
 const dinnerSlug = {
   "创业者饭局": "founder-dinner",
   "商务饭局": "business-dinner",
@@ -247,16 +261,17 @@ for (const city of map.cities) {
   }))
 
   for (const catSlug of REAL_CATEGORY_SLUGS) {
+    const category = categoryLabels[catSlug] || { zh: catSlug, en: catSlug.replace(/-/g, " ") }
     const path = `/city/${c}/${catSlug}`
     uniquePush(opportunities, seen, makeItem({
       slug: `${c}-${catSlug}`,
-      title: `${city} ${catSlug.replace(/-/g, " ")} Guide`,
-      titleZh: `${city}${catSlug}指南`,
+      title: `${city}${category.zh}指南`,
+      titleZh: `${city}${category.zh}指南`,
       market: marketForCity(city),
       city,
-      dinnerType: catSlug,
+      dinnerType: category.zh,
       pageType: "city_landing",
-      intent: `Capture city and dinner intent for ${city} users looking for ${catSlug}.`,
+      intent: `帮助${city}用户判断、加入或组织${category.zh}，找到更合适的同桌、主理人和线下饭局场景。`,
       canonicalPath: path
     }))
   }
