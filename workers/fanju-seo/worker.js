@@ -55,7 +55,7 @@ async function articleResponse(url, article, env, headOnly) {
   if (!article) return null
   const body = await articleBody(article, env)
   if (!body || isBadPublicArticle(article, body)) return null
-  return htmlResponse(url, article, body, headOnly)
+  return htmlResponse(url, article, body, env, headOnly)
 }
 
 async function articleBody(article, env) {
@@ -66,8 +66,8 @@ async function articleBody(article, env) {
   return article.body_html || ""
 }
 
-function htmlResponse(url, article, body, headOnly = false) {
-  const html = buildHtml(url, article, body)
+async function htmlResponse(url, article, body, env, headOnly = false) {
+  const html = await buildHtml(url, article, body, env)
   return new Response(headOnly ? null : html, {
     headers: {
       "content-type": "text/html; charset=utf-8",
@@ -126,19 +126,22 @@ const TOPIC_LABELS = {
   "social-dining": { zh: "饭局社交", en: "Social Dining" },
 }
 
-const RELATED_TOPIC_SLUGS = [
-  "newcomer-dinner",
-  "business-dinner",
-  "curated-dinner",
-  "weekend-dinner",
-  "founder-dinner",
-  "high-quality-social-dining",
-]
-
 const BAD_PUBLIC_TEXT_RE =
-  /本站|联系QQ|本地联系|站长|广告合作|域名出售|\bQQ\b|domain\s+for\s+sale|parked\s+domain|Intro paragraph mentioning|Return valid JSON|Body requirements|markdown skeleton|"body"\s*:|"description"\s*:|开头段落|正文要求|只返回合法 JSON/i
+  /本站|联系QQ|本地联系|站长|广告合作|域名出售|\bQQ\b|domain\s+for\s+sale|parked\s+domain|Intro paragraph mentioning|Return valid JSON|Body requirements|markdown skeleton|"body"\s*:|"description"\s*:|开头段落|正文要求|只返回合法 JSON|\bAI\b|\bprompt\b|\bprovider\b|\bmodel\b|\bpipeline\b|\bD1\b|\bR2\b|\bModal\b|\bCloudflare\b|提示词|模型|后台|技术栈|流水线|自动化/i
 
-function buildHtml(url, article, body) {
+const SAFE_STATIC_PATHS = new Set([
+  "/",
+  "/cities",
+  "/en/cities",
+  "/categories",
+  "/en/categories",
+  "/what-is-fanju",
+  "/en/what-is-fanju",
+  "/social-dining",
+  "/faq",
+])
+
+async function buildHtml(url, article, body, env) {
   const origin = `${url.protocol}//${url.host}`
   const currentPath = normalizePath(url.pathname || article.canonical_path || `/${article.slug || ""}`)
   const isEn = currentPath.startsWith("/en/") || article.lang === "en"
@@ -157,7 +160,7 @@ function buildHtml(url, article, body) {
   const sourceParagraphs = extractBodyParagraphs(body)
   const faqItems = buildFaqItems(route, isEn)
   const articleSections = buildArticleSections(route, isEn, sourceParagraphs, faqItems)
-  const relatedLinks = buildRelatedLinks(route, currentPath, isEn)
+  const relatedLinks = await buildRelatedLinks(route, currentPath, isEn, env)
   const jsonLd = buildJsonLd({
     origin,
     canonicalUrl,
@@ -496,26 +499,112 @@ function buildFaqItems(route, isEn) {
   ]
 }
 
-function buildRelatedLinks(route, currentPath, isEn) {
-  const cityHub = route.citySlug ? `${isEn ? "/en" : ""}/city/${route.citySlug}` : (isEn ? "/en/cities" : "/cities")
-  const links = [
-    { href: "/what-is-fanju", label: isEn ? "What is Fanju / 饭局app" : "Fanju / 饭局app 是什么" },
-    { href: "/faq", label: isEn ? "FAQ" : "常见问题" },
-    { href: cityHub, label: isEn ? `${route.city} city hub` : `${route.city}城市页` },
-    { href: alternatePathFor(currentPath), label: isEn ? "中文版本" : "English version" },
-  ]
-  for (const slug of RELATED_TOPIC_SLUGS) {
-    if (slug === route.topicSlug || links.length >= 8 || !route.citySlug) continue
-    const label = topicLabel(slug)
-    links.push({
-      href: `${isEn ? "/en" : ""}/city/${route.citySlug}/${slug}`,
-      label: isEn ? `${route.city} ${label.en}` : `${route.city}${label.zh}`,
-    })
+async function hasReadyArticlePath(path, env) {
+  if (!env?.FANJU_DB) return false
+  const normalized = normalizePath(path)
+  const slug = normalized.replace(/^\/+/, "")
+  try {
+    const row = await env.FANJU_DB.prepare(
+      `SELECT slug FROM articles
+       WHERE status = 'ready' AND (slug = ? OR canonical_path = ? OR alternate_path = ?)
+       LIMIT 1`,
+    ).bind(slug, normalized, normalized).first()
+    return Boolean(row)
+  } catch {
+    return false
   }
+}
+
+async function isSafePath(path, env) {
+  const normalized = normalizePath(path)
+  if (SAFE_STATIC_PATHS.has(normalized)) return true
+  return hasReadyArticlePath(normalized, env)
+}
+
+function addSafeRelatedLink(links, seen, link, currentPath) {
+  const href = normalizePath(link.href)
+  if (!link.label || !href || href === normalizePath(currentPath) || seen.has(href)) return
+  seen.add(href)
+  links.push({ label: link.label, href })
+}
+
+async function readyArticleLinksForCity(route, currentPath, isEn, env) {
+  if (!route.citySlug || !env?.FANJU_DB) return []
+  const lang = isEn ? "en" : "zh"
+  const prefix = `${isEn ? "/en" : ""}/city/${route.citySlug}/`
+  try {
+    const result = await env.FANJU_DB.prepare(
+      `SELECT canonical_path, title, topic_slug, updated_at
+       FROM articles
+       WHERE status = 'ready' AND lang = ? AND city_slug = ? AND canonical_path LIKE ?
+       ORDER BY updated_at DESC
+       LIMIT 16`,
+    ).bind(lang, route.citySlug, `${prefix}%`).all()
+    const rows = Array.isArray(result?.results) ? result.results : []
+    return rows
+      .map((row) => normalizePath(row.canonical_path || ""))
+      .filter((path) => /^\/(?:en\/)?city\/[^/]+\/[^/]+$/.test(path) && path !== normalizePath(currentPath))
+      .map((path) => {
+        const slug = path.split("/").filter(Boolean).at(-1) || ""
+        const label = topicLabel(slug)
+        return {
+          href: path,
+          label: isEn ? `${route.city} ${label.en}` : `${route.city}${label.zh}`,
+        }
+      })
+      .slice(0, 5)
+  } catch {
+    return []
+  }
+}
+
+function defaultRelatedLinks(isEn) {
+  return isEn
+    ? [
+        { href: "/en/cities", label: "All cities" },
+        { href: "/en/categories", label: "All categories" },
+        { href: "/en/what-is-fanju", label: "What is Fanju" },
+        { href: "/social-dining", label: "Social dining" },
+        { href: "/faq", label: "FAQ" },
+      ]
+    : [
+        { href: "/cities", label: "全部城市" },
+        { href: "/categories", label: "全部类型" },
+        { href: "/what-is-fanju", label: "饭局是什么" },
+        { href: "/social-dining", label: "饭局社交" },
+        { href: "/faq", label: "常见问题" },
+      ]
+}
+
+async function buildRelatedLinks(route, currentPath, isEn, env) {
+  const links = []
+  const seen = new Set()
+
+  if (route.citySlug) {
+    const cityHub = `${isEn ? "/en" : ""}/city/${route.citySlug}`
+    if (await isSafePath(cityHub, env)) {
+      addSafeRelatedLink(
+        links,
+        seen,
+        { href: cityHub, label: isEn ? `${route.city} city hub` : `${route.city}城市页` },
+        currentPath,
+      )
+    }
+
+    for (const link of await readyArticleLinksForCity(route, currentPath, isEn, env)) {
+      if (await isSafePath(link.href, env)) addSafeRelatedLink(links, seen, link, currentPath)
+    }
+  }
+
+  for (const link of defaultRelatedLinks(isEn)) {
+    if (await isSafePath(link.href, env)) addSafeRelatedLink(links, seen, link, currentPath)
+  }
+
   return links
 }
 
 function renderRelatedLinks(links, isEn) {
+  if (!links.length) return ""
   return `<aside class="internal-links" aria-label="${isEn ? "Internal links" : "内链"}">
     <p class="module-title">${isEn ? "Related Fanju Pages" : "相关 Fanju 页面"}</p>
     <ul>${links.map((link) => `<li><a href="${escapeHtml(link.href)}">${escapeHtml(link.label)}</a></li>`).join("")}</ul>

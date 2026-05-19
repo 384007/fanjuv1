@@ -461,6 +461,11 @@ def publish_routes_to_cloudflare(target_routes: str, upload_r2: bool = True):
         ready_entries = [entry for entry in published_state.get("drafts", []) if entry.get("status") == "ready"]
         if len(ready_entries) != 1 or ready_entries[-1].get("route") != route:
             raise RuntimeError(f"Route {route} did not publish exactly one ready article: {ready_entries}")
+        run(
+            f"BASE_URL=https://fanju.app URLS={shlex.quote(route)} pnpm seo:article:live:check",
+            cwd=WORKDIR,
+            timeout=900,
+        )
         run("URL_LIMIT=1 STRICT_PUBLISH=1 pnpm seo:cloudflare:submit", cwd=WORKDIR, timeout=900)
         summaries.append({"route": route, "ready": ready_entries[-1], "failed": failed_state.get("drafts", [])})
 

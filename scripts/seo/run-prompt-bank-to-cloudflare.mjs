@@ -71,12 +71,17 @@ const BANNED_PHRASES_FOR_BODY = [
   /\bHere is\b/i,
   /\bBelow is\b/i,
   /\bmarkdown draft\b/i,
+  /\bmarkdown link\b/i,
   /\bspecified page\b/i,
   /\bprovided rules\b/i,
   /\bIntro paragraph mentioning\b/i,
   /\bReturn valid JSON\b/i,
   /\bBody requirements\b/i,
   /\bmarkdown skeleton\b/i,
+  /<a\s+href/i,
+  /\bhref\s*=/i,
+  /\[[^\]]+\]\([^)]+\)/,
+  /https?:\/\/fanju\.app\/\S+/i,
   /\bQQ\b/i,
   /\bwebmaster\b/i,
   /domain\s+for\s+sale/i,
@@ -105,6 +110,26 @@ function detectLeaks(text) {
   for (const pattern of BANNED_PHRASES_FOR_BODY) {
     if (pattern.test(text)) hits.push(String(pattern))
   }
+  return hits
+}
+
+function stripPublicLinks(text = "") {
+  return String(text || "")
+    .replace(/!\[([^\]]*)\]\([^)]+\)/g, "$1")
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/<a\b[^>]*>([\s\S]*?)<\/a>/gi, "$1")
+    .replace(/https?:\/\/[^\s)]+/gi, "")
+    .replace(/\s+/g, " ")
+    .trim()
+}
+
+function publicLinkHits(text = "") {
+  const value = String(text || "")
+  const hits = []
+  if (/\[[^\]]+\]\([^)]+\)/.test(value)) hits.push("markdown-link")
+  if (/<a\b[^>]*href\s*=/i.test(value)) hits.push("html-anchor")
+  if (/\bhref\s*=/i.test(value)) hits.push("href")
+  if (/https?:\/\/[^\s)]+/i.test(value)) hits.push("raw-url")
   return hits
 }
 
@@ -426,6 +451,8 @@ function scoreArticle(prompt, parsed) {
 
   const leakHits = detectLeaks(haystack)
   if (leakHits.length) issues.push(`tech-leak:${leakHits.length}`)
+  const linkHits = publicLinkHits(haystack)
+  if (linkHits.length) issues.push(`public-link:${linkHits.join("+")}`)
   if (looksLikeJsonWrapper(haystack) || looksLikeJsonWrapper(body) || looksLikeJsonWrapper(description)) {
     issues.push("json-wrapper-in-public-text")
   }
@@ -476,6 +503,7 @@ function scoreArticle(prompt, parsed) {
 function isHardIssue(issue) {
   return (
     issue.startsWith("tech-leak") ||
+    issue.startsWith("public-link") ||
     issue === "json-wrapper-in-public-text" ||
     issue.startsWith("missing-primary-keyword") ||
     issue === "missing-city-context" ||
@@ -502,7 +530,7 @@ function escapeHtml(input = "") {
 }
 
 function inlineMarkdown(text = "") {
-  return escapeHtml(text)
+  return escapeHtml(stripPublicLinks(text))
     .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
     .replace(/\*([^*]+)\*/g, "<em>$1</em>")
 }
@@ -584,8 +612,8 @@ function retryPrompt(basePrompt, attempt, issues) {
     basePrompt.userPrompt,
     "",
     isEn
-      ? `QUALITY RETRY ${attempt}: the previous draft failed these checks: ${issues.join(", ")}. Rewrite from scratch as a complete long-form article. Use at least 10 separate public paragraphs with blank lines between paragraphs, and at least two paragraphs under every H2. Do not summarize. Make it longer, more specific, and structurally complete.`
-      : `质量重试 ${attempt}：上一稿未通过这些检查：${issues.join("，")}。请从头重写一篇完整长文，至少 10 个公开自然段，段落之间空行，每个 H2 下面至少两段。不要摘要，不要变短，要更具体、更本地、更完整。`,
+      ? `QUALITY RETRY ${attempt}: the previous draft failed these checks: ${issues.join(", ")}. Rewrite from scratch as a complete long-form article. Use at least 10 separate public paragraphs with blank lines between paragraphs, and at least two paragraphs under every H2. Do not summarize. Make it longer, more specific, and structurally complete. Do not include Markdown links, raw URLs, href attributes, or HTML anchor tags.`
+      : `质量重试 ${attempt}：上一稿未通过这些检查：${issues.join("，")}。请从头重写一篇完整长文，至少 10 个公开自然段，段落之间空行，每个 H2 下面至少两段。不要摘要，不要变短，要更具体、更本地、更完整。不要包含 Markdown 链接、裸 URL、href 或 HTML a 标签。`,
   ].join("\n")
 }
 

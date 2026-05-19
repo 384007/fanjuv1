@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { BreadcrumbJsonLd, ContentBlock, LinkGrid, SeoPage } from "@/components/seo-page"
 import { categories, cities, getCategory } from "@/lib/seo-data"
+import { filterSafeLinkItems } from "@/lib/seo-ready-articles"
 
 const SITE_URL = "https://fanju.app"
 
@@ -96,6 +97,8 @@ export default async function CategoryPage({ params }: PageProps) {
   const recCities = recCitySlugs
     .map((s) => cities.find((c) => c.slug === s))
     .filter(Boolean) as typeof cities
+  const recommendedCityItems = filterSafeLinkItems(recCities.map((c): [string, string] => [`${c.name}${category.name}`, `/city/${c.slug}/${category.slug}`]))
+  const allCityItems = filterSafeLinkItems(cities.map((city): [string, string] => [`${city.name}饭局`, `/city/${city.slug}`]))
 
   return (
     <>
@@ -141,16 +144,18 @@ export default async function CategoryPage({ params }: PageProps) {
         </ContentBlock>
 
         {/* Recommended cities */}
-        {recCities.length > 0 && (
+        {recommendedCityItems.length > 0 && (
           <ContentBlock title="推荐城市入口" id="cities">
-            <LinkGrid items={recCities.map((c) => [`${c.name}${category.name}`, `/city/${c.slug}/${category.slug}`])} />
+            <LinkGrid items={recommendedCityItems} />
           </ContentBlock>
         )}
 
         {/* All cities */}
-        <ContentBlock title="全部城市" id="all-cities">
-          <LinkGrid items={cities.map((city) => [`${city.name}饭局`, `/city/${city.slug}`])} />
-        </ContentBlock>
+        {allCityItems.length > 0 && (
+          <ContentBlock title="全部城市" id="all-cities">
+            <LinkGrid items={allCityItems} />
+          </ContentBlock>
+        )}
       </SeoPage>
     </>
   )

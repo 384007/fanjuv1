@@ -3,6 +3,7 @@ import type { ReactNode } from "react"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
 import { categories, cities, type Category, type City } from "@/lib/seo-data"
+import { filterSafeLinkItems, safeArticleLinksForCity } from "@/lib/seo-ready-articles"
 
 export type SeoLang = "zh" | "en"
 
@@ -21,6 +22,7 @@ const ui = {
     directAnswer: "直接答案",
     relatedCities: "相关城市",
     relatedCategories: "相关分类",
+    sameCityArticles: "同城其他饭局",
     guide: "报名指南",
     home: "回到首页",
     faqTitle: "常见问题",
@@ -30,6 +32,7 @@ const ui = {
     directAnswer: "Direct Answer",
     relatedCities: "Related Cities",
     relatedCategories: "Related Categories",
+    sameCityArticles: "More In This City",
     guide: "Dinner Guide",
     home: "Back to Home",
     faqTitle: "FAQ",
@@ -77,6 +80,18 @@ export function SeoPage({
   const catLabel = (c: Category) => (lang === "en" ? c.nameEn : c.name)
   const cityPath = (c: City) => (lang === "en" ? `/en/city/${c.slug}` : `/city/${c.slug}`)
   const catPath = (c: Category) => (lang === "en" ? `/en/category/${c.slug}` : `/category/${c.slug}`)
+  const currentPath = city && category
+    ? `${lang === "en" ? "/en" : ""}/city/${city.slug}/${category.slug}`
+    : city
+      ? `${lang === "en" ? "/en" : ""}/city/${city.slug}`
+      : category
+        ? `${lang === "en" ? "/en" : ""}/category/${category.slug}`
+        : ""
+  const safeRelatedCities = filterSafeLinkItems(relatedCities.map((c): [string, string] => [cityLabel(c), cityPath(c)]))
+  const safeRelatedCategories = filterSafeLinkItems(relatedCategories.map((c): [string, string] => [catLabel(c), catPath(c)]))
+  const safeSameCityArticles = city && category
+    ? safeArticleLinksForCity(city.slug, lang, currentPath, 6).map((link) => [link.label, link.href] as [string, string])
+    : []
 
   const defaultBreadcrumbs: BreadcrumbItem[] =
     lang === "en"
@@ -151,14 +166,14 @@ export function SeoPage({
         <div className="mx-auto grid max-w-[1100px] grid-cols-1 gap-10 px-4 py-12 md:px-8 md:py-16 lg:grid-cols-[1fr_320px]">
           <div className="space-y-10">{children}</div>
           <aside className="space-y-8">
-            <InternalLinks
-              title={t.relatedCities}
-              items={relatedCities.map((c) => [cityLabel(c), cityPath(c)])}
-            />
-            <InternalLinks
-              title={t.relatedCategories}
-              items={relatedCategories.map((c) => [catLabel(c), catPath(c)])}
-            />
+            {city && category ? (
+              <InternalLinks title={t.sameCityArticles} items={safeSameCityArticles} />
+            ) : (
+              <>
+                <InternalLinks title={t.relatedCities} items={safeRelatedCities} />
+                <InternalLinks title={t.relatedCategories} items={safeRelatedCategories} />
+              </>
+            )}
             <div className="space-y-2">
               <Link
                 href={guideHref}
@@ -206,9 +221,11 @@ export function ContentBlock({ title, id, children }: { title: string; id?: stri
 }
 
 export function LinkGrid({ items }: { items: [string, string][] }) {
+  const safeItems = filterSafeLinkItems(items)
+  if (safeItems.length === 0) return null
   return (
     <div className="grid grid-cols-1 gap-px border border-border/60 bg-border/60 sm:grid-cols-2">
-      {items.map(([label, href]) => (
+      {safeItems.map(([label, href]) => (
         <Link
           key={href}
           href={href}
@@ -250,11 +267,13 @@ export function BreadcrumbJsonLd({ items }: { items: BreadcrumbItem[] }) {
 }
 
 function InternalLinks({ title, items }: { title: string; items: [string, string][] }) {
+  const safeItems = filterSafeLinkItems(items)
+  if (safeItems.length === 0) return null
   return (
     <div>
       <h2 className="font-mono text-[10px] tracking-[0.24em] text-muted-foreground uppercase">{title}</h2>
       <div className="mt-4 grid grid-cols-2 gap-px border border-border/60 bg-border/60">
-        {items.map(([label, href]) => (
+        {safeItems.map(([label, href]) => (
           <Link
             key={href}
             href={href}

@@ -1,6 +1,6 @@
 import Link from "next/link"
 import type { SeoReadyArticle } from "@/lib/seo-ready-articles"
-import { getAlternatePath } from "@/lib/seo-ready-articles"
+import { getAlternatePath, isSafeInternalHref, safeLinksForArticle } from "@/lib/seo-ready-articles"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
 import { canonicalUrl, hreflangAlternates, SITE_URL } from "@/lib/seo-canonical"
@@ -15,6 +15,19 @@ type Block =
   | { type: "table"; rows: string[][] }
   | { type: "hr" }
 
+const PUBLIC_TECH_RE =
+  /\bAI\b|\bprompt\b|\bprovider\b|\bmodel\b|\bpipeline\b|\bD1\b|\bR2\b|\bModal\b|\bCloudflare\b|提示词|模型|后台|技术栈|流水线|自动化/i
+
+function cleanArticleText(text = "") {
+  return String(text || "")
+    .replace(/!\[([^\]]*)\]\([^)]+\)/g, "$1")
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/<a\b[^>]*>([\s\S]*?)<\/a>/gi, "$1")
+    .replace(/https?:\/\/[^\s)]+/gi, "")
+    .replace(/\s+/g, " ")
+    .trim()
+}
+
 function parseMarkdown(md: string): Block[] {
   const lines = md.split("\n")
   const blocks: Block[] = []
@@ -24,11 +37,11 @@ function parseMarkdown(md: string): Block[] {
     const line = lines[i]
 
     if (line.startsWith("### ")) {
-      blocks.push({ type: "h3", text: line.slice(4).trim() }); i++
+      blocks.push({ type: "h3", text: cleanArticleText(line.slice(4).trim()) }); i++
     } else if (line.startsWith("## ")) {
-      blocks.push({ type: "h2", text: line.slice(3).trim() }); i++
+      blocks.push({ type: "h2", text: cleanArticleText(line.slice(3).trim()) }); i++
     } else if (line.startsWith("# ")) {
-      blocks.push({ type: "h1", text: line.slice(2).trim() }); i++
+      blocks.push({ type: "h1", text: cleanArticleText(line.slice(2).trim()) }); i++
     } else if (line.startsWith("---") && line.trim() === "---") {
       blocks.push({ type: "hr" }); i++
     } else if (line.startsWith("| ")) {
@@ -42,13 +55,13 @@ function parseMarkdown(md: string): Block[] {
     } else if (/^[-*] /.test(line)) {
       const items: string[] = []
       while (i < lines.length && /^[-*] /.test(lines[i])) {
-        items.push(lines[i].replace(/^[-*] /, "").trim()); i++
+        items.push(cleanArticleText(lines[i].replace(/^[-*] /, "").trim())); i++
       }
       blocks.push({ type: "ul", items })
     } else if (/^\d+\. /.test(line)) {
       const items: string[] = []
       while (i < lines.length && /^\d+\. /.test(lines[i])) {
-        items.push(lines[i].replace(/^\d+\. /, "").trim()); i++
+        items.push(cleanArticleText(lines[i].replace(/^\d+\. /, "").trim())); i++
       }
       blocks.push({ type: "ol", items })
     } else if (line.trim() === "") {
@@ -65,7 +78,7 @@ function parseMarkdown(md: string): Block[] {
       ) {
         parts.push(lines[i]); i++
       }
-      if (parts.length > 0) blocks.push({ type: "p", text: parts.join(" ") })
+      if (parts.length > 0) blocks.push({ type: "p", text: cleanArticleText(parts.join(" ")) })
     }
   }
   return blocks
@@ -99,15 +112,6 @@ const TOPIC_LABELS: Record<string, { zh: string; en: string }> = {
   "dinner-buddy": { zh: "饭搭子饭局", en: "Dinner Buddy" },
   "social-dining": { zh: "饭局社交", en: "Social Dining" },
 }
-
-const RELATED_TOPIC_SLUGS = [
-  "newcomer-dinner",
-  "business-dinner",
-  "curated-dinner",
-  "weekend-dinner",
-  "founder-dinner",
-  "high-quality-social-dining",
-]
 
 function titleCase(slug: string) {
   return slug
@@ -194,7 +198,8 @@ function sourceParagraphs(blocks: Block[], isEn: boolean) {
   const seen = new Set<string>()
   return blocks
     .filter((block): block is { type: "p"; text: string } => block.type === "p" && block.text.length >= min)
-    .map((block) => block.text)
+    .map((block) => cleanArticleText(block.text))
+    .filter((text) => text.length >= min && !PUBLIC_TECH_RE.test(text))
     .filter((text) => {
       const key = text.replace(/\s+/g, "").toLowerCase()
       if (seen.has(key)) return false
@@ -313,23 +318,6 @@ function StandardArticleSections({ route, isEn, source }: { route: RouteContext;
   )
 }
 
-function relatedLinks(route: RouteContext, currentPath: string, isEn: boolean, hasAlternate: boolean): [string, string][] {
-  const links: [string, string][] = [
-    [isEn ? "What is Fanju / 饭局app" : "Fanju / 饭局app 是什么", "/what-is-fanju"],
-    [isEn ? "FAQ" : "常见问题", "/faq"],
-    [isEn ? `${route.city} city hub` : `${route.city}城市页`, route.citySlug ? `${isEn ? "/en" : ""}/city/${route.citySlug}` : (isEn ? "/en/cities" : "/cities")],
-  ]
-  if (hasAlternate) {
-    links.push([isEn ? "中文版本" : "English version", getAlternatePath(currentPath)])
-  }
-  for (const slug of RELATED_TOPIC_SLUGS) {
-    if (!route.citySlug || slug === route.topicSlug || links.length >= 8) continue
-    const label = topicLabel(slug)
-    links.push([isEn ? `${route.city} ${label.en}` : `${route.city}${label.zh}`, `${isEn ? "/en" : ""}/city/${route.citySlug}/${slug}`])
-  }
-  return links
-}
-
 // ─── Main component ───────────────────────────────────────────────────────────
 
 interface SeoReadyArticlePageProps {
@@ -352,8 +340,10 @@ export function SeoReadyArticlePage({ article, currentPath, hasAlternateArticle 
   const title = guideTitle(route, isEn)
   const summary = answerSummary(route, isEn)
   const faq = faqItems(route, isEn)
-  const links = relatedLinks(route, currentPath, isEn, hasAlternateArticle)
+  const links = safeLinksForArticle(currentPath, article)
   const source = sourceParagraphs(blocks, isEn)
+  const cityHubPath = route.citySlug ? `${isEn ? "/en" : ""}/city/${route.citySlug}` : (isEn ? "/en/cities" : "/cities")
+  const safeCityHubPath = isSafeInternalHref(cityHubPath) ? cityHubPath : (isEn ? "/en/cities" : "/cities")
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -409,7 +399,7 @@ export function SeoReadyArticlePage({ article, currentPath, hasAlternateArticle 
 
   const breadcrumbs = [
     { label: isEn ? "Fanju" : "饭局 Fanju", href: "/" },
-    { label: route.city, href: route.citySlug ? `${isEn ? "/en" : ""}/city/${route.citySlug}` : (isEn ? "/en/cities" : "/cities") },
+    { label: route.city, href: safeCityHubPath },
     { label: title, href: currentPath },
   ]
 
@@ -484,7 +474,7 @@ export function SeoReadyArticlePage({ article, currentPath, hasAlternateArticle 
               {isEn ? "Related Pages" : "相关页面"}
             </p>
             <div className="grid grid-cols-1 gap-px border border-border/60 bg-border/60">
-              {links.map(([label, href]) => (
+              {links.map(({ label, href }) => (
                 <Link
                   key={href}
                   href={href}

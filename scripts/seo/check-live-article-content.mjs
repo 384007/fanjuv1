@@ -11,6 +11,7 @@
 //   MAX_INTERNAL_LINKS  max internal hrefs to check per page. Default: 80
 
 const BASE_URL = (process.env.BASE_URL || "https://fanju.app").replace(/\/$/, "")
+const BASE_HOSTNAME = new URL(BASE_URL).hostname.replace(/^www\./, "")
 const TIMEOUT_MS = Math.max(1000, Number.parseInt(process.env.TIMEOUT_MS || "20000", 10))
 const LINK_TIMEOUT_MS = Math.max(1000, Number.parseInt(process.env.LINK_TIMEOUT_MS || "12000", 10))
 const MAX_INTERNAL_LINKS = Math.max(1, Number.parseInt(process.env.MAX_INTERNAL_LINKS || "80", 10))
@@ -105,8 +106,8 @@ function toInternalUrl(href = "") {
 
   try {
     const url = new URL(href)
-    const base = new URL(BASE_URL)
-    if (url.hostname === base.hostname) return url.toString()
+    const hostname = url.hostname.replace(/^www\./, "")
+    if (hostname === BASE_HOSTNAME || hostname === "fanju.app") return url.toString()
   } catch {
     return null
   }

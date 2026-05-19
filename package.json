@@ -48,6 +48,7 @@
     "seo:prompt-bank": "node scripts/seo/build-random-prompt-bank.mjs",
     "seo:prompt-bank:run": "node scripts/seo/run-prompt-bank-drafts.mjs",
     "seo:prompt-bank:cloudflare": "node scripts/seo/run-prompt-bank-to-cloudflare.mjs",
+    "seo:city-cluster:publish": "node scripts/seo/publish-city-cluster.mjs",
     "seo:cloudflare:submit": "node scripts/seo/submit-cloudflare-article-urls.mjs",
     "seo:prompt-bank:check": "node scripts/seo/check-prompt-bank-diversity.mjs",
     "seo:keys:test": "node scripts/seo/test-all-keys.mjs",
