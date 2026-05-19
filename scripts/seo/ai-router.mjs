@@ -1,5 +1,6 @@
 const DEFAULT_ORDER = "groq,cerebras,openrouter,nvidia,cloudflare,gemini"
 const providerCooldownUntil = new Map()
+const providerKeyCursor = new Map()
 
 export function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms))
@@ -13,6 +14,59 @@ function cleanContent(content = "") {
     .replace(/^Here is[\s\S]*?\n/i, "")
     .replace(/^Below is[\s\S]*?\n/i, "")
     .trim()
+}
+
+function cleanEnv(value = "") {
+  return String(value || "").trim()
+}
+
+function cleanToken(value = "") {
+  return cleanEnv(value).replace(/^Bearer\s+/i, "")
+}
+
+function splitKeys(value = "") {
+  return cleanEnv(value)
+    .split(",")
+    .map((key) => cleanToken(key))
+    .filter(Boolean)
+}
+
+function uniqueKeys(keys = []) {
+  const seen = new Set()
+  const out = []
+  for (const key of keys.map(cleanToken).filter(Boolean)) {
+    if (seen.has(key)) continue
+    seen.add(key)
+    out.push(key)
+  }
+  return out
+}
+
+function apiKeysFromEnv(...names) {
+  const keys = []
+  for (const name of names.filter(Boolean)) {
+    keys.push(...splitKeys(process.env[name]))
+  }
+  return uniqueKeys(keys)
+}
+
+function providerKeyEntries(label, apiKeys = []) {
+  const keys = uniqueKeys(apiKeys)
+  if (!keys.length) return []
+
+  const cursorKey = label.toLowerCase()
+  const start = providerKeyCursor.get(cursorKey) || 0
+  providerKeyCursor.set(cursorKey, start + 1)
+
+  return keys.map((apiKey, i) => {
+    const keyIndex = (start + i) % keys.length
+    return {
+      apiKey: keys[keyIndex],
+      keyIndex,
+      keyCount: keys.length,
+      label: `${label} key#${keyIndex + 1}/${keys.length}`,
+    }
+  })
 }
 
 function timeoutPromise(ms, label) {
@@ -64,53 +118,117 @@ async function callOpenAICompat({ label, endpoint, apiKey, model, prompt, system
   return Promise.race([req(), timeoutPromise(timeoutMs, label)])
 }
 
+async function callOpenAICompatWithKeyRotation({ label, apiKeys, ...args }) {
+  const entries = providerKeyEntries(label, apiKeys)
+  if (!entries.length) throw new Error(`${label}: missing API key`)
+
+  const errors = []
+  let lastErr = null
+
+  for (const entry of entries) {
+    try {
+      console.log(`Trying ${entry.label}`)
+      return await callOpenAICompat({
+        ...args,
+        label: entry.label,
+        apiKey: entry.apiKey,
+      })
+    } catch (err) {
+      lastErr = err
+      errors.push({ key: `key#${entry.keyIndex + 1}/${entry.keyCount}`, status: err.status || 0, error: String(err.message || err).slice(0, 260) })
+      console.log(`${entry.label} failed: ${String(err.message || err).slice(0, 300)}`)
+
+      // Try the next key for quota/auth/transient errors instead of failing the whole provider.
+      if ([401, 403, 408, 409, 425, 429, 500, 502, 503, 504].includes(err.status || 0)) {
+        continue
+      }
+    }
+  }
+
+  const err = new Error(`${label}: all ${entries.length} API key(s) failed: ${JSON.stringify(errors)}`)
+  err.status = lastErr?.status
+  err.body = lastErr?.body || JSON.stringify(errors)
+  throw err
+}
+
 async function callCloudflare({ prompt, system, maxTokens, timeoutMs }) {
   const accountId = process.env.CLOUDFLARE_ACCOUNT_ID
-  const token = process.env.CLOUDFLARE_AI_API_TOKEN || process.env.CLOUDFLARE_API_TOKEN || process.env.CLOUDFLARE_AUTH_TOKEN
+  const tokens = apiKeysFromEnv(
+    "CLOUDFLARE_AI_API_TOKEN",
+    "CLOUDFLARE_AI_API_TOKEN_2",
+    "CLOUDFLARE_AI_API_TOKEN2",
+    "CLOUDFLARE_API_TOKEN",
+    "CLOUDFLARE_API_TOKEN_2",
+    "CLOUDFLARE_API_TOKEN2",
+    "CLOUDFLARE_AUTH_TOKEN",
+    "CLOUDFLARE_AUTH_TOKEN_2",
+    "CLOUDFLARE_AUTH_TOKEN2",
+  )
   const model = process.env.CLOUDFLARE_MODEL || "@cf/meta/llama-3.1-8b-instruct-fast"
 
   if (!accountId) throw new Error("Cloudflare: missing CLOUDFLARE_ACCOUNT_ID")
-  if (!token) throw new Error("Cloudflare: missing CLOUDFLARE_AI_API_TOKEN/CLOUDFLARE_API_TOKEN")
+  if (!tokens.length) throw new Error("Cloudflare: missing CLOUDFLARE_AI_API_TOKEN/CLOUDFLARE_API_TOKEN")
 
-  const req = async () => {
-    const res = await fetch(`https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/${model}`, {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${token}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        messages: [
-          { role: "system", content: system },
-          { role: "user", content: prompt },
-        ],
-        max_tokens: maxTokens,
-        temperature: 0.25,
-      }),
-    })
+  const entries = providerKeyEntries("Cloudflare", tokens)
+  const errors = []
+  let lastErr = null
 
-    const text = await res.text()
+  for (const entry of entries) {
+    const req = async () => {
+      console.log(`Trying ${entry.label}`)
+      const res = await fetch(`https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/${model}`, {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${entry.apiKey}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          messages: [
+            { role: "system", content: system },
+            { role: "user", content: prompt },
+          ],
+          max_tokens: maxTokens,
+          temperature: 0.25,
+        }),
+      })
 
-    if (!res.ok) {
-      const err = new Error(`Cloudflare failed ${res.status}: ${text}`)
-      err.status = res.status
-      err.body = text
-      throw err
+      const text = await res.text()
+
+      if (!res.ok) {
+        const err = new Error(`${entry.label} failed ${res.status}: ${text}`)
+        err.status = res.status
+        err.body = text
+        throw err
+      }
+
+      const json = JSON.parse(text)
+      return cleanContent(json.result?.response || json.result?.text || json.response || "")
     }
 
-    const json = JSON.parse(text)
-    return cleanContent(json.result?.response || json.result?.text || json.response || "")
+    try {
+      return await Promise.race([req(), timeoutPromise(timeoutMs, entry.label)])
+    } catch (err) {
+      lastErr = err
+      errors.push({ key: `key#${entry.keyIndex + 1}/${entry.keyCount}`, status: err.status || 0, error: String(err.message || err).slice(0, 260) })
+      console.log(`${entry.label} failed: ${String(err.message || err).slice(0, 300)}`)
+      if ([401, 403, 408, 409, 425, 429, 500, 502, 503, 504].includes(err.status || 0)) {
+        continue
+      }
+    }
   }
 
-  return Promise.race([req(), timeoutPromise(timeoutMs, "Cloudflare")])
+  const err = new Error(`Cloudflare: all ${entries.length} API key(s) failed: ${JSON.stringify(errors)}`)
+  err.status = lastErr?.status
+  err.body = lastErr?.body || JSON.stringify(errors)
+  throw err
 }
 
 async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) {
   if (provider === "openrouter") {
-    return callOpenAICompat({
+    return callOpenAICompatWithKeyRotation({
       label: "OpenRouter",
       endpoint: "https://openrouter.ai/api/v1/chat/completions",
-      apiKey: process.env.OPENROUTER_API_KEY,
+      apiKeys: apiKeysFromEnv("OPENROUTER_API_KEY", "OPENROUTER_API_KEY_2", "OPENROUTER_API_KEY2"),
       model: process.env.OPENROUTER_MODEL || "meta-llama/llama-3.3-70b-instruct:free",
       prompt,
       system,
@@ -125,10 +243,10 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
   }
 
   if (provider === "groq") {
-    return callOpenAICompat({
+    return callOpenAICompatWithKeyRotation({
       label: "Groq",
       endpoint: "https://api.groq.com/openai/v1/chat/completions",
-      apiKey: process.env.GROQ_API_KEY,
+      apiKeys: apiKeysFromEnv("GROQ_API_KEY", "GROQ_API_KEY_2", "GROQ_API_KEY2", "GROQ_KEY", "GROQ_KEY_2", "GROQ_KEY2"),
       model: process.env.GROQ_MODEL || "llama-3.1-8b-instant",
       prompt,
       system,
@@ -140,10 +258,10 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
   }
 
   if (provider === "cerebras") {
-    return callOpenAICompat({
+    return callOpenAICompatWithKeyRotation({
       label: "Cerebras",
       endpoint: "https://api.cerebras.ai/v1/chat/completions",
-      apiKey: process.env.CEREBRAS_API_KEY,
+      apiKeys: apiKeysFromEnv("CEREBRAS_API_KEY", "CEREBRAS_API_KEY_2", "CEREBRAS_API_KEY2"),
       model: process.env.CEREBRAS_MODEL || "llama3.1-8b",
       prompt,
       system,
@@ -159,10 +277,10 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
   }
 
   if (provider === "gemini") {
-    return callOpenAICompat({
+    return callOpenAICompatWithKeyRotation({
       label: "Gemini",
       endpoint: "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
-      apiKey: process.env.GEMINI_API_KEY,
+      apiKeys: apiKeysFromEnv("GEMINI_API_KEY", "GEMINI_API_KEY_2", "GEMINI_API_KEY2", "GOOGLE_API_KEY", "GOOGLE_API_KEY_2", "GOOGLE_API_KEY2"),
       model: process.env.GEMINI_MODEL || "gemini-2.5-flash-lite",
       prompt,
       system,
@@ -173,10 +291,10 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
   }
 
   if (provider === "nvidia") {
-    return callOpenAICompat({
+    return callOpenAICompatWithKeyRotation({
       label: "NVIDIA",
       endpoint: "https://integrate.api.nvidia.com/v1/chat/completions",
-      apiKey: process.env.NVIDIA_API_KEY,
+      apiKeys: apiKeysFromEnv("NVIDIA_API_KEY", "NVIDIA_API_KEY_2", "NVIDIA_API_KEY2"),
       model: process.env.NVIDIA_MODEL || "meta/llama-3.1-8b-instruct",
       prompt,
       system,
@@ -242,8 +360,8 @@ export async function generateWithRouter({ prompt, system, maxTokens = 1200, tim
       console.log(`Provider ${provider} succeeded in ${Math.round((Date.now() - started) / 1000)}s`)
       return { provider, content }
     } catch (err) {
-      console.log(`Provider ${provider} failed: ${err.message.slice(0, 500)}`)
-      errors.push({ provider, error: err.message })
+      console.log(`Provider ${provider} failed: ${String(err.message || err).slice(0, 500)}`)
+      errors.push({ provider, error: String(err.message || err) })
       cooldownProvider(provider, err)
 
       // 不要被 429 卡死，直接切下一个
