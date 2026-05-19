@@ -1,6 +1,7 @@
 import Link from "next/link"
 import type { SeoReadyArticle } from "@/lib/seo-ready-articles"
 import { getAlternatePath } from "@/lib/seo-ready-articles"
+import { getCategory, getCity } from "@/lib/seo-data"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
 
@@ -15,6 +16,8 @@ type Block =
   | { type: "ol"; items: string[] }
   | { type: "table"; rows: string[][] }
   | { type: "hr" }
+
+type RelatedLink = { label: string; href: string }
 
 function parseMarkdown(md: string): Block[] {
   const lines = md.split("\n")
@@ -83,15 +86,10 @@ function renderInline(text: string): React.ReactNode[] {
     if (m[0].startsWith("**")) {
       parts.push(<strong key={key++}>{m[2]}</strong>)
     } else {
-      const href = m[4]
-      const isExternal = href.startsWith("http")
-      parts.push(
-        isExternal ? (
-          <a key={key++} href={href} className="text-accent underline underline-offset-2 hover:opacity-80" rel="noopener noreferrer" target="_blank">{m[3]}</a>
-        ) : (
-          <Link key={key++} href={href} className="text-accent underline underline-offset-2 hover:opacity-80">{m[3]}</Link>
-        )
-      )
+      // SEO articles are generated content. Do not trust model-authored links.
+      // Keep the anchor text visible, but add real internal links only from
+      // safeRelatedLinks(), where every href is code-derived and route-known.
+      parts.push(<span key={key++}>{m[3]}</span>)
     }
     last = m.index + m[0].length
   }
@@ -147,13 +145,100 @@ function RenderBlock({ block }: { block: Block }) {
 
 // ─── Related links ────────────────────────────────────────────────────────────
 
-const RELATED_LINKS: [string, string][] = [
-  ["What is Fanju?", "/what-is-fanju"],
-  ["Social Dining", "/social-dining"],
-  ["All Cities", "/cities"],
-  ["All Categories", "/categories"],
-  ["FAQ", "/faq"],
-]
+const STATIC_RELATED_LINKS = {
+  en: [
+    { label: "What is Fanju?", href: "/what-is-fanju" },
+    { label: "Social Dining", href: "/social-dining" },
+    { label: "All Cities", href: "/cities" },
+    { label: "All Categories", href: "/categories" },
+    { label: "FAQ", href: "/faq" },
+  ],
+  zh: [
+    { label: "Fanju / 饭局是什么", href: "/what-is-fanju" },
+    { label: "饭局社交", href: "/social-dining" },
+    { label: "全部城市", href: "/cities" },
+    { label: "全部饭局类型", href: "/categories" },
+    { label: "常见问题", href: "/faq" },
+  ],
+} satisfies Record<"en" | "zh", RelatedLink[]>
+
+function addUniqueLink(list: RelatedLink[], item: RelatedLink, currentPath: string) {
+  if (!item.href || item.href === currentPath) return
+  if (list.some((x) => x.href === item.href)) return
+  list.push(item)
+}
+
+function cityCategoryFromPath(pathname: string) {
+  const normalized = pathname.replace(/^\/en(?=\/)/, "")
+  const match = normalized.match(/^\/city\/([^/]+)(?:\/([^/]+))?$/)
+  if (!match) return { citySlug: "", categorySlug: "" }
+  return { citySlug: match[1] || "", categorySlug: match[2] || "" }
+}
+
+function safeRelatedLinks(currentPath: string, isEn: boolean): RelatedLink[] {
+  const locale = isEn ? "en" : "zh"
+  const links: RelatedLink[] = []
+  const { citySlug, categorySlug } = cityCategoryFromPath(currentPath)
+  const city = citySlug ? getCity(citySlug) : undefined
+  const category = categorySlug ? getCategory(categorySlug) : undefined
+  const cityPrefix = isEn ? "/en/city" : "/city"
+  const categoryPrefix = isEn ? "/en/category" : "/category"
+
+  if (city) {
+    addUniqueLink(
+      links,
+      {
+        label: isEn ? `${city.nameEn} dinner guide` : `${city.name}饭局`,
+        href: `${cityPrefix}/${city.slug}`,
+      },
+      currentPath,
+    )
+  }
+
+  if (category) {
+    addUniqueLink(
+      links,
+      {
+        label: isEn ? category.nameEn : category.name,
+        href: `${categoryPrefix}/${category.slug}`,
+      },
+      currentPath,
+    )
+  }
+
+  if (city && category) {
+    addUniqueLink(
+      links,
+      {
+        label: isEn ? `${city.nameEn} ${category.nameEn}` : `${city.name}${category.name}`,
+        href: `${cityPrefix}/${city.slug}/${category.slug}`,
+      },
+      currentPath,
+    )
+  }
+
+  for (const item of STATIC_RELATED_LINKS[locale]) {
+    addUniqueLink(links, item, currentPath)
+  }
+
+  return links.slice(0, 8)
+}
+
+function RelatedLinksGrid({ links }: { links: RelatedLink[] }) {
+  return (
+    <div className="grid grid-cols-1 gap-px border border-border/60 bg-border/60">
+      {links.map((item) => (
+        <Link
+          key={item.href}
+          href={item.href}
+          className="bg-card/45 px-3 py-3 text-sm text-foreground transition-colors hover:text-accent"
+        >
+          {item.label}
+        </Link>
+      ))}
+    </div>
+  )
+}
 
 // ─── Main component ───────────────────────────────────────────────────────────
 
@@ -171,6 +256,7 @@ export function SeoReadyArticlePage({ article, currentPath }: SeoReadyArticlePag
   const isEn = currentPath.startsWith("/en/")
   const alternatePath = getAlternatePath(currentPath)
   const canonicalUrl = `${SITE_URL}${currentPath}`
+  const relatedLinks = safeRelatedLinks(currentPath, isEn)
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -232,6 +318,13 @@ export function SeoReadyArticlePage({ article, currentPath }: SeoReadyArticlePag
       <div className="mx-auto max-w-[1100px] px-4 py-12 md:px-8 md:py-16 lg:grid lg:grid-cols-[1fr_280px] lg:gap-12">
         <article className="prose-fanju">
           {blocks.map((block, i) => <RenderBlock key={i} block={block} />)}
+
+          <section aria-labelledby="safe-related-links" className="mt-10 border-t border-border/60 pt-8">
+            <h2 id="safe-related-links" className="font-mono text-[10px] tracking-[0.24em] text-muted-foreground uppercase mb-4">
+              {isEn ? "Explore related Fanju pages" : "继续浏览相关饭局页面"}
+            </h2>
+            <RelatedLinksGrid links={relatedLinks} />
+          </section>
         </article>
 
         {/* Sidebar */}
@@ -240,17 +333,7 @@ export function SeoReadyArticlePage({ article, currentPath }: SeoReadyArticlePag
             <h2 className="font-mono text-[10px] tracking-[0.24em] text-muted-foreground uppercase mb-4">
               {isEn ? "Related Pages" : "相关页面"}
             </h2>
-            <div className="grid grid-cols-1 gap-px border border-border/60 bg-border/60">
-              {RELATED_LINKS.map(([label, href]) => (
-                <Link
-                  key={href}
-                  href={href}
-                  className="bg-card/45 px-3 py-3 text-sm text-foreground transition-colors hover:text-accent"
-                >
-                  {label}
-                </Link>
-              ))}
-            </div>
+            <RelatedLinksGrid links={relatedLinks} />
           </div>
           <Link
             href="/"
