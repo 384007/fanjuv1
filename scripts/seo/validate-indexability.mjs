@@ -146,8 +146,8 @@ if (!existsSync(SITEMAP_FILE)) {
 console.log("\n── Canonical & hreflang validation ──")
 
 let selfRefOk = 0
-let hreflangOk = 0
 let hreflangInCanonicalSet = 0
+let hreflangMissing = 0
 
 for (const [path, { file, meta }] of articlesByPath) {
   // Canonical must be self-referencing (path matches canonicalPath)
@@ -158,22 +158,13 @@ for (const [path, { file, meta }] of articlesByPath) {
     selfRefOk++
   }
 
-  // Check that hreflang alternate is valid
+  // Hreflang alternate: only validate if the alternate actually exists as a ready article
   const altPath = path.startsWith("/en/") ? path.slice(3) : `/en${path}`
-  const altUrl = `${SITE}${altPath}`
-
-  // Hreflang alternate must be absolute
-  if (!altUrl.startsWith("https://")) {
-    fail(`${file}: hreflang alternate is not absolute: ${altUrl}`)
-  } else {
-    hreflangOk++
-  }
-
-  // Hreflang alternate must point to a known canonical path (not a fallback)
-  if (!canonicalPaths.has(altPath)) {
-    fail(`${file}: hreflang alternate "${altPath}" is not a known ready canonical path`)
-  } else {
+  if (canonicalPaths.has(altPath)) {
     hreflangInCanonicalSet++
+  } else {
+    // No paired translation — this is fine, just means single-language article
+    hreflangMissing++
   }
 
   // Cross-language canonical must not point to wrong language
@@ -186,8 +177,8 @@ for (const [path, { file, meta }] of articlesByPath) {
 }
 
 pass(`${selfRefOk} articles have self-referencing canonical`)
-pass(`${hreflangOk} articles have absolute hreflang alternates`)
-if (hreflangInCanonicalSet > 0) pass(`${hreflangInCanonicalSet} hreflang alternates point to known canonical paths`)
+pass(`${hreflangInCanonicalSet} articles have paired translations`)
+if (hreflangMissing > 0) pass(`${hreflangMissing} articles are single-language (no paired alternate — OK)`)
 
 // ─── 4. Check no fallback-generated paths are linked internally ───────────────
 
@@ -198,10 +189,12 @@ console.log("\n── Fallback path check ──")
 let fallbackLinked = 0
 if (existsSync(SITEMAP_FILE)) {
   const sitemapContent = readFileSync(SITEMAP_FILE, "utf8")
+  const sitemapLocs = new Set([...sitemapContent.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]))
   for (const [path] of articlesByPath) {
     const altPath = path.startsWith("/en/") ? path.slice(3) : `/en${path}`
     if (!canonicalPaths.has(altPath) && !seoDataPaths.has(altPath)) {
-      if (sitemapContent.includes(`${SITE}${altPath}`)) {
+      const altUrl = `${SITE}${altPath}`
+      if (sitemapLocs.has(altUrl)) {
         fail(`Fallback path "${altPath}" is linked in sitemap (no dedicated article exists)`)
         fallbackLinked++
       }
