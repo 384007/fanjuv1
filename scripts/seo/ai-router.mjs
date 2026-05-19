@@ -132,7 +132,7 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
       model: process.env.GROQ_MODEL || "llama-3.1-8b-instant",
       prompt,
       system,
-      maxTokens,
+      maxTokens: Math.min(maxTokens, Number.parseInt(process.env.GROQ_MAX_TOKENS || "4200", 10)),
       timeoutMs,
       tokenParam: "max_tokens",
       useJsonFormat: false,

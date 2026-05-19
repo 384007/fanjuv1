@@ -1,5 +1,5 @@
 export default {
-  async fetch(request, env, ctx) {
+  async fetch(request, env) {
     const requestUrl = new URL(request.url)
     const slug = requestUrl.pathname.replace(/^\/+/, "").replace(/\/+$/, "")
     if (slug && env.FANJU_DB) {

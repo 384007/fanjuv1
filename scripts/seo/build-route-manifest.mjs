@@ -574,16 +574,24 @@ const SUPPLEMENTAL_TOPICS = [
 
 function mergeSupplementalCities(cities) {
   const seen = new Set(cities.map((city) => city.slug))
+  const bySlug = new Map(cities.map((city) => [city.slug, city]))
   const merged = cities.slice()
   const supplemental = [
     ...SUPPLEMENTAL_MAINLAND_CITIES.map(([slug, name, nameEn, province, provinceEn]) => [slug, name, nameEn, province, provinceEn, "中国", "China", "CN"]),
     ...SUPPLEMENTAL_MAINLAND_CITIES_EXTRA.map(([slug, name, nameEn, province, provinceEn]) => [slug, name, nameEn, province, provinceEn, "中国", "China", "CN"]),
-    ...TOP_WORLD_CITIES_EN.map(([slug, name, nameEn, provinceEn, countryEn, countryCode]) => [slug, name, nameEn, provinceEn, provinceEn, name, countryEn, countryCode]),
+    ...TOP_WORLD_CITIES_EN.map(([slug, name, nameEn, provinceEn, countryEn, countryCode], index) => [slug, name, nameEn, provinceEn, provinceEn, name, countryEn, countryCode, index + 1]),
   ]
-  for (const [slug, name, nameEn, province, provinceEn, country, countryEn, countryCode] of supplemental) {
-    if (seen.has(slug)) continue
+  for (const [slug, name, nameEn, province, provinceEn, country, countryEn, countryCode, enRank] of supplemental) {
+    if (seen.has(slug)) {
+      const existing = bySlug.get(slug)
+      if (existing && enRank && !existing.enRank) existing.enRank = enRank
+      if (existing && countryCode && !existing.countryCode) existing.countryCode = countryCode
+      if (existing && country && !existing.country) existing.country = country
+      if (existing && countryEn && !existing.countryEn) existing.countryEn = countryEn
+      continue
+    }
     seen.add(slug)
-    merged.push({
+    const city = {
       slug,
       name,
       nameEn,
@@ -592,7 +600,10 @@ function mergeSupplementalCities(cities) {
       country,
       countryEn,
       countryCode,
-    })
+      ...(enRank ? { enRank } : {}),
+    }
+    bySlug.set(slug, city)
+    merged.push(city)
   }
   return merged
 }
@@ -632,6 +643,7 @@ function buildEntries(cities, categories) {
       countryCode: city.countryCode || "CN",
       country: city.country || "中国",
       countryEn: city.countryEn || "China",
+      ...(city.enRank ? { enRank: city.enRank } : {}),
       topicSlug: CITY_OVERVIEW_TOPIC_ZH.slug,
       topicNameLocalized: CITY_OVERVIEW_TOPIC_ZH.nameEn,
       route: `/en/city/${city.slug}`,
@@ -657,6 +669,7 @@ function buildEntries(cities, categories) {
         countryCode: city.countryCode || "CN",
         country: city.country || "中国",
         countryEn: city.countryEn || "China",
+        ...(city.enRank ? { enRank: city.enRank } : {}),
         topicSlug: cat.slug,
         topicNameLocalized: cat.nameEn,
         route: `/en/city/${city.slug}/${cat.slug}`,

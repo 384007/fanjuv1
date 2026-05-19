@@ -11,6 +11,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, "../..")
 const BANK = join(ROOT, process.env.PROMPT_BANK_FILE || "data/seo/random-prompt-bank.jsonl")
 const MANIFEST = join(ROOT, "data/seo/route-manifest.json")
+const EN_TOP_CITY_LIMIT = Math.max(1, Number.parseInt(process.env.EN_TOP_CITY_LIMIT || "100", 10))
 
 if (!existsSync(BANK)) {
   console.error(`Missing prompt bank: ${BANK}`)
@@ -128,7 +129,10 @@ if (existsSync(MANIFEST)) {
   )
   const enEligibleCities = new Set(
     entries
-      .filter((entry) => entry.locale === "en" && entry.enabled && String(entry.countryCode || "CN").toUpperCase() !== "CN")
+      .filter((entry) => {
+        const enRank = Number(entry.enRank || 0)
+        return entry.locale === "en" && entry.enabled && enRank >= 1 && enRank <= EN_TOP_CITY_LIMIT
+      })
       .map((entry) => entry.citySlug),
   )
   const zhPromptCities = new Set(prompts.filter((p) => p.locale === "zh").map((p) => p.citySlug))
@@ -137,14 +141,14 @@ if (existsSync(MANIFEST)) {
   const missingEn = [...enEligibleCities].filter((city) => !enPromptCities.has(city))
 
   console.log(`Eligible ZH China cities: ${zhEligibleCities.size}; covered in prompts: ${zhPromptCities.size}`)
-  console.log(`Eligible EN global cities: ${enEligibleCities.size}; covered in prompts: ${enPromptCities.size}`)
+  console.log(`Eligible EN top cities: ${enEligibleCities.size}; covered in prompts: ${enPromptCities.size}`)
 
   if (zhEligibleCities.size < 300) {
     console.error(`Diversity check failed: expected at least 300 ZH China cities, got ${zhEligibleCities.size}.`)
     coverageFailed = true
   }
-  if (enEligibleCities.size < 100) {
-    console.error(`Diversity check failed: expected at least 100 EN global cities, got ${enEligibleCities.size}.`)
+  if (enEligibleCities.size !== EN_TOP_CITY_LIMIT) {
+    console.error(`Diversity check failed: expected ${EN_TOP_CITY_LIMIT} EN top cities, got ${enEligibleCities.size}.`)
     coverageFailed = true
   }
   if (missingZh.length) {

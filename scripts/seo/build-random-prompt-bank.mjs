@@ -36,6 +36,7 @@ const DEFAULT_OUT_FILE = join(ROOT, "data/seo/random-prompt-bank.jsonl")
 const LIMIT = Number.parseInt(process.env.LIMIT || "1000", 10)
 const LANG = (process.env.LANG || "all").toLowerCase()
 const RANDOM_SEED = process.env.RANDOM_SEED || "20260516"
+const EN_TOP_CITY_LIMIT = Math.max(1, Number.parseInt(process.env.EN_TOP_CITY_LIMIT || "100", 10))
 const OUTPUT_FILE = process.env.OUTPUT_FILE
   ? join(ROOT, process.env.OUTPUT_FILE)
   : DEFAULT_OUT_FILE
@@ -114,7 +115,8 @@ function routeEligibleForLocale(route, locale) {
     return ["CN", "HK", "MO", "TW"].includes(countryCode)
   }
   if (locale === "en") {
-    return !["CN"].includes(countryCode)
+    const enRank = Number(route.enRank || 0)
+    return enRank >= 1 && enRank <= EN_TOP_CITY_LIMIT
   }
   return true
 }

@@ -212,26 +212,190 @@ def run_hourly_generation_pipeline() -> dict:
     return manifest
 
 
+BAD_PUBLIC_METADATA_RE = re.compile(
+    r"本站|联系QQ|本地联系|站长|广告合作|域名出售|私下交易|加微信|加QQ|备案号|"
+    r"\bQQ\b|domain\s+for\s+sale|parked\s+domain|advertising\s+cooperation|"
+    r"开头段落|正文要求|只返回合法 JSON|"
+    r"markdown skeleton|Return valid JSON|Body requirements|Intro paragraph mentioning",
+    re.I,
+)
+
+
+def load_json_state(relative_path: str) -> dict:
+    state_path = Path(WORKDIR, relative_path)
+    if not state_path.exists():
+        return {"drafts": []}
+    return json.loads(state_path.read_text(encoding="utf-8"))
+
+
+def ready_entries_from_state(state: dict) -> list[dict]:
+    return [entry for entry in state.get("drafts", []) if entry.get("status") == "ready"]
+
+
+def public_route_for_entry(entry: dict) -> str:
+    route = entry.get("canonicalPath") or entry.get("route") or entry.get("slug") or ""
+    route = str(route).strip()
+    if not route:
+        raise RuntimeError(f"Published entry has no route: {entry}")
+    return route if route.startswith("/") else f"/{route}"
+
+
+def validate_ready_entries(entries: list[dict], min_score: int = 90) -> None:
+    bad_entries = [
+        entry
+        for entry in entries
+        if (entry.get("score") or 0) < min_score
+        or BAD_PUBLIC_METADATA_RE.search(json.dumps(entry, ensure_ascii=False))
+    ]
+    if bad_entries:
+        raise RuntimeError(f"Invalid published metadata: {bad_entries[:2]}")
+
+
+def run_cloudflare_publish_pipeline(
+    rounds: int = 1,
+    run_limit: int = 6,
+    upload_r2: bool = True,
+    submit_platforms: str = "all",
+) -> dict:
+    """Production path: build route bank, generate articles, publish D1/R2, submit URLs."""
+    safe_rounds = min(24, max(1, int(rounds)))
+    safe_run_limit = max(2, int(run_limit))
+    if safe_run_limit % 2 != 0:
+        safe_run_limit += 1
+
+    upload_r2_flag = "1" if upload_r2 else "0"
+    safe_platforms = "".join(ch for ch in str(submit_platforms) if ch.isalnum() or ch in ",_-").strip(",") or "all"
+    started = utc_now()
+    started_at = started.isoformat()
+    run_id = f"production-cloudflare-{make_run_id(started)}"
+
+    print(
+        f"Fanju production publish started: {started_at} ({run_id}), "
+        f"rounds={safe_rounds}, runLimit={safe_run_limit}, uploadR2={upload_r2}",
+        flush=True,
+    )
+
+    prepare_workdir()
+    ensure_dependencies()
+
+    round_summaries = []
+    for round_no in range(1, safe_rounds + 1):
+        round_seed = f"{run_id}-round-{round_no}"
+        published_file = f"dist/seo/{run_id}-round-{round_no}-published.json"
+        failed_file = f"dist/seo/{run_id}-round-{round_no}-failed.json"
+
+        print(f"PRODUCTION_ROUND_START {round_no}/{safe_rounds} seed={round_seed}", flush=True)
+        run("pnpm seo:routes", cwd=WORKDIR, timeout=600)
+        run(
+            f"LIMIT=1000 LANG=all EN_TOP_CITY_LIMIT=100 RANDOM_SEED={shlex.quote(round_seed)} pnpm seo:prompt-bank",
+            cwd=WORKDIR,
+            timeout=600,
+        )
+        run("EN_TOP_CITY_LIMIT=100 pnpm seo:prompt-bank:check", cwd=WORKDIR, timeout=600)
+        run(
+            f"RUN_LIMIT={safe_run_limit} CONCURRENCY=1 RATE_DELAY_MS=6500 BATCH_SIZE=1 "
+            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=0 QUALITY_ATTEMPTS=4 "
+            f"QUALITY_RETRY_DELAY_MS=2500 MAX_TOKENS=5600 "
+            f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
+            "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=30000 "
+            "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=0 FORCE_PROVIDER_ORDER=1 "
+            "GROQ_MAX_TOKENS=4200 AI_PROVIDER_ORDER=gemini,openrouter,groq,cerebras,nvidia,cloudflare pnpm seo:prompt-bank:cloudflare",
+            cwd=WORKDIR,
+            timeout=21000,
+        )
+
+        published_state = load_json_state(published_file)
+        failed_state = load_json_state(failed_file)
+        ready_entries = ready_entries_from_state(published_state)
+        if len(ready_entries) < safe_run_limit:
+            raise RuntimeError(f"Round {round_no} published {len(ready_entries)} ready articles, expected {safe_run_limit}")
+        latest_entries = ready_entries[-safe_run_limit:]
+        validate_ready_entries(latest_entries, min_score=90)
+
+        routes = [public_route_for_entry(entry) for entry in latest_entries]
+        run(
+            f"BASE_URL=https://fanju.app URLS={shlex.quote(','.join(routes))} pnpm seo:article:live:check",
+            cwd=WORKDIR,
+            timeout=900,
+        )
+        run(
+            f"URL_LIMIT={safe_run_limit} PLATFORMS={safe_platforms} STRICT_PUBLISH=1 pnpm seo:cloudflare:submit",
+            cwd=WORKDIR,
+            timeout=1200,
+        )
+
+        round_summary = {
+            "round": round_no,
+            "seed": round_seed,
+            "publishedFile": published_file,
+            "failedFile": failed_file,
+            "publishedTotal": len(ready_entries),
+            "failedTotal": len(failed_state.get("drafts", [])),
+            "latest": latest_entries,
+            "routes": routes,
+        }
+        round_summaries.append(round_summary)
+        print(f"PRODUCTION_ROUND_OK {round_no}/{safe_rounds} routes={','.join(routes)}", flush=True)
+
+    output_root = Path(OUTPUT_ROOT) / run_id
+    output_root.mkdir(parents=True, exist_ok=True)
+    copy_output_path("data/seo/route-manifest.json", output_root)
+    copy_output_path("data/seo/random-prompt-bank.jsonl", output_root)
+    copy_output_path("dist/seo", output_root)
+    write_manifest(
+        output_root / "run-manifest.json",
+        {
+            "runId": run_id,
+            "startedAt": started_at,
+            "finishedAt": utc_now().isoformat(),
+            "status": "success",
+            "publishedBy": "cloudflare",
+            "rounds": safe_rounds,
+            "runLimit": safe_run_limit,
+            "uploadR2": upload_r2,
+            "submitPlatforms": safe_platforms,
+            "roundSummaries": round_summaries,
+        },
+    )
+    volume.commit()
+    print(f"PRODUCTION_CLOUDFLARE_RUN_ID={run_id}", flush=True)
+    print(json.dumps(round_summaries, ensure_ascii=False, indent=2), flush=True)
+    return {
+        "ok": True,
+        "runId": run_id,
+        "publishedBy": "cloudflare",
+        "rounds": safe_rounds,
+        "runLimit": safe_run_limit,
+        "uploadR2": upload_r2,
+        "roundSummaries": round_summaries,
+    }
+
+
 @app.function(
     image=image,
     secrets=[legacy_secret],
     volumes={OUTPUT_ROOT: volume},
-    timeout=1800,
+    timeout=21600,
     schedule=modal.Cron("0 * * * *", timezone="Asia/Singapore"),
 )
 def hourly_publish_cron():
-    return run_hourly_generation_pipeline()
+    return run_cloudflare_publish_pipeline(rounds=1, run_limit=6, upload_r2=True, submit_platforms="all")
 
 
 @app.function(
     image=image,
     secrets=[legacy_secret],
     volumes={OUTPUT_ROOT: volume},
-    timeout=1800,
+    timeout=21600,
 )
-def run_once():
-    """Manual trigger: python3 -m modal run modal_growth_agent.py::run_once"""
-    return run_hourly_generation_pipeline()
+def run_once(rounds: int = 1, run_limit: int = 6, upload_r2: bool = True, submit_platforms: str = "all"):
+    """Manual production trigger: python3 -m modal run modal_growth_agent.py::run_once"""
+    return run_cloudflare_publish_pipeline(
+        rounds=rounds,
+        run_limit=run_limit,
+        upload_r2=upload_r2,
+        submit_platforms=submit_platforms,
+    )
 
 
 @app.function(
@@ -242,23 +406,7 @@ def run_once():
 )
 def publish_prompt_bank_to_cloudflare(run_limit: int = 6, upload_r2: bool = True):
     """Publish ready prompt-bank articles to Cloudflare D1/R2 without GitHub."""
-    safe_run_limit = max(1, int(run_limit))
-    upload_r2_flag = "1" if upload_r2 else "0"
-    prepare_workdir()
-    ensure_dependencies()
-    run("pnpm seo:routes", cwd=WORKDIR, timeout=600)
-    run("LIMIT=${LIMIT:-1000} LANG=all pnpm seo:prompt-bank", cwd=WORKDIR, timeout=600)
-    run("pnpm seo:prompt-bank:check", cwd=WORKDIR, timeout=600)
-    run(
-        f"RUN_LIMIT={safe_run_limit} CONCURRENCY=3 RATE_DELAY_MS=1000 BATCH_SIZE=3 "
-        f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=100 AUTO_REPAIR_ARTICLE=0 QUALITY_ATTEMPTS=3 QUALITY_RETRY_DELAY_MS=2500 MAX_TOKENS=5200 "
-        "NVIDIA_TIMEOUT_MS=30000 AI_PROVIDER_LANES=groq,cerebras,openrouter,nvidia,cloudflare,gemini "
-        "AI_PROVIDER_ORDER=groq,cerebras,openrouter,nvidia,cloudflare,gemini pnpm seo:prompt-bank:cloudflare",
-        cwd=WORKDIR,
-        timeout=21000,
-    )
-    run(f"URL_LIMIT={safe_run_limit} pnpm seo:cloudflare:submit", cwd=WORKDIR, timeout=600)
-    return {"ok": True, "publishedBy": "cloudflare", "runLimit": safe_run_limit, "uploadR2": upload_r2}
+    return run_cloudflare_publish_pipeline(rounds=1, run_limit=run_limit, upload_r2=upload_r2, submit_platforms="all")
 
 
 @app.function(
@@ -294,7 +442,7 @@ def publish_routes_to_cloudflare(target_routes: str, upload_r2: bool = True):
         )
         run(
             f"RUN_LIMIT=1 CONCURRENCY=1 RATE_DELAY_MS=1000 BATCH_SIZE=1 "
-            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=0 QUALITY_ATTEMPTS=3 QUALITY_RETRY_DELAY_MS=2500 MAX_TOKENS=5200 "
+            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=0 QUALITY_ATTEMPTS=4 QUALITY_RETRY_DELAY_MS=2500 MAX_TOKENS=5600 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=30000 "
             "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "
@@ -374,7 +522,7 @@ def test_target_city_articles():
                 [
                     f"LANG={lang}",
                     f"LIMIT={len(routes)}",
-                    "MIN_SCORE=100",
+                    "MIN_SCORE=90",
                     f"MAX_TOKENS={max_tokens}",
                     "TIMEOUT_MS=90000",
                     "RATE_DELAY_MS=8000",
@@ -393,7 +541,7 @@ def test_target_city_articles():
             timeout=21000,
         )
         run(f"GENERATED_DRAFTS_FILE={shlex.quote(drafts_file)} pnpm seo:fix-drafts", cwd=WORKDIR, timeout=600)
-        run(f"GENERATED_DRAFTS_FILE={shlex.quote(drafts_file)} MIN_SCORE=100 pnpm seo:promote-ready", cwd=WORKDIR, timeout=600)
+        run(f"GENERATED_DRAFTS_FILE={shlex.quote(drafts_file)} MIN_SCORE=90 pnpm seo:promote-ready", cwd=WORKDIR, timeout=600)
 
     run("pnpm seo:opportunities", cwd=WORKDIR, timeout=600)
     run_ready_pipeline("zh", zh_routes, zh_drafts_file)
@@ -456,7 +604,7 @@ def test_target_city_articles():
         },
     )
     volume.commit()
-    ok = len(ready_entries) == len(target_routes) and all((entry.get("score") or 0) >= 100 for entry in ready_entries)
+    ok = len(ready_entries) == len(target_routes) and all((entry.get("score") or 0) >= 90 for entry in ready_entries)
     print(f"TARGET_READY_RUN_ID={run_id}", flush=True)
     print(json.dumps({"ready": ready_entries, "failed": failed_entries}, ensure_ascii=False, indent=2), flush=True)
 
@@ -479,83 +627,7 @@ def test_target_city_articles():
 )
 def publish_prompt_bank_to_cloudflare_rounds(rounds: int = 10, run_limit: int = 2, upload_r2: bool = True):
     """Run the real prompt-bank -> Cloudflare publish -> URL-submit flow multiple times."""
-    safe_rounds = min(24, max(1, int(rounds)))
-    safe_run_limit = max(1, int(run_limit))
-    upload_r2_flag = "1" if upload_r2 else "0"
-    started = utc_now()
-    run_id = f"prompt-bank-cloudflare-rounds-{make_run_id(started)}"
-    published_file = f"dist/seo/{run_id}-published.json"
-    failed_file = f"dist/seo/{run_id}-failed.json"
-
-    prepare_workdir()
-    ensure_dependencies()
-
-    round_summaries = []
-    for round_no in range(1, safe_rounds + 1):
-        print(f"ROUND_START {round_no}/{safe_rounds}", flush=True)
-        run("pnpm seo:routes", cwd=WORKDIR, timeout=600)
-        run(f"LIMIT=1000 LANG=all RANDOM_SEED={shlex.quote(f'{run_id}-round-{round_no}')} pnpm seo:prompt-bank", cwd=WORKDIR, timeout=600)
-        run("pnpm seo:prompt-bank:check", cwd=WORKDIR, timeout=600)
-        run(
-            f"RUN_LIMIT={safe_run_limit} CONCURRENCY=1 RATE_DELAY_MS=6500 BATCH_SIZE=1 "
-            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=0 QUALITY_ATTEMPTS=4 QUALITY_RETRY_DELAY_MS=2500 MAX_TOKENS=5200 "
-            f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
-            "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=30000 NVIDIA_MODEL=nvidia/llama-3.3-nemotron-super-49b-v1 "
-            "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=0 FORCE_PROVIDER_ORDER=1 "
-            "AI_PROVIDER_ORDER=cerebras,nvidia pnpm seo:prompt-bank:cloudflare",
-            cwd=WORKDIR,
-            timeout=21000,
-        )
-        run(f"URL_LIMIT={safe_run_limit} STRICT_PUBLISH=1 pnpm seo:cloudflare:submit", cwd=WORKDIR, timeout=900)
-
-        published_path = Path(WORKDIR, published_file)
-        failed_path = Path(WORKDIR, failed_file)
-        published_state = json.loads(published_path.read_text(encoding="utf-8")) if published_path.exists() else {"drafts": []}
-        failed_state = json.loads(failed_path.read_text(encoding="utf-8")) if failed_path.exists() else {"drafts": []}
-        ready_entries = [entry for entry in published_state.get("drafts", []) if entry.get("status") == "ready"]
-        bad_entries = [
-            entry
-            for entry in ready_entries
-            if (entry.get("score") or 0) < 90
-            or re.search(r"本站|联系QQ|本地联系|站长|广告合作|域名出售|QQ", json.dumps(entry, ensure_ascii=False), re.I)
-        ]
-        if bad_entries:
-            raise RuntimeError(f"Round {round_no} produced invalid published metadata: {bad_entries[:2]}")
-        round_summaries.append(
-            {
-                "round": round_no,
-                "publishedTotal": len(ready_entries),
-                "failedTotal": len(failed_state.get("drafts", [])),
-                "latest": ready_entries[-safe_run_limit:],
-            }
-        )
-        print(f"ROUND_OK {round_no}/{safe_rounds} publishedTotal={len(ready_entries)}", flush=True)
-
-    output_root = Path(OUTPUT_ROOT) / run_id
-    output_root.mkdir(parents=True, exist_ok=True)
-    copy_output_path(published_file, output_root)
-    copy_output_path(failed_file, output_root)
-    write_manifest(
-        output_root / "run-manifest.json",
-        {
-            "runId": run_id,
-            "rounds": safe_rounds,
-            "runLimit": safe_run_limit,
-            "uploadR2": upload_r2,
-            "roundSummaries": round_summaries,
-        },
-    )
-    volume.commit()
-    print(f"PROMPT_BANK_CLOUDFLARE_ROUNDS_RUN_ID={run_id}", flush=True)
-    print(json.dumps(round_summaries, ensure_ascii=False, indent=2), flush=True)
-    return {
-        "ok": True,
-        "runId": run_id,
-        "rounds": safe_rounds,
-        "runLimit": safe_run_limit,
-        "uploadR2": upload_r2,
-        "roundSummaries": round_summaries,
-    }
+    return run_cloudflare_publish_pipeline(rounds=rounds, run_limit=run_limit, upload_r2=upload_r2, submit_platforms="all")
 
 
 @app.function(

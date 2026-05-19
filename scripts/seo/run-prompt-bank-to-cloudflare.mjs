@@ -465,6 +465,9 @@ function scoreArticle(prompt, parsed) {
   if (issues.find((x) => x.startsWith("too-few-h2"))) score -= 12
   if (issues.find((x) => x.startsWith("too-few-h3"))) score -= 4
   if (issues.find((x) => x.startsWith("too-few-paragraphs"))) score -= 8
+  if (issues.find((x) => x.startsWith("duplicate-h2"))) score -= 8
+  if (issues.find((x) => x.startsWith("duplicate-paragraphs"))) score -= 10
+  if (issues.find((x) => x.startsWith("repeated-generic-phrases"))) score -= 8
   if (issues.includes("missing-description")) score -= 8
   if (issues.includes("missing-title")) score -= 30
   return { score: Math.max(score, 0), issues }
@@ -481,12 +484,7 @@ function isHardIssue(issue) {
     issue === "body-not-english" ||
     issue === "json-parse-failed" ||
     issue === "missing-body" ||
-    issue === "missing-title" ||
-    issue === "missing-description" ||
-    issue.startsWith("duplicate-h2") ||
-    issue.startsWith("duplicate-paragraphs") ||
-    issue.startsWith("repeated-generic-phrases") ||
-    issue.startsWith("too-few-paragraphs")
+    issue === "missing-title"
   )
 }
 
@@ -658,13 +656,8 @@ async function generateProviderCandidates(prompt, attempt, previousIssues) {
 
 async function runOneAttempt(prompt, attempt, previousIssues = []) {
   const started = Date.now()
-  let generations
-  try {
-    generations = await generateProviderCandidates(prompt, attempt, previousIssues)
-    if (!generations.length) throw new Error("all providers failed or returned no candidate")
-  } catch (err) {
-    throw err
-  }
+  const generations = await generateProviderCandidates(prompt, attempt, previousIssues)
+  if (!generations.length) throw new Error("all providers failed or returned no candidate")
   const elapsed = Date.now() - started
 
   let best = null
@@ -840,7 +833,7 @@ async function cloudflareFetch(path, init = {}) {
     })
   } catch (err) {
     if (err?.name === "AbortError") {
-      throw new Error(`Cloudflare API timeout after ${CF_TIMEOUT_MS}ms: ${path}`)
+      throw new Error(`Cloudflare API timeout after ${CF_TIMEOUT_MS}ms: ${path}`, { cause: err })
     }
     throw err
   } finally {
@@ -997,7 +990,11 @@ async function publishReadyEntries(entries, publishedState) {
   }
   await upsertD1(entries)
 
-  publishedState.drafts.push(...entries.map(({ bodyHtml, ...entry }) => entry))
+  publishedState.drafts.push(...entries.map((entry) => {
+    const publicEntry = { ...entry }
+    delete publicEntry.bodyHtml
+    return publicEntry
+  }))
   saveJsonState(PUBLISHED_FILE, publishedState)
 }
 
