@@ -512,6 +512,7 @@ function bodyToArticleHtml(prompt, result) {
   const html = []
   let paragraph = []
   let list = []
+  let listType = ""
 
   const flushParagraph = () => {
     if (!paragraph.length) return
@@ -521,8 +522,10 @@ function bodyToArticleHtml(prompt, result) {
 
   const flushList = () => {
     if (!list.length) return
-    html.push(`<ul>${list.map((item) => `<li>${inlineMarkdown(item)}</li>`).join("")}</ul>`)
+    const tag = listType === "ol" ? "ol" : "ul"
+    html.push(`<${tag}>${list.map((item) => `<li>${inlineMarkdown(item)}</li>`).join("")}</${tag}>`)
     list = []
+    listType = ""
   }
 
   for (const rawLine of lines) {
@@ -545,7 +548,18 @@ function bodyToArticleHtml(prompt, result) {
     const bullet = line.match(/^[-*]\s+(.+)$/)
     if (bullet) {
       flushParagraph()
+      if (listType && listType !== "ul") flushList()
+      listType = "ul"
       list.push(bullet[1].trim())
+      continue
+    }
+
+    const ordered = line.match(/^\d+\.\s+(.+)$/)
+    if (ordered) {
+      flushParagraph()
+      if (listType && listType !== "ol") flushList()
+      listType = "ol"
+      list.push(ordered[1].trim())
       continue
     }
 
@@ -558,8 +572,6 @@ function bodyToArticleHtml(prompt, result) {
 
   return [
     `<article>`,
-    `<h1>${escapeHtml(result.title)}</h1>`,
-    `<p class="dek">${escapeHtml(result.description)}</p>`,
     ...html,
     `</article>`,
   ].join("\n")

@@ -167,8 +167,10 @@ const seoUrls = [
 ]
 
 // ─── Ready article URLs ───────────────────────────────────────────────────────
-// For every ready article, add its canonicalPath AND the derived alternatePath.
-// No pairing required — alternatePath is always /en/... ↔ /... (pure derivation).
+// Only include URLs that have a dedicated ready article with canonicalPath
+// pointing to that exact URL. Do NOT include derived alternate paths unless
+// a separate ready file exists for them. This prevents redirect aliases and
+// fallback-rendered pages from appearing in the sitemap.
 
 const READY_DIR = join(ROOT, "content/seo-ready")
 const MIN_SCORE = 90
@@ -190,10 +192,6 @@ function normalizeSitemapPath(p) {
   return n.endsWith("/") && n.length > 1 ? n.slice(0, -1) : n
 }
 
-function deriveAlternatePath(p) {
-  return p.startsWith("/en/") ? p.slice(3) : `/en${p}`
-}
-
 const readyArticleUrls = []
 if (existsSync(READY_DIR)) {
   const seen = new Set()
@@ -207,13 +205,6 @@ if (existsSync(READY_DIR)) {
     if (!cp || seen.has(cp)) continue
     seen.add(cp)
     readyArticleUrls.push(cp)
-
-    // Always add the derived alternate path too
-    const alt = deriveAlternatePath(cp)
-    if (!seen.has(alt)) {
-      seen.add(alt)
-      readyArticleUrls.push(alt)
-    }
   }
 }
 

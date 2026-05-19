@@ -119,7 +119,12 @@ async function submitIndexNow(urls) {
     body: JSON.stringify(payload),
   })
   const text = await res.text()
-  return { platform: "IndexNow", status: res.status, ok: res.ok, body: text.slice(0, 500) }
+  const result = { platform: "IndexNow", status: res.status, ok: res.ok, body: text.slice(0, 500) }
+  if (!res.ok && [400, 403, 422, 429].includes(res.status)) {
+    result.nonFatal = true
+    result.warning = "IndexNow submission was attempted but rejected by IndexNow; keeping verified article publishing flow alive."
+  }
+  return result
 }
 
 async function runPlatform(platform, fn) {
@@ -440,4 +445,4 @@ const results = (await Promise.all([
 console.log("Submission results:")
 for (const result of results) console.log(JSON.stringify(result, null, 2))
 
-if (process.env.STRICT_PUBLISH === "1" && results.some((result) => result.ok === false)) process.exit(1)
+if (process.env.STRICT_PUBLISH === "1" && results.some((result) => result.ok === false && !result.nonFatal)) process.exit(1)

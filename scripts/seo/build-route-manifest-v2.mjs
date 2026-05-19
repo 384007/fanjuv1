@@ -1,0 +1,114 @@
+/**
+ * scripts/seo/build-route-manifest-v2.mjs
+ * Builds a route manifest distinguishing:
+ *   - canonical: indexable 200 URLs (should be in sitemap)
+ *   - redirect: alias URLs that redirect to canonical (must NOT be in sitemap)
+ *   - draft: content not ready (must NOT be in sitemap)
+ *
+ * Output: dist/seo/route-manifest-v2.json
+ */
+
+import { existsSync, readdirSync, readFileSync, mkdirSync, writeFileSync } from "fs"
+import { join, dirname } from "path"
+import { fileURLToPath } from "url"
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
+const ROOT = join(__dirname, "../..")
+const READY_DIR = join(ROOT, "content/seo-ready")
+const OUT_DIR = join(ROOT, "dist/seo")
+const OUT_FILE = join(OUT_DIR, "route-manifest-v2.json")
+const SITE = "https://fanju.app"
+const MIN_SCORE = 90
+
+function parseFrontmatter(raw) {
+  const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/)
+  if (!match) return {}
+  const meta = {}
+  for (const line of match[1].split("\n")) {
+    const m = line.match(/^(\w+):\s*"?([^"]*)"?\s*$/)
+    if (m) meta[m[1]] = m[2].trim()
+  }
+  return meta
+}
+
+function normalizePath(p) {
+  if (!p) return ""
+  const n = p.startsWith("/") ? p : `/${p}`
+  return n.endsWith("/") && n.length > 1 ? n.slice(0, -1) : n
+}
+
+function deriveAlternatePath(p) {
+  return p.startsWith("/en/") ? p.slice(3) : `/en${p}`
+}
+
+// ─── Build manifest ───────────────────────────────────────────────────────────
+
+const manifest = { canonical: [], redirect: [], draft: [] }
+
+if (existsSync(READY_DIR)) {
+  const files = readdirSync(READY_DIR).filter((f) => f.endsWith(".md"))
+
+  for (const file of files) {
+    const raw = readFileSync(join(READY_DIR, file), "utf8")
+    const meta = parseFrontmatter(raw)
+    const score = parseInt(meta.aiQualityScore || "0", 10)
+    const cp = normalizePath(meta.canonicalPath || `/${meta.slug || file.replace(/\.md$/, "")}`)
+
+    // Draft/unready
+    if (meta.status !== "ready" || score < MIN_SCORE) {
+      manifest.draft.push({ path: cp, file, reason: score < MIN_SCORE ? "low_score" : "not_ready" })
+      continue
+    }
+
+    // Canonical indexable URL
+    manifest.canonical.push({
+      path: cp,
+      url: `${SITE}${cp}`,
+      lang: meta.lang || "zh",
+      translationKey: meta.translationKey || null,
+      file,
+    })
+
+    // The alternate path is served as a fallback (same content, different lang URL)
+    // It's also canonical for its own language — NOT a redirect
+    const alt = deriveAlternatePath(cp)
+    const altLang = cp.startsWith("/en/") ? "zh" : "en"
+
+    // Check if a dedicated file exists for the alternate path
+    const hasOwnFile = files.some((f2) => {
+      if (f2 === file) return false
+      const raw2 = readFileSync(join(READY_DIR, f2), "utf8")
+      const meta2 = parseFrontmatter(raw2)
+      return normalizePath(meta2.canonicalPath) === alt && meta2.status === "ready" && parseInt(meta2.aiQualityScore || "0", 10) >= MIN_SCORE
+    })
+
+    if (!hasOwnFile) {
+      // Fallback render — still canonical for that language (200, self-referencing canonical)
+      manifest.canonical.push({
+        path: alt,
+        url: `${SITE}${alt}`,
+        lang: altLang,
+        translationKey: meta.translationKey || null,
+        file: `${file} (fallback)`,
+      })
+    }
+  }
+}
+
+// Deduplicate canonical entries
+const seen = new Set()
+manifest.canonical = manifest.canonical.filter((entry) => {
+  if (seen.has(entry.path)) return false
+  seen.add(entry.path)
+  return true
+})
+
+// ─── Write output ─────────────────────────────────────────────────────────────
+
+mkdirSync(OUT_DIR, { recursive: true })
+writeFileSync(OUT_FILE, JSON.stringify(manifest, null, 2), "utf8")
+
+console.log(`✅ Route manifest v2 written to ${OUT_FILE}`)
+console.log(`   Canonical: ${manifest.canonical.length}`)
+console.log(`   Redirect:  ${manifest.redirect.length}`)
+console.log(`   Draft:     ${manifest.draft.length}`)

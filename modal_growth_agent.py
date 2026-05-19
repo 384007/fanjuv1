@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import shlex
 import shutil
@@ -13,6 +14,7 @@ import modal
 
 app = modal.App("fanju-growth-agent")
 legacy_secret = modal.Secret.from_name("custom-secret")
+hourly_schedule = None if os.environ.get("FANJU_DISABLE_MODAL_SCHEDULE") == "1" else modal.Cron("0 * * * *", timezone="Asia/Singapore")
 
 APP_DIR = "/app"
 WORKDIR = "/tmp/fanju-run"
@@ -58,6 +60,7 @@ image = (
             "public/sitemap.xml",
             "public/sitemap-index.xml",
             "tsconfig.tsbuildinfo",
+            "out",
         ],
     )
     .run_commands(f"cd {APP_DIR} && pnpm install --frozen-lockfile")
@@ -376,7 +379,7 @@ def run_cloudflare_publish_pipeline(
     secrets=[legacy_secret],
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
-    schedule=modal.Cron("0 * * * *", timezone="Asia/Singapore"),
+    schedule=hourly_schedule,
 )
 def hourly_publish_cron():
     return run_cloudflare_publish_pipeline(rounds=1, run_limit=6, upload_r2=True, submit_platforms="all")
@@ -710,3 +713,24 @@ def list_outputs():
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     print(json.dumps(manifest, indent=2, ensure_ascii=False), flush=True)
     return manifest
+
+
+@app.function(image=image, secrets=[legacy_secret])
+def check_keys():
+    """Check which AI keys are loaded: python3 -m modal run modal_growth_agent.py::check_keys"""
+    import os
+    for prefix in ["GROQ_API_KEY", "CEREBRAS_API_KEY", "NVIDIA_API_KEY", "GEMINI_API_KEY", "OPENROUTER_API_KEY"]:
+        found = [k for k in [prefix] + [f"{prefix}_{i}" for i in range(2, 11)] if os.environ.get(k)]
+        print(f"{prefix}: {len(found)} key(s) found: {found or 'NONE'}", flush=True)
+    for k in ["CLOUDFLARE_ACCOUNT_ID", "CLOUDFLARE_AI_API_TOKEN", "CLOUDFLARE_API_TOKEN"]:
+        print(f"{k}: {'SET' if os.environ.get(k) else 'MISSING'}", flush=True)
+
+
+@app.function(image=image, secrets=[legacy_secret])
+def test_keys():
+    """Test every AI key with a real request: python3 -m modal run modal_growth_agent.py::test_keys"""
+    import subprocess
+    prepare_workdir()
+    ensure_dependencies()
+    result = subprocess.run(["node", "scripts/seo/test-all-keys.mjs"], cwd=WORKDIR, capture_output=False)
+    print(f"Exit code: {result.returncode}", flush=True)
