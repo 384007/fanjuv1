@@ -1,15 +1,19 @@
 // scripts/seo/check-live-article-content.mjs
 //
 // Check specific live article URLs for rendered HTML content, public spam
-// phrases, basic article structure, and stylesheet presence.
+// phrases, basic article structure, stylesheet presence, and internal-link health.
 //
 // Environment:
-//   URLS          comma-separated absolute URLs or paths
-//   BASE_URL      default origin for paths. Default: https://fanju.app
-//   TIMEOUT_MS    per-request timeout. Default: 20000
+//   URLS                comma-separated absolute URLs or paths
+//   BASE_URL            default origin for paths. Default: https://fanju.app
+//   TIMEOUT_MS          per article request timeout. Default: 20000
+//   LINK_TIMEOUT_MS     per internal-link request timeout. Default: 12000
+//   MAX_INTERNAL_LINKS  max internal hrefs to check per page. Default: 80
 
 const BASE_URL = (process.env.BASE_URL || "https://fanju.app").replace(/\/$/, "")
 const TIMEOUT_MS = Math.max(1000, Number.parseInt(process.env.TIMEOUT_MS || "20000", 10))
+const LINK_TIMEOUT_MS = Math.max(1000, Number.parseInt(process.env.LINK_TIMEOUT_MS || "12000", 10))
+const MAX_INTERNAL_LINKS = Math.max(1, Number.parseInt(process.env.MAX_INTERNAL_LINKS || "80", 10))
 const URLS = (process.env.URLS || "")
   .split(",")
   .map((s) => s.trim())
@@ -72,6 +76,87 @@ function minVisibleText(url = "") {
   return /\/en\//.test(url) ? 1800 : 900
 }
 
+function extractHrefs(html = "") {
+  const hrefs = []
+  const re = /<a\b[^>]*\bhref=["']([^"']+)["'][^>]*>/gi
+  let match
+  while ((match = re.exec(html)) !== null) {
+    const href = String(match[1] || "").trim()
+    if (href) hrefs.push(href)
+  }
+  return [...new Set(hrefs)]
+}
+
+function isSkippableHref(href = "") {
+  return (
+    !href ||
+    href.startsWith("#") ||
+    href.startsWith("mailto:") ||
+    href.startsWith("tel:") ||
+    href.startsWith("javascript:") ||
+    href.startsWith("data:")
+  )
+}
+
+function toInternalUrl(href = "") {
+  if (isSkippableHref(href)) return null
+
+  if (href.startsWith("/")) return `${BASE_URL}${href}`
+
+  try {
+    const url = new URL(href)
+    const base = new URL(BASE_URL)
+    if (url.hostname === base.hostname) return url.toString()
+  } catch {
+    return null
+  }
+
+  return null
+}
+
+async function checkInternalLink(href) {
+  const url = toInternalUrl(href)
+  if (!url) return null
+
+  try {
+    const response = await fetch(url, {
+      redirect: "follow",
+      signal: AbortSignal.timeout(LINK_TIMEOUT_MS),
+      headers: {
+        "cache-control": "no-cache",
+        pragma: "no-cache",
+        "user-agent": "fanju-internal-link-check/1.0",
+      },
+    })
+
+    if (response.status < 200 || response.status >= 400) {
+      return { href, url, status: response.status }
+    }
+    return null
+  } catch (err) {
+    return {
+      href,
+      url,
+      status: 0,
+      error: `${err.name || "Error"}:${String(err.message || err).slice(0, 160)}`,
+    }
+  }
+}
+
+async function checkInternalLinks(html = "") {
+  const hrefs = extractHrefs(html)
+    .filter((href) => toInternalUrl(href))
+    .slice(0, MAX_INTERNAL_LINKS)
+
+  const bad = []
+  for (const href of hrefs) {
+    const issue = await checkInternalLink(href)
+    if (issue) bad.push(issue)
+  }
+
+  return { checked: hrefs.length, bad }
+}
+
 async function checkOne(raw) {
   const url = buildUrl(raw)
   const response = await fetch(url, {
@@ -92,6 +177,7 @@ async function checkOne(raw) {
   const styleNodes =
     (html.match(/<link\b[^>]*rel=["']?stylesheet/gi) || []).length +
     (html.match(/<style\b/gi) || []).length
+  const internalLinks = await checkInternalLinks(html)
   const result = {
     url,
     status: response.status,
@@ -103,6 +189,8 @@ async function checkOne(raw) {
     pCount: p.length,
     textLength: text.length,
     styleNodes,
+    internalLinksChecked: internalLinks.checked,
+    badInternalLinks: internalLinks.bad,
     badHits: badPhraseHits(publicHtml),
     issues: [],
   }
@@ -114,6 +202,13 @@ async function checkOne(raw) {
   if (result.textLength < minVisibleText(url)) result.issues.push(`visible-text-too-short:${result.textLength}`)
   if (styleNodes < 1) result.issues.push("missing-stylesheet")
   if (result.badHits.length) result.issues.push(`bad-public-phrase:${result.badHits.join(",")}`)
+  if (result.badInternalLinks.length) {
+    result.issues.push(
+      `bad-internal-links:${result.badInternalLinks
+        .map((x) => `${x.href}->${x.status || x.error}`)
+        .join("|")}`,
+    )
+  }
 
   return result
 }
@@ -141,6 +236,8 @@ for (const url of URLS) {
       pCount: 0,
       textLength: 0,
       styleNodes: 0,
+      internalLinksChecked: 0,
+      badInternalLinks: [],
       badHits: [],
       issues: [`fetch-error:${err.name || "Error"}:${String(err.message || err).slice(0, 160)}`],
     }
