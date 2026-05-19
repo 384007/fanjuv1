@@ -294,7 +294,7 @@ function StandardArticleSections({ route, isEn, source }: { route: RouteContext;
   return (
     <>
       {sections.map(([id, title, paragraphs]) => (
-        <section key={id} id={id as string}>
+        <section key={id as string} id={id as string}>
           <h2 className="font-serif text-3xl text-foreground md:text-4xl mt-8 mb-3">{title as string}</h2>
           {(paragraphs as string[]).map((paragraph) => (
             <p key={paragraph} className="text-sm leading-relaxed text-muted-foreground md:text-base mb-4">{paragraph}</p>
@@ -313,13 +313,15 @@ function StandardArticleSections({ route, isEn, source }: { route: RouteContext;
   )
 }
 
-function relatedLinks(route: RouteContext, currentPath: string, isEn: boolean): [string, string][] {
+function relatedLinks(route: RouteContext, currentPath: string, isEn: boolean, hasAlternate: boolean): [string, string][] {
   const links: [string, string][] = [
     [isEn ? "What is Fanju / 饭局app" : "Fanju / 饭局app 是什么", "/what-is-fanju"],
     [isEn ? "FAQ" : "常见问题", "/faq"],
     [isEn ? `${route.city} city hub` : `${route.city}城市页`, route.citySlug ? `${isEn ? "/en" : ""}/city/${route.citySlug}` : (isEn ? "/en/cities" : "/cities")],
-    [isEn ? "中文版本" : "English version", getAlternatePath(currentPath)],
   ]
+  if (hasAlternate) {
+    links.push([isEn ? "中文版本" : "English version", getAlternatePath(currentPath)])
+  }
   for (const slug of RELATED_TOPIC_SLUGS) {
     if (!route.citySlug || slug === route.topicSlug || links.length >= 8) continue
     const label = topicLabel(slug)
@@ -334,9 +336,11 @@ interface SeoReadyArticlePageProps {
   article: SeoReadyArticle
   /** The actual URL path being rendered (may differ from article.canonicalPath on fallback). */
   currentPath: string
+  /** Whether a dedicated ready article exists for the alternate language path. */
+  hasAlternateArticle?: boolean
 }
 
-export function SeoReadyArticlePage({ article, currentPath }: SeoReadyArticlePageProps) {
+export function SeoReadyArticlePage({ article, currentPath, hasAlternateArticle = false }: SeoReadyArticlePageProps) {
   const blocks = parseMarkdown(article.body)
 
   // Language is determined by the current URL path, not the article's lang field.
@@ -348,7 +352,7 @@ export function SeoReadyArticlePage({ article, currentPath }: SeoReadyArticlePag
   const title = guideTitle(route, isEn)
   const summary = answerSummary(route, isEn)
   const faq = faqItems(route, isEn)
-  const links = relatedLinks(route, currentPath, isEn)
+  const links = relatedLinks(route, currentPath, isEn, hasAlternateArticle)
   const source = sourceParagraphs(blocks, isEn)
 
   const jsonLd = {
@@ -441,13 +445,15 @@ export function SeoReadyArticlePage({ article, currentPath }: SeoReadyArticlePag
               </li>
             ))}
           </ol>
-          {/* Language toggle — always shown, target is always the derived alternatePath */}
-          <Link
-            href={alternatePath}
-            className="font-mono text-[10px] tracking-[0.18em] text-muted-foreground uppercase transition-colors hover:text-accent"
-          >
-            {isEn ? "中文" : "English"}
-          </Link>
+          {/* Language toggle — only shown when alternate has a dedicated ready article */}
+          {hasAlternateArticle && (
+            <Link
+              href={alternatePath}
+              className="font-mono text-[10px] tracking-[0.18em] text-muted-foreground uppercase transition-colors hover:text-accent"
+            >
+              {isEn ? "中文" : "English"}
+            </Link>
+          )}
         </div>
       </nav>
 
@@ -508,15 +514,15 @@ export function SeoReadyArticlePage({ article, currentPath }: SeoReadyArticlePag
 /**
  * @param article  The article being rendered (may be a fallback).
  * @param currentPath  The actual URL path (determines canonical + hreflang).
+ * @param hasAlternate  Whether a dedicated ready article exists for the alternate language.
  */
-export function seoReadyArticleMetadata(article: SeoReadyArticle, currentPath: string) {
+export function seoReadyArticleMetadata(article: SeoReadyArticle, currentPath: string, hasAlternate = false) {
   const isEn = currentPath.startsWith("/en/")
-  const alternatePath = getAlternatePath(currentPath)
   const route = routeContext(currentPath, article, isEn)
   const title = guideTitle(route, isEn)
   const description = answerSummary(route, isEn)
 
-  const alternates = hreflangAlternates(currentPath)
+  const alternates = hasAlternate ? hreflangAlternates(currentPath) : { canonical: canonicalUrl(currentPath) }
 
   return {
     title,

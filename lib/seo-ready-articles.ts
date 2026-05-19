@@ -89,6 +89,11 @@ export function getSeoReadyArticleByPath(pathname: string): SeoReadyArticle | un
   return loadAll().find((a) => a.canonicalPath === normalized)
 }
 
+/** Returns true if a dedicated ready article exists at the given path (not fallback). */
+export function hasReadyArticleAtPath(pathname: string): boolean {
+  return getSeoReadyArticleByPath(pathname) !== undefined
+}
+
 /**
  * Look up article by pathname. If not found, try the alternate path.
  * Returns { article, isFallback } where isFallback=true means we're rendering

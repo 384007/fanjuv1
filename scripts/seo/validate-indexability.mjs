@@ -78,6 +78,28 @@ console.log(`📄 Ready articles: ${canonicalPaths.size} canonical, ${draftPaths
 
 console.log("── Sitemap validation ──")
 
+// Load static seo-data city/category paths (these are template pages, not ready articles)
+const seoDataPaths = new Set()
+const seoDataFile = join(ROOT, "lib/seo-data.ts")
+if (existsSync(seoDataFile)) {
+  const seoDataContent = readFileSync(seoDataFile, "utf8")
+  const citySlugs = [...seoDataContent.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1])
+  // The first set of slugs are cities, the rest are categories
+  // Detect by looking at the arrays
+  const cityMatch = seoDataContent.match(/export const cities[\s\S]*?\n\]/m)
+  const catMatch = seoDataContent.match(/export const categories[\s\S]*?\n\]/m)
+  const citySlugList = cityMatch ? [...cityMatch[0].matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]) : []
+  const catSlugList = catMatch ? [...catMatch[0].matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]) : []
+  for (const city of citySlugList) {
+    for (const cat of catSlugList) {
+      seoDataPaths.add(`/city/${city}/${cat}`)
+      seoDataPaths.add(`/en/city/${city}/${cat}`)
+    }
+    seoDataPaths.add(`/city/${city}`)
+    seoDataPaths.add(`/en/city/${city}`)
+  }
+}
+
 if (!existsSync(SITEMAP_FILE)) {
   fail("public/sitemap.xml not found. Run pnpm generate:sitemaps first.")
 } else {
@@ -85,23 +107,26 @@ if (!existsSync(SITEMAP_FILE)) {
   const locMatches = sitemapContent.matchAll(/<loc>([^<]+)<\/loc>/g)
   const sitemapUrls = [...locMatches].map((m) => m[1])
 
-  let sitemapRedirects = 0
   let sitemapDrafts = 0
   let sitemapNonAbsolute = 0
+  let sitemapNoArticle = 0
 
   for (const loc of sitemapUrls) {
-    // Must be absolute
     if (!loc.startsWith("https://")) {
       sitemapNonAbsolute++
       continue
     }
 
-    // Extract path
     const path = normalizePath(loc.replace(SITE, ""))
 
-    // Must not be a draft
     if (draftPaths.has(path)) {
       sitemapDrafts++
+    }
+
+    // Article URL check: city/X/Y pattern, not covered by seo-data templates, must have ready article
+    if (/^\/(?:en\/)?city\/[^/]+\/[^/]+$/.test(path) && !canonicalPaths.has(path) && !seoDataPaths.has(path)) {
+      fail(`Sitemap article URL has no dedicated ready article: ${path}`)
+      sitemapNoArticle++
     }
   }
 
@@ -110,6 +135,8 @@ if (!existsSync(SITEMAP_FILE)) {
 
   if (sitemapDrafts > 0) fail(`${sitemapDrafts} draft URLs found in sitemap`)
   else pass("No draft URLs in sitemap")
+
+  if (sitemapNoArticle === 0) pass("All sitemap article URLs have dedicated ready articles or seo-data coverage")
 
   pass(`Sitemap contains ${sitemapUrls.length} URLs total`)
 }
@@ -120,6 +147,7 @@ console.log("\n── Canonical & hreflang validation ──")
 
 let selfRefOk = 0
 let hreflangOk = 0
+let hreflangInCanonicalSet = 0
 
 for (const [path, { file, meta }] of articlesByPath) {
   // Canonical must be self-referencing (path matches canonicalPath)
@@ -141,6 +169,13 @@ for (const [path, { file, meta }] of articlesByPath) {
     hreflangOk++
   }
 
+  // Hreflang alternate must point to a known canonical path (not a fallback)
+  if (!canonicalPaths.has(altPath)) {
+    fail(`${file}: hreflang alternate "${altPath}" is not a known ready canonical path`)
+  } else {
+    hreflangInCanonicalSet++
+  }
+
   // Cross-language canonical must not point to wrong language
   if (meta.lang === "en" && !path.startsWith("/en/")) {
     fail(`${file}: lang=en but canonicalPath does not start with /en/`)
@@ -152,8 +187,30 @@ for (const [path, { file, meta }] of articlesByPath) {
 
 pass(`${selfRefOk} articles have self-referencing canonical`)
 pass(`${hreflangOk} articles have absolute hreflang alternates`)
+if (hreflangInCanonicalSet > 0) pass(`${hreflangInCanonicalSet} hreflang alternates point to known canonical paths`)
 
-// ─── 4. Check no duplicate canonicalPaths ─────────────────────────────────────
+// ─── 4. Check no fallback-generated paths are linked internally ───────────────
+
+console.log("\n── Fallback path check ──")
+
+// A fallback path is any derived alternate that does NOT have a dedicated ready article.
+// These should never appear in sitemaps or be linked internally (unless covered by seo-data templates).
+let fallbackLinked = 0
+if (existsSync(SITEMAP_FILE)) {
+  const sitemapContent = readFileSync(SITEMAP_FILE, "utf8")
+  for (const [path] of articlesByPath) {
+    const altPath = path.startsWith("/en/") ? path.slice(3) : `/en${path}`
+    if (!canonicalPaths.has(altPath) && !seoDataPaths.has(altPath)) {
+      if (sitemapContent.includes(`${SITE}${altPath}`)) {
+        fail(`Fallback path "${altPath}" is linked in sitemap (no dedicated article exists)`)
+        fallbackLinked++
+      }
+    }
+  }
+}
+if (fallbackLinked === 0) pass("No fallback-generated paths linked in sitemap")
+
+// ─── 5. Check no duplicate canonicalPaths ─────────────────────────────────────
 
 console.log("\n── Duplicate check ──")
 
@@ -179,7 +236,7 @@ for (const [path, files] of pathCounts) {
 }
 if (dupes === 0) pass("No duplicate canonicalPaths")
 
-// ─── 5. Summary ──────────────────────────────────────────────────────────────
+// ─── 6. Summary ──────────────────────────────────────────────────────────────
 
 console.log("\n─── Summary ────────────────────────────────────────────────────")
 console.log(`Errors: ${errors}  |  Warnings: ${warnings}`)

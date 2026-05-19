@@ -7,9 +7,14 @@ export default {
       const directResponse = await articleResponse(requestUrl, direct, env, request.method === "HEAD")
       if (directResponse) return directResponse
 
+      // If no direct article exists but an alternate does, redirect to the
+      // canonical path instead of rendering fallback content at this URL.
       const alternate = await findAlternateReadyArticle(slug, env)
-      const alternateResponse = await articleResponse(requestUrl, alternate, env, request.method === "HEAD")
-      if (alternateResponse) return alternateResponse
+      if (alternate) {
+        const canonicalPath = alternate.canonical_path || `/${alternate.slug}`
+        const target = `${requestUrl.protocol}//${requestUrl.host}${canonicalPath}`
+        return new Response(null, { status: 302, headers: { location: target } })
+      }
     }
 
     return fetchPages(request, env)

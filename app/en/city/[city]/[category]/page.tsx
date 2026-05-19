@@ -3,7 +3,7 @@ import { redirect } from "next/navigation"
 import { SeoReadyArticlePage, seoReadyArticleMetadata } from "@/components/seo-ready-article-page"
 import { BreadcrumbJsonLd, ContentBlock, FaqJsonLd, LinkGrid, SeoPage } from "@/components/seo-page"
 import { categories, cities, getCategory, getCity } from "@/lib/seo-data"
-import { getSeoReadyArticleByPathOrAlternate, getSeoReadyCityCategoryParams } from "@/lib/seo-ready-articles"
+import { getSeoReadyArticleByPathOrAlternate, getSeoReadyCityCategoryParams, getAlternatePath, hasReadyArticleAtPath } from "@/lib/seo-ready-articles"
 
 const SITE_URL = "https://fanju.app"
 
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { city: citySlug, category: categorySlug } = await params
   const pathname = `/en/city/${citySlug}/${categorySlug}`
   const ready = getSeoReadyArticleByPathOrAlternate(pathname)
-  if (ready) return seoReadyArticleMetadata(ready.article, pathname)
+  if (ready) return seoReadyArticleMetadata(ready.article, pathname, hasReadyArticleAtPath(getAlternatePath(pathname)))
 
   const city = getCity(citySlug)
   const category = getCategory(categorySlug)
@@ -49,7 +49,7 @@ export default async function EnCityCategoryPage({ params }: PageProps) {
   const { city: citySlug, category: categorySlug } = await params
   const pathname = `/en/city/${citySlug}/${categorySlug}`
   const ready = getSeoReadyArticleByPathOrAlternate(pathname)
-  if (ready) return <SeoReadyArticlePage article={ready.article} currentPath={pathname} />
+  if (ready) return <SeoReadyArticlePage article={ready.article} currentPath={pathname} hasAlternateArticle={hasReadyArticleAtPath(getAlternatePath(pathname))} />
 
   const city = getCity(citySlug)
   const category = getCategory(categorySlug)

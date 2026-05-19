@@ -4,6 +4,8 @@ import { SeoReadyArticlePage, seoReadyArticleMetadata } from "@/components/seo-r
 import {
   getSeoReadyArticleByPathOrAlternate,
   getSeoReadyStaticParamsForCatchAll,
+  getAlternatePath,
+  hasReadyArticleAtPath,
 } from "@/lib/seo-ready-articles"
 
 type PageProps = { params: Promise<{ slug: string[] }> }
@@ -19,7 +21,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const pathname = `/${slug.join("/")}`
   const result = getSeoReadyArticleByPathOrAlternate(pathname)
   if (!result) return {}
-  return seoReadyArticleMetadata(result.article, pathname)
+  return seoReadyArticleMetadata(result.article, pathname, hasReadyArticleAtPath(getAlternatePath(pathname)))
 }
 
 export default async function CatchAllSeoReadyPage({ params }: PageProps) {
@@ -27,5 +29,5 @@ export default async function CatchAllSeoReadyPage({ params }: PageProps) {
   const pathname = `/${slug.join("/")}`
   const result = getSeoReadyArticleByPathOrAlternate(pathname)
   if (!result) redirect("/")
-  return <SeoReadyArticlePage article={result!.article} currentPath={pathname} />
+  return <SeoReadyArticlePage article={result!.article} currentPath={pathname} hasAlternateArticle={hasReadyArticleAtPath(getAlternatePath(pathname))} />
 }

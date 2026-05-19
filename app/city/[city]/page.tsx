@@ -3,7 +3,7 @@ import { notFound } from "next/navigation"
 import { SeoReadyArticlePage, seoReadyArticleMetadata } from "@/components/seo-ready-article-page"
 import { BreadcrumbJsonLd, ContentBlock, LinkGrid, SeoPage } from "@/components/seo-page"
 import { categories, cities, getCity } from "@/lib/seo-data"
-import { getSeoReadyArticleByPathOrAlternate, getSeoReadyCityParams } from "@/lib/seo-ready-articles"
+import { getSeoReadyArticleByPathOrAlternate, getSeoReadyCityParams, getAlternatePath, hasReadyArticleAtPath } from "@/lib/seo-ready-articles"
 
 const SITE_URL = "https://fanju.app"
 
@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { city: slug } = await params
   const pathname = `/city/${slug}`
   const ready = getSeoReadyArticleByPathOrAlternate(pathname)
-  if (ready) return seoReadyArticleMetadata(ready.article, pathname)
+  if (ready) return seoReadyArticleMetadata(ready.article, pathname, hasReadyArticleAtPath(getAlternatePath(pathname)))
 
   const city = getCity(slug)
   if (!city) return {}
@@ -51,7 +51,7 @@ export default async function CityPage({ params }: PageProps) {
   const { city: slug } = await params
   const pathname = `/city/${slug}`
   const ready = getSeoReadyArticleByPathOrAlternate(pathname)
-  if (ready) return <SeoReadyArticlePage article={ready.article} currentPath={pathname} />
+  if (ready) return <SeoReadyArticlePage article={ready.article} currentPath={pathname} hasAlternateArticle={hasReadyArticleAtPath(getAlternatePath(pathname))} />
 
   const city = getCity(slug)
   if (!city) notFound()
