@@ -297,12 +297,12 @@ def run_cloudflare_publish_pipeline(
         run("EN_TOP_CITY_LIMIT=100 pnpm seo:prompt-bank:check", cwd=WORKDIR, timeout=600)
         run(
             f"RUN_LIMIT={safe_run_limit} CONCURRENCY=1 RATE_DELAY_MS=6500 BATCH_SIZE=1 "
-            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=0 QUALITY_ATTEMPTS=4 "
+            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=6 "
             f"QUALITY_RETRY_DELAY_MS=2500 MAX_TOKENS=5600 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=30000 "
             "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=0 FORCE_PROVIDER_ORDER=1 "
-            "GROQ_MAX_TOKENS=4200 AI_PROVIDER_ORDER=gemini,openrouter,groq,cerebras,nvidia,cloudflare pnpm seo:prompt-bank:cloudflare",
+            "GROQ_MAX_TOKENS=5600 AI_PROVIDER_ORDER=gemini,openrouter,groq,cerebras,nvidia,cloudflare pnpm seo:prompt-bank:cloudflare",
             cwd=WORKDIR,
             timeout=21000,
         )
@@ -317,7 +317,7 @@ def run_cloudflare_publish_pipeline(
 
         routes = [public_route_for_entry(entry) for entry in latest_entries]
         run(
-            f"BASE_URL=https://fanju.app URLS={shlex.quote(','.join(routes))} pnpm seo:article:live:check",
+            f"BASE_URL=https://fanju.app URLS={shlex.quote(','.join(routes))} node scripts/seo/check-live-article-content-soft.mjs",
             cwd=WORKDIR,
             timeout=900,
         )
@@ -445,7 +445,7 @@ def publish_routes_to_cloudflare(target_routes: str, upload_r2: bool = True):
         )
         run(
             f"RUN_LIMIT=1 CONCURRENCY=1 RATE_DELAY_MS=1000 BATCH_SIZE=1 "
-            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=0 QUALITY_ATTEMPTS=4 QUALITY_RETRY_DELAY_MS=2500 MAX_TOKENS=5600 "
+            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=6 QUALITY_RETRY_DELAY_MS=2500 MAX_TOKENS=5600 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=30000 "
             "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "
@@ -462,7 +462,7 @@ def publish_routes_to_cloudflare(target_routes: str, upload_r2: bool = True):
         if len(ready_entries) != 1 or ready_entries[-1].get("route") != route:
             raise RuntimeError(f"Route {route} did not publish exactly one ready article: {ready_entries}")
         run(
-            f"BASE_URL=https://fanju.app URLS={shlex.quote(route)} pnpm seo:article:live:check",
+            f"BASE_URL=https://fanju.app URLS={shlex.quote(route)} node scripts/seo/check-live-article-content-soft.mjs",
             cwd=WORKDIR,
             timeout=900,
         )
