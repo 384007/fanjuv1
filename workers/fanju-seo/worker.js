@@ -505,11 +505,14 @@ async function hasReadyArticlePath(path, env) {
   const slug = normalized.replace(/^\/+/, "")
   try {
     const row = await env.FANJU_DB.prepare(
-      `SELECT slug FROM articles
+      `SELECT slug, lang, title, description, canonical_path, alternate_path, r2_key, body_html, status, updated_at
+       FROM articles
        WHERE status = 'ready' AND (slug = ? OR canonical_path = ? OR alternate_path = ?)
        LIMIT 1`,
     ).bind(slug, normalized, normalized).first()
-    return Boolean(row)
+    if (!row) return false
+    const body = await articleBody(row, env)
+    return Boolean(body && !isBadPublicArticle(row, body))
   } catch {
     return false
   }
