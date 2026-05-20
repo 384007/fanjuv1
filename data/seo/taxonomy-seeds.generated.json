@@ -1,0 +1,4314 @@
+[
+  {
+    "id": "software",
+    "zh": "软件行业",
+    "en": "Software",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "saas",
+    "zh": "SaaS 行业",
+    "en": "SaaS",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "enterprise-services",
+    "zh": "企业服务",
+    "en": "Enterprise Services",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "ecommerce",
+    "zh": "电商行业",
+    "en": "E-commerce",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "cross-border-ecommerce",
+    "zh": "跨境电商",
+    "en": "Cross-border E-commerce",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "fintech",
+    "zh": "金融科技",
+    "en": "Fintech",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "healthcare",
+    "zh": "医疗健康行业",
+    "en": "Healthcare",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "education",
+    "zh": "教育行业",
+    "en": "Education",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "real-estate",
+    "zh": "房地产行业",
+    "en": "Real Estate",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "architecture",
+    "zh": "建筑行业",
+    "en": "Architecture",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "advertising",
+    "zh": "广告行业",
+    "en": "Advertising",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "marketing",
+    "zh": "市场营销行业",
+    "en": "Marketing",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "consulting",
+    "zh": "咨询行业",
+    "en": "Consulting",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "legal-services",
+    "zh": "法律服务",
+    "en": "Legal Services",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "accounting",
+    "zh": "会计审计",
+    "en": "Accounting",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "logistics",
+    "zh": "物流行业",
+    "en": "Logistics",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "supply-chain",
+    "zh": "供应链行业",
+    "en": "Supply Chain",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "manufacturing",
+    "zh": "制造业",
+    "en": "Manufacturing",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "automotive",
+    "zh": "汽车行业",
+    "en": "Automotive",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "robotics",
+    "zh": "机器人行业",
+    "en": "Robotics",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "semiconductors",
+    "zh": "半导体行业",
+    "en": "Semiconductors",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "consumer-goods",
+    "zh": "消费品行业",
+    "en": "Consumer Goods",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "retail",
+    "zh": "零售行业",
+    "en": "Retail",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "hospitality",
+    "zh": "酒店服务业",
+    "en": "Hospitality",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "tourism",
+    "zh": "文旅行业",
+    "en": "Tourism",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "fashion",
+    "zh": "时尚行业",
+    "en": "Fashion",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "beauty",
+    "zh": "美妆行业",
+    "en": "Beauty",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "media",
+    "zh": "媒体行业",
+    "en": "Media",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "gaming",
+    "zh": "游戏行业",
+    "en": "Gaming",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "film-tv",
+    "zh": "影视行业",
+    "en": "Film and TV",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "publishing",
+    "zh": "出版行业",
+    "en": "Publishing",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "sports-industry",
+    "zh": "体育产业",
+    "en": "Sports Industry",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "renewable-energy",
+    "zh": "新能源行业",
+    "en": "Renewable Energy",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "climate-tech",
+    "zh": "气候科技",
+    "en": "Climate Tech",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "biotechnology",
+    "zh": "生物科技",
+    "en": "Biotechnology",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "pharmaceuticals",
+    "zh": "医药行业",
+    "en": "Pharmaceuticals",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "insurance",
+    "zh": "保险行业",
+    "en": "Insurance",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "human-resources",
+    "zh": "人力资源行业",
+    "en": "Human Resources",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "public-relations",
+    "zh": "公关行业",
+    "en": "Public Relations",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "cybersecurity-industry",
+    "zh": "网络安全行业",
+    "en": "Cybersecurity Industry",
+    "topCategory": "industries",
+    "subCategory": "合法行业交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "同行经验复盘",
+      "新人进入行业",
+      "跨城市行业小桌交流"
+    ]
+  },
+  {
+    "id": "software-engineer",
+    "zh": "程序员",
+    "en": "Software Engineer",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "product-manager",
+    "zh": "产品经理",
+    "en": "Product Manager",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "designer",
+    "zh": "设计师",
+    "en": "Designer",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "product-designer",
+    "zh": "产品设计师",
+    "en": "Product Designer",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "ux-researcher",
+    "zh": "用户研究员",
+    "en": "UX Researcher",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "data-analyst",
+    "zh": "数据分析师",
+    "en": "Data Analyst",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "data-scientist",
+    "zh": "数据科学家",
+    "en": "Data Scientist",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "ai-engineer",
+    "zh": "AI 工程师",
+    "en": "AI Engineer",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "marketer",
+    "zh": "市场人",
+    "en": "Marketer",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "growth-manager",
+    "zh": "增长经理",
+    "en": "Growth Manager",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "sales-manager",
+    "zh": "销售经理",
+    "en": "Sales Manager",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "business-development",
+    "zh": "商务拓展",
+    "en": "Business Development",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "consultant",
+    "zh": "咨询顾问",
+    "en": "Consultant",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "lawyer",
+    "zh": "律师",
+    "en": "Lawyer",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "accountant",
+    "zh": "会计",
+    "en": "Accountant",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "financial-analyst",
+    "zh": "金融分析师",
+    "en": "Financial Analyst",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "investment-manager",
+    "zh": "投资经理",
+    "en": "Investment Manager",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "founder",
+    "zh": "创业者",
+    "en": "Founder",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "operator",
+    "zh": "运营负责人",
+    "en": "Operator",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "hr-manager",
+    "zh": "HR 经理",
+    "en": "HR Manager",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "recruiter",
+    "zh": "招聘顾问",
+    "en": "Recruiter",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "teacher",
+    "zh": "教师",
+    "en": "Teacher",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "doctor",
+    "zh": "医生",
+    "en": "Doctor",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "nurse",
+    "zh": "护士",
+    "en": "Nurse",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "architect",
+    "zh": "建筑师",
+    "en": "Architect",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "interior-designer",
+    "zh": "室内设计师",
+    "en": "Interior Designer",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "photographer",
+    "zh": "摄影师",
+    "en": "Photographer",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "videographer",
+    "zh": "视频创作者",
+    "en": "Videographer",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "writer",
+    "zh": "作者",
+    "en": "Writer",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "editor",
+    "zh": "编辑",
+    "en": "Editor",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "journalist",
+    "zh": "记者",
+    "en": "Journalist",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "chef",
+    "zh": "厨师",
+    "en": "Chef",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "barista",
+    "zh": "咖啡师",
+    "en": "Barista",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "sommelier",
+    "zh": "侍酒师",
+    "en": "Sommelier",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "project-manager",
+    "zh": "项目经理",
+    "en": "Project Manager",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "civil-engineer",
+    "zh": "土木工程师",
+    "en": "Civil Engineer",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "mechanical-engineer",
+    "zh": "机械工程师",
+    "en": "Mechanical Engineer",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "electrical-engineer",
+    "zh": "电气工程师",
+    "en": "Electrical Engineer",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "devops-engineer",
+    "zh": "运维工程师",
+    "en": "DevOps Engineer",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "cybersecurity-analyst",
+    "zh": "安全分析师",
+    "en": "Cybersecurity Analyst",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "community-manager",
+    "zh": "社区运营",
+    "en": "Community Manager",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "event-planner",
+    "zh": "活动策划",
+    "en": "Event Planner",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "translator",
+    "zh": "译者",
+    "en": "Translator",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "real-estate-agent",
+    "zh": "房产顾问",
+    "en": "Real Estate Agent",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "urban-planner",
+    "zh": "城市规划师",
+    "en": "Urban Planner",
+    "topCategory": "professions",
+    "subCategory": "职业小桌交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "职业共同话题",
+      "弱关系建立",
+      "下班后经验交流"
+    ]
+  },
+  {
+    "id": "reading",
+    "zh": "读书",
+    "en": "Reading",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "photography-hobby",
+    "zh": "摄影爱好",
+    "en": "Photography",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "coffee-brewing",
+    "zh": "手冲咖啡",
+    "en": "Coffee Brewing",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "wine-tasting",
+    "zh": "葡萄酒品鉴",
+    "en": "Wine Tasting",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "cooking",
+    "zh": "家常烹饪",
+    "en": "Cooking",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "baking",
+    "zh": "烘焙",
+    "en": "Baking",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "board-games",
+    "zh": "桌游",
+    "en": "Board Games",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "chess",
+    "zh": "国际象棋",
+    "en": "Chess",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "go-game",
+    "zh": "围棋",
+    "en": "Go",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "urban-walks",
+    "zh": "城市漫步",
+    "en": "Urban Walks",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "journaling",
+    "zh": "手账",
+    "en": "Journaling",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "calligraphy",
+    "zh": "书法",
+    "en": "Calligraphy",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "painting",
+    "zh": "绘画",
+    "en": "Painting",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "pottery",
+    "zh": "陶艺",
+    "en": "Pottery",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "flower-arranging",
+    "zh": "花艺",
+    "en": "Flower Arranging",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "gardening",
+    "zh": "园艺",
+    "en": "Gardening",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "vinyl-listening",
+    "zh": "黑胶音乐",
+    "en": "Vinyl Listening",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "film-watching",
+    "zh": "观影",
+    "en": "Film Watching",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "anime",
+    "zh": "动漫",
+    "en": "Anime",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "gaming-hobby",
+    "zh": "游戏爱好",
+    "en": "Gaming Hobby",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "karaoke",
+    "zh": "K 歌",
+    "en": "Karaoke",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "dancing",
+    "zh": "舞蹈",
+    "en": "Dancing",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "language-learning",
+    "zh": "语言学习",
+    "en": "Language Learning",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "podcast-listening",
+    "zh": "播客",
+    "en": "Podcast Listening",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "tea-tasting",
+    "zh": "茶饮品鉴",
+    "en": "Tea Tasting",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "food-exploration",
+    "zh": "探店",
+    "en": "Food Exploration",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "museum-visits",
+    "zh": "逛展",
+    "en": "Museum Visits",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "volunteering",
+    "zh": "公益志愿",
+    "en": "Volunteering",
+    "topCategory": "hobbies",
+    "subCategory": "兴趣爱好饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新手友好饭局",
+      "兴趣破冰",
+      "饭前饭后轻活动"
+    ]
+  },
+  {
+    "id": "productivity",
+    "zh": "效率方法",
+    "en": "Productivity",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "minimalism",
+    "zh": "极简生活",
+    "en": "Minimalism",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "digital-detox",
+    "zh": "数字排毒",
+    "en": "Digital Detox",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "personal-branding",
+    "zh": "个人品牌",
+    "en": "Personal Branding",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "career-growth",
+    "zh": "职业成长",
+    "en": "Career Growth",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "city-exploration",
+    "zh": "城市探索",
+    "en": "City Exploration",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "local-history",
+    "zh": "地方历史",
+    "en": "Local History",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "sustainability",
+    "zh": "可持续生活",
+    "en": "Sustainability",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "mindful-social",
+    "zh": "松弛社交",
+    "en": "Mindful Socializing",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "independent-cinema",
+    "zh": "独立电影",
+    "en": "Independent Cinema",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "indie-music",
+    "zh": "独立音乐",
+    "en": "Indie Music",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "home-design",
+    "zh": "家居设计",
+    "en": "Home Design",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "personal-finance-learning",
+    "zh": "个人财务学习",
+    "en": "Personal Finance Learning",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "career-change",
+    "zh": "转行",
+    "en": "Career Change",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "remote-work-life",
+    "zh": "远程工作生活",
+    "en": "Remote Work Life",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "solo-travel",
+    "zh": "独自旅行",
+    "en": "Solo Travel",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "public-speaking",
+    "zh": "公开表达",
+    "en": "Public Speaking",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "improv",
+    "zh": "即兴表达",
+    "en": "Improv",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "book-to-dinner",
+    "zh": "读书到饭局",
+    "en": "Book-to-Dinner",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "local-community",
+    "zh": "本地社区",
+    "en": "Local Community",
+    "topCategory": "interests",
+    "subCategory": "生活方式兴趣",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "共同兴趣破冰",
+      "同城话题小桌",
+      "低压力交流"
+    ]
+  },
+  {
+    "id": "running",
+    "zh": "跑步",
+    "en": "Running",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "tennis",
+    "zh": "网球",
+    "en": "Tennis",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "badminton",
+    "zh": "羽毛球",
+    "en": "Badminton",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "table-tennis",
+    "zh": "乒乓球",
+    "en": "Table Tennis",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "golf",
+    "zh": "高尔夫",
+    "en": "Golf",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "basketball",
+    "zh": "篮球",
+    "en": "Basketball",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "football",
+    "zh": "足球",
+    "en": "Football",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "volleyball",
+    "zh": "排球",
+    "en": "Volleyball",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "swimming",
+    "zh": "游泳",
+    "en": "Swimming",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "cycling",
+    "zh": "骑行",
+    "en": "Cycling",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "yoga",
+    "zh": "瑜伽",
+    "en": "Yoga",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "pilates",
+    "zh": "普拉提",
+    "en": "Pilates",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "climbing",
+    "zh": "攀岩",
+    "en": "Climbing",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "bouldering",
+    "zh": "抱石",
+    "en": "Bouldering",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "skiing",
+    "zh": "滑雪",
+    "en": "Skiing",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "snowboarding",
+    "zh": "单板滑雪",
+    "en": "Snowboarding",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "surfing",
+    "zh": "冲浪",
+    "en": "Surfing",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "kayaking",
+    "zh": "皮划艇",
+    "en": "Kayaking",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "frisbee",
+    "zh": "飞盘",
+    "en": "Frisbee",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "baseball",
+    "zh": "棒球",
+    "en": "Baseball",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "boxing",
+    "zh": "拳击",
+    "en": "Boxing",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "martial-arts",
+    "zh": "武术",
+    "en": "Martial Arts",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "dance-fitness",
+    "zh": "舞蹈健身",
+    "en": "Dance Fitness",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "triathlon",
+    "zh": "铁人三项",
+    "en": "Triathlon",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "pickleball",
+    "zh": "匹克球",
+    "en": "Pickleball",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "squash",
+    "zh": "壁球",
+    "en": "Squash",
+    "topCategory": "sports",
+    "subCategory": "运动搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "运动后轻食",
+      "新手搭子",
+      "复盘和陪伴"
+    ]
+  },
+  {
+    "id": "hiking",
+    "zh": "徒步",
+    "en": "Hiking",
+    "topCategory": "outdoor",
+    "subCategory": "户外搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "户外后聚餐",
+      "路线复盘",
+      "安全边界"
+    ]
+  },
+  {
+    "id": "camping",
+    "zh": "露营",
+    "en": "Camping",
+    "topCategory": "outdoor",
+    "subCategory": "户外搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "户外后聚餐",
+      "路线复盘",
+      "安全边界"
+    ]
+  },
+  {
+    "id": "trail-running",
+    "zh": "越野跑",
+    "en": "Trail Running",
+    "topCategory": "outdoor",
+    "subCategory": "户外搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "户外后聚餐",
+      "路线复盘",
+      "安全边界"
+    ]
+  },
+  {
+    "id": "city-cycling",
+    "zh": "城市骑行",
+    "en": "City Cycling",
+    "topCategory": "outdoor",
+    "subCategory": "户外搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "户外后聚餐",
+      "路线复盘",
+      "安全边界"
+    ]
+  },
+  {
+    "id": "rock-climbing-outdoor",
+    "zh": "户外攀岩",
+    "en": "Outdoor Rock Climbing",
+    "topCategory": "outdoor",
+    "subCategory": "户外搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "户外后聚餐",
+      "路线复盘",
+      "安全边界"
+    ]
+  },
+  {
+    "id": "sailing",
+    "zh": "帆船",
+    "en": "Sailing",
+    "topCategory": "outdoor",
+    "subCategory": "户外搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "户外后聚餐",
+      "路线复盘",
+      "安全边界"
+    ]
+  },
+  {
+    "id": "paddleboarding",
+    "zh": "桨板",
+    "en": "Paddleboarding",
+    "topCategory": "outdoor",
+    "subCategory": "户外搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "户外后聚餐",
+      "路线复盘",
+      "安全边界"
+    ]
+  },
+  {
+    "id": "picnic",
+    "zh": "野餐",
+    "en": "Picnic",
+    "topCategory": "outdoor",
+    "subCategory": "户外搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "户外后聚餐",
+      "路线复盘",
+      "安全边界"
+    ]
+  },
+  {
+    "id": "stargazing",
+    "zh": "观星",
+    "en": "Stargazing",
+    "topCategory": "outdoor",
+    "subCategory": "户外搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "户外后聚餐",
+      "路线复盘",
+      "安全边界"
+    ]
+  },
+  {
+    "id": "nature-photography",
+    "zh": "自然摄影",
+    "en": "Nature Photography",
+    "topCategory": "outdoor",
+    "subCategory": "户外搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "户外后聚餐",
+      "路线复盘",
+      "安全边界"
+    ]
+  },
+  {
+    "id": "beach-walks",
+    "zh": "海边散步",
+    "en": "Beach Walks",
+    "topCategory": "outdoor",
+    "subCategory": "户外搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "户外后聚餐",
+      "路线复盘",
+      "安全边界"
+    ]
+  },
+  {
+    "id": "mountain-day-trip",
+    "zh": "周边山野一日游",
+    "en": "Mountain Day Trip",
+    "topCategory": "outdoor",
+    "subCategory": "户外搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "户外后聚餐",
+      "路线复盘",
+      "安全边界"
+    ]
+  },
+  {
+    "id": "snow-day-trip",
+    "zh": "雪季周边游",
+    "en": "Snow Day Trip",
+    "topCategory": "outdoor",
+    "subCategory": "户外搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "户外后聚餐",
+      "路线复盘",
+      "安全边界"
+    ]
+  },
+  {
+    "id": "cycling-cafe",
+    "zh": "骑行咖啡",
+    "en": "Cycling Cafe",
+    "topCategory": "outdoor",
+    "subCategory": "户外搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "户外后聚餐",
+      "路线复盘",
+      "安全边界"
+    ]
+  },
+  {
+    "id": "outdoor-beginner",
+    "zh": "户外新手",
+    "en": "Outdoor Beginner",
+    "topCategory": "outdoor",
+    "subCategory": "户外搭子饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "户外后聚餐",
+      "路线复盘",
+      "安全边界"
+    ]
+  },
+  {
+    "id": "contemporary-art",
+    "zh": "当代艺术",
+    "en": "Contemporary Art",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "classical-music",
+    "zh": "古典音乐",
+    "en": "Classical Music",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "jazz",
+    "zh": "爵士乐",
+    "en": "Jazz",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "theatre",
+    "zh": "戏剧",
+    "en": "Theatre",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "musical",
+    "zh": "音乐剧",
+    "en": "Musical",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "standup-comedy",
+    "zh": "脱口秀",
+    "en": "Stand-up Comedy",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "poetry",
+    "zh": "诗歌",
+    "en": "Poetry",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "literature",
+    "zh": "文学",
+    "en": "Literature",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "architecture-culture",
+    "zh": "建筑文化",
+    "en": "Architecture Culture",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "museum-culture",
+    "zh": "博物馆文化",
+    "en": "Museum Culture",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "design-culture",
+    "zh": "设计文化",
+    "en": "Design Culture",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "fashion-culture",
+    "zh": "时尚文化",
+    "en": "Fashion Culture",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "film-culture",
+    "zh": "电影文化",
+    "en": "Film Culture",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "photography-culture",
+    "zh": "摄影文化",
+    "en": "Photography Culture",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "crafts",
+    "zh": "手工艺",
+    "en": "Crafts",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "heritage-walk",
+    "zh": "城市遗产漫步",
+    "en": "Heritage Walk",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "food-culture",
+    "zh": "饮食文化",
+    "en": "Food Culture",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "tea-culture",
+    "zh": "茶文化",
+    "en": "Tea Culture",
+    "topCategory": "arts-culture",
+    "subCategory": "艺术文化小桌",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "展后饭局",
+      "作品讨论",
+      "审美交流"
+    ]
+  },
+  {
+    "id": "generative-ai",
+    "zh": "生成式 AI",
+    "en": "Generative AI",
+    "topCategory": "tech-ai",
+    "subCategory": "科技与 AI 交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "技术趋势讨论",
+      "产品落地复盘",
+      "同城从业者交流"
+    ]
+  },
+  {
+    "id": "ai-products",
+    "zh": "AI 产品",
+    "en": "AI Products",
+    "topCategory": "tech-ai",
+    "subCategory": "科技与 AI 交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "技术趋势讨论",
+      "产品落地复盘",
+      "同城从业者交流"
+    ]
+  },
+  {
+    "id": "machine-learning",
+    "zh": "机器学习",
+    "en": "Machine Learning",
+    "topCategory": "tech-ai",
+    "subCategory": "科技与 AI 交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "技术趋势讨论",
+      "产品落地复盘",
+      "同城从业者交流"
+    ]
+  },
+  {
+    "id": "data-engineering",
+    "zh": "数据工程",
+    "en": "Data Engineering",
+    "topCategory": "tech-ai",
+    "subCategory": "科技与 AI 交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "技术趋势讨论",
+      "产品落地复盘",
+      "同城从业者交流"
+    ]
+  },
+  {
+    "id": "cloud-computing",
+    "zh": "云计算",
+    "en": "Cloud Computing",
+    "topCategory": "tech-ai",
+    "subCategory": "科技与 AI 交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "技术趋势讨论",
+      "产品落地复盘",
+      "同城从业者交流"
+    ]
+  },
+  {
+    "id": "cybersecurity",
+    "zh": "网络安全",
+    "en": "Cybersecurity",
+    "topCategory": "tech-ai",
+    "subCategory": "科技与 AI 交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "技术趋势讨论",
+      "产品落地复盘",
+      "同城从业者交流"
+    ]
+  },
+  {
+    "id": "devtools",
+    "zh": "开发者工具",
+    "en": "Developer Tools",
+    "topCategory": "tech-ai",
+    "subCategory": "科技与 AI 交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "技术趋势讨论",
+      "产品落地复盘",
+      "同城从业者交流"
+    ]
+  },
+  {
+    "id": "open-source",
+    "zh": "开源",
+    "en": "Open Source",
+    "topCategory": "tech-ai",
+    "subCategory": "科技与 AI 交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "技术趋势讨论",
+      "产品落地复盘",
+      "同城从业者交流"
+    ]
+  },
+  {
+    "id": "web3-compliance",
+    "zh": "合规 Web3",
+    "en": "Compliant Web3",
+    "topCategory": "tech-ai",
+    "subCategory": "科技与 AI 交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "技术趋势讨论",
+      "产品落地复盘",
+      "同城从业者交流"
+    ]
+  },
+  {
+    "id": "robotics-tech",
+    "zh": "机器人技术",
+    "en": "Robotics Tech",
+    "topCategory": "tech-ai",
+    "subCategory": "科技与 AI 交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "技术趋势讨论",
+      "产品落地复盘",
+      "同城从业者交流"
+    ]
+  },
+  {
+    "id": "hardware-startups",
+    "zh": "硬件创业",
+    "en": "Hardware Startups",
+    "topCategory": "tech-ai",
+    "subCategory": "科技与 AI 交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "技术趋势讨论",
+      "产品落地复盘",
+      "同城从业者交流"
+    ]
+  },
+  {
+    "id": "product-analytics",
+    "zh": "产品分析",
+    "en": "Product Analytics",
+    "topCategory": "tech-ai",
+    "subCategory": "科技与 AI 交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "技术趋势讨论",
+      "产品落地复盘",
+      "同城从业者交流"
+    ]
+  },
+  {
+    "id": "ai-design-tools",
+    "zh": "AI 设计工具",
+    "en": "AI Design Tools",
+    "topCategory": "tech-ai",
+    "subCategory": "科技与 AI 交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "技术趋势讨论",
+      "产品落地复盘",
+      "同城从业者交流"
+    ]
+  },
+  {
+    "id": "automation-tools",
+    "zh": "自动化工具",
+    "en": "Automation Tools",
+    "topCategory": "tech-ai",
+    "subCategory": "科技与 AI 交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "技术趋势讨论",
+      "产品落地复盘",
+      "同城从业者交流"
+    ]
+  },
+  {
+    "id": "developer-community",
+    "zh": "开发者社区",
+    "en": "Developer Community",
+    "topCategory": "tech-ai",
+    "subCategory": "科技与 AI 交流",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "技术趋势讨论",
+      "产品落地复盘",
+      "同城从业者交流"
+    ]
+  },
+  {
+    "id": "venture-capital",
+    "zh": "风险投资",
+    "en": "Venture Capital",
+    "topCategory": "finance-business",
+    "subCategory": "金融与商业学习",
+    "riskLevel": "high",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "风险意识交流",
+      "行业学习",
+      "不做收益承诺"
+    ]
+  },
+  {
+    "id": "private-equity",
+    "zh": "私募股权",
+    "en": "Private Equity",
+    "topCategory": "finance-business",
+    "subCategory": "金融与商业学习",
+    "riskLevel": "high",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "风险意识交流",
+      "行业学习",
+      "不做收益承诺"
+    ]
+  },
+  {
+    "id": "angel-investing",
+    "zh": "天使投资学习",
+    "en": "Angel Investing Learning",
+    "topCategory": "finance-business",
+    "subCategory": "金融与商业学习",
+    "riskLevel": "high",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "风险意识交流",
+      "行业学习",
+      "不做收益承诺"
+    ]
+  },
+  {
+    "id": "stock-market-learning",
+    "zh": "股票市场学习",
+    "en": "Stock Market Learning",
+    "topCategory": "finance-business",
+    "subCategory": "金融与商业学习",
+    "riskLevel": "high",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "风险意识交流",
+      "行业学习",
+      "不做收益承诺"
+    ]
+  },
+  {
+    "id": "fixed-income-learning",
+    "zh": "固收学习",
+    "en": "Fixed Income Learning",
+    "topCategory": "finance-business",
+    "subCategory": "金融与商业学习",
+    "riskLevel": "high",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "风险意识交流",
+      "行业学习",
+      "不做收益承诺"
+    ]
+  },
+  {
+    "id": "wealth-management-learning",
+    "zh": "财富管理学习",
+    "en": "Wealth Management Learning",
+    "topCategory": "finance-business",
+    "subCategory": "金融与商业学习",
+    "riskLevel": "high",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "风险意识交流",
+      "行业学习",
+      "不做收益承诺"
+    ]
+  },
+  {
+    "id": "corporate-finance",
+    "zh": "公司金融",
+    "en": "Corporate Finance",
+    "topCategory": "finance-business",
+    "subCategory": "金融与商业学习",
+    "riskLevel": "high",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "风险意识交流",
+      "行业学习",
+      "不做收益承诺"
+    ]
+  },
+  {
+    "id": "business-strategy",
+    "zh": "商业战略",
+    "en": "Business Strategy",
+    "topCategory": "finance-business",
+    "subCategory": "金融与商业学习",
+    "riskLevel": "high",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "风险意识交流",
+      "行业学习",
+      "不做收益承诺"
+    ]
+  },
+  {
+    "id": "b2b-sales",
+    "zh": "B2B 销售",
+    "en": "B2B Sales",
+    "topCategory": "finance-business",
+    "subCategory": "金融与商业学习",
+    "riskLevel": "high",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "风险意识交流",
+      "行业学习",
+      "不做收益承诺"
+    ]
+  },
+  {
+    "id": "go-to-market",
+    "zh": "增长与商业化",
+    "en": "Go-to-Market",
+    "topCategory": "finance-business",
+    "subCategory": "金融与商业学习",
+    "riskLevel": "high",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "风险意识交流",
+      "行业学习",
+      "不做收益承诺"
+    ]
+  },
+  {
+    "id": "cross-border-business",
+    "zh": "跨境生意",
+    "en": "Cross-border Business",
+    "topCategory": "finance-business",
+    "subCategory": "金融与商业学习",
+    "riskLevel": "high",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "风险意识交流",
+      "行业学习",
+      "不做收益承诺"
+    ]
+  },
+  {
+    "id": "family-business",
+    "zh": "家族企业交流",
+    "en": "Family Business",
+    "topCategory": "finance-business",
+    "subCategory": "金融与商业学习",
+    "riskLevel": "high",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "风险意识交流",
+      "行业学习",
+      "不做收益承诺"
+    ]
+  },
+  {
+    "id": "first-time-founder",
+    "zh": "第一次创业者",
+    "en": "First-time Founder",
+    "topCategory": "startup",
+    "subCategory": "创业者饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创始人复盘",
+      "运营者交流",
+      "不承诺融资"
+    ]
+  },
+  {
+    "id": "solo-founder",
+    "zh": "单人创业者",
+    "en": "Solo Founder",
+    "topCategory": "startup",
+    "subCategory": "创业者饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创始人复盘",
+      "运营者交流",
+      "不承诺融资"
+    ]
+  },
+  {
+    "id": "ai-founder",
+    "zh": "AI 创业者",
+    "en": "AI Founder",
+    "topCategory": "startup",
+    "subCategory": "创业者饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创始人复盘",
+      "运营者交流",
+      "不承诺融资"
+    ]
+  },
+  {
+    "id": "saas-founder",
+    "zh": "SaaS 创业者",
+    "en": "SaaS Founder",
+    "topCategory": "startup",
+    "subCategory": "创业者饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创始人复盘",
+      "运营者交流",
+      "不承诺融资"
+    ]
+  },
+  {
+    "id": "consumer-founder",
+    "zh": "消费创业者",
+    "en": "Consumer Founder",
+    "topCategory": "startup",
+    "subCategory": "创业者饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创始人复盘",
+      "运营者交流",
+      "不承诺融资"
+    ]
+  },
+  {
+    "id": "cross-border-founder",
+    "zh": "出海创业者",
+    "en": "Cross-border Founder",
+    "topCategory": "startup",
+    "subCategory": "创业者饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创始人复盘",
+      "运营者交流",
+      "不承诺融资"
+    ]
+  },
+  {
+    "id": "bootstrapped-founder",
+    "zh": "自举创业者",
+    "en": "Bootstrapped Founder",
+    "topCategory": "startup",
+    "subCategory": "创业者饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创始人复盘",
+      "运营者交流",
+      "不承诺融资"
+    ]
+  },
+  {
+    "id": "startup-operator",
+    "zh": "创业公司运营者",
+    "en": "Startup Operator",
+    "topCategory": "startup",
+    "subCategory": "创业者饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创始人复盘",
+      "运营者交流",
+      "不承诺融资"
+    ]
+  },
+  {
+    "id": "product-led-growth",
+    "zh": "产品驱动增长",
+    "en": "Product-led Growth",
+    "topCategory": "startup",
+    "subCategory": "创业者饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创始人复盘",
+      "运营者交流",
+      "不承诺融资"
+    ]
+  },
+  {
+    "id": "fundraising-learning",
+    "zh": "融资学习",
+    "en": "Fundraising Learning",
+    "topCategory": "startup",
+    "subCategory": "创业者饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创始人复盘",
+      "运营者交流",
+      "不承诺融资"
+    ]
+  },
+  {
+    "id": "pitch-practice",
+    "zh": "路演练习",
+    "en": "Pitch Practice",
+    "topCategory": "startup",
+    "subCategory": "创业者饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创始人复盘",
+      "运营者交流",
+      "不承诺融资"
+    ]
+  },
+  {
+    "id": "early-team-building",
+    "zh": "早期团队建设",
+    "en": "Early Team Building",
+    "topCategory": "startup",
+    "subCategory": "创业者饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创始人复盘",
+      "运营者交流",
+      "不承诺融资"
+    ]
+  },
+  {
+    "id": "content-creator",
+    "zh": "内容创作者",
+    "en": "Content Creator",
+    "topCategory": "creator",
+    "subCategory": "创作者与自由职业",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创作复盘",
+      "接单边界",
+      "同城创作者小桌"
+    ]
+  },
+  {
+    "id": "newsletter-writer",
+    "zh": "Newsletter 作者",
+    "en": "Newsletter Writer",
+    "topCategory": "creator",
+    "subCategory": "创作者与自由职业",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创作复盘",
+      "接单边界",
+      "同城创作者小桌"
+    ]
+  },
+  {
+    "id": "podcaster",
+    "zh": "播客主",
+    "en": "Podcaster",
+    "topCategory": "creator",
+    "subCategory": "创作者与自由职业",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创作复盘",
+      "接单边界",
+      "同城创作者小桌"
+    ]
+  },
+  {
+    "id": "video-creator",
+    "zh": "视频创作者",
+    "en": "Video Creator",
+    "topCategory": "creator",
+    "subCategory": "创作者与自由职业",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创作复盘",
+      "接单边界",
+      "同城创作者小桌"
+    ]
+  },
+  {
+    "id": "short-video-creator",
+    "zh": "短视频创作者",
+    "en": "Short Video Creator",
+    "topCategory": "creator",
+    "subCategory": "创作者与自由职业",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创作复盘",
+      "接单边界",
+      "同城创作者小桌"
+    ]
+  },
+  {
+    "id": "indie-hacker",
+    "zh": "独立开发者",
+    "en": "Indie Hacker",
+    "topCategory": "creator",
+    "subCategory": "创作者与自由职业",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创作复盘",
+      "接单边界",
+      "同城创作者小桌"
+    ]
+  },
+  {
+    "id": "freelance-designer",
+    "zh": "自由设计师",
+    "en": "Freelance Designer",
+    "topCategory": "creator",
+    "subCategory": "创作者与自由职业",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创作复盘",
+      "接单边界",
+      "同城创作者小桌"
+    ]
+  },
+  {
+    "id": "freelance-writer",
+    "zh": "自由撰稿人",
+    "en": "Freelance Writer",
+    "topCategory": "creator",
+    "subCategory": "创作者与自由职业",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创作复盘",
+      "接单边界",
+      "同城创作者小桌"
+    ]
+  },
+  {
+    "id": "creator-economy",
+    "zh": "创作者经济",
+    "en": "Creator Economy",
+    "topCategory": "creator",
+    "subCategory": "创作者与自由职业",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创作复盘",
+      "接单边界",
+      "同城创作者小桌"
+    ]
+  },
+  {
+    "id": "community-builder",
+    "zh": "社区主理人",
+    "en": "Community Builder",
+    "topCategory": "creator",
+    "subCategory": "创作者与自由职业",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创作复盘",
+      "接单边界",
+      "同城创作者小桌"
+    ]
+  },
+  {
+    "id": "course-creator",
+    "zh": "课程创作者",
+    "en": "Course Creator",
+    "topCategory": "creator",
+    "subCategory": "创作者与自由职业",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创作复盘",
+      "接单边界",
+      "同城创作者小桌"
+    ]
+  },
+  {
+    "id": "livestream-operator",
+    "zh": "直播运营",
+    "en": "Livestream Operator",
+    "topCategory": "creator",
+    "subCategory": "创作者与自由职业",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创作复盘",
+      "接单边界",
+      "同城创作者小桌"
+    ]
+  },
+  {
+    "id": "brand-collaboration",
+    "zh": "品牌合作",
+    "en": "Brand Collaboration",
+    "topCategory": "creator",
+    "subCategory": "创作者与自由职业",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创作复盘",
+      "接单边界",
+      "同城创作者小桌"
+    ]
+  },
+  {
+    "id": "creative-studio",
+    "zh": "创意工作室",
+    "en": "Creative Studio",
+    "topCategory": "creator",
+    "subCategory": "创作者与自由职业",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "创作复盘",
+      "接单边界",
+      "同城创作者小桌"
+    ]
+  },
+  {
+    "id": "hotpot",
+    "zh": "火锅",
+    "en": "Hotpot",
+    "topCategory": "food-dining",
+    "subCategory": "餐饮与美食社交",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐桌破冰",
+      "口味探索",
+      "餐厅选择边界"
+    ]
+  },
+  {
+    "id": "sushi",
+    "zh": "寿司",
+    "en": "Sushi",
+    "topCategory": "food-dining",
+    "subCategory": "餐饮与美食社交",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐桌破冰",
+      "口味探索",
+      "餐厅选择边界"
+    ]
+  },
+  {
+    "id": "tasting-menu",
+    "zh": "品鉴菜单",
+    "en": "Tasting Menu",
+    "topCategory": "food-dining",
+    "subCategory": "餐饮与美食社交",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐桌破冰",
+      "口味探索",
+      "餐厅选择边界"
+    ]
+  },
+  {
+    "id": "brunch",
+    "zh": "早午餐",
+    "en": "Brunch",
+    "topCategory": "food-dining",
+    "subCategory": "餐饮与美食社交",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐桌破冰",
+      "口味探索",
+      "餐厅选择边界"
+    ]
+  },
+  {
+    "id": "coffee-chat",
+    "zh": "咖啡聊天",
+    "en": "Coffee Chat",
+    "topCategory": "food-dining",
+    "subCategory": "餐饮与美食社交",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐桌破冰",
+      "口味探索",
+      "餐厅选择边界"
+    ]
+  },
+  {
+    "id": "tea-house",
+    "zh": "茶馆",
+    "en": "Tea House",
+    "topCategory": "food-dining",
+    "subCategory": "餐饮与美食社交",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐桌破冰",
+      "口味探索",
+      "餐厅选择边界"
+    ]
+  },
+  {
+    "id": "wine-dinner",
+    "zh": "葡萄酒晚餐",
+    "en": "Wine Dinner",
+    "topCategory": "food-dining",
+    "subCategory": "餐饮与美食社交",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐桌破冰",
+      "口味探索",
+      "餐厅选择边界"
+    ]
+  },
+  {
+    "id": "craft-beer",
+    "zh": "精酿啤酒",
+    "en": "Craft Beer",
+    "topCategory": "food-dining",
+    "subCategory": "餐饮与美食社交",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐桌破冰",
+      "口味探索",
+      "餐厅选择边界"
+    ]
+  },
+  {
+    "id": "vegetarian-dining",
+    "zh": "素食饭局",
+    "en": "Vegetarian Dining",
+    "topCategory": "food-dining",
+    "subCategory": "餐饮与美食社交",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐桌破冰",
+      "口味探索",
+      "餐厅选择边界"
+    ]
+  },
+  {
+    "id": "halal-friendly-dining",
+    "zh": "清真友好饭局",
+    "en": "Halal-friendly Dining",
+    "topCategory": "food-dining",
+    "subCategory": "餐饮与美食社交",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐桌破冰",
+      "口味探索",
+      "餐厅选择边界"
+    ]
+  },
+  {
+    "id": "local-food",
+    "zh": "本地美食",
+    "en": "Local Food",
+    "topCategory": "food-dining",
+    "subCategory": "餐饮与美食社交",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐桌破冰",
+      "口味探索",
+      "餐厅选择边界"
+    ]
+  },
+  {
+    "id": "hidden-gem-restaurant",
+    "zh": "宝藏餐厅",
+    "en": "Hidden-gem Restaurant",
+    "topCategory": "food-dining",
+    "subCategory": "餐饮与美食社交",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐桌破冰",
+      "口味探索",
+      "餐厅选择边界"
+    ]
+  },
+  {
+    "id": "family-style-meal",
+    "zh": "家庭式聚餐",
+    "en": "Family-style Meal",
+    "topCategory": "food-dining",
+    "subCategory": "餐饮与美食社交",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐桌破冰",
+      "口味探索",
+      "餐厅选择边界"
+    ]
+  },
+  {
+    "id": "dessert-tasting",
+    "zh": "甜品品鉴",
+    "en": "Dessert Tasting",
+    "topCategory": "food-dining",
+    "subCategory": "餐饮与美食社交",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐桌破冰",
+      "口味探索",
+      "餐厅选择边界"
+    ]
+  },
+  {
+    "id": "no-alcohol-dinner",
+    "zh": "无酒精饭局",
+    "en": "No-alcohol Dinner",
+    "topCategory": "food-dining",
+    "subCategory": "餐饮与美食社交",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐桌破冰",
+      "口味探索",
+      "餐厅选择边界"
+    ]
+  },
+  {
+    "id": "city-newcomer",
+    "zh": "城市新人",
+    "en": "City Newcomer",
+    "topCategory": "city-life",
+    "subCategory": "城市生活场景",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "城市新人",
+      "街区社交",
+      "周末小桌"
+    ]
+  },
+  {
+    "id": "after-work-social",
+    "zh": "下班后社交",
+    "en": "After-work Social",
+    "topCategory": "city-life",
+    "subCategory": "城市生活场景",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "城市新人",
+      "街区社交",
+      "周末小桌"
+    ]
+  },
+  {
+    "id": "weekend-social",
+    "zh": "周末社交",
+    "en": "Weekend Social",
+    "topCategory": "city-life",
+    "subCategory": "城市生活场景",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "城市新人",
+      "街区社交",
+      "周末小桌"
+    ]
+  },
+  {
+    "id": "neighborhood-social",
+    "zh": "街区社交",
+    "en": "Neighborhood Social",
+    "topCategory": "city-life",
+    "subCategory": "城市生活场景",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "城市新人",
+      "街区社交",
+      "周末小桌"
+    ]
+  },
+  {
+    "id": "remote-worker-social",
+    "zh": "远程工作者社交",
+    "en": "Remote Worker Social",
+    "topCategory": "city-life",
+    "subCategory": "城市生活场景",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "城市新人",
+      "街区社交",
+      "周末小桌"
+    ]
+  },
+  {
+    "id": "business-traveler",
+    "zh": "商务差旅",
+    "en": "Business Traveler",
+    "topCategory": "city-life",
+    "subCategory": "城市生活场景",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "城市新人",
+      "街区社交",
+      "周末小桌"
+    ]
+  },
+  {
+    "id": "solo-diner",
+    "zh": "独自吃饭",
+    "en": "Solo Diner",
+    "topCategory": "city-life",
+    "subCategory": "城市生活场景",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "城市新人",
+      "街区社交",
+      "周末小桌"
+    ]
+  },
+  {
+    "id": "local-guide",
+    "zh": "本地向导",
+    "en": "Local Guide",
+    "topCategory": "city-life",
+    "subCategory": "城市生活场景",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "城市新人",
+      "街区社交",
+      "周末小桌"
+    ]
+  },
+  {
+    "id": "small-table-social",
+    "zh": "小桌社交",
+    "en": "Small-table Social",
+    "topCategory": "city-life",
+    "subCategory": "城市生活场景",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "城市新人",
+      "街区社交",
+      "周末小桌"
+    ]
+  },
+  {
+    "id": "third-place",
+    "zh": "第三空间",
+    "en": "Third Place",
+    "topCategory": "city-life",
+    "subCategory": "城市生活场景",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "城市新人",
+      "街区社交",
+      "周末小桌"
+    ]
+  },
+  {
+    "id": "city-arrival",
+    "zh": "刚到一座城市",
+    "en": "City Arrival",
+    "topCategory": "city-life",
+    "subCategory": "城市生活场景",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "城市新人",
+      "街区社交",
+      "周末小桌"
+    ]
+  },
+  {
+    "id": "community-dinner",
+    "zh": "社区饭局",
+    "en": "Community Dinner",
+    "topCategory": "city-life",
+    "subCategory": "城市生活场景",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "城市新人",
+      "街区社交",
+      "周末小桌"
+    ]
+  },
+  {
+    "id": "singles-social",
+    "zh": "单身社交",
+    "en": "Singles Social",
+    "topCategory": "dating-relationship",
+    "subCategory": "低压力交友",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "低压力认识新朋友",
+      "尊重边界",
+      "非操控式交友"
+    ]
+  },
+  {
+    "id": "serious-dating",
+    "zh": "认真交友",
+    "en": "Serious Dating",
+    "topCategory": "dating-relationship",
+    "subCategory": "低压力交友",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "低压力认识新朋友",
+      "尊重边界",
+      "非操控式交友"
+    ]
+  },
+  {
+    "id": "date-free-social",
+    "zh": "非相亲社交",
+    "en": "Date-free Social",
+    "topCategory": "dating-relationship",
+    "subCategory": "低压力交友",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "低压力认识新朋友",
+      "尊重边界",
+      "非操控式交友"
+    ]
+  },
+  {
+    "id": "friendship-first",
+    "zh": "先做朋友",
+    "en": "Friendship First",
+    "topCategory": "dating-relationship",
+    "subCategory": "低压力交友",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "低压力认识新朋友",
+      "尊重边界",
+      "非操控式交友"
+    ]
+  },
+  {
+    "id": "introvert-dating",
+    "zh": "内向者低压力交友",
+    "en": "Introvert Low-pressure Dating",
+    "topCategory": "dating-relationship",
+    "subCategory": "低压力交友",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "低压力认识新朋友",
+      "尊重边界",
+      "非操控式交友"
+    ]
+  },
+  {
+    "id": "post-breakup-social",
+    "zh": "分手后重建社交",
+    "en": "Post-breakup Social",
+    "topCategory": "dating-relationship",
+    "subCategory": "低压力交友",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "低压力认识新朋友",
+      "尊重边界",
+      "非操控式交友"
+    ]
+  },
+  {
+    "id": "thirty-plus-singles",
+    "zh": "30+ 单身社交",
+    "en": "30+ Singles Social",
+    "topCategory": "dating-relationship",
+    "subCategory": "低压力交友",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "低压力认识新朋友",
+      "尊重边界",
+      "非操控式交友"
+    ]
+  },
+  {
+    "id": "women-safe-dating",
+    "zh": "女性安全交友",
+    "en": "Women-safe Dating",
+    "topCategory": "dating-relationship",
+    "subCategory": "低压力交友",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "低压力认识新朋友",
+      "尊重边界",
+      "非操控式交友"
+    ]
+  },
+  {
+    "id": "international-students",
+    "zh": "国际学生",
+    "en": "International Students",
+    "topCategory": "study-abroad",
+    "subCategory": "留学与校友饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新生适应",
+      "校友饭局",
+      "跨文化餐桌"
+    ]
+  },
+  {
+    "id": "chinese-students-overseas",
+    "zh": "海外中国学生",
+    "en": "Chinese Students Overseas",
+    "topCategory": "study-abroad",
+    "subCategory": "留学与校友饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新生适应",
+      "校友饭局",
+      "跨文化餐桌"
+    ]
+  },
+  {
+    "id": "returnee-students",
+    "zh": "留学归国",
+    "en": "Returnee Students",
+    "topCategory": "study-abroad",
+    "subCategory": "留学与校友饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新生适应",
+      "校友饭局",
+      "跨文化餐桌"
+    ]
+  },
+  {
+    "id": "mba-students",
+    "zh": "MBA 学生",
+    "en": "MBA Students",
+    "topCategory": "study-abroad",
+    "subCategory": "留学与校友饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新生适应",
+      "校友饭局",
+      "跨文化餐桌"
+    ]
+  },
+  {
+    "id": "graduate-students",
+    "zh": "研究生",
+    "en": "Graduate Students",
+    "topCategory": "study-abroad",
+    "subCategory": "留学与校友饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新生适应",
+      "校友饭局",
+      "跨文化餐桌"
+    ]
+  },
+  {
+    "id": "undergraduate-students",
+    "zh": "本科生",
+    "en": "Undergraduate Students",
+    "topCategory": "study-abroad",
+    "subCategory": "留学与校友饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新生适应",
+      "校友饭局",
+      "跨文化餐桌"
+    ]
+  },
+  {
+    "id": "alumni-network",
+    "zh": "校友网络",
+    "en": "Alumni Network",
+    "topCategory": "study-abroad",
+    "subCategory": "留学与校友饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新生适应",
+      "校友饭局",
+      "跨文化餐桌"
+    ]
+  },
+  {
+    "id": "language-exchange",
+    "zh": "语言交换",
+    "en": "Language Exchange",
+    "topCategory": "study-abroad",
+    "subCategory": "留学与校友饭局",
+    "riskLevel": "low",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "新生适应",
+      "校友饭局",
+      "跨文化餐桌"
+    ]
+  },
+  {
+    "id": "new-immigrants",
+    "zh": "新移民",
+    "en": "New Immigrants",
+    "topCategory": "immigration",
+    "subCategory": "移居适应饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "新城市适应",
+      "生活经验交流",
+      "不提供法律承诺"
+    ]
+  },
+  {
+    "id": "expats",
+    "zh": "外籍人士",
+    "en": "Expats",
+    "topCategory": "immigration",
+    "subCategory": "移居适应饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "新城市适应",
+      "生活经验交流",
+      "不提供法律承诺"
+    ]
+  },
+  {
+    "id": "returnees",
+    "zh": "海归",
+    "en": "Returnees",
+    "topCategory": "immigration",
+    "subCategory": "移居适应饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "新城市适应",
+      "生活经验交流",
+      "不提供法律承诺"
+    ]
+  },
+  {
+    "id": "overseas-chinese",
+    "zh": "海外华人",
+    "en": "Overseas Chinese",
+    "topCategory": "immigration",
+    "subCategory": "移居适应饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "新城市适应",
+      "生活经验交流",
+      "不提供法律承诺"
+    ]
+  },
+  {
+    "id": "relocation",
+    "zh": "异地搬迁",
+    "en": "Relocation",
+    "topCategory": "immigration",
+    "subCategory": "移居适应饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "新城市适应",
+      "生活经验交流",
+      "不提供法律承诺"
+    ]
+  },
+  {
+    "id": "cross-cultural-life",
+    "zh": "跨文化生活",
+    "en": "Cross-cultural Life",
+    "topCategory": "immigration",
+    "subCategory": "移居适应饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 4,
+    "possibleAngles": [
+      "新城市适应",
+      "生活经验交流",
+      "不提供法律承诺"
+    ]
+  },
+  {
+    "id": "women-friendly-dinner",
+    "zh": "女性友好饭局",
+    "en": "Women-friendly Dinner",
+    "topCategory": "women-friendly",
+    "subCategory": "女性友好饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "边界感",
+      "女性主理",
+      "安全和尊重"
+    ]
+  },
+  {
+    "id": "women-in-tech",
+    "zh": "科技女性",
+    "en": "Women in Tech",
+    "topCategory": "women-friendly",
+    "subCategory": "女性友好饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "边界感",
+      "女性主理",
+      "安全和尊重"
+    ]
+  },
+  {
+    "id": "women-founders",
+    "zh": "女性创业者",
+    "en": "Women Founders",
+    "topCategory": "women-friendly",
+    "subCategory": "女性友好饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "边界感",
+      "女性主理",
+      "安全和尊重"
+    ]
+  },
+  {
+    "id": "women-creators",
+    "zh": "女性创作者",
+    "en": "Women Creators",
+    "topCategory": "women-friendly",
+    "subCategory": "女性友好饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "边界感",
+      "女性主理",
+      "安全和尊重"
+    ]
+  },
+  {
+    "id": "women-finance",
+    "zh": "金融女性",
+    "en": "Women in Finance",
+    "topCategory": "women-friendly",
+    "subCategory": "女性友好饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "边界感",
+      "女性主理",
+      "安全和尊重"
+    ]
+  },
+  {
+    "id": "women-newcomers",
+    "zh": "女性城市新人",
+    "en": "Women Newcomers",
+    "topCategory": "women-friendly",
+    "subCategory": "女性友好饭局",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "边界感",
+      "女性主理",
+      "安全和尊重"
+    ]
+  },
+  {
+    "id": "premium-restaurant",
+    "zh": "高质量餐厅",
+    "en": "Premium Restaurant",
+    "topCategory": "premium-dining",
+    "subCategory": "高质量餐桌",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐厅体验",
+      "预算透明",
+      "不夸大高端"
+    ]
+  },
+  {
+    "id": "private-room-dinner",
+    "zh": "包间小桌",
+    "en": "Private-room Dinner",
+    "topCategory": "premium-dining",
+    "subCategory": "高质量餐桌",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐厅体验",
+      "预算透明",
+      "不夸大高端"
+    ]
+  },
+  {
+    "id": "chef-table",
+    "zh": "主厨餐桌",
+    "en": "Chef Table",
+    "topCategory": "premium-dining",
+    "subCategory": "高质量餐桌",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐厅体验",
+      "预算透明",
+      "不夸大高端"
+    ]
+  },
+  {
+    "id": "fine-dining",
+    "zh": "精致餐饮",
+    "en": "Fine Dining",
+    "topCategory": "premium-dining",
+    "subCategory": "高质量餐桌",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐厅体验",
+      "预算透明",
+      "不夸大高端"
+    ]
+  },
+  {
+    "id": "business-banquet-light",
+    "zh": "轻商务宴请",
+    "en": "Light Business Banquet",
+    "topCategory": "premium-dining",
+    "subCategory": "高质量餐桌",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐厅体验",
+      "预算透明",
+      "不夸大高端"
+    ]
+  },
+  {
+    "id": "tasting-menu-social",
+    "zh": "品鉴菜单社交",
+    "en": "Tasting-menu Social",
+    "topCategory": "premium-dining",
+    "subCategory": "高质量餐桌",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐厅体验",
+      "预算透明",
+      "不夸大高端"
+    ]
+  },
+  {
+    "id": "quiet-dinner",
+    "zh": "安静晚餐",
+    "en": "Quiet Dinner",
+    "topCategory": "premium-dining",
+    "subCategory": "高质量餐桌",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐厅体验",
+      "预算透明",
+      "不夸大高端"
+    ]
+  },
+  {
+    "id": "special-occasion-dinner",
+    "zh": "纪念日晚餐",
+    "en": "Special-occasion Dinner",
+    "topCategory": "premium-dining",
+    "subCategory": "高质量餐桌",
+    "riskLevel": "medium",
+    "fanjuRelevanceBase": 5,
+    "possibleAngles": [
+      "餐厅体验",
+      "预算透明",
+      "不夸大高端"
+    ]
+  }
+]

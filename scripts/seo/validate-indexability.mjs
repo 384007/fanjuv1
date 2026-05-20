@@ -20,6 +20,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, "../..")
 const SITE = "https://fanju.app"
 const READY_DIR = join(ROOT, "content/seo-ready")
+const GENERATED_INDEX_DIR = join(ROOT, "content/articles/ready/index")
+const GENERATED_NOINDEX_DIR = join(ROOT, "content/articles/ready/noindex")
 const SITEMAP_FILE = join(ROOT, "public/sitemap.xml")
 const MIN_SCORE = 90
 
@@ -27,7 +29,6 @@ let errors = 0
 let warnings = 0
 
 function fail(msg) { console.error(`  ❌ ${msg}`); errors++ }
-function warn(msg) { console.warn(`  ⚠️  ${msg}`); warnings++ }
 function pass(msg) { console.log(`  ✅ ${msg}`) }
 
 // ─── 1. Parse ready articles ──────────────────────────────────────────────────
@@ -47,6 +48,10 @@ function normalizePath(p) {
   if (!p) return ""
   const n = p.startsWith("/") ? p : `/${p}`
   return n.endsWith("/") && n.length > 1 ? n.slice(0, -1) : n
+}
+
+function isSeoHubPath(path) {
+  return /^\/(?:en\/)?city\/[^/]+$/.test(path) || /^\/(?:en\/)?category\/[^/]+$/.test(path)
 }
 
 console.log("\n🔍 Validating SEO indexability...\n")
@@ -71,6 +76,37 @@ if (existsSync(READY_DIR)) {
     articlesByPath.set(cp, { file, meta })
   }
 }
+if (existsSync(GENERATED_INDEX_DIR)) {
+  for (const file of readdirSync(GENERATED_INDEX_DIR).filter((f) => f.endsWith(".json"))) {
+    let article
+    try {
+      article = JSON.parse(readFileSync(join(GENERATED_INDEX_DIR, file), "utf8"))
+    } catch {
+      continue
+    }
+    const cp = normalizePath(article.canonicalPath || "")
+    if (!cp) continue
+    if (article.status === "publish" && article.robots === "index,follow" && article.sitemapEligible !== false) {
+      canonicalPaths.add(cp)
+      articlesByPath.set(cp, { file: `content/articles/ready/index/${file}`, meta: { canonicalPath: cp, lang: article.language || (cp.startsWith("/en/") ? "en" : "zh") } })
+    } else {
+      draftPaths.add(cp)
+    }
+  }
+}
+
+if (existsSync(GENERATED_NOINDEX_DIR)) {
+  for (const file of readdirSync(GENERATED_NOINDEX_DIR).filter((f) => f.endsWith(".json"))) {
+    let article
+    try {
+      article = JSON.parse(readFileSync(join(GENERATED_NOINDEX_DIR, file), "utf8"))
+    } catch {
+      continue
+    }
+    const cp = normalizePath(article.canonicalPath || "")
+    if (cp) draftPaths.add(cp)
+  }
+}
 
 console.log(`📄 Ready articles: ${canonicalPaths.size} canonical, ${draftPaths.size} draft\n`)
 
@@ -78,14 +114,12 @@ console.log(`📄 Ready articles: ${canonicalPaths.size} canonical, ${draftPaths
 
 console.log("── Sitemap validation ──")
 
-// Load static seo-data city/category paths (these are template pages, not ready articles)
+// Load static seo-data city/category paths. These are template pages that are
+// intentionally kept in the full sitemap, even when no dedicated ready article exists.
 const seoDataPaths = new Set()
 const seoDataFile = join(ROOT, "lib/seo-data.ts")
 if (existsSync(seoDataFile)) {
   const seoDataContent = readFileSync(seoDataFile, "utf8")
-  const citySlugs = [...seoDataContent.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1])
-  // The first set of slugs are cities, the rest are categories
-  // Detect by looking at the arrays
   const cityMatch = seoDataContent.match(/export const cities[\s\S]*?\n\]/m)
   const catMatch = seoDataContent.match(/export const categories[\s\S]*?\n\]/m)
   const citySlugList = cityMatch ? [...cityMatch[0].matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]) : []
@@ -123,7 +157,6 @@ if (!existsSync(SITEMAP_FILE)) {
       sitemapDrafts++
     }
 
-    // Article URL check: city/X/Y pattern, not covered by seo-data templates, must have ready article
     if (/^\/(?:en\/)?city\/[^/]+\/[^/]+$/.test(path) && !canonicalPaths.has(path) && !seoDataPaths.has(path)) {
       fail(`Sitemap article URL has no dedicated ready article: ${path}`)
       sitemapNoArticle++
@@ -136,7 +169,7 @@ if (!existsSync(SITEMAP_FILE)) {
   if (sitemapDrafts > 0) fail(`${sitemapDrafts} draft URLs found in sitemap`)
   else pass("No draft URLs in sitemap")
 
-  if (sitemapNoArticle === 0) pass("All sitemap article URLs have dedicated ready articles or seo-data coverage")
+  if (sitemapNoArticle === 0) pass("All sitemap city/category URLs have dedicated ready articles or seo-data coverage")
 
   pass(`Sitemap contains ${sitemapUrls.length} URLs total`)
 }
@@ -185,14 +218,14 @@ if (hreflangMissing > 0) pass(`${hreflangMissing} articles are single-language (
 console.log("\n── Fallback path check ──")
 
 // A fallback path is any derived alternate that does NOT have a dedicated ready article.
-// These should never appear in sitemaps or be linked internally (unless covered by seo-data templates).
+// These should never appear in sitemaps.
 let fallbackLinked = 0
 if (existsSync(SITEMAP_FILE)) {
   const sitemapContent = readFileSync(SITEMAP_FILE, "utf8")
   const sitemapLocs = new Set([...sitemapContent.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]))
   for (const [path] of articlesByPath) {
     const altPath = path.startsWith("/en/") ? path.slice(3) : `/en${path}`
-    if (!canonicalPaths.has(altPath) && !seoDataPaths.has(altPath)) {
+    if (!canonicalPaths.has(altPath) && !seoDataPaths.has(altPath) && !isSeoHubPath(altPath)) {
       const altUrl = `${SITE}${altPath}`
       if (sitemapLocs.has(altUrl)) {
         fail(`Fallback path "${altPath}" is linked in sitemap (no dedicated article exists)`)
@@ -217,6 +250,21 @@ if (existsSync(READY_DIR)) {
     const cp = normalizePath(meta.canonicalPath)
     if (!pathCounts.has(cp)) pathCounts.set(cp, [])
     pathCounts.get(cp).push(file)
+  }
+}
+if (existsSync(GENERATED_INDEX_DIR)) {
+  for (const file of readdirSync(GENERATED_INDEX_DIR).filter((f) => f.endsWith(".json"))) {
+    let article
+    try {
+      article = JSON.parse(readFileSync(join(GENERATED_INDEX_DIR, file), "utf8"))
+    } catch {
+      continue
+    }
+    if (article.status !== "publish" || article.robots !== "index,follow" || article.sitemapEligible === false) continue
+    const cp = normalizePath(article.canonicalPath || "")
+    if (!cp) continue
+    if (!pathCounts.has(cp)) pathCounts.set(cp, [])
+    pathCounts.get(cp).push(`content/articles/ready/index/${file}`)
   }
 }
 

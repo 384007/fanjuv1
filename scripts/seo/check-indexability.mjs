@@ -90,7 +90,6 @@ async function checkUrl(raw) {
   const zhHref = hreflang["zh-cn"] || hreflang.zh || ""
   const enHref = hreflang.en || ""
   const hasZh = !url.includes("/en/")
-  const hasEn = url.includes("/en/") || enHref
 
   if (!zhHref && !enHref) {
     issues.push({ code: "missing-hreflang", detail: "no zh-CN or en alternates" })

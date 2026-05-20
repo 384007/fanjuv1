@@ -6,7 +6,7 @@ import { SiteHeader } from "@/components/site-header"
 
 export const metadata: Metadata = {
   title: "饭局广场｜饭局 Fanju",
-  description: "饭局 Fanju 饭局广场，连接 /api/dinners 展示公开城市饭局。",
+  description: "饭局 Fanju 饭局广场用于浏览公开城市饭局，查看地点范围、时间安排、席位状态和口令入口。",
   alternates: { canonical: "/market" },
 }
 
@@ -20,7 +20,7 @@ export default function MarketPage() {
         <div className="mx-auto max-w-[1100px] px-4 py-16 md:px-8 md:py-24">
           <div className="font-mono text-[11px] tracking-[0.25em] text-accent uppercase">FANJU MARKET</div>
           <h1 className="mt-7 font-serif text-4xl leading-[1.08] text-foreground md:text-6xl">饭局广场</h1>
-          <p className="mt-6 max-w-3xl text-base leading-relaxed text-muted-foreground md:text-lg">从 /api/dinners 拉取公开饭局，展示城市、区域、时间、席位状态和口令入口。</p>
+          <p className="mt-6 max-w-3xl text-base leading-relaxed text-muted-foreground md:text-lg">浏览公开饭局的城市、区域、时间、席位状态和口令入口，先判断主题与同桌边界，再决定是否继续了解或报名。</p>
         </div>
       </section>
       <section className="border-b border-border/60"><div className="mx-auto max-w-[1100px] px-4 py-12 md:px-8 md:py-16"><DinnerListClient /></div></section>

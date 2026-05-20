@@ -34,7 +34,9 @@ function parseJsonLines(text) {
     if (!t.startsWith("{") || !t.endsWith("}")) continue;
     try {
       rows.push(JSON.parse(t));
-    } catch {}
+    } catch {
+      // Ignore malformed log lines; this wrapper only softens known live-check issues.
+    }
   }
   return rows;
 }

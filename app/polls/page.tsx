@@ -5,7 +5,7 @@ import { SiteHeader } from "@/components/site-header"
 
 export const metadata: Metadata = {
   title: "饭局时间投票｜饭局 Fanju",
-  description: "饭局 Fanju 时间投票页面，用于在确定饭局前收集参与者可参加时间。",
+  description: "饭局 Fanju 时间投票用于在确认饭局前收集候选时间，减少反复沟通，让主理人更快确定适合多数人的小桌晚餐。",
   alternates: { canonical: "/polls" },
 }
 
@@ -28,6 +28,20 @@ export default function PollsPage() {
             <Link href="/features/date-poll" className="bg-accent px-4 py-3 font-mono text-[11px] tracking-[0.2em] text-accent-foreground uppercase">时间投票功能</Link>
             <Link href="/create" className="border border-border bg-secondary/40 px-4 py-3 font-mono text-[11px] tracking-[0.2em] text-foreground uppercase hover:border-accent/70 hover:text-accent">创建饭局</Link>
           </div>
+        </div>
+      </section>
+      <section className="border-b border-border/60">
+        <div className="mx-auto grid max-w-[1100px] gap-8 px-4 py-12 md:grid-cols-3 md:px-8 md:py-16">
+          {[
+            ["先投票再确认", "饭局还没定死时间时，先给出 2 到 4 个候选档，让参与者选择真实可参加时间，减少群聊来回确认。"],
+            ["保留主理判断", "投票结果不是机械排期，主理人仍可以结合餐厅空位、同桌组合和主题适配度，选择最稳妥的一档。"],
+            ["适合小桌场景", "周末饭局、商务晚餐、朋友局和新人饭局都适合先投票，尤其是参与者来自不同城区或工作时间不一致时。"],
+          ].map(([title, body]) => (
+            <article key={title} className="border border-border/60 bg-card/35 p-5">
+              <h2 className="font-serif text-2xl text-foreground">{title}</h2>
+              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{body}</p>
+            </article>
+          ))}
         </div>
       </section>
       <section className="border-b border-border/60">

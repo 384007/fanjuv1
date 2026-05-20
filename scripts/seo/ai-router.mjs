@@ -23,16 +23,6 @@ function getProviderKeys(envPrefix) {
   console.log(`[ai-router] ${prefix}: ${n} key(s) loaded`)
 })
 
-function pickKey(provider, envPrefix) {
-  const keys = getProviderKeys(envPrefix)
-  if (keys.length === 0) return null
-  for (let i = 0; i < keys.length; i++) {
-    const mapKey = `${provider}:${i}`
-    if ((keyCooldownUntil.get(mapKey) || 0) <= Date.now()) return { key: keys[i], index: i }
-  }
-  return null // all keys on cooldown
-}
-
 function cooldownKey(provider, keyIndex, ms) {
   const mapKey = `${provider}:${keyIndex}`
   keyCooldownUntil.set(mapKey, Date.now() + ms)

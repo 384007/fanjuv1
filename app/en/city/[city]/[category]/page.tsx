@@ -79,6 +79,24 @@ export default async function EnCityCategoryPage({ params }: PageProps) {
         <SeoPage lang="en" eyebrow={`${city.provinceEn} · ${category.nameEn}`} title={title} answer={answer} faq={faq} city={city} category={category} breadcrumbs={breadcrumbs} alternatePath={`/city/${city.slug}/${category.slug}`}>
           <ContentBlock title={`About ${city.nameEn}`} id="city"><p>{city.introEn}</p></ContentBlock>
           <ContentBlock title={`About ${category.nameEn}`} id="category"><p>{category.introEn}</p></ContentBlock>
+          {city.highlightsEn && city.highlightsEn.length > 0 && (
+            <ContentBlock title={`${city.nameEn} ${category.nameEn} Local Context`} id="local-context">
+              <ul className="ml-4 list-disc space-y-2">
+                {city.highlightsEn.map((highlight) => (
+                  <li key={highlight}>{highlight}</li>
+                ))}
+              </ul>
+            </ContentBlock>
+          )}
+          {category.tipsEn && category.tipsEn.length > 0 && (
+            <ContentBlock title={`${category.nameEn} Sign-up Notes`} id="tips">
+              <ul className="ml-4 list-disc space-y-2">
+                {category.tipsEn.map((tip) => (
+                  <li key={tip}>{tip}</li>
+                ))}
+              </ul>
+            </ContentBlock>
+          )}
           <ContentBlock title="Browse more" id="more"><LinkGrid items={[[`${city.nameEn} Dinners`, `/en/city/${city.slug}`], [category.nameEn, `/en/category/${category.slug}`], ["All cities", "/en/cities"], ["All categories", "/en/categories"]]} /></ContentBlock>
         </SeoPage>
       </>

@@ -58,8 +58,18 @@
     "seo:i18n:check": "node scripts/seo/check-i18n-coverage.mjs",
     "seo:locale:check": "node scripts/seo/check-locale-content.mjs",
     "seo:pages:check": "node scripts/seo/check-built-pages.mjs",
+    "seo:serve:export": "node scripts/seo/serve-export-clean-urls.mjs",
+    "seo:exported-pages:check": "node scripts/seo/check-exported-sitemap-pages.mjs",
+    "seo:browser:sitemap": "node scripts/seo/check-sitemap-headless-chrome.mjs",
     "seo:public:check": "node scripts/seo/check-public-no-tech-leak.mjs",
-    "seo:indexability:check": "node scripts/seo/check-indexability.mjs"
+    "seo:indexability:check": "node scripts/seo/check-indexability.mjs",
+    "seo:taxonomy": "node scripts/seo/generate-taxonomy.mjs",
+    "seo:topics": "node scripts/seo/generate-topic-candidates.mjs",
+    "seo:articles": "node scripts/seo/generate-ai-seo-articles.mjs",
+    "seo:audit:links": "node scripts/seo/audit-article-links.mjs",
+    "seo:audit:quality": "node scripts/seo/audit-article-quality.mjs",
+    "seo:audit:sitemap": "node scripts/seo/audit-sitemap-indexability.mjs",
+    "seo:content:all": "pnpm seo:taxonomy && pnpm seo:topics && pnpm seo:articles && pnpm seo:audit:links && pnpm seo:audit:quality && pnpm seo:audit:sitemap"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",

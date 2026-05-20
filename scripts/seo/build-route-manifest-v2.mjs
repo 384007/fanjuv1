@@ -15,6 +15,8 @@ import { fileURLToPath } from "url"
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, "../..")
 const READY_DIR = join(ROOT, "content/seo-ready")
+const GENERATED_INDEX_DIR = join(ROOT, "content/articles/ready/index")
+const GENERATED_NOINDEX_DIR = join(ROOT, "content/articles/ready/noindex")
 const OUT_DIR = join(ROOT, "dist/seo")
 const OUT_FILE = join(OUT_DIR, "route-manifest-v2.json")
 const SITE = "https://fanju.app"
@@ -92,6 +94,43 @@ if (existsSync(READY_DIR)) {
         file: `${file} (fallback)`,
       })
     }
+  }
+}
+
+if (existsSync(GENERATED_INDEX_DIR)) {
+  for (const file of readdirSync(GENERATED_INDEX_DIR).filter((f) => f.endsWith(".json"))) {
+    let article
+    try {
+      article = JSON.parse(readFileSync(join(GENERATED_INDEX_DIR, file), "utf8"))
+    } catch {
+      continue
+    }
+    const cp = normalizePath(article.canonicalPath || "")
+    if (!cp) continue
+    if (article.status !== "publish" || article.robots !== "index,follow" || article.sitemapEligible === false) {
+      manifest.draft.push({ path: cp, file, reason: "not_indexable_generated_article" })
+      continue
+    }
+    manifest.canonical.push({
+      path: cp,
+      url: `${SITE}${cp}`,
+      lang: article.language || (cp.startsWith("/en/") ? "en" : "zh"),
+      translationKey: null,
+      file: `content/articles/ready/index/${file}`,
+    })
+  }
+}
+
+if (existsSync(GENERATED_NOINDEX_DIR)) {
+  for (const file of readdirSync(GENERATED_NOINDEX_DIR).filter((f) => f.endsWith(".json"))) {
+    let article
+    try {
+      article = JSON.parse(readFileSync(join(GENERATED_NOINDEX_DIR, file), "utf8"))
+    } catch {
+      continue
+    }
+    const cp = normalizePath(article.canonicalPath || "")
+    if (cp) manifest.draft.push({ path: cp, file: `content/articles/ready/noindex/${file}`, reason: "generated_noindex" })
   }
 }
 

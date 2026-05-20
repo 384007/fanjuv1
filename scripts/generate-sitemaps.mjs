@@ -173,6 +173,7 @@ const seoUrls = [
 // fallback-rendered pages from appearing in the sitemap.
 
 const READY_DIR = join(ROOT, "content/seo-ready")
+const GENERATED_INDEX_DIR = join(ROOT, "content/articles/ready/index")
 const MIN_SCORE = 90
 
 function parseReadyFrontmatter(raw) {
@@ -193,8 +194,8 @@ function normalizeSitemapPath(p) {
 }
 
 const readyArticleUrls = []
+const seenReadyArticleUrls = new Set()
 if (existsSync(READY_DIR)) {
-  const seen = new Set()
   for (const file of readdirSync(READY_DIR).filter((f) => f.endsWith(".md"))) {
     const raw = readFileSync(join(READY_DIR, file), "utf8")
     const meta = parseReadyFrontmatter(raw)
@@ -202,8 +203,24 @@ if (existsSync(READY_DIR)) {
     if (meta.status !== "ready" || score < MIN_SCORE) continue
 
     const cp = normalizeSitemapPath(meta.canonicalPath || `/${meta.slug || file.replace(/\.md$/, "")}`)
-    if (!cp || seen.has(cp)) continue
-    seen.add(cp)
+    if (!cp || seenReadyArticleUrls.has(cp)) continue
+    seenReadyArticleUrls.add(cp)
+    readyArticleUrls.push(cp)
+  }
+}
+
+if (existsSync(GENERATED_INDEX_DIR)) {
+  for (const file of readdirSync(GENERATED_INDEX_DIR).filter((f) => f.endsWith(".json"))) {
+    let article
+    try {
+      article = JSON.parse(readFileSync(join(GENERATED_INDEX_DIR, file), "utf8"))
+    } catch {
+      continue
+    }
+    if (article.status !== "publish" || article.robots !== "index,follow" || article.sitemapEligible === false) continue
+    const cp = normalizeSitemapPath(article.canonicalPath || "")
+    if (!cp || seenReadyArticleUrls.has(cp)) continue
+    seenReadyArticleUrls.add(cp)
     readyArticleUrls.push(cp)
   }
 }

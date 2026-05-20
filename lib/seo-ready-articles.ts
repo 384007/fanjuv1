@@ -3,7 +3,43 @@ import { join } from "path"
 import { categories, cities, guides } from "@/lib/seo-data"
 
 const READY_DIR = join(process.cwd(), "content/seo-ready")
+const GENERATED_INDEX_DIR = join(process.cwd(), "content/articles/ready/index")
 const MIN_SCORE = 90
+
+export type GeneratedArticle = {
+  status: "publish" | "noindex" | "reject"
+  language: "zh" | "en"
+  slug: string
+  canonicalPath: string
+  canonical?: string
+  robots?: "index,follow" | "noindex,follow"
+  sitemapEligible?: boolean
+  title: string
+  metaTitle?: string
+  metaDescription?: string
+  h1?: string
+  excerpt?: string
+  primaryKeyword?: string
+  secondaryKeywords?: string[]
+  searchIntent?: string
+  targetAudience?: string
+  articleType?: string
+  directAnswer?: string
+  entitySummary?: {
+    brand?: string
+    topic?: string
+    city?: string
+    audience?: string
+    scenario?: string
+  }
+  internalLinks?: { anchor: string; url: string; reason?: string }[]
+  sections?: { h2: string; body: string; links?: string[] }[]
+  faq?: { question: string; answer: string }[]
+  schemaSuggestions?: string[]
+  breadcrumbs?: { label: string; url: string }[]
+  cta?: { anchor: string; url: string }
+  audit?: { qualityAudit?: { score?: number } }
+}
 
 export type SeoReadyArticle = {
   slug: string
@@ -20,6 +56,10 @@ export type SeoReadyArticle = {
   priorityScore?: number
   status: string
   body: string
+  robots?: "index,follow" | "noindex,follow"
+  sitemapEligible?: boolean
+  generatedArticle?: GeneratedArticle
+  allowAlternateFallback?: boolean
 }
 
 export type SafeLink = {
@@ -60,35 +100,76 @@ let _cache: SeoReadyArticle[] | null = null
 
 function loadAll(): SeoReadyArticle[] {
   if (_cache) return _cache
-  if (!existsSync(READY_DIR)) return (_cache = [])
 
   const articles: SeoReadyArticle[] = []
-  for (const file of readdirSync(READY_DIR).filter((f) => f.endsWith(".md"))) {
-    const raw = readFileSync(join(READY_DIR, file), "utf8")
-    const { meta, body } = parseFrontmatter(raw)
-    const score = parseInt(meta.aiQualityScore || "0", 10)
-    if (meta.status !== "ready" || score < MIN_SCORE) continue
+  if (existsSync(READY_DIR)) {
+    for (const file of readdirSync(READY_DIR).filter((f) => f.endsWith(".md"))) {
+      const raw = readFileSync(join(READY_DIR, file), "utf8")
+      const { meta, body } = parseFrontmatter(raw)
+      const score = parseInt(meta.aiQualityScore || "0", 10)
+      if (meta.status !== "ready" || score < MIN_SCORE) continue
 
-    const slug = meta.slug || file.replace(/\.md$/, "")
-    const canonicalPath = normalizePath(meta.canonicalPath || `/${slug}`)
-    const alternatePath = meta.alternatePath ? normalizePath(meta.alternatePath) : undefined
+      const slug = meta.slug || file.replace(/\.md$/, "")
+      const canonicalPath = normalizePath(meta.canonicalPath || `/${slug}`)
+      const alternatePath = meta.alternatePath ? normalizePath(meta.alternatePath) : undefined
 
-    articles.push({
-      slug,
-      title: meta.title || slug,
-      titleZh: meta.titleZh,
-      description: meta.description,
-      canonicalPath,
-      canonicalUrl: meta.canonicalUrl,
-      lang: meta.lang,
-      alternatePath,
-      translationKey: meta.translationKey,
-      pageType: meta.pageType,
-      aiQualityScore: score,
-      priorityScore: meta.priorityScore ? parseInt(meta.priorityScore, 10) : undefined,
-      status: meta.status,
-      body,
-    })
+      articles.push({
+        slug,
+        title: meta.title || slug,
+        titleZh: meta.titleZh,
+        description: meta.description,
+        canonicalPath,
+        canonicalUrl: meta.canonicalUrl,
+        lang: meta.lang,
+        alternatePath,
+        translationKey: meta.translationKey,
+        pageType: meta.pageType,
+        aiQualityScore: score,
+        priorityScore: meta.priorityScore ? parseInt(meta.priorityScore, 10) : undefined,
+        status: meta.status,
+        body,
+        robots: "index,follow",
+        sitemapEligible: true,
+        allowAlternateFallback: true,
+      })
+    }
+  }
+
+  if (existsSync(GENERATED_INDEX_DIR)) {
+    for (const file of readdirSync(GENERATED_INDEX_DIR).filter((f) => f.endsWith(".json"))) {
+      let generated: GeneratedArticle
+      try {
+        generated = JSON.parse(readFileSync(join(GENERATED_INDEX_DIR, file), "utf8")) as GeneratedArticle
+      } catch {
+        continue
+      }
+      if (generated.status !== "publish" || generated.robots !== "index,follow" || generated.sitemapEligible === false) continue
+      const canonicalPath = normalizePath(generated.canonicalPath)
+      if (!canonicalPath) continue
+      const body = [
+        `# ${generated.h1 || generated.title}`,
+        generated.directAnswer || generated.excerpt || "",
+        ...(generated.sections || []).flatMap((section) => [`## ${section.h2}`, section.body]),
+      ].filter(Boolean).join("\n\n")
+
+      articles.push({
+        slug: generated.slug || file.replace(/\.json$/, ""),
+        title: generated.title,
+        titleZh: generated.language === "zh" ? generated.title : undefined,
+        description: generated.metaDescription || generated.excerpt,
+        canonicalPath,
+        canonicalUrl: generated.canonical,
+        lang: generated.language,
+        pageType: generated.articleType,
+        aiQualityScore: generated.audit?.qualityAudit?.score || 100,
+        status: "ready",
+        body,
+        robots: generated.robots,
+        sitemapEligible: generated.sitemapEligible,
+        generatedArticle: generated,
+        allowAlternateFallback: false,
+      })
+    }
   }
   return (_cache = articles)
 }
@@ -127,6 +208,7 @@ export function getSeoReadyArticleByPathOrAlternate(
   // Try alternate path
   const altPath = getAlternatePath(normalized)
   const fallback = getSeoReadyArticleByPath(altPath)
+  if (fallback?.allowAlternateFallback === false) return undefined
   if (fallback) return { article: fallback, isFallback: true }
 
   return undefined
@@ -146,6 +228,12 @@ const SAFE_STATIC_PATHS = new Set([
   "/en/what-is-fanju",
   "/social-dining",
   "/faq",
+  "/create",
+  "/invite",
+  "/how-to-find-dinner-buddies",
+  "/how-to-host-a-dinner-gathering",
+  "/business-dinner-networking",
+  "/fanju-vs-tinder",
 ])
 
 const citySlugs = new Set(cities.map((city) => city.slug))
@@ -169,7 +257,7 @@ function safeArticlePathSet(): Set<string> {
   const paths = new Set<string>()
   for (const article of loadAll()) {
     addPath(paths, article.canonicalPath)
-    addPath(paths, article.alternatePath)
+    if (article.allowAlternateFallback !== false) addPath(paths, article.alternatePath)
   }
   return (_safeArticlePathCache = paths)
 }
@@ -360,7 +448,7 @@ export function getSeoReadyCityParams(lang: "zh" | "en"): { city: string }[] {
 
   for (const a of loadAll()) {
     add(a.canonicalPath)
-    add(getAlternatePath(a.canonicalPath))
+    if (a.allowAlternateFallback !== false) add(getAlternatePath(a.canonicalPath))
   }
 
   return result
@@ -381,6 +469,7 @@ export function getSeoReadyStaticParamsForCatchAll(): { slug: string[] }[] {
   for (const a of loadAll()) {
     if (isCityCategoryPath(a.canonicalPath) || a.canonicalPath.startsWith("/en/")) continue
     add(a.canonicalPath)
+    if (a.allowAlternateFallback === false) continue
     // Also add the derived alternatePath if it's not an /en/ path (it won't be, but guard anyway)
     const alt = getAlternatePath(a.canonicalPath)
     if (!alt.startsWith("/en/") && !isCityCategoryPath(alt)) add(alt)
@@ -389,6 +478,7 @@ export function getSeoReadyStaticParamsForCatchAll(): { slug: string[] }[] {
   // Also include fallback paths for /en/ articles (their zh counterpart)
   for (const a of loadAll()) {
     if (!a.canonicalPath.startsWith("/en/") || isEnCityCategoryPath(a.canonicalPath)) continue
+    if (a.allowAlternateFallback === false) continue
     const zhPath = getAlternatePath(a.canonicalPath) // /en/foo → /foo
     if (!isCityCategoryPath(zhPath)) add(zhPath)
   }
@@ -422,6 +512,7 @@ export function getSeoReadyStaticParamsForEnCatchAll(): { slug: string[] }[] {
     if (a.canonicalPath.startsWith("/en/") && !isEnCityCategoryPath(a.canonicalPath)) {
       add(a.canonicalPath)
     }
+    if (a.allowAlternateFallback === false) continue
     // Also add /en/ version of zh articles as fallback paths
     if (!a.canonicalPath.startsWith("/en/") && !isCityCategoryPath(a.canonicalPath)) {
       const enPath = getAlternatePath(a.canonicalPath) // /foo → /en/foo
@@ -452,6 +543,7 @@ export function getSeoReadyCityCategoryParams(lang: "zh" | "en"): { city: string
         if (!seen.has(key)) { seen.add(key); result.push({ city: parts[0], category: parts[1] }) }
       }
     }
+    if (a.allowAlternateFallback === false) continue
     // Also add fallback: if lang=en, add /en/city/x/y for every zh /city/x/y article
     if (lang === "en" && isCityCategoryPath(a.canonicalPath)) {
       const parts = a.canonicalPath.replace("/city/", "").split("/")

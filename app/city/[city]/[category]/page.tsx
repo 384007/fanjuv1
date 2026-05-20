@@ -79,6 +79,24 @@ export default async function CityCategoryPage({ params }: PageProps) {
         <SeoPage lang="zh" eyebrow={`${city.province} · ${category.name}`} title={title} answer={answer} faq={faq} city={city} category={category} breadcrumbs={breadcrumbs} alternatePath={`/en/city/${city.slug}/${category.slug}`}>
           <ContentBlock title={`${city.name}本地说明`} id="city"><p>{city.intro}</p></ContentBlock>
           <ContentBlock title={`${category.name}说明`} id="category"><p>{category.intro}</p></ContentBlock>
+          {city.highlights && city.highlights.length > 0 && (
+            <ContentBlock title={`${city.name}${category.name}本地场景`} id="local-context">
+              <ul className="ml-4 list-disc space-y-2">
+                {city.highlights.map((highlight) => (
+                  <li key={highlight}>{highlight}</li>
+                ))}
+              </ul>
+            </ContentBlock>
+          )}
+          {category.tips && category.tips.length > 0 && (
+            <ContentBlock title={`${category.name}报名建议`} id="tips">
+              <ul className="ml-4 list-disc space-y-2">
+                {category.tips.map((tip) => (
+                  <li key={tip}>{tip}</li>
+                ))}
+              </ul>
+            </ContentBlock>
+          )}
           <ContentBlock title="继续浏览" id="more"><LinkGrid items={[[`${city.name}饭局`, `/city/${city.slug}`], [category.name, `/category/${category.slug}`], ["全部城市", "/cities"], ["全部类型", "/categories"]]} /></ContentBlock>
         </SeoPage>
       </>

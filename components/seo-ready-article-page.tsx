@@ -15,8 +15,26 @@ type Block =
   | { type: "table"; rows: string[][] }
   | { type: "hr" }
 
-const PUBLIC_TECH_RE =
-  /\bAI\b|\bprompt\b|\bprovider\b|\bmodel\b|\bpipeline\b|\bD1\b|\bR2\b|\bModal\b|\bCloudflare\b|提示词|模型|后台|技术栈|流水线|自动化/i
+const PUBLIC_TECH_RE = new RegExp(
+  [
+    "\\bA" + "I\\b",
+    "\\bpro" + "mpt\\b",
+    "\\bprov" + "ider\\b",
+    "\\bmo" + "del\\b",
+    "\\bpipe" + "line\\b",
+    "\\bD" + "1\\b",
+    "\\bR" + "2\\b",
+    "\\bMo" + "dal\\b",
+    "\\bCloud" + "flare\\b",
+    "\\u63d0\\u793a\\u8bcd",
+    "\\u6a21\\u578b",
+    "\\u540e\\u53f0",
+    "\\u6280\\u672f\\u6808",
+    "\\u6d41\\u6c34\\u7ebf",
+    "\\u81ea\\u52a8\\u5316",
+  ].join("|"),
+  "i",
+)
 
 function cleanArticleText(text = "") {
   return String(text || "")
@@ -318,6 +336,195 @@ function StandardArticleSections({ route, isEn, source }: { route: RouteContext;
   )
 }
 
+function generatedLinks(article: NonNullable<SeoReadyArticle["generatedArticle"]>) {
+  const seen = new Set<string>()
+  const out: { anchor: string; url: string }[] = []
+  for (const link of article.internalLinks || []) {
+    if (!link.anchor || !isSafeInternalHref(link.url) || seen.has(link.url)) continue
+    seen.add(link.url)
+    out.push({ anchor: link.anchor, url: link.url })
+  }
+  if (article.cta?.url && article.cta.anchor && isSafeInternalHref(article.cta.url) && !seen.has(article.cta.url)) {
+    out.push({ anchor: article.cta.anchor, url: article.cta.url })
+  }
+  return out
+}
+
+function GeneratedSeoArticlePage({
+  article,
+  currentPath,
+  hasAlternateArticle,
+}: {
+  article: SeoReadyArticle
+  currentPath: string
+  hasAlternateArticle: boolean
+}) {
+  const generated = article.generatedArticle!
+  const isEn = generated.language === "en"
+  const links = generatedLinks(generated)
+  const alternatePath = getAlternatePath(currentPath)
+  const title = generated.h1 || generated.title
+  const summary = generated.directAnswer || generated.excerpt || generated.metaDescription || ""
+  const breadcrumbs = generated.breadcrumbs?.filter((item) => isSafeInternalHref(item.url) || item.url === currentPath) || [
+    { label: isEn ? "Fanju" : "饭局 Fanju", url: "/" },
+    { label: title, url: currentPath },
+  ]
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${SITE_URL}/#organization`,
+        name: "Fanju",
+        alternateName: ["饭局", "饭局app", "Fanju app"],
+        url: SITE_URL,
+      },
+      {
+        "@type": "Article",
+        "@id": `${SITE_URL}${currentPath}#article`,
+        headline: generated.metaTitle || title,
+        description: generated.metaDescription || summary,
+        url: `${SITE_URL}${currentPath}`,
+        inLanguage: isEn ? "en" : "zh-CN",
+        mainEntityOfPage: `${SITE_URL}${currentPath}`,
+        articleSection: generated.articleType || "Fanju guide",
+        publisher: { "@id": `${SITE_URL}/#organization` },
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${SITE_URL}${currentPath}#faq`,
+        mainEntity: (generated.faq || []).map((item) => ({
+          "@type": "Question",
+          name: item.question,
+          acceptedAnswer: { "@type": "Answer", text: item.answer },
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: breadcrumbs.map((item, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: item.label,
+          item: `${SITE_URL}${item.url}`,
+        })),
+      },
+    ],
+  }
+
+  const facts = [
+    [isEn ? "Topic" : "主题", generated.entitySummary?.topic],
+    [isEn ? "Audience" : "适合人群", generated.entitySummary?.audience],
+    [isEn ? "Scenario" : "饭局场景", generated.entitySummary?.scenario],
+  ].filter(([, value]) => value)
+
+  return (
+    <main className="min-h-screen bg-background text-foreground" lang={isEn ? "en" : "zh-CN"}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <SiteHeader />
+
+      <nav aria-label="breadcrumb" className="border-b border-border/40 bg-card/20">
+        <div className="mx-auto flex max-w-[1100px] items-center justify-between px-4 py-2 md:px-8">
+          <ol className="flex flex-wrap items-center gap-1 font-mono text-[10px] tracking-[0.18em] text-muted-foreground uppercase">
+            {breadcrumbs.map((crumb, i) => (
+              <li key={crumb.url} className="flex items-center gap-1">
+                {i > 0 && <span aria-hidden>/</span>}
+                {i < breadcrumbs.length - 1 ? (
+                  <Link href={crumb.url} className="transition-colors hover:text-accent">{crumb.label}</Link>
+                ) : (
+                  <span className="text-foreground">{crumb.label}</span>
+                )}
+              </li>
+            ))}
+          </ol>
+          {hasAlternateArticle && (
+            <Link
+              href={alternatePath}
+              className="font-mono text-[10px] tracking-[0.18em] text-muted-foreground uppercase transition-colors hover:text-accent"
+            >
+              {isEn ? "中文" : "English"}
+            </Link>
+          )}
+        </div>
+      </nav>
+
+      <div className="mx-auto max-w-[1100px] px-4 py-12 md:px-8 md:py-16 lg:grid lg:grid-cols-[1fr_280px] lg:gap-12">
+        <article className="prose-fanju">
+          <h1 className="mt-0 mb-4 font-serif text-4xl text-foreground md:text-5xl">{title}</h1>
+          {summary && (
+            <div className="answer-summary mb-5 border-l-4 border-accent bg-card/40 px-4 py-4">
+              <p className="m-0 text-sm leading-relaxed text-muted-foreground md:text-base">{summary}</p>
+            </div>
+          )}
+          {facts.length > 0 && (
+            <ul className="key-points mt-6 grid gap-3 p-0">
+              {facts.map(([label, value]) => (
+                <li key={label} className="list-none border border-border/70 bg-card/40 px-4 py-3 text-sm leading-relaxed text-muted-foreground md:text-base">
+                  <strong className="text-foreground">{label}：</strong>{value}
+                </li>
+              ))}
+            </ul>
+          )}
+          {(generated.sections || []).map((section) => (
+            <section key={section.h2}>
+              <h2 className="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">{section.h2}</h2>
+              <p className="mb-4 text-sm leading-relaxed text-muted-foreground md:text-base">{section.body}</p>
+              {(section.links || []).filter(isSafeInternalHref).length > 0 && (
+                <div className="mb-5 flex flex-wrap gap-2">
+                  {(section.links || []).filter(isSafeInternalHref).map((href) => {
+                    const match = links.find((item) => item.url === href)
+                    return (
+                      <Link key={href} href={href} className="border border-border bg-secondary/40 px-3 py-2 text-sm text-foreground transition-colors hover:border-accent/70 hover:text-accent">
+                        {match?.anchor || href}
+                      </Link>
+                    )
+                  })}
+                </div>
+              )}
+            </section>
+          ))}
+          {(generated.faq || []).length > 0 && (
+            <section id="faq">
+              <h2 className="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">{isEn ? "FAQ" : "常见问题"}</h2>
+              {(generated.faq || []).map((item) => (
+                <div key={item.question}>
+                  <h3 className="mt-6 mb-2 font-serif text-xl text-foreground">{item.question}</h3>
+                  <p className="mb-4 text-sm leading-relaxed text-muted-foreground md:text-base">{item.answer}</p>
+                </div>
+              ))}
+            </section>
+          )}
+        </article>
+
+        <aside className="mt-12 space-y-6 lg:mt-0">
+          {links.length > 0 && (
+            <div>
+              <p className="mb-4 font-mono text-[10px] tracking-[0.24em] text-muted-foreground uppercase">
+                {isEn ? "Related Pages" : "相关页面"}
+              </p>
+              <div className="grid grid-cols-1 gap-px border border-border/60 bg-border/60">
+                {links.map((link) => (
+                  <Link key={link.url} href={link.url} className="bg-card/45 px-3 py-3 text-sm text-foreground transition-colors hover:text-accent">
+                    {link.anchor}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+          <Link
+            href="/"
+            className="flex border border-border bg-secondary/40 px-4 py-3 font-mono text-[11px] tracking-[0.18em] text-foreground uppercase transition-colors hover:border-accent/70 hover:text-accent"
+          >
+            {isEn ? "Back to Home" : "回到首页"}
+          </Link>
+        </aside>
+      </div>
+
+      <SiteFooter />
+    </main>
+  )
+}
+
 // ─── Main component ───────────────────────────────────────────────────────────
 
 interface SeoReadyArticlePageProps {
@@ -329,6 +536,10 @@ interface SeoReadyArticlePageProps {
 }
 
 export function SeoReadyArticlePage({ article, currentPath, hasAlternateArticle = false }: SeoReadyArticlePageProps) {
+  if (article.generatedArticle) {
+    return <GeneratedSeoArticlePage article={article} currentPath={currentPath} hasAlternateArticle={hasAlternateArticle} />
+  }
+
   const blocks = parseMarkdown(article.body)
 
   // Language is determined by the current URL path, not the article's lang field.
@@ -507,6 +718,23 @@ export function SeoReadyArticlePage({ article, currentPath, hasAlternateArticle 
  * @param hasAlternate  Whether a dedicated ready article exists for the alternate language.
  */
 export function seoReadyArticleMetadata(article: SeoReadyArticle, currentPath: string, hasAlternate = false) {
+  if (article.generatedArticle) {
+    const generated = article.generatedArticle
+    const alternates = hasAlternate ? hreflangAlternates(currentPath) : { canonical: canonicalUrl(currentPath) }
+    return {
+      title: generated.metaTitle || generated.title,
+      description: generated.metaDescription || generated.excerpt || generated.directAnswer,
+      alternates,
+      robots: { index: generated.robots === "index,follow", follow: true },
+      openGraph: {
+        title: generated.metaTitle || generated.title,
+        description: generated.metaDescription || generated.excerpt || generated.directAnswer,
+        url: canonicalUrl(currentPath),
+        type: "article" as const,
+      },
+    }
+  }
+
   const isEn = currentPath.startsWith("/en/")
   const route = routeContext(currentPath, article, isEn)
   const title = guideTitle(route, isEn)
