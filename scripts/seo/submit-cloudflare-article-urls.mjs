@@ -208,8 +208,12 @@ function linkListMarkdown(entries) {
   return entries.map((entry) => `- [${entry.title}](${entry.url})`).join("\n")
 }
 
-function roundupTitle() {
-  return "Latest Fanju app / 饭局app city dinner guides"
+function roundupTitle(entries = []) {
+  const batchTime = entries[0]?.updatedAt ? new Date(entries[0].updatedAt) : new Date()
+  const stamp = Number.isNaN(batchTime.getTime())
+    ? new Date().toISOString().slice(0, 16).replace("T", " ")
+    : batchTime.toISOString().slice(0, 16).replace("T", " ")
+  return `Latest Fanju app / 饭局app city dinner guides - ${stamp} UTC`
 }
 
 function roundupMarkdown(entries) {
@@ -229,7 +233,7 @@ async function publishDevto(entries) {
   const canonical = entries[0]?.url || SITE_ROOT
   const payload = {
     article: {
-      title: roundupTitle(),
+      title: roundupTitle(entries),
       body_markdown: roundupMarkdown(entries),
       published: process.env.PUBLISH_LIVE !== "0",
       canonical_url: canonical,
@@ -250,6 +254,9 @@ async function publishDevto(entries) {
   const body = await res.json().catch(async () => ({ raw: await res.text() }))
   if (!res.ok && res.status === 422 && String(body?.error || "").includes("Canonical url has already been taken")) {
     return { platform: "DEV.to", status: res.status, ok: true, alreadyPublished: true, body }
+  }
+  if (!res.ok && res.status === 422 && /title has already been used/i.test(String(body?.error || body?.raw || ""))) {
+    return { platform: "DEV.to", status: res.status, ok: true, duplicateTitleWindow: true, body }
   }
   return { platform: "DEV.to", status: res.status, ok: res.ok, url: body?.url, body }
 }
@@ -371,7 +378,7 @@ async function publishWordPress(entries) {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      title: roundupTitle(),
+      title: roundupTitle(entries),
       content,
       status: process.env.WORDPRESS_STATUS || "publish",
       excerpt: "Latest Fanju app and 饭局app city dinner guides from fanju.app.",
@@ -398,7 +405,7 @@ async function publishWordPressDotCom(entries, accessToken, siteId) {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      title: roundupTitle(),
+      title: roundupTitle(entries),
       content,
       status: process.env.WORDPRESS_STATUS || "publish",
       excerpt: "Latest Fanju app and 饭局app city dinner guides from fanju.app.",
