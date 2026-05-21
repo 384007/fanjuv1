@@ -176,7 +176,7 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
       try {
         return await callOpenAICompat({
           label: `Groq[${i}]`, endpoint: "https://api.groq.com/openai/v1/chat/completions",
-          apiKey: keys[i], model: process.env.GROQ_MODEL || "llama-3.1-8b-instant",
+          apiKey: keys[i], model: process.env.GROQ_MODEL || "llama-3.3-70b-versatile",
           prompt, system, maxTokens: Math.min(maxTokens, Number.parseInt(process.env.GROQ_MAX_TOKENS || "4200", 10)),
           timeoutMs, tokenParam: "max_tokens", useJsonFormat: false,
         })
@@ -235,7 +235,7 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
       try {
         return await callOpenAICompat({
           label: `NVIDIA[${i}]`, endpoint: "https://integrate.api.nvidia.com/v1/chat/completions",
-          apiKey: keys[i], model: process.env.NVIDIA_MODEL || "meta/llama-3.1-8b-instruct",
+          apiKey: keys[i], model: process.env.NVIDIA_MODEL || "nvidia/llama-3.3-nemotron-super-49b-v1",
           prompt, system, maxTokens,
           timeoutMs: Number.parseInt(process.env.NVIDIA_TIMEOUT_MS || "30000", 10), tokenParam: "max_tokens",
         })
