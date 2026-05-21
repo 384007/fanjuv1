@@ -1,0 +1,34 @@
+name = "fanju-lab-api"
+main = "worker.ts"
+compatibility_date = "2026-05-17"
+
+routes = [
+  { pattern = "fanju.app/api/lab/*", zone_name = "fanju.app" }
+]
+
+[vars]
+MODAL_BASE_URL = "https://fanju-backend--lab-worker-web.modal.run"
+
+[[d1_databases]]
+binding = "FANJU_DB"
+database_name = "fanju-seo-prod"
+database_id = "58d63133-adeb-4efd-b9eb-a9b056271ca5"
+
+[[r2_buckets]]
+binding = "FANJU_LAB_R2"
+bucket_name = "fanju-lab-prod"
+
+[[queues.producers]]
+binding = "PUBLISH_QUEUE"
+queue = "fanju-publish-jobs"
+
+[[queues.producers]]
+binding = "SEO_QUEUE"
+queue = "fanju-seo-jobs"
+
+[[queues.producers]]
+binding = "REWRITE_QUEUE"
+queue = "fanju-rewrite-jobs"
+
+[triggers]
+crons = ["0 0 * * *"]
