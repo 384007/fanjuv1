@@ -388,6 +388,12 @@ function frameIndex(profile, salt, size) {
   return seedFromString(`${profile.citySlug}|${profile.topicSlug}|${profile.angle.id}|${profile.structure}|${profile.titlePattern}|${salt}`) % size
 }
 
+function possessiveEn(value = "") {
+  const s = String(value || "").trim()
+  if (!s) return ""
+  return /s$/i.test(s) ? `${s}'` : `${s}'s`
+}
+
 function angleLensEn(angleId = "") {
   const map = {
     first_timer_view: "first-timer hesitation",
@@ -457,6 +463,7 @@ function articleFrameFor(profile) {
 
   if (isEn) {
     const lens = angleLensEn(profile.angle.id)
+    const cityPossessive = possessiveEn(city)
     const scene = [
       "after-work pause",
       "weekend table",
@@ -477,7 +484,7 @@ function articleFrameFor(profile) {
     ]
     const h2s = [
       [
-        `${city}'s ${scene} is why ${topic} needs a clearer frame`,
+        `${cityPossessive} ${scene} is why ${topic} needs a clearer frame`,
         `The ${scene} in ${city} should not become another loose invite`,
         `Why ${topic} needs a sharper table before the night begins in ${city}`,
       ][frameIndex(profile, "h2-1", 3)],
@@ -561,7 +568,7 @@ function articleFrameFor(profile) {
     ][frameIndex(profile, "h2-4", 3)],
     [
       `舒服的边界不在热闹里而在这些停顿里`,
-      `一桌饭什么时候该慢下来而不是继续加人`,
+      `${city}的饭桌该在什么地方慢下来`,
       `能让人安心的局，通常先允许有人说不`,
     ][frameIndex(profile, "h2-5", 3)],
     [
