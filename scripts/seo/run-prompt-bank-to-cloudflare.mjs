@@ -706,6 +706,7 @@ function repairHeadings(prompt, body) {
     .split("\n")
     .map((line) => {
       const trimmed = line.trim()
+      if (/^#{1,6}\s+/.test(trimmed)) return line
       const boldHeading = trimmed.match(/^\*\*([^*]{4,90})\*\*:?$/)
       if (boldHeading) return `## ${boldHeading[1].trim().replace(/:$/, "")}`
       const numberedHeading = trimmed.match(/^(?:Section\s*)?\d+[).]\s+([^.!?。！？]{4,90})$/i)
