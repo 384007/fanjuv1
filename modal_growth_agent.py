@@ -175,7 +175,10 @@ def git_commit_and_push(routes: list[str], run_id: str, round_no: int) -> str:
     repo = github_repository()
     remote_url = f"https://x-access-token:{token}@github.com/{repo}.git"
     run_args(["git", "remote", "set-url", "origin", remote_url], cwd=WORKDIR)
-    run_args(["git", "pull", "--rebase", "origin", "main"], cwd=WORKDIR, timeout=300)
+    # unshallow so rebase works on depth-1 clone
+    subprocess.run(["git", "fetch", "--unshallow", "origin", "main"], cwd=WORKDIR, capture_output=True)
+    run_args(["git", "fetch", "origin", "main"], cwd=WORKDIR, timeout=300)
+    run_args(["git", "rebase", "origin/main"], cwd=WORKDIR, timeout=300)
     run_args(["git", "push", "origin", "main"], cwd=WORKDIR, timeout=900)
     sha = run_capture(["git", "rev-parse", "HEAD"], cwd=WORKDIR)
     print(f"GITHUB_MAIN_COMMIT={sha}", flush=True)
