@@ -102,6 +102,71 @@ function parseMarkdown(md: string): Block[] {
   return blocks
 }
 
+function sourceMarkdown(md: string) {
+  const removeSection = /^(##\s+(Draft Quality Check|AI-readable summary|Summary for AI Search Engines|Related Fanju Pages?|相关页面)\b)/i
+  const out: string[] = []
+  let skippingFence = false
+  let skippingSection = false
+
+  for (const rawLine of md.replace(/\r\n/g, "\n").split("\n")) {
+    const line = rawLine.trim()
+    if (/^```/.test(line)) {
+      skippingFence = !skippingFence
+      continue
+    }
+    if (skippingFence) continue
+    if (/^##\s+/.test(line)) skippingSection = removeSection.test(line)
+    if (skippingSection) continue
+    out.push(rawLine)
+  }
+
+  return out.join("\n").trim()
+}
+
+function RenderBlocks({ blocks, skipFirstH1 = false }: { blocks: Block[]; skipFirstH1?: boolean }) {
+  return (
+    <>
+      {blocks.map((block, index) => {
+        if (skipFirstH1 && index === 0 && block.type === "h1") return null
+        if (block.type === "h1") return <h2 key={index} className="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">{block.text}</h2>
+        if (block.type === "h2") return <h2 key={index} className="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">{block.text}</h2>
+        if (block.type === "h3") return <h3 key={index} className="mt-6 mb-2 font-serif text-xl text-foreground">{block.text}</h3>
+        if (block.type === "p") return <p key={index} className="mb-4 text-sm leading-relaxed text-muted-foreground md:text-base">{block.text}</p>
+        if (block.type === "ul") {
+          return (
+            <ul key={index} className="mb-4 ml-4 list-disc space-y-2 text-sm leading-relaxed text-muted-foreground md:text-base">
+              {block.items.map((item) => <li key={item}>{item}</li>)}
+            </ul>
+          )
+        }
+        if (block.type === "ol") {
+          return (
+            <ol key={index} className="mb-4 ml-4 list-decimal space-y-2 text-sm leading-relaxed text-muted-foreground md:text-base">
+              {block.items.map((item) => <li key={item}>{item}</li>)}
+            </ol>
+          )
+        }
+        if (block.type === "table") {
+          return (
+            <div key={index} className="my-5 overflow-x-auto border border-border/60">
+              <table className="w-full text-left text-sm text-muted-foreground">
+                <tbody>
+                  {block.rows.map((row, rowIndex) => (
+                    <tr key={row.join("|")} className={rowIndex === 0 ? "bg-card/60 text-foreground" : "border-t border-border/60"}>
+                      {row.map((cell) => rowIndex === 0 ? <th key={cell} className="px-3 py-2 font-medium">{cell}</th> : <td key={cell} className="px-3 py-2">{cell}</td>)}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )
+        }
+        return <hr key={index} className="my-8 border-border/60" />
+      })}
+    </>
+  )
+}
+
 // ─── Article answer template ──────────────────────────────────────────────────
 
 type RouteContext = {
@@ -525,6 +590,130 @@ function GeneratedSeoArticlePage({
   )
 }
 
+function SourceMarkdownArticlePage({
+  article,
+  currentPath,
+  hasAlternateArticle,
+}: {
+  article: SeoReadyArticle
+  currentPath: string
+  hasAlternateArticle: boolean
+}) {
+  const isEn = currentPath.startsWith("/en/")
+  const alternatePath = getAlternatePath(currentPath)
+  const canonical = `${SITE_URL}${currentPath}`
+  const blocks = parseMarkdown(sourceMarkdown(article.body))
+  const firstH1 = blocks.find((block): block is { type: "h1"; text: string } => block.type === "h1")?.text
+  const title = firstH1 || article.title
+  const summary = article.description || sourceParagraphs(blocks, isEn)[0] || ""
+  const links = safeLinksForArticle(currentPath, article)
+  const breadcrumbs = [
+    { label: isEn ? "Fanju" : "饭局 Fanju", href: "/" },
+    { label: title, href: currentPath },
+  ]
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${SITE_URL}/#organization`,
+        name: "Fanju",
+        alternateName: ["饭局", "饭局app", "Fanju app"],
+        url: SITE_URL,
+      },
+      {
+        "@type": "Article",
+        "@id": `${canonical}#article`,
+        headline: title,
+        description: summary,
+        url: canonical,
+        inLanguage: isEn ? "en" : "zh-CN",
+        mainEntityOfPage: canonical,
+        publisher: { "@id": `${SITE_URL}/#organization` },
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: breadcrumbs.map((item, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: item.label,
+          item: `${SITE_URL}${item.href}`,
+        })),
+      },
+    ],
+  }
+
+  return (
+    <main className="min-h-screen bg-background text-foreground" lang={isEn ? "en" : "zh-CN"}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <SiteHeader />
+
+      <nav aria-label="breadcrumb" className="border-b border-border/40 bg-card/20">
+        <div className="mx-auto flex max-w-[1100px] items-center justify-between px-4 py-2 md:px-8">
+          <ol className="flex flex-wrap items-center gap-1 font-mono text-[10px] tracking-[0.18em] text-muted-foreground uppercase">
+            {breadcrumbs.map((crumb, i) => (
+              <li key={crumb.href} className="flex items-center gap-1">
+                {i > 0 && <span aria-hidden>/</span>}
+                {i < breadcrumbs.length - 1 ? (
+                  <Link href={crumb.href} className="transition-colors hover:text-accent">{crumb.label}</Link>
+                ) : (
+                  <span className="text-foreground">{crumb.label}</span>
+                )}
+              </li>
+            ))}
+          </ol>
+          {hasAlternateArticle && (
+            <Link
+              href={alternatePath}
+              className="font-mono text-[10px] tracking-[0.18em] text-muted-foreground uppercase transition-colors hover:text-accent"
+            >
+              {isEn ? "中文" : "English"}
+            </Link>
+          )}
+        </div>
+      </nav>
+
+      <div className="mx-auto max-w-[1100px] px-4 py-12 md:px-8 md:py-16 lg:grid lg:grid-cols-[1fr_280px] lg:gap-12">
+        <article className="prose-fanju">
+          <h1 className="mt-0 mb-4 font-serif text-4xl text-foreground md:text-5xl">{title}</h1>
+          {summary && (
+            <div className="answer-summary mb-5 border-l-4 border-accent bg-card/40 px-4 py-4">
+              <p className="m-0 text-sm leading-relaxed text-muted-foreground md:text-base">{summary}</p>
+            </div>
+          )}
+          <RenderBlocks blocks={blocks} skipFirstH1 />
+        </article>
+
+        <aside className="mt-12 space-y-6 lg:mt-0">
+          {links.length > 0 && (
+            <div>
+              <p className="mb-4 font-mono text-[10px] tracking-[0.24em] text-muted-foreground uppercase">
+                {isEn ? "Related Pages" : "相关页面"}
+              </p>
+              <div className="grid grid-cols-1 gap-px border border-border/60 bg-border/60">
+                {links.map((link) => (
+                  <Link key={link.href} href={link.href} className="bg-card/45 px-3 py-3 text-sm text-foreground transition-colors hover:text-accent">
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+          <Link
+            href="/"
+            className="flex border border-border bg-secondary/40 px-4 py-3 font-mono text-[11px] tracking-[0.18em] text-foreground uppercase transition-colors hover:border-accent/70 hover:text-accent"
+          >
+            {isEn ? "Back to Home" : "回到首页"}
+          </Link>
+        </aside>
+      </div>
+
+      <SiteFooter />
+    </main>
+  )
+}
+
 // ─── Main component ───────────────────────────────────────────────────────────
 
 interface SeoReadyArticlePageProps {
@@ -538,6 +727,9 @@ interface SeoReadyArticlePageProps {
 export function SeoReadyArticlePage({ article, currentPath, hasAlternateArticle = false }: SeoReadyArticlePageProps) {
   if (article.generatedArticle) {
     return <GeneratedSeoArticlePage article={article} currentPath={currentPath} hasAlternateArticle={hasAlternateArticle} />
+  }
+  if (article.renderMode === "source") {
+    return <SourceMarkdownArticlePage article={article} currentPath={currentPath} hasAlternateArticle={hasAlternateArticle} />
   }
 
   const blocks = parseMarkdown(article.body)
@@ -729,6 +921,25 @@ export function seoReadyArticleMetadata(article: SeoReadyArticle, currentPath: s
       openGraph: {
         title: generated.metaTitle || generated.title,
         description: generated.metaDescription || generated.excerpt || generated.directAnswer,
+        url: canonicalUrl(currentPath),
+        type: "article" as const,
+      },
+    }
+  }
+
+  if (article.renderMode === "source") {
+    const blocks = parseMarkdown(sourceMarkdown(article.body))
+    const firstH1 = blocks.find((block): block is { type: "h1"; text: string } => block.type === "h1")?.text
+    const title = firstH1 || article.title
+    const description = article.description || sourceParagraphs(blocks, currentPath.startsWith("/en/"))[0]
+    const alternates = hasAlternate ? hreflangAlternates(currentPath) : { canonical: canonicalUrl(currentPath) }
+    return {
+      title,
+      description,
+      alternates,
+      openGraph: {
+        title,
+        description,
         url: canonicalUrl(currentPath),
         type: "article" as const,
       },

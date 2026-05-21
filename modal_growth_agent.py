@@ -31,7 +31,7 @@ OUTPUT_PATHS = [
 
 image = (
     modal.Image.debian_slim()
-    .apt_install("curl", "ca-certificates")
+    .apt_install("curl", "ca-certificates", "git")
     .run_commands(
         "curl -fsSL https://deb.nodesource.com/setup_22.x | bash -",
         "apt-get install -y nodejs",
@@ -90,16 +90,106 @@ def run(cmd: str, cwd: str | None = None, timeout: int = 300) -> None:
         raise RuntimeError(f"Command failed with exit code {result.returncode}: {cmd}")
 
 
-def prepare_workdir() -> None:
+def run_args(args: list[str], cwd: str | None = None, timeout: int = 300, redacted: str | None = None) -> None:
+    print(f"$ {redacted or shlex.join(args)}", flush=True)
+    result = subprocess.run(args, cwd=cwd, text=True, timeout=timeout)
+    if result.returncode != 0:
+        raise RuntimeError(f"Command failed with exit code {result.returncode}: {redacted or shlex.join(args)}")
+
+
+def run_capture(args: list[str], cwd: str | None = None, timeout: int = 300) -> str:
+    result = subprocess.run(args, cwd=cwd, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=timeout)
+    if result.returncode != 0:
+        raise RuntimeError(f"Command failed with exit code {result.returncode}: {shlex.join(args)}\n{result.stderr}")
+    return result.stdout.strip()
+
+
+def run_shell_status(cmd: str, cwd: str | None = None, timeout: int = 300) -> int:
+    print(f"$ {cmd}", flush=True)
+    result = subprocess.run(cmd, shell=True, cwd=cwd, text=True, timeout=timeout)
+    return result.returncode
+
+
+def github_token() -> str:
+    return (os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN") or "").strip()
+
+
+def github_repository() -> str:
+    return (
+        os.environ.get("GITHUB_REPOSITORY")
+        or os.environ.get("GITHUB_REPO")
+        or "384007/fanjuv1"
+    ).strip().removeprefix("https://github.com/").removesuffix(".git")
+
+
+def prepare_workdir(use_github: bool = False) -> None:
     workdir = Path(WORKDIR)
     if workdir.exists():
         shutil.rmtree(workdir)
-    shutil.copytree(APP_DIR, workdir, symlinks=True)
+    if not use_github:
+        shutil.copytree(APP_DIR, workdir, symlinks=True)
+        return
+
+    token = github_token()
+    if not token:
+        raise RuntimeError("Missing GITHUB_TOKEN or GH_TOKEN in Modal secret; cannot commit generated articles to GitHub main.")
+
+    repo = github_repository()
+    remote = f"https://x-access-token:{token}@github.com/{repo}.git"
+    run_args(
+        ["git", "clone", "--depth", "1", "--branch", "main", remote, WORKDIR],
+        timeout=900,
+        redacted=f"git clone --depth 1 --branch main https://x-access-token:***@github.com/{repo}.git {WORKDIR}",
+    )
+
+    image_modules = Path(APP_DIR, "node_modules")
+    work_modules = Path(WORKDIR, "node_modules")
+    if image_modules.exists() and not work_modules.exists():
+        shutil.copytree(image_modules, work_modules, symlinks=True)
 
 
 def ensure_dependencies() -> None:
     if not Path(WORKDIR, "node_modules").exists():
         run("pnpm install --frozen-lockfile", cwd=WORKDIR, timeout=600)
+
+
+def git_commit_and_push(routes: list[str], run_id: str, round_no: int) -> str:
+    run_args(["git", "config", "user.name", os.environ.get("GIT_AUTHOR_NAME", "Fanju Modal Publisher")], cwd=WORKDIR)
+    run_args(["git", "config", "user.email", os.environ.get("GIT_AUTHOR_EMAIL", "modal-publisher@fanju.app")], cwd=WORKDIR)
+    run_args(["git", "add", "--", "content/seo-ready"], cwd=WORKDIR)
+
+    diff_status = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=WORKDIR)
+    if diff_status.returncode == 0:
+        raise RuntimeError(f"No Markdown article changes staged for round {round_no}; refusing to push an empty publish.")
+
+    subject_routes = ", ".join(routes[:3])
+    if len(routes) > 3:
+        subject_routes += f", +{len(routes) - 3} more"
+    message = f"content: publish Fanju articles {run_id} round {round_no}"
+    run_args(["git", "commit", "-m", message, "-m", f"Routes: {subject_routes}"], cwd=WORKDIR, timeout=900)
+    run_args(["git", "push", "origin", "main"], cwd=WORKDIR, timeout=900)
+    sha = run_capture(["git", "rev-parse", "HEAD"], cwd=WORKDIR)
+    print(f"GITHUB_MAIN_COMMIT={sha}", flush=True)
+    return sha
+
+
+def wait_for_live_routes(routes: list[str], max_attempts: int = 30, delay_seconds: int = 30) -> None:
+    routes_csv = ",".join(routes)
+    article_cmd = f"BASE_URL=https://fanju.app URLS={shlex.quote(routes_csv)} pnpm seo:article:live:check"
+    sitemap_cmd = f"BASE_URL=https://fanju.app URLS={shlex.quote(routes_csv)} pnpm seo:sitemap:live:contains"
+    last_code = 1
+    for attempt in range(1, max_attempts + 1):
+        print(f"LIVE_DEPLOY_CHECK attempt={attempt}/{max_attempts} routes={routes_csv}", flush=True)
+        article_code = run_shell_status(article_cmd, cwd=WORKDIR, timeout=900)
+        sitemap_code = run_shell_status(sitemap_cmd, cwd=WORKDIR, timeout=300) if article_code == 0 else 1
+        if article_code == 0 and sitemap_code == 0:
+            print("LIVE_DEPLOY_CHECK_OK", flush=True)
+            return
+        last_code = article_code or sitemap_code
+        if attempt < max_attempts:
+            import time
+            time.sleep(delay_seconds)
+    raise RuntimeError(f"Live deploy checks did not pass after {max_attempts} attempts; last exit code {last_code}.")
 
 
 def copy_output_path(relative_path: str, destination_root: Path) -> bool:
@@ -260,7 +350,7 @@ def run_cloudflare_publish_pipeline(
     upload_r2: bool = True,
     submit_platforms: str = "all",
 ) -> dict:
-    """Production path: build route bank, generate articles, publish D1/R2, submit URLs."""
+    """Production path: generate articles, commit Markdown to GitHub main, let Cloudflare Pages deploy, then submit URLs."""
     safe_rounds = min(24, max(1, int(rounds)))
     safe_run_limit = max(2, int(run_limit))
     if safe_run_limit % 2 != 0:
@@ -278,7 +368,7 @@ def run_cloudflare_publish_pipeline(
         flush=True,
     )
 
-    prepare_workdir()
+    prepare_workdir(use_github=True)
     ensure_dependencies()
 
     round_summaries = []
@@ -316,11 +406,9 @@ def run_cloudflare_publish_pipeline(
         validate_ready_entries(latest_entries, min_score=90)
 
         routes = [public_route_for_entry(entry) for entry in latest_entries]
-        run(
-            f"BASE_URL=https://fanju.app URLS={shlex.quote(','.join(routes))} node scripts/seo/check-live-article-content-soft.mjs",
-            cwd=WORKDIR,
-            timeout=900,
-        )
+        run("pnpm build", cwd=WORKDIR, timeout=1800)
+        commit_sha = git_commit_and_push(routes, run_id, round_no)
+        wait_for_live_routes(routes)
         run(
             f"URL_LIMIT={safe_run_limit} PLATFORMS={safe_platforms} STRICT_PUBLISH=1 pnpm seo:cloudflare:submit",
             cwd=WORKDIR,
@@ -336,6 +424,7 @@ def run_cloudflare_publish_pipeline(
             "failedTotal": len(failed_state.get("drafts", [])),
             "latest": latest_entries,
             "routes": routes,
+            "commitSha": commit_sha,
         }
         round_summaries.append(round_summary)
         print(f"PRODUCTION_ROUND_OK {round_no}/{safe_rounds} routes={','.join(routes)}", flush=True)
@@ -353,6 +442,7 @@ def run_cloudflare_publish_pipeline(
             "finishedAt": utc_now().isoformat(),
             "status": "success",
             "publishedBy": "cloudflare",
+            "contentPublishedBy": "github-main",
             "rounds": safe_rounds,
             "runLimit": safe_run_limit,
             "uploadR2": upload_r2,
@@ -367,6 +457,7 @@ def run_cloudflare_publish_pipeline(
         "ok": True,
         "runId": run_id,
         "publishedBy": "cloudflare",
+        "contentPublishedBy": "github-main",
         "rounds": safe_rounds,
         "runLimit": safe_run_limit,
         "uploadR2": upload_r2,
@@ -408,7 +499,7 @@ def run_once(rounds: int = 1, run_limit: int = 6, upload_r2: bool = True, submit
     timeout=21600,
 )
 def publish_prompt_bank_to_cloudflare(run_limit: int = 6, upload_r2: bool = True):
-    """Publish ready prompt-bank articles to Cloudflare D1/R2 without GitHub."""
+    """Publish ready prompt-bank articles to GitHub main plus Cloudflare D1/R2."""
     return run_cloudflare_publish_pipeline(rounds=1, run_limit=run_limit, upload_r2=upload_r2, submit_platforms="all")
 
 
@@ -634,7 +725,7 @@ def test_target_city_articles():
     timeout=21600,
 )
 def publish_prompt_bank_to_cloudflare_rounds(rounds: int = 10, run_limit: int = 2, upload_r2: bool = True):
-    """Run the real prompt-bank -> Cloudflare publish -> URL-submit flow multiple times."""
+    """Run the real prompt-bank -> GitHub main -> Cloudflare Pages -> URL-submit flow multiple times."""
     return run_cloudflare_publish_pipeline(rounds=rounds, run_limit=run_limit, upload_r2=upload_r2, submit_platforms="all")
 
 
@@ -727,7 +818,7 @@ def check_keys():
     for prefix in ["GROQ_API_KEY", "CEREBRAS_API_KEY", "NVIDIA_API_KEY", "GEMINI_API_KEY", "OPENROUTER_API_KEY"]:
         found = [k for k in [prefix] + [f"{prefix}_{i}" for i in range(2, 11)] if os.environ.get(k)]
         print(f"{prefix}: {len(found)} key(s) found: {found or 'NONE'}", flush=True)
-    for k in ["CLOUDFLARE_ACCOUNT_ID", "CLOUDFLARE_AI_API_TOKEN", "CLOUDFLARE_API_TOKEN"]:
+    for k in ["CLOUDFLARE_ACCOUNT_ID", "CLOUDFLARE_AI_API_TOKEN", "CLOUDFLARE_API_TOKEN", "GITHUB_TOKEN", "GH_TOKEN", "GITHUB_REPOSITORY", "GITHUB_REPO"]:
         print(f"{k}: {'SET' if os.environ.get(k) else 'MISSING'}", flush=True)
 
 

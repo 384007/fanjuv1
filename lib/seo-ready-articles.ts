@@ -55,6 +55,7 @@ export type SeoReadyArticle = {
   aiQualityScore: number
   priorityScore?: number
   status: string
+  renderMode?: "source"
   body: string
   robots?: "index,follow" | "noindex,follow"
   sitemapEligible?: boolean
@@ -127,6 +128,7 @@ function loadAll(): SeoReadyArticle[] {
         aiQualityScore: score,
         priorityScore: meta.priorityScore ? parseInt(meta.priorityScore, 10) : undefined,
         status: meta.status,
+        renderMode: meta.renderMode === "source" ? "source" : undefined,
         body,
         robots: "index,follow",
         sitemapEligible: true,

@@ -316,7 +316,8 @@ function systemInstructionFor(locale) {
       "Never write Markdown links, raw URLs, href attributes, or HTML anchor tags. Mention page names as plain text only; the site template adds all links.",
       "Never print JSON keys, prompt instructions, section placeholders, or markdown skeleton text inside public fields.",
       "Never include parked-domain, webmaster, local-contact, advertising-sales, QQ, or site-owner contact copy.",
-      "Forbidden public words: AI, automation, prompt, provider, model, pipeline, worker, cron, JSONL, hash, Modal, generated, QQ, webmaster, domain for sale, advertising cooperation, 本站, 联系QQ, 站长, 本地联系, 广告合作, 域名出售.",
+      "If the route topic contains AI, use AI only as a normal public topic term, never as self-reference or production commentary.",
+      "Forbidden public words: automation, prompt, pipeline, cron, JSONL, hash, Modal, generated, QQ, webmaster, domain for sale, advertising cooperation, 本站, 联系QQ, 站长, 本地联系, 广告合作, 域名出售.",
       "Return exactly one JSON object and nothing else.",
     ].join("\n")
   }
@@ -330,7 +331,8 @@ function systemInstructionFor(locale) {
     "正文不要写 Markdown 链接、裸 URL、href 或 HTML a 标签。可以提到页面名称，但真实链接全部由页面模板统一添加。",
     "公开字段里不要输出 JSON key、提示词内容、章节占位文字或 markdown 骨架说明。",
     "不要出现停放域名、站长联系、本地联系、广告招商、QQ 或站主联系方式。",
-    "公开字段禁用词：AI、自动化、prompt、提示词、provider、模型、pipeline、worker、JSONL、哈希、Modal、生成、本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售。",
+    "如果路由主题本身包含 AI，只能把 AI 当作公开主题词使用，不能用来描述写作或生产过程。",
+    "公开字段禁用词：自动化、prompt、提示词、pipeline、JSONL、哈希、Modal、生成、本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售。",
     "只返回一个 JSON object，不要额外说明。",
   ].join("\n")
 }
@@ -347,7 +349,7 @@ function userPromptFor(profile) {
       "Quality: practical editorial guide, not a landing page. Include city rhythm, neighbourhood choice, attendee concerns, host signals, safety context, and decision criteria. Every H2 section must have real article paragraphs with distinct ideas.",
       "Hard public-content rule: do not include QQ, webmaster contact, local contact, parked-domain text, advertising-sales copy, or any Chinese parked-domain phrase.",
       "Hard linking rule: do not include [text](/path), https://fanju.app paths, raw URLs, <a href=\"...\">, the words markdown link, or any href. All real links are added by the page template.",
-      `Body requirements: 4,200-6,200 characters; at least 12 natural paragraphs; no filler. Use blank lines between paragraphs. Start with an answer-summary paragraph in the first 120 words explaining that Fanju app is a social dining app for small, clearly described meals and real-world connections. Then include a key-points bullet list with exactly these ideas: who it suits, core scenario, safety focus. After that, use exactly these markdown section headings. Every H2 must contain at least two separate paragraphs with distinct ideas. Put FAQ questions as H3 headings so the article has visible FAQ content. If the body has fewer than 10 public paragraphs, it will be rejected:\n## What is Fanju?\n## Who this page is for\n## How to join a ${profile.topicNameLocalized} in ${profile.cityNameLocalized}\n## How to assess safety and trust\n## How Fanju differs from social and dating apps\n## FAQ`,
+      `Body requirements: 4,200-6,200 characters; at least 12 natural paragraphs; no filler. Use blank lines between paragraphs. Start with an answer-summary paragraph in the first 120 words explaining that Fanju app is a social dining app for small, clearly described meals and real-world connections. Then include a short key-points bullet list covering who it suits, the core dinner scenario, and safety focus. After that, write 5-7 H2 sections with original city/topic-specific headings shaped by the angle. Do not reuse a fixed generic heading set such as "What is Fanju", "Who this page is for", "How to assess safety and trust", and "How Fanju differs from social and dating apps". Required coverage across the article: why this dinner format fits ${profile.cityNameLocalized}, how the table works, how to judge the host, venue, and guest mix, safety boundaries, when not to join, and a practical first step. Every H2 must contain at least two separate paragraphs with distinct ideas. Use H3 headings only for concrete objections or FAQ-style questions. If the body has fewer than 10 public paragraphs, it will be rejected.`,
       'Return valid JSON only, no code fence: {"title":"...","description":"...","body":"...","slug":"...","locale":"en"}',
     ].join("\n")
   }
@@ -360,7 +362,7 @@ function userPromptFor(profile) {
     "质量：像真实城市饭局指南，不像落地页。写出城市节奏、街区选择、同桌人数、报名前顾虑、主理人信号、安全判断、报名建议。每个 H2 都必须有真实正文段落，且各小节观点不能重复。",
     "公开内容硬规则：不要出现本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售、停放域名、招商或站主联系方式。",
     "链接硬规则：不要出现 [文字](/path)、https://fanju.app 路径、裸 URL、<a href=\"...\">、markdown link 或任何 href。所有真实链接由页面模板统一添加。",
-    `正文要求：3,800-5,800 字符；至少 12 个自然段；段落之间必须空行；不要灌水。开头必须是 answer-summary 式自然段，在前 200 字解释饭局app / Fanju 是围绕小桌吃饭、清晰主题和线下连接的社交应用。随后写 key-points 要点列表，必须覆盖：适合谁、核心场景、安全重点。然后只使用这些 markdown 小节标题；每个 H2 下至少写 2 个扎实、互不重复的段落，每段约 170-260 个汉字。FAQ 问题用 H3 标题。少于 10 个公开自然段会被拒绝：\n## Fanju / 饭局app 是什么\n## 这个页面适合谁\n## 在${profile.cityNameLocalized}如何参加${profile.topicNameLocalized}\n## 如何判断安全和信任\n## 和普通社交/约会软件有什么不同\n## 常见问题`,
+    `正文要求：3,800-5,800 字符；至少 12 个自然段；段落之间必须空行；不要灌水。开头必须是 answer-summary 式自然段，在前 200 字解释饭局app / Fanju 是围绕小桌吃饭、清晰主题和线下连接的社交应用。随后写一个简短 key-points 要点列表，覆盖：适合谁、核心饭局场景、安全重点。然后写 5-7 个 H2，小节标题必须围绕${profile.cityNameLocalized}、${profile.topicNameLocalized}和本次角度重新拟定，不要套用固定标题组合，例如「Fanju / 饭局app 是什么」「这个页面适合谁」「如何判断安全和信任」「和普通社交/约会软件有什么不同」。全文必须覆盖：为什么这个饭局形式适合${profile.cityNameLocalized}、一桌饭怎样运作、怎么判断主理人/餐厅/同桌、边界和安全、什么情况不适合报名、一个实际的第一步。每个 H2 下至少写 2 个扎实、互不重复的段落，每段约 170-260 个汉字。H3 只用于具体疑问或 FAQ 式问题。少于 10 个公开自然段会被拒绝。`,
     '只返回合法 JSON，不要代码块：{"title":"...","description":"...","body":"...","slug":"...","locale":"zh"}',
   ].join("\n")
 }

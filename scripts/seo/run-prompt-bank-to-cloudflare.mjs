@@ -1,10 +1,9 @@
 // scripts/seo/run-prompt-bank-to-cloudflare.mjs
 //
-// Publishes ready prompt-bank articles to Cloudflare D1 + R2.
-// GitHub is intentionally not part of the article publishing path.
+// Publishes ready prompt-bank articles to repository Markdown + Cloudflare D1/R2.
 
 import { createHash } from "crypto"
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs"
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "fs"
 import { dirname, join } from "path"
 import { fileURLToPath } from "url"
 import { generateWithRouter, sleep } from "./ai-router.mjs"
@@ -16,6 +15,7 @@ const PROMPT_BANK_FILE = join(ROOT, process.env.PROMPT_BANK_FILE || "data/seo/ra
 const PUBLISHED_FILE = join(ROOT, process.env.PUBLISHED_FILE || "dist/seo/cloudflare-published-drafts.json")
 const FAILED_LOG_FILE = join(ROOT, process.env.FAILED_LOG_FILE || "dist/seo/generated-drafts.json")
 const TMP_DIR = join(ROOT, "dist/seo/cloudflare-upload")
+const CONTENT_READY_DIR = join(ROOT, "content/seo-ready")
 
 const BATCH_SIZE = Math.max(1, Number.parseInt(process.env.BATCH_SIZE || "1", 10))
 const CONCURRENCY = Math.max(1, Number.parseInt(process.env.CONCURRENCY || "1", 10))
@@ -33,6 +33,8 @@ const ONLY_LOCALE = (process.env.ONLY_LOCALE || "").toLowerCase()
 const TARGET_READY_COUNT = Number.parseInt(process.env.RUN_LIMIT || "0", 10)
 const DRY_RUN = process.env.DRY_RUN === "1"
 const UPLOAD_R2 = process.env.UPLOAD_R2 !== "0"
+const PUBLISH_CONTENT = process.env.PUBLISH_CONTENT !== "0"
+const ALLOW_SOURCE_OVERWRITE = process.env.ALLOW_SOURCE_OVERWRITE === "1"
 
 // D1/R2 publishing uses the Cloudflare API token below. Workers AI may require
 // a different token scope, so keep it out of the default generation fallback.
@@ -78,6 +80,10 @@ const BANNED_PHRASES_FOR_BODY = [
   /\bReturn valid JSON\b/i,
   /\bBody requirements\b/i,
   /\bmarkdown skeleton\b/i,
+  /\bDraft Quality Check\b/i,
+  /\bAI-readable summary\b/i,
+  /\bSummary for AI Search Engines\b/i,
+  /\bRelated Fanju Pages\b/i,
   /<a\s+href/i,
   /\bhref\s*=/i,
   /\[[^\]]+\]\([^)]+\)/,
@@ -182,6 +188,64 @@ function loadJsonState(file, fallback) {
   }
 }
 
+function parseFrontmatter(raw) {
+  const match = String(raw || "").match(/^---\r?\n([\s\S]*?)\r?\n---/)
+  if (!match) return {}
+  const meta = {}
+  for (const line of match[1].split("\n")) {
+    const m = line.match(/^(\w+):\s*"?([^"]*)"?\s*$/)
+    if (m) meta[m[1]] = m[2].trim()
+  }
+  return meta
+}
+
+function normalizeCanonicalPath(p) {
+  if (!p) return ""
+  let path = String(p).trim()
+  if (/^https?:\/\//i.test(path)) {
+    try {
+      path = new URL(path).pathname
+    } catch {
+      return ""
+    }
+  }
+  path = path.startsWith("/") ? path : `/${path}`
+  return path.endsWith("/") && path.length > 1 ? path.slice(0, -1) : path
+}
+
+function loadExistingCanonicalPaths() {
+  const paths = new Set()
+  if (existsSync(CONTENT_READY_DIR)) {
+    for (const file of readdirSync(CONTENT_READY_DIR).filter((f) => f.endsWith(".md"))) {
+      try {
+        const meta = parseFrontmatter(readFileSync(join(CONTENT_READY_DIR, file), "utf8"))
+        const score = Number.parseInt(meta.aiQualityScore || "0", 10)
+        const canonicalPath = normalizeCanonicalPath(meta.canonicalPath || `/${meta.slug || file.replace(/\.md$/, "")}`)
+        if (meta.status === "ready" && score >= MIN_SCORE && canonicalPath) paths.add(canonicalPath)
+      } catch {
+        // Route validation reports malformed files; generation only needs a skip set.
+      }
+    }
+  }
+
+  const generatedIndexDir = join(ROOT, "content/articles/ready/index")
+  if (existsSync(generatedIndexDir)) {
+    for (const file of readdirSync(generatedIndexDir).filter((f) => f.endsWith(".json"))) {
+      try {
+        const article = JSON.parse(readFileSync(join(generatedIndexDir, file), "utf8"))
+        const canonicalPath = normalizeCanonicalPath(article.canonicalPath || "")
+        if (article.status === "publish" && article.robots === "index,follow" && article.sitemapEligible !== false && canonicalPath) {
+          paths.add(canonicalPath)
+        }
+      } catch {
+        // Ignore bad generated index files here; build validation handles them.
+      }
+    }
+  }
+
+  return paths
+}
+
 function saveJsonState(file, state) {
   mkdirSync(dirname(file), { recursive: true })
   writeFileSync(file, JSON.stringify(state, null, 2) + "\n", "utf8")
@@ -197,6 +261,26 @@ function shortHash(s) {
 
 function routeSlug(route = "") {
   return String(route).replace(/^\/+/, "").replace(/\/+$/, "")
+}
+
+function cleanSlug(value = "") {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9-]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .replace(/-{2,}/g, "-")
+}
+
+function sourceSlugForPrompt(prompt) {
+  const city = cleanSlug(prompt.citySlug)
+  const topic = cleanSlug(prompt.topicSlug || "city-overview")
+  const base = [city, topic].filter(Boolean).join("-") || cleanSlug(routeSlug(prompt.route)) || "fanju-article"
+  return prompt.locale === "en" ? `en-${base}` : base
+}
+
+function sourceFileForPrompt(prompt) {
+  return `${sourceSlugForPrompt(prompt)}.md`
 }
 
 function alternatePathFor(route) {
@@ -218,6 +302,42 @@ function modelSlugForR2(prompt, parsedSlug = "") {
 
 function r2KeyFor(prompt, r2Slug) {
   return `articles/${prompt.locale}/${prompt.citySlug}/${prompt.topicSlug}/${r2Slug}.html`
+}
+
+function yamlString(value = "") {
+  return `"${String(value || "").replace(/\\/g, "\\\\").replace(/"/g, '\\"').replace(/\r?\n/g, " ").trim()}"`
+}
+
+function markdownBodyForEntry(entry) {
+  const body = stripMarkdownFence(entry.bodyMarkdown || "").trim()
+  if (!body) throw new Error(`Missing bodyMarkdown for ${entry.canonicalPath}`)
+  if (/^#\s+.+$/m.test(body.slice(0, 500))) return body
+  return `# ${entry.title}\n\n${body}`
+}
+
+function markdownForEntry(entry) {
+  const score = Math.trunc(Number(entry.score) || 0)
+  const sourceSlug = entry.sourceSlug || entry.sourceFile?.replace(/\.md$/, "") || sourceSlugForPrompt(entry)
+  const titleZh = entry.locale === "zh" ? entry.title : ""
+  const frontmatter = [
+    "---",
+    `slug: ${yamlString(sourceSlug)}`,
+    `canonicalPath: ${yamlString(entry.canonicalPath)}`,
+    `alternatePath: ${yamlString(entry.alternatePath)}`,
+    `translationKey: ${yamlString(`${entry.citySlug}-${entry.topicSlug}`)}`,
+    `lang: ${yamlString(entry.locale)}`,
+    `title: ${yamlString(entry.title)}`,
+    titleZh ? `titleZh: ${yamlString(titleZh)}` : "",
+    `description: ${yamlString(entry.description)}`,
+    `pageType: ${yamlString("city_article")}`,
+    "priorityScore: 70",
+    `aiQualityScore: ${score}`,
+    `status: ${yamlString("ready")}`,
+    `renderMode: ${yamlString("source")}`,
+    "---",
+  ].filter(Boolean).join("\n")
+
+  return `${frontmatter}\n\n${markdownBodyForEntry(entry)}\n`
 }
 
 function extractJsonObject(text) {
@@ -429,6 +549,22 @@ function repeatedPhraseHits(body) {
   }, 0)
 }
 
+function templateHeadingHits(body) {
+  const headings = [...String(body || "").matchAll(/^##\s+(.+)$/gm)]
+    .map((m) => m[1].trim().toLowerCase())
+  const generic = new Set([
+    "what is fanju",
+    "who this page is for",
+    "how to assess safety and trust",
+    "how fanju differs from social and dating apps",
+    "fanju / 饭局app 是什么",
+    "这个页面适合谁",
+    "如何判断安全和信任",
+    "和普通社交/约会软件有什么不同",
+  ])
+  return headings.filter((heading) => generic.has(heading)).length
+}
+
 function includesCity(prompt, text) {
   const city = String(prompt.cityNameLocalized || "").trim()
   if (!city) return true
@@ -456,6 +592,7 @@ function scoreArticle(prompt, parsed) {
   if (looksLikeJsonWrapper(haystack) || looksLikeJsonWrapper(body) || looksLikeJsonWrapper(description)) {
     issues.push("json-wrapper-in-public-text")
   }
+  if (/```/.test(body)) issues.push("code-fence-in-public-body")
 
   if (prompt.locale === "zh" && !isMostlyChinese(body)) issues.push("body-not-chinese")
   if (prompt.locale === "en" && !isMostlyEnglish(body)) issues.push("body-not-english")
@@ -480,6 +617,8 @@ function scoreArticle(prompt, parsed) {
   if (duplicatePara > 0) issues.push(`duplicate-paragraphs:${duplicatePara}`)
   const repeatedPhrases = repeatedPhraseHits(body)
   if (repeatedPhrases > 0) issues.push(`repeated-generic-phrases:${repeatedPhrases}`)
+  const templateHeadings = templateHeadingHits(body)
+  if (templateHeadings >= 3) issues.push(`template-heading-set:${templateHeadings}`)
 
   if (issues.length === 0) return { score: 100, issues }
   if (issues.some(isHardIssue)) {
@@ -505,6 +644,8 @@ function isHardIssue(issue) {
     issue.startsWith("tech-leak") ||
     issue.startsWith("public-link") ||
     issue === "json-wrapper-in-public-text" ||
+    issue === "code-fence-in-public-body" ||
+    issue.startsWith("template-heading-set") ||
     issue.startsWith("missing-primary-keyword") ||
     issue === "missing-city-context" ||
     issue === "locale-mismatch" ||
@@ -792,6 +933,8 @@ function articleUpsertSql(entry) {
     "canonical_path",
     "alternate_path",
     "r2_key",
+    "source_path",
+    "source_type",
     "body_html",
     "status",
     "quality_score",
@@ -814,6 +957,8 @@ function articleUpsertSql(entry) {
     sqlString(entry.canonicalPath),
     sqlString(entry.alternatePath),
     sqlString(entry.r2Key),
+    sqlString(entry.sourcePath || null),
+    sqlString(entry.sourceType || "github_markdown"),
     sqlString(entry.bodyHtml),
     sqlString("ready"),
     sqlNumber(entry.score),
@@ -846,6 +991,8 @@ async function ensureCloudflareColumns() {
     "ALTER TABLE articles ADD COLUMN model TEXT;",
     "ALTER TABLE articles ADD COLUMN published_at TEXT;",
     "ALTER TABLE articles ADD COLUMN body_html TEXT;",
+    "ALTER TABLE articles ADD COLUMN source_path TEXT;",
+    "ALTER TABLE articles ADD COLUMN source_type TEXT;",
   ]
 
   for (const command of sql) {
@@ -931,6 +1078,8 @@ function encodeR2Key(key) {
 
 function readyEntryFromResult(result) {
   const now = new Date().toISOString()
+  const sourceFile = sourceFileForPrompt(result.prompt)
+  const sourceSlug = sourceFile.replace(/\.md$/, "")
   return {
     promptId: result.prompt.promptId,
     seed: result.prompt.seed,
@@ -944,6 +1093,10 @@ function readyEntryFromResult(result) {
     canonicalPath: result.canonicalPath,
     alternatePath: result.alternatePath,
     r2Key: result.r2Key,
+    sourceFile,
+    sourceSlug,
+    sourcePath: `content/seo-ready/${sourceFile}`,
+    sourceType: "github_markdown",
     title: result.title,
     description: result.description,
     promptHash: result.prompt.promptHash,
@@ -1014,9 +1167,13 @@ async function publishReadyEntries(entries, publishedState) {
   if (!entries.length) return
   if (DRY_RUN) {
     for (const entry of entries) {
-      console.log(`[DRY] slug=${entry.slug} r2_key=${entry.r2Key} score=${entry.score} title=${entry.title}`)
+      console.log(`[DRY] slug=${entry.slug} source=${entry.sourcePath} r2_key=${entry.r2Key} score=${entry.score} title=${entry.title}`)
     }
     return
+  }
+
+  if (PUBLISH_CONTENT) {
+    writeSourceMarkdownEntries(entries)
   }
 
   if (UPLOAD_R2) {
@@ -1033,15 +1190,35 @@ async function publishReadyEntries(entries, publishedState) {
   publishedState.drafts.push(...entries.map((entry) => {
     const publicEntry = { ...entry }
     delete publicEntry.bodyHtml
+    delete publicEntry.bodyMarkdown
     return publicEntry
   }))
   saveJsonState(PUBLISHED_FILE, publishedState)
+}
+
+function writeSourceMarkdownEntries(entries) {
+  mkdirSync(CONTENT_READY_DIR, { recursive: true })
+  for (const entry of entries) {
+    const file = entry.sourceFile || sourceFileForPrompt(entry)
+    const target = join(CONTENT_READY_DIR, file)
+    if (existsSync(target) && !ALLOW_SOURCE_OVERWRITE) {
+      const meta = parseFrontmatter(readFileSync(target, "utf8"))
+      const existingPath = normalizeCanonicalPath(meta.canonicalPath || "")
+      if (existingPath !== normalizeCanonicalPath(entry.canonicalPath)) {
+        throw new Error(`Refusing to overwrite ${target}; existing canonicalPath=${existingPath}`)
+      }
+      throw new Error(`Refusing to overwrite existing ready source file: ${target}`)
+    }
+    writeFileSync(target, markdownForEntry(entry), "utf8")
+    console.log(`[MD]   ${entry.canonicalPath} -> content/seo-ready/${file}`)
+  }
 }
 
 async function main() {
   const bank = loadPromptBank()
   const publishedState = loadJsonState(PUBLISHED_FILE, { drafts: [] })
   const failedState = loadJsonState(FAILED_LOG_FILE, { drafts: [] })
+  const completedRoutes = loadExistingCanonicalPaths()
   const completed = new Set(
     publishedState.drafts
       .filter((d) => d.promptId && d.status === "ready")
@@ -1053,7 +1230,7 @@ async function main() {
     return true
   })
 
-  const queue = filtered.filter((p) => !completed.has(p.promptId))
+  const queue = filtered.filter((p) => !completed.has(p.promptId) && !completedRoutes.has(normalizeCanonicalPath(p.route)))
 
   // In bilingual mode, interleave ZH and EN so we don't exhaust one lang first.
   let finalQueue = queue
@@ -1074,10 +1251,12 @@ async function main() {
   console.log(`R2 bucket        : ${CLOUDFLARE_R2_BUCKET}`)
   console.log(`Dry run          : ${DRY_RUN ? "yes" : "no"}`)
   console.log(`Upload R2        : ${UPLOAD_R2 ? "yes" : "no"}`)
+  console.log(`Write Markdown   : ${PUBLISH_CONTENT ? "yes" : "no"}`)
   console.log(`Provider per city: ${ASSIGN_PROVIDER_PER_CITY ? `yes (${STRICT_CITY_PROVIDER ? "strict" : "fallback"})` : "no"}`)
   console.log(`Multi candidates : ${MULTI_AI_CANDIDATES ? "yes" : "no"}`)
   console.log(`Total prompts    : ${bank.length}`)
   console.log(`Already published: ${completed.size}`)
+  console.log(`Existing routes  : ${completedRoutes.size}`)
   console.log(`Locale filter    : ${ONLY_LOCALE || "(none)"}`)
   console.log(`To process       : ${finalQueue.length}`)
   const bilingualMode = TARGET_READY_COUNT > 0 && !ONLY_LOCALE && TARGET_READY_COUNT % 2 === 0
@@ -1146,6 +1325,10 @@ async function main() {
       }
 
       const result = settled.value
+      if (completedRoutes.has(normalizeCanonicalPath(result.canonicalPath))) {
+        console.log(`[SKIP] ${prompt.promptId} ${result.canonicalPath} already has a ready source article`)
+        continue
+      }
       if (result.status !== "ready") {
         needsReview++
         failedState.drafts.push(reviewEntry(result))
@@ -1155,7 +1338,8 @@ async function main() {
 
       ready++
       const entry = readyEntryFromResult(result)
-      readyBuffer.push({ ...entry, bodyHtml: result.bodyHtml })
+      readyBuffer.push({ ...entry, bodyHtml: result.bodyHtml, bodyMarkdown: result.body })
+      completedRoutes.add(normalizeCanonicalPath(entry.canonicalPath))
       if (bilingualMode) readyByLang[entry.locale] = (readyByLang[entry.locale] || 0) + 1
       console.log(`[OK]   ${prompt.promptId} ${result.slug} via ${result.generation.provider} (score ${result.score})`)
 
