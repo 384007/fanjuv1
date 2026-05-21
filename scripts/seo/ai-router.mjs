@@ -214,7 +214,7 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
       try {
         return await callOpenAICompat({
           label: `Cerebras[${i}]`, endpoint: "https://api.cerebras.ai/v1/chat/completions",
-          apiKey: keys[i], model: process.env.CEREBRAS_MODEL || "llama-3.3-70b",
+          apiKey: keys[i], model: process.env.CEREBRAS_MODEL || "llama3.3-70b",
           prompt, system, maxTokens, timeoutMs, tokenParam: "max_completion_tokens", useJsonFormat: false,
         })
       } catch (err) {
@@ -237,7 +237,7 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
     try {
       return await callOpenAICompat({
         label: `Cerebras[${keyIndex}]`, endpoint: "https://api.cerebras.ai/v1/chat/completions",
-        apiKey, model: process.env.CEREBRAS_MODEL || "llama-3.3-70b",
+        apiKey, model: process.env.CEREBRAS_MODEL || "llama3.3-70b",
         prompt, system, maxTokens, timeoutMs, tokenParam: "max_completion_tokens", useJsonFormat: false,
       })
     } catch (err) {
@@ -266,6 +266,24 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
       }
     }
     throw Object.assign(new Error("Gemini: all keys on cooldown"), { status: 429 })
+  }
+
+  // gemini2 — pinned to key index 1
+  if (provider === "gemini2") {
+    const keys = getProviderKeys("GEMINI_API_KEY")
+    const i = 1; const apiKey = keys[i]
+    if (!apiKey) throw Object.assign(new Error("gemini2: key not configured"), { status: 503 })
+    if ((keyCooldownUntil.get(`gemini:${i}`) || 0) > Date.now()) throw Object.assign(new Error("gemini2: key on cooldown"), { status: 429 })
+    try {
+      return await callOpenAICompat({
+        label: `Gemini[${i}]`, endpoint: "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+        apiKey, model: process.env.GEMINI_MODEL || "gemini-2.5-flash-lite",
+        prompt, system, maxTokens, timeoutMs, tokenParam: "max_tokens",
+      })
+    } catch (err) {
+      if (err?.status === 429) cooldownKey("gemini", i, retryDelayMs(err) || 3600000)
+      throw err
+    }
   }
 
   if (provider === "nvidia") {
