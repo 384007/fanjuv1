@@ -121,6 +121,31 @@ function routeEligibleForLocale(route, locale) {
   return true
 }
 
+function assertZhCityDisplayNames(entries) {
+  const bad = entries.filter((entry) => {
+    const countryCode = String(entry.countryCode || "CN").toUpperCase()
+    return entry.locale === "zh"
+      && ["CN", "HK", "MO", "TW"].includes(countryCode)
+      && !/[\u4e00-\u9fff]/.test(String(entry.cityNameLocalized || ""))
+  })
+  if (bad.length > 0) {
+    const sample = bad.slice(0, 12).map((entry) => `${entry.route}:${entry.cityNameLocalized || "(missing)"}`).join(", ")
+    throw new Error(`ZH CN/HK/MO/TW city display names must be Chinese, not pinyin/English. Bad entries: ${sample}`)
+  }
+}
+
+function buildCityNameIndex(entries) {
+  const index = new Map()
+  for (const entry of entries) {
+    if (!entry?.citySlug) continue
+    if (!index.has(entry.citySlug)) index.set(entry.citySlug, {})
+    const names = index.get(entry.citySlug)
+    if (entry.locale === "zh" && entry.cityNameLocalized) names.zh = entry.cityNameLocalized
+    if (entry.locale === "en" && entry.cityNameLocalized) names.en = entry.cityNameLocalized
+  }
+  return index
+}
+
 function sha256Hex(s) {
   return createHash("sha256").update(s).digest("hex")
 }
@@ -354,10 +379,10 @@ function userPromptFor(profile) {
     ].join("\n")
   }
   return [
-    `为路由 ${profile.route} 写一篇高质量中文长文。`,
+    `为「${profile.cityNameLocalized}」城市页写一篇高质量中文长文。`,
     `城市：${profile.cityNameLocalized}。主题：${profile.topicNameLocalized}。`,
     `标题规则：写一个具体、有编辑判断的标题，必须包含「${profile.cityNameLocalized}」并自然出现「饭局app」，但不能使用「${profile.cityNameLocalized}${profile.topicNameLocalized}指南」「${profile.cityNameLocalized}${profile.topicNameLocalized}怎么参加」这类只替换城市/主题的模板标题。标题要结合本次角度、目标人群、一个本地或行业张力重新拟定。description、正文前 200 字必须自然出现「饭局app」和「${profile.cityNameLocalized}」。`,
-    `中文城市名硬规则：公开标题、H1、description、H2 和正文里，城市名只能使用「${profile.cityNameLocalized}」这个中文名；不要写路线 slug「${profile.citySlug}」、拼音城市名、英文城市名，尤其不要把中国城市写成拼音。`,
+    `中文城市名硬规则：公开标题、H1、description、H2 和正文里，城市名只能使用「${profile.cityNameLocalized}」这个中文名；URL slug、拼音城市名、英文城市名一律不能出现在公开字段里。中国、港澳台城市全部使用中文名。`,
     `角度：${profile.angle.name}。按这个方向写：${profile.angle.instruction}`,
     `风格 profile：结构=${profile.structure}；开头=${profile.openingStyle}；FAQ=${profile.faqMode}；CTA=${profile.ctaPosition}；例子=${profile.exampleType}；语气=${profile.tone}；标题=${profile.titlePattern}。`,
     "质量：像真实城市饭局指南，不像落地页。写出城市节奏、街区选择、同桌人数、报名前顾虑、主理人信号、安全判断、报名建议。每个 H2 都必须有真实正文段落，且各小节观点不能重复。",
@@ -394,7 +419,7 @@ function planLocaleCounts(limit, lang) {
   return { en, zh }
 }
 
-function buildLocalePrompts({ locale, count, manifestEntries, masterSeed }) {
+function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, masterSeed }) {
   const enabledRoutes = manifestEntries.filter(
     (e) => e.locale === locale && e.enabled === true && routeEligibleForLocale(e, locale) && (TARGET_ROUTES.size === 0 || TARGET_ROUTES.has(e.route))
   )
@@ -459,6 +484,8 @@ function buildLocalePrompts({ locale, count, manifestEntries, masterSeed }) {
       locale: route.locale,
       citySlug: route.citySlug,
       cityNameLocalized: route.cityNameLocalized,
+      cityNameZh: cityNameIndex.get(route.citySlug)?.zh || (route.locale === "zh" ? route.cityNameLocalized : ""),
+      cityNameEn: cityNameIndex.get(route.citySlug)?.en || (route.locale === "en" ? route.cityNameLocalized : ""),
       countryCode: route.countryCode,
       topicSlug: route.topicSlug,
       topicNameLocalized: route.topicNameLocalized,
@@ -497,6 +524,8 @@ function buildLocalePrompts({ locale, count, manifestEntries, masterSeed }) {
 
 function main() {
   const manifest = loadManifest()
+  assertZhCityDisplayNames(manifest.entries)
+  const cityNameIndex = buildCityNameIndex(manifest.entries)
 
   const counts = planLocaleCounts(LIMIT, LANG === "en" || LANG === "zh" ? LANG : "all")
 
@@ -521,10 +550,10 @@ function main() {
   const masterSeed = `${RANDOM_SEED}#${seedNum}`
 
   const enPrompts = counts.en > 0
-    ? buildLocalePrompts({ locale: "en", count: counts.en, manifestEntries: manifest.entries, masterSeed })
+    ? buildLocalePrompts({ locale: "en", count: counts.en, manifestEntries: manifest.entries, cityNameIndex, masterSeed })
     : []
   const zhPrompts = counts.zh > 0
-    ? buildLocalePrompts({ locale: "zh", count: counts.zh, manifestEntries: manifest.entries, masterSeed })
+    ? buildLocalePrompts({ locale: "zh", count: counts.zh, manifestEntries: manifest.entries, cityNameIndex, masterSeed })
     : []
 
   const all = []
@@ -556,6 +585,8 @@ function main() {
       locale: p.profile.locale,
       citySlug: p.profile.citySlug,
       cityNameLocalized: p.profile.cityNameLocalized,
+      cityNameZh: p.profile.cityNameZh,
+      cityNameEn: p.profile.cityNameEn,
       countryCode: p.profile.countryCode,
       topicSlug: p.profile.topicSlug,
       topicNameLocalized: p.profile.topicNameLocalized,

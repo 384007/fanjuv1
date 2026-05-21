@@ -16,6 +16,7 @@ const PUBLISHED_FILE = join(ROOT, process.env.PUBLISHED_FILE || "dist/seo/cloudf
 const FAILED_LOG_FILE = join(ROOT, process.env.FAILED_LOG_FILE || "dist/seo/generated-drafts.json")
 const TMP_DIR = join(ROOT, "dist/seo/cloudflare-upload")
 const CONTENT_READY_DIR = join(ROOT, "content/seo-ready")
+const ROUTE_MANIFEST_FILE = join(ROOT, "data/seo/route-manifest.json")
 
 const BATCH_SIZE = Math.max(1, Number.parseInt(process.env.BATCH_SIZE || "1", 10))
 const CONCURRENCY = Math.max(1, Number.parseInt(process.env.CONCURRENCY || "1", 10))
@@ -35,6 +36,8 @@ const DRY_RUN = process.env.DRY_RUN === "1"
 const UPLOAD_R2 = process.env.UPLOAD_R2 !== "0"
 const PUBLISH_CONTENT = process.env.PUBLISH_CONTENT !== "0"
 const ALLOW_SOURCE_OVERWRITE = process.env.ALLOW_SOURCE_OVERWRITE === "1"
+const ZH_CITY_LOCALIZED_COUNTRIES = new Set(["CN", "HK", "MO", "TW"])
+let routeCityNameIndexCache = null
 
 // D1/R2 publishing uses the Cloudflare API token below. Workers AI may require
 // a different token scope, so keep it out of the default generation fallback.
@@ -551,20 +554,70 @@ function compactCjk(value = "") {
     .toLowerCase()
 }
 
-function normalizedWords(value = "") {
-  return ` ${String(value || "")
+function normalizeLatinAlias(value = "") {
+  return String(value || "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
-    .replace(/[^\p{L}\p{N}\u4e00-\u9fff]+/gu, " ")
+    .replace(/[^a-z0-9]+/g, " ")
     .replace(/\s+/g, " ")
-    .trim()} `
+    .trim()
 }
 
-function zhCitySlugLeak(prompt, value = "") {
-  if (prompt.locale !== "zh") return false
-  const slug = String(prompt.citySlug || "").toLowerCase().trim()
-  if (!slug || /[\u4e00-\u9fff]/.test(slug) || slug.length < 3) return false
-  const spacedSlug = slug.replace(/-/g, " ")
-  return normalizedWords(value).includes(` ${spacedSlug} `)
+function addLatinAlias(aliases, value = "") {
+  const normalized = normalizeLatinAlias(value)
+  if (!normalized || !/[a-z]/.test(normalized) || normalized.length < 3) return
+  aliases.add(normalized)
+  const compact = normalized.replace(/\s+/g, "")
+  if (compact.length >= 3) aliases.add(compact)
+  for (const token of normalized.split(" ")) {
+    if (token.length >= 4) aliases.add(token)
+  }
+}
+
+function loadRouteCityNameIndex() {
+  if (routeCityNameIndexCache) return routeCityNameIndexCache
+  routeCityNameIndexCache = new Map()
+  if (!existsSync(ROUTE_MANIFEST_FILE)) return routeCityNameIndexCache
+  try {
+    const manifest = JSON.parse(readFileSync(ROUTE_MANIFEST_FILE, "utf8"))
+    for (const entry of manifest.entries || []) {
+      if (!entry?.citySlug) continue
+      if (!routeCityNameIndexCache.has(entry.citySlug)) routeCityNameIndexCache.set(entry.citySlug, {})
+      const names = routeCityNameIndexCache.get(entry.citySlug)
+      if (entry.locale === "zh" && entry.cityNameLocalized) names.zh = entry.cityNameLocalized
+      if (entry.locale === "en" && entry.cityNameLocalized) names.en = entry.cityNameLocalized
+      if (entry.countryCode && !names.countryCode) names.countryCode = entry.countryCode
+    }
+  } catch (err) {
+    console.warn(`Could not load route manifest city aliases: ${err.message}`)
+  }
+  return routeCityNameIndexCache
+}
+
+function zhLatinCityAliasHits(prompt, value = "") {
+  if (prompt.locale !== "zh") return []
+  const indexEntry = loadRouteCityNameIndex().get(prompt.citySlug) || {}
+  const countryCode = String(prompt.countryCode || indexEntry.countryCode || "CN").toUpperCase()
+  if (!ZH_CITY_LOCALIZED_COUNTRIES.has(countryCode)) return []
+
+  const aliases = new Set()
+  addLatinAlias(aliases, prompt.citySlug)
+  addLatinAlias(aliases, String(prompt.citySlug || "").replace(/-/g, " "))
+  addLatinAlias(aliases, prompt.cityNameEn)
+  addLatinAlias(aliases, indexEntry.en)
+
+  const haystack = ` ${normalizeLatinAlias(value)} `
+  const compactHaystack = haystack.replace(/\s+/g, "")
+  const hits = []
+  for (const alias of aliases) {
+    if (alias.includes(" ")) {
+      if (haystack.includes(` ${alias} `) || compactHaystack.includes(alias.replace(/\s+/g, ""))) hits.push(alias)
+    } else if (haystack.includes(` ${alias} `)) {
+      hits.push(alias)
+    }
+  }
+  return [...new Set(hits)].slice(0, 8)
 }
 
 function latinNoiseInZhHeading(value = "") {
@@ -810,8 +863,9 @@ function scoreArticle(prompt, parsed) {
   if (!includesCity(prompt, title)) issues.push("title-missing-city")
   if (!includesCity(prompt, h1)) issues.push("h1-missing-city")
   if (!includesCity(prompt, description)) issues.push("description-missing-city")
-  if (zhCitySlugLeak(prompt, `${title}\n${description}\n${body.slice(0, 1600)}`)) {
-    issues.push(`pinyin-city-name-in-zh-public-text:${prompt.citySlug}`)
+  const zhCityAliases = zhLatinCityAliasHits(prompt, haystack)
+  if (zhCityAliases.length) {
+    issues.push(`pinyin-city-name-in-zh-public-text:${zhCityAliases.join("|")}`)
   }
   if (prompt.locale === "zh") {
     const titleNoise = latinNoiseInZhHeading(title)
@@ -985,7 +1039,7 @@ function retryPrompt(basePrompt, attempt, issues) {
     "",
     isEn
       ? `QUALITY RETRY ${attempt}: the previous draft failed these checks: ${issues.join(", ")}. Rewrite from scratch as a complete long-form article. The title and H1 must include the city, mention Fanju app naturally, and must not be a reusable city/topic template. Every H2 must be newly written for this city, topic, angle, and audience; do not use generic labels such as "What is Fanju", "How the table works", "Safety and boundaries", or "A practical first step". Use literal Markdown heading lines that begin with "## " for every major section and at least one line that begins with "### ". Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. Use at least 10 separate public paragraphs with blank lines between paragraphs, and at least two paragraphs under every H2. Do not summarize. Make it longer, more specific, and structurally complete. Do not include Markdown links, raw URLs, href attributes, or HTML anchor tags.`
-      : `质量重试 ${attempt}：上一稿未通过这些检查：${issues.join("，")}。请从头重写一篇完整长文。标题和 H1 必须包含城市，必须自然出现「饭局app」，不能是只替换城市/主题的模板标题。每个 H2 都要按这座城市、这个主题、本次角度和目标人群重新拟定，不要用「饭局app 是什么」「一桌饭怎样运作」「边界和安全」「一个实际的第一步」这类通用标签。每个主要小节必须使用字面量 Markdown 标题行，也就是以“## ”开头；至少一个具体问题标题以“### ”开头。不要用加粗标题、编号标题或普通文字冒号代替井号标题。至少 10 个公开自然段，段落之间空行，每个 H2 下面至少两段。不要摘要，不要变短，要更具体、更本地、更完整。不要包含 Markdown 链接、裸 URL、href 或 HTML a 标签。`,
+      : `质量重试 ${attempt}：上一稿未通过这些检查：${issues.join("，")}。请从头重写一篇完整长文。标题、H1、description、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。标题和 H1 必须包含城市，必须自然出现「饭局app」，不能是只替换城市/主题的模板标题。每个 H2 都要按这座城市、这个主题、本次角度和目标人群重新拟定，不要用「饭局app 是什么」「一桌饭怎样运作」「边界和安全」「一个实际的第一步」这类通用标签。每个主要小节必须使用字面量 Markdown 标题行，也就是以“## ”开头；至少一个具体问题标题以“### ”开头。不要用加粗标题、编号标题或普通文字冒号代替井号标题。至少 10 个公开自然段，段落之间空行，每个 H2 下面至少两段。不要摘要，不要变短，要更具体、更本地、更完整。不要包含 Markdown 链接、裸 URL、href 或 HTML a 标签。`,
   ].join("\n")
 }
 
@@ -1331,6 +1385,8 @@ function readyEntryFromResult(result) {
     locale: result.prompt.locale,
     citySlug: result.prompt.citySlug,
     cityNameLocalized: result.prompt.cityNameLocalized,
+    cityNameZh: result.prompt.cityNameZh || null,
+    cityNameEn: result.prompt.cityNameEn || null,
     topicSlug: result.prompt.topicSlug,
     topicNameLocalized: result.prompt.topicNameLocalized,
     route: result.prompt.route,
@@ -1367,6 +1423,8 @@ function failedEntry(prompt, err) {
     locale: prompt.locale,
     citySlug: prompt.citySlug,
     cityNameLocalized: prompt.cityNameLocalized,
+    cityNameZh: prompt.cityNameZh || null,
+    cityNameEn: prompt.cityNameEn || null,
     topicSlug: prompt.topicSlug,
     topicNameLocalized: prompt.topicNameLocalized,
     route: prompt.route,

@@ -22,7 +22,9 @@ const ROOT = join(__dirname, "..")
 const READY_DIR = join(ROOT, "content/seo-ready")
 const MANIFEST_FILE = join(ROOT, "data/seo/route-manifest.json")
 const MIN_SCORE = 90
+const ZH_CITY_LOCALIZED_COUNTRIES = new Set(["CN", "HK", "MO", "TW"])
 let routeMetaCache = null
+let routeCityNameIndexCache = null
 
 function parseFrontmatter(raw) {
   const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/)
@@ -116,21 +118,66 @@ function compactCjk(value = "") {
     .toLowerCase()
 }
 
-function normalizedWords(value = "") {
-  return ` ${String(value || "")
+function normalizeLatinAlias(value = "") {
+  return String(value || "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
-    .replace(/[^\p{L}\p{N}\u4e00-\u9fff]+/gu, " ")
+    .replace(/[^a-z0-9]+/g, " ")
     .replace(/\s+/g, " ")
-    .trim()} `
+    .trim()
 }
 
-function zhCitySlugLeak(meta, value = "") {
-  if (meta.lang !== "zh") return false
+function addLatinAlias(aliases, value = "") {
+  const normalized = normalizeLatinAlias(value)
+  if (!normalized || !/[a-z]/.test(normalized) || normalized.length < 3) return
+  aliases.add(normalized)
+  const compact = normalized.replace(/\s+/g, "")
+  if (compact.length >= 3) aliases.add(compact)
+  for (const token of normalized.split(" ")) {
+    if (token.length >= 4) aliases.add(token)
+  }
+}
+
+function loadRouteCityNameIndex() {
+  if (routeCityNameIndexCache) return routeCityNameIndexCache
+  routeCityNameIndexCache = new Map()
+  if (!existsSync(MANIFEST_FILE)) return routeCityNameIndexCache
+  const manifest = JSON.parse(readFileSync(MANIFEST_FILE, "utf8"))
+  for (const entry of manifest.entries || []) {
+    if (!entry?.citySlug) continue
+    if (!routeCityNameIndexCache.has(entry.citySlug)) routeCityNameIndexCache.set(entry.citySlug, {})
+    const names = routeCityNameIndexCache.get(entry.citySlug)
+    if (entry.locale === "zh" && entry.cityNameLocalized) names.zh = entry.cityNameLocalized
+    if (entry.locale === "en" && entry.cityNameLocalized) names.en = entry.cityNameLocalized
+    if (entry.countryCode && !names.countryCode) names.countryCode = entry.countryCode
+  }
+  return routeCityNameIndexCache
+}
+
+function zhLatinCityAliasHits(meta, value = "") {
+  if (meta.lang !== "zh") return []
   const routeMeta = routeMetaFor(meta)
-  const slug = String(routeMeta?.citySlug || "").toLowerCase().trim()
-  if (!slug || /[\u4e00-\u9fff]/.test(slug) || slug.length < 3) return false
-  const spacedSlug = slug.replace(/-/g, " ")
-  return normalizedWords(value).includes(` ${spacedSlug} `)
+  const indexEntry = loadRouteCityNameIndex().get(routeMeta?.citySlug) || {}
+  const countryCode = String(routeMeta?.countryCode || indexEntry.countryCode || "CN").toUpperCase()
+  if (!ZH_CITY_LOCALIZED_COUNTRIES.has(countryCode)) return []
+
+  const aliases = new Set()
+  addLatinAlias(aliases, routeMeta?.citySlug)
+  addLatinAlias(aliases, String(routeMeta?.citySlug || "").replace(/-/g, " "))
+  addLatinAlias(aliases, indexEntry.en)
+
+  const haystack = ` ${normalizeLatinAlias(value)} `
+  const compactHaystack = haystack.replace(/\s+/g, "")
+  const hits = []
+  for (const alias of aliases) {
+    if (alias.includes(" ")) {
+      if (haystack.includes(` ${alias} `) || compactHaystack.includes(alias.replace(/\s+/g, ""))) hits.push(alias)
+    } else if (haystack.includes(` ${alias} `)) {
+      hits.push(alias)
+    }
+  }
+  return [...new Set(hits)].slice(0, 8)
 }
 
 function latinNoiseInZhHeading(value = "") {
@@ -350,8 +397,9 @@ function sourceBodyIssues(meta, body) {
   if (!includesRouteCity(meta, meta.title || "")) issues.push("title-missing-city")
   if (!includesRouteCity(meta, h1)) issues.push("h1-missing-city")
   if (!includesRouteCity(meta, meta.description || "")) issues.push("description-missing-city")
-  if (zhCitySlugLeak(meta, `${meta.title || ""}\n${meta.description || ""}\n${body.slice(0, 1600)}`)) {
-    issues.push(`pinyin-city-name-in-zh-public-text:${routeMetaFor(meta)?.citySlug || "unknown"}`)
+  const zhCityAliases = zhLatinCityAliasHits(meta, haystack)
+  if (zhCityAliases.length) {
+    issues.push(`pinyin-city-name-in-zh-public-text:${zhCityAliases.join("|")}`)
   }
   if (lang === "zh") {
     const titleNoise = latinNoiseInZhHeading(meta.title || "")
