@@ -789,7 +789,7 @@ function scoreArticle(prompt, parsed) {
   const haystack = `${title}\n${description}\n${body}`
 
   const leakHits = detectLeaks(haystack)
-  if (leakHits.length) issues.push(`tech-leak:${leakHits.length}`)
+  if (leakHits.length) issues.push(`tech-leak:${leakHits.slice(0, 3).join("|")}`)
   const linkHits = publicLinkHits(haystack)
   if (linkHits.length) issues.push(`public-link:${linkHits.join("+")}`)
   if (looksLikeJsonWrapper(haystack) || looksLikeJsonWrapper(body) || looksLikeJsonWrapper(description)) {
