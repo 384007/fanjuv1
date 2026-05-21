@@ -206,6 +206,27 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
     throw Object.assign(new Error("Cerebras: all keys on cooldown"), { status: 429 })
   }
 
+  // cerebras2/cerebras3/cerebras4 — each pinned to a specific key index for independent parallel use
+  if (provider === "cerebras2" || provider === "cerebras3" || provider === "cerebras4") {
+    const keyIndex = provider === "cerebras2" ? 1 : provider === "cerebras3" ? 2 : 3
+    const keys = getProviderKeys("CEREBRAS_API_KEY")
+    const apiKey = keys[keyIndex]
+    if (!apiKey) throw Object.assign(new Error(`${provider}: key not configured`), { status: 503 })
+    const mapKey = `cerebras:${keyIndex}`
+    if ((keyCooldownUntil.get(mapKey) || 0) > Date.now())
+      throw Object.assign(new Error(`${provider}: key on cooldown`), { status: 429 })
+    try {
+      return await callOpenAICompat({
+        label: `Cerebras[${keyIndex}]`, endpoint: "https://api.cerebras.ai/v1/chat/completions",
+        apiKey, model: process.env.CEREBRAS_MODEL || "llama3.1-8b",
+        prompt, system, maxTokens, timeoutMs, tokenParam: "max_completion_tokens", useJsonFormat: false,
+      })
+    } catch (err) {
+      if (err?.status === 429) { cooldownKey("cerebras", keyIndex, retryDelayMs(err) || 86400000) }
+      throw err
+    }
+  }
+
   if (provider === "cloudflare") {
     return callCloudflare({ prompt, system, maxTokens, timeoutMs })
   }
