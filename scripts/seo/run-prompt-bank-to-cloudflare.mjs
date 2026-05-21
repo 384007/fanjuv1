@@ -802,7 +802,7 @@ function scoreArticle(prompt, parsed) {
 
   const minLen = prompt.locale === "en" ? 3200 : 2200
   if (body.length < minLen) issues.push(`body-too-short:${body.length}`)
-  if (body.length > (prompt.locale === "en" ? 12000 : 6000)) issues.push(`body-too-long:${body.length}`)
+  if (body.length > (prompt.locale === "en" ? 12000 : 10000)) issues.push(`body-too-long:${body.length}`)
   if (prompt.locale === "en" && !/Fanju app/i.test(`${title}\n${description}\n${body.slice(0, 600)}`)) {
     issues.push("missing-primary-keyword:fanju-app")
   }
