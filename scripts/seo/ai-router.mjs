@@ -29,6 +29,14 @@ function cooldownKey(provider, keyIndex, ms) {
   console.log(`Provider ${provider} key[${keyIndex}] cooldown ${Math.ceil(ms / 1000)}s`)
 }
 
+function providerKeyCooldownUntil(provider) {
+  let until = 0
+  for (const [key, value] of keyCooldownUntil.entries()) {
+    if (key.startsWith(`${provider}:`)) until = Math.max(until, value)
+  }
+  return until
+}
+
 export function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms))
 }
@@ -247,7 +255,10 @@ function cooldownProvider(provider, err) {
   let ms = 0
   if (err?.status === 401 || err?.status === 403) ms = 60 * 60 * 1000
   else if (err?.status === 429 && /free_tier_requests|quota exceeded|current quota/i.test(text)) ms = 60 * 60 * 1000
-  else if (err?.status === 429 && /all keys on cooldown/i.test(text)) ms = 90 * 1000
+  else if (err?.status === 429 && /all keys on cooldown/i.test(text)) {
+    const keyUntil = providerKeyCooldownUntil(provider)
+    ms = keyUntil > Date.now() ? keyUntil - Date.now() + 5000 : 15000
+  }
   else if (err?.status === 429) ms = retryDelayMs(err)
   if (ms > 0) {
     const until = Date.now() + ms
@@ -303,8 +314,9 @@ export async function generateWithRouter({ prompt, system, maxTokens = 1200, tim
     }
   }
 
-  if (Number.isFinite(soonestCooldownUntil) && cooldownWaitPasses < 3) {
-    const waitMs = Math.min(Math.max(soonestCooldownUntil - Date.now(), 1000), 30000)
+  const maxCooldownWaitPasses = Number.parseInt(process.env.AI_COOLDOWN_WAIT_PASSES || "12", 10)
+  if (Number.isFinite(soonestCooldownUntil) && cooldownWaitPasses < maxCooldownWaitPasses) {
+    const waitMs = Math.min(Math.max(soonestCooldownUntil - Date.now() + 1000, 1000), 90000)
     console.log(`All available providers are cooling down; waiting ${Math.ceil(waitMs / 1000)}s before one more pass`)
     await sleep(waitMs)
     return generateWithRouter({ prompt, system, maxTokens, timeoutMs, providerOrder, cooldownWaitPasses: cooldownWaitPasses + 1 })

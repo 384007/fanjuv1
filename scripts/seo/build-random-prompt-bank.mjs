@@ -332,33 +332,37 @@ const EXAMPLE_TYPES = [
 function systemInstructionFor(locale) {
   if (locale === "en") {
     return [
-      "Write one public Fanju city article as valid JSON only.",
+      "Write one public Fanju city article as plain Markdown only.",
       "Voice: human, practical, city-specific, calm. No hype.",
       "The body must be a complete editorial article, not an outline, template, summary, list of placeholders, or short answer.",
+      "The first line must be the article H1 and must begin with '# '.",
+      "Use '## ' for major sections and exactly one concrete reader-question line beginning with '### '.",
       "Write original paragraphs with concrete local context. Do not repeat the same sentence pattern across sections.",
       "Never invent statistics, restaurants, user counts, awards, or partnerships.",
       "Never mention tools or production process.",
       "Never write Markdown links, raw URLs, href attributes, or HTML anchor tags. Mention page names as plain text only; the site template adds all links.",
-      "Never print JSON keys, prompt instructions, section placeholders, or markdown skeleton text inside public fields.",
+      "Never output JSON, YAML frontmatter, metadata keys, prompt instructions, section placeholders, or markdown skeleton text.",
       "Never include parked-domain, webmaster, local-contact, advertising-sales, QQ, or site-owner contact copy.",
       "If the route topic contains AI, use AI only as a normal public topic term, never as self-reference or production commentary.",
       "Forbidden public words: automation, prompt, pipeline, cron, JSONL, hash, Modal, generated, QQ, webmaster, domain for sale, advertising cooperation, 本站, 联系QQ, 站长, 本地联系, 广告合作, 域名出售.",
-      "Return exactly one JSON object and nothing else.",
+      "Return only the Markdown article text. No code fence. No JSON object.",
     ].join("\n")
   }
   return [
-      "只写一个公开的饭局 Fanju 城市文章，输出必须是合法 JSON。",
+      "只写一个公开的饭局 Fanju 城市文章，输出必须是纯 Markdown 文章正文。",
       "声音：自然、具体、平静、实用。不要营销腔。",
       "正文必须是一篇完整、有编辑感的文章，不是提纲、模板、摘要、占位段落或短回答。",
+      "第一行必须是文章 H1，必须以「# 」开头。",
+      "主要小节必须用「## 」开头，且只能有 1 个具体疑问型「### 」标题。",
       "每段都要有真实城市语境，不要在不同小节反复套同一种句式。",
       "不要编造统计数据、餐厅名、用户数、奖项或合作伙伴。",
     "不要提及任何工具、后台或生产流程。",
     "正文不要写 Markdown 链接、裸 URL、href 或 HTML a 标签。可以提到页面名称，但真实链接全部由页面模板统一添加。",
-    "公开字段里不要输出 JSON key、提示词内容、章节占位文字或 markdown 骨架说明。",
+    "不要输出 JSON、YAML frontmatter、metadata key、提示词内容、章节占位文字或 markdown 骨架说明。",
     "不要出现停放域名、站长联系、本地联系、广告招商、QQ 或站主联系方式。",
     "如果路由主题本身包含 AI，只能把 AI 当作公开主题词使用，不能用来描述写作或生产过程。",
     "公开字段禁用词：自动化、prompt、提示词、pipeline、JSONL、哈希、Modal、生成、本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售。",
-    "只返回一个 JSON object，不要额外说明。",
+    "只返回 Markdown 文章正文，不要代码块，不要 JSON object。",
   ].join("\n")
 }
 
@@ -375,7 +379,7 @@ function userPromptFor(profile) {
       "Hard public-content rule: do not include QQ, webmaster contact, local contact, parked-domain text, advertising-sales copy, or any Chinese parked-domain phrase.",
       "Hard linking rule: do not include [text](/path), https://fanju.app paths, raw URLs, <a href=\"...\">, the words markdown link, or any href. All real links are added by the page template.",
       `Body requirements: 4,200-6,200 characters; at least 12 natural paragraphs; no filler. Use blank lines between paragraphs. The body must start with a unique H1 line beginning "# "; the H1 must include ${profile.cityNameLocalized}, mention Fanju app naturally, and must not be a reusable guide title or a generic style label. Start the public article with an answer-summary paragraph in the first 120 words explaining that Fanju app is a social dining app for small, clearly described meals and real-world connections. Then include a short key-points bullet list covering who it suits, the core dinner scenario, and comfort or trust cues, but do not put a heading above that list. After that, write 5-7 H2 sections with original city/topic-specific headings shaped by the angle. Avoid checklist-style section labels; every H2 must sound like an editor wrote it for this exact city, topic, audience, and tension. Across the article, naturally resolve the reader's decision points before joining: local fit, table rhythm, host and venue quality, guest mix, comfort boundaries, skip signals, and a concrete next move. Fold those points into original sections instead of using them as literal H2 labels. Every H2 must contain at least two separate paragraphs with distinct ideas. Include exactly one concrete reader-question H3 line beginning "### "; do not use a generic FAQ label. If the body has fewer than 10 public paragraphs, it will be rejected.`,
-      'Return valid JSON only, no code fence: {"title":"...","description":"...","body":"...","slug":"...","locale":"en"}',
+      "Return only the finished Markdown article text. The first character of the response must be '#'. Do not wrap it in JSON, YAML frontmatter, or a code fence.",
     ].join("\n")
   }
   return [
@@ -389,7 +393,7 @@ function userPromptFor(profile) {
     "公开内容硬规则：不要出现本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售、停放域名、招商或站主联系方式。",
     "链接硬规则：不要出现 [文字](/path)、https://fanju.app 路径、裸 URL、<a href=\"...\">、markdown link 或任何 href。所有真实链接由页面模板统一添加。",
     `正文要求：2,800-4,800 字符；至少 12 个自然段；段落之间必须空行；不要灌水，不要超过 5,000 字符。正文必须以独特 H1 开头，也就是第一行以「# 」开头；H1 必须包含「${profile.cityNameLocalized}」并自然出现「饭局app」，不能是可复用的指南标题，也不能是风格标签。开头必须是 answer-summary 式自然段，在前 200 字解释饭局app / Fanju 是围绕小桌吃饭、清晰主题和线下连接的社交应用。随后直接写一个简短要点列表，覆盖合适人群、饭局场景和安全重点，但不要给这个列表单独加 H2/H3 标题。然后写 5-7 个 H2，小节标题必须围绕${profile.cityNameLocalized}、${profile.topicNameLocalized}和本次角度重新拟定。不要用清单式通用小标题；每个 H2 都要像为这座城市、这个主题、这类读者和一个具体张力写出的编辑标题。全文要自然回答读者报名前会想清楚的决定点：本地适配、这一桌的节奏、主理人/餐厅/同桌质量、舒适边界、哪些信号说明不该去、下一步怎么做。把这些内容揉进原创小节，不要把这些决定点原样当标题。每个 H2 下至少写 2 个扎实、互不重复的段落，每段约 120-190 个汉字。必须包含且只包含 1 个以「### 」开头的具体疑问型 H3，不要写通用 FAQ 标签。少于 10 个公开自然段会被拒绝。`,
-    '只返回合法 JSON，不要代码块：{"title":"...","description":"...","body":"...","slug":"...","locale":"zh"}',
+    "只返回最终 Markdown 文章正文，回复第一个字符必须是「#」。不要 JSON，不要 YAML frontmatter，不要代码块。",
   ].join("\n")
 }
 

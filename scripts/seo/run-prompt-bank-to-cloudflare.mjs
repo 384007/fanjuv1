@@ -343,108 +343,6 @@ function markdownForEntry(entry) {
   return `${frontmatter}\n\n${markdownBodyForEntry(entry)}\n`
 }
 
-function extractJsonObject(text) {
-  if (!text) return null
-  const trimmed = text.trim()
-  const fenced = trimmed
-    .replace(/^```(?:json)?\s*/i, "")
-    .replace(/\s*```$/i, "")
-    .trim()
-
-  const candidates = [trimmed, fenced]
-  for (const c of candidates) {
-    try {
-      const parsed = JSON.parse(c)
-      if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) return parsed
-    } catch {
-      // continue
-    }
-  }
-
-  for (const candidate of candidates) {
-    let depth = 0
-    let start = -1
-    let bestStart = -1
-    let bestEnd = -1
-    let inStr = false
-    let escape = false
-    for (let i = 0; i < candidate.length; i++) {
-      const ch = candidate[i]
-      if (escape) {
-        escape = false
-        continue
-      }
-      if (ch === "\\") {
-        escape = true
-        continue
-      }
-      if (ch === '"') {
-        inStr = !inStr
-        continue
-      }
-      if (inStr) continue
-      if (ch === "{") {
-        if (depth === 0) start = i
-        depth++
-      } else if (ch === "}") {
-        depth--
-        if (depth === 0 && start !== -1) {
-          bestStart = start
-          bestEnd = i + 1
-        }
-      }
-    }
-    if (bestStart !== -1 && bestEnd !== -1) {
-      try {
-        return JSON.parse(candidate.slice(bestStart, bestEnd))
-      } catch {
-        // fall through
-      }
-    }
-  }
-  return null
-}
-
-function unescapeLooseJsonString(value = "") {
-  return String(value)
-    .replace(/\\n/g, "\n")
-    .replace(/\\r/g, "")
-    .replace(/\\t/g, "\t")
-    .replace(/\\"/g, '"')
-    .replace(/\\\\/g, "\\")
-    .trim()
-}
-
-function extractLooseJsonArticle(prompt, text) {
-  const cleaned = stripMarkdownFence(text)
-  if (!/"title"\s*:/i.test(cleaned) || !/"body"\s*:/i.test(cleaned)) return null
-
-  const title = cleaned.match(/"title"\s*:\s*"([\s\S]*?)"\s*,\s*"description"\s*:/i)?.[1]
-  const description = cleaned.match(/"description"\s*:\s*"([\s\S]*?)"\s*,\s*"body"\s*:/i)?.[1]
-  let body = cleaned.match(/"body"\s*:\s*"([\s\S]*?)"\s*,\s*"slug"\s*:/i)?.[1]
-    || cleaned.match(/"body"\s*:\s*"([\s\S]*?)"\s*,\s*"locale"\s*:/i)?.[1]
-    || cleaned.match(/"body"\s*:\s*"([\s\S]*?)"\s*}\s*$/i)?.[1]
-  if (!body) {
-    const bodyStart = cleaned.match(/"body"\s*:\s*"/i)
-    if (bodyStart?.index !== undefined) {
-      const start = bodyStart.index + bodyStart[0].length
-      const tail = cleaned.slice(start)
-      const meta = tail.match(/"\s*,\s*"(?:slug|locale|route)"\s*:/i)
-      const end = meta?.index ?? tail.lastIndexOf('"')
-      body = end > 0 ? tail.slice(0, end) : tail
-    }
-  }
-
-  if (!title || !description || !body) return null
-  return {
-    title: unescapeLooseJsonString(title),
-    description: unescapeLooseJsonString(description),
-    body: unescapeLooseJsonString(body),
-    slug: modelSlugForR2(prompt),
-    locale: prompt.locale,
-  }
-}
-
 function stripMarkdownFence(text) {
   return String(text || "")
     .trim()
@@ -476,7 +374,7 @@ function extractMarkdownArticle(prompt, text) {
 }
 
 function parseModelArticle(prompt, content) {
-  return extractJsonObject(content) || extractLooseJsonArticle(prompt, content) || extractMarkdownArticle(prompt, content)
+  return extractMarkdownArticle(prompt, content)
 }
 
 function looksLikeJsonWrapper(text = "") {
@@ -1091,8 +989,8 @@ function retryPrompt(basePrompt, attempt, issues) {
     basePrompt.userPrompt,
     "",
     isEn
-      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch as a complete long-form article. The title and H1 must include the city, mention Fanju app naturally, and must not be a reusable city/topic template. Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use abstract checklist labels as section headings; make each H2 specific enough that it would not fit another city or topic. Use literal Markdown heading lines that begin with "## " for every major section and exactly one concrete reader-question line that begins with "### ". Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. ${lengthGuidance} Do not summarize. Be specific, local, and structurally complete. Do not include Markdown links, raw URLs, href attributes, or HTML anchor tags.`
-      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写一篇完整长文。标题、H1、description、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。标题和 H1 必须包含城市，必须自然出现「饭局app」，不能是只替换城市/主题的模板标题。每个 H2 都要按这座城市、这个主题、本次角度、目标人群和一个具体本地张力重新拟定。不要用抽象清单标签当小标题；每个 H2 都要具体到不能直接套给另一座城市或另一个主题。每个主要小节必须使用字面量 Markdown 标题行，也就是以“## ”开头；必须且只写一个具体疑问标题以“### ”开头。不要用加粗标题、编号标题或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整。不要包含 Markdown 链接、裸 URL、href 或 HTML a 标签。`,
+      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch as a complete long-form Markdown article. Return only the article text, starting with "# ". The title and H1 must include the city, mention Fanju app naturally, and must not be a reusable city/topic template. Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use abstract checklist labels as section headings; make each H2 specific enough that it would not fit another city or topic. Use literal Markdown heading lines that begin with "## " for every major section and exactly one concrete reader-question line that begins with "### ". Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. ${lengthGuidance} Do not summarize. Be specific, local, and structurally complete. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
+      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写一篇完整 Markdown 长文，只返回文章正文，并且第一行必须以「# 」开头。标题、H1、开头段落、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。标题和 H1 必须包含城市，必须自然出现「饭局app」，不能是只替换城市/主题的模板标题。每个 H2 都要按这座城市、这个主题、本次角度、目标人群和一个具体本地张力重新拟定。不要用抽象清单标签当小标题；每个 H2 都要具体到不能直接套给另一座城市或另一个主题。每个主要小节必须使用字面量 Markdown 标题行，也就是以“## ”开头；必须且只写一个具体疑问标题以“### ”开头。不要用加粗标题、编号标题或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
   ].join("\n")
 }
 
