@@ -10,7 +10,7 @@
 //   LINK_TIMEOUT_MS     per internal-link request timeout. Default: 12000
 //   MAX_INTERNAL_LINKS  max internal hrefs to check per page. Default: 80
 
-import { existsSync, readFileSync } from "fs"
+import { existsSync, readdirSync, readFileSync } from "fs"
 import { join } from "path"
 
 const BASE_URL = (process.env.BASE_URL || "https://fanju.app").replace(/\/$/, "")
@@ -19,6 +19,8 @@ const TIMEOUT_MS = Math.max(1000, Number.parseInt(process.env.TIMEOUT_MS || "200
 const LINK_TIMEOUT_MS = Math.max(1000, Number.parseInt(process.env.LINK_TIMEOUT_MS || "12000", 10))
 const MAX_INTERNAL_LINKS = Math.max(1, Number.parseInt(process.env.MAX_INTERNAL_LINKS || "80", 10))
 const MANIFEST_FILE = join(process.cwd(), "data/seo/route-manifest.json")
+const READY_DIR = join(process.cwd(), "content/seo-ready")
+const REQUIRE_SOURCE_MATCH = process.env.REQUIRE_SOURCE_MATCH === "1"
 const ZH_CITY_LOCALIZED_COUNTRIES = new Set(["CN", "HK", "MO", "TW"])
 const URLS = (process.env.URLS || "")
   .split(",")
@@ -45,6 +47,60 @@ const BAD_PUBLIC_PATTERNS = [
 ]
 
 let routeManifestEntries = null
+let expectedSourceByPath = null
+
+function parseFrontmatter(raw = "") {
+  const match = String(raw || "").match(/^---\r?\n([\s\S]*?)\r?\n---/)
+  if (!match) return {}
+  const meta = {}
+  for (const line of match[1].split("\n")) {
+    const m = line.match(/^(\w+):\s*"?([^"]*)"?\s*$/)
+    if (m) meta[m[1]] = m[2].trim()
+  }
+  return meta
+}
+
+function bodyWithoutFrontmatter(raw = "") {
+  const match = String(raw || "").match(/^---\r?\n[\s\S]*?\r?\n---\r?\n?([\s\S]*)$/)
+  return match ? match[1].trim() : String(raw || "").trim()
+}
+
+function markdownH1(body = "") {
+  return String(body || "").match(/^#\s+(.+)$/m)?.[1]?.trim() || ""
+}
+
+function comparableText(value = "") {
+  return String(value || "")
+    .replace(/!\[([^\]]*)\]\([^)]+\)/g, "$1")
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/https?:\/\/[^\s)]+/gi, "")
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/__([^_]+)__/g, "$1")
+    .replace(/\*([^*]+)\*/g, "$1")
+    .replace(/\s+/g, " ")
+    .trim()
+}
+
+function loadExpectedSources() {
+  if (expectedSourceByPath) return expectedSourceByPath
+  expectedSourceByPath = new Map()
+  if (!existsSync(READY_DIR)) return expectedSourceByPath
+  for (const file of readdirSync(READY_DIR).filter((f) => f.endsWith(".md"))) {
+    const raw = readFileSync(join(READY_DIR, file), "utf8")
+    const meta = parseFrontmatter(raw)
+    const canonicalPath = normalizePath(meta.canonicalPath || "")
+    const score = Number.parseInt(meta.aiQualityScore || "0", 10)
+    if (!canonicalPath || meta.status !== "ready" || score < 90) continue
+    const body = bodyWithoutFrontmatter(raw)
+    expectedSourceByPath.set(canonicalPath, {
+      file,
+      h1: comparableText(markdownH1(body) || meta.title || ""),
+      title: comparableText(meta.title || ""),
+    })
+  }
+  return expectedSourceByPath
+}
 
 function loadRouteManifestEntries() {
   if (routeManifestEntries) return routeManifestEntries
@@ -75,6 +131,16 @@ function routeMetaForUrl(url = "") {
   }
   if (!pathname || pathname.startsWith("/en/")) return null
   return loadRouteManifestEntries().find((entry) => normalizePath(entry.route) === pathname && entry.locale === "zh") || null
+}
+
+function expectedSourceForUrl(url = "") {
+  let pathname = ""
+  try {
+    pathname = normalizePath(new URL(url).pathname)
+  } catch {
+    pathname = normalizePath(url)
+  }
+  return loadExpectedSources().get(pathname) || null
 }
 
 function addLatinAlias(aliases, value = "") {
@@ -258,6 +324,7 @@ async function checkOne(raw) {
     badHits: badPhraseHits(publicHtml),
     issues: [],
   }
+  const expectedSource = expectedSourceForUrl(url)
   const zhCityAliases = zhLatinCityAliasHits(url, `${result.title}\n${result.h1}\n${h2.join("\n")}\n${text.slice(0, 3000)}`)
 
   if (response.status !== 200) result.issues.push(`http-${response.status}`)
@@ -267,6 +334,10 @@ async function checkOne(raw) {
   if (result.textLength < minVisibleText(url)) result.issues.push(`visible-text-too-short:${result.textLength}`)
   if (styleNodes < 1) result.issues.push("missing-stylesheet")
   if (result.badHits.length) result.issues.push(`bad-public-phrase:${result.badHits.join(",")}`)
+  if (REQUIRE_SOURCE_MATCH && !expectedSource) result.issues.push("missing-local-source-article")
+  if (expectedSource && comparableText(result.h1) !== expectedSource.h1) {
+    result.issues.push(`source-h1-mismatch:${expectedSource.file}`)
+  }
   if (zhCityAliases.length) result.issues.push(`pinyin-city-name-in-zh-live-text:${zhCityAliases.join("|")}`)
   if (result.badInternalLinks.length) {
     result.issues.push(

@@ -877,6 +877,7 @@ function isHardIssue(issue) {
     issue === "code-fence-in-public-body" ||
     issue.startsWith("body-too-short") ||
     issue.startsWith("too-few-h2") ||
+    issue.startsWith("too-few-h3") ||
     issue.startsWith("too-few-paragraphs") ||
     issue.startsWith("duplicate-h2") ||
     issue.startsWith("duplicate-paragraphs") ||
@@ -894,6 +895,7 @@ function isHardIssue(issue) {
     issue.startsWith("latin-word-in-zh-title") ||
     issue.startsWith("latin-word-in-zh-h1") ||
     issue.startsWith("latin-word-in-zh-heading") ||
+    issue.startsWith("latin-word-in-zh-body") ||
     issue.startsWith("malformed-heading") ||
     issue.startsWith("missing-primary-keyword") ||
     issue === "missing-city-context" ||

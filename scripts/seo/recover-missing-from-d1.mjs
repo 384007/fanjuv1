@@ -33,13 +33,66 @@ async function d1Query(sql) {
 
 // Get all ready articles from D1
 const rows = await d1Query(
-  "SELECT slug, title, description, body_html, lang, canonical_path, alternate_path, source_path FROM articles WHERE status='ready' ORDER BY published_at DESC"
+  "SELECT slug, title, description, body_html, lang, canonical_path, alternate_path, source_path, quality_score FROM articles WHERE status='ready' ORDER BY published_at DESC"
 )
 
 // Get existing markdown files (by source_path or slug-derived filename)
 const existing = new Set(readdirSync(CONTENT_DIR).map((f) => f.replace(/\.md$/, "")))
 
 let recovered = 0
+
+function decodeHtml(value = "") {
+  return String(value || "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#039;/g, "'")
+}
+
+function htmlToSourceMarkdown(html = "") {
+  const blocks = []
+  const normalized = String(html || "")
+    .replace(/\r\n/g, "\n")
+    .replace(/<\/?(?:article|strong|em)\b[^>]*>/gi, "")
+
+  const blockRe = /<(h[1-6]|p|li)\b[^>]*>([\s\S]*?)<\/\1>/gi
+  let match
+  while ((match = blockRe.exec(normalized)) !== null) {
+    const tag = match[1].toLowerCase()
+    const text = decodeHtml(match[2].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim())
+    if (!text) continue
+    if (tag === "p" && /^#{1,6}\s+/.test(text)) {
+      blocks.push(text)
+    } else if (tag.startsWith("h")) {
+      const level = Math.max(1, Math.min(6, Number.parseInt(tag.slice(1), 10) || 2))
+      blocks.push(`${"#".repeat(level)} ${text}`)
+    } else if (tag === "li") {
+      blocks.push(`- ${text}`)
+    } else {
+      blocks.push(text)
+    }
+  }
+
+  if (blocks.length) return blocks.join("\n\n").trim()
+  return decodeHtml(normalized.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim())
+}
+
+function yamlString(value = "") {
+  return `"${String(value || "").replace(/\\/g, "\\\\").replace(/"/g, '\\"').replace(/\r?\n/g, " ").trim()}"`
+}
+
+function translationKeyFor(row) {
+  const canonicalPath = row.canonical_path || ""
+  const parts = canonicalPath.split("/").filter(Boolean)
+  const offset = parts[0] === "en" ? 1 : 0
+  if (parts[offset] === "city" && parts[offset + 1] && parts[offset + 2]) {
+    return `${parts[offset + 1]}-${parts[offset + 2]}`
+  }
+  return (row.slug || canonicalPath || "recovered").replace(/^\/?/, "").replace(/\//g, "-")
+}
+
 for (const row of rows) {
   // Derive filename from source_path or canonical_path
   const sourcePath = row.source_path || ""
@@ -49,25 +102,31 @@ for (const row of rows) {
 
   if (existing.has(filename)) continue
 
-  // Convert body_html back to a minimal markdown wrapper
-  // body_html is stored as HTML; we store it as-is with frontmatter
   const lang = row.lang || (row.canonical_path?.startsWith("/en/") ? "en" : "zh")
   const canonicalPath = row.canonical_path || ""
   const alternatePath = row.alternate_path || ""
+  const score = Math.trunc(Number(row.quality_score) || 100)
+  const markdownBody = htmlToSourceMarkdown(row.body_html || "")
 
   const md = [
     "---",
-    `status: ready`,
-    `score: 100`,
-    `lang: ${lang}`,
-    `canonicalPath: "${canonicalPath}"`,
-    alternatePath ? `alternatePath: "${alternatePath}"` : null,
-    `title: "${(row.title || "").replace(/"/g, '\\"')}"`,
-    `description: "${(row.description || "").replace(/"/g, '\\"')}"`,
-    `recoveredFromD1: true`,
+    `slug: ${yamlString(filename)}`,
+    `canonicalPath: ${yamlString(canonicalPath)}`,
+    alternatePath ? `alternatePath: ${yamlString(alternatePath)}` : null,
+    `translationKey: ${yamlString(translationKeyFor(row))}`,
+    `lang: ${yamlString(lang)}`,
+    `title: ${yamlString(row.title || "")}`,
+    lang === "zh" ? `titleZh: ${yamlString(row.title || "")}` : null,
+    `description: ${yamlString(row.description || "")}`,
+    `pageType: ${yamlString("city_article")}`,
+    `priorityScore: 70`,
+    `aiQualityScore: ${score}`,
+    `status: ${yamlString("ready")}`,
+    `renderMode: ${yamlString("source")}`,
+    `recoveredFromD1: ${yamlString("true")}`,
     "---",
     "",
-    row.body_html || "",
+    markdownBody,
   ]
     .filter((l) => l !== null)
     .join("\n")

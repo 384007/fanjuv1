@@ -203,7 +203,7 @@ def trigger_pages_deploy() -> None:
 
 def wait_for_live_routes(routes: list[str], max_attempts: int = 30, delay_seconds: int = 30) -> None:
     routes_csv = ",".join(routes)
-    article_cmd = f"BASE_URL=https://fanju.app URLS={shlex.quote(routes_csv)} pnpm seo:article:live:check"
+    article_cmd = f"BASE_URL=https://fanju.app REQUIRE_SOURCE_MATCH=1 URLS={shlex.quote(routes_csv)} pnpm seo:article:live:check"
     sitemap_cmd = f"BASE_URL=https://fanju.app URLS={shlex.quote(routes_csv)} pnpm seo:sitemap:live:contains"
     last_code = 1
     for attempt in range(1, max_attempts + 1):
@@ -361,6 +361,47 @@ def public_route_for_entry(entry: dict) -> str:
     return route if route.startswith("/") else f"/{route}"
 
 
+def parse_frontmatter(path: Path) -> dict:
+    try:
+        raw = path.read_text(encoding="utf-8")
+    except FileNotFoundError:
+        return {}
+    match = re.match(r"^---\r?\n([\s\S]*?)\r?\n---", raw)
+    if not match:
+        return {}
+    meta: dict[str, str] = {}
+    for line in match.group(1).splitlines():
+        m = re.match(r"^(\w+):\s*\"?([^\"]*)\"?\s*$", line)
+        if m:
+            meta[m.group(1)] = m.group(2).strip()
+    return meta
+
+
+def ensure_ready_source_entries(entries: list[dict], stage: str) -> None:
+    missing: list[str] = []
+    invalid: list[str] = []
+    for entry in entries:
+        route = public_route_for_entry(entry)
+        source_path = str(entry.get("sourcePath") or "").strip()
+        if not source_path:
+            missing.append(f"{route} (no sourcePath)")
+            continue
+        path = Path(WORKDIR, source_path)
+        if not path.exists():
+            missing.append(f"{route} ({source_path})")
+            continue
+        meta = parse_frontmatter(path)
+        score = int(meta.get("aiQualityScore") or "0")
+        canonical = str(meta.get("canonicalPath") or "").strip()
+        if meta.get("status") != "ready" or score < 90 or canonical != route:
+            invalid.append(f"{route} ({source_path}, status={meta.get('status')}, score={score}, canonical={canonical})")
+    if missing or invalid:
+        raise RuntimeError(
+            f"Ready source validation failed at {stage}: "
+            f"missing={missing[:8]} invalid={invalid[:8]}"
+        )
+
+
 def validate_ready_entries(entries: list[dict], min_score: int = 90) -> None:
     bad_entries = [
         entry
@@ -432,6 +473,7 @@ def run_cloudflare_publish_pipeline(
             raise RuntimeError(f"Round {round_no} published {len(ready_entries)} ready articles, expected {safe_run_limit}")
         latest_entries = ready_entries[-safe_run_limit:]
         validate_ready_entries(latest_entries, min_score=90)
+        ensure_ready_source_entries(latest_entries, f"round-{round_no}-after-generation")
 
         routes = [public_route_for_entry(entry) for entry in latest_entries]
         run("node scripts/seo/recover-missing-from-d1.mjs", cwd=WORKDIR, timeout=300)
@@ -445,6 +487,17 @@ def run_cloudflare_publish_pipeline(
             )
             bad_files = [f.strip() for f in quarantine.stdout.splitlines() if f.strip()]
             if bad_files:
+                current_files = {
+                    Path(str(entry.get("sourcePath") or "")).name
+                    for entry in latest_entries
+                    if entry.get("sourcePath")
+                }
+                current_bad = sorted(current_files.intersection(bad_files))
+                if current_bad:
+                    raise RuntimeError(
+                        "Current round article(s) failed strict source checks; refusing to quarantine and publish fewer than "
+                        f"{safe_run_limit}: {current_bad}"
+                    )
                 import shutil as _shutil
                 quarantine_dir = Path(WORKDIR) / "content" / "seo-quarantine"
                 quarantine_dir.mkdir(parents=True, exist_ok=True)
@@ -458,6 +511,7 @@ def run_cloudflare_publish_pipeline(
                     raise RuntimeError("pnpm build failed even after quarantining bad articles")
             else:
                 raise RuntimeError("pnpm build failed: pnpm build")
+        ensure_ready_source_entries(latest_entries, f"round-{round_no}-before-commit")
         commit_sha = git_commit_and_push(routes, run_id, round_no)
         wait_for_live_routes(routes)
         run(
