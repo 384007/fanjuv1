@@ -174,7 +174,19 @@ def git_commit_and_push(routes: list[str], run_id: str, round_no: int) -> str:
     run_args(["git", "push", "origin", "main"], cwd=WORKDIR, timeout=900)
     sha = run_capture(["git", "rev-parse", "HEAD"], cwd=WORKDIR)
     print(f"GITHUB_MAIN_COMMIT={sha}", flush=True)
+    trigger_pages_deploy()
     return sha
+
+
+def trigger_pages_deploy() -> None:
+    hook_url = os.environ.get("CF_PAGES_DEPLOY_HOOK", "").strip()
+    if not hook_url:
+        print("CF_PAGES_DEPLOY_HOOK not set; skipping Pages deploy trigger", flush=True)
+        return
+    import urllib.request
+    req = urllib.request.Request(hook_url, method="POST", data=b"")
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        print(f"PAGES_DEPLOY_TRIGGERED status={resp.status}", flush=True)
 
 
 def wait_for_live_routes(routes: list[str], max_attempts: int = 30, delay_seconds: int = 30) -> None:
@@ -391,7 +403,7 @@ def run_cloudflare_publish_pipeline(
         run("EN_TOP_CITY_LIMIT=100 pnpm seo:prompt-bank:check", cwd=WORKDIR, timeout=600)
         run(
             f"RUN_LIMIT={safe_run_limit} CONCURRENCY=1 RATE_DELAY_MS=75000 BATCH_SIZE=1 "
-            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=5 "
+            f"UPLOAD_R2=0 MIN_SCORE=90 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=5 "
             f"QUALITY_RETRY_DELAY_MS=60000 MAX_TOKENS=7200 AI_COOLDOWN_WAIT_PASSES=2 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=30000 GROQ_MAX_TOKENS=3600 "

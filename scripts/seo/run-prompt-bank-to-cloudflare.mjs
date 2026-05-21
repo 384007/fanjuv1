@@ -1038,24 +1038,19 @@ function retryPrompt(basePrompt, attempt, issues) {
   const isEn = basePrompt.locale === "en"
   const issueSummary = retryIssueSummaryForModel(basePrompt.locale, issues)
   const bodyTooLong = issues.some((issue) => issue.startsWith("body-too-long"))
-  const bodyTooShort = issues.some((issue) => issue.startsWith("body-too-short") || issue.startsWith("too-few-paragraphs"))
   const lengthGuidance = isEn
     ? bodyTooLong
       ? "Keep the body compact: 4,200-6,500 characters, 10-14 public paragraphs, no repeated sections, and no expansion for its own sake."
-      : bodyTooShort
-        ? "The last draft was rejected as a short answer. Write 4,800-7,200 characters, at least 13 separate public paragraphs, and do not stop until all 6 H2 sections have two full paragraphs each. Every paragraph under an H2 must be 95-145 words, concrete, and non-repeating. Do not use bullet lists or numbered lists."
-        : "Use 4,600-6,800 characters and at least 13 separate public paragraphs with blank lines between paragraphs. Every H2 must have exactly two distinct paragraphs of 90-150 words. Do not use bullet lists or numbered lists."
+      : "Use at least 13 separate public paragraphs with blank lines between paragraphs. Every H2 must have exactly two distinct paragraphs of 90-150 words. Do not use bullet lists or numbered lists."
     : bodyTooLong
       ? "正文要收紧到 2,800-4,800 字符，10-14 个公开自然段，不要重复小节，不要为了凑长扩写。"
-      : bodyTooShort
-        ? "上一稿因为像短回答被拒。正文必须写到 3,200-4,600 个中文字符，至少 13 个公开自然段；6 个 H2 每个下面都要写满 2 个自然段，每段 130-190 个汉字，不能空泛复述，不能提前收尾。不要项目符号或编号列表。"
-        : "正文必须有 3,100-4,700 个中文字符，至少 13 个公开自然段，段落之间空行；每个 H2 下面必须正好两段，每段 120-190 个汉字；不要项目符号或编号列表。"
+      : "至少 13 个公开自然段，段落之间空行；每个 H2 下面必须正好两段，每段 120-190 个汉字；不要项目符号或编号列表。"
   return [
     basePrompt.userPrompt,
     "",
     isEn
       ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch and satisfy the automated gate in one pass. Return only the article text, starting with "# ". The H1/title must include the city and the exact phrase "Fanju app"; the first paragraph must include the city and Fanju app so the generated description also passes. Use exactly 6 "## " headings, exactly one "### " reader question, and at least 13 natural paragraphs. Every H2 needs at least two paragraphs. Do not use generic headings such as "Who this is for", "Safety and boundaries", "How it works", "What to expect", "Next steps", or "Conclusion". Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
-      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写，并一次满足自动质量门。只返回文章正文，第一行必须以「# 」开头。标题/H1 必须包含中文城市名和「饭局app」；第一段必须同时出现中文城市名和「饭局app」，这样 description 才能过。必须写 6 个「## 」标题、且只写 1 个「### 」具体疑问标题；至少 13 个自然段；每个 H2 下必须正好 2 段。不要写摘要、提纲、短回答或占位段落；每一段都要有本地场景、同桌人的顾虑或具体判断。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这种通用标题。标题、H1、开头段落、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。不要用加粗标题、编号标题、项目列表或普通文字冒号代替井号标题。${lengthGuidance} 不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
+      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写，并一次满足自动质量门。只返回文章正文，第一行必须以「# 」开头。标题/H1 必须包含中文城市名和「饭局app」；第一段必须同时出现中文城市名和「饭局app」，这样 description 才能过。必须写 6 个「## 」标题、且只写 1 个「### 」具体疑问标题；至少 13 个自然段；每个 H2 下必须正好 2 段。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这种通用标题。标题、H1、开头段落、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。不要用加粗标题、编号标题、项目列表或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整；不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
   ].join("\n")
 }
 
@@ -1103,14 +1098,6 @@ function providerOrderForPrompt(prompt) {
   return [...lanes.slice(start), ...lanes.slice(0, start)].join(",")
 }
 
-function candidateInitialCooldownPasses() {
-  const configured = Number.parseInt(
-    process.env.AI_CANDIDATE_START_WAIT_PASSES || process.env.AI_COOLDOWN_WAIT_PASSES || "0",
-    10,
-  )
-  return Number.isFinite(configured) ? Math.max(0, configured) : 0
-}
-
 async function generateProviderCandidates(prompt, attempt, previousIssues) {
   const providerOrder = rotateProviderOrder(providerOrderForPrompt(prompt), attempt)
   const promptText = retryPrompt(prompt, attempt, previousIssues)
@@ -1130,7 +1117,6 @@ async function generateProviderCandidates(prompt, attempt, previousIssues) {
     .split(",")
     .map((provider) => provider.trim().toLowerCase())
     .filter(Boolean)
-  const cooldownWaitPasses = candidateInitialCooldownPasses()
   const settled = await Promise.allSettled(
     providers.map((provider) =>
       generateWithRouter({
@@ -1139,7 +1125,6 @@ async function generateProviderCandidates(prompt, attempt, previousIssues) {
         maxTokens: MAX_TOKENS,
         timeoutMs: TIMEOUT_MS,
         providerOrder: provider,
-        cooldownWaitPasses,
       }),
     ),
   )
