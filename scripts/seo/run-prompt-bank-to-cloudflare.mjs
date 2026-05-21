@@ -1079,12 +1079,20 @@ function retryPrompt(basePrompt, attempt, issues) {
   if (attempt <= 1) return basePrompt.userPrompt
   const isEn = basePrompt.locale === "en"
   const issueSummary = retryIssueSummaryForModel(basePrompt.locale, issues)
+  const bodyTooLong = issues.some((issue) => issue.startsWith("body-too-long"))
+  const lengthGuidance = isEn
+    ? bodyTooLong
+      ? "Keep the body compact: 4,200-6,500 characters, 10-14 public paragraphs, no repeated sections, and no expansion for its own sake."
+      : "Use at least 10 separate public paragraphs with blank lines between paragraphs, and at least two paragraphs under every H2. Make it long enough to be complete without filler."
+    : bodyTooLong
+      ? "正文要收紧到 2,800-4,800 字符，10-14 个公开自然段，不要重复小节，不要为了凑长扩写。"
+      : "至少 10 个公开自然段，段落之间空行，每个 H2 下面至少两段；写到完整即可，不要灌水。"
   return [
     basePrompt.userPrompt,
     "",
     isEn
-      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch as a complete long-form article. The title and H1 must include the city, mention Fanju app naturally, and must not be a reusable city/topic template. Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use abstract checklist labels as section headings; make each H2 specific enough that it would not fit another city or topic. Use literal Markdown heading lines that begin with "## " for every major section and at least one line that begins with "### ". Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. Use at least 10 separate public paragraphs with blank lines between paragraphs, and at least two paragraphs under every H2. Do not summarize. Make it longer, more specific, and structurally complete. Do not include Markdown links, raw URLs, href attributes, or HTML anchor tags.`
-      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写一篇完整长文。标题、H1、description、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。标题和 H1 必须包含城市，必须自然出现「饭局app」，不能是只替换城市/主题的模板标题。每个 H2 都要按这座城市、这个主题、本次角度、目标人群和一个具体本地张力重新拟定。不要用抽象清单标签当小标题；每个 H2 都要具体到不能直接套给另一座城市或另一个主题。每个主要小节必须使用字面量 Markdown 标题行，也就是以“## ”开头；至少一个具体问题标题以“### ”开头。不要用加粗标题、编号标题或普通文字冒号代替井号标题。至少 10 个公开自然段，段落之间空行，每个 H2 下面至少两段。不要摘要，不要变短，要更具体、更本地、更完整。不要包含 Markdown 链接、裸 URL、href 或 HTML a 标签。`,
+      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch as a complete long-form article. The title and H1 must include the city, mention Fanju app naturally, and must not be a reusable city/topic template. Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use abstract checklist labels as section headings; make each H2 specific enough that it would not fit another city or topic. Use literal Markdown heading lines that begin with "## " for every major section and exactly one concrete reader-question line that begins with "### ". Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. ${lengthGuidance} Do not summarize. Be specific, local, and structurally complete. Do not include Markdown links, raw URLs, href attributes, or HTML anchor tags.`
+      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写一篇完整长文。标题、H1、description、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。标题和 H1 必须包含城市，必须自然出现「饭局app」，不能是只替换城市/主题的模板标题。每个 H2 都要按这座城市、这个主题、本次角度、目标人群和一个具体本地张力重新拟定。不要用抽象清单标签当小标题；每个 H2 都要具体到不能直接套给另一座城市或另一个主题。每个主要小节必须使用字面量 Markdown 标题行，也就是以“## ”开头；必须且只写一个具体疑问标题以“### ”开头。不要用加粗标题、编号标题或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整。不要包含 Markdown 链接、裸 URL、href 或 HTML a 标签。`,
   ].join("\n")
 }
 
