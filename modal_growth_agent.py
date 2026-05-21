@@ -29,6 +29,8 @@ OUTPUT_PATHS = [
     "public/sitemap-index.xml",
 ]
 
+AI_PROVIDER_ORDER = "groq,nvidia,cerebras,gemini,openrouter,cloudflare"
+
 image = (
     modal.Image.debian_slim()
     .apt_install("curl", "ca-certificates", "git")
@@ -390,11 +392,11 @@ def run_cloudflare_publish_pipeline(
         run(
             f"RUN_LIMIT={safe_run_limit} CONCURRENCY=1 RATE_DELAY_MS=75000 BATCH_SIZE=1 "
             f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=5 "
-            f"QUALITY_RETRY_DELAY_MS=240000 MAX_TOKENS=7200 AI_COOLDOWN_WAIT_PASSES=40 "
+            f"QUALITY_RETRY_DELAY_MS=60000 MAX_TOKENS=7200 AI_COOLDOWN_WAIT_PASSES=40 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=30000 "
-            "MULTI_AI_CANDIDATES=1 ASSIGN_PROVIDER_PER_CITY=0 FORCE_PROVIDER_ORDER=1 "
-            "AI_PROVIDER_ORDER=gemini pnpm seo:prompt-bank:cloudflare",
+            "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "
+            f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER} pnpm seo:prompt-bank:cloudflare",
             cwd=WORKDIR,
             timeout=21000,
         )
@@ -542,7 +544,7 @@ def publish_routes_to_cloudflare(target_routes: str, upload_r2: bool = True):
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=30000 "
             "MULTI_AI_CANDIDATES=1 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "
-            "AI_PROVIDER_ORDER=gemini pnpm seo:prompt-bank:cloudflare",
+            f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER} pnpm seo:prompt-bank:cloudflare",
             cwd=WORKDIR,
             timeout=21000,
         )
@@ -632,7 +634,7 @@ def test_target_city_articles():
                     "QUALITY_ATTEMPTS=5",
                     "QUALITY_RETRY_DELAY_MS=240000",
                     "AI_COOLDOWN_WAIT_PASSES=40",
-                    "AI_PROVIDER_ORDER=gemini",
+                    f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER}",
                     f"TARGET_ROUTES={shlex.quote(routes_csv)}",
                     f"GENERATED_DRAFTS_FILE={shlex.quote(drafts_file)}",
                     'PUBLISHED_FILE="data/seo/published-ready-drafts.json"',

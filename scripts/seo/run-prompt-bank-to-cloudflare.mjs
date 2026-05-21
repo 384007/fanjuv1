@@ -41,7 +41,7 @@ let routeCityNameIndexCache = null
 
 // D1/R2 publishing uses the Cloudflare API token below. Workers AI may require
 // a different token scope, so keep it out of the default generation fallback.
-process.env.AI_PROVIDER_ORDER ||= "groq,cerebras,openrouter,nvidia,cloudflare,gemini"
+process.env.AI_PROVIDER_ORDER ||= "groq,nvidia,cerebras,gemini,openrouter,cloudflare"
 
 const CLOUDFLARE_ACCOUNT_ID = cleanEnv(process.env.CLOUDFLARE_ACCOUNT_ID)
 const CLOUDFLARE_API_TOKEN = cleanToken(process.env.CLOUDFLARE_API_TOKEN || process.env.CLOUDFLARE_AUTH_TOKEN)
@@ -1007,7 +1007,7 @@ function rotateProviderOrder(order, attempt) {
 
 function providerOrderForPrompt(prompt) {
   if (ASSIGN_PROVIDER_PER_CITY) {
-    const providers = (process.env.AI_PROVIDER_ORDER || "gemini,openrouter,cerebras,groq,cloudflare,nvidia")
+    const providers = (process.env.AI_PROVIDER_ORDER || "groq,nvidia,cerebras,gemini,openrouter,cloudflare")
       .split(",")
       .map((x) => x.trim().toLowerCase())
       .filter(Boolean)
@@ -1020,14 +1020,14 @@ function providerOrderForPrompt(prompt) {
   }
 
   if (process.env.FORCE_PROVIDER_ORDER === "1") {
-    return (process.env.AI_PROVIDER_ORDER || "gemini,openrouter,cerebras,groq,cloudflare,nvidia")
+    return (process.env.AI_PROVIDER_ORDER || "groq,nvidia,cerebras,gemini,openrouter,cloudflare")
       .split(",")
       .map((x) => x.trim().toLowerCase())
       .filter(Boolean)
       .join(",")
   }
 
-  const lanes = (process.env.AI_PROVIDER_LANES || process.env.AI_PROVIDER_ORDER || "groq,cerebras,openrouter,nvidia,cloudflare,gemini")
+  const lanes = (process.env.AI_PROVIDER_LANES || process.env.AI_PROVIDER_ORDER || "groq,nvidia,cerebras,gemini,openrouter,cloudflare")
     .split(",")
     .map((x) => x.trim().toLowerCase())
     .filter(Boolean)

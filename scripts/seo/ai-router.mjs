@@ -1,9 +1,10 @@
-const DEFAULT_ORDER = "groq,cerebras,openrouter,nvidia,cloudflare,gemini"
+const DEFAULT_ORDER = "groq,nvidia,cerebras,gemini,openrouter,cloudflare"
 const providerCooldownUntil = new Map()
 
 // Multi-key support: GROQ_API_KEY, GROQ_API_KEY_2, GROQ_API_KEY_3, ...
 // Same pattern for CEREBRAS_API_KEY, NVIDIA_API_KEY
 const keyCooldownUntil = new Map() // "provider:keyIndex" -> timestamp
+const keyCursor = new Map() // provider -> next preferred key index
 
 function getProviderKeys(envPrefix) {
   const keys = []
@@ -35,6 +36,13 @@ function providerKeyCooldownUntil(provider) {
     if (key.startsWith(`${provider}:`)) until = Math.max(until, value)
   }
   return until
+}
+
+function rotatingKeyIndexes(provider, keyCount) {
+  if (keyCount <= 0) return []
+  const start = (keyCursor.get(provider) || 0) % keyCount
+  keyCursor.set(provider, (start + 1) % keyCount)
+  return Array.from({ length: keyCount }, (_, offset) => (start + offset) % keyCount)
 }
 
 export function sleep(ms) {
@@ -144,7 +152,7 @@ async function callCloudflare({ prompt, system, maxTokens, timeoutMs }) {
 async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) {
   if (provider === "openrouter") {
     const keys = getProviderKeys("OPENROUTER_API_KEY")
-    for (let i = 0; i < keys.length; i++) {
+    for (const i of rotatingKeyIndexes("openrouter", keys.length)) {
       if ((keyCooldownUntil.get(`openrouter:${i}`) || 0) > Date.now()) continue
       try {
         return await callOpenAICompat({
@@ -163,7 +171,7 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
 
   if (provider === "groq") {
     const keys = getProviderKeys("GROQ_API_KEY")
-    for (let i = 0; i < keys.length; i++) {
+    for (const i of rotatingKeyIndexes("groq", keys.length)) {
       if ((keyCooldownUntil.get(`groq:${i}`) || 0) > Date.now()) continue
       try {
         return await callOpenAICompat({
@@ -182,7 +190,7 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
 
   if (provider === "cerebras") {
     const keys = getProviderKeys("CEREBRAS_API_KEY")
-    for (let i = 0; i < keys.length; i++) {
+    for (const i of rotatingKeyIndexes("cerebras", keys.length)) {
       if ((keyCooldownUntil.get(`cerebras:${i}`) || 0) > Date.now()) continue
       try {
         return await callOpenAICompat({
@@ -204,7 +212,7 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
 
   if (provider === "gemini") {
     const keys = getProviderKeys("GEMINI_API_KEY")
-    for (let i = 0; i < keys.length; i++) {
+    for (const i of rotatingKeyIndexes("gemini", keys.length)) {
       if ((keyCooldownUntil.get(`gemini:${i}`) || 0) > Date.now()) continue
       try {
         return await callOpenAICompat({
@@ -222,7 +230,7 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
 
   if (provider === "nvidia") {
     const keys = getProviderKeys("NVIDIA_API_KEY")
-    for (let i = 0; i < keys.length; i++) {
+    for (const i of rotatingKeyIndexes("nvidia", keys.length)) {
       if ((keyCooldownUntil.get(`nvidia:${i}`) || 0) > Date.now()) continue
       try {
         return await callOpenAICompat({
