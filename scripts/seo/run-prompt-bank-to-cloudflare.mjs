@@ -887,6 +887,9 @@ function isHardIssue(issue) {
     issue.startsWith("too-few-h2") ||
     issue.startsWith("too-few-h3") ||
     issue.startsWith("too-few-paragraphs") ||
+    issue.startsWith("duplicate-h2") ||
+    issue.startsWith("duplicate-paragraphs") ||
+    issue.startsWith("repeated-generic-phrases") ||
     issue.startsWith("template-heading-set") ||
     issue.startsWith("template-h2") ||
     issue === "template-title" ||
