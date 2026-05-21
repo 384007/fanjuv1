@@ -550,21 +550,12 @@ function latinNoiseInZhHeading(value = "") {
 
 function latinNoiseInZhBody(value = "") {
   const allowed = new Set([
-    "fanju",
-    "app",
-    "ai",
-    "vc",
-    "ceo",
-    "cfo",
-    "cto",
-    "coo",
-    "mba",
-    "pm",
-    "ip",
-    "bd",
-    "saas",
-    "b2b",
-    "b2c",
+    "fanju", "app", "ai", "vc", "ceo", "cfo", "cto", "coo", "mba", "pm", "ip", "bd",
+    "saas", "b2b", "b2c",
+    // common english words acceptable in zh articles
+    "kpi", "okr", "hr", "pr", "it", "ui", "ux", "api", "diy", "vip", "ktv",
+    "solo", "nearby", "online", "offline", "wifi", "ok", "yes", "no",
+    "cbd", "cbd", "gps", "id", "pin", "qr", "url", "seo",
   ])
   const words = new Set()
   for (const match of String(value || "").matchAll(/[A-Za-z][A-Za-z-]{2,}/g)) {
