@@ -42,7 +42,7 @@ app = modal.App("fanju-lab-worker", image=image)
 web = FastAPI(title="Fanju Lab Worker")
 
 # ── Secrets ─────────────────────────────────────────────────────────────────
-SECRETS = modal.Secret.from_name("fanju-lab-secrets")
+SECRETS = modal.Secret.from_name("custom-secret")
 # Required secret keys:
 #   ANTHROPIC_API_KEY, GITHUB_TOKEN, GITHUB_REPO, GITHUB_CONTENT_OWNER
 #   CF_WORKER_URL, CF_ADMIN_TOKEN
@@ -216,7 +216,7 @@ async def seo_check(req: SeoCheckRequest, authorization: str = Header(default=""
     return report
 
 
-# ── Platform Rewrite ────────────────────────────────────────────────────────
+# ── Platform Rewrite ────────────────────────────────────────���───────────────
 PLATFORM_STYLES = {
     "zhihu":       "知乎风格：专业深度，多用「我认为」「我的经验」，适合问答形式",
     "csdn":        "CSDN风格：技术向，加代码示例，清单式结构",
