@@ -2,13 +2,19 @@
 
 import { useEffect, useState } from "react"
 import type { LabPublishJob } from "@/lib/lab/types"
+import { PageHeader } from "@/components/lab/page-header"
+import { StatCard } from "@/components/lab/stat-card"
 
-const STATUS_COLOR: Record<string, string> = {
-  success: "text-green-400",
-  failed: "text-red-400",
-  running: "text-amber-400",
-  pending: "text-zinc-400",
-  skipped: "text-zinc-600",
+const STATUS_STYLE: Record<string, { dot: string; text: string; label: string }> = {
+  success: { dot: "bg-[var(--gold)]", text: "text-[var(--gold)]", label: "Published" },
+  failed: { dot: "bg-[var(--wine)]", text: "text-[var(--wine)]", label: "Failed" },
+  running: {
+    dot: "bg-[var(--gold)] live-dot",
+    text: "text-[var(--gold)]",
+    label: "In Flight",
+  },
+  pending: { dot: "bg-muted-foreground/60", text: "text-muted-foreground", label: "Pending" },
+  skipped: { dot: "bg-muted-foreground/30", text: "text-muted-foreground/60", label: "Skipped" },
 }
 
 function getToken(): string {
@@ -31,63 +37,109 @@ export default function PublishJobsPage() {
     load()
   }, [])
 
+  const counts = jobs.reduce(
+    (acc, j) => {
+      acc[j.status] = (acc[j.status] ?? 0) + 1
+      return acc
+    },
+    {} as Record<string, number>,
+  )
+
   return (
-    <div className="space-y-4">
-      <div className="flex items-center justify-between">
-        <h1 className="text-xl font-mono font-bold text-amber-400">Publish Jobs</h1>
-        <button
-          onClick={load}
-          className="text-xs font-mono text-zinc-400 hover:text-white border border-zinc-700 px-3 py-1 rounded"
-        >
-          Refresh
-        </button>
+    <div>
+      <PageHeader
+        eyebrow="Section 03 — Dispatch"
+        title="Publish Jobs"
+        subtitle="The dispatch ledger: every article, every platform, every attempt — preserved with care."
+        actions={
+          <button
+            onClick={load}
+            className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground hover:text-[var(--gold)] border border-border/60 hover:border-[var(--gold)]/60 px-4 py-2 transition-colors"
+          >
+            Refresh
+          </button>
+        }
+      />
+
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+        <StatCard label="Published" value={counts.success ?? 0} accent="gold" hint="Successful" />
+        <StatCard label="In Flight" value={counts.running ?? 0} hint="Active" />
+        <StatCard label="Pending" value={counts.pending ?? 0} hint="Queued" />
+        <StatCard label="Failed" value={counts.failed ?? 0} accent="wine" hint="Need attention" />
       </div>
 
-      <div className="overflow-x-auto">
-        <table className="w-full text-sm font-mono border-collapse">
-          <thead>
-            <tr className="border-b border-zinc-800 text-zinc-500">
-              <th className="text-left py-2 pr-4">Article</th>
-              <th className="text-left py-2 pr-4">Platform</th>
-              <th className="text-left py-2 pr-4">Status</th>
-              <th className="text-left py-2 pr-4">URL</th>
-              <th className="text-left py-2 pr-4">Attempts</th>
-              <th className="text-left py-2">Finished</th>
-            </tr>
-          </thead>
-          <tbody>
-            {jobs.map((j) => (
-              <tr key={j.id} className="border-b border-zinc-900 hover:bg-zinc-900">
-                <td className="py-2 pr-4 text-white text-xs">{j.article_slug ?? j.article_id}</td>
-                <td className="py-2 pr-4 text-zinc-300">{j.platform}</td>
-                <td className={`py-2 pr-4 font-bold ${STATUS_COLOR[j.status] ?? "text-zinc-400"}`}>
-                  {j.status}
-                </td>
-                <td className="py-2 pr-4">
-                  {j.published_url && (
-                    <a
-                      href={j.published_url}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="text-blue-400 text-xs hover:underline"
-                    >
-                      view
-                    </a>
-                  )}
-                </td>
-                <td className="py-2 pr-4 text-zinc-500">{j.attempt_count}</td>
-                <td className="py-2 text-zinc-600 text-xs">{j.finished_at?.slice(0, 16) ?? "-"}</td>
+      <div className="bg-card/40 backdrop-blur-sm border border-border/40 rounded-sm overflow-hidden">
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="text-left font-mono text-[9px] uppercase tracking-[0.25em] text-muted-foreground">
+                <th className="px-6 py-4 font-normal">Article</th>
+                <th className="px-6 py-4 font-normal">Platform</th>
+                <th className="px-6 py-4 font-normal">Status</th>
+                <th className="px-6 py-4 font-normal">URL</th>
+                <th className="px-6 py-4 font-normal">Attempts</th>
+                <th className="px-6 py-4 font-normal text-right">Finished</th>
               </tr>
-            ))}
-            {jobs.length === 0 && (
-              <tr>
-                <td colSpan={6} className="py-6 text-center text-zinc-600 text-xs">
-                  No publish jobs yet
-                </td>
-              </tr>
-            )}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {jobs.map((j) => {
+                const s = STATUS_STYLE[j.status] ?? STATUS_STYLE.pending
+                return (
+                  <tr
+                    key={j.id}
+                    className="border-t border-border/30 hover:bg-[var(--gold)]/[0.03] transition-colors"
+                  >
+                    <td className="px-6 py-5 font-serif italic text-base text-foreground">
+                      {j.article_slug ?? j.article_id}
+                    </td>
+                    <td className="px-6 py-5 font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
+                      {j.platform}
+                    </td>
+                    <td className="px-6 py-5">
+                      <div className="inline-flex items-center gap-2">
+                        <span className={`size-1.5 rounded-full ${s.dot}`} />
+                        <span
+                          className={`font-mono text-[10px] uppercase tracking-[0.25em] ${s.text}`}
+                        >
+                          {s.label}
+                        </span>
+                      </div>
+                    </td>
+                    <td className="px-6 py-5">
+                      {j.published_url ? (
+                        <a
+                          href={j.published_url}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--gold)] hover:underline"
+                        >
+                          View →
+                        </a>
+                      ) : (
+                        <span className="text-muted-foreground/40">—</span>
+                      )}
+                    </td>
+                    <td className="px-6 py-5 font-mono text-xs text-muted-foreground">
+                      {j.attempt_count}
+                    </td>
+                    <td className="px-6 py-5 text-right font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground/60">
+                      {j.finished_at?.slice(0, 16) ?? "—"}
+                    </td>
+                  </tr>
+                )
+              })}
+              {jobs.length === 0 && (
+                <tr>
+                  <td colSpan={6} className="px-6 py-20 text-center">
+                    <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground/60">
+                      No dispatches recorded
+                    </span>
+                  </td>
+                </tr>
+              )}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   )

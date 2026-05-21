@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react"
 import type { LabPlatformAccount } from "@/lib/lab/types"
+import { PageHeader } from "@/components/lab/page-header"
 
 function getToken(): string {
   if (typeof document === "undefined") return ""
@@ -23,10 +24,7 @@ export default function PlatformAccountsPage() {
     const token = getToken()
     await fetch(`/api/lab/platform-accounts/${platform}`, {
       method: "PATCH",
-      headers: {
-        Authorization: `Bearer ${token}`,
-        "Content-Type": "application/json",
-      },
+      headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
       body: JSON.stringify({ is_active: isActive ? 0 : 1 }),
     })
     setPlatforms((prev) =>
@@ -36,54 +34,116 @@ export default function PlatformAccountsPage() {
     )
   }
 
-  return (
-    <div className="space-y-4">
-      <h1 className="text-xl font-mono font-bold text-amber-400">Platform Accounts</h1>
+  const activeCount = platforms.filter((p) => p.is_active).length
+  const expiredCount = platforms.filter((p) => p.is_active && !p.session_valid).length
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+  return (
+    <div>
+      <PageHeader
+        eyebrow="Section 04 — Network"
+        title="Platform Accounts"
+        subtitle="Fifteen channels, each with its own rhythm. Daily caps and session integrity, monitored continuously."
+        actions={
+          <div className="flex items-center gap-4 font-mono text-[10px] uppercase tracking-[0.25em]">
+            <span className="text-[var(--gold)]">
+              <span className="font-serif italic text-2xl mr-1 not-italic">{activeCount}</span>
+              Active
+            </span>
+            {expiredCount > 0 && (
+              <span className="text-[var(--wine)]">
+                <span className="font-serif italic text-2xl mr-1">{expiredCount}</span>
+                Expired
+              </span>
+            )}
+          </div>
+        }
+      />
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {platforms.map((p) => {
           const active = !!p.is_active
+          const ratio = p.daily_limit ? p.published_today / p.daily_limit : 0
+          const ratioPct = Math.min(100, Math.round(ratio * 100))
+          const ratioTone =
+            ratio >= 1
+              ? "var(--wine)"
+              : ratio >= 0.7
+                ? "oklch(0.78 0.16 70)"
+                : "var(--gold)"
           return (
             <div
               key={p.platform}
-              className={`border rounded p-4 ${
-                active ? "border-zinc-700 bg-zinc-900" : "border-zinc-900 bg-zinc-950 opacity-60"
+              className={`group relative bg-card/40 backdrop-blur-sm border rounded-sm p-5 transition-all ${
+                active
+                  ? "border-border/50 hover:border-[var(--gold)]/50"
+                  : "border-border/20 opacity-50"
               }`}
             >
-              <div className="flex justify-between items-center mb-3">
-                <span className="font-mono font-bold text-white">{p.display_name}</span>
+              <div className="flex justify-between items-start mb-5">
+                <div>
+                  <div className="font-serif italic text-2xl text-foreground leading-none">
+                    {p.display_name}
+                  </div>
+                  <div className="mt-1.5 font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground/70">
+                    {p.platform}
+                  </div>
+                </div>
                 <button
                   onClick={() => toggle(p.platform, active)}
-                  className={`text-xs px-2 py-1 rounded font-mono ${
-                    active ? "bg-green-900 text-green-300" : "bg-zinc-800 text-zinc-500"
+                  aria-pressed={active}
+                  className={`relative inline-flex h-5 w-10 items-center rounded-full transition-colors ${
+                    active ? "bg-[var(--gold)]" : "bg-border/60"
                   }`}
                 >
-                  {active ? "ON" : "OFF"}
+                  <span
+                    className={`inline-block h-3.5 w-3.5 transform rounded-full bg-card transition-transform ${
+                      active ? "translate-x-[22px]" : "translate-x-1"
+                    }`}
+                  />
                 </button>
               </div>
-              <div className="text-xs text-zinc-500 font-mono space-y-1">
+
+              <div className="space-y-3">
                 <div>
-                  Today:{" "}
-                  <span className="text-white">
-                    {p.published_today}/{p.daily_limit}
-                  </span>
+                  <div className="flex justify-between font-mono text-[9px] uppercase tracking-[0.25em] text-muted-foreground mb-1.5">
+                    <span>Today</span>
+                    <span style={{ color: ratioTone }}>
+                      {p.published_today} / {p.daily_limit}
+                    </span>
+                  </div>
+                  <div className="h-px bg-border/30 relative overflow-hidden">
+                    <div
+                      className="absolute inset-y-0 left-0 transition-all"
+                      style={{ width: `${ratioPct}%`, background: ratioTone }}
+                    />
+                  </div>
                 </div>
-                <div>
-                  Session:{" "}
-                  <span className={p.session_valid ? "text-green-400" : "text-red-400"}>
-                    {p.session_valid ? "valid" : "expired"}
+
+                <div className="flex items-center justify-between font-mono text-[9px] uppercase tracking-[0.25em]">
+                  <span className="text-muted-foreground">Session</span>
+                  <span className="inline-flex items-center gap-1.5">
+                    <span
+                      className={`size-1 rounded-full ${
+                        p.session_valid ? "bg-[var(--gold)]" : "bg-[var(--wine)]"
+                      }`}
+                    />
+                    <span
+                      className={p.session_valid ? "text-[var(--gold)]" : "text-[var(--wine)]"}
+                    >
+                      {p.session_valid ? "Valid" : "Expired"}
+                    </span>
                   </span>
-                </div>
-                <div className="text-zinc-600 text-[10px] uppercase tracking-wider">
-                  {p.platform}
                 </div>
               </div>
             </div>
           )
         })}
+
         {platforms.length === 0 && (
-          <div className="col-span-full text-center text-zinc-600 text-xs font-mono py-6">
-            No platforms configured
+          <div className="col-span-full text-center py-20">
+            <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground/60">
+              No platforms configured
+            </span>
           </div>
         )}
       </div>
