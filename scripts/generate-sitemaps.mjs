@@ -31,6 +31,7 @@ const cities = [
 
 const categories = [
   "singles-dinner","curated-dinner","business-dinner","founder-dinner",
+  "dinner-buddy",
   "weekend-dinner","stranger-dinner","chinese-social-dining",
   "student-dinner","newcomer-dinner","local-dinner","high-quality-social-dining",
 ]

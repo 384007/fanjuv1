@@ -3,6 +3,7 @@
 import { execFileSync } from "child_process"
 
 const SITE_ROOT = (process.env.SITE_URL || "https://fanju.app").replace(/\/$/, "")
+const DEFAULT_INDEXNOW_KEY = "e425652261cb6c96a73b030ea9c77e4c"
 const CLOUDFLARE_ACCOUNT_ID = clean(process.env.CLOUDFLARE_ACCOUNT_ID)
 const CLOUDFLARE_API_TOKEN = cleanToken(process.env.CLOUDFLARE_API_TOKEN || process.env.CLOUDFLARE_AUTH_TOKEN)
 const CLOUDFLARE_D1_DATABASE_ID = clean(process.env.CLOUDFLARE_D1_DATABASE_ID || "58d63133-adeb-4efd-b9eb-a9b056271ca5")
@@ -101,7 +102,7 @@ async function verifyUrl(url) {
 }
 
 async function submitIndexNow(urls) {
-  const key = clean(process.env.INDEXNOW_KEY)
+  const key = clean(process.env.INDEXNOW_KEY || DEFAULT_INDEXNOW_KEY)
   if (!key) return { platform: "IndexNow", skipped: "INDEXNOW_KEY is not configured" }
 
   const payload = {

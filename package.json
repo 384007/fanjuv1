@@ -20,7 +20,7 @@
     "social:publish:mastodon": "node scripts/publish-mastodon.mjs",
     "social:publish:gist": "node scripts/publish-gist.mjs",
     "seo:check": "node scripts/check-seo-endpoints.mjs",
-    "seo:submit:indexnow": "node scripts/submit-indexnow.mjs",
+    "seo:submit:indexnow": "node scripts/seo/push-indexnow.mjs",
     "seo:submit:baidu": "node scripts/submit-baidu.mjs",
     "content:distribute": "npm run content:generate && npm run social:pack && npm run social:publish:devto && npm run social:publish:hashnode && npm run social:publish:bluesky && npm run social:publish:mastodon && npm run social:publish:gist && npm run seo:submit:indexnow && npm run seo:submit:baidu",
     "content:test": "DRY_RUN=1 npm run content:generate && DRY_RUN=1 npm run social:pack && DRY_RUN=1 npm run social:publish:devto && DRY_RUN=1 npm run social:publish:hashnode && DRY_RUN=1 npm run social:publish:bluesky && DRY_RUN=1 npm run social:publish:mastodon && DRY_RUN=1 npm run social:publish:gist && DRY_RUN=1 npm run seo:submit:indexnow && DRY_RUN=1 npm run seo:submit:baidu",
