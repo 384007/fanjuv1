@@ -389,12 +389,12 @@ def run_cloudflare_publish_pipeline(
         run("EN_TOP_CITY_LIMIT=100 pnpm seo:prompt-bank:check", cwd=WORKDIR, timeout=600)
         run(
             f"RUN_LIMIT={safe_run_limit} CONCURRENCY=1 RATE_DELAY_MS=15000 BATCH_SIZE=1 "
-            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=6 "
-            f"QUALITY_RETRY_DELAY_MS=125000 MAX_TOKENS=7200 "
+            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=4 "
+            f"QUALITY_RETRY_DELAY_MS=180000 MAX_TOKENS=7200 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=30000 "
             "MULTI_AI_CANDIDATES=1 ASSIGN_PROVIDER_PER_CITY=0 FORCE_PROVIDER_ORDER=1 "
-            "AI_PROVIDER_ORDER=gemini,cerebras,nvidia pnpm seo:prompt-bank:cloudflare",
+            "AI_PROVIDER_ORDER=gemini pnpm seo:prompt-bank:cloudflare",
             cwd=WORKDIR,
             timeout=21000,
         )
@@ -538,11 +538,11 @@ def publish_routes_to_cloudflare(target_routes: str, upload_r2: bool = True):
         )
         run(
             f"RUN_LIMIT=1 CONCURRENCY=1 RATE_DELAY_MS=15000 BATCH_SIZE=1 "
-            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=6 QUALITY_RETRY_DELAY_MS=125000 MAX_TOKENS=7200 "
+            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=4 QUALITY_RETRY_DELAY_MS=180000 MAX_TOKENS=7200 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=30000 "
             "MULTI_AI_CANDIDATES=1 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "
-            "AI_PROVIDER_ORDER=gemini,cerebras,nvidia pnpm seo:prompt-bank:cloudflare",
+            "AI_PROVIDER_ORDER=gemini pnpm seo:prompt-bank:cloudflare",
             cwd=WORKDIR,
             timeout=21000,
         )
@@ -629,9 +629,9 @@ def test_target_city_articles():
                     "RATE_DELAY_MS=15000",
                     "MAX_PER_CITY_PER_RUN=1",
                     "RANDOMIZE_OPPORTUNITIES=0",
-                    "QUALITY_ATTEMPTS=3",
-                    "QUALITY_RETRY_DELAY_MS=125000",
-                    "AI_PROVIDER_ORDER=gemini,cerebras,nvidia",
+                    "QUALITY_ATTEMPTS=4",
+                    "QUALITY_RETRY_DELAY_MS=180000",
+                    "AI_PROVIDER_ORDER=gemini",
                     f"TARGET_ROUTES={shlex.quote(routes_csv)}",
                     f"GENERATED_DRAFTS_FILE={shlex.quote(drafts_file)}",
                     'PUBLISHED_FILE="data/seo/published-ready-drafts.json"',
