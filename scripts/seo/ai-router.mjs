@@ -214,7 +214,7 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
       try {
         return await callOpenAICompat({
           label: `Cerebras[${i}]`, endpoint: "https://api.cerebras.ai/v1/chat/completions",
-          apiKey: keys[i], model: process.env.CEREBRAS_MODEL || "llama3.1-8b",
+          apiKey: keys[i], model: process.env.CEREBRAS_MODEL || "llama-3.3-70b",
           prompt, system, maxTokens, timeoutMs, tokenParam: "max_completion_tokens", useJsonFormat: false,
         })
       } catch (err) {
@@ -237,7 +237,7 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
     try {
       return await callOpenAICompat({
         label: `Cerebras[${keyIndex}]`, endpoint: "https://api.cerebras.ai/v1/chat/completions",
-        apiKey, model: process.env.CEREBRAS_MODEL || "llama3.1-8b",
+        apiKey, model: process.env.CEREBRAS_MODEL || "llama-3.3-70b",
         prompt, system, maxTokens, timeoutMs, tokenParam: "max_completion_tokens", useJsonFormat: false,
       })
     } catch (err) {
