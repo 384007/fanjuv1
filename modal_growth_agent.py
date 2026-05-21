@@ -51,6 +51,8 @@ image = (
             ".wrangler",
             ".env",
             ".env.*",
+            ".cookie-profiles",
+            "*_COOKIES.txt",
             # NOTE: do NOT ignore content/seo-ready or content/seo-published —
             # they hold the git-committed seed articles that the Next.js
             # catch-all routes (app/[...slug], app/en/[...slug]) need at
