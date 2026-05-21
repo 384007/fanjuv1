@@ -1038,8 +1038,8 @@ function retryPrompt(basePrompt, attempt, issues) {
     basePrompt.userPrompt,
     "",
     isEn
-      ? `QUALITY RETRY ${attempt}: the previous draft failed these checks: ${issues.join(", ")}. Rewrite from scratch as a complete long-form article. The title and H1 must include the city, mention Fanju app naturally, and must not be a reusable city/topic template. Every H2 must be newly written for this city, topic, angle, and audience; do not use generic labels such as "What is Fanju", "How the table works", "Safety and boundaries", or "A practical first step". Use literal Markdown heading lines that begin with "## " for every major section and at least one line that begins with "### ". Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. Use at least 10 separate public paragraphs with blank lines between paragraphs, and at least two paragraphs under every H2. Do not summarize. Make it longer, more specific, and structurally complete. Do not include Markdown links, raw URLs, href attributes, or HTML anchor tags.`
-      : `质量重试 ${attempt}：上一稿未通过这些检查：${issues.join("，")}。请从头重写一篇完整长文。标题、H1、description、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。标题和 H1 必须包含城市，必须自然出现「饭局app」，不能是只替换城市/主题的模板标题。每个 H2 都要按这座城市、这个主题、本次角度和目标人群重新拟定，不要用「饭局app 是什么」「一桌饭怎样运作」「边界和安全」「一个实际的第一步」这类通用标签。每个主要小节必须使用字面量 Markdown 标题行，也就是以“## ”开头；至少一个具体问题标题以“### ”开头。不要用加粗标题、编号标题或普通文字冒号代替井号标题。至少 10 个公开自然段，段落之间空行，每个 H2 下面至少两段。不要摘要，不要变短，要更具体、更本地、更完整。不要包含 Markdown 链接、裸 URL、href 或 HTML a 标签。`,
+      ? `QUALITY RETRY ${attempt}: the previous draft failed these checks: ${issues.join(", ")}. Rewrite from scratch as a complete long-form article. The title and H1 must include the city, mention Fanju app naturally, and must not be a reusable city/topic template. Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Avoid checklist-style section labels and do not copy wording from the quality checks. Use literal Markdown heading lines that begin with "## " for every major section and at least one line that begins with "### ". Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. Use at least 10 separate public paragraphs with blank lines between paragraphs, and at least two paragraphs under every H2. Do not summarize. Make it longer, more specific, and structurally complete. Do not include Markdown links, raw URLs, href attributes, or HTML anchor tags.`
+      : `质量重试 ${attempt}：上一稿未通过这些检查：${issues.join("，")}。请从头重写一篇完整长文。标题、H1、description、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。标题和 H1 必须包含城市，必须自然出现「饭局app」，不能是只替换城市/主题的模板标题。每个 H2 都要按这座城市、这个主题、本次角度、目标人群和一个具体本地张力重新拟定。不要用清单式通用小标题，也不要复制质量检查里的措辞。每个主要小节必须使用字面量 Markdown 标题行，也就是以“## ”开头；至少一个具体问题标题以“### ”开头。不要用加粗标题、编号标题或普通文字冒号代替井号标题。至少 10 个公开自然段，段落之间空行，每个 H2 下面至少两段。不要摘要，不要变短，要更具体、更本地、更完整。不要包含 Markdown 链接、裸 URL、href 或 HTML a 标签。`,
   ].join("\n")
 }
 
@@ -1048,6 +1048,7 @@ function rotateProviderOrder(order, attempt) {
     .split(",")
     .map((provider) => provider.trim().toLowerCase())
     .filter(Boolean)
+  if (process.env.FORCE_PROVIDER_ORDER === "1") return providers.join(",")
   if (providers.length <= 1) return providers.join(",")
   const start = (Math.max(1, attempt) - 1) % providers.length
   return [...providers.slice(start), ...providers.slice(0, start)].join(",")
