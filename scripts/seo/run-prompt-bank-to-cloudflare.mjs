@@ -351,8 +351,21 @@ function stripMarkdownFence(text) {
     .trim()
 }
 
+function normalizeMarkdownHeadingSpacing(text = "") {
+  return String(text || "")
+    .replace(/\r\n/g, "\n")
+    .split("\n")
+    .map((line) => {
+      const heading = line.match(/^(#{1,6})(?!#)(\S.*)$/)
+      if (!heading) return line
+      return `${heading[1]} ${heading[2].trim()}`
+    })
+    .join("\n")
+    .trim()
+}
+
 function extractMarkdownArticle(prompt, text) {
-  const cleaned = stripMarkdownFence(text)
+  const cleaned = normalizeMarkdownHeadingSpacing(stripMarkdownFence(text))
   if (!cleaned || looksLikeJsonWrapper(cleaned)) return null
   if (!/^#\s+.+$/m.test(cleaned)) return null
   if (countMarkdownHeadings(cleaned, 2) < 5) return null
@@ -989,8 +1002,8 @@ function retryPrompt(basePrompt, attempt, issues) {
     basePrompt.userPrompt,
     "",
     isEn
-      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch as a complete long-form Markdown article. Return only the article text, starting with "# ". The title and H1 must include the city, mention Fanju app naturally, and must not be a reusable city/topic template. Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use abstract checklist labels as section headings; make each H2 specific enough that it would not fit another city or topic. Use literal Markdown heading lines that begin with "## " for every major section and exactly one concrete reader-question line that begins with "### ". Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. ${lengthGuidance} Do not summarize. Be specific, local, and structurally complete. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
-      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写一篇完整 Markdown 长文，只返回文章正文，并且第一行必须以「# 」开头。标题、H1、开头段落、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。标题和 H1 必须包含城市，必须自然出现「饭局app」，不能是只替换城市/主题的模板标题。每个 H2 都要按这座城市、这个主题、本次角度、目标人群和一个具体本地张力重新拟定。不要用抽象清单标签当小标题；每个 H2 都要具体到不能直接套给另一座城市或另一个主题。每个主要小节必须使用字面量 Markdown 标题行，也就是以“## ”开头；必须且只写一个具体疑问标题以“### ”开头。不要用加粗标题、编号标题或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
+      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch and satisfy the automated gate in one pass. Return only the article text, starting with "# ". The H1/title must include the city and the exact phrase "Fanju app"; the first paragraph must include the city and Fanju app so the generated description also passes. Use exactly 6 "## " headings, exactly one "### " reader question, and at least 13 natural paragraphs. Every H2 needs at least two paragraphs. Do not use generic headings such as "Who this is for", "Safety and boundaries", "How it works", "What to expect", "Next steps", or "Conclusion". Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
+      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写，并一次满足自动质量门。只返回文章正文，第一行必须以「# 」开头。标题/H1 必须包含中文城市名和「饭局app」；第一段必须同时出现中文城市名和「饭局app」，这样 description 才能过。必须写 6 个「## 」标题、且只写 1 个「### 」具体疑问标题；至少 13 个自然段；每个 H2 下至少 2 段。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这种通用标题。标题、H1、开头段落、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。每个 H2 都要按这座城市、这个主题、本次角度、目标人群和一个具体本地张力重新拟定。不要用加粗标题、编号标题或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
   ].join("\n")
 }
 

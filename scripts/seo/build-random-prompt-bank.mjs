@@ -324,6 +324,66 @@ const EXAMPLE_TYPES = [
   "remote_worker_dinner_example",
 ]
 
+const TITLE_DIRECTIONS_EN = {
+  question_based: "make the H1 a decision question, but not a generic FAQ line",
+  city_first: "start from a local city tension, then connect it to Fanju app",
+  pain_point_based: "name the reader's social problem before naming the topic",
+  beginner_based: "speak to a first-timer without using the word guide as the main hook",
+  comparison_based: "contrast a Fanju dinner with meetups, group chats, or dating apps",
+  scenario_based: "anchor the H1 in one concrete evening scenario",
+  trust_based: "make trust and table quality the editorial hook",
+  community_based: "make the small-table community idea the hook",
+  weekend_based: "make the weekend or after-hours decision the hook",
+  after_work_based: "make the post-work social gap the hook",
+  local_life_based: "make local life and neighbourhood fit the hook",
+}
+
+const TITLE_DIRECTIONS_ZH = {
+  question_based: "把 H1 写成一个具体决策问题，但不要写成通用 FAQ",
+  city_first: "先写这座城市里的一个真实社交张力，再接到饭局app",
+  pain_point_based: "先点出读者的社交难题，再落到本主题",
+  beginner_based: "写给第一次参加的人，但不要用“指南/攻略”当主标题",
+  comparison_based: "对比饭局app与群聊、相亲局或大型活动的差别",
+  scenario_based: "把 H1 锚定在一个具体晚饭场景里",
+  trust_based: "用信任感、主理人和同桌质量作为标题钩子",
+  community_based: "用小桌如何长出城市社区作为标题钩子",
+  weekend_based: "用周末或下班后的选择作为标题钩子",
+  after_work_based: "用下班后不想独自回家的空档作为标题钩子",
+  local_life_based: "用本地生活和街区适配作为标题钩子",
+}
+
+const SECTION_BRIEFS_EN = [
+  "local rhythm and why this route topic matters here",
+  "who should join and who should wait",
+  "what the table actually feels like from arrival to dessert",
+  "host, venue, and guest-quality signals",
+  "comfort boundaries, safety cues, and skip signals",
+  "how to choose the right table without overthinking it",
+  "a concrete next move that does not sound like sales copy",
+]
+
+const SECTION_BRIEFS_ZH = [
+  "这座城市的生活节奏与本主题为什么成立",
+  "哪些人适合坐这一桌，哪些人应该先观望",
+  "从进门到散场，这桌饭真实会怎么流动",
+  "主理人、餐厅和同桌质量应该怎么看",
+  "舒适边界、安全信号和不该报名的信号",
+  "怎样选对一桌饭，而不是盲目参加",
+  "一个具体下一步，但不要写成硬广告",
+]
+
+function titleDirectionFor(profile) {
+  const map = profile.locale === "en" ? TITLE_DIRECTIONS_EN : TITLE_DIRECTIONS_ZH
+  return map[profile.titlePattern] || (profile.locale === "en" ? "use a specific editorial hook" : "使用一个具体编辑钩子")
+}
+
+function sectionBriefsFor(profile) {
+  const briefs = profile.locale === "en" ? SECTION_BRIEFS_EN : SECTION_BRIEFS_ZH
+  const shiftSource = `${profile.citySlug}|${profile.topicSlug}|${profile.angle.id}|${profile.structure}`
+  const start = seedFromString(shiftSource) % briefs.length
+  return [...briefs.slice(start), ...briefs.slice(0, start)].slice(0, 6)
+}
+
 // ---------------------------------------------------------------------------
 // System & user prompt assembly. Strict negative list to prevent the model
 // from ever leaking the internal pipeline name to the public-facing article.
@@ -336,7 +396,9 @@ function systemInstructionFor(locale) {
       "Voice: human, practical, city-specific, calm. No hype.",
       "The body must be a complete editorial article, not an outline, template, summary, list of placeholders, or short answer.",
       "The first line must be the article H1 and must begin with '# '.",
+      "Markdown heading syntax is strict: valid headings are '# Title', '## Title', and '### Question'. Invalid headings like '#Title' or '##Title' fail.",
       "Use '## ' for major sections and exactly one concrete reader-question line beginning with '### '.",
+      "Before returning, silently verify: H1 has city + Fanju app; title is not a reusable template; description has city; body has 5-7 H2, exactly one H3, at least 10 natural paragraphs, no public links, no JSON.",
       "Write original paragraphs with concrete local context. Do not repeat the same sentence pattern across sections.",
       "Never invent statistics, restaurants, user counts, awards, or partnerships.",
       "Never mention tools or production process.",
@@ -353,7 +415,9 @@ function systemInstructionFor(locale) {
       "声音：自然、具体、平静、实用。不要营销腔。",
       "正文必须是一篇完整、有编辑感的文章，不是提纲、模板、摘要、占位段落或短回答。",
       "第一行必须是文章 H1，必须以「# 」开头。",
+      "Markdown 标题语法必须严格：合法标题是「# 标题」「## 标题」「### 问题」。像「#标题」「##标题」这种没有空格的标题会失败。",
       "主要小节必须用「## 」开头，且只能有 1 个具体疑问型「### 」标题。",
+      "返回前请在内部自检：H1 有中文城市名 + 饭局app；标题不是套模板；description 有中文城市名；正文有 5-7 个 H2、且只有 1 个 H3、至少 10 个自然段、无公开链接、无 JSON。",
       "每段都要有真实城市语境，不要在不同小节反复套同一种句式。",
       "不要编造统计数据、餐厅名、用户数、奖项或合作伙伴。",
     "不要提及任何工具、后台或生产流程。",
@@ -368,31 +432,37 @@ function systemInstructionFor(locale) {
 
 function userPromptFor(profile) {
   const isEn = profile.locale === "en"
+  const titleDirection = titleDirectionFor(profile)
+  const sectionBriefs = sectionBriefsFor(profile)
   if (isEn) {
     return [
       `Write a high-quality long-form English article for route ${profile.route}.`,
       `City: ${profile.cityNameLocalized}. Topic: ${profile.topicNameLocalized}.`,
-      `Title rule: write a specific editorial title that includes ${profile.cityNameLocalized} and naturally mentions Fanju app, but is not a reusable template. Do not use "${profile.cityNameLocalized} ${profile.topicNameLocalized} Guide", "A Guide to ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", or any title that only swaps city/topic words. Tie the title to the angle, audience, and one concrete local or industry tension.`,
+      `Title/H1 rule: first line must be one H1 beginning exactly "# ". It must include "${profile.cityNameLocalized}" and the exact phrase "Fanju app". Title direction: ${titleDirection}. Do not use "${profile.cityNameLocalized} ${profile.topicNameLocalized} Guide", "A Guide to ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "How to join ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", or any title that only swaps city/topic words. Also avoid bland titles like "A ${profile.cityNameLocalized} dinner journey" or "Discover ${profile.cityNameLocalized} through dinner". Tie the title to the angle, audience, and one concrete local or industry tension.`,
       `Angle: ${profile.angle.name}. Use this angle: ${profile.angle.instruction}`,
       `Style profile: structure=${profile.structure}; opening=${profile.openingStyle}; faq=${profile.faqMode}; cta=${profile.ctaPosition}; example=${profile.exampleType}; tone=${profile.tone}; title=${profile.titlePattern}.`,
+      `Required section map: write 6 major sections, each with a unique "## " heading. Do not copy these briefs as headings; turn each into an editorial heading specific to ${profile.cityNameLocalized}, ${profile.topicNameLocalized}, the angle, and the reader. Section briefs: ${sectionBriefs.map((brief, i) => `${i + 1}. ${brief}`).join(" | ")}.`,
       "Quality: practical editorial guide, not a landing page. Include city rhythm, neighbourhood choice, attendee concerns, host reliability cues, comfort boundaries, and decision criteria. Every H2 section must have real article paragraphs with distinct ideas.",
+      "Output contract that must pass automated quality checks: first character '#'; exactly one H1; 6 H2 headings using '## ' with a space; exactly one H3 using '### '; at least 13 natural paragraphs; every H2 has at least two paragraphs; description/source summary can be taken from the first paragraph and therefore the first paragraph must mention the city; title, first paragraph, and opening 600 characters must mention Fanju app.",
       "Hard public-content rule: do not include QQ, webmaster contact, local contact, parked-domain text, advertising-sales copy, or any Chinese parked-domain phrase.",
       "Hard linking rule: do not include [text](/path), https://fanju.app paths, raw URLs, <a href=\"...\">, the words markdown link, or any href. All real links are added by the page template.",
-      `Body requirements: 4,200-6,200 characters; at least 12 natural paragraphs; no filler. Use blank lines between paragraphs. The body must start with a unique H1 line beginning "# "; the H1 must include ${profile.cityNameLocalized}, mention Fanju app naturally, and must not be a reusable guide title or a generic style label. Start the public article with an answer-summary paragraph in the first 120 words explaining that Fanju app is a social dining app for small, clearly described meals and real-world connections. Then include a short key-points bullet list covering who it suits, the core dinner scenario, and comfort or trust cues, but do not put a heading above that list. After that, write 5-7 H2 sections with original city/topic-specific headings shaped by the angle. Avoid checklist-style section labels; every H2 must sound like an editor wrote it for this exact city, topic, audience, and tension. Across the article, naturally resolve the reader's decision points before joining: local fit, table rhythm, host and venue quality, guest mix, comfort boundaries, skip signals, and a concrete next move. Fold those points into original sections instead of using them as literal H2 labels. Every H2 must contain at least two separate paragraphs with distinct ideas. Include exactly one concrete reader-question H3 line beginning "### "; do not use a generic FAQ label. If the body has fewer than 10 public paragraphs, it will be rejected.`,
+      `Body requirements: 4,600-6,500 characters; at least 13 natural paragraphs; no filler. Use blank lines between paragraphs. Start the public article with an answer-summary paragraph in the first 120 words explaining that Fanju app is a social dining app for small, clearly described meals and real-world connections in ${profile.cityNameLocalized}. Then include a short key-points bullet list covering who it suits, the core dinner scenario, and comfort or trust cues, but do not put a heading above that list. After that, write the 6 required H2 sections with original city/topic-specific headings shaped by the angle. Avoid checklist-style section labels such as "Who this is for", "Safety and boundaries", "How it works", "What to expect", "Next steps", or "Conclusion"; every H2 must sound like an editor wrote it for this exact city, topic, audience, and tension. Across the article, naturally resolve the reader's decision points before joining: local fit, table rhythm, host and venue quality, guest mix, comfort boundaries, skip signals, and a concrete next move. Fold those points into original sections instead of using them as literal H2 labels. Include exactly one concrete reader-question H3 line beginning "### "; do not use a generic FAQ label. If the body has fewer than 10 public paragraphs, it will be rejected.`,
       "Return only the finished Markdown article text. The first character of the response must be '#'. Do not wrap it in JSON, YAML frontmatter, or a code fence.",
     ].join("\n")
   }
   return [
     `为「${profile.cityNameLocalized}」城市页写一篇高质量中文长文。`,
     `城市：${profile.cityNameLocalized}。主题：${profile.topicNameLocalized}。`,
-    `标题规则：写一个具体、有编辑判断的标题，必须包含「${profile.cityNameLocalized}」并自然出现「饭局app」，但不能使用「${profile.cityNameLocalized}${profile.topicNameLocalized}指南」「${profile.cityNameLocalized}${profile.topicNameLocalized}怎么参加」这类只替换城市/主题的模板标题。标题要结合本次角度、目标人群、一个本地或行业张力重新拟定。description、正文前 200 字必须自然出现「饭局app」和「${profile.cityNameLocalized}」。`,
+    `标题/H1 规则：第一行必须是唯一 H1，必须严格以「# 」开头，必须包含「${profile.cityNameLocalized}」并自然出现「饭局app」。标题方向：${titleDirection}。禁止使用「${profile.cityNameLocalized}${profile.topicNameLocalized}指南」「${profile.cityNameLocalized}${profile.topicNameLocalized}怎么参加」「${profile.cityNameLocalized}${profile.topicNameLocalized}攻略」「${profile.cityNameLocalized}的饭局之旅」「探索${profile.cityNameLocalized}」这类只替换城市/主题的模板标题。标题要结合本次角度、目标人群、一个本地或行业张力重新拟定。description、正文前 200 字必须自然出现「饭局app」和「${profile.cityNameLocalized}」。`,
     `中文城市名硬规则：公开标题、H1、description、H2 和正文里，城市名只能使用「${profile.cityNameLocalized}」这个中文名；URL slug、拼音城市名、英文城市名一律不能出现在公开字段里。中国、港澳台城市全部使用中文名。`,
     `角度：${profile.angle.name}。按这个方向写：${profile.angle.instruction}`,
     `风格 profile：结构=${profile.structure}；开头=${profile.openingStyle}；FAQ=${profile.faqMode}；CTA=${profile.ctaPosition}；例子=${profile.exampleType}；语气=${profile.tone}；标题=${profile.titlePattern}。`,
+    `必写小节地图：写 6 个主要小节，每个小节必须用唯一的「## 」标题。不要把下面这些 brief 原样复制成标题，而要改写成只适合「${profile.cityNameLocalized}」「${profile.topicNameLocalized}」、本次角度和目标读者的编辑标题。小节 brief：${sectionBriefs.map((brief, i) => `${i + 1}. ${brief}`).join(" | ")}。`,
     "质量：像真实城市饭局指南，不像落地页。写出城市节奏、街区选择、同桌人数、报名前顾虑、主理人信号、安全判断、报名建议。每个 H2 都必须有真实正文段落，且各小节观点不能重复。",
+    "必须通过的输出契约：回复第一个字符必须是「#」；只允许 1 个 H1；必须有 6 个带空格的「## 」标题；必须且只允许 1 个「### 」标题；至少 13 个自然段；每个 H2 下至少 2 段；第一段必须同时出现「饭局app」和中文城市名；标题、H1、前 600 字都必须出现饭局app。",
     "公开内容硬规则：不要出现本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售、停放域名、招商或站主联系方式。",
     "链接硬规则：不要出现 [文字](/path)、https://fanju.app 路径、裸 URL、<a href=\"...\">、markdown link 或任何 href。所有真实链接由页面模板统一添加。",
-    `正文要求：2,800-4,800 字符；至少 12 个自然段；段落之间必须空行；不要灌水，不要超过 5,000 字符。正文必须以独特 H1 开头，也就是第一行以「# 」开头；H1 必须包含「${profile.cityNameLocalized}」并自然出现「饭局app」，不能是可复用的指南标题，也不能是风格标签。开头必须是 answer-summary 式自然段，在前 200 字解释饭局app / Fanju 是围绕小桌吃饭、清晰主题和线下连接的社交应用。随后直接写一个简短要点列表，覆盖合适人群、饭局场景和安全重点，但不要给这个列表单独加 H2/H3 标题。然后写 5-7 个 H2，小节标题必须围绕${profile.cityNameLocalized}、${profile.topicNameLocalized}和本次角度重新拟定。不要用清单式通用小标题；每个 H2 都要像为这座城市、这个主题、这类读者和一个具体张力写出的编辑标题。全文要自然回答读者报名前会想清楚的决定点：本地适配、这一桌的节奏、主理人/餐厅/同桌质量、舒适边界、哪些信号说明不该去、下一步怎么做。把这些内容揉进原创小节，不要把这些决定点原样当标题。每个 H2 下至少写 2 个扎实、互不重复的段落，每段约 120-190 个汉字。必须包含且只包含 1 个以「### 」开头的具体疑问型 H3，不要写通用 FAQ 标签。少于 10 个公开自然段会被拒绝。`,
+    `正文要求：3,200-4,900 字符；至少 13 个自然段；段落之间必须空行；不要灌水，不要超过 5,000 字符。开头必须是 answer-summary 式自然段，在前 200 字解释饭局app / Fanju 是围绕小桌吃饭、清晰主题和线下连接的社交应用，并明确落到「${profile.cityNameLocalized}」。随后直接写一个简短要点列表，覆盖合适人群、饭局场景和安全重点，但不要给这个列表单独加 H2/H3 标题。然后写 6 个 H2，小节标题必须围绕${profile.cityNameLocalized}、${profile.topicNameLocalized}和本次角度重新拟定。不要用清单式通用小标题；禁止用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这类模板 H2。全文要自然回答读者报名前会想清楚的决定点：本地适配、这一桌的节奏、主理人/餐厅/同桌质量、舒适边界、哪些信号说明不该去、下一步怎么做。把这些内容揉进原创小节，不要把这些决定点原样当标题。每个 H2 下至少写 2 个扎实、互不重复的段落，每段约 120-190 个汉字。必须包含且只包含 1 个以「### 」开头的具体疑问型 H3，不要写通用 FAQ 标签。少于 10 个公开自然段会被拒绝。`,
     "只返回最终 Markdown 文章正文，回复第一个字符必须是「#」。不要 JSON，不要 YAML frontmatter，不要代码块。",
   ].join("\n")
 }
