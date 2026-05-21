@@ -1041,16 +1041,16 @@ function retryPrompt(basePrompt, attempt, issues) {
   const lengthGuidance = isEn
     ? bodyTooLong
       ? "Keep the body compact: 4,200-6,500 characters, 10-14 public paragraphs, no repeated sections, and no expansion for its own sake."
-      : "Use at least 10 separate public paragraphs with blank lines between paragraphs, and at least two paragraphs under every H2. Make it long enough to be complete without filler."
+      : "Use at least 13 separate public paragraphs with blank lines between paragraphs. Every H2 must have exactly two distinct paragraphs of 90-150 words. Do not use bullet lists or numbered lists."
     : bodyTooLong
       ? "正文要收紧到 2,800-4,800 字符，10-14 个公开自然段，不要重复小节，不要为了凑长扩写。"
-      : "至少 10 个公开自然段，段落之间空行，每个 H2 下面至少两段；写到完整即可，不要灌水。"
+      : "至少 13 个公开自然段，段落之间空行；每个 H2 下面必须正好两段，每段 120-190 个汉字；不要项目符号或编号列表。"
   return [
     basePrompt.userPrompt,
     "",
     isEn
       ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch and satisfy the automated gate in one pass. Return only the article text, starting with "# ". The H1/title must include the city and the exact phrase "Fanju app"; the first paragraph must include the city and Fanju app so the generated description also passes. Use exactly 6 "## " headings, exactly one "### " reader question, and at least 13 natural paragraphs. Every H2 needs at least two paragraphs. Do not use generic headings such as "Who this is for", "Safety and boundaries", "How it works", "What to expect", "Next steps", or "Conclusion". Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
-      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写，并一次满足自动质量门。只返回文章正文，第一行必须以「# 」开头。标题/H1 必须包含中文城市名和「饭局app」；第一段必须同时出现中文城市名和「饭局app」，这样 description 才能过。必须写 6 个「## 」标题、且只写 1 个「### 」具体疑问标题；至少 13 个自然段；每个 H2 下至少 2 段。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这种通用标题。标题、H1、开头段落、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。每个 H2 都要按这座城市、这个主题、本次角度、目标人群和一个具体本地张力重新拟定。不要用加粗标题、编号标题或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
+      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写，并一次满足自动质量门。只返回文章正文，第一行必须以「# 」开头。标题/H1 必须包含中文城市名和「饭局app」；第一段必须同时出现中文城市名和「饭局app」，这样 description 才能过。必须写 6 个「## 」标题、且只写 1 个「### 」具体疑问标题；至少 13 个自然段；每个 H2 下必须正好 2 段。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这种通用标题。标题、H1、开头段落、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。不要用加粗标题、编号标题、项目列表或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整；不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
   ].join("\n")
 }
 
