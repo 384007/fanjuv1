@@ -431,7 +431,29 @@ def run_cloudflare_publish_pipeline(
 
         routes = [public_route_for_entry(entry) for entry in latest_entries]
         run("node scripts/seo/recover-missing-from-d1.mjs", cwd=WORKDIR, timeout=300)
-        run("pnpm build", cwd=WORKDIR, timeout=1800)
+        # Build with auto-quarantine: if build fails due to bad articles, remove them and retry
+        build_result = subprocess.run("pnpm build", shell=True, cwd=WORKDIR, capture_output=False, timeout=1800)
+        if build_result.returncode != 0:
+            # Find and quarantine bad articles, then retry once
+            quarantine = subprocess.run(
+                "node scripts/check-seo-ready-routes.mjs 2>&1 | grep 'bad-public-pattern\\|strict checks' | grep -oP '(?<=content/seo-ready/)[^.]+\\.md' || true",
+                shell=True, cwd=WORKDIR, capture_output=True, text=True, timeout=120
+            )
+            bad_files = [f.strip() for f in quarantine.stdout.splitlines() if f.strip()]
+            if bad_files:
+                import shutil as _shutil
+                quarantine_dir = Path(WORKDIR) / "content" / "seo-quarantine"
+                quarantine_dir.mkdir(parents=True, exist_ok=True)
+                for fname in bad_files:
+                    src = Path(WORKDIR) / "content" / "seo-ready" / fname
+                    if src.exists():
+                        _shutil.move(str(src), str(quarantine_dir / fname))
+                        print(f"QUARANTINED: {fname}", flush=True)
+                build_result2 = subprocess.run("pnpm build", shell=True, cwd=WORKDIR, capture_output=False, timeout=1800)
+                if build_result2.returncode != 0:
+                    raise RuntimeError("pnpm build failed even after quarantining bad articles")
+            else:
+                raise RuntimeError("pnpm build failed: pnpm build")
         commit_sha = git_commit_and_push(routes, run_id, round_no)
         wait_for_live_routes(routes)
         run(
