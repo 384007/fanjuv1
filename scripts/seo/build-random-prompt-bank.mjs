@@ -434,19 +434,11 @@ function articleFrameFor(profile) {
   const topic = profile.topicNameLocalized
   const isEn = profile.locale === "en"
 
-  if (isEn) {
-    const lens = angleLensEn(profile.angle.id)
-    const cityPossessive = possessiveEn(city)
-    const scene = [
-      "after-work pause",
-      "weekend table",
-      "first-message moment",
-      "neighbourhood choice",
-      "guest-list question",
-      "quiet arrival",
-      "second-dinner possibility",
-    ][frameIndex(profile, "scene", 7)]
-    const h1s = [
+  // Heading templates per level (H1-H7+), each embeds city+topic for global uniqueness.
+  // Level index 0 = H1, 1 = H2, ..., 6 = H7, 7 = H8, etc.
+  const TEMPLATES_EN = [
+    // H1 (14 variants)
+    [
       `In ${city}, Fanju app turns ${topic} into a table people can actually trust`,
       `When ${topic} feels too loose in ${city}, Fanju app starts with the table`,
       `${city} after work: how Fanju app makes ${topic} feel like a real room`,
@@ -454,119 +446,226 @@ function articleFrameFor(profile) {
       `${city} does not need another vague invite; Fanju app makes ${topic} specific`,
       `A calmer way to approach ${topic} in ${city} through Fanju app`,
       `Why ${topic} in ${city} works better when Fanju app keeps the table small`,
-    ]
-    const h2s = [
-      [
-        `${cityPossessive} ${scene} is why ${topic} needs a clearer frame`,
-        `The ${scene} in ${city} should not become another loose invite`,
-        `Why ${topic} needs a sharper table before the night begins in ${city}`,
-      ][frameIndex(profile, "h2-1", 3)],
-      [
-        `The ${lens} changes who should sit at this table`,
-        `A table built around ${lens} needs a different guest mix`,
-        `Who belongs at this ${topic} table depends on the ${lens}`,
-      ][frameIndex(profile, "h2-2", 3)],
-      [
-        `How Fanju app keeps ${topic} specific before anyone arrives`,
-        `Before the first order, Fanju app should make the table legible`,
-        `The details that keep ${topic} from becoming a vague social plan`,
-      ][frameIndex(profile, "h2-3", 3)],
-      [
-        `What the host and venue should prove in ${city}`,
-        `Host choices that make ${topic} credible in ${city}`,
-        `The venue signals that make strangers easier to trust in ${city}`,
-      ][frameIndex(profile, "h2-4", 3)],
-      [
-        `The point where comfort matters more than staying polite`,
-        `When the table should slow down instead of getting louder`,
-        `Where a good dinner leaves room for a quiet no`,
-      ][frameIndex(profile, "h2-5", 3)],
-      [
-        `Choosing one table without turning the night into pressure`,
-        `A next step that keeps ${topic} human, not transactional`,
-        `How to leave ${city} with a second-table possibility`,
-      ][frameIndex(profile, "h2-6", 3)],
-    ]
-    const h3s = [
-      `### What should I check before joining my first table?`,
-      `### How do I know the dinner is not just another meetup?`,
-      `### What if I arrive alone and do not know anyone?`,
-    ]
-    return {
-      h1: h1s[frameIndex(profile, "h1", h1s.length)],
-      h2s,
-      h3: h3s[frameIndex(profile, "h3", h3s.length)],
-    }
+      `${city} has plenty of ${topic} options; Fanju app is the one that names the table first`,
+      `Before the first message in ${city}, Fanju app makes ${topic} feel like a real decision`,
+      `${topic} in ${city} should not feel like a gamble; Fanju app changes the odds`,
+      `The ${topic} table ${city} actually needs is the one Fanju app describes up front`,
+      `How Fanju app turns a ${city} ${topic} night into something worth showing up for`,
+      `${city} strangers sit down easier when Fanju app frames the ${topic} table first`,
+      `What makes ${topic} in ${city} worth the risk; Fanju app answers before you arrive`,
+    ],
+    // H2 (6 slots × 6 variants each — picked per slot below)
+    null,
+    // H3 (6 variants)
+    [
+      `What should I check before joining my first ${city} ${topic} table?`,
+      `How do I know this ${city} ${topic} dinner is not just another meetup?`,
+      `What if I arrive alone to a ${city} ${topic} table and do not know anyone?`,
+      `How do I tell a well-run ${city} ${topic} table from a random group dinner?`,
+      `What happens if the conversation stalls at a ${city} ${topic} dinner?`,
+      `Is it normal to feel nervous before the first ${city} ${topic} Fanju app dinner?`,
+    ],
+    // H4 (6 variants)
+    [
+      `The practical checklist before confirming a seat at a ${city} ${topic} table`,
+      `What to verify before the ${city} ${topic} dinner starts`,
+      `Three details worth checking before any ${city} ${topic} RSVP`,
+      `A short pre-dinner checklist for first-time ${city} ${topic} guests`,
+      `What experienced ${city} ${topic} diners look at before they confirm`,
+      `The details that separate a good ${city} ${topic} table from a risky one`,
+    ],
+    // H5 (6 variants)
+    [
+      `How the first ten minutes of a ${city} ${topic} table usually go`,
+      `What the opening of a well-run ${city} ${topic} dinner looks like`,
+      `The first exchange that tells you whether this ${city} ${topic} table is worth staying for`,
+      `Reading the room in the first few minutes at a ${city} ${topic} dinner`,
+      `What a confident host does in the first ten minutes at a ${city} ${topic} table`,
+      `The opening signal that separates a real ${city} ${topic} table from a random one`,
+    ],
+    // H6 (6 variants)
+    [
+      `A note on leaving early from a ${city} ${topic} dinner`,
+      `On the quiet right to leave any ${city} ${topic} table that does not feel right`,
+      `Why leaving early is always acceptable at a ${city} ${topic} dinner`,
+      `The exit option every ${city} ${topic} guest should know about`,
+      `Leaving on your own terms at a ${city} ${topic} dinner`,
+      `A short note on early exits and personal comfort at ${city} ${topic} tables`,
+    ],
+    // H7 (6 variants)
+    [
+      `One concrete next step after a good ${city} ${topic} dinner`,
+      `What to do the day after a ${city} ${topic} table`,
+      `The follow-up that keeps a ${city} ${topic} connection real`,
+      `After the ${city} ${topic} dinner: one action that matters`,
+      `How to turn one good ${city} ${topic} table into something that continues`,
+      `The only follow-up move worth making after a ${city} ${topic} dinner`,
+    ],
+    // H8 (6 variants)
+    [
+      `A brief note on repeat ${city} ${topic} tables and why they work differently`,
+      `What changes the second time you join a ${city} ${topic} dinner`,
+      `Why the second ${city} ${topic} table is easier than the first`,
+      `On returning to the same ${city} ${topic} table a second time`,
+      `What repeat ${city} ${topic} guests notice that first-timers miss`,
+      `The small shift that happens when you become a regular at ${city} ${topic} dinners`,
+    ],
+    // H9 (6 variants)
+    [
+      `A word on hosting your own ${city} ${topic} table through Fanju app`,
+      `What it takes to host a ${city} ${topic} dinner rather than just attend`,
+      `The difference between attending and hosting a ${city} ${topic} table`,
+      `On becoming a ${city} ${topic} host rather than a guest`,
+      `What new ${city} ${topic} hosts get wrong in the first session`,
+      `The one thing that makes a ${city} ${topic} host worth following`,
+    ],
+    // H10 (6 variants)
+    [
+      `Final thoughts on finding the right ${city} ${topic} table through Fanju app`,
+      `What the best ${city} ${topic} tables have in common`,
+      `A closing note on patience and the right ${city} ${topic} table`,
+      `Why the right ${city} ${topic} table is worth waiting for`,
+      `On not rushing the search for a good ${city} ${topic} dinner`,
+      `The long view on ${city} ${topic} social dining through Fanju app`,
+    ],
+  ]
+
+  const TEMPLATES_ZH = [
+    // H1 (14 variants)
+    [
+      `${city}不想只靠群聊时，饭局app怎样把${topic}坐成一桌`,
+      `在${city}找一桌不尴尬的${topic}，饭局app先解决什么`,
+      `${city}${topic}不是凑人吃饭，饭局app更看重这一桌的边界`,
+      `下班后的${city}，饭局app怎样让${topic}有真实同桌`,
+      `${city}想参加${topic}，饭局app把信任感放在饭前`,
+      `${city}的一顿${topic}，饭局app为什么先看人再看热闹`,
+      `在${city}把${topic}坐稳，饭局app需要筛掉哪些尴尬`,
+      `${city}${topic}不缺饭局，缺的是饭局app这样先说清楚的那一桌`,
+      `第一次在${city}参加${topic}，饭局app怎样让陌生人坐得下来`,
+      `${city}的${topic}饭局为什么值得去，饭局app在报名前就给了答案`,
+      `不想在${city}随便拼桌，饭局app怎样让${topic}变成一个真实决定`,
+      `${city}${topic}的同桌质量，饭局app在第一条信息里就开始筛`,
+      `在${city}找到对的${topic}饭局，饭局app先把这一桌说清楚`,
+      `${city}的${topic}不该靠运气，饭局app把主理人和同桌放在最前面`,
+    ],
+    // H2 — picked per slot below
+    null,
+    // H3 (6 variants)
+    [
+      `${city}${topic}饭局第一次参加前最该先问哪一个问题？`,
+      `怎么判断${city}这场${topic}饭局不是随便拼桌？`,
+      `如果一个人来${city}${topic}饭局会不会显得尴尬？`,
+      `怎么区分${city}一桌认真组织的${topic}饭局和随便凑的群聊饭？`,
+      `${city}${topic}饭局聊天冷场了，这桌饭还能继续吗？`,
+      `第一次参加${city}${topic}饭局app的饭局，紧张是正常的吗？`,
+    ],
+    // H4 (6 variants)
+    [
+      `确认${city}${topic}饭局席位前的实用核查清单`,
+      `${city}${topic}饭局开始前要核实哪些细节`,
+      `报名${city}${topic}饭局前值得确认的三件事`,
+      `第一次参加${city}${topic}饭局的报名前检查`,
+      `有经验的${city}${topic}饭局参与者确认前会看什么`,
+      `区分${city}${topic}好饭局和有风险饭局的关键细节`,
+    ],
+    // H5 (6 variants)
+    [
+      `${city}${topic}饭局开场的前十分钟通常是什么样的`,
+      `一桌组织认真的${city}${topic}饭局开场是什么感觉`,
+      `${city}${topic}饭局开场的第一句话能告诉你这桌值不值得留下`,
+      `在${city}${topic}饭局开场几分钟内怎么读懂这桌的氛围`,
+      `一个靠谱的${city}${topic}主理人在开场十分钟内会做什么`,
+      `区分${city}${topic}真实饭局和随便凑桌的开场信号`,
+    ],
+    // H6 (6 variants)
+    [
+      `关于提前离开${city}${topic}饭局的一点说明`,
+      `在${city}${topic}饭局感觉不对时安静离开的权利`,
+      `为什么提前离开${city}${topic}饭局永远是可以的`,
+      `每个${city}${topic}饭局参与者都应该知道的退出选项`,
+      `在${city}${topic}饭局按自己的节奏离开`,
+      `关于${city}${topic}饭局提前离场和个人舒适感的简短说明`,
+    ],
+    // H7 (6 variants)
+    [
+      `一顿好的${city}${topic}饭局结束后的一个具体下一步`,
+      `${city}${topic}饭局结束后第二天该做什么`,
+      `让${city}${topic}饭局连接保持真实的后续动作`,
+      `${city}${topic}饭局结束后：一个真正重要的行动`,
+      `怎样把一桌好的${city}${topic}饭局变成可以延续的东西`,
+      `${city}${topic}饭局结束后唯一值得做的后续`,
+    ],
+    // H8 (6 variants)
+    [
+      `关于再次参加${city}${topic}饭局为什么和第一次不一样`,
+      `第二次参加${city}${topic}饭局会有什么变化`,
+      `为什么${city}${topic}饭局的第二次比第一次更容易`,
+      `再次回到同一桌${city}${topic}饭局是什么感觉`,
+      `${city}${topic}饭局的回头客会注意到新人看不到的东西`,
+      `成为${city}${topic}饭局常客后会发生的小变化`,
+    ],
+    // H9 (6 variants)
+    [
+      `关于通过饭局app自己组织${city}${topic}饭局的一点说明`,
+      `组织${city}${topic}饭局和参加饭局需要什么不同的准备`,
+      `在${city}做${topic}饭局主理人和做参与者的区别`,
+      `从${city}${topic}饭局参与者变成主理人是什么感觉`,
+      `新的${city}${topic}饭局主理人在第一场最容易犯的错`,
+      `让${city}${topic}饭局主理人值得被关注的那一件事`,
+    ],
+    // H10 (6 variants)
+    [
+      `关于通过饭局app找到对的${city}${topic}饭局的最后一点`,
+      `最好的${city}${topic}饭局有什么共同点`,
+      `关于耐心和找到对的${city}${topic}饭局的结语`,
+      `为什么对的${city}${topic}饭局值得等`,
+      `不要急着找${city}${topic}好饭局的理由`,
+      `通过饭局app做${city}${topic}社交饭局的长期视角`,
+    ],
+  ]
+
+  const TEMPLATES = isEn ? TEMPLATES_EN : TEMPLATES_ZH
+
+  // Determine max heading depth for this article: random 7-10, seeded deterministically
+  const maxDepth = 7 + (frameIndex(profile, "depth", 4)) // 7, 8, 9, or 10
+
+  // H2 slot templates (same as before, 6 slots × 6 variants)
+  const lens = isEn ? angleLensEn(profile.angle.id) : angleLensZh(profile.angle.id)
+  const cityPossessive = isEn ? possessiveEn(city) : city
+  const scene = isEn
+    ? ["after-work pause","weekend table","first-message moment","neighbourhood choice","guest-list question","quiet arrival","second-dinner possibility"][frameIndex(profile, "scene", 7)]
+    : ["下班后的空档","周末晚饭","第一次报名的那一刻","街区饭点","同桌名单出现前","一个人到场前十分钟","第二次见面的余地"][frameIndex(profile, "scene", 7)]
+
+  const h2Slots = isEn ? [
+    [`${cityPossessive} ${scene} is why ${topic} needs a clearer frame`,`The ${scene} in ${city} should not become another loose invite`,`Why ${topic} needs a sharper table before the night begins in ${city}`,`${city} has enough vague plans; ${topic} deserves a named table`,`The ${scene} moment is when ${topic} in ${city} either works or falls apart`,`Before anyone arrives in ${city}, ${topic} needs a frame that holds`],
+    [`The ${lens} changes who should sit at this table`,`A table built around ${lens} needs a different guest mix`,`Who belongs at this ${topic} table depends on the ${lens}`,`${lens} is the filter that keeps the ${city} table from feeling random`,`Getting the guest mix right in ${city} starts with naming the ${lens}`,`The right people show up when ${lens} is the first thing the invite says`],
+    [`How Fanju app keeps ${topic} specific before anyone arrives`,`Before the first order, Fanju app should make the table legible`,`The details that keep ${topic} from becoming a vague social plan`,`Fanju app earns trust in ${city} by saying what the table is before it fills`,`A ${topic} table in ${city} that names itself first is the one people actually join`,`Specificity is what separates a Fanju app table from a group chat in ${city}`],
+    [`What the host and venue should prove in ${city}`,`Host choices that make ${topic} credible in ${city}`,`The venue signals that make strangers easier to trust in ${city}`,`In ${city}, the host's track record matters more than the menu`,`A good venue in ${city} does half the trust work before anyone sits down`,`${city} hosts who show their reasoning make ${topic} feel safer to join`],
+    [`The point where comfort matters more than staying polite`,`When the table should slow down instead of getting louder`,`Where a good dinner leaves room for a quiet no`,`Comfort at a ${city} table is not about being agreeable; it is about having an exit`,`The best ${topic} tables in ${city} make it easy to leave early without explanation`,`Knowing when to slow down is what separates a good ${city} table from a pressured one`],
+    [`Choosing one table without turning the night into pressure`,`A next step that keeps ${topic} human, not transactional`,`How to leave ${city} with a second-table possibility`,`The right move after a good ${city} table is not to over-plan the next one`,`One table at a time is how ${topic} in ${city} stays worth doing`,`Leaving ${city} with one real connection is a better outcome than a full contact list`],
+  ] : [
+    [`在${city}，${topic}要先把同桌预期讲清楚`,`${city}的${topic}不能只靠一句有人来吗`,`${scene}提醒${city}：这桌饭要先有边界`,`${city}的${topic}饭局太多，能说清楚的那一桌才值得报名`,`${scene}是${city}${topic}饭局成不成的关键时刻`,`在${city}，${topic}的预期没说清楚，这桌饭就很难坐稳`],
+    [`${lens}会改变谁适合坐到这张桌边`,`围绕${lens}组一桌人，不能只看热闹`,`谁该坐下来，先看${lens}有没有被说清楚`,`${lens}是${city}这桌饭不随便拼人的第一道筛`,`把${lens}说清楚，${city}的同桌名单才不会让人失望`,`${city}的${topic}饭局，${lens}决定了谁该在这张桌边`],
+    [`饭局app怎样把${topic}从泛泛邀约变成具体一桌`,`第一条报名信息就应该让${topic}变得可判断`,`别急着凑人，先让这一桌的预期立起来`,`饭局app在${city}赢得信任，靠的是先把这桌说清楚再开始填人`,`${city}的${topic}饭局，能在报名前就让人判断的才是好局`,`具体说清楚是饭局app和${city}普通群聊饭局最大的区别`],
+    [`${city}主理人和餐厅细节要先证明什么`,`真正可信的安排往往藏在饭前细节里`,`餐厅、时间和同桌说明会暴露主理人的功底`,`在${city}，主理人的过往记录比菜单更重要`,`好餐厅在${city}能帮主理人完成一半的信任工作`,`${city}主理人把选桌理由说出来，${topic}饭局就更容易让人放心报名`],
+    [`舒服的边界不在热闹里而在这些停顿里`,`${city}的饭桌该在什么地方慢下来`,`能让人安心的局，通常先允许有人说不`,`在${city}，舒适感不是要一直聊，而是知道可以提前离开`,`最好的${city}${topic}饭局，让人不用解释就能早退`,`知道什么时候慢下来，是${city}好饭局和有压力饭局的分界线`],
+    [`选稳第一桌之后再谈下一次见面`,`${city}的第一顿饭要留下可复盘的余地`,`下一步不是冲动报名，而是选对这一桌`,`在${city}吃完一桌好饭，不急着约下一次才是对的节奏`,`一桌一桌来，是${city}${topic}饭局值得持续做的原因`,`带着一个真实连接离开${city}，比带走一堆联系方式更有价值`],
+  ]
+
+  const h2s = h2Slots.map((variants, i) => variants[frameIndex(profile, `h2-${i + 1}`, 6)])
+
+  // Build heading outline: H1, then H2s (level 2), then H3..HmaxDepth (one each, levels 3..maxDepth)
+  // Each deeper heading is a child of the previous — strictly increasing level, never decreasing.
+  const deepHeadings = [] // { level, text }
+  for (let level = 3; level <= maxDepth; level++) {
+    const templateIdx = level - 1 // index into TEMPLATES array (0=H1,1=H2,2=H3,...)
+    const variants = TEMPLATES[templateIdx] || TEMPLATES[TEMPLATES.length - 1]
+    const text = variants[frameIndex(profile, `h${level}`, variants.length)]
+    deepHeadings.push({ level, text })
   }
 
-  const lens = angleLensZh(profile.angle.id)
-  const scene = [
-    "下班后的空档",
-    "周末晚饭",
-    "第一次报名的那一刻",
-    "街区饭点",
-    "同桌名单出现前",
-    "一个人到场前十分钟",
-    "第二次见面的余地",
-  ][frameIndex(profile, "scene", 7)]
-  const h1s = [
-    `${city}不想只靠群聊时，饭局app怎样把${topic}坐成一桌`,
-    `在${city}找一桌不尴尬的${topic}，饭局app先解决什么`,
-    `${city}${topic}不是凑人吃饭，饭局app更看重这一桌的边界`,
-    `下班后的${city}，饭局app怎样让${topic}有真实同桌`,
-    `${city}想参加${topic}，饭局app把信任感放在饭前`,
-    `${city}的一顿${topic}，饭局app为什么先看人再看热闹`,
-    `在${city}把${topic}坐稳，饭局app需要筛掉哪些尴尬`,
-  ]
-  const h2s = [
-    [
-      `在${city}，${topic}要先把同桌预期讲清楚`,
-      `${city}的${topic}不能只靠一句有人来吗`,
-      `${scene}提醒${city}：这桌饭要先有边界`,
-    ][frameIndex(profile, "h2-1", 3)],
-    [
-      `${lens}会改变谁适合坐到这张桌边`,
-      `围绕${lens}组一桌人，不能只看热闹`,
-      `谁该坐下来，先看${lens}有没有被说清楚`,
-    ][frameIndex(profile, "h2-2", 3)],
-    [
-      `饭局app怎样把${topic}从泛泛邀约变成具体一桌`,
-      `第一条报名信息就应该让${topic}变得可判断`,
-      `别急着凑人，先让这一桌的预期立起来`,
-    ][frameIndex(profile, "h2-3", 3)],
-    [
-      `${city}主理人和餐厅细节要先证明什么`,
-      `真正可信的安排往往藏在饭前细节里`,
-      `餐厅、时间和同桌说明会暴露主理人的功底`,
-    ][frameIndex(profile, "h2-4", 3)],
-    [
-      `舒服的边界不在热闹里而在这些停顿里`,
-      `${city}的饭桌该在什么地方慢下来`,
-      `能让人安心的局，通常先允许有人说不`,
-    ][frameIndex(profile, "h2-5", 3)],
-    [
-      `选稳第一桌之后再谈下一次见面`,
-      `${city}的第一顿饭要留下可复盘的余地`,
-      `下一步不是冲动报名，而是选对这一桌`,
-    ][frameIndex(profile, "h2-6", 3)],
-  ]
-  const h3s = [
-    `### 第一次参加前最该先问哪一个问题？`,
-    `### 怎么判断这不是一场随便拼桌？`,
-    `### 如果一个人来会不会显得尴尬？`,
-  ]
-  return {
-    h1: h1s[frameIndex(profile, "h1", h1s.length)],
-    h2s,
-    h3: h3s[frameIndex(profile, "h3", h3s.length)],
-  }
+  return { h1: TEMPLATES[0][frameIndex(profile, "h1", TEMPLATES[0].length)], h2s, deepHeadings, maxDepth }
 }
-
-// ---------------------------------------------------------------------------
-// System & user prompt assembly. Strict negative list to prevent the model
-// from ever leaking the internal pipeline name to the public-facing article.
-// ---------------------------------------------------------------------------
-
 function systemInstructionFor(locale) {
   if (locale === "en") {
     return [
@@ -574,9 +673,9 @@ function systemInstructionFor(locale) {
       "Voice: human, practical, city-specific, calm. No hype.",
       "The body must be a complete editorial article, not an outline, template, summary, list of placeholders, or short answer.",
       "The first line must be the article H1 and must begin with '# '.",
-      "Markdown heading syntax is strict: valid headings are '# Title', '## Title', and '### Question'. Invalid headings like '#Title' or '##Title' fail.",
-      "Use '## ' for major sections and exactly one concrete reader-question line beginning with '### '.",
-      "Before returning, silently verify: H1 has city + Fanju app; title is not a reusable template; description has city; body has 5-7 H2, exactly one H3, at least 10 natural paragraphs, no public links, no JSON.",
+      "Markdown heading syntax is strict: valid headings use '# ', '## ', '### ', '#### ', '##### ', '###### ', '####### ' etc. with a space after the hashes. Never omit the space.",
+      "Use '## ' for major sections. Deeper headings (H3 through H7+) must appear in strictly increasing order — never skip levels downward.",
+      "Before returning, silently verify: H1 has city + Fanju app; title is not a reusable template; description has city; body has 5-7 H2, at least one H3, at least one H4, at least 13 natural paragraphs, no public links, no JSON.",
       "Write original paragraphs with concrete local context. Do not repeat the same sentence pattern across sections.",
       "Never invent statistics, restaurants, user counts, awards, or partnerships.",
       "Never mention tools or production process.",
@@ -589,15 +688,15 @@ function systemInstructionFor(locale) {
     ].join("\n")
   }
   return [
-      "只写一个公开的饭局 Fanju 城市文章，输出必须是纯 Markdown 文章正文。",
-      "声音：自然、具体、平静、实用。不要营销腔。",
-      "正文必须是一篇完整、有编辑感的文章，不是提纲、模板、摘要、占位段落或短回答。",
-      "第一行必须是文章 H1，必须以「# 」开头。",
-      "Markdown 标题语法必须严格：合法标题是「# 标题」「## 标题」「### 问题」。像「#标题」「##标题」这种没有空格的标题会失败。",
-      "主要小节必须用「## 」开头，且只能有 1 个具体疑问型「### 」标题。",
-      "返回前请在内部自检：H1 有中文城市名 + 饭局app；标题不是套模板；description 有中文城市名；正文有 5-7 个 H2、且只有 1 个 H3、至少 10 个自然段、无公开链接、无 JSON。",
-      "每段都要有真实城市语境，不要在不同小节反复套同一种句式。",
-      "不要编造统计数据、餐厅名、用户数、奖项或合作伙伴。",
+    "只写一个公开的饭局 Fanju 城市文章，输出必须是纯 Markdown 文章正文。",
+    "声音：自然、具体、平静、实用。不要营销腔。",
+    "正文必须是一篇完整、有编辑感的文章，不是提纲、模板、摘要、占位段落或短回答。",
+    "第一行必须是文章 H1，必须以「# 」开头。",
+    "Markdown 标题语法必须严格：合法标题是「# 标题」「## 标题」「### 标题」「#### 标题」「##### 标题」「###### 标题」「####### 标题」等，井号后必须有空格。",
+    "主要小节必须用「## 」开头。更深层标题（H3 到 H7+）必须严格递增出现，不能跳级降低。",
+    "返回前请在内部自检：H1 有中文城市名 + 饭局app；标题不是套模板；description 有中文城市名；正文有 5-7 个 H2、至少 1 个 H3、至少 1 个 H4、至少 13 个自然段、无公开链接、无 JSON。",
+    "每段都要有真实城市语境，不要在不同小节反复套同一种句式。",
+    "不要编造统计数据、餐厅名、用户数、奖项或合作伙伴。",
     "不要提及任何工具、后台或生产流程。",
     "正文不要写 Markdown 链接、裸 URL、href 或 HTML a 标签。可以提到页面名称，但真实链接全部由页面模板统一添加。",
     "不要输出 JSON、YAML frontmatter、metadata key、提示词内容、章节占位文字或 markdown 骨架说明。",
@@ -612,40 +711,49 @@ function userPromptFor(profile) {
   const isEn = profile.locale === "en"
   const titleDirection = titleDirectionFor(profile)
   const frame = articleFrameFor(profile)
+
+  // Build the deep heading outline string (H3 through HmaxDepth)
+  const deepOutline = frame.deepHeadings
+    .map(({ level, text }) => `${"#".repeat(level)} ${text}`)
+    .join("\n")
+  const maxDepth = frame.maxDepth
+
   if (isEn) {
     return [
       `Write a high-quality long-form English article for route ${profile.route}.`,
       `City: ${profile.cityNameLocalized}. Topic: ${profile.topicNameLocalized}.`,
       `Use this exact H1 as the first line, with no edits:\n# ${frame.h1}\nThis H1 already includes the city and the exact phrase "Fanju app".`,
-      `Title/H1 guardrails: title direction=${titleDirection}. Do not replace the H1 with "${profile.cityNameLocalized} ${profile.topicNameLocalized} Guide", "A Guide to ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "How to join ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", or any title that only swaps city/topic words. Also avoid bland titles like "A ${profile.cityNameLocalized} dinner journey" or "Discover ${profile.cityNameLocalized} through dinner".`,
+      `Title/H1 guardrails: title direction=${titleDirection}. Do not replace the H1 with a generic template title that only swaps city/topic words.`,
       `Angle: ${profile.angle.name}. Use this angle: ${profile.angle.instruction}`,
       `Style profile: structure=${profile.structure}; opening=${profile.openingStyle}; faq=${profile.faqMode}; cta=${profile.ctaPosition}; example=${profile.exampleType}; tone=${profile.tone}; title=${profile.titlePattern}.`,
-      `Use these exact 6 H2 headings, in this order, with no edits:\n${frame.h2s.map((heading) => `## ${heading}`).join("\n")}`,
-      `Use this exact H3 once, after the third or fourth H2 section:\n${frame.h3}`,
-      "Quality: practical editorial guide, not a landing page. Include city rhythm, neighbourhood choice, attendee concerns, host reliability cues, comfort boundaries, and decision criteria. Every H2 section must have real article paragraphs with distinct ideas.",
-      "Output contract that must pass automated quality checks: first character '#'; exactly one H1; 6 H2 headings using '## ' with a space; exactly one H3 using '### '; at least 13 natural paragraphs; every H2 has at least two paragraphs; description/source summary can be taken from the first paragraph and therefore the first paragraph must mention the city; title, first paragraph, and opening 600 characters must mention Fanju app.",
-      "Hard public-content rule: do not include QQ, webmaster contact, local contact, parked-domain text, advertising-sales copy, or any Chinese parked-domain phrase.",
-      "Hard linking rule: do not include [text](/path), https://fanju.app paths, raw URLs, <a href=\"...\">, the words markdown link, or any href. All real links are added by the page template.",
-      `Body requirements: 4,600-6,500 characters; at least 13 natural paragraphs; no filler. Do not use bullet lists or numbered lists. Use blank lines between paragraphs. Start with one answer-summary paragraph in the first 120 words explaining that Fanju app is a social dining app for small, clearly described meals and real-world connections in ${profile.cityNameLocalized}. Then write the 6 required H2 sections exactly as given. Each H2 heading must be on its own line, begin with "## ", and be followed by two distinct paragraphs. Each paragraph should be 90-150 English words, concrete to this city/topic/angle, and must not reuse the same opening sentence pattern. Put the single H3 after the third or fourth H2 and write one short paragraph under it. Avoid checklist-style section labels such as "Who this is for", "Safety and boundaries", "How it works", "What to expect", "Next steps", or "Conclusion". Across the article, naturally resolve the reader's decision points before joining: local fit, table rhythm, host and venue quality, guest mix, comfort boundaries, skip signals, and a concrete next move. Include exactly one concrete reader-question H3 line beginning "### "; do not use a generic FAQ label. If the body has fewer than 10 public paragraphs, it will be rejected.`,
-      "Return only the finished Markdown article text. The first character of the response must be '#'. Do not wrap it in JSON, YAML frontmatter, or a code fence.",
+      `Use these exact 6 H2 headings, in this order, with no edits:\n${frame.h2s.map((h) => `## ${h}`).join("\n")}`,
+      `After the H2 sections, use these exact deeper headings in strict order (H3 through H${maxDepth}). Each heading must appear exactly once, on its own line, with the correct number of # symbols and a space:\n${deepOutline}`,
+      `Heading depth rule: headings must only go deeper (H2 → H3 → H4 → … → H${maxDepth}). Never use a shallower heading after a deeper one. The article must reach at least H${maxDepth}.`,
+      "Quality: practical editorial guide, not a landing page. Every heading section must have at least one real paragraph with concrete local context.",
+      `Output contract: first character '#'; exactly one H1; 6 H2 headings; all deeper headings from H3 to H${maxDepth} present in order; at least 13 natural paragraphs; first paragraph mentions city and Fanju app; title and opening 600 characters mention Fanju app.`,
+      "Hard public-content rule: no QQ, webmaster contact, local contact, parked-domain text, or advertising-sales copy.",
+      "Hard linking rule: no [text](/path), raw URLs, <a href>, or href. All links are added by the page template.",
+      `Body: 4,600-6,500 characters; at least 13 natural paragraphs; no bullet or numbered lists; blank lines between paragraphs. Start with an answer-summary paragraph mentioning Fanju app and ${profile.cityNameLocalized}. Then write the 6 H2 sections. After the last H2, write the deeper heading sections (H3 through H${maxDepth}) in order, each with at least one paragraph. Do not use generic section labels like "Who this is for", "How it works", "Next steps", or "Conclusion".`,
+      "Return only the finished Markdown article text. First character must be '#'. No JSON, no YAML frontmatter, no code fence.",
     ].join("\n")
   }
   return [
     `为「${profile.cityNameLocalized}」城市页写一篇高质量中文长文。`,
     `城市：${profile.cityNameLocalized}。主题：${profile.topicNameLocalized}。`,
-    `第一行必须使用这个精确 H1，不能改字、不能换标题：\n# ${frame.h1}\n这个 H1 已经包含中文城市名和「饭局app」。`,
-    `标题/H1 防线：标题方向=${titleDirection}。禁止改成「${profile.cityNameLocalized}${profile.topicNameLocalized}指南」「${profile.cityNameLocalized}${profile.topicNameLocalized}怎么参加」「${profile.cityNameLocalized}${profile.topicNameLocalized}攻略」「${profile.cityNameLocalized}的饭局之旅」「探索${profile.cityNameLocalized}」这类只替换城市/主题的模板标题。description、正文前 200 字必须自然出现「饭局app」和「${profile.cityNameLocalized}」。`,
-    `中文城市名硬规则：公开标题、H1、description、H2 和正文里，城市名只能使用「${profile.cityNameLocalized}」这个中文名；URL slug、拼音城市名、英文城市名一律不能出现在公开字段里。中国、港澳台城市全部使用中文名。`,
+    `第一行必须使用这个精确 H1，不能改字：\n# ${frame.h1}\n这个 H1 已经包含中文城市名和「饭局app」。`,
+    `标题/H1 防线：标题方向=${titleDirection}。禁止改成只替换城市/主题的模板标题。description、正文前 200 字必须自然出现「饭局app」和「${profile.cityNameLocalized}」。`,
+    `中文城市名硬规则：公开标题、H1、description、H2 和正文里，城市名只能使用「${profile.cityNameLocalized}」；URL slug、拼音城市名、英文城市名一律不能出现在公开字段里。`,
     `角度：${profile.angle.name}。按这个方向写：${profile.angle.instruction}`,
     `风格 profile：结构=${profile.structure}；开头=${profile.openingStyle}；FAQ=${profile.faqMode}；CTA=${profile.ctaPosition}；例子=${profile.exampleType}；语气=${profile.tone}；标题=${profile.titlePattern}。`,
-    `必须使用这 6 个精确 H2，按顺序写，不能改字：\n${frame.h2s.map((heading) => `## ${heading}`).join("\n")}`,
-    `必须且只使用这 1 个精确 H3，放在第 3 或第 4 个 H2 小节之后：\n${frame.h3}`,
-    "质量：像真实城市饭局指南，不像落地页。写出城市节奏、街区选择、同桌人数、报名前顾虑、主理人信号、安全判断、报名建议。每个 H2 都必须有真实正文段落，且各小节观点不能重复。",
-    "必须通过的输出契约：回复第一个字符必须是「#」；只允许 1 个 H1；必须有 6 个带空格的「## 」标题；必须且只允许 1 个「### 」标题；至少 13 个自然段；每个 H2 下至少 2 段；第一段必须同时出现「饭局app」和中文城市名；标题、H1、前 600 字都必须出现饭局app。",
+    `必须使用这 6 个精确 H2，按顺序写，不能改字：\n${frame.h2s.map((h) => `## ${h}`).join("\n")}`,
+    `H2 之后，必须按顺序使用以下更深层标题（H3 到 H${maxDepth}），每个标题单独成行，井号数量和空格必须完全一致：\n${deepOutline}`,
+    `标题深度规则：标题只能越来越深（H2 → H3 → H4 → … → H${maxDepth}），不能在更深的标题后出现更浅的标题。文章必须到达 H${maxDepth}。`,
+    "质量：像真实城市饭局指南，不像落地页。每个标题小节都必须有至少一段有真实城市语境的正文。",
+    `输出契约：第一个字符必须是「#」；只允许 1 个 H1；必须有 6 个「## 」标题；H3 到 H${maxDepth} 的所有标题必须按顺序出现；至少 13 个自然段；第一段必须同时出现「饭局app」和中文城市名；标题、H1、前 600 字都必须出现饭局app。`,
     "公开内容硬规则：不要出现本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售、停放域名、招商或站主联系方式。",
-    "链接硬规则：不要出现 [文字](/path)、https://fanju.app 路径、裸 URL、<a href=\"...\">、markdown link 或任何 href。所有真实链接由页面模板统一添加。",
-    `正文结构硬规则：3,200-4,900 字符；至少 13 个自然段；段落之间必须空行；不要写项目符号列表、编号列表或结语。第一段必须是 answer-summary 式自然段，在前 200 字解释饭局app / Fanju 是围绕小桌吃饭、清晰主题和线下连接的社交应用，并明确落到「${profile.cityNameLocalized}」。然后直接写 6 个给定 H2，标题必须原样保留、单独成行、以「## 」开头，标题行不能混入正文。每个 H2 下面必须写 2 个扎实、互不重复的自然段，每段约 120-190 个汉字；第 3 或第 4 个 H2 后插入唯一的「### 」具体疑问标题，并在 H3 下写 1 个短段。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这类模板 H2。全文要自然回答读者报名前会想清楚的决定点：本地适配、这一桌的节奏、主理人/餐厅/同桌质量、舒适边界、哪些信号说明不该去、下一步怎么做。不要反复用「饭局app可以帮助」「通过饭局app」开头。少于 10 个公开自然段会被拒绝。`,
-    "只返回最终 Markdown 文章正文，回复第一个字符必须是「#」。不要 JSON，不要 YAML frontmatter，不要代码块。",
+    "链接硬规则：不要出现 [文字](/path)、裸 URL、<a href> 或任何 href。所有真实链接由页面模板统一添加。",
+    `正文结构硬规则：3,200-4,900 字符；至少 13 个自然段；段落之间必须空行；不要写项目符号列表或编号列表。第一段在前 200 字解释饭局app并落到「${profile.cityNameLocalized}」。然后写 6 个 H2 小节，每个 H2 下至少 2 段。H2 结束后，按顺序写 H3 到 H${maxDepth} 的深层小节，每个小节至少 1 段。不要用「适合谁」「安全重点」「下一步行动」「结语」这类模板标题。`,
+    "只返回最终 Markdown 文章正文，第一个字符必须是「#」。不要 JSON，不要 YAML frontmatter，不要代码块。",
   ].join("\n")
 }
 
@@ -675,7 +783,7 @@ function planLocaleCounts(limit, lang) {
   return { en, zh }
 }
 
-function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, masterSeed }) {
+function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, masterSeed, seenH1Set }) {
   const enabledRoutes = manifestEntries.filter(
     (e) => e.locale === locale && e.enabled === true && routeEligibleForLocale(e, locale) && (TARGET_ROUTES.size === 0 || TARGET_ROUTES.has(e.route))
   )
@@ -756,6 +864,11 @@ function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, mas
       titlePattern,
     }
 
+    // H1 global dedup: reject if this exact H1 text was already used
+    const frame = articleFrameFor(profile)
+    const h1Key = frame.h1.toLowerCase().replace(/\s+/g, " ").trim()
+    if (seenH1Set.has(h1Key)) continue
+
     const systemInstruction = systemInstructionFor(profile.locale)
     const userPrompt = userPromptFor(profile)
 
@@ -765,6 +878,7 @@ function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, mas
 
     profileKeySet.add(profileKey)
     promptHashSet.add(promptHash)
+    seenH1Set.add(h1Key)
 
     out.push({
       profile,
@@ -804,12 +918,13 @@ function main() {
   // We enforce both halves can be filled, and never substitute languages.
   const seedNum = seedFromString(RANDOM_SEED)
   const masterSeed = `${RANDOM_SEED}#${seedNum}`
+  const seenH1Set = new Set()
 
   const enPrompts = counts.en > 0
-    ? buildLocalePrompts({ locale: "en", count: counts.en, manifestEntries: manifest.entries, cityNameIndex, masterSeed })
+    ? buildLocalePrompts({ locale: "en", count: counts.en, manifestEntries: manifest.entries, cityNameIndex, masterSeed, seenH1Set })
     : []
   const zhPrompts = counts.zh > 0
-    ? buildLocalePrompts({ locale: "zh", count: counts.zh, manifestEntries: manifest.entries, cityNameIndex, masterSeed })
+    ? buildLocalePrompts({ locale: "zh", count: counts.zh, manifestEntries: manifest.entries, cityNameIndex, masterSeed, seenH1Set })
     : []
 
   const all = []

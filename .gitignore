@@ -26,3 +26,4 @@ tsconfig.tsbuildinfo
 .env.local
 .env.*.local
 private/
+data/seo/route-manifest.json

@@ -234,6 +234,34 @@ function normalizeCanonicalPath(p) {
   return path.endsWith("/") && path.length > 1 ? path.slice(0, -1) : path
 }
 
+function normalizeH1ForDedup(h1 = "") {
+  return String(h1 || "")
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\u4e00-\u9fff]+/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+}
+
+function loadExistingH1Set() {
+  const h1s = new Set()
+  if (!existsSync(CONTENT_READY_DIR)) return h1s
+  for (const file of readdirSync(CONTENT_READY_DIR).filter((f) => f.endsWith(".md"))) {
+    try {
+      const raw = readFileSync(join(CONTENT_READY_DIR, file), "utf8")
+      const meta = parseFrontmatter(raw)
+      if (meta.status !== "ready") continue
+      // Extract H1 from body (first # heading) or fall back to title frontmatter
+      const bodyH1 = raw.replace(/^---[\s\S]*?---\n/, "").match(/^#\s+(.+)$/m)?.[1]?.trim() || ""
+      const h1 = bodyH1 || String(meta.title || "").trim()
+      const normalized = normalizeH1ForDedup(h1)
+      if (normalized) h1s.add(normalized)
+    } catch {
+      // ignore malformed files
+    }
+  }
+  return h1s
+}
+
 function loadExistingCanonicalPaths() {
   const paths = new Set()
   if (existsSync(CONTENT_READY_DIR)) {
@@ -855,6 +883,7 @@ function scoreArticle(prompt, parsed) {
   if (isTemplateTitle(prompt, h1)) issues.push("template-h1")
   if (countMarkdownHeadings(body, 2) < 5) issues.push(`too-few-h2:${countMarkdownHeadings(body, 2)}`)
   if (countMarkdownHeadings(body, 3) < 1) issues.push(`too-few-h3:${countMarkdownHeadings(body, 3)}`)
+  if (countMarkdownHeadings(body, 4) < 1) issues.push(`too-few-h4:${countMarkdownHeadings(body, 4)}`)
   const minParagraphs = prompt.locale === "en" ? 10 : 10
   if (countParagraphs(body) < minParagraphs) issues.push(`too-few-paragraphs:${countParagraphs(body)}`)
   const duplicateH2 = duplicateMarkdownHeadings(body, 2)
@@ -898,6 +927,7 @@ function isHardIssue(issue) {
     issue.startsWith("body-too-short") ||
     issue.startsWith("too-few-h2") ||
     issue.startsWith("too-few-h3") ||
+    issue.startsWith("too-few-h4") ||
     issue.startsWith("too-few-paragraphs") ||
     issue.startsWith("duplicate-h2") ||
     issue.startsWith("duplicate-paragraphs") ||
@@ -1551,6 +1581,7 @@ async function main() {
   const publishedState = loadJsonState(PUBLISHED_FILE, { drafts: [] })
   const failedState = loadJsonState(FAILED_LOG_FILE, { drafts: [] })
   const completedRoutes = loadExistingCanonicalPaths()
+  const publishedH1s = loadExistingH1Set()
   const completed = new Set(
     publishedState.drafts
       .filter((d) => d.promptId && d.status === "ready")
