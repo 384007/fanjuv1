@@ -29,5 +29,4 @@ export function StatCard({ label, value, hint, accent = "default" }: Props) {
     </div>
   )
 }
-</content>
-<parameter name="taskNameActive">Writing stat card
+

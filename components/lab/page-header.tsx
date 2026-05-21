@@ -31,5 +31,4 @@ export function PageHeader({ eyebrow, title, subtitle, actions }: Props) {
     </div>
   )
 }
-</content>
-<parameter name="taskNameActive">Writing page header
+

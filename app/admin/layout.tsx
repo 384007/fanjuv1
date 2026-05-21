@@ -1,20 +1,6 @@
-import { cookies } from "next/headers"
-import { redirect } from "next/navigation"
 import Link from "next/link"
 
-export const dynamic = "force-dynamic"
-
-export default async function AdminLayout({ children }: { children: React.ReactNode }) {
-  const cookieStore = await cookies()
-  const token = cookieStore.get("admin_token")?.value
-  // Demo mode: when ADMIN_TOKEN is not set, accept "demo" so the dashboard
-  // can be previewed without any backend / env var setup.
-  const adminToken = process.env.ADMIN_TOKEN ?? "demo"
-
-  if (!token || token !== adminToken) {
-    redirect("/admin/login")
-  }
-
+export default function AdminLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-100">
       <nav className="border-b border-zinc-800 px-6 py-3 flex flex-wrap items-center gap-6 text-sm font-mono">

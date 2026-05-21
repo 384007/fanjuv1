@@ -3,30 +3,20 @@
 import { useEffect, useState } from "react"
 import type { LabPlatformAccount } from "@/lib/lab/types"
 import { PageHeader } from "@/components/lab/page-header"
-
-function getToken(): string {
-  if (typeof document === "undefined") return ""
-  return document.cookie.match(/admin_token=([^;]+)/)?.[1] ?? ""
-}
+import { labApi } from "@/lib/lab/api"
 
 export default function PlatformAccountsPage() {
   const [platforms, setPlatforms] = useState<LabPlatformAccount[]>([])
 
   useEffect(() => {
-    const token = getToken()
-    fetch("/api/lab/platform-accounts", { headers: { Authorization: `Bearer ${token}` } })
-      .then((r) => r.json())
+    labApi
+      .listPlatformAccounts()
       .then(setPlatforms)
       .catch(() => setPlatforms([]))
   }, [])
 
   const toggle = async (platform: string, isActive: boolean) => {
-    const token = getToken()
-    await fetch(`/api/lab/platform-accounts/${platform}`, {
-      method: "PATCH",
-      headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ is_active: isActive ? 0 : 1 }),
-    })
+    await labApi.togglePlatform(platform, !isActive)
     setPlatforms((prev) =>
       prev.map((a) =>
         a.platform === platform ? { ...a, is_active: isActive ? 0 : 1 } : a,

@@ -4,13 +4,7 @@ import { useEffect, useState } from "react"
 import type { LabSeoCheck, LabStats } from "@/lib/lab/types"
 import { PageHeader } from "@/components/lab/page-header"
 import { StatCard } from "@/components/lab/stat-card"
-
-const API = "/api/lab"
-
-function getToken(): string {
-  if (typeof document === "undefined") return ""
-  return document.cookie.match(/admin_token=([^;]+)/)?.[1] ?? ""
-}
+import { labApi } from "@/lib/lab/api"
 
 function ScoreRing({ score }: { score: number }) {
   const tone =
@@ -49,14 +43,12 @@ export default function SeoPage() {
   const [stats, setStats] = useState<LabStats | null>(null)
 
   useEffect(() => {
-    const token = getToken()
-    const headers = { Authorization: `Bearer ${token}` }
-    fetch(`${API}/seo-checks`, { headers })
-      .then((r) => r.json())
+    labApi
+      .listSeoChecks()
       .then(setChecks)
       .catch(() => setChecks([]))
-    fetch(`${API}/stats`, { headers })
-      .then((r) => r.json())
+    labApi
+      .stats()
       .then(setStats)
       .catch(() => setStats(null))
   }, [])

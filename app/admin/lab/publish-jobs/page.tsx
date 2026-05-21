@@ -4,6 +4,7 @@ import { useEffect, useState } from "react"
 import type { LabPublishJob } from "@/lib/lab/types"
 import { PageHeader } from "@/components/lab/page-header"
 import { StatCard } from "@/components/lab/stat-card"
+import { labApi } from "@/lib/lab/api"
 
 const STATUS_STYLE: Record<string, { dot: string; text: string; label: string }> = {
   success: { dot: "bg-[var(--gold)]", text: "text-[var(--gold)]", label: "Published" },
@@ -17,18 +18,12 @@ const STATUS_STYLE: Record<string, { dot: string; text: string; label: string }>
   skipped: { dot: "bg-muted-foreground/30", text: "text-muted-foreground/60", label: "Skipped" },
 }
 
-function getToken(): string {
-  if (typeof document === "undefined") return ""
-  return document.cookie.match(/admin_token=([^;]+)/)?.[1] ?? ""
-}
-
 export default function PublishJobsPage() {
   const [jobs, setJobs] = useState<LabPublishJob[]>([])
 
   const load = () => {
-    const token = getToken()
-    fetch("/api/lab/publish-jobs", { headers: { Authorization: `Bearer ${token}` } })
-      .then((r) => r.json())
+    labApi
+      .listPublishJobs()
       .then(setJobs)
       .catch(() => setJobs([]))
   }

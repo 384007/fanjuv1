@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { PageHeader } from "@/components/lab/page-header"
+import { labApi } from "@/lib/lab/api"
 
 const PLATFORMS = [
   { id: "zhihu", name: "Zhihu" },
@@ -10,11 +11,6 @@ const PLATFORMS = [
   { id: "devto", name: "dev.to" },
   { id: "hashnode", name: "Hashnode" },
 ]
-
-function getToken(): string {
-  if (typeof document === "undefined") return ""
-  return document.cookie.match(/admin_token=([^;]+)/)?.[1] ?? ""
-}
 
 interface GenerateResult {
   github_path?: string
@@ -35,15 +31,9 @@ export default function ContentLabPage() {
     setLoading(true)
     setResult(null)
     setQueueMsg("")
-    const token = getToken()
     const id = Date.now().toString(36)
     try {
-      const res = await fetch(`/api/lab/generate`, {
-        method: "POST",
-        headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
-        body: JSON.stringify({ topic, lang, article_id: id }),
-      })
-      const data = (await res.json()) as GenerateResult
+      const data = (await labApi.generateArticle(topic, lang, id)) as GenerateResult
       setResult({ ...data, article_id: data.article_id ?? id })
     } catch (e) {
       setResult({ error: (e as Error).message })
@@ -55,17 +45,11 @@ export default function ContentLabPage() {
   const publishAll = async () => {
     if (!result?.article_id) return
     setQueueing(true)
-    const token = getToken()
     let queued = 0
     let skipped = 0
     for (const p of PLATFORMS) {
       try {
-        const res = await fetch("/api/lab/publish-jobs", {
-          method: "POST",
-          headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
-          body: JSON.stringify({ article_id: result.article_id, platform: p.id }),
-        })
-        const data = (await res.json()) as { skipped?: boolean }
+        const data = await labApi.createPublishJob(result.article_id, p.id)
         if (data.skipped) skipped += 1
         else queued += 1
       } catch {
