@@ -514,8 +514,10 @@ def run_cloudflare_publish_pipeline(
         ensure_ready_source_entries(latest_entries, f"round-{round_no}-before-commit")
         commit_sha = git_commit_and_push(routes, run_id, round_no)
         wait_for_live_routes(routes)
+        submit_routes = ",".join(routes)
         run(
-            f"URL_LIMIT={safe_run_limit} PLATFORMS={safe_platforms} STRICT_PUBLISH=1 pnpm seo:cloudflare:submit",
+            f"URLS={shlex.quote(submit_routes)} URL_LIMIT={safe_run_limit} PLATFORMS={safe_platforms} "
+            "STRICT_PUBLISH=1 pnpm seo:cloudflare:submit",
             cwd=WORKDIR,
             timeout=1200,
         )
@@ -662,7 +664,11 @@ def publish_routes_to_cloudflare(target_routes: str, upload_r2: bool = True):
             cwd=WORKDIR,
             timeout=900,
         )
-        run("URL_LIMIT=1 STRICT_PUBLISH=1 pnpm seo:cloudflare:submit", cwd=WORKDIR, timeout=900)
+        run(
+            f"URLS={shlex.quote(route)} URL_LIMIT=1 STRICT_PUBLISH=1 pnpm seo:cloudflare:submit",
+            cwd=WORKDIR,
+            timeout=900,
+        )
         summaries.append({"route": route, "ready": ready_entries[-1], "failed": failed_state.get("drafts", [])})
 
     output_root = Path(OUTPUT_ROOT) / run_id

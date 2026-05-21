@@ -9,6 +9,7 @@ const CLOUDFLARE_API_TOKEN = cleanToken(process.env.CLOUDFLARE_API_TOKEN || proc
 const CLOUDFLARE_D1_DATABASE_ID = clean(process.env.CLOUDFLARE_D1_DATABASE_ID || "58d63133-adeb-4efd-b9eb-a9b056271ca5")
 const LIMIT = Math.max(1, Number.parseInt(process.env.URL_LIMIT || "20", 10))
 const DRY_RUN = process.env.DRY_RUN === "1"
+const REQUESTED_URLS = parseRequestedUrls(process.env.URLS || process.env.SUBMIT_URLS || "")
 const PLATFORMS = new Set(
   clean(process.env.PLATFORMS || "all")
     .split(",")
@@ -26,6 +27,36 @@ function cleanToken(value = "") {
 
 function normalizeUrl(url) {
   return String(url || "").trim().replace(/\/$/, "")
+}
+
+function parseRequestedUrls(value = "") {
+  return String(value || "")
+    .split(",")
+    .map((item) => item.trim())
+    .filter(Boolean)
+}
+
+function slugFromUrlOrPath(value = "") {
+  const input = String(value || "").trim()
+  if (!input) return ""
+  if (/^https?:\/\//i.test(input)) {
+    try {
+      return new URL(input).pathname.replace(/^\/+|\/+$/g, "")
+    } catch {
+      return input.replace(/^\/+|\/+$/g, "")
+    }
+  }
+  return input.replace(/^\/+|\/+$/g, "")
+}
+
+function titleFromSlug(slug = "") {
+  return String(slug || "")
+    .split("/")
+    .filter(Boolean)
+    .slice(-2)
+    .join(" ")
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, (ch) => ch.toUpperCase())
 }
 
 function shouldRun(platform) {
@@ -94,6 +125,33 @@ async function fetchLatestUrls() {
     url: `${SITE_ROOT}/${String(row.slug).replace(/^\/+/, "")}`,
     updatedAt: row.updated_at,
   }))
+}
+
+async function fetchRequestedEntries() {
+  const entries = []
+  const seen = new Set()
+  for (const requested of REQUESTED_URLS) {
+    const slug = slugFromUrlOrPath(requested)
+    if (!slug || seen.has(slug)) continue
+    seen.add(slug)
+    const rows = await d1Query(
+      `SELECT slug, title, updated_at
+       FROM articles
+       WHERE slug = ?
+         AND status='ready'
+       LIMIT 1`,
+      [slug],
+    )
+    const row = rows[0] || {}
+    entries.push({
+      slug,
+      title: row.title || titleFromSlug(slug),
+      url: `${SITE_ROOT}/${slug}`,
+      updatedAt: row.updated_at || "",
+      source: row.slug ? "d1" : "requested",
+    })
+  }
+  return entries
 }
 
 async function verifyUrl(url) {
@@ -425,10 +483,10 @@ function escapeHtml(input = "") {
     .replaceAll("'", "&#039;")
 }
 
-const entries = await fetchLatestUrls()
+const entries = REQUESTED_URLS.length ? await fetchRequestedEntries() : await fetchLatestUrls()
 const urls = entries.map((entry) => normalizeUrl(entry.url))
 
-console.log(`Collected ${urls.length} latest Cloudflare article URLs.`)
+console.log(`Collected ${urls.length} ${REQUESTED_URLS.length ? "requested" : "latest"} Cloudflare article URLs.`)
 for (const entry of entries) console.log(`- ${entry.url} | ${entry.title}`)
 
 const checks = await Promise.all(urls.map(verifyUrl))
