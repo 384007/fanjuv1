@@ -512,7 +512,7 @@ for (const file of files) {
   if (meta.renderMode === "source") {
     const sourceIssues = sourceBodyIssues(meta, body)
     if (sourceIssues.length) {
-      console.error(`   ❌ Source article body failed strict checks: ${sourceIssues.join(", ")}`)
+      console.error(`   ❌ Source article body failed strict checks in content/seo-ready/${file}: ${sourceIssues.join(", ")}`)
       errors += sourceIssues.length
       continue
     }
