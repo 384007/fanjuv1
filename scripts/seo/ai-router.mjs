@@ -72,7 +72,7 @@ async function callOpenAICompat({ label, endpoint, apiKey, model, prompt, system
       { role: "system", content: system },
       { role: "user", content: prompt },
     ],
-    temperature: 0.25,
+    temperature: 0.7,
   }
 
   if (useJsonFormat && process.env.AI_RESPONSE_FORMAT !== "text") {
@@ -129,7 +129,7 @@ async function callCloudflare({ prompt, system, maxTokens, timeoutMs }) {
           { role: "user", content: prompt },
         ],
         max_tokens: maxTokens,
-        temperature: 0.25,
+        temperature: 0.7,
       }),
     })
 
