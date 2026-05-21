@@ -7,9 +7,11 @@ export const dynamic = "force-dynamic"
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
   const cookieStore = await cookies()
   const token = cookieStore.get("admin_token")?.value
-  const adminToken = process.env.ADMIN_TOKEN
+  // Demo mode: when ADMIN_TOKEN is not set, accept "demo" so the dashboard
+  // can be previewed without any backend / env var setup.
+  const adminToken = process.env.ADMIN_TOKEN ?? "demo"
 
-  if (!adminToken || !token || token !== adminToken) {
+  if (!token || token !== adminToken) {
     redirect("/admin/login")
   }
 

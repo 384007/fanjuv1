@@ -18,6 +18,9 @@ export default function AdminLogin() {
         <h1 className="text-amber-400 font-mono font-bold mb-6 tracking-wider">FANJU LAB</h1>
         <p className="text-zinc-500 text-xs font-mono mb-4 leading-relaxed">
           Enter your admin token to access the SEO automation lab.
+          <br />
+          <span className="text-amber-400">Demo mode: use token</span>{" "}
+          <code className="text-amber-300">demo</code>
         </p>
         <input
           type="password"

@@ -2,9 +2,6 @@
 
 import { useState } from "react"
 
-const MODAL_URL =
-  process.env.NEXT_PUBLIC_MODAL_BASE_URL ?? "https://fanju-backend--lab-worker-web.modal.run"
-
 const PLATFORMS = ["zhihu", "csdn", "juejin", "devto", "hashnode"]
 
 function getToken(): string {
@@ -35,7 +32,7 @@ export default function ContentLabPage() {
     const id = Date.now().toString(36)
 
     try {
-      const res = await fetch(`${MODAL_URL}/generate`, {
+      const res = await fetch(`/api/lab/generate`, {
         method: "POST",
         headers: {
           Authorization: `Bearer ${token}`,
@@ -44,7 +41,7 @@ export default function ContentLabPage() {
         body: JSON.stringify({ topic, lang, article_id: id }),
       })
       const data = (await res.json()) as GenerateResult
-      setResult({ ...data, article_id: id })
+      setResult({ ...data, article_id: data.article_id ?? id })
     } catch (e) {
       setResult({ error: (e as Error).message })
     } finally {
