@@ -430,6 +430,7 @@ def run_cloudflare_publish_pipeline(
         validate_ready_entries(latest_entries, min_score=90)
 
         routes = [public_route_for_entry(entry) for entry in latest_entries]
+        run("node scripts/seo/recover-missing-from-d1.mjs", cwd=WORKDIR, timeout=300)
         run("pnpm build", cwd=WORKDIR, timeout=1800)
         commit_sha = git_commit_and_push(routes, run_id, round_no)
         wait_for_live_routes(routes)
