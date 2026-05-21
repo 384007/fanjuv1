@@ -555,7 +555,7 @@ function latinNoiseInZhBody(value = "") {
     // common english words acceptable in zh articles
     "kpi", "okr", "hr", "pr", "it", "ui", "ux", "api", "diy", "vip", "ktv",
     "solo", "nearby", "online", "offline", "wifi", "ok", "yes", "no",
-    "cbd", "cbd", "gps", "id", "pin", "qr", "url", "seo",
+    "cbd", "gps", "id", "pin", "qr", "url", "seo", "tob", "toc", "toб",
   ])
   const words = new Set()
   for (const match of String(value || "").matchAll(/[A-Za-z][A-Za-z-]{2,}/g)) {
@@ -892,7 +892,9 @@ function isHardIssue(issue) {
     issue === "h1-missing-city" ||
     issue === "description-missing-city" ||
     issue.startsWith("pinyin-city-name-in-zh-public-text") ||
-    issue.startsWith("latin-word-in-zh-") ||
+    issue.startsWith("latin-word-in-zh-title") ||
+    issue.startsWith("latin-word-in-zh-h1") ||
+    issue.startsWith("latin-word-in-zh-heading") ||
     issue.startsWith("malformed-heading") ||
     issue.startsWith("missing-primary-keyword") ||
     issue === "missing-city-context" ||
