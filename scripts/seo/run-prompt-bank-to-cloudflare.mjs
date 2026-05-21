@@ -72,7 +72,7 @@ const BANNED_PHRASES_FOR_BODY = [
   /\bautomation pipeline\b/i,
   /\bworker pipeline\b/i,
   /\bcron\b/i,
-  /(?<![A-Za-z\u4e00-\u9fff])prompt(?![A-Za-z])/i,
+  /\b(?:system\s+prompt|prompt\s+bank|prompt\s+hash|random\s+prompt|user\s*prompt|promptHash|promptId)\b/i,
   /\bModal\b/,
   /^Here is\b/i,
   /^Below is\b/i,
