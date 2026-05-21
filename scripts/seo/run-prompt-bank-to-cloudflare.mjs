@@ -364,8 +364,17 @@ function normalizeMarkdownHeadingSpacing(text = "") {
     .trim()
 }
 
+function expectedPromptHeadings(prompt, marker = "##") {
+  const headingPattern = new RegExp(`^${marker.replaceAll("#", "\\#")}\\s+(.+)$`, "gm")
+  return new Set(
+    [...String(prompt?.userPrompt || "").matchAll(headingPattern)]
+      .map((m) => m[1].trim())
+      .filter(Boolean)
+  )
+}
+
 function extractMarkdownArticle(prompt, text) {
-  const cleaned = normalizeMarkdownHeadingSpacing(stripMarkdownFence(text))
+  const cleaned = repairHeadings(prompt, normalizeMarkdownHeadingSpacing(stripMarkdownFence(text)))
   if (!cleaned || looksLikeJsonWrapper(cleaned)) return null
   if (!/^#\s+.+$/m.test(cleaned)) return null
   if (countMarkdownHeadings(cleaned, 2) < 5) return null
@@ -538,6 +547,32 @@ function latinNoiseInZhHeading(value = "") {
     .filter((word) => !allowed.has(word))
 }
 
+function latinNoiseInZhBody(value = "") {
+  const allowed = new Set([
+    "fanju",
+    "app",
+    "ai",
+    "vc",
+    "ceo",
+    "cfo",
+    "cto",
+    "coo",
+    "mba",
+    "pm",
+    "ip",
+    "bd",
+    "saas",
+    "b2b",
+    "b2c",
+  ])
+  const words = new Set()
+  for (const match of String(value || "").matchAll(/[A-Za-z][A-Za-z-]{2,}/g)) {
+    const word = match[0].toLowerCase()
+    if (!allowed.has(word)) words.add(word)
+  }
+  return [...words]
+}
+
 function zhHeadingLatinNoise(body = "") {
   const headings = [...String(body || "").matchAll(/^#{1,3}\s+(.+)$/gm)]
     .map((m) => m[1].trim())
@@ -678,11 +713,15 @@ function repairHeadings(prompt, body) {
   const original = String(body || "").replace(/\r\n/g, "\n").trim()
   if (!original) return original
 
+  const expectedH2 = expectedPromptHeadings(prompt, "##")
+  const expectedH3 = expectedPromptHeadings(prompt, "###")
   let converted = original
     .split("\n")
     .map((line) => {
       const trimmed = line.trim()
       if (/^#{1,6}\s+/.test(trimmed)) return line
+      if (expectedH2.has(trimmed)) return `## ${trimmed}`
+      if (expectedH3.has(trimmed)) return `### ${trimmed}`
       const boldHeading = trimmed.match(/^\*\*([^*]{4,90})\*\*:?$/)
       if (boldHeading) return `## ${boldHeading[1].trim().replace(/:$/, "")}`
       const numberedHeading = trimmed.match(/^(?:Section\s*)?\d+[).]\s+([^.!?。！？]{4,90})$/i)
@@ -794,9 +833,11 @@ function scoreArticle(prompt, parsed) {
     const titleNoise = latinNoiseInZhHeading(title)
     const h1Noise = latinNoiseInZhHeading(h1)
     const headingNoise = zhHeadingLatinNoise(body)
+    const bodyNoise = latinNoiseInZhBody(body)
     if (titleNoise.length) issues.push(`latin-word-in-zh-title:${titleNoise.slice(0, 3).join("|")}`)
     if (h1Noise.length) issues.push(`latin-word-in-zh-h1:${h1Noise.slice(0, 3).join("|")}`)
     if (headingNoise.length) issues.push(`latin-word-in-zh-heading:${headingNoise.slice(0, 5).join("|")}`)
+    if (bodyNoise.length) issues.push(`latin-word-in-zh-body:${bodyNoise.slice(0, 5).join("|")}`)
   }
   if (isTemplateTitle(prompt, title)) issues.push("template-title")
   if (isTemplateTitle(prompt, h1)) issues.push("template-h1")
@@ -843,6 +884,9 @@ function isHardIssue(issue) {
     issue === "json-wrapper-in-public-text" ||
     issue === "code-fence-in-public-body" ||
     issue.startsWith("body-too-short") ||
+    issue.startsWith("too-few-h2") ||
+    issue.startsWith("too-few-h3") ||
+    issue.startsWith("too-few-paragraphs") ||
     issue.startsWith("template-heading-set") ||
     issue.startsWith("template-h2") ||
     issue === "template-title" ||
