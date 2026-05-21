@@ -1,22 +1,5 @@
 export default {
   async fetch(request, env) {
-    const requestUrl = new URL(request.url)
-    const slug = requestUrl.pathname.replace(/^\/+/, "").replace(/\/+$/, "")
-    if (slug && env.FANJU_DB) {
-      const direct = await findReadyArticle(slug, env)
-      const directResponse = await articleResponse(requestUrl, direct, env, request.method === "HEAD")
-      if (directResponse) return directResponse
-
-      // If no direct article exists but an alternate does, redirect to the
-      // canonical path instead of rendering fallback content at this URL.
-      const alternate = await findAlternateReadyArticle(slug, env)
-      if (alternate) {
-        const canonicalPath = alternate.canonical_path || `/${alternate.slug}`
-        const target = `${requestUrl.protocol}//${requestUrl.host}${canonicalPath}`
-        return new Response(null, { status: 302, headers: { location: target } })
-      }
-    }
-
     return fetchPages(request, env)
   },
 }
