@@ -10,11 +10,16 @@
 //   LINK_TIMEOUT_MS     per internal-link request timeout. Default: 12000
 //   MAX_INTERNAL_LINKS  max internal hrefs to check per page. Default: 80
 
+import { existsSync, readFileSync } from "fs"
+import { join } from "path"
+
 const BASE_URL = (process.env.BASE_URL || "https://fanju.app").replace(/\/$/, "")
 const BASE_HOSTNAME = new URL(BASE_URL).hostname.replace(/^www\./, "")
 const TIMEOUT_MS = Math.max(1000, Number.parseInt(process.env.TIMEOUT_MS || "20000", 10))
 const LINK_TIMEOUT_MS = Math.max(1000, Number.parseInt(process.env.LINK_TIMEOUT_MS || "12000", 10))
 const MAX_INTERNAL_LINKS = Math.max(1, Number.parseInt(process.env.MAX_INTERNAL_LINKS || "80", 10))
+const MANIFEST_FILE = join(process.cwd(), "data/seo/route-manifest.json")
+const ZH_CITY_LOCALIZED_COUNTRIES = new Set(["CN", "HK", "MO", "TW"])
 const URLS = (process.env.URLS || "")
   .split(",")
   .map((s) => s.trim())
@@ -38,6 +43,64 @@ const BAD_PUBLIC_PATTERNS = [
   /正文要求/,
   /只返回合法 JSON/,
 ]
+
+let routeManifestEntries = null
+
+function loadRouteManifestEntries() {
+  if (routeManifestEntries) return routeManifestEntries
+  routeManifestEntries = []
+  if (!existsSync(MANIFEST_FILE)) return routeManifestEntries
+  try {
+    const payload = JSON.parse(readFileSync(MANIFEST_FILE, "utf8"))
+    routeManifestEntries = Array.isArray(payload.entries) ? payload.entries : []
+  } catch {
+    routeManifestEntries = []
+  }
+  return routeManifestEntries
+}
+
+function normalizePath(path = "") {
+  const value = String(path || "").trim()
+  if (!value) return ""
+  const pathname = value.startsWith("/") ? value : `/${value}`
+  return pathname.endsWith("/") && pathname.length > 1 ? pathname.slice(0, -1) : pathname
+}
+
+function routeMetaForUrl(url = "") {
+  let pathname = ""
+  try {
+    pathname = normalizePath(new URL(url).pathname)
+  } catch {
+    pathname = normalizePath(url)
+  }
+  if (!pathname || pathname.startsWith("/en/")) return null
+  return loadRouteManifestEntries().find((entry) => normalizePath(entry.route) === pathname && entry.locale === "zh") || null
+}
+
+function addLatinAlias(aliases, value = "") {
+  const alias = String(value || "").trim().toLowerCase()
+  if (!alias || /[\u4e00-\u9fff]/.test(alias)) return
+  aliases.add(alias)
+}
+
+function escapeRegExp(value = "") {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+}
+
+function zhLatinCityAliasHits(url = "", haystack = "") {
+  const meta = routeMetaForUrl(url)
+  const countryCode = String(meta?.countryCode || "").toUpperCase()
+  if (!meta || !ZH_CITY_LOCALIZED_COUNTRIES.has(countryCode)) return []
+
+  const aliases = new Set()
+  addLatinAlias(aliases, meta.citySlug)
+  addLatinAlias(aliases, String(meta.citySlug || "").replace(/-/g, " "))
+  addLatinAlias(aliases, String(meta.citySlug || "").replace(/-/g, ""))
+  addLatinAlias(aliases, meta.cityNameEn)
+
+  const text = String(haystack || "").toLowerCase()
+  return [...aliases].filter((alias) => new RegExp(`(^|[^a-z])${escapeRegExp(alias)}([^a-z]|$)`, "i").test(text))
+}
 
 function buildUrl(raw) {
   if (/^https?:\/\//i.test(raw)) return raw
@@ -195,6 +258,7 @@ async function checkOne(raw) {
     badHits: badPhraseHits(publicHtml),
     issues: [],
   }
+  const zhCityAliases = zhLatinCityAliasHits(url, `${result.title}\n${result.h1}\n${h2.join("\n")}\n${text.slice(0, 3000)}`)
 
   if (response.status !== 200) result.issues.push(`http-${response.status}`)
   if (!result.h1) result.issues.push("missing-h1")
@@ -203,6 +267,7 @@ async function checkOne(raw) {
   if (result.textLength < minVisibleText(url)) result.issues.push(`visible-text-too-short:${result.textLength}`)
   if (styleNodes < 1) result.issues.push("missing-stylesheet")
   if (result.badHits.length) result.issues.push(`bad-public-phrase:${result.badHits.join(",")}`)
+  if (zhCityAliases.length) result.issues.push(`pinyin-city-name-in-zh-live-text:${zhCityAliases.join("|")}`)
   if (result.badInternalLinks.length) {
     result.issues.push(
       `bad-internal-links:${result.badInternalLinks

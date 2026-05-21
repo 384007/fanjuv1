@@ -42,6 +42,8 @@ function cleanArticleText(text = "") {
     .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
     .replace(/<a\b[^>]*>([\s\S]*?)<\/a>/gi, "$1")
     .replace(/https?:\/\/[^\s)]+/gi, "")
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/__([^_]+)__/g, "$1")
     .replace(/\s+/g, " ")
     .trim()
 }

@@ -310,6 +310,14 @@ function templateH2Issues(meta, body = "") {
       const normalized = normalizeForTemplateCheck(heading)
       const compact = compactCjk(heading)
       const genericEnPattern = [
+        /^who (is|should|can)\b/,
+        /^who .*suitable for\b/,
+        /^the core .*scenario\b/,
+        /^choosing the right\b/,
+        /^host (reliability|trust|quality) cues\b/,
+        /^comfort boundaries\b/,
+        /^decision criteria\b/,
+        /^practical questions\b/,
         /^who it suits\b/,
         /^what to expect\b/,
         /^how (the|a) .*works\b/,
@@ -321,6 +329,7 @@ function templateH2Issues(meta, body = "") {
         /^a practical first step\b/,
         /^building lasting connections\b/,
         /^embracing the unknown\b/,
+        /^next steps\b/,
         /^conclusion\b/,
       ].some((pattern) => pattern.test(normalized))
       const genericZhPattern = (
@@ -329,6 +338,9 @@ function templateH2Issues(meta, body = "") {
         compact.startsWith("安全重点") ||
         compact.startsWith("一桌饭") ||
         compact.startsWith("主理人信号") ||
+        compact.startsWith("主理人的信号") ||
+        compact.startsWith("舒适边界") ||
+        compact.startsWith("下一步行动") ||
         compact.startsWith("如何判断") ||
         (compact.includes("边界") && compact.includes("安全")) ||
         compact.startsWith("什么情况不适合") ||
