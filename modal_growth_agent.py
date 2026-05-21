@@ -529,7 +529,7 @@ def hourly_publish_cron():
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
 )
-def run_once(rounds: int = 1, run_limit: int = 6, upload_r2: bool = True, submit_platforms: str = "all"):
+def run_once(rounds: int = 1, run_limit: int = 10, upload_r2: bool = True, submit_platforms: str = "all"):
     """Manual production trigger: python3 -m modal run modal_growth_agent.py::run_once"""
     return run_cloudflare_publish_pipeline(
         rounds=rounds,
