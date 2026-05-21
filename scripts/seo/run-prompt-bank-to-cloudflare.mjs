@@ -1031,15 +1031,47 @@ function bodyToArticleHtml(prompt, result) {
   ].join("\n")
 }
 
+function retryIssueSummaryForModel(locale, issues = []) {
+  const labels = []
+  const add = (label) => {
+    if (!labels.includes(label)) labels.push(label)
+  }
+
+  for (const issue of issues) {
+    if (issue.startsWith("body-too-short")) add(locale === "zh" ? "正文太短" : "body too short")
+    else if (issue.startsWith("body-too-long")) add(locale === "zh" ? "正文太长" : "body too long")
+    else if (issue.startsWith("too-few-h2")) add(locale === "zh" ? "H2 小节不足" : "not enough H2 sections")
+    else if (issue.startsWith("too-few-h3")) add(locale === "zh" ? "缺少具体问题型 H3" : "missing one concrete question-style H3")
+    else if (issue.startsWith("too-few-paragraphs")) add(locale === "zh" ? "自然段不足" : "not enough paragraph blocks")
+    else if (issue.startsWith("duplicate-h2")) add(locale === "zh" ? "H2 重复" : "duplicate H2 headings")
+    else if (issue.startsWith("duplicate-paragraphs")) add(locale === "zh" ? "段落重复" : "duplicate paragraphs")
+    else if (issue.startsWith("repeated-generic-phrases")) add(locale === "zh" ? "通用表达重复" : "repeated generic phrases")
+    else if (issue.startsWith("template-h2") || issue.startsWith("template-heading-set")) add(locale === "zh" ? "H2 过于通用或像模板" : "major headings too generic or template-like")
+    else if (issue === "template-title") add(locale === "zh" ? "标题像模板" : "title too template-like")
+    else if (issue === "template-h1") add(locale === "zh" ? "H1 像模板" : "H1 too template-like")
+    else if (issue.startsWith("title-missing-primary-keyword")) add(locale === "zh" ? "标题缺少品牌词" : "title missing brand phrase")
+    else if (issue.startsWith("h1-missing-primary-keyword")) add(locale === "zh" ? "H1 缺少品牌词" : "H1 missing brand phrase")
+    else if (issue.startsWith("missing-primary-keyword")) add(locale === "zh" ? "开头缺少品牌词" : "opening missing brand phrase")
+    else if (issue.includes("missing-city") || issue === "missing-city-context") add(locale === "zh" ? "城市语境不足" : "city context missing")
+    else if (issue.startsWith("pinyin-city-name-in-zh-public-text") || issue.startsWith("latin-word-in-zh-")) add("中文公开文本含拼音或英文城市词")
+    else if (issue.startsWith("malformed-heading")) add(locale === "zh" ? "Markdown 标题格式错误" : "malformed Markdown headings")
+    else if (issue.startsWith("public-link")) add(locale === "zh" ? "公开文本含链接" : "public text contains links")
+    else add(locale === "zh" ? "质量门未通过" : "quality gate failed")
+  }
+
+  return labels.length ? labels.join(locale === "zh" ? "；" : "; ") : (locale === "zh" ? "质量门未通过" : "quality gate failed")
+}
+
 function retryPrompt(basePrompt, attempt, issues) {
   if (attempt <= 1) return basePrompt.userPrompt
   const isEn = basePrompt.locale === "en"
+  const issueSummary = retryIssueSummaryForModel(basePrompt.locale, issues)
   return [
     basePrompt.userPrompt,
     "",
     isEn
-      ? `QUALITY RETRY ${attempt}: the previous draft failed these checks: ${issues.join(", ")}. Rewrite from scratch as a complete long-form article. The title and H1 must include the city, mention Fanju app naturally, and must not be a reusable city/topic template. Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Avoid checklist-style section labels and do not copy wording from the quality checks. Use literal Markdown heading lines that begin with "## " for every major section and at least one line that begins with "### ". Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. Use at least 10 separate public paragraphs with blank lines between paragraphs, and at least two paragraphs under every H2. Do not summarize. Make it longer, more specific, and structurally complete. Do not include Markdown links, raw URLs, href attributes, or HTML anchor tags.`
-      : `质量重试 ${attempt}：上一稿未通过这些检查：${issues.join("，")}。请从头重写一篇完整长文。标题、H1、description、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。标题和 H1 必须包含城市，必须自然出现「饭局app」，不能是只替换城市/主题的模板标题。每个 H2 都要按这座城市、这个主题、本次角度、目标人群和一个具体本地张力重新拟定。不要用清单式通用小标题，也不要复制质量检查里的措辞。每个主要小节必须使用字面量 Markdown 标题行，也就是以“## ”开头；至少一个具体问题标题以“### ”开头。不要用加粗标题、编号标题或普通文字冒号代替井号标题。至少 10 个公开自然段，段落之间空行，每个 H2 下面至少两段。不要摘要，不要变短，要更具体、更本地、更完整。不要包含 Markdown 链接、裸 URL、href 或 HTML a 标签。`,
+      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch as a complete long-form article. The title and H1 must include the city, mention Fanju app naturally, and must not be a reusable city/topic template. Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use abstract checklist labels as section headings; make each H2 specific enough that it would not fit another city or topic. Use literal Markdown heading lines that begin with "## " for every major section and at least one line that begins with "### ". Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. Use at least 10 separate public paragraphs with blank lines between paragraphs, and at least two paragraphs under every H2. Do not summarize. Make it longer, more specific, and structurally complete. Do not include Markdown links, raw URLs, href attributes, or HTML anchor tags.`
+      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写一篇完整长文。标题、H1、description、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。标题和 H1 必须包含城市，必须自然出现「饭局app」，不能是只替换城市/主题的模板标题。每个 H2 都要按这座城市、这个主题、本次角度、目标人群和一个具体本地张力重新拟定。不要用抽象清单标签当小标题；每个 H2 都要具体到不能直接套给另一座城市或另一个主题。每个主要小节必须使用字面量 Markdown 标题行，也就是以“## ”开头；至少一个具体问题标题以“### ”开头。不要用加粗标题、编号标题或普通文字冒号代替井号标题。至少 10 个公开自然段，段落之间空行，每个 H2 下面至少两段。不要摘要，不要变短，要更具体、更本地、更完整。不要包含 Markdown 链接、裸 URL、href 或 HTML a 标签。`,
   ].join("\n")
 }
 

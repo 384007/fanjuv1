@@ -393,7 +393,7 @@ def run_cloudflare_publish_pipeline(
             f"QUALITY_RETRY_DELAY_MS=70000 MAX_TOKENS=7200 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=30000 "
-            "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=0 FORCE_PROVIDER_ORDER=1 "
+            "MULTI_AI_CANDIDATES=1 ASSIGN_PROVIDER_PER_CITY=0 FORCE_PROVIDER_ORDER=1 "
             "AI_PROVIDER_ORDER=gemini,openrouter,nvidia,cloudflare,cerebras pnpm seo:prompt-bank:cloudflare",
             cwd=WORKDIR,
             timeout=21000,
@@ -541,7 +541,7 @@ def publish_routes_to_cloudflare(target_routes: str, upload_r2: bool = True):
             f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=6 QUALITY_RETRY_DELAY_MS=70000 MAX_TOKENS=7200 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=30000 "
-            "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "
+            "MULTI_AI_CANDIDATES=1 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "
             "AI_PROVIDER_ORDER=gemini,openrouter,nvidia,cloudflare,cerebras pnpm seo:prompt-bank:cloudflare",
             cwd=WORKDIR,
             timeout=21000,
