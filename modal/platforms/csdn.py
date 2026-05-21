@@ -1,0 +1,40 @@
+from __future__ import annotations
+
+from playwright.async_api import async_playwright
+
+from modal.platforms.base_adapter import BaseAdapter
+
+
+class Adapter(BaseAdapter):
+    platform = "csdn"
+
+    async def publish(self, markdown_content: str) -> dict:
+        lines = markdown_content.split("\n")
+        title = next(
+            (l.replace("title:", "").strip().strip('"') for l in lines if l.startswith("title:")),
+            "Fanju 文章",
+        )
+
+        async with async_playwright() as p:
+            context = await self._new_context(p)
+            page = await context.new_page()
+
+            await page.goto("https://editor.csdn.net/md/", wait_until="networkidle")
+            await self._random_delay(2, 3)
+
+            title_el = page.locator("#titleInput, input[placeholder*='标题']").first
+            await title_el.fill(title)
+            await self._random_delay()
+
+            editor = page.locator(".CodeMirror, .editor-container textarea").first
+            await editor.click()
+            await page.keyboard.press("Control+a")
+            await page.keyboard.type(markdown_content, delay=3)
+            await self._random_delay(2, 3)
+
+            await page.locator("button:has-text('发布文章')").click()
+            await self._random_delay(3, 5)
+
+            url = page.url
+            await context.close()
+            return {"url": url}
