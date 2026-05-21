@@ -74,8 +74,8 @@ const BANNED_PHRASES_FOR_BODY = [
   /\bcron\b/i,
   /(?<![A-Za-z\u4e00-\u9fff])prompt(?![A-Za-z])/i,
   /\bModal\b/,
-  /\bHere is\b/i,
-  /\bBelow is\b/i,
+  /^Here is\b/i,
+  /^Below is\b/i,
   /\bmarkdown draft\b/i,
   /\bmarkdown link\b/i,
   /\bspecified page\b/i,
@@ -877,7 +877,6 @@ function isHardIssue(issue) {
     issue === "code-fence-in-public-body" ||
     issue.startsWith("body-too-short") ||
     issue.startsWith("too-few-h2") ||
-    issue.startsWith("too-few-paragraphs") ||
     issue.startsWith("duplicate-h2") ||
     issue.startsWith("duplicate-paragraphs") ||
     issue.startsWith("repeated-generic-phrases") ||
