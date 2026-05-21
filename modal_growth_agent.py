@@ -29,7 +29,7 @@ OUTPUT_PATHS = [
     "public/sitemap-index.xml",
 ]
 
-AI_PROVIDER_ORDER = "cerebras,cerebras2,cerebras3,cerebras4,groq,nvidia,gemini,openrouter,cloudflare"
+AI_PROVIDER_ORDER = "cerebras,cerebras2,cerebras3,cerebras4,groq,groq2,nvidia,nvidia2,gemini,openrouter,cloudflare"
 
 image = (
     modal.Image.debian_slim()

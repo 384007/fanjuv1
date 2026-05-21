@@ -188,6 +188,25 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
     throw Object.assign(new Error("Groq: all keys on cooldown"), { status: 429 })
   }
 
+  // groq2 — pinned to key index 1
+  if (provider === "groq2") {
+    const keys = getProviderKeys("GROQ_API_KEY")
+    const i = 1; const apiKey = keys[i]
+    if (!apiKey) throw Object.assign(new Error("groq2: key not configured"), { status: 503 })
+    if ((keyCooldownUntil.get(`groq:${i}`) || 0) > Date.now()) throw Object.assign(new Error("groq2: key on cooldown"), { status: 429 })
+    try {
+      return await callOpenAICompat({
+        label: `Groq[${i}]`, endpoint: "https://api.groq.com/openai/v1/chat/completions",
+        apiKey, model: process.env.GROQ_MODEL || "llama-3.3-70b-versatile",
+        prompt, system, maxTokens: Math.min(maxTokens, Number.parseInt(process.env.GROQ_MAX_TOKENS || "4200", 10)),
+        timeoutMs, tokenParam: "max_tokens", useJsonFormat: false,
+      })
+    } catch (err) {
+      if (err?.status === 429) cooldownKey("groq", i, retryDelayMs(err) || 60000)
+      throw err
+    }
+  }
+
   if (provider === "cerebras") {
     const keys = getProviderKeys("CEREBRAS_API_KEY")
     for (const i of rotatingKeyIndexes("cerebras", keys.length)) {
@@ -266,6 +285,25 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
       }
     }
     throw Object.assign(new Error("NVIDIA: all keys on cooldown"), { status: 429 })
+  }
+
+  // nvidia2 — pinned to key index 1
+  if (provider === "nvidia2") {
+    const keys = getProviderKeys("NVIDIA_API_KEY")
+    const i = 1; const apiKey = keys[i]
+    if (!apiKey) throw Object.assign(new Error("nvidia2: key not configured"), { status: 503 })
+    if ((keyCooldownUntil.get(`nvidia:${i}`) || 0) > Date.now()) throw Object.assign(new Error("nvidia2: key on cooldown"), { status: 429 })
+    try {
+      return await callOpenAICompat({
+        label: `NVIDIA[${i}]`, endpoint: "https://integrate.api.nvidia.com/v1/chat/completions",
+        apiKey, model: process.env.NVIDIA_MODEL || "nvidia/llama-3.3-nemotron-super-49b-v1",
+        prompt, system, maxTokens,
+        timeoutMs: Number.parseInt(process.env.NVIDIA_TIMEOUT_MS || "30000", 10), tokenParam: "max_tokens",
+      })
+    } catch (err) {
+      if (err?.status === 429) cooldownKey("nvidia", i, retryDelayMs(err) || 60000)
+      throw err
+    }
   }
 
   throw new Error(`Unknown provider: ${provider}`)
