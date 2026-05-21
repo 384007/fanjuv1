@@ -247,6 +247,7 @@ function cooldownProvider(provider, err) {
   let ms = 0
   if (err?.status === 401 || err?.status === 403) ms = 60 * 60 * 1000
   else if (err?.status === 429 && /free_tier_requests|quota exceeded|current quota/i.test(text)) ms = 60 * 60 * 1000
+  else if (err?.status === 429 && /all keys on cooldown/i.test(text)) ms = 90 * 1000
   else if (err?.status === 429) ms = retryDelayMs(err)
   if (ms > 0) {
     const until = Date.now() + ms
@@ -290,6 +291,10 @@ export async function generateWithRouter({ prompt, system, maxTokens = 1200, tim
       console.log(`Provider ${provider} failed: ${err.message.slice(0, 500)}`)
       errors.push({ provider, error: err.message })
       cooldownProvider(provider, err)
+      const cooldownUntil = providerCooldownUntil.get(provider) || 0
+      if (cooldownUntil > Date.now()) {
+        soonestCooldownUntil = Math.min(soonestCooldownUntil, cooldownUntil)
+      }
 
       // 不要被 429 卡死，直接切下一个
       if (err.status === 429) {
