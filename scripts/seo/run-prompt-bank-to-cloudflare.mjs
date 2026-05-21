@@ -532,6 +532,166 @@ function duplicateParagraphs(body) {
   return paragraphs.length - new Set(paragraphs).size
 }
 
+function markdownH1(body = "") {
+  return String(body || "").match(/^#\s+(.+)$/m)?.[1]?.trim() || ""
+}
+
+function normalizeForTemplateCheck(value = "") {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\u4e00-\u9fff]+/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+}
+
+function compactCjk(value = "") {
+  return String(value || "")
+    .replace(/\s+/g, "")
+    .replace(/[，。,.!?！？、；;：:"'“”‘’()（）[\]【】|｜-]/g, "")
+    .toLowerCase()
+}
+
+function normalizedWords(value = "") {
+  return ` ${String(value || "")
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\u4e00-\u9fff]+/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim()} `
+}
+
+function zhCitySlugLeak(prompt, value = "") {
+  if (prompt.locale !== "zh") return false
+  const slug = String(prompt.citySlug || "").toLowerCase().trim()
+  if (!slug || /[\u4e00-\u9fff]/.test(slug) || slug.length < 3) return false
+  const spacedSlug = slug.replace(/-/g, " ")
+  return normalizedWords(value).includes(` ${spacedSlug} `)
+}
+
+function latinNoiseInZhHeading(value = "") {
+  const allowed = new Set(["fanju", "app", "ai", "vc", "ceo", "cfo", "cto", "coo", "mba", "pm", "ip", "bd"])
+  return [...String(value || "").matchAll(/[A-Za-z][A-Za-z-]{2,}/g)]
+    .map((m) => m[0].toLowerCase())
+    .filter((word) => !allowed.has(word))
+}
+
+function zhHeadingLatinNoise(body = "") {
+  const headings = [...String(body || "").matchAll(/^#{1,3}\s+(.+)$/gm)]
+    .map((m) => m[1].trim())
+    .filter(Boolean)
+  const words = new Set()
+  for (const heading of headings) {
+    for (const word of latinNoiseInZhHeading(heading)) words.add(word)
+  }
+  return [...words]
+}
+
+function isTemplateTitle(prompt, value = "") {
+  const title = String(value || "").trim()
+  if (!title) return false
+  const city = String(prompt.cityNameLocalized || "").trim()
+  const topic = String(prompt.topicNameLocalized || "").trim()
+  if (!city || !topic) return false
+
+  if (prompt.locale === "en") {
+    const t = normalizeForTemplateCheck(title)
+    const c = normalizeForTemplateCheck(city)
+    const p = normalizeForTemplateCheck(topic)
+    const exact = new Set([
+      `${c} ${p}`,
+      `${c} ${p} guide`,
+      `${c} ${p} dinner guide`,
+      `a guide to ${p} in ${c}`,
+      `how to join a ${p} in ${c}`,
+      `how to join ${p} in ${c}`,
+      `${p} in ${c}`,
+      `${p} in ${c} guide`,
+    ])
+    if (exact.has(t)) return true
+    const words = t.split(" ")
+    if (t.startsWith(`${c} ${p}`) && / guide$/.test(t) && words.length <= c.split(" ").length + p.split(" ").length + 2) return true
+    if (new RegExp(`^${p.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} (guide|dinner guide) in ${c.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}$`).test(t)) return true
+    return false
+  }
+
+  const t = compactCjk(title)
+  const c = compactCjk(city)
+  const p = compactCjk(topic)
+  return new Set([
+    `${c}${p}`,
+    `${c}${p}指南`,
+    `${c}${p}饭局指南`,
+    `${c}${p}怎么参加`,
+    `${c}如何参加${p}`,
+    `${c}${p}攻略`,
+  ]).has(t)
+}
+
+function templateH2Issues(prompt, body = "") {
+  const headings = [...String(body || "").matchAll(/^##\s+(.+)$/gm)]
+    .map((m) => m[1].trim())
+    .filter(Boolean)
+  const genericEn = new Set([
+    "what is fanju",
+    "what is fanju app",
+    "who this page is for",
+    "how to assess safety and trust",
+    "how fanju differs from social and dating apps",
+    "how the table works",
+    "how a fanju dinner works",
+    "safety and boundaries",
+    "boundaries and safety",
+    "when not to join",
+    "a practical first step",
+  ])
+  const genericZh = new Set([
+    "fanju饭局app是什么",
+    "饭局app是什么",
+    "这个页面适合谁",
+    "如何判断安全和信任",
+    "和普通社交约会软件有什么不同",
+    "一桌饭怎样运作",
+    "边界和安全",
+    "什么情况不适合报名",
+    "一个实际的第一步",
+  ])
+
+  return headings
+    .filter((heading) => {
+      const normalized = normalizeForTemplateCheck(heading)
+      const compact = compactCjk(heading).replace(/[/\\]/g, "")
+      return genericEn.has(normalized) || genericZh.has(compact) || isTemplateTitle(prompt, heading)
+    })
+    .map((heading) => heading.slice(0, 80))
+}
+
+function repairHeadings(prompt, body) {
+  const original = String(body || "").replace(/\r\n/g, "\n").trim()
+  if (!original) return original
+
+  let converted = original
+    .split("\n")
+    .map((line) => {
+      const trimmed = line.trim()
+      const boldHeading = trimmed.match(/^\*\*([^*]{4,90})\*\*:?$/)
+      if (boldHeading) return `## ${boldHeading[1].trim().replace(/:$/, "")}`
+      const numberedHeading = trimmed.match(/^(?:Section\s*)?\d+[).]\s+([^.!?。！？]{4,90})$/i)
+      if (numberedHeading) return `## ${numberedHeading[1].trim().replace(/:$/, "")}`
+      const questionHeading = trimmed.match(/^(?:Q[:：]\s*)?([^.!。！]{6,120}[?？])$/)
+      if (questionHeading) return `### ${questionHeading[1].trim()}`
+      return line
+    })
+    .join("\n")
+
+  return converted
+}
+
+function repairParsedArticle(prompt, parsed) {
+  if (!parsed || !parsed.body) return parsed
+  const repairedBody = repairHeadings(prompt, parsed.body)
+  if (repairedBody === parsed.body) return parsed
+  return { ...parsed, body: repairedBody }
+}
+
 function repeatedPhraseHits(body) {
   const text = String(body || "")
   const phrases = [
@@ -583,6 +743,7 @@ function scoreArticle(prompt, parsed) {
   const body = String(parsed.body || "")
   const title = String(parsed.title || "")
   const description = String(parsed.description || "")
+  const h1 = markdownH1(body) || title
   const haystack = `${title}\n${description}\n${body}`
 
   const leakHits = detectLeaks(haystack)
@@ -606,7 +767,25 @@ function scoreArticle(prompt, parsed) {
   if (prompt.locale === "zh" && !`${title}\n${description}\n${body.slice(0, 600)}`.includes("饭局app")) {
     issues.push("missing-primary-keyword:饭局app")
   }
+  if (prompt.locale === "en" && !/Fanju app/i.test(title)) issues.push("title-missing-primary-keyword:fanju-app")
+  if (prompt.locale === "zh" && !title.includes("饭局app")) issues.push("title-missing-primary-keyword:饭局app")
   if (!includesCity(prompt, `${title}\n${description}\n${body.slice(0, 1200)}`)) issues.push("missing-city-context")
+  if (!includesCity(prompt, title)) issues.push("title-missing-city")
+  if (!includesCity(prompt, h1)) issues.push("h1-missing-city")
+  if (!includesCity(prompt, description)) issues.push("description-missing-city")
+  if (zhCitySlugLeak(prompt, `${title}\n${description}\n${body.slice(0, 1600)}`)) {
+    issues.push(`pinyin-city-name-in-zh-public-text:${prompt.citySlug}`)
+  }
+  if (prompt.locale === "zh") {
+    const titleNoise = latinNoiseInZhHeading(title)
+    const h1Noise = latinNoiseInZhHeading(h1)
+    const headingNoise = zhHeadingLatinNoise(body)
+    if (titleNoise.length) issues.push(`latin-word-in-zh-title:${titleNoise.slice(0, 3).join("|")}`)
+    if (h1Noise.length) issues.push(`latin-word-in-zh-h1:${h1Noise.slice(0, 3).join("|")}`)
+    if (headingNoise.length) issues.push(`latin-word-in-zh-heading:${headingNoise.slice(0, 5).join("|")}`)
+  }
+  if (isTemplateTitle(prompt, title)) issues.push("template-title")
+  if (isTemplateTitle(prompt, h1)) issues.push("template-h1")
   if (countMarkdownHeadings(body, 2) < 5) issues.push(`too-few-h2:${countMarkdownHeadings(body, 2)}`)
   if (countMarkdownHeadings(body, 3) < 1) issues.push(`too-few-h3:${countMarkdownHeadings(body, 3)}`)
   const minParagraphs = prompt.locale === "en" ? 10 : 10
@@ -619,6 +798,8 @@ function scoreArticle(prompt, parsed) {
   if (repeatedPhrases > 0) issues.push(`repeated-generic-phrases:${repeatedPhrases}`)
   const templateHeadings = templateHeadingHits(body)
   if (templateHeadings >= 3) issues.push(`template-heading-set:${templateHeadings}`)
+  const templateH2 = templateH2Issues(prompt, body)
+  if (templateH2.length > 0) issues.push(`template-h2:${templateH2.join("|")}`)
 
   if (issues.length === 0) return { score: 100, issues }
   if (issues.some(isHardIssue)) {
@@ -646,6 +827,15 @@ function isHardIssue(issue) {
     issue === "json-wrapper-in-public-text" ||
     issue === "code-fence-in-public-body" ||
     issue.startsWith("template-heading-set") ||
+    issue.startsWith("template-h2") ||
+    issue === "template-title" ||
+    issue === "template-h1" ||
+    issue.startsWith("title-missing-primary-keyword") ||
+    issue === "title-missing-city" ||
+    issue === "h1-missing-city" ||
+    issue === "description-missing-city" ||
+    issue.startsWith("pinyin-city-name-in-zh-public-text") ||
+    issue.startsWith("latin-word-in-zh-") ||
     issue.startsWith("missing-primary-keyword") ||
     issue === "missing-city-context" ||
     issue === "locale-mismatch" ||
@@ -753,9 +943,19 @@ function retryPrompt(basePrompt, attempt, issues) {
     basePrompt.userPrompt,
     "",
     isEn
-      ? `QUALITY RETRY ${attempt}: the previous draft failed these checks: ${issues.join(", ")}. Rewrite from scratch as a complete long-form article. Use at least 10 separate public paragraphs with blank lines between paragraphs, and at least two paragraphs under every H2. Do not summarize. Make it longer, more specific, and structurally complete. Do not include Markdown links, raw URLs, href attributes, or HTML anchor tags.`
-      : `质量重试 ${attempt}：上一稿未通过这些检查：${issues.join("，")}。请从头重写一篇完整长文，至少 10 个公开自然段，段落之间空行，每个 H2 下面至少两段。不要摘要，不要变短，要更具体、更本地、更完整。不要包含 Markdown 链接、裸 URL、href 或 HTML a 标签。`,
+      ? `QUALITY RETRY ${attempt}: the previous draft failed these checks: ${issues.join(", ")}. Rewrite from scratch as a complete long-form article. The title and H1 must include the city, mention Fanju app naturally, and must not be a reusable city/topic template. Every H2 must be newly written for this city, topic, angle, and audience; do not use generic labels such as "What is Fanju", "How the table works", "Safety and boundaries", or "A practical first step". Use literal Markdown heading lines that begin with "## " for every major section and at least one line that begins with "### ". Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. Use at least 10 separate public paragraphs with blank lines between paragraphs, and at least two paragraphs under every H2. Do not summarize. Make it longer, more specific, and structurally complete. Do not include Markdown links, raw URLs, href attributes, or HTML anchor tags.`
+      : `质量重试 ${attempt}：上一稿未通过这些检查：${issues.join("，")}。请从头重写一篇完整长文。标题和 H1 必须包含城市，必须自然出现「饭局app」，不能是只替换城市/主题的模板标题。每个 H2 都要按这座城市、这个主题、本次角度和目标人群重新拟定，不要用「饭局app 是什么」「一桌饭怎样运作」「边界和安全」「一个实际的第一步」这类通用标签。每个主要小节必须使用字面量 Markdown 标题行，也就是以“## ”开头；至少一个具体问题标题以“### ”开头。不要用加粗标题、编号标题或普通文字冒号代替井号标题。至少 10 个公开自然段，段落之间空行，每个 H2 下面至少两段。不要摘要，不要变短，要更具体、更本地、更完整。不要包含 Markdown 链接、裸 URL、href 或 HTML a 标签。`,
   ].join("\n")
+}
+
+function rotateProviderOrder(order, attempt) {
+  const providers = String(order || "")
+    .split(",")
+    .map((provider) => provider.trim().toLowerCase())
+    .filter(Boolean)
+  if (providers.length <= 1) return providers.join(",")
+  const start = (Math.max(1, attempt) - 1) % providers.length
+  return [...providers.slice(start), ...providers.slice(0, start)].join(",")
 }
 
 function providerOrderForPrompt(prompt) {
@@ -792,7 +992,7 @@ function providerOrderForPrompt(prompt) {
 }
 
 async function generateProviderCandidates(prompt, attempt, previousIssues) {
-  const providerOrder = providerOrderForPrompt(prompt)
+  const providerOrder = rotateProviderOrder(providerOrderForPrompt(prompt), attempt)
   const promptText = retryPrompt(prompt, attempt, previousIssues)
 
   if (!MULTI_AI_CANDIDATES) {
@@ -843,9 +1043,13 @@ async function runOneAttempt(prompt, attempt, previousIssues = []) {
 
   let best = null
   for (const generation of generations) {
-    const parsed = parseModelArticle(prompt, generation.content)
+    const rawParsed = parseModelArticle(prompt, generation.content)
+    const parsed = repairParsedArticle(prompt, rawParsed)
     if (!parsed) {
       console.log(`[PARSE] ${prompt.promptId} ${generation.provider} preview=${JSON.stringify(String(generation.content || "").slice(0, 260))}`)
+    }
+    if (rawParsed?.body && parsed?.body && rawParsed.body !== parsed.body) {
+      console.log(`[REPAIR] ${prompt.promptId} ${generation.provider} normalized markdown headings`)
     }
     const scored = scoreArticle(prompt, parsed)
     const candidate = { generation, parsed, score: scored.score, issues: scored.issues }

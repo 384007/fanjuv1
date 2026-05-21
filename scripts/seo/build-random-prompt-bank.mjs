@@ -343,26 +343,27 @@ function userPromptFor(profile) {
     return [
       `Write a high-quality long-form English article for route ${profile.route}.`,
       `City: ${profile.cityNameLocalized}. Topic: ${profile.topicNameLocalized}.`,
-      `Title format: ${profile.cityNameLocalized} ${profile.topicNameLocalized} Guide. Put "Fanju app" in description and the first 120 words with the city name.`,
+      `Title rule: write a specific editorial title that includes ${profile.cityNameLocalized} and naturally mentions Fanju app, but is not a reusable template. Do not use "${profile.cityNameLocalized} ${profile.topicNameLocalized} Guide", "A Guide to ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", or any title that only swaps city/topic words. Tie the title to the angle, audience, and one concrete local or industry tension.`,
       `Angle: ${profile.angle.name}. Use this angle: ${profile.angle.instruction}`,
       `Style profile: structure=${profile.structure}; opening=${profile.openingStyle}; faq=${profile.faqMode}; cta=${profile.ctaPosition}; example=${profile.exampleType}; tone=${profile.tone}; title=${profile.titlePattern}.`,
       "Quality: practical editorial guide, not a landing page. Include city rhythm, neighbourhood choice, attendee concerns, host signals, safety context, and decision criteria. Every H2 section must have real article paragraphs with distinct ideas.",
       "Hard public-content rule: do not include QQ, webmaster contact, local contact, parked-domain text, advertising-sales copy, or any Chinese parked-domain phrase.",
       "Hard linking rule: do not include [text](/path), https://fanju.app paths, raw URLs, <a href=\"...\">, the words markdown link, or any href. All real links are added by the page template.",
-      `Body requirements: 4,200-6,200 characters; at least 12 natural paragraphs; no filler. Use blank lines between paragraphs. Start with an answer-summary paragraph in the first 120 words explaining that Fanju app is a social dining app for small, clearly described meals and real-world connections. Then include a short key-points bullet list covering who it suits, the core dinner scenario, and safety focus. After that, write 5-7 H2 sections with original city/topic-specific headings shaped by the angle. Do not reuse a fixed generic heading set such as "What is Fanju", "Who this page is for", "How to assess safety and trust", and "How Fanju differs from social and dating apps". Required coverage across the article: why this dinner format fits ${profile.cityNameLocalized}, how the table works, how to judge the host, venue, and guest mix, safety boundaries, when not to join, and a practical first step. Every H2 must contain at least two separate paragraphs with distinct ideas. Use H3 headings only for concrete objections or FAQ-style questions. If the body has fewer than 10 public paragraphs, it will be rejected.`,
+      `Body requirements: 4,200-6,200 characters; at least 12 natural paragraphs; no filler. Use blank lines between paragraphs. The body must start with a unique H1 line beginning "# " and the H1 must not be a reusable guide title. Start the public article with an answer-summary paragraph in the first 120 words explaining that Fanju app is a social dining app for small, clearly described meals and real-world connections. Then include a short key-points bullet list covering who it suits, the core dinner scenario, and safety focus. After that, write 5-7 H2 sections with original city/topic-specific headings shaped by the angle. Do not reuse a fixed generic heading set such as "What is Fanju", "Who this page is for", "How to assess safety and trust", and "How Fanju differs from social and dating apps". Required coverage across the article: why this dinner format fits ${profile.cityNameLocalized}, how the table works, how to judge the host, venue, and guest mix, safety boundaries, when not to join, and a practical first step. Every H2 must contain at least two separate paragraphs with distinct ideas. Use H3 headings only for concrete objections or FAQ-style questions. If the body has fewer than 10 public paragraphs, it will be rejected.`,
       'Return valid JSON only, no code fence: {"title":"...","description":"...","body":"...","slug":"...","locale":"en"}',
     ].join("\n")
   }
   return [
     `为路由 ${profile.route} 写一篇高质量中文长文。`,
     `城市：${profile.cityNameLocalized}。主题：${profile.topicNameLocalized}。`,
-    `标题格式：${profile.cityNameLocalized}${profile.topicNameLocalized}指南。description、正文前 200 字必须自然出现「饭局app」和「${profile.cityNameLocalized}」。`,
+    `标题规则：写一个具体、有编辑判断的标题，必须包含「${profile.cityNameLocalized}」并自然出现「饭局app」，但不能使用「${profile.cityNameLocalized}${profile.topicNameLocalized}指南」「${profile.cityNameLocalized}${profile.topicNameLocalized}怎么参加」这类只替换城市/主题的模板标题。标题要结合本次角度、目标人群、一个本地或行业张力重新拟定。description、正文前 200 字必须自然出现「饭局app」和「${profile.cityNameLocalized}」。`,
+    `中文城市名硬规则：公开标题、H1、description、H2 和正文里，城市名只能使用「${profile.cityNameLocalized}」这个中文名；不要写路线 slug「${profile.citySlug}」、拼音城市名、英文城市名，尤其不要把中国城市写成拼音。`,
     `角度：${profile.angle.name}。按这个方向写：${profile.angle.instruction}`,
     `风格 profile：结构=${profile.structure}；开头=${profile.openingStyle}；FAQ=${profile.faqMode}；CTA=${profile.ctaPosition}；例子=${profile.exampleType}；语气=${profile.tone}；标题=${profile.titlePattern}。`,
     "质量：像真实城市饭局指南，不像落地页。写出城市节奏、街区选择、同桌人数、报名前顾虑、主理人信号、安全判断、报名建议。每个 H2 都必须有真实正文段落，且各小节观点不能重复。",
     "公开内容硬规则：不要出现本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售、停放域名、招商或站主联系方式。",
     "链接硬规则：不要出现 [文字](/path)、https://fanju.app 路径、裸 URL、<a href=\"...\">、markdown link 或任何 href。所有真实链接由页面模板统一添加。",
-    `正文要求：3,800-5,800 字符；至少 12 个自然段；段落之间必须空行；不要灌水。开头必须是 answer-summary 式自然段，在前 200 字解释饭局app / Fanju 是围绕小桌吃饭、清晰主题和线下连接的社交应用。随后写一个简短 key-points 要点列表，覆盖：适合谁、核心饭局场景、安全重点。然后写 5-7 个 H2，小节标题必须围绕${profile.cityNameLocalized}、${profile.topicNameLocalized}和本次角度重新拟定，不要套用固定标题组合，例如「Fanju / 饭局app 是什么」「这个页面适合谁」「如何判断安全和信任」「和普通社交/约会软件有什么不同」。全文必须覆盖：为什么这个饭局形式适合${profile.cityNameLocalized}、一桌饭怎样运作、怎么判断主理人/餐厅/同桌、边界和安全、什么情况不适合报名、一个实际的第一步。每个 H2 下至少写 2 个扎实、互不重复的段落，每段约 170-260 个汉字。H3 只用于具体疑问或 FAQ 式问题。少于 10 个公开自然段会被拒绝。`,
+    `正文要求：3,800-5,800 字符；至少 12 个自然段；段落之间必须空行；不要灌水。正文必须以独特 H1 开头，也就是第一行以「# 」开头，H1 不能是可复用的指南标题。开头必须是 answer-summary 式自然段，在前 200 字解释饭局app / Fanju 是围绕小桌吃饭、清晰主题和线下连接的社交应用。随后写一个简短 key-points 要点列表，覆盖：适合谁、核心饭局场景、安全重点。然后写 5-7 个 H2，小节标题必须围绕${profile.cityNameLocalized}、${profile.topicNameLocalized}和本次角度重新拟定，不要套用固定标题组合，例如「Fanju / 饭局app 是什么」「这个页面适合谁」「如何判断安全和信任」「和普通社交/约会软件有什么不同」。全文必须覆盖：为什么这个饭局形式适合${profile.cityNameLocalized}、一桌饭怎样运作、怎么判断主理人/餐厅/同桌、边界和安全、什么情况不适合报名、一个实际的第一步。每个 H2 下至少写 2 个扎实、互不重复的段落，每段约 170-260 个汉字。H3 只用于具体疑问或 FAQ 式问题。少于 10 个公开自然段会被拒绝。`,
     '只返回合法 JSON，不要代码块：{"title":"...","description":"...","body":"...","slug":"...","locale":"zh"}',
   ].join("\n")
 }
@@ -458,6 +459,7 @@ function buildLocalePrompts({ locale, count, manifestEntries, masterSeed }) {
       locale: route.locale,
       citySlug: route.citySlug,
       cityNameLocalized: route.cityNameLocalized,
+      countryCode: route.countryCode,
       topicSlug: route.topicSlug,
       topicNameLocalized: route.topicNameLocalized,
       route: route.route,
@@ -554,6 +556,7 @@ function main() {
       locale: p.profile.locale,
       citySlug: p.profile.citySlug,
       cityNameLocalized: p.profile.cityNameLocalized,
+      countryCode: p.profile.countryCode,
       topicSlug: p.profile.topicSlug,
       topicNameLocalized: p.profile.topicNameLocalized,
       route: p.profile.route,

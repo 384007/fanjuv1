@@ -392,7 +392,7 @@ def run_cloudflare_publish_pipeline(
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=30000 "
             "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=0 FORCE_PROVIDER_ORDER=1 "
-            "GROQ_MAX_TOKENS=5600 AI_PROVIDER_ORDER=gemini,openrouter,groq,cerebras,nvidia,cloudflare pnpm seo:prompt-bank:cloudflare",
+            "AI_PROVIDER_ORDER=gemini,openrouter,cerebras,nvidia,cloudflare pnpm seo:prompt-bank:cloudflare",
             cwd=WORKDIR,
             timeout=21000,
         )
