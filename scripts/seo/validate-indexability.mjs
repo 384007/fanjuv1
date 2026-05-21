@@ -153,7 +153,7 @@ if (!existsSync(SITEMAP_FILE)) {
 
     const path = normalizePath(loc.replace(SITE, ""))
 
-    if (draftPaths.has(path)) {
+    if (draftPaths.has(path) && !seoDataPaths.has(path)) {
       sitemapDrafts++
     }
 
