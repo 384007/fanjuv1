@@ -388,7 +388,6 @@ function sourceBodyIssues(meta, body) {
     /模型/,
     /后台系统/,
     /后台管理/,
-    /后台数据/,
     /技术栈/,
     /流水线/,
     /自动化/,
