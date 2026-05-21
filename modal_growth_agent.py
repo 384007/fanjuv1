@@ -171,6 +171,10 @@ def git_commit_and_push(routes: list[str], run_id: str, round_no: int) -> str:
         subject_routes += f", +{len(routes) - 3} more"
     message = f"content: publish Fanju articles {run_id} round {round_no}"
     run_args(["git", "commit", "-m", message, "-m", f"Routes: {subject_routes}"], cwd=WORKDIR, timeout=900)
+    token = github_token()
+    repo = github_repository()
+    remote_url = f"https://x-access-token:{token}@github.com/{repo}.git"
+    run_args(["git", "remote", "set-url", "origin", remote_url], cwd=WORKDIR)
     run_args(["git", "pull", "--rebase", "origin", "main"], cwd=WORKDIR, timeout=300)
     run_args(["git", "push", "origin", "main"], cwd=WORKDIR, timeout=900)
     sha = run_capture(["git", "rev-parse", "HEAD"], cwd=WORKDIR)
