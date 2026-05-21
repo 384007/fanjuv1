@@ -352,36 +352,9 @@ const TITLE_DIRECTIONS_ZH = {
   local_life_based: "用本地生活和街区适配作为标题钩子",
 }
 
-const SECTION_BRIEFS_EN = [
-  "local rhythm and why this route topic matters here",
-  "who should join and who should wait",
-  "what the table actually feels like from arrival to dessert",
-  "host, venue, and guest-quality signals",
-  "comfort boundaries, safety cues, and skip signals",
-  "how to choose the right table without overthinking it",
-  "a concrete next move that does not sound like sales copy",
-]
-
-const SECTION_BRIEFS_ZH = [
-  "这座城市的生活节奏与本主题为什么成立",
-  "哪些人适合坐这一桌，哪些人应该先观望",
-  "从进门到散场，这桌饭真实会怎么流动",
-  "主理人、餐厅和同桌质量应该怎么看",
-  "舒适边界、安全信号和不该报名的信号",
-  "怎样选对一桌饭，而不是盲目参加",
-  "一个具体下一步，但不要写成硬广告",
-]
-
 function titleDirectionFor(profile) {
   const map = profile.locale === "en" ? TITLE_DIRECTIONS_EN : TITLE_DIRECTIONS_ZH
   return map[profile.titlePattern] || (profile.locale === "en" ? "use a specific editorial hook" : "使用一个具体编辑钩子")
-}
-
-function sectionBriefsFor(profile) {
-  const briefs = profile.locale === "en" ? SECTION_BRIEFS_EN : SECTION_BRIEFS_ZH
-  const shiftSource = `${profile.citySlug}|${profile.topicSlug}|${profile.angle.id}|${profile.structure}`
-  const start = seedFromString(shiftSource) % briefs.length
-  return [...briefs.slice(start), ...briefs.slice(0, start)].slice(0, 6)
 }
 
 function frameIndex(profile, salt, size) {
@@ -638,7 +611,6 @@ function systemInstructionFor(locale) {
 function userPromptFor(profile) {
   const isEn = profile.locale === "en"
   const titleDirection = titleDirectionFor(profile)
-  const sectionBriefs = sectionBriefsFor(profile)
   const frame = articleFrameFor(profile)
   if (isEn) {
     return [
@@ -650,7 +622,6 @@ function userPromptFor(profile) {
       `Style profile: structure=${profile.structure}; opening=${profile.openingStyle}; faq=${profile.faqMode}; cta=${profile.ctaPosition}; example=${profile.exampleType}; tone=${profile.tone}; title=${profile.titlePattern}.`,
       `Use these exact 6 H2 headings, in this order, with no edits:\n${frame.h2s.map((heading) => `## ${heading}`).join("\n")}`,
       `Use this exact H3 once, after the third or fourth H2 section:\n${frame.h3}`,
-      `Section intent, for paragraph content only: ${sectionBriefs.map((brief, i) => `${i + 1}. ${brief}`).join(" | ")}.`,
       "Quality: practical editorial guide, not a landing page. Include city rhythm, neighbourhood choice, attendee concerns, host reliability cues, comfort boundaries, and decision criteria. Every H2 section must have real article paragraphs with distinct ideas.",
       "Output contract that must pass automated quality checks: first character '#'; exactly one H1; 6 H2 headings using '## ' with a space; exactly one H3 using '### '; at least 13 natural paragraphs; every H2 has at least two paragraphs; description/source summary can be taken from the first paragraph and therefore the first paragraph must mention the city; title, first paragraph, and opening 600 characters must mention Fanju app.",
       "Hard public-content rule: do not include QQ, webmaster contact, local contact, parked-domain text, advertising-sales copy, or any Chinese parked-domain phrase.",
@@ -669,7 +640,6 @@ function userPromptFor(profile) {
     `风格 profile：结构=${profile.structure}；开头=${profile.openingStyle}；FAQ=${profile.faqMode}；CTA=${profile.ctaPosition}；例子=${profile.exampleType}；语气=${profile.tone}；标题=${profile.titlePattern}。`,
     `必须使用这 6 个精确 H2，按顺序写，不能改字：\n${frame.h2s.map((heading) => `## ${heading}`).join("\n")}`,
     `必须且只使用这 1 个精确 H3，放在第 3 或第 4 个 H2 小节之后：\n${frame.h3}`,
-    `小节写作意图只用于正文内容，不要原样复制成标题：${sectionBriefs.map((brief, i) => `${i + 1}. ${brief}`).join(" | ")}。`,
     "质量：像真实城市饭局指南，不像落地页。写出城市节奏、街区选择、同桌人数、报名前顾虑、主理人信号、安全判断、报名建议。每个 H2 都必须有真实正文段落，且各小节观点不能重复。",
     "必须通过的输出契约：回复第一个字符必须是「#」；只允许 1 个 H1；必须有 6 个带空格的「## 」标题；必须且只允许 1 个「### 」标题；至少 13 个自然段；每个 H2 下至少 2 段；第一段必须同时出现「饭局app」和中文城市名；标题、H1、前 600 字都必须出现饭局app。",
     "公开内容硬规则：不要出现本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售、停放域名、招商或站主联系方式。",
