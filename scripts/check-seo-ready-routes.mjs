@@ -151,6 +151,14 @@ function zhHeadingLatinNoise(body = "") {
   return [...words]
 }
 
+function malformedHeadingIssues(body = "") {
+  return String(body || "")
+    .split("\n")
+    .map((line) => line.trim())
+    .filter((line) => /^#{1,6}\s+#{1,6}\s+/.test(line))
+    .map((line) => line.slice(0, 80))
+}
+
 function loadRouteMeta() {
   if (routeMetaCache) return routeMetaCache
   routeMetaCache = new Map()
@@ -254,7 +262,33 @@ function templateH2Issues(meta, body = "") {
     .filter((heading) => {
       const normalized = normalizeForTemplateCheck(heading)
       const compact = compactCjk(heading)
-      return genericEn.has(normalized) || genericZh.has(compact) || isTemplateTitle(meta, heading)
+      const genericEnPattern = [
+        /^who it suits\b/,
+        /^what to expect\b/,
+        /^how (the|a) .*works\b/,
+        /^judging (the )?host\b/,
+        /^safety\b/,
+        /^safety boundaries\b/,
+        /^boundaries\b/,
+        /^when not to join\b/,
+        /^a practical first step\b/,
+        /^building lasting connections\b/,
+        /^embracing the unknown\b/,
+        /^conclusion\b/,
+      ].some((pattern) => pattern.test(normalized))
+      const genericZhPattern = (
+        compact.startsWith("适合谁") ||
+        compact.startsWith("核心饭局场景") ||
+        compact.startsWith("安全重点") ||
+        compact.startsWith("一桌饭") ||
+        compact.startsWith("主理人信号") ||
+        compact.startsWith("如何判断") ||
+        (compact.includes("边界") && compact.includes("安全")) ||
+        compact.startsWith("什么情况不适合") ||
+        compact.startsWith("一个实际的第一步") ||
+        compact.startsWith("结语")
+      )
+      return genericEn.has(normalized) || genericZh.has(compact) || genericEnPattern || genericZhPattern || isTemplateTitle(meta, heading)
     })
     .map((heading) => heading.slice(0, 80))
 }
@@ -311,6 +345,8 @@ function sourceBodyIssues(meta, body) {
   if (lang === "zh" && !isMostlyChinese(body)) issues.push("body-not-chinese")
   if (lang === "en" && !/Fanju app/i.test(meta.title || "")) issues.push("title-missing-primary-keyword:fanju-app")
   if (lang === "zh" && !(meta.title || "").includes("饭局app")) issues.push("title-missing-primary-keyword:饭局app")
+  if (lang === "en" && !/Fanju app/i.test(h1)) issues.push("h1-missing-primary-keyword:fanju-app")
+  if (lang === "zh" && !h1.includes("饭局app")) issues.push("h1-missing-primary-keyword:饭局app")
   if (!includesRouteCity(meta, meta.title || "")) issues.push("title-missing-city")
   if (!includesRouteCity(meta, h1)) issues.push("h1-missing-city")
   if (!includesRouteCity(meta, meta.description || "")) issues.push("description-missing-city")
@@ -348,6 +384,8 @@ function sourceBodyIssues(meta, body) {
   if (genericHits >= 3) issues.push(`template-heading-set:${genericHits}`)
   const templateH2 = templateH2Issues(meta, body)
   if (templateH2.length > 0) issues.push(`template-h2:${templateH2.join("|")}`)
+  const malformedHeadings = malformedHeadingIssues(body)
+  if (malformedHeadings.length > 0) issues.push(`malformed-heading:${malformedHeadings.join("|")}`)
 
   return issues
 }

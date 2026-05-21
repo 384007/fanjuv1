@@ -585,6 +585,14 @@ function zhHeadingLatinNoise(body = "") {
   return [...words]
 }
 
+function malformedHeadingIssues(body = "") {
+  return String(body || "")
+    .split("\n")
+    .map((line) => line.trim())
+    .filter((line) => /^#{1,6}\s+#{1,6}\s+/.test(line))
+    .map((line) => line.slice(0, 80))
+}
+
 function isTemplateTitle(prompt, value = "") {
   const title = String(value || "").trim()
   if (!title) return false
@@ -659,7 +667,33 @@ function templateH2Issues(prompt, body = "") {
     .filter((heading) => {
       const normalized = normalizeForTemplateCheck(heading)
       const compact = compactCjk(heading).replace(/[/\\]/g, "")
-      return genericEn.has(normalized) || genericZh.has(compact) || isTemplateTitle(prompt, heading)
+      const genericEnPattern = [
+        /^who it suits\b/,
+        /^what to expect\b/,
+        /^how (the|a) .*works\b/,
+        /^judging (the )?host\b/,
+        /^safety\b/,
+        /^safety boundaries\b/,
+        /^boundaries\b/,
+        /^when not to join\b/,
+        /^a practical first step\b/,
+        /^building lasting connections\b/,
+        /^embracing the unknown\b/,
+        /^conclusion\b/,
+      ].some((pattern) => pattern.test(normalized))
+      const genericZhPattern = (
+        compact.startsWith("适合谁") ||
+        compact.startsWith("核心饭局场景") ||
+        compact.startsWith("安全重点") ||
+        compact.startsWith("一桌饭") ||
+        compact.startsWith("主理人信号") ||
+        compact.startsWith("如何判断") ||
+        (compact.includes("边界") && compact.includes("安全")) ||
+        compact.startsWith("什么情况不适合") ||
+        compact.startsWith("一个实际的第一步") ||
+        compact.startsWith("结语")
+      )
+      return genericEn.has(normalized) || genericZh.has(compact) || genericEnPattern || genericZhPattern || isTemplateTitle(prompt, heading)
     })
     .map((heading) => heading.slice(0, 80))
 }
@@ -769,6 +803,8 @@ function scoreArticle(prompt, parsed) {
   }
   if (prompt.locale === "en" && !/Fanju app/i.test(title)) issues.push("title-missing-primary-keyword:fanju-app")
   if (prompt.locale === "zh" && !title.includes("饭局app")) issues.push("title-missing-primary-keyword:饭局app")
+  if (prompt.locale === "en" && !/Fanju app/i.test(h1)) issues.push("h1-missing-primary-keyword:fanju-app")
+  if (prompt.locale === "zh" && !h1.includes("饭局app")) issues.push("h1-missing-primary-keyword:饭局app")
   if (!includesCity(prompt, `${title}\n${description}\n${body.slice(0, 1200)}`)) issues.push("missing-city-context")
   if (!includesCity(prompt, title)) issues.push("title-missing-city")
   if (!includesCity(prompt, h1)) issues.push("h1-missing-city")
@@ -800,6 +836,8 @@ function scoreArticle(prompt, parsed) {
   if (templateHeadings >= 3) issues.push(`template-heading-set:${templateHeadings}`)
   const templateH2 = templateH2Issues(prompt, body)
   if (templateH2.length > 0) issues.push(`template-h2:${templateH2.join("|")}`)
+  const malformedHeadings = malformedHeadingIssues(body)
+  if (malformedHeadings.length > 0) issues.push(`malformed-heading:${malformedHeadings.join("|")}`)
 
   if (issues.length === 0) return { score: 100, issues }
   if (issues.some(isHardIssue)) {
@@ -831,11 +869,13 @@ function isHardIssue(issue) {
     issue === "template-title" ||
     issue === "template-h1" ||
     issue.startsWith("title-missing-primary-keyword") ||
+    issue.startsWith("h1-missing-primary-keyword") ||
     issue === "title-missing-city" ||
     issue === "h1-missing-city" ||
     issue === "description-missing-city" ||
     issue.startsWith("pinyin-city-name-in-zh-public-text") ||
     issue.startsWith("latin-word-in-zh-") ||
+    issue.startsWith("malformed-heading") ||
     issue.startsWith("missing-primary-keyword") ||
     issue === "missing-city-context" ||
     issue === "locale-mismatch" ||
