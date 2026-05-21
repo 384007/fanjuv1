@@ -227,6 +227,91 @@ export default {
       })
     }
 
+    // ─── Cookie health check (single platform) ───────────────────
+    // POST /check-cookie  { platform: string }
+    // Returns { platform, session_valid, last_check_at, cookie_configured }
+    if (path === "/check-cookie" && method === "POST") {
+      const body = (await request.json()) as { platform: string }
+      const { platform } = body
+
+      const acct = (await env.FANJU_DB.prepare(
+        `SELECT platform, session_valid, last_check_at FROM lab_platform_accounts WHERE platform = ?`,
+      )
+        .bind(platform)
+        .first()) as { platform: string; session_valid: number; last_check_at: string | null } | null
+
+      if (!acct) return new Response(JSON.stringify({ error: "platform not found" }), { status: 404, headers: { "Content-Type": "application/json" } })
+
+      // Trigger Modal validate-cookies if MODAL_BASE_URL is set
+      if (env.MODAL_BASE_URL) {
+        try {
+          const modalRes = await fetch(`${env.MODAL_BASE_URL}/validate-cookies`, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Authorization: `Bearer ${env.ADMIN_TOKEN}`,
+            },
+            body: JSON.stringify({ platforms: [platform] }),
+          })
+          if (modalRes.ok) {
+            const report = (await modalRes.json()) as Record<string, { valid: boolean }>
+            const valid = report[platform]?.valid ?? false
+            await env.FANJU_DB.prepare(
+              `UPDATE lab_platform_accounts SET session_valid = ?, last_check_at = datetime('now') WHERE platform = ?`,
+            )
+              .bind(valid ? 1 : 0, platform)
+              .run()
+            return ok({ platform, session_valid: valid, last_check_at: new Date().toISOString(), cookie_configured: true })
+          }
+        } catch (_) {
+          // Modal unreachable — fall through to return cached value
+        }
+      }
+
+      return ok({
+        platform: acct.platform,
+        session_valid: !!acct.session_valid,
+        last_check_at: acct.last_check_at,
+        cookie_configured: true, // if row exists, assume configured
+      })
+    }
+
+    // ─── Validate all cookies via Modal ──────────────────────────
+    // POST /validate-all-cookies  — triggers Modal to check every active platform
+    if (path === "/validate-all-cookies" && method === "POST") {
+      if (!env.MODAL_BASE_URL) return ok({ skipped: true, reason: "MODAL_BASE_URL not set" })
+
+      const { results } = await env.FANJU_DB.prepare(
+        `SELECT platform FROM lab_platform_accounts WHERE is_active = 1`,
+      ).all()
+      const platforms = (results as { platform: string }[]).map((r) => r.platform)
+
+      try {
+        const modalRes = await fetch(`${env.MODAL_BASE_URL}/validate-cookies`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${env.ADMIN_TOKEN}`,
+          },
+          body: JSON.stringify({ platforms }),
+        })
+        if (!modalRes.ok) return ok({ error: "modal error", status: modalRes.status })
+        const report = (await modalRes.json()) as Record<string, { valid: boolean }>
+
+        // Batch update D1
+        for (const [plat, res] of Object.entries(report)) {
+          await env.FANJU_DB.prepare(
+            `UPDATE lab_platform_accounts SET session_valid = ?, last_check_at = datetime('now') WHERE platform = ?`,
+          )
+            .bind(res.valid ? 1 : 0, plat)
+            .run()
+        }
+        return ok({ updated: Object.keys(report).length, report })
+      } catch (e) {
+        return ok({ error: String(e) })
+      }
+    }
+
     // ─── Cron: reset daily limits ─────────────────────────────────
     if (path === "/cron/reset-daily" && method === "POST") {
       await env.FANJU_DB.prepare(

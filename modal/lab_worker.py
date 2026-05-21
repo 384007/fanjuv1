@@ -337,6 +337,101 @@ async def publish(req: PublishRequest, authorization: str = Header(default="")):
         return {"status": "failed", "error": str(e)}
 
 
+# ── Cookie validation ───────────────────────────────────────────────────────
+class ValidateCookiesRequest(BaseModel):
+    platforms: list[str]  # e.g. ["zhihu", "csdn"]
+
+
+# Maps platform → URL to check login state (redirects to login = expired)
+PLATFORM_CHECK_URLS: dict[str, str] = {
+    "zhihu":        "https://www.zhihu.com/settings/profile",
+    "csdn":         "https://mp.csdn.net/mp_blog/manage/article",
+    "juejin":       "https://juejin.cn/user/center/following",
+    "jianshu":      "https://www.jianshu.com/writer",
+    "weibo":        "https://weibo.com/u/page/home",
+    "xiaohongshu":  "https://creator.xiaohongshu.com/publish/publish",
+    "douban":       "https://www.douban.com/mine/",
+    "toutiao":      "https://mp.toutiao.com/profile_v4/index",
+    "baijiahao":    "https://baijiahao.baidu.com/builder/rc/home",
+    "bilibili":     "https://member.bilibili.com/platform/home",
+    # API-key platforms — mark as valid if key is set, no browser check needed
+    "devto":        "",
+    "hashnode":     "",
+    "medium":       "",
+    "bluesky":      "",
+    "reddit":       "",
+}
+
+LOGIN_PATTERNS = [
+    "login", "signin", "sign-in", "passport", "accounts.google",
+    "auth", "sso", "oauth", "register", "signup",
+]
+
+
+async def _check_one(platform: str) -> dict:
+    """Returns {"valid": bool, "configured": bool, "error": str|None}"""
+    key = f"{platform.upper()}_COOKIES"
+    raw = os.environ.get(key, "")
+
+    # API-key platforms
+    if PLATFORM_CHECK_URLS.get(platform) == "":
+        api_keys = {
+            "devto":    "DEVTO_API_KEY",
+            "hashnode": "HASHNODE_API_KEY",
+            "medium":   "MEDIUM_API_KEY",
+            "bluesky":  "BLUESKY_IDENTIFIER",
+            "reddit":   "REDDIT_CLIENT_ID",
+        }
+        env_key = api_keys.get(platform, "")
+        configured = bool(os.environ.get(env_key, ""))
+        return {"valid": configured, "configured": configured, "error": None}
+
+    if not raw:
+        return {"valid": False, "configured": False, "error": "no cookie secret"}
+
+    try:
+        cookies = json.loads(base64.b64decode(raw).decode("utf-8"))
+    except Exception as e:
+        return {"valid": False, "configured": True, "error": f"cookie decode error: {e}"}
+
+    check_url = PLATFORM_CHECK_URLS.get(platform)
+    if not check_url:
+        return {"valid": False, "configured": True, "error": "no check url"}
+
+    try:
+        from playwright.async_api import async_playwright
+        async with async_playwright() as p:
+            browser = await p.chromium.launch(
+                headless=True,
+                args=["--no-sandbox", "--disable-dev-shm-usage"],
+            )
+            ctx = await browser.new_context(
+                viewport={"width": 1280, "height": 800},
+                user_agent=(
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/124.0.0.0 Safari/537.36"
+                ),
+            )
+            await ctx.add_cookies(cookies)
+            page = await ctx.new_page()
+            await page.goto(check_url, wait_until="domcontentloaded", timeout=20000)
+            final_url = page.url.lower()
+            await browser.close()
+
+        expired = any(pat in final_url for pat in LOGIN_PATTERNS)
+        return {"valid": not expired, "configured": True, "error": None}
+    except Exception as e:
+        return {"valid": False, "configured": True, "error": str(e)[:200]}
+
+
+@web.post("/validate-cookies")
+async def validate_cookies(req: ValidateCookiesRequest, authorization: str = Header(default="")):
+    verify_token(authorization)
+    results = await asyncio.gather(*[_check_one(p) for p in req.platforms])
+    return {p: r for p, r in zip(req.platforms, results)}
+
+
 @app.function(secrets=[SECRETS], timeout=600)
 @modal.asgi_app()
 def lab_worker_web():

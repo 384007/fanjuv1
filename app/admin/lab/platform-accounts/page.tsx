@@ -5,23 +5,75 @@ import type { LabPlatformAccount } from "@/lib/lab/types"
 import { PageHeader } from "@/components/lab/page-header"
 import { labApi } from "@/lib/lab/api"
 
+// Platforms that use API keys instead of cookies
+const API_KEY_PLATFORMS = new Set(["devto", "hashnode", "medium", "bluesky", "reddit"])
+
+type CheckState = "idle" | "checking" | "done" | "error"
+
+interface CookieStatus {
+  valid: boolean
+  configured: boolean
+  error?: string | null
+}
+
 export default function PlatformAccountsPage() {
   const [platforms, setPlatforms] = useState<LabPlatformAccount[]>([])
+  const [checking, setChecking] = useState<Record<string, CheckState>>({})
+  const [cookieStatus, setCookieStatus] = useState<Record<string, CookieStatus>>({})
+  const [batchChecking, setBatchChecking] = useState(false)
 
   useEffect(() => {
-    labApi
-      .listPlatformAccounts()
-      .then(setPlatforms)
-      .catch(() => setPlatforms([]))
+    labApi.listPlatformAccounts().then(setPlatforms).catch(() => setPlatforms([]))
   }, [])
 
   const toggle = async (platform: string, isActive: boolean) => {
     await labApi.togglePlatform(platform, !isActive)
     setPlatforms((prev) =>
-      prev.map((a) =>
-        a.platform === platform ? { ...a, is_active: isActive ? 0 : 1 } : a,
-      ),
+      prev.map((a) => (a.platform === platform ? { ...a, is_active: isActive ? 0 : 1 } : a)),
     )
+  }
+
+  const checkOne = async (platform: string) => {
+    setChecking((s) => ({ ...s, [platform]: "checking" }))
+    try {
+      const res = await labApi.checkCookie(platform)
+      const cs: CookieStatus = {
+        valid: res.session_valid,
+        configured: res.configured,
+        error: res.error,
+      }
+      setCookieStatus((s) => ({ ...s, [platform]: cs }))
+      setPlatforms((prev) =>
+        prev.map((a) =>
+          a.platform === platform ? { ...a, session_valid: cs.valid ? 1 : 0 } : a,
+        ),
+      )
+      setChecking((s) => ({ ...s, [platform]: "done" }))
+    } catch {
+      setChecking((s) => ({ ...s, [platform]: "error" }))
+    }
+  }
+
+  const checkAll = async () => {
+    setBatchChecking(true)
+    try {
+      const res = await labApi.validateAllCookies()
+      if (res.report) {
+        const report = res.report as Record<string, CookieStatus>
+        setCookieStatus((s) => ({ ...s, ...report }))
+        setPlatforms((prev) =>
+          prev.map((a) =>
+            report[a.platform] !== undefined
+              ? { ...a, session_valid: report[a.platform].valid ? 1 : 0 }
+              : a,
+          ),
+        )
+      }
+    } catch {
+      // ignore
+    } finally {
+      setBatchChecking(false)
+    }
   }
 
   const activeCount = platforms.filter((p) => p.is_active).length
@@ -32,19 +84,28 @@ export default function PlatformAccountsPage() {
       <PageHeader
         eyebrow="Section 04 — Network"
         title="Platform Accounts"
-        subtitle="Fifteen channels, each with its own rhythm. Daily caps and session integrity, monitored continuously."
+        subtitle="Fifteen channels. Cookie health monitored via Modal. All secrets live in custom-secret only."
         actions={
-          <div className="flex items-center gap-4 font-mono text-[10px] uppercase tracking-[0.25em]">
-            <span className="text-[var(--gold)]">
-              <span className="font-serif italic text-2xl mr-1 not-italic">{activeCount}</span>
-              Active
-            </span>
-            {expiredCount > 0 && (
-              <span className="text-[var(--wine)]">
-                <span className="font-serif italic text-2xl mr-1">{expiredCount}</span>
-                Expired
+          <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 font-mono text-[10px] uppercase tracking-[0.25em]">
+              <span className="text-[var(--gold)]">
+                <span className="font-serif italic text-2xl mr-1">{activeCount}</span>
+                Active
               </span>
-            )}
+              {expiredCount > 0 && (
+                <span className="text-[var(--wine)]">
+                  <span className="font-serif italic text-2xl mr-1">{expiredCount}</span>
+                  Expired
+                </span>
+              )}
+            </div>
+            <button
+              onClick={checkAll}
+              disabled={batchChecking}
+              className="font-mono text-[10px] uppercase tracking-[0.3em] border border-border/60 hover:border-[var(--gold)]/60 text-muted-foreground hover:text-[var(--gold)] px-4 py-2 transition-colors disabled:opacity-40"
+            >
+              {batchChecking ? "Checking…" : "Test All Cookies"}
+            </button>
           </div>
         }
       />
@@ -55,11 +116,31 @@ export default function PlatformAccountsPage() {
           const ratio = p.daily_limit ? p.published_today / p.daily_limit : 0
           const ratioPct = Math.min(100, Math.round(ratio * 100))
           const ratioTone =
-            ratio >= 1
-              ? "var(--wine)"
-              : ratio >= 0.7
-                ? "oklch(0.78 0.16 70)"
-                : "var(--gold)"
+            ratio >= 1 ? "var(--wine)" : ratio >= 0.7 ? "oklch(0.78 0.16 70)" : "var(--gold)"
+
+          const cs = cookieStatus[p.platform]
+          const checkState = checking[p.platform] ?? "idle"
+          const isApiKey = API_KEY_PLATFORMS.has(p.platform)
+
+          // Determine session display
+          const sessionValid = cs ? cs.valid : !!p.session_valid
+          const configured = cs ? cs.configured : true // assume configured if row exists
+          const sessionLabel = !configured
+            ? "Not Set"
+            : sessionValid
+              ? "Valid"
+              : "Expired"
+          const sessionColor = !configured
+            ? "text-muted-foreground/50"
+            : sessionValid
+              ? "text-[var(--gold)]"
+              : "text-[var(--wine)]"
+          const dotColor = !configured
+            ? "bg-muted-foreground/30"
+            : sessionValid
+              ? "bg-[var(--gold)]"
+              : "bg-[var(--wine)]"
+
           return (
             <div
               key={p.platform}
@@ -74,8 +155,11 @@ export default function PlatformAccountsPage() {
                   <div className="font-serif italic text-2xl text-foreground leading-none">
                     {p.display_name}
                   </div>
-                  <div className="mt-1.5 font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground/70">
+                  <div className="mt-1 font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground/70">
                     {p.platform}
+                  </div>
+                  <div className="mt-1 font-mono text-[8px] uppercase tracking-[0.2em] text-muted-foreground/40">
+                    {isApiKey ? "api-key" : "cookie"}
                   </div>
                 </div>
                 <button
@@ -94,6 +178,7 @@ export default function PlatformAccountsPage() {
               </div>
 
               <div className="space-y-3">
+                {/* Daily progress */}
                 <div>
                   <div className="flex justify-between font-mono text-[9px] uppercase tracking-[0.25em] text-muted-foreground mb-1.5">
                     <span>Today</span>
@@ -109,21 +194,39 @@ export default function PlatformAccountsPage() {
                   </div>
                 </div>
 
+                {/* Session status */}
                 <div className="flex items-center justify-between font-mono text-[9px] uppercase tracking-[0.25em]">
                   <span className="text-muted-foreground">Session</span>
                   <span className="inline-flex items-center gap-1.5">
-                    <span
-                      className={`size-1 rounded-full ${
-                        p.session_valid ? "bg-[var(--gold)]" : "bg-[var(--wine)]"
-                      }`}
-                    />
-                    <span
-                      className={p.session_valid ? "text-[var(--gold)]" : "text-[var(--wine)]"}
-                    >
-                      {p.session_valid ? "Valid" : "Expired"}
-                    </span>
+                    <span className={`size-1 rounded-full ${dotColor}`} />
+                    <span className={sessionColor}>{sessionLabel}</span>
                   </span>
                 </div>
+
+                {/* Error hint */}
+                {cs?.error && (
+                  <div className="font-mono text-[8px] text-[var(--wine)]/70 truncate" title={cs.error}>
+                    {cs.error}
+                  </div>
+                )}
+
+                {/* Test button */}
+                <button
+                  onClick={() => checkOne(p.platform)}
+                  disabled={checkState === "checking"}
+                  className="w-full mt-1 font-mono text-[9px] uppercase tracking-[0.2em] border border-border/40 hover:border-[var(--gold)]/50 text-muted-foreground hover:text-[var(--gold)] py-1.5 transition-colors disabled:opacity-40"
+                >
+                  {checkState === "checking" ? (
+                    <span className="inline-flex items-center justify-center gap-1.5">
+                      <span className="size-1 rounded-full bg-current animate-pulse" />
+                      Testing…
+                    </span>
+                  ) : checkState === "done" ? (
+                    "✓ Tested"
+                  ) : (
+                    "Test Cookie"
+                  )}
+                </button>
               </div>
             </div>
           )

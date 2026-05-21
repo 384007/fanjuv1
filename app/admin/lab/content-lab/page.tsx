@@ -1,16 +1,37 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { PageHeader } from "@/components/lab/page-header"
 import { labApi } from "@/lib/lab/api"
 
 const PLATFORMS = [
-  { id: "zhihu", name: "Zhihu" },
-  { id: "csdn", name: "CSDN" },
-  { id: "juejin", name: "Juejin" },
-  { id: "devto", name: "dev.to" },
+  { id: "zhihu",    name: "知乎" },
+  { id: "csdn",     name: "CSDN" },
+  { id: "juejin",   name: "掘金" },
+  { id: "devto",    name: "Dev.to" },
   { id: "hashnode", name: "Hashnode" },
+  { id: "medium",   name: "Medium" },
+  { id: "weibo",    name: "微博" },
+  { id: "xiaohongshu", name: "小红书" },
 ]
+
+type JobStatus = "idle" | "pending" | "running" | "success" | "failed" | "skipped"
+
+interface PlatformJob {
+  status: JobStatus
+  job_id?: string
+  url?: string
+  error?: string
+}
+
+const STATUS_STYLE: Record<JobStatus, { dot: string; text: string; label: string }> = {
+  idle:    { dot: "bg-border/40",           text: "text-muted-foreground/50", label: "—" },
+  pending: { dot: "bg-muted-foreground/60", text: "text-muted-foreground",    label: "Queued" },
+  running: { dot: "bg-[var(--gold)] animate-pulse", text: "text-[var(--gold)]", label: "Publishing…" },
+  success: { dot: "bg-[var(--gold)]",       text: "text-[var(--gold)]",       label: "Published" },
+  failed:  { dot: "bg-[var(--wine)]",       text: "text-[var(--wine)]",       label: "Failed" },
+  skipped: { dot: "bg-muted-foreground/30", text: "text-muted-foreground/60", label: "Skipped" },
+}
 
 interface GenerateResult {
   github_path?: string
@@ -22,15 +43,50 @@ interface GenerateResult {
 export default function ContentLabPage() {
   const [topic, setTopic] = useState("")
   const [lang, setLang] = useState<"zh" | "en">("zh")
-  const [loading, setLoading] = useState(false)
+  const [generating, setGenerating] = useState(false)
   const [result, setResult] = useState<GenerateResult | null>(null)
-  const [queueing, setQueueing] = useState(false)
-  const [queueMsg, setQueueMsg] = useState("")
+  const [jobs, setJobs] = useState<Record<string, PlatformJob>>({})
+  const pollRef = useRef<ReturnType<typeof setInterval> | null>(null)
+
+  // Poll running/pending jobs
+  useEffect(() => {
+    const hasActive = Object.values(jobs).some(
+      (j) => j.status === "running" || j.status === "pending",
+    )
+    if (hasActive && !pollRef.current) {
+      pollRef.current = setInterval(async () => {
+        const allJobs = await labApi.listPublishJobs().catch(() => [])
+        setJobs((prev) => {
+          const next = { ...prev }
+          for (const [plat, pj] of Object.entries(prev)) {
+            if (!pj.job_id) continue
+            const found = allJobs.find((j) => j.id === pj.job_id)
+            if (found) {
+              next[plat] = {
+                ...pj,
+                status: found.status as JobStatus,
+                url: found.published_url ?? undefined,
+                error: found.error_msg ?? undefined,
+              }
+            }
+          }
+          return next
+        })
+      }, 4000)
+    }
+    if (!hasActive && pollRef.current) {
+      clearInterval(pollRef.current)
+      pollRef.current = null
+    }
+    return () => {
+      if (pollRef.current) clearInterval(pollRef.current)
+    }
+  }, [jobs])
 
   const generate = async () => {
-    setLoading(true)
+    setGenerating(true)
     setResult(null)
-    setQueueMsg("")
+    setJobs({})
     const id = Date.now().toString(36)
     try {
       const data = (await labApi.generateArticle(topic, lang, id)) as GenerateResult
@@ -38,27 +94,40 @@ export default function ContentLabPage() {
     } catch (e) {
       setResult({ error: (e as Error).message })
     } finally {
-      setLoading(false)
+      setGenerating(false)
     }
   }
 
-  const publishAll = async () => {
+  const dispatchOne = async (platformId: string) => {
     if (!result?.article_id) return
-    setQueueing(true)
-    let queued = 0
-    let skipped = 0
-    for (const p of PLATFORMS) {
-      try {
-        const data = await labApi.createPublishJob(result.article_id, p.id)
-        if (data.skipped) skipped += 1
-        else queued += 1
-      } catch {
-        skipped += 1
-      }
+    setJobs((prev) => ({ ...prev, [platformId]: { status: "pending" } }))
+    try {
+      const data = await labApi.createPublishJob(result.article_id, platformId)
+      setJobs((prev) => ({
+        ...prev,
+        [platformId]: {
+          status: data.skipped ? "skipped" : "pending",
+          job_id: data.job_id,
+        },
+      }))
+    } catch (e) {
+      setJobs((prev) => ({
+        ...prev,
+        [platformId]: { status: "failed", error: (e as Error).message },
+      }))
     }
-    setQueueMsg(`Queued ${queued} · Skipped ${skipped}`)
-    setQueueing(false)
   }
+
+  const dispatchAll = async () => {
+    if (!result?.article_id) return
+    for (const p of PLATFORMS) {
+      await dispatchOne(p.id)
+    }
+  }
+
+  const anyActive = Object.values(jobs).some(
+    (j) => j.status === "pending" || j.status === "running",
+  )
 
   return (
     <div>
@@ -104,64 +173,45 @@ export default function ContentLabPage() {
 
             <button
               onClick={generate}
-              disabled={loading || !topic}
+              disabled={generating || !topic}
               className="group w-full py-3 bg-[var(--gold)] hover:bg-[var(--gold)]/90 disabled:opacity-30 disabled:cursor-not-allowed text-[oklch(0.21_0.13_300)] font-mono text-[11px] uppercase tracking-[0.3em] transition-all"
             >
-              {loading ? (
+              {generating ? (
                 <span className="inline-flex items-center gap-2">
                   <span className="size-1 rounded-full bg-current animate-pulse" />
-                  Drafting
+                  Drafting…
                 </span>
               ) : (
-                <>
-                  Generate Article{" "}
-                  <span className="inline-block transition-transform group-hover:translate-x-1">
-                    &rarr;
-                  </span>
-                </>
+                <>Generate Article <span className="inline-block transition-transform group-hover:translate-x-1">&rarr;</span></>
               )}
             </button>
           </div>
-
-          <div className="font-mono text-[9px] uppercase tracking-[0.25em] text-muted-foreground/70 leading-relaxed px-2">
-            Powered by Claude Sonnet · GitHub-versioned · Idempotent dispatch
-          </div>
         </div>
 
-        {/* Right: preview */}
-        <div className="lg:col-span-3">
-          {!result && !loading && (
-            <div className="h-full min-h-[400px] border border-dashed border-border/40 rounded-sm grid place-items-center">
+        {/* Right: preview + dispatch */}
+        <div className="lg:col-span-3 space-y-4">
+          {!result && !generating && (
+            <div className="min-h-[400px] border border-dashed border-border/40 rounded-sm grid place-items-center">
               <div className="text-center">
-                <div className="font-serif italic text-3xl text-muted-foreground/50 mb-2">
-                  No manuscript yet
-                </div>
-                <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground/50">
-                  Compose a brief to begin
-                </div>
+                <div className="font-serif italic text-3xl text-muted-foreground/50 mb-2">No manuscript yet</div>
+                <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground/50">Compose a brief to begin</div>
               </div>
             </div>
           )}
 
-          {loading && (
-            <div className="h-full min-h-[400px] border border-border/40 rounded-sm grid place-items-center">
+          {generating && (
+            <div className="min-h-[400px] border border-border/40 rounded-sm grid place-items-center">
               <div className="text-center">
-                <div className="size-2 rounded-full bg-[var(--gold)] live-dot mx-auto mb-4" />
-                <div className="font-serif italic text-3xl text-foreground">
-                  Drafting&hellip;
-                </div>
-                <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground mt-2">
-                  Claude is composing your article
-                </div>
+                <div className="size-2 rounded-full bg-[var(--gold)] animate-pulse mx-auto mb-4" />
+                <div className="font-serif italic text-3xl text-foreground">Drafting&hellip;</div>
+                <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground mt-2">Claude is composing your article</div>
               </div>
             </div>
           )}
 
           {result?.error && (
             <div className="border border-[var(--wine)]/60 bg-[var(--wine)]/10 rounded-sm p-6">
-              <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--wine)] mb-2">
-                Error
-              </div>
+              <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--wine)] mb-2">Error</div>
               <div className="font-mono text-sm text-foreground">{result.error}</div>
             </div>
           )}
@@ -170,44 +220,57 @@ export default function ContentLabPage() {
             <div className="bg-card/50 backdrop-blur-sm border border-border/40 rounded-sm overflow-hidden">
               <div className="flex items-center justify-between px-6 py-4 border-b border-border/40">
                 <div>
-                  <div className="font-mono text-[9px] uppercase tracking-[0.3em] text-[var(--gold)]/70 mb-1">
-                    Manuscript
-                  </div>
-                  <div className="font-mono text-[11px] text-muted-foreground break-all">
-                    {result.github_path}
-                  </div>
+                  <div className="font-mono text-[9px] uppercase tracking-[0.3em] text-[var(--gold)]/70 mb-1">Manuscript</div>
+                  <div className="font-mono text-[11px] text-muted-foreground break-all">{result.github_path}</div>
                 </div>
                 <span className="size-2 rounded-full bg-[var(--gold)]" />
               </div>
 
-              <pre className="px-6 py-6 font-mono text-[12px] text-foreground/85 whitespace-pre-wrap leading-[1.7] max-h-[400px] overflow-auto">
+              <pre className="px-6 py-6 font-mono text-[12px] text-foreground/85 whitespace-pre-wrap leading-[1.7] max-h-[300px] overflow-auto">
                 {result.preview}
               </pre>
 
-              <div className="border-t border-border/40 px-6 py-5 flex flex-wrap items-center justify-between gap-4">
-                <div className="flex items-center gap-2">
-                  {PLATFORMS.map((p) => (
-                    <span
-                      key={p.id}
-                      className="font-mono text-[9px] uppercase tracking-[0.2em] text-muted-foreground border border-border/60 px-2 py-1 rounded-sm"
-                    >
-                      {p.name}
-                    </span>
-                  ))}
+              {/* Per-platform dispatch grid */}
+              <div className="border-t border-border/40 px-6 py-5">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground">
+                    Dispatch
+                  </div>
+                  <button
+                    onClick={dispatchAll}
+                    disabled={anyActive}
+                    className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--gold)] border border-[var(--gold)]/60 hover:bg-[var(--gold)]/10 disabled:opacity-40 px-5 py-2 transition-colors"
+                  >
+                    {anyActive ? "Publishing…" : "Dispatch All →"}
+                  </button>
                 </div>
-                <button
-                  onClick={publishAll}
-                  disabled={queueing}
-                  className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--gold)] border border-[var(--gold)]/60 hover:bg-[var(--gold)]/10 disabled:opacity-40 px-5 py-2.5 transition-colors"
-                >
-                  {queueing ? "Dispatching…" : "Dispatch All →"}
-                </button>
+
+                <div className="grid grid-cols-2 gap-2">
+                  {PLATFORMS.map((p) => {
+                    const job = jobs[p.id] ?? { status: "idle" as JobStatus }
+                    const s = STATUS_STYLE[job.status]
+                    return (
+                      <button
+                        key={p.id}
+                        onClick={() => dispatchOne(p.id)}
+                        disabled={job.status === "running" || job.status === "pending"}
+                        className="flex items-center justify-between border border-border/40 hover:border-[var(--gold)]/40 px-3 py-2.5 rounded-sm transition-colors disabled:cursor-not-allowed group"
+                        title={job.error ?? undefined}
+                      >
+                        <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground group-hover:text-foreground transition-colors">
+                          {p.name}
+                        </span>
+                        <span className="inline-flex items-center gap-1.5">
+                          <span className={`size-1.5 rounded-full ${s.dot}`} />
+                          <span className={`font-mono text-[9px] uppercase tracking-[0.2em] ${s.text}`}>
+                            {s.label}
+                          </span>
+                        </span>
+                      </button>
+                    )
+                  })}
+                </div>
               </div>
-              {queueMsg && (
-                <div className="px-6 pb-5 font-mono text-[10px] uppercase tracking-[0.25em] text-[var(--gold)]/80">
-                  {queueMsg}
-                </div>
-              )}
             </div>
           )}
         </div>

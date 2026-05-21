@@ -16,7 +16,10 @@ import type {
   LabStats,
 } from "@/lib/lab/types"
 
-const API_BASE = (process.env.NEXT_PUBLIC_LAB_API_BASE || "").replace(/\/+$/, "")
+// NEXT_PUBLIC_LAB_API_BASE → direct Cloudflare Worker call
+// unset → /api/lab proxy (server-side LAB_API_BASE required)
+// static export / demo → mock mode (API_BASE stays empty string)
+const API_BASE = (process.env.NEXT_PUBLIC_LAB_API_BASE || (typeof window !== "undefined" ? "/api/lab" : "")).replace(/\/+$/, "")
 
 function getToken(): string {
   if (typeof document === "undefined") return ""
@@ -54,6 +57,24 @@ async function mockRequest<T>(path: string, init: RequestInit = {}): Promise<T> 
   if (path.startsWith("/platform-accounts/") && method === "PATCH") {
     return { ok: true } as T
   }
+  if (path.startsWith("/check-cookie") && method === "POST") {
+    const body = JSON.parse(String(init.body || "{}")) as { platform?: string }
+    const plat = body.platform ?? ""
+    const found = mockPlatforms.find((p) => p.platform === plat)
+    return {
+      platform: plat,
+      session_valid: found ? !!found.session_valid : false,
+      configured: !!found,
+      error: null,
+    } as T
+  }
+  if (path.startsWith("/validate-all-cookies") && method === "POST") {
+    const report: Record<string, { valid: boolean; configured: boolean }> = {}
+    for (const p of mockPlatforms) {
+      report[p.platform] = { valid: !!p.session_valid, configured: true }
+    }
+    return { updated: mockPlatforms.length, report } as T
+  }
   if (path === "/generate" && method === "POST") {
     const body = JSON.parse(String(init.body || "{}")) as {
       topic?: string
@@ -83,10 +104,7 @@ export const labApi = {
   generateArticle: (topic: string, lang: "zh" | "en", article_id: string) =>
     request<{ article_id?: string; github_path?: string; preview?: string; error?: string }>(
       "/generate",
-      {
-        method: "POST",
-        body: JSON.stringify({ topic, lang, article_id }),
-      },
+      { method: "POST", body: JSON.stringify({ topic, lang, article_id }) },
     ),
 
   createPublishJob: (article_id: string, platform: string) =>
@@ -100,4 +118,16 @@ export const labApi = {
       method: "PATCH",
       body: JSON.stringify({ is_active: is_active ? 1 : 0 }),
     }),
+
+  checkCookie: (platform: string) =>
+    request<{ platform: string; session_valid: boolean; configured: boolean; error?: string | null }>(
+      "/check-cookie",
+      { method: "POST", body: JSON.stringify({ platform }) },
+    ),
+
+  validateAllCookies: () =>
+    request<{ updated?: number; report?: Record<string, { valid: boolean; configured: boolean }>; skipped?: boolean }>(
+      "/validate-all-cookies",
+      { method: "POST", body: JSON.stringify({}) },
+    ),
 }
