@@ -384,6 +384,204 @@ function sectionBriefsFor(profile) {
   return [...briefs.slice(start), ...briefs.slice(0, start)].slice(0, 6)
 }
 
+function frameIndex(profile, salt, size) {
+  return seedFromString(`${profile.citySlug}|${profile.topicSlug}|${profile.angle.id}|${profile.structure}|${profile.titlePattern}|${salt}`) % size
+}
+
+function angleLensEn(angleId = "") {
+  const map = {
+    first_timer_view: "first-timer hesitation",
+    host_view: "host-side craft",
+    safety_trust_view: "trust question",
+    community_building_view: "community-building promise",
+    expat_newcomer_view: "newcomer gap",
+    local_food_discovery_view: "food-discovery thread",
+    loneliness_solution_view: "loneliness problem",
+    business_networking_view: "professional-table pressure",
+    weekend_plan_view: "weekend decision",
+    city_lifestyle_view: "city-rhythm question",
+    date_free_social_view: "date-free boundary",
+    group_dinner_view: "small-group chemistry",
+    private_table_view: "private-table expectation",
+    authentic_local_life_view: "local-life test",
+    post_work_dinner_view: "after-work gap",
+    introvert_friendly_view: "introvert comfort",
+    women_friendly_view: "comfort-and-safety lens",
+    solo_traveler_view: "solo-arrival moment",
+    remote_worker_view: "remote-worker social anchor",
+    neighborhood_discovery_view: "neighbourhood lens",
+    premium_social_dining_view: "curated-table standard",
+    food_as_connection_view: "food-as-connection idea",
+    offline_social_reboot_view: "offline-social reset",
+    city_arrival_view: "just-arrived uncertainty",
+    small_table_big_city_view: "small-table contrast",
+  }
+  return map[angleId] || "reader decision"
+}
+
+function angleLensZh(angleId = "") {
+  const map = {
+    first_timer_view: "第一次参加的犹豫",
+    host_view: "主理人视角里的桌面功夫",
+    safety_trust_view: "安全感和信任问题",
+    community_building_view: "城市社区感",
+    expat_newcomer_view: "刚到城市的空档",
+    local_food_discovery_view: "本地吃饭线索",
+    loneliness_solution_view: "孤独感和社交断层",
+    business_networking_view: "专业人士的同桌压力",
+    weekend_plan_view: "周末选择",
+    city_lifestyle_view: "城市生活节奏",
+    date_free_social_view: "非相亲边界",
+    group_dinner_view: "小桌化学反应",
+    private_table_view: "私密小桌期待",
+    authentic_local_life_view: "真实本地生活",
+    post_work_dinner_view: "下班后的空档",
+    introvert_friendly_view: "内向者舒适感",
+    women_friendly_view: "女性友好的安全感",
+    solo_traveler_view: "一个人抵达的夜晚",
+    remote_worker_view: "远程工作者的线下锚点",
+    neighborhood_discovery_view: "街区视角",
+    premium_social_dining_view: "精选小桌标准",
+    food_as_connection_view: "用食物连接人",
+    offline_social_reboot_view: "线下社交重启",
+    city_arrival_view: "刚到城市的不确定",
+    small_table_big_city_view: "大城市里的一张小桌",
+  }
+  return map[angleId] || "报名决策"
+}
+
+function articleFrameFor(profile) {
+  const city = profile.cityNameLocalized
+  const topic = profile.topicNameLocalized
+  const isEn = profile.locale === "en"
+
+  if (isEn) {
+    const lens = angleLensEn(profile.angle.id)
+    const scene = [
+      "after-work pause",
+      "weekend table",
+      "first-message moment",
+      "neighbourhood choice",
+      "guest-list question",
+      "quiet arrival",
+      "second-dinner possibility",
+    ][frameIndex(profile, "scene", 7)]
+    const h1s = [
+      `In ${city}, Fanju app turns ${topic} into a table people can actually trust`,
+      `When ${topic} feels too loose in ${city}, Fanju app starts with the table`,
+      `${city} after work: how Fanju app makes ${topic} feel like a real room`,
+      `For people trying ${topic} in ${city}, Fanju app puts the guest mix first`,
+      `${city} does not need another vague invite; Fanju app makes ${topic} specific`,
+      `A calmer way to approach ${topic} in ${city} through Fanju app`,
+      `Why ${topic} in ${city} works better when Fanju app keeps the table small`,
+    ]
+    const h2s = [
+      [
+        `${city}'s ${scene} is why ${topic} needs a clearer frame`,
+        `The ${scene} in ${city} should not become another loose invite`,
+        `Why ${topic} needs a sharper table before the night begins in ${city}`,
+      ][frameIndex(profile, "h2-1", 3)],
+      [
+        `The ${lens} changes who should sit at this table`,
+        `A table built around ${lens} needs a different guest mix`,
+        `Who belongs at this ${topic} table depends on the ${lens}`,
+      ][frameIndex(profile, "h2-2", 3)],
+      [
+        `How Fanju app keeps ${topic} specific before anyone arrives`,
+        `Before the first order, Fanju app should make the table legible`,
+        `The details that keep ${topic} from becoming a vague social plan`,
+      ][frameIndex(profile, "h2-3", 3)],
+      [
+        `What the host and venue should prove in ${city}`,
+        `Host choices that make ${topic} credible in ${city}`,
+        `The venue signals that make strangers easier to trust in ${city}`,
+      ][frameIndex(profile, "h2-4", 3)],
+      [
+        `The point where comfort matters more than staying polite`,
+        `When the table should slow down instead of getting louder`,
+        `Where a good dinner leaves room for a quiet no`,
+      ][frameIndex(profile, "h2-5", 3)],
+      [
+        `Choosing one table without turning the night into pressure`,
+        `A next step that keeps ${topic} human, not transactional`,
+        `How to leave ${city} with a second-table possibility`,
+      ][frameIndex(profile, "h2-6", 3)],
+    ]
+    const h3s = [
+      `### What should I check before joining my first table?`,
+      `### How do I know the dinner is not just another meetup?`,
+      `### What if I arrive alone and do not know anyone?`,
+    ]
+    return {
+      h1: h1s[frameIndex(profile, "h1", h1s.length)],
+      h2s,
+      h3: h3s[frameIndex(profile, "h3", h3s.length)],
+    }
+  }
+
+  const lens = angleLensZh(profile.angle.id)
+  const scene = [
+    "下班后的空档",
+    "周末晚饭",
+    "第一次报名的那一刻",
+    "街区饭点",
+    "同桌名单出现前",
+    "一个人到场前十分钟",
+    "第二次见面的余地",
+  ][frameIndex(profile, "scene", 7)]
+  const h1s = [
+    `${city}不想只靠群聊时，饭局app怎样把${topic}坐成一桌`,
+    `在${city}找一桌不尴尬的${topic}，饭局app先解决什么`,
+    `${city}${topic}不是凑人吃饭，饭局app更看重这一桌的边界`,
+    `下班后的${city}，饭局app怎样让${topic}有真实同桌`,
+    `${city}想参加${topic}，饭局app把信任感放在饭前`,
+    `${city}的一顿${topic}，饭局app为什么先看人再看热闹`,
+    `在${city}把${topic}坐稳，饭局app需要筛掉哪些尴尬`,
+  ]
+  const h2s = [
+    [
+      `在${city}，${topic}要先把同桌预期讲清楚`,
+      `${city}的${topic}不能只靠一句有人来吗`,
+      `${scene}提醒${city}：这桌饭要先有边界`,
+    ][frameIndex(profile, "h2-1", 3)],
+    [
+      `${lens}会改变谁适合坐到这张桌边`,
+      `围绕${lens}组一桌人，不能只看热闹`,
+      `谁该坐下来，先看${lens}有没有被说清楚`,
+    ][frameIndex(profile, "h2-2", 3)],
+    [
+      `饭局app怎样把${topic}从泛泛邀约变成具体一桌`,
+      `第一条报名信息就应该让${topic}变得可判断`,
+      `别急着凑人，先让这一桌的预期立起来`,
+    ][frameIndex(profile, "h2-3", 3)],
+    [
+      `${city}主理人和餐厅细节要先证明什么`,
+      `真正可信的安排往往藏在饭前细节里`,
+      `餐厅、时间和同桌说明会暴露主理人的功底`,
+    ][frameIndex(profile, "h2-4", 3)],
+    [
+      `舒服的边界不在热闹里而在这些停顿里`,
+      `一桌饭什么时候该慢下来而不是继续加人`,
+      `能让人安心的局，通常先允许有人说不`,
+    ][frameIndex(profile, "h2-5", 3)],
+    [
+      `选稳第一桌之后再谈下一次见面`,
+      `${city}的第一顿饭要留下可复盘的余地`,
+      `下一步不是冲动报名，而是选对这一桌`,
+    ][frameIndex(profile, "h2-6", 3)],
+  ]
+  const h3s = [
+    `### 第一次参加前最该先问哪一个问题？`,
+    `### 怎么判断这不是一场随便拼桌？`,
+    `### 如果一个人来会不会显得尴尬？`,
+  ]
+  return {
+    h1: h1s[frameIndex(profile, "h1", h1s.length)],
+    h2s,
+    h3: h3s[frameIndex(profile, "h3", h3s.length)],
+  }
+}
+
 // ---------------------------------------------------------------------------
 // System & user prompt assembly. Strict negative list to prevent the model
 // from ever leaking the internal pipeline name to the public-facing article.
@@ -434,14 +632,18 @@ function userPromptFor(profile) {
   const isEn = profile.locale === "en"
   const titleDirection = titleDirectionFor(profile)
   const sectionBriefs = sectionBriefsFor(profile)
+  const frame = articleFrameFor(profile)
   if (isEn) {
     return [
       `Write a high-quality long-form English article for route ${profile.route}.`,
       `City: ${profile.cityNameLocalized}. Topic: ${profile.topicNameLocalized}.`,
-      `Title/H1 rule: first line must be one H1 beginning exactly "# ". It must include "${profile.cityNameLocalized}" and the exact phrase "Fanju app". Title direction: ${titleDirection}. Do not use "${profile.cityNameLocalized} ${profile.topicNameLocalized} Guide", "A Guide to ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "How to join ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", or any title that only swaps city/topic words. Also avoid bland titles like "A ${profile.cityNameLocalized} dinner journey" or "Discover ${profile.cityNameLocalized} through dinner". Tie the title to the angle, audience, and one concrete local or industry tension.`,
+      `Use this exact H1 as the first line, with no edits:\n# ${frame.h1}\nThis H1 already includes the city and the exact phrase "Fanju app".`,
+      `Title/H1 guardrails: title direction=${titleDirection}. Do not replace the H1 with "${profile.cityNameLocalized} ${profile.topicNameLocalized} Guide", "A Guide to ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "How to join ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", or any title that only swaps city/topic words. Also avoid bland titles like "A ${profile.cityNameLocalized} dinner journey" or "Discover ${profile.cityNameLocalized} through dinner".`,
       `Angle: ${profile.angle.name}. Use this angle: ${profile.angle.instruction}`,
       `Style profile: structure=${profile.structure}; opening=${profile.openingStyle}; faq=${profile.faqMode}; cta=${profile.ctaPosition}; example=${profile.exampleType}; tone=${profile.tone}; title=${profile.titlePattern}.`,
-      `Required section map: write 6 major sections, each with a unique "## " heading. Do not copy these briefs as headings; turn each into an editorial heading specific to ${profile.cityNameLocalized}, ${profile.topicNameLocalized}, the angle, and the reader. Section briefs: ${sectionBriefs.map((brief, i) => `${i + 1}. ${brief}`).join(" | ")}.`,
+      `Use these exact 6 H2 headings, in this order, with no edits:\n${frame.h2s.map((heading) => `## ${heading}`).join("\n")}`,
+      `Use this exact H3 once, after the third or fourth H2 section:\n${frame.h3}`,
+      `Section intent, for paragraph content only: ${sectionBriefs.map((brief, i) => `${i + 1}. ${brief}`).join(" | ")}.`,
       "Quality: practical editorial guide, not a landing page. Include city rhythm, neighbourhood choice, attendee concerns, host reliability cues, comfort boundaries, and decision criteria. Every H2 section must have real article paragraphs with distinct ideas.",
       "Output contract that must pass automated quality checks: first character '#'; exactly one H1; 6 H2 headings using '## ' with a space; exactly one H3 using '### '; at least 13 natural paragraphs; every H2 has at least two paragraphs; description/source summary can be taken from the first paragraph and therefore the first paragraph must mention the city; title, first paragraph, and opening 600 characters must mention Fanju app.",
       "Hard public-content rule: do not include QQ, webmaster contact, local contact, parked-domain text, advertising-sales copy, or any Chinese parked-domain phrase.",
@@ -453,11 +655,14 @@ function userPromptFor(profile) {
   return [
     `为「${profile.cityNameLocalized}」城市页写一篇高质量中文长文。`,
     `城市：${profile.cityNameLocalized}。主题：${profile.topicNameLocalized}。`,
-    `标题/H1 规则：第一行必须是唯一 H1，必须严格以「# 」开头，必须包含「${profile.cityNameLocalized}」并自然出现「饭局app」。标题方向：${titleDirection}。禁止使用「${profile.cityNameLocalized}${profile.topicNameLocalized}指南」「${profile.cityNameLocalized}${profile.topicNameLocalized}怎么参加」「${profile.cityNameLocalized}${profile.topicNameLocalized}攻略」「${profile.cityNameLocalized}的饭局之旅」「探索${profile.cityNameLocalized}」这类只替换城市/主题的模板标题。标题要结合本次角度、目标人群、一个本地或行业张力重新拟定。description、正文前 200 字必须自然出现「饭局app」和「${profile.cityNameLocalized}」。`,
+    `第一行必须使用这个精确 H1，不能改字、不能换标题：\n# ${frame.h1}\n这个 H1 已经包含中文城市名和「饭局app」。`,
+    `标题/H1 防线：标题方向=${titleDirection}。禁止改成「${profile.cityNameLocalized}${profile.topicNameLocalized}指南」「${profile.cityNameLocalized}${profile.topicNameLocalized}怎么参加」「${profile.cityNameLocalized}${profile.topicNameLocalized}攻略」「${profile.cityNameLocalized}的饭局之旅」「探索${profile.cityNameLocalized}」这类只替换城市/主题的模板标题。description、正文前 200 字必须自然出现「饭局app」和「${profile.cityNameLocalized}」。`,
     `中文城市名硬规则：公开标题、H1、description、H2 和正文里，城市名只能使用「${profile.cityNameLocalized}」这个中文名；URL slug、拼音城市名、英文城市名一律不能出现在公开字段里。中国、港澳台城市全部使用中文名。`,
     `角度：${profile.angle.name}。按这个方向写：${profile.angle.instruction}`,
     `风格 profile：结构=${profile.structure}；开头=${profile.openingStyle}；FAQ=${profile.faqMode}；CTA=${profile.ctaPosition}；例子=${profile.exampleType}；语气=${profile.tone}；标题=${profile.titlePattern}。`,
-    `必写小节地图：写 6 个主要小节，每个小节必须用唯一的「## 」标题。不要把下面这些 brief 原样复制成标题，而要改写成只适合「${profile.cityNameLocalized}」「${profile.topicNameLocalized}」、本次角度和目标读者的编辑标题。小节 brief：${sectionBriefs.map((brief, i) => `${i + 1}. ${brief}`).join(" | ")}。`,
+    `必须使用这 6 个精确 H2，按顺序写，不能改字：\n${frame.h2s.map((heading) => `## ${heading}`).join("\n")}`,
+    `必须且只使用这 1 个精确 H3，放在第 3 或第 4 个 H2 小节之后：\n${frame.h3}`,
+    `小节写作意图只用于正文内容，不要原样复制成标题：${sectionBriefs.map((brief, i) => `${i + 1}. ${brief}`).join(" | ")}。`,
     "质量：像真实城市饭局指南，不像落地页。写出城市节奏、街区选择、同桌人数、报名前顾虑、主理人信号、安全判断、报名建议。每个 H2 都必须有真实正文段落，且各小节观点不能重复。",
     "必须通过的输出契约：回复第一个字符必须是「#」；只允许 1 个 H1；必须有 6 个带空格的「## 」标题；必须且只允许 1 个「### 」标题；至少 13 个自然段；每个 H2 下至少 2 段；第一段必须同时出现「饭局app」和中文城市名；标题、H1、前 600 字都必须出现饭局app。",
     "公开内容硬规则：不要出现本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售、停放域名、招商或站主联系方式。",
