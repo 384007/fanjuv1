@@ -574,8 +574,6 @@ def run_cloudflare_publish_pipeline(
     secrets=[legacy_secret],
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
-    memory=4096,
-    cpu=4,
     schedule=hourly_schedule,
 )
 def hourly_publish_cron():
@@ -587,8 +585,6 @@ def hourly_publish_cron():
     secrets=[legacy_secret],
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
-    memory=4096,
-    cpu=4,
 )
 def run_once(rounds: int = 1, run_limit: int = 10, upload_r2: bool = True, submit_platforms: str = "all"):
     """Manual production trigger: python3 -m modal run modal_growth_agent.py::run_once"""
@@ -605,8 +601,6 @@ def run_once(rounds: int = 1, run_limit: int = 10, upload_r2: bool = True, submi
     secrets=[legacy_secret],
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
-    memory=4096,
-    cpu=4,
 )
 def publish_prompt_bank_to_cloudflare(run_limit: int = 6, upload_r2: bool = True):
     """Publish ready prompt-bank articles to GitHub main plus Cloudflare D1/R2."""
