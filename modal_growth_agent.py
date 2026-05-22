@@ -13,10 +13,11 @@ from pathlib import Path
 import modal
 
 app = modal.App("fanju-growth-agent")
-legacy_secret = modal.Secret.from_name("custom-secret")
+CUSTOM_SECRET = modal.Secret.from_name("custom-secret")
 hourly_schedule = None if os.environ.get("FANJU_DISABLE_MODAL_SCHEDULE") == "1" else modal.Cron("0 * * * *", timezone="Asia/Singapore")
 
 APP_DIR = "/app"
+REPO_ROOT = Path(__file__).resolve().parent
 WORKDIR = "/tmp/fanju-run"
 OUTPUT_ROOT = "/outputs"
 
@@ -30,6 +31,33 @@ OUTPUT_PATHS = [
 ]
 
 AI_PROVIDER_ORDER = "cerebras,cerebras2,cerebras3,cerebras4,groq,groq2,gemini,gemini2,openrouter,nvidia,nvidia2,cloudflare"
+AI_KEY_PREFIXES = [
+    "GROQ_API_KEY",
+    "CEREBRAS_API_KEY",
+    "NVIDIA_API_KEY",
+    "GEMINI_API_KEY",
+    "OPENROUTER_API_KEY",
+]
+COOKIE_PLATFORMS = [
+    "zhihu",
+    "csdn",
+    "juejin",
+    "jianshu",
+    "weibo",
+    "xiaohongshu",
+    "douban",
+    "toutiao",
+    "baijiahao",
+    "bilibili",
+]
+API_PLATFORM_KEYS = {
+    "devto": ["DEVTO_API_KEY"],
+    "hashnode": ["HASHNODE_API_KEY", "HASHNODE_PUBLICATION_ID"],
+    "medium": ["MEDIUM_API_KEY"],
+    "bluesky": ["BLUESKY_IDENTIFIER", "BLUESKY_APP_PASSWORD"],
+    "reddit": ["REDDIT_CLIENT_ID", "REDDIT_CLIENT_SECRET", "REDDIT_USERNAME", "REDDIT_PASSWORD"],
+}
+PRODUCTION_SUBMIT_PLATFORMS = ["indexnow", "baidu", "gist", "devto", "bluesky", "wordpress"]
 
 image = (
     modal.Image.debian_slim()
@@ -40,7 +68,7 @@ image = (
         "npm i -g pnpm@9.15.9",
     )
     .add_local_dir(
-        ".",
+        str(REPO_ROOT),
         APP_DIR,
         copy=True,
         ignore=[
@@ -114,6 +142,14 @@ def run_shell_status(cmd: str, cwd: str | None = None, timeout: int = 300) -> in
     return result.returncode
 
 
+def run_shell_capture_status(cmd: str, cwd: str | None = None, timeout: int = 300) -> tuple[int, str]:
+    print(f"$ {cmd}", flush=True)
+    result = subprocess.run(cmd, shell=True, cwd=cwd, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, timeout=timeout)
+    if result.stdout:
+        print(result.stdout, flush=True)
+    return result.returncode, result.stdout or ""
+
+
 def github_token() -> str:
     return (os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN") or "").strip()
 
@@ -124,6 +160,62 @@ def github_repository() -> str:
         or os.environ.get("GITHUB_REPO")
         or "384007/fanjuv1"
     ).strip().removeprefix("https://github.com/").removesuffix(".git")
+
+
+def configured_env_names(names: list[str]) -> list[str]:
+    """Return configured key names only. Never return secret values."""
+    return [name for name in names if os.environ.get(name)]
+
+
+def count_numbered_keys(prefix: str, max_index: int = 10) -> list[str]:
+    names = [prefix] + [f"{prefix}_{index}" for index in range(2, max_index + 1)]
+    return configured_env_names(names)
+
+
+def collect_secret_health() -> dict:
+    ai_keys = {
+        prefix: {
+            "count": len(found),
+            "configuredNames": found,
+        }
+        for prefix in AI_KEY_PREFIXES
+        for found in [count_numbered_keys(prefix)]
+    }
+    github = {
+        "token": "set" if github_token() else "missing",
+        "repository": "set" if (os.environ.get("GITHUB_REPOSITORY") or os.environ.get("GITHUB_REPO")) else "default:384007/fanjuv1",
+    }
+    cloudflare_token = bool(os.environ.get("CLOUDFLARE_API_TOKEN") or os.environ.get("CLOUDFLARE_AUTH_TOKEN"))
+    cloudflare = {
+        "accountId": "set" if os.environ.get("CLOUDFLARE_ACCOUNT_ID") else "missing",
+        "apiToken": "set" if cloudflare_token else "missing",
+        "aiToken": "set" if os.environ.get("CLOUDFLARE_AI_API_TOKEN") else "missing",
+        "pagesDeployHook": "set" if os.environ.get("CF_PAGES_DEPLOY_HOOK") else "skipped",
+    }
+    platforms = {}
+    for platform in COOKIE_PLATFORMS:
+        key = f"{platform.upper()}_COOKIES"
+        platforms[platform] = {
+            "authType": "cookie",
+            "configured": bool(os.environ.get(key)),
+            "requiredKeys": [key],
+        }
+    for platform, keys in API_PLATFORM_KEYS.items():
+        present = configured_env_names(keys)
+        platforms[platform] = {
+            "authType": "api-key",
+            "configured": len(present) == len(keys),
+            "configuredKeyCount": len(present),
+            "requiredKeyCount": len(keys),
+            "requiredKeys": keys,
+        }
+    return {
+        "secret": "custom-secret",
+        "aiKeys": ai_keys,
+        "github": github,
+        "cloudflare": cloudflare,
+        "platforms": platforms,
+    }
 
 
 def prepare_workdir(use_github: bool = False) -> None:
@@ -157,7 +249,7 @@ def ensure_dependencies() -> None:
         run("pnpm install --frozen-lockfile", cwd=WORKDIR, timeout=600)
 
 
-def git_commit_and_push(routes: list[str], run_id: str, round_no: int) -> str:
+def git_commit_and_push(routes: list[str], run_id: str, round_no: int) -> dict:
     run_args(["git", "config", "user.name", os.environ.get("GIT_AUTHOR_NAME", "Fanju Modal Publisher")], cwd=WORKDIR)
     run_args(["git", "config", "user.email", os.environ.get("GIT_AUTHOR_EMAIL", "modal-publisher@fanju.app")], cwd=WORKDIR)
     run_args(["git", "add", "--", "content/seo-ready"], cwd=WORKDIR)
@@ -186,19 +278,20 @@ def git_commit_and_push(routes: list[str], run_id: str, round_no: int) -> str:
     run_args(["git", "push", "origin", "main"], cwd=WORKDIR, timeout=900)
     sha = run_capture(["git", "rev-parse", "HEAD"], cwd=WORKDIR)
     print(f"GITHUB_MAIN_COMMIT={sha}", flush=True)
-    trigger_pages_deploy()
-    return sha
+    pages_deploy = trigger_pages_deploy()
+    return {"commitSha": sha, "pagesDeploy": pages_deploy}
 
 
-def trigger_pages_deploy() -> None:
+def trigger_pages_deploy() -> dict:
     hook_url = os.environ.get("CF_PAGES_DEPLOY_HOOK", "").strip()
     if not hook_url:
         print("CF_PAGES_DEPLOY_HOOK not set; skipping Pages deploy trigger", flush=True)
-        return
+        return {"configured": False, "triggered": False, "status": "skipped", "reason": "CF_PAGES_DEPLOY_HOOK not set"}
     import urllib.request
     req = urllib.request.Request(hook_url, method="POST", data=b"")
     with urllib.request.urlopen(req, timeout=30) as resp:
         print(f"PAGES_DEPLOY_TRIGGERED status={resp.status}", flush=True)
+        return {"configured": True, "triggered": True, "status": "triggered", "statusCode": resp.status}
 
 
 def wait_for_live_routes(routes: list[str], max_attempts: int = 30, delay_seconds: int = 30) -> None:
@@ -349,6 +442,34 @@ def load_json_state(relative_path: str) -> dict:
     return json.loads(state_path.read_text(encoding="utf-8"))
 
 
+def load_submission_report(relative_path: str) -> dict:
+    report_path = Path(WORKDIR, relative_path)
+    if not report_path.exists():
+        return {
+            "submittedPlatforms": [],
+            "failedPlatforms": [],
+            "failedReasons": {"submission": "report file missing"},
+        }
+    return json.loads(report_path.read_text(encoding="utf-8"))
+
+
+def requested_submit_platforms(value: str) -> list[str]:
+    safe = (value or "all").strip().lower()
+    if safe == "all":
+        return PRODUCTION_SUBMIT_PLATFORMS
+    return [item for item in safe.split(",") if item]
+
+
+def skipped_submission_report(reason: str, platforms: str) -> dict:
+    requested = requested_submit_platforms(platforms)
+    return {
+        "submittedPlatforms": [],
+        "failedPlatforms": requested,
+        "failedReasons": {platform: reason for platform in requested},
+        "skipped": True,
+    }
+
+
 def ready_entries_from_state(state: dict) -> list[dict]:
     return [entry for entry in state.get("drafts", []) if entry.get("status") == "ready"]
 
@@ -445,6 +566,7 @@ def run_cloudflare_publish_pipeline(
         round_seed = f"{run_id}-round-{round_no}"
         published_file = f"dist/seo/{run_id}-round-{round_no}-published.json"
         failed_file = f"dist/seo/{run_id}-round-{round_no}-failed.json"
+        submission_report_file = f"dist/seo/{run_id}-round-{round_no}-submission.json"
 
         print(f"PRODUCTION_ROUND_START {round_no}/{safe_rounds} seed={round_seed}", flush=True)
         run("pnpm seo:routes", cwd=WORKDIR, timeout=600)
@@ -456,7 +578,7 @@ def run_cloudflare_publish_pipeline(
         run("EN_TOP_CITY_LIMIT=100 pnpm seo:prompt-bank:check", cwd=WORKDIR, timeout=600)
         run(
             f"RUN_LIMIT={safe_run_limit} CONCURRENCY=4 RATE_DELAY_MS=5000 BATCH_SIZE=2 "
-            f"UPLOAD_R2=0 MIN_SCORE=90 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=5 "
+            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=5 "
             f"QUALITY_RETRY_DELAY_MS=15000 MAX_TOKENS=7200 AI_COOLDOWN_WAIT_PASSES=2 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=15000 GROQ_MAX_TOKENS=6000 "
@@ -482,30 +604,50 @@ def run_cloudflare_publish_pipeline(
             "node scripts/check-seo-ready-routes.mjs || true",
             shell=True, cwd=WORKDIR, capture_output=False, timeout=120
         )
-        commit_sha = git_commit_and_push(routes, run_id, round_no)
+        commit_result = git_commit_and_push(routes, run_id, round_no)
         # Wait for CF Pages build to finish (max 5 min), then submit
+        live_check_passed = True
+        live_check_error = None
         try:
             wait_for_live_routes(routes, max_attempts=10, delay_seconds=30)
-        except RuntimeError:
-            print("WARN: routes not live yet after 5min, submitting anyway", flush=True)
-        submit_routes = ",".join(routes)
-        run(
-            f"URLS={shlex.quote(submit_routes)} URL_LIMIT={safe_run_limit} PLATFORMS={safe_platforms} "
-            "pnpm seo:cloudflare:submit || true",
-            cwd=WORKDIR,
-            timeout=1200,
-        )
+        except RuntimeError as exc:
+            live_check_passed = False
+            live_check_error = str(exc)
+            print(f"WARN: routes not live yet after 5min; skipping platform submission: {live_check_error}", flush=True)
+
+        if live_check_passed:
+            submit_routes = ",".join(routes)
+            submit_code, _submit_output = run_shell_capture_status(
+                f"URLS={shlex.quote(submit_routes)} URL_LIMIT={safe_run_limit} PLATFORMS={safe_platforms} "
+                f"SUBMISSION_REPORT_FILE={shlex.quote(submission_report_file)} "
+                "STRICT_PUBLISH=1 pnpm seo:cloudflare:submit",
+                cwd=WORKDIR,
+                timeout=1200,
+            )
+            submission_report = load_submission_report(submission_report_file)
+            if submit_code != 0:
+                submission_report.setdefault("failedReasons", {})
+                submission_report["failedReasons"]["submission-command"] = f"exit code {submit_code}"
+        else:
+            submission_report = skipped_submission_report(live_check_error or "live check failed", safe_platforms)
 
         round_summary = {
             "round": round_no,
             "seed": round_seed,
             "publishedFile": published_file,
             "failedFile": failed_file,
+            "submissionReportFile": submission_report_file,
             "publishedTotal": len(ready_entries),
             "failedTotal": len(failed_state.get("drafts", [])),
             "latest": latest_entries,
             "routes": routes,
-            "commitSha": commit_sha,
+            "commitSha": commit_result["commitSha"],
+            "pagesDeploy": commit_result["pagesDeploy"],
+            "liveCheckPassed": live_check_passed,
+            "liveCheckError": live_check_error,
+            "submittedPlatforms": submission_report.get("submittedPlatforms", []),
+            "failedPlatforms": submission_report.get("failedPlatforms", []),
+            "failedReasons": submission_report.get("failedReasons", {}),
         }
         round_summaries.append(round_summary)
         print(f"PRODUCTION_ROUND_OK {round_no}/{safe_rounds} routes={','.join(routes)}", flush=True)
@@ -515,15 +657,37 @@ def run_cloudflare_publish_pipeline(
     copy_output_path("data/seo/route-manifest.json", output_root)
     copy_output_path("data/seo/random-prompt-bank.jsonl", output_root)
     copy_output_path("dist/seo", output_root)
+    routes = [route for summary in round_summaries for route in summary.get("routes", [])]
+    commit_shas = [summary.get("commitSha") for summary in round_summaries if summary.get("commitSha")]
+    submitted_platforms = sorted(
+        {platform for summary in round_summaries for platform in summary.get("submittedPlatforms", [])}
+    )
+    failed_platforms = sorted(
+        {platform for summary in round_summaries for platform in summary.get("failedPlatforms", [])}
+    )
+    failed_reasons = {
+        f"round-{summary.get('round')}:{platform}": reason
+        for summary in round_summaries
+        for platform, reason in summary.get("failedReasons", {}).items()
+    }
+    live_check_passed = all(summary.get("liveCheckPassed") for summary in round_summaries)
+    run_status = "success" if live_check_passed and not failed_platforms else "partial"
     write_manifest(
         output_root / "run-manifest.json",
         {
             "runId": run_id,
             "startedAt": started_at,
             "finishedAt": utc_now().isoformat(),
-            "status": "success",
+            "status": run_status,
             "publishedBy": "cloudflare",
             "contentPublishedBy": "github-main",
+            "routes": routes,
+            "commitSha": commit_shas[-1] if commit_shas else None,
+            "commitShas": commit_shas,
+            "liveCheckPassed": live_check_passed,
+            "submittedPlatforms": submitted_platforms,
+            "failedPlatforms": failed_platforms,
+            "failedReasons": failed_reasons,
             "rounds": safe_rounds,
             "runLimit": safe_run_limit,
             "uploadR2": upload_r2,
@@ -536,19 +700,28 @@ def run_cloudflare_publish_pipeline(
     print(json.dumps(round_summaries, ensure_ascii=False, indent=2), flush=True)
     return {
         "ok": True,
+        "status": run_status,
         "runId": run_id,
         "publishedBy": "cloudflare",
         "contentPublishedBy": "github-main",
+        "routes": routes,
+        "commitSha": commit_shas[-1] if commit_shas else None,
+        "commitShas": commit_shas,
+        "liveCheckPassed": live_check_passed,
+        "submittedPlatforms": submitted_platforms,
+        "failedPlatforms": failed_platforms,
+        "failedReasons": failed_reasons,
         "rounds": safe_rounds,
         "runLimit": safe_run_limit,
         "uploadR2": upload_r2,
+        "submitPlatforms": safe_platforms,
         "roundSummaries": round_summaries,
     }
 
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=[CUSTOM_SECRET],
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
     schedule=hourly_schedule,
@@ -559,7 +732,7 @@ def hourly_publish_cron():
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=[CUSTOM_SECRET],
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
 )
@@ -575,7 +748,7 @@ def run_once(rounds: int = 1, run_limit: int = 10, upload_r2: bool = True, submi
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=[CUSTOM_SECRET],
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
 )
@@ -586,7 +759,7 @@ def publish_prompt_bank_to_cloudflare(run_limit: int = 6, upload_r2: bool = True
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=[CUSTOM_SECRET],
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
 )
@@ -656,7 +829,7 @@ def publish_routes_to_cloudflare(target_routes: str, upload_r2: bool = True):
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=[CUSTOM_SECRET],
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
 )
@@ -806,7 +979,7 @@ def test_target_city_articles():
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=[CUSTOM_SECRET],
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
 )
@@ -817,7 +990,7 @@ def publish_prompt_bank_to_cloudflare_rounds(rounds: int = 10, run_limit: int = 
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=[CUSTOM_SECRET],
     volumes={OUTPUT_ROOT: volume},
     timeout=900,
 )
@@ -832,7 +1005,7 @@ def submit_cloudflare_article_urls(platforms: str = "all"):
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=[CUSTOM_SECRET],
     timeout=120,
 )
 def debug_wordpress_env():
@@ -874,7 +1047,7 @@ def debug_wordpress_env():
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=[CUSTOM_SECRET],
     volumes={OUTPUT_ROOT: volume},
     timeout=300,
 )
@@ -897,18 +1070,23 @@ def list_outputs():
     return manifest
 
 
-@app.function(image=image, secrets=[legacy_secret])
+@app.function(image=image, secrets=[CUSTOM_SECRET])
 def check_keys():
-    """Check which AI keys are loaded: python3 -m modal run modal_growth_agent.py::check_keys"""
-    import os
-    for prefix in ["GROQ_API_KEY", "CEREBRAS_API_KEY", "NVIDIA_API_KEY", "GEMINI_API_KEY", "OPENROUTER_API_KEY"]:
-        found = [k for k in [prefix] + [f"{prefix}_{i}" for i in range(2, 11)] if os.environ.get(k)]
-        print(f"{prefix}: {len(found)} key(s) found: {found or 'NONE'}", flush=True)
-    for k in ["CLOUDFLARE_ACCOUNT_ID", "CLOUDFLARE_AI_API_TOKEN", "CLOUDFLARE_API_TOKEN", "GITHUB_TOKEN", "GH_TOKEN", "GITHUB_REPOSITORY", "GITHUB_REPO"]:
-        print(f"{k}: {'SET' if os.environ.get(k) else 'MISSING'}", flush=True)
+    """Check configured keys without printing any secret values."""
+    health = collect_secret_health()
+    print(json.dumps(health, indent=2, ensure_ascii=False), flush=True)
+    return health
 
 
-@app.function(image=image, secrets=[legacy_secret])
+@app.function(image=image, secrets=[CUSTOM_SECRET])
+def health_check():
+    """Lightweight health check: python3 -m modal run modal_growth_agent.py::health_check"""
+    health = collect_secret_health()
+    print(json.dumps(health, indent=2, ensure_ascii=False), flush=True)
+    return health
+
+
+@app.function(image=image, secrets=[CUSTOM_SECRET])
 def test_keys():
     """Test every AI key with a real request: python3 -m modal run modal_growth_agent.py::test_keys"""
     import subprocess
@@ -916,3 +1094,6 @@ def test_keys():
     ensure_dependencies()
     result = subprocess.run(["node", "scripts/seo/test-all-keys.mjs"], cwd=WORKDIR, capture_output=False)
     print(f"Exit code: {result.returncode}", flush=True)
+    if result.returncode != 0:
+        raise RuntimeError("AI key test failed; see log above.")
+    return {"ok": True, "exitCode": result.returncode}

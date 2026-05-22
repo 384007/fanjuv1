@@ -7,16 +7,16 @@ interface Props {
 
 export function PageHeader({ eyebrow, title, subtitle, actions }: Props) {
   return (
-    <div className="mb-10">
-      <div className="flex items-end justify-between gap-6 flex-wrap">
-        <div>
+    <div className="mb-8">
+      <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
+        <div className="min-w-0">
           <div className="flex items-center gap-2 mb-3">
             <span className="size-1 rounded-full bg-[var(--gold)]" />
-            <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--gold)]/80">
+            <span className="font-mono text-[10px] uppercase tracking-[0.24em] text-[var(--gold)]/80">
               {eyebrow}
             </span>
           </div>
-          <h1 className="font-serif italic text-5xl md:text-6xl text-foreground leading-none tracking-tight text-balance">
+          <h1 className="font-serif italic text-4xl md:text-5xl text-foreground leading-none text-balance">
             {title}
           </h1>
           {subtitle && (
@@ -25,10 +25,9 @@ export function PageHeader({ eyebrow, title, subtitle, actions }: Props) {
             </p>
           )}
         </div>
-        {actions && <div className="flex items-center gap-2">{actions}</div>}
+        {actions && <div className="flex flex-wrap items-center gap-2">{actions}</div>}
       </div>
       <div className="gold-hairline h-px mt-8" />
     </div>
   )
 }
-

@@ -10,6 +10,7 @@ import {
 } from "@/lib/lab/mock"
 import type {
   LabArticle,
+  LabCookieStatus,
   LabPlatformAccount,
   LabPublishJob,
   LabSeoCheck,
@@ -64,14 +65,27 @@ async function mockRequest<T>(path: string, init: RequestInit = {}): Promise<T> 
     return {
       platform: plat,
       session_valid: found ? !!found.session_valid : false,
-      configured: !!found,
+      valid: found ? !!found.session_valid : false,
+      configured: found ? true : false,
+      cookie_configured: found ? true : false,
+      auth_type: ["devto", "hashnode", "medium", "bluesky", "reddit"].includes(plat) ? "api-key" : "cookie",
       error: null,
     } as T
   }
   if (path.startsWith("/validate-all-cookies") && method === "POST") {
-    const report: Record<string, { valid: boolean; configured: boolean }> = {}
+    const report: Record<string, LabCookieStatus> = {}
     for (const p of mockPlatforms) {
-      report[p.platform] = { valid: !!p.session_valid, configured: true }
+      report[p.platform] = {
+        platform: p.platform,
+        valid: !!p.session_valid,
+        session_valid: !!p.session_valid,
+        configured: true,
+        cookie_configured: true,
+        auth_type: ["devto", "hashnode", "medium", "bluesky", "reddit"].includes(p.platform)
+          ? "api-key"
+          : "cookie",
+        error: null,
+      }
     }
     return { updated: mockPlatforms.length, report } as T
   }
@@ -91,6 +105,20 @@ async function mockRequest<T>(path: string, init: RequestInit = {}): Promise<T> 
       preview: `# ${body.topic ?? "Untitled"}\n\n[${body.lang ?? "zh"}] Mock draft. Set NEXT_PUBLIC_LAB_API_BASE to connect the deployed lab Worker.\n\n## Opening table\n\nThis local preview keeps the static export working while the production article pipeline continues through Modal, GitHub, and Cloudflare Pages.`,
     } as T
   }
+  if (path === "/seo-check" && method === "POST") {
+    return {
+      score: 92,
+      verdict: "ready",
+      issues: [],
+      title_ok: true,
+      meta_desc_ok: true,
+      word_count: 1800,
+      h2_count: 5,
+      internal_links: 4,
+      keyword_density: "ok",
+      cta_present: true,
+    } as T
+  }
   throw new Error(`mock lab api ${path} not implemented`)
 }
 
@@ -107,6 +135,15 @@ export const labApi = {
       { method: "POST", body: JSON.stringify({ topic, lang, article_id }) },
     ),
 
+  seoCheck: (article_id: string, github_path: string) =>
+    request<{
+      score?: number
+      verdict?: string
+      issues?: string[] | string | null
+      error?: string
+      [key: string]: unknown
+    }>("/seo-check", { method: "POST", body: JSON.stringify({ article_id, github_path }) }),
+
   createPublishJob: (article_id: string, platform: string) =>
     request<{ job_id?: string; skipped?: boolean }>("/publish-jobs", {
       method: "POST",
@@ -120,13 +157,13 @@ export const labApi = {
     }),
 
   checkCookie: (platform: string) =>
-    request<{ platform: string; session_valid: boolean; configured: boolean; error?: string | null }>(
+    request<LabCookieStatus>(
       "/check-cookie",
       { method: "POST", body: JSON.stringify({ platform }) },
     ),
 
   validateAllCookies: () =>
-    request<{ updated?: number; report?: Record<string, { valid: boolean; configured: boolean }>; skipped?: boolean }>(
+    request<{ updated?: number; report?: Record<string, LabCookieStatus>; skipped?: boolean; reason?: string; error?: string }>(
       "/validate-all-cookies",
       { method: "POST", body: JSON.stringify({}) },
     ),

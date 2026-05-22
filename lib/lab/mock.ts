@@ -228,4 +228,10 @@ export const mockStats: LabStats = {
     is_active: p.is_active,
     session_valid: p.session_valid,
   })),
+  seo: {
+    average_score: Math.round(
+      mockSeoChecks.reduce((sum, check) => sum + check.score, 0) / mockSeoChecks.length,
+    ),
+    count: mockSeoChecks.length,
+  },
 }

@@ -49,6 +49,17 @@ export interface LabPlatformAccount {
   notes: string | null
 }
 
+export interface LabCookieStatus {
+  platform?: string
+  valid: boolean
+  session_valid?: boolean
+  configured: boolean | null
+  cookie_configured?: boolean | null
+  auth_type?: "cookie" | "api-key" | "unknown"
+  last_check_at?: string | null
+  error?: string | null
+}
+
 export interface LabSeoCheck {
   id: string
   article_id: string
@@ -71,4 +82,8 @@ export interface LabStats {
     is_active: number
     session_valid: number
   }[]
+  seo?: {
+    average_score?: number | null
+    count?: number
+  } | null
 }
