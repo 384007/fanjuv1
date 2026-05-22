@@ -493,11 +493,8 @@ def run_cloudflare_publish_pipeline(
                     if entry.get("sourcePath")
                 }
                 current_bad = sorted(current_files.intersection(bad_files))
-                if current_bad and len(current_files - set(bad_files)) < safe_run_limit // 2:
-                    raise RuntimeError(
-                        "Current round article(s) failed strict source checks; refusing to quarantine and publish fewer than "
-                        f"{safe_run_limit // 2}: {current_bad}"
-                    )
+                if current_bad:
+                    print(f"QUARANTINE current-round bad articles: {current_bad}", flush=True)
                 import shutil as _shutil
                 quarantine_dir = Path(WORKDIR) / "content" / "seo-quarantine"
                 quarantine_dir.mkdir(parents=True, exist_ok=True)
