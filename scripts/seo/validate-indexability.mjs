@@ -108,6 +108,12 @@ if (existsSync(GENERATED_NOINDEX_DIR)) {
   }
 }
 
+// A path with at least one ready article is canonical, even if a low-score
+// or draft sibling file exists for the same canonicalPath. The duplicate is a
+// content-quality concern (warned below) but must not invalidate a legitimate
+// canonical URL that already ships in the sitemap.
+for (const p of canonicalPaths) draftPaths.delete(p)
+
 console.log(`📄 Ready articles: ${canonicalPaths.size} canonical, ${draftPaths.size} draft\n`)
 
 // ─── 2. Validate sitemap ──────────────────────────────────────────────────────
@@ -144,6 +150,7 @@ if (!existsSync(SITEMAP_FILE)) {
   let sitemapDrafts = 0
   let sitemapNonAbsolute = 0
   let sitemapNoArticle = 0
+  const draftLeaks = []
 
   for (const loc of sitemapUrls) {
     if (!loc.startsWith("https://")) {
@@ -155,6 +162,7 @@ if (!existsSync(SITEMAP_FILE)) {
 
     if (draftPaths.has(path) && !seoDataPaths.has(path)) {
       sitemapDrafts++
+      draftLeaks.push(path)
     }
 
     if (/^\/(?:en\/)?city\/[^/]+\/[^/]+$/.test(path) && !canonicalPaths.has(path) && !seoDataPaths.has(path)) {
@@ -166,8 +174,13 @@ if (!existsSync(SITEMAP_FILE)) {
   if (sitemapNonAbsolute > 0) fail(`${sitemapNonAbsolute} sitemap URLs are not absolute`)
   else pass("All sitemap URLs are absolute")
 
-  if (sitemapDrafts > 0) fail(`${sitemapDrafts} draft URLs found in sitemap`)
-  else pass("No draft URLs in sitemap")
+  if (sitemapDrafts > 0) {
+    fail(`${sitemapDrafts} draft URLs found in sitemap`)
+    for (const p of draftLeaks.slice(0, 20)) console.error(`     - ${p}`)
+    if (draftLeaks.length > 20) console.error(`     ... and ${draftLeaks.length - 20} more`)
+  } else {
+    pass("No draft URLs in sitemap")
+  }
 
   if (sitemapNoArticle === 0) pass("All sitemap city/category URLs have dedicated ready articles or seo-data coverage")
 
@@ -276,6 +289,32 @@ for (const [path, files] of pathCounts) {
   }
 }
 if (dupes === 0) pass("No duplicate canonicalPaths")
+
+// Soft warning: a ready article and a draft sibling share the same canonicalPath.
+// The sitemap correctly publishes the ready URL, but the draft file is dead
+// weight that should be cleaned up by the content pipeline.
+if (existsSync(READY_DIR)) {
+  const allByPath = new Map()
+  for (const file of readdirSync(READY_DIR).filter((f) => f.endsWith(".md"))) {
+    const raw = readFileSync(join(READY_DIR, file), "utf8")
+    const meta = parseFrontmatter(raw)
+    const cp = normalizePath(meta.canonicalPath || "")
+    if (!cp) continue
+    const score = parseInt(meta.aiQualityScore || "0", 10)
+    const ready = meta.status === "ready" && score >= MIN_SCORE
+    if (!allByPath.has(cp)) allByPath.set(cp, { ready: [], draft: [] })
+    allByPath.get(cp)[ready ? "ready" : "draft"].push(file)
+  }
+  let crossKindDupes = 0
+  for (const [cp, { ready, draft }] of allByPath) {
+    if (ready.length && draft.length) {
+      console.warn(`  ⚠️  canonicalPath "${cp}" shared by ready (${ready.join(", ")}) and draft (${draft.join(", ")}) — sitemap uses ready, draft sibling is ignored`)
+      warnings++
+      crossKindDupes++
+    }
+  }
+  if (crossKindDupes === 0) pass("No ready/draft canonicalPath collisions")
+}
 
 // ─── 6. Summary ──────────────────────────────────────────────────────────────
 
