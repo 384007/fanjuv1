@@ -124,11 +124,11 @@ const BANNED_PHRASES_FOR_BODY = [
   /开头段落/,
   /正文要求/,
   /只返回合法 JSON/,
-  /模型/,
+  /模型(输出|生成|推理|训练)/,
   /后台系统/,
   /后台管理/,
   /技术栈/,
-  /自动化/,
+  /自动化(脚本|部署|流水线|发布|生成)/,
 ]
 
 function detectLeaks(text) {
@@ -593,7 +593,26 @@ function latinNoiseInZhHeading(value = "") {
     .filter((word) => !allowed.has(word))
 }
 
-function latinNoiseInZhBody(value = "") {
+const TOPIC_ALLOWLIST = {
+  coffee: ["hario", "tds", "kettle", "latte", "espresso", "cappuccino", "americano", "mocha", "drip", "pour-over", "aeropress", "chemex", "siphon", "french-press", "cold-brew", "barista", "roast", "arabica", "robusta", "crema", "tasting", "note", "cupping", "filter", "grinder", "extraction"],
+  wine: ["wine", "sommelier", "tannin", "decanter", "terroir", "vintage", "merlot", "cabernet", "pinot", "chardonnay", "rosé", "brut", "cuvée"],
+  whisky: ["whisky", "whiskey", "bourbon", "scotch", "malt", "peat", "cask", "neat", "blend"],
+  cocktail: ["cocktail", "gin", "tonic", "martini", "mojito", "shaker", "highball", "negroni"],
+  tea: ["matcha", "oolong", "earl-grey", "chai"],
+  bbq: ["bbq", "grill", "smoker", "charcoal"],
+  vegan: ["vegan", "tofu", "tempeh", "seitan"],
+  pet: ["pet", "cat", "dog"],
+}
+
+function topicAllowedWords(topicSlug = "") {
+  const extra = new Set()
+  for (const [key, words] of Object.entries(TOPIC_ALLOWLIST)) {
+    if (topicSlug.includes(key)) words.forEach((w) => extra.add(w))
+  }
+  return extra
+}
+
+function latinNoiseInZhBody(value = "", topicSlug = "") {
   const allowed = new Set([
     "fanju", "app", "ai", "vc", "ceo", "cfo", "cto", "coo", "mba", "pm", "ip", "bd",
     "saas", "b2b", "b2c",
@@ -602,6 +621,7 @@ function latinNoiseInZhBody(value = "") {
     "solo", "nearby", "online", "offline", "wifi", "ok", "yes", "no",
     "cbd", "gps", "id", "pin", "qr", "url", "seo", "tob", "toc", "toб",
   ])
+  for (const w of topicAllowedWords(topicSlug)) allowed.add(w)
   const words = new Set()
   for (const match of String(value || "").matchAll(/[A-Za-z][A-Za-z-]{2,}/g)) {
     const word = match[0].toLowerCase()
@@ -873,7 +893,7 @@ function scoreArticle(prompt, parsed) {
     const titleNoise = latinNoiseInZhHeading(title)
     const h1Noise = latinNoiseInZhHeading(h1)
     const headingNoise = zhHeadingLatinNoise(body)
-    const bodyNoise = latinNoiseInZhBody(body)
+    const bodyNoise = latinNoiseInZhBody(body, prompt.topicSlug)
     if (titleNoise.length) issues.push(`latin-word-in-zh-title:${titleNoise.slice(0, 3).join("|")}`)
     if (h1Noise.length) issues.push(`latin-word-in-zh-h1:${h1Noise.slice(0, 3).join("|")}`)
     if (headingNoise.length) issues.push(`latin-word-in-zh-heading:${headingNoise.slice(0, 5).join("|")}`)
@@ -945,7 +965,7 @@ function isHardIssue(issue) {
     issue.startsWith("latin-word-in-zh-title") ||
     issue.startsWith("latin-word-in-zh-h1") ||
     issue.startsWith("latin-word-in-zh-heading") ||
-    issue.startsWith("latin-word-in-zh-body") ||
+    issue.startsWith("latin-word-in-zh-body") && (issue.split(":")[1] || "").split("|").length >= 3 ||
     issue.startsWith("malformed-heading") ||
     issue.startsWith("missing-primary-keyword") ||
     issue === "missing-city-context" ||
@@ -1071,7 +1091,11 @@ function retryIssueSummaryForModel(locale, issues = []) {
     else if (issue === "missing-or-short-description") add(locale === "zh" ? "描述太短" : "description too short")
     else if (issue.startsWith("missing-primary-keyword")) add(locale === "zh" ? "开头缺少品牌词" : "opening missing brand phrase")
     else if (issue.includes("missing-city") || issue === "missing-city-context") add(locale === "zh" ? "城市语境不足" : "city context missing")
-    else if (issue.startsWith("pinyin-city-name-in-zh-public-text") || issue.startsWith("latin-word-in-zh-")) add("中文公开文本含拼音或英文城市词")
+    else if (issue.startsWith("pinyin-city-name-in-zh-public-text")) add("中文公开文本含拼音或英文城市词")
+    else if (issue.startsWith("latin-word-in-zh-")) {
+      const words = issue.split(":")[1] || ""
+      add(locale === "zh" ? `中文正文不能出现这些英文词：${words.replace(/\|/g, "、")}，请用中文替代或删除` : `body contains forbidden Latin words: ${words.replace(/\|/g, ", ")}; use Chinese equivalents or remove`)
+    }
     else if (issue.startsWith("malformed-heading")) add(locale === "zh" ? "Markdown 标题格式错误" : "malformed Markdown headings")
     else if (issue.startsWith("public-link")) add(locale === "zh" ? "公开文本含链接" : "public text contains links")
     else add(locale === "zh" ? "质量门未通过" : "quality gate failed")
@@ -1092,12 +1116,22 @@ function retryPrompt(basePrompt, attempt, issues) {
     : bodyTooLong
       ? "正文要收紧到 2,800-4,800 字符，10-14 个公开自然段，不要重复小节，不要为了凑长扩写。"
       : "至少 13 个公开自然段，段落之间空行；每个 H2 下面必须正好两段，每段 120-190 个汉字；不要项目符号或编号列表。"
+  // Extract specific forbidden Latin words from issues for explicit ban
+  const forbiddenWords = issues
+    .filter((i) => i.startsWith("latin-word-in-zh-"))
+    .flatMap((i) => (i.split(":")[1] || "").split("|"))
+    .filter(Boolean)
+  const forbiddenBan = forbiddenWords.length
+    ? isEn
+      ? ` FORBIDDEN WORDS (do NOT use these anywhere): ${forbiddenWords.join(", ")}. Use Chinese equivalents only.`
+      : `【禁止出现以下英文词】${forbiddenWords.join("、")}——必须全部用中文表达，不能出现任何英文专业术语。`
+    : ""
   return [
     basePrompt.userPrompt,
     "",
     isEn
-      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch and satisfy the automated gate in one pass. Return only the article text, starting with "# ". The H1/title must include the city and the exact phrase "Fanju app"; the first paragraph must include the city and Fanju app so the generated description also passes. Use exactly 6 "## " headings, exactly one "### " reader question, and at least 13 natural paragraphs. Every H2 needs at least two paragraphs. Do not use generic headings such as "Who this is for", "Safety and boundaries", "How it works", "What to expect", "Next steps", or "Conclusion". Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
-      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写，并一次满足自动质量门。只返回文章正文，第一行必须以「# 」开头。标题/H1 必须包含中文城市名和「饭局app」；第一段必须同时出现中文城市名和「饭局app」，这样 description 才能过。必须写 6 个「## 」标题、且只写 1 个「### 」具体疑问标题；至少 13 个自然段；每个 H2 下必须正好 2 段。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这种通用标题。标题、H1、开头段落、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。不要用加粗标题、编号标题、项目列表或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整；不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
+      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch and satisfy the automated gate in one pass.${forbiddenBan} Return only the article text, starting with "# ". The H1/title must include the city and the exact phrase "Fanju app"; the first paragraph must include the city and Fanju app so the generated description also passes. Use exactly 6 "## " headings, exactly one "### " reader question, and at least 13 natural paragraphs. Every H2 needs at least two paragraphs. Do not use generic headings such as "Who this is for", "Safety and boundaries", "How it works", "What to expect", "Next steps", or "Conclusion". Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
+      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写，并一次满足自动质量门。${forbiddenBan}只返回文章正文，第一行必须以「# 」开头。标题/H1 必须包含中文城市名和「饭局app」；第一段必须同时出现中文城市名和「饭局app」，这样 description 才能过。必须写 6 个「## 」标题、且只写 1 个「### 」具体疑问标题；至少 13 个自然段；每个 H2 下必须正好 2 段。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这种通用标题。标题、H1、开头段落、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。不要用加粗标题、编号标题、项目列表或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整；不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
   ].join("\n")
 }
 
