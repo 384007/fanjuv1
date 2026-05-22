@@ -483,7 +483,11 @@ def run_cloudflare_publish_pipeline(
             shell=True, cwd=WORKDIR, capture_output=False, timeout=120
         )
         commit_sha = git_commit_and_push(routes, run_id, round_no)
-        # Skip waiting for CF Pages build - submit URLs optimistically
+        # Wait for CF Pages build to finish (max 5 min), then submit
+        try:
+            wait_for_live_routes(routes, max_attempts=10, delay_seconds=30)
+        except RuntimeError:
+            print("WARN: routes not live yet after 5min, submitting anyway", flush=True)
         submit_routes = ",".join(routes)
         run(
             f"URLS={shlex.quote(submit_routes)} URL_LIMIT={safe_run_limit} PLATFORMS={safe_platforms} "
