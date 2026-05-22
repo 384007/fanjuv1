@@ -4,7 +4,7 @@ export default {
   },
 }
 
-async function findReadyArticle(slug, env) {
+async function _findReadyArticle(slug, env) {
   const direct = await env.FANJU_DB.prepare(
     `SELECT slug, lang, title, description, canonical_path, alternate_path, r2_key, body_html, status, updated_at
      FROM articles WHERE slug = ? AND status = 'ready' LIMIT 1`,
@@ -14,7 +14,7 @@ async function findReadyArticle(slug, env) {
   return null
 }
 
-async function findAlternateReadyArticle(slug, env) {
+async function _findAlternateReadyArticle(slug, env) {
   if (!slug.startsWith("en/")) {
     const alternate = await env.FANJU_DB.prepare(
       `SELECT slug, lang, title, description, canonical_path, alternate_path, r2_key, body_html, status, updated_at
@@ -34,12 +34,16 @@ async function findAlternateReadyArticle(slug, env) {
   return null
 }
 
-async function articleResponse(url, article, env, headOnly) {
+async function _articleResponse(url, article, env, headOnly) {
   if (!article) return null
   const body = await articleBody(article, env)
   if (!body || isBadPublicArticle(article, body)) return null
   return htmlResponse(url, article, body, env, headOnly)
 }
+
+void _findReadyArticle
+void _findAlternateReadyArticle
+void _articleResponse
 
 async function articleBody(article, env) {
   if (article.r2_key && env.FANJU_ARTICLES) {

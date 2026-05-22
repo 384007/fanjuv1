@@ -73,8 +73,18 @@ function parseFrontmatter(raw: string): { meta: Record<string, string>; body: st
   if (!match) return { meta: {}, body: raw }
   const meta: Record<string, string> = {}
   for (const line of match[1].split("\n")) {
-    const m = line.match(/^(\w+):\s*"?([^"]*)"?\s*$/)
-    if (m) meta[m[1]] = m[2].trim()
+    const m = line.match(/^(\w+):\s*(.*)\s*$/)
+    if (!m) continue
+    let value = m[2].trim()
+    const quote = value[0]
+    if ((quote === "\"" || quote === "'") && value.endsWith(quote)) {
+      value = value.slice(1, -1)
+      value = quote === "\""
+        ? value.replace(/\\"/g, "\"")
+        : value.replace(/\\'/g, "'")
+      value = value.replace(/\\\\/g, "\\")
+    }
+    meta[m[1]] = value.trim()
   }
   return { meta, body: match[2].trim() }
 }
@@ -348,7 +358,7 @@ function isCityTopicPath(path: string): boolean {
   return /^\/(?:en\/)?city\/[^/]+\/[^/]+$/.test(pathWithoutHash(path))
 }
 
-function isPathLang(path: string, lang: "zh" | "en") {
+function _isPathLang(path: string, lang: "zh" | "en") {
   const normalized = pathWithoutHash(path)
   return lang === "en" ? normalized.startsWith("/en/") : !normalized.startsWith("/en/")
 }

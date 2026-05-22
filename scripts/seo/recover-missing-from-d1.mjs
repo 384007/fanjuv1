@@ -3,8 +3,7 @@
  * Fetch articles from D1 that are missing local markdown files and write them back.
  * Run before `pnpm build` to ensure all published D1 articles are in the repo.
  */
-import { execSync } from "child_process"
-import { existsSync, writeFileSync, readdirSync } from "fs"
+import { writeFileSync, readdirSync } from "fs"
 import { join } from "path"
 
 const CONTENT_DIR = "content/seo-ready"

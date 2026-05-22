@@ -263,7 +263,7 @@ export default {
               .run()
             return ok({ platform, session_valid: valid, last_check_at: new Date().toISOString(), cookie_configured: true })
           }
-        } catch (_) {
+        } catch {
           // Modal unreachable — fall through to return cached value
         }
       }

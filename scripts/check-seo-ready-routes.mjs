@@ -33,8 +33,18 @@ function parseFrontmatter(raw) {
   if (!match) return {}
   const meta = {}
   for (const line of match[1].split("\n")) {
-    const m = line.match(/^(\w+):\s*"?([^"]*)"?\s*$/)
-    if (m) meta[m[1]] = m[2].trim()
+    const m = line.match(/^(\w+):\s*(.*)\s*$/)
+    if (!m) continue
+    let value = m[2].trim()
+    const quote = value[0]
+    if ((quote === "\"" || quote === "'") && value.endsWith(quote)) {
+      value = value.slice(1, -1)
+      value = quote === "\""
+        ? value.replace(/\\"/g, "\"")
+        : value.replace(/\\'/g, "'")
+      value = value.replace(/\\\\/g, "\\")
+    }
+    meta[m[1]] = value.trim()
   }
   return meta
 }

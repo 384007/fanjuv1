@@ -385,8 +385,18 @@ ${importantLinks.map((link) => `- [${link.label}](${link.url})`).join("\n")}
 }
 
 export function frontmatterValue(markdown, key) {
-  const match = markdown.match(new RegExp(`^${key}:\\s*"?([^"\\n]+)"?`, "m"))
-  return match?.[1]?.trim()
+  const match = markdown.match(new RegExp(`^${key}:\\s*(.*)$`, "m"))
+  if (!match) return undefined
+  let value = match[1].trim()
+  const quote = value[0]
+  if ((quote === "\"" || quote === "'") && value.endsWith(quote)) {
+    value = value.slice(1, -1)
+    value = quote === "\""
+      ? value.replace(/\\"/g, "\"")
+      : value.replace(/\\'/g, "'")
+    value = value.replace(/\\\\/g, "\\")
+  }
+  return value.trim()
 }
 
 export function readDrafts() {

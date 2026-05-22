@@ -46,7 +46,14 @@ function parseFrontmatter(md) {
     if (!m) continue
     const key = m[1]
     let value = m[2].trim()
-    value = value.replace(/^"|"$/g, "")
+    const quote = value[0]
+    if ((quote === "\"" || quote === "'") && value.endsWith(quote)) {
+      value = value.slice(1, -1)
+      value = quote === "\""
+        ? value.replace(/\\"/g, "\"")
+        : value.replace(/\\'/g, "'")
+      value = value.replace(/\\\\/g, "\\")
+    }
     if (/^\d+$/.test(value)) value = Number.parseInt(value, 10)
     fm[key] = value
   }

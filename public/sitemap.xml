@@ -5731,6 +5731,12 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/aksu/mechanical-engineer-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/aksu/product-manager-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -5749,6 +5755,12 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/alxa/supper-club</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/alxa/weeknight-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -5756,6 +5768,30 @@
   </url>
   <url>
     <loc>https://fanju.app/city/ankang/language-learner-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/anqing/hardware-engineer-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/anshan/night-owl-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/baishan/singles-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/baiyin/civil-engineer-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -5803,6 +5839,12 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/bayannur/picnic-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/bazhong/designer-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -5827,6 +5869,18 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/changji/book-lover-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/changji/pet-owner-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/changji/photography-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -5834,6 +5888,18 @@
   </url>
   <url>
     <loc>https://fanju.app/city/changzhou/media-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/chaoyang-liaoning/fashion-lover-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/chizhou/local-guide-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -5863,6 +5929,12 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/dazhou/single-parent-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/dongguan/mba-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -5870,6 +5942,18 @@
   </url>
   <url>
     <loc>https://fanju.app/en/city/abu-dhabi/supper-club</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/accra/esports-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/accra/firefighter-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -5905,7 +5989,19 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/ahmedabad/painting-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/alexandria/devtools-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/alexandria/operator-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -5917,7 +6013,37 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/athens/creator-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/athens/frisbee-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/atlanta/community-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/atlanta/farm-to-table-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/atlanta/philosophy-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/austin/translator-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -5930,6 +6056,12 @@
   </url>
   <url>
     <loc>https://fanju.app/en/city/baghdad/angel-investor-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/bangalore/yoga-instructor-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -5954,6 +6086,12 @@
   </url>
   <url>
     <loc>https://fanju.app/en/city/bangkok/government-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/bangkok/pottery-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -5989,13 +6127,31 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/barcelona/waitlist-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/berlin/editor-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/bogota/cooking-class-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/bogota/french-learner-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/bogota/picnic-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6008,6 +6164,12 @@
   </url>
   <url>
     <loc>https://fanju.app/en/city/boston/early-riser-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/boston/potluck-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6049,13 +6211,31 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/cape-town/magic-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/chennai/casual-restaurant-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/chicago/cleantech-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/copenhagen/community-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/copenhagen/neighborhood-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6079,6 +6259,18 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/dallas/millennial-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/dallas/night-owl-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/dar-es-salaam/pr-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -6097,7 +6289,25 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/delhi/french-learner-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/delhi/hidden-gem-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/delhi/new-friends-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/delhi/sustainability-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6127,7 +6337,19 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/doha/translator-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/dubai/badminton-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/dubai/city-community-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6139,7 +6361,25 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/dublin/music-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/fanju-vs-facebook-groups</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/fukuoka/early-riser-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/fukuoka/remote-worker-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6170,6 +6410,12 @@
   </url>
   <url>
     <loc>https://fanju.app/en/city/ho-chi-minh-city/investor-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/houston/minimalist-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6223,6 +6469,12 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/johannesburg/hardware-engineer-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/khartoum/dog-owner-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -6235,7 +6487,19 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/khartoum/valentines-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/kinshasa/creator-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/kolkata/designer-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6259,7 +6523,25 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/kyoto/dentist-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/kyoto/dog-owner-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/kyoto/language-exchange-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/lagos/brand-collaboration-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6271,7 +6553,19 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/lahore/restaurant-discovery-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/lahore/vc-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/las-vegas/firefighter-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6295,7 +6589,31 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/london/morning-routine-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/london/six-person-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/luanda/energy-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/luanda/returnee-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/madrid/agriculture-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6325,7 +6643,19 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/manila/diving-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/melbourne/ai-founder-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/melbourne/archery-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6349,7 +6679,31 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/miami/creator-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/miami/marketing-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/milan/community-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/milan/korean-learner-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/milan/saturday-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6409,6 +6763,30 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/nairobi/vegetarian-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/osaka/badminton-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/osaka/night-owl-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/paris/open-table-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/paris/vintage-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -6422,6 +6800,18 @@
   </url>
   <url>
     <loc>https://fanju.app/en/city/perth/urban-planner-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/phoenix/mandarin-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/prague/k-pop-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6457,7 +6847,19 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/rome/ramen-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/san-diego/military-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/san-francisco/board-game-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6470,6 +6872,18 @@
   </url>
   <url>
     <loc>https://fanju.app/en/city/santiago/community-builder-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/santiago/digital-nomad-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/santiago/high-quality-social-dining</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6493,7 +6907,43 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/sao-paulo/magic-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/sao-paulo/photographer-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/seattle/saturday-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/seattle/stoic-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/seoul/dinner-buddy</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/seoul/hidden-gem-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/singapore/consumer-founder-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6511,6 +6961,24 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/sydney/philosophy-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/taipei/gaming-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/tehran/graphic-designer-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/tehran/social-reset-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -6523,13 +6991,37 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/toronto/barista-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/vancouver/improv-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/vancouver/professor-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/vienna/business-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/vienna/family-style-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/vienna/lunar-new-year-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6547,7 +7039,19 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/en/city/yokohama/photographer-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/en/city/yokohama/student-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/en/city/zurich/millennial-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6571,6 +7075,12 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/foshan/mindfulness-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/foshan/supper-club</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -6589,7 +7099,25 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/fuzhou-jiangxi/rowing-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/fuzhou/stranger-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/gannan/hardware-engineer-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/ganzi/environmental-engineer-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6613,7 +7141,31 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/guilin/marathon-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/guoluo/consumer-founder-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/guoluo/sports-coach-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/guoluo/triathlon-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/haikou/cross-border-ecommerce-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6643,6 +7195,12 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/hefei/post-pandemic-social-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/hegang/concert-goer-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -6655,7 +7213,19 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/hengyang/architect-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/honghe/advertising-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/huaian/sunday-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6668,6 +7238,12 @@
   </url>
   <url>
     <loc>https://fanju.app/city/huaibei/supper-club</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/huaibei/sushi-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6703,7 +7279,19 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/ili/zero-waste-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/jiaxing/product-manager-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/jieyang/fashion-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6721,7 +7309,25 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/jincheng/sustainability-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/jingdezhen/devtools-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/jingdezhen/hidden-gem-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/jinzhou/local-community-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6751,7 +7357,25 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/kizilsu/diy-maker-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/kunming/healthcare-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/lianyungang/brand-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/linfen/trusted-rsvp-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6763,7 +7387,19 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/lishui/ai-products-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/lishui/newcomer-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/liupanshui/hosted-table</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6805,7 +7441,31 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/nanyang/hedge-fund-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/nanyang/language-learner-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/neijiang/volunteering-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/ningbo/holiday-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/nujiang/parenting-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6835,7 +7495,31 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/pingxiang/esports-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/pingxiang/pottery-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/qiandongnan/copywriter-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/qiandongnan/quality-friends-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/qiandongnan/wine-tasting-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6848,6 +7532,18 @@
   </url>
   <url>
     <loc>https://fanju.app/city/qingdao/researcher-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/qingyuan/founder-operator-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/rikaze/architecture-lover-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6871,7 +7567,25 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/shanghai/professor-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/shangrao/comedy-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/shannan/spanish-learner-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/shantou/volunteering-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6889,13 +7603,31 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/shaoguan/introvert-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/shaoguan/nonprofit-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/shaoyang/city-community-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/shenyang/devtools-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/shenyang/verified-host-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6919,7 +7651,31 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/suzhou-anhui/cloud-computing-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/suzhou-anhui/documentary-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/tacheng/international-student-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/taian/government-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/taian/wine-tasting-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6931,13 +7687,31 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/tianjin/local-community-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/tianshui/single-parent-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/tongchuan/esports-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/turpan/dinner-buddy</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/weinan/potluck-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6956,6 +7730,12 @@
   </url>
   <url>
     <loc>https://fanju.app/city/wuhai/pet-owner-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/wulumuqi/freelancer-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -6997,6 +7777,12 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/xingtai/networking-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/xingtai/writer-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -7015,6 +7801,18 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/xinzhou/ramen-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/xuancheng/morning-routine-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/xuancheng/street-food-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -7022,6 +7820,12 @@
   </url>
   <url>
     <loc>https://fanju.app/city/xuzhou/casual-restaurant-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/yanbian/creator-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -7045,6 +7849,12 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/yantai/new-friends-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/yibin/rooftop-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -7052,6 +7862,24 @@
   </url>
   <url>
     <loc>https://fanju.app/city/yichang/wine-tasting-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/yinchuan/jazz-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/yingtan/invite-only-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/yongzhou/local-food-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -7069,6 +7897,12 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/yuncheng/anime-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/zaozhuang/robotics-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -7081,7 +7915,25 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://fanju.app/city/zhangjiajie/martial-arts-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/zhangye/data-scientist-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://fanju.app/city/zhanjiang/language-learner-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/zhanjiang/sci-tech-enthusiast-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -7112,6 +7964,12 @@
   </url>
   <url>
     <loc>https://fanju.app/city/zigong/japanese-learner-dinner</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://fanju.app/city/ziyang/bilingual-dinner</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
