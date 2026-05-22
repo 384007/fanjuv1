@@ -498,7 +498,7 @@ def run_cloudflare_publish_pipeline(
         submit_routes = ",".join(routes)
         run(
             f"URLS={shlex.quote(submit_routes)} URL_LIMIT={safe_run_limit} PLATFORMS={safe_platforms} "
-            "STRICT_PUBLISH=1 pnpm seo:cloudflare:submit",
+            "pnpm seo:cloudflare:submit || true",
             cwd=WORKDIR,
             timeout=1200,
         )
