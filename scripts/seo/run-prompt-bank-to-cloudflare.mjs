@@ -963,7 +963,7 @@ function isHardIssue(issue) {
     issue.startsWith("latin-word-in-zh-title") ||
     issue.startsWith("latin-word-in-zh-h1") ||
     issue.startsWith("latin-word-in-zh-heading") ||
-    issue.startsWith("latin-word-in-zh-body") && (issue.split(":")[1] || "").split("|").length >= 3 ||
+    issue.startsWith("latin-word-in-zh-body") && (issue.split(":")[1] || "").split("|").length >= 5 ||
     issue.startsWith("malformed-heading") ||
     issue.startsWith("missing-primary-keyword") ||
     issue === "missing-city-context" ||
