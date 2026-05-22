@@ -455,9 +455,9 @@ def run_cloudflare_publish_pipeline(
         )
         run("EN_TOP_CITY_LIMIT=100 pnpm seo:prompt-bank:check", cwd=WORKDIR, timeout=600)
         run(
-            f"RUN_LIMIT={safe_run_limit} CONCURRENCY=2 RATE_DELAY_MS=15000 BATCH_SIZE=1 "
+            f"RUN_LIMIT={safe_run_limit} CONCURRENCY=4 RATE_DELAY_MS=5000 BATCH_SIZE=2 "
             f"UPLOAD_R2=0 MIN_SCORE=90 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=5 "
-            f"QUALITY_RETRY_DELAY_MS=60000 MAX_TOKENS=7200 AI_COOLDOWN_WAIT_PASSES=2 "
+            f"QUALITY_RETRY_DELAY_MS=15000 MAX_TOKENS=7200 AI_COOLDOWN_WAIT_PASSES=2 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=60000 GROQ_MAX_TOKENS=6000 "
             "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "
