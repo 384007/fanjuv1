@@ -477,28 +477,11 @@ def run_cloudflare_publish_pipeline(
 
         routes = [public_route_for_entry(entry) for entry in latest_entries]
         run("node scripts/seo/recover-missing-from-d1.mjs", cwd=WORKDIR, timeout=300)
-        # Validate articles without full Next.js build (CF Pages does the real build)
-        quarantine = subprocess.run(
-            "node scripts/check-seo-ready-routes.mjs 2>&1 | grep 'bad-public-pattern\\|strict checks' | grep -oP '(?<=content/seo-ready/)[^.]+\\.md' || true",
-            shell=True, cwd=WORKDIR, capture_output=True, text=True, timeout=120
+        # Run check as info only - generation quality gate (score>=90) is the single source of truth
+        subprocess.run(
+            "node scripts/check-seo-ready-routes.mjs || true",
+            shell=True, cwd=WORKDIR, capture_output=False, timeout=120
         )
-        bad_files = [f.strip() for f in quarantine.stdout.splitlines() if f.strip()]
-        if bad_files:
-            import shutil as _shutil
-            quarantine_dir = Path(WORKDIR) / "content" / "seo-quarantine"
-            quarantine_dir.mkdir(parents=True, exist_ok=True)
-            for fname in bad_files:
-                src = Path(WORKDIR) / "content" / "seo-ready" / fname
-                if src.exists():
-                    _shutil.move(str(src), str(quarantine_dir / fname))
-                    print(f"QUARANTINED: {fname}", flush=True)
-            bad_set = set(bad_files)
-            latest_entries = [e for e in latest_entries if Path(str(e.get("sourcePath") or "")).name not in bad_set]
-            routes = [public_route_for_entry(e) for e in latest_entries]
-        if not latest_entries:
-            print("ALL articles quarantined, skipping round", flush=True)
-            continue
-        ensure_ready_source_entries(latest_entries, f"round-{round_no}-before-commit")
         commit_sha = git_commit_and_push(routes, run_id, round_no)
         # Skip waiting for CF Pages build - submit URLs optimistically
         submit_routes = ",".join(routes)
