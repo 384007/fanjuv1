@@ -600,6 +600,7 @@ const TOPIC_ALLOWLIST = {
   tech: ["git", "github", "gitlab", "webpack", "vite", "eslint", "typescript", "javascript", "python", "rust", "docker", "kubernetes", "pipeline", "devops", "npm", "react", "vue", "node", "linux", "vscode", "terraform", "serverless", "prometheus", "idc", "cdn", "redis", "postgres", "mysql", "mongodb", "aws", "azure", "gcp"],
   startup: ["pitch", "deck", "runway", "pivot", "mvp", "series", "seed", "angel", "ipo", "valuation", "equity", "cap-table"],
   freelancer: ["freelance", "remote", "coworking", "upwork", "fiverr", "portfolio", "invoice", "retainer"],
+  robot: ["agv", "plc", "pid", "ros", "slam", "lidar", "servo", "actuator", "sensor", "iot", "mcu", "arm", "cnc", "cad", "cam"],
 }
 
 function topicAllowedWords(topicSlug = "") {
