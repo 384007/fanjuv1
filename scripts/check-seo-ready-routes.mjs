@@ -22,6 +22,8 @@ const ROOT = join(__dirname, "..")
 const READY_DIR = join(ROOT, "content/seo-ready")
 const MANIFEST_FILE = join(ROOT, "data/seo/route-manifest.json")
 const MIN_SCORE = 90
+const QUIET = process.env.SEO_READY_CHECK_VERBOSE !== "1"
+  && (process.env.CI === "true" || process.env.CF_PAGES === "1" || process.env.QUIET_SEO_READY_CHECK === "1")
 const ZH_CITY_LOCALIZED_COUNTRIES = new Set(["CN", "HK", "MO", "TW"])
 let routeMetaCache = null
 let routeCityNameIndexCache = null
@@ -496,6 +498,7 @@ if (files.length === 0) {
 }
 
 let errors = 0
+let skipped = 0
 const seenPaths = new Map()
 
 for (const file of files) {
@@ -504,12 +507,15 @@ for (const file of files) {
   const body = bodyWithoutFrontmatter(raw)
   const score = parseInt(meta.aiQualityScore || "0", 10)
 
-  console.log(`\n📄 ${file}`)
-  console.log(`   status: ${meta.status || "(missing)"}  score: ${score}  lang: ${meta.lang || "(none)"}`)
-  console.log(`   canonicalPath: ${meta.canonicalPath || "(missing)"}`)
+  if (!QUIET) {
+    console.log(`\n📄 ${file}`)
+    console.log(`   status: ${meta.status || "(missing)"}  score: ${score}  lang: ${meta.lang || "(none)"}`)
+    console.log(`   canonicalPath: ${meta.canonicalPath || "(missing)"}`)
+  }
 
   if (meta.status !== "ready" || score < MIN_SCORE) {
-    console.log(`   ⚠️  Not ready or score < ${MIN_SCORE} — skipped`)
+    skipped++
+    if (!QUIET) console.log(`   ⚠️  Not ready or score < ${MIN_SCORE} — skipped`)
     continue
   }
 
@@ -541,7 +547,7 @@ for (const file of files) {
 
   seenPaths.set(cp, file)
   const alt = getAlternatePath(cp)
-  console.log(`   ✅ canonicalPath OK  →  alternatePath: ${alt}`)
+  if (!QUIET) console.log(`   ✅ canonicalPath OK  →  alternatePath: ${alt}`)
 
   if (meta.renderMode === "source") {
     const sourceIssues = sourceBodyIssues(meta, body)
@@ -550,12 +556,12 @@ for (const file of files) {
       errors += sourceIssues.length
       continue
     }
-    console.log(`   ✅ source body OK  →  paragraphs: ${countParagraphs(body)}, h2: ${countMarkdownHeadings(body, 2)}`)
+    if (!QUIET) console.log(`   ✅ source body OK  →  paragraphs: ${countParagraphs(body)}, h2: ${countMarkdownHeadings(body, 2)}`)
   }
 }
 
 console.log(`\n─── Summary ────────────────────────────────────────────────────`)
-console.log(`Files: ${files.length}  |  Ready & valid: ${seenPaths.size}  |  Errors: ${errors}`)
+console.log(`Files: ${files.length}  |  Ready & valid: ${seenPaths.size}  |  Skipped: ${skipped}  |  Errors: ${errors}`)
 
 if (errors > 0) {
   console.error(`\n❌  ${errors} error(s). Fix before building.`)

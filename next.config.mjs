@@ -8,6 +8,9 @@ const disableExport = process.env.DISABLE_STATIC_EXPORT === "1" || isDev
 
 const nextConfig = {
   ...(disableExport ? {} : { output: "export" }),
+  turbopack: {
+    root: process.cwd(),
+  },
   trailingSlash: false,
   typescript: {
     ignoreBuildErrors: true,

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "(node scripts/check-seo-ready-routes.mjs || true) && node scripts/generate-sitemaps.mjs && node scripts/seo/validate-indexability.mjs && next build",
+    "build": "node scripts/check-seo-ready-routes.mjs && node scripts/generate-sitemaps.mjs && node scripts/seo/validate-indexability.mjs && next build",
     "start": "next start",
     "lint": "eslint .",
     "cf:build": "node scripts/check-seo-ready-routes.mjs && node scripts/generate-sitemaps.mjs && node scripts/seo/validate-indexability.mjs && next build",

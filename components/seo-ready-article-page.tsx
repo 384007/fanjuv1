@@ -37,15 +37,26 @@ const PUBLIC_TECH_RE = new RegExp(
 )
 
 function cleanArticleText(text = "") {
-  return String(text || "")
-    .replace(/!\[([^\]]*)\]\([^)]+\)/g, "$1")
-    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
-    .replace(/<a\b[^>]*>([\s\S]*?)<\/a>/gi, "$1")
-    .replace(/https?:\/\/[^\s)]+/gi, "")
-    .replace(/\*\*([^*]+)\*\*/g, "$1")
-    .replace(/__([^_]+)__/g, "$1")
-    .replace(/\s+/g, " ")
-    .trim()
+  let out = String(text || "")
+  if (!out) return ""
+
+  if (
+    out.includes("[") ||
+    out.includes("<") ||
+    out.includes("://") ||
+    out.includes("**") ||
+    out.includes("__")
+  ) {
+    out = out
+      .replace(/!\[([^\]]*)\]\([^)]+\)/g, "$1")
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+      .replace(/<a\b[^>]*>([\s\S]*?)<\/a>/gi, "$1")
+      .replace(/https?:\/\/[^\s)]+/gi, "")
+      .replace(/\*\*([^*]+)\*\*/g, "$1")
+      .replace(/__([^_]+)__/g, "$1")
+  }
+
+  return out.replace(/\s+/g, " ").trim()
 }
 
 function parseMarkdown(md: string): Block[] {
@@ -55,13 +66,12 @@ function parseMarkdown(md: string): Block[] {
 
   while (i < lines.length) {
     const line = lines[i]
+    const heading = line.match(/^(#{1,})\s+(.+)$/)
 
-    if (line.startsWith("### ")) {
-      blocks.push({ type: "h3", text: cleanArticleText(line.slice(4).trim()) }); i++
-    } else if (line.startsWith("## ")) {
-      blocks.push({ type: "h2", text: cleanArticleText(line.slice(3).trim()) }); i++
-    } else if (line.startsWith("# ")) {
-      blocks.push({ type: "h1", text: cleanArticleText(line.slice(2).trim()) }); i++
+    if (heading) {
+      const level = heading[1].length
+      const type = level === 1 ? "h1" : level === 2 ? "h2" : "h3"
+      blocks.push({ type, text: cleanArticleText(heading[2].trim()) }); i++
     } else if (line.startsWith("---") && line.trim() === "---") {
       blocks.push({ type: "hr" }); i++
     } else if (line.startsWith("| ")) {
@@ -98,7 +108,11 @@ function parseMarkdown(md: string): Block[] {
       ) {
         parts.push(lines[i]); i++
       }
-      if (parts.length > 0) blocks.push({ type: "p", text: cleanArticleText(parts.join(" ")) })
+      if (parts.length > 0) {
+        blocks.push({ type: "p", text: cleanArticleText(parts.join(" ")) })
+      } else {
+        i++
+      }
     }
   }
   return blocks
@@ -123,6 +137,36 @@ function sourceMarkdown(md: string) {
   }
 
   return out.join("\n").trim()
+}
+
+const markdownBlockCache = new Map<string, Block[]>()
+const sourceMarkdownCache = new Map<string, string>()
+const sourceParagraphCache = new Map<string, string[]>()
+
+function articleKey(article: SeoReadyArticle) {
+  return article.canonicalPath || article.slug || article.title
+}
+
+function parseMarkdownCached(key: string, md: string) {
+  const cached = markdownBlockCache.get(key)
+  if (cached) return cached
+  const blocks = parseMarkdown(md)
+  markdownBlockCache.set(key, blocks)
+  return blocks
+}
+
+function sourceMarkdownForArticle(article: SeoReadyArticle) {
+  const key = articleKey(article)
+  const cached = sourceMarkdownCache.get(key)
+  if (cached !== undefined) return cached
+  const cleaned = sourceMarkdown(article.body)
+  sourceMarkdownCache.set(key, cleaned)
+  return cleaned
+}
+
+function sourceBlocksForArticle(article: SeoReadyArticle) {
+  const key = `source:${articleKey(article)}`
+  return parseMarkdownCached(key, sourceMarkdownForArticle(article))
 }
 
 function RenderBlocks({ blocks, skipFirstH1 = false }: { blocks: Block[]; skipFirstH1?: boolean }) {
@@ -281,17 +325,77 @@ function answerSummary(route: RouteContext, isEn: boolean) {
 function sourceParagraphs(blocks: Block[], isEn: boolean) {
   const min = isEn ? 90 : 35
   const seen = new Set<string>()
-  return blocks
-    .filter((block): block is { type: "p"; text: string } => block.type === "p" && block.text.length >= min)
-    .map((block) => cleanArticleText(block.text))
-    .filter((text) => text.length >= min && !PUBLIC_TECH_RE.test(text))
-    .filter((text) => {
-      const key = text.replace(/\s+/g, "").toLowerCase()
-      if (seen.has(key)) return false
-      seen.add(key)
-      return true
-    })
-    .slice(0, 3)
+  const out: string[] = []
+
+  for (const block of blocks) {
+    if (block.type !== "p" || block.text.length < min) continue
+    const text = block.text
+    if (text.length < min || PUBLIC_TECH_RE.test(text)) continue
+
+    const key = text.replace(/\s+/g, "").toLowerCase()
+    if (seen.has(key)) continue
+    seen.add(key)
+    out.push(text)
+    if (out.length >= 3) break
+  }
+
+  return out
+}
+
+function sourceParagraphsFromMarkdown(md: string, isEn: boolean) {
+  const min = isEn ? 90 : 35
+  const seen = new Set<string>()
+  const out: string[] = []
+  const lines = md.split("\n")
+  let i = 0
+
+  while (i < lines.length && out.length < 3) {
+    const line = lines[i]
+    if (
+      line.trim() === "" ||
+      line.startsWith("#") ||
+      line.startsWith("|") ||
+      line.startsWith("---") ||
+      /^[-*] /.test(line) ||
+      /^\d+\. /.test(line)
+    ) {
+      i++
+      continue
+    }
+
+    const parts: string[] = []
+    while (
+      i < lines.length &&
+      lines[i].trim() !== "" &&
+      !lines[i].startsWith("#") &&
+      !lines[i].startsWith("|") &&
+      !/^[-*] /.test(lines[i]) &&
+      !/^\d+\. /.test(lines[i])
+    ) {
+      parts.push(lines[i])
+      i++
+    }
+
+    const text = cleanArticleText(parts.join(" "))
+    if (text.length < min || PUBLIC_TECH_RE.test(text)) continue
+    const key = text.replace(/\s+/g, "").toLowerCase()
+    if (seen.has(key)) continue
+    seen.add(key)
+    out.push(text)
+  }
+
+  return out
+}
+
+function sourceParagraphsForArticle(article: SeoReadyArticle, isEn: boolean) {
+  const key = `${article.renderMode === "source" ? "source" : "body"}:${articleKey(article)}:${isEn ? "en" : "zh"}`
+  const cached = sourceParagraphCache.get(key)
+  if (cached) return cached
+  const paragraphs = article.renderMode === "source"
+    ? sourceParagraphs(sourceBlocksForArticle(article), isEn)
+    : sourceParagraphsFromMarkdown(article.body, isEn)
+  sourceParagraphCache.set(key, paragraphs)
+  return paragraphs
 }
 
 function faqItems(route: RouteContext, isEn: boolean) {
@@ -604,10 +708,10 @@ function SourceMarkdownArticlePage({
   const isEn = currentPath.startsWith("/en/")
   const alternatePath = getAlternatePath(currentPath)
   const canonical = `${SITE_URL}${currentPath}`
-  const blocks = parseMarkdown(sourceMarkdown(article.body))
+  const blocks = sourceBlocksForArticle(article)
   const firstH1 = blocks.find((block): block is { type: "h1"; text: string } => block.type === "h1")?.text
   const title = firstH1 || article.title
-  const summary = article.description || sourceParagraphs(blocks, isEn)[0] || ""
+  const summary = article.description || sourceParagraphsForArticle(article, isEn)[0] || ""
   const links = safeLinksForArticle(currentPath, article)
   const breadcrumbs = [
     { label: isEn ? "Fanju" : "饭局 Fanju", href: "/" },
@@ -734,8 +838,6 @@ export function SeoReadyArticlePage({ article, currentPath, hasAlternateArticle 
     return <SourceMarkdownArticlePage article={article} currentPath={currentPath} hasAlternateArticle={hasAlternateArticle} />
   }
 
-  const blocks = parseMarkdown(article.body)
-
   // Language is determined by the current URL path, not the article's lang field.
   // This ensures fallback pages show the correct UI language.
   const isEn = currentPath.startsWith("/en/")
@@ -746,7 +848,7 @@ export function SeoReadyArticlePage({ article, currentPath, hasAlternateArticle 
   const summary = answerSummary(route, isEn)
   const faq = faqItems(route, isEn)
   const links = safeLinksForArticle(currentPath, article)
-  const source = sourceParagraphs(blocks, isEn)
+  const source = sourceParagraphsForArticle(article, isEn)
   const cityHubPath = route.citySlug ? `${isEn ? "/en" : ""}/city/${route.citySlug}` : (isEn ? "/en/cities" : "/cities")
   const safeCityHubPath = isSafeInternalHref(cityHubPath) ? cityHubPath : (isEn ? "/en/cities" : "/cities")
 
@@ -930,10 +1032,10 @@ export function seoReadyArticleMetadata(article: SeoReadyArticle, currentPath: s
   }
 
   if (article.renderMode === "source") {
-    const blocks = parseMarkdown(sourceMarkdown(article.body))
+    const blocks = sourceBlocksForArticle(article)
     const firstH1 = blocks.find((block): block is { type: "h1"; text: string } => block.type === "h1")?.text
     const title = firstH1 || article.title
-    const description = article.description || sourceParagraphs(blocks, currentPath.startsWith("/en/"))[0]
+    const description = article.description || sourceParagraphsForArticle(article, currentPath.startsWith("/en/"))[0]
     const alternates = hasAlternate ? hreflangAlternates(currentPath) : { canonical: canonicalUrl(currentPath) }
     return {
       title,

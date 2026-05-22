@@ -5,7 +5,7 @@ alternatePath: "/city/johannesburg/english-speaking-dinner"
 translationKey: "johannesburg-english-speaking-dinner"
 lang: "en"
 title: "Johannesburg does not need another vague invite; Fanju app makes English Speaking Dinner specific"
-description: "Arriving in Johannesburg this month, I've been looking for ways to connect with people beyond the usual work-related interactions. The idea of an \"English Speaking Dinner\" seemed promising, a chance to meet new faces and"
+description: "In Johannesburg, Fanju app makes an English speaking dinner specific with clear host intent, venue expectations, guest context, and enough detail for newcomers to join without guessing."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

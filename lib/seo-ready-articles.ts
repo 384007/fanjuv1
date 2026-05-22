@@ -98,6 +98,9 @@ export function normalizePath(p: string): string {
 }
 
 let _cache: SeoReadyArticle[] | null = null
+let _articleByPathCache: Map<string, SeoReadyArticle> | null = null
+let _safeArticleLinksByCityCache: Map<string, SafeLink[]> | null = null
+let _safeLinksForArticleCache: Map<string, SafeLink[]> | null = null
 
 function loadAll(): SeoReadyArticle[] {
   if (_cache) return _cache
@@ -187,7 +190,10 @@ export function getAlternatePath(pathname: string): string {
 
 export function getSeoReadyArticleByPath(pathname: string): SeoReadyArticle | undefined {
   const normalized = normalizePath(pathname)
-  return loadAll().find((a) => a.canonicalPath === normalized)
+  if (!_articleByPathCache) {
+    _articleByPathCache = new Map(loadAll().map((article) => [article.canonicalPath, article]))
+  }
+  return _articleByPathCache.get(normalized)
 }
 
 /** Returns true if a dedicated ready article exists at the given path (not fallback). */
@@ -389,23 +395,36 @@ export function safeArticleLinksForCity(
   limit = 6,
 ): SafeLink[] {
   if (!citySlug) return []
-  const prefix = lang === "en" ? `/en/city/${citySlug}/` : `/city/${citySlug}/`
   const current = pathWithoutHash(currentPath)
-  const seen = new Set<string>()
-  const links: SafeLink[] = []
+  const key = `${lang}:${citySlug}`
 
-  for (const article of loadAll()) {
-    const path = pathWithoutHash(article.canonicalPath)
-    if (!isPathLang(path, lang) || !path.startsWith(prefix) || !isCityTopicPath(path) || path === current) continue
-    addSafeLink(links, seen, labelForArticlePath(path, lang), path, current)
-    if (links.length >= limit) break
+  if (!_safeArticleLinksByCityCache) {
+    _safeArticleLinksByCityCache = new Map()
+    for (const article of loadAll()) {
+      const path = pathWithoutHash(article.canonicalPath)
+      if (!isCityTopicPath(path)) continue
+      const itemLang = path.startsWith("/en/") ? "en" : "zh"
+      const itemCity = citySlugFromPath(path)
+      if (!itemCity) continue
+      const itemKey = `${itemLang}:${itemCity}`
+      const links = _safeArticleLinksByCityCache.get(itemKey) || []
+      links.push({ label: labelForArticlePath(path, itemLang), href: path })
+      _safeArticleLinksByCityCache.set(itemKey, links)
+    }
   }
 
-  return links
+  return (_safeArticleLinksByCityCache.get(key) || [])
+    .filter((link) => pathWithoutHash(link.href) !== current)
+    .slice(0, limit)
 }
 
 export function safeLinksForArticle(currentPath: string, article: SeoReadyArticle): SafeLink[] {
   const normalized = pathWithoutHash(currentPath || article.canonicalPath)
+  const cacheKey = `${normalized}:${article.canonicalPath}`
+  if (!_safeLinksForArticleCache) _safeLinksForArticleCache = new Map()
+  const cached = _safeLinksForArticleCache.get(cacheKey)
+  if (cached) return cached
+
   const lang: "zh" | "en" = normalized.startsWith("/en/") ? "en" : "zh"
   const citySlug = citySlugFromPath(normalized)
   const links: SafeLink[] = []
@@ -430,6 +449,7 @@ export function safeLinksForArticle(currentPath: string, article: SeoReadyArticl
     addSafeLink(links, seen, link.label, link.href, normalized)
   }
 
+  _safeLinksForArticleCache.set(cacheKey, links)
   return links
 }
 

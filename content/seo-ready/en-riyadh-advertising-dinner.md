@@ -5,7 +5,7 @@ alternatePath: "/city/riyadh/advertising-dinner"
 translationKey: "riyadh-advertising-dinner"
 lang: "en"
 title: "The Advertising Dinner table Riyadh actually needs is the one Fanju app describes up front"
-description: "In Riyadh, a city where professional gatherings often blur into social ones, the idea of an \"advertising dinner\" can mean anything from a formal agency meet-up to a loosely arranged meal among freelancers trading referra"
+description: "In Riyadh, Fanju app makes an advertising dinner credible by clarifying the table purpose, guest roles, venue privacy, timing, and follow-up expectations before the first dish arrives."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100
