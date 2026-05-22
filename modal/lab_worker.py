@@ -42,7 +42,7 @@ app = modal.App("fanju-lab-worker", image=image)
 web = FastAPI(title="Fanju Lab Worker")
 
 # ── Secrets ─────────────────────────────────────────────────────────────────
-SECRETS = modal.Secret.from_name("custom-secret")
+CUSTOM_SECRET = modal.Secret.from_name("custom-secret")
 # Required secret keys:
 #   ANTHROPIC_API_KEY, GITHUB_TOKEN, GITHUB_REPO, GITHUB_CONTENT_OWNER
 #   CF_WORKER_URL, CF_ADMIN_TOKEN
@@ -362,41 +362,63 @@ PLATFORM_CHECK_URLS: dict[str, str] = {
     "reddit":       "",
 }
 
+API_KEY_REQUIREMENTS: dict[str, list[str]] = {
+    "devto": ["DEVTO_API_KEY"],
+    "hashnode": ["HASHNODE_API_KEY", "HASHNODE_PUBLICATION_ID"],
+    "medium": ["MEDIUM_API_KEY"],
+    "bluesky": ["BLUESKY_IDENTIFIER", "BLUESKY_APP_PASSWORD"],
+    "reddit": ["REDDIT_CLIENT_ID", "REDDIT_CLIENT_SECRET", "REDDIT_USERNAME", "REDDIT_PASSWORD"],
+}
+
 LOGIN_PATTERNS = [
     "login", "signin", "sign-in", "passport", "accounts.google",
     "auth", "sso", "oauth", "register", "signup",
 ]
 
 
+def _short_error(error: Exception | str) -> str:
+    message = str(error).replace("\n", " ").strip()
+    # Defensive redaction for accidental base64/token-looking fragments.
+    message = re.sub(r"[A-Za-z0-9_+/=-]{32,}", "[redacted]", message)
+    return message[:160]
+
+
 async def _check_one(platform: str) -> dict:
     """Returns {"valid": bool, "configured": bool, "error": str|None}"""
+    platform = platform.lower().strip()
+    if platform not in PLATFORM_CHECK_URLS:
+        return {
+            "valid": False,
+            "configured": False,
+            "auth_type": "unknown",
+            "error": "unsupported platform",
+        }
+
     key = f"{platform.upper()}_COOKIES"
     raw = os.environ.get(key, "")
 
     # API-key platforms
     if PLATFORM_CHECK_URLS.get(platform) == "":
-        api_keys = {
-            "devto":    "DEVTO_API_KEY",
-            "hashnode": "HASHNODE_API_KEY",
-            "medium":   "MEDIUM_API_KEY",
-            "bluesky":  "BLUESKY_IDENTIFIER",
-            "reddit":   "REDDIT_CLIENT_ID",
+        required = API_KEY_REQUIREMENTS.get(platform, [])
+        configured = bool(required) and all(bool(os.environ.get(name, "")) for name in required)
+        return {
+            "valid": configured,
+            "configured": configured,
+            "auth_type": "api-key",
+            "error": None if configured else "api credentials not configured",
         }
-        env_key = api_keys.get(platform, "")
-        configured = bool(os.environ.get(env_key, ""))
-        return {"valid": configured, "configured": configured, "error": None}
 
     if not raw:
-        return {"valid": False, "configured": False, "error": "no cookie secret"}
+        return {"valid": False, "configured": False, "auth_type": "cookie", "error": "cookie not configured"}
 
     try:
         cookies = json.loads(base64.b64decode(raw).decode("utf-8"))
     except Exception as e:
-        return {"valid": False, "configured": True, "error": f"cookie decode error: {e}"}
+        return {"valid": False, "configured": True, "auth_type": "cookie", "error": f"cookie decode error: {_short_error(e)}"}
 
     check_url = PLATFORM_CHECK_URLS.get(platform)
     if not check_url:
-        return {"valid": False, "configured": True, "error": "no check url"}
+        return {"valid": False, "configured": True, "auth_type": "cookie", "error": "no check url"}
 
     try:
         from playwright.async_api import async_playwright
@@ -420,9 +442,14 @@ async def _check_one(platform: str) -> dict:
             await browser.close()
 
         expired = any(pat in final_url for pat in LOGIN_PATTERNS)
-        return {"valid": not expired, "configured": True, "error": None}
+        return {
+            "valid": not expired,
+            "configured": True,
+            "auth_type": "cookie",
+            "error": None if not expired else "redirected to login",
+        }
     except Exception as e:
-        return {"valid": False, "configured": True, "error": str(e)[:200]}
+        return {"valid": False, "configured": True, "auth_type": "cookie", "error": _short_error(e)}
 
 
 @web.post("/validate-cookies")
@@ -432,7 +459,7 @@ async def validate_cookies(req: ValidateCookiesRequest, authorization: str = Hea
     return {p: r for p, r in zip(req.platforms, results)}
 
 
-@app.function(secrets=[SECRETS], timeout=600)
+@app.function(secrets=[CUSTOM_SECRET], timeout=600)
 @modal.asgi_app()
 def lab_worker_web():
     return web

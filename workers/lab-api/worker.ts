@@ -14,6 +14,51 @@ export interface Env {
   MODAL_BASE_URL: string
 }
 
+type ModalCookieResult = {
+  valid?: boolean
+  configured?: boolean
+  auth_type?: "cookie" | "api-key" | "unknown"
+  error?: string | null
+}
+
+type ModalCookieReport = Record<string, ModalCookieResult>
+
+type GenerateBody = {
+  topic?: string
+  lang?: "zh" | "en"
+  article_id?: string
+}
+
+type GenerateResult = {
+  article_id?: string
+  github_path?: string
+  preview?: string
+  error?: string
+}
+
+type SeoCheckBody = {
+  article_id?: string
+  github_path?: string
+}
+
+type SeoReport = {
+  score?: number
+  issues?: unknown
+  verdict?: string
+  [key: string]: unknown
+}
+
+type QueueMessage = {
+  body: unknown
+  ack: () => void
+  retry: () => void
+}
+
+type QueueBatch = {
+  queue: string
+  messages: QueueMessage[]
+}
+
 function unauthorized() {
   return new Response(JSON.stringify({ error: "unauthorized" }), {
     status: 401,
@@ -41,6 +86,198 @@ function shortId(): string {
   return crypto.randomUUID().replace(/-/g, "").slice(0, 12)
 }
 
+function safeError(error: unknown): string {
+  const message = error instanceof Error ? error.message : String(error)
+  return message
+    .replace(/\s+/g, " ")
+    .replace(/[A-Za-z0-9_+/=-]{32,}/g, "[redacted]")
+    .slice(0, 180)
+}
+
+function safeSlug(value: string, fallback: string): string {
+  const slug = value
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 80)
+  return slug || fallback
+}
+
+async function callModal<T>(env: Env, path: string, body: unknown): Promise<T> {
+  if (!env.MODAL_BASE_URL) {
+    throw new Error("MODAL_BASE_URL not set")
+  }
+
+  const res = await fetch(`${env.MODAL_BASE_URL}${path}`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${env.ADMIN_TOKEN}`,
+    },
+    body: JSON.stringify(body),
+  })
+  if (!res.ok) {
+    throw new Error(`Modal ${path} failed with ${res.status}`)
+  }
+  return res.json() as Promise<T>
+}
+
+function normalizeCookieResult(platform: string, result: ModalCookieResult | undefined) {
+  const configured = result?.configured ?? false
+  const valid = configured && Boolean(result?.valid)
+  return {
+    platform,
+    valid,
+    session_valid: valid,
+    configured,
+    cookie_configured: configured,
+    auth_type: result?.auth_type ?? "unknown",
+    error: result?.error ? safeError(result.error) : null,
+  }
+}
+
+async function upsertGeneratedArticle(
+  env: Env,
+  body: GenerateBody,
+  result: GenerateResult,
+): Promise<{ articleId: string; githubPath: string }> {
+  const articleId = result.article_id || body.article_id || shortId()
+  const topic = (body.topic || "Untitled topic").trim()
+  const githubPath = result.github_path || ""
+  if (!githubPath) throw new Error("Modal generate did not return github_path")
+
+  const slugBase = safeSlug(topic, "topic")
+  const slug = `lab-${slugBase}-${articleId}`
+  await env.FANJU_DB.prepare(
+    `INSERT INTO lab_articles (id, title, slug, lang, topic, github_path, status)
+     VALUES (?, ?, ?, ?, ?, ?, 'draft')
+     ON CONFLICT(id) DO UPDATE SET
+       title = excluded.title,
+       slug = excluded.slug,
+       lang = excluded.lang,
+       topic = excluded.topic,
+       github_path = excluded.github_path,
+       status = 'draft',
+       updated_at = datetime('now')`,
+  )
+    .bind(articleId, topic.slice(0, 180), slug, body.lang ?? "zh", topic, githubPath)
+    .run()
+  return { articleId, githubPath }
+}
+
+async function persistSeoReport(env: Env, articleId: string, report: SeoReport): Promise<void> {
+  const score = Number.isFinite(Number(report.score)) ? Number(report.score) : 0
+  const verdict = String(report.verdict || "")
+  const issues = Array.isArray(report.issues)
+    ? JSON.stringify(report.issues)
+    : typeof report.issues === "string"
+      ? report.issues
+      : JSON.stringify(report.issues ?? [])
+  const status = score >= 90 && verdict !== "reject" ? "ready" : verdict === "reject" ? "failed" : "draft"
+
+  await env.FANJU_DB.prepare(
+    `INSERT INTO lab_seo_checks (id, article_id, score, issues, report_r2)
+     VALUES (?, ?, ?, ?, NULL)`,
+  )
+    .bind(shortId(), articleId, score, issues)
+    .run()
+
+  await env.FANJU_DB.prepare(
+    `UPDATE lab_articles
+     SET seo_score = ?, status = ?, updated_at = datetime('now')
+     WHERE id = ?`,
+  )
+    .bind(score, status, articleId)
+    .run()
+}
+
+async function handleSeoQueue(env: Env, body: unknown): Promise<void> {
+  const msg = body as SeoCheckBody
+  if (!msg.article_id || !msg.github_path) throw new Error("invalid SEO queue payload")
+  const report = await callModal<SeoReport>(env, "/seo-check", {
+    article_id: msg.article_id,
+    github_path: msg.github_path,
+  })
+  await persistSeoReport(env, msg.article_id, report)
+}
+
+async function handleRewriteQueue(env: Env, body: unknown): Promise<void> {
+  const msg = body as { job_id?: string; article_id?: string; platform?: string }
+  if (!msg.job_id || !msg.article_id || !msg.platform) {
+    throw new Error("invalid rewrite queue payload")
+  }
+
+  const article = (await env.FANJU_DB.prepare(
+    `SELECT github_path FROM lab_articles WHERE id = ?`,
+  )
+    .bind(msg.article_id)
+    .first()) as { github_path: string } | null
+  if (!article?.github_path) throw new Error("article github_path not found")
+
+  await env.FANJU_DB.prepare(
+    `UPDATE lab_publish_jobs
+     SET status = 'running', started_at = COALESCE(started_at, datetime('now'))
+     WHERE id = ?`,
+  )
+    .bind(msg.job_id)
+    .run()
+
+  const result = await callModal<{ rewrite_github_path?: string }>(env, "/rewrite", {
+    job_id: msg.job_id,
+    article_id: msg.article_id,
+    platform: msg.platform,
+    github_path: article.github_path,
+  })
+  if (!result.rewrite_github_path) throw new Error("Modal rewrite did not return rewrite_github_path")
+
+  await env.FANJU_DB.prepare(
+    `UPDATE lab_publish_jobs
+     SET rewrite_github_path = ?, status = 'pending'
+     WHERE id = ?`,
+  )
+    .bind(result.rewrite_github_path, msg.job_id)
+    .run()
+
+  await env.PUBLISH_QUEUE.send({
+    job_id: msg.job_id,
+    article_id: msg.article_id,
+    platform: msg.platform,
+    rewrite_github_path: result.rewrite_github_path,
+  })
+}
+
+async function handlePublishQueue(env: Env, body: unknown): Promise<void> {
+  const msg = body as {
+    job_id?: string
+    article_id?: string
+    platform?: string
+    rewrite_github_path?: string
+  }
+  if (!msg.job_id || !msg.article_id || !msg.platform || !msg.rewrite_github_path) {
+    throw new Error("invalid publish queue payload")
+  }
+  await callModal(env, "/publish", {
+    job_id: msg.job_id,
+    article_id: msg.article_id,
+    platform: msg.platform,
+    rewrite_github_path: msg.rewrite_github_path,
+  })
+}
+
+async function failPublishJob(env: Env, body: unknown, error: unknown): Promise<void> {
+  const msg = body as { job_id?: string }
+  if (!msg.job_id) return
+  await env.FANJU_DB.prepare(
+    `UPDATE lab_publish_jobs
+     SET status = 'failed', error_msg = ?, finished_at = datetime('now')
+     WHERE id = ?`,
+  )
+    .bind(safeError(error), msg.job_id)
+    .run()
+}
+
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     if (!verifyAuth(request, env)) return unauthorized()
@@ -48,6 +285,51 @@ export default {
     const url = new URL(request.url)
     const path = url.pathname.replace("/api/lab", "")
     const method = request.method
+
+    // ─── Modal-backed operations ─────────────────────────────────
+    if (path === "/generate" && method === "POST") {
+      const body = (await request.json()) as GenerateBody
+      const articleId = body.article_id || shortId()
+      const payload = {
+        topic: body.topic || "",
+        lang: body.lang ?? "zh",
+        article_id: articleId,
+      }
+      try {
+        const result = await callModal<GenerateResult>(env, "/generate", payload)
+        const saved = await upsertGeneratedArticle(env, payload, result)
+        return ok({ ...result, article_id: saved.articleId, github_path: saved.githubPath })
+      } catch (e) {
+        return new Response(JSON.stringify({ error: safeError(e) }), {
+          status: 502,
+          headers: { "Content-Type": "application/json" },
+        })
+      }
+    }
+
+    if (path === "/seo-check" && method === "POST") {
+      const body = (await request.json()) as SeoCheckBody
+      if (!body.article_id || !body.github_path) {
+        return new Response(JSON.stringify({ error: "article_id and github_path are required" }), {
+          status: 400,
+          headers: { "Content-Type": "application/json" },
+        })
+      }
+
+      try {
+        const report = await callModal<SeoReport>(env, "/seo-check", {
+          article_id: body.article_id,
+          github_path: body.github_path,
+        })
+        await persistSeoReport(env, body.article_id, report)
+        return ok(report)
+      } catch (e) {
+        return new Response(JSON.stringify({ error: safeError(e) }), {
+          status: 502,
+          headers: { "Content-Type": "application/json" },
+        })
+      }
+    }
 
     // ─── Articles ─────────────────────────────────────────────────
     if (path === "/articles" && method === "GET") {
@@ -208,7 +490,7 @@ export default {
 
     // ─── Stats (dashboard summary) ────────────────────────────────
     if (path === "/stats" && method === "GET") {
-      const [articles, jobs, platforms] = await Promise.all([
+      const [articles, jobs, platforms, seo] = await Promise.all([
         env.FANJU_DB.prepare(
           `SELECT status, COUNT(*) as count FROM lab_articles GROUP BY status`,
         ).all(),
@@ -219,17 +501,21 @@ export default {
           `SELECT platform, published_today, daily_limit, is_active, session_valid
            FROM lab_platform_accounts`,
         ).all(),
+        env.FANJU_DB.prepare(
+          `SELECT ROUND(AVG(score)) as average_score, COUNT(*) as count FROM lab_seo_checks`,
+        ).first(),
       ])
       return ok({
         articles: articles.results,
         jobs: jobs.results,
         platforms: platforms.results,
+        seo,
       })
     }
 
     // ─── Cookie health check (single platform) ───────────────────
     // POST /check-cookie  { platform: string }
-    // Returns { platform, session_valid, last_check_at, cookie_configured }
+    // Returns Modal's configured/valid/error fields without exposing cookies.
     if (path === "/check-cookie" && method === "POST") {
       const body = (await request.json()) as { platform: string }
       const { platform } = body
@@ -242,44 +528,48 @@ export default {
 
       if (!acct) return new Response(JSON.stringify({ error: "platform not found" }), { status: 404, headers: { "Content-Type": "application/json" } })
 
-      // Trigger Modal validate-cookies if MODAL_BASE_URL is set
       if (env.MODAL_BASE_URL) {
         try {
-          const modalRes = await fetch(`${env.MODAL_BASE_URL}/validate-cookies`, {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-              Authorization: `Bearer ${env.ADMIN_TOKEN}`,
-            },
-            body: JSON.stringify({ platforms: [platform] }),
+          const report = await callModal<ModalCookieReport>(env, "/validate-cookies", {
+            platforms: [platform],
           })
-          if (modalRes.ok) {
-            const report = (await modalRes.json()) as Record<string, { valid: boolean }>
-            const valid = report[platform]?.valid ?? false
-            await env.FANJU_DB.prepare(
-              `UPDATE lab_platform_accounts SET session_valid = ?, last_check_at = datetime('now') WHERE platform = ?`,
-            )
-              .bind(valid ? 1 : 0, platform)
-              .run()
-            return ok({ platform, session_valid: valid, last_check_at: new Date().toISOString(), cookie_configured: true })
-          }
+          const normalized = normalizeCookieResult(platform, report[platform])
+          await env.FANJU_DB.prepare(
+            `UPDATE lab_platform_accounts SET session_valid = ?, last_check_at = datetime('now') WHERE platform = ?`,
+          )
+            .bind(normalized.valid ? 1 : 0, platform)
+            .run()
+          return ok({ ...normalized, last_check_at: new Date().toISOString() })
         } catch {
-          // Modal unreachable — fall through to return cached value
+          return ok({
+            platform: acct.platform,
+            session_valid: !!acct.session_valid,
+            valid: !!acct.session_valid,
+            last_check_at: acct.last_check_at,
+            configured: null,
+            cookie_configured: null,
+            auth_type: "unknown",
+            error: "Modal cookie check unavailable",
+          })
         }
       }
 
       return ok({
         platform: acct.platform,
         session_valid: !!acct.session_valid,
+        valid: !!acct.session_valid,
         last_check_at: acct.last_check_at,
-        cookie_configured: true, // if row exists, assume configured
+        configured: null,
+        cookie_configured: null,
+        auth_type: "unknown",
+        error: "MODAL_BASE_URL not set",
       })
     }
 
     // ─── Validate all cookies via Modal ──────────────────────────
     // POST /validate-all-cookies  — triggers Modal to check every active platform
     if (path === "/validate-all-cookies" && method === "POST") {
-      if (!env.MODAL_BASE_URL) return ok({ skipped: true, reason: "MODAL_BASE_URL not set" })
+      if (!env.MODAL_BASE_URL) return ok({ skipped: true, reason: "MODAL_BASE_URL not set", report: {} })
 
       const { results } = await env.FANJU_DB.prepare(
         `SELECT platform FROM lab_platform_accounts WHERE is_active = 1`,
@@ -287,28 +577,23 @@ export default {
       const platforms = (results as { platform: string }[]).map((r) => r.platform)
 
       try {
-        const modalRes = await fetch(`${env.MODAL_BASE_URL}/validate-cookies`, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${env.ADMIN_TOKEN}`,
-          },
-          body: JSON.stringify({ platforms }),
-        })
-        if (!modalRes.ok) return ok({ error: "modal error", status: modalRes.status })
-        const report = (await modalRes.json()) as Record<string, { valid: boolean }>
+        const report = await callModal<ModalCookieReport>(env, "/validate-cookies", { platforms })
+        const normalizedReport: Record<string, ReturnType<typeof normalizeCookieResult>> = {}
+        for (const platform of platforms) {
+          normalizedReport[platform] = normalizeCookieResult(platform, report[platform])
+        }
 
         // Batch update D1
-        for (const [plat, res] of Object.entries(report)) {
+        for (const [plat, res] of Object.entries(normalizedReport)) {
           await env.FANJU_DB.prepare(
             `UPDATE lab_platform_accounts SET session_valid = ?, last_check_at = datetime('now') WHERE platform = ?`,
           )
             .bind(res.valid ? 1 : 0, plat)
             .run()
         }
-        return ok({ updated: Object.keys(report).length, report })
+        return ok({ updated: Object.keys(normalizedReport).length, report: normalizedReport })
       } catch (e) {
-        return ok({ error: String(e) })
+        return ok({ error: safeError(e), report: {} })
       }
     }
 
@@ -322,6 +607,30 @@ export default {
     }
 
     return new Response("not found", { status: 404 })
+  },
+
+  async queue(batch: QueueBatch, env: Env): Promise<void> {
+    for (const message of batch.messages) {
+      try {
+        if (batch.queue.includes("seo")) {
+          await handleSeoQueue(env, message.body)
+        } else if (batch.queue.includes("rewrite")) {
+          await handleRewriteQueue(env, message.body)
+        } else if (batch.queue.includes("publish")) {
+          await handlePublishQueue(env, message.body)
+        } else {
+          throw new Error(`unknown queue ${batch.queue}`)
+        }
+        message.ack()
+      } catch (e) {
+        if (batch.queue.includes("rewrite") || batch.queue.includes("publish")) {
+          await failPublishJob(env, message.body, e)
+          message.ack()
+        } else {
+          message.retry()
+        }
+      }
+    }
   },
 
   async scheduled(_event: ScheduledEvent, env: Env) {

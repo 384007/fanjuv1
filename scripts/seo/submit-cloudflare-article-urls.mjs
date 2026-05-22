@@ -1,6 +1,8 @@
 // Submit latest Cloudflare-published article URLs to indexing/link platforms.
 
 import { execFileSync } from "child_process"
+import { dirname } from "path"
+import { mkdirSync, writeFileSync } from "fs"
 
 const SITE_ROOT = (process.env.SITE_URL || "https://fanju.app").replace(/\/$/, "")
 const DEFAULT_INDEXNOW_KEY = "e425652261cb6c96a73b030ea9c77e4c"
@@ -16,6 +18,7 @@ const PLATFORMS = new Set(
     .map((x) => x.trim().toLowerCase())
     .filter(Boolean),
 )
+const SUBMISSION_REPORT_FILE = clean(process.env.SUBMISSION_REPORT_FILE)
 
 function clean(value = "") {
   return String(value || "").trim()
@@ -321,7 +324,7 @@ async function publishDevto(entries) {
 }
 
 async function publishBluesky(entries) {
-  const handle = clean(process.env.BLUESKY_HANDLE)
+  const handle = clean(process.env.BLUESKY_HANDLE || process.env.BLUESKY_IDENTIFIER)
   const password = clean(process.env.BLUESKY_APP_PASSWORD || process.env.BLUESKY_APP)
   const service = clean(process.env.BLUESKY_SERVICE) || "https://bsky.social"
   if (!handle || !password) return { platform: "Bluesky", skipped: "BLUESKY_HANDLE and BLUESKY_APP_PASSWORD/BLUESKY_APP are not configured" }
@@ -510,5 +513,34 @@ const results = (await Promise.all([
 
 console.log("Submission results:")
 for (const result of results) console.log(JSON.stringify(result, null, 2))
+
+const submittedPlatforms = results
+  .filter((result) => result.ok === true || result.dryRun === true || result.alreadyPublished === true || result.duplicateTitleWindow === true || result.quotaExhausted === true)
+  .map((result) => result.platform)
+const failedResults = results.filter((result) => result.ok === false || result.skipped)
+const failedPlatforms = failedResults.map((result) => result.platform)
+const failedReasons = Object.fromEntries(
+  failedResults.map((result) => [
+    result.platform,
+    result.error || result.skipped || result.warning || `status ${result.status || "unknown"}`,
+  ]),
+)
+const report = {
+  generatedAt: new Date().toISOString(),
+  siteRoot: SITE_ROOT,
+  urlCount: urls.length,
+  urls,
+  requestedPlatforms: Array.from(PLATFORMS),
+  submittedPlatforms,
+  failedPlatforms,
+  failedReasons,
+  results,
+}
+
+if (SUBMISSION_REPORT_FILE) {
+  mkdirSync(dirname(SUBMISSION_REPORT_FILE), { recursive: true })
+  writeFileSync(SUBMISSION_REPORT_FILE, JSON.stringify(report, null, 2) + "\n")
+  console.log(`Submission report written: ${SUBMISSION_REPORT_FILE}`)
+}
 
 if (process.env.STRICT_PUBLISH === "1" && results.some((result) => result.ok === false && !result.nonFatal)) process.exit(1)
