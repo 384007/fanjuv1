@@ -478,7 +478,7 @@ def run_cloudflare_publish_pipeline(
         routes = [public_route_for_entry(entry) for entry in latest_entries]
         run("node scripts/seo/recover-missing-from-d1.mjs", cwd=WORKDIR, timeout=300)
         # Build with auto-quarantine: if build fails due to bad articles, remove them and retry
-        build_result = subprocess.run("pnpm build", shell=True, cwd=WORKDIR, capture_output=False, timeout=1800)
+        build_result = subprocess.run("NODE_OPTIONS='--max-old-space-size=3072' pnpm build", shell=True, cwd=WORKDIR, capture_output=False, timeout=1800)
         if build_result.returncode != 0:
             # Find and quarantine bad articles, then retry once
             quarantine = subprocess.run(
@@ -503,7 +503,7 @@ def run_cloudflare_publish_pipeline(
                     if src.exists():
                         _shutil.move(str(src), str(quarantine_dir / fname))
                         print(f"QUARANTINED: {fname}", flush=True)
-                build_result2 = subprocess.run("pnpm build", shell=True, cwd=WORKDIR, capture_output=False, timeout=1800)
+                build_result2 = subprocess.run("NODE_OPTIONS='--max-old-space-size=3072' pnpm build", shell=True, cwd=WORKDIR, capture_output=False, timeout=1800)
                 if build_result2.returncode != 0:
                     raise RuntimeError("pnpm build failed even after quarantining bad articles")
             else:
@@ -574,6 +574,8 @@ def run_cloudflare_publish_pipeline(
     secrets=[legacy_secret],
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
+    memory=4096,
+    cpu=4,
     schedule=hourly_schedule,
 )
 def hourly_publish_cron():
@@ -585,6 +587,8 @@ def hourly_publish_cron():
     secrets=[legacy_secret],
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
+    memory=4096,
+    cpu=4,
 )
 def run_once(rounds: int = 1, run_limit: int = 10, upload_r2: bool = True, submit_platforms: str = "all"):
     """Manual production trigger: python3 -m modal run modal_growth_agent.py::run_once"""
@@ -601,6 +605,8 @@ def run_once(rounds: int = 1, run_limit: int = 10, upload_r2: bool = True, submi
     secrets=[legacy_secret],
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
+    memory=4096,
+    cpu=4,
 )
 def publish_prompt_bank_to_cloudflare(run_limit: int = 6, upload_r2: bool = True):
     """Publish ready prompt-bank articles to GitHub main plus Cloudflare D1/R2."""
