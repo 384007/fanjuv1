@@ -5,7 +5,7 @@ alternatePath: "/city/milan/saturday-dinner"
 translationKey: "milan-saturday-dinner"
 lang: "en"
 title: "Before the first message in Milan, Fanju app makes Saturday Dinner feel like a real decision"
-description: "In Milan, the prospect of a Saturday evening can feel both exciting and a little daunting, especially when you're looking to connect with new people. The Fanju app aims to transform that feeling. Instead of a vague \"let'"
+description: "Milan Saturday Dinner on the Fanju app helps people choose a structured, date-free table with clear venue details, safer expectations, and room for real conversation."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100
