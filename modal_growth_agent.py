@@ -494,7 +494,7 @@ def run_cloudflare_publish_pipeline(
                     print(f"QUARANTINED: {fname}", flush=True)
         ensure_ready_source_entries(latest_entries, f"round-{round_no}-before-commit")
         commit_sha = git_commit_and_push(routes, run_id, round_no)
-        wait_for_live_routes(routes)
+        # Skip waiting for CF Pages build - submit URLs optimistically
         submit_routes = ",".join(routes)
         run(
             f"URLS={shlex.quote(submit_routes)} URL_LIMIT={safe_run_limit} PLATFORMS={safe_platforms} "
