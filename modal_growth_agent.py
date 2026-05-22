@@ -492,6 +492,12 @@ def run_cloudflare_publish_pipeline(
                 if src.exists():
                     _shutil.move(str(src), str(quarantine_dir / fname))
                     print(f"QUARANTINED: {fname}", flush=True)
+            bad_set = set(bad_files)
+            latest_entries = [e for e in latest_entries if Path(str(e.get("sourcePath") or "")).name not in bad_set]
+            routes = [public_route_for_entry(e) for e in latest_entries]
+        if not latest_entries:
+            print("ALL articles quarantined, skipping round", flush=True)
+            continue
         ensure_ready_source_entries(latest_entries, f"round-{round_no}-before-commit")
         commit_sha = git_commit_and_push(routes, run_id, round_no)
         # Skip waiting for CF Pages build - submit URLs optimistically
