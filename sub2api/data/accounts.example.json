@@ -1,0 +1,30 @@
+{
+  "exported_at": "replace-with-export-time",
+  "proxies": [],
+  "accounts": [
+    {
+      "name": "replace-with-account-name",
+      "platform": "openai",
+      "type": "oauth",
+      "concurrency": 10,
+      "priority": 1,
+      "credentials": {
+        "access_token": "replace-with-local-token",
+        "chatgpt_account_id": "replace-with-account-id",
+        "chatgpt_user_id": "replace-with-user-id",
+        "email": "replace-with-email",
+        "expires_at": "replace-with-expiry",
+        "expires_in": 0,
+        "plan_type": "replace-with-plan"
+      },
+      "extra": {
+        "email": "replace-with-email",
+        "email_key": "replace-with-email-key",
+        "name": "replace-with-account-name",
+        "auth_provider": "openai",
+        "source": "chatgpt_web_session",
+        "last_refresh": "replace-with-refresh-time"
+      }
+    }
+  ]
+}
