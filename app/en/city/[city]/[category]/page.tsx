@@ -70,10 +70,23 @@ export default async function EnCityCategoryPage({ params }: PageProps) {
       { question: `Does ${title} guarantee outcomes?`, answer: "No. Fanju provides a trusted social dining entry point, not guaranteed dating, deals, funding or fixed networking outcomes." },
     ]
     const jsonLd = { "@context": "https://schema.org", "@type": "Service", name: title, serviceType: "Social dining", url: `${SITE_URL}/en/city/${city.slug}/${category.slug}`, inLanguage: "en", description: answer, areaServed: { "@type": "Place", name: city.nameEn }, provider: { "@type": "Organization", name: "Fanju", url: SITE_URL } }
+    const articleJsonLd = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: `${city.nameEn} ${category.nameEn} | Fanju`,
+      description: `${city.nameEn} ${category.nameEn} sign-up, host review and safety notes. ${category.answerEn}`,
+      datePublished: "2024-12-01T00:00:00+08:00",
+      dateModified: new Date().toISOString(),
+      author: { "@type": "Organization", name: "Fanju", url: "https://fanju.app" },
+      publisher: { "@type": "Organization", name: "Fanju", url: "https://fanju.app" },
+      url: `${SITE_URL}/en/city/${city.slug}/${category.slug}`,
+      inLanguage: "en",
+    }
 
     return (
       <>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
         <FaqJsonLd items={faq} />
         <BreadcrumbJsonLd items={breadcrumbs} />
         <SeoPage lang="en" eyebrow={`${city.provinceEn} · ${category.nameEn}`} title={title} answer={answer} faq={faq} city={city} category={category} breadcrumbs={breadcrumbs} alternatePath={`/city/${city.slug}/${category.slug}`}>
