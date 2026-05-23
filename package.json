@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/check-seo-ready-routes.mjs && node scripts/generate-sitemaps.mjs && node scripts/seo/validate-indexability.mjs && next build && node scripts/prune-cloudflare-static-export.mjs",
+    "build": "node scripts/check-seo-ready-routes.mjs && node scripts/generate-sitemaps.mjs && node scripts/seo/validate-indexability.mjs && next build && node scripts/prune-cloudflare-static-export.mjs && node scripts/generate-static-og-images.mjs",
     "start": "next start",
     "lint": "eslint .",
     "cf:build": "pnpm build",
