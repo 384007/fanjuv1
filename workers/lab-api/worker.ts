@@ -93,6 +93,40 @@ export default {
       const body = (await request.json()) as { article_id: string; platform: string }
       const { article_id, platform } = body
 
+      // ── Server-side quality gate: article must be ready & seo_score >= 90 ──
+      const article = (await env.FANJU_DB.prepare(
+        `SELECT id, status, seo_score FROM lab_articles WHERE id = ?`,
+      )
+        .bind(article_id)
+        .first()) as { id: string; status: string; seo_score: number | null } | null
+
+      if (!article) {
+        return new Response(
+          JSON.stringify({ error: "article_not_found", article_id }),
+          { status: 404, headers: { "Content-Type": "application/json" } },
+        )
+      }
+
+      if (article.status !== "ready") {
+        return new Response(
+          JSON.stringify({
+            error: "article_not_ready",
+            detail: `Article status is "${article.status}", must be "ready" to publish.`,
+          }),
+          { status: 422, headers: { "Content-Type": "application/json" } },
+        )
+      }
+
+      if ((article.seo_score ?? 0) < 90) {
+        return new Response(
+          JSON.stringify({
+            error: "seo_score_too_low",
+            detail: `SEO score is ${article.seo_score ?? 0}, minimum 90 required.`,
+          }),
+          { status: 422, headers: { "Content-Type": "application/json" } },
+        )
+      }
+
       // Idempotency check
       const existing = (await env.FANJU_DB.prepare(
         `SELECT id, status FROM lab_publish_jobs WHERE article_id = ? AND platform = ?`,

@@ -7,7 +7,7 @@ routes = [
 ]
 
 [vars]
-MODAL_BASE_URL = "https://fanju-backend--lab-worker-web.modal.run"
+MODAL_BASE_URL = "https://fanju-lab-worker--lab-worker-web.modal.run"
 
 [[d1_databases]]
 binding = "FANJU_DB"
