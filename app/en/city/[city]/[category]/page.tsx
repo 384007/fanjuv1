@@ -6,6 +6,7 @@ import { categories, cities, getCategory, getCity } from "@/lib/seo-data"
 import { getSeoReadyArticleByPathOrAlternate, getSeoReadyCityCategoryParams, getAlternatePath, hasReadyArticleAtPath } from "@/lib/seo-ready-articles"
 
 const SITE_URL = "https://fanju.app"
+const ARTICLE_DATE = "2026-05-24"
 
 type PageProps = { params: Promise<{ city: string; category: string }> }
 
@@ -69,11 +70,26 @@ export default async function EnCityCategoryPage({ params }: PageProps) {
       { question: `Is ${title} suitable for first-timers?`, answer: "Yes. Choose a public restaurant, a clear theme and a small table size." },
       { question: `Does ${title} guarantee outcomes?`, answer: "No. Fanju provides a trusted social dining entry point, not guaranteed dating, deals, funding or fixed networking outcomes." },
     ]
-    const jsonLd = { "@context": "https://schema.org", "@type": "Service", name: title, serviceType: "Social dining", url: `${SITE_URL}/en/city/${city.slug}/${category.slug}`, inLanguage: "en", description: answer, areaServed: { "@type": "Place", name: city.nameEn }, provider: { "@type": "Organization", name: "Fanju", url: SITE_URL } }
+    const url = `${SITE_URL}/en/city/${city.slug}/${category.slug}`
+    const organization = { "@type": "Organization", name: "Fanju", url: SITE_URL }
+    const jsonLd = { "@context": "https://schema.org", "@type": "Service", name: title, serviceType: "Social dining", url, inLanguage: "en", description: answer, areaServed: { "@type": "Place", name: city.nameEn }, provider: organization }
+    const articleJsonLd = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: title,
+      description: answer,
+      datePublished: ARTICLE_DATE,
+      dateModified: ARTICLE_DATE,
+      author: organization,
+      publisher: organization,
+      url,
+      inLanguage: "en",
+    }
 
     return (
       <>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
         <FaqJsonLd items={faq} />
         <BreadcrumbJsonLd items={breadcrumbs} />
         <SeoPage lang="en" eyebrow={`${city.provinceEn} · ${category.nameEn}`} title={title} answer={answer} faq={faq} city={city} category={category} breadcrumbs={breadcrumbs} alternatePath={`/city/${city.slug}/${category.slug}`}>

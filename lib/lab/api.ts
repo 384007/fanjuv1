@@ -17,9 +17,8 @@ import type {
 } from "@/lib/lab/types"
 
 // NEXT_PUBLIC_LAB_API_BASE → direct Cloudflare Worker call
-// unset → /api/lab proxy (server-side LAB_API_BASE required)
-// static export / demo → mock mode (API_BASE stays empty string)
-const API_BASE = (process.env.NEXT_PUBLIC_LAB_API_BASE || (typeof window !== "undefined" ? "/api/lab" : "")).replace(/\/+$/, "")
+// unset → mock mode, keeping static export deployable
+const API_BASE = (process.env.NEXT_PUBLIC_LAB_API_BASE || "").replace(/\/+$/, "")
 
 function getToken(): string {
   if (typeof document === "undefined") return ""

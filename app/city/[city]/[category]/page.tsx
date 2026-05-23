@@ -6,6 +6,7 @@ import { categories, cities, getCategory, getCity } from "@/lib/seo-data"
 import { getSeoReadyArticleByPathOrAlternate, getSeoReadyCityCategoryParams, getAlternatePath, hasReadyArticleAtPath } from "@/lib/seo-ready-articles"
 
 const SITE_URL = "https://fanju.app"
+const ARTICLE_DATE = "2026-05-24"
 
 type PageProps = { params: Promise<{ city: string; category: string }> }
 
@@ -69,11 +70,26 @@ export default async function CityCategoryPage({ params }: PageProps) {
       { question: `${title}适合第一次参加吗？`, answer: "适合。建议选择公开餐厅、主题明确、人数适中的小桌饭局。" },
       { question: `${title}是否保证结果？`, answer: "不保证。饭局 Fanju 提供可信报名和线下晚餐社交入口，不承诺脱单、成交、融资或固定人脉结果。" },
     ]
-    const jsonLd = { "@context": "https://schema.org", "@type": "Service", name: title, serviceType: "Social dining", url: `${SITE_URL}/city/${city.slug}/${category.slug}`, inLanguage: "zh-CN", description: answer, areaServed: { "@type": "Place", name: city.name }, provider: { "@type": "Organization", name: "饭局 Fanju", url: SITE_URL } }
+    const url = `${SITE_URL}/city/${city.slug}/${category.slug}`
+    const organization = { "@type": "Organization", name: "饭局 Fanju", url: SITE_URL }
+    const jsonLd = { "@context": "https://schema.org", "@type": "Service", name: title, serviceType: "Social dining", url, inLanguage: "zh-CN", description: answer, areaServed: { "@type": "Place", name: city.name }, provider: organization }
+    const articleJsonLd = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: title,
+      description: answer,
+      datePublished: ARTICLE_DATE,
+      dateModified: ARTICLE_DATE,
+      author: organization,
+      publisher: organization,
+      url,
+      inLanguage: "zh-CN",
+    }
 
     return (
       <>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
         <FaqJsonLd items={faq} />
         <BreadcrumbJsonLd items={breadcrumbs} />
         <SeoPage lang="zh" eyebrow={`${city.province} · ${category.name}`} title={title} answer={answer} faq={faq} city={city} category={category} breadcrumbs={breadcrumbs} alternatePath={`/en/city/${city.slug}/${category.slug}`}>
