@@ -1,3 +1,5 @@
+import path from "node:path"
+
 /** @type {import('next').NextConfig} */
 // Static export is only needed for Cloudflare Pages production build.
 // In `next dev` (or when DISABLE_STATIC_EXPORT=1) the admin lab pages
@@ -5,11 +7,19 @@
 // so we drop `output: "export"` in those modes.
 const isDev = process.env.NODE_ENV !== "production"
 const disableExport = process.env.DISABLE_STATIC_EXPORT === "1" || isDev
+const rootDir = process.cwd()
 
 const nextConfig = {
   ...(disableExport ? {} : { output: "export" }),
   turbopack: {
-    root: process.cwd(),
+    root: rootDir,
+    resolveAlias: {
+      "next/link": path.join(rootDir, "components/static-link.tsx"),
+    },
+  },
+  webpack(config) {
+    config.resolve.alias["next/link"] = path.join(rootDir, "components/static-link.tsx")
+    return config
   },
   trailingSlash: false,
   typescript: {
