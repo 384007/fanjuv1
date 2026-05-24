@@ -172,19 +172,27 @@ function RenderBlocks({
   blocks,
   skipFirstH1 = false,
   skipFirstParagraph = false,
+  skipParagraphIndexes = [],
 }: {
   blocks: Block[]
   skipFirstH1?: boolean
   skipFirstParagraph?: boolean
+  skipParagraphIndexes?: number[]
 }) {
   let firstParagraphSkipped = false
+  let paragraphIndex = -1
+  const skipParagraphSet = new Set(skipParagraphIndexes)
   return (
     <>
       {blocks.map((block, index) => {
         if (skipFirstH1 && index === 0 && block.type === "h1") return null
-        if (skipFirstParagraph && block.type === "p" && !firstParagraphSkipped) {
-          firstParagraphSkipped = true
-          return null
+        if (block.type === "p") {
+          paragraphIndex += 1
+          if (skipParagraphSet.has(paragraphIndex)) return null
+          if (skipFirstParagraph && !firstParagraphSkipped) {
+            firstParagraphSkipped = true
+            return null
+          }
         }
         if (block.type === "h1") return <h2 key={index} className="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">{block.text}</h2>
         if (block.type === "h2") return <h2 key={index} className="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">{block.text}</h2>
@@ -750,8 +758,10 @@ function SourceMarkdownArticlePage({
   const sourceParagraphs = sourceParagraphsForArticle(article, isEn)
   const introParagraph = sourceParagraphs[0] || ""
   const description = article.description || ""
-  const summaryMatchesIntro = summaryDuplicatesParagraph(description, introParagraph)
-  const summary = summaryMatchesIntro ? introParagraph : (description || introParagraph)
+  const summary = description || introParagraph
+  const summaryDuplicateParagraphIndexes = sourceParagraphs
+    .map((paragraph, index) => summaryDuplicatesParagraph(summary, paragraph) ? index : -1)
+    .filter((index) => index >= 0)
   const links = safeLinksForArticle(currentPath, article)
   const breadcrumbs = [
     { label: isEn ? "Fanju" : "饭局 Fanju", href: "/" },
@@ -829,7 +839,7 @@ function SourceMarkdownArticlePage({
               <p className="m-0 text-sm leading-relaxed text-muted-foreground md:text-base">{summary}</p>
             </div>
           )}
-          <RenderBlocks blocks={blocks} skipFirstH1 skipFirstParagraph={summaryMatchesIntro} />
+          <RenderBlocks blocks={blocks} skipFirstH1 skipParagraphIndexes={summaryDuplicateParagraphIndexes} />
         </article>
 
         <aside className="mt-12 space-y-6 lg:mt-0">
