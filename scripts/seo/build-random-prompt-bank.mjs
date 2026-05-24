@@ -367,6 +367,10 @@ function possessiveEn(value = "") {
   return /s$/i.test(s) ? `${s}'` : `${s}'s`
 }
 
+function indefiniteArticleEn(value = "") {
+  return /^[aeiou]/i.test(String(value || "").trim()) ? "an" : "a"
+}
+
 function angleLensEn(angleId = "") {
   const map = {
     first_timer_view: "first-timer hesitation",
@@ -623,7 +627,6 @@ function articleFrameFor(profile) {
       `通过饭局app做${city}${topic}社交饭局的长期视角`,
     ],
   ]
-
   const TEMPLATES = isEn ? TEMPLATES_EN : TEMPLATES_ZH
 
   // Determine max heading depth for this article: random 7-10, seeded deterministically
@@ -652,7 +655,36 @@ function articleFrameFor(profile) {
     [`选稳第一桌之后再谈下一次见面`,`${city}的第一顿饭要留下可复盘的余地`,`下一步不是冲动报名，而是选对这一桌`,`在${city}吃完一桌好饭，不急着约下一次才是对的节奏`,`一桌一桌来，是${city}${topic}饭局值得持续做的原因`,`带着一个真实连接离开${city}，比带走一堆联系方式更有价值`],
   ]
 
-  const h2s = h2Slots.map((variants, i) => variants[frameIndex(profile, `h2-${i + 1}`, 6)])
+  function headingHas(value, needle) {
+    const h = String(value || "").toLowerCase()
+    const n = String(needle || "").toLowerCase()
+    return n && h.includes(n)
+  }
+
+  function cleanHeading(value) {
+    const heading = String(value || "").trim()
+    if (isEn) return heading
+    return heading
+      .replace(/饭局饭局/g, "饭局")
+      .replace(/饭局app的饭局/g, "饭局app饭局")
+  }
+
+  function routeSpecificHeading(value) {
+    const heading = cleanHeading(value)
+    const hasCity = headingHas(heading, city)
+    const hasTopic = headingHas(heading, topic)
+    if (hasCity && hasTopic) return heading
+    if (isEn) {
+      if (!hasCity && !hasTopic) return `${heading} for ${topic} in ${city}`
+      if (!hasTopic) return `${heading} for ${topic}`
+      return `${heading} in ${city}`
+    }
+    if (!hasCity && !hasTopic) return cleanHeading(`${city}${topic}这一桌：${heading}`)
+    if (!hasTopic) return cleanHeading(`${heading}，回到${topic}`)
+    return cleanHeading(`${city}这一桌：${heading}`)
+  }
+
+  const h2s = h2Slots.map((variants, i) => routeSpecificHeading(variants[frameIndex(profile, `h2-${i + 1}`, 6)]))
 
   // Build heading outline: H1, then H2s (level 2), then H3..HmaxDepth (one each, levels 3..maxDepth)
   // Each deeper heading is a child of the previous — strictly increasing level, never decreasing.
@@ -660,11 +692,11 @@ function articleFrameFor(profile) {
   for (let level = 3; level <= maxDepth; level++) {
     const templateIdx = level - 1 // index into TEMPLATES array (0=H1,1=H2,2=H3,...)
     const variants = TEMPLATES[templateIdx] || TEMPLATES[TEMPLATES.length - 1]
-    const text = variants[frameIndex(profile, `h${level}`, variants.length)]
+    const text = routeSpecificHeading(variants[frameIndex(profile, `h${level}`, variants.length)])
     deepHeadings.push({ level, text })
   }
 
-  return { h1: TEMPLATES[0][frameIndex(profile, "h1", TEMPLATES[0].length)], h2s, deepHeadings, maxDepth }
+  return { h1: cleanHeading(TEMPLATES[0][frameIndex(profile, "h1", TEMPLATES[0].length)]), h2s, deepHeadings, maxDepth }
 }
 function systemInstructionFor(locale) {
   if (locale === "en") {
@@ -675,8 +707,8 @@ function systemInstructionFor(locale) {
       "The first line must be the article H1 and must begin with '# '.",
       "Markdown heading syntax is strict: valid headings use '# ', '## ', '### ', '#### ', '##### ', '###### ', '####### ' etc. with a space after the hashes. Never omit the space.",
       "Use '## ' for major sections. Deeper headings (H3 through H7+) must appear in strictly increasing order — never skip levels downward.",
-      "Before returning, silently verify: H1 has city + Fanju app; title is not a reusable template; description has city; body has 5-7 H2, at least one H3, at least one H4, at least 13 natural paragraphs, no public links, no JSON.",
-      "Write original paragraphs with concrete local context. Do not repeat the same sentence pattern across sections.",
+      "Write original paragraphs with concrete local context. Do not repeat the same sentence pattern, paragraph opening, or section logic across sections.",
+      "Before returning, silently verify: H1 has city + Fanju app; every H1-Hn heading is unique inside this article; every H2-Hn is specific to this city, topic, and angle; title is not a reusable template; description has city; body has 5-7 H2, at least one H3, at least one H4, at least 13 natural paragraphs, no repeated paragraph openings, no public links, no JSON.",
       "Never invent statistics, restaurants, user counts, awards, or partnerships.",
       "Never mention tools or production process.",
       "Never write Markdown links, raw URLs, href attributes, or HTML anchor tags. Mention page names as plain text only; the site template adds all links.",
@@ -694,8 +726,8 @@ function systemInstructionFor(locale) {
     "第一行必须是文章 H1，必须以「# 」开头。",
     "Markdown 标题语法必须严格：合法标题是「# 标题」「## 标题」「### 标题」「#### 标题」「##### 标题」「###### 标题」「####### 标题」等，井号后必须有空格。",
     "主要小节必须用「## 」开头。更深层标题（H3 到 H7+）必须严格递增出现，不能跳级降低。",
-    "返回前请在内部自检：H1 有中文城市名 + 饭局app；标题不是套模板；description 有中文城市名；正文有 5-7 个 H2、至少 1 个 H3、至少 1 个 H4、至少 13 个自然段、无公开链接、无 JSON。",
-    "每段都要有真实城市语境，不要在不同小节反复套同一种句式。",
+    "返回前请在内部自检：H1 有中文城市名 + 饭局app；本篇所有 H1-Hn 标题互不重复；每个 H2-Hn 都具体到这座城市、这个主题和这个角度；标题不是套模板；description 有中文城市名；正文有 5-7 个 H2、至少 1 个 H3、至少 1 个 H4、至少 13 个自然段、没有重复段落开头、无公开链接、无 JSON。",
+    "每段都要有真实城市语境，不要在不同小节反复套同一种句式、段落开头或论证顺序。",
     "不要编造统计数据、餐厅名、用户数、奖项或合作伙伴。",
     "不要提及任何工具、后台或生产流程。",
     "正文不要写 Markdown 链接、裸 URL、href 或 HTML a 标签。可以提到页面名称，但真实链接全部由页面模板统一添加。",
@@ -723,18 +755,18 @@ function userPromptFor(profile) {
       `Write a high-quality long-form English article for route ${profile.route}.`,
       `City: ${profile.cityNameLocalized}. Topic: ${profile.topicNameLocalized}.`,
       `Use this exact H1 as the first line, with no edits:\n# ${frame.h1}\nThis H1 already includes the city and the exact phrase "Fanju app".`,
-      `Title/H1 guardrails: title direction=${titleDirection}. Do not replace the H1 with a generic template title that only swaps city/topic words.`,
+      `Title/H1 guardrails: title direction=${titleDirection}. Do not replace the H1 with "${profile.cityNameLocalized} ${profile.topicNameLocalized} Guide", "A Guide to ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "How to join ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", or any title that only swaps city/topic words. Also avoid bland titles like "${indefiniteArticleEn(profile.cityNameLocalized).replace(/^./, (c) => c.toUpperCase())} ${profile.cityNameLocalized} dinner journey" or "Discover ${profile.cityNameLocalized} through dinner".`,
       `Angle: ${profile.angle.name}. Use this angle: ${profile.angle.instruction}`,
       `Style profile: structure=${profile.structure}; opening=${profile.openingStyle}; faq=${profile.faqMode}; cta=${profile.ctaPosition}; example=${profile.exampleType}; tone=${profile.tone}; title=${profile.titlePattern}.`,
       `Use these exact 6 H2 headings, in this order, with no edits:\n${frame.h2s.map((h) => `## ${h}`).join("\n")}`,
       `After the H2 sections, use these exact deeper headings in strict order (H3 through H${maxDepth}). Each heading must appear exactly once, on its own line, with the correct number of # symbols and a space:\n${deepOutline}`,
       `Heading depth rule: headings must only go deeper (H2 → H3 → H4 → … → H${maxDepth}). Never use a shallower heading after a deeper one. The article must reach at least H${maxDepth}.`,
-      "Quality: practical editorial guide, not a landing page. Every heading section must have at least one real paragraph with concrete local context.",
-      `Output contract: first character '#'; exactly one H1; 6 H2 headings; all deeper headings from H3 to H${maxDepth} present in order; at least 13 natural paragraphs; first paragraph mentions city and Fanju app; title and opening 600 characters mention Fanju app.`,
-      "Hard public-content rule: no QQ, webmaster contact, local contact, parked-domain text, or advertising-sales copy.",
-      "Hard linking rule: no [text](/path), raw URLs, <a href>, or href. All links are added by the page template.",
-      `Body: 4,600-6,500 characters; at least 13 natural paragraphs; no bullet or numbered lists; blank lines between paragraphs. Start with an answer-summary paragraph mentioning Fanju app and ${profile.cityNameLocalized}. Then write the 6 H2 sections. After the last H2, write the deeper heading sections (H3 through H${maxDepth}) in order, each with at least one paragraph. Do not use generic section labels like "Who this is for", "How it works", "Next steps", or "Conclusion".`,
-      "Return only the finished Markdown article text. First character must be '#'. No JSON, no YAML frontmatter, no code fence.",
+      "Quality: practical editorial guide, not a landing page. Include city rhythm, neighbourhood choice, attendee concerns, host reliability cues, comfort boundaries, and decision criteria. Every H2-Hn section must have real article paragraphs with distinct ideas and distinct paragraph openings.",
+      `Output contract that must pass automated quality checks: first character '#'; exactly one H1; all H1-H${maxDepth} headings are unique; 6 H2 headings using '## ' with a space; all deeper headings from H3 to H${maxDepth} present in strict order; at least 13 natural paragraphs; every H2 has at least two paragraphs; every deeper heading has at least one paragraph; first paragraph mentions city and Fanju app; title, first paragraph, and opening 600 characters mention Fanju app.`,
+      "Hard public-content rule: do not include QQ, webmaster contact, local contact, parked-domain text, advertising-sales copy, or any Chinese parked-domain phrase.",
+      "Hard linking rule: do not include [text](/path), https://fanju.app paths, raw URLs, <a href=\"...\">, the words markdown link, or any href. All real links are added by the page template.",
+      `Body requirements: 4,600-6,500 characters; at least 13 natural paragraphs; no filler. Do not use bullet lists or numbered lists. Use blank lines between paragraphs. Start with one answer-summary paragraph in the first 120 words explaining that Fanju app is a social dining app for small, clearly described meals and real-world connections in ${profile.cityNameLocalized}; this opening must be newly written for the exact route and must not begin with a reusable line like "In ${profile.cityNameLocalized}, Fanju app is not..." Then write the 6 required H2 sections exactly as given. Each H2 heading must be on its own line, begin with "## ", and be followed by two distinct paragraphs. Each paragraph should be 90-150 English words, concrete to this city/topic/angle, and must not reuse the same opening sentence pattern. After the last H2, write the deeper heading sections (H3 through H${maxDepth}) in order, each with at least one paragraph. Avoid checklist-style section labels such as "Who this is for", "Safety and boundaries", "How it works", "What to expect", "Next steps", or "Conclusion". Across the article, naturally resolve the reader's decision points before joining: local fit, table rhythm, host and venue quality, guest mix, comfort boundaries, skip signals, and a concrete next move. If the body has fewer than 13 public paragraphs, it will be rejected.`,
+      "Return only the finished Markdown article text. The first character of the response must be '#'. Do not wrap it in JSON, YAML frontmatter, or a code fence.",
     ].join("\n")
   }
   return [
@@ -748,11 +780,11 @@ function userPromptFor(profile) {
     `必须使用这 6 个精确 H2，按顺序写，不能改字：\n${frame.h2s.map((h) => `## ${h}`).join("\n")}`,
     `H2 之后，必须按顺序使用以下更深层标题（H3 到 H${maxDepth}），每个标题单独成行，井号数量和空格必须完全一致：\n${deepOutline}`,
     `标题深度规则：标题只能越来越深（H2 → H3 → H4 → … → H${maxDepth}），不能在更深的标题后出现更浅的标题。文章必须到达 H${maxDepth}。`,
-    "质量：像真实城市饭局指南，不像落地页。每个标题小节都必须有至少一段有真实城市语境的正文。",
-    `输出契约：第一个字符必须是「#」；只允许 1 个 H1；必须有 6 个「## 」标题；H3 到 H${maxDepth} 的所有标题必须按顺序出现；至少 13 个自然段；第一段必须同时出现「饭局app」和中文城市名；标题、H1、前 600 字都必须出现饭局app。`,
+    "质量：像真实城市饭局指南，不像落地页。写出城市节奏、街区选择、同桌人数、报名前顾虑、主理人信号、安全判断、报名建议。每个 H2-Hn 标题小节都必须有真实正文段落，且各小节观点、段落开头和论证顺序不能重复。",
+    `输出契约：第一个字符必须是「#」；只允许 1 个 H1；H1 到 H${maxDepth} 的所有标题必须互不重复；必须有 6 个「## 」标题；H3 到 H${maxDepth} 的所有标题必须按顺序出现；至少 13 个自然段；第一段必须同时出现「饭局app」和中文城市名；标题、H1、前 600 字都必须出现饭局app。`,
     "公开内容硬规则：不要出现本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售、停放域名、招商或站主联系方式。",
-    "链接硬规则：不要出现 [文字](/path)、裸 URL、<a href> 或任何 href。所有真实链接由页面模板统一添加。",
-    `正文结构硬规则：3,200-4,900 字符；至少 13 个自然段；段落之间必须空行；不要写项目符号列表或编号列表。第一段在前 200 字解释饭局app并落到「${profile.cityNameLocalized}」。然后写 6 个 H2 小节，每个 H2 下至少 2 段。H2 结束后，按顺序写 H3 到 H${maxDepth} 的深层小节，每个小节至少 1 段。不要用「适合谁」「安全重点」「下一步行动」「结语」这类模板标题。`,
+    "链接硬规则：不要出现 [文字](/path)、https://fanju.app 路径、裸 URL、<a href=\"...\">、markdown link 或任何 href。所有真实链接由页面模板统一添加。",
+    `正文结构硬规则：3,200-4,900 字符；至少 13 个自然段；段落之间必须空行；不要写项目符号列表、编号列表或结语。第一段必须是 answer-summary 式自然段，在前 200 字解释饭局app / Fanju 是围绕小桌吃饭、清晰主题和线下连接的社交应用，并明确落到「${profile.cityNameLocalized}」；开头必须为本路由重写，禁止用「在${profile.cityNameLocalized}，饭局app不是用来……而是……」这类可复用句式。然后写 6 个 H2 小节，每个 H2 下至少 2 段，标题必须原样保留、单独成行、以「## 」开头。H2 结束后，按顺序写 H3 到 H${maxDepth} 的深层小节，每个小节至少 1 段。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这类模板标题。全文要自然回答读者报名前会想清楚的决定点：本地适配、这一桌的节奏、主理人/餐厅/同桌质量、舒适边界、哪些信号说明不该去、下一步怎么做。不要反复用「饭局app可以帮助」「通过饭局app」开头。少于 13 个公开自然段会被拒绝。`,
     "只返回最终 Markdown 文章正文，第一个字符必须是「#」。不要 JSON，不要 YAML frontmatter，不要代码块。",
   ].join("\n")
 }

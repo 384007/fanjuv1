@@ -4,6 +4,7 @@ import { categories, cities, guides } from "@/lib/seo-data"
 
 const READY_DIR = join(process.cwd(), "content/seo-ready")
 const GENERATED_INDEX_DIR = join(process.cwd(), "content/articles/ready/index")
+const ROUTE_MANIFEST_FILE = join(process.cwd(), "data/seo/route-manifest.json")
 const MIN_SCORE = 90
 
 export type GeneratedArticle = {
@@ -66,6 +67,45 @@ export type SeoReadyArticle = {
 export type SafeLink = {
   label: string
   href: string
+}
+
+type RouteManifestEntry = {
+  route?: string
+  locale?: "zh" | "en"
+  citySlug?: string
+  cityNameLocalized?: string
+  topicSlug?: string
+  topicNameLocalized?: string
+}
+
+let _routeManifestEntries: RouteManifestEntry[] | null = null
+
+function routeManifestEntries(): RouteManifestEntry[] {
+  if (_routeManifestEntries) return _routeManifestEntries
+  if (!existsSync(ROUTE_MANIFEST_FILE)) {
+    _routeManifestEntries = []
+    return _routeManifestEntries
+  }
+  try {
+    const payload = JSON.parse(readFileSync(ROUTE_MANIFEST_FILE, "utf8"))
+    _routeManifestEntries = Array.isArray(payload.entries) ? payload.entries : []
+  } catch {
+    _routeManifestEntries = []
+  }
+  return _routeManifestEntries
+}
+
+function routeManifestEntryForPath(path: string, lang: "zh" | "en") {
+  const normalized = pathWithoutHash(path)
+  return routeManifestEntries().find((entry) => entry.locale === lang && pathWithoutHash(entry.route || "") === normalized) || null
+}
+
+function routeManifestCityName(citySlug: string, lang: "zh" | "en") {
+  return routeManifestEntries().find((entry) => entry.locale === lang && entry.citySlug === citySlug)?.cityNameLocalized || ""
+}
+
+function routeManifestTopicName(topicSlug: string, lang: "zh" | "en") {
+  return routeManifestEntries().find((entry) => entry.locale === lang && entry.topicSlug === topicSlug)?.topicNameLocalized || ""
 }
 
 function parseFrontmatter(raw: string): { meta: Record<string, string>; body: string } {
@@ -334,16 +374,43 @@ function titleCase(slug: string) {
     .join(" ")
 }
 
+function hasCjk(value = "") {
+  return /[\u4e00-\u9fff]/.test(value)
+}
+
+function articleLabel(article: SeoReadyArticle, path: string, lang: "zh" | "en") {
+  const title = String(lang === "zh" ? article.titleZh || article.title : article.title || "").trim()
+  if (lang === "zh" && hasCjk(title)) return title
+  if (lang === "en" && title) return title
+  return labelForArticlePath(path, lang)
+}
+
+export function localizedCityNameFromSlug(citySlug: string, lang: "zh" | "en") {
+  const city = cities.find((item) => item.slug === citySlug)
+  if (city) return lang === "en" ? city.nameEn : city.name
+  const fromManifest = routeManifestCityName(citySlug, lang)
+  if (fromManifest) return fromManifest
+  return lang === "en" ? titleCase(citySlug) : "同城"
+}
+
+export function localizedTopicNameFromSlug(topicSlug: string, lang: "zh" | "en") {
+  const category = categories.find((item) => item.slug === topicSlug)
+  if (category) return lang === "en" ? category.nameEn : category.name
+  const fromManifest = routeManifestTopicName(topicSlug, lang)
+  if (fromManifest) return fromManifest
+  return lang === "en" ? titleCase(topicSlug) : "主题饭局"
+}
+
 function cityName(citySlug: string, lang: "zh" | "en") {
   const city = cities.find((item) => item.slug === citySlug)
-  if (!city) return titleCase(citySlug)
-  return lang === "en" ? city.nameEn : city.name
+  if (city) return lang === "en" ? city.nameEn : city.name
+  const fromManifest = routeManifestCityName(citySlug, lang)
+  if (fromManifest) return fromManifest
+  return lang === "en" ? titleCase(citySlug) : "同城"
 }
 
 function topicName(topicSlug: string, lang: "zh" | "en") {
-  const category = categories.find((item) => item.slug === topicSlug)
-  if (category) return lang === "en" ? category.nameEn : category.name
-  return titleCase(topicSlug)
+  return localizedTopicNameFromSlug(topicSlug, lang)
 }
 
 function citySlugFromPath(path: string): string {
@@ -364,6 +431,15 @@ function _isPathLang(path: string, lang: "zh" | "en") {
 }
 
 function labelForArticlePath(path: string, lang: "zh" | "en") {
+  const manifestEntry = routeManifestEntryForPath(path, lang)
+  if (manifestEntry?.cityNameLocalized) {
+    const city = manifestEntry.cityNameLocalized
+    const topic = manifestEntry.topicNameLocalized || ""
+    if (lang === "en") return topic ? `${city} ${topic}` : city
+    if (!topic || manifestEntry.topicSlug === "city-overview") return `${city}饭局`
+    return `${city}${topic}`
+  }
+
   const citySlug = citySlugFromPath(path)
   const topicSlug = topicSlugFromPath(path)
   const city = cityName(citySlug, lang)
@@ -418,7 +494,7 @@ export function safeArticleLinksForCity(
       if (!itemCity) continue
       const itemKey = `${itemLang}:${itemCity}`
       const links = _safeArticleLinksByCityCache.get(itemKey) || []
-      links.push({ label: labelForArticlePath(path, itemLang), href: path })
+      links.push({ label: articleLabel(article, path, itemLang), href: path })
       _safeArticleLinksByCityCache.set(itemKey, links)
     }
   }

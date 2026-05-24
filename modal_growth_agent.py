@@ -186,7 +186,6 @@ def git_commit_and_push(routes: list[str], run_id: str, round_no: int) -> str:
     run_args(["git", "push", "origin", "main"], cwd=WORKDIR, timeout=900)
     sha = run_capture(["git", "rev-parse", "HEAD"], cwd=WORKDIR)
     print(f"GITHUB_MAIN_COMMIT={sha}", flush=True)
-    trigger_pages_deploy()
     return sha
 
 
@@ -393,7 +392,7 @@ def ensure_ready_source_entries(entries: list[dict], stage: str) -> None:
         meta = parse_frontmatter(path)
         score = int(meta.get("aiQualityScore") or "0")
         canonical = str(meta.get("canonicalPath") or "").strip()
-        if meta.get("status") != "ready" or score < 90 or canonical != route:
+        if meta.get("status") != "ready" or score < 96 or canonical != route:
             invalid.append(f"{route} ({source_path}, status={meta.get('status')}, score={score}, canonical={canonical})")
     if missing or invalid:
         raise RuntimeError(
@@ -419,7 +418,11 @@ def run_cloudflare_publish_pipeline(
     upload_r2: bool = True,
     submit_platforms: str = "all",
 ) -> dict:
-    """Production path: generate articles, commit Markdown to GitHub main, let Cloudflare Pages deploy, then submit URLs."""
+    """Production path: generate qualified Markdown and push it to GitHub main.
+
+    Cloudflare Pages deployment and external-platform submission are verified
+    outside Modal after the pushed routes are live.
+    """
     safe_rounds = min(24, max(1, int(rounds)))
     safe_run_limit = max(6, int(run_limit))
     if safe_run_limit % 2 != 0:
@@ -456,7 +459,7 @@ def run_cloudflare_publish_pipeline(
         run("EN_TOP_CITY_LIMIT=100 pnpm seo:prompt-bank:check", cwd=WORKDIR, timeout=600)
         run(
             f"RUN_LIMIT={safe_run_limit} CONCURRENCY=4 RATE_DELAY_MS=5000 BATCH_SIZE=2 "
-            f"UPLOAD_R2=0 MIN_SCORE=90 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=5 "
+            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=96 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=5 "
             f"QUALITY_RETRY_DELAY_MS=15000 MAX_TOKENS=7200 AI_COOLDOWN_WAIT_PASSES=2 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=15000 GROQ_MAX_TOKENS=6000 "
@@ -472,29 +475,12 @@ def run_cloudflare_publish_pipeline(
         if len(ready_entries) < safe_run_limit:
             raise RuntimeError(f"Round {round_no} published {len(ready_entries)} ready articles, expected {safe_run_limit}")
         latest_entries = ready_entries[-safe_run_limit:]
-        validate_ready_entries(latest_entries, min_score=90)
+        validate_ready_entries(latest_entries, min_score=96)
         ensure_ready_source_entries(latest_entries, f"round-{round_no}-after-generation")
 
         routes = [public_route_for_entry(entry) for entry in latest_entries]
         run("node scripts/seo/recover-missing-from-d1.mjs", cwd=WORKDIR, timeout=300)
-        # Run check as info only - generation quality gate (score>=90) is the single source of truth
-        subprocess.run(
-            "node scripts/check-seo-ready-routes.mjs || true",
-            shell=True, cwd=WORKDIR, capture_output=False, timeout=120
-        )
         commit_sha = git_commit_and_push(routes, run_id, round_no)
-        # Wait for CF Pages build to finish (max 5 min), then submit
-        try:
-            wait_for_live_routes(routes, max_attempts=10, delay_seconds=30)
-        except RuntimeError:
-            print("WARN: routes not live yet after 5min, submitting anyway", flush=True)
-        submit_routes = ",".join(routes)
-        run(
-            f"URLS={shlex.quote(submit_routes)} URL_LIMIT={safe_run_limit} PLATFORMS={safe_platforms} "
-            "pnpm seo:cloudflare:submit || true",
-            cwd=WORKDIR,
-            timeout=1200,
-        )
 
         round_summary = {
             "round": round_no,
@@ -506,6 +492,7 @@ def run_cloudflare_publish_pipeline(
             "latest": latest_entries,
             "routes": routes,
             "commitSha": commit_sha,
+            "siteAndExternalSubmit": "deferred-until-live",
         }
         round_summaries.append(round_summary)
         print(f"PRODUCTION_ROUND_OK {round_no}/{safe_rounds} routes={','.join(routes)}", flush=True)
@@ -617,7 +604,7 @@ def publish_routes_to_cloudflare(target_routes: str, upload_r2: bool = True):
         )
         run(
             f"RUN_LIMIT=1 CONCURRENCY=1 RATE_DELAY_MS=15000 BATCH_SIZE=1 "
-            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=5 QUALITY_RETRY_DELAY_MS=240000 MAX_TOKENS=7200 AI_COOLDOWN_WAIT_PASSES=40 "
+            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=96 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=5 QUALITY_RETRY_DELAY_MS=240000 MAX_TOKENS=7200 AI_COOLDOWN_WAIT_PASSES=40 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=15000 GROQ_MAX_TOKENS=6000 "
             "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "

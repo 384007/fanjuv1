@@ -12,6 +12,10 @@ const TIMEOUT_MS = Math.max(5000, Number.parseInt(process.env.TIMEOUT_MS || "300
 const REQUEST_TIMEOUT_MS = Math.max(5000, Number.parseInt(process.env.REQUEST_TIMEOUT_MS || "10000", 10))
 const URL_LIMIT = Math.max(0, Number.parseInt(process.env.URL_LIMIT || "0", 10))
 const OUTPUT_FILE = process.env.OUTPUT_FILE || "/private/tmp/fanju-headless-chrome-sitemap.json"
+const URLS = (process.env.URLS || "")
+  .split(",")
+  .map((s) => s.trim())
+  .filter(Boolean)
 const CHROME = process.env.CHROME_BIN || [
   "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
   "/Applications/Google Chrome 2.app/Contents/MacOS/Google Chrome",
@@ -34,6 +38,17 @@ function sitemapPaths(file) {
 
 function unique(items) {
   return [...new Set(items)].sort((a, b) => a.localeCompare(b))
+}
+
+function pathFromUrl(raw) {
+  const value = String(raw || "").trim()
+  if (!value) return ""
+  if (value.startsWith("/")) return value.replace(/\/$/, "") || "/"
+  try {
+    return new URL(value).pathname.replace(/\/$/, "") || "/"
+  } catch {
+    return ""
+  }
 }
 
 function visibleText(html) {
@@ -274,10 +289,12 @@ try {
   chromeWsUrl = await chrome.ready
   const chromeUrl = new URL(chromeWsUrl)
   const debugOrigin = `http://${chromeUrl.host}`
-  const paths = unique([
-    ...sitemapPaths(join(PUBLIC_DIR, "sitemap.xml")),
-    ...sitemapPaths(join(PUBLIC_DIR, "product-sitemap.xml")),
-  ])
+  const paths = URLS.length
+    ? unique(URLS.map(pathFromUrl).filter(Boolean))
+    : unique([
+        ...sitemapPaths(join(PUBLIC_DIR, "sitemap.xml")),
+        ...sitemapPaths(join(PUBLIC_DIR, "product-sitemap.xml")),
+      ])
   const limited = URL_LIMIT > 0 ? paths.slice(0, URL_LIMIT) : paths
 
   console.log(`Headless Chrome sitemap check: base=${BASE_URL} pages=${limited.length} concurrency=${CONCURRENCY}`)

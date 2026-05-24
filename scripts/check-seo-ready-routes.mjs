@@ -84,11 +84,16 @@ function countMarkdownHeadings(body, level = 2) {
 }
 
 function countParagraphs(body) {
-  return body
+  return paragraphBlocks(body)
+    .length
+}
+
+function paragraphBlocks(body = "") {
+  return String(body || "")
+    .replace(/^#{1,10}\s+.+$/gm, "\n")
     .split(/\n{2,}/)
     .map((part) => part.trim())
     .filter((part) => part && !part.startsWith("#") && !/^[-*]\s+/m.test(part) && !/^\d+\.\s+/m.test(part))
-    .length
 }
 
 function duplicateMarkdownHeadings(body, level = 2) {
@@ -99,9 +104,15 @@ function duplicateMarkdownHeadings(body, level = 2) {
   return headings.length - new Set(headings).size
 }
 
+function duplicateMarkdownHeadingTexts(body = "") {
+  const headings = markdownHeadings(body)
+    .map((heading) => normalizeForTemplateCheck(heading.text))
+    .filter(Boolean)
+  return headings.length - new Set(headings).size
+}
+
 function duplicateParagraphs(body) {
-  const paragraphs = body
-    .split(/\n{2,}/)
+  const paragraphs = paragraphBlocks(body)
     .map((part) => part
       .replace(/^#+\s*/, "")
       .replace(/\s+/g, "")
@@ -111,8 +122,18 @@ function duplicateParagraphs(body) {
   return paragraphs.length - new Set(paragraphs).size
 }
 
+function publicParagraphs(body = "") {
+  return paragraphBlocks(body)
+}
+
 function markdownH1(body = "") {
   return String(body || "").match(/^#\s+(.+)$/m)?.[1]?.trim() || ""
+}
+
+function markdownHeadings(body = "") {
+  return [...String(body || "").matchAll(/^(#{1,10})\s+(.+)$/gm)]
+    .map((m) => ({ level: m[1].length, text: m[2].trim() }))
+    .filter((item) => item.text)
 }
 
 function normalizeForTemplateCheck(value = "") {
@@ -128,6 +149,86 @@ function compactCjk(value = "") {
     .replace(/\s+/g, "")
     .replace(/[，。,.!?！？、；;：:"'“”‘’()（）[\]【】|｜-]/g, "")
     .toLowerCase()
+}
+
+function escapeRegExp(value = "") {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+}
+
+function stripRouteVariables(meta, value = "") {
+  const routeMeta = routeMetaFor(meta) || {}
+  const replacements = [
+    routeMeta.cityNameLocalized,
+    routeMeta.citySlug,
+    String(routeMeta.citySlug || "").replace(/-/g, " "),
+    routeMeta.topicNameLocalized,
+    routeMeta.topicSlug,
+    String(routeMeta.topicSlug || "").replace(/-/g, " "),
+  ].filter(Boolean)
+
+  let out = String(value || "")
+  for (const item of replacements) out = out.replace(new RegExp(escapeRegExp(item), "gi"), " ")
+  return out
+    .replace(/Fanju\s*app/gi, " ")
+    .replace(/Fanju\s*\/\s*饭局/gi, " ")
+    .replace(/饭局\s*app/gi, " ")
+    .replace(/饭局/g, " ")
+}
+
+function textFingerprint(meta, value = "", min = 60, max = 180) {
+  const cleaned = stripRouteVariables(meta, value)
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\u4e00-\u9fff]+/gu, "")
+    .trim()
+  if (cleaned.length < min) return ""
+  return cleaned.slice(0, max)
+}
+
+function openingFingerprint(meta, value = "") {
+  const normalized = stripRouteVariables(meta, value)
+    .toLowerCase()
+    .replace(/[，。,.!?！？、；;：:"'“”‘’()（）[\]【】]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+  if (!normalized) return ""
+  if (meta.lang === "en") return normalized.split(/\s+/).slice(0, 10).join(" ")
+  return normalized.replace(/\s+/g, "").slice(0, 28)
+}
+
+function repeatedOpeningIssues(meta, body = "") {
+  const seen = new Map()
+  const issues = []
+  for (const paragraph of publicParagraphs(body)) {
+    const sig = openingFingerprint(meta, paragraph)
+    if (!sig || sig.length < (meta.lang === "en" ? 24 : 12)) continue
+    seen.set(sig, (seen.get(sig) || 0) + 1)
+  }
+  for (const [sig, count] of seen.entries()) {
+    if (count > 1) issues.push(`repeated-paragraph-opening:${sig.slice(0, 60)}`)
+  }
+  return issues.slice(0, 4)
+}
+
+function nearDuplicateParagraphIssues(meta, body = "") {
+  const paragraphs = publicParagraphs(body)
+  const seen = new Map()
+  const issues = []
+  for (let i = 0; i < paragraphs.length; i++) {
+    const sig = textFingerprint(meta, paragraphs[i], meta.lang === "en" ? 140 : 80, meta.lang === "en" ? 260 : 180)
+    if (!sig) continue
+    if (seen.has(sig)) issues.push(`near-duplicate-paragraph:${seen.get(sig) + 1}->${i + 1}`)
+    else seen.set(sig, i)
+  }
+
+  const introSig = textFingerprint(meta, paragraphs[0] || "", meta.lang === "en" ? 120 : 70, meta.lang === "en" ? 240 : 160)
+  if (introSig) {
+    for (let i = 1; i < paragraphs.length; i++) {
+      const sig = textFingerprint(meta, paragraphs[i], meta.lang === "en" ? 120 : 70, meta.lang === "en" ? 240 : 160)
+      if (sig && sig === introSig) issues.push(`intro-repeated-in-body:${i + 1}`)
+    }
+  }
+
+  return issues.slice(0, 4)
 }
 
 function normalizeLatinAlias(value = "") {
@@ -200,7 +301,7 @@ function latinNoiseInZhHeading(value = "") {
 }
 
 function zhHeadingLatinNoise(body = "") {
-  const headings = [...String(body || "").matchAll(/^#{1,3}\s+(.+)$/gm)]
+  const headings = [...String(body || "").matchAll(/^#{1,10}\s+(.+)$/gm)]
     .map((m) => m[1].trim())
     .filter(Boolean)
   const words = new Set()
@@ -474,7 +575,10 @@ function sourceBodyIssues(meta, body) {
   if (countMarkdownHeadings(body, 2) < 5) issues.push(`too-few-h2:${countMarkdownHeadings(body, 2)}`)
   if (countParagraphs(body) < 10) issues.push(`too-few-paragraphs:${countParagraphs(body)}`)
   if (duplicateMarkdownHeadings(body, 2) > 0) issues.push("duplicate-h2")
+  if (duplicateMarkdownHeadingTexts(body) > 0) issues.push("duplicate-heading")
   if (duplicateParagraphs(body) > 0) issues.push("duplicate-paragraphs")
+  issues.push(...repeatedOpeningIssues(meta, body))
+  issues.push(...nearDuplicateParagraphIssues(meta, body))
 
   const h2 = [...body.matchAll(/^##\s+(.+)$/gm)].map((m) => m[1].trim().toLowerCase())
   const genericHeadings = [
@@ -502,7 +606,15 @@ if (!existsSync(READY_DIR)) {
   process.exit(1)
 }
 
-const files = readdirSync(READY_DIR).filter((f) => f.endsWith(".md"))
+const requestedFiles = (process.env.SEO_READY_FILES || "")
+  .split(",")
+  .map((file) => file.trim().replace(/^content\/seo-ready\//, ""))
+  .filter(Boolean)
+const allReadyFiles = readdirSync(READY_DIR).filter((f) => f.endsWith(".md")).sort()
+const missingRequestedFiles = requestedFiles.filter((f) => !existsSync(join(READY_DIR, f)))
+const files = requestedFiles.length
+  ? requestedFiles.filter((f) => f.endsWith(".md") && existsSync(join(READY_DIR, f)))
+  : allReadyFiles
 if (files.length === 0) {
   console.warn("⚠️  No .md files in content/seo-ready/")
 }
@@ -510,6 +622,11 @@ if (files.length === 0) {
 let errors = 0
 let skipped = 0
 const seenPaths = new Map()
+
+if (missingRequestedFiles.length) {
+  console.error(`   ❌ Missing requested SEO_READY_FILES: ${missingRequestedFiles.join(", ")}`)
+  errors += missingRequestedFiles.length
+}
 
 for (const file of files) {
   const raw = readFileSync(join(READY_DIR, file), "utf8")

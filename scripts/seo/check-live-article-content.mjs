@@ -205,6 +205,80 @@ function tagText(html = "", tagName) {
     .filter(Boolean)
 }
 
+function metaContent(html = "", selectorName = "") {
+  const escaped = selectorName.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+  const patterns = [
+    new RegExp(`<meta\\b(?=[^>]*(?:property|name)=["']${escaped}["'])(?=[^>]*content=["']([^"']+)["'])[^>]*>`, "i"),
+    new RegExp(`<meta\\b(?=[^>]*content=["']([^"']+)["'])(?=[^>]*(?:property|name)=["']${escaped}["'])[^>]*>`, "i"),
+  ]
+  for (const pattern of patterns) {
+    const match = html.match(pattern)
+    if (match?.[1]) return match[1].trim()
+  }
+  return ""
+}
+
+function canonicalHref(html = "") {
+  const match = html.match(/<link\b(?=[^>]*rel=["']canonical["'])(?=[^>]*href=["']([^"']+)["'])[^>]*>/i)
+  return match?.[1]?.trim() || ""
+}
+
+function jsonLdObjects(html = "") {
+  const scripts = [...html.matchAll(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)]
+  const out = []
+  for (const script of scripts) {
+    try {
+      const parsed = JSON.parse(script[1].trim())
+      if (Array.isArray(parsed)) out.push(...parsed)
+      else if (parsed && typeof parsed === "object") out.push(parsed)
+    } catch {
+      out.push({ __parseError: true })
+    }
+  }
+  return out
+}
+
+function flattenJsonLdTypes(value, types = []) {
+  if (!value || typeof value !== "object") return types
+  const type = value["@type"]
+  if (Array.isArray(type)) types.push(...type.map(String))
+  else if (type) types.push(String(type))
+  if (Array.isArray(value["@graph"])) {
+    for (const item of value["@graph"]) flattenJsonLdTypes(item, types)
+  }
+  return types
+}
+
+function duplicateCount(items = []) {
+  const normalized = items.map((item) => String(item || "").replace(/\s+/g, "").toLowerCase()).filter(Boolean)
+  return normalized.length - new Set(normalized).size
+}
+
+function openingFingerprint(value = "", isEn = false) {
+  const normalized = comparableText(value)
+    .replace(/[，。,.!?！？、；;：:"'“”‘’()（）[\]【】]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase()
+  if (!normalized) return ""
+  if (isEn) return normalized.split(/\s+/).slice(0, 10).join(" ")
+  return normalized.replace(/\s+/g, "").slice(0, 28)
+}
+
+function repeatedParagraphOpenings(paragraphs = [], isEn = false) {
+  const seen = new Map()
+  const repeated = []
+  for (const paragraph of paragraphs) {
+    const sig = openingFingerprint(paragraph, isEn)
+    if (!sig || sig.length < (isEn ? 24 : 12)) continue
+    seen.set(sig, (seen.get(sig) || 0) + 1)
+  }
+  for (const [sig, count] of seen.entries()) {
+    if (count > 1) repeated.push(sig)
+  }
+  return repeated
+}
+
 function badPhraseHits(text = "") {
   const hits = []
   for (const pattern of BAD_PUBLIC_PATTERNS) {
@@ -314,11 +388,15 @@ async function checkOne(raw) {
   const text = htmlText(html)
   const h1 = tagText(html, "h1")
   const h2 = tagText(html, "h2")
+  const h3 = tagText(html, "h3")
   const p = tagText(html, "p")
   const styleNodes =
     (html.match(/<link\b[^>]*rel=["']?stylesheet/gi) || []).length +
     (html.match(/<style\b/gi) || []).length
   const internalLinks = await checkInternalLinks(html)
+  const jsonLd = jsonLdObjects(html)
+  const jsonLdTypes = jsonLd.flatMap((item) => flattenJsonLdTypes(item))
+  const isEn = /\/en\//.test(url)
   const result = {
     url,
     status: response.status,
@@ -327,9 +405,15 @@ async function checkOne(raw) {
     h1: h1[0] || "",
     h1Count: h1.length,
     h2Count: h2.length,
+    h3Count: h3.length,
     pCount: p.length,
     textLength: text.length,
     styleNodes,
+    canonical: canonicalHref(html),
+    ogImage: metaContent(html, "og:image"),
+    twitterImage: metaContent(html, "twitter:image"),
+    jsonLdCount: jsonLd.length,
+    jsonLdTypes,
     internalLinksChecked: internalLinks.checked,
     badInternalLinks: internalLinks.bad,
     badHits: badPhraseHits(publicHtml),
@@ -344,6 +428,18 @@ async function checkOne(raw) {
   if (result.pCount < 5) result.issues.push(`too-few-p:${result.pCount}`)
   if (result.textLength < minVisibleText(url)) result.issues.push(`visible-text-too-short:${result.textLength}`)
   if (styleNodes < 1) result.issues.push("missing-stylesheet")
+  if (!result.canonical) result.issues.push("missing-canonical")
+  if (!result.ogImage) result.issues.push("missing-og-image")
+  if (!result.twitterImage) result.issues.push("missing-twitter-image")
+  if (!result.jsonLdCount) result.issues.push("missing-json-ld")
+  if (jsonLd.some((item) => item.__parseError)) result.issues.push("invalid-json-ld")
+  if (!result.jsonLdTypes.includes("Article")) result.issues.push("missing-article-json-ld")
+  if (!result.jsonLdTypes.includes("BreadcrumbList")) result.issues.push("missing-breadcrumb-json-ld")
+  if (duplicateCount(h1) > 0) result.issues.push("duplicate-h1")
+  if (duplicateCount(h2) > 0) result.issues.push("duplicate-h2")
+  if (duplicateCount(h3) > 0) result.issues.push("duplicate-h3")
+  const repeatedOpenings = repeatedParagraphOpenings(p, isEn)
+  if (repeatedOpenings.length) result.issues.push(`repeated-paragraph-opening:${repeatedOpenings.slice(0, 3).join("|")}`)
   if (result.badHits.length) result.issues.push(`bad-public-phrase:${result.badHits.join(",")}`)
   if (REQUIRE_SOURCE_MATCH && !expectedSource) result.issues.push("missing-local-source-article")
   if (expectedSource && comparableText(result.h1) !== expectedSource.h1) {

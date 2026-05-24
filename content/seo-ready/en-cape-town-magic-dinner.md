@@ -65,7 +65,7 @@ Look for a host who shares something personal in their profile—a hobby, a reas
 
 Guests arrive within a 15-minute window. The host greets each person by name, offers water or tea, and gives a two-sentence welcome: “So glad you’re here. We’ll start cooking together in ten minutes—no pressure, just chop if you want to.” There’s no forced icebreaker. The space feels open, not staged.
 
-##### What the opening of a well-run Cape Town Magic Dinner dinner looks like
+
 
 The kitchen is warm, maybe a pot bubbling, music low. Someone starts talking about the walk over—how the wind picked up near the promenade. Another mentions they’ve never tried umngqusho. The host hands out aprons or cutting boards. No one is performing. The evening begins not with a speech, but with motion.
 

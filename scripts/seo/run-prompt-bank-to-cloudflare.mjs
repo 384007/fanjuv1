@@ -406,7 +406,7 @@ function normalizeMarkdownHeadingSpacing(text = "") {
     .replace(/\r\n/g, "\n")
     .split("\n")
     .map((line) => {
-      const heading = line.match(/^(#{1,6})(?!#)(\S.*)$/)
+      const heading = line.match(/^(#{1,10})(?!#)(\S.*)$/)
       if (!heading) return line
       return `${heading[1]} ${heading[2].trim()}`
     })
@@ -478,11 +478,16 @@ function countMarkdownHeadings(body, level = 2) {
 }
 
 function countParagraphs(body) {
-  return String(body)
+  return publicParagraphs(body)
+    .length
+}
+
+function paragraphBlocks(body = "") {
+  return String(body || "")
+    .replace(/^#{1,10}\s+.+$/gm, "\n")
     .split(/\n{2,}/)
     .map((part) => part.trim())
     .filter((part) => part && !part.startsWith("#") && !/^[-*]\s+/m.test(part))
-    .length
 }
 
 function duplicateMarkdownHeadings(body, level = 2) {
@@ -493,9 +498,15 @@ function duplicateMarkdownHeadings(body, level = 2) {
   return headings.length - new Set(headings).size
 }
 
+function duplicateMarkdownHeadingTexts(body = "") {
+  const headings = markdownHeadings(body)
+    .map((heading) => normalizeForTemplateCheck(heading.text))
+    .filter(Boolean)
+  return headings.length - new Set(headings).size
+}
+
 function duplicateParagraphs(body) {
-  const paragraphs = String(body)
-    .split(/\n{2,}/)
+  const paragraphs = paragraphBlocks(body)
     .map((part) => part
       .replace(/^#+\s*/, "")
       .replace(/\s+/g, "")
@@ -505,8 +516,19 @@ function duplicateParagraphs(body) {
   return paragraphs.length - new Set(paragraphs).size
 }
 
+function publicParagraphs(body = "") {
+  return paragraphBlocks(body)
+    .filter((part) => !/^\d+\.\s+/m.test(part))
+}
+
 function markdownH1(body = "") {
   return String(body || "").match(/^#\s+(.+)$/m)?.[1]?.trim() || ""
+}
+
+function markdownHeadings(body = "") {
+  return [...String(body || "").matchAll(/^(#{1,10})\s+(.+)$/gm)]
+    .map((m) => ({ level: m[1].length, text: m[2].trim() }))
+    .filter((item) => item.text)
 }
 
 function normalizeForTemplateCheck(value = "") {
@@ -522,6 +544,89 @@ function compactCjk(value = "") {
     .replace(/\s+/g, "")
     .replace(/[，。,.!?！？、；;：:"'“”‘’()（）[\]【】|｜-]/g, "")
     .toLowerCase()
+}
+
+function stripRouteVariables(prompt, value = "") {
+  const replacements = [
+    prompt.cityNameLocalized,
+    prompt.cityNameZh,
+    prompt.cityNameEn,
+    prompt.citySlug,
+    String(prompt.citySlug || "").replace(/-/g, " "),
+    prompt.topicNameLocalized,
+    prompt.topicSlug,
+    String(prompt.topicSlug || "").replace(/-/g, " "),
+  ].filter(Boolean)
+
+  let out = String(value || "")
+  for (const item of replacements) {
+    out = out.replace(new RegExp(escapeRegExp(item), "gi"), " ")
+  }
+  return out
+    .replace(/Fanju\s*app/gi, " ")
+    .replace(/Fanju\s*\/\s*饭局/gi, " ")
+    .replace(/饭局\s*app/gi, " ")
+    .replace(/饭局/g, " ")
+}
+
+function textFingerprint(prompt, value = "", min = 60, max = 180) {
+  const cleaned = stripRouteVariables(prompt, value)
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\u4e00-\u9fff]+/gu, "")
+    .trim()
+  if (cleaned.length < min) return ""
+  return cleaned.slice(0, max)
+}
+
+function openingFingerprint(prompt, value = "") {
+  const normalized = stripRouteVariables(prompt, value)
+    .toLowerCase()
+    .replace(/[，。,.!?！？、；;：:"'“”‘’()（）[\]【】]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+  if (!normalized) return ""
+  if (prompt.locale === "en") return normalized.split(/\s+/).slice(0, 10).join(" ")
+  return normalized.replace(/\s+/g, "").slice(0, 28)
+}
+
+function repeatedOpeningIssues(prompt, body = "") {
+  const seen = new Map()
+  const issues = []
+  for (const paragraph of publicParagraphs(body)) {
+    const sig = openingFingerprint(prompt, paragraph)
+    if (!sig || sig.length < (prompt.locale === "en" ? 24 : 12)) continue
+    seen.set(sig, (seen.get(sig) || 0) + 1)
+  }
+  for (const [sig, count] of seen.entries()) {
+    if (count > 1) issues.push(`repeated-paragraph-opening:${sig.slice(0, 60)}`)
+  }
+  return issues.slice(0, 4)
+}
+
+function nearDuplicateParagraphIssues(prompt, body = "") {
+  const paragraphs = publicParagraphs(body)
+  const seen = new Map()
+  const issues = []
+  for (let i = 0; i < paragraphs.length; i++) {
+    const sig = textFingerprint(prompt, paragraphs[i], prompt.locale === "en" ? 140 : 80, prompt.locale === "en" ? 260 : 180)
+    if (!sig) continue
+    if (seen.has(sig)) issues.push(`near-duplicate-paragraph:${seen.get(sig) + 1}->${i + 1}`)
+    else seen.set(sig, i)
+  }
+
+  const introSig = textFingerprint(prompt, paragraphs[0] || "", prompt.locale === "en" ? 120 : 70, prompt.locale === "en" ? 240 : 160)
+  if (introSig) {
+    for (let i = 1; i < paragraphs.length; i++) {
+      const sig = textFingerprint(prompt, paragraphs[i], prompt.locale === "en" ? 120 : 70, prompt.locale === "en" ? 240 : 160)
+      if (sig && sig === introSig) issues.push(`intro-repeated-in-body:${i + 1}`)
+    }
+  }
+
+  return issues.slice(0, 4)
+}
+
+function escapeRegExp(value = "") {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
 }
 
 function normalizeLatinAlias(value = "") {
@@ -640,7 +745,7 @@ function latinNoiseInZhBody(value = "", topicSlug = "") {
 }
 
 function zhHeadingLatinNoise(body = "") {
-  const headings = [...String(body || "").matchAll(/^#{1,3}\s+(.+)$/gm)]
+  const headings = [...String(body || "").matchAll(/^#{1,10}\s+(.+)$/gm)]
     .map((m) => m[1].trim())
     .filter(Boolean)
   const words = new Set()
@@ -785,7 +890,7 @@ function repairHeadings(prompt, body) {
     .split("\n")
     .map((line) => {
       const trimmed = line.trim()
-      if (/^#{1,6}\s+/.test(trimmed)) return line
+      if (/^#{1,10}\s+/.test(trimmed)) return line
       if (expectedH2.has(trimmed)) return `## ${trimmed}`
       if (expectedH3.has(trimmed)) return `### ${trimmed}`
       const boldHeading = trimmed.match(/^\*\*([^*]{4,90})\*\*:?$/)
@@ -917,8 +1022,12 @@ function scoreArticle(prompt, parsed) {
   if (countParagraphs(body) < minParagraphs) issues.push(`too-few-paragraphs:${countParagraphs(body)}`)
   const duplicateH2 = duplicateMarkdownHeadings(body, 2)
   if (duplicateH2 > 0) issues.push(`duplicate-h2:${duplicateH2}`)
+  const duplicateHeadings = duplicateMarkdownHeadingTexts(body)
+  if (duplicateHeadings > 0) issues.push(`duplicate-heading:${duplicateHeadings}`)
   const duplicatePara = duplicateParagraphs(body)
   if (duplicatePara > 0) issues.push(`duplicate-paragraphs:${duplicatePara}`)
+  issues.push(...repeatedOpeningIssues(prompt, body))
+  issues.push(...nearDuplicateParagraphIssues(prompt, body))
   const repeatedPhrases = repeatedPhraseHits(body)
   if (repeatedPhrases > 0) issues.push(`repeated-generic-phrases:${repeatedPhrases}`)
   const templateHeadings = templateHeadingHits(body)
@@ -959,7 +1068,11 @@ function isHardIssue(issue) {
     issue.startsWith("too-few-h4") ||
     issue.startsWith("too-few-paragraphs") ||
     issue.startsWith("duplicate-h2") ||
+    issue.startsWith("duplicate-heading") ||
     issue.startsWith("duplicate-paragraphs") ||
+    issue.startsWith("repeated-paragraph-opening") ||
+    issue.startsWith("near-duplicate-paragraph") ||
+    issue.startsWith("intro-repeated-in-body") ||
     issue.startsWith("repeated-generic-phrases") ||
     issue.startsWith("template-heading-set") ||
     issue.startsWith("template-h2") ||
@@ -1036,11 +1149,11 @@ function bodyToArticleHtml(prompt, result) {
       continue
     }
 
-    const heading = line.match(/^(#{2,4})\s+(.+)$/)
+    const heading = line.match(/^(#{2,10})\s+(.+)$/)
     if (heading) {
       flushParagraph()
       flushList()
-      const level = heading[1].length
+      const level = Math.min(6, heading[1].length)
       html.push(`<h${level}>${inlineMarkdown(heading[2].trim())}</h${level}>`)
       continue
     }
@@ -1090,7 +1203,10 @@ function retryIssueSummaryForModel(locale, issues = []) {
     else if (issue.startsWith("too-few-h3")) add(locale === "zh" ? "缺少具体问题型 H3" : "missing one concrete question-style H3")
     else if (issue.startsWith("too-few-paragraphs")) add(locale === "zh" ? "自然段不足" : "not enough paragraph blocks")
     else if (issue.startsWith("duplicate-h2")) add(locale === "zh" ? "H2 重复" : "duplicate H2 headings")
+    else if (issue.startsWith("duplicate-heading")) add(locale === "zh" ? "H1-Hn 标题重复" : "duplicate H1-Hn headings")
     else if (issue.startsWith("duplicate-paragraphs")) add(locale === "zh" ? "段落重复" : "duplicate paragraphs")
+    else if (issue.startsWith("repeated-paragraph-opening")) add(locale === "zh" ? "段落开头重复" : "repeated paragraph openings")
+    else if (issue.startsWith("near-duplicate-paragraph") || issue.startsWith("intro-repeated-in-body")) add(locale === "zh" ? "段落骨架重复" : "near-duplicate paragraph structure")
     else if (issue.startsWith("repeated-generic-phrases")) add(locale === "zh" ? "通用表达重复" : "repeated generic phrases")
     else if (issue.startsWith("template-h2") || issue.startsWith("template-heading-set")) add(locale === "zh" ? "H2 过于通用或像模板" : "major headings too generic or template-like")
     else if (issue === "template-title") add(locale === "zh" ? "标题像模板" : "title too template-like")

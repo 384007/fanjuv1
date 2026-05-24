@@ -1,6 +1,6 @@
 import Link from "next/link"
 import type { SeoReadyArticle } from "@/lib/seo-ready-articles"
-import { getAlternatePath, isSafeInternalHref, safeLinksForArticle } from "@/lib/seo-ready-articles"
+import { getAlternatePath, isSafeInternalHref, localizedCityNameFromSlug, localizedTopicNameFromSlug, safeLinksForArticle } from "@/lib/seo-ready-articles"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
 import { canonicalUrl, hreflangAlternates, SITE_URL } from "@/lib/seo-canonical"
@@ -169,11 +169,24 @@ function sourceBlocksForArticle(article: SeoReadyArticle) {
   return parseMarkdownCached(key, sourceMarkdownForArticle(article))
 }
 
-function RenderBlocks({ blocks, skipFirstH1 = false }: { blocks: Block[]; skipFirstH1?: boolean }) {
+function RenderBlocks({
+  blocks,
+  skipFirstH1 = false,
+  skipFirstParagraph = false,
+}: {
+  blocks: Block[]
+  skipFirstH1?: boolean
+  skipFirstParagraph?: boolean
+}) {
+  let firstParagraphSkipped = false
   return (
     <>
       {blocks.map((block, index) => {
         if (skipFirstH1 && index === 0 && block.type === "h1") return null
+        if (skipFirstParagraph && block.type === "p" && !firstParagraphSkipped) {
+          firstParagraphSkipped = true
+          return null
+        }
         if (block.type === "h1") return <h2 key={index} className="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">{block.text}</h2>
         if (block.type === "h2") return <h2 key={index} className="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">{block.text}</h2>
         if (block.type === "h3") return <h3 key={index} className="mt-6 mb-2 font-serif text-xl text-foreground">{block.text}</h3>
@@ -254,6 +267,11 @@ function topicLabel(slug = "social-dining") {
   const key = slug || "social-dining"
   const known = TOPIC_LABELS[key]
   if (known) return { ...known, joinZh: known.zh }
+  const manifestZh = localizedTopicNameFromSlug(key, "zh")
+  const manifestEn = localizedTopicNameFromSlug(key, "en")
+  if (manifestZh !== "主题饭局" || manifestEn !== titleCase(key)) {
+    return { zh: manifestZh, joinZh: manifestZh, en: manifestEn }
+  }
 
   const zhWords: Record<string, string> = {
     designer: "设计师",
@@ -272,7 +290,7 @@ function topicLabel(slug = "social-dining") {
     dining: "饭局",
   }
   const zh = key.split("-").map((word) => zhWords[word] || "").join("").replace(/饭局饭局/g, "饭局")
-  const joinZh = /饭局|餐桌|社交/.test(zh) ? zh : `${zh || titleCase(key)}饭局`
+  const joinZh = /饭局|餐桌|社交/.test(zh) ? zh : `${zh || "主题"}饭局`
   return { zh: joinZh, joinZh, en: titleCase(key) }
 }
 
@@ -295,7 +313,7 @@ function inferZhCity(title: string, topicZh: string, citySlug: string) {
       if (city) return city
     }
   }
-  return titleCase(citySlug || "fanju")
+  return localizedCityNameFromSlug(citySlug || "fanju", "zh")
 }
 
 function routeContext(pathname: string, article: SeoReadyArticle, isEn: boolean): RouteContext {
@@ -305,7 +323,7 @@ function routeContext(pathname: string, article: SeoReadyArticle, isEn: boolean)
   const topicSlug = parts[offset] === "city" ? parts[offset + 2] || "social-dining" : "social-dining"
   const topic = topicLabel(topicSlug)
   return {
-    city: isEn ? titleCase(citySlug || "fanju") : inferZhCity(article.title, topic.zh, citySlug),
+    city: isEn ? localizedCityNameFromSlug(citySlug || "fanju", "en") : inferZhCity(article.title, topic.zh, citySlug),
     citySlug,
     topicSlug,
     topic,
@@ -396,6 +414,19 @@ function sourceParagraphsForArticle(article: SeoReadyArticle, isEn: boolean) {
     : sourceParagraphsFromMarkdown(article.body, isEn)
   sourceParagraphCache.set(key, paragraphs)
   return paragraphs
+}
+
+function compareArticleText(text = "") {
+  return cleanArticleText(text)
+    .replace(/\s+/g, "")
+    .toLowerCase()
+}
+
+function summaryDuplicatesParagraph(summary = "", paragraph = "") {
+  const a = compareArticleText(summary)
+  const b = compareArticleText(paragraph)
+  if (!a || !b || Math.min(a.length, b.length) < 60) return false
+  return a === b || b.startsWith(a) || a.startsWith(b)
 }
 
 function faqItems(route: RouteContext, isEn: boolean) {
@@ -536,6 +567,7 @@ function GeneratedSeoArticlePage({
   const alternatePath = getAlternatePath(currentPath)
   const title = generated.h1 || generated.title
   const summary = generated.directAnswer || generated.excerpt || generated.metaDescription || ""
+  const ogImage = `${SITE_URL}${currentPath}/opengraph-image`
   const breadcrumbs = generated.breadcrumbs?.filter((item) => isSafeInternalHref(item.url) || item.url === currentPath) || [
     { label: isEn ? "Fanju" : "饭局 Fanju", url: "/" },
     { label: title, url: currentPath },
@@ -557,6 +589,7 @@ function GeneratedSeoArticlePage({
         headline: generated.metaTitle || title,
         description: generated.metaDescription || summary,
         url: `${SITE_URL}${currentPath}`,
+        image: ogImage,
         inLanguage: isEn ? "en" : "zh-CN",
         mainEntityOfPage: `${SITE_URL}${currentPath}`,
         articleSection: generated.articleType || "Fanju guide",
@@ -708,10 +741,15 @@ function SourceMarkdownArticlePage({
   const isEn = currentPath.startsWith("/en/")
   const alternatePath = getAlternatePath(currentPath)
   const canonical = `${SITE_URL}${currentPath}`
+  const ogImage = `${canonical}/opengraph-image`
   const blocks = sourceBlocksForArticle(article)
   const firstH1 = blocks.find((block): block is { type: "h1"; text: string } => block.type === "h1")?.text
   const title = firstH1 || article.title
-  const summary = article.description || sourceParagraphsForArticle(article, isEn)[0] || ""
+  const sourceParagraphs = sourceParagraphsForArticle(article, isEn)
+  const introParagraph = sourceParagraphs[0] || ""
+  const description = article.description || ""
+  const summaryMatchesIntro = summaryDuplicatesParagraph(description, introParagraph)
+  const summary = summaryMatchesIntro ? introParagraph : (description || introParagraph)
   const links = safeLinksForArticle(currentPath, article)
   const breadcrumbs = [
     { label: isEn ? "Fanju" : "饭局 Fanju", href: "/" },
@@ -734,6 +772,7 @@ function SourceMarkdownArticlePage({
         headline: title,
         description: summary,
         url: canonical,
+        image: ogImage,
         inLanguage: isEn ? "en" : "zh-CN",
         mainEntityOfPage: canonical,
         publisher: { "@id": `${SITE_URL}/#organization` },
@@ -788,7 +827,7 @@ function SourceMarkdownArticlePage({
               <p className="m-0 text-sm leading-relaxed text-muted-foreground md:text-base">{summary}</p>
             </div>
           )}
-          <RenderBlocks blocks={blocks} skipFirstH1 />
+          <RenderBlocks blocks={blocks} skipFirstH1 skipFirstParagraph={summaryMatchesIntro} />
         </article>
 
         <aside className="mt-12 space-y-6 lg:mt-0">
@@ -843,6 +882,7 @@ export function SeoReadyArticlePage({ article, currentPath, hasAlternateArticle 
   const isEn = currentPath.startsWith("/en/")
   const alternatePath = getAlternatePath(currentPath)
   const canonicalUrl = `${SITE_URL}${currentPath}`
+  const ogImage = `${canonicalUrl}/opengraph-image`
   const route = routeContext(currentPath, article, isEn)
   const title = guideTitle(route, isEn)
   const summary = answerSummary(route, isEn)
@@ -887,6 +927,7 @@ export function SeoReadyArticlePage({ article, currentPath, hasAlternateArticle 
         headline: title,
         description: summary,
         url: canonicalUrl,
+        image: ogImage,
         inLanguage: isEn ? "en" : "zh-CN",
         mainEntityOfPage: canonicalUrl,
         articleSection: route.topic.en,
@@ -1014,6 +1055,9 @@ export function SeoReadyArticlePage({ article, currentPath, hasAlternateArticle 
  * @param hasAlternate  Whether a dedicated ready article exists for the alternate language.
  */
 export function seoReadyArticleMetadata(article: SeoReadyArticle, currentPath: string, hasAlternate = false) {
+  const pageUrl = canonicalUrl(currentPath)
+  const ogImage = `${pageUrl}/opengraph-image`
+
   if (article.generatedArticle) {
     const generated = article.generatedArticle
     const alternates = hasAlternate ? hreflangAlternates(currentPath) : { canonical: canonicalUrl(currentPath) }
@@ -1025,8 +1069,15 @@ export function seoReadyArticleMetadata(article: SeoReadyArticle, currentPath: s
       openGraph: {
         title: generated.metaTitle || generated.title,
         description: generated.metaDescription || generated.excerpt || generated.directAnswer,
-        url: canonicalUrl(currentPath),
+        url: pageUrl,
         type: "article" as const,
+        images: [{ url: ogImage, width: 1200, height: 630, alt: generated.h1 || generated.title }],
+      },
+      twitter: {
+        card: "summary_large_image" as const,
+        title: generated.metaTitle || generated.title,
+        description: generated.metaDescription || generated.excerpt || generated.directAnswer,
+        images: [ogImage],
       },
     }
   }
@@ -1044,8 +1095,15 @@ export function seoReadyArticleMetadata(article: SeoReadyArticle, currentPath: s
       openGraph: {
         title,
         description,
-        url: canonicalUrl(currentPath),
+        url: pageUrl,
         type: "article" as const,
+        images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      },
+      twitter: {
+        card: "summary_large_image" as const,
+        title,
+        description,
+        images: [ogImage],
       },
     }
   }
@@ -1064,8 +1122,15 @@ export function seoReadyArticleMetadata(article: SeoReadyArticle, currentPath: s
     openGraph: {
       title,
       description,
-      url: canonicalUrl(currentPath),
+      url: pageUrl,
       type: "article" as const,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+    },
+    twitter: {
+      card: "summary_large_image" as const,
+      title,
+      description,
+      images: [ogImage],
     },
   }
 }

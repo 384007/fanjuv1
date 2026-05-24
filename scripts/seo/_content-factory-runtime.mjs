@@ -170,8 +170,30 @@ export function selectLinks({ language, citySlug, categorySlug, articleType, cur
   return out
 }
 
+let routeManifestEntriesCache = null
+
+function routeManifestEntries() {
+  if (routeManifestEntriesCache) return routeManifestEntriesCache
+  routeManifestEntriesCache = readJson(abs("data/seo/route-manifest.json"), { entries: [] })?.entries || []
+  return routeManifestEntriesCache
+}
+
+function localizedRouteAnchor(path, language = "zh") {
+  const lang = language === "en" ? "en" : "zh"
+  const route = normalizePath(path)
+  const entry = routeManifestEntries().find((item) => item?.locale === lang && normalizePath(item.route || "") === route)
+  if (!entry?.cityNameLocalized) return ""
+  const city = entry.cityNameLocalized
+  const topic = entry.topicNameLocalized || ""
+  if (lang === "en") return topic ? `${city} ${topic}` : city
+  if (!topic || entry.topicSlug === "city-overview") return `${city}饭局`
+  return `${city}${topic}`
+}
+
 export function linkAnchor(path, language = "zh") {
   const zh = language !== "en"
+  const localized = localizedRouteAnchor(path, language)
+  if (localized) return localized
   if (path === "/categories" || path === "/en/categories") return zh ? "饭局类型" : "dinner categories"
   if (path === "/cities" || path === "/en/cities") return zh ? "全部城市" : "all cities"
   if (path === "/what-is-fanju") return zh ? "饭局是什么" : "what Fanju is"
@@ -183,5 +205,6 @@ export function linkAnchor(path, language = "zh") {
   if (path === "/business-dinner-networking") return zh ? "商务饭局交流" : "business dinner networking"
   if (path === "/fanju-vs-tinder") return zh ? "饭局和约会软件的区别" : "Fanju vs dating apps"
   const parts = path.split("/").filter(Boolean)
-  return parts[parts.length - 1]?.replace(/-/g, " ") || path
+  const fallback = parts[parts.length - 1]?.replace(/-/g, " ") || path
+  return zh ? "相关饭局页面" : fallback
 }
