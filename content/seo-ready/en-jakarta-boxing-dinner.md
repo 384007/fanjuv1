@@ -43,7 +43,7 @@ As I reflected on my first Boxing Dinner experience in Jakarta, I realized that 
 
 ### How do I know this Jakarta Boxing Dinner dinner is not just another meetup?
 
-When it comes to attending a Boxing Dinner in Jakarta, it's natural to wonder whether it's just another meetup or something more. The answer lies in the details. If the host has taken the time to create a clear and compelling description of the evening, you can be more confident that it's worth showing up for.
+The quickest way to tell whether this Jakarta Boxing Dinner is more than another meetup is to read the invite as an operating plan. A serious host explains who the table is for, how the first conversations will start, what kind of energy belongs in the room, and how guests can step back if the match feels wrong. Those details turn a vague dinner with strangers into a table you can judge before you spend the evening there.
 
 #### Three details worth checking before any Jakarta Boxing Dinner RSVP
 

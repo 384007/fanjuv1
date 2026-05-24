@@ -185,7 +185,7 @@ function textFingerprint(meta, value = "", min = 60, max = 180) {
 }
 
 function openingFingerprint(meta, value = "") {
-  const normalized = stripRouteVariables(meta, value)
+  const normalized = String(value || "")
     .toLowerCase()
     .replace(/[，。,.!?！？、；;：:"'“”‘’()（）[\]【】]/g, " ")
     .replace(/\s+/g, " ")
