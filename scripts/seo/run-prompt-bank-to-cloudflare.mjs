@@ -424,6 +424,43 @@ function expectedPromptHeadings(prompt, marker = "##") {
   )
 }
 
+function cleanMetaDescriptionText(value = "") {
+  return String(value || "")
+    .replace(/^#{1,10}\s+.+$/gm, " ")
+    .replace(/^[-*]\s+/gm, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+}
+
+function trimMetaDescription(value = "", locale = "zh") {
+  const max = locale === "en" ? 220 : 120
+  const cleaned = cleanMetaDescriptionText(value)
+  if (cleaned.length <= max) return cleaned
+  const cut = cleaned.slice(0, max)
+  return locale === "en"
+    ? cut.replace(/\s+\S*$/, "").trim() || cut.trim()
+    : cut.trim()
+}
+
+function metaDescriptionForArticle(prompt, body = "", firstParagraph = "") {
+  const paragraphs = publicParagraphs(body)
+    .map(cleanMetaDescriptionText)
+    .filter(Boolean)
+  const introSig = openingFingerprint(prompt, firstParagraph)
+  const candidates = paragraphs
+    .slice(1)
+    .filter((paragraph) => {
+      const sig = openingFingerprint(prompt, paragraph)
+      return sig && sig !== introSig
+    })
+  let description = candidates.find((paragraph) => includesCity(prompt, paragraph)) || candidates[0] || firstParagraph
+  if (!includesCity(prompt, description)) {
+    const city = String(prompt.cityNameLocalized || prompt.cityNameZh || prompt.cityNameEn || prompt.citySlug || "").trim()
+    if (city) description = prompt.locale === "en" ? `${city}: ${description}` : `${city}：${description}`
+  }
+  return trimMetaDescription(description, prompt.locale)
+}
+
 function extractMarkdownArticle(prompt, text) {
   const cleaned = repairHeadings(prompt, normalizeMarkdownHeadingSpacing(stripMarkdownFence(text)))
   if (!cleaned || looksLikeJsonWrapper(cleaned)) return null
@@ -439,7 +476,7 @@ function extractMarkdownArticle(prompt, text) {
 
   return {
     title: h1[1].trim(),
-    description: firstParagraph.replace(/\s+/g, " ").slice(0, prompt.locale === "en" ? 220 : 120),
+    description: metaDescriptionForArticle(prompt, cleaned, firstParagraph),
     body: cleaned,
     slug: modelSlugForR2(prompt),
     locale: prompt.locale,
@@ -1002,6 +1039,12 @@ function scoreArticle(prompt, parsed) {
   if (!includesCity(prompt, title)) issues.push("title-missing-city")
   if (!includesCity(prompt, h1)) issues.push("h1-missing-city")
   if (!includesCity(prompt, description)) issues.push("description-missing-city")
+  const firstBodyParagraph = publicParagraphs(body)[0] || ""
+  const descriptionOpening = openingFingerprint(prompt, description)
+  const introOpening = openingFingerprint(prompt, firstBodyParagraph)
+  if (descriptionOpening && introOpening && descriptionOpening === introOpening) {
+    issues.push("description-duplicates-intro-opening")
+  }
   const zhCityAliases = zhLatinCityAliasHits(prompt, haystack)
   if (zhCityAliases.length) {
     issues.push(`pinyin-city-name-in-zh-public-text:${zhCityAliases.join("|")}`)
@@ -1086,6 +1129,7 @@ function isHardIssue(issue) {
     issue === "title-missing-city" ||
     issue === "h1-missing-city" ||
     issue === "description-missing-city" ||
+    issue === "description-duplicates-intro-opening" ||
     issue.startsWith("pinyin-city-name-in-zh-public-text") ||
     issue.startsWith("latin-word-in-zh-title") ||
     issue.startsWith("latin-word-in-zh-h1") ||
@@ -1217,6 +1261,7 @@ function retryIssueSummaryForModel(locale, issues = []) {
     else if (issue.startsWith("title-missing-primary-keyword")) add(locale === "zh" ? "标题缺少品牌词" : "title missing brand phrase")
     else if (issue.startsWith("h1-missing-primary-keyword")) add(locale === "zh" ? "H1 缺少品牌词" : "H1 missing brand phrase")
     else if (issue === "missing-or-short-description") add(locale === "zh" ? "描述太短" : "description too short")
+    else if (issue === "description-duplicates-intro-opening") add(locale === "zh" ? "描述不能复用正文首段开头" : "description repeats the opening paragraph")
     else if (issue.startsWith("missing-primary-keyword")) add(locale === "zh" ? "开头缺少品牌词" : "opening missing brand phrase")
     else if (issue.includes("missing-city") || issue === "missing-city-context") add(locale === "zh" ? "城市语境不足" : "city context missing")
     else if (issue.startsWith("pinyin-city-name-in-zh-public-text")) add("中文公开文本含拼音或英文城市词")
@@ -1258,8 +1303,8 @@ function retryPrompt(basePrompt, attempt, issues) {
     basePrompt.userPrompt,
     "",
     isEn
-      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch and satisfy the automated gate in one pass.${forbiddenBan} Return only the article text, starting with "# ". The H1/title must include the city and the exact phrase "Fanju app"; the first paragraph must include the city and Fanju app so the generated description also passes. Use exactly 6 "## " headings, exactly one "### " reader question, and at least 13 natural paragraphs. Every H2 needs at least two paragraphs. Do not use generic headings such as "Who this is for", "Safety and boundaries", "How it works", "What to expect", "Next steps", or "Conclusion". Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
-      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写，并一次满足自动质量门。${forbiddenBan}只返回文章正文，第一行必须以「# 」开头。标题/H1 必须包含中文城市名和「饭局app」；第一段必须同时出现中文城市名和「饭局app」，这样 description 才能过。必须写 6 个「## 」标题、且只写 1 个「### 」具体疑问标题；至少 13 个自然段；每个 H2 下必须正好 2 段。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这种通用标题。标题、H1、开头段落、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。不要用加粗标题、编号标题、项目列表或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整；不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
+      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch and satisfy the automated gate in one pass.${forbiddenBan} Return only the article text, starting with "# ". The H1/title must include the city and the exact phrase "Fanju app"; the first paragraph must include the city and Fanju app, and at least one later paragraph must include the city without repeating the opening. Use exactly 6 "## " headings, exactly one "### " reader question, and at least 13 natural paragraphs. Every H2 needs at least two paragraphs. Do not use generic headings such as "Who this is for", "Safety and boundaries", "How it works", "What to expect", "Next steps", or "Conclusion". Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
+      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写，并一次满足自动质量门。${forbiddenBan}只返回文章正文，第一行必须以「# 」开头。标题/H1 必须包含中文城市名和「饭局app」；第一段必须同时出现中文城市名和「饭局app」，开头之后至少一段也要出现中文城市名且不能复用开头句式。必须写 6 个「## 」标题、且只写 1 个「### 」具体疑问标题；至少 13 个自然段；每个 H2 下必须正好 2 段。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这种通用标题。标题、H1、开头段落、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。不要用加粗标题、编号标题、项目列表或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整；不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
   ].join("\n")
 }
 

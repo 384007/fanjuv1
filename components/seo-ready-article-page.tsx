@@ -20,7 +20,6 @@ const PUBLIC_TECH_RE = new RegExp(
     "\\bA" + "I\\b",
     "\\bpro" + "mpt\\b",
     "\\bprov" + "ider\\b",
-    "\\bmo" + "del\\b",
     "\\bpipe" + "line\\b",
     "\\bD" + "1\\b",
     "\\bR" + "2\\b",
@@ -418,15 +417,18 @@ function sourceParagraphsForArticle(article: SeoReadyArticle, isEn: boolean) {
 
 function compareArticleText(text = "") {
   return cleanArticleText(text)
-    .replace(/\s+/g, "")
+    .normalize("NFKC")
     .toLowerCase()
+    .replace(/[^\p{L}\p{N}\u4e00-\u9fff]+/gu, "")
 }
 
 function summaryDuplicatesParagraph(summary = "", paragraph = "") {
   const a = compareArticleText(summary)
   const b = compareArticleText(paragraph)
-  if (!a || !b || Math.min(a.length, b.length) < 60) return false
-  return a === b || b.startsWith(a) || a.startsWith(b)
+  const shared = Math.min(a.length, b.length)
+  if (!a || !b || shared < 40) return false
+  const probe = Math.min(shared, 120)
+  return a === b || b.startsWith(a) || a.startsWith(b) || a.slice(0, probe) === b.slice(0, probe)
 }
 
 function faqItems(route: RouteContext, isEn: boolean) {
