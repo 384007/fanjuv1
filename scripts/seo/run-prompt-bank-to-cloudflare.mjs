@@ -125,10 +125,11 @@ const BANNED_PHRASES_FOR_BODY = [
   /自动化(脚本|部署|流水线|发布|生成)/,
 ]
 
-function detectLeaks(text) {
+function detectLeaks(text, prompt = {}) {
   if (!text) return []
   const hits = []
   for (const pattern of BANNED_PHRASES_FOR_BODY) {
+    if (String(prompt.topicSlug || "").includes("devops") && String(pattern) === "/自动化(脚本|部署|流水线|发布|生成)/") continue
     if (pattern.test(text)) hits.push(String(pattern))
   }
   return hits
@@ -695,8 +696,9 @@ function zhLatinCityAliasHits(prompt, value = "") {
   return [...new Set(hits)].slice(0, 8)
 }
 
-function latinNoiseInZhHeading(value = "") {
+function latinNoiseInZhHeading(value = "", topicSlug = "") {
   const allowed = new Set(["fanju", "app", "ai", "vc", "ceo", "cfo", "cto", "coo", "mba", "pm", "ip", "bd"])
+  for (const w of topicAllowedWords(topicSlug)) allowed.add(w)
   return [...String(value || "").matchAll(/[A-Za-z][A-Za-z-]{2,}/g)]
     .map((m) => m[0].toLowerCase())
     .filter((word) => !allowed.has(word))
@@ -711,6 +713,7 @@ const TOPIC_ALLOWLIST = {
   bbq: ["bbq", "grill", "smoker", "charcoal"],
   vegan: ["vegan", "tofu", "tempeh", "seitan"],
   pet: ["pet", "cat", "dog"],
+  devops: ["devops", "ansible", "kubernetes", "docker", "terraform", "jenkins", "gitlab", "github", "cicd", "ci", "cd", "prometheus", "grafana", "linux", "nginx"],
   devtools: ["git", "github", "gitlab", "webpack", "vite", "eslint", "typescript", "javascript", "python", "rust", "docker", "kubernetes", "pipeline", "cicd", "devops", "npm", "yarn", "pnpm", "react", "vue", "angular", "node", "deno", "bun", "linux", "macos", "windows", "vscode", "vim", "neovim", "jetbrains", "figma", "notion", "slack", "discord", "agile", "scrum", "sprint", "kanban", "jira", "trello", "terraform", "serverless", "prometheus", "grafana", "jenkins", "ansible", "nginx", "redis", "postgres", "mysql", "mongodb", "elasticsearch", "kafka", "rabbitmq", "aws", "azure", "gcp", "idc", "cdn", "dns", "ssl", "tls", "http", "https", "tcp", "udp", "ssh", "api-gateway"],
   tech: ["git", "github", "gitlab", "webpack", "vite", "eslint", "typescript", "javascript", "python", "rust", "docker", "kubernetes", "pipeline", "devops", "npm", "react", "vue", "node", "linux", "vscode", "terraform", "serverless", "prometheus", "idc", "cdn", "redis", "postgres", "mysql", "mongodb", "aws", "azure", "gcp"],
   startup: ["pitch", "deck", "runway", "pivot", "mvp", "series", "seed", "angel", "ipo", "valuation", "equity", "cap-table"],
@@ -744,13 +747,13 @@ function latinNoiseInZhBody(value = "", topicSlug = "") {
   return [...words]
 }
 
-function zhHeadingLatinNoise(body = "") {
+function zhHeadingLatinNoise(body = "", topicSlug = "") {
   const headings = [...String(body || "").matchAll(/^#{1,10}\s+(.+)$/gm)]
     .map((m) => m[1].trim())
     .filter(Boolean)
   const words = new Set()
   for (const heading of headings) {
-    for (const word of latinNoiseInZhHeading(heading)) words.add(word)
+    for (const word of latinNoiseInZhHeading(heading, topicSlug)) words.add(word)
   }
   return [...words]
 }
@@ -967,7 +970,7 @@ function scoreArticle(prompt, parsed) {
   const h1 = markdownH1(body) || title
   const haystack = `${title}\n${description}\n${body}`
 
-  const leakHits = detectLeaks(haystack)
+  const leakHits = detectLeaks(haystack, prompt)
   if (leakHits.length) issues.push(`tech-leak:${leakHits.slice(0, 3).join("|")}`)
   const linkHits = publicLinkHits(haystack)
   if (linkHits.length) issues.push(`public-link:${linkHits.join("+")}`)
@@ -1004,9 +1007,9 @@ function scoreArticle(prompt, parsed) {
     issues.push(`pinyin-city-name-in-zh-public-text:${zhCityAliases.join("|")}`)
   }
   if (prompt.locale === "zh") {
-    const titleNoise = latinNoiseInZhHeading(title)
-    const h1Noise = latinNoiseInZhHeading(h1)
-    const headingNoise = zhHeadingLatinNoise(body)
+    const titleNoise = latinNoiseInZhHeading(title, prompt.topicSlug)
+    const h1Noise = latinNoiseInZhHeading(h1, prompt.topicSlug)
+    const headingNoise = zhHeadingLatinNoise(body, prompt.topicSlug)
     const bodyNoise = latinNoiseInZhBody(body, prompt.topicSlug)
     if (titleNoise.length) issues.push(`latin-word-in-zh-title:${titleNoise.slice(0, 3).join("|")}`)
     if (h1Noise.length) issues.push(`latin-word-in-zh-h1:${h1Noise.slice(0, 3).join("|")}`)

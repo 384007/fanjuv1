@@ -293,20 +293,35 @@ function zhLatinCityAliasHits(meta, value = "") {
   return [...new Set(hits)].slice(0, 8)
 }
 
-function latinNoiseInZhHeading(value = "") {
+const TOPIC_ALLOWLIST = {
+  devops: ["devops", "ansible", "kubernetes", "docker", "terraform", "jenkins", "gitlab", "github", "cicd", "ci", "cd", "prometheus", "grafana", "linux", "nginx"],
+  devtools: ["git", "github", "gitlab", "webpack", "vite", "eslint", "typescript", "javascript", "python", "rust", "docker", "kubernetes", "devops", "npm", "pnpm", "react", "vue", "node", "linux", "vscode", "terraform", "prometheus", "grafana", "jenkins", "ansible", "nginx"],
+  tech: ["git", "github", "gitlab", "typescript", "javascript", "python", "rust", "docker", "kubernetes", "devops", "npm", "react", "vue", "node", "linux", "redis", "postgres", "mysql"],
+}
+
+function topicAllowedWords(topicSlug = "") {
+  const extra = new Set()
+  for (const [key, words] of Object.entries(TOPIC_ALLOWLIST)) {
+    if (String(topicSlug || "").includes(key)) words.forEach((w) => extra.add(w))
+  }
+  return extra
+}
+
+function latinNoiseInZhHeading(value = "", topicSlug = "") {
   const allowed = new Set(["fanju", "app", "ai", "vc", "ceo", "cfo", "cto", "coo", "mba", "pm", "ip", "bd"])
+  for (const w of topicAllowedWords(topicSlug)) allowed.add(w)
   return [...String(value || "").matchAll(/[A-Za-z][A-Za-z-]{2,}/g)]
     .map((m) => m[0].toLowerCase())
     .filter((word) => !allowed.has(word))
 }
 
-function zhHeadingLatinNoise(body = "") {
+function zhHeadingLatinNoise(body = "", topicSlug = "") {
   const headings = [...String(body || "").matchAll(/^#{1,10}\s+(.+)$/gm)]
     .map((m) => m[1].trim())
     .filter(Boolean)
   const words = new Set()
   for (const heading of headings) {
-    for (const word of latinNoiseInZhHeading(heading)) words.add(word)
+    for (const word of latinNoiseInZhHeading(heading, topicSlug)) words.add(word)
   }
   return [...words]
 }
@@ -470,6 +485,7 @@ function sourceBodyIssues(meta, body) {
   const lang = meta.lang === "en" ? "en" : "zh"
   const haystack = `${meta.title || ""}\n${meta.description || ""}\n${body}`
   const h1 = markdownH1(body) || meta.title || ""
+  const routeMeta = routeMetaFor(meta)
   const badPatterns = [
     /\bGroq\b/i,
     /\bCerebras\b/i,
@@ -541,6 +557,7 @@ function sourceBodyIssues(meta, body) {
   ]
 
   for (const pattern of badPatterns) {
+    if (String(routeMeta?.topicSlug || "").includes("devops") && String(pattern) === "/自动化(脚本|部署|流水线|发布|生成)/") continue
     if (pattern.test(haystack)) issues.push(`bad-public-pattern:${pattern}`)
   }
   if (/\[[^\]]+\]\([^)]+\)/.test(body)) issues.push("markdown-link-in-body")
@@ -562,9 +579,9 @@ function sourceBodyIssues(meta, body) {
     issues.push(`pinyin-city-name-in-zh-public-text:${zhCityAliases.join("|")}`)
   }
   if (lang === "zh") {
-    const titleNoise = latinNoiseInZhHeading(meta.title || "")
-    const h1Noise = latinNoiseInZhHeading(h1)
-    const headingNoise = zhHeadingLatinNoise(body)
+    const titleNoise = latinNoiseInZhHeading(meta.title || "", routeMeta?.topicSlug)
+    const h1Noise = latinNoiseInZhHeading(h1, routeMeta?.topicSlug)
+    const headingNoise = zhHeadingLatinNoise(body, routeMeta?.topicSlug)
     if (titleNoise.length) issues.push(`latin-word-in-zh-title:${titleNoise.slice(0, 3).join("|")}`)
     if (h1Noise.length) issues.push(`latin-word-in-zh-h1:${h1Noise.slice(0, 3).join("|")}`)
     if (headingNoise.length) issues.push(`latin-word-in-zh-heading:${headingNoise.slice(0, 5).join("|")}`)
