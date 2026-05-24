@@ -25,6 +25,10 @@ function cleanToken(value = "") {
   return clean(value).replace(/^Bearer\s+/i, "")
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms))
+}
+
 function normalizeUrl(url) {
   return String(url || "").trim().replace(/\/$/, "")
 }
@@ -343,27 +347,43 @@ async function publishBluesky(entries) {
 
   const posted = []
   for (const text of texts) {
-    const res = await fetch(`${service}/xrpc/com.atproto.repo.createRecord`, {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${session.accessJwt}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        repo: session.did,
-        collection: "app.bsky.feed.post",
-        record: {
-          $type: "app.bsky.feed.post",
-          text,
-          createdAt: new Date().toISOString(),
-        },
-      }),
-    })
-    const body = await res.json().catch(async () => ({ raw: await res.text() }))
-    posted.push({ status: res.status, ok: res.ok, uri: body?.uri, body })
+    posted.push(await publishBlueskyPost({ service, session, text }))
   }
 
   return { platform: "Bluesky", ok: posted.every((item) => item.ok), posted }
+}
+
+async function publishBlueskyPost({ service, session, text }) {
+  const maxAttempts = 3
+  let last = null
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    try {
+      const res = await fetch(`${service}/xrpc/com.atproto.repo.createRecord`, {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${session.accessJwt}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          repo: session.did,
+          collection: "app.bsky.feed.post",
+          record: {
+            $type: "app.bsky.feed.post",
+            text,
+            createdAt: new Date().toISOString(),
+          },
+        }),
+      })
+      const body = await res.json().catch(async () => ({ raw: await res.text() }))
+      last = { status: res.status, ok: res.ok, uri: body?.uri, body, attempt }
+      if (res.ok) return last
+      if (![429, 500, 502, 503, 504].includes(res.status)) return last
+    } catch (err) {
+      last = { status: 0, ok: false, error: err?.message || String(err), attempt }
+    }
+    if (attempt < maxAttempts) await sleep(1500 * attempt)
+  }
+  return last
 }
 
 async function publishWordPress(entries) {
