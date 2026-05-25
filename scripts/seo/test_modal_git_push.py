@@ -3,6 +3,10 @@ import subprocess
 import sys
 import types
 import unittest
+from pathlib import Path
+
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 
 class _DummyApp:
@@ -64,10 +68,14 @@ class PushRetryTests(unittest.TestCase):
     def setUp(self):
         self.original_run_capture = agent.run_capture
         self.original_run_args_capture = agent.run_args_capture
+        self.original_git_blob_at = agent.git_blob_at
+        self.original_abort_rebase = agent.abort_rebase
 
     def tearDown(self):
         agent.run_capture = self.original_run_capture
         agent.run_args_capture = self.original_run_args_capture
+        agent.git_blob_at = self.original_git_blob_at
+        agent.abort_rebase = self.original_abort_rebase
 
     def _patch_git(self, push_results, rebase_result=None):
         commands = []
@@ -77,6 +85,8 @@ class PushRetryTests(unittest.TestCase):
             commands.append(args)
             if args == ["git", "rev-parse", "HEAD"]:
                 return "abc123commit"
+            if args == ["git", "rev-parse", "origin/main"]:
+                return "remote123commit"
             if args == ["git", "branch", "--show-current"]:
                 return "main"
             raise AssertionError(f"unexpected run_capture: {args}")
@@ -145,6 +155,36 @@ class PushRetryTests(unittest.TestCase):
 
         self.assertEqual(commands.count(["git", "push", "origin", "main"]), 1)
         self.assertIn(["git", "diff", "--name-only", "--diff-filter=U"], commands)
+        self.assertFalse(any("--force" in part or "--force-with-lease" in part for cmd in commands for part in cmd))
+
+    def test_rebase_add_add_duplicate_remote_content_returns_remote_sha(self):
+        commands = self._patch_git(
+            [],
+            rebase_result=cp(["git", "rebase", "--autostash", "origin/main"], 1, stderr="CONFLICT (add/add): Merge conflict"),
+        )
+
+        def fake_git_blob_at(ref, path, cwd=None):
+            self.assertEqual(path, "content/seo-ready/example.md")
+            if ref in {"abc123commit", "origin/main"}:
+                return b"same article markdown"
+            return None
+
+        def fake_abort_rebase(cwd=None):
+            commands.append(["git", "rebase", "--abort"])
+
+        agent.git_blob_at = fake_git_blob_at
+        agent.abort_rebase = fake_abort_rebase
+
+        sha = agent.rebase_or_fail(
+            "run-dupe",
+            5,
+            cwd="/tmp/work",
+            local_commit_sha="abc123commit",
+            committed_paths=["content/seo-ready/example.md"],
+        )
+
+        self.assertEqual(sha, "remote123commit")
+        self.assertIn(["git", "rebase", "--abort"], commands)
         self.assertFalse(any("--force" in part or "--force-with-lease" in part for cmd in commands for part in cmd))
 
 

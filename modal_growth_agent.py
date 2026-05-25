@@ -185,7 +185,65 @@ def print_rebase_diagnostics(cwd: str | None = None) -> None:
     print(f"REBASE_CONFLICT_FILES={','.join(conflicts) if conflicts else '(none reported)'}", flush=True)
 
 
-def rebase_or_fail(run_id: str, round_no: int, cwd: str | None = None) -> None:
+def git_blob_at(ref: str, path: str, cwd: str | None = None) -> bytes | None:
+    try:
+        result = subprocess.run(
+            ["git", "show", f"{ref}:{path}"],
+            cwd=cwd,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            timeout=60,
+        )
+    except (OSError, subprocess.TimeoutExpired):
+        return None
+    if result.returncode != 0:
+        return None
+    return result.stdout
+
+
+def git_commit_paths(commit_sha: str, cwd: str | None = None) -> list[str]:
+    result = run_args_capture(
+        ["git", "diff-tree", "--no-commit-id", "--name-only", "-r", commit_sha, "--", "content/seo-ready"],
+        cwd=cwd,
+        timeout=60,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(f"Could not list committed article paths for {commit_sha}\nstdout={result.stdout}\nstderr={result.stderr}")
+    return [line.strip() for line in result.stdout.splitlines() if line.strip()]
+
+
+def remote_already_has_commit_files(
+    commit_sha: str,
+    expected_paths: list[str],
+    conflict_paths: list[str],
+    cwd: str | None = None,
+) -> bool:
+    expected = set(expected_paths)
+    conflicts = set(conflict_paths)
+    if not expected or not conflicts:
+        return False
+    if not conflicts.issubset(expected):
+        return False
+
+    for path in sorted(conflicts):
+        local_blob = git_blob_at(commit_sha, path, cwd=cwd)
+        remote_blob = git_blob_at("origin/main", path, cwd=cwd)
+        if local_blob is None or remote_blob is None or local_blob != remote_blob:
+            return False
+    return True
+
+
+def abort_rebase(cwd: str | None = None) -> None:
+    subprocess.run(["git", "rebase", "--abort"], cwd=cwd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=120)
+
+
+def rebase_or_fail(
+    run_id: str,
+    round_no: int,
+    cwd: str | None = None,
+    local_commit_sha: str | None = None,
+    committed_paths: list[str] | None = None,
+) -> str | None:
     fetch = run_args_capture(["git", "fetch", "origin", "main"], cwd=cwd, timeout=300)
     if fetch.returncode != 0:
         raise RuntimeError(
@@ -195,11 +253,28 @@ def rebase_or_fail(run_id: str, round_no: int, cwd: str | None = None) -> None:
     rebase = run_args_capture(["git", "rebase", "--autostash", "origin/main"], cwd=cwd, timeout=300)
     if rebase.returncode != 0:
         print_rebase_diagnostics(cwd)
+        conflict_paths = git_conflict_files(cwd)
+        if local_commit_sha and committed_paths and remote_already_has_commit_files(
+            local_commit_sha,
+            committed_paths,
+            conflict_paths,
+            cwd=cwd,
+        ):
+            remote_sha = run_capture(["git", "rev-parse", "origin/main"], cwd=cwd)
+            abort_rebase(cwd)
+            print(
+                "GITHUB_REMOTE_ALREADY_HAS_ARTICLES "
+                f"run_id={run_id} round_no={round_no} remote_commit={remote_sha} "
+                f"duplicate_files={','.join(conflict_paths)}",
+                flush=True,
+            )
+            return remote_sha
         raise RuntimeError(
             "git rebase --autostash origin/main failed during push retry; "
             f"run_id={run_id} round_no={round_no}. Resolve the conflict manually; no force push was attempted.\n"
             f"stdout={rebase.stdout}\nstderr={rebase.stderr}"
         )
+    return None
 
 
 def final_push_failure_message(
@@ -229,6 +304,7 @@ def push_current_commit_with_retry(
     round_no: int,
     cwd: str | None = None,
     sleep_fn=time.sleep,
+    committed_paths: list[str] | None = None,
 ) -> str:
     last_result: subprocess.CompletedProcess | None = None
     for attempt in range(1, 9):
@@ -261,7 +337,15 @@ def push_current_commit_with_retry(
             f"run_id={run_id} round_no={round_no} commit={commit_sha}",
             flush=True,
         )
-        rebase_or_fail(run_id, round_no, cwd=cwd)
+        duplicate_sha = rebase_or_fail(
+            run_id,
+            round_no,
+            cwd=cwd,
+            local_commit_sha=commit_sha,
+            committed_paths=committed_paths,
+        )
+        if duplicate_sha:
+            return duplicate_sha
         sleep_fn(delay)
 
     assert last_result is not None
@@ -333,6 +417,8 @@ def git_commit_and_push(routes: list[str], run_id: str, round_no: int) -> str:
         subject_routes += f", +{len(routes) - 3} more"
     message = f"content: publish Fanju articles {run_id} round {round_no}"
     run_args(["git", "commit", "-m", message, "-m", f"Routes: {subject_routes}"], cwd=WORKDIR, timeout=900)
+    local_commit_sha = run_capture(["git", "rev-parse", "HEAD"], cwd=WORKDIR)
+    committed_paths = git_commit_paths(local_commit_sha, cwd=WORKDIR)
     token = github_token()
     repo = github_repository()
     remote_url = f"https://x-access-token:{token}@github.com/{repo}.git"
@@ -343,8 +429,19 @@ def git_commit_and_push(routes: list[str], run_id: str, round_no: int) -> str:
     )
     # unshallow so rebase works on depth-1 clone
     subprocess.run(["git", "fetch", "--unshallow", "origin", "main"], cwd=WORKDIR, capture_output=True)
-    rebase_or_fail(run_id, round_no, cwd=WORKDIR)
-    sha = push_current_commit_with_retry(run_id, round_no, cwd=WORKDIR)
+    duplicate_sha = rebase_or_fail(
+        run_id,
+        round_no,
+        cwd=WORKDIR,
+        local_commit_sha=local_commit_sha,
+        committed_paths=committed_paths,
+    )
+    sha = duplicate_sha or push_current_commit_with_retry(
+        run_id,
+        round_no,
+        cwd=WORKDIR,
+        committed_paths=committed_paths,
+    )
     print(f"GITHUB_MAIN_COMMIT={sha}", flush=True)
     return sha
 
