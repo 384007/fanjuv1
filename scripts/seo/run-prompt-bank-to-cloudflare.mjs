@@ -3,10 +3,18 @@
 // Publishes ready prompt-bank articles to repository Markdown + Cloudflare D1/R2.
 
 import { createHash } from "crypto"
+import { execFileSync } from "child_process"
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "fs"
 import { dirname, join } from "path"
 import { fileURLToPath } from "url"
 import { generateWithRouter, sleep } from "./ai-router.mjs"
+import {
+  ARTICLE_BRIEF_VERSION,
+  historicalSkipReason,
+  loadPromptBankHistory,
+  localeCityTypeKeyFor,
+  routeKeyFor,
+} from "./prompt-bank-history.mjs"
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, "../..")
@@ -26,6 +34,7 @@ const CF_TIMEOUT_MS = Number.parseInt(process.env.CF_TIMEOUT_MS || "30000", 10)
 const MAX_TOKENS = Number.parseInt(process.env.MAX_TOKENS || "4200", 10)
 const MIN_SCORE = Number.parseInt(process.env.MIN_SCORE || "90", 10)
 const QUALITY_ATTEMPTS = Math.max(1, Number.parseInt(process.env.QUALITY_ATTEMPTS || "3", 10))
+const DUPLICATE_HEADING_ATTEMPTS = Math.max(QUALITY_ATTEMPTS, Number.parseInt(process.env.DUPLICATE_HEADING_ATTEMPTS || "8", 10))
 const QUALITY_RETRY_DELAY_MS = Number.parseInt(process.env.QUALITY_RETRY_DELAY_MS || "1500", 10)
 const MULTI_AI_CANDIDATES = process.env.MULTI_AI_CANDIDATES === "1"
 const ASSIGN_PROVIDER_PER_CITY = process.env.ASSIGN_PROVIDER_PER_CITY === "1"
@@ -36,6 +45,7 @@ const DRY_RUN = process.env.DRY_RUN === "1"
 const UPLOAD_R2 = process.env.UPLOAD_R2 !== "0"
 const PUBLISH_CONTENT = process.env.PUBLISH_CONTENT !== "0"
 const ALLOW_SOURCE_OVERWRITE = process.env.ALLOW_SOURCE_OVERWRITE === "1"
+const PUBLISHED_RUN_ID = process.env.PUBLISHED_RUN_ID || process.env.RUN_ID || "unknown"
 const ZH_CITY_LOCALIZED_COUNTRIES = new Set(["CN", "HK", "MO", "TW"])
 let routeCityNameIndexCache = null
 
@@ -300,6 +310,23 @@ function loadExistingCanonicalPaths() {
   return paths
 }
 
+function promptHistoryProbe(prompt) {
+  return {
+    ...prompt,
+    routeKey: prompt.routeKey || routeKeyFor(prompt),
+    localeCityTypeKey: prompt.localeCityTypeKey || localeCityTypeKeyFor(prompt),
+  }
+}
+
+function skipReasonForPrompt(prompt, history, completedPromptIds, existingRoutePaths) {
+  if (completedPromptIds.has(prompt.promptId)) return "already_in_markdown"
+  const historyReason = historicalSkipReason(promptHistoryProbe(prompt), history)
+  if (historyReason) return historyReason
+  const canonicalPath = normalizeCanonicalPath(prompt.route || prompt.canonicalPath || "")
+  if (canonicalPath && existingRoutePaths.has(canonicalPath)) return "already_in_markdown"
+  return ""
+}
+
 function saveJsonState(file, state) {
   mkdirSync(dirname(file), { recursive: true })
   writeFileSync(file, JSON.stringify(state, null, 2) + "\n", "utf8")
@@ -388,6 +415,13 @@ function markdownForEntry(entry) {
     `aiQualityScore: ${score}`,
     `status: ${yamlString("ready")}`,
     `renderMode: ${yamlString("source")}`,
+    `routeKey: ${yamlString(entry.routeKey || routeKeyFor(entry))}`,
+    `promptHash: ${yamlString(entry.promptHash)}`,
+    `profileHash: ${yamlString(entry.profileHash)}`,
+    `promptSeed: ${yamlString(entry.promptSeed || entry.seed)}`,
+    `randomSeed: ${yamlString(entry.randomSeed || "")}`,
+    `articleBriefVersion: ${yamlString(entry.articleBriefVersion || ARTICLE_BRIEF_VERSION)}`,
+    `publishedRunId: ${yamlString(entry.publishedRunId || PUBLISHED_RUN_ID)}`,
     "---",
   ].filter(Boolean).join("\n")
 
@@ -536,11 +570,24 @@ function duplicateMarkdownHeadings(body, level = 2) {
   return headings.length - new Set(headings).size
 }
 
+function duplicateMarkdownHeadingDetails(body = "") {
+  const seen = new Map()
+  const duplicates = []
+  for (const heading of markdownHeadings(body)) {
+    const normalized = normalizeForTemplateCheck(heading.text)
+    if (!normalized) continue
+    const label = `H${heading.level}:${heading.text}`
+    if (seen.has(normalized)) {
+      duplicates.push({ normalized, first: seen.get(normalized), duplicate: label })
+    } else {
+      seen.set(normalized, label)
+    }
+  }
+  return duplicates
+}
+
 function duplicateMarkdownHeadingTexts(body = "") {
-  const headings = markdownHeadings(body)
-    .map((heading) => normalizeForTemplateCheck(heading.text))
-    .filter(Boolean)
-  return headings.length - new Set(headings).size
+  return duplicateMarkdownHeadingDetails(body).length
 }
 
 function duplicateParagraphs(body) {
@@ -1152,6 +1199,28 @@ function hasHardIssues(issues) {
   return issues.some(isHardIssue)
 }
 
+function mergeIssues(issues = [], extraIssues = []) {
+  const out = [...issues]
+  for (const issue of extraIssues) {
+    const issueKey = issue.split(":")[0]
+    if (!out.some((existing) => existing === issue || existing.split(":")[0] === issueKey)) {
+      out.push(issue)
+    }
+  }
+  return out
+}
+
+function strictParsedHeadingIssues(parsed) {
+  const body = String(parsed?.body || "").trim()
+  if (!body) return []
+  const duplicateHeadings = duplicateMarkdownHeadingDetails(body)
+  return duplicateHeadings.length ? [`duplicate-heading:${duplicateHeadings.length}`] : []
+}
+
+function hasDuplicateHeadingIssue(issues = []) {
+  return issues.some((issue) => issue.startsWith("duplicate-heading") || issue.startsWith("duplicate-h2"))
+}
+
 function escapeHtml(input = "") {
   return String(input)
     .replaceAll("&", "&amp;")
@@ -1303,8 +1372,8 @@ function retryPrompt(basePrompt, attempt, issues) {
     basePrompt.userPrompt,
     "",
     isEn
-      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch and satisfy the automated gate in one pass.${forbiddenBan} Return only the article text, starting with "# ". The H1/title must include the city and the exact phrase "Fanju app"; the first paragraph must include the city and Fanju app, and at least one later paragraph must include the city without repeating the opening. Use exactly 6 "## " headings, exactly one "### " reader question, and at least 13 natural paragraphs. Every H2 needs at least two paragraphs. Do not use generic headings such as "Who this is for", "Safety and boundaries", "How it works", "What to expect", "Next steps", or "Conclusion". Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
-      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写，并一次满足自动质量门。${forbiddenBan}只返回文章正文，第一行必须以「# 」开头。标题/H1 必须包含中文城市名和「饭局app」；第一段必须同时出现中文城市名和「饭局app」，开头之后至少一段也要出现中文城市名且不能复用开头句式。必须写 6 个「## 」标题、且只写 1 个「### 」具体疑问标题；至少 13 个自然段；每个 H2 下必须正好 2 段。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这种通用标题。标题、H1、开头段落、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。不要用加粗标题、编号标题、项目列表或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整；不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
+      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch and satisfy the automated gate in one pass.${forbiddenBan} Return only the article text, starting with "# ". Use only the exact H1, exact 6 H2 headings, and exact H3-Hmax headings already listed above; do not add FAQ, checklist, conclusion, next-step, safety, summary, or any other extra heading. No H1-Hn heading text may repeat after normalization. Duplicate headings are a hard failure and must be fixed by a full rewrite, not by changing score/status/renderMode/metadata or deleting required sections. The H1/title must include the city and the exact phrase "Fanju app"; the first paragraph must include the city and Fanju app, and at least one later paragraph must include the city without repeating the opening. Use exactly 6 "## " headings, exactly one "### " reader question, and at least 13 natural paragraphs. Every H2 needs at least two paragraphs. Do not use generic headings such as "Who this is for", "Safety and boundaries", "How it works", "What to expect", "Next steps", or "Conclusion". Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
+      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写，并一次满足自动质量门。${forbiddenBan}只返回文章正文，第一行必须以「# 」开头。只能使用上文已经列出的精确 H1、6 个精确 H2、以及精确 H3-Hmax 标题；不要新增 FAQ、检查清单、结语、下一步、安全、总结或任何额外标题。H1-Hn 任意标题归一化后都不能重复。标题重复是硬失败，必须全文重写，不能通过修改 score/status/renderMode/metadata 或删除必要章节绕过。标题/H1 必须包含中文城市名和「饭局app」；第一段必须同时出现中文城市名和「饭局app」，开头之后至少一段也要出现中文城市名且不能复用开头句式。必须写 6 个「## 」标题、且只写 1 个「### 」具体疑问标题；至少 13 个自然段；每个 H2 下必须正好 2 段。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这种通用标题。标题、H1、开头段落、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。不要用加粗标题、编号标题、项目列表或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整；不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
   ].join("\n")
 }
 
@@ -1413,7 +1482,10 @@ async function runOneAttempt(prompt, attempt, previousIssues = []) {
       console.log(`[REPAIR] ${prompt.promptId} ${generation.provider} normalized markdown headings`)
     }
     const scored = scoreArticle(prompt, parsed)
-    const candidate = { generation, parsed, score: scored.score, issues: scored.issues }
+    const strictHeadingIssues = strictParsedHeadingIssues(parsed)
+    const issues = mergeIssues(scored.issues, strictHeadingIssues)
+    const score = strictHeadingIssues.length ? 0 : scored.score
+    const candidate = { generation, parsed, score, issues }
     if (
       !best ||
       candidate.score > best.score ||
@@ -1464,15 +1536,20 @@ async function runOneAttempt(prompt, attempt, previousIssues = []) {
 async function runOne(prompt) {
   let lastResult = null
   let previousIssues = []
-  for (let attempt = 1; attempt <= QUALITY_ATTEMPTS; attempt++) {
+  for (let attempt = 1; attempt <= DUPLICATE_HEADING_ATTEMPTS; attempt++) {
     const result = await runOneAttempt(prompt, attempt, previousIssues)
     if (result.status === "ready") return result
     lastResult = result
     previousIssues = result.issues
-    console.log(`[RETRY] ${prompt.promptId} attempt=${attempt}/${QUALITY_ATTEMPTS} issues=${result.issues.join(",")}`)
-    if (attempt < QUALITY_ATTEMPTS && QUALITY_RETRY_DELAY_MS > 0) {
+    const maxAttempts = hasDuplicateHeadingIssue(result.issues) ? DUPLICATE_HEADING_ATTEMPTS : QUALITY_ATTEMPTS
+    if (attempt >= maxAttempts) break
+    console.log(`[RETRY] ${prompt.promptId} attempt=${attempt}/${maxAttempts} issues=${result.issues.join(",")}`)
+    if (QUALITY_RETRY_DELAY_MS > 0) {
       await sleep(QUALITY_RETRY_DELAY_MS)
     }
+  }
+  if (hasDuplicateHeadingIssue(lastResult?.issues || [])) {
+    throw new Error(`Duplicate heading hard issue persisted after ${DUPLICATE_HEADING_ATTEMPTS} attempts: ${lastResult.issues.join(",")}`)
   }
   return lastResult
 }
@@ -1645,9 +1722,16 @@ function readyEntryFromResult(result) {
   const now = new Date().toISOString()
   const sourceFile = sourceFileForPrompt(result.prompt)
   const sourceSlug = sourceFile.replace(/\.md$/, "")
+  const routeKey = result.prompt.routeKey || routeKeyFor(result.prompt)
+  const articleBriefVersion = result.prompt.articleBriefVersion || result.prompt.articleBrief?.version || ARTICLE_BRIEF_VERSION
   return {
     promptId: result.prompt.promptId,
     seed: result.prompt.seed,
+    promptSeed: result.prompt.promptSeed || result.prompt.seed,
+    randomSeed: result.prompt.randomSeed || null,
+    articleBriefVersion,
+    publishedRunId: PUBLISHED_RUN_ID,
+    routeKey,
     locale: result.prompt.locale,
     citySlug: result.prompt.citySlug,
     cityNameLocalized: result.prompt.cityNameLocalized,
@@ -1686,6 +1770,11 @@ function failedEntry(prompt, err) {
   return {
     promptId: prompt.promptId,
     seed: prompt.seed,
+    promptSeed: prompt.promptSeed || prompt.seed,
+    randomSeed: prompt.randomSeed || null,
+    articleBriefVersion: prompt.articleBriefVersion || prompt.articleBrief?.version || ARTICLE_BRIEF_VERSION,
+    publishedRunId: PUBLISHED_RUN_ID,
+    routeKey: prompt.routeKey || routeKeyFor(prompt),
     locale: prompt.locale,
     citySlug: prompt.citySlug,
     cityNameLocalized: prompt.cityNameLocalized,
@@ -1709,6 +1798,11 @@ function reviewEntry(result) {
   return {
     promptId: result.prompt.promptId,
     seed: result.prompt.seed,
+    promptSeed: result.prompt.promptSeed || result.prompt.seed,
+    randomSeed: result.prompt.randomSeed || null,
+    articleBriefVersion: result.prompt.articleBriefVersion || result.prompt.articleBrief?.version || ARTICLE_BRIEF_VERSION,
+    publishedRunId: PUBLISHED_RUN_ID,
+    routeKey: result.prompt.routeKey || routeKeyFor(result.prompt),
     locale: result.prompt.locale,
     citySlug: result.prompt.citySlug,
     cityNameLocalized: result.prompt.cityNameLocalized,
@@ -1732,8 +1826,65 @@ function reviewEntry(result) {
   }
 }
 
+function sourcePathForEntry(entry) {
+  return entry.sourcePath || `content/seo-ready/${entry.sourceFile || sourceFileForPrompt(entry)}`
+}
+
+function assertReadyEntriesBeforePublish(entries) {
+  const failures = []
+  for (const entry of entries) {
+    const route = entry.canonicalPath || entry.route || entry.promptId
+    const score = Number(entry.score) || 0
+    if (entry.status !== "ready") {
+      failures.push(`${route}: status=${entry.status || "(missing)"}`)
+    }
+    if (score < MIN_SCORE) {
+      failures.push(`${route}: score=${score} < ${MIN_SCORE}`)
+    }
+    if (hasDuplicateHeadingIssue(entry.issues || [])) {
+      failures.push(`${route}: duplicate heading issue already present (${entry.issues.join(",")})`)
+    }
+    let body
+    try {
+      body = markdownBodyForEntry(entry)
+    } catch (err) {
+      failures.push(`${route}: ${err.message}`)
+      continue
+    }
+    const duplicateHeadings = duplicateMarkdownHeadingDetails(body)
+    if (duplicateHeadings.length) {
+      const sample = duplicateHeadings
+        .slice(0, 3)
+        .map((item) => `${item.first} <=> ${item.duplicate}`)
+        .join(" | ")
+      failures.push(`${route}: duplicate-heading:${duplicateHeadings.length} ${sample}`)
+    }
+  }
+  if (failures.length) {
+    throw new Error(`Refusing to publish articles that fail the strict heading gate: ${failures.slice(0, 8).join("; ")}`)
+  }
+}
+
+function runSeoReadyFilesCheck(entries) {
+  const files = entries.map(sourcePathForEntry).filter(Boolean)
+  if (files.length !== entries.length) {
+    throw new Error(`Cannot run SEO_READY_FILES check: expected ${entries.length} source files, got ${files.length}`)
+  }
+  const uniqueFiles = [...new Set(files)]
+  console.log(`[CHECK] SEO_READY_FILES=${uniqueFiles.join(",")} node scripts/check-seo-ready-routes.mjs`)
+  execFileSync(process.execPath, ["scripts/check-seo-ready-routes.mjs"], {
+    cwd: ROOT,
+    stdio: "inherit",
+    env: {
+      ...process.env,
+      SEO_READY_FILES: uniqueFiles.join(","),
+    },
+  })
+}
+
 async function publishReadyEntries(entries, publishedState) {
   if (!entries.length) return
+  assertReadyEntriesBeforePublish(entries)
   if (DRY_RUN) {
     for (const entry of entries) {
       console.log(`[DRY] slug=${entry.slug} source=${entry.sourcePath} r2_key=${entry.r2Key} score=${entry.score} title=${entry.title}`)
@@ -1743,6 +1894,7 @@ async function publishReadyEntries(entries, publishedState) {
 
   if (PUBLISH_CONTENT) {
     writeSourceMarkdownEntries(entries)
+    runSeoReadyFilesCheck(entries)
   }
 
   if (UPLOAD_R2) {
@@ -1787,7 +1939,9 @@ async function main() {
   const bank = loadPromptBank()
   const publishedState = loadJsonState(PUBLISHED_FILE, { drafts: [] })
   const failedState = loadJsonState(FAILED_LOG_FILE, { drafts: [] })
+  const history = await loadPromptBankHistory({ root: ROOT, minScore: MIN_SCORE })
   const completedRoutes = loadExistingCanonicalPaths()
+  const existingRoutePaths = new Set([...completedRoutes, ...history.canonicalPaths])
   const publishedH1s = loadExistingH1Set()
   void publishedH1s
   const completed = new Set(
@@ -1801,7 +1955,17 @@ async function main() {
     return true
   })
 
-  const queue = filtered.filter((p) => !completed.has(p.promptId) && !completedRoutes.has(normalizeCanonicalPath(p.route)))
+  const queue = []
+  const skipCounts = new Map()
+  for (const prompt of filtered) {
+    const reason = skipReasonForPrompt(prompt, history, completed, existingRoutePaths)
+    if (reason) {
+      skipCounts.set(reason, (skipCounts.get(reason) || 0) + 1)
+      console.log(`[SKIP] ${prompt.promptId} ${prompt.route} reason=${reason}`)
+      continue
+    }
+    queue.push(prompt)
+  }
 
   // In bilingual mode, interleave ZH and EN so we don't exhaust one lang first.
   let finalQueue = queue
@@ -1827,7 +1991,10 @@ async function main() {
   console.log(`Multi candidates : ${MULTI_AI_CANDIDATES ? "yes" : "no"}`)
   console.log(`Total prompts    : ${bank.length}`)
   console.log(`Already published: ${completed.size}`)
-  console.log(`Existing routes  : ${completedRoutes.size}`)
+  console.log(`Existing routes  : ${existingRoutePaths.size}`)
+  for (const reason of ["already_in_d1", "already_in_markdown", "historical_prompt_hash", "historical_profile_hash"]) {
+    if (skipCounts.has(reason)) console.log(`Skipped ${reason}: ${skipCounts.get(reason)}`)
+  }
   console.log(`Locale filter    : ${ONLY_LOCALE || "(none)"}`)
   console.log(`To process       : ${finalQueue.length}`)
   const bilingualMode = TARGET_READY_COUNT > 0 && !ONLY_LOCALE && TARGET_READY_COUNT % 2 === 0
@@ -1896,8 +2063,9 @@ async function main() {
       }
 
       const result = settled.value
-      if (completedRoutes.has(normalizeCanonicalPath(result.canonicalPath))) {
-        console.log(`[SKIP] ${prompt.promptId} ${result.canonicalPath} already has a ready source article`)
+      const postGenerationReason = skipReasonForPrompt({ ...prompt, canonicalPath: result.canonicalPath }, history, completed, existingRoutePaths)
+      if (postGenerationReason) {
+        console.log(`[SKIP] ${prompt.promptId} ${result.canonicalPath} reason=${postGenerationReason}`)
         continue
       }
       if (result.status !== "ready") {
@@ -1910,7 +2078,10 @@ async function main() {
       ready++
       const entry = readyEntryFromResult(result)
       readyBuffer.push({ ...entry, bodyHtml: result.bodyHtml, bodyMarkdown: result.body })
-      completedRoutes.add(normalizeCanonicalPath(entry.canonicalPath))
+      existingRoutePaths.add(normalizeCanonicalPath(entry.canonicalPath))
+      history.promptHashes.add(entry.promptHash)
+      history.profileHashes.add(entry.profileHash)
+      history.routeKeys.add(entry.routeKey || routeKeyFor(entry))
       if (bilingualMode) readyByLang[entry.locale] = (readyByLang[entry.locale] || 0) + 1
       console.log(`[OK]   ${prompt.promptId} ${result.slug} via ${result.generation.provider} (score ${result.score})`)
 

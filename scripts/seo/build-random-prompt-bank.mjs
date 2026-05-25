@@ -27,10 +27,18 @@ import { createHash } from "crypto"
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs"
 import { dirname, join } from "path"
 import { fileURLToPath } from "url"
+import {
+  ARTICLE_BRIEF_VERSION,
+  historicalSkipReason,
+  loadPromptBankHistory,
+  localeCityTypeKeyFor,
+  pathFromRoot,
+  routeKeyFor,
+} from "./prompt-bank-history.mjs"
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, "../..")
-const MANIFEST_FILE = join(ROOT, "data/seo/route-manifest.json")
+const MANIFEST_FILE = pathFromRoot(ROOT, process.env.MANIFEST_FILE || "data/seo/route-manifest.json")
 const DEFAULT_OUT_FILE = join(ROOT, "data/seo/random-prompt-bank.jsonl")
 
 const LIMIT = Number.parseInt(process.env.LIMIT || "1000", 10)
@@ -357,6 +365,179 @@ function titleDirectionFor(profile) {
   return map[profile.titlePattern] || (profile.locale === "en" ? "use a specific editorial hook" : "使用一个具体编辑钩子")
 }
 
+const BRIEF_POOLS = {
+  en: {
+    readerIntent: [
+      "decide whether this dinner format is worth joining soon",
+      "compare Fanju with a loose meetup or group chat",
+      "understand who will be at the table before committing",
+      "find a low-pressure way to meet people through dinner",
+      "judge whether the host and table rhythm feel credible",
+    ],
+    readerStage: ["first consideration", "ready to compare options", "one step before RSVP", "new to the city", "returning after a long social gap"],
+    localScene: [
+      "an after-work evening when going straight home feels too small",
+      "a weekend meal where the table matters more than the venue hype",
+      "a first arrival at a restaurant with no familiar faces yet",
+      "a neighbourhood dinner that needs clear expectations before anyone sits down",
+      "a small-table night where the opening ten minutes decide the mood",
+    ],
+    introDirection: [
+      "open with a concrete local hesitation, then explain why a named table reduces uncertainty",
+      "start from the reader's decision point and make the city context visible immediately",
+      "begin with the table, not the platform, then show how Fanju clarifies fit",
+      "contrast a vague invite with a small dinner that states its intent up front",
+    ],
+    sectionFocus: [
+      "reader hesitation",
+      "guest mix",
+      "host reliability",
+      "table rhythm",
+      "comfort boundaries",
+      "local fit",
+      "conversation opening",
+      "next move",
+    ],
+  },
+  zh: {
+    readerIntent: [
+      "判断这类饭局值不值得报名",
+      "比较饭局app和普通群聊约饭的差别",
+      "在报名前看清这一桌适不适合自己",
+      "找到低压力认识新人的吃饭方式",
+      "判断主理人、同桌和饭桌节奏是否靠谱",
+    ],
+    readerStage: ["第一次考虑报名", "正在比较不同选择", "准备 RSVP 前一步", "刚到这座城市", "想重新回到线下社交"],
+    localScene: [
+      "下班后不想直接回家的一个晚上",
+      "周末想吃顿饭但不想随便拼桌的时刻",
+      "一个人到餐厅还没见到熟人的前十分钟",
+      "街区饭点里需要先说清楚预期的一桌饭",
+      "小桌开场几分钟决定整晚舒不舒服的场景",
+    ],
+    introDirection: [
+      "从一个具体本地犹豫切入，再解释清楚命名饭桌怎样降低不确定",
+      "先写读者报名前的判断点，并立刻带出城市语境",
+      "先写饭桌而不是平台，再说明饭局app如何让适配度更清楚",
+      "对比泛泛邀约和一桌预期清楚的小饭局",
+    ],
+    sectionFocus: [
+      "报名犹豫",
+      "同桌组合",
+      "主理人可靠性",
+      "饭桌节奏",
+      "舒适边界",
+      "本地适配",
+      "开场聊天",
+      "下一步动作",
+    ],
+  },
+}
+
+function briefIndex(profile, salt, size) {
+  return seedFromString(`${profile.randomSeed}|${profile.route}|${profile.topicSlug}|${profile.angle.id}|${profile.structure}|${profile.openingStyle}|${profile.faqMode}|${profile.ctaPosition}|${profile.titlePattern}|${salt}`) % size
+}
+
+function briefPick(profile, salt, values) {
+  return values[briefIndex(profile, salt, values.length)]
+}
+
+function articleBriefFor(profile, frame) {
+  const isEn = profile.locale === "en"
+  const pools = isEn ? BRIEF_POOLS.en : BRIEF_POOLS.zh
+  const city = profile.cityNameLocalized
+  const type = profile.topicNameLocalized
+  const localScene = briefPick(profile, "local-scene", pools.localScene)
+  const readerIntent = briefPick(profile, "reader-intent", pools.readerIntent)
+  const readerStage = briefPick(profile, "reader-stage", pools.readerStage)
+  const introDirection = briefPick(profile, "intro-direction", pools.introDirection)
+  const sectionPlan = frame.h2s.map((heading, index) => ({
+    level: 2,
+    heading,
+    focus: briefPick(profile, `section-focus-${index}`, pools.sectionFocus),
+    paragraphs: 2,
+  }))
+  for (const deep of frame.deepHeadings) {
+    sectionPlan.push({
+      level: deep.level,
+      heading: deep.text,
+      focus: briefPick(profile, `deep-focus-${deep.level}`, pools.sectionFocus),
+      paragraphs: 1,
+    })
+  }
+
+  const mustInclude = isEn ? [
+    `city name: ${city}`,
+    `dinner type: ${type}`,
+    "who this table is suitable for",
+    "why a participant would want to join",
+    "how conversation can begin at the table",
+    "why a small-table dinner feels easier than a normal gathering",
+    `one concrete scene: ${localScene}`,
+    "practical advice before joining",
+  ] : [
+    `城市名：${city}`,
+    `饭局类型：${type}`,
+    "适合什么人",
+    "参与者为什么会想参加",
+    "饭桌上如何开始聊天",
+    "为什么小桌饭局比普通聚会更轻松",
+    `一个具体场景：${localScene}`,
+    "实用建议",
+  ]
+
+  const mustAvoid = [
+    "duplicate heading",
+    "repeated paragraph opening",
+    "thin content",
+    "generic SEO filler",
+    "fake statistics",
+    "claims that Fanju guarantees friendships",
+    "over-promising safety or outcomes",
+    "irrelevant city facts",
+    "keyword stuffing",
+  ]
+
+  const languageRules = isEn ? [
+    "Natural local English",
+    "No generic AI-style conclusion",
+    "Avoid repeated section openings",
+    "Avoid keyword stuffing",
+    "Mention Fanju naturally, not aggressively",
+  ] : [
+    "使用自然中文",
+    "不要无意义夹英文",
+    "技术类英文词只允许在必要时出现",
+    "禁止重复标题",
+    "禁止段落开头高度重复",
+    "禁止空泛营销话术",
+    "禁止 AI 味总结",
+    "禁止把“饭局app”每段都硬塞进去",
+  ]
+
+  return {
+    version: ARTICLE_BRIEF_VERSION,
+    routeKey: profile.routeKey,
+    locale: profile.locale,
+    city,
+    type,
+    readerIntent,
+    readerStage,
+    localScene,
+    angle: profile.angle.name,
+    structure: profile.structure,
+    openingStyle: profile.openingStyle,
+    faqMode: profile.faqMode,
+    ctaPosition: profile.ctaPosition,
+    titleDirection: titleDirectionFor(profile),
+    introDirection,
+    sectionPlan,
+    mustInclude,
+    mustAvoid,
+    languageRules,
+  }
+}
+
 function frameIndex(profile, salt, size) {
   return seedFromString(`${profile.citySlug}|${profile.topicSlug}|${profile.angle.id}|${profile.structure}|${profile.titlePattern}|${salt}`) % size
 }
@@ -369,6 +550,76 @@ function possessiveEn(value = "") {
 
 function indefiniteArticleEn(value = "") {
   return /^[aeiou]/i.test(String(value || "").trim()) ? "an" : "a"
+}
+
+function normalizeForTemplateCheck(value = "") {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\u4e00-\u9fff]+/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+}
+
+function duplicateNormalizedHeadingTexts(headings) {
+  const seen = new Map()
+  const duplicates = []
+  for (const heading of headings) {
+    const normalized = normalizeForTemplateCheck(heading.text)
+    if (!normalized) continue
+    const label = `H${heading.level}:${heading.text}`
+    if (seen.has(normalized)) {
+      duplicates.push(`${seen.get(normalized)} <=> ${label}`)
+    } else {
+      seen.set(normalized, label)
+    }
+  }
+  return duplicates
+}
+
+function localizedHeadingIncludes(heading, value) {
+  const normalizedHeading = normalizeForTemplateCheck(heading)
+  const normalizedValue = normalizeForTemplateCheck(value)
+  return normalizedValue && normalizedHeading.includes(normalizedValue)
+}
+
+function preflightArticleFrame(profile, frame) {
+  const routeLabel = `${profile.locale}:${profile.route}`
+  if (!frame?.h1) {
+    throw new Error(`Heading preflight failed for ${routeLabel}: missing H1`)
+  }
+  if (!Array.isArray(frame.h2s) || frame.h2s.length !== 6) {
+    throw new Error(`Heading preflight failed for ${routeLabel}: expected exactly 6 H2 headings, got ${frame?.h2s?.length || 0}`)
+  }
+
+  const expectedDeepCount = frame.maxDepth - 2
+  if (!Array.isArray(frame.deepHeadings) || frame.deepHeadings.length !== expectedDeepCount) {
+    throw new Error(`Heading preflight failed for ${routeLabel}: expected H3-H${frame.maxDepth} deep headings, got ${frame?.deepHeadings?.length || 0}`)
+  }
+  for (let i = 0; i < expectedDeepCount; i++) {
+    const expectedLevel = i + 3
+    const actual = frame.deepHeadings[i]
+    if (!actual || actual.level !== expectedLevel) {
+      throw new Error(`Heading preflight failed for ${routeLabel}: deep headings must be consecutive H3-H${frame.maxDepth}; expected H${expectedLevel} at position ${i + 1}, got H${actual?.level || "(missing)"}`)
+    }
+  }
+
+  const badH2s = frame.h2s.filter((heading) =>
+    !localizedHeadingIncludes(heading, profile.cityNameLocalized) ||
+    !localizedHeadingIncludes(heading, profile.topicNameLocalized)
+  )
+  if (badH2s.length) {
+    throw new Error(`Heading preflight failed for ${routeLabel}: every H2 must include city="${profile.cityNameLocalized}" and topic="${profile.topicNameLocalized}". Bad H2: ${badH2s.slice(0, 3).join(" | ")}`)
+  }
+
+  const headings = [
+    { level: 1, text: frame.h1 },
+    ...frame.h2s.map((text) => ({ level: 2, text })),
+    ...frame.deepHeadings,
+  ]
+  const duplicates = duplicateNormalizedHeadingTexts(headings)
+  if (duplicates.length) {
+    throw new Error(`Heading preflight failed for ${routeLabel}: duplicate normalized heading text: ${duplicates.slice(0, 4).join(" | ")}`)
+  }
 }
 
 function angleLensEn(angleId = "") {
@@ -696,7 +947,9 @@ function articleFrameFor(profile) {
     deepHeadings.push({ level, text })
   }
 
-  return { h1: cleanHeading(TEMPLATES[0][frameIndex(profile, "h1", TEMPLATES[0].length)]), h2s, deepHeadings, maxDepth }
+  const frame = { h1: cleanHeading(TEMPLATES[0][frameIndex(profile, "h1", TEMPLATES[0].length)]), h2s, deepHeadings, maxDepth }
+  preflightArticleFrame(profile, frame)
+  return frame
 }
 function systemInstructionFor(locale) {
   if (locale === "en") {
@@ -707,8 +960,11 @@ function systemInstructionFor(locale) {
       "The first line must be the article H1 and must begin with '# '.",
       "Markdown heading syntax is strict: valid headings use '# ', '## ', '### ', '#### ', '##### ', '###### ', '####### ' etc. with a space after the hashes. Never omit the space.",
       "Use '## ' for major sections. Deeper headings (H3 through H7+) must appear in strictly increasing order — never skip levels downward.",
+      "Use only the exact H1, six H2 headings, and H3-through-Hmax headings provided in the user prompt. Do not create any additional Markdown headings at any level.",
+      "Every H1-Hn heading must appear at most once. Never duplicate a FAQ heading, checklist heading, question heading, conclusion heading, or any provided heading.",
+      "A repeated heading is a hard failure: rewrite the article from scratch. Do not try to bypass this by changing quality score, status, renderMode, metadata, or by deleting required public content.",
       "Write original paragraphs with concrete local context. Do not repeat the same sentence pattern, paragraph opening, or section logic across sections.",
-      "Before returning, silently verify: H1 has city + Fanju app; every H1-Hn heading is unique inside this article; every H2-Hn is specific to this city, topic, and angle; title is not a reusable template; at least one non-opening paragraph has city context for meta description extraction; body has 5-7 H2, at least one H3, at least one H4, at least 13 natural paragraphs, no repeated paragraph openings, no public links, no JSON.",
+      "Before returning, silently verify: H1 has city + Fanju app; every H1-Hn heading is unique inside this article; every H2-Hn is specific to this city, topic, and angle; title is not a reusable template; at least one non-opening paragraph has city context for meta description extraction; body has exactly 6 H2, the provided H3-Hmax headings only, at least 13 natural paragraphs, no repeated paragraph openings, no public links, no JSON.",
       "Never invent statistics, restaurants, user counts, awards, or partnerships.",
       "Never mention tools or production process.",
       "Never write Markdown links, raw URLs, href attributes, or HTML anchor tags. Mention page names as plain text only; the site template adds all links.",
@@ -726,7 +982,10 @@ function systemInstructionFor(locale) {
     "第一行必须是文章 H1，必须以「# 」开头。",
     "Markdown 标题语法必须严格：合法标题是「# 标题」「## 标题」「### 标题」「#### 标题」「##### 标题」「###### 标题」「####### 标题」等，井号后必须有空格。",
     "主要小节必须用「## 」开头。更深层标题（H3 到 H7+）必须严格递增出现，不能跳级降低。",
-    "返回前请在内部自检：H1 有中文城市名 + 饭局app；本篇所有 H1-Hn 标题互不重复；每个 H2-Hn 都具体到这座城市、这个主题和这个角度；标题不是套模板；开头之后至少一段有中文城市语境，供 meta description 抽取；正文有 5-7 个 H2、至少 1 个 H3、至少 1 个 H4、至少 13 个自然段、没有重复段落开头、无公开链接、无 JSON。",
+    "只能使用用户提示中给定的 H1、6 个 H2、以及 H3 到 Hmax 的标题，不得新增任何额外 Markdown 标题。",
+    "本篇所有 H1-Hn 标题每个最多出现一次。禁止重复 FAQ 标题、检查清单标题、问题标题、结语标题或任何给定标题。",
+    "标题重复就是硬失败：必须从头重写。禁止通过修改质量分、status、renderMode、metadata 或删除必要正文来绕过。",
+    "返回前请在内部自检：H1 有中文城市名 + 饭局app；本篇所有 H1-Hn 标题互不重复；每个 H2-Hn 都具体到这座城市、这个主题和这个角度；标题不是套模板；开头之后至少一段有中文城市语境，供 meta description 抽取；正文正好 6 个 H2、只使用给定的 H3-Hmax 标题、至少 13 个自然段、没有重复段落开头、无公开链接、无 JSON。",
     "每段都要有真实城市语境，不要在不同小节反复套同一种句式、段落开头或论证顺序。",
     "不要编造统计数据、餐厅名、用户数、奖项或合作伙伴。",
     "不要提及任何工具、后台或生产流程。",
@@ -739,10 +998,9 @@ function systemInstructionFor(locale) {
   ].join("\n")
 }
 
-function userPromptFor(profile) {
+function userPromptFor(profile, frame = articleFrameFor(profile), articleBrief = articleBriefFor(profile, frame)) {
   const isEn = profile.locale === "en"
   const titleDirection = titleDirectionFor(profile)
-  const frame = articleFrameFor(profile)
 
   // Build the deep heading outline string (H3 through HmaxDepth)
   const deepOutline = frame.deepHeadings
@@ -754,12 +1012,16 @@ function userPromptFor(profile) {
     return [
       `Write a high-quality long-form English article for route ${profile.route}.`,
       `City: ${profile.cityNameLocalized}. Topic: ${profile.topicNameLocalized}.`,
+      `Use this deterministic articleBrief as the source brief for the article. It is program-generated, not AI-generated. Follow it closely, but do not quote it, summarize it, or output JSON:\n${JSON.stringify(articleBrief, null, 2)}`,
       `Use this exact H1 as the first line, with no edits:\n# ${frame.h1}\nThis H1 already includes the city and the exact phrase "Fanju app".`,
       `Title/H1 guardrails: title direction=${titleDirection}. Do not replace the H1 with "${profile.cityNameLocalized} ${profile.topicNameLocalized} Guide", "A Guide to ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "How to join ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", or any title that only swaps city/topic words. Also avoid bland titles like "${indefiniteArticleEn(profile.cityNameLocalized).replace(/^./, (c) => c.toUpperCase())} ${profile.cityNameLocalized} dinner journey" or "Discover ${profile.cityNameLocalized} through dinner".`,
       `Angle: ${profile.angle.name}. Use this angle: ${profile.angle.instruction}`,
       `Style profile: structure=${profile.structure}; opening=${profile.openingStyle}; faq=${profile.faqMode}; cta=${profile.ctaPosition}; example=${profile.exampleType}; tone=${profile.tone}; title=${profile.titlePattern}.`,
+      `Heading allowlist: the only Markdown headings allowed in the article are the exact H1 below, the exact 6 H2 headings below, and the exact H3-H${maxDepth} headings below. Do not add any other H1, H2, H3, H4, H5, H6, H7, H8, H9, or H10 heading.`,
       `Use these exact 6 H2 headings, in this order, with no edits:\n${frame.h2s.map((h) => `## ${h}`).join("\n")}`,
       `After the H2 sections, use these exact deeper headings in strict order (H3 through H${maxDepth}). Each heading must appear exactly once, on its own line, with the correct number of # symbols and a space:\n${deepOutline}`,
+      "Do not create FAQ, checklist, conclusion, next-step, safety, or summary headings beyond the allowlist. If you need those ideas, write them as normal paragraph prose under the provided headings.",
+      "Hard failure rule: no H1-Hn heading text may repeat after normalization. If any heading would repeat, rewrite the full article before returning it. Do not bypass heading failures by changing score/status/renderMode/metadata or by deleting required article sections.",
       `Heading depth rule: headings must only go deeper (H2 → H3 → H4 → … → H${maxDepth}). Never use a shallower heading after a deeper one. The article must reach at least H${maxDepth}.`,
       "Quality: practical editorial guide, not a landing page. Include city rhythm, neighbourhood choice, attendee concerns, host reliability cues, comfort boundaries, and decision criteria. Every H2-Hn section must have real article paragraphs with distinct ideas and distinct paragraph openings.",
       `Output contract that must pass automated quality checks: first character '#'; exactly one H1; all H1-H${maxDepth} headings are unique; 6 H2 headings using '## ' with a space; all deeper headings from H3 to H${maxDepth} present in strict order; at least 13 natural paragraphs; every H2 has at least two paragraphs; every deeper heading has at least one paragraph; first paragraph mentions city and Fanju app; at least one later paragraph mentions the city without repeating the opening; title, first paragraph, and opening 600 characters mention Fanju app.`,
@@ -772,13 +1034,17 @@ function userPromptFor(profile) {
   return [
     `为「${profile.cityNameLocalized}」城市页写一篇高质量中文长文。`,
     `城市：${profile.cityNameLocalized}。主题：${profile.topicNameLocalized}。`,
+    `以下 deterministic articleBrief 是程序生成的写作简报，不是 AI 生成的 prompt。必须优先按它写文章，但不要引用、复述或输出 JSON：\n${JSON.stringify(articleBrief, null, 2)}`,
     `第一行必须使用这个精确 H1，不能改字：\n# ${frame.h1}\n这个 H1 已经包含中文城市名和「饭局app」。`,
     `标题/H1 防线：标题方向=${titleDirection}。禁止改成只替换城市/主题的模板标题。正文前 200 字必须自然出现「饭局app」和「${profile.cityNameLocalized}」，开头之后至少一段也要自然出现「${profile.cityNameLocalized}」。`,
     `中文城市名硬规则：公开标题、H1、H2 和正文里，城市名只能使用「${profile.cityNameLocalized}」；URL slug、拼音城市名、英文城市名一律不能出现在公开字段里。`,
     `角度：${profile.angle.name}。按这个方向写：${profile.angle.instruction}`,
     `风格 profile：结构=${profile.structure}；开头=${profile.openingStyle}；FAQ=${profile.faqMode}；CTA=${profile.ctaPosition}；例子=${profile.exampleType}；语气=${profile.tone}；标题=${profile.titlePattern}。`,
+    `标题白名单：文章中唯一允许出现的 Markdown 标题，是下面给定的精确 H1、6 个精确 H2、以及精确 H3-H${maxDepth}。不得新增任何额外 H1、H2、H3、H4、H5、H6、H7、H8、H9 或 H10 标题。`,
     `必须使用这 6 个精确 H2，按顺序写，不能改字：\n${frame.h2s.map((h) => `## ${h}`).join("\n")}`,
     `H2 之后，必须按顺序使用以下更深层标题（H3 到 H${maxDepth}），每个标题单独成行，井号数量和空格必须完全一致：\n${deepOutline}`,
+    "不要在白名单之外新增 FAQ、检查清单、结语、下一步、安全、总结等标题。如果需要表达这些内容，只能写成给定标题下面的普通正文段落。",
+    "硬失败规则：H1-Hn 任意标题归一化后都不能重复。如果会重复，必须在返回前重写全文。禁止通过修改 score/status/renderMode/metadata 或删除必要正文来绕过标题失败。",
     `标题深度规则：标题只能越来越深（H2 → H3 → H4 → … → H${maxDepth}），不能在更深的标题后出现更浅的标题。文章必须到达 H${maxDepth}。`,
     "质量：像真实城市饭局指南，不像落地页。写出城市节奏、街区选择、同桌人数、报名前顾虑、主理人信号、安全判断、报名建议。每个 H2-Hn 标题小节都必须有真实正文段落，且各小节观点、段落开头和论证顺序不能重复。",
     `输出契约：第一个字符必须是「#」；只允许 1 个 H1；H1 到 H${maxDepth} 的所有标题必须互不重复；必须有 6 个「## 」标题；H3 到 H${maxDepth} 的所有标题必须按顺序出现；至少 13 个自然段；第一段必须同时出现「饭局app」和中文城市名；开头之后至少一段也要自然出现中文城市名但不能复用开头句式；标题、H1、前 600 字都必须出现饭局app。`,
@@ -815,7 +1081,7 @@ function planLocaleCounts(limit, lang) {
   return { en, zh }
 }
 
-function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, masterSeed, seenH1Set }) {
+function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, masterSeed, seenH1Set, history }) {
   const enabledRoutes = manifestEntries.filter(
     (e) => e.locale === locale && e.enabled === true && routeEligibleForLocale(e, locale) && (TARGET_ROUTES.size === 0 || TARGET_ROUTES.has(e.route))
   )
@@ -837,22 +1103,31 @@ function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, mas
 
   // Balance by topic first so LIMIT=1000 covers 100+ article types instead of
   // accidentally clustering around the original small category set.
-  const routePool = balancedRoutePool(rng, enabledRoutes)
+  const routeCandidates = enabledRoutes.filter((route) => {
+    const routeKey = routeKeyFor({ locale: route.locale, citySlug: route.citySlug, topicSlug: route.topicSlug, route: route.route })
+    const localeCityTypeKey = localeCityTypeKeyFor({ locale: route.locale, citySlug: route.citySlug, topicSlug: route.topicSlug, route: route.route })
+    return !historicalSkipReason({ ...route, routeKey, localeCityTypeKey }, history)
+  })
+  const routePool = balancedRoutePool(rng, routeCandidates)
 
   const profileKeySet = new Set()
   const promptHashSet = new Set()
+  const routeKeySet = new Set()
+  const canonicalPathSet = new Set()
+  const localeCityTypeSet = new Set()
   const out = []
 
   let routeCursor = 0
   let attempts = 0
-  const maxTotalAttempts = count * 200
+  const maxTotalAttempts = routePool.length
 
-  while (out.length < count) {
-    if (attempts++ > maxTotalAttempts) {
-      throw new Error(`Could not build ${count} unique prompts for locale=${locale} after ${attempts} attempts`)
-    }
-    const route = routePool[routeCursor % routePool.length]
+  while (out.length < count && routeCursor < routePool.length) {
+    if (attempts++ > maxTotalAttempts) break
+    const route = routePool[routeCursor]
     routeCursor++
+    const routeKey = routeKeyFor({ locale: route.locale, citySlug: route.citySlug, topicSlug: route.topicSlug, route: route.route })
+    const localeCityTypeKey = localeCityTypeKeyFor({ locale: route.locale, citySlug: route.citySlug, topicSlug: route.topicSlug, route: route.route })
+    if (routeKeySet.has(routeKey) || canonicalPathSet.has(route.route) || localeCityTypeSet.has(localeCityTypeKey)) continue
 
     const angle = pick(rng, angles)
     const structure = pick(rng, STRUCTURES)
@@ -886,6 +1161,9 @@ function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, mas
       topicSlug: route.topicSlug,
       topicNameLocalized: route.topicNameLocalized,
       route: route.route,
+      routeKey,
+      localeCityTypeKey,
+      randomSeed: RANDOM_SEED,
       angle,
       structure,
       openingStyle,
@@ -898,22 +1176,29 @@ function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, mas
 
     // H1 global dedup: reject if this exact H1 text was already used
     const frame = articleFrameFor(profile)
+    const articleBrief = articleBriefFor(profile, frame)
     const h1Key = frame.h1.toLowerCase().replace(/\s+/g, " ").trim()
     if (seenH1Set.has(h1Key)) continue
 
     const systemInstruction = systemInstructionFor(profile.locale)
-    const userPrompt = userPromptFor(profile)
+    const userPrompt = userPromptFor(profile, frame, articleBrief)
 
     const profileHash = sha256Hex(profileKey)
-    const promptHash = sha256Hex(`${systemInstruction}\n---\n${userPrompt}`)
+    const promptHash = sha256Hex(`${systemInstruction}\n---\n${userPrompt}\n---\n${JSON.stringify(articleBrief)}`)
     if (promptHashSet.has(promptHash)) continue
+    const historyReason = historicalSkipReason({ ...profile, articleBrief, promptHash, profileHash }, history)
+    if (historyReason) continue
 
     profileKeySet.add(profileKey)
     promptHashSet.add(promptHash)
+    routeKeySet.add(routeKey)
+    canonicalPathSet.add(route.route)
+    localeCityTypeSet.add(localeCityTypeKey)
     seenH1Set.add(h1Key)
 
     out.push({
       profile,
+      articleBrief,
       systemInstruction,
       userPrompt,
       profileHash,
@@ -921,13 +1206,14 @@ function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, mas
     })
   }
 
-  return out
+  return { prompts: out, availableCandidates: routeCandidates.length, requested: count }
 }
 
-function main() {
+async function main() {
   const manifest = loadManifest()
   assertZhCityDisplayNames(manifest.entries)
   const cityNameIndex = buildCityNameIndex(manifest.entries)
+  const history = await loadPromptBankHistory({ root: process.env.SEO_HISTORY_ROOT ? undefined : ROOT })
 
   const counts = planLocaleCounts(LIMIT, LANG === "en" || LANG === "zh" ? LANG : "all")
 
@@ -953,39 +1239,38 @@ function main() {
   const seenH1Set = new Set()
 
   const enPrompts = counts.en > 0
-    ? buildLocalePrompts({ locale: "en", count: counts.en, manifestEntries: manifest.entries, cityNameIndex, masterSeed, seenH1Set })
-    : []
+    ? buildLocalePrompts({ locale: "en", count: counts.en, manifestEntries: manifest.entries, cityNameIndex, masterSeed, seenH1Set, history })
+    : { prompts: [], availableCandidates: 0, requested: 0 }
   const zhPrompts = counts.zh > 0
-    ? buildLocalePrompts({ locale: "zh", count: counts.zh, manifestEntries: manifest.entries, cityNameIndex, masterSeed, seenH1Set })
-    : []
+    ? buildLocalePrompts({ locale: "zh", count: counts.zh, manifestEntries: manifest.entries, cityNameIndex, masterSeed, seenH1Set, history })
+    : { prompts: [], availableCandidates: 0, requested: 0 }
 
   const all = []
   // Interleave so EN and ZH alternate roughly evenly through the file.
-  const total = enPrompts.length + zhPrompts.length
+  const total = enPrompts.prompts.length + zhPrompts.prompts.length
   let ei = 0
   let zi = 0
   for (let i = 0; i < total; i++) {
-    const wantEn = enPrompts.length - ei > 0 && (zhPrompts.length - zi === 0 || i % 2 === 0)
-    if (wantEn) all.push(enPrompts[ei++])
-    else all.push(zhPrompts[zi++])
+    const wantEn = enPrompts.prompts.length - ei > 0 && (zhPrompts.prompts.length - zi === 0 || i % 2 === 0)
+    if (wantEn) all.push(enPrompts.prompts[ei++])
+    else all.push(zhPrompts.prompts[zi++])
   }
-
-  const datePrefix = new Date()
-    .toISOString()
-    .slice(0, 10)
-    .replace(/-/g, "")
 
   // Final emission. Each line is an independent JSON object.
   const lines = []
   for (let i = 0; i < all.length; i++) {
-    const p = all[i]
-    const idx = String(i + 1).padStart(6, "0")
-    const promptId = `fanju-seo-${idx}`
-    const seed = `${datePrefix}-${idx}`
-    const obj = {
-      promptId,
-      seed,
-      locale: p.profile.locale,
+	    const p = all[i]
+	    const idx = String(i + 1).padStart(6, "0")
+	    const promptId = `fanju-seo-${idx}`
+	    const seed = `${RANDOM_SEED}-${idx}`
+	    const obj = {
+	      promptId,
+	      seed,
+	      promptSeed: seed,
+	      randomSeed: RANDOM_SEED,
+	      articleBriefVersion: ARTICLE_BRIEF_VERSION,
+	      routeKey: p.profile.routeKey,
+	      locale: p.profile.locale,
       citySlug: p.profile.citySlug,
       cityNameLocalized: p.profile.cityNameLocalized,
       cityNameZh: p.profile.cityNameZh,
@@ -1002,8 +1287,9 @@ function main() {
       ctaPosition: p.profile.ctaPosition,
       exampleType: p.profile.exampleType,
       tone: p.profile.tone,
-      titlePattern: p.profile.titlePattern,
-      systemInstruction: p.systemInstruction,
+	      titlePattern: p.profile.titlePattern,
+	      articleBrief: p.articleBrief,
+	      systemInstruction: p.systemInstruction,
       userPrompt: p.userPrompt,
       promptHash: p.promptHash,
       profileHash: p.profileHash,
@@ -1016,9 +1302,20 @@ function main() {
 
   console.log("Prompt bank written:", OUTPUT_FILE)
   console.log("  total:", all.length)
-  console.log("  en:   ", enPrompts.length)
-  console.log("  zh:   ", zhPrompts.length)
+  console.log("  en:   ", enPrompts.prompts.length)
+  console.log("  zh:   ", zhPrompts.prompts.length)
   console.log("  seed: ", RANDOM_SEED)
+  console.log("History filter:")
+  console.log("  totalCanonical:", history.stats.totalCanonical)
+  console.log("  alreadyPublishedRoutes:", history.stats.alreadyPublishedRoutes)
+  console.log("  historicalPromptHashes:", history.stats.historicalPromptHashes)
+  console.log("  historicalProfileHashes:", history.stats.historicalProfileHashes)
+  console.log("  availableCandidates:", enPrompts.availableCandidates + zhPrompts.availableCandidates)
+  console.log("  requestedLimit:", LIMIT)
+  console.log("  actualGenerated:", all.length)
 }
 
-main()
+main().catch((err) => {
+  console.error("Fatal:", err)
+  process.exit(1)
+})

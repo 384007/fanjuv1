@@ -7,6 +7,7 @@ import shlex
 import shutil
 import subprocess
 import tarfile
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -108,6 +109,167 @@ def run_capture(args: list[str], cwd: str | None = None, timeout: int = 300) -> 
     return result.stdout.strip()
 
 
+def run_args_capture(
+    args: list[str],
+    cwd: str | None = None,
+    timeout: int = 300,
+    redacted: str | None = None,
+) -> subprocess.CompletedProcess:
+    print(f"$ {redacted or shlex.join(args)}", flush=True)
+    try:
+        return subprocess.run(
+            args,
+            cwd=cwd,
+            text=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            timeout=timeout,
+        )
+    except subprocess.TimeoutExpired as exc:
+        stdout = exc.stdout if isinstance(exc.stdout, str) else (exc.stdout or b"").decode(errors="replace")
+        stderr = exc.stderr if isinstance(exc.stderr, str) else (exc.stderr or b"").decode(errors="replace")
+        return subprocess.CompletedProcess(args, 124, stdout, f"{stderr}\nnetwork timeout after {timeout}s".strip())
+
+
+PUSH_RETRY_DELAYS = [10, 20, 40, 60, 90, 120, 180, 240]
+RETRYABLE_PUSH_PATTERNS = [
+    r"remote:\s*Internal Server Error",
+    r"HTTP\s*50[0-4]",
+    r"\b50[0-4]\b",
+    r"remote rejected[\s\S]*Internal Server Error",
+    r"failed to push some refs[\s\S]*(?:Internal Server Error|HTTP\s*50[0-4]|\b50[0-4]\b)",
+    r"network timeout",
+    r"timed?\s*out",
+    r"connection reset",
+    r"TLS.*(?:error|fail|reset|closed)",
+    r"SSL.*(?:error|fail|reset|closed)",
+    r"non-fast-forward",
+    r"fetch first",
+    r"Updates were rejected",
+]
+NON_RETRYABLE_PUSH_PATTERNS = [
+    r"authentication failed",
+    r"permission denied",
+    r"protected branch.*rejected",
+    r"required status checks failed",
+    r"repository not found",
+]
+
+
+def combined_output(result: subprocess.CompletedProcess) -> str:
+    return f"{result.stdout or ''}\n{result.stderr or ''}"
+
+
+def is_retryable_push_error(text: str) -> bool:
+    value = text or ""
+    return any(re.search(pattern, value, re.I) for pattern in RETRYABLE_PUSH_PATTERNS)
+
+
+def is_non_retryable_push_error(text: str) -> bool:
+    value = text or ""
+    return any(re.search(pattern, value, re.I) for pattern in NON_RETRYABLE_PUSH_PATTERNS)
+
+
+def git_conflict_files(cwd: str | None = None) -> list[str]:
+    result = run_args_capture(["git", "diff", "--name-only", "--diff-filter=U"], cwd=cwd, timeout=60)
+    if result.returncode != 0:
+        return []
+    return [line.strip() for line in result.stdout.splitlines() if line.strip()]
+
+
+def print_rebase_diagnostics(cwd: str | None = None) -> None:
+    status = run_args_capture(["git", "status", "--short"], cwd=cwd, timeout=60)
+    print("GIT_STATUS_AFTER_REBASE_FAILURE", flush=True)
+    print(status.stdout or "(empty)", flush=True)
+    conflicts = git_conflict_files(cwd)
+    print(f"REBASE_CONFLICT_FILES={','.join(conflicts) if conflicts else '(none reported)'}", flush=True)
+
+
+def rebase_or_fail(run_id: str, round_no: int, cwd: str | None = None) -> None:
+    fetch = run_args_capture(["git", "fetch", "origin", "main"], cwd=cwd, timeout=300)
+    if fetch.returncode != 0:
+        raise RuntimeError(
+            f"git fetch origin main failed during push retry "
+            f"run_id={run_id} round_no={round_no}\nstdout={fetch.stdout}\nstderr={fetch.stderr}"
+        )
+    rebase = run_args_capture(["git", "rebase", "--autostash", "origin/main"], cwd=cwd, timeout=300)
+    if rebase.returncode != 0:
+        print_rebase_diagnostics(cwd)
+        raise RuntimeError(
+            "git rebase --autostash origin/main failed during push retry; "
+            f"run_id={run_id} round_no={round_no}. Resolve the conflict manually; no force push was attempted.\n"
+            f"stdout={rebase.stdout}\nstderr={rebase.stderr}"
+        )
+
+
+def final_push_failure_message(
+    run_id: str,
+    round_no: int,
+    commit_sha: str,
+    branch: str,
+    result: subprocess.CompletedProcess,
+) -> str:
+    return (
+        "git push origin main failed after 8 attempts.\n"
+        f"run_id={run_id}\n"
+        f"round_no={round_no}\n"
+        f"commit_sha={commit_sha}\n"
+        f"branch={branch}\n"
+        f"last_push_stdout={result.stdout or ''}\n"
+        f"last_push_stderr={result.stderr or ''}\n"
+        "Manual recovery commands:\n"
+        "git fetch origin main\n"
+        "git rebase --autostash origin/main\n"
+        "git push origin main"
+    )
+
+
+def push_current_commit_with_retry(
+    run_id: str,
+    round_no: int,
+    cwd: str | None = None,
+    sleep_fn=time.sleep,
+) -> str:
+    last_result: subprocess.CompletedProcess | None = None
+    for attempt in range(1, 9):
+        commit_sha = run_capture(["git", "rev-parse", "HEAD"], cwd=cwd)
+        branch = run_capture(["git", "branch", "--show-current"], cwd=cwd)
+        result = run_args_capture(["git", "push", "origin", "main"], cwd=cwd, timeout=900)
+        last_result = result
+        if result.returncode == 0:
+            final_sha = run_capture(["git", "rev-parse", "HEAD"], cwd=cwd)
+            print(f"GITHUB_PUSH_OK attempt={attempt} commit={final_sha}", flush=True)
+            return final_sha
+
+        text = combined_output(result)
+        if is_non_retryable_push_error(text):
+            raise RuntimeError(
+                f"Non-retryable git push failure run_id={run_id} round_no={round_no} "
+                f"commit_sha={commit_sha} branch={branch}\nstdout={result.stdout}\nstderr={result.stderr}"
+            )
+        if not is_retryable_push_error(text):
+            raise RuntimeError(
+                f"git push failed with a non-retryable or unknown error run_id={run_id} round_no={round_no} "
+                f"commit_sha={commit_sha} branch={branch}\nstdout={result.stdout}\nstderr={result.stderr}"
+            )
+        if attempt >= 8:
+            raise RuntimeError(final_push_failure_message(run_id, round_no, commit_sha, branch, result))
+
+        delay = PUSH_RETRY_DELAYS[attempt - 1]
+        print(
+            f"GITHUB_PUSH_RETRYABLE_FAILURE attempt={attempt}/8 delay={delay}s "
+            f"run_id={run_id} round_no={round_no} commit={commit_sha}",
+            flush=True,
+        )
+        rebase_or_fail(run_id, round_no, cwd=cwd)
+        sleep_fn(delay)
+
+    assert last_result is not None
+    commit_sha = run_capture(["git", "rev-parse", "HEAD"], cwd=cwd)
+    branch = run_capture(["git", "branch", "--show-current"], cwd=cwd)
+    raise RuntimeError(final_push_failure_message(run_id, round_no, commit_sha, branch, last_result))
+
+
 def run_shell_status(cmd: str, cwd: str | None = None, timeout: int = 300) -> int:
     print(f"$ {cmd}", flush=True)
     result = subprocess.run(cmd, shell=True, cwd=cwd, text=True, timeout=timeout)
@@ -181,10 +343,8 @@ def git_commit_and_push(routes: list[str], run_id: str, round_no: int) -> str:
     )
     # unshallow so rebase works on depth-1 clone
     subprocess.run(["git", "fetch", "--unshallow", "origin", "main"], cwd=WORKDIR, capture_output=True)
-    run_args(["git", "fetch", "origin", "main"], cwd=WORKDIR, timeout=300)
-    run_args(["git", "rebase", "--autostash", "origin/main"], cwd=WORKDIR, timeout=300)
-    run_args(["git", "push", "origin", "main"], cwd=WORKDIR, timeout=900)
-    sha = run_capture(["git", "rev-parse", "HEAD"], cwd=WORKDIR)
+    rebase_or_fail(run_id, round_no, cwd=WORKDIR)
+    sha = push_current_commit_with_retry(run_id, round_no, cwd=WORKDIR)
     print(f"GITHUB_MAIN_COMMIT={sha}", flush=True)
     return sha
 
@@ -401,6 +561,29 @@ def ensure_ready_source_entries(entries: list[dict], stage: str) -> None:
         )
 
 
+def run_seo_ready_files_check(entries: list[dict], stage: str) -> None:
+    files = [str(entry.get("sourcePath") or "").strip() for entry in entries]
+    if not files or any(not path for path in files):
+        raise RuntimeError(f"Cannot run SEO_READY_FILES check at {stage}: missing sourcePath in latest entries.")
+    unique_files = sorted(set(files))
+    env = os.environ.copy()
+    env["SEO_READY_FILES"] = ",".join(unique_files)
+    redacted = f"SEO_READY_FILES={env['SEO_READY_FILES']} node scripts/check-seo-ready-routes.mjs"
+    print(f"$ {redacted}", flush=True)
+    result = subprocess.run(
+        ["node", "scripts/check-seo-ready-routes.mjs"],
+        cwd=WORKDIR,
+        text=True,
+        env=env,
+        timeout=600,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(
+            f"SEO_READY_FILES validation failed at {stage}; refusing to commit or push. "
+            f"files={unique_files}"
+        )
+
+
 def validate_ready_entries(entries: list[dict], min_score: int = 90) -> None:
     bad_entries = [
         entry
@@ -462,6 +645,7 @@ def run_cloudflare_publish_pipeline(
             f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=96 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=5 "
             f"QUALITY_RETRY_DELAY_MS=15000 MAX_TOKENS=7200 AI_COOLDOWN_WAIT_PASSES=2 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
+            f"PUBLISHED_RUN_ID={shlex.quote(run_id)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=15000 GROQ_MAX_TOKENS=6000 "
             "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "
             f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER} pnpm seo:prompt-bank:cloudflare",
@@ -480,6 +664,7 @@ def run_cloudflare_publish_pipeline(
 
         routes = [public_route_for_entry(entry) for entry in latest_entries]
         run("node scripts/seo/recover-missing-from-d1.mjs", cwd=WORKDIR, timeout=300)
+        run_seo_ready_files_check(latest_entries, f"round-{round_no}-before-git-push")
         commit_sha = git_commit_and_push(routes, run_id, round_no)
 
         round_summary = {
@@ -606,6 +791,7 @@ def publish_routes_to_cloudflare(target_routes: str, upload_r2: bool = True):
             f"RUN_LIMIT=1 CONCURRENCY=1 RATE_DELAY_MS=15000 BATCH_SIZE=1 "
             f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=96 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=5 QUALITY_RETRY_DELAY_MS=240000 MAX_TOKENS=7200 AI_COOLDOWN_WAIT_PASSES=40 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
+            f"PUBLISHED_RUN_ID={shlex.quote(run_id)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=15000 GROQ_MAX_TOKENS=6000 "
             "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "
             f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER} pnpm seo:prompt-bank:cloudflare",
