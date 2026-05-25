@@ -47,6 +47,8 @@ export type SeoReadyArticle = {
   title: string
   titleZh?: string
   description?: string
+  primaryKeyword?: string
+  secondaryKeywords?: string[]
   canonicalPath: string
   canonicalUrl?: string
   lang?: string
@@ -62,6 +64,7 @@ export type SeoReadyArticle = {
   sitemapEligible?: boolean
   generatedArticle?: GeneratedArticle
   allowAlternateFallback?: boolean
+  publishedRunId?: string
 }
 
 export type SafeLink = {
@@ -92,7 +95,7 @@ function routeManifestEntries(): RouteManifestEntry[] {
   } catch {
     _routeManifestEntries = []
   }
-  return _routeManifestEntries
+  return _routeManifestEntries || []
 }
 
 function routeManifestEntryForPath(path: string, lang: "zh" | "en") {
@@ -127,6 +130,13 @@ function parseFrontmatter(raw: string): { meta: Record<string, string>; body: st
     meta[m[1]] = value.trim()
   }
   return { meta, body: match[2].trim() }
+}
+
+function parseKeywordList(value = ""): string[] {
+  return value
+    .split(/[|,]/)
+    .map((item) => item.trim())
+    .filter(Boolean)
 }
 
 export function normalizePath(p: string): string {
@@ -172,6 +182,8 @@ function loadAll(): SeoReadyArticle[] {
         title: meta.title || slug,
         titleZh: meta.titleZh,
         description: meta.description,
+        primaryKeyword: meta.primaryKeyword,
+        secondaryKeywords: parseKeywordList(meta.secondaryKeywords),
         canonicalPath,
         canonicalUrl: meta.canonicalUrl,
         lang: meta.lang,
@@ -186,6 +198,7 @@ function loadAll(): SeoReadyArticle[] {
         robots: "index,follow",
         sitemapEligible: true,
         allowAlternateFallback: true,
+        publishedRunId: meta.publishedRunId,
       })
     }
   }
@@ -284,6 +297,7 @@ const SAFE_STATIC_PATHS = new Set([
   "/en/categories",
   "/what-is-fanju",
   "/en/what-is-fanju",
+  "/what-is-dinner-buddy",
   "/social-dining",
   "/faq",
   "/create",
@@ -450,18 +464,18 @@ function labelForArticlePath(path: string, lang: "zh" | "en") {
 function defaultSafeLinks(lang: "zh" | "en"): SafeLink[] {
   return lang === "en"
     ? [
-        { label: "All cities", href: "/en/cities" },
-        { label: "All categories", href: "/en/categories" },
-        { label: "What is Fanju", href: "/en/what-is-fanju" },
-        { label: "Social dining", href: "/social-dining" },
-        { label: "FAQ", href: "/faq" },
+        { label: "Fanju app", href: "/en/what-is-fanju" },
+        { label: "social dining app", href: "/social-dining" },
+        { label: "dinner city directory", href: "/en/cities" },
+        { label: "dinner categories", href: "/en/categories" },
+        { label: "dinner buddy FAQ", href: "/faq" },
       ]
     : [
-        { label: "全部城市", href: "/cities" },
-        { label: "全部类型", href: "/categories" },
-        { label: "饭局是什么", href: "/what-is-fanju" },
+        { label: "饭局 app", href: "/what-is-fanju" },
+        { label: "饭搭子", href: "/what-is-dinner-buddy" },
+        { label: "同城饭局", href: "/cities" },
+        { label: "线下饭局分类", href: "/categories" },
         { label: "饭局社交", href: "/social-dining" },
-        { label: "常见问题", href: "/faq" },
       ]
 }
 

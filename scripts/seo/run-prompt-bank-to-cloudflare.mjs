@@ -400,6 +400,7 @@ function markdownForEntry(entry) {
   const score = Math.trunc(Number(entry.score) || 0)
   const sourceSlug = entry.sourceSlug || entry.sourceFile?.replace(/\.md$/, "") || sourceSlugForPrompt(entry)
   const titleZh = entry.locale === "zh" ? entry.title : ""
+  const keywords = seoKeywordsForEntry(entry)
   const frontmatter = [
     "---",
     `slug: ${yamlString(sourceSlug)}`,
@@ -410,6 +411,8 @@ function markdownForEntry(entry) {
     `title: ${yamlString(entry.title)}`,
     titleZh ? `titleZh: ${yamlString(titleZh)}` : "",
     `description: ${yamlString(entry.description)}`,
+    `primaryKeyword: ${yamlString(keywords.primaryKeyword)}`,
+    `secondaryKeywords: ${yamlString(keywords.secondaryKeywords.join("|"))}`,
     `pageType: ${yamlString("city_article")}`,
     "priorityScore: 70",
     `aiQualityScore: ${score}`,
@@ -466,14 +469,65 @@ function cleanMetaDescriptionText(value = "") {
     .trim()
 }
 
+function hasSentenceEnd(value = "", locale = "zh") {
+  return locale === "en" ? /[.!?]["')\]]?$/.test(String(value).trim()) : /[。！？]["')\]]?$/.test(String(value).trim())
+}
+
 function trimMetaDescription(value = "", locale = "zh") {
   const max = locale === "en" ? 220 : 120
   const cleaned = cleanMetaDescriptionText(value)
-  if (cleaned.length <= max) return cleaned
-  const cut = cleaned.slice(0, max)
-  return locale === "en"
-    ? cut.replace(/\s+\S*$/, "").trim() || cut.trim()
-    : cut.trim()
+  if (!cleaned) return ""
+  const sentencePattern = locale === "en" ? /[^.!?]+[.!?]["')\]]?/g : /[^。！？]+[。！？]["')\]]?/g
+  const sentences = cleaned.match(sentencePattern)?.map((s) => s.trim()).filter(Boolean) || []
+  let out = ""
+  for (const sentence of sentences) {
+    const next = out ? `${out} ${sentence}` : sentence
+    if (next.length > max && out) break
+    if (next.length > max) return out
+    out = next
+  }
+  if (out && hasSentenceEnd(out, locale)) return out
+  return cleaned.length <= max && hasSentenceEnd(cleaned, locale) ? cleaned : ""
+}
+
+function topicKeywordBaseEn(topicName = "", topicSlug = "") {
+  const name = String(topicName || "").trim() || String(topicSlug || "").replace(/-/g, " ")
+  return name.replace(/\s+dinner$/i, "").trim() || name
+}
+
+function topicKeywordBaseZh(topicName = "", topicSlug = "") {
+  const name = String(topicName || "").trim() || String(topicSlug || "").replace(/-/g, "")
+  return name.replace(/饭局$/, "").trim() || name
+}
+
+function seoKeywordsForEntry(entry) {
+  if (entry.locale === "en") {
+    const city = String(entry.cityNameLocalized || entry.cityNameEn || entry.citySlug || "").trim()
+    const topicBase = topicKeywordBaseEn(entry.topicNameLocalized, entry.topicSlug)
+    return {
+      primaryKeyword: `${city} ${topicBase} Dinner`,
+      secondaryKeywords: [
+        `${city} social dining`,
+        `${topicBase} dinner group`,
+        "dinner buddy app",
+        "Fanju app",
+        `small-table dinner in ${city}`,
+      ],
+    }
+  }
+
+  const city = String(entry.cityNameLocalized || entry.cityNameZh || "").trim()
+  const topicBase = topicKeywordBaseZh(entry.topicNameLocalized, entry.topicSlug)
+  return {
+    primaryKeyword: `${city}${topicBase}饭局`,
+    secondaryKeywords: [
+      `${city}饭搭子`,
+      `${city}同城饭局`,
+      `${topicBase}饭局`,
+      "饭局app",
+      "Fanju饭局",
+    ],
+  }
 }
 
 function metaDescriptionForArticle(prompt, body = "", firstParagraph = "") {
@@ -492,7 +546,7 @@ function metaDescriptionForArticle(prompt, body = "", firstParagraph = "") {
     const city = String(prompt.cityNameLocalized || prompt.cityNameZh || prompt.cityNameEn || prompt.citySlug || "").trim()
     if (city) description = prompt.locale === "en" ? `${city}: ${description}` : `${city}：${description}`
   }
-  return trimMetaDescription(description, prompt.locale)
+  return trimMetaDescription(description, prompt.locale) || trimMetaDescription(firstParagraph, prompt.locale)
 }
 
 function extractMarkdownArticle(prompt, text) {
@@ -1033,6 +1087,15 @@ function templateHeadingHits(body) {
   return headings.filter((heading) => generic.has(heading)).length
 }
 
+function endsWithWeakConnector(value = "", locale = "zh") {
+  const text = String(value || "").trim().toLowerCase()
+  if (!text) return true
+  if (/[，,;；:]$/.test(text)) return true
+  if (locale === "en" && /\b(and|or|but|because|with|for|to|of|in|at|from|through|while|where|that|which)$/.test(text)) return true
+  if (locale !== "en" && /(和|与|以及|但是|因为|如果|为了|通过|关于|以及|而|并且)$/.test(text)) return true
+  return false
+}
+
 function includesCity(prompt, text) {
   const city = String(prompt.cityNameLocalized || "").trim()
   if (!city) return true
@@ -1068,6 +1131,9 @@ function scoreArticle(prompt, parsed) {
   if (!description || description.length < (prompt.locale === "en" ? 80 : 35)) {
     issues.push("missing-or-short-description")
   }
+  if (description && !hasSentenceEnd(description, prompt.locale)) {
+    issues.push("description-not-complete-sentence")
+  }
 
   const minLen = prompt.locale === "en" ? 3200 : 2200
   if (body.length < minLen) issues.push(`body-too-short:${body.length}`)
@@ -1087,6 +1153,9 @@ function scoreArticle(prompt, parsed) {
   if (!includesCity(prompt, h1)) issues.push("h1-missing-city")
   if (!includesCity(prompt, description)) issues.push("description-missing-city")
   const firstBodyParagraph = publicParagraphs(body)[0] || ""
+  if (!hasSentenceEnd(firstBodyParagraph, prompt.locale) || endsWithWeakConnector(firstBodyParagraph, prompt.locale)) {
+    issues.push("intro-paragraph-incomplete")
+  }
   const descriptionOpening = openingFingerprint(prompt, description)
   const introOpening = openingFingerprint(prompt, firstBodyParagraph)
   if (descriptionOpening && introOpening && descriptionOpening === introOpening) {
@@ -1176,7 +1245,9 @@ function isHardIssue(issue) {
     issue === "title-missing-city" ||
     issue === "h1-missing-city" ||
     issue === "description-missing-city" ||
+    issue === "description-not-complete-sentence" ||
     issue === "description-duplicates-intro-opening" ||
+    issue === "intro-paragraph-incomplete" ||
     issue.startsWith("pinyin-city-name-in-zh-public-text") ||
     issue.startsWith("latin-word-in-zh-title") ||
     issue.startsWith("latin-word-in-zh-h1") ||

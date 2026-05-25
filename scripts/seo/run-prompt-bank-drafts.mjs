@@ -274,6 +274,59 @@ function looksLikeJsonWrapper(text = "") {
   return false
 }
 
+function hasSentenceEnd(value = "", locale = "zh") {
+  return locale === "en" ? /[.!?]["')\]]?$/.test(String(value).trim()) : /[。！？]["')\]]?$/.test(String(value).trim())
+}
+
+function endsWithWeakConnector(value = "", locale = "zh") {
+  const text = String(value || "").trim().toLowerCase()
+  if (!text) return true
+  if (/[，,;；:]$/.test(text)) return true
+  if (locale === "en" && /\b(and|or|but|because|with|for|to|of|in|at|from|through|while|where|that|which)$/.test(text)) return true
+  if (locale !== "en" && /(和|与|以及|但是|因为|如果|为了|通过|关于|以及|而|并且)$/.test(text)) return true
+  return false
+}
+
+function topicKeywordBaseEn(topicName = "", topicSlug = "") {
+  const name = String(topicName || "").trim() || String(topicSlug || "").replace(/-/g, " ")
+  return name.replace(/\s+dinner$/i, "").trim() || name
+}
+
+function topicKeywordBaseZh(topicName = "", topicSlug = "") {
+  const name = String(topicName || "").trim() || String(topicSlug || "").replace(/-/g, "")
+  return name.replace(/饭局$/, "").trim() || name
+}
+
+function seoKeywordsForPrompt(prompt) {
+  if (prompt.locale === "en") {
+    const city = String(prompt.cityNameLocalized || prompt.cityNameEn || prompt.citySlug || "").trim()
+    const topicBase = topicKeywordBaseEn(prompt.topicNameLocalized, prompt.topicSlug)
+    return {
+      primaryKeyword: `${city} ${topicBase} Dinner`,
+      secondaryKeywords: [
+        `${city} social dining`,
+        `${topicBase} dinner group`,
+        "dinner buddy app",
+        "Fanju app",
+        `small-table dinner in ${city}`,
+      ],
+    }
+  }
+
+  const city = String(prompt.cityNameLocalized || prompt.cityNameZh || "").trim()
+  const topicBase = topicKeywordBaseZh(prompt.topicNameLocalized, prompt.topicSlug)
+  return {
+    primaryKeyword: `${city}${topicBase}饭局`,
+    secondaryKeywords: [
+      `${city}饭搭子`,
+      `${city}同城饭局`,
+      `${topicBase}饭局`,
+      "饭局app",
+      "Fanju饭局",
+    ],
+  }
+}
+
 function duplicateMarkdownHeadings(body, level = 2) {
   const marker = "#".repeat(level)
   const headings = [...String(body).matchAll(new RegExp(`^${marker}\\s+(.+)$`, "gm"))]
@@ -303,20 +356,23 @@ function scoreArticle(prompt, parsed) {
 
   if (prompt.locale === "zh" && !isMostlyChinese(body)) issues.push("body-not-chinese")
   if (prompt.locale === "en" && !isMostlyEnglish(body)) issues.push("body-not-english")
+  if (description && !hasSentenceEnd(description, prompt.locale)) issues.push("description-not-complete-sentence")
 
   const minLen = prompt.locale === "en" ? 1500 : 900
   if (body.length < minLen) issues.push(`body-too-short:${body.length}`)
-  const paragraphCount = String(body)
+  const paragraphs = String(body)
     .split(/\n{2,}/)
     .map((part) => part.trim())
     .filter((part) => part && !part.startsWith("#") && !/^[-*]\s+/m.test(part))
-    .length
+  const firstParagraph = paragraphs[0] || ""
+  const paragraphCount = paragraphs.length
   if (paragraphCount < 10) issues.push(`too-few-paragraphs:${paragraphCount}`)
+  if (!hasSentenceEnd(firstParagraph, prompt.locale) || endsWithWeakConnector(firstParagraph, prompt.locale)) issues.push("intro-paragraph-incomplete")
   const duplicateH2 = duplicateMarkdownHeadings(body, 2)
   if (duplicateH2 > 0) issues.push(`duplicate-h2:${duplicateH2}`)
 
   if (issues.length === 0) return { score: 100, issues }
-  if (issues.some((s) => s.startsWith("tech-leak") || s === "json-wrapper-in-public-text" || s.startsWith("duplicate-h2") || s.startsWith("too-few-paragraphs") || s === "locale-mismatch" || s === "body-not-chinese" || s === "body-not-english" || s === "json-parse-failed")) {
+  if (issues.some((s) => s.startsWith("tech-leak") || s === "json-wrapper-in-public-text" || s.startsWith("duplicate-h2") || s.startsWith("too-few-paragraphs") || s === "description-not-complete-sentence" || s === "intro-paragraph-incomplete" || s === "locale-mismatch" || s === "body-not-chinese" || s === "body-not-english" || s === "json-parse-failed")) {
     return { score: 0, issues }
   }
   // soft penalties
@@ -379,6 +435,7 @@ function articleMarkdown(prompt, result) {
   const canonicalPath = prompt.route
   const alternatePath = alternatePathFor(prompt.route)
   const translationKey = result.slug.replace(/^en-/, "")
+  const keywords = seoKeywordsForPrompt(prompt)
 
   const front = [
     "---",
@@ -390,6 +447,8 @@ function articleMarkdown(prompt, result) {
     `title: "${safeYaml(result.title)}"`,
     prompt.locale === "zh" ? `titleZh: "${safeYaml(result.title)}"` : "",
     `description: "${safeYaml(result.description)}"`,
+    `primaryKeyword: "${safeYaml(keywords.primaryKeyword)}"`,
+    `secondaryKeywords: "${safeYaml(keywords.secondaryKeywords.join("|"))}"`,
     `pageType: "city-topic"`,
     `aiQualityScore: ${result.score}`,
     `status: "${result.status}"`,

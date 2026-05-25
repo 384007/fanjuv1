@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/check-seo-ready-routes.mjs && node scripts/generate-sitemaps.mjs && node scripts/seo/validate-indexability.mjs && next build && node scripts/prune-cloudflare-static-export.mjs && node scripts/generate-static-og-images.mjs",
+    "build": "node scripts/check-seo-ready-routes.mjs && node scripts/generate-sitemaps.mjs && node scripts/seo/validate-indexability.mjs && next build && node scripts/prune-cloudflare-static-export.mjs && node scripts/seo/check-city-topic-pages.mjs && node scripts/generate-static-og-images.mjs",
     "start": "next start",
     "lint": "eslint .",
     "cf:build": "pnpm build",
@@ -59,6 +59,7 @@
     "seo:i18n:check": "node scripts/seo/check-i18n-coverage.mjs",
     "seo:locale:check": "node scripts/seo/check-locale-content.mjs",
     "seo:pages:check": "node scripts/seo/check-built-pages.mjs",
+    "seo:city-topic:check": "node scripts/seo/check-city-topic-pages.mjs",
     "seo:serve:export": "node scripts/seo/serve-export-clean-urls.mjs",
     "seo:exported-pages:check": "node scripts/seo/check-exported-sitemap-pages.mjs",
     "seo:browser:sitemap": "node scripts/seo/check-sitemap-headless-chrome.mjs",

@@ -24,7 +24,7 @@ export function hreflangAlternates(currentPath: string) {
   return {
     canonical: canonicalUrl(currentPath),
     languages: {
-      "zh": canonicalUrl(zhPath),
+      "zh-CN": canonicalUrl(zhPath),
       "en": canonicalUrl(enPath),
       "x-default": canonicalUrl(enPath),
     },

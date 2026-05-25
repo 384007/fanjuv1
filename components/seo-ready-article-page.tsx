@@ -341,12 +341,6 @@ function guideTitle(route: RouteContext, isEn: boolean) {
   return isEn ? `${route.city} ${route.topic.en} Guide` : `${route.city}${route.topic.zh}指南`
 }
 
-function answerSummary(route: RouteContext, isEn: boolean) {
-  return isEn
-    ? `Fanju app is a social dining app for meeting people through small, clearly described meals instead of swipe feeds or noisy group chats. This ${route.city} ${route.topic.en} guide explains who the page is for, how to join a table, what safety and trust signals to review, and how Fanju keeps the focus on real-world dinner plans.`
-    : `饭局app（Fanju）是一个围绕线下小桌吃饭建立连接的社交应用，帮助用户在${route.city}找到主题明确、人数较小、预期清楚的${route.topic.joinZh}。它不是刷脸匹配或群聊灌水工具，这页会说明谁适合参加、怎样报名、如何判断主理人和同桌信息，以及怎样把安全边界说清楚。`
-}
-
 function sourceParagraphs(blocks: Block[], isEn: boolean) {
   const min = isEn ? 90 : 35
   const seen = new Set<string>()
@@ -439,20 +433,193 @@ function summaryDuplicatesParagraph(summary = "", paragraph = "") {
   return a === b || b.startsWith(a) || a.startsWith(b) || a.slice(0, probe) === b.slice(0, probe)
 }
 
+function hasSentenceEnd(value = "", isEn: boolean) {
+  return isEn ? /[.!?]["')\]]?$/.test(value.trim()) : /[。！？]["')\]]?$/.test(value.trim())
+}
+
+function normalizeSentenceText(value = "") {
+  return cleanArticleText(value).replace(/\s+/g, " ").trim()
+}
+
+function trimToCompleteSentence(value = "", isEn: boolean, max = isEn ? 220 : 120) {
+  const cleaned = normalizeSentenceText(value)
+  if (!cleaned) return ""
+  const sentencePattern = isEn ? /[^.!?]+[.!?]["')\]]?/g : /[^。！？]+[。！？]["')\]]?/g
+  const sentences = cleaned.match(sentencePattern)?.map((s) => s.trim()).filter(Boolean) || []
+  let out = ""
+  for (const sentence of sentences) {
+    const next = out ? `${out} ${sentence}` : sentence
+    if (next.length > max && out) break
+    if (next.length > max) return sentence.length <= max ? sentence : ""
+    out = next
+  }
+  if (out && hasSentenceEnd(out, isEn)) return out
+  return cleaned.length <= max && hasSentenceEnd(cleaned, isEn) ? cleaned : ""
+}
+
+function topicKeywordBase(route: RouteContext) {
+  return route.topic.en.replace(/\s+dinner$/i, "").trim() || route.topic.en
+}
+
+function topicKeywordBaseZh(route: RouteContext) {
+  return route.topic.joinZh.replace(/饭局$/, "").trim() || route.topic.joinZh
+}
+
+function keywordProfile(route: RouteContext, isEn: boolean, article?: SeoReadyArticle) {
+  if (isEn) {
+    const topicBase = topicKeywordBase(route)
+    const primaryKeyword = article?.primaryKeyword || `${route.city} ${topicBase} Dinner`
+    const secondaryKeywords = article?.secondaryKeywords?.length
+      ? article.secondaryKeywords
+      : [
+          `${route.city} social dining`,
+          `${topicBase} dinner group`,
+          "dinner buddy app",
+          "Fanju app",
+          `small-table dinner in ${route.city}`,
+        ]
+    return { primaryKeyword, secondaryKeywords, topicBase }
+  }
+
+  const topicBase = topicKeywordBaseZh(route)
+  const primaryKeyword = article?.primaryKeyword || `${route.city}${topicBase}饭局`
+  const secondaryKeywords = article?.secondaryKeywords?.length
+    ? article.secondaryKeywords
+    : [
+        `${route.city}饭搭子`,
+        `${route.city}同城饭局`,
+        `${topicBase}饭局`,
+        "饭局app",
+        "Fanju饭局",
+      ]
+  return { primaryKeyword, secondaryKeywords, topicBase }
+}
+
+function includesText(value = "", needle = "") {
+  return value.toLowerCase().includes(needle.toLowerCase())
+}
+
+function withPrimaryKeyword(value = "", primaryKeyword = "") {
+  const cleaned = normalizeSentenceText(value)
+  if (!primaryKeyword || includesText(cleaned, primaryKeyword)) return cleaned
+  return `${primaryKeyword}: ${cleaned}`
+}
+
+function directAnswerSummary(route: RouteContext, isEn: boolean, article?: SeoReadyArticle) {
+  const keywords = keywordProfile(route, isEn, article)
+  return isEn
+    ? `${keywords.primaryKeyword} is a Fanju app page for choosing a small-table dinner in ${route.city}: Fanju is a social dining app for clearly described meals, not a dating app or random group chat. Use this guide to compare the host note, venue rhythm, guest mix, and local fit before joining.`
+    : `${keywords.primaryKeyword}这页直接说明：饭局app / Fanju饭局是围绕小桌吃饭、清晰主题和线下见面的社交应用，不是婚恋 App，也不是随机群聊。你可以先看${route.city}饭搭子、${route.city}同城饭局、主理人说明和同桌预期，再判断这桌${keywords.topicBase}饭局是否适合参加。`
+}
+
+function routeMetaDescription(route: RouteContext, isEn: boolean, article?: SeoReadyArticle) {
+  const keywords = keywordProfile(route, isEn, article)
+  const value = isEn
+    ? `${keywords.primaryKeyword} on Fanju app helps people compare ${keywords.secondaryKeywords[0]}, ${keywords.secondaryKeywords[1]}, and ${keywords.secondaryKeywords[4]} before choosing a real dinner table.`
+    : `${keywords.primaryKeyword}页面说明${keywords.secondaryKeywords[0]}、${keywords.secondaryKeywords[1]}和${keywords.secondaryKeywords[2]}如何通过${keywords.secondaryKeywords[3]}与${keywords.secondaryKeywords[4]}先看清主题、主理人与同桌预期。`
+  return trimToCompleteSentence(value, isEn, isEn ? 220 : 120) || value
+}
+
+function pageDescription(article: SeoReadyArticle, route: RouteContext, isEn: boolean, fallback = "") {
+  if (route.citySlug && route.topicSlug) return routeMetaDescription(route, isEn, article)
+  return trimToCompleteSentence(article.description || fallback, isEn) || directAnswerSummary(route, isEn, article)
+}
+
+function publishedDate(article: SeoReadyArticle) {
+  const run = article.publishedRunId || ""
+  const match = run.match(/(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z/)
+  if (match) {
+    const [, year, month, day, hour, minute, second] = match
+    return `${year}-${month}-${day}T${hour}:${minute}:${second}.000Z`
+  }
+  return "2026-05-11T00:00:00+08:00"
+}
+
+function cityTopicBreadcrumbs(route: RouteContext, currentPath: string, isEn: boolean, currentTitle: string) {
+  const cityHref = route.citySlug ? `${isEn ? "/en" : ""}/city/${route.citySlug}` : (isEn ? "/en/cities" : "/cities")
+  const safeCityHref = isSafeInternalHref(cityHref) ? cityHref : (isEn ? "/en/cities" : "/cities")
+  return isEn
+    ? [
+        { label: "Home", href: "/" },
+        { label: "Cities", href: "/en/cities" },
+        { label: route.city, href: safeCityHref },
+        { label: currentTitle, href: currentPath },
+      ]
+    : [
+        { label: "首页", href: "/" },
+        { label: "城市", href: "/cities" },
+        { label: route.city, href: safeCityHref },
+        { label: currentTitle, href: currentPath },
+      ]
+}
+
+function articleSchemaGraph(article: SeoReadyArticle, route: RouteContext, currentPath: string, headline: string, description: string, isEn: boolean) {
+  const url = `${SITE_URL}${currentPath}`
+  const date = publishedDate(article)
+  const breadcrumbs = cityTopicBreadcrumbs(route, currentPath, isEn, headline)
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${SITE_URL}/#organization`,
+        name: "Fanju",
+        alternateName: ["饭局", "饭局app", "Fanju app"],
+        url: SITE_URL,
+        logo: `${SITE_URL}/icon-512.png`,
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${SITE_URL}/#website`,
+        name: "Fanju",
+        url: SITE_URL,
+        publisher: { "@id": `${SITE_URL}/#organization` },
+        inLanguage: ["zh-CN", "en"],
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${url}#breadcrumb`,
+        itemListElement: breadcrumbs.map((item, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: item.label,
+          item: `${SITE_URL}${item.href}`,
+        })),
+      },
+      {
+        "@type": "Article",
+        "@id": `${url}#article`,
+        headline,
+        description,
+        datePublished: date,
+        dateModified: date,
+        author: { "@id": `${SITE_URL}/#organization` },
+        publisher: { "@id": `${SITE_URL}/#organization` },
+        mainEntityOfPage: { "@type": "WebPage", "@id": url },
+        url,
+        image: `${url}/opengraph-image`,
+        inLanguage: isEn ? "en" : "zh-CN",
+        articleSection: isEn ? route.topic.en : route.topic.zh,
+      },
+    ],
+  }
+}
+
 function faqItems(route: RouteContext, isEn: boolean) {
+  const keywords = keywordProfile(route, isEn)
   if (isEn) {
     return [
-      [`What is Fanju app in ${route.city}?`, `Fanju app is a social dining app that helps people in ${route.city} meet through small, clearly described meals, including ${route.topic.en.toLowerCase()} tables.`],
-      [`Who should consider a ${route.topic.en.toLowerCase()}?`, "It suits people who want an offline meal with a clear theme, a readable host intent, and a guest mix that feels more specific than a broad meetup or group chat."],
-      ["Is Fanju a dating app?", "Fanju can be social, but the page is dinner-first rather than swipe-first: the table plan, venue, topic, and expectations matter more than profile browsing."],
-      ["How can I make a safer decision before joining?", "Choose public venues, read the host and table description carefully, confirm time and cost expectations, and avoid plans that are vague or uncomfortable."],
+      [`What is ${keywords.primaryKeyword}?`, `${keywords.primaryKeyword} is a Fanju app page for comparing ${keywords.secondaryKeywords[0]} options through a real small-table dinner in ${route.city}. It starts with the table plan, not profile swiping.`],
+      [`Who should consider a ${keywords.secondaryKeywords[1]}?`, `It suits people who want an offline meal with a clear theme, a readable host intent, and a guest mix that feels more specific than a broad meetup or group chat.`],
+      ["Is Fanju a dating app?", `No. Fanju app can be social, but the dinner-first format is closer to a dinner buddy app for small meals than to swipe-first dating.`],
+      ["How can I make a safer decision before joining?", `Choose public venues, read the host and table description carefully, confirm time and cost expectations, and check whether the listing is specific enough for a ${keywords.secondaryKeywords[4]}.`],
     ] as const
   }
   return [
-    [`在${route.city}使用饭局app 是什么体验？`, `饭局app 会把${route.city}${route.topic.joinZh}的主题、主理人、场地、人数和预期先说明清楚，让用户在报名之前判断这桌饭是否适合自己。`],
-    [`谁适合参加${route.topic.joinZh}？`, "适合想通过线下吃饭认识同频同桌、同行、本地朋友或主理人的用户，尤其适合不想只靠刷资料和群聊推进社交的人。"],
-    ["饭局app 是约会软件吗？", "Fanju / 饭局app 可以承载社交关系，但页面重点是饭局优先：先看主题、餐厅、主理人和同桌预期，而不是先做滑动匹配。"],
-    ["参加前怎样判断更安全？", "优先看公共场所、时间、费用、退出边界和主理人说明是否清楚；如果信息含糊，先提问或暂时不参加。"],
+    [`${keywords.primaryKeyword}是什么？`, `${keywords.primaryKeyword}会把主题、主理人、场地、人数和预期先说明清楚，让用户在报名之前判断这桌饭是否适合自己。`],
+    [`谁适合找${keywords.secondaryKeywords[0]}？`, `适合想通过线下吃饭认识同频同桌、本地朋友或主理人的用户，也适合正在比较${keywords.secondaryKeywords[1]}的人。`],
+    ["饭局app 是约会软件吗？", `不是。${keywords.secondaryKeywords[3]}和${keywords.secondaryKeywords[4]}强调饭局优先：先看主题、餐厅、主理人和同桌预期，而不是先做滑动匹配。`],
+    ["参加前怎样判断更安全？", `优先看公共场所、时间、费用、退出边界和主理人说明是否清楚；如果${keywords.secondaryKeywords[2]}信息含糊，先提问或暂时不参加。`],
   ] as const
 }
 
@@ -573,58 +740,22 @@ function GeneratedSeoArticlePage({
 }) {
   const generated = article.generatedArticle!
   const isEn = generated.language === "en"
+  const route = routeContext(currentPath, article, isEn)
+  const keywords = keywordProfile(route, isEn, article)
   const links = generatedLinks(generated)
   const alternatePath = getAlternatePath(currentPath)
-  const title = generated.h1 || generated.title
-  const summary = generated.directAnswer || generated.excerpt || generated.metaDescription || ""
-  const ogImage = `${SITE_URL}${currentPath}/opengraph-image`
-  const breadcrumbs = generated.breadcrumbs?.filter((item) => isSafeInternalHref(item.url) || item.url === currentPath) || [
-    { label: isEn ? "Fanju" : "饭局 Fanju", url: "/" },
-    { label: title, url: currentPath },
-  ]
-
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": `${SITE_URL}/#organization`,
-        name: "Fanju",
-        alternateName: ["饭局", "饭局app", "Fanju app"],
-        url: SITE_URL,
-      },
-      {
-        "@type": "Article",
-        "@id": `${SITE_URL}${currentPath}#article`,
-        headline: generated.metaTitle || title,
-        description: generated.metaDescription || summary,
-        url: `${SITE_URL}${currentPath}`,
-        image: ogImage,
-        inLanguage: isEn ? "en" : "zh-CN",
-        mainEntityOfPage: `${SITE_URL}${currentPath}`,
-        articleSection: generated.articleType || "Fanju guide",
-        publisher: { "@id": `${SITE_URL}/#organization` },
-      },
-      {
-        "@type": "FAQPage",
-        "@id": `${SITE_URL}${currentPath}#faq`,
-        mainEntity: (generated.faq || []).map((item) => ({
-          "@type": "Question",
-          name: item.question,
-          acceptedAnswer: { "@type": "Answer", text: item.answer },
-        })),
-      },
-      {
-        "@type": "BreadcrumbList",
-        itemListElement: breadcrumbs.map((item, index) => ({
-          "@type": "ListItem",
-          position: index + 1,
-          name: item.label,
-          item: `${SITE_URL}${item.url}`,
-        })),
-      },
-    ],
-  }
+  const title = withPrimaryKeyword(generated.h1 || generated.title, keywords.primaryKeyword)
+  const summary = directAnswerSummary(route, isEn, article)
+  const description = pageDescription(article, route, isEn, generated.metaDescription || generated.excerpt || generated.directAnswer || "")
+  const breadcrumbs = cityTopicBreadcrumbs(route, currentPath, isEn, title)
+  const jsonLd = articleSchemaGraph(
+    article,
+    route,
+    currentPath,
+    generated.metaTitle ? withPrimaryKeyword(generated.metaTitle, keywords.primaryKeyword) : title,
+    description,
+    isEn,
+  )
 
   const facts = [
     [isEn ? "Topic" : "主题", generated.entitySummary?.topic],
@@ -641,10 +772,10 @@ function GeneratedSeoArticlePage({
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-4 py-2 md:px-8">
           <ol className="flex flex-wrap items-center gap-1 font-mono text-[10px] tracking-[0.18em] text-muted-foreground uppercase">
             {breadcrumbs.map((crumb, i) => (
-              <li key={crumb.url} className="flex items-center gap-1">
+              <li key={crumb.href} className="flex items-center gap-1">
                 {i > 0 && <span aria-hidden>/</span>}
                 {i < breadcrumbs.length - 1 ? (
-                  <Link href={crumb.url} className="transition-colors hover:text-accent">{crumb.label}</Link>
+                  <Link href={crumb.href} className="transition-colors hover:text-accent">{crumb.label}</Link>
                 ) : (
                   <span className="text-foreground">{crumb.label}</span>
                 )}
@@ -670,6 +801,10 @@ function GeneratedSeoArticlePage({
               <p className="m-0 text-sm leading-relaxed text-muted-foreground md:text-base">{summary}</p>
             </div>
           )}
+          <section id="direct-answer">
+            <h2 className="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">{keywords.primaryKeyword} overview</h2>
+            <p className="mb-4 text-sm leading-relaxed text-muted-foreground md:text-base">{description}</p>
+          </section>
           {facts.length > 0 && (
             <ul className="key-points mt-6 grid gap-3 p-0">
               {facts.map(([label, value]) => (
@@ -750,56 +885,21 @@ function SourceMarkdownArticlePage({
 }) {
   const isEn = currentPath.startsWith("/en/")
   const alternatePath = getAlternatePath(currentPath)
-  const canonical = `${SITE_URL}${currentPath}`
-  const ogImage = `${canonical}/opengraph-image`
   const blocks = sourceBlocksForArticle(article)
   const firstH1 = blocks.find((block): block is { type: "h1"; text: string } => block.type === "h1")?.text
-  const title = firstH1 || article.title
+  const route = routeContext(currentPath, article, isEn)
+  const keywords = keywordProfile(route, isEn, article)
+  const title = withPrimaryKeyword(firstH1 || article.title, keywords.primaryKeyword)
   const sourceParagraphs = sourceParagraphsForArticle(article, isEn)
   const introParagraph = sourceParagraphs[0] || ""
-  const description = article.description || ""
-  const summary = description || introParagraph
+  const description = pageDescription(article, route, isEn, introParagraph)
+  const summary = directAnswerSummary(route, isEn, article)
   const summaryDuplicateParagraphIndexes = sourceParagraphs
     .map((paragraph, index) => summaryDuplicatesParagraph(summary, paragraph) ? index : -1)
     .filter((index) => index >= 0)
   const links = safeLinksForArticle(currentPath, article)
-  const breadcrumbs = [
-    { label: isEn ? "Fanju" : "饭局 Fanju", href: "/" },
-    { label: title, href: currentPath },
-  ]
-
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": `${SITE_URL}/#organization`,
-        name: "Fanju",
-        alternateName: ["饭局", "饭局app", "Fanju app"],
-        url: SITE_URL,
-      },
-      {
-        "@type": "Article",
-        "@id": `${canonical}#article`,
-        headline: title,
-        description: summary,
-        url: canonical,
-        image: ogImage,
-        inLanguage: isEn ? "en" : "zh-CN",
-        mainEntityOfPage: canonical,
-        publisher: { "@id": `${SITE_URL}/#organization` },
-      },
-      {
-        "@type": "BreadcrumbList",
-        itemListElement: breadcrumbs.map((item, index) => ({
-          "@type": "ListItem",
-          position: index + 1,
-          name: item.label,
-          item: `${SITE_URL}${item.href}`,
-        })),
-      },
-    ],
-  }
+  const breadcrumbs = cityTopicBreadcrumbs(route, currentPath, isEn, title)
+  const jsonLd = articleSchemaGraph(article, route, currentPath, title, description, isEn)
 
   return (
     <main className="min-h-screen bg-background text-foreground" lang={isEn ? "en" : "zh-CN"}>
@@ -839,6 +939,10 @@ function SourceMarkdownArticlePage({
               <p className="m-0 text-sm leading-relaxed text-muted-foreground md:text-base">{summary}</p>
             </div>
           )}
+          <section id="direct-answer">
+            <h2 className="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">{keywords.primaryKeyword} overview</h2>
+            <p className="mb-4 text-sm leading-relaxed text-muted-foreground md:text-base">{description}</p>
+          </section>
           <RenderBlocks blocks={blocks} skipFirstH1 skipParagraphIndexes={summaryDuplicateParagraphIndexes} />
         </article>
 
@@ -893,91 +997,20 @@ export function SeoReadyArticlePage({ article, currentPath, hasAlternateArticle 
   // This ensures fallback pages show the correct UI language.
   const isEn = currentPath.startsWith("/en/")
   const alternatePath = getAlternatePath(currentPath)
-  const canonicalUrl = `${SITE_URL}${currentPath}`
-  const ogImage = `${canonicalUrl}/opengraph-image`
   const route = routeContext(currentPath, article, isEn)
-  const title = guideTitle(route, isEn)
-  const summary = answerSummary(route, isEn)
+  const keywords = keywordProfile(route, isEn, article)
+  const title = withPrimaryKeyword(guideTitle(route, isEn), keywords.primaryKeyword)
+  const summary = directAnswerSummary(route, isEn, article)
+  const description = pageDescription(article, route, isEn, summary)
   const faq = faqItems(route, isEn)
   const links = safeLinksForArticle(currentPath, article)
   const source = sourceParagraphsForArticle(article, isEn)
-  const cityHubPath = route.citySlug ? `${isEn ? "/en" : ""}/city/${route.citySlug}` : (isEn ? "/en/cities" : "/cities")
-  const safeCityHubPath = isSafeInternalHref(cityHubPath) ? cityHubPath : (isEn ? "/en/cities" : "/cities")
-
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": `${SITE_URL}/#organization`,
-        name: "Fanju",
-        alternateName: ["饭局", "饭局app", "Fanju app"],
-        url: SITE_URL,
-        logo: `${SITE_URL}/icon-512.png`,
-      },
-      {
-        "@type": "WebSite",
-        "@id": `${SITE_URL}/#website`,
-        name: "Fanju",
-        url: SITE_URL,
-        publisher: { "@id": `${SITE_URL}/#organization` },
-        inLanguage: ["zh-CN", "en"],
-      },
-      {
-        "@type": "MobileApplication",
-        "@id": `${SITE_URL}/#mobile-application`,
-        name: "Fanju app",
-        alternateName: "饭局app",
-        applicationCategory: "SocialNetworkingApplication",
-        operatingSystem: "iOS, Android",
-        url: SITE_URL,
-        publisher: { "@id": `${SITE_URL}/#organization` },
-      },
-      {
-        "@type": "Article",
-        "@id": `${canonicalUrl}#article`,
-        headline: title,
-        description: summary,
-        url: canonicalUrl,
-        image: ogImage,
-        inLanguage: isEn ? "en" : "zh-CN",
-        mainEntityOfPage: canonicalUrl,
-        articleSection: route.topic.en,
-        publisher: { "@id": `${SITE_URL}/#organization` },
-      },
-      {
-        "@type": "FAQPage",
-        "@id": `${canonicalUrl}#faq`,
-        mainEntity: faq.map(([question, answer]) => ({
-          "@type": "Question",
-          name: question,
-          acceptedAnswer: { "@type": "Answer", text: answer },
-        })),
-      },
-    ],
-  }
-
-  const breadcrumbs = [
-    { label: isEn ? "Fanju" : "饭局 Fanju", href: "/" },
-    { label: route.city, href: safeCityHubPath },
-    { label: title, href: currentPath },
-  ]
-
-  const breadcrumbJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: breadcrumbs.map((b, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: b.label,
-      item: `${SITE_URL}${b.href}`,
-    })),
-  }
+  const breadcrumbs = cityTopicBreadcrumbs(route, currentPath, isEn, title)
+  const jsonLd = articleSchemaGraph(article, route, currentPath, title, description, isEn)
 
   return (
     <main className="min-h-screen bg-background text-foreground" lang={isEn ? "en" : "zh-CN"}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <SiteHeader />
 
       {/* Breadcrumb + language toggle */}
@@ -1014,6 +1047,10 @@ export function SeoReadyArticlePage({ article, currentPath, hasAlternateArticle 
           <div className="answer-summary border-l-4 border-accent bg-card/40 px-4 py-4 mb-5">
             <p className="text-sm leading-relaxed text-muted-foreground md:text-base m-0">{summary}</p>
           </div>
+          <section id="direct-answer">
+            <h2 className="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">{keywords.primaryKeyword} overview</h2>
+            <p className="mb-4 text-sm leading-relaxed text-muted-foreground md:text-base">{description}</p>
+          </section>
           <KeyPoints route={route} isEn={isEn} />
           <StandardArticleSections route={route} isEn={isEn} source={source} />
           <section id="faq">
@@ -1066,44 +1103,50 @@ export function SeoReadyArticlePage({ article, currentPath, hasAlternateArticle 
  * @param currentPath  The actual URL path (determines canonical + hreflang).
  * @param hasAlternate  Whether a dedicated ready article exists for the alternate language.
  */
-export function seoReadyArticleMetadata(article: SeoReadyArticle, currentPath: string, hasAlternate = false) {
+export function seoReadyArticleMetadata(article: SeoReadyArticle, currentPath: string, _hasAlternate = false) {
   const pageUrl = canonicalUrl(currentPath)
   const ogImage = `${pageUrl}/opengraph-image`
 
   if (article.generatedArticle) {
     const generated = article.generatedArticle
-    const alternates = hasAlternate ? hreflangAlternates(currentPath) : { canonical: canonicalUrl(currentPath) }
+    const isEn = generated.language === "en"
+    const route = routeContext(currentPath, article, isEn)
+    const keywords = keywordProfile(route, isEn, article)
+    const title = withPrimaryKeyword(generated.metaTitle || generated.title, keywords.primaryKeyword)
+    const description = pageDescription(article, route, isEn, generated.metaDescription || generated.excerpt || generated.directAnswer || "")
     return {
-      title: generated.metaTitle || generated.title,
-      description: generated.metaDescription || generated.excerpt || generated.directAnswer,
-      alternates,
+      title,
+      description,
+      alternates: hreflangAlternates(currentPath),
       robots: { index: generated.robots === "index,follow", follow: true },
       openGraph: {
-        title: generated.metaTitle || generated.title,
-        description: generated.metaDescription || generated.excerpt || generated.directAnswer,
+        title,
+        description,
         url: pageUrl,
         type: "article" as const,
-        images: [{ url: ogImage, width: 1200, height: 630, alt: generated.h1 || generated.title }],
+        images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
       },
       twitter: {
         card: "summary_large_image" as const,
-        title: generated.metaTitle || generated.title,
-        description: generated.metaDescription || generated.excerpt || generated.directAnswer,
+        title,
+        description,
         images: [ogImage],
       },
     }
   }
 
   if (article.renderMode === "source") {
+    const isEn = currentPath.startsWith("/en/")
+    const route = routeContext(currentPath, article, isEn)
+    const keywords = keywordProfile(route, isEn, article)
     const blocks = sourceBlocksForArticle(article)
     const firstH1 = blocks.find((block): block is { type: "h1"; text: string } => block.type === "h1")?.text
-    const title = firstH1 || article.title
-    const description = article.description || sourceParagraphsForArticle(article, currentPath.startsWith("/en/"))[0]
-    const alternates = hasAlternate ? hreflangAlternates(currentPath) : { canonical: canonicalUrl(currentPath) }
+    const title = withPrimaryKeyword(firstH1 || article.title, keywords.primaryKeyword)
+    const description = pageDescription(article, route, isEn, sourceParagraphsForArticle(article, isEn)[0])
     return {
       title,
       description,
-      alternates,
+      alternates: hreflangAlternates(currentPath),
       openGraph: {
         title,
         description,
@@ -1122,15 +1165,14 @@ export function seoReadyArticleMetadata(article: SeoReadyArticle, currentPath: s
 
   const isEn = currentPath.startsWith("/en/")
   const route = routeContext(currentPath, article, isEn)
-  const title = guideTitle(route, isEn)
-  const description = answerSummary(route, isEn)
-
-  const alternates = hasAlternate ? hreflangAlternates(currentPath) : { canonical: canonicalUrl(currentPath) }
+  const keywords = keywordProfile(route, isEn, article)
+  const title = withPrimaryKeyword(guideTitle(route, isEn), keywords.primaryKeyword)
+  const description = pageDescription(article, route, isEn, directAnswerSummary(route, isEn, article))
 
   return {
     title,
     description,
-    alternates,
+    alternates: hreflangAlternates(currentPath),
     openGraph: {
       title,
       description,
