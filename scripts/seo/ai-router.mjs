@@ -1,6 +1,7 @@
 const DEFAULT_ORDER = "aion,aion2,aion3,aion4,aion5,aion6,aion7,aion8,aion9,aion10,cerebras,cerebras2,cerebras3,cerebras4,groq,groq2,gemini,gemini2,openrouter,nvidia,nvidia2,cloudflare"
 const AION_DEFAULT_MODEL = "aion-labs/aion-rp-llama-3.1-8b"
 const providerCooldownUntil = new Map()
+const providerLocks = new Map()
 
 // Multi-key support: GROQ_API_KEY, GROQ_API_KEY_2, GROQ_API_KEY_3, ...
 // Same pattern for CEREBRAS_API_KEY, NVIDIA_API_KEY
@@ -24,9 +25,31 @@ function isAionProvider(provider) {
 }
 
 function aionKeyIndex(provider) {
-  if (provider === "aion") return null
+  if (provider === "aion") return process.env.ASSIGN_PROVIDER_PER_CITY === "1" ? 0 : null
   const match = provider.match(/^aion([2-9]|10)$/)
   return match ? Number.parseInt(match[1], 10) - 1 : undefined
+}
+
+function providerMutexEnabled() {
+  return process.env.AI_PROVIDER_MUTEX !== "0"
+}
+
+async function withProviderLock(provider, task) {
+  if (!providerMutexEnabled()) return task()
+  const previous = providerLocks.get(provider) || Promise.resolve()
+  let release
+  const current = new Promise((resolve) => {
+    release = resolve
+  })
+  const chained = previous.then(() => current, () => current)
+  providerLocks.set(provider, chained)
+  await previous.catch(() => {})
+  try {
+    return await task()
+  } finally {
+    release()
+    if (providerLocks.get(provider) === chained) providerLocks.delete(provider)
+  }
 }
 
 // Log key counts at startup
@@ -234,7 +257,8 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
 
   if (provider === "groq") {
     const keys = getProviderKeys("GROQ_API_KEY")
-    for (const i of rotatingKeyIndexes("groq", keys.length)) {
+    const indexes = process.env.ASSIGN_PROVIDER_PER_CITY === "1" ? [0] : rotatingKeyIndexes("groq", keys.length)
+    for (const i of indexes) {
       if ((keyCooldownUntil.get(`groq:${i}`) || 0) > Date.now()) continue
       try {
         return await callOpenAICompat({
@@ -272,7 +296,8 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
 
   if (provider === "cerebras") {
     const keys = getProviderKeys("CEREBRAS_API_KEY")
-    for (const i of rotatingKeyIndexes("cerebras", keys.length)) {
+    const indexes = process.env.ASSIGN_PROVIDER_PER_CITY === "1" ? [0] : rotatingKeyIndexes("cerebras", keys.length)
+    for (const i of indexes) {
       if ((keyCooldownUntil.get(`cerebras:${i}`) || 0) > Date.now()) continue
       try {
         return await callOpenAICompat({
@@ -315,7 +340,8 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
 
   if (provider === "gemini") {
     const keys = getProviderKeys("GEMINI_API_KEY")
-    for (const i of rotatingKeyIndexes("gemini", keys.length)) {
+    const indexes = process.env.ASSIGN_PROVIDER_PER_CITY === "1" ? [0] : rotatingKeyIndexes("gemini", keys.length)
+    for (const i of indexes) {
       if ((keyCooldownUntil.get(`gemini:${i}`) || 0) > Date.now()) continue
       try {
         return await callOpenAICompat({
@@ -351,7 +377,8 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
 
   if (provider === "nvidia") {
     const keys = getProviderKeys("NVIDIA_API_KEY")
-    for (const i of rotatingKeyIndexes("nvidia", keys.length)) {
+    const indexes = process.env.ASSIGN_PROVIDER_PER_CITY === "1" ? [0] : rotatingKeyIndexes("nvidia", keys.length)
+    for (const i of indexes) {
       if ((keyCooldownUntil.get(`nvidia:${i}`) || 0) > Date.now()) continue
       try {
         return await callOpenAICompat({
@@ -438,7 +465,7 @@ export async function generateWithRouter({ prompt, system, maxTokens = 1200, tim
 
     try {
       console.log(`Trying provider: ${provider}`)
-      const content = await callProvider(provider, { prompt, system, maxTokens, timeoutMs })
+      const content = await withProviderLock(provider, () => callProvider(provider, { prompt, system, maxTokens, timeoutMs }))
 
       if (!content || content.length < 200) {
         throw new Error(`${provider}: empty or too short response`)

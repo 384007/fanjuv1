@@ -255,6 +255,13 @@ const TOPIC_LABELS: Record<string, { zh: string; en: string }> = {
   "newcomer-dinner": { zh: "新人饭局", en: "Newcomer Dinner" },
   "local-dinner": { zh: "同城饭局", en: "Local Dinner" },
   "high-quality-social-dining": { zh: "高质量饭局社交", en: "High-Quality Social Dining" },
+  "city-guide-dinner": { zh: "城市向导饭局", en: "City Guide Dinner" },
+  "diy-maker-dinner": { zh: "DIY 创客饭局", en: "DIY Maker Dinner" },
+  "fundraising-dinner": { zh: "公益筹款饭局", en: "Fundraising Dinner" },
+  "museum-lover-dinner": { zh: "博物馆爱好者饭局", en: "Museum Lover Dinner" },
+  "parenting-dinner": { zh: "亲子饭局", en: "Parenting Dinner" },
+  "peer-learning-dinner": { zh: "同伴学习饭局", en: "Peer Learning Dinner" },
+  "third-place-dinner": { zh: "第三空间饭局", en: "Third Place Dinner" },
   "designer-dinner": { zh: "设计师饭局", en: "Designer Dinner" },
   "industry-dinner": { zh: "行业饭局", en: "Industry Dinner" },
   "valentines-dinner": { zh: "情人节饭局", en: "Valentine's Dinner" },
@@ -521,6 +528,8 @@ function routeMetaDescription(route: RouteContext, isEn: boolean, article?: SeoR
 }
 
 function pageDescription(article: SeoReadyArticle, route: RouteContext, isEn: boolean, fallback = "") {
+  const articleDescription = trimToCompleteSentence(article.description || "", isEn, isEn ? 220 : 150)
+  if (articleDescription) return articleDescription
   if (route.citySlug && route.topicSlug) return routeMetaDescription(route, isEn, article)
   return trimToCompleteSentence(article.description || fallback, isEn) || directAnswerSummary(route, isEn, article)
 }

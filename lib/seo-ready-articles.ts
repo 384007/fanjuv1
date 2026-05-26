@@ -388,6 +388,23 @@ function titleCase(slug: string) {
     .join(" ")
 }
 
+const CITY_NAME_OVERRIDES: Record<string, { zh: string; en: string }> = {
+  "dezhou": { zh: "德州", en: "Dezhou" },
+  "hotan": { zh: "和田", en: "Hotan" },
+  "longyan": { zh: "龙岩", en: "Longyan" },
+  "yushu-qinghai": { zh: "青海玉树", en: "Yushu, Qinghai" },
+}
+
+const TOPIC_NAME_OVERRIDES: Record<string, { zh: string; en: string }> = {
+  "city-guide-dinner": { zh: "城市向导饭局", en: "City Guide Dinner" },
+  "diy-maker-dinner": { zh: "DIY 创客饭局", en: "DIY Maker Dinner" },
+  "fundraising-dinner": { zh: "公益筹款饭局", en: "Fundraising Dinner" },
+  "museum-lover-dinner": { zh: "博物馆爱好者饭局", en: "Museum Lover Dinner" },
+  "parenting-dinner": { zh: "亲子饭局", en: "Parenting Dinner" },
+  "peer-learning-dinner": { zh: "同伴学习饭局", en: "Peer Learning Dinner" },
+  "third-place-dinner": { zh: "第三空间饭局", en: "Third Place Dinner" },
+}
+
 function hasCjk(value = "") {
   return /[\u4e00-\u9fff]/.test(value)
 }
@@ -400,6 +417,8 @@ function articleLabel(article: SeoReadyArticle, path: string, lang: "zh" | "en")
 }
 
 export function localizedCityNameFromSlug(citySlug: string, lang: "zh" | "en") {
+  const override = CITY_NAME_OVERRIDES[citySlug]
+  if (override) return override[lang]
   const city = cities.find((item) => item.slug === citySlug)
   if (city) return lang === "en" ? city.nameEn : city.name
   const fromManifest = routeManifestCityName(citySlug, lang)
@@ -408,6 +427,8 @@ export function localizedCityNameFromSlug(citySlug: string, lang: "zh" | "en") {
 }
 
 export function localizedTopicNameFromSlug(topicSlug: string, lang: "zh" | "en") {
+  const override = TOPIC_NAME_OVERRIDES[topicSlug]
+  if (override) return override[lang]
   const category = categories.find((item) => item.slug === topicSlug)
   if (category) return lang === "en" ? category.nameEn : category.name
   const fromManifest = routeManifestTopicName(topicSlug, lang)

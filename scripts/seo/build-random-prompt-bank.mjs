@@ -538,6 +538,108 @@ function articleBriefFor(profile, frame) {
   }
 }
 
+const TARGET_ROUTE_SEEDS = {
+  "/city/xiamen/city-guide-dinner": {
+    localSignals: ["海边城市节奏", "岛内外生活差异", "思明 / 湖里 / 集美可轻量提及", "鼓浪屿轻量提及但不写成景点攻略", "周末咖啡馆", "海边散步后的晚饭", "大学周边", "游客和本地人之间的信息差"],
+    angle: "刚到厦门或想重新认识厦门的人，通过一顿城市向导饭局认识本地生活和同频的人；不是旅游攻略页。",
+  },
+  "/en/city/kolkata/peer-learning-dinner": {
+    localSignals: ["reading culture", "student and professional conversations", "neighbourhood cafés or casual restaurants", "learning through conversation at a dinner table"],
+    angle: "Kolkata peer-learning dinner should feel intellectual, warm, and discussion-led, not generic networking.",
+  },
+  "/city/dezhou/diy-maker-dinner": {
+    localSignals: ["山东德州", "德州扒鸡作为餐桌记忆轻提一次", "社区餐厅", "商圈", "周末手作", "熟人社会之外的兴趣连接", "项目 / 工具 / 材料 / 灵感交流"],
+    angle: "山东德州 DIY / 手作 / 创客兴趣的人，如何用小桌饭局找到能交流项目、材料、工具、灵感的人。",
+  },
+  "/en/city/budapest/business-dinner": {
+    localSignals: ["founders", "freelancers", "operators", "expats", "small table over loud conference", "trust before exchanging contacts", "cross-border city energy"],
+    angle: "Budapest business dinner should not sound like a corporate networking event.",
+  },
+  "/city/yushu-qinghai/dinner-buddy": {
+    localSignals: ["高原城市节奏", "熟人圈之外的新朋友", "晚饭", "周末", "公共餐厅", "距离、时间、天气和安全边界要提前说清楚"],
+    angle: "青海玉树找饭搭子，不显示 slug，重点是同城吃饭而不是泛泛社交。",
+  },
+  "/en/city/tehran/museum-lover-dinner": {
+    localSignals: ["art", "history", "museums", "heritage conversations", "public venue", "clear expectations", "avoid political commentary", "do not invent partnerships"],
+    angle: "Tehran museum-lover dinner should be careful, cultural, and conversation-led.",
+  },
+  "/city/hotan/fundraising-dinner": {
+    localSignals: ["新疆南疆生活节奏", "熟人信任", "公开说明的重要性", "主题透明", "费用说明", "不替代正规募捐合规流程", "不承诺筹款结果", "不制造道德压力"],
+    angle: "和田公益筹款饭局要谨慎，不能承诺筹款结果，不能编造公益项目、金额或机构。",
+  },
+  "/en/city/milan/museum-lover-dinner": {
+    localSignals: ["design", "art", "galleries", "after-museum dinner conversation", "design-minded locals", "newcomers", "travellers", "small table instead of tour group"],
+    angle: "Milan museum-lover dinner should lean into design, art, galleries, and culture without generic tourist copy.",
+  },
+  "/city/longyan/parenting-dinner": {
+    localSignals: ["福建龙岩", "社区餐厅", "周末家庭时间", "父母之间的真实经验交流", "不编造学校 / 机构 / 专家", "不做教育培训广告"],
+    angle: "龙岩亲子饭局不是育儿鸡汤；同城父母通过一顿饭交流孩子、学校、周末安排和家庭节奏，但不制造教育焦虑。",
+  },
+  "/en/city/las-vegas/third-place-dinner": {
+    localSignals: ["people who live or work in the city", "not only visitors", "a third place between home and work", "small dinner table as low-pressure social anchor", "public venue", "clear host", "clear cost", "avoid casino cliché"],
+    angle: "Las Vegas third-place dinner should avoid casino and tourist clichés.",
+  },
+}
+
+function targetKeywordGroupFor(profile) {
+  if (profile.locale === "en") {
+    return {
+      primaryKeyword: `${profile.cityNameLocalized} ${String(profile.topicNameLocalized || "").replace(/\s+dinner$/i, "").trim()} dinner`,
+      secondaryKeywords: ["social dining", "dinner buddy", "small-table dinner", "local dinner", "themed dinner", "Fanju app", "meet people over dinner"],
+      naturalMentions: ["Fanju app", "small-table social dining", "dinner buddy", "meet people over dinner"],
+      ChineseCoreConceptBridge: ["饭局", "饭搭子", "同城饭局"],
+    }
+  }
+  return {
+    primaryKeyword: `${profile.cityNameLocalized}${String(profile.topicNameLocalized || "").replace(/饭局$/, "").trim()}饭局`,
+    secondaryKeywords: ["饭局", "饭局 app", "同城饭局", "饭搭子", "小桌饭局", "主题饭局", "同频的人", "一顿饭，认识同频的人"],
+    naturalMentions: ["Fanju", "饭局", "同城饭局", "饭搭子", "小桌饭局", "同频的人"],
+    forbiddenKeywordStuffingPattern: ["饭局饭局", "同城同城饭局", "饭搭子饭搭子"],
+    coreEntityMention: "Fanju 是通过小桌饭局帮助用户认识同频的人的饭局 app。",
+  }
+}
+
+function seoClusterRoleFor(profile) {
+  const isEn = profile.locale === "en"
+  const prefix = isEn ? "/en" : ""
+  return {
+    pillarPageToSupport: isEn ? "/en/what-is-fanju" : "/what-is-fanju",
+    cityParentPage: `${prefix}/city/${profile.citySlug}`,
+    topicParentPage: `${prefix}/category/${profile.topicSlug}`,
+    relatedConceptPages: isEn
+      ? ["/social-dining", "/what-is-dinner-buddy", "/safety"]
+      : ["/what-is-fandazi", "/rules", "/safety"],
+    anchorIntent: isEn
+      ? "Support Fanju app as social dining, dinner buddy, small-table dinner, and meet-people-over-dinner entity."
+      : "支持饭局、饭搭子、同城饭局、小桌饭局和主题饭局主词集群。",
+    internalLinkPurpose: "Assign each article to one pillar page, one city parent, one topic parent, and supporting concept pages without forcing repeated public anchor text.",
+  }
+}
+
+function routeRoleFor(profile) {
+  return profile.locale === "en"
+    ? "English city-topic article supporting global Fanju app entity understanding."
+    : "中文城市主题长尾文章，服务饭局 / 饭搭子 / 同城饭局核心词权重。"
+}
+
+function researchInputFor(profile) {
+  return {
+    route: profile.route,
+    locale: profile.locale,
+    citySlug: profile.citySlug,
+    cityNameLocalized: profile.cityNameLocalized,
+    cityNameZh: profile.cityNameZh,
+    cityNameEn: profile.cityNameEn,
+    countryCode: profile.countryCode,
+    topicSlug: profile.topicSlug,
+    topicNameLocalized: profile.topicNameLocalized,
+    routeRole: routeRoleFor(profile),
+    seoClusterRole: seoClusterRoleFor(profile),
+    targetKeywordGroup: targetKeywordGroupFor(profile),
+    seedMaterial: TARGET_ROUTE_SEEDS[profile.route] || null,
+  }
+}
+
 function frameIndex(profile, salt, size) {
   return seedFromString(`${profile.citySlug}|${profile.topicSlug}|${profile.angle.id}|${profile.structure}|${profile.titlePattern}|${salt}`) % size
 }
@@ -576,39 +678,23 @@ function duplicateNormalizedHeadingTexts(headings) {
   return duplicates
 }
 
-function localizedHeadingIncludes(heading, value) {
-  const normalizedHeading = normalizeForTemplateCheck(heading)
-  const normalizedValue = normalizeForTemplateCheck(value)
-  return normalizedValue && normalizedHeading.includes(normalizedValue)
-}
-
 function preflightArticleFrame(profile, frame) {
   const routeLabel = `${profile.locale}:${profile.route}`
   if (!frame?.h1) {
     throw new Error(`Heading preflight failed for ${routeLabel}: missing H1`)
   }
-  if (!Array.isArray(frame.h2s) || frame.h2s.length !== 6) {
-    throw new Error(`Heading preflight failed for ${routeLabel}: expected exactly 6 H2 headings, got ${frame?.h2s?.length || 0}`)
+  if (!Array.isArray(frame.h2s) || frame.h2s.length < 4 || frame.h2s.length > 7) {
+    throw new Error(`Heading preflight failed for ${routeLabel}: expected 4-7 H2 headings, got ${frame?.h2s?.length || 0}`)
   }
 
-  const expectedDeepCount = frame.maxDepth - 2
-  if (!Array.isArray(frame.deepHeadings) || frame.deepHeadings.length !== expectedDeepCount) {
-    throw new Error(`Heading preflight failed for ${routeLabel}: expected H3-H${frame.maxDepth} deep headings, got ${frame?.deepHeadings?.length || 0}`)
+  if (!Array.isArray(frame.deepHeadings) || frame.deepHeadings.length > 4) {
+    throw new Error(`Heading preflight failed for ${routeLabel}: expected 0-4 H3 headings, got ${frame?.deepHeadings?.length || 0}`)
   }
-  for (let i = 0; i < expectedDeepCount; i++) {
-    const expectedLevel = i + 3
+  for (let i = 0; i < frame.deepHeadings.length; i++) {
     const actual = frame.deepHeadings[i]
-    if (!actual || actual.level !== expectedLevel) {
-      throw new Error(`Heading preflight failed for ${routeLabel}: deep headings must be consecutive H3-H${frame.maxDepth}; expected H${expectedLevel} at position ${i + 1}, got H${actual?.level || "(missing)"}`)
+    if (!actual || actual.level !== 3) {
+      throw new Error(`Heading preflight failed for ${routeLabel}: deeper headings must be H3 only; got H${actual?.level || "(missing)"}`)
     }
-  }
-
-  const badH2s = frame.h2s.filter((heading) =>
-    !localizedHeadingIncludes(heading, profile.cityNameLocalized) ||
-    !localizedHeadingIncludes(heading, profile.topicNameLocalized)
-  )
-  if (badH2s.length) {
-    throw new Error(`Heading preflight failed for ${routeLabel}: every H2 must include city="${profile.cityNameLocalized}" and topic="${profile.topicNameLocalized}". Bad H2: ${badH2s.slice(0, 3).join(" | ")}`)
   }
 
   const headings = [
@@ -689,8 +775,7 @@ function articleFrameFor(profile) {
   const topic = profile.topicNameLocalized
   const isEn = profile.locale === "en"
 
-  // Heading templates per level (H1-H7+), each embeds city+topic for global uniqueness.
-  // Level index 0 = H1, 1 = H2, ..., 6 = H7, 7 = H8, etc.
+  // Route-specific heading cues. Only H1, H2, and optional H3 are generated.
   const TEMPLATES_EN = [
     // H1 (14 variants)
     [
@@ -719,69 +804,6 @@ function articleFrameFor(profile) {
       `How do I tell a well-run ${city} ${topic} table from a random group dinner?`,
       `What happens if the conversation stalls at a ${city} ${topic} dinner?`,
       `Is it normal to feel nervous before the first ${city} ${topic} Fanju app dinner?`,
-    ],
-    // H4 (6 variants)
-    [
-      `The practical checklist before confirming a seat at a ${city} ${topic} table`,
-      `What to verify before the ${city} ${topic} dinner starts`,
-      `Three details worth checking before any ${city} ${topic} RSVP`,
-      `A short pre-dinner checklist for first-time ${city} ${topic} guests`,
-      `What experienced ${city} ${topic} diners look at before they confirm`,
-      `The details that separate a good ${city} ${topic} table from a risky one`,
-    ],
-    // H5 (6 variants)
-    [
-      `How the first ten minutes of a ${city} ${topic} table usually go`,
-      `What the opening of a well-run ${city} ${topic} dinner looks like`,
-      `The first exchange that tells you whether this ${city} ${topic} table is worth staying for`,
-      `Reading the room in the first few minutes at a ${city} ${topic} dinner`,
-      `What a confident host does in the first ten minutes at a ${city} ${topic} table`,
-      `The opening signal that separates a real ${city} ${topic} table from a random one`,
-    ],
-    // H6 (6 variants)
-    [
-      `A note on leaving early from a ${city} ${topic} dinner`,
-      `On the quiet right to leave any ${city} ${topic} table that does not feel right`,
-      `Why leaving early is always acceptable at a ${city} ${topic} dinner`,
-      `The exit option every ${city} ${topic} guest should know about`,
-      `Leaving on your own terms at a ${city} ${topic} dinner`,
-      `A short note on early exits and personal comfort at ${city} ${topic} tables`,
-    ],
-    // H7 (6 variants)
-    [
-      `One concrete next step after a good ${city} ${topic} dinner`,
-      `What to do the day after a ${city} ${topic} table`,
-      `The follow-up that keeps a ${city} ${topic} connection real`,
-      `After the ${city} ${topic} dinner: one action that matters`,
-      `How to turn one good ${city} ${topic} table into something that continues`,
-      `The only follow-up move worth making after a ${city} ${topic} dinner`,
-    ],
-    // H8 (6 variants)
-    [
-      `A brief note on repeat ${city} ${topic} tables and why they work differently`,
-      `What changes the second time you join a ${city} ${topic} dinner`,
-      `Why the second ${city} ${topic} table is easier than the first`,
-      `On returning to the same ${city} ${topic} table a second time`,
-      `What repeat ${city} ${topic} guests notice that first-timers miss`,
-      `The small shift that happens when you become a regular at ${city} ${topic} dinners`,
-    ],
-    // H9 (6 variants)
-    [
-      `A word on hosting your own ${city} ${topic} table through Fanju app`,
-      `What it takes to host a ${city} ${topic} dinner rather than just attend`,
-      `The difference between attending and hosting a ${city} ${topic} table`,
-      `On becoming a ${city} ${topic} host rather than a guest`,
-      `What new ${city} ${topic} hosts get wrong in the first session`,
-      `The one thing that makes a ${city} ${topic} host worth following`,
-    ],
-    // H10 (6 variants)
-    [
-      `Final thoughts on finding the right ${city} ${topic} table through Fanju app`,
-      `What the best ${city} ${topic} tables have in common`,
-      `A closing note on patience and the right ${city} ${topic} table`,
-      `Why the right ${city} ${topic} table is worth waiting for`,
-      `On not rushing the search for a good ${city} ${topic} dinner`,
-      `The long view on ${city} ${topic} social dining through Fanju app`,
     ],
   ]
 
@@ -814,74 +836,8 @@ function articleFrameFor(profile) {
       `${city}${topic}饭局聊天冷场了，这桌饭还能继续吗？`,
       `第一次参加${city}${topic}饭局app的饭局，紧张是正常的吗？`,
     ],
-    // H4 (6 variants)
-    [
-      `确认${city}${topic}饭局席位前的实用核查清单`,
-      `${city}${topic}饭局开始前要核实哪些细节`,
-      `报名${city}${topic}饭局前值得确认的三件事`,
-      `第一次参加${city}${topic}饭局的报名前检查`,
-      `有经验的${city}${topic}饭局参与者确认前会看什么`,
-      `区分${city}${topic}好饭局和有风险饭局的关键细节`,
-    ],
-    // H5 (6 variants)
-    [
-      `${city}${topic}饭局开场的前十分钟通常是什么样的`,
-      `一桌组织认真的${city}${topic}饭局开场是什么感觉`,
-      `${city}${topic}饭局开场的第一句话能告诉你这桌值不值得留下`,
-      `在${city}${topic}饭局开场几分钟内怎么读懂这桌的氛围`,
-      `一个靠谱的${city}${topic}主理人在开场十分钟内会做什么`,
-      `区分${city}${topic}真实饭局和随便凑桌的开场信号`,
-    ],
-    // H6 (6 variants)
-    [
-      `关于提前离开${city}${topic}饭局的一点说明`,
-      `在${city}${topic}饭局感觉不对时安静离开的权利`,
-      `为什么提前离开${city}${topic}饭局永远是可以的`,
-      `每个${city}${topic}饭局参与者都应该知道的退出选项`,
-      `在${city}${topic}饭局按自己的节奏离开`,
-      `关于${city}${topic}饭局提前离场和个人舒适感的简短说明`,
-    ],
-    // H7 (6 variants)
-    [
-      `一顿好的${city}${topic}饭局结束后的一个具体下一步`,
-      `${city}${topic}饭局结束后第二天该做什么`,
-      `让${city}${topic}饭局连接保持真实的后续动作`,
-      `${city}${topic}饭局结束后：一个真正重要的行动`,
-      `怎样把一桌好的${city}${topic}饭局变成可以延续的东西`,
-      `${city}${topic}饭局结束后唯一值得做的后续`,
-    ],
-    // H8 (6 variants)
-    [
-      `关于再次参加${city}${topic}饭局为什么和第一次不一样`,
-      `第二次参加${city}${topic}饭局会有什么变化`,
-      `为什么${city}${topic}饭局的第二次比第一次更容易`,
-      `再次回到同一桌${city}${topic}饭局是什么感觉`,
-      `${city}${topic}饭局的回头客会注意到新人看不到的东西`,
-      `成为${city}${topic}饭局常客后会发生的小变化`,
-    ],
-    // H9 (6 variants)
-    [
-      `关于通过饭局app自己组织${city}${topic}饭局的一点说明`,
-      `组织${city}${topic}饭局和参加饭局需要什么不同的准备`,
-      `在${city}做${topic}饭局主理人和做参与者的区别`,
-      `从${city}${topic}饭局参与者变成主理人是什么感觉`,
-      `新的${city}${topic}饭局主理人在第一场最容易犯的错`,
-      `让${city}${topic}饭局主理人值得被关注的那一件事`,
-    ],
-    // H10 (6 variants)
-    [
-      `关于通过饭局app找到对的${city}${topic}饭局的最后一点`,
-      `最好的${city}${topic}饭局有什么共同点`,
-      `关于耐心和找到对的${city}${topic}饭局的结语`,
-      `为什么对的${city}${topic}饭局值得等`,
-      `不要急着找${city}${topic}好饭局的理由`,
-      `通过饭局app做${city}${topic}社交饭局的长期视角`,
-    ],
   ]
   const TEMPLATES = isEn ? TEMPLATES_EN : TEMPLATES_ZH
-
-  // Determine max heading depth for this article: random 7-10, seeded deterministically
-  const maxDepth = 7 + (frameIndex(profile, "depth", 4)) // 7, 8, 9, or 10
 
   // H2 slot templates (same as before, 6 slots × 6 variants)
   const lens = isEn ? angleLensEn(profile.angle.id) : angleLensZh(profile.angle.id)
@@ -906,48 +862,55 @@ function articleFrameFor(profile) {
     [`选稳第一桌之后再谈下一次见面`,`${city}的第一顿饭要留下可复盘的余地`,`下一步不是冲动报名，而是选对这一桌`,`在${city}吃完一桌好饭，不急着约下一次才是对的节奏`,`一桌一桌来，是${city}${topic}饭局值得持续做的原因`,`带着一个真实连接离开${city}，比带走一堆联系方式更有价值`],
   ]
 
-  function headingHas(value, needle) {
-    const h = String(value || "").toLowerCase()
-    const n = String(needle || "").toLowerCase()
-    return n && h.includes(n)
-  }
-
   function cleanHeading(value) {
     const heading = String(value || "").trim()
-    if (isEn) return heading
+    if (isEn) {
+      return heading
+        .replace(/\bA guide to\b/gi, "A specific look at")
+        .replace(/\bDiscover city through dinner\b/gi, "Meet through dinner")
+        .replace(/\bWhat to check before joining\b/gi, "Signals worth reading before joining")
+        .replace(/\bHow to know this is not just another meetup\b/gi, "How the table shows its intent")
+        .replace(/\bThe one thing\b/gi, "One practical signal")
+        .replace(/\bA final note\b/gi, "A practical note")
+        .replace(/\bFinal thoughts\b/gi, "What the table should leave clear")
+    }
     return heading
       .replace(/饭局饭局/g, "饭局")
+      .replace(/同城同城饭局/g, "同城饭局")
+      .replace(/同城同城/g, "同城")
+      .replace(/饭搭子饭搭子/g, "饭搭子")
       .replace(/饭局app的饭局/g, "饭局app饭局")
+      .replace(/你是否曾经/g, "报名前")
+      .replace(/在这座城市，无论是初来乍到还是久居于此/g, "在这座城市")
+      .replace(/饭局app先把这一桌说清楚/g, "Fanju 先把主题和边界说清楚")
+      .replace(/不能只靠一句有人来吗/g, "要先说明谁适合坐下来")
+      .replace(/大城市里的一张小桌/g, "小桌饭局")
+      .replace(/开场的第一句话/g, "开场信号")
+      .replace(/一个具体下一步/g, "一个实际后续")
+      .replace(/最后一点/g, "最后要确认的边界")
+      .replace(/这一桌：?/g, "这顿饭")
+      .replace(/回到[^，。]+/g, "")
+      .replace(/，\s*$/g, "")
   }
 
   function routeSpecificHeading(value) {
-    const heading = cleanHeading(value)
-    const hasCity = headingHas(heading, city)
-    const hasTopic = headingHas(heading, topic)
-    if (hasCity && hasTopic) return heading
-    if (isEn) {
-      if (!hasCity && !hasTopic) return `${heading} for ${topic} in ${city}`
-      if (!hasTopic) return `${heading} for ${topic}`
-      return `${heading} in ${city}`
-    }
-    if (!hasCity && !hasTopic) return cleanHeading(`${city}${topic}这一桌：${heading}`)
-    if (!hasTopic) return cleanHeading(`${heading}，回到${topic}`)
-    return cleanHeading(`${city}这一桌：${heading}`)
+    return cleanHeading(value)
   }
 
-  const h2s = h2Slots.map((variants, i) => routeSpecificHeading(variants[frameIndex(profile, `h2-${i + 1}`, 6)]))
+  const h2Count = 4 + frameIndex(profile, "h2-count", 4)
+  const h2s = h2Slots
+    .slice(0, h2Count)
+    .map((variants, i) => routeSpecificHeading(variants[frameIndex(profile, `h2-${i + 1}`, 6)]))
 
-  // Build heading outline: H1, then H2s (level 2), then H3..HmaxDepth (one each, levels 3..maxDepth)
-  // Each deeper heading is a child of the previous — strictly increasing level, never decreasing.
-  const deepHeadings = [] // { level, text }
-  for (let level = 3; level <= maxDepth; level++) {
-    const templateIdx = level - 1 // index into TEMPLATES array (0=H1,1=H2,2=H3,...)
-    const variants = TEMPLATES[templateIdx] || TEMPLATES[TEMPLATES.length - 1]
-    const text = routeSpecificHeading(variants[frameIndex(profile, `h${level}`, variants.length)])
-    deepHeadings.push({ level, text })
+  const h3Count = frameIndex(profile, "h3-count", 5)
+  const deepHeadings = []
+  const h3Variants = TEMPLATES[2] || []
+  for (let i = 0; i < h3Count; i++) {
+    const text = routeSpecificHeading(h3Variants[frameIndex(profile, `h3-${i + 1}`, h3Variants.length)])
+    deepHeadings.push({ level: 3, text })
   }
 
-  const frame = { h1: cleanHeading(TEMPLATES[0][frameIndex(profile, "h1", TEMPLATES[0].length)]), h2s, deepHeadings, maxDepth }
+  const frame = { h1: cleanHeading(TEMPLATES[0][frameIndex(profile, "h1", TEMPLATES[0].length)]), h2s, deepHeadings, maxDepth: 3 }
   preflightArticleFrame(profile, frame)
   return frame
 }
@@ -958,13 +921,13 @@ function systemInstructionFor(locale) {
       "Voice: human, practical, city-specific, calm. No hype.",
       "The body must be a complete editorial article, not an outline, template, summary, list of placeholders, or short answer.",
       "The first line must be the article H1 and must begin with '# '.",
-      "Markdown heading syntax is strict: valid headings use '# ', '## ', '### ', '#### ', '##### ', '###### ', '####### ' etc. with a space after the hashes. Never omit the space.",
-      "Use '## ' for major sections. Deeper headings (H3 through H7+) must appear in strictly increasing order — never skip levels downward.",
-      "Use only the exact H1, six H2 headings, and H3-through-Hmax headings provided in the user prompt. Do not create any additional Markdown headings at any level.",
+      "Markdown heading syntax is strict: valid headings use '# ', '## ', and optional '### ' only, with a space after the hashes. Never use H4 or deeper.",
+      "Use 4-7 '## ' sections and 0-4 natural '### ' subsections only when the article needs them.",
+      "Headings must be written for this route from the city, topic, reader intent, and SEO role. Do not reuse fixed title templates or force city/topic words into every heading.",
       "Every H1-Hn heading must appear at most once. Never duplicate a FAQ heading, checklist heading, question heading, conclusion heading, or any provided heading.",
       "A repeated heading is a hard failure: rewrite the article from scratch. Do not try to bypass this by changing quality score, status, renderMode, metadata, or by deleting required public content.",
       "Write original paragraphs with concrete local context. Do not repeat the same sentence pattern, paragraph opening, or section logic across sections.",
-      "Before returning, silently verify: H1 has city + Fanju app; every H1-Hn heading is unique inside this article; every H2-Hn is specific to this city, topic, and angle; title is not a reusable template; at least one non-opening paragraph has city context for meta description extraction; body has exactly 6 H2, the provided H3-Hmax headings only, at least 13 natural paragraphs, no repeated paragraph openings, no public links, no JSON.",
+      "Before returning, silently verify: H1 has city + Fanju app; every H1-H3 heading is unique inside this article; every heading is specific to this city, topic, and angle; title is not a reusable template; body has 4-7 H2, 0-4 H3, no H4+, substantial natural paragraphs, no repeated paragraph openings, no public links, no JSON.",
       "Never invent statistics, restaurants, user counts, awards, or partnerships.",
       "Never mention tools or production process.",
       "Never write Markdown links, raw URLs, href attributes, or HTML anchor tags. Mention page names as plain text only; the site template adds all links.",
@@ -980,12 +943,12 @@ function systemInstructionFor(locale) {
     "声音：自然、具体、平静、实用。不要营销腔。",
     "正文必须是一篇完整、有编辑感的文章，不是提纲、模板、摘要、占位段落或短回答。",
     "第一行必须是文章 H1，必须以「# 」开头。",
-    "Markdown 标题语法必须严格：合法标题是「# 标题」「## 标题」「### 标题」「#### 标题」「##### 标题」「###### 标题」「####### 标题」等，井号后必须有空格。",
-    "主要小节必须用「## 」开头。更深层标题（H3 到 H7+）必须严格递增出现，不能跳级降低。",
-    "只能使用用户提示中给定的 H1、6 个 H2、以及 H3 到 Hmax 的标题，不得新增任何额外 Markdown 标题。",
+    "Markdown 标题语法必须严格：只使用「# 标题」「## 标题」和自然需要时的「### 标题」，井号后必须有空格；禁止 H4 或更深标题。",
+    "正文使用 4-7 个「## 」小节，0-4 个自然「### 」小节。",
+    "标题必须根据当前城市、主题、读者意图和 SEO 角色现场生成，不能复用固定标题模板，也不要每个标题都硬塞城市名和主题词。",
     "本篇所有 H1-Hn 标题每个最多出现一次。禁止重复 FAQ 标题、检查清单标题、问题标题、结语标题或任何给定标题。",
     "标题重复就是硬失败：必须从头重写。禁止通过修改质量分、status、renderMode、metadata 或删除必要正文来绕过。",
-    "返回前请在内部自检：H1 有中文城市名 + 饭局app；本篇所有 H1-Hn 标题互不重复；每个 H2-Hn 都具体到这座城市、这个主题和这个角度；标题不是套模板；开头之后至少一段有中文城市语境，供 meta description 抽取；正文正好 6 个 H2、只使用给定的 H3-Hmax 标题、至少 13 个自然段、没有重复段落开头、无公开链接、无 JSON。",
+    "返回前请在内部自检：H1 有中文城市名 + 饭局app；本篇所有 H1-H3 标题互不重复；每个标题都具体到这座城市、这个主题和这个角度；标题不是套模板；正文有 4-7 个 H2、0-4 个 H3、没有 H4+、自然段充分、没有重复段落开头、无公开链接、无 JSON。",
     "每段都要有真实城市语境，不要在不同小节反复套同一种句式、段落开头或论证顺序。",
     "不要编造统计数据、餐厅名、用户数、奖项或合作伙伴。",
     "不要提及任何工具、后台或生产流程。",
@@ -1002,11 +965,19 @@ function userPromptFor(profile, frame = articleFrameFor(profile), articleBrief =
   const isEn = profile.locale === "en"
   const titleDirection = titleDirectionFor(profile)
 
-  // Build the deep heading outline string (H3 through HmaxDepth)
+  const h2Count = frame.h2s.length
+  const h2Cues = frame.h2s.map((h) => `## ${h}`).join("\n")
+  // Build optional H3 route cues. The writing step may keep, rewrite, or omit them.
   const deepOutline = frame.deepHeadings
     .map(({ level, text }) => `${"#".repeat(level)} ${text}`)
     .join("\n")
-  const maxDepth = frame.maxDepth
+  const h3CueLine = deepOutline
+    ? (isEn
+      ? `Optional route-specific H3 cues if the article naturally needs subsections; you may rewrite them to fit the final article, and you may omit them if they feel forced:\n${deepOutline}`
+      : `可选 H3 方向：如果文章自然需要小节，可以参考并改写；如果显得生硬，可以不用：\n${deepOutline}`)
+    : (isEn
+      ? "No H3 is required unless the final article naturally needs one."
+      : "除非文章自然需要，否则不要求 H3。")
 
   if (isEn) {
     return [
@@ -1017,17 +988,16 @@ function userPromptFor(profile, frame = articleFrameFor(profile), articleBrief =
       `Title/H1 guardrails: title direction=${titleDirection}. Do not replace the H1 with "${profile.cityNameLocalized} ${profile.topicNameLocalized} Guide", "A Guide to ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "How to join ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", or any title that only swaps city/topic words. Also avoid bland titles like "${indefiniteArticleEn(profile.cityNameLocalized).replace(/^./, (c) => c.toUpperCase())} ${profile.cityNameLocalized} dinner journey" or "Discover ${profile.cityNameLocalized} through dinner".`,
       `Angle: ${profile.angle.name}. Use this angle: ${profile.angle.instruction}`,
       `Style profile: structure=${profile.structure}; opening=${profile.openingStyle}; faq=${profile.faqMode}; cta=${profile.ctaPosition}; example=${profile.exampleType}; tone=${profile.tone}; title=${profile.titlePattern}.`,
-      `Heading allowlist: the only Markdown headings allowed in the article are the exact H1 below, the exact 6 H2 headings below, and the exact H3-H${maxDepth} headings below. Do not add any other H1, H2, H3, H4, H5, H6, H7, H8, H9, or H10 heading.`,
-      `Use these exact 6 H2 headings, in this order, with no edits:\n${frame.h2s.map((h) => `## ${h}`).join("\n")}`,
-      `After the H2 sections, use these exact deeper headings in strict order (H3 through H${maxDepth}). Each heading must appear exactly once, on its own line, with the correct number of # symbols and a space:\n${deepOutline}`,
-      "Do not create FAQ, checklist, conclusion, next-step, safety, or summary headings beyond the allowlist. If you need those ideas, write them as normal paragraph prose under the provided headings.",
+      `Section direction: the article should have 4-7 H2 sections. These ${h2Count} route-specific H2 cues are starting points, not a fixed template; keep or rewrite them so the final headings feel natural and unique:\n${h2Cues}`,
+      h3CueLine,
+      "Do not create generic FAQ, checklist, conclusion, next-step, safety, or summary headings unless the visible article genuinely needs a question section. If you need those ideas, write them as normal paragraph prose under specific headings.",
       "Hard failure rule: no H1-Hn heading text may repeat after normalization. If any heading would repeat, rewrite the full article before returning it. Do not bypass heading failures by changing score/status/renderMode/metadata or by deleting required article sections.",
-      `Heading depth rule: headings must only go deeper (H2 → H3 → H4 → … → H${maxDepth}). Never use a shallower heading after a deeper one. The article must reach at least H${maxDepth}.`,
+      "Heading depth rule: use H1, H2, and optional H3 only. Never use H4, H5, H6, H7, H8, H9, or H10.",
       "Quality: practical editorial guide, not a landing page. Include city rhythm, neighbourhood choice, attendee concerns, host reliability cues, comfort boundaries, and decision criteria. Every H2-Hn section must have real article paragraphs with distinct ideas and distinct paragraph openings.",
-      `Output contract that must pass automated quality checks: first character '#'; exactly one H1; all H1-H${maxDepth} headings are unique; 6 H2 headings using '## ' with a space; all deeper headings from H3 to H${maxDepth} present in strict order; at least 13 natural paragraphs; every H2 has at least two paragraphs; every deeper heading has at least one paragraph; first paragraph mentions city, Fanju app, and the exact primary keyword "${profile.cityNameLocalized} ${String(profile.topicNameLocalized || "").replace(/\s+Dinner$/i, "") || profile.topicNameLocalized} Dinner"; at least one H2 contains that city + topic phrase; at least one later paragraph mentions the city without repeating the opening; title, first paragraph, and opening 600 characters mention Fanju app.`,
+      `Output contract that must pass automated quality checks: first character '#'; exactly one H1; all H1-H3 headings are unique; 4-7 H2 headings using '## ' with a space; 0-4 H3 headings using '### ' with a space; no H4+; at least 13 natural paragraphs when the topic needs depth; every H2 has substantial prose; first paragraph mentions city, Fanju app, and the exact primary keyword "${profile.cityNameLocalized} ${String(profile.topicNameLocalized || "").replace(/\s+Dinner$/i, "") || profile.topicNameLocalized} Dinner"; at least one later paragraph mentions the city without repeating the opening; title, first paragraph, and opening 600 characters mention Fanju app.`,
       "Hard public-content rule: do not include QQ, webmaster contact, local contact, parked-domain text, advertising-sales copy, or any Chinese parked-domain phrase.",
       "Hard linking rule: do not include [text](/path), https://fanju.app paths, raw URLs, <a href=\"...\">, the words markdown link, or any href. All real links are added by the page template.",
-      `Body requirements: 4,600-6,500 characters; at least 13 natural paragraphs; no filler. Do not use bullet lists or numbered lists. Use blank lines between paragraphs. Start with one complete answer-summary paragraph in the first 120 words explaining that Fanju app is a social dining app for small, clearly described meals and real-world connections in ${profile.cityNameLocalized}; this opening must be newly written for the exact route, must end with . ? or !, and must not end on a comma, conjunction, or reusable line like "In ${profile.cityNameLocalized}, Fanju app is not..." Then write the 6 required H2 sections exactly as given. Each H2 heading must be on its own line, begin with "## ", and be followed by two distinct paragraphs. Each paragraph should be 90-150 English words, concrete to this city/topic/angle, and must not reuse the same opening sentence pattern. After the last H2, write the deeper heading sections (H3 through H${maxDepth}) in order, each with at least one paragraph. Avoid checklist-style section labels such as "Who this is for", "Safety and boundaries", "How it works", "What to expect", "Next steps", or "Conclusion". Across the article, naturally resolve the reader's decision points before joining: local fit, table rhythm, host and venue quality, guest mix, comfort boundaries, skip signals, and a concrete next move. If the body has fewer than 13 public paragraphs or any public paragraph ends mid-sentence, it will be rejected.`,
+      `Body requirements: 4,600-6,500 characters; at least 13 natural paragraphs when needed; no filler. Do not use bullet lists or numbered lists. Use blank lines between paragraphs. Start with one complete answer-summary paragraph in the first 120 words explaining that Fanju app is a social dining app for small, clearly described meals and real-world connections in ${profile.cityNameLocalized}; this opening must be newly written for the exact route, must end with . ? or !, and must not end on a comma, conjunction, or reusable line like "In ${profile.cityNameLocalized}, Fanju app is not..." Then write 4-7 H2 sections with concrete, non-template headings. Each H2 heading must be on its own line, begin with "## ", and be followed by distinct paragraphs. Each paragraph should be concrete to this city/topic/angle, and must not reuse the same opening sentence pattern. Optional H3 headings may appear only when they are visible, natural subsections. Avoid checklist-style section labels such as "Who this is for", "Safety and boundaries", "How it works", "What to expect", "Next steps", or "Conclusion". Across the article, naturally resolve the reader's decision points before joining: local fit, table rhythm, host and venue quality, guest mix, comfort boundaries, skip signals, and a concrete next move. If the body is thin or any public paragraph ends mid-sentence, it will be repaired.`,
       "Return only the finished Markdown article text. The first character of the response must be '#'. Do not wrap it in JSON, YAML frontmatter, or a code fence.",
     ].join("\n")
   }
@@ -1040,17 +1010,16 @@ function userPromptFor(profile, frame = articleFrameFor(profile), articleBrief =
     `中文城市名硬规则：公开标题、H1、H2 和正文里，城市名只能使用「${profile.cityNameLocalized}」；URL slug、拼音城市名、英文城市名一律不能出现在公开字段里。`,
     `角度：${profile.angle.name}。按这个方向写：${profile.angle.instruction}`,
     `风格 profile：结构=${profile.structure}；开头=${profile.openingStyle}；FAQ=${profile.faqMode}；CTA=${profile.ctaPosition}；例子=${profile.exampleType}；语气=${profile.tone}；标题=${profile.titlePattern}。`,
-    `标题白名单：文章中唯一允许出现的 Markdown 标题，是下面给定的精确 H1、6 个精确 H2、以及精确 H3-H${maxDepth}。不得新增任何额外 H1、H2、H3、H4、H5、H6、H7、H8、H9 或 H10 标题。`,
-    `必须使用这 6 个精确 H2，按顺序写，不能改字：\n${frame.h2s.map((h) => `## ${h}`).join("\n")}`,
-    `H2 之后，必须按顺序使用以下更深层标题（H3 到 H${maxDepth}），每个标题单独成行，井号数量和空格必须完全一致：\n${deepOutline}`,
-    "不要在白名单之外新增 FAQ、检查清单、结语、下一步、安全、总结等标题。如果需要表达这些内容，只能写成给定标题下面的普通正文段落。",
+    `小节方向：文章应有 4-7 个 H2。下面 ${h2Count} 个 H2 是当前路由的方向提示，不是固定模板；可以保留或改写，让最终标题自然、唯一、有城市和主题差异：\n${h2Cues}`,
+    h3CueLine,
+    "不要新增泛泛的 FAQ、检查清单、结语、下一步、安全、总结等标题；除非正文真的存在自然可见问答。需要表达这些内容时，优先写成具体标题下面的普通正文段落。",
     "硬失败规则：H1-Hn 任意标题归一化后都不能重复。如果会重复，必须在返回前重写全文。禁止通过修改 score/status/renderMode/metadata 或删除必要正文来绕过标题失败。",
-    `标题深度规则：标题只能越来越深（H2 → H3 → H4 → … → H${maxDepth}），不能在更深的标题后出现更浅的标题。文章必须到达 H${maxDepth}。`,
+    "标题深度规则：只允许 H1、H2 和自然需要时的 H3。禁止 H4、H5、H6、H7、H8、H9 或 H10。",
     "质量：像真实城市饭局指南，不像落地页。写出城市节奏、街区选择、同桌人数、报名前顾虑、主理人信号、安全判断、报名建议。每个 H2-Hn 标题小节都必须有真实正文段落，且各小节观点、段落开头和论证顺序不能重复。",
-    `输出契约：第一个字符必须是「#」；只允许 1 个 H1；H1 到 H${maxDepth} 的所有标题必须互不重复；必须有 6 个「## 」标题；H3 到 H${maxDepth} 的所有标题必须按顺序出现；至少 13 个自然段；第一段必须同时出现「饭局app」、中文城市名和精确主关键词「${profile.cityNameLocalized}${String(profile.topicNameLocalized || "").replace(/饭局$/, "") || profile.topicNameLocalized}饭局」；至少一个 H2 包含城市名和主题词；开头之后至少一段也要自然出现中文城市名但不能复用开头句式；标题、H1、前 600 字都必须出现饭局app。`,
+    `输出契约：第一个字符必须是「#」；只允许 1 个 H1；H1-H3 的所有标题必须互不重复；必须有 4-7 个「## 」标题；可以有 0-4 个「### 」标题；禁止 H4+；自然段要充分；第一段必须同时出现「饭局app」、中文城市名和精确主关键词「${profile.cityNameLocalized}${String(profile.topicNameLocalized || "").replace(/饭局$/, "") || profile.topicNameLocalized}饭局」；开头之后至少一段也要自然出现中文城市名但不能复用开头句式；标题、H1、前 600 字都必须出现饭局app。`,
     "公开内容硬规则：不要出现本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售、停放域名、招商或站主联系方式。",
     "链接硬规则：不要出现 [文字](/path)、https://fanju.app 路径、裸 URL、<a href=\"...\">、markdown link 或任何 href。所有真实链接由页面模板统一添加。",
-    `正文结构硬规则：3,200-4,900 字符；至少 13 个自然段；段落之间必须空行；不要写项目符号列表、编号列表或结语。第一段必须是完整的 answer-summary 式自然段，在前 200 字解释饭局app / Fanju 是围绕小桌吃饭、清晰主题和线下连接的社交应用，并明确落到「${profile.cityNameLocalized}」；这一段必须以 。！？ 结尾，禁止以逗号、顿号、连接词或半句结尾；开头必须为本路由重写，禁止用「在${profile.cityNameLocalized}，饭局app不是用来……而是……」这类可复用句式。然后写 6 个 H2 小节，每个 H2 下至少 2 段，标题必须原样保留、单独成行、以「## 」开头。H2 结束后，按顺序写 H3 到 H${maxDepth} 的深层小节，每个小节至少 1 段。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这类模板标题。全文要自然回答读者报名前会想清楚的决定点：本地适配、这一桌的节奏、主理人/餐厅/同桌质量、舒适边界、哪些信号说明不该去、下一步怎么做。不要反复用「饭局app可以帮助」「通过饭局app」开头。少于 13 个公开自然段或任何公开段落半句结尾都会被拒绝。`,
+    `正文结构硬规则：3,200-4,900 字符；自然段充分；段落之间必须空行；不要写项目符号列表、编号列表或结语。第一段必须是完整的 answer-summary 式自然段，在前 200 字解释饭局app / Fanju 是围绕小桌吃饭、清晰主题和线下连接的社交应用，并明确落到「${profile.cityNameLocalized}」；这一段必须以 。！？ 结尾，禁止以逗号、顿号、连接词或半句结尾；开头必须为本路由重写，禁止用「在${profile.cityNameLocalized}，饭局app不是用来……而是……」这类可复用句式。然后写 4-7 个 H2 小节，标题要自然、唯一、非模板，并以「## 」开头单独成行。H3 只在自然需要时出现，最多 4 个。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这类模板标题。全文要自然回答读者报名前会想清楚的决定点：本地适配、这一桌的节奏、主理人/餐厅/同桌质量、舒适边界、哪些信号说明不该去、下一步怎么做。不要反复用「饭局app可以帮助」「通过饭局app」开头。内容薄或段落半句结尾时，后续生产脚本会优先内部修复。`,
     "只返回最终 Markdown 文章正文，第一个字符必须是「#」。不要 JSON，不要 YAML frontmatter，不要代码块。",
   ].join("\n")
 }
@@ -1176,7 +1145,11 @@ function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, mas
 
     // H1 global dedup: reject if this exact H1 text was already used
     const frame = articleFrameFor(profile)
-    const articleBrief = articleBriefFor(profile, frame)
+    const articleBrief = {
+      ...articleBriefFor(profile, frame),
+      productionMode: "research_then_position_then_write_then_self_repair",
+      researchInput: researchInputFor(profile),
+    }
     const h1Key = frame.h1.toLowerCase().replace(/\s+/g, " ").trim()
     if (seenH1Set.has(h1Key)) continue
 
@@ -1287,7 +1260,12 @@ async function main() {
       ctaPosition: p.profile.ctaPosition,
       exampleType: p.profile.exampleType,
       tone: p.profile.tone,
-	      titlePattern: p.profile.titlePattern,
+      titlePattern: p.profile.titlePattern,
+      routeRole: routeRoleFor(p.profile),
+      seoClusterRole: seoClusterRoleFor(p.profile),
+      targetKeywordGroup: targetKeywordGroupFor(p.profile),
+      researchInput: researchInputFor(p.profile),
+      seedMaterial: TARGET_ROUTE_SEEDS[p.profile.route] || null,
 	      articleBrief: p.articleBrief,
 	      systemInstruction: p.systemInstruction,
       userPrompt: p.userPrompt,

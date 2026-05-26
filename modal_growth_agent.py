@@ -704,9 +704,8 @@ def run_cloudflare_publish_pipeline(
     outside Modal after the pushed routes are live.
     """
     safe_rounds = min(24, max(1, int(rounds)))
-    safe_run_limit = max(6, int(run_limit))
-    if safe_run_limit % 2 != 0:
-        safe_run_limit += 1
+    safe_run_limit = min(100, max(1, int(run_limit)))
+    article_concurrency = min(10, safe_run_limit)
 
     upload_r2_flag = "1" if upload_r2 else "0"
     safe_platforms = "".join(ch for ch in str(submit_platforms) if ch.isalnum() or ch in ",_-").strip(",") or "all"
@@ -738,13 +737,13 @@ def run_cloudflare_publish_pipeline(
         )
         run("EN_TOP_CITY_LIMIT=100 pnpm seo:prompt-bank:check", cwd=WORKDIR, timeout=600)
         run(
-            f"RUN_LIMIT={safe_run_limit} CONCURRENCY=4 RATE_DELAY_MS=5000 BATCH_SIZE=2 "
+            f"RUN_LIMIT={safe_run_limit} CONCURRENCY={article_concurrency} RATE_DELAY_MS=5000 BATCH_SIZE=1 "
             f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=96 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=5 "
             f"QUALITY_RETRY_DELAY_MS=15000 MAX_TOKENS=7200 AI_COOLDOWN_WAIT_PASSES=2 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             f"PUBLISHED_RUN_ID={shlex.quote(run_id)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=15000 GROQ_MAX_TOKENS=6000 "
-            "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "
+            "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 AI_PROVIDER_MUTEX=1 "
             f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER} pnpm seo:prompt-bank:cloudflare",
             cwd=WORKDIR,
             timeout=21000,
@@ -890,7 +889,7 @@ def publish_routes_to_cloudflare(target_routes: str, upload_r2: bool = True):
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             f"PUBLISHED_RUN_ID={shlex.quote(run_id)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=15000 GROQ_MAX_TOKENS=6000 "
-            "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "
+            "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 AI_PROVIDER_MUTEX=1 "
             f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER} pnpm seo:prompt-bank:cloudflare",
             cwd=WORKDIR,
             timeout=21000,

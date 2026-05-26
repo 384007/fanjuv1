@@ -1752,7 +1752,7 @@ function providerOrderForPrompt(prompt) {
       .map((x) => x.trim().toLowerCase())
       .filter(Boolean)
     if (providers.length <= 1) return providers.join(",")
-    const n = Number.parseInt(String(prompt.promptId || "").match(/(\d+)$/)?.[1] || "1", 10)
+    const n = Number.parseInt(String(prompt.providerSlot || "").match(/(\d+)$/)?.[1] || String(prompt.promptId || "").match(/(\d+)$/)?.[1] || "1", 10)
     const assigned = providers[(Number.isFinite(n) ? n - 1 : 0) % providers.length]
     console.log(`[ASSIGN] ${prompt.promptId} ${prompt.route} -> ${assigned}`)
     if (STRICT_CITY_PROVIDER) return assigned
@@ -2378,6 +2378,7 @@ async function main() {
   }
   console.log(`Locale filter    : ${ONLY_LOCALE || "(none)"}`)
   console.log(`To process       : ${finalQueue.length}`)
+  finalQueue = finalQueue.map((prompt, index) => ({ ...prompt, providerSlot: index + 1 }))
   const bilingualMode = TARGET_READY_COUNT > 0 && !ONLY_LOCALE && TARGET_READY_COUNT % 2 === 0
   const perLangLimit = bilingualMode ? TARGET_READY_COUNT / 2 : 0
 
