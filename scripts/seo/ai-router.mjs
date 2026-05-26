@@ -2,19 +2,12 @@
 // configured for each provider, so adding more keys never requires a code change.
 function buildDefaultOrder() {
   const parts = []
-  const addSlots = (base, envPrefix) => {
-    const n = getProviderKeys(envPrefix).length
-    if (n === 0) return
+  for (const [base, entry] of Object.entries(PROVIDER_REGISTRY)) {
+    const n = getProviderKeys(entry.envPrefix).length
+    if (n === 0) continue
     parts.push(base)
     for (let i = 2; i <= n; i++) parts.push(`${base}${i}`)
   }
-  // Add new providers here — that's the only place you ever need to touch.
-  addSlots("aion",       "AION_API_KEY")
-  addSlots("cerebras",   "CEREBRAS_API_KEY")
-  addSlots("groq",       "GROQ_API_KEY")
-  addSlots("gemini",     "GEMINI_API_KEY")
-  addSlots("openrouter", "OPENROUTER_API_KEY")
-  addSlots("nvidia",     "NVIDIA_API_KEY")
   if (process.env.CLOUDFLARE_ACCOUNT_ID) parts.push("cloudflare")
   return parts.join(",")
 }
@@ -130,16 +123,6 @@ function getProviderKeys(envPrefix) {
     else break
   }
   return keys
-}
-
-function isAionProvider(provider) {
-  return provider === "aion" || /^aion\d+$/.test(provider)
-}
-
-function aionKeyIndex(provider) {
-  if (provider === "aion") return process.env.ASSIGN_PROVIDER_PER_CITY === "1" ? 0 : null
-  const match = provider.match(/^aion(\d+)$/)
-  return match ? Number.parseInt(match[1], 10) - 1 : undefined
 }
 
 function providerMutexEnabled() {
@@ -349,29 +332,18 @@ async function callRegistryProvider(provider, resolved, { prompt, system, maxTok
 }
 
 async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) {
-  // Aion has special per-city assignment logic, keep its own path
-  if (isAionProvider(provider)) {
-    const resolved = resolveProvider(provider)
-    if (!resolved) throw new Error(`Unknown Aion provider: ${provider}`)
-    // Override keyIndex for ASSIGN_PROVIDER_PER_CITY mode
-    if (provider === "aion" && process.env.ASSIGN_PROVIDER_PER_CITY === "1") {
-      resolved.keyIndex = 0
-    }
-    return callRegistryProvider(provider, resolved, { prompt, system, maxTokens, timeoutMs })
-  }
-
   // Cloudflare has a completely different API shape
   if (provider === "cloudflare") {
     return callCloudflare({ prompt, system, maxTokens, timeoutMs })
   }
 
-  // All registry providers (cerebras, groq, gemini, openrouter, nvidia, and any future ones)
+  // All registry providers — including aion, cerebras, groq, gemini, openrouter, nvidia, and any future ones
   const resolved = resolveProvider(provider)
   if (resolved) {
     return callRegistryProvider(provider, resolved, { prompt, system, maxTokens, timeoutMs })
   }
 
-  throw new Error(`Unknown provider: ${provider}`)
+  throw new Error(`Unknown provider: ${provider} — add it to PROVIDER_REGISTRY in ai-router.mjs`)
 }
 
 // Returns false if the provider requires a key that isn't configured, so the
