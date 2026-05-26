@@ -30,7 +30,7 @@ OUTPUT_PATHS = [
     "public/sitemap-index.xml",
 ]
 
-AI_PROVIDER_ORDER = "aion,aion2,aion3,aion4,aion5,aion6,aion7,aion8,aion9,aion10,cerebras,cerebras2,cerebras3,cerebras4,groq,groq2,gemini,gemini2,openrouter,nvidia,nvidia2,cloudflare"
+AI_PROVIDER_ORDER = ""  # empty = auto-detect from configured keys at runtime
 
 image = (
     modal.Image.debian_slim()
@@ -744,7 +744,7 @@ def run_cloudflare_publish_pipeline(
             f"PUBLISHED_RUN_ID={shlex.quote(run_id)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=15000 GROQ_MAX_TOKENS=6000 "
             "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 AI_PROVIDER_MUTEX=1 "
-            f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER} pnpm seo:prompt-bank:cloudflare",
+            f"{('AI_PROVIDER_ORDER=' + AI_PROVIDER_ORDER + ' ') if AI_PROVIDER_ORDER else ''}pnpm seo:prompt-bank:cloudflare",
             cwd=WORKDIR,
             timeout=21000,
         )
@@ -890,7 +890,7 @@ def publish_routes_to_cloudflare(target_routes: str, upload_r2: bool = True):
             f"PUBLISHED_RUN_ID={shlex.quote(run_id)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=15000 GROQ_MAX_TOKENS=6000 "
             "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 AI_PROVIDER_MUTEX=1 "
-            f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER} pnpm seo:prompt-bank:cloudflare",
+            f"{('AI_PROVIDER_ORDER=' + AI_PROVIDER_ORDER + ' ') if AI_PROVIDER_ORDER else ''}pnpm seo:prompt-bank:cloudflare",
             cwd=WORKDIR,
             timeout=21000,
         )
@@ -984,7 +984,7 @@ def test_target_city_articles():
                     "QUALITY_ATTEMPTS=5",
                     "QUALITY_RETRY_DELAY_MS=240000",
                     "AI_COOLDOWN_WAIT_PASSES=40",
-                    f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER}",
+                    *([ f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER}" ] if AI_PROVIDER_ORDER else []),
                     f"TARGET_ROUTES={shlex.quote(routes_csv)}",
                     f"GENERATED_DRAFTS_FILE={shlex.quote(drafts_file)}",
                     'PUBLISHED_FILE="data/seo/published-ready-drafts.json"',
