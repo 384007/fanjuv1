@@ -148,7 +148,7 @@ async function withProviderLock(provider, task) {
 }
 
 // Log key counts at startup — reads from registry so new providers appear automatically
-Object.entries(PROVIDER_REGISTRY).forEach(([name, entry]) => {
+Object.values(PROVIDER_REGISTRY).forEach((entry) => {
   const n = getProviderKeys(entry.envPrefix).length
   if (n > 0) console.log(`[ai-router] ${entry.envPrefix}: ${n} key(s) loaded`)
 })
@@ -159,14 +159,6 @@ function cooldownKey(provider, keyIndex, ms) {
   const mapKey = `${provider}:${keyIndex}`
   keyCooldownUntil.set(mapKey, Date.now() + ms)
   console.log(`Provider ${provider} key[${keyIndex}] cooldown ${Math.ceil(ms / 1000)}s`)
-}
-
-function providerKeyCooldownUntil(provider) {
-  let until = 0
-  for (const [key, value] of keyCooldownUntil.entries()) {
-    if (key.startsWith(`${provider}:`)) until = Math.max(until, value)
-  }
-  return until
 }
 
 function rotatingKeyIndexes(provider, keyCount) {
@@ -372,14 +364,19 @@ function retryDelayMs(err) {
 }
 
 function cooldownProvider(provider, err) {
+  // Numbered variants (gemini2, cerebras3…) already have key-level cooldown set
+  // inside callRegistryProvider. A provider-level cooldown on top would block
+  // the exact same slot on the next retry without adding any benefit.
+  const resolved = resolveProvider(provider)
+  if (resolved && resolved.keyIndex !== null) return
+
   const text = `${err?.message || ""}\n${err?.body || ""}`
   let ms = 0
   if (err?.status === 401 || err?.status === 403) ms = 60 * 60 * 1000
   else if (err?.status === 429 && /free_tier_requests|quota exceeded|current quota|daily free-tier|tokens per day|token_quota_exceeded|daily.*limit/i.test(text)) ms = 60 * 60 * 1000
   else if (err?.status === 429) ms = retryDelayMs(err)
   if (ms > 0) {
-    const until = Date.now() + ms
-    providerCooldownUntil.set(provider, until)
+    providerCooldownUntil.set(provider, Date.now() + ms)
     console.log(`Provider ${provider} cooldown ${Math.ceil(ms / 1000)}s`)
   }
 }
@@ -423,6 +420,9 @@ export async function generateWithRouter({ prompt, system, maxTokens = 1200, tim
     } catch (err) {
       console.log(`Provider ${provider} failed: ${err.message.slice(0, 500)}`)
       errors.push({ provider, error: err.message })
+      // Only apply provider-level cooldown to the exact provider name that failed.
+      // Numbered variants (gemini2, cerebras3…) manage their own key-level cooldown
+      // inside callRegistryProvider, so we never block them here via a base-name cooldown.
       cooldownProvider(provider, err)
       const cooldownUntil = providerCooldownUntil.get(provider) || 0
       if (cooldownUntil > Date.now()) {
