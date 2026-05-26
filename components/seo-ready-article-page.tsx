@@ -1114,7 +1114,7 @@ export function SeoReadyArticlePage({ article, currentPath, hasAlternateArticle 
  */
 export function seoReadyArticleMetadata(article: SeoReadyArticle, currentPath: string, _hasAlternate = false) {
   const pageUrl = canonicalUrl(currentPath)
-  const ogImage = `${pageUrl}/opengraph-image`
+  const ogImage = canonicalUrl("/og.jpg")
 
   if (article.generatedArticle) {
     const generated = article.generatedArticle
