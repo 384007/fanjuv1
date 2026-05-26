@@ -79,10 +79,17 @@ const safeHeadingSelection = [
 // still resolve sibling modules like prompt-bank-history.mjs.
 const patchedSource = source
   .slice(0, startIndex) + safeHeadingSelection + source.slice(replaceEndIndex)
-const patched = patchedSource.replace(
-  /from\s+"\.\/prompt-bank-history\.mjs"/g,
-  `from ${JSON.stringify(join(__dirname, "prompt-bank-history.mjs"))}`,
-)
+const patched = patchedSource
+  // Fix relative import so .generated/ file can find prompt-bank-history.mjs
+  .replace(
+    /from\s+"\.\/prompt-bank-history\.mjs"/g,
+    `from ${JSON.stringify(join(__dirname, "prompt-bank-history.mjs"))}`,
+  )
+  // Fix __dirname so ROOT resolves to the real project root, not .generated/
+  .replace(
+    /const __dirname = dirname\(fileURLToPath\(import\.meta\.url\)\)/,
+    `const __dirname = ${JSON.stringify(__dirname)}`,
+  )
 mkdirSync(generatedDir, { recursive: true })
 writeFileSync(generatedFile, patched, "utf8")
 
