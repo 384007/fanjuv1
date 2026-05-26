@@ -75,7 +75,14 @@ const safeHeadingSelection = [
   '  const frame = { h1, h2s, deepHeadings, maxDepth: 3 }',
 ].join("\n")
 
-const patched = source.slice(0, startIndex) + safeHeadingSelection + source.slice(replaceEndIndex)
+// Fix relative import paths so the generated file (inside .generated/) can
+// still resolve sibling modules like prompt-bank-history.mjs.
+const patchedSource = source
+  .slice(0, startIndex) + safeHeadingSelection + source.slice(replaceEndIndex)
+const patched = patchedSource.replace(
+  /from\s+"\.\/prompt-bank-history\.mjs"/g,
+  `from ${JSON.stringify(join(__dirname, "prompt-bank-history.mjs"))}`,
+)
 mkdirSync(generatedDir, { recursive: true })
 writeFileSync(generatedFile, patched, "utf8")
 
