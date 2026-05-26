@@ -314,10 +314,10 @@ async function callRegistryProvider(provider, resolved, { prompt, system, maxTok
   const extraHeaders = entry.extraHeaders ? entry.extraHeaders() : {}
   const cooldownMs = entry.cooldownMs || 15000
 
-  // Base provider name (e.g. "groq") rotates across all keys.
+  // Base provider name (e.g. "groq") always rotates across all keys.
   // Numbered variant (e.g. "groq2") pins to a specific key index.
-  const isRotating = keyIndex === null && entry.rotating && process.env.ASSIGN_PROVIDER_PER_CITY !== "1"
-  const indexes = isRotating ? rotatingKeyIndexes(base, keys.length) : [keyIndex ?? 0]
+  const isRotating = keyIndex === null
+  const indexes = isRotating ? rotatingKeyIndexes(base, keys.length) : [keyIndex]
 
   for (const i of indexes) {
     const apiKey = keys[i]
