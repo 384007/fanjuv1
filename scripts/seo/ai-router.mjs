@@ -316,8 +316,11 @@ async function callRegistryProvider(provider, resolved, { prompt, system, maxTok
     } catch (err) {
       if (err?.status === 429) {
         const text = `${err?.message || ""}\n${err?.body || ""}`
-        const isDaily = /daily free-tier|tokens per day|token_quota_exceeded|daily.*limit|quota exceeded/i.test(text)
-        cooldownKey(base, i, isDaily ? 60 * 60 * 1000 : (retryDelayMs(err) || cooldownMs))
+        const isDaily = /daily free-tier|tokens per day|token_quota_exceeded|daily.*limit/i.test(text)
+        // "quota exceeded" alone can mean per-minute rate limit (e.g. Gemini free tier),
+        // so only treat it as daily if combined with a daily-sounding phrase.
+        const isDailyQuota = isDaily || /free_tier_requests|current quota/i.test(text)
+        cooldownKey(base, i, isDailyQuota ? 24 * 60 * 60 * 1000 : (retryDelayMs(err) || cooldownMs))
       }
       throw err
     }
@@ -373,7 +376,7 @@ function cooldownProvider(provider, err) {
   const text = `${err?.message || ""}\n${err?.body || ""}`
   let ms = 0
   if (err?.status === 401 || err?.status === 403) ms = 60 * 60 * 1000
-  else if (err?.status === 429 && /free_tier_requests|quota exceeded|current quota|daily free-tier|tokens per day|token_quota_exceeded|daily.*limit/i.test(text)) ms = 60 * 60 * 1000
+  else if (err?.status === 429 && /free_tier_requests|current quota|daily free-tier|tokens per day|token_quota_exceeded|daily.*limit/i.test(text)) ms = 24 * 60 * 60 * 1000
   else if (err?.status === 429) ms = retryDelayMs(err)
   if (ms > 0) {
     providerCooldownUntil.set(provider, Date.now() + ms)
