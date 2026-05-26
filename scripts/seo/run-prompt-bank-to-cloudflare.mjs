@@ -51,7 +51,7 @@ let routeCityNameIndexCache = null
 
 // D1/R2 publishing uses the Cloudflare API token below. Workers AI may require
 // a different token scope, so keep it out of the default generation fallback.
-process.env.AI_PROVIDER_ORDER ||= "aion,aion2,aion3,aion4,aion5,aion6,aion7,aion8,aion9,aion10,cerebras,cerebras2,cerebras3,cerebras4,groq,groq2,gemini,gemini2,openrouter,nvidia,nvidia2,cloudflare"
+process.env.AI_PROVIDER_ORDER ||= "aion,aion2,aion3,aion4,aion5,aion6,aion7,aion8,aion9,aion10,cerebras,cerebras2,cerebras3,cerebras4,cerebras5,cerebras6,groq,groq2,gemini,gemini2,openrouter,nvidia,nvidia2,cloudflare"
 
 const CLOUDFLARE_ACCOUNT_ID = cleanEnv(process.env.CLOUDFLARE_ACCOUNT_ID)
 const CLOUDFLARE_API_TOKEN = cleanToken(process.env.CLOUDFLARE_API_TOKEN || process.env.CLOUDFLARE_AUTH_TOKEN)

@@ -1,5 +1,117 @@
-const DEFAULT_ORDER = "aion,aion2,aion3,aion4,aion5,aion6,aion7,aion8,aion9,aion10,cerebras,cerebras2,cerebras3,cerebras4,groq,groq2,gemini,gemini2,openrouter,nvidia,nvidia2,cloudflare"
-const AION_DEFAULT_MODEL = "aion-labs/aion-rp-llama-3.1-8b"
+// DEFAULT_ORDER is built dynamically at startup based on how many keys are
+// configured for each provider, so adding more keys never requires a code change.
+function buildDefaultOrder() {
+  const parts = []
+  const addSlots = (base, envPrefix) => {
+    const n = getProviderKeys(envPrefix).length
+    if (n === 0) return
+    parts.push(base)
+    for (let i = 2; i <= n; i++) parts.push(`${base}${i}`)
+  }
+  // Add new providers here — that's the only place you ever need to touch.
+  addSlots("aion",       "AION_API_KEY")
+  addSlots("cerebras",   "CEREBRAS_API_KEY")
+  addSlots("groq",       "GROQ_API_KEY")
+  addSlots("gemini",     "GEMINI_API_KEY")
+  addSlots("openrouter", "OPENROUTER_API_KEY")
+  addSlots("nvidia",     "NVIDIA_API_KEY")
+  if (process.env.CLOUDFLARE_ACCOUNT_ID) parts.push("cloudflare")
+  return parts.join(",")
+}
+
+// ─── Provider registry ────────────────────────────────────────────────────────
+// Each entry describes one provider family. The router uses this table to call
+// any providerN slot without hardcoding names or counts anywhere else.
+//
+// Fields:
+//   envPrefix   – env var prefix for getProviderKeys()
+//   endpoint    – API endpoint URL (string or () => string)
+//   model       – model name (string or () => string)
+//   tokenParam  – request field for max tokens
+//   maxTokens   – optional cap on maxTokens (() => number)
+//   timeoutMs   – optional override (() => number)
+//   cooldownMs  – default cooldown on 429
+//   extraHeaders– optional extra request headers (() => object)
+//   rotating    – if true, "base" provider name rotates across all keys;
+//                 numbered variants (base2, base3…) pin to a specific key index
+//
+// To add a new AI provider: add one entry here + its env key. Done.
+const PROVIDER_REGISTRY = {
+  aion: {
+    envPrefix: "AION_API_KEY",
+    endpoint: () => process.env.AION_ENDPOINT || "https://api.aionlabs.ai/v1/chat/completions",
+    model: () => process.env.AION_MODEL || AION_DEFAULT_MODEL,
+    tokenParam: "max_tokens",
+    maxTokens: () => Math.min(Infinity, Number.parseInt(process.env.AION_MAX_TOKENS || "7200", 10)),
+    timeoutMs: () => Number.parseInt(process.env.AION_TIMEOUT_MS || "0", 10) || null,
+    cooldownMs: 60000,
+    rotating: true,
+  },
+  cerebras: {
+    envPrefix: "CEREBRAS_API_KEY",
+    endpoint: "https://api.cerebras.ai/v1/chat/completions",
+    model: () => process.env.CEREBRAS_MODEL || "qwen-3-235b-a22b-instruct-2507",
+    tokenParam: "max_completion_tokens",
+    cooldownMs: 86400000,
+    rotating: true,
+  },
+  groq: {
+    envPrefix: "GROQ_API_KEY",
+    endpoint: "https://api.groq.com/openai/v1/chat/completions",
+    model: () => process.env.GROQ_MODEL || "llama-3.3-70b-versatile",
+    tokenParam: "max_tokens",
+    maxTokens: () => Math.min(Infinity, Number.parseInt(process.env.GROQ_MAX_TOKENS || "4200", 10)),
+    cooldownMs: 60000,
+    rotating: true,
+  },
+  gemini: {
+    envPrefix: "GEMINI_API_KEY",
+    endpoint: "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+    model: () => process.env.GEMINI_MODEL || "gemini-2.5-flash-lite",
+    tokenParam: "max_tokens",
+    cooldownMs: 3600000,
+    rotating: true,
+  },
+  openrouter: {
+    envPrefix: "OPENROUTER_API_KEY",
+    endpoint: "https://openrouter.ai/api/v1/chat/completions",
+    model: () => process.env.OPENROUTER_MODEL || "meta-llama/llama-3.3-70b-instruct:free",
+    tokenParam: "max_tokens",
+    cooldownMs: 30000,
+    extraHeaders: () => ({
+      "HTTP-Referer": process.env.OPENROUTER_SITE_URL || "https://fanju.app",
+      "X-Title": process.env.OPENROUTER_APP_NAME || "Fanju SEO Publisher",
+    }),
+    rotating: true,
+  },
+  nvidia: {
+    envPrefix: "NVIDIA_API_KEY",
+    endpoint: "https://integrate.api.nvidia.com/v1/chat/completions",
+    model: () => process.env.NVIDIA_MODEL || "nvidia/llama-3.3-nemotron-super-49b-v1",
+    tokenParam: "max_tokens",
+    timeoutMs: () => Number.parseInt(process.env.NVIDIA_TIMEOUT_MS || "30000", 10),
+    cooldownMs: 60000,
+    rotating: true,
+  },
+}
+
+// Resolve a provider name like "cerebras", "cerebras2", "groq5" to its registry
+// entry and the specific key index to use. Returns null if not in registry.
+function resolveProvider(provider) {
+  // Exact match (base name, e.g. "groq")
+  if (PROVIDER_REGISTRY[provider]) {
+    return { entry: PROVIDER_REGISTRY[provider], base: provider, keyIndex: null }
+  }
+  // Numbered variant (e.g. "groq2", "cerebras10")
+  const m = provider.match(/^([a-z]+?)(\d+)$/)
+  if (m && PROVIDER_REGISTRY[m[1]]) {
+    return { entry: PROVIDER_REGISTRY[m[1]], base: m[1], keyIndex: Number.parseInt(m[2], 10) - 1 }
+  }
+  return null
+}
+
+const DEFAULT_ORDER = buildDefaultOrder()
+const AION_DEFAULT_MODEL = "aion-labs/aion-2.5"
 const providerCooldownUntil = new Map()
 const providerLocks = new Map()
 
@@ -12,7 +124,7 @@ function getProviderKeys(envPrefix) {
   const keys = []
   const base = process.env[envPrefix]
   if (base) keys.push(base)
-  for (let i = 2; i <= 10; i++) {
+  for (let i = 2; i <= 99; i++) {
     const k = process.env[`${envPrefix}_${i}`]
     if (k) keys.push(k)
     else break
@@ -21,12 +133,12 @@ function getProviderKeys(envPrefix) {
 }
 
 function isAionProvider(provider) {
-  return provider === "aion" || /^aion(?:[2-9]|10)$/.test(provider)
+  return provider === "aion" || /^aion\d+$/.test(provider)
 }
 
 function aionKeyIndex(provider) {
   if (provider === "aion") return process.env.ASSIGN_PROVIDER_PER_CITY === "1" ? 0 : null
-  const match = provider.match(/^aion([2-9]|10)$/)
+  const match = provider.match(/^aion(\d+)$/)
   return match ? Number.parseInt(match[1], 10) - 1 : undefined
 }
 
@@ -52,19 +164,13 @@ async function withProviderLock(provider, task) {
   }
 }
 
-// Log key counts at startup
-;["AION_API_KEY", "GROQ_API_KEY", "CEREBRAS_API_KEY", "NVIDIA_API_KEY", "GEMINI_API_KEY", "OPENROUTER_API_KEY"].forEach((prefix) => {
-  const n = getProviderKeys(prefix).length
-  console.log(`[ai-router] ${prefix}: ${n} key(s) loaded`)
+// Log key counts at startup — reads from registry so new providers appear automatically
+Object.entries(PROVIDER_REGISTRY).forEach(([name, entry]) => {
+  const n = getProviderKeys(entry.envPrefix).length
+  if (n > 0) console.log(`[ai-router] ${entry.envPrefix}: ${n} key(s) loaded`)
 })
+console.log(`[ai-router] active order: ${DEFAULT_ORDER || "(none — check env keys)"}`)
 
-// Log which providers in the default order are actually configured
-{
-  const configured = DEFAULT_ORDER.split(",").filter((p) => isProviderConfigured(p.trim().toLowerCase()))
-  const skipped = DEFAULT_ORDER.split(",").filter((p) => !isProviderConfigured(p.trim().toLowerCase()))
-  if (configured.length) console.log(`[ai-router] configured providers: ${configured.join(", ")}`)
-  if (skipped.length)    console.log(`[ai-router] skipped (no key): ${skipped.join(", ")}`)
-}
 
 function cooldownKey(provider, keyIndex, ms) {
   const mapKey = `${provider}:${keyIndex}`
@@ -92,13 +198,19 @@ export function sleep(ms) {
 }
 
 function cleanContent(content = "") {
-  return String(content)
+  const cleaned = String(content)
     .replace(/^```json\s*/i, "")
     .replace(/^```markdown\s*/i, "")
     .replace(/```\s*$/i, "")
     .replace(/^Here is[\s\S]*?\n/i, "")
     .replace(/^Below is[\s\S]*?\n/i, "")
     .trim()
+  // If the model returned HTML meta tags instead of JSON/Markdown, reject it
+  // immediately so the router can fall through to the next provider.
+  if (/^<(title|meta|html|head|body|!DOCTYPE)/i.test(cleaned) || /<title[\s>]/i.test(cleaned)) {
+    throw Object.assign(new Error("provider returned HTML instead of JSON/Markdown"), { status: 422 })
+  }
+  return cleaned
 }
 
 function timeoutPromise(ms, label) {
@@ -191,235 +303,70 @@ async function callCloudflare({ prompt, system, maxTokens, timeoutMs }) {
   return Promise.race([req(), timeoutPromise(timeoutMs, "Cloudflare")])
 }
 
-async function callAion(provider, { prompt, system, maxTokens, timeoutMs }) {
-  const keys = getProviderKeys("AION_API_KEY")
-  const endpoint = process.env.AION_ENDPOINT || "https://api.aionlabs.ai/v1/chat/completions"
-  const model = process.env.AION_MODEL || AION_DEFAULT_MODEL
-  const effectiveMaxTokens = Math.min(maxTokens, Number.parseInt(process.env.AION_MAX_TOKENS || "7200", 10))
-  const effectiveTimeoutMs = Number.parseInt(process.env.AION_TIMEOUT_MS || String(timeoutMs), 10)
-  const keyIndex = aionKeyIndex(provider)
+async function callRegistryProvider(provider, resolved, { prompt, system, maxTokens, timeoutMs }) {
+  const { entry, base, keyIndex } = resolved
+  const keys = getProviderKeys(entry.envPrefix)
+  const endpoint = typeof entry.endpoint === "function" ? entry.endpoint() : entry.endpoint
+  const model = typeof entry.model === "function" ? entry.model() : entry.model
+  const tokenParam = entry.tokenParam || "max_tokens"
+  const effectiveMaxTokens = entry.maxTokens ? Math.min(maxTokens, entry.maxTokens()) : maxTokens
+  const effectiveTimeoutMs = (entry.timeoutMs ? entry.timeoutMs() : null) || timeoutMs
+  const extraHeaders = entry.extraHeaders ? entry.extraHeaders() : {}
+  const cooldownMs = entry.cooldownMs || 15000
 
-  if (keyIndex === undefined) throw new Error(`Unknown Aion provider: ${provider}`)
+  // Base provider name (e.g. "groq") rotates across all keys.
+  // Numbered variant (e.g. "groq2") pins to a specific key index.
+  const isRotating = keyIndex === null && entry.rotating && process.env.ASSIGN_PROVIDER_PER_CITY !== "1"
+  const indexes = isRotating ? rotatingKeyIndexes(base, keys.length) : [keyIndex ?? 0]
 
-  const indexes = keyIndex === null ? rotatingKeyIndexes("aion", keys.length) : [keyIndex]
   for (const i of indexes) {
     const apiKey = keys[i]
     if (!apiKey) {
-      if (keyIndex !== null) throw Object.assign(new Error(`${provider}: key not configured`), { status: 503 })
+      if (!isRotating) throw Object.assign(new Error(`${provider}: key not configured`), { status: 503 })
       continue
     }
-
-    if ((keyCooldownUntil.get(`aion:${i}`) || 0) > Date.now()) {
-      if (keyIndex !== null) throw Object.assign(new Error(`${provider}: key on cooldown`), { status: 429 })
+    if ((keyCooldownUntil.get(`${base}:${i}`) || 0) > Date.now()) {
+      if (!isRotating) throw Object.assign(new Error(`${provider}: key on cooldown`), { status: 429 })
       continue
     }
-
     try {
       return await callOpenAICompat({
-        label: `Aion[${i}]`,
-        endpoint,
-        apiKey,
-        model,
-        prompt,
-        system,
-        maxTokens: effectiveMaxTokens,
-        timeoutMs: effectiveTimeoutMs,
-        tokenParam: "max_tokens",
-        useJsonFormat: false,
+        label: `${base}[${i}]`, endpoint, apiKey, model, prompt, system,
+        maxTokens: effectiveMaxTokens, timeoutMs: effectiveTimeoutMs,
+        tokenParam, extraHeaders,
       })
     } catch (err) {
       if (err?.status === 429) {
-        cooldownKey("aion", i, retryDelayMs(err) || 60000)
-        if (keyIndex === null) continue
+        cooldownKey(base, i, retryDelayMs(err) || cooldownMs)
+        if (isRotating) continue
       }
       throw err
     }
   }
-
-  throw Object.assign(new Error("Aion: all keys on cooldown"), { status: 429 })
+  throw Object.assign(new Error(`${base}: all keys on cooldown`), { status: 429 })
 }
 
 async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) {
+  // Aion has special per-city assignment logic, keep its own path
   if (isAionProvider(provider)) {
-    return callAion(provider, { prompt, system, maxTokens, timeoutMs })
-  }
-
-  if (provider === "openrouter") {
-    const keys = getProviderKeys("OPENROUTER_API_KEY")
-    for (const i of rotatingKeyIndexes("openrouter", keys.length)) {
-      if ((keyCooldownUntil.get(`openrouter:${i}`) || 0) > Date.now()) continue
-      try {
-        return await callOpenAICompat({
-          label: `OpenRouter[${i}]`, endpoint: "https://openrouter.ai/api/v1/chat/completions",
-          apiKey: keys[i], model: process.env.OPENROUTER_MODEL || "meta-llama/llama-3.3-70b-instruct:free",
-          prompt, system, maxTokens, timeoutMs, tokenParam: "max_tokens",
-          extraHeaders: { "HTTP-Referer": process.env.OPENROUTER_SITE_URL || "https://fanju.app", "X-Title": process.env.OPENROUTER_APP_NAME || "Fanju SEO Publisher" },
-        })
-      } catch (err) {
-        if (err?.status === 429) { cooldownKey("openrouter", i, retryDelayMs(err) || 30000); continue }
-        throw err
-      }
+    const resolved = resolveProvider(provider)
+    if (!resolved) throw new Error(`Unknown Aion provider: ${provider}`)
+    // Override keyIndex for ASSIGN_PROVIDER_PER_CITY mode
+    if (provider === "aion" && process.env.ASSIGN_PROVIDER_PER_CITY === "1") {
+      resolved.keyIndex = 0
     }
-    throw Object.assign(new Error("OpenRouter: all keys on cooldown"), { status: 429 })
+    return callRegistryProvider(provider, resolved, { prompt, system, maxTokens, timeoutMs })
   }
 
-  if (provider === "groq") {
-    const keys = getProviderKeys("GROQ_API_KEY")
-    const indexes = process.env.ASSIGN_PROVIDER_PER_CITY === "1" ? [0] : rotatingKeyIndexes("groq", keys.length)
-    for (const i of indexes) {
-      if ((keyCooldownUntil.get(`groq:${i}`) || 0) > Date.now()) continue
-      try {
-        return await callOpenAICompat({
-          label: `Groq[${i}]`, endpoint: "https://api.groq.com/openai/v1/chat/completions",
-          apiKey: keys[i], model: process.env.GROQ_MODEL || "llama-3.3-70b-versatile",
-          prompt, system, maxTokens: Math.min(maxTokens, Number.parseInt(process.env.GROQ_MAX_TOKENS || "4200", 10)),
-          timeoutMs, tokenParam: "max_tokens", useJsonFormat: false,
-        })
-      } catch (err) {
-        if (err?.status === 429) { cooldownKey("groq", i, retryDelayMs(err) || 60000); continue }
-        throw err
-      }
-    }
-    throw Object.assign(new Error("Groq: all keys on cooldown"), { status: 429 })
-  }
-
-  // groq2 — pinned to key index 1
-  if (provider === "groq2") {
-    const keys = getProviderKeys("GROQ_API_KEY")
-    const i = 1; const apiKey = keys[i]
-    if (!apiKey) throw Object.assign(new Error("groq2: key not configured"), { status: 503 })
-    if ((keyCooldownUntil.get(`groq:${i}`) || 0) > Date.now()) throw Object.assign(new Error("groq2: key on cooldown"), { status: 429 })
-    try {
-      return await callOpenAICompat({
-        label: `Groq[${i}]`, endpoint: "https://api.groq.com/openai/v1/chat/completions",
-        apiKey, model: process.env.GROQ_MODEL || "llama-3.3-70b-versatile",
-        prompt, system, maxTokens: Math.min(maxTokens, Number.parseInt(process.env.GROQ_MAX_TOKENS || "4200", 10)),
-        timeoutMs, tokenParam: "max_tokens", useJsonFormat: false,
-      })
-    } catch (err) {
-      if (err?.status === 429) cooldownKey("groq", i, retryDelayMs(err) || 60000)
-      throw err
-    }
-  }
-
-  if (provider === "cerebras") {
-    const keys = getProviderKeys("CEREBRAS_API_KEY")
-    const indexes = process.env.ASSIGN_PROVIDER_PER_CITY === "1" ? [0] : rotatingKeyIndexes("cerebras", keys.length)
-    for (const i of indexes) {
-      if ((keyCooldownUntil.get(`cerebras:${i}`) || 0) > Date.now()) continue
-      try {
-        return await callOpenAICompat({
-          label: `Cerebras[${i}]`, endpoint: "https://api.cerebras.ai/v1/chat/completions",
-          apiKey: keys[i], model: process.env.CEREBRAS_MODEL || "qwen-3-235b-a22b-instruct-2507",
-          prompt, system, maxTokens, timeoutMs, tokenParam: "max_completion_tokens", useJsonFormat: false,
-        })
-      } catch (err) {
-        if (err?.status === 429) { cooldownKey("cerebras", i, retryDelayMs(err) || 86400000); continue }
-        throw err
-      }
-    }
-    throw Object.assign(new Error("Cerebras: all keys on cooldown"), { status: 429 })
-  }
-
-  // cerebras2/cerebras3/cerebras4 — each pinned to a specific key index for independent parallel use
-  if (provider === "cerebras2" || provider === "cerebras3" || provider === "cerebras4") {
-    const keyIndex = provider === "cerebras2" ? 1 : provider === "cerebras3" ? 2 : 3
-    const keys = getProviderKeys("CEREBRAS_API_KEY")
-    const apiKey = keys[keyIndex]
-    if (!apiKey) throw Object.assign(new Error(`${provider}: key not configured`), { status: 503 })
-    const mapKey = `cerebras:${keyIndex}`
-    if ((keyCooldownUntil.get(mapKey) || 0) > Date.now())
-      throw Object.assign(new Error(`${provider}: key on cooldown`), { status: 429 })
-    try {
-      return await callOpenAICompat({
-        label: `Cerebras[${keyIndex}]`, endpoint: "https://api.cerebras.ai/v1/chat/completions",
-        apiKey, model: process.env.CEREBRAS_MODEL || "qwen-3-235b-a22b-instruct-2507",
-        prompt, system, maxTokens, timeoutMs, tokenParam: "max_completion_tokens", useJsonFormat: false,
-      })
-    } catch (err) {
-      if (err?.status === 429) { cooldownKey("cerebras", keyIndex, retryDelayMs(err) || 86400000) }
-      throw err
-    }
-  }
-
+  // Cloudflare has a completely different API shape
   if (provider === "cloudflare") {
     return callCloudflare({ prompt, system, maxTokens, timeoutMs })
   }
 
-  if (provider === "gemini") {
-    const keys = getProviderKeys("GEMINI_API_KEY")
-    const indexes = process.env.ASSIGN_PROVIDER_PER_CITY === "1" ? [0] : rotatingKeyIndexes("gemini", keys.length)
-    for (const i of indexes) {
-      if ((keyCooldownUntil.get(`gemini:${i}`) || 0) > Date.now()) continue
-      try {
-        return await callOpenAICompat({
-          label: `Gemini[${i}]`, endpoint: "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
-          apiKey: keys[i], model: process.env.GEMINI_MODEL || "gemini-2.5-flash-lite",
-          prompt, system, maxTokens, timeoutMs, tokenParam: "max_tokens",
-        })
-      } catch (err) {
-        if (err?.status === 429) { cooldownKey("gemini", i, retryDelayMs(err) || 3600000); continue }
-        throw err
-      }
-    }
-    throw Object.assign(new Error("Gemini: all keys on cooldown"), { status: 429 })
-  }
-
-  // gemini2 — pinned to key index 1
-  if (provider === "gemini2") {
-    const keys = getProviderKeys("GEMINI_API_KEY")
-    const i = 1; const apiKey = keys[i]
-    if (!apiKey) throw Object.assign(new Error("gemini2: key not configured"), { status: 503 })
-    if ((keyCooldownUntil.get(`gemini:${i}`) || 0) > Date.now()) throw Object.assign(new Error("gemini2: key on cooldown"), { status: 429 })
-    try {
-      return await callOpenAICompat({
-        label: `Gemini[${i}]`, endpoint: "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
-        apiKey, model: process.env.GEMINI_MODEL || "gemini-2.5-flash-lite",
-        prompt, system, maxTokens, timeoutMs, tokenParam: "max_tokens",
-      })
-    } catch (err) {
-      if (err?.status === 429) cooldownKey("gemini", i, retryDelayMs(err) || 3600000)
-      throw err
-    }
-  }
-
-  if (provider === "nvidia") {
-    const keys = getProviderKeys("NVIDIA_API_KEY")
-    const indexes = process.env.ASSIGN_PROVIDER_PER_CITY === "1" ? [0] : rotatingKeyIndexes("nvidia", keys.length)
-    for (const i of indexes) {
-      if ((keyCooldownUntil.get(`nvidia:${i}`) || 0) > Date.now()) continue
-      try {
-        return await callOpenAICompat({
-          label: `NVIDIA[${i}]`, endpoint: "https://integrate.api.nvidia.com/v1/chat/completions",
-          apiKey: keys[i], model: process.env.NVIDIA_MODEL || "nvidia/llama-3.3-nemotron-super-49b-v1",
-          prompt, system, maxTokens,
-          timeoutMs: Number.parseInt(process.env.NVIDIA_TIMEOUT_MS || "30000", 10), tokenParam: "max_tokens",
-        })
-      } catch (err) {
-        if (err?.status === 429) { cooldownKey("nvidia", i, retryDelayMs(err) || 60000); continue }
-        throw err
-      }
-    }
-    throw Object.assign(new Error("NVIDIA: all keys on cooldown"), { status: 429 })
-  }
-
-  // nvidia2 — pinned to key index 1
-  if (provider === "nvidia2") {
-    const keys = getProviderKeys("NVIDIA_API_KEY")
-    const i = 1; const apiKey = keys[i]
-    if (!apiKey) throw Object.assign(new Error("nvidia2: key not configured"), { status: 503 })
-    if ((keyCooldownUntil.get(`nvidia:${i}`) || 0) > Date.now()) throw Object.assign(new Error("nvidia2: key on cooldown"), { status: 429 })
-    try {
-      return await callOpenAICompat({
-        label: `NVIDIA[${i}]`, endpoint: "https://integrate.api.nvidia.com/v1/chat/completions",
-        apiKey, model: process.env.NVIDIA_MODEL || "nvidia/llama-3.3-nemotron-super-49b-v1",
-        prompt, system, maxTokens,
-        timeoutMs: Number.parseInt(process.env.NVIDIA_TIMEOUT_MS || "30000", 10), tokenParam: "max_tokens",
-      })
-    } catch (err) {
-      if (err?.status === 429) cooldownKey("nvidia", i, retryDelayMs(err) || 60000)
-      throw err
-    }
+  // All registry providers (cerebras, groq, gemini, openrouter, nvidia, and any future ones)
+  const resolved = resolveProvider(provider)
+  if (resolved) {
+    return callRegistryProvider(provider, resolved, { prompt, system, maxTokens, timeoutMs })
   }
 
   throw new Error(`Unknown provider: ${provider}`)
@@ -428,29 +375,15 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
 // Returns false if the provider requires a key that isn't configured, so the
 // router can skip it silently instead of attempting a call that will always fail.
 function isProviderConfigured(provider) {
-  if (isAionProvider(provider)) {
-    const keys = getProviderKeys("AION_API_KEY")
-    const keyIndex = aionKeyIndex(provider)
-    if (keyIndex === undefined) return false          // unknown aion variant
-    if (keyIndex === null) return keys.length > 0     // "aion" — needs at least one key
-    return !!keys[keyIndex]                           // aion2/3/… — needs that specific slot
-  }
-  if (provider === "groq")      return getProviderKeys("GROQ_API_KEY").length > 0
-  if (provider === "groq2")     return !!getProviderKeys("GROQ_API_KEY")[1]
-  if (provider === "cerebras")  return getProviderKeys("CEREBRAS_API_KEY").length > 0
-  if (provider === "cerebras2") return !!getProviderKeys("CEREBRAS_API_KEY")[1]
-  if (provider === "cerebras3") return !!getProviderKeys("CEREBRAS_API_KEY")[2]
-  if (provider === "cerebras4") return !!getProviderKeys("CEREBRAS_API_KEY")[3]
-  if (provider === "gemini")    return getProviderKeys("GEMINI_API_KEY").length > 0
-  if (provider === "gemini2")   return !!getProviderKeys("GEMINI_API_KEY")[1]
-  if (provider === "nvidia")    return getProviderKeys("NVIDIA_API_KEY").length > 0
-  if (provider === "nvidia2")   return !!getProviderKeys("NVIDIA_API_KEY")[1]
-  if (provider === "openrouter") return getProviderKeys("OPENROUTER_API_KEY").length > 0
   if (provider === "cloudflare") {
     return !!(process.env.CLOUDFLARE_ACCOUNT_ID &&
       (process.env.CLOUDFLARE_AI_API_TOKEN || process.env.CLOUDFLARE_API_TOKEN || process.env.CLOUDFLARE_AUTH_TOKEN))
   }
-  return true // unknown providers: let them try and fail naturally
+  const resolved = resolveProvider(provider)
+  if (!resolved) return true // unknown — let it try and fail naturally
+  const keys = getProviderKeys(resolved.entry.envPrefix)
+  if (resolved.keyIndex === null) return keys.length > 0   // base name: needs at least one key
+  return !!keys[resolved.keyIndex]                         // numbered: needs that specific slot
 }
 
 function retryDelayMs(err) {
