@@ -45,7 +45,7 @@ const PROVIDER_REGISTRY = {
     endpoint: "https://api.cerebras.ai/v1/chat/completions",
     model: () => process.env.CEREBRAS_MODEL || "qwen-3-235b-a22b-instruct-2507",
     tokenParam: "max_completion_tokens",
-    cooldownMs: 86400000,
+    cooldownMs: 30000, // queue_exceeded = high traffic, retry in 30s
     rotating: true,
   },
   groq: {
@@ -316,11 +316,10 @@ async function callRegistryProvider(provider, resolved, { prompt, system, maxTok
     } catch (err) {
       if (err?.status === 429) {
         const text = `${err?.message || ""}\n${err?.body || ""}`
-        const isDaily = /daily free-tier|tokens per day|token_quota_exceeded|daily.*limit/i.test(text)
-        // "quota exceeded" alone can mean per-minute rate limit (e.g. Gemini free tier),
-        // so only treat it as daily if combined with a daily-sounding phrase.
-        const isDailyQuota = isDaily || /free_tier_requests|current quota/i.test(text)
-        cooldownKey(base, i, isDailyQuota ? 24 * 60 * 60 * 1000 : (retryDelayMs(err) || cooldownMs))
+        // Daily/quota limits: don't lock — just fail and let the router try the next provider.
+        // Short-term rate limits: cooldown for the retry delay so we don't hammer the API.
+        const isDaily = /daily free-tier|tokens per day|token_quota_exceeded|daily.*limit|free allocation|neurons/i.test(text)
+        if (!isDaily) cooldownKey(base, i, retryDelayMs(err) || cooldownMs)
       }
       throw err
     }
@@ -373,10 +372,8 @@ function cooldownProvider(provider, err) {
   const resolved = resolveProvider(provider)
   if (resolved && resolved.keyIndex !== null) return
 
-  const text = `${err?.message || ""}\n${err?.body || ""}`
   let ms = 0
   if (err?.status === 401 || err?.status === 403) ms = 60 * 60 * 1000
-  else if (err?.status === 429 && /free_tier_requests|current quota|daily free-tier|tokens per day|token_quota_exceeded|daily.*limit/i.test(text)) ms = 24 * 60 * 60 * 1000
   else if (err?.status === 429) ms = retryDelayMs(err)
   if (ms > 0) {
     providerCooldownUntil.set(provider, Date.now() + ms)
