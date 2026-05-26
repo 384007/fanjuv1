@@ -1,80 +1,103 @@
 User-agent: *
+Disallow:
 Allow: /
 
 # OpenAI / ChatGPT
 User-agent: OAI-SearchBot
+Disallow:
 Allow: /
 
 User-agent: GPTBot
+Disallow:
 Allow: /
 
 User-agent: ChatGPT-User
+Disallow:
 Allow: /
 
 # Anthropic / Claude
 User-agent: ClaudeBot
+Disallow:
 Allow: /
 
 User-agent: Claude-SearchBot
+Disallow:
 Allow: /
 
 User-agent: Claude-User
+Disallow:
 Allow: /
 
 # Perplexity
 User-agent: PerplexityBot
+Disallow:
 Allow: /
 
 User-agent: Perplexity-User
+Disallow:
 Allow: /
 
 # Google
 User-agent: Googlebot
+Disallow:
 Allow: /
 
 User-agent: Google-Extended
+Disallow:
 Allow: /
 
 # Bing
 User-agent: Bingbot
+Disallow:
 Allow: /
 
 # Apple
 User-agent: Applebot
+Disallow:
 Allow: /
 
 User-agent: Applebot-Extended
+Disallow:
 Allow: /
 
 # Amazon
 User-agent: Amazonbot
+Disallow:
 Allow: /
 
 User-agent: Amzn-SearchBot
+Disallow:
 Allow: /
 
 User-agent: Amzn-User
+Disallow:
 Allow: /
 
 # Meta
 User-agent: Meta-ExternalAgent
+Disallow:
 Allow: /
 
 User-agent: facebookexternalhit
+Disallow:
 Allow: /
 
 # ByteDance
 User-agent: Bytespider
+Disallow:
 Allow: /
 
 # Other common AI crawlers
 User-agent: CCBot
+Disallow:
 Allow: /
 
 User-agent: anthropic-ai
+Disallow:
 Allow: /
 
 User-agent: Claude-Web
+Disallow:
 Allow: /
 
 Sitemap: https://fanju.app/sitemap-index.xml
