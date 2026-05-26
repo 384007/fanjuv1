@@ -58,6 +58,14 @@ async function withProviderLock(provider, task) {
   console.log(`[ai-router] ${prefix}: ${n} key(s) loaded`)
 })
 
+// Log which providers in the default order are actually configured
+{
+  const configured = DEFAULT_ORDER.split(",").filter((p) => isProviderConfigured(p.trim().toLowerCase()))
+  const skipped = DEFAULT_ORDER.split(",").filter((p) => !isProviderConfigured(p.trim().toLowerCase()))
+  if (configured.length) console.log(`[ai-router] configured providers: ${configured.join(", ")}`)
+  if (skipped.length)    console.log(`[ai-router] skipped (no key): ${skipped.join(", ")}`)
+}
+
 function cooldownKey(provider, keyIndex, ms) {
   const mapKey = `${provider}:${keyIndex}`
   keyCooldownUntil.set(mapKey, Date.now() + ms)
@@ -417,6 +425,34 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
   throw new Error(`Unknown provider: ${provider}`)
 }
 
+// Returns false if the provider requires a key that isn't configured, so the
+// router can skip it silently instead of attempting a call that will always fail.
+function isProviderConfigured(provider) {
+  if (isAionProvider(provider)) {
+    const keys = getProviderKeys("AION_API_KEY")
+    const keyIndex = aionKeyIndex(provider)
+    if (keyIndex === undefined) return false          // unknown aion variant
+    if (keyIndex === null) return keys.length > 0     // "aion" — needs at least one key
+    return !!keys[keyIndex]                           // aion2/3/… — needs that specific slot
+  }
+  if (provider === "groq")      return getProviderKeys("GROQ_API_KEY").length > 0
+  if (provider === "groq2")     return !!getProviderKeys("GROQ_API_KEY")[1]
+  if (provider === "cerebras")  return getProviderKeys("CEREBRAS_API_KEY").length > 0
+  if (provider === "cerebras2") return !!getProviderKeys("CEREBRAS_API_KEY")[1]
+  if (provider === "cerebras3") return !!getProviderKeys("CEREBRAS_API_KEY")[2]
+  if (provider === "cerebras4") return !!getProviderKeys("CEREBRAS_API_KEY")[3]
+  if (provider === "gemini")    return getProviderKeys("GEMINI_API_KEY").length > 0
+  if (provider === "gemini2")   return !!getProviderKeys("GEMINI_API_KEY")[1]
+  if (provider === "nvidia")    return getProviderKeys("NVIDIA_API_KEY").length > 0
+  if (provider === "nvidia2")   return !!getProviderKeys("NVIDIA_API_KEY")[1]
+  if (provider === "openrouter") return getProviderKeys("OPENROUTER_API_KEY").length > 0
+  if (provider === "cloudflare") {
+    return !!(process.env.CLOUDFLARE_ACCOUNT_ID &&
+      (process.env.CLOUDFLARE_AI_API_TOKEN || process.env.CLOUDFLARE_API_TOKEN || process.env.CLOUDFLARE_AUTH_TOKEN))
+  }
+  return true // unknown providers: let them try and fail naturally
+}
+
 function retryDelayMs(err) {
   const text = `${err?.message || ""}\n${err?.body || ""}`
   const retry = text.match(/(?:retry|try again) in ([0-9.]+)\s*s/i)
@@ -452,6 +488,11 @@ export async function generateWithRouter({ prompt, system, maxTokens = 1200, tim
   let soonestCooldownUntil = Infinity
 
   for (const provider of order) {
+    if (!isProviderConfigured(provider)) {
+      // silently skip — no key configured for this slot
+      continue
+    }
+
     const cooldownUntil = providerCooldownUntil.get(provider) || 0
     if (cooldownUntil > Date.now()) {
       const remaining = Math.ceil((cooldownUntil - Date.now()) / 1000)
