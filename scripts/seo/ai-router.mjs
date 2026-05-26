@@ -1,4 +1,5 @@
-const DEFAULT_ORDER = "groq,nvidia,cerebras,gemini,openrouter,cloudflare"
+const DEFAULT_ORDER = "aion,aion2,aion3,aion4,aion5,aion6,aion7,aion8,aion9,aion10,cerebras,cerebras2,cerebras3,cerebras4,groq,groq2,gemini,gemini2,openrouter,nvidia,nvidia2,cloudflare"
+const AION_DEFAULT_MODEL = "aion-labs/aion-rp-llama-3.1-8b"
 const providerCooldownUntil = new Map()
 
 // Multi-key support: GROQ_API_KEY, GROQ_API_KEY_2, GROQ_API_KEY_3, ...
@@ -18,8 +19,18 @@ function getProviderKeys(envPrefix) {
   return keys
 }
 
+function isAionProvider(provider) {
+  return provider === "aion" || /^aion(?:[2-9]|10)$/.test(provider)
+}
+
+function aionKeyIndex(provider) {
+  if (provider === "aion") return null
+  const match = provider.match(/^aion([2-9]|10)$/)
+  return match ? Number.parseInt(match[1], 10) - 1 : undefined
+}
+
 // Log key counts at startup
-;["GROQ_API_KEY", "CEREBRAS_API_KEY", "NVIDIA_API_KEY", "GEMINI_API_KEY", "OPENROUTER_API_KEY"].forEach((prefix) => {
+;["AION_API_KEY", "GROQ_API_KEY", "CEREBRAS_API_KEY", "NVIDIA_API_KEY", "GEMINI_API_KEY", "OPENROUTER_API_KEY"].forEach((prefix) => {
   const n = getProviderKeys(prefix).length
   console.log(`[ai-router] ${prefix}: ${n} key(s) loaded`)
 })
@@ -149,7 +160,59 @@ async function callCloudflare({ prompt, system, maxTokens, timeoutMs }) {
   return Promise.race([req(), timeoutPromise(timeoutMs, "Cloudflare")])
 }
 
+async function callAion(provider, { prompt, system, maxTokens, timeoutMs }) {
+  const keys = getProviderKeys("AION_API_KEY")
+  const endpoint = process.env.AION_ENDPOINT || "https://api.aionlabs.ai/v1/chat/completions"
+  const model = process.env.AION_MODEL || AION_DEFAULT_MODEL
+  const effectiveMaxTokens = Math.min(maxTokens, Number.parseInt(process.env.AION_MAX_TOKENS || "7200", 10))
+  const effectiveTimeoutMs = Number.parseInt(process.env.AION_TIMEOUT_MS || String(timeoutMs), 10)
+  const keyIndex = aionKeyIndex(provider)
+
+  if (keyIndex === undefined) throw new Error(`Unknown Aion provider: ${provider}`)
+
+  const indexes = keyIndex === null ? rotatingKeyIndexes("aion", keys.length) : [keyIndex]
+  for (const i of indexes) {
+    const apiKey = keys[i]
+    if (!apiKey) {
+      if (keyIndex !== null) throw Object.assign(new Error(`${provider}: key not configured`), { status: 503 })
+      continue
+    }
+
+    if ((keyCooldownUntil.get(`aion:${i}`) || 0) > Date.now()) {
+      if (keyIndex !== null) throw Object.assign(new Error(`${provider}: key on cooldown`), { status: 429 })
+      continue
+    }
+
+    try {
+      return await callOpenAICompat({
+        label: `Aion[${i}]`,
+        endpoint,
+        apiKey,
+        model,
+        prompt,
+        system,
+        maxTokens: effectiveMaxTokens,
+        timeoutMs: effectiveTimeoutMs,
+        tokenParam: "max_tokens",
+        useJsonFormat: false,
+      })
+    } catch (err) {
+      if (err?.status === 429) {
+        cooldownKey("aion", i, retryDelayMs(err) || 60000)
+        if (keyIndex === null) continue
+      }
+      throw err
+    }
+  }
+
+  throw Object.assign(new Error("Aion: all keys on cooldown"), { status: 429 })
+}
+
 async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) {
+  if (isAionProvider(provider)) {
+    return callAion(provider, { prompt, system, maxTokens, timeoutMs })
+  }
+
   if (provider === "openrouter") {
     const keys = getProviderKeys("OPENROUTER_API_KEY")
     for (const i of rotatingKeyIndexes("openrouter", keys.length)) {

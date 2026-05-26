@@ -30,7 +30,7 @@ OUTPUT_PATHS = [
     "public/sitemap-index.xml",
 ]
 
-AI_PROVIDER_ORDER = "cerebras,cerebras2,cerebras3,cerebras4,groq,groq2,gemini,gemini2,openrouter,nvidia,nvidia2,cloudflare"
+AI_PROVIDER_ORDER = "aion,aion2,aion3,aion4,aion5,aion6,aion7,aion8,aion9,aion10,cerebras,cerebras2,cerebras3,cerebras4,groq,groq2,gemini,gemini2,openrouter,nvidia,nvidia2,cloudflare"
 
 image = (
     modal.Image.debian_slim()
@@ -1171,7 +1171,7 @@ def list_outputs():
 def check_keys():
     """Check which AI keys are loaded: python3 -m modal run modal_growth_agent.py::check_keys"""
     import os
-    for prefix in ["GROQ_API_KEY", "CEREBRAS_API_KEY", "NVIDIA_API_KEY", "GEMINI_API_KEY", "OPENROUTER_API_KEY"]:
+    for prefix in ["AION_API_KEY", "GROQ_API_KEY", "CEREBRAS_API_KEY", "NVIDIA_API_KEY", "GEMINI_API_KEY", "OPENROUTER_API_KEY"]:
         found = [k for k in [prefix] + [f"{prefix}_{i}" for i in range(2, 11)] if os.environ.get(k)]
         print(f"{prefix}: {len(found)} key(s) found: {found or 'NONE'}", flush=True)
     for k in ["CLOUDFLARE_ACCOUNT_ID", "CLOUDFLARE_AI_API_TOKEN", "CLOUDFLARE_API_TOKEN", "GITHUB_TOKEN", "GH_TOKEN", "GITHUB_REPOSITORY", "GITHUB_REPO"]:
