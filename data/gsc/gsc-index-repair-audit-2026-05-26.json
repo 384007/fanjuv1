@@ -1,0 +1,72 @@
+{
+  "source": "GSC Page indexing exports merged 2026-05-26",
+  "generated_at": "2026-05-26",
+  "total_unique_normalized_urls": 280,
+  "policy": {
+    "Not found (404)": "fixed: add missing route/content or redirect stale URL",
+    "Crawled - currently not indexed": "fixed where content page; strengthen thin templates; noindex or accept non-HTML utility resources",
+    "Page with redirect": "do not force-index redirected variants; keep final canonical URLs as index targets",
+    "Alternate page with proper canonical tag": "do not force-index canonical alternates; validate canonical targets instead"
+  },
+  "counts": {
+    "Not found (404)": 7,
+    "Page with redirect": 32,
+    "Crawled - currently not indexed": 38,
+    "Alternate page with proper canonical tag": 203
+  },
+  "not_found_404": [
+    {"u":"/en/city/bangkok/newcomer-dinner","status":"fixed_content_added","target":"content/seo-ready/gsc-repair-en-bangkok-newcomer-dinner.md"},
+    {"u":"/en/city/tongling/art-dinner","status":"fixed_content_added","target":"content/seo-ready/gsc-repair-en-tongling-art-dinner.md"},
+    {"u":"/city/fuzhou","status":"fixed_content_added","target":"content/seo-ready/gsc-repair-city-fuzhou.md"},
+    {"u":"/city/hefei","status":"fixed_content_added","target":"content/seo-ready/gsc-repair-city-hefei.md"},
+    {"u":"/city/tongling/coffee-chat-dinner","status":"fixed_content_added","target":"content/seo-ready/gsc-repair-tongling-coffee-chat-dinner.md"},
+    {"u":"/city/jinan","status":"fixed_content_added","target":"content/seo-ready/gsc-repair-city-jinan.md"},
+    {"u":"/delivery","status":"fixed_redirect","target":"public/_redirects"}
+  ],
+  "crawled_currently_not_indexed": [
+    {"u":"/city/baishan/singles-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-baishan-singles-dinner.md"},
+    {"u":"/city/gannan/hardware-engineer-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-gannan-hardware-engineer-dinner.md"},
+    {"u":"/city/london/newcomer-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-london-newcomer-dinner.md"},
+    {"u":"/city/suzhou-anhui/documentary-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-suzhou-anhui-documentary-dinner.md"},
+    {"u":"/city/sydney/founder-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-sydney-founder-dinner.md"},
+    {"u":"/city/weinan/potluck-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-weinan-potluck-dinner.md"},
+    {"u":"/city/xinyang/community-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-xinyang-community-dinner.md"},
+    {"u":"/city/xuancheng/morning-routine-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-xuancheng-morning-routine-dinner.md"},
+    {"u":"/city/yaan/korean-learner-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-yaan-korean-learner-dinner.md"},
+    {"u":"/city/yangquan/yoga-instructor-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-yangquan-yoga-instructor-dinner.md"},
+    {"u":"/en/city/baghdad/poetry-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-en-baghdad-poetry-dinner.md"},
+    {"u":"/en/city/beijing/newcomer-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-en-beijing-newcomer-dinner.md"},
+    {"u":"/en/city/casablanca/language-exchange-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-en-casablanca-language-exchange-dinner.md"},
+    {"u":"/en/city/phoenix/mandarin-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-en-phoenix-mandarin-dinner.md"},
+    {"u":"/en/city/seoul/pottery-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-en-seoul-pottery-dinner.md"},
+    {"u":"/en/city/vienna/table-tennis-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-en-vienna-table-tennis-dinner.md"},
+    {"u":"/city/anshan/night-owl-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-anshan-night-owl-dinner.md"},
+    {"u":"/city/guangzhou/productivity-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-guangzhou-productivity-dinner.md"},
+    {"u":"/city/ningbo/weekend-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-ningbo-weekend-dinner.md"},
+    {"u":"/city/quanzhou/badminton-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-quanzhou-badminton-dinner.md"},
+    {"u":"/city/san-francisco/board-game-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-san-francisco-board-game-dinner.md"},
+    {"u":"/city/san-francisco/sports-fan-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-san-francisco-sports-fan-dinner.md"},
+    {"u":"/city/shantou/digital-detox-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-shantou-digital-detox-dinner.md"},
+    {"u":"/city/tokyo","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-city-tokyo.md"},
+    {"u":"/en/category/newcomer-dinner","status":"fixed_template_strengthened","target":"app/en/category/[category]/page.tsx"},
+    {"u":"/en/city/buenos-aires/rooftop-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-en-buenos-aires-rooftop-dinner.md"},
+    {"u":"/en/city/dublin/music-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-en-dublin-music-dinner.md"},
+    {"u":"/en/city/guangzhou/curated-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-en-guangzhou-curated-dinner.md"},
+    {"u":"/en/city/moscow/table-tennis-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-en-moscow-table-tennis-dinner.md"},
+    {"u":"/en/city/san-francisco/sports-fan-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-en-san-francisco-sports-fan-dinner.md"},
+    {"u":"/en/city/zurich/productivity-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-en-zurich-productivity-dinner.md"},
+    {"u":"/en/q/what-to-prepare-before-dinner","status":"fixed_template_strengthened","target":"app/en/q/[slug]/page.tsx"},
+    {"u":"/guides/singles-dinner-guide","status":"fixed_template_strengthened","target":"app/guides/[slug]/page.tsx"},
+    {"u":"/photos","status":"fixed_template_strengthened","target":"app/photos/page.tsx"},
+    {"u":"/en/city/tianjin/stranger-dinner","status":"fixed_content_added","target":"content/seo-ready/zz-gsc-repair-en-tianjin-stranger-dinner.md"},
+    {"u":"/llms.txt","status":"fixed_noindex_resource","target":"public/_headers"},
+    {"u":"/sitemap.xml","status":"fixed_noindex_resource","target":"public/_headers"},
+    {"u":"/manifest.webmanifest","status":"resource_ok_no_force_index","target":"none:pwa_manifest_non_html_resource"}
+  ],
+  "page_with_redirect": [
+    "/categories","/category/business-dinner","/category/stranger-dinner","/en/city/melbourne/business-dinner","/en/city/tianjin/founder-dinner","/invite","/private-dinner-club","/product-map","/reminders","/china-social-dining","/city/chengdu/stranger-dinner","/en/city/hong-kong/chinese-social-dining","/en/city/ningbo/founder-dinner","/guest-tools","/cities","/city/athens/coffee-chat-dinner","/en/city/nanjing/founder-dinner","/en/city/shanghai/local-dinner","/host-tools","/polls","/en/features","/faq","/en/city/hong-kong/business-dinner","/responses","/category/founder-dinner","/city/guangzhou","/en/city/zhuhai/stranger-dinner","/explore","/templates","/","/en/features/public-events","/matching"
+  ],
+  "alternate_canonical": [
+    "/category/newcomer-dinner","/city/new-york/curated-dinner","/en/city/shanghai/chinese-social-dining","/city/beijing/dinner-buddy","/city/dongguan/business-dinner","/city/hong-kong/singles-dinner","/city/london","/city/xian/singles-dinner","/city/zhuhai/business-dinner","/en/city/dongguan/singles-dinner","/en/city/hangzhou/dinner-buddy","/en/city/hong-kong/singles-dinner","/en/city/los-angeles/curated-dinner","/en/city/san-francisco/newcomer-dinner","/en/city/shanghai/singles-dinner","/en/city/tokyo/chinese-social-dining","/en/city/zhuhai/business-dinner","/city/beijing","/city/chongqing","/city/guangzhou/dinner-buddy","/en/city/beijing/dinner-buddy","/en/city/dongguan/founder-dinner","/features/rsvp-tracking","/city/beijing/founder-dinner","/city/hangzhou/dinner-buddy","/city/hangzhou/weekend-dinner","/city/hong-kong","/city/shanghai/dinner-buddy","/city/shenzhen/dinner-buddy","/city/sydney/singles-dinner","/en/city/guangzhou/dinner-buddy","/en/city/shenzhen/dinner-buddy","/en/city/singapore/singles-dinner","/en/city/taipei/business-dinner","/en/city/zhengzhou/curated-dinner","/companions","/en/category/dinner-buddy","/en/city/shanghai/dinner-buddy","/category/singles-dinner","/city/beijing/high-quality-social-dining","/city/beijing/local-dinner","/city/dongguan/singles-dinner","/city/foshan/singles-dinner","/city/guangzhou/high-quality-social-dining","/city/hangzhou/high-quality-social-dining","/city/hangzhou/local-dinner","/city/london/business-dinner","/city/los-angeles/business-dinner","/city/los-angeles/singles-dinner","/city/melbourne/business-dinner","/city/ningbo/curated-dinner","/city/qingdao/founder-dinner","/city/qingdao/singles-dinner","/city/san-francisco/business-dinner","/city/san-francisco/singles-dinner","/city/shanghai/curated-dinner","/city/shanghai/high-quality-social-dining","/city/shanghai/local-dinner","/city/shenzhen/high-quality-social-dining","/city/shenzhen/local-dinner","/city/tokyo/chinese-social-dining","/city/vancouver/business-dinner","/en/city/dongguan/business-dinner","/en/city/foshan/business-dinner","/en/city/foshan/singles-dinner","/en/city/guangzhou/high-quality-social-dining","/en/city/guangzhou/local-dinner","/en/city/hangzhou/high-quality-social-dining","/en/city/london/business-dinner","/en/city/london/chinese-social-dining","/en/city/los-angeles/business-dinner","/en/city/los-angeles/singles-dinner","/en/city/melbourne/singles-dinner","/en/city/san-francisco/business-dinner","/en/city/shenzhen/high-quality-social-dining","/en/city/tokyo/curated-dinner","/en/city/tokyo/student-dinner","/en/city/zhuhai/founder-dinner","/en/features/guest-list","/en/features/rsvp-tracking","/event-settings","/features/text-blast","/how-to-host-a-dinner-gathering","/memories","/seoul-social-dining","/taiwan-social-dining","/tokyo-social-dining","/bulk-invite","/channels","/city/dongguan","/city/dongguan/founder-dinner","/city/foshan/business-dinner","/city/foshan/founder-dinner","/city/guangzhou/local-dinner","/city/london/singles-dinner","/city/los-angeles/curated-dinner","/city/melbourne/curated-dinner","/city/melbourne/singles-dinner","/city/new-york/business-dinner","/city/ningbo/founder-dinner","/city/qingdao/business-dinner","/city/qingdao/curated-dinner","/city/singapore/chinese-social-dining","/city/singapore/singles-dinner","/city/sydney/curated-dinner","/city/taipei/business-dinner","/city/taipei/curated-dinner","/city/tianjin/curated-dinner","/city/tianjin/singles-dinner","/city/tokyo/curated-dinner","/city/tokyo/student-dinner","/city/toronto/curated-dinner","/city/toronto/singles-dinner","/city/vancouver/curated-dinner","/city/vancouver/singles-dinner","/city/zhengzhou/founder-dinner","/city/zhengzhou/singles-dinner","/city/zhuhai/curated-dinner","/city/zhuhai/founder-dinner","/covers","/effects","/en/city/dongguan","/en/city/guangzhou","/en/city/london","/en/city/qingdao/business-dinner","/en/city/sydney/student-dinner","/en/city/tianjin/curated-dinner","/en/city/toronto/singles-dinner","/en/features/photo-album","/features/photo-album","/find-time","/guest-groups","/place-note","/protected","/reinvite","/safety","/saved","/schedule","/seat-window","/style","/table-broadcast","/calendar","/category/weekend-dinner","/city/suzhou","/city/tianjin","/city/toronto","/comments","/create","/en/city/new-york","/en/city/shenzhen","/en/city/xian/singles-dinner","/features/date-poll","/feedback","/market","/questions","/rsvp","/rules","/seat-check","/what-is-fanju","/ai-social-dining","/city/beijing/student-dinner","/city/guangzhou/founder-dinner","/city/hong-kong/business-dinner","/city/london/chinese-social-dining","/city/london/student-dinner","/city/new-york","/city/new-york/chinese-social-dining","/city/shanghai/chinese-social-dining","/city/shenzhen/curated-dinner","/city/singapore/newcomer-dinner","/city/sydney/student-dinner","/city/tokyo/newcomer-dinner","/city/wuhan/singles-dinner","/city/xian","/en/category/stranger-dinner","/en/city/beijing/founder-dinner","/en/city/beijing/singles-dinner","/en/city/chengdu/singles-dinner","/en/city/hangzhou/singles-dinner","/en/city/london/singles-dinner","/en/city/new-york/business-dinner","/en/city/ningbo/singles-dinner","/en/city/qingdao","/en/city/san-francisco/curated-dinner","/en/city/shanghai/business-dinner","/en/city/shanghai/curated-dinner","/en/city/sydney/business-dinner","/en/city/taipei","/en/city/taipei/singles-dinner","/en/city/tokyo/founder-dinner","/en/city/tokyo/newcomer-dinner","/en/city/wuhan/singles-dinner","/en/city/xiamen/founder-dinner","/en/city/zhengzhou/business-dinner","/en/city/zhuhai/singles-dinner","/en/features/singles-matching","/guests","/hong-kong-social-dining","/host-console","/hosts","/local-gatherings","/nearby","/table"
+  ]
+}
