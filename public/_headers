@@ -16,3 +16,9 @@
 
 /sitemap.xml
   X-Robots-Tag: noindex
+
+/sitemap-index.xml
+  X-Robots-Tag: noindex
+
+/product-sitemap.xml
+  X-Robots-Tag: noindex
