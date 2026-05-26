@@ -7,7 +7,7 @@ import { execFileSync } from "child_process"
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "fs"
 import { dirname, join } from "path"
 import { fileURLToPath } from "url"
-import { generateWithRouter, sleep } from "./ai-router.mjs"
+import { generateWithRouter, sleep, DEFAULT_PROVIDER_ORDER } from "./ai-router.mjs"
 import {
   ARTICLE_BRIEF_VERSION,
   historicalSkipReason,
@@ -1746,8 +1746,9 @@ function rotateProviderOrder(order, attempt) {
 }
 
 function providerOrderForPrompt(prompt) {
+  const defaultOrder = process.env.AI_PROVIDER_ORDER || DEFAULT_PROVIDER_ORDER
   if (ASSIGN_PROVIDER_PER_CITY) {
-    const providers = (process.env.AI_PROVIDER_ORDER || "groq,nvidia,cerebras,gemini,openrouter,cloudflare")
+    const providers = defaultOrder
       .split(",")
       .map((x) => x.trim().toLowerCase())
       .filter(Boolean)
@@ -1760,14 +1761,14 @@ function providerOrderForPrompt(prompt) {
   }
 
   if (process.env.FORCE_PROVIDER_ORDER === "1") {
-    return (process.env.AI_PROVIDER_ORDER || "groq,nvidia,cerebras,gemini,openrouter,cloudflare")
+    return defaultOrder
       .split(",")
       .map((x) => x.trim().toLowerCase())
       .filter(Boolean)
       .join(",")
   }
 
-  const lanes = (process.env.AI_PROVIDER_LANES || process.env.AI_PROVIDER_ORDER || "groq,nvidia,cerebras,gemini,openrouter,cloudflare")
+  const lanes = (process.env.AI_PROVIDER_LANES || defaultOrder)
     .split(",")
     .map((x) => x.trim().toLowerCase())
     .filter(Boolean)

@@ -176,6 +176,7 @@ function rotatingKeyIndexes(provider, keyCount) {
   return Array.from({ length: keyCount }, (_, offset) => (start + offset) % keyCount)
 }
 
+export { DEFAULT_ORDER as DEFAULT_PROVIDER_ORDER }
 export function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms))
 }
@@ -297,10 +298,12 @@ async function callRegistryProvider(provider, resolved, { prompt, system, maxTok
   const extraHeaders = entry.extraHeaders ? entry.extraHeaders() : {}
   const cooldownMs = entry.cooldownMs || 15000
 
-  // Base provider name (e.g. "groq") always rotates across all keys.
+  // Base provider name (e.g. "groq") tries ONE key per call (rotating across calls).
   // Numbered variant (e.g. "groq2") pins to a specific key index.
+  // This ensures base + numbered variants each get a fair shot rather than
+  // base exhausting all keys before numbered variants are tried.
   const isRotating = keyIndex === null
-  const indexes = isRotating ? rotatingKeyIndexes(base, keys.length) : [keyIndex]
+  const indexes = isRotating ? [rotatingKeyIndexes(base, keys.length)[0]] : [keyIndex]
 
   for (const i of indexes) {
     const apiKey = keys[i]
@@ -323,12 +326,12 @@ async function callRegistryProvider(provider, resolved, { prompt, system, maxTok
         const text = `${err?.message || ""}\n${err?.body || ""}`
         const isDaily = /daily free-tier|tokens per day|token_quota_exceeded|daily.*limit|quota exceeded/i.test(text)
         cooldownKey(base, i, isDaily ? 60 * 60 * 1000 : (retryDelayMs(err) || cooldownMs))
-        if (isRotating) continue
       }
       throw err
     }
   }
-  throw Object.assign(new Error(`${base}: all keys on cooldown`), { status: 429 })
+  // Should not reach here for single-index case
+  throw Object.assign(new Error(`${base}: key not available`), { status: 429 })
 }
 
 async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) {
@@ -373,10 +376,6 @@ function cooldownProvider(provider, err) {
   let ms = 0
   if (err?.status === 401 || err?.status === 403) ms = 60 * 60 * 1000
   else if (err?.status === 429 && /free_tier_requests|quota exceeded|current quota|daily free-tier|tokens per day|token_quota_exceeded|daily.*limit/i.test(text)) ms = 60 * 60 * 1000
-  else if (err?.status === 429 && /all keys on cooldown/i.test(text)) {
-    const keyUntil = providerKeyCooldownUntil(provider)
-    ms = keyUntil > Date.now() ? keyUntil - Date.now() + 5000 : 15000
-  }
   else if (err?.status === 429) ms = retryDelayMs(err)
   if (ms > 0) {
     const until = Date.now() + ms
