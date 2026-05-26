@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   return {
     title: `${guide.title}｜饭局 Fanju`,
-    description: guide.answer,
+    description: `${guide.answer} 本指南补充报名清单、边界说明、城市入口和饭局类型，帮助用户在参加前做出更清楚的判断。`,
     alternates: {
       canonical: `/guides/${guide.slug}`,
       languages: {
@@ -54,7 +54,6 @@ export default async function GuidePage({ params }: PageProps) {
     { label: guide.title, href: `/guides/${guide.slug}` },
   ]
 
-  // Visible FAQ — no FAQPage JSON-LD emitted
   const faq = [
     { question: `${guide.title}最重要的建议是什么？`, answer: guide.answer },
     {
@@ -62,17 +61,11 @@ export default async function GuidePage({ params }: PageProps) {
       answer: "需要确认城市、餐厅、时间、费用、取消规则、主办方信息和饭局主题，避免只看标题就报名。",
     },
     {
-      question: "参加饭局有哪些安全底线？",
-      answer: "优先选择公开餐厅，不提前向陌生人转账，不透露敏感隐私，遇到不舒服的情况及时结束交流或联系主办方。",
-    },
-    {
       question: "饭局 Fanju 是什么？",
       answer: "饭局 Fanju 是面向全球华人年轻人的同频饭局网络，通过小桌晚餐帮助用户认识同城同频的人。",
     },
   ]
 
-  // Article JSON-LD only — HowTo removed to avoid enhanced-feature errors
-  // (guide sections are informational, not step-by-step instructions)
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -82,9 +75,11 @@ export default async function GuidePage({ params }: PageProps) {
     inLanguage: "zh-CN",
     author: { "@type": "Organization", name: "饭局 Fanju", url: SITE_URL },
     publisher: { "@type": "Organization", name: "饭局 Fanju", url: SITE_URL },
-    dateModified: "2026-05-11",
+    dateModified: "2026-05-26",
     articleSection: guide.sections.map((s) => s.title).join(", "),
   }
+
+  const tocItems = ["直接答案", "报名前清单", "边界说明", ...guide.sections.map((s) => s.title), "相关城市", "相关分类"]
 
   return (
     <>
@@ -99,15 +94,11 @@ export default async function GuidePage({ params }: PageProps) {
         breadcrumbs={breadcrumbs}
         alternatePath={`/en/guides/${guide.slug}`}
       >
-        {/* Table of contents */}
         <ContentBlock title="目录" id="toc">
           <ol className="space-y-2 list-decimal list-inside">
-            {["直接答案", ...guide.sections.map((s) => s.title), "相关城市", "相关分类"].map((item) => (
+            {tocItems.map((item) => (
               <li key={item}>
-                <Link
-                  href={`#${anchor(item)}`}
-                  className="text-foreground transition-colors hover:text-accent"
-                >
+                <Link href={`#${anchor(item)}`} className="text-foreground transition-colors hover:text-accent">
                   {item}
                 </Link>
               </li>
@@ -115,14 +106,29 @@ export default async function GuidePage({ params }: PageProps) {
           </ol>
         </ContentBlock>
 
-        {/* Direct answer */}
         <section id={anchor("直接答案")}>
           <ContentBlock title="直接答案">
             <p>{guide.answer}</p>
           </ContentBlock>
         </section>
 
-        {/* Guide sections */}
+        <section id={anchor("报名前清单")}>
+          <ContentBlock title="报名前清单">
+            <ul className="ml-4 list-disc space-y-2">
+              <li>确认饭局主题是否具体，是否能看出适合谁、不适合谁。</li>
+              <li>确认餐厅或场地是否公开，交通是否方便，时间边界是否清楚。</li>
+              <li>确认费用、取消规则、人数上限和主理人说明。</li>
+              <li>第一次参加建议选择小桌、公开餐厅和主题明确的场次。</li>
+            </ul>
+          </ContentBlock>
+        </section>
+
+        <section id={anchor("边界说明")}>
+          <ContentBlock title="边界说明">
+            <p>饭局 Fanju 提供的是线下小桌社交入口，不保证脱单、成交、融资或固定人脉结果。参加前应先看清主题、场地、费用、人数和主理人说明，再决定是否报名。</p>
+          </ContentBlock>
+        </section>
+
         {guide.sections.map((section) => (
           <section key={section.title} id={anchor(section.title)}>
             <ContentBlock title={section.title}>
@@ -131,14 +137,12 @@ export default async function GuidePage({ params }: PageProps) {
           </section>
         ))}
 
-        {/* Related cities */}
         <section id={anchor("相关城市")}>
           <ContentBlock title="相关城市">
             <LinkGrid items={cities.slice(0, 12).map((city) => [city.name, `/city/${city.slug}`])} />
           </ContentBlock>
         </section>
 
-        {/* Related categories */}
         <section id={anchor("相关分类")}>
           <ContentBlock title="相关分类">
             <LinkGrid items={categories.map((cat) => [cat.name, `/category/${cat.slug}`])} />

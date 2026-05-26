@@ -21,8 +21,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!q) return {}
 
   return {
-    title: `${q.titleEn} | Fanju`,
-    description: q.answerEn,
+    title: `${q.titleEn} | Fanju Q&A`,
+    description: `${q.answerEn} Includes practical checks for public venues, host notes, cost expectations and safer small-table social dining.`,
     alternates: {
       canonical: `/en/q/${q.slug}`,
       languages: {
@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
     },
     openGraph: {
-      title: `${q.titleEn} | Fanju`,
+      title: `${q.titleEn} | Fanju Q&A`,
       description: q.answerEn,
       url: `${SITE_URL}/en/q/${q.slug}`,
       type: "article",
@@ -107,6 +107,15 @@ export default async function EnQuestionPage({ params }: PageProps) {
             ))}
           </ContentBlock>
         )}
+
+        <ContentBlock title="Before you join a dinner" id="checklist">
+          <ul className="ml-4 list-disc space-y-2">
+            <li>Read the host note and make sure the dinner topic is clear.</li>
+            <li>Choose a public restaurant or clearly described venue for the first table.</li>
+            <li>Confirm cost sharing, cancellation expectations, group size and timing.</li>
+            <li>Keep early conversations practical and avoid sharing sensitive personal details.</li>
+          </ul>
+        </ContentBlock>
 
         <ContentBlock title="Related Cities" id="cities">
           <p className="text-sm text-muted-foreground">

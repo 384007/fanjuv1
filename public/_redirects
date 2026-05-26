@@ -1,1 +1,2 @@
 /api/* /api.json 302
+/delivery /features 301
