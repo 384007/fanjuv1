@@ -337,7 +337,9 @@ async function callRegistryProvider(provider, resolved, { prompt, system, maxTok
       })
     } catch (err) {
       if (err?.status === 429) {
-        cooldownKey(base, i, retryDelayMs(err) || cooldownMs)
+        const text = `${err?.message || ""}\n${err?.body || ""}`
+        const isDaily = /daily free-tier|tokens per day|token_quota_exceeded|daily.*limit|quota exceeded/i.test(text)
+        cooldownKey(base, i, isDaily ? 60 * 60 * 1000 : (retryDelayMs(err) || cooldownMs))
         if (isRotating) continue
       }
       throw err
@@ -398,7 +400,7 @@ function cooldownProvider(provider, err) {
   const text = `${err?.message || ""}\n${err?.body || ""}`
   let ms = 0
   if (err?.status === 401 || err?.status === 403) ms = 60 * 60 * 1000
-  else if (err?.status === 429 && /free_tier_requests|quota exceeded|current quota/i.test(text)) ms = 60 * 60 * 1000
+  else if (err?.status === 429 && /free_tier_requests|quota exceeded|current quota|daily free-tier|tokens per day|token_quota_exceeded|daily.*limit/i.test(text)) ms = 60 * 60 * 1000
   else if (err?.status === 429 && /all keys on cooldown/i.test(text)) {
     const keyUntil = providerKeyCooldownUntil(provider)
     ms = keyUntil > Date.now() ? keyUntil - Date.now() + 5000 : 15000
