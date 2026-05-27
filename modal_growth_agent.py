@@ -694,12 +694,21 @@ def run_seo_ready_files_check(entries: list[dict], stage: str) -> None:
         text=True,
         env=env,
         timeout=600,
+        capture_output=True,
     )
+    if result.stdout:
+        print(result.stdout, end="" if result.stdout.endswith("\n") else "\n", flush=True)
+    if result.stderr:
+        print(result.stderr, end="" if result.stderr.endswith("\n") else "\n", flush=True)
     if result.returncode != 0:
-        raise RuntimeError(
+        detail = (result.stderr or result.stdout or "").strip()
+        message = (
             f"SEO_READY_FILES validation failed at {stage}; refusing to commit or push. "
             f"files={unique_files}"
         )
+        if detail:
+            message = f"{message}\n{detail[-12000:]}"
+        raise RuntimeError(message)
 
 
 def validate_ready_entries(entries: list[dict], min_score: int = 90) -> None:

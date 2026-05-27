@@ -15,6 +15,12 @@ import {
   localeCityTypeKeyFor,
   routeKeyFor,
 } from "./prompt-bank-history.mjs"
+import {
+  metaForPromptArticle,
+  metaForReadyEntry,
+  sourceBodyIssues,
+  sourceBodyIssuesForPrompt,
+} from "./seo-ready-source-check.mjs"
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, "../..")
@@ -1335,8 +1341,14 @@ function scoreArticle(prompt, parsed) {
   const malformedHeadings = malformedHeadingIssues(body)
   if (malformedHeadings.length > 0) issues.push(`malformed-heading:${malformedHeadings.join("|")}`)
 
+  const publishMeta = metaForPromptArticle(prompt, { title, description })
+  const publishIssues = sourceBodyIssues(publishMeta, body)
+  for (const issue of publishIssues) {
+    if (!issues.includes(issue)) issues.push(issue)
+  }
+
   if (issues.length === 0) return { score: 100, issues }
-  if (issues.some(isHardIssue) || issues.some(isCheckerAlignIssue)) {
+  if (issues.some(isHardIssue) || publishIssues.length > 0) {
     return { score: 0, issues }
   }
 
@@ -1373,33 +1385,16 @@ function isHardIssue(issue) {
   )
 }
 
-/** Issues that must pass check-seo-ready-routes.mjs before publish. */
-function isCheckerAlignIssue(issue) {
-  return (
-    issue.startsWith("template-h2") ||
-    issue.startsWith("near-duplicate-paragraph") ||
-    issue.startsWith("intro-repeated-in-body") ||
-    issue === "duplicate-heading" ||
-    issue.startsWith("duplicate-heading:") ||
-    issue === "duplicate-h2" ||
-    issue.startsWith("duplicate-h2:") ||
-    issue.startsWith("repeated-paragraph-opening") ||
-    issue.startsWith("latin-word-in-zh-heading") ||
-    issue.startsWith("latin-word-in-zh-title") ||
-    issue.startsWith("latin-word-in-zh-h1")
-  )
-}
-
 function hasHardIssues(issues) {
   return issues.some(isHardIssue)
 }
 
-function hasCheckerAlignIssues(issues) {
-  return issues.some(isCheckerAlignIssue)
+function hasPublishSourceBodyIssues(prompt, parsed) {
+  return sourceBodyIssuesForPrompt(prompt, parsed).length > 0
 }
 
-function hasBlockingQualityIssues(issues) {
-  return hasHardIssues(issues) || hasCheckerAlignIssues(issues)
+function hasBlockingQualityIssues(prompt, parsed, issues = []) {
+  return hasHardIssues(issues) || hasPublishSourceBodyIssues(prompt, parsed)
 }
 
 function mergeIssues(issues = [], extraIssues = []) {
@@ -1590,6 +1585,11 @@ function retryIssueSummaryForModel(locale, issues = []) {
       add(locale === "zh" ? `中文正文不能出现这些英文词：${words.replace(/\|/g, "、")}，请用中文替代或删除` : `body contains forbidden Latin words: ${words.replace(/\|/g, ", ")}; use Chinese equivalents or remove`)
     }
     else if (issue.startsWith("malformed-heading")) add(locale === "zh" ? "Markdown 标题格式错误" : "malformed Markdown headings")
+    else if (issue.startsWith("bad-public-pattern")) add(locale === "zh" ? "正文含禁止出现的生产/技术用语" : "forbidden production or technical wording")
+    else if (issue === "markdown-link-in-body" || issue === "html-link-in-body" || issue === "raw-url-in-body") add(locale === "zh" ? "正文不能有链接或 URL" : "no links or raw URLs in body")
+    else if (issue === "code-fence-in-body") add(locale === "zh" ? "正文不能有代码块" : "no code fences in body")
+    else if (issue.startsWith("template-heading-set")) add(locale === "zh" ? "通用 H2 标题过多" : "too many generic H2 headings")
+    else if (issue === "title-missing-core-keyword" || issue === "h1-missing-core-keyword") add(locale === "zh" ? "标题/H1 需包含饭局、饭搭子或 Fanju" : "title/H1 missing core brand phrase")
     else if (issue.startsWith("public-link")) add(locale === "zh" ? "公开文本含链接" : "public text contains links")
     else add(locale === "zh" ? "质量门未通过" : "quality gate failed")
   }
@@ -1894,7 +1894,7 @@ async function runOneAttempt(prompt, attempt, previousIssues = []) {
   const canonicalPath = prompt.route
   const alternatePath = alternatePathFor(prompt.route)
   const r2Key = r2KeyFor(prompt, r2Slug)
-  const status = score >= MIN_SCORE && !hasBlockingQualityIssues(issues) ? "ready" : "needs-review"
+  const status = score >= MIN_SCORE && !hasBlockingQualityIssues(prompt, parsed, issues) ? "ready" : "needs-review"
 
   return {
     prompt,
@@ -1922,16 +1922,14 @@ async function runOne(prompt) {
   prompt = { ...prompt, cityTopicResearchBrief }
   let lastResult = null
   let previousIssues = []
-  // 1 initial generation + up to 2 checker-aligned rewrites; attempt 3 publishes best effort.
-  const maxSelfRepairAttempts = 3
+  const maxSelfRepairAttempts = Math.max(1, QUALITY_ATTEMPTS)
   for (let attempt = 1; attempt <= maxSelfRepairAttempts; attempt++) {
     const result = await runOneAttempt(prompt, attempt, previousIssues)
     if (result.status === "ready") return result
     lastResult = result
     previousIssues = result.issues
-    const maxAttempts = maxSelfRepairAttempts
-    if (attempt >= maxAttempts) break
-    console.log(`[RETRY] ${prompt.promptId} attempt=${attempt}/${maxAttempts} issues=${result.issues.join(",")}`)
+    if (attempt >= maxSelfRepairAttempts) break
+    console.log(`[RETRY] ${prompt.promptId} attempt=${attempt}/${maxSelfRepairAttempts} issues=${result.issues.join(",")}`)
     if (QUALITY_RETRY_DELAY_MS > 0) {
       await sleep(QUALITY_RETRY_DELAY_MS)
     }
@@ -1940,26 +1938,10 @@ async function runOne(prompt) {
   if (hasHardIssues(lastResult.issues || [])) {
     throw new Error(`Severe technical issue persisted after self-repair: ${lastResult.issues.join(",")}`)
   }
-  const parsed = sanitizeBestParsedArticle(prompt, lastResult.parsed)
-  const rescored = scoreArticle(prompt, parsed)
-  if (hasHardIssues(rescored.issues || [])) {
-    throw new Error(`Severe technical issue after final cleanup: ${rescored.issues.join(",")}`)
-  }
-  const body = String(parsed?.body || lastResult.body || "").trim()
-  const title = String(parsed?.title || markdownH1(body) || lastResult.title || "").trim()
-  const description = String(parsed?.description || lastResult.description || "").trim()
-  const remainingIssues = rescored.issues || []
-  console.log(`[SELF-REPAIR] ${prompt.promptId} publishing best cleaned version after ${maxSelfRepairAttempts} attempts; remaining issues=${remainingIssues.join(",") || "none"}`)
+  console.log(`[REVW] ${prompt.promptId} exhausted ${maxSelfRepairAttempts} attempts; still failing seo-ready source check`)
   return {
     ...lastResult,
-    parsed,
-    score: Math.max(MIN_SCORE, rescored.score || lastResult.score || MIN_SCORE),
-    issues: remainingIssues,
-    title,
-    description,
-    body,
-    bodyHtml: bodyToArticleHtml(prompt, { title, description, body }),
-    status: "ready",
+    status: "needs-review",
   }
 }
 
@@ -2270,7 +2252,21 @@ function assertReadyEntriesBeforePublish(entries) {
     }
   }
   if (failures.length) {
-    console.warn(`[PUBLISH] pre-publish gate warnings (non-fatal): ${failures.slice(0, 8).join("; ")}`)
+    throw new Error(`Refusing to publish articles that fail the strict heading gate: ${failures.slice(0, 8).join("; ")}`)
+  }
+}
+
+function assertEntriesPassSourceCheck(entries) {
+  const failures = []
+  for (const entry of entries) {
+    const body = entry.bodyMarkdown || markdownBodyForEntry(entry)
+    const issues = sourceBodyIssues(metaForReadyEntry(entry), body)
+    if (issues.length) {
+      failures.push(`${entry.canonicalPath}: ${issues.slice(0, 8).join(", ")}`)
+    }
+  }
+  if (failures.length) {
+    throw new Error(`Refusing to write seo-ready markdown; source check failed: ${failures.slice(0, 5).join("; ")}`)
   }
 }
 
@@ -2281,21 +2277,14 @@ function runSeoReadyFilesCheck(entries) {
   }
   const uniqueFiles = [...new Set(files)]
   console.log(`[CHECK] SEO_READY_FILES=${uniqueFiles.join(",")} node scripts/check-seo-ready-routes.mjs`)
-  try {
-    execFileSync(process.execPath, ["scripts/check-seo-ready-routes.mjs"], {
-      cwd: ROOT,
-      encoding: "utf8",
-      stdio: ["ignore", "pipe", "pipe"],
-      env: {
-        ...process.env,
-        SEO_READY_FILES: uniqueFiles.join(","),
-      },
-    })
-  } catch (err) {
-    const output = [err.stdout, err.stderr].filter(Boolean).join("\n").trim()
-    console.warn("[CHECK] SEO ready routes check reported issues (non-fatal, continuing publish)")
-    if (output) console.warn(output.slice(-12000))
-  }
+  execFileSync(process.execPath, ["scripts/check-seo-ready-routes.mjs"], {
+    cwd: ROOT,
+    stdio: "inherit",
+    env: {
+      ...process.env,
+      SEO_READY_FILES: uniqueFiles.join(","),
+    },
+  })
 }
 
 async function publishReadyEntries(entries, publishedState) {
@@ -2309,6 +2298,7 @@ async function publishReadyEntries(entries, publishedState) {
   }
 
   if (PUBLISH_CONTENT) {
+    assertEntriesPassSourceCheck(entries)
     writeSourceMarkdownEntries(entries)
     runSeoReadyFilesCheck(entries)
   }
