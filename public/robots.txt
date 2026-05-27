@@ -101,3 +101,4 @@ Disallow:
 Allow: /
 
 Sitemap: https://fanju.app/sitemap-index.xml
+Sitemap: https://fanju.app/external-content-sitemap.xml

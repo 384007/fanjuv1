@@ -5,8 +5,8 @@ import { loadCities } from "./_seo-data-loader.mjs"
 
 const TAXONOMY_FILE = abs("data/seo/generated-taxonomy.json")
 const OUT_FILE = abs("data/seo/article-candidates.json")
-const MIN_CANDIDATES = Number.parseInt(process.env.SEO_TOPIC_MIN || "1000", 10)
-const MAX_CANDIDATES = Number.parseInt(process.env.SEO_TOPIC_MAX || "1600", 10)
+const MIN_CANDIDATES = Number.parseInt(process.env.SEO_TOPIC_MIN || "3000", 10)
+const MAX_CANDIDATES = Number.parseInt(process.env.SEO_TOPIC_MAX || "5000", 10)
 
 if (!existsSync(TAXONOMY_FILE)) {
   console.error("Missing data/seo/generated-taxonomy.json. Run: pnpm seo:taxonomy")
@@ -18,13 +18,18 @@ const cities = loadCities()
 const validUrls = loadValidInternalUrls()
 const existing = loadExistingArticlePaths()
 
-const cityRotation = [
+// High priority cities for more frequent coverage
+const priorityCities = [
   "shenzhen",
   "shanghai",
   "beijing",
   "hangzhou",
   "guangzhou",
   "chengdu",
+]
+
+const cityRotation = [
+  ...priorityCities,
   "singapore",
   "new-york",
   "san-francisco",
@@ -34,6 +39,20 @@ const cityRotation = [
   "taipei",
   "toronto",
   "sydney",
+  "xiamen",
+  "changsha",
+  "nanjing",
+  "suzhou",
+  "wuhan",
+  "chongqing",
+  "xian",
+  "qingdao",
+  "zhengzhou",
+  "foshan",
+  "dongguan",
+  "zhuhai",
+  "tianjin",
+  "ningbo",
 ].map((slug) => cities.find((city) => city.slug === slug)).filter(Boolean)
 
 const highValueNeedles = [
@@ -62,15 +81,15 @@ function languageFor(item, index) {
 function titleFor(item, language, city) {
   if (language === "en") {
     const place = city ? ` in ${city.nameEn}` : ""
-    return `${item.en}${place}: a small-table Fanju dinner guide`
+    return `${item.en} | Find a Dinner Buddy${place} — Fanju 饭局`
   }
-  const place = city ? `${city.name}` : ""
-  return `${place}${item.zh}指南：如何用饭局认识同频的人`
+  const place = city ? `${city.name}` : "同城"
+  return `${place}${item.zh}饭局 — 找${item.zh}饭搭子约饭 | Fanju`
 }
 
 function primaryKeywordFor(item, language, city) {
-  if (language === "en") return `${item.en.toLowerCase()} dinner${city ? ` ${city.nameEn}` : ""}`
-  return `${city ? city.name : ""}${item.zh}`.replace(/\s+/g, "")
+  if (language === "en") return `${item.en.toLowerCase()} dinner buddy${city ? ` ${city.nameEn}` : ""}`
+  return `${city ? city.name : ""}${item.zh}饭搭子`.replace(/\s+/g, "")
 }
 
 function slugFor(item, language, city) {
@@ -109,75 +128,90 @@ function decisionFor(item, links, title, priority, risk) {
 const candidates = []
 const seenPaths = new Set(existing.keys())
 
-for (let i = 0; i < taxonomy.length && candidates.length < MAX_CANDIDATES; i++) {
-  const item = taxonomy[i]
-  const rule = categoryRule(item.topCategory)
-  const priority = priorityFor(item)
-  const city = hashScore(`${item.id}:city`, 0, 4) === 0 ? null : cityRotation[i % cityRotation.length]
-  const language = languageFor(item, i)
-  const slug = slugFor(item, language, city)
-  const canonicalPath = canonicalPathFor(item, language, city)
-  if (seenPaths.has(canonicalPath)) continue
-  seenPaths.add(canonicalPath)
+// Generate multiple passes to reach the target count
+const loops = [
+  { cityFreq: 1, langFreq: 10 }, // Pass 1: 100% cities, mostly Chinese
+  { cityFreq: 0, langFreq: 5 },  // Pass 2: 0% cities, more English
+  { cityFreq: 0.5, langFreq: 8 }, // Pass 3: 50% cities
+]
 
-  const title = titleFor(item, language, city)
-  const links = selectLinks({
-    language,
-    citySlug: city?.slug || "",
-    categorySlug: rule.routeCategory,
-    articleType: rule.pageType,
-    currentPath: canonicalPath,
-    validUrls,
-  })
-  const qualityRisk = qualityRiskFor(item)
-  const [indexDecision, indexReason] = decisionFor(item, links, title, priority, qualityRisk)
+for (const loop of loops) {
+  for (let i = 0; i < taxonomy.length && candidates.length < MAX_CANDIDATES; i++) {
+    const item = taxonomy[i]
+    const rule = categoryRule(item.topCategory)
+    const priority = priorityFor(item)
+    
+    // Determine city based on loop frequency
+    const city = loop.cityFreq === 1 
+      ? cityRotation[i % cityRotation.length]
+      : (loop.cityFreq === 0 ? null : (hashScore(`${item.id}:${loop.cityFreq}`, 0, 1) === 0 ? cityRotation[i % cityRotation.length] : null))
 
-  candidates.push({
-    topicId: `${item.id}-${language}`,
-    language,
-    title,
-    slug,
-    canonicalPath,
-    primaryKeyword: primaryKeywordFor(item, language, city),
-    secondaryKeywords: language === "en"
-      ? ["small-table dinner", "social dining", "dinner buddy", "Fanju"]
-      : ["饭局", "小桌社交", "饭搭子", "同城社交"],
-    taxonomyId: item.id,
-    topCategory: item.topCategory,
-    city: city ? { slug: city.slug, zh: city.name, en: city.nameEn, countryCode: city.countryCode || "CN" } : null,
-    audience: rule.audience,
-    searchIntent: item.searchIntents[0],
-    userProblem: language === "en"
-      ? `The reader wants a specific, low-pressure way to meet people around ${item.en}.`
-      : `用户想围绕${item.zh}认识同频的人，但不想参加泛泛的大活动或尴尬群聊。`,
-    fanjuAngle: item.fanjuUseCases[0],
-    articleType: rule.pageType,
-    contentPromise: language === "en"
-      ? `Explain who this dinner scenario suits, how to choose the first table, what to discuss, what to avoid, and how Fanju can support it without overpromising.`
-      : `说明谁适合参加、第一次如何选择、小桌人数建议、适合聊什么、不适合聊什么、安全边界，以及 Fanju 如何承接这个饭局场景。`,
-    requiredSections: [
-      "直接答案",
-      "适合人群",
-      "为什么适合通过饭局认识人",
-      "第一次参加怎么选",
-      "小桌人数建议",
-      "适合聊什么",
-      "不适合聊什么",
-      "安全和边界感",
-      "如何避免尴尬",
-      "Fanju 如何承接",
-      "FAQ",
-    ],
-    requiredInternalLinks: links,
-    forbiddenClaims: item.badAnglesToAvoid,
-    indexDecision,
-    indexReason,
-    qualityRisk,
-    priority,
-    cluster: rule.cluster,
-    pillarPageNeeded: false,
-    relatedArticleIdeas: item.articleAngles.map((angle) => `${item.zh}：${angle}`),
-  })
+    const language = i % loop.langFreq === 0 && /[a-z]/.test(item.en) ? "en" : "zh"
+    
+    const slug = slugFor(item, language, city)
+    const canonicalPath = canonicalPathFor(item, language, city)
+    if (seenPaths.has(canonicalPath)) continue
+    seenPaths.add(canonicalPath)
+
+    const title = titleFor(item, language, city)
+    const links = selectLinks({
+      language,
+      citySlug: city?.slug || "",
+      categorySlug: rule.routeCategory,
+      articleType: rule.pageType,
+      currentPath: canonicalPath,
+      validUrls,
+    })
+    const qualityRisk = qualityRiskFor(item)
+    const [indexDecision, indexReason] = decisionFor(item, links, title, priority, qualityRisk)
+
+    candidates.push({
+      topicId: `${item.id}-${language}${city ? `-${city.slug}` : ""}`,
+      language,
+      title,
+      slug,
+      canonicalPath,
+      primaryKeyword: primaryKeywordFor(item, language, city),
+      secondaryKeywords: language === "en"
+        ? ["dinner buddy", "social dining", "find a dinner buddy", "Fanju"]
+        : ["饭局", "饭搭子", "约饭", "同城约饭", "找饭局"],
+      taxonomyId: item.id,
+      topCategory: item.topCategory,
+      city: city ? { slug: city.slug, zh: city.name, en: city.nameEn, countryCode: city.countryCode || "CN" } : null,
+      audience: rule.audience,
+      searchIntent: item.searchIntents[0],
+      userProblem: language === "en"
+        ? `The reader is looking for a dinner buddy for ${item.en} and wants to join a real-life Fanju dinner.`
+        : `用户想找${item.zh}饭搭子，不想一个人吃饭，想通过 饭局app 参加真实的同城约饭。`,
+      fanjuAngle: item.fanjuUseCases[0],
+      articleType: rule.pageType,
+      contentPromise: language === "en"
+        ? `Find your ${item.en} dinner buddy at a Fanju dinner. We explain who it suits, how to choose a table, and safety boundaries for meeting strangers over dinner.`
+        : `不想一个人吃饭？来 Fanju 找${item.zh}饭搭子。本文说明谁适合参加、如何选择饭局、小桌人数建议、适合聊什么、不适合聊什么、安全边界，以及 饭局app 如何帮你建立真实线下连接。`,
+      requiredSections: [
+        "直接答案",
+        "适合人群",
+        "为什么适合通过饭局找饭搭子",
+        "第一次参加怎么选",
+        "小桌人数建议",
+        "适合聊什么",
+        "不适合聊什么",
+        "安全和边界感",
+        "如何避免尴尬",
+        "Fanju / 饭局 的平台价值",
+        "FAQ",
+      ],
+      requiredInternalLinks: links,
+      forbiddenClaims: item.badAnglesToAvoid,
+      indexDecision,
+      indexReason,
+      qualityRisk,
+      priority,
+      cluster: rule.cluster,
+      pillarPageNeeded: false,
+      relatedArticleIdeas: item.articleAngles.map((angle) => `${item.zh}：${angle}`),
+    })
+  }
 }
 
 if (candidates.length < MIN_CANDIDATES) {

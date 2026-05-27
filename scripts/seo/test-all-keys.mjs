@@ -7,7 +7,7 @@ const PROVIDERS = [
     name: "aion",
     envPrefix: "AION_API_KEY",
     endpoint: "https://api.aionlabs.ai/v1/chat/completions",
-    model: () => process.env.AION_MODEL || "aion-labs/aion-rp-llama-3.1-8b",
+    model: () => process.env.AION_MODEL || "aion-labs/aion-2.5",
     tokenParam: "max_tokens",
   },
   {

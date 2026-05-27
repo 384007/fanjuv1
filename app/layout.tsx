@@ -30,11 +30,11 @@ const BRAND_ICON = "/icon.svg?v=20260510-final"
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "饭局 Fanju｜全球同频饭局网络 · 一顿饭，认识同频的年轻人",
+    default: "饭局 · 饭搭子 — 同城约饭找饭局 | Fanju",
     template: "%s · 饭局 Fanju",
   },
   description:
-    "饭局 Fanju 是面向全球年轻人的同频饭局网络。中国大陆城市（深圳、广州、上海、北京、杭州、成都）优先，海外城市城市（纽约、旧金山、伦敦、东京、悉尼、新加坡、温哥华、多伦多、墨尔本、香港、台北、洛杉矶）同步展开，覆盖单身、兴趣、商务、海外城市、高端、创业等圈层。",
+    "饭局 Fanju 是同城约饭、找饭搭子、组饭局的社交平台。不想一个人吃饭？来 Fanju 找同城饭友。覆盖各类主题饭局、盲盒饭局，马上找到一起吃饭的人。",
   applicationName: SITE_NAME,
   generator: "Fanju",
   referrer: "origin-when-cross-origin",

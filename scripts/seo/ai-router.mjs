@@ -37,7 +37,7 @@ const PROVIDER_REGISTRY = {
     tokenParam: "max_tokens",
     maxTokens: () => Math.min(Infinity, Number.parseInt(process.env.AION_MAX_TOKENS || "7200", 10)),
     timeoutMs: () => Number.parseInt(process.env.AION_TIMEOUT_MS || "0", 10) || null,
-    cooldownMs: 60000,
+    cooldownMs: 3000, // Shortened to 3s for fast rotation
     rotating: true,
   },
   cerebras: {
@@ -45,7 +45,7 @@ const PROVIDER_REGISTRY = {
     endpoint: "https://api.cerebras.ai/v1/chat/completions",
     model: () => process.env.CEREBRAS_MODEL || "qwen-3-235b-a22b-instruct-2507",
     tokenParam: "max_completion_tokens",
-    cooldownMs: 30000, // queue_exceeded = high traffic, retry in 30s
+    cooldownMs: 2000, // Shortened to 2s
     rotating: true,
   },
   groq: {
@@ -54,15 +54,19 @@ const PROVIDER_REGISTRY = {
     model: () => process.env.GROQ_MODEL || "llama-3.3-70b-versatile",
     tokenParam: "max_tokens",
     maxTokens: () => Math.min(Infinity, Number.parseInt(process.env.GROQ_MAX_TOKENS || "4200", 10)),
-    cooldownMs: 60000,
+    cooldownMs: 3000, // Shortened to 3s
     rotating: true,
   },
   gemini: {
     envPrefix: "GEMINI_API_KEY",
     endpoint: "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
-    model: () => process.env.GEMINI_MODEL || "gemini-2.5-flash-lite",
+    model: () => {
+      const env = process.env.GEMINI_MODEL
+      if (env && !env.includes("lite") && !env.includes("2.5")) return env
+      return "gemini-2.0-flash"
+    },
     tokenParam: "max_tokens",
-    cooldownMs: 3600000,
+    cooldownMs: 10000, // Shortened to 10s from 1 hour
     rotating: true,
   },
   openrouter: {
@@ -70,7 +74,7 @@ const PROVIDER_REGISTRY = {
     endpoint: "https://openrouter.ai/api/v1/chat/completions",
     model: () => process.env.OPENROUTER_MODEL || "meta-llama/llama-3.3-70b-instruct:free",
     tokenParam: "max_tokens",
-    cooldownMs: 30000,
+    cooldownMs: 3000, // Shortened to 3s
     extraHeaders: () => ({
       "HTTP-Referer": process.env.OPENROUTER_SITE_URL || "https://fanju.app",
       "X-Title": process.env.OPENROUTER_APP_NAME || "Fanju SEO Publisher",
@@ -83,7 +87,7 @@ const PROVIDER_REGISTRY = {
     model: () => process.env.NVIDIA_MODEL || "nvidia/llama-3.3-nemotron-super-49b-v1",
     tokenParam: "max_tokens",
     timeoutMs: () => Number.parseInt(process.env.NVIDIA_TIMEOUT_MS || "30000", 10),
-    cooldownMs: 60000,
+    cooldownMs: 3000, // Shortened to 3s
     rotating: true,
   },
 }
@@ -246,7 +250,7 @@ async function callOpenAICompat({ label, endpoint, apiKey, model, prompt, system
 async function callCloudflare({ prompt, system, maxTokens, timeoutMs }) {
   const accountId = process.env.CLOUDFLARE_ACCOUNT_ID
   const token = process.env.CLOUDFLARE_AI_API_TOKEN || process.env.CLOUDFLARE_API_TOKEN || process.env.CLOUDFLARE_AUTH_TOKEN
-  const model = process.env.CLOUDFLARE_MODEL || "@cf/meta/llama-3.1-8b-instruct-fast"
+  const model = process.env.CLOUDFLARE_MODEL || "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
 
   if (!accountId) throw new Error("Cloudflare: missing CLOUDFLARE_ACCOUNT_ID")
   if (!token) throw new Error("Cloudflare: missing CLOUDFLARE_AI_API_TOKEN/CLOUDFLARE_API_TOKEN")
@@ -278,7 +282,8 @@ async function callCloudflare({ prompt, system, maxTokens, timeoutMs }) {
     }
 
     const json = JSON.parse(text)
-    return cleanContent(json.result?.response || json.result?.text || json.response || "")
+    const content = cleanContent(json.result?.response || json.result?.text || json.response || "")
+    return { content, label: "cloudflare" }
   }
 
   return Promise.race([req(), timeoutPromise(timeoutMs, "Cloudflare")])
@@ -295,13 +300,12 @@ async function callRegistryProvider(provider, resolved, { prompt, system, maxTok
   const extraHeaders = entry.extraHeaders ? entry.extraHeaders() : {}
   const cooldownMs = entry.cooldownMs || 15000
 
-  // Base provider name (e.g. "groq") tries ONE key per call (rotating across calls).
+  // Base provider name (e.g. "groq") tries all keys starting from cursor.
   // Numbered variant (e.g. "groq2") pins to a specific key index.
-  // This ensures base + numbered variants each get a fair shot rather than
-  // base exhausting all keys before numbered variants are tried.
   const isRotating = keyIndex === null
-  const indexes = isRotating ? [rotatingKeyIndexes(base, keys.length)[0]] : [keyIndex]
+  const indexes = isRotating ? rotatingKeyIndexes(base, keys.length) : [keyIndex]
 
+  let lastErr = null
   for (const i of indexes) {
     const apiKey = keys[i]
     if (!apiKey) {
@@ -313,12 +317,14 @@ async function callRegistryProvider(provider, resolved, { prompt, system, maxTok
       continue
     }
     try {
-      return await callOpenAICompat({
+      const content = await callOpenAICompat({
         label: `${base}[${i}]`, endpoint, apiKey, model, prompt, system,
         maxTokens: effectiveMaxTokens, timeoutMs: effectiveTimeoutMs,
         tokenParam, extraHeaders,
       })
+      return { content, label: `${base}[${i}]` }
     } catch (err) {
+      lastErr = err
       if (err?.status === 429) {
         const text = `${err?.message || ""}\n${err?.body || ""}`
         // Daily/quota limits: don't lock — just fail and let the router try the next provider.
@@ -326,11 +332,12 @@ async function callRegistryProvider(provider, resolved, { prompt, system, maxTok
         const isDaily = /daily free-tier|tokens per day|token_quota_exceeded|daily.*limit|free allocation|neurons/i.test(text)
         if (!isDaily) cooldownKey(base, i, retryDelayMs(err) || cooldownMs)
       }
-      throw err
+      if (!isRotating) throw err
+      // If rotating, try the next key
+      console.log(`${base}[${i}] failed, trying next key...`)
     }
   }
-  // Should not reach here for single-index case
-  throw Object.assign(new Error(`${base}: key not available`), { status: 429 })
+  throw lastErr || Object.assign(new Error(`${base}: no keys available`), { status: 429 })
 }
 
 async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) {
@@ -414,13 +421,13 @@ export async function generateWithRouter({ prompt, system, maxTokens = 1200, tim
 
     try {
       console.log(`Trying provider: ${provider}`)
-      const content = await withProviderLock(provider, () => callProvider(provider, { prompt, system, maxTokens, timeoutMs }))
+      const { content, label } = await withProviderLock(provider, () => callProvider(provider, { prompt, system, maxTokens, timeoutMs }))
 
       if (!content || content.length < 200) {
-        throw new Error(`${provider}: empty or too short response`)
+        throw new Error(`${label || provider}: empty or too short response`)
       }
 
-      console.log(`Provider ${provider} succeeded in ${Math.round((Date.now() - started) / 1000)}s`)
+      console.log(`Provider ${label || provider} succeeded in ${Math.round((Date.now() - started) / 1000)}s`)
       return { provider, content }
     } catch (err) {
       console.log(`Provider ${provider} failed: ${err.message.slice(0, 500)}`)

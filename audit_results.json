@@ -1,0 +1,276 @@
+{
+  "total": 120,
+  "failed": 43,
+  "issues": [
+    {
+      "file": "/content/articles/ready/index/en-architect-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-accounting-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-ai-founder-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-barista-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-climate-tech-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-consumer-founder-guide.json",
+      "issues": [
+        "Title > 60 chars",
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-developer-community-guide.json",
+      "issues": [
+        "Title > 60 chars",
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-hardware-startups-guide.json",
+      "issues": [
+        "Title > 60 chars",
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-interior-designer-guide.json",
+      "issues": [
+        "Title > 60 chars",
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-livestream-operator-guide.json",
+      "issues": [
+        "Title > 60 chars",
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-manufacturing-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-no-alcohol-dinner-guide.json",
+      "issues": [
+        "Title > 60 chars",
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-public-relations-guide.json",
+      "issues": [
+        "Title > 60 chars",
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-cloud-computing-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-cybersecurity-analyst-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-doctor-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-machine-learning-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-pharmaceuticals-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-private-room-dinner-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-accountant-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-ai-engineer-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-brand-collaboration-guide.json",
+      "issues": [
+        "Title > 60 chars",
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-consultant-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-cross-border-ecommerce-guide.json",
+      "issues": [
+        "Title > 60 chars",
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-data-engineering-guide.json",
+      "issues": [
+        "Title > 60 chars",
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-devtools-guide.json",
+      "issues": [
+        "Title > 60 chars",
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-halal-friendly-dining-guide.json",
+      "issues": [
+        "Title > 60 chars",
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-indie-hacker-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-lawyer-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-marketing-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-advertising-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-ai-products-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-biotechnology-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-creative-studio-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-dancing-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-devops-engineer-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-ecommerce-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-gaming-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-healthcare-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-language-learning-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-logistics-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-marketer-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-publishing-guide.json",
+      "issues": [
+        "Missing core keyword in title"
+      ]
+    }
+  ]
+}

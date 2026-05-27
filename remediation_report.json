@@ -1,0 +1,606 @@
+{
+  "processed": 120,
+  "remediated": 0,
+  "details": [
+    {
+      "file": "/content/articles/ready/index/beijing-halal-friendly-dining-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/beijing-indie-hacker-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/beijing-marketing-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-architect-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-accounting-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-ai-founder-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-barista-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-climate-tech-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-consumer-founder-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-developer-community-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-hardware-startups-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-interior-designer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-livestream-operator-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-manufacturing-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-no-alcohol-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-chengdu-public-relations-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-cloud-computing-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-cybersecurity-analyst-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-doctor-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-machine-learning-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-pharmaceuticals-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-private-room-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-accountant-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-ai-engineer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-brand-collaboration-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-consultant-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-cross-border-ecommerce-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-data-engineering-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-devtools-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-halal-friendly-dining-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-indie-hacker-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-lawyer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-shenzhen-marketing-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-advertising-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-ai-products-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-biotechnology-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-creative-studio-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-dancing-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-devops-engineer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-ecommerce-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-gaming-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-healthcare-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-language-learning-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-logistics-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-marketer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/en-tokyo-publishing-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/fundraising-learning-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/gaming-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/guangzhou-halal-friendly-dining-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/guangzhou-indie-hacker-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/guangzhou-lawyer-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/guangzhou-machine-learning-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/guangzhou-marketing-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/guangzhou-private-room-dinner-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/hangzhou-halal-friendly-dining-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/hangzhou-indie-hacker-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/hangzhou-machine-learning-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/hangzhou-marketing-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/hangzhou-private-room-dinner-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/hong-kong-gaming-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/hong-kong-healthcare-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/hong-kong-language-learning-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/hong-kong-logistics-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/hong-kong-marketer-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/hong-kong-pharmaceuticals-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/hong-kong-publishing-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/language-learning-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/language-learning-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/lawyer-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/lawyer-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/livestream-operator-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/london-hardware-startups-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/london-interior-designer-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/london-manufacturing-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/london-no-alcohol-dinner-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/london-public-relations-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/machine-learning-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/marketing-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/new-york-hardware-startups-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/new-york-interior-designer-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/new-york-livestream-operator-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/new-york-manufacturing-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/new-york-no-alcohol-dinner-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/pharmaceuticals-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/pharmaceuticals-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/private-room-dinner-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/public-relations-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/san-francisco-hardware-startups-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/san-francisco-interior-designer-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/san-francisco-livestream-operator-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/san-francisco-manufacturing-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/san-francisco-no-alcohol-dinner-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/san-francisco-public-relations-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/shanghai-halal-friendly-dining-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/shanghai-indie-hacker-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/shanghai-lawyer-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/shanghai-machine-learning-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/shanghai-private-room-dinner-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/singapore-hardware-startups-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/singapore-interior-designer-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/singapore-livestream-operator-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/singapore-manufacturing-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/singapore-no-alcohol-dinner-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/singapore-public-relations-after-work-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/sydney-healthcare-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/sydney-language-learning-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/sydney-logistics-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/sydney-marketer-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/sydney-publishing-peer-dinner-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/taipei-gaming-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/taipei-healthcare-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/taipei-logistics-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/taipei-marketer-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/taipei-pharmaceuticals-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/taipei-publishing-beginner-friendly-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/toronto-gaming-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/toronto-healthcare-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/toronto-logistics-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/toronto-marketer-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    },
+    {
+      "file": "/content/articles/ready/index/toronto-publishing-city-newcomer-guide.json",
+      "status": "ok",
+      "fixes": []
+    }
+  ]
+}
