@@ -436,6 +436,13 @@ function templateH2Issues(meta, body = "") {
     .map((heading) => heading.slice(0, 80))
 }
 
+/** True when a single H2 line would fail template-h2 rules. */
+export function headingFailsTemplateH2Check(meta, heading = "") {
+  const text = String(heading || "").trim()
+  if (!text) return false
+  return templateH2Issues(meta, `## ${text}\n\n.`).length > 0
+}
+
 /** Frontmatter-shaped meta for checker (renderMode=source). */
 export function metaForPromptArticle(prompt, { title = "", description = "" } = {}) {
   return {
