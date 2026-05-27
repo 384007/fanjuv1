@@ -84,21 +84,33 @@ def make_run_id(now: datetime | None = None) -> str:
 
 def run(cmd: str, cwd: str | None = None, timeout: int = 300) -> None:
     print(f"$ {cmd}", flush=True)
-    result = subprocess.run(
+    proc = subprocess.Popen(
         cmd,
         shell=True,
         cwd=cwd,
         text=True,
-        timeout=timeout,
-        capture_output=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        bufsize=1,
     )
-    if result.stdout:
-        print(result.stdout, end="" if result.stdout.endswith("\n") else "\n", flush=True)
-    if result.stderr:
-        print(result.stderr, end="" if result.stderr.endswith("\n") else "\n", flush=True)
-    if result.returncode != 0:
-        detail = (result.stderr or result.stdout or "").strip()
-        message = f"Command failed with exit code {result.returncode}: {cmd}"
+    output_lines: list[str] = []
+    assert proc.stdout is not None
+    try:
+        for line in iter(proc.stdout.readline, ""):
+            output_lines.append(line)
+            print(line, end="" if line.endswith("\n") else "\n", flush=True)
+        returncode = proc.wait(timeout=timeout)
+    except subprocess.TimeoutExpired:
+        proc.kill()
+        proc.wait()
+        detail = "".join(output_lines).strip()
+        message = f"Command timed out after {timeout}s: {cmd}"
+        if detail:
+            message = f"{message}\n{detail[-8000:]}"
+        raise RuntimeError(message)
+    if returncode != 0:
+        detail = "".join(output_lines).strip()
+        message = f"Command failed with exit code {returncode}: {cmd}"
         if detail:
             message = f"{message}\n{detail[-8000:]}"
         raise RuntimeError(message)

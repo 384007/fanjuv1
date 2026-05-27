@@ -117,10 +117,15 @@ function getProviderKeys(envPrefix) {
   const keys = []
   const base = process.env[envPrefix]
   if (base) keys.push(base)
+  let maxSuffix = 1
   for (let i = 2; i <= 99; i++) {
-    const k = process.env[`${envPrefix}_${i}`]
-    if (k) keys.push(k)
-    else break
+    if (process.env[`${envPrefix}_${i}`]) maxSuffix = i
+  }
+  for (let suffix = 2; suffix <= maxSuffix; suffix++) {
+    const index = suffix - 1
+    while (keys.length <= index) keys.push("")
+    const k = process.env[`${envPrefix}_${suffix}`]
+    if (k) keys[index] = k
   }
   return keys
 }
