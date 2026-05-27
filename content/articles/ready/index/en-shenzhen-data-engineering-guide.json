@@ -7,10 +7,10 @@
   "canonical": "https://fanju.app/en/shenzhen-data-engineering-guide",
   "robots": "index,follow",
   "sitemapEligible": true,
-  "title": "Data Engineering in Shenzhen: a small-table Fanju dinner guide | 饭局 饭搭子",
+  "title": "同城data engineering dinner Shenzhen — 本地约饭找饭局 | Fanju",
   "metaTitle": "Data Engineering in Shenzhen: a small-table F | 饭局 饭搭子",
-  "metaDescription": "Find your 饭搭子 (Dinner Buddy) at a 饭局 (Social Dinner) with Fanju. Data Engineering: who it suits, how to choose, boundaries, and safety.",
-  "h1": "Data Engineering in Shenzhen: a small-table Fanju dinner guide",
+  "metaDescription": "在同城寻找data engineering dinner Shenzhen，体验多元化餐饮。Fanju 饭局为你提供社交下的真实线下连接。",
+  "h1": "在同城找data engineering dinner Shenzhen",
   "excerpt": "Data Engineering can be a useful Fanju dinner theme when the table has a clear audience, public venue, small group size, and respectful boundaries. It suits people who want real-world conversation around data engineering without turning the meal into hard selling, pressure, or guaranteed outcomes.",
   "primaryKeyword": "data engineering dinner Shenzhen",
   "secondaryKeywords": [
@@ -120,6 +120,10 @@
         "/how-to-find-dinner-buddies",
         "/how-to-host-a-dinner-gathering"
       ]
+    },
+    {
+      "h2": "在同城寻找data engineering dinner Shenzhen的独特体验",
+      "body": "包容的城市饮食文化 寻找同城饭友 在 Fanju 饭局，我们鼓励用户基于社交主题，建立更具边界感的真实线下连接。"
     }
   ],
   "faq": [
