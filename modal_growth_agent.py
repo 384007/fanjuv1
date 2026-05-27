@@ -90,9 +90,18 @@ def run(cmd: str, cwd: str | None = None, timeout: int = 300) -> None:
         cwd=cwd,
         text=True,
         timeout=timeout,
+        capture_output=True,
     )
+    if result.stdout:
+        print(result.stdout, end="" if result.stdout.endswith("\n") else "\n", flush=True)
+    if result.stderr:
+        print(result.stderr, end="" if result.stderr.endswith("\n") else "\n", flush=True)
     if result.returncode != 0:
-        raise RuntimeError(f"Command failed with exit code {result.returncode}: {cmd}")
+        detail = (result.stderr or result.stdout or "").strip()
+        message = f"Command failed with exit code {result.returncode}: {cmd}"
+        if detail:
+            message = f"{message}\n{detail[-8000:]}"
+        raise RuntimeError(message)
 
 
 def run_args(args: list[str], cwd: str | None = None, timeout: int = 300, redacted: str | None = None) -> None:
