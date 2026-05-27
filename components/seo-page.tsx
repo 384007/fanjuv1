@@ -113,6 +113,7 @@ export function SeoPage({
 
   return (
     <main className="min-h-screen bg-background text-foreground" lang={lang === "en" ? "en" : "zh-CN"}>
+      <FaqJsonLd items={faq} />
       <SiteHeader />
 
       {/* Breadcrumb — helps AI crawlers understand page hierarchy */}
@@ -242,8 +243,26 @@ export function LinkGrid({ items }: { items: [string, string][] }) {
 // Visible FAQ content is preserved in the page HTML for users and AI crawlers.
 // Emitting FAQPage schema on a social-product site causes Search Console
 // "enhanced feature" warnings without meaningful rich-result benefit.
-export function FaqJsonLd({ items: _items }: { items: FaqItem[] }) {
-  return null
+export function FaqJsonLd({ items }: { items: FaqItem[] }) {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: items.map((item) => ({
+            "@type": "Question",
+            name: item.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: item.answer,
+            },
+          })),
+        }),
+      }}
+    />
+  )
 }
 
 export function BreadcrumbJsonLd({ items }: { items: BreadcrumbItem[] }) {
