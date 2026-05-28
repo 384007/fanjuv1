@@ -4,7 +4,7 @@ canonicalPath: "/city/jiaxing/business-dinner"
 alternatePath: "/en/city/jiaxing/business-dinner"
 translationKey: "jiaxing-business-dinner"
 lang: "zh"
-title: "嘉兴想找一桌商务饭局，饭局app先看同桌边界"
+title: "嘉兴想找一桌商务饭局，饭局app先看同桌边界 | fanju-app"
 titleZh: "嘉兴想找一桌商务饭局，饭局app先看同桌边界"
 description: "在嘉兴参加一场商务饭局，真正的价值不在于交换名片的数量，而在于饭桌上有没有人愿意放下手机，认真听你说完一段话。 饭局app / Fanju饭局在这个城市里，正是为这种小桌、低噪音、有主题的线下连接而存在的。 它不是相亲保证，不是随机群聊，更不是无限刷资料的社交App。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 嘉兴想找一桌商务饭局，饭局app先看同桌边界
+# 嘉兴想找一桌商务饭局，饭局app先看同桌边界 | fanju-app
 
 在嘉兴参加一场商务饭局，真正的价值不在于交换名片的数量，而在于饭桌上有没有人愿意放下手机，认真听你说完一段话。饭局app / Fanju饭局在这个城市里，正是为这种小桌、低噪音、有主题的线下连接而存在的。它不是相亲保证，不是随机群聊，更不是无限刷资料的社交App。每一场嘉兴的商务饭局，都由一位主理人发起，围绕一个具体话题，比如“传统制造企业的数字化破局”或“南湖高新区创业者的资源卡点”，邀请6到8位背景相近但未谋面的人围坐一桌，在真实餐厅里吃一顿有来有往的饭。这种饭局不追求热闹，而是让嘉兴本地的从业者，在茶山街的安静包厢或月河街区的私房菜馆里，找到能说点真话的对话空间。
 

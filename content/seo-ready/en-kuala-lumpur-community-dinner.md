@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kuala-lumpur/community-dinner"
 alternatePath: "/city/kuala-lumpur/community-dinner"
 translationKey: "kuala-lumpur-community-dinner"
 lang: "en"
-title: "When Community Dinner feels too loose in Kuala Lumpur, Fanju app starts with the table"
+title: "When Community Dinner feels too loose in Kuala Lumpur, Fanju app starts with the table | fanju-app"
 description: "Fanju app offers a structured approach to social dining in Kuala Lumpur, focusing on small, well-defined meals designed for genuine connection. It's a platform for those who find larger, less defined gatherings overwhelm"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# When Community Dinner feels too loose in Kuala Lumpur, Fanju app starts with the table
+# When Community Dinner feels too loose in Kuala Lumpur, Fanju app starts with the table | fanju-app
 
 Fanju app offers a structured approach to social dining in Kuala Lumpur, focusing on small, well-defined meals designed for genuine connection. It's a platform for those who find larger, less defined gatherings overwhelming, providing a clear framework for shared experiences. For individuals seeking meaningful interactions without the pressure of constant conversation, Fanju app facilitates intimate dinners where the emphasis is on shared food and relaxed company, making it an ideal tool for building real-world connections within the city's diverse social landscape.
 

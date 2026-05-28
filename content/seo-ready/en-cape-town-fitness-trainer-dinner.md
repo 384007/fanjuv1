@@ -4,7 +4,7 @@ canonicalPath: "/en/city/cape-town/fitness-trainer-dinner"
 alternatePath: "/city/cape-town/fitness-trainer-dinner"
 translationKey: "cape-town-fitness-trainer-dinner"
 lang: "en"
-title: "Cape Town has plenty of Fitness Trainer Dinner options; Fanju app is the one that names the table first"
+title: "Cape Town has plenty of Fitness Trainer Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Cape Town’s after-work rhythm often ends in solitude — a takeaway at home, a quick gym session, or scrolling through options that never quite land. But on certain evenings, a different kind of gathering takes shape: a ta"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Cape Town has plenty of Fitness Trainer Dinner options; Fanju app is the one that names the table first
+# Cape Town has plenty of Fitness Trainer Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Cape Town’s after-work rhythm often ends in solitude — a takeaway at home, a quick gym session, or scrolling through options that never quite land. But on certain evenings, a different kind of gathering takes shape: a table reserved not for tourists or influencers, but for people who train, work, and want to talk about something other than reps and routines. The Fanju app makes these moments possible by naming the table before it exists, turning vague social plans into real invitations. It's not about grand events; it's about the quiet consistency of showing up at the same time, in the same city, with the same kind of openness. In Cape Town, where community can feel scattered across suburbs and schedules, these dinners are tiny anchors.
 

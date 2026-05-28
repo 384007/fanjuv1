@@ -4,7 +4,7 @@ canonicalPath: "/city/huanggang/painting-dinner"
 alternatePath: "/en/city/huanggang/painting-dinner"
 translationKey: "huanggang-painting-dinner"
 lang: "zh"
-title: "黄冈的绘画饭局饭局为什么值得去，饭局app在报名前就给了答案"
+title: "黄冈的绘画饭局饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
 titleZh: "黄冈的绘画饭局饭局为什么值得去，饭局app在报名前就给了答案"
 description: "下班后的黄冈，江边的风开始带着凉意，街巷里的灯光一盏接一盏亮起来。很多人走出办公楼，脚步缓慢，既不想立刻回家，又不知道能往哪里去。这种空档里，饭局app悄悄成了一种选择——它不承诺热闹，也不主打社交，而是用一桌饭，把几个在黄冈生活却常感疏离"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 黄冈的绘画饭局饭局为什么值得去，饭局app在报名前就给了答案
+# 黄冈的绘画饭局饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
 下班后的黄冈，江边的风开始带着凉意，街巷里的灯光一盏接一盏亮起来。很多人走出办公楼，脚步缓慢，既不想立刻回家，又不知道能往哪里去。这种空档里，饭局app悄悄成了一种选择——它不承诺热闹，也不主打社交，而是用一桌饭，把几个在黄冈生活却常感疏离的人，轻轻聚在一起。最近的一场绘画饭局，就约在黄州老街拐角的一家小馆，菜单是老板手写的，墙上挂着几幅本地人画的水彩，饭还没开始，人已经在画面前站住了。
 

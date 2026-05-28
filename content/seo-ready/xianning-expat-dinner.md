@@ -4,7 +4,7 @@ canonicalPath: "/city/xianning/expat-dinner"
 alternatePath: "/en/city/xianning/expat-dinner"
 translationKey: "xianning-expat-dinner"
 lang: "zh"
-title: "下班后的咸宁，饭局app怎样让外籍和海归饭局有真实同桌"
+title: "下班后的咸宁，饭局app怎样让外籍和海归饭局有真实同桌 | fanju-app"
 titleZh: "下班后的咸宁，饭局app怎样让外籍和海归饭局有真实同桌"
 description: "在咸宁，下班后的时间常被湖风和茶香轻轻托住。城市不急，但人的连接却可以很近。饭局app在这里不制造喧闹的社交表演，而是帮外籍人士、海归和本地创业者找到能坐下来认真吃顿饭的人。它不靠算法堆人，而是用主理人机制确保每桌饭的同桌质量。在咸宁，一场"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 下班后的咸宁，饭局app怎样让外籍和海归饭局有真实同桌
+# 下班后的咸宁，饭局app怎样让外籍和海归饭局有真实同桌 | fanju-app
 
 在咸宁，下班后的时间常被湖风和茶香轻轻托住。城市不急，但人的连接却可以很近。饭局app在这里不制造喧闹的社交表演，而是帮外籍人士、海归和本地创业者找到能坐下来认真吃顿饭的人。它不靠算法堆人，而是用主理人机制确保每桌饭的同桌质量。在咸宁，一场饭局的价值不在于认识多少人，而在于是否有人愿意在饭桌上说出真实想法。饭局app做的，就是让这种可能成为日常。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/luanda/energy-dinner"
 alternatePath: "/city/luanda/energy-dinner"
 translationKey: "luanda-energy-dinner"
 lang: "en"
-title: "Luanda has plenty of Energy Dinner options; Fanju app is the one that names the table first"
+title: "Luanda has plenty of Energy Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Dining in Luanda can feel like a performance—crowded waterfront restaurants, amplified kizomba beats spilling onto cacundas-lined streets, and the unspoken pressure to be “on” the moment you step into a social space. But"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Luanda has plenty of Energy Dinner options; Fanju app is the one that names the table first
+# Luanda has plenty of Energy Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Dining in Luanda can feel like a performance—crowded waterfront restaurants, amplified kizomba beats spilling onto cacundas-lined streets, and the unspoken pressure to be “on” the moment you step into a social space. But for introverts, the real energy cost isn’t the meal—it’s the mental load of navigating open-ended gatherings. That’s where Energy Dinner in Luanda stands apart, not as another social event, but as a quietly structured alternative rooted in predictable rhythm and intentional design. The Fanju app doesn’t just list dinners—it names the table before it exists, giving hosts and guests a shared language to build something small, thoughtful, and repeatable. In a city where socializing often defaults to volume and visibility, a well-run Energy Dinner table offers a different kind of warmth: one measured in pauses, not projections.
 

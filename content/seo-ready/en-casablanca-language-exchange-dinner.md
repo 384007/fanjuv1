@@ -4,7 +4,7 @@ canonicalPath: "/en/city/casablanca/language-exchange-dinner"
 alternatePath: "/city/casablanca/language-exchange-dinner"
 translationKey: "casablanca-language-exchange-dinner"
 lang: "en"
-title: "Casablanca has plenty of Language Exchange Dinner options; Fanju app is the one that names the table first"
+title: "Casablanca has plenty of Language Exchange Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "In a city as layered as Casablanca, where French and Arabic swirl through the same afternoon breeze and Darija carries the rhythm of both markets and university courtyards, finding meaningful conversation can still feel"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Casablanca has plenty of Language Exchange Dinner options; Fanju app is the one that names the table first
+# Casablanca has plenty of Language Exchange Dinner options; Fanju app is the one that names the table first | fanju-app
 
 In a city as layered as Casablanca, where French and Arabic swirl through the same afternoon breeze and Darija carries the rhythm of both markets and university courtyards, finding meaningful conversation can still feel like searching for a quiet alley in the medina during Eid. The Fanju app doesn’t promise fluency or instant friendships, but it does something more practical: it surfaces tables where people have already decided what kind of gathering they want to be. That small act—naming the table—turns a vague idea into a place with a chair waiting. In a metropolis of millions, that specificity is rare, and it’s why so many residents in Casablanca now start their second dinners not with a restaurant choice, but with a Fanju notification.
 

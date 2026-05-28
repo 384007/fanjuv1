@@ -4,7 +4,7 @@ canonicalPath: "/en/city/miami/social-reset-dinner"
 alternatePath: "/city/miami/social-reset-dinner"
 translationKey: "miami-social-reset-dinner"
 lang: "en"
-title: "In Miami, Fanju app turns Social Reset Dinner into a table people can actually trust"
+title: "In Miami, Fanju app turns Social Reset Dinner into a table people can actually trust | fanju-app"
 description: "When you arrive at a Social Reset Dinner in Miami and see six to twelve chairs pulled around a long table, the real question isn’t whether the food will be good. It’s whether the people will be. That’s where the Fanju ap"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Miami, Fanju app turns Social Reset Dinner into a table people can actually trust
+# In Miami, Fanju app turns Social Reset Dinner into a table people can actually trust | fanju-app
 
 When you arrive at a Social Reset Dinner in Miami and see six to twelve chairs pulled around a long table, the real question isn’t whether the food will be good. It’s whether the people will be. That’s where the Fanju app changes the game. It doesn’t promise instant friendships or curated chemistry, but it does offer something rarer in a city built on fleeting interactions: the chance for a shared meal to feel intentional, not incidental. In a place where plans dissolve by sunset and dinner invitations often end in ghosting, Fanju helps form tables that hold their shape—because the people at them have already agreed, quietly, on the same terms.
 

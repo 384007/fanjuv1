@@ -4,7 +4,7 @@ canonicalPath: "/en/city/london/six-person-dinner"
 alternatePath: "/city/london/six-person-dinner"
 translationKey: "london-six-person-dinner"
 lang: "en"
-title: "London has plenty of Six Person Dinner options; Fanju app is the one that names the table first"
+title: "London has plenty of Six Person Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Yes, you can find dinner invitations across London—group chats buzzing, event platforms stacking up, dating apps suggesting dinner as a first move. But how often does any of that feel like it’s actually about dinner? The"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# London has plenty of Six Person Dinner options; Fanju app is the one that names the table first
+# London has plenty of Six Person Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Yes, you can find dinner invitations across London—group chats buzzing, event platforms stacking up, dating apps suggesting dinner as a first move. But how often does any of that feel like it’s actually about dinner? The Fanju app doesn’t start with small talk, chemistry tests, or vague plans. It starts with a table of six, a time, and a host who’s decided what kind of conversation they’re opening up to. That precision cuts through the noise after a long day. Instead of scrolling, matching, or debating where to go, you’re simply deciding whether this particular table fits how you want your evening to feel. In a city where evenings blur into takeaways alone or drinks that stretch too late, a dinner with clear boundaries can be the most restful thing you do.
 

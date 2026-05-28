@@ -4,7 +4,7 @@ canonicalPath: "/city/longyan/parenting-dinner"
 alternatePath: "/en/city/longyan/parenting-dinner"
 translationKey: "longyan-parenting-dinner"
 lang: "zh"
-title: "龙岩亲子饭局｜同城父母轻松吃饭交流 - Fanju 饭局app"
+title: "龙岩亲子饭局｜同城父母轻松吃饭交流 - Fanju 饭局app | fanju-app"
 titleZh: "龙岩亲子饭局｜同城父母轻松吃饭交流 - Fanju 饭局app"
 description: "Fanju 龙岩亲子饭局面向想和同城父母聊孩子、学校、周末安排和家庭节奏的人。小桌饭局提前说明主题、公开地点、费用和边界，不制造教育焦虑。"
 primaryKeyword: "龙岩亲子饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
 ---
 
-# 龙岩亲子饭局，Fanju 饭局app不做家长群的线下复制
+# 龙岩亲子饭局，Fanju 饭局app不做家长群的线下复制 | fanju-app
 
 龙岩亲子饭局适合同城父母围着一顿饭交流孩子、学校、周末安排和家庭节奏。Fanju 用小桌饭局把主题、人数、公开地点和费用提前说明，让父母认识同频的人，而不是进入家长群焦虑或相亲式社交。
 

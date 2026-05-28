@@ -4,7 +4,7 @@ canonicalPath: "/city/yantai/new-friends-dinner"
 alternatePath: "/en/city/yantai/new-friends-dinner"
 translationKey: "yantai-new-friends-dinner"
 lang: "zh"
-title: "不想在烟台随便拼桌，饭局app怎样让新朋友饭局变成一个真实决定"
+title: "不想在烟台随便拼桌，饭局app怎样让新朋友饭局变成一个真实决定 | fanju-app"
 titleZh: "不想在烟台随便拼桌，饭局app怎样让新朋友饭局变成一个真实决定"
 description: "周五傍晚，烟台的海风从南边卷过来，带着一点咸，一点凉。你刚结束一周的工作，站在南大街的路口，看着人来人往。朋友圈里有人晒出海边散步的照片，有人在万象城聚餐，而你只是站在路边，犹豫要不要点开饭局app。这不是你第一次打开它，但可能是第一次认真"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 不想在烟台随便拼桌，饭局app怎样让新朋友饭局变成一个真实决定
+# 不想在烟台随便拼桌，饭局app怎样让新朋友饭局变成一个真实决定 | fanju-app
 
 周五傍晚，烟台的海风从南边卷过来，带着一点咸，一点凉。你刚结束一周的工作，站在南大街的路口，看着人来人往。朋友圈里有人晒出海边散步的照片，有人在万象城聚餐，而你只是站在路边，犹豫要不要点开饭局app。这不是你第一次打开它，但可能是第一次认真考虑：如果我不再随便拼桌，而是选择一场真正有准备的饭局，会发生什么？在烟台，饭局app不是为了让你多一顿饭，而是帮你把“认识新朋友”从模糊的愿望变成一个具体的决定。
 

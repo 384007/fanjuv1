@@ -4,7 +4,7 @@ canonicalPath: "/city/toronto/high-quality-social-dining"
 alternatePath: "/en/city/toronto/high-quality-social-dining"
 translationKey: "toronto-high-quality-social-dining"
 lang: "zh"
-title: "多伦多 high quality social dining Guide"
+title: "多伦多 high quality social dining Guide | fanju-app | 饭局app"
 titleZh: "多伦多high-quality-social-dining指南"
 pageType: "city_landing"
 priorityScore: 50
@@ -12,7 +12,7 @@ aiQualityScore: 100
 status: "ready"
 ---
 
-# 多伦多 high quality social dining Guide
+# 多伦多 high quality social dining Guide | fanju-app | 饭局app
 
 ## 中文概览
 

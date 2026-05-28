@@ -4,7 +4,7 @@ canonicalPath: "/city/shijiazhuang/returnee-dinner"
 alternatePath: "/en/city/shijiazhuang/returnee-dinner"
 translationKey: "shijiazhuang-returnee-dinner"
 lang: "zh"
-title: "石家庄的一顿海归饭局，饭局app为什么先看人再看热闹"
+title: "石家庄的一顿海归饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "石家庄的一顿海归饭局，饭局app为什么先看人再看热闹"
 description: "石家庄这座城市，总有种沉静的气质，不像沿海城市那样张扬，却自有其扎实的脉络。当海归群体开始在这片土地上寻找归属感，尤其是希望通过一场有质量的饭局来连接彼此时，饭局app提供了一种新的视角。它不只是一个邀约平台，更是一个筛选器，帮助人们在石家"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 石家庄的一顿海归饭局，饭局app为什么先看人再看热闹
+# 石家庄的一顿海归饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 石家庄这座城市，总有种沉静的气质，不像沿海城市那样张扬，却自有其扎实的脉络。当海归群体开始在这片土地上寻找归属感，尤其是希望通过一场有质量的饭局来连接彼此时，饭局app提供了一种新的视角。它不只是一个邀约平台，更是一个筛选器，帮助人们在石家庄这样具体的生活场景中，辨别一张桌子的真正价值——是热闹的喧嚣，还是真诚的连接。饭局app的核心在于，它鼓励我们先看人，再看热闹。
 

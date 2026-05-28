@@ -4,7 +4,7 @@ canonicalPath: "/city/shaoguan/introvert-dinner"
 alternatePath: "/en/city/shaoguan/introvert-dinner"
 translationKey: "shaoguan-introvert-dinner"
 lang: "zh"
-title: "韶关内向者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "韶关内向者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "韶关内向者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "在韶关，生活节奏不快，人们似乎总有时间坐下来聊聊天，但这并不意味着每个人都能轻易找到合适的饭局。尤其对于内向的伙伴们来说，那些喧闹的聚会往往让人望而却步。饭局app的出现，正是为了解决这个问题——它提供了一个清晰的沟通平台，让参与者在见面之"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 韶关内向者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 韶关内向者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
 在韶关，生活节奏不快，人们似乎总有时间坐下来聊聊天，但这并不意味着每个人都能轻易找到合适的饭局。尤其对于内向的伙伴们来说，那些喧闹的聚会往往让人望而却步。饭局app的出现，正是为了解决这个问题——它提供了一个清晰的沟通平台，让参与者在见面之前就能了解彼此的期待，特别是当它明确了“非相亲”的边界时，那种不带压力的轻松感，能让一桌人更快地找到共同的频道。
 

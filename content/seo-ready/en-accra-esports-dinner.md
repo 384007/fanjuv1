@@ -4,7 +4,7 @@ canonicalPath: "/en/city/accra/esports-dinner"
 alternatePath: "/city/accra/esports-dinner"
 translationKey: "accra-esports-dinner"
 lang: "en"
-title: "Before the first message in Accra, Fanju app makes Esports Dinner feel like a real decision"
+title: "Before the first message in Accra, Fanju app makes Esports Dinner feel like a real decision | fanju-app"
 description: "You land in Accra this month, phone charged, SIM active, and a loose network of online contacts from gaming forums and Discord servers. You’ve heard about Esports Dinner—how it started as a niche idea but now quietly gat"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Accra, Fanju app makes Esports Dinner feel like a real decision
+# Before the first message in Accra, Fanju app makes Esports Dinner feel like a real decision | fanju-app
 
 You land in Accra this month, phone charged, SIM active, and a loose network of online contacts from gaming forums and Discord servers. You’ve heard about Esports Dinner—how it started as a niche idea but now quietly gathers small groups in neighborhoods like Osu, Labone, and East Legon. The Fanju app shows upcoming dinners, but what it doesn’t show is the quiet tension of showing up alone. It’s not just about food or games; it’s whether the night will feel like belonging or performance. Fanju doesn’t promise connection, but it structures the possibility, offering just enough detail to help you decide: yes, no, or maybe later. That clarity, in a city where social codes aren’t always spelled out, makes the difference between showing up and staying home.
 

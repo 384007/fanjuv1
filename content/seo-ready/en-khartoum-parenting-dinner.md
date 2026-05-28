@@ -4,7 +4,7 @@ canonicalPath: "/en/city/khartoum/parenting-dinner"
 alternatePath: "/city/khartoum/parenting-dinner"
 translationKey: "khartoum-parenting-dinner"
 lang: "en"
-title: "Before the first message in Khartoum, Fanju app makes Parenting Dinner feel like a real decision"
+title: "Before the first message in Khartoum, Fanju app makes Parenting Dinner feel like a real decision | fanju-app"
 description: "Parenting in Khartoum often means balancing long commutes, fluctuating routines, and shifting neighbourhood dynamics — all while trying to keep family life grounded. The idea of meeting other parents might start as a vag"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Khartoum, Fanju app makes Parenting Dinner feel like a real decision
+# Before the first message in Khartoum, Fanju app makes Parenting Dinner feel like a real decision | fanju-app
 
 Parenting in Khartoum often means balancing long commutes, fluctuating routines, and shifting neighbourhood dynamics — all while trying to keep family life grounded. The idea of meeting other parents might start as a vague wish, tucked between school pickups and evening chores. But through the Fanju app, that wish takes shape: real dinners, hosted in homes across Omdurman, Bahri, and central Khartoum, where parents gather not as tourists or attendees, but as neighbours. This isn’t about curated experiences or event checklists. It’s about sitting down with someone who knows the same pharmacy that carries your child’s medicine, or the playground near Shambat that stays open late. In a city where informal networks carry more weight than formal programs, Parenting Dinner on Fanju becomes less of an outing and more of a quiet recalibration — a way to practice parenting with others who are doing it in the same landscape.
 

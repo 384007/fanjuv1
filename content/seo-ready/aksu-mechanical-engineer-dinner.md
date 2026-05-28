@@ -4,7 +4,7 @@ canonicalPath: "/city/aksu/mechanical-engineer-dinner"
 alternatePath: "/en/city/aksu/mechanical-engineer-dinner"
 translationKey: "aksu-mechanical-engineer-dinner"
 lang: "zh"
-title: "阿克苏想参加机械工程师饭局，饭局app把信任感放在饭前"
+title: "阿克苏想参加机械工程师饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "阿克苏想参加机械工程师饭局，饭局app把信任感放在饭前"
 description: "周五傍晚，阿克苏的风从温宿大峡谷方向吹来，裹着一点沙尘和凉意。你刚从开发区的工厂下班，图纸改了三版，设备调试卡在传动比上。手机震动，饭局app弹出一条提醒：周六晚七点，老城区一家清炖羊蹄馆，五位机械工程师报名，主理人是做农机传动系统的李工。"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 阿克苏想参加机械工程师饭局，饭局app把信任感放在饭前
+# 阿克苏想参加机械工程师饭局，饭局app把信任感放在饭前 | fanju-app
 
 周五傍晚，阿克苏的风从温宿大峡谷方向吹来，裹着一点沙尘和凉意。你刚从开发区的工厂下班，图纸改了三版，设备调试卡在传动比上。手机震动，饭局app弹出一条提醒：周六晚七点，老城区一家清炖羊蹄馆，五位机械工程师报名，主理人是做农机传动系统的李工。你犹豫了一下——这种饭局真的不会冷场吗？但比起回家对着出租屋的白墙刷视频，你还是点了“参加”。在阿克苏，能有个线下碰面的地方，已经不算小事。饭局app不承诺热闹，但它把饭前的信息透明做足，让你知道这顿饭不是盲盒，而是一次有准备的见面。
 

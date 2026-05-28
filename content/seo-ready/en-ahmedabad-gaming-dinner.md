@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ahmedabad/gaming-dinner"
 alternatePath: "/city/ahmedabad/gaming-dinner"
 translationKey: "ahmedabad-gaming-dinner"
 lang: "en"
-title: "The Gaming Dinner table Ahmedabad actually needs is the one Fanju app describes up front"
+title: "The Gaming Dinner table Ahmedabad actually needs is the one Fanju app describes up front | fanju-app"
 description: "Ahmedabad’s tech founders, startup operators, and independent professionals spend weekends in coffee shops or scrolling through networking events that never quite deliver. The real need isn’t more gatherings—it’s fewer,"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# The Gaming Dinner table Ahmedabad actually needs is the one Fanju app describes up front
+# The Gaming Dinner table Ahmedabad actually needs is the one Fanju app describes up front | fanju-app
 
 Ahmedabad’s tech founders, startup operators, and independent professionals spend weekends in coffee shops or scrolling through networking events that never quite deliver. The real need isn’t more gatherings—it’s fewer, better ones. The Gaming Dinner concept, as described by the Fanju app, answers that need not by promising novelty, but by designing for clarity. In a city where business conversations often begin with polite small talk and stall there, a structured dinner table focused on shared professional curiosity offers a different rhythm. The app doesn’t oversell; it sets expectations. That simple act—telling users exactly what kind of table they’re joining—makes the difference between showing up anxious and arriving prepared. No pitch sessions. No forced collaboration. Just a meal where the work talk feels natural because it’s framed as part of the experience.
 

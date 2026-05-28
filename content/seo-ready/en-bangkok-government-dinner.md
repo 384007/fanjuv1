@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangkok/government-dinner"
 alternatePath: "/city/bangkok/government-dinner"
 translationKey: "bangkok-government-dinner"
 lang: "en"
-title: "Bangkok has plenty of Government Dinner options; Fanju app is the one that names the table first"
+title: "Bangkok has plenty of Government Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "In Bangkok, the idea of a Government Dinner—shared meals hosted by locals open to newcomers—often sounds more inviting than it feels in practice. Many expats arrive expecting instant community, only to find gatherings th"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Bangkok has plenty of Government Dinner options; Fanju app is the one that names the table first
+# Bangkok has plenty of Government Dinner options; Fanju app is the one that names the table first | fanju-app
 
 In Bangkok, the idea of a Government Dinner—shared meals hosted by locals open to newcomers—often sounds more inviting than it feels in practice. Many expats arrive expecting instant community, only to find gatherings that blur into polite small talk under fluorescent lights, disconnected from the city’s rhythm. The Fanju app changes that by prioritizing clarity: it doesn’t just list dinners, it surfaces tables where hosts name their intentions upfront. This small but meaningful shift helps newcomers cut through the noise and find a seat where conversation flows as naturally as the Chao Phraya at dusk. Instead of showing up to something vague, diners see who’s cooking, why they’re hosting, and what kind of evening to expect—whether it’s a quiet family-style meal in Thonglor or a lively debate over boat noodles in Bang Rak.
 

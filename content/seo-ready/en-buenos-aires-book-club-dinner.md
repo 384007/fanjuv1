@@ -4,7 +4,7 @@ canonicalPath: "/en/city/buenos-aires/book-club-dinner"
 alternatePath: "/city/buenos-aires/book-club-dinner"
 translationKey: "buenos-aires-book-club-dinner"
 lang: "en"
-title: "When Book Club Dinner in Buenos Aires needs more than a group chat, Fanju app starts with the table"
+title: "When Book Club Dinner in Buenos Aires needs more than a group chat, Fanju app starts with the table | fanju-app"
 description: "Buenos Aires Book Club Dinner through the Fanju app is a small-table social meal where the evening’s theme and guest list are shared before you say yes—no swipes, no pressure."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# When Book Club Dinner in Buenos Aires needs more than a group chat, Fanju app starts with the table
+# When Book Club Dinner in Buenos Aires needs more than a group chat, Fanju app starts with the table | fanju-app
 
 Buenos Aires Book Club Dinner through the Fanju app is a small-table social meal where the evening’s theme and guest list are shared before you say yes—no swipes, no pressure. It’s not a dating guarantee, not a random group chat, not an endless profile feed. Instead, it’s a practical way for newcomers and locals to meet over dinner with a real topic: a book that everyone agrees to read ahead. Fanju, also known in Chinese as “饭局 / 饭局app / Fanju饭局”, works as a social dining app focused on offline dinner social events with clear structure. In Buenos Aires, where crossing neighbourhoods for dinner means planning timing and comfort, this clarity matters. You’ll see the host’s note, the venue type, and the expected number of guests—details that help you decide whether to join a quiet discussion in Palermo or skip a loud group in San Telmo.
 

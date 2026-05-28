@@ -4,7 +4,7 @@ canonicalPath: "/city/yingkou/small-table-dinner"
 alternatePath: "/en/city/yingkou/small-table-dinner"
 translationKey: "yingkou-small-table-dinner"
 lang: "zh"
-title: "营口小桌饭局，饭局app要先把哪几件事说清楚"
+title: "营口小桌饭局，饭局app要先把哪几件事说清楚 | fanju-app"
 titleZh: "营口小桌饭局，饭局app要先把哪几件事说清楚"
 description: "在营口的小桌饭局里，饭局app不是相亲保证、不是随机群聊、不是无限刷资料，而是一种围绕具体主题、小桌吃饭和真实连接的线下饭局社交方式。 它把下班后独自回家的时间，变成和几个陌生人围坐一桌、从一道本地海鲜聊到工作瓶颈的可能。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 营口小桌饭局，饭局app要先把哪几件事说清楚
+# 营口小桌饭局，饭局app要先把哪几件事说清楚 | fanju-app
 
 在营口的小桌饭局里，饭局app不是相亲保证、不是随机群聊、不是无限刷资料，而是一种围绕具体主题、小桌吃饭和真实连接的线下饭局社交方式。它把下班后独自回家的时间，变成和几个陌生人围坐一桌、从一道本地海鲜聊到工作瓶颈的可能。在营口，这样的饭局常发生在老街巷口的家常菜馆，或沿海路旁灯光柔和的私厨小院，人数通常控制在4到6人，主题可能是“30岁前的职业转弯”或“营口人怎么过清明”。报名前你能看到主理人是谁、在哪吃饭、每人预算多少，而不是被拉进一个临时拼凑的群。
 

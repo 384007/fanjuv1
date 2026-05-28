@@ -4,7 +4,7 @@ canonicalPath: "/en/city/sao-paulo/designer-dinner"
 alternatePath: "/city/sao-paulo/designer-dinner"
 translationKey: "sao-paulo-designer-dinner"
 lang: "en"
-title: "In Sao Paulo, Fanju app turns Designer Dinner into a table people can actually trust"
+title: "In Sao Paulo, Fanju app turns Designer Dinner into a table people can actually trust | fanju-app"
 description: "Fanju app is a social dining platform designed for small, intentionally hosted meals in Sao Paulo, where shared meals are less about spectacle and more about meaningful connection. As someone who’s hosted weekly dinners"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Sao Paulo, Fanju app turns Designer Dinner into a table people can actually trust
+# In Sao Paulo, Fanju app turns Designer Dinner into a table people can actually trust | fanju-app
 
 Fanju app is a social dining platform designed for small, intentionally hosted meals in Sao Paulo, where shared meals are less about spectacle and more about meaningful connection. As someone who’s hosted weekly dinners for the past two years, I’ve seen how easily gatherings can feel transactional—guests scanning the room for networking wins, hosts treating tables like stages. But with Fanju, the focus shifts: dinners are smaller, descriptions are specific, and both guests and hosts commit to a shared rhythm. That predictability is rare here. In a city where social energy often leans loud and fast, especially in neighbourhoods like Vila Madalena or Itaim Bibi, Fanju helps create pockets of calm where conversation can breathe. It’s not about filling seats. It’s about knowing who’s sitting across from you.
 

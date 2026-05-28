@@ -4,7 +4,7 @@ canonicalPath: "/city/xinyang/startup-dinner"
 alternatePath: "/en/city/xinyang/startup-dinner"
 translationKey: "xinyang-startup-dinner"
 lang: "zh"
-title: "信阳创业饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "信阳创业饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "信阳创业饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "最近在信阳，创业主题的饭局几乎每周都有，有些在共享办公空间，有些在本地咖啡馆，有些干脆约在晚饭后的家常菜馆。但真正让人愿意留下来的，往往是那些提前说明了“这顿饭要解决什么问题”的饭局。比如，有位主理人明确写：“这次饭局是帮三位做农产品电商的"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
 ---
 
-# 信阳创业饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 信阳创业饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 在信阳，一场饭局的成败，往往不在于餐厅多体面，而在于开饭前大家是否对“这顿饭为什么存在”有共识。饭局app不是用来拉群、刷存在感或凑人头的工具，它更关注的是：一桌人能不能在真实吃饭的时间里，建立起可延续的连接。在信阳光山的街角茶馆、浉河区的小院餐厅里，越来越多的创业者开始用饭局app组织小规模聚餐，不是为了热闹，而是为了在熟悉的街区节奏里，找到能说几句真话的同频人。这里的饭局不追求人数，反而强调边界——谁来、为什么来、聊什么、聊到什么程度，这些都得先说清楚。比起临时拉个微信群凑人吃饭，饭局app让“这一桌”变得更具体，也更安心。
 

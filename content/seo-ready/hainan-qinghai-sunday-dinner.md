@@ -4,7 +4,7 @@ canonicalPath: "/city/hainan-qinghai/sunday-dinner"
 alternatePath: "/en/city/hainan-qinghai/sunday-dinner"
 translationKey: "hainan-qinghai-sunday-dinner"
 lang: "zh"
-title: "海南州的周日饭局为什么值得去，饭局app在报名前就给了答案"
+title: "海南州的周日饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
 titleZh: "海南州的周日饭局为什么值得去，饭局app在报名前就给了答案"
 description: "海南州的饭局从不追求热闹。它更接近一种低语：在贵德的农家乐院子里，六个人坐在老榆木桌旁，主理人端出自己晒的蕨麻；在共和县恰卜恰镇的一间小茶馆，有人带了刚从牧区收来的酥油，打算配青稞饼。这些场景不会出现在宣传图里，但它们构成了饭局app上最真"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 海南州的周日饭局为什么值得去，饭局app在报名前就给了答案
+# 海南州的周日饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
 在海南州，周末的节奏不靠钟表，而靠阳光落进窗台的角度。你站在茶卡盐湖边，风从青海湖吹来，心里却在想：这周要不要参加那场周日饭局？饭局app上那桌写着“本地青年、手工茶、不聊工作”的饭局，已经挂了三天。你点进去看了七次，始终没敢报名。这不是普通的聚餐邀请，而是一次关于信任的决定——和陌生人围坐一桌，在一个你熟悉又不算完全了解的城市里，能不能接住那种微妙的舒适感？饭局app的存在，不是为了催你快点下单，而是让你在点“报名”之前，就能看清楚这顿饭到底属于谁。
 

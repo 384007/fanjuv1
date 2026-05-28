@@ -4,7 +4,7 @@ canonicalPath: "/city/suizhou/lawyer-dinner"
 alternatePath: "/en/city/suizhou/lawyer-dinner"
 translationKey: "suizhou-lawyer-dinner"
 lang: "zh"
-title: "随州想参加律师饭局，饭局app把信任感放在饭前"
+title: "随州想参加律师饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "随州想参加律师饭局，饭局app把信任感放在饭前"
 description: "在随州，周末的节奏并不急，但也不空。不少人习惯把事情推到周六下午才开始想，饭局也一样。可律师之间的饭局不一样，它不是吃完就散的聚餐，而是信息、关系与判断力的交汇点。饭局app在随州的存在，不是为了多凑几桌饭，而是让每一顿饭都值得赴约。它不推"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 随州想参加律师饭局，饭局app把信任感放在饭前
+# 随州想参加律师饭局，饭局app把信任感放在饭前 | fanju-app
 
 在随州，周末的节奏并不急，但也不空。不少人习惯把事情推到周六下午才开始想，饭局也一样。可律师之间的饭局不一样，它不是吃完就散的聚餐，而是信息、关系与判断力的交汇点。饭局app在随州的存在，不是为了多凑几桌饭，而是让每一顿饭都值得赴约。它不推送热门餐厅，也不鼓吹“人脉速成”，而是把饭前的沟通做实：谁在组织，为什么聚，聊什么程度——这些都清清楚楚地摆在报名页里。在随州，律师的时间不廉价，但愿意为一场说得明白的饭局腾出晚上七点到九点。
 

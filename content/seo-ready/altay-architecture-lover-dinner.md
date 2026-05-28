@@ -4,7 +4,7 @@ canonicalPath: "/city/altay/architecture-lover-dinner"
 alternatePath: "/en/city/altay/architecture-lover-dinner"
 translationKey: "altay-architecture-lover-dinner"
 lang: "zh"
-title: "在阿勒泰找到对的建筑爱好者饭局，饭局app先把这一桌说清楚"
+title: "在阿勒泰找到对的建筑爱好者饭局，饭局app先把这一桌说清楚 | fanju-app"
 titleZh: "在阿勒泰找到对的建筑爱好者饭局，饭局app先把这一桌说清楚"
 description: "在阿勒泰，建筑不是旅游手册上的符号，而是真实存在于街角的木结构小楼、冬日取暖的火墙设计、或是牧区迁徙中的临时居所。 这里的人对空间有本能的敏感，但正因如此，一句轻飘飘的“建筑爱好者饭局”很难让人动心。 报名的人会想：是聊地标建筑？"
 primaryKeyword: "阿勒泰建筑爱好者饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
 ---
 
-# 在阿勒泰找到对的建筑爱好者饭局，饭局app先把这一桌说清楚
+# 在阿勒泰找到对的建筑爱好者饭局，饭局app先把这一桌说清楚 | fanju-app
 
 一个人推开阿勒泰老城区某家小馆子的玻璃门，风铃轻响，暖黄灯光落在木桌边缘。他低头看手机，饭局app上显示“已确认”，同桌五人，主理人头像是本地一位建筑师。他点了杯热茶，坐在靠窗位置，离约定时间还有十分钟，朋友还没到。这种时刻，人最容易犹豫：我是不是来错了？他们真的会聊建筑吗？还是又一场泛泛而谈的社交饭局？在阿勒泰，气候干燥，节奏慢，人与人之间有天然的距离感，一场建筑爱好者饭局能不能成立，不在于有没有人响应“有人来吗”，而在于从报名那一刻起，这桌饭是否已经被说清楚。饭局app的核心不是拉群、不是打卡，而是让每一个报名的人，在走进餐厅前，就能判断这一桌是否属于自己。
 

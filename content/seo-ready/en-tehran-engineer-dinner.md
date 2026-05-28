@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tehran/engineer-dinner"
 alternatePath: "/city/tehran/engineer-dinner"
 translationKey: "tehran-engineer-dinner"
 lang: "en"
-title: "Tehran after work: how Fanju app makes Engineer Dinner feel like a real room"
+title: "Tehran after work: how Fanju app makes Engineer Dinner feel like a real room | fanju-app"
 description: "In Tehran, the rhythm of an engineer’s day often outlasts the office lights. Long commutes, overlapping projects, and the quiet exhaustion of problem-solving in high-stakes environments make unwinding not just desirable,"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Tehran after work: how Fanju app makes Engineer Dinner feel like a real room
+# Tehran after work: how Fanju app makes Engineer Dinner feel like a real room | fanju-app
 
 In Tehran, the rhythm of an engineer’s day often outlasts the office lights. Long commutes, overlapping projects, and the quiet exhaustion of problem-solving in high-stakes environments make unwinding not just desirable, but necessary. The Fanju app has quietly reshaped how engineers in Tehran reconnect after work—not through loud networking events or impersonal group dinners, but by turning a shared meal into a space where food becomes the first language of connection. What starts as a dinner arrangement becomes, over soup and conversation, something closer to belonging.
 

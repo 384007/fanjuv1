@@ -4,7 +4,7 @@ canonicalPath: "/en/city/copenhagen/small-table-dinner"
 alternatePath: "/city/copenhagen/small-table-dinner"
 translationKey: "copenhagen-small-table-dinner"
 lang: "en"
-title: "How Fanju app turns a Copenhagen Small Table Dinner night into something worth showing up for"
+title: "How Fanju app turns a Copenhagen Small Table Dinner night into something worth showing up for | fanju-app"
 description: "In Copenhagen, where professional connections often form over shared dinners rather than conferences or co-working spaces, the Fanju app has quietly redefined what networking looks like. Instead of crowded meetups or for"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Copenhagen Small Table Dinner night into something worth showing up for
+# How Fanju app turns a Copenhagen Small Table Dinner night into something worth showing up for | fanju-app
 
 In Copenhagen, where professional connections often form over shared dinners rather than conferences or co-working spaces, the Fanju app has quietly redefined what networking looks like. Instead of crowded meetups or forced small talk in event halls, it enables small table dinners—intimate gatherings of four to six professionals, usually hosted in private homes or quiet city-center apartments. For founders, consultants, and operators navigating the city’s tight-knit business circles, these dinners offer a rare alternative: real conversation without pitch decks or name tags. The Fanju app doesn’t promise business deals or instant mentorships. It simply structures an evening where you’re more likely to remember someone’s story than their LinkedIn headline.
 

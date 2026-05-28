@@ -4,7 +4,7 @@ canonicalPath: "/en/city/perth/poetry-dinner"
 alternatePath: "/city/perth/poetry-dinner"
 translationKey: "perth-poetry-dinner"
 lang: "en"
-title: "Why Poetry Dinner in Perth works better when Fanju app keeps the table small"
+title: "Why Poetry Dinner in Perth works better when Fanju app keeps the table small | fanju-app"
 description: "Perth’s social rhythm often moves on implied invitations—“maybe catch up soon,” “we should do dinner one night”—phrases that rarely solidify."
 primaryKeyword: "Perth Poetry Dinner"
 secondaryKeywords: "Perth social dining|Poetry dinner group|dinner buddy app|Fanju app|small-table dinner in Perth"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T010006Z"
 ---
 
-# Why Poetry Dinner in Perth works better when Fanju app keeps the table small
+# Why Poetry Dinner in Perth works better when Fanju app keeps the table small | fanju-app
 
 Fanju app is a social dining platform designed for small, intentionally hosted meals where conversation matters more than volume. In Perth, where open spaces and long commutes often stretch people apart, the app connects locals through specific, low-pressure gatherings—like a Poetry Dinner—where the setting invites presence, not performance. These dinners are not about reciting sonnets on cue, but about holding space for quieter rhythms amid the city’s pace. Hosts use the app to outline their table’s tone, preferred topics, and guest count, typically capping at six to eight. This clarity helps participants choose wisely, especially after a workday when energy is low and the pull of solitude is strong. The right table in Perth doesn’t demand visibility; it offers a place to arrive as you are.
 

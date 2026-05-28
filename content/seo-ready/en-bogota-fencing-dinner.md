@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bogota/fencing-dinner"
 alternatePath: "/city/bogota/fencing-dinner"
 translationKey: "bogota-fencing-dinner"
 lang: "en"
-title: "Bogota does not need another vague invite; Fanju app makes Fencing Dinner specific"
+title: "Bogota does not need another vague invite; Fanju app makes Fencing Dinner specific | fanju-app"
 description: "Bogota's social calendar can feel like a constant stream of \"let's grab a drink sometime\" or \"we should do dinner soon.\" These invitations, while well-intentioned, often lack the specificity needed to feel truly"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
 ---
 
-# Bogota does not need another vague invite; Fanju app makes Fencing Dinner specific
+# Bogota does not need another vague invite; Fanju app makes Fencing Dinner specific | fanju-app
 
 In Bogota, the Fanju app offers a refreshing alternative to the often nebulous social plans that can fill a weekend. It focuses on Fencing Dinner, a curated experience where the intent is clear from the start: a small, focused meal designed for genuine connection. Instead of wondering about the vibe or who might show up, Fanju ensures that the table itself is the main event. This approach is particularly welcome in a city like Bogota, where vibrant street life and diverse neighbourhoods can sometimes overshadow the desire for intimate, meaningful gatherings. The app aims to bring clarity to spontaneous social dining, making it easier to find and host tables that promise quality conversation and good company, rather than just another crowded bar or an unstated agenda.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/ningbo/newcomer-dinner"
 alternatePath: "/en/city/ningbo/newcomer-dinner"
 translationKey: "ningbo-newcomer-dinner"
 lang: "zh"
-title: "宁波新人饭局指南"
+title: "宁波新人饭局指南 | fanju-app | 饭局app"
 titleZh: "宁波新人饭局指南"
 pageType: "city_landing"
 priorityScore: 80
@@ -12,7 +12,7 @@ aiQualityScore: 100
 status: "ready"
 ---
 
-# 宁波新人饭局指南：如何用饭局app找到靠谱同桌
+# 宁波新人饭局指南：如何用饭局app找到靠谱同桌 | fanju-app | 饭局app
 
 初来乍到的宁波，或是渴望拓展新圈子的你，是否曾想过，在一场精心策划的新人饭局中，与志同道合的朋友围炉夜话，分享生活点滴？Fanju / 饭局，作为一款创新的 AI 社交 dining app，正是为这样的需求而生。它不仅仅是一个寻找晚餐伙伴的平台，更是一个搭建真实线下社交桥梁的桥梁。在宁波这座充满活力的城市，如何利用 Fanju / 饭局 找到一场让你感到舒适、有趣且安全的新人饭局，结识一群靠谱的同桌，是许多新宁波人共同的期待。这篇指南将带你深入了解如何在宁波开启你的新人饭局之旅，从选择合适的饭局到成为一名优秀的主理人，让你在享受美食的同时，也能收获真挚的友谊。
 

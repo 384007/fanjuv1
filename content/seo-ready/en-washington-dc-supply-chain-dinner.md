@@ -4,7 +4,7 @@ canonicalPath: "/en/city/washington-dc/supply-chain-dinner"
 alternatePath: "/city/washington-dc/supply-chain-dinner"
 translationKey: "washington-dc-supply-chain-dinner"
 lang: "en"
-title: "For people trying Supply Chain Dinner in Washington DC, Fanju app puts the guest mix first"
+title: "For people trying Supply Chain Dinner in Washington DC, Fanju app puts the guest mix first | fanju-app"
 description: "After a long day navigating the federal corridors and policy briefings around downtown Washington DC, a quiet dinner with thoughtful people can feel like the only real recharge. But finding that kind of gathering isn’t e"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Supply Chain Dinner in Washington DC, Fanju app puts the guest mix first
+# For people trying Supply Chain Dinner in Washington DC, Fanju app puts the guest mix first | fanju-app
 
 After a long day navigating the federal corridors and policy briefings around downtown Washington DC, a quiet dinner with thoughtful people can feel like the only real recharge. But finding that kind of gathering isn’t easy—especially when your energy runs low by 6:30 p.m. The Fanju app was built for this gap. It helps people in Washington DC plan small, intentional dinners under the Supply Chain Dinner concept, where conversation flows because the table is small, the guest mix is curated, and no one feels pressured to perform. It’s not another networking event. It’s a reset after work, hosted in someone’s home or a low-lit neighborhood spot, where the focus is on listening, not pitching.
 

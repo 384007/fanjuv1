@@ -4,7 +4,7 @@ canonicalPath: "/city/suzhou-anhui/cloud-computing-dinner"
 alternatePath: "/en/city/suzhou-anhui/cloud-computing-dinner"
 translationKey: "suzhou-anhui-cloud-computing-dinner"
 lang: "zh"
-title: "在宿州找到对的云计算饭局饭局，饭局app先把这一桌说清楚"
+title: "在宿州找到对的云计算饭局饭局，饭局app先把这一桌说清楚 | fanju-app"
 titleZh: "在宿州找到对的云计算饭局饭局，饭局app先把这一桌说清楚"
 description: "在宿州，饭局app不是用来替代对话的工具，而是帮人找回对话起点的入口。过去几年，线上会议成了常态，微信群里聊得热闹，但真正能推进合作的，往往还是靠一次面对面的饭局。宿州的节奏不快，但也不容错过节奏——这里的人习惯把事放在饭桌上谈，可谈什么、"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在宿州找到对的云计算饭局饭局，饭局app先把这一桌说清楚
+# 在宿州找到对的云计算饭局饭局，饭局app先把这一桌说清楚 | fanju-app
 
 在宿州，饭局app不是用来替代对话的工具，而是帮人找回对话起点的入口。过去几年，线上会议成了常态，微信群里聊得热闹，但真正能推进合作的，往往还是靠一次面对面的饭局。宿州的节奏不快，但也不容错过节奏——这里的人习惯把事放在饭桌上谈，可谈什么、跟谁谈、怎么谈，却常常没个准谱。饭局app的作用，就是让这些模糊的社交期待变得清晰。它不承诺立刻成交，也不鼓吹人脉变现，而是从一桌饭的结构开始，把云计算这个抽象话题，落成具体的人、具体的问题和具体的菜上。在宿州，一场饭局的价值，往往不在饭后，而在饭前——你是否清楚，这顿饭到底为谁而设。
 

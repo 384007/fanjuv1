@@ -4,7 +4,7 @@ canonicalPath: "/city/nanyang/hedge-fund-dinner"
 alternatePath: "/en/city/nanyang/hedge-fund-dinner"
 translationKey: "nanyang-hedge-fund-dinner"
 lang: "zh"
-title: "在南阳找到对的对冲基金饭局饭局，饭局app先把这一桌说清楚"
+title: "在南阳找到对的对冲基金饭局饭局，饭局app先把这一桌说清楚 | fanju-app"
 titleZh: "在南阳找到对的对冲基金饭局饭局，饭局app先把这一桌说清楚"
 description: "周五晚上七点，南阳的雨刚停，老城街边的梧桐叶还挂着水珠。张工从单位出来，没直接回家，而是打开饭局app，点进一个刚发布的对冲基金主题饭局。发起人是本地一家私募的合规负责人，饭局地点定在新华路一家藏在居民楼里的云南小馆。他犹豫了几秒，报了名。"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在南阳找到对的对冲基金饭局饭局，饭局app先把这一桌说清楚
+# 在南阳找到对的对冲基金饭局饭局，饭局app先把这一桌说清楚 | fanju-app
 
 周五晚上七点，南阳的雨刚停，老城街边的梧桐叶还挂着水珠。张工从单位出来，没直接回家，而是打开饭局app，点进一个刚发布的对冲基金主题饭局。发起人是本地一家私募的合规负责人，饭局地点定在新华路一家藏在居民楼里的云南小馆。他犹豫了几秒，报了名。这不是他第一次用饭局app，但每一次点“确认参加”，心里还是会多出一点期待——不是为了打听消息，而是想看看，今晚这桌人里，有没有谁说话的方式，能让他在周末的晚上，不再只想刷手机。
 

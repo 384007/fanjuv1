@@ -4,7 +4,7 @@ canonicalPath: "/en/city/paris/shared-table"
 alternatePath: "/city/paris/shared-table"
 translationKey: "paris-shared-table"
 lang: "en"
-title: "Why Shared Table in Paris works better when Fanju app keeps the table small"
+title: "Why Shared Table in Paris works better when Fanju app keeps the table small | fanju-app"
 description: "In Paris, the Fanju app offers a refreshing approach to social dining, focusing on shared table experiences that are intentionally kept small and well-defined. This isn't about a general invitation to a large, potentiall"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Shared Table in Paris works better when Fanju app keeps the table small
+# Why Shared Table in Paris works better when Fanju app keeps the table small | fanju-app
 
 In Paris, the Fanju app offers a refreshing approach to social dining, focusing on shared table experiences that are intentionally kept small and well-defined. This isn't about a general invitation to a large, potentially boisterous gathering. Instead, Fanju app curates intimate dinners, often centered around a specific culinary theme or a particular neighborhood's hidden gems, ensuring a more personal and engaging encounter. The app’s emphasis on clear descriptions and a limited number of seats means that when you join a shared table in Paris through Fanju, you’re stepping into a pre-conceived, comfortable setting, designed for genuine conversation and culinary discovery, rather than an open-ended social experiment.
 

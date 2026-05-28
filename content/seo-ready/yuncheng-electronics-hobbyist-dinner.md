@@ -4,7 +4,7 @@ canonicalPath: "/city/yuncheng/electronics-hobbyist-dinner"
 alternatePath: "/en/city/yuncheng/electronics-hobbyist-dinner"
 translationKey: "yuncheng-electronics-hobbyist-dinner"
 lang: "zh"
-title: "在运城把电子爱好者饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在运城把电子爱好者饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在运城把电子爱好者饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "在运城，下班后的时间往往伴随着一种自然的舒缓，街灯渐次亮起，小巷里飘出饭菜的香气。对于这座城市里的电子爱好者来说，这种放松的时刻，正是他们渴望找到同频共振的信号。饭局app的出现，为在运城这样充满生活气息的城市里，搭建起一个线下的交流平台，"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在运城把电子爱好者饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在运城把电子爱好者饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 在运城，下班后的时间往往伴随着一种自然的舒缓，街灯渐次亮起，小巷里飘出饭菜的香气。对于这座城市里的电子爱好者来说，这种放松的时刻，正是他们渴望找到同频共振的信号。饭局app的出现，为在运城这样充满生活气息的城市里，搭建起一个线下的交流平台，让原本分散的兴趣爱好，有了汇聚的可能。但要让一场电子爱好者间的饭局真正“坐稳”，不至于尴尬收场，饭局app在其中扮演的角色，以及参与者自身的准备，都至关重要。它不仅是发起邀约的工具，更是筛选、引导，确保每一次聚会都能带来价值和愉悦的关键。
 

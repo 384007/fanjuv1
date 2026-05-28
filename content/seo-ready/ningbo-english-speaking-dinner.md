@@ -4,7 +4,7 @@ canonicalPath: "/city/ningbo/english-speaking-dinner"
 alternatePath: "/en/city/ningbo/english-speaking-dinner"
 translationKey: "ningbo-english-speaking-dinner"
 lang: "zh"
-title: "在宁波把英语饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在宁波把英语饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在宁波把英语饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "晚上七点，宁波的晚高峰刚散，地铁鼓楼站的灯一盏盏亮起来。你站在南塘老街的街口，手里攥着手机，饭局app上那条“今晚七点半，英语饭局，招三人”的通知已经读了五遍。你犹豫的不是语言，而是怕坐进去后，那张桌子像一间没开灯的房间——没人说话，没人接"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在宁波把英语饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在宁波把英语饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 晚上七点，宁波的晚高峰刚散，地铁鼓楼站的灯一盏盏亮起来。你站在南塘老街的街口，手里攥着手机，饭局app上那条“今晚七点半，英语饭局，招三人”的通知已经读了五遍。你犹豫的不是语言，而是怕坐进去后，那张桌子像一间没开灯的房间——没人说话，没人接话，只有筷子碰碗的声音。在宁波，这样的饭局不少，但能真正坐稳的，不多。饭局app不只在匹配吃饭的人，更在筛掉那些让饭局变尴尬的细节：比如话题断在“你来自哪里”之后，比如有人全程低头刷手机，比如主理人忘了介绍每个人的名字。我们开始明白，一顿英语饭局能不能成，不在于语言多流利，而在于它能不能成为城市里一个微小但踏实的落脚点。
 

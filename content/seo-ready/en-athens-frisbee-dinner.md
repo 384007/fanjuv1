@@ -4,7 +4,7 @@ canonicalPath: "/en/city/athens/frisbee-dinner"
 alternatePath: "/city/athens/frisbee-dinner"
 translationKey: "athens-frisbee-dinner"
 lang: "en"
-title: "Before the first message in Athens, Fanju app makes Frisbee Dinner feel like a real decision"
+title: "Before the first message in Athens, Fanju app makes Frisbee Dinner feel like a real decision | fanju-app"
 description: "In Athens, a city shaped by conversation, the idea of joining strangers for dinner often brings up images of awkward group chats or forced icebreakers. But Frisbee Dinner, coordinated through the Fanju app, operates diff"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Athens, Fanju app makes Frisbee Dinner feel like a real decision
+# Before the first message in Athens, Fanju app makes Frisbee Dinner feel like a real decision | fanju-app
 
 In Athens, a city shaped by conversation, the idea of joining strangers for dinner often brings up images of awkward group chats or forced icebreakers. But Frisbee Dinner, coordinated through the Fanju app, operates differently. It’s not a meetup, not a game, not a date—it’s a shared meal with the potential for real connection. The app doesn’t promise outcomes, but it does create conditions: small tables, clear expectations, and space to decide whether to stay or leave. In a place where cafes buzz until midnight and ancient streets echo with debate, this subtle structure helps a simple dinner feel like a meaningful choice.
 

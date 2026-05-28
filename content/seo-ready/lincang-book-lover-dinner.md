@@ -4,7 +4,7 @@ canonicalPath: "/city/lincang/book-lover-dinner"
 alternatePath: "/en/city/lincang/book-lover-dinner"
 translationKey: "lincang-book-lover-dinner"
 lang: "zh"
-title: "临沧想参加书迷饭局，饭局app把信任感放在饭前"
+title: "临沧想参加书迷饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "临沧想参加书迷饭局，饭局app把信任感放在饭前"
 description: "在临沧，饭局app不是用来找对象、凑热闹或打卡拍照的工具，而是为那些真正想在饭桌上聊几句书的人准备的入口。 它围绕小桌吃饭、清晰主题和线下连接设计，把每一次约饭当成一次轻量但有温度的相遇。 这座城市节奏不快，但人们习惯把话藏在茶水后头，饭局app反而成了少数能让人自然开口的媒介。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 临沧想参加书迷饭局，饭局app把信任感放在饭前
+# 临沧想参加书迷饭局，饭局app把信任感放在饭前 | fanju-app
 
 在临沧，饭局app不是用来找对象、凑热闹或打卡拍照的工具，而是为那些真正想在饭桌上聊几句书的人准备的入口。它围绕小桌吃饭、清晰主题和线下连接设计，把每一次约饭当成一次轻量但有温度的相遇。这座城市节奏不快，但人们习惯把话藏在茶水后头，饭局app反而成了少数能让人自然开口的媒介。如果你曾在图书馆翻完一本冷门小说却找不到人聊，或是读到某段文字时突然想问“你也这么觉得吗”，那临沧的书迷饭局或许就是你等的那个开口机会。它不解决孤独，但允许你在吃饭的时候，顺便把心里那点话说出来。
 

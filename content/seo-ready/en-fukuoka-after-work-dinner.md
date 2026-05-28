@@ -4,7 +4,7 @@ canonicalPath: "/en/city/fukuoka/after-work-dinner"
 alternatePath: "/city/fukuoka/after-work-dinner"
 translationKey: "fukuoka-after-work-dinner"
 lang: "en"
-title: "Fukuoka has plenty of After Work Dinner options; Fanju app is the one that names the table first"
+title: "Fukuoka has plenty of After Work Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "When the workday winds down in Fukuoka, the city offers a myriad of ways to decompress. For many, this means finding a comfortable spot for an after-work dinner, a chance to connect, reflect, or simply enjoy good food an"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Fukuoka has plenty of After Work Dinner options; Fanju app is the one that names the table first
+# Fukuoka has plenty of After Work Dinner options; Fanju app is the one that names the table first | fanju-app
 
 When the workday winds down in Fukuoka, the city offers a myriad of ways to decompress. For many, this means finding a comfortable spot for an after-work dinner, a chance to connect, reflect, or simply enjoy good food and company. Navigating these options can feel overwhelming, but the Fanju app aims to simplify the process, acting as a digital concierge that helps secure a table with a clear purpose before you even arrive, ensuring your evening is well-spent. This guide explores how to make the most of your after-work dining experiences in Fukuoka, leveraging local rhythms and the Fanju app's unique approach.
 

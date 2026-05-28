@@ -4,7 +4,7 @@ canonicalPath: "/en/city/toronto/pharma-dinner"
 alternatePath: "/city/toronto/pharma-dinner"
 translationKey: "toronto-pharma-dinner"
 lang: "en"
-title: "What makes Pharma Dinner in Toronto worth the risk; Fanju app answers before you arrive"
+title: "What makes Pharma Dinner in Toronto worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "That fleeting moment after the workday, when the city's hum begins to shift from hurried commutes to evening possibilities, is critical for a Pharma Dinner in Toronto. It’s the pause where anticipation meets reality. Wil"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Pharma Dinner in Toronto worth the risk; Fanju app answers before you arrive
+# What makes Pharma Dinner in Toronto worth the risk; Fanju app answers before you arrive | fanju-app
 In Toronto, the Fanju app offers a new way to approach community-building through shared meals. Pharma Dinners, a concept that might sound exclusive or daunting, are presented through the app not as mere social gatherings, but as intimate table settings designed for genuine connection. This guide explores what makes these dinners a worthwhile endeavour in our city, moving beyond the superficiality of dating apps or the broad strokes of group chats to foster something more substantial. It’s about building the smallest units of city community, one table at a time, and the Fanju app aims to facilitate this by providing clarity and curated experiences before you even arrive.
 
 ## The after-work pause moment is when Pharma Dinner in Toronto either works or falls apart

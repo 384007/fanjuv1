@@ -4,7 +4,7 @@ canonicalPath: "/city/guigang/cybersecurity-dinner"
 alternatePath: "/en/city/guigang/cybersecurity-dinner"
 translationKey: "guigang-cybersecurity-dinner"
 lang: "zh"
-title: "贵港网络安全饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "贵港网络安全饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "贵港网络安全饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "周五傍晚，贵港的晚风开始从郁江边吹上岸。写字楼里陆续有人合上电脑，但不是所有人都急着回家。有人打开饭局app，滑动筛选“网络安全”主题的周末饭局，点开一场定在港北区某社区餐厅的六人局——报名通过后，系统自动推送了同桌五人的简要背景与饭局规则"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 贵港网络安全饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 贵港网络安全饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 周五傍晚，贵港的晚风开始从郁江边吹上岸。写字楼里陆续有人合上电脑，但不是所有人都急着回家。有人打开饭局app，滑动筛选“网络安全”主题的周末饭局，点开一场定在港北区某社区餐厅的六人局——报名通过后，系统自动推送了同桌五人的简要背景与饭局规则说明。这不是一场社交任务，也不是行业酒局，它更像一种安静的确认：在贵港，下班后你不必独自穿过城市灯火回家。饭局app在这里不追求规模，它更在意这一桌人是否真的能彼此接住。从2022年上线贵港本地场次以来，这类以专业领域为锚点的饭局，正悄悄成为不少从业者结束工作日的一种方式。
 

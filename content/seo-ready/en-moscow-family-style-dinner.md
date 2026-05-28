@@ -4,7 +4,7 @@ canonicalPath: "/en/city/moscow/family-style-dinner"
 alternatePath: "/city/moscow/family-style-dinner"
 translationKey: "moscow-family-style-dinner"
 lang: "en"
-title: "How Fanju app turns a Moscow Family Style Dinner night into something worth showing up for"
+title: "How Fanju app turns a Moscow Family Style Dinner night into something worth showing up for | fanju-app"
 description: "For anyone navigating Moscow solo, the idea of a \"Family Style Dinner\" might conjure images of boisterous gatherings where you know everyone. But when you're new to the city, or just passing through, these can feel a bit"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Moscow Family Style Dinner night into something worth showing up for
+# How Fanju app turns a Moscow Family Style Dinner night into something worth showing up for | fanju-app
 
 For anyone navigating Moscow solo, the idea of a "Family Style Dinner" might conjure images of boisterous gatherings where you know everyone. But when you're new to the city, or just passing through, these can feel a bit daunting. The Fanju app, however, offers a different take. It transforms these evenings from potentially awkward affairs into curated social experiences, ensuring that even a solo arrival feels less like an intrusion and more like a welcome addition to a thoughtfully assembled table. This guide explores how Fanju app facilitates these dinners, turning a simple meal into a genuine connection point in the heart of Moscow.
 

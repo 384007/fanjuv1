@@ -4,7 +4,7 @@ canonicalPath: "/city/yulin-guangxi/solo-traveler-dinner"
 alternatePath: "/en/city/yulin-guangxi/solo-traveler-dinner"
 translationKey: "yulin-guangxi-solo-traveler-dinner"
 lang: "zh"
-title: "玉林独自旅行者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "玉林独自旅行者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "玉林独自旅行者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "玉林的傍晚总是来得慢，阳光斜照在玉林中路上，树影拖得老长。 你刚拖着行李箱从玉林火车站出来，手机电量剩37%，地图开着，却不知道今晚该往哪儿走。 饭局app上推来一条提醒：今晚七点，南流江边一家老式糖水铺，四位陌生人围坐一桌，主题是“刚到玉林的24小时”。 你犹豫了一下，点了报名。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 玉林独自旅行者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 玉林独自旅行者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
 玉林的傍晚总是来得慢，阳光斜照在玉林中路上，树影拖得老长。你刚拖着行李箱从玉林火车站出来，手机电量剩37%，地图开着，却不知道今晚该往哪儿走。饭局app上推来一条提醒：今晚七点，南流江边一家老式糖水铺，四位陌生人围坐一桌，主题是“刚到玉林的24小时”。你犹豫了一下，点了报名。这不是你第一次独自旅行，但每一次，真正坐下来的那一刻，才算是真正抵达一座城市。饭局app不是帮你找餐厅的工具，它是一张小桌的邀请函——提前写明主题、人数、节奏和退场方式，让你在陌生的城市里，不必假装熟络也能安心落座。
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/altay/firefighter-dinner"
 alternatePath: "/en/city/altay/firefighter-dinner"
 translationKey: "altay-firefighter-dinner"
 lang: "zh"
-title: "阿勒泰消防员饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "阿勒泰消防员饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "阿勒泰消防员饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "阿勒泰的消防员饭局不是把人临时凑到餐桌旁，而是让值班经验、户外安全、社区互助和个人边界先被说清楚。饭局app需要在报名之前筛掉模糊邀约，让参与者知道这一桌为什么值得坐下。"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 阿勒泰消防员饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 阿勒泰消防员饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 阿勒泰的消防员饭局不是把几位懂救援、守纪律的人临时叫到一起吃顿饭，而是让值班经验、户外安全、社区互助和个人边界在坐下前先被说明白。饭局app在这里更像一层饭前筛选：它要让报名者看清这桌饭聊什么、谁适合来、哪些话题可以展开、哪些压力不该带上桌。
 
 一座靠近山野和边境风景的城市，天然会让安全话题变得具体。有人关心冬季用火，有人想听山地救援中的判断，也有人只是希望和稳重、守时、可靠的人吃一顿饭。真正好的安排，会把这种复杂性整理成清楚的饭局说明，而不是把“消防员”三个字当成吸引眼球的标签。

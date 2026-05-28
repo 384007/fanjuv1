@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seoul/civil-engineer-dinner"
 alternatePath: "/city/seoul/civil-engineer-dinner"
 translationKey: "seoul-civil-engineer-dinner"
 lang: "en"
-title: "A calmer way to approach Civil Engineer Dinner in Seoul through Fanju app"
+title: "A calmer way to approach Civil Engineer Dinner in Seoul through Fanju app | fanju-app"
 description: "If you’ve just moved to Seoul and are navigating how to connect beyond your office or apartment, the idea of a Civil Engineer Dinner might feel both promising and vague. You’ve heard about it through word of mouth or stu"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach Civil Engineer Dinner in Seoul through Fanju app
+# A calmer way to approach Civil Engineer Dinner in Seoul through Fanju app | fanju-app
 
 If you’ve just moved to Seoul and are navigating how to connect beyond your office or apartment, the idea of a Civil Engineer Dinner might feel both promising and vague. You’ve heard about it through word of mouth or stumbled upon it in the Fanju app, where small dinners hosted by engineers, planners, and infrastructure professionals pop up across Gangnam, Mapo, and Yeouido. It’s not a networking event, not a lecture, and definitely not a company mixer. It’s more like a quietly structured chance to sit with people who understand the rhythms of Seoul’s underground transit expansions, riverfront flood controls, and the quiet pride in maintaining systems most people never see. The Fanju app surfaces these dinners not as obligations, but as invitations to pause and talk—something especially valuable when you're still learning how to read the city’s social layers as carefully as its subway map.
 

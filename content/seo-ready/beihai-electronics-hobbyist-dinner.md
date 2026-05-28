@@ -4,7 +4,7 @@ canonicalPath: "/city/beihai/electronics-hobbyist-dinner"
 alternatePath: "/en/city/beihai/electronics-hobbyist-dinner"
 translationKey: "beihai-electronics-hobbyist-dinner"
 lang: "zh"
-title: "北海电子爱好者饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "北海电子爱好者饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "北海电子爱好者饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "在北海，电子爱好者常散落在银滩周边的工作室、老城区的独立空间，或城东的共享工坊里。 他们彼此知道名字，但多数时候只在论坛或本地技术群里打个照面。 一句“有人来吃饭吗”发出去，回应的往往是沉默，或是几个顺路搭伙的人匆匆约在大排档。"
 primaryKeyword: "北海电子爱好者饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T100008Z"
 ---
 
-# 北海电子爱好者饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 北海电子爱好者饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 在北海，打开饭局app能看到的不只是“有人来吗”式的饭局邀请。北海电子爱好者饭局从一开始就不是为热闹而设的拼桌，而是为具体的人留出能说话的空间。饭局app的设计逻辑是：一桌饭，八人以内，主题明确，报名前就能知道这顿饭到底要聊什么。比如焊电路板时遇到的噪声问题，或者用树莓派做本地服务器的功耗优化，这些细节才是北海电子爱好者饭局的开场白。它不靠群里的接龙或转发存活，而是靠每一桌能不能让人坐得住。比起“认识新人”，这里更在意的是“能聊得下去”。
 

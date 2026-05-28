@@ -4,7 +4,7 @@ canonicalPath: "/en/city/cape-town/mechanical-engineer-dinner"
 alternatePath: "/city/cape-town/mechanical-engineer-dinner"
 translationKey: "cape-town-mechanical-engineer-dinner"
 lang: "en"
-title: "What makes Mechanical Engineer Dinner in Cape Town worth the risk; Fanju app answers before you arrive"
+title: "What makes Mechanical Engineer Dinner in Cape Town worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "Cape Town’s weekend rhythm often stumbles at the same point: what to do with Friday night when the week has drained you, but staying in feels like surrender. For mechanical engineers—those accustomed to precision, system"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Mechanical Engineer Dinner in Cape Town worth the risk; Fanju app answers before you arrive
+# What makes Mechanical Engineer Dinner in Cape Town worth the risk; Fanju app answers before you arrive | fanju-app
 
 Cape Town’s weekend rhythm often stumbles at the same point: what to do with Friday night when the week has drained you, but staying in feels like surrender. For mechanical engineers—those accustomed to precision, systems, and predictable outcomes—dinner gatherings can feel like uncalibrated experiments. The risk isn’t just bad food or awkward conversation; it’s investing time in something that doesn’t align with your expectations. The Fanju app changes that. It doesn’t just list events—it surfaces the unspoken details: who’s hosting, how they’ve hosted before, whether the evening leans toward debate or downtime. In a city where social trust is earned slowly, especially across professional circles, having that context before you commit matters. The app doesn’t promise perfection, but it removes the guesswork that often deters engineers from showing up.
 

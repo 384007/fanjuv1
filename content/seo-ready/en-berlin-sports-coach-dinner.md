@@ -4,7 +4,7 @@ canonicalPath: "/en/city/berlin/sports-coach-dinner"
 alternatePath: "/city/berlin/sports-coach-dinner"
 translationKey: "berlin-sports-coach-dinner"
 lang: "en"
-title: "Berlin after work: how Fanju app makes Sports Coach Dinner feel like a real room"
+title: "Berlin after work: how Fanju app makes Sports Coach Dinner feel like a real room | fanju-app"
 description: "In Berlin, where the city’s pulse runs through train platforms, shared workspaces, and late-night bike lanes, finding a quiet table for six that feels like home is rare. The Fanju app doesn’t promise to fix the city, but"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Berlin after work: how Fanju app makes Sports Coach Dinner feel like a real room
+# Berlin after work: how Fanju app makes Sports Coach Dinner feel like a real room | fanju-app
 
 In Berlin, where the city’s pulse runs through train platforms, shared workspaces, and late-night bike lanes, finding a quiet table for six that feels like home is rare. The Fanju app doesn’t promise to fix the city, but it does something quieter: it helps people find one another for a Sports Coach Dinner that doesn’t blur into the background noise. It starts with a small table in a large space—perhaps a back room in Neukölln, a borrowed community hall in Wedding, or a corner booth in a Prenzlauer Berg bistro. Within that frame, the app supports a structure where trust isn’t assumed but built through clarity, not charisma. People come as runners, trainers, weekend climbers, or just those curious about movement and conversation. The app doesn’t fill seats. It helps define the table before the first guest arrives.
 

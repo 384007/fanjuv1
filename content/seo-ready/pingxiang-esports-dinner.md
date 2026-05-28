@@ -4,7 +4,7 @@ canonicalPath: "/city/pingxiang/esports-dinner"
 alternatePath: "/en/city/pingxiang/esports-dinner"
 translationKey: "pingxiang-esports-dinner"
 lang: "zh"
-title: "萍乡想参加电竞饭局，饭局app把信任感放在饭前"
+title: "萍乡想参加电竞饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "萍乡想参加电竞饭局，饭局app把信任感放在饭前"
 description: "在萍乡，想参加一场真正有温度的电竞饭局，靠的不是刷短视频里的热闹片段，也不是翻攻略里千篇一律的打卡清单。很多人以为电竞饭局就是一群年轻人凑在一起打游戏、喝饮料，但实际体验往往落空。饭局app的存在，正是为了把那种模糊的期待拉回地面——它不承"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 萍乡想参加电竞饭局，饭局app把信任感放在饭前
+# 萍乡想参加电竞饭局，饭局app把信任感放在饭前 | fanju-app
 
 在萍乡，想参加一场真正有温度的电竞饭局，靠的不是刷短视频里的热闹片段，也不是翻攻略里千篇一律的打卡清单。很多人以为电竞饭局就是一群年轻人凑在一起打游戏、喝饮料，但实际体验往往落空。饭局app的存在，正是为了把那种模糊的期待拉回地面——它不承诺“热闹”，而是把“谁在组织”“饭在哪吃”“为什么聚”这些细节提前摊开。在萍乡，一场饭局能不能坐得稳，关键不是人多不多，而是你在点“报名”之前，能不能看清坐在对面的人过着怎样的生活。饭局app不制造社交幻觉，它只做一件事：让萍乡本地的饭局发起者把真实生活说清楚。
 

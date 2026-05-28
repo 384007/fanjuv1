@@ -4,7 +4,7 @@ canonicalPath: "/city/turpan/dinner-buddy"
 alternatePath: "/en/city/turpan/dinner-buddy"
 translationKey: "turpan-dinner-buddy"
 lang: "zh"
-title: "吐鲁番不想只靠群聊时，饭局app怎样把饭搭子坐成一桌"
+title: "吐鲁番不想只靠群聊时，饭局app怎样把饭搭子坐成一桌 | fanju-app"
 titleZh: "吐鲁番不想只靠群聊时，饭局app怎样把饭搭子坐成一桌"
 description: "饭局app在吐鲁番的日常，不是靠热闹的群接龙或临时拉人凑桌。它更像一种安静的确认：当一个人在火焰山脚下决定走出家门，不是为了打卡餐厅，而是想和几个陌生人坐下来，聊点真实的事——这时，饭局app提供的是具体的一桌、清晰的主题、可预期的节奏。在"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 吐鲁番不想只靠群聊时，饭局app怎样把饭搭子坐成一桌
+# 吐鲁番不想只靠群聊时，饭局app怎样把饭搭子坐成一桌 | fanju-app
 
 饭局app在吐鲁番的日常，不是靠热闹的群接龙或临时拉人凑桌。它更像一种安静的确认：当一个人在火焰山脚下决定走出家门，不是为了打卡餐厅，而是想和几个陌生人坐下来，聊点真实的事——这时，饭局app提供的是具体的一桌、清晰的主题、可预期的节奏。在吐鲁番，饭局的发起人往往不是社交达人，而是那些对日常对话感到疲倦的人，他们通过饭局app把“想说话”变成“能说下去”的饭局。这里的饭搭子，不追求人数多，而是在高温干燥的气候里，找到能一起慢吃一顿烤包子、喝完一壶茯茶的同桌人。
 

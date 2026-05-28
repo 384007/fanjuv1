@@ -4,7 +4,7 @@ canonicalPath: "/city/yichang/invite-only-dinner"
 alternatePath: "/en/city/yichang/invite-only-dinner"
 translationKey: "yichang-invite-only-dinner"
 lang: "zh"
-title: "宜昌想参加邀请制饭局，饭局app把信任感放在饭前"
+title: "宜昌想参加邀请制饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "宜昌想参加邀请制饭局，饭局app把信任感放在饭前"
 description: "在宜昌，饭局app的存在，让原本模糊的“请客吃饭”有了可预期的结构。尤其是对女性而言，一场饭局是否值得参加，往往不取决于餐厅多精致，而在于“谁在组织”“谁会坐在旁边”“能不能中途离开”。这些细节，在饭局app上被前置成了报名前的判断依据。它"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 宜昌想参加邀请制饭局，饭局app把信任感放在饭前
+# 宜昌想参加邀请制饭局，饭局app把信任感放在饭前 | fanju-app
 
 周五傍晚，江风从葛洲坝方向吹过来，宜昌的街巷开始亮起暖光。有人在解放路步行街买了凉虾，有人在沿江大道找车位，也有人正打开饭局app，确认今晚那场小桌饭的细节。在宜昌，饭局app不是单纯的餐厅推荐或拼饭工具，它更像一个生活节奏的调节器——围绕六到八人的小桌、有主题的晚餐、提前沟通的同桌信息，把人与人的连接落在饭前。这种设计在宜昌尤其重要，因为这里的社交习惯偏向熟人网络，陌生人之间的信任建立需要更具体的支点。饭局app恰好提供了这个支点：不是靠算法推送，而是靠信息透明和主理人诚意。
 

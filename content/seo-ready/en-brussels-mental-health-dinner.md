@@ -4,7 +4,7 @@ canonicalPath: "/en/city/brussels/mental-health-dinner"
 alternatePath: "/city/brussels/mental-health-dinner"
 translationKey: "brussels-mental-health-dinner"
 lang: "en"
-title: "Brussels does not need another vague invite; Fanju app makes Mental Health Dinner specific"
+title: "Brussels does not need another vague invite; Fanju app makes Mental Health Dinner specific | fanju-app"
 description: "Brussels, a city often characterized by its intricate network of councils and committees, can sometimes feel like a place where good intentions get lost in the bureaucracy of planning. This is particularly true for socia"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Brussels does not need another vague invite; Fanju app makes Mental Health Dinner specific
+# Brussels does not need another vague invite; Fanju app makes Mental Health Dinner specific | fanju-app
 
 Brussels, a city often characterized by its intricate network of councils and committees, can sometimes feel like a place where good intentions get lost in the bureaucracy of planning. This is particularly true for social gatherings aimed at genuine connection. The concept of a "Mental Health Dinner," while noble, often suffers from this same vagueness. It’s an invite that lands in your inbox or group chat, promising connection but delivering little beyond a time and place. This is where the Fanju app steps in, offering a structured approach to something as intimate as sharing a meal with the intention of fostering well-being. Instead of a loose suggestion, Fanju app transforms a dinner into a deliberate event, ensuring that the attendees, the venue, and the very atmosphere are conducive to meaningful interaction, making the prospect of a Mental Health Dinner in Brussels a concrete, achievable experience rather than a hopeful wish.
 

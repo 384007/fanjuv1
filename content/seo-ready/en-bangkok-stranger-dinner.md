@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangkok/stranger-dinner"
 alternatePath: "/city/bangkok/stranger-dinner"
 translationKey: "bangkok-stranger-dinner"
 lang: "en"
-title: "A calmer way to approach Stranger Dinner in Bangkok through Fanju app"
+title: "A calmer way to approach Stranger Dinner in Bangkok through Fanju app | fanju-app"
 description: "Stranger Dinner in Bangkok can feel like a stretch—sitting across from someone whose name you’ve just learned, navigating unspoken table rhythms, wondering if the evening will unfold with ease or awkwardness. The Fanju a"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach Stranger Dinner in Bangkok through Fanju app
+# A calmer way to approach Stranger Dinner in Bangkok through Fanju app | fanju-app
 
 Stranger Dinner in Bangkok can feel like a stretch—sitting across from someone whose name you’ve just learned, navigating unspoken table rhythms, wondering if the evening will unfold with ease or awkwardness. The Fanju app redefines this experience not through spectacle, but through structure: small, intentional dinners hosted in public venues where real names are used, guest lists are limited, and hosts follow through on clear commitments. It’s not about large gatherings or fleeting connections, but about creating moments where trust can quietly take root. In a city where social entry points are often hidden behind language, culture, or routine, Fanju offers a low-pressure space to connect without performance.
 

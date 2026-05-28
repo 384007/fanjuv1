@@ -4,7 +4,7 @@ canonicalPath: "/city/xiangtan/digital-detox-dinner"
 alternatePath: "/en/city/xiangtan/digital-detox-dinner"
 translationKey: "xiangtan-digital-detox-dinner"
 lang: "zh"
-title: "湘潭的一顿数字排毒饭局，饭局app为什么先看人再看热闹"
+title: "湘潭的一顿数字排毒饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "湘潭的一顿数字排毒饭局，饭局app为什么先看人再看热闹"
 description: "湘潭的生活节奏向来不急，城中老街如平政路、砂子岭一带，仍保留着邻里间低头不见抬头见的熟人感。这种氛围让饭局app在本地的使用也偏向克制：人们更在意饭局是否“对味”，而不是人数是否够多。报名前，很多人会先看主理人是否留有真实身份信息，是否说明"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 湘潭的一顿数字排毒饭局，饭局app为什么先看人再看热闹
+# 湘潭的一顿数字排毒饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 在湘潭，饭局app不是发布动态的广场，也不是快速加人的好友池，而是专为线下真实交流设计的小桌饭局工具。它聚焦于饭桌本身的节奏——六人以内、主题明确、主理人负责，让每一次见面从“可能认识谁”转向“值得一起吃饭的人”。数字排毒饭局是其中一种典型形态：不带手机入座、不录视频、不发朋友圈，只保留面对面的对话。在湘潭这座节奏舒缓、街巷生活气息浓厚的城市，这样的饭局更像是一种对日常的校准。饭局app在这里的作用，不是放大热闹，而是帮助人们先看清同桌的人是否值得安静地坐下来。
 

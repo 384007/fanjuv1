@@ -4,7 +4,7 @@ canonicalPath: "/city/yanan/diy-maker-dinner"
 alternatePath: "/en/city/yanan/diy-maker-dinner"
 translationKey: "yanan-diy-maker-dinner"
 lang: "zh"
-title: "在延安找一桌不尴尬的创客饭局，饭局app先解决什么"
+title: "在延安找一桌不尴尬的创客饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在延安找一桌不尴尬的创客饭局，饭局app先解决什么"
 description: "点下报名按钮前，人在犹豫的从来不是“要不要吃饭”，而是“这顿饭会不会尴尬”。尤其是在延安这样城市节奏相对稳定、社交圈层分明的地方，陌生人围坐一桌，若没有清晰的主题或节奏，很容易变成互相试探的消耗。第一次报名创客饭局的人，往往已经在家办公久了"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T181226Z"
 ---
 
-# 在延安找一桌不尴尬的创客饭局，饭局app先解决什么
+# 在延安找一桌不尴尬的创客饭局，饭局app先解决什么 | fanju-app
 
 在延安，饭局app不是社交软件的另一种翻版，也不是把人拉进群再解散的临时聚会工具。它更像一个安静的接口，把那些真正想在线下见一面的人，对接到一张具体的饭桌上。尤其是对习惯在家办公、平日交流靠屏幕的远程工作者来说，周末想吃顿饭，但又不想随便拼个局、硬聊全场，这种时刻最需要的不是热闹，而是一个节奏对的饭局。饭局app做的事情，是让“一起吃饭”这件事从模糊的邀约变成可判断、可参与、可退出的具体场景。在延安，这样的饭局正在以小桌的形式慢慢出现，而它的核心，是让每一次参与都来得清楚，走得轻松。
 

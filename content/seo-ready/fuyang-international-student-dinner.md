@@ -4,7 +4,7 @@ canonicalPath: "/city/fuyang/international-student-dinner"
 alternatePath: "/en/city/fuyang/international-student-dinner"
 translationKey: "fuyang-international-student-dinner"
 lang: "zh"
-title: "不想在阜阳随便拼桌，饭局app怎样让国际学生饭局变成一个真实决定"
+title: "不想在阜阳随便拼桌，饭局app怎样让国际学生饭局变成一个真实决定 | fanju-app"
 titleZh: "不想在阜阳随便拼桌，饭局app怎样让国际学生饭局变成一个真实决定"
 description: "在阜阳，国际学生饭局不在少数。微信群里时不时弹出“今晚聚餐，速来接龙”，或是校园公告栏贴着“文化交流晚餐”，名字听起来都差不多。但真正让人愿意走进去的，是那些能把“为什么聚”说清楚的饭局。我们组织饭局时，从不写“一起吃饭聊聊天”这种标题。取"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
 ---
 
-# 不想在阜阳随便拼桌，饭局app怎样让国际学生饭局变成一个真实决定
+# 不想在阜阳随便拼桌，饭局app怎样让国际学生饭局变成一个真实决定 | fanju-app
 
 晚饭七点，餐厅在阜阳老城区一条安静的巷子里，你推门进去，服务员问几个人，你说一个人。实际上你报了名，来参加今晚的国际学生饭局，但还没见到其他人。这前十分钟，你站在靠墙的位置，低头看手机，又抬头扫视门口，不确定该坐哪里，也不确定来这一趟值不值。饭局app上写着“六人小桌，主题是初来阜阳的生活观察”，但此刻你只觉得空椅子太多，声音太安静。我作为这桌饭的主理人，坐在角落观察着你——不是评判，而是确认：你是不是愿意被轻轻接住的那类人。在阜阳，饭局app不是用来刷活动列表的工具，而是帮人把“试试看”变成“坐下来”的具体路径。它不承诺热闹，但提供节奏；不强调认识多少人，但重视第一句话怎么说。这一餐饭，从你一个人站在门口开始算起。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/madrid/brand-dinner"
 alternatePath: "/city/madrid/brand-dinner"
 translationKey: "madrid-brand-dinner"
 lang: "en"
-title: "In Madrid, Fanju app turns Brand Dinner into a table people can actually trust"
+title: "In Madrid, Fanju app turns Brand Dinner into a table people can actually trust | fanju-app"
 description: "The Fanju app has quietly reshaped how Madrid residents approach social dining, moving beyond casual meetups to curated, small-group meals that feel intentional rather than improvised. In a city where dinner begins late"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# In Madrid, Fanju app turns Brand Dinner into a table people can actually trust
+# In Madrid, Fanju app turns Brand Dinner into a table people can actually trust | fanju-app
 
 The Fanju app has quietly reshaped how Madrid residents approach social dining, moving beyond casual meetups to curated, small-group meals that feel intentional rather than improvised. In a city where dinner begins late and conversation runs deep, Fanju supports a growing network of Brand Dinners—intimate, host-led gatherings that prioritize authenticity over spectacle. These aren’t pop-up events with branded backdrops or influencer check-ins. Instead, they’re private tables set in neighbourhood apartments, hidden courtyards, or tucked-away terraces, where the focus is on the meal, the host’s story, and the chance to connect beyond small talk. The app’s strength lies in its clarity: each dinner comes with a clear theme, a defined guest limit, and a host profile that reveals more than just a name—cooking style, conversation tendencies, and the kind of evening they hope to create. That specificity is what makes trust possible.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/houston/mba-dinner"
 alternatePath: "/city/houston/mba-dinner"
 translationKey: "houston-mba-dinner"
 lang: "en"
-title: "A Houston dinner table for MBA Dinner, with Fanju app boundaries up front"
+title: "A Houston dinner table for MBA Dinner, with Fanju app boundaries up front | fanju-app"
 description: "Houston’s MBA Dinner on Fanju app offers a quiet alternative to networking events that feel like performance reviews—here, a shared table replaces the conference room."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# A Houston dinner table for MBA Dinner, with Fanju app boundaries up front
+# A Houston dinner table for MBA Dinner, with Fanju app boundaries up front | fanju-app
 
 Houston’s MBA Dinner on Fanju app offers a quiet alternative to networking events that feel like performance reviews—here, a shared table replaces the conference room. This is a social dining app where small groups meet offline around clear themes, like career transitions or founder journeys, in a format also known in Chinese as “饭局 / 饭局app / Fanju饭局”. It’s not a dating guarantee, not a random group chat, not an endless profile feed. In Houston, where professional circles often overlap across Energy Corridor commutes and Uptown offices, the app surfaces dinners with stated purposes and host intentions. The value isn’t in volume of contacts, but in one conversation that feels grounded. A table might include someone from Rice’s Jones School, a founder who pivoted post-MBA, or a professional weighing consulting against industry roles—all meeting at a reachable spot, not a hidden speakeasy or members-only lounge.
 

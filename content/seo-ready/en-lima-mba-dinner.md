@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/lima/mba-dinner"
 alternatePath: "/city/lima/mba-dinner"
-title: "In Lima, Fanju app turns MBA Dinner into a table people can actually trust"
+title: "In Lima, Fanju app turns MBA Dinner into a table people can actually trust | fanju-app | 饭局app"
 description: "In Lima, where the pace of business life often outstrips the rhythm of personal connection, the Fanju app has quietly redefined what it means to share a meal with strangers. Specifically, it’s reshaping the concept of th"
 recoveredFromD1: true
 ---
@@ -30,3 +30,9 @@ recoveredFromD1: true
 <p>Leaving one of these dinners, you don’t walk away with a stack of business cards. You might not even exchange numbers. But you carry something subtler: the sense that connection is still possible, even here, even now. Some guests return to the same host’s table months later. Others run into someone from a dinner at a bookshop in Barranco and end up sharing empanadas. The real outcome isn’t immediate utility. It’s the reopening of a social aperture—being reminded that you can sit across from someone, eat, listen, and not have to sell anything, including yourself.</p>
 <p>That ripple effect is what makes the Fanju model sustainable. It doesn’t depend on grand outcomes. It thrives on modest ones. In Lima, where the gap between professional success and personal fulfillment can feel wide, these dinners are small corrections. They don’t replace deep friendship. But they create conditions where friendship might begin. And for those who’ve felt alone in a city of millions, that possibility is enough to come back to the table.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

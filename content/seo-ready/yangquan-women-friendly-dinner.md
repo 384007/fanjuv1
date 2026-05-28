@@ -4,7 +4,7 @@ canonicalPath: "/city/yangquan/women-friendly-dinner"
 alternatePath: "/en/city/yangquan/women-friendly-dinner"
 translationKey: "yangquan-women-friendly-dinner"
 lang: "zh"
-title: "阳泉女性友好饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "阳泉女性友好饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "阳泉女性友好饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "饭局app在阳泉运作的方式，从来不是把人塞进一场热闹的局。它更像是一种慢下来的尝试：围绕一张具体的小桌，邀请几位有真实生活节奏的本地人，用一顿饭的时间交换彼此对城市的感知。在阳泉，这样的饭局尤其需要清晰的边界——尤其是当主题落在“女性友好”"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 阳泉女性友好饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 阳泉女性友好饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 饭局app在阳泉运作的方式，从来不是把人塞进一场热闹的局。它更像是一种慢下来的尝试：围绕一张具体的小桌，邀请几位有真实生活节奏的本地人，用一顿饭的时间交换彼此对城市的感知。在阳泉，这样的饭局尤其需要清晰的边界——尤其是当主题落在“女性友好”上时，它不是泛泛的邀请，而是一次对安全、节奏和预期的共同确认。饭局app在这里不追求人数，也不制造话题狂欢，它更关心谁坐在桌边、为什么来、以及饭后是否愿意再约下一顿。
 

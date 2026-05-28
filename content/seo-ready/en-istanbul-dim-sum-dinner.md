@@ -4,7 +4,7 @@ canonicalPath: "/en/city/istanbul/dim-sum-dinner"
 alternatePath: "/city/istanbul/dim-sum-dinner"
 translationKey: "istanbul-dim-sum-dinner"
 lang: "en"
-title: "Istanbul after work: how Fanju app makes Dim Sum Dinner feel like a real room"
+title: "Istanbul after work: how Fanju app makes Dim Sum Dinner feel like a real room | fanju-app"
 description: "In Istanbul, where evenings often dissolve into last-minute messages and half-committed plans, the Fanju app has quietly reshaped how people reconnect over food. One of its most grounded uses is organizing Dim Sum Dinner"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Istanbul after work: how Fanju app makes Dim Sum Dinner feel like a real room
+# Istanbul after work: how Fanju app makes Dim Sum Dinner feel like a real room | fanju-app
 
 In Istanbul, where evenings often dissolve into last-minute messages and half-committed plans, the Fanju app has quietly reshaped how people reconnect over food. One of its most grounded uses is organizing Dim Sum Dinner — not as a restaurant event or a branded experience, but as a regular, unscripted gathering of people who’ve spent too many years talking through screens. The app doesn’t promise transformation. Instead, it reduces the friction of showing up. For remote workers, freelancers, and long-term residents who’ve lost their local rhythm, a Dim Sum Dinner arranged through Fanju becomes more than a meal. It’s a chance to relearn how to sit across from someone, share a plate of har gow, and let conversation find its own pace. In a city where social life often feels either transactional or overly familiar, this small ritual is becoming a quiet reset.
 

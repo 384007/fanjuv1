@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/sao-paulo/friendship-dinner"
 alternatePath: "/city/sao-paulo/friendship-dinner"
-title: "Sao Paulo does not need another vague invite; Fanju app makes Friendship Dinner specific"
+title: "Sao Paulo does not need another vague invite; Fanju app makes Friendship Dinner specific | fanju-app | 饭局app"
 description: "In Sao Paulo, where evenings unfold at a rhythm all their own—between metro delays, last-minute cancellations, and the lingering fatigue of long commutes—Fanju app offers something rare: a clear, low-pressure way to join"
 recoveredFromD1: true
 ---
@@ -33,3 +33,9 @@ recoveredFromD1: true
 <p>Joining a Friendship Dinner in Sao Paulo isn’t about collecting contacts or finding a travel buddy or practicing a language for professional gain. It’s about relearning how to sit with others without asking anything of them. The next step isn’t another event—it’s carrying that ease into daily life. Maybe it’s striking up a real conversation with a neighbor in Lapa, or inviting a colleague for coffee without an agenda. Fanju app doesn’t replace those moments; it rehearses them.</p>
 <p>The dinners work because they’re small, specific, and rooted in ordinary acts—cooking, eating, talking. They don’t promise transformation, just a different kind of evening. In a city that moves fast and often feels impersonal, that’s enough. The table isn’t a solution. It’s a reminder: connection doesn’t have to be loud, structured, or strategic to be real.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

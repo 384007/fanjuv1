@@ -4,7 +4,7 @@ canonicalPath: "/city/tokyo/curated-dinner"
 alternatePath: "/en/city/tokyo/curated-dinner"
 translationKey: "tokyo-curated-dinner"
 lang: "zh"
-title: "东京 curated dinner Guide"
+title: "东京 curated dinner Guide | fanju-app | 饭局app"
 titleZh: "东京curated-dinner指南"
 pageType: "city_landing"
 priorityScore: 50
@@ -12,7 +12,7 @@ aiQualityScore: 100
 status: "ready"
 ---
 
-# 东京 curated dinner Guide
+# 东京 curated dinner Guide | fanju-app | 饭局app
 
 ## 中文概览
 东京是一座充满活力和多样性的城市，拥有丰富的餐饮文化和多元化的饮食选择。Fanju / 饭局旨在帮助东京的用户发现新鲜的饭局体验，通过AI推荐的精选餐厅和菜单，用户可以轻松找到适合自己的饭局伴侣和地点。

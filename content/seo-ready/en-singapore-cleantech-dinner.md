@@ -4,7 +4,7 @@ canonicalPath: "/en/city/singapore/cleantech-dinner"
 alternatePath: "/city/singapore/cleantech-dinner"
 translationKey: "singapore-cleantech-dinner"
 lang: "en"
-title: "Why Cleantech Dinner in Singapore works better when Fanju app keeps the table small"
+title: "Why Cleantech Dinner in Singapore works better when Fanju app keeps the table small | fanju-app"
 description: "Fanju app is a social dining platform designed to connect neighbours in Singapore through small, intentional meals centred around shared interests—like cleantech innovation. Unlike large networking events or open-house d"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Cleantech Dinner in Singapore works better when Fanju app keeps the table small
+# Why Cleantech Dinner in Singapore works better when Fanju app keeps the table small | fanju-app
 
 Fanju app is a social dining platform designed to connect neighbours in Singapore through small, intentional meals centred around shared interests—like cleantech innovation. Unlike large networking events or open-house dinners, Fanju focuses on tables of four to six people, where conversation flows naturally and attendees aren’t lost in the noise. In a city where professional circles can feel transactional and fast-moving, these dinners offer something quieter: real exchange, grounded in shared values and local context. The app’s structure—clear host bios, defined topics, and capped guest counts—ensures that Cleantech Dinner in Singapore remains personal, not performative. It’s not about pitching ideas to a room; it’s about testing them over curry puffs and kopi.
 

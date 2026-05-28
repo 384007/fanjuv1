@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lagos/open-table-dinner"
 alternatePath: "/city/lagos/open-table-dinner"
 translationKey: "lagos-open-table-dinner"
 lang: "en"
-title: "Lagos Open Table Dinner: Connect Through Food with Clear Boundaries"
+title: "Lagos Open Table Dinner: Connect Through Food with Clear Boundaries | fanju-app"
 description: "Discover how small-table social dining in Lagos helps returnees, creatives, and expatriates navigate informal trust networks through structured, local dinner experiences on the Fanju app."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Dinner That Helps You Belong — Without the Pressure
+# Dinner That Helps You Belong — Without the Pressure | fanju-app
 
 In Lagos, a shared meal is rarely just about food. It’s a negotiation, a gesture of respect, or a quiet test of trust. Open Table dinners—small, hosted evening meals with 6 to 10 guests—offer a rare space where newcomers and locals can meet without hidden expectations. These aren’t networking events, first dates, or cultural tours. They’re intentional gatherings built around a simple idea: understanding a city starts at the table.
 
@@ -41,14 +41,6 @@ Dating apps prioritize chemistry. Networking events track business cards. Open T
 A 10-person dinner works differently than a 30-person mixer. At a small table, everyone gets space to speak. Silence isn’t awkward — it’s part of the rhythm. Seating order, often a subtle signal of hierarchy in Lagos settings, is neutralized: guests arrive at similar times, and the host doesn’t assign status-based positions.
 
 This scale also makes exit easier. Leaving early isn’t rude; it’s expected sometimes. The host affirms this at the start. In a city where transportation and timing matter, that permission matters.
-
-## Safety, Clarity, and the Role of the Host
-
-Trust in Lagos often begins with predictability. That’s why every Open Table dinner happens in a publicly accessible venue — a mid-tier restaurant in Ikeja, a converted lounge in Lekki, a garden-facing space in Yaba — with natural foot traffic and clear entry points.
-
-The host sets tone through small, meaningful actions: offering water first, stating the flat fee upfront, confirming the theme or discussion prompt. These cues signal safety. Fixed-price menus eliminate billing confusion, especially important in mixed-income groups where splitting costs unevenly can cause tension.
-
-Personal contact details aren’t shared on-site. Participation doesn’t promise friendship, opportunity, or romance. The experience is designed to be complete in itself — a single evening where you’re neither outsider nor insider, but a guest at a table that holds space for both.
 
 ## Not Just Connection — Cultural Navigation
 

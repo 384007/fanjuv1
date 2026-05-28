@@ -4,7 +4,7 @@ canonicalPath: "/city/nantong/teacher-dinner"
 alternatePath: "/en/city/nantong/teacher-dinner"
 translationKey: "nantong-teacher-dinner"
 lang: "zh"
-title: "第一次在南通参加教师饭局，饭局app怎样让陌生人坐得下来"
+title: "第一次在南通参加教师饭局，饭局app怎样让陌生人坐得下来 | fanju-app"
 titleZh: "第一次在南通参加教师饭局，饭局app怎样让陌生人坐得下来"
 description: "很多人点开饭局app里的“教师饭局”，第一眼看到的是“教育从业者专属”“轻松交流”这类词，但真正让人犹豫的，是背后没说透的那层意思：这顿饭到底要干什么？是来倾诉职业倦怠的，还是来交换教学经验的，又或者只是找个理由下班后不回家？在南通，不少老"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
 ---
 
-# 第一次在南通参加教师饭局，饭局app怎样让陌生人坐得下来
+# 第一次在南通参加教师饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 
 晚风从濠河边吹过来，带着一点江水的湿润，也带走了教学楼里一天的沉闷。几位老师走出校门，穿过南大街的老巷子，拐进一家藏在居民楼底下的本帮小馆。桌面上摆着三碗阳春面、一碟糟鸡、一盘油焖笋，话还没开始多说，气氛却已经松了下来。这不是学校聚餐，也不是教研组开会，而是通过饭局app约的一场教师饭局——一群素不相识的老师，在南通的某个夜晚，因为相似的身份和节奏，坐在了一起。在南通，教师的工作节奏细密而稳定，但人际的连接却常常被教案、家长会和职称评审压到边缘。饭局app没有承诺“交到朋友”或“打通人脉”，它只是试着让一群有同样生活质地的人，在一张小桌上，先安静地吃口饭，再慢慢说句话。
 

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/bangalore/shared-table"
 alternatePath: "/city/bangalore/shared-table"
-title: "Bangalore does not need another vague invite; Fanju app makes Shared Table specific"
+title: "Bangalore does not need another vague invite; Fanju app makes Shared Table specific | fanju-app | 饭局app"
 description: "The Fanju app introduces a grounded way to experience Bangalore beyond its polished surfaces—through small, intentional Shared Table dinners hosted in homes and modest venues across the city. Unlike generic meetups or cr"
 recoveredFromD1: true
 ---
@@ -33,3 +33,9 @@ recoveredFromD1: true
 <p>Selecting a Shared Table should feel like choosing a book based on its voice, not its popularity. On Fanju, you’re not deciding between five-star experiences, but between distinct local perspectives. One host in Sadashivanagar might offer Anglo-Indian dishes passed down from their grandmother; another in Hebbal might focus on sustainable, homegrown ingredients. The choice isn’t about quality alone, but resonance.</p>
 <p>The app’s interface avoids gamification—no leaderboards or trending tags. Instead, it surfaces honest descriptions and recent guest notes, helping you pick based on fit, not FOMO. That matters in Bangalore, where the desire to “make the most” of the city can turn leisure into obligation. A Shared Table works best when it feels optional, ordinary, and human—not another item to conquer on a checklist.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

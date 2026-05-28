@@ -4,7 +4,7 @@ canonicalPath: "/city/shanghai/ai-founder-dinner"
 alternatePath: "/en/city/shanghai/ai-founder-dinner"
 translationKey: "shanghai-ai-founder-dinner"
 lang: "zh"
-title: "上海想参加AI 创业者饭局，饭局app把信任感放在饭前"
+title: "上海想参加AI 创业者饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "上海想参加AI 创业者饭局，饭局app把信任感放在饭前"
 description: "不少AI创业者在考虑参加一场饭局时，心里总会打鼓：上海的AI领域竞争激烈，大家都很忙，真的会有人准时出现吗？ “有人来吗？ ”这样的问句，在普通群聊里常常是发起饭局的开端，但对于一场真正有价值的AI创业者饭局来说，这远远不够。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 上海想参加AI 创业者饭局，饭局app把信任感放在饭前
+# 上海想参加AI 创业者饭局，饭局app把信任感放在饭前 | fanju-app
 
 在上海，想找个不落俗套的方式认识新朋友，尤其是同行里的AI创业者，很多时候脑海里会闪过“有没有什么吃饭的场合？”。周末的上海，从法租界的老洋房到陆家嘴的摩天大楼，总有无数个角落藏着适合小聚的餐桌。但如果不想随便找个餐厅就坐下来，又不想在大型的、形式化的活动中感到拘谨，那么饭局app提供的这种围绕着清晰主题、小桌用餐、注重线下真实连接的社交方式，就显得尤为珍贵。它不是一场漫无目的的拼桌，而是有针对性地为有共同兴趣的专业人士搭建一个轻松交流的平台，尤其对于刚来到这座城市，或者希望拓展人脉圈子的AI创业者而言，这是一种低压力、高效率的破冰选择。
 

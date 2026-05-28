@@ -4,7 +4,7 @@ canonicalPath: "/en/city/casablanca/social-worker-dinner"
 alternatePath: "/city/casablanca/social-worker-dinner"
 translationKey: "casablanca-social-worker-dinner"
 lang: "en"
-title: "The Social Worker Dinner table Casablanca actually needs is the one Fanju app describes up front"
+title: "The Social Worker Dinner table Casablanca actually needs is the one Fanju app describes up front | fanju-app"
 description: "In Casablanca, where social rhythms often shift between family obligations, work demands, and the occasional café meetup, there’s little space for conversations that aren’t transactional or obligatory. The Fanju app"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# The Social Worker Dinner table Casablanca actually needs is the one Fanju app describes up front
+# The Social Worker Dinner table Casablanca actually needs is the one Fanju app describes up front | fanju-app
 
 The Fanju app offers a simple way for people in Casablanca to gather around small, intentional meals with others who value real conversation and low-pressure connection. It’s not about large events or curated influencer experiences. Instead, it’s focused on single tables—often no more than six people—where social workers, educators, and others in emotionally demanding roles can pause and reconnect with themselves and others through shared food and time. This is not a networking night or a group chat spun into reality. It is a deliberate alternative to the fleeting digital interactions that dominate city life, especially after years of relying on screens for connection.
 

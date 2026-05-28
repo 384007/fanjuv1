@@ -4,7 +4,7 @@ canonicalPath: "/en/city/khartoum/verified-host-dinner"
 alternatePath: "/city/khartoum/verified-host-dinner"
 translationKey: "khartoum-verified-host-dinner"
 lang: "en"
-title: "How Fanju app turns a Khartoum Verified Host Dinner night into something worth showing up for"
+title: "How Fanju app turns a Khartoum Verified Host Dinner night into something worth showing up for | fanju-app"
 description: "For anyone living in Khartoum, the idea of a Verified Host Dinner through the Fanju app might spark a mix of curiosity and a touch of apprehension. It’s a novel way to connect, moving beyond the usual social circles, but"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# How Fanju app turns a Khartoum Verified Host Dinner night into something worth showing up for
+# How Fanju app turns a Khartoum Verified Host Dinner night into something worth showing up for | fanju-app
 
 For anyone living in Khartoum, the idea of a Verified Host Dinner through the Fanju app might spark a mix of curiosity and a touch of apprehension. It’s a novel way to connect, moving beyond the usual social circles, but the initial step into the unknown can feel significant. This guide is for those first-timers, exploring what it’s really like to share a meal with strangers in a city that holds so much quiet charm, and how Fanju app aims to make that experience not just comfortable, but genuinely rewarding.
 

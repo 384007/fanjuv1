@@ -4,7 +4,7 @@ canonicalPath: "/en/city/brussels/salsa-dinner"
 alternatePath: "/city/brussels/salsa-dinner"
 translationKey: "brussels-salsa-dinner"
 lang: "en"
-title: "Before joining Salsa Dinner in Brussels, what Fanju app should make clear"
+title: "Before joining Salsa Dinner in Brussels, what Fanju app should make clear | fanju-app"
 description: "Salsa Dinner in Brussels through the Fanju app offers a small-table dinner with a clear rhythm—conversation over empanadas, a shared interest in salsa music or dance, and a host who sets tone and timing."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Before joining Salsa Dinner in Brussels, what Fanju app should make clear
+# Before joining Salsa Dinner in Brussels, what Fanju app should make clear | fanju-app
 
 Salsa Dinner in Brussels through the Fanju app offers a small-table dinner with a clear rhythm—conversation over empanadas, a shared interest in salsa music or dance, and a host who sets tone and timing. This is not a dating guarantee, not a random group chat, not an endless profile feed. Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局”, and in Brussels, it functions as a social dining app where professionals and curious locals meet offline around specific themes. The table isn’t a meetup with a dozen strangers in a loud bar, nor is it a passive event where you’re swept into group dynamics. It’s structured: arrival, meal, topic, and exit—each phase designed so you can decide when to stay or step away, especially if you’re crossing town after work.
 

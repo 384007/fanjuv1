@@ -4,7 +4,7 @@ canonicalPath: "/city/enshi/ecommerce-dinner"
 alternatePath: "/en/city/enshi/ecommerce-dinner"
 translationKey: "enshi-ecommerce-dinner"
 lang: "zh"
-title: "在恩施把电商饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在恩施把电商饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在恩施把电商饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "深夜抵达恩施，高铁站外的路灯泛着微光，山影在远处层层叠叠地压下来。我拖着行李箱站在出站口，手机屏幕亮起，饭局app推送了一条消息：「今晚七点半，土家小院，三人已报名，还剩一个位置。」点开详情，没有夸张的宣传语，只有一句：「聊聊最近一次直播翻"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在恩施把电商饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在恩施把电商饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 深夜抵达恩施，高铁站外的路灯泛着微光，山影在远处层层叠叠地压下来。我拖着行李箱站在出站口，手机屏幕亮起，饭局app推送了一条消息：「今晚七点半，土家小院，三人已报名，还剩一个位置。」点开详情，没有夸张的宣传语，只有一句：「聊聊最近一次直播翻车的经历。」我笑了笑，这不像招商会，倒像是某种暗号。在恩施，山高路远，信号时断时续，但人和人之间的连接反而更需要具体场景来落地。饭局app在这里不解决流量问题，它只解决一件事：让一个独自路过的人，能在一张饭桌上找到落座的理由。
 

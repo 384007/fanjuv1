@@ -4,7 +4,7 @@ canonicalPath: "/en/city/paris/vc-dinner"
 alternatePath: "/city/paris/vc-dinner"
 translationKey: "paris-vc-dinner"
 lang: "en"
-title: "Paris strangers sit down easier when Fanju app frames the VC Dinner table first"
+title: "Paris strangers sit down easier when Fanju app frames the VC Dinner table first | fanju-app"
 description: "Choosing where to hold a VC Dinner in Paris should ideally reflect the city's diverse character, but the selection itself shouldn't add to the complexity for attendees, especially those new to the city. A dinner that"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260528T070525Z"
 ---
 
-# Paris strangers sit down easier when Fanju app frames the VC Dinner table first
+# Paris strangers sit down easier when Fanju app frames the VC Dinner table first | fanju-app
 
 Arriving in Paris can feel like stepping onto a vast, beautiful stage, but finding your place within it, especially after a long workday when the thought of a solitary meal at home feels particularly small, can be daunting. The desire to connect, to find those spontaneous moments that make a city feel like yours, is strong. Fanju app offers a curated path for this, transforming the uncertainty of meeting new people into the comfort of a small, intentional gathering. It's designed for those moments when you're seeking genuine interaction without the pressure of a large event, providing a structured yet relaxed environment to share a meal and conversation.
 

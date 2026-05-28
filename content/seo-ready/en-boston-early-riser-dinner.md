@@ -4,7 +4,7 @@ canonicalPath: "/en/city/boston/early-riser-dinner"
 alternatePath: "/city/boston/early-riser-dinner"
 translationKey: "boston-early-riser-dinner"
 lang: "en"
-title: "Why Early Riser Dinner in Boston works better when Fanju app keeps the table small"
+title: "Why Early Riser Dinner in Boston works better when Fanju app keeps the table small | fanju-app"
 description: "Early Riser Dinner in Boston is less about the food and more about who shows up—and how soon you stop feeling like strangers. If you’re considering your first dinner through the Fanju app, you might wonder: will this fee"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Early Riser Dinner in Boston works better when Fanju app keeps the table small
+# Why Early Riser Dinner in Boston works better when Fanju app keeps the table small | fanju-app
 
 Early Riser Dinner in Boston is less about the food and more about who shows up—and how soon you stop feeling like strangers. If you’re considering your first dinner through the Fanju app, you might wonder: will this feel like forced networking or a quiet breakfast with coworkers? It doesn’t. Instead, it’s a small, intentional gathering where timing, table size, and subtle cues from the app help shape a conversation that feels natural. The Fanju app limits each Boston Early Riser Dinner to four or five guests, rarely more. That constraint isn’t arbitrary. It’s what allows someone hesitant about group dining with strangers to actually say yes. And in a city where trust builds slowly—especially over meals—this restraint matters.
 

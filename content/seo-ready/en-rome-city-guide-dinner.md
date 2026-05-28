@@ -4,7 +4,7 @@ canonicalPath: "/en/city/rome/city-guide-dinner"
 alternatePath: "/city/rome/city-guide-dinner"
 translationKey: "rome-city-guide-dinner"
 lang: "en"
-title: "Why City Guide Dinner in Rome works better when Fanju app keeps the table small"
+title: "Why City Guide Dinner in Rome works better when Fanju app keeps the table small | fanju-app"
 description: "Arriving in Rome for the first time, especially alone, can mean facing a cascade of unspoken rules: where to sit, how to order, when to speak. A vague dinner invite—“Come if you’re around”—only adds to the uncertainty."
 primaryKeyword: "Rome City Guide Dinner"
 secondaryKeywords: "Rome social dining|City Guide dinner group|dinner buddy app|Fanju app|small-table dinner in Rome"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T220007Z"
 ---
 
-# Why City Guide Dinner in Rome works better when Fanju app keeps the table small
+# Why City Guide Dinner in Rome works better when Fanju app keeps the table small | fanju-app
 
 The Fanju app is not a party planner or a meetup engine. It’s a social dining tool built for people who want real, low-pressure connection over dinner in Rome—specifically through City Guide Dinner, its small-group format where tables hold no more than six guests. In a city where dinner stretches late and strangers often become conversation partners by accident, Fanju makes intention visible: this isn’t a networking event, nor a tourist trap. It’s a chance to sit with locals and visitors who’ve agreed to a shared rhythm—quiet, structured, open-ended. The app sets expectations early, which is why arriving at a Rome City Guide Dinner feels less like stepping into the unknown and more like joining a conversation already in motion. That clarity is what makes it work.
 

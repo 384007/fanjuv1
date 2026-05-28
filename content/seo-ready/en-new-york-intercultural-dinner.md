@@ -4,7 +4,7 @@ canonicalPath: "/en/city/new-york/intercultural-dinner"
 alternatePath: "/city/new-york/intercultural-dinner"
 translationKey: "new-york-intercultural-dinner"
 lang: "en"
-title: "How Fanju app turns a New York Intercultural Dinner night into something worth showing up for"
+title: "How Fanju app turns a New York Intercultural Dinner night into something worth showing up for | fanju-app"
 description: "In New York, where social calendars fill with events that blur into one long rotation of networking and performative gatherings, Fanju app carves out space for something quieter but deeper: small, intentional meals where"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a New York Intercultural Dinner night into something worth showing up for
+# How Fanju app turns a New York Intercultural Dinner night into something worth showing up for | fanju-app
 
 In New York, where social calendars fill with events that blur into one long rotation of networking and performative gatherings, Fanju app carves out space for something quieter but deeper: small, intentional meals where conversation matters more than connections. It’s not another meetup platform or dating interface—it’s a social dining tool that surfaces real-world dinners hosted by New Yorkers who care about sharing food and stories across cultures. Through carefully described gatherings, the app helps residents find tables that align with their comfort level, neighborhood rhythm, and curiosity about other backgrounds. The dinners aren’t staged or branded; they happen in apartments in Jackson Heights, Brownstone dining rooms in Fort Greene, or borrowed community spaces in the Bronx, making them feel grounded rather than curated. The Fanju app doesn’t promise transformation—it just makes it easier to say yes to a table that might otherwise feel too unfamiliar.
 

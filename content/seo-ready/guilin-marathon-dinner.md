@@ -4,7 +4,7 @@ canonicalPath: "/city/guilin/marathon-dinner"
 alternatePath: "/en/city/guilin/marathon-dinner"
 translationKey: "guilin-marathon-dinner"
 lang: "zh"
-title: "桂林马拉松饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "桂林马拉松饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "桂林马拉松饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "你有没有试过在一个城市里，报名参加一场“饭局”，结果发现它其实是一场拼桌聚餐，十个人围坐一桌，话题从天气聊到工作，却始终没有一句能真正接住你的情绪？在桂林，这样的情况并不少见。饭局app的存在，正是为了回答一个问题：当一个人跑完马拉松，或准"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 桂林马拉松饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 桂林马拉松饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 你有没有试过在一个城市里，报名参加一场“饭局”，结果发现它其实是一场拼桌聚餐，十个人围坐一桌，话题从天气聊到工作，却始终没有一句能真正接住你的情绪？在桂林，这样的情况并不少见。饭局app的存在，正是为了回答一个问题：当一个人跑完马拉松，或准备跑之前，他真正需要的，是不是只是吃顿饭？答案是否定的。饭局app在桂林做的，不是召集人，而是筛选边界——让饭局不再是社交任务，而是一次可预期、可信任的小范围连接。
 

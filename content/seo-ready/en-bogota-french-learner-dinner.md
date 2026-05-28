@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bogota/french-learner-dinner"
 alternatePath: "/city/bogota/french-learner-dinner"
 translationKey: "bogota-french-learner-dinner"
 lang: "en"
-title: "Bogota has plenty of French Learner Dinner options; Fanju app is the one that names the table first"
+title: "Bogota has plenty of French Learner Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "In Bogota, where weekend plans often dissolve into indecision or last-minute cancellations, the French Learner Dinner scene has quietly become a reliable anchor. It’s not just about practicing verbs or pronunciation—it’s"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Bogota has plenty of French Learner Dinner options; Fanju app is the one that names the table first
+# Bogota has plenty of French Learner Dinner options; Fanju app is the one that names the table first | fanju-app
 
 In Bogota, where weekend plans often dissolve into indecision or last-minute cancellations, the French Learner Dinner scene has quietly become a reliable anchor. It’s not just about practicing verbs or pronunciation—it’s about claiming a space in the city’s rhythm where connection happens naturally. The Fanju app stands out because it doesn’t just list dinners; it surfaces who’s hosting, why they’re gathering, and what kind of French-speaking space they’re creating. That clarity means you’re not just showing up to a meal—you’re stepping into a shared intention. For Bogotanos juggling workweeks that stretch into Friday evenings, this precision makes all the difference.
 

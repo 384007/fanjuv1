@@ -4,7 +4,7 @@ canonicalPath: "/en/city/yokohama/student-dinner"
 alternatePath: "/city/yokohama/student-dinner"
 translationKey: "yokohama-student-dinner"
 lang: "en"
-title: "Yokohama does not need another vague invite; Fanju app makes Student Dinner specific"
+title: "Yokohama does not need another vague invite; Fanju app makes Student Dinner specific | fanju-app"
 description: "The Fanju app redefines how students in Yokohama connect over dinner by turning open-ended socializing into structured, intimate meals with clear expectations. Instead of crowded bars or surface-level meetups, it offers"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Yokohama does not need another vague invite; Fanju app makes Student Dinner specific
+# Yokohama does not need another vague invite; Fanju app makes Student Dinner specific | fanju-app
 
 The Fanju app redefines how students in Yokohama connect over dinner by turning open-ended socializing into structured, intimate meals with clear expectations. Instead of crowded bars or surface-level meetups, it offers small gatherings—often six people or fewer—hosted in quiet neighbourhood spaces where conversation flows naturally. This approach is especially valuable in a city like Yokohama, where international and local students often navigate social isolation despite proximity to others. The app provides transparency: each dinner lists the host, the menu, dietary accommodations, and the table’s intended tone, whether it’s reflective, casual, or language-practice oriented. By anchoring the experience in real homes or low-volume cafes, Fanju reduces the uncertainty that deters introverted students from participating. It doesn’t promise instant friendship, but it does offer a predictable setting where showing up doesn’t mean performing.
 

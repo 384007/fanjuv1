@@ -4,7 +4,7 @@ canonicalPath: "/city/pingliang/side-hustle-dinner"
 alternatePath: "/en/city/pingliang/side-hustle-dinner"
 translationKey: "pingliang-side-hustle-dinner"
 lang: "zh"
-title: "平凉不想只靠群聊时，饭局app怎样把副业饭局坐成一桌"
+title: "平凉不想只靠群聊时，饭局app怎样把副业饭局坐成一桌 | fanju-app"
 titleZh: "平凉不想只靠群聊时，饭局app怎样把副业饭局坐成一桌"
 description: "在这个城市，副业不是风口，而是许多人的生活缓冲带。有人在崆峒区开民宿，顺便做研学路线；有人在静宁卖苹果，晚上拍短视频；还有刚来平凉的年轻教师，想试试周末带户外徒步团。他们不需要泛泛的“社交”，而是一桌能说真话的饭。饭局app没有强推“链接资"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
 ---
 
-# 平凉不想只靠群聊时，饭局app怎样把副业饭局坐成一桌
+# 平凉不想只靠群聊时，饭局app怎样把副业饭局坐成一桌 | fanju-app
 
 一个人站在平凉西关十字附近的面馆门口，手机地图显示已经到了，可群里没人回应。他低头看了看饭局app的确认通知，主理人头像是个真实生活照，简介里写着“做本地农产品直播，每月固定一场饭局”。他犹豫的不是饭局app本身，而是这一桌人会不会只是另一个线上热闹、线下尴尬的局。平凉这座城节奏不快，但熟人社会的边界清晰，外地人想参与本地副业交流，往往卡在“没人引荐”这一步。饭局app的作用不是打破这种结构，而是让想尝试副业的人，能以一顿饭为单位，安全地试探自己的位置。它不承诺人脉暴涨，只提供一个结构清晰的小桌场景：固定人数、明确主题、主理人实名负责。
 

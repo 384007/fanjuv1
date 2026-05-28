@@ -4,7 +4,7 @@ canonicalPath: "/en/city/houston/local-dinner"
 alternatePath: "/city/houston/local-dinner"
 translationKey: "houston-local-dinner"
 lang: "en"
-title: "Houston has plenty of Local Dinner options; Fanju app is the one that names the table first"
+title: "Houston has plenty of Local Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Houston’s dinner culture thrives on variety, but that same abundance can make group gatherings feel unfocused. When an invite says only “dinner with locals,” it leaves room for misunderstanding—especially in a city"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Houston has plenty of Local Dinner options; Fanju app is the one that names the table first
+# Houston has plenty of Local Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Fanju app helps Houston residents find small, intentional dinners where the purpose is clearly stated up front: real conversation without romantic pressure. In a city where sprawling neighborhoods and fast-paced work cultures can make casual connection feel transactional, these dinners offer a different rhythm. Unlike vague group invites or events that lean toward dating, Fanju tables in Houston are designed to feel like a shared meal among thoughtful strangers, not a performance. The app doesn’t promise instant friendships, but it does offer a clearer setup—hosts describe their reasoning, guests know the tone, and everyone arrives with fewer assumptions. This matters most when you’re standing just inside the door of a Heights bistro, scanning the room for a table of people you’ve never met.
 

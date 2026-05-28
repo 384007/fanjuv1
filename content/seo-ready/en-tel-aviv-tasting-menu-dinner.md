@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tel-aviv/tasting-menu-dinner"
 alternatePath: "/city/tel-aviv/tasting-menu-dinner"
 translationKey: "tel-aviv-tasting-menu-dinner"
 lang: "en"
-title: "For people trying Tasting Menu Dinner in Tel Aviv, Fanju app puts the guest mix first"
+title: "For people trying Tasting Menu Dinner in Tel Aviv, Fanju app puts the guest mix first | fanju-app"
 description: "Newcomers to Tel Aviv often find themselves in a quiet paradox: surrounded by energy, yet missing connection. Cafes buzz, beaches teem, and street corners pulse with Hebrew and Russian, Amharic and English, but breaking"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Tasting Menu Dinner in Tel Aviv, Fanju app puts the guest mix first
+# For people trying Tasting Menu Dinner in Tel Aviv, Fanju app puts the guest mix first | fanju-app
 
 Newcomers to Tel Aviv often find themselves in a quiet paradox: surrounded by energy, yet missing connection. Cafes buzz, beaches teem, and street corners pulse with Hebrew and Russian, Amharic and English, but breaking into real conversation can feel like waiting for a wave that never breaks. The Fanju app was built for this gap — not just to fill dinner plans, but to shape them around the kind of shared moments that ease a newcomer into the city’s rhythm. It focuses on small, intentional meals, particularly tasting menu dinners, where the guest list is curated, the host is present, and the evening unfolds without the pressure of performance. In Tel Aviv, where food is both art and entry point, Fanju helps turn curiosity into belonging.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/delhi/new-friends-dinner"
 alternatePath: "/city/delhi/new-friends-dinner"
 translationKey: "delhi-new-friends-dinner"
 lang: "en"
-title: "A calmer way to approach New Friends Dinner in Delhi through Fanju app"
+title: "A calmer way to approach New Friends Dinner in Delhi through Fanju app | fanju-app"
 description: "The Fanju app offers a practical path into the social rhythms of Delhi by connecting people for small, intentional dinners where conversation unfolds naturally over food. Unlike large meetups or formal events, these gath"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach New Friends Dinner in Delhi through Fanju app
+# A calmer way to approach New Friends Dinner in Delhi through Fanju app | fanju-app
 
 The Fanju app offers a practical path into the social rhythms of Delhi by connecting people for small, intentional dinners where conversation unfolds naturally over food. Unlike large meetups or formal events, these gatherings are hosted in homes or quiet local spaces, with clear themes and guest limits that help reduce the noise of unfamiliar social settings. In a city where connections often form through shared meals—whether at roadside dhabas or family kitchens—Fanju reframes the idea of dining with strangers as something grounded, not grand. It does not promise instant friendships but sets conditions where trust can emerge: a named host, a defined menu, and a real location. This structure matters in Delhi, where social openness exists alongside strong cultural boundaries around home, hospitality, and personal space. By focusing on food as the starting point, not the backdrop, the app aligns with how people here already build rapport—one shared dish at a time.
 

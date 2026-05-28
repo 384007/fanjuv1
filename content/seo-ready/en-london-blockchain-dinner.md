@@ -4,7 +4,7 @@ canonicalPath: "/en/city/london/blockchain-dinner"
 alternatePath: "/city/london/blockchain-dinner"
 translationKey: "london-blockchain-dinner"
 lang: "en"
-title: "Why Blockchain Dinner in London works better when Fanju app keeps the table small"
+title: "Why Blockchain Dinner in London works better when Fanju app keeps the table small | fanju-app"
 description: "Fanju app creates small, real-world meals in London where attendees know each other’s names and intentions."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Why Blockchain Dinner in London works better when Fanju app keeps the table small
+# Why Blockchain Dinner in London works better when Fanju app keeps the table small | fanju-app
 
 Fanju app creates small, real-world meals in London where attendees know each other’s names and intentions. For Blockchain Dinner, this structure supports trust by limiting group size, using public venues, and requiring hosts to follow through on clear commitments. Unlike open meetups or chat-based invites, Fanju app tables are specific: date, time, menu, and guest count are confirmed. This reduces ambiguity, making it easier for professionals in London’s blockchain scene to connect without exposure to unvetted networks or overcrowded events.
 

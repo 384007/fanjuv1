@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/fukuoka/safe-social-dinner"
 alternatePath: "/city/fukuoka/safe-social-dinner"
-title: "Fukuoka Safe Social Dinner Guide"
+title: "Fukuoka Safe Social Dinner Guide | fanju-app | 饭局app"
 description: "Discover the authentic Fukuoka experience with Fanju app, a social dining platform for small, clearly described meals and real-world connections. Join like-minded individuals for a unique and enriching experience, free from the pressures of dating or romantic expectations."
 recoveredFromD1: true
 ---
@@ -49,3 +49,9 @@ recoveredFromD1: true
 <ul><li>Choose a theme or topic that interests you, such as food, culture, or travel.</li><li>Select a location that&#039;s convenient and accessible for your attendees.</li><li>Plan a menu that&#039;s inclusive and accommodating of dietary restrictions.</li><li>Set clear expectations and boundaries for the dinner, including what to expect and what&#039;s expected of attendees.</li><li>Encourage open and honest communication among attendees, and be mindful of your own language and body language.</li></ul>
 <p>By following these steps, you can create a positive and enjoyable experience for everyone involved. So why not give it a try and host your own Safe Social Dinner today?&quot;slug&quot;:&quot;en/city/fukuoka/safe-social-dinner</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

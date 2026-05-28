@@ -4,7 +4,7 @@ canonicalPath: "/city/wuzhou/keto-dinner"
 alternatePath: "/en/city/wuzhou/keto-dinner"
 translationKey: "wuzhou-keto-dinner"
 lang: "zh"
-title: "在梧州找一桌不尴尬的生酮饮食饭局，饭局app先解决什么"
+title: "在梧州找一桌不尴尬的生酮饮食饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在梧州找一桌不尴尬的生酮饮食饭局，饭局app先解决什么"
 description: "在梧州，晚餐不只是填饱肚子，更是连接人与人的场合。 尤其对于生酮饮食的爱好者来说，找到同频的人一起享受美食，比在街边随便找个地方用餐来得更有意义。 这意味着，一场好的生酮饮食饭局，首先需要清晰的边界感。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在梧州找一桌不尴尬的生酮饮食饭局，饭局app先解决什么
+# 在梧州找一桌不尴尬的生酮饮食饭局，饭局app先解决什么 | fanju-app
 
 梧州一个寻常的下班夜晚，你可能正走在下班的路上，思索着是直接回家，还是想找点什么不一样的东西。泛泛的社交邀请常常让人犹豫，因为你不知道会遇到什么样的人，或者饭局本身会是怎样的节奏。而饭局app，正是为解决这种不确定性而生，它专注于围绕小桌吃饭、清晰主题和线下连接，让你在梧州也能找到一桌预期明确的生酮饮食饭局，告别尴尬，用食物连接彼此。
 

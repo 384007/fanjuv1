@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lima/private-dinner"
 alternatePath: "/city/lima/private-dinner"
 translationKey: "lima-private-dinner"
 lang: "en"
-title: "When Private Dinner feels too loose in Lima, Fanju app starts with the table"
+title: "When Private Dinner feels too loose in Lima, Fanju app starts with the table | fanju-app"
 description: "In Lima, the first Private Dinner often feels like an experiment—polite, a little cautious, but open. The real test comes when someone considers returning."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# When Private Dinner feels too loose in Lima, Fanju app starts with the table
+# When Private Dinner feels too loose in Lima, Fanju app starts with the table | fanju-app
 
 Fanju app is a social dining platform designed for intimate, thoughtfully arranged meals where the table—not the restaurant—carries the experience. In Lima, where weekend plans often orbit around ceviche at tourist-famous spots or rushed lunches in Miraflores, Private Dinner offers a quieter alternative: small gatherings of four to six people hosted in homes or private rooms, focused on conversation and presence. The app doesn’t promise instant friendships or curated networking, but it does structure space for real interaction. This version of socializing in Lima depends less on energy and more on rhythm. On Fanju, a Lima Private Dinner begins not with a venue, but with a host’s intention, a guest list shaped for balance, and a menu of conversation as much as food. It works best when participants see it as a reset, not a performance.
 

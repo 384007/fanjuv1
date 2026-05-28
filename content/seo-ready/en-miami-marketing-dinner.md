@@ -4,7 +4,7 @@ canonicalPath: "/en/city/miami/marketing-dinner"
 alternatePath: "/city/miami/marketing-dinner"
 translationKey: "miami-marketing-dinner"
 lang: "en"
-title: "For people trying Marketing Dinner in Miami, Fanju app puts the guest mix first"
+title: "For people trying Marketing Dinner in Miami, Fanju app puts the guest mix first | fanju-app"
 description: "For people exploring Marketing Dinner in Miami, the Fanju app is becoming a quietly essential tool—not for selling, but for setting the conditions where trust can grow. In a city where networking often means crowded roof"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Marketing Dinner in Miami, Fanju app puts the guest mix first
+# For people trying Marketing Dinner in Miami, Fanju app puts the guest mix first | fanju-app
 
 For people exploring Marketing Dinner in Miami, the Fanju app is becoming a quietly essential tool—not for selling, but for setting the conditions where trust can grow. In a city where networking often means crowded rooftops and loud bars, small-table dinners hosted through Fanju offer a different kind of connection. These gatherings are intentionally limited to eight or fewer guests, always held in public venues like neighborhood cafes in Little Havana or quiet courtyards in Wynwood, and built around real names and verified profiles. The app doesn’t promise business leads; it prioritizes a guest mix where people feel seen, not scanned.
 

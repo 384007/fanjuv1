@@ -4,7 +4,7 @@ canonicalPath: "/city/huangshan/environmental-engineer-dinner"
 alternatePath: "/en/city/huangshan/environmental-engineer-dinner"
 translationKey: "huangshan-environmental-engineer-dinner"
 lang: "zh"
-title: "黄山环境工程师饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "黄山环境工程师饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "黄山环境工程师饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "在黄山，一条新安江穿城而过，水文站的数据每小时更新一次。环境工程师们常在茶楼角落打开平板，盯着溶解氧和浊度曲线，嘴里说着“这水比去年清了”，但眼神里仍藏着警惕。他们彼此认识，却很少坐下来吃饭。直到有人在饭局app上发起一场饭局，标题简单：“"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 黄山环境工程师饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 黄山环境工程师饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 在黄山，一条新安江穿城而过，水文站的数据每小时更新一次。环境工程师们常在茶楼角落打开平板，盯着溶解氧和浊度曲线，嘴里说着“这水比去年清了”，但眼神里仍藏着警惕。他们彼此认识，却很少坐下来吃饭。直到有人在饭局app上发起一场饭局，标题简单：“做水的人，今晚一起吃顿安静的饭”。报名时，每个人都会看到同一条前置信息：主理人三年前参与过太平湖蓝藻治理，桌上的第一句话会从“去年汛期的溢流问题”开始。饭局app不推送热闹的饭局，它在黄山只推那种能让人把专业话说完、又不必解释背景的饭局——这张小桌的存在，本身就是对城市专业密度的回应。
 

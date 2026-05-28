@@ -4,7 +4,7 @@ canonicalPath: "/city/chenzhou/photographer-dinner"
 alternatePath: "/en/city/chenzhou/photographer-dinner"
 translationKey: "chenzhou-photographer-dinner"
 lang: "zh"
-title: "郴州摄影师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "郴州摄影师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "郴州摄影师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "一场成功的郴州摄影师饭局，其核心在于对同桌参与者背景和期待的精准匹配。 主办方需要提前说明，这是一场关于摄影的交流，参与者或许是资深爱好者，或许是刚起步的摄影师，大家带着对光影的共同热爱而来，而非随意拼凑的聚会。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 郴州摄影师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 郴州摄影师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
 在郴州，如果你想找一场真正对味的摄影师饭局，却发现信息零散，难以判断同桌的构成、主理人的用心程度，甚至不知道饭局的调性是否适合自己，这正是饭局app想要解决的痛点。它并非一个简单的活动发布平台，而是致力于在小桌的尺度内，通过清晰的主题设定和对参与者预期的明确沟通，帮助人们在郴州这样充满生活气息的城市里，找到那个能让你卸下防备、进行有意义交流的饭局。一场好的饭局，从一开始就应该把“不确定性”降到最低，让你在报名前就能对这顿饭的“质感”有所预判。
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/dongguan/fundraising-dinner"
 alternatePath: "/en/city/dongguan/fundraising-dinner"
 translationKey: "dongguan-fundraising-dinner"
 lang: "zh"
-title: "第一次在东莞参加融资饭局，饭局app怎样让陌生人坐得下来"
+title: "第一次在东莞参加融资饭局，饭局app怎样让陌生人坐得下来 | fanju-app"
 titleZh: "第一次在东莞参加融资饭局，饭局app怎样让陌生人坐得下来"
 description: "一场成功的融资饭局，首先在于明确“预期”。 在东莞，一个典型的融资饭局，参与者希望了解的是，这顿饭的节奏是怎样的？ 是轻松的社交，还是有明确的议程？ 参与者之间有多少是初次见面，有多少是已经认识的？"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 第一次在东莞参加融资饭局，饭局app怎样让陌生人坐得下来
+# 第一次在东莞参加融资饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 
 下了班，不想直接回家，想找个地方和人聊聊，但又不知道去哪里，和谁聊。在东莞，这样的需求并不少见。尤其当你想参与一场融资饭局，却又对“饭局app”这个平台感到陌生，对即将坐到同一张桌子的人完全不了解时，犹豫是再正常不过的。饭局app不仅仅是一个报名参加线下聚会的工具，它更像一个精细的撮合者，通过清晰的主题设定和对参与者背景的初步披露，努力让每一场小桌饭局，尤其是像东莞融资饭局这样需要信任基础的场合，变得更可预测、更舒适。它试图解决的，正是那种“我花了时间精力来，但发现不适合我”的尴尬。
 

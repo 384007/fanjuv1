@@ -4,7 +4,7 @@ canonicalPath: "/city/wenshan/basketball-dinner"
 alternatePath: "/en/city/wenshan/basketball-dinner"
 translationKey: "wenshan-basketball-dinner"
 lang: "zh"
-title: "文山的篮球饭局为什么值得去，饭局app在报名前就给了答案"
+title: "文山的篮球饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
 titleZh: "文山的篮球饭局为什么值得去，饭局app在报名前就给了答案"
 description: "初来乍到文山，你或许还在摸索这座城市的脉搏，不知道第一顿饭该去哪儿，也不知道如何认识新朋友。 饭局app的出现，恰好能为你解答这些疑惑，它并非一个简单的社交工具，而是围绕着小桌吃饭、明确主题和线下真实连接而设计的平台。 尤其是在文山，如果你对篮球抱有热情，那么参加一场由饭局app组织的篮球饭局，将是你融入这座城市、认识志同道合之人的绝佳起点。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 文山的篮球饭局为什么值得去，饭局app在报名前就给了答案
+# 文山的篮球饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
 初来乍到文山，你或许还在摸索这座城市的脉搏，不知道第一顿饭该去哪儿，也不知道如何认识新朋友。饭局app的出现，恰好能为你解答这些疑惑，它并非一个简单的社交工具，而是围绕着小桌吃饭、明确主题和线下真实连接而设计的平台。尤其是在文山，如果你对篮球抱有热情，那么参加一场由饭局app组织的篮球饭局，将是你融入这座城市、认识志同道合之人的绝佳起点。这不仅仅是一场饭局，更是一个让你快速找到归属感、理解本地节奏的契机。
 

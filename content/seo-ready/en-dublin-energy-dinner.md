@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dublin/energy-dinner"
 alternatePath: "/city/dublin/energy-dinner"
 translationKey: "dublin-energy-dinner"
 lang: "en"
-title: "Dublin has plenty of Energy Dinner options; Fanju app is the one that names the table first"
+title: "Dublin has plenty of Energy Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Dublin offers dozens of shared dinner experiences each week, but most blur into the same pattern: meetups with vague themes, group chats that never quite click, or apps that feel like dating in disguise. The Fanju app st"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Dublin has plenty of Energy Dinner options; Fanju app is the one that names the table first
+# Dublin has plenty of Energy Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Dublin offers dozens of shared dinner experiences each week, but most blur into the same pattern: meetups with vague themes, group chats that never quite click, or apps that feel like dating in disguise. The Fanju app stands apart not because it promises deeper connection — many do — but because it starts differently. Instead of matching strangers based on interests or algorithms, it centres the table itself: who’s hosting, what the night is for, and how people are expected to show up. That small shift changes everything, especially if you’ve never tried an Energy Dinner in Dublin before.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/qiandongnan/quality-friends-dinner"
 alternatePath: "/en/city/qiandongnan/quality-friends-dinner"
 translationKey: "qiandongnan-quality-friends-dinner"
 lang: "zh"
-title: "黔东南想参加高质量朋友饭局，饭局app把信任感放在饭前"
+title: "黔东南想参加高质量朋友饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "黔东南想参加高质量朋友饭局，饭局app把信任感放在饭前"
 description: "在黔东南，一场饭局的意义往往不只是一顿饭。饭局app在这里不是为了解决“没人一起吃饭”的问题，而是尝试回应更深层的城市状态：当社区感变得稀薄，当邻里关系被楼宇隔断，人们开始重新在意“谁和我坐在同一张桌边”。饭局app的设计逻辑很简单——以小"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 黔东南想参加高质量朋友饭局，饭局app把信任感放在饭前
+# 黔东南想参加高质量朋友饭局，饭局app把信任感放在饭前 | fanju-app
 
 在黔东南，一场饭局的意义往往不只是一顿饭。饭局app在这里不是为了解决“没人一起吃饭”的问题，而是尝试回应更深层的城市状态：当社区感变得稀薄，当邻里关系被楼宇隔断，人们开始重新在意“谁和我坐在同一张桌边”。饭局app的设计逻辑很简单——以小桌为单位，围绕具体主题、有限人数和可预期的节奏组织聚餐，把人与人之间最基础的信任提前放在饭前确认。这种模式在黔东南显得尤为必要，这里的节奏缓慢，人情讲究分寸，一次随意的拼桌很容易变成尴尬的消耗。而真正能留下余地的饭局，往往从报名那一刻就开始建立边界。
 

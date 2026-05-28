@@ -4,7 +4,7 @@ canonicalPath: "/en/city/brisbane/solopreneur-dinner"
 alternatePath: "/city/brisbane/solopreneur-dinner"
 translationKey: "brisbane-solopreneur-dinner"
 lang: "en"
-title: "Brisbane strangers sit down easier when Fanju app frames the Solopreneur Dinner table first"
+title: "Brisbane strangers sit down easier when Fanju app frames the Solopreneur Dinner table first | fanju-app"
 description: "Weekend dinners in Brisbane often come with loose framing: “Come by if you’re free,” or “Maybe we’ll see some people there.” That kind of open-endedness can feel inviting at first, but it often leaves"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
 ---
 
-# Brisbane strangers sit down easier when Fanju app frames the Solopreneur Dinner table first
+# Brisbane strangers sit down easier when Fanju app frames the Solopreneur Dinner table first | fanju-app
 
 Fanju app is a social dining platform designed for small, intentional meals where the purpose and atmosphere are clearly communicated before anyone RSVPs. In Brisbane, where weekend plans often blur into vague catch-ups or overbooked events, the app supports real-world connections by focusing on dinners that are specific in tone and accessible in size. Solopreneur Dinner, one of its recurring formats, is not a networking event or a pitch session. It’s a modest table for people building something independently—freelancers, creators, consultants, solo founders—who want conversation that doesn’t default to small talk. The app’s role isn’t to guarantee friendships, but to reduce uncertainty by naming what the dinner is and who it’s for, helping Brisbane residents choose tables that fit their rhythm.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/luoyang/skiing-dinner"
 alternatePath: "/en/city/luoyang/skiing-dinner"
 translationKey: "luoyang-skiing-dinner"
 lang: "zh"
-title: "下班后的洛阳，饭局app怎样让滑雪饭局有真实同桌"
+title: "下班后的洛阳，饭局app怎样让滑雪饭局有真实同桌 | fanju-app"
 titleZh: "下班后的洛阳，饭局app怎样让滑雪饭局有真实同桌"
 description: "在洛阳，下班后的时间可以有很多种安排，而饭局app的出现，为都市生活者提供了一种更聚焦、更真实的线下连接方式。它围绕着小桌吃饭，以清晰的主题和真实的线下体验为核心，让人们在忙碌之余，能找到志同道合的同桌，共同参与一场围绕特定兴趣的活动。这次"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 下班后的洛阳，饭局app怎样让滑雪饭局有真实同桌
+# 下班后的洛阳，饭局app怎样让滑雪饭局有真实同桌 | fanju-app
 
 在洛阳，下班后的时间可以有很多种安排，而饭局app的出现，为都市生活者提供了一种更聚焦、更真实的线下连接方式。它围绕着小桌吃饭，以清晰的主题和真实的线下体验为核心，让人们在忙碌之余，能找到志同道合的同桌，共同参与一场围绕特定兴趣的活动。这次，我们聚焦于“滑雪饭局”，探讨如何在洛阳这座古都，通过饭局app，组织一场既有温度又不失分寸的同桌体验，让参与者在饭桌上感受到真实的连接，而非仅仅是热闹的拼凑。
 

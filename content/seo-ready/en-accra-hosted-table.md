@@ -4,7 +4,7 @@ canonicalPath: "/en/city/accra/hosted-table"
 alternatePath: "/city/accra/hosted-table"
 translationKey: "accra-hosted-table"
 lang: "en"
-title: "Accra has plenty of Hosted Table options; Fanju app is the one that names the table first"
+title: "Accra has plenty of Hosted Table options; Fanju app is the one that names the table first | fanju-app"
 description: "Arriving in Accra this month, you’re likely balancing excitement with the quiet pressure to connect. The city pulses with rhythm—tropical light, market energy, the ease of shared laughter in open-air spots like Chale Wot"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Accra has plenty of Hosted Table options; Fanju app is the one that names the table first
+# Accra has plenty of Hosted Table options; Fanju app is the one that names the table first | fanju-app
 
 Arriving in Accra this month, you’re likely balancing excitement with the quiet pressure to connect. The city pulses with rhythm—tropical light, market energy, the ease of shared laughter in open-air spots like Chale Wote or Sunday spots in Labone. But finding your place within it, especially around something as intimate as a shared meal, can feel uncertain. That’s where the Fanju app quietly stands apart. It doesn’t just list dinner events; it names the table before you even arrive—the host, the menu, the household, the neighborhood. In a city where social trust builds slowly and context matters, Fanju doesn’t assume familiarity. It gives you the specifics so you can decide with clarity, not hope.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/fukuoka/engineer-dinner"
 alternatePath: "/city/fukuoka/engineer-dinner"
 translationKey: "fukuoka-engineer-dinner"
 lang: "en"
-title: "Fukuoka strangers sit down easier when Fanju app frames the Engineer Dinner table first"
+title: "Fukuoka strangers sit down easier when Fanju app frames the Engineer Dinner table first | fanju-app"
 description: "In Fukuoka, where post-work drinks often blur into unstructured catch-ups, the Fanju app has quietly reshaped how engineers gather after hours. It doesn’t replace the spontaneity of ramen runs or casual izakaya hops, but"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Fukuoka strangers sit down easier when Fanju app frames the Engineer Dinner table first
+# Fukuoka strangers sit down easier when Fanju app frames the Engineer Dinner table first | fanju-app
 
 In Fukuoka, where post-work drinks often blur into unstructured catch-ups, the Fanju app has quietly reshaped how engineers gather after hours. It doesn’t replace the spontaneity of ramen runs or casual izakaya hops, but it reframes them—transforming vague plans into deliberate dinners with intention. The Engineer Dinner, as hosted through Fanju, isn’t just another social event. It’s a curated table: limited seats, a defined theme, and a host who prepares not just for conversation, but for connection. This shift matters in a city where professional networks often form through proximity rather than purpose. Now, engineers from Kyushu University labs, robotics startups in Hakata, and fintech teams near Tenjin can meet not by chance, but by choice.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/pune/potluck-dinner"
 alternatePath: "/city/pune/potluck-dinner"
 translationKey: "pune-potluck-dinner"
 lang: "en"
-title: "How Fanju app turns a Pune Potluck Dinner night into something worth showing up for"
+title: "How Fanju app turns a Pune Potluck Dinner night into something worth showing up for | fanju-app"
 description: "Choosing the right part of Pune can make or break the experience of attending a potluck dinner. For most residents, crossing town after a long workday in Hinjewadi or Kalyani Nagar feels like an ask too far, even for a"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Pune Potluck Dinner night into something worth showing up for
+# How Fanju app turns a Pune Potluck Dinner night into something worth showing up for | fanju-app
 
 Fanju app is a social dining platform designed for small, intentional meals where real names, clear descriptions, and public venues set the tone for genuine connection in Pune. Unlike broader social apps, Fanju focuses on structured, host-led potluck dinners limited to six to eight guests, often in accessible neighbourhoods like Kothrud, Baner, or Viman Nagar. The app’s emphasis on transparency—through verified profiles, detailed meal descriptions, and host accountability—makes it easier for Pune residents to say yes to a dinner with strangers. By prioritizing safety cues like public spaces, named hosts, and follow-through, Fanju reduces the hesitation that often comes with joining informal gatherings. For locals balancing work, family, and social fatigue, the app offers a low-pressure way to reconnect with their city through food, without the uncertainty of blind meetups.
 

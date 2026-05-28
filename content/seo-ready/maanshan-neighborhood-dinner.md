@@ -4,7 +4,7 @@ canonicalPath: "/city/maanshan/neighborhood-dinner"
 alternatePath: "/en/city/maanshan/neighborhood-dinner"
 translationKey: "maanshan-neighborhood-dinner"
 lang: "zh"
-title: "马鞍山的一顿街区饭局，饭局app为什么先看人再看热闹"
+title: "马鞍山的一顿街区饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "马鞍山的一顿街区饭局，饭局app为什么先看人再看热闹"
 description: "饭局app在马鞍山不是为了凑热闹，而是为了让人在刚落脚时，能从一桌饭开始认识一座城。它不是活动聚合平台，也不只推送“今晚有人吃饭吗”这样的泛邀约，而是专注于小桌、有主题、能真正坐下来聊的饭局。在马鞍山，这种模式显得格外必要——这里节奏不疾不"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 马鞍山的一顿街区饭局，饭局app为什么先看人再看热闹
+# 马鞍山的一顿街区饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 饭局app在马鞍山不是为了凑热闹，而是为了让人在刚落脚时，能从一桌饭开始认识一座城。它不是活动聚合平台，也不只推送“今晚有人吃饭吗”这样的泛邀约，而是专注于小桌、有主题、能真正坐下来聊的饭局。在马鞍山，这种模式显得格外必要——这里节奏不疾不徐，街区生活藏在采秣街巷口的早点摊、湖东路傍晚的散步人群和九华路上突然冒出来的小酒馆里。如果你这个月刚来，打开饭局app，不是为了立刻报名，而是为了看清哪一桌真正适合你。它不鼓励冲动加入，而是让你在报名前，能判断出谁在组织、和谁吃饭、聊什么话题。
 

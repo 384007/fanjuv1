@@ -4,7 +4,7 @@ canonicalPath: "/en/city/sao-paulo/photographer-dinner"
 alternatePath: "/city/sao-paulo/photographer-dinner"
 translationKey: "sao-paulo-photographer-dinner"
 lang: "en"
-title: "When Photographer Dinner feels too loose in Sao Paulo, Fanju app starts with the table"
+title: "When Photographer Dinner feels too loose in Sao Paulo, Fanju app starts with the table | fanju-app"
 description: "In Sao Paulo, where dinner plans often dissolve into last-minute cancellations or vague meetups at barraquinhas along Paulista, the Fanju app offers a different rhythm for creative gatherings—starting with Photographer D"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Photographer Dinner feels too loose in Sao Paulo, Fanju app starts with the table
+# When Photographer Dinner feels too loose in Sao Paulo, Fanju app starts with the table | fanju-app
 
 In Sao Paulo, where dinner plans often dissolve into last-minute cancellations or vague meetups at barraquinhas along Paulista, the Fanju app offers a different rhythm for creative gatherings—starting with Photographer Dinner. It’s not about filling seats; it’s about anchoring connection in a city where social texture shifts block by block. When the idea of meeting fellow photographers in an open format feels too unstructured, Fanju steps in not with algorithms but with intention: a named table, a specific place, a single neighborhood as context. That clarity matters in a metropolis where showing up means navigating more than traffic—it means choosing one version of Sao Paulo over another.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/brussels/fencing-dinner"
 alternatePath: "/city/brussels/fencing-dinner"
 translationKey: "brussels-fencing-dinner"
 lang: "en"
-title: "Brussels after work: how Fanju app makes Fencing Dinner feel like a real room"
+title: "Brussels after work: how Fanju app makes Fencing Dinner feel like a real room | fanju-app"
 description: "Sending a message to join a Fencing Dinner on Fanju is different from RSVPing to an event or accepting a Facebook invite. In Brussels, where social circles often form around language, workplace, or expat enclaves, the"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Brussels after work: how Fanju app makes Fencing Dinner feel like a real room
+# Brussels after work: how Fanju app makes Fencing Dinner feel like a real room | fanju-app
 
 In Brussels, the Fanju app connects residents and newcomers through small, intentional dinners that feel less like events and more like stepping into a shared evening. It’s not about themed cuisine or curated guest lists—it’s about relearning how to sit across from someone without a screen between you. The dinners, called Fencing Dinner, are deliberately low-key: six to eight people, a host who lives in the neighbourhood, a table set in a home or quiet venue. Fanju doesn’t promise lifelong friends or instant community. It offers something quieter: a chance to recalibrate social reflexes worn thin by years of digital contact. For those who’ve moved here for work, returned after remote isolation, or simply outgrown their usual circles, these dinners are where the rhythm of real conversation begins again.
 

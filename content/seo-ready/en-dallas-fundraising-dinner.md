@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dallas/fundraising-dinner"
 alternatePath: "/city/dallas/fundraising-dinner"
 translationKey: "dallas-fundraising-dinner"
 lang: "en"
-title: "Why Fundraising Dinner in Dallas works better when Fanju app keeps the table small"
+title: "Why Fundraising Dinner in Dallas works better when Fanju app keeps the table small | fanju-app"
 description: "In Dallas, a fundraising dinner hosted through the Fanju app tends to succeed not because of grand gestures or high-volume networking, but because the app deliberately limits group size and structures the evening around"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Why Fundraising Dinner in Dallas works better when Fanju app keeps the table small
+# Why Fundraising Dinner in Dallas works better when Fanju app keeps the table small | fanju-app
 
 In Dallas, a fundraising dinner hosted through the Fanju app tends to succeed not because of grand gestures or high-volume networking, but because the app deliberately limits group size and structures the evening around quiet clarity. For introverts, the difference between a draining bar meetup and a meaningful conversation over dinner often comes down to how the event is framed before anyone arrives. The Fanju app avoids open-ended gatherings and instead curates dinners with five to six attendees, offering a predictable rhythm that eases social anxiety. This isn’t about avoiding connection—it’s about creating the right conditions for authentic engagement, particularly important in a sprawling, fast-paced city like Dallas where professional circles often intersect without truly connecting.
 

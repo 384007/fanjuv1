@@ -4,7 +4,7 @@ canonicalPath: "/en/city/johannesburg/hardware-engineer-dinner"
 alternatePath: "/city/johannesburg/hardware-engineer-dinner"
 translationKey: "johannesburg-hardware-engineer-dinner"
 lang: "en"
-title: "Why Hardware Engineer Dinner in Johannesburg works better when Fanju app keeps the table small"
+title: "Why Hardware Engineer Dinner in Johannesburg works better when Fanju app keeps the table small | fanju-app"
 description: "In Johannesburg, where after-work routines often dissolve into traffic or silent commutes, the Hardware Engineer Dinner has quietly become a ritual worth protecting. It’s not a networking event, nor a pitch night—it’s a"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Hardware Engineer Dinner in Johannesburg works better when Fanju app keeps the table small
+# Why Hardware Engineer Dinner in Johannesburg works better when Fanju app keeps the table small | fanju-app
 
 In Johannesburg, where after-work routines often dissolve into traffic or silent commutes, the Hardware Engineer Dinner has quietly become a ritual worth protecting. It’s not a networking event, nor a pitch night—it’s a table where engineers talk about signal integrity over amarula cocktails, or debate PCB layout choices under the hum of rooftop fans in Braamfontein. The Fanju app helps hold that space by limiting guest numbers, ensuring conversations don’t drown in volume or drift into noise. Too many voices kill the kind of candid exchange that happens only when someone finally admits their FPGA project failed—three weeks before demo day. In a city where surface-level meetups are common, Fanju’s role isn’t to scale the event, but to preserve its honesty.
 

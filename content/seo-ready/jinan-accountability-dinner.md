@@ -4,7 +4,7 @@ canonicalPath: "/city/jinan/accountability-dinner"
 alternatePath: "/en/city/jinan/accountability-dinner"
 translationKey: "jinan-accountability-dinner"
 lang: "zh"
-title: "济南互相督促饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "济南互相督促饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "济南互相督促饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "在济南，你有没有过这样的时刻：刷着饭局app，报名了一场多人饭局，到现场却发现话题对不上、节奏不合拍，甚至饭吃到一半想提前走？人是见到了，饭也吃了，但那种微妙的不适感却挥之不去。饭局app的存在，本不是为了让人在热闹中更孤独。在济南，越来越"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 济南互相督促饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 济南互相督促饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 在济南，你有没有过这样的时刻：刷着饭局app，报名了一场多人饭局，到现场却发现话题对不上、节奏不合拍，甚至饭吃到一半想提前走？人是见到了，饭也吃了，但那种微妙的不适感却挥之不去。饭局app的存在，本不是为了让人在热闹中更孤独。在济南，越来越多的人开始意识到，饭局的价值不在于人数多寡，而在于这一桌人的边界是否清晰——谁坐在这里，为什么坐在这里，以及彼此能否在同一个频率上说话。这种边界感，尤其对女性参与者而言，是安全感的前提，也是饭局能否真正“互相督促”的基础。
 

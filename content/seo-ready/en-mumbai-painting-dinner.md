@@ -4,7 +4,7 @@ canonicalPath: "/en/city/mumbai/painting-dinner"
 alternatePath: "/city/mumbai/painting-dinner"
 translationKey: "mumbai-painting-dinner"
 lang: "en"
-title: "Mumbai strangers sit down easier when Fanju app frames the Painting Dinner table first"
+title: "Mumbai strangers sit down easier when Fanju app frames the Painting Dinner table first | fanju-app"
 description: "In Mumbai, where streets hum with chai vendors, monsoon drizzle, and the quiet rustle of newspaper readers on suburban trains, the Fanju app quietly reshapes how strangers meet. It doesn’t promise sightseeing or curated"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Mumbai strangers sit down easier when Fanju app frames the Painting Dinner table first
+# Mumbai strangers sit down easier when Fanju app frames the Painting Dinner table first | fanju-app
 
 In Mumbai, where streets hum with chai vendors, monsoon drizzle, and the quiet rustle of newspaper readers on suburban trains, the Fanju app quietly reshapes how strangers meet. It doesn’t promise sightseeing or curated tours. Instead, it offers something more fragile and more real: a dinner table where conversation begins before forks touch plates. The app’s role isn’t flashy—it sets the frame. It tells people in Bandra, Dadar, and Andheri what kind of evening they’re joining, who might be there, and how much space they’re allowed to keep. That frame, subtle as it is, makes the difference between awkward silence and a conversation that spills into the next week. In a city where trust is earned slowly and shared meals carry weight, the Painting Dinner hosted through Fanju doesn’t replace local life—it mirrors it.
 

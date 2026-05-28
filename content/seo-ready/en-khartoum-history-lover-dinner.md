@@ -4,7 +4,7 @@ canonicalPath: "/en/city/khartoum/history-lover-dinner"
 alternatePath: "/city/khartoum/history-lover-dinner"
 translationKey: "khartoum-history-lover-dinner"
 lang: "en"
-title: "For people trying History Lover Dinner in Khartoum, Fanju app puts the guest mix first"
+title: "For people trying History Lover Dinner in Khartoum, Fanju app puts the guest mix first | fanju-app"
 description: "A quiet dinner discussing the Ottoman administration of Sudan, held in a courtyard near the Blue Nile, is not a typical night out in Khartoum. But for women who value thoughtful conversation and a safe social rhythm, it’"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying History Lover Dinner in Khartoum, Fanju app puts the guest mix first
+# For people trying History Lover Dinner in Khartoum, Fanju app puts the guest mix first | fanju-app
 
 A quiet dinner discussing the Ottoman administration of Sudan, held in a courtyard near the Blue Nile, is not a typical night out in Khartoum. But for women who value thoughtful conversation and a safe social rhythm, it’s exactly what the Fanju app helps make possible. The platform doesn’t just match people for dinners—it curates small tables where history isn’t just a topic, but a lens for connection. In a city where public social spaces can feel either overly formal or unpredictably informal, Fanju’s approach gives women a way to engage deeply without compromising comfort. The app checks guest backgrounds, encourages intentionality in RSVPs, and ensures each History Lover Dinner in Khartoum begins with clarity about who’s attending and why.
 

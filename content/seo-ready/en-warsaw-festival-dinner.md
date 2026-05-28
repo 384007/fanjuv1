@@ -4,7 +4,7 @@ canonicalPath: "/en/city/warsaw/festival-dinner"
 alternatePath: "/city/warsaw/festival-dinner"
 translationKey: "warsaw-festival-dinner"
 lang: "en"
-title: "Warsaw strangers sit down easier when Fanju app frames the Festival Dinner table first"
+title: "Warsaw strangers sit down easier when Fanju app frames the Festival Dinner table first | fanju-app"
 description: "In Warsaw, where evenings often dissolve into last-minute plans and half-committed messages in group chats, hosting a Festival Dinner used to feel like arranging chairs on shifting sand. I’ve hosted nearly every kind of"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Warsaw strangers sit down easier when Fanju app frames the Festival Dinner table first
+# Warsaw strangers sit down easier when Fanju app frames the Festival Dinner table first | fanju-app
 
 In Warsaw, where evenings often dissolve into last-minute plans and half-committed messages in group chats, hosting a Festival Dinner used to feel like arranging chairs on shifting sand. I’ve hosted nearly every kind of informal gathering—potlucks in Praga, rooftop meetups in Śródmieście, even impromptu jazz nights near Muranów—but nothing changed the dynamic like using the Fanju app to structure a real table for Festival Dinner. The shift wasn’t in the food or the location. It was in the clarity. When people RSVP through Fanju, they’re not just saying yes to dinner—they’re agreeing to a shared rhythm, a named occasion with quiet expectations. That’s how a table in Warsaw stops being a collection of strangers and starts becoming a temporary community.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/baghdad/poetry-dinner"
 alternatePath: "/city/baghdad/poetry-dinner"
 translationKey: "baghdad-poetry-dinner"
 lang: "en"
-title: "Baghdad has plenty of Poetry Dinner options; Fanju app is the one that names the table first"
+title: "Baghdad has plenty of Poetry Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "In Baghdad, weekend plans often begin with a quiet question: where can you sit, listen, and speak without performance? The Fanju app doesn’t promise loud gatherings or curated photo moments. Instead, it surfaces tables w"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Baghdad has plenty of Poetry Dinner options; Fanju app is the one that names the table first
+# Baghdad has plenty of Poetry Dinner options; Fanju app is the one that names the table first | fanju-app
 
 In Baghdad, weekend plans often begin with a quiet question: where can you sit, listen, and speak without performance? The Fanju app doesn’t promise loud gatherings or curated photo moments. Instead, it surfaces tables where poetry isn’t background music but the core rhythm of the evening. These are private dinners, usually no more than eight guests, hosted in homes, courtyards, or tucked-away rooms above bookshops along Al-Mutanabbi Street. There, a poem might be read in Arabic, Kurdish, or Syriac — sometimes softly, sometimes with a tremor in the voice. The Fanju app helps identify which table is holding space for that kind of exchange, not just another dinner with poems as decoration.
 

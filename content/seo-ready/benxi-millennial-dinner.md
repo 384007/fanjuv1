@@ -4,7 +4,7 @@ canonicalPath: "/city/benxi/millennial-dinner"
 alternatePath: "/en/city/benxi/millennial-dinner"
 translationKey: "benxi-millennial-dinner"
 lang: "zh"
-title: "本溪千禧一代饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "本溪千禧一代饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "本溪千禧一代饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "“有人来吗？” 这样的发起方式，在本溪的千禧一代社交圈里可能并不陌生。它代表了一种随性，也可能是一种不确定。但这种不确定性，恰恰是很多潜在参与者，特别是女性，在选择参加饭局时最顾虑的。她们希望了解这一桌饭的主题是什么？来的都是什么样的人？大"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 本溪千禧一代饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 本溪千禧一代饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 在本溪，当千禧一代谈论起「饭局」，很多人脑海中浮现的可能是一场随意的聚会，大家临时起意，凑几个人，找个地方，吃顿饭就算了。但饭局app的出现，正在悄然改变这种认知。它强调的并非简单地“有人来”，而是每一桌饭局都应该有清晰的主题、明确的参与者边界，以及最重要的——一种让人感到安心和尊重的氛围。尤其对于本溪这座城市，饭局app更希望帮助大家找到真正能产生连接的线下小桌，而不是一场流于形式的凑局。
 

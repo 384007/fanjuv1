@@ -4,7 +4,7 @@ canonicalPath: "/en/city/sydney/date-free-dinner"
 alternatePath: "/city/sydney/date-free-dinner"
 translationKey: "sydney-date-free-dinner"
 lang: "en"
-title: "Sydney does not need another vague invite; Fanju app makes Date Free Dinner specific"
+title: "Sydney does not need another vague invite; Fanju app makes Date Free Dinner specific | fanju-app"
 description: "After another long day navigating Sydney’s sprawl—from the morning commute across the Harbour Bridge to the late emails answered under city lights—many residents find themselves facing not fatigue, but a quieter kind of"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Sydney does not need another vague invite; Fanju app makes Date Free Dinner specific
+# Sydney does not need another vague invite; Fanju app makes Date Free Dinner specific | fanju-app
 
 After another long day navigating Sydney’s sprawl—from the morning commute across the Harbour Bridge to the late emails answered under city lights—many residents find themselves facing not fatigue, but a quieter kind of emptiness: the gap between work and connection. It’s not that people don’t want to meet. It’s that the usual invitations—“We should catch up” or “Dinner sometime?”—drift away like ferry wakes on Circular Quay. The Fanju app addresses this drift not with more noise, but with clarity. In a city where social logistics are shaped by distance, shifting tides of weather, and the scattered rhythm of urban life, Fanju redefines post-work connection through a simple idea: the Date Free Dinner, hosted at a private table with clear intent, known in advance. No ambiguity. No performance. Just space, shared by design.
 

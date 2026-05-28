@@ -4,7 +4,7 @@ canonicalPath: "/en/city/johannesburg/english-speaking-dinner"
 alternatePath: "/city/johannesburg/english-speaking-dinner"
 translationKey: "johannesburg-english-speaking-dinner"
 lang: "en"
-title: "Johannesburg does not need another vague invite; Fanju app makes English Speaking Dinner specific"
+title: "Johannesburg does not need another vague invite; Fanju app makes English Speaking Dinner specific | fanju-app"
 description: "In Johannesburg, Fanju app makes an English speaking dinner specific with clear host intent, venue expectations, guest context, and enough detail for newcomers to join without guessing."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Johannesburg does not need another vague invite; Fanju app makes English Speaking Dinner specific
+# Johannesburg does not need another vague invite; Fanju app makes English Speaking Dinner specific | fanju-app
 
 Arriving in Johannesburg this month, I've been looking for ways to connect with people beyond the usual work-related interactions. The idea of an "English Speaking Dinner" seemed promising, a chance to meet new faces and perhaps discover some local gems. However, the vagueness surrounding many such invitations left me wondering about the actual experience. That's where the Fanju app has been a revelation. It offers a platform for small, clearly described meals and real-world connections right here in Johannesburg, cutting through the ambiguity. It’s about finding specific gatherings, not just general meetups.
 

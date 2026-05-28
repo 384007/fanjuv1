@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tel-aviv/serious-dating-dinner"
 alternatePath: "/city/tel-aviv/serious-dating-dinner"
 translationKey: "tel-aviv-serious-dating-dinner"
 lang: "en"
-title: "Why Serious Dating Dinner in Tel Aviv works better when Fanju app keeps the table small"
+title: "Why Serious Dating Dinner in Tel Aviv works better when Fanju app keeps the table small | fanju-app"
 description: "In Tel Aviv, where weekend plans often start with a last-minute text or a swipe on a screen, the Fanju app redefines how people connect over dinner by focusing on small, intentional gatherings. It’s not another broad soc"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Why Serious Dating Dinner in Tel Aviv works better when Fanju app keeps the table small
+# Why Serious Dating Dinner in Tel Aviv works better when Fanju app keeps the table small | fanju-app
 
 In Tel Aviv, where weekend plans often start with a last-minute text or a swipe on a screen, the Fanju app redefines how people connect over dinner by focusing on small, intentional gatherings. It’s not another broad social platform—it’s a way to join real meals with real people, usually four to six guests, hosted in neighborhoods like Florentin, Neve Tzedek, or Jaffa. The app’s structure prevents the drift of vague meetup culture by anchoring each event to a specific time, place, and host. In a city where digital fatigue has dulled the rhythm of conversation, these dinners offer a reset: a chance to practice being present, to listen without multitasking, and to date without the pressure of performance. Fanju doesn’t promise instant chemistry, but it does promise clarity—something increasingly rare in Tel Aviv’s social landscape.
 

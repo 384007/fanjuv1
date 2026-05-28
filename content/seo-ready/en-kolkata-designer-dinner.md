@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kolkata/designer-dinner"
 alternatePath: "/city/kolkata/designer-dinner"
 translationKey: "kolkata-designer-dinner"
 lang: "en"
-title: "How Fanju app turns a Kolkata Designer Dinner night into something worth showing up for"
+title: "How Fanju app turns a Kolkata Designer Dinner night into something worth showing up for | fanju-app"
 description: "For many women in Kolkata, the gap between finishing work and deciding what comes next—especially socially—can stretch into silence. That’s where Fanju app steps in, not with loud promises, but with small, intentional ga"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Kolkata Designer Dinner night into something worth showing up for
+# How Fanju app turns a Kolkata Designer Dinner night into something worth showing up for | fanju-app
 
 For many women in Kolkata, the gap between finishing work and deciding what comes next—especially socially—can stretch into silence. That’s where Fanju app steps in, not with loud promises, but with small, intentional gatherings called Designer Dinners. These aren’t events in the traditional sense. They’re curated tables of six to eight people, usually hosted in quiet cafes, homestays, or tucked-away restaurants across areas like Alipore, Salt Lake, and Ballygunge. The focus isn’t on networking or performance, but on making space for real conversation—especially for those who often feel they have to plan too much just to go out. What makes the Fanju model stand out in Kolkata is how it rethinks comfort, timing, and group dynamics to lower the barrier for women who want connection without pressure.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/buenos-aires/rooftop-dinner"
 alternatePath: "/city/buenos-aires/rooftop-dinner"
 translationKey: "buenos-aires-rooftop-dinner"
 lang: "en"
-title: "Rooftop Dinner in Buenos Aires should not feel like a gamble; Fanju app changes the odds"
+title: "Rooftop Dinner in Buenos Aires should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "Hosting rooftop dinners in Buenos Aires used to feel like rolling dice—great location, good wine, but the human chemistry? Unpredictable. That changed when I started using the Fanju app to shape the guest list, not just"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Rooftop Dinner in Buenos Aires should not feel like a gamble; Fanju app changes the odds
+# Rooftop Dinner in Buenos Aires should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 Hosting rooftop dinners in Buenos Aires used to feel like rolling dice—great location, good wine, but the human chemistry? Unpredictable. That changed when I started using the Fanju app to shape the guest list, not just send invitations. Now, every table I host on a warm Palermo evening has a quiet rhythm from the start. The city’s rooftop culture thrives on spontaneity, but real connection doesn’t grow from randomness. It grows from intention, and Fanju helps me build that into the structure of the night before a single bottle is opened.
 

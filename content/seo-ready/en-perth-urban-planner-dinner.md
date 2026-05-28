@@ -4,7 +4,7 @@ canonicalPath: "/en/city/perth/urban-planner-dinner"
 alternatePath: "/city/perth/urban-planner-dinner"
 translationKey: "perth-urban-planner-dinner"
 lang: "en"
-title: "Perth does not need another vague invite; Fanju app makes Urban Planner Dinner specific"
+title: "Perth does not need another vague invite; Fanju app makes Urban Planner Dinner specific | fanju-app"
 description: "Perth’s evenings used to blur into quiet commutes and takeaway containers eaten alone. That changed when the Urban Planner Dinner began appearing on the Fanju app—not as a loud announcement, but as a quiet opening at a s"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Perth does not need another vague invite; Fanju app makes Urban Planner Dinner specific
+# Perth does not need another vague invite; Fanju app makes Urban Planner Dinner specific | fanju-app
 
 Perth’s evenings used to blur into quiet commutes and takeaway containers eaten alone. That changed when the Urban Planner Dinner began appearing on the Fanju app—not as a loud announcement, but as a quiet opening at a shared table near Elizabeth Quay. The app doesn’t promise transformation or networking fireworks. Instead, it shows you who’s coming, what they do, where the table is, and what kind of conversation is expected. For planners, architects, and transport analysts winding down after long days in city offices or field surveys, it’s not about ambition. It’s about continuity—carrying the day’s thoughts into a space where they’re understood, without having to drive home first. The Fanju app makes this possible not by adding more options, but by making one option clear.
 

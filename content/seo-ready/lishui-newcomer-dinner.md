@@ -4,7 +4,7 @@ canonicalPath: "/city/lishui/newcomer-dinner"
 alternatePath: "/en/city/lishui/newcomer-dinner"
 translationKey: "lishui-newcomer-dinner"
 lang: "zh"
-title: "在丽水找一桌不尴尬的新移民饭局，饭局app先解决什么"
+title: "在丽水找一桌不尴尬的新移民饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在丽水找一桌不尴尬的新移民饭局，饭局app先解决什么"
 description: "傍晚六点，丽水的天光还亮着。你在高铁站拖着行李箱走出出站口，空气湿润，远处是连绵的山影。刚租下的公寓还没完全收拾好，锅碗瓢盆堆在纸箱里。你站在街角，手机地图上标着几家距离近的餐馆，但走进去点菜时，发现菜单上的“石锅鱼”和“缙云烧饼”你既叫不"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在丽水找一桌不尴尬的新移民饭局，饭局app先解决什么
+# 在丽水找一桌不尴尬的新移民饭局，饭局app先解决什么 | fanju-app
 
 傍晚六点，丽水的天光还亮着。你在高铁站拖着行李箱走出出站口，空气湿润，远处是连绵的山影。刚租下的公寓还没完全收拾好，锅碗瓢盆堆在纸箱里。你站在街角，手机地图上标着几家距离近的餐馆，但走进去点菜时，发现菜单上的“石锅鱼”和“缙云烧饼”你既叫不准名字，也吃不准味道。这时你打开饭局app，不是为了找饭馆，而是想找一桌能坐下来、不说话也不尴尬的饭。这正是饭局app在丽水存在的意义：它不解决吃什么，而是解决和谁吃，以及怎么开始吃。
 

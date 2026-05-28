@@ -4,7 +4,7 @@ canonicalPath: "/en/city/sao-paulo/astronomy-dinner"
 alternatePath: "/city/sao-paulo/astronomy-dinner"
 translationKey: "sao-paulo-astronomy-dinner"
 lang: "en"
-title: "How Fanju app turns a Sao Paulo Astronomy Dinner night into something worth showing up for"
+title: "How Fanju app turns a Sao Paulo Astronomy Dinner night into something worth showing up for | fanju-app"
 description: "Sao Paulo moves fast, and social fatigue sets in quickly when every outing feels like a performance. The usual weekend plans—crowded bars in Itaim Bibi, loud dinners in Liberdade—often leave newcomers drained rather"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
 ---
 
-# How Fanju app turns a Sao Paulo Astronomy Dinner night into something worth showing up for
+# How Fanju app turns a Sao Paulo Astronomy Dinner night into something worth showing up for | fanju-app
 
 It's 7:45 PM after a long week of navigating rush hour from Pinheiros to Berrini, and you're standing in your kitchen, debating whether to go out or stay in. Sao Paulo’s social rhythm can feel impenetrable—everyone seems to have their circle, their weekend routine, their go-to bar in Vila Madalena. But you just arrived this month, and none of it feels accessible. That’s where Fanju app steps in: not with flashy events, but with small Astronomy Dinner tables in real homes and quiet restaurants where the focus isn’t on the venue, but on who’s seated across from you. These aren’t networking events or themed parties. They’re dinners where conversation about light pollution in the city or backyard stargazing in Campos do Jordão comes up naturally, where the host shares their telescope setup between courses, and where showing up alone doesn’t require an explanation. If you're looking to connect without pressure, this might be the only dinner format worth your time.
 

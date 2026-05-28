@@ -4,7 +4,7 @@ canonicalPath: "/city/handan/electronics-hobbyist-dinner"
 alternatePath: "/en/city/handan/electronics-hobbyist-dinner"
 translationKey: "handan-electronics-hobbyist-dinner"
 lang: "zh"
-title: "第一次在邯郸参加电子爱好者饭局，饭局app怎样让陌生人坐得下来"
+title: "第一次在邯郸参加电子爱好者饭局，饭局app怎样让陌生人坐得下来 | fanju-app"
 titleZh: "第一次在邯郸参加电子爱好者饭局，饭局app怎样让陌生人坐得下来"
 description: "邯郸这几年出现了不少打着“科技”“极客”“创客”旗号的聚会，但真正能让电子爱好者安心坐下来的饭局并不多。 很多人报名前最担心的不是吃饭本身，而是整晚被迫听人讲项目融资、创业故事，或者陷入泛泛而谈的“兴趣交流”。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 第一次在邯郸参加电子爱好者饭局，饭局app怎样让陌生人坐得下来
+# 第一次在邯郸参加电子爱好者饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 
 在邯郸，电子爱好者往往习惯了独自研究电路、调试设备、组装模块，生活节奏安静而重复。当你在家或咖啡馆里一整天没和人说话，突然想找个真实的人聊点具体的技术细节，却发现身边没有对的人时，饭局app的价值就浮现出来了。它不是那种泛泛的社交平台，而是围绕小桌吃饭、清晰主题和可预期的线下连接设计的。在邯郸电子爱好者饭局中，它帮人提前看清这一桌的节奏、主理人态度和同桌背景，让远程工作者不必硬着头皮进入一场可能尴尬的聚会。饭局app的作用，是把“能不能聊得起来”这件事，从碰运气变成可判断。
 

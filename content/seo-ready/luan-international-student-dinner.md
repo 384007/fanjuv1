@@ -4,7 +4,7 @@ canonicalPath: "/city/luan/international-student-dinner"
 alternatePath: "/en/city/luan/international-student-dinner"
 translationKey: "luan-international-student-dinner"
 lang: "zh"
-title: "六安想参加国际学生饭局，饭局app把信任感放在饭前"
+title: "六安想参加国际学生饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "六安想参加国际学生饭局，饭局app把信任感放在饭前"
 description: "在六安，饭局app不是用来刷餐厅推荐的工具，而是让陌生人在一张小桌上建立真实连接的入口。这座城市节奏松弛，街巷不赶时间，人们习惯在茶馆里聊完一段事再动身，这种生活底色让饭局app上的每一场饭局都显得更具体、更可期待。国际学生在这里寻找饭局，"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 六安想参加国际学生饭局，饭局app把信任感放在饭前
+# 六安想参加国际学生饭局，饭局app把信任感放在饭前 | fanju-app
 
 在六安，饭局app不是用来刷餐厅推荐的工具，而是让陌生人在一张小桌上建立真实连接的入口。这座城市节奏松弛，街巷不赶时间，人们习惯在茶馆里聊完一段事再动身，这种生活底色让饭局app上的每一场饭局都显得更具体、更可期待。国际学生在这里寻找饭局，不只是为了吃饭，更是为了在语言、文化与日常节奏之间找到一个能落脚的支点。饭局app上的信息组织方式，恰好把这种支点提前摆了出来——不是靠热闹的宣传语，而是靠清晰的主题、可判断的时间地点、明确的同桌说明。当你在六安打开饭局app，看到的不是一场模糊的“交流活动”，而是一张具体饭桌的轮廓：几点开始，坐几人，主理人是谁，聊什么，甚至餐厅有没有包间。这种结构不是为了控制，而是为了让信任感在饭前就悄悄建立。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/karachi/marathon-dinner"
 alternatePath: "/city/karachi/marathon-dinner"
 translationKey: "karachi-marathon-dinner"
 lang: "en"
-title: "Marathon Dinner in Karachi should not feel like a gamble; Fanju app changes the odds"
+title: "Marathon Dinner in Karachi should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "A Thursday evening in Karachi, the kind where the air still carries the day’s heat but the street vendors have lit their lanterns, and you’re standing outside a café in Gulshan-e-Iqbal deciding whether to go in. You’ve R"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Marathon Dinner in Karachi should not feel like a gamble; Fanju app changes the odds
+# Marathon Dinner in Karachi should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 A Thursday evening in Karachi, the kind where the air still carries the day’s heat but the street vendors have lit their lanterns, and you’re standing outside a café in Gulshan-e-Iqbal deciding whether to go in. You’ve RSVP’d through the Fanju app to a Marathon Dinner — not a race, but a long, intentional meal with strangers built around the idea that food is the fastest way people connect. You’ve never done this before. The app didn’t promise fireworks, just a seat at a table where conversation starts with dosa or biryani, not small talk. That’s why it works. Fanju doesn’t turn dinner into a networking event. It treats the meal as the event. And in a city where shared plates are already part of the rhythm — from bun kebabs at roadside stalls to steaming haleem on Friday mornings — turning dinner into a quiet experiment in connection feels less like innovation and more like returning to form.
 

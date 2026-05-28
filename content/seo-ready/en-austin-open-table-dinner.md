@@ -4,7 +4,7 @@ canonicalPath: "/en/city/austin/open-table-dinner"
 alternatePath: "/city/austin/open-table-dinner"
 translationKey: "austin-open-table-dinner"
 lang: "en"
-title: "A calmer way to approach Open Table Dinner in Austin through Fanju app"
+title: "A calmer way to approach Open Table Dinner in Austin through Fanju app | fanju-app"
 description: "Dinner in Austin isn’t just about food—it’s about where, how, and with whom you eat. The Fanju app offers a way to join small, intentional meals hosted in homes and backyards across the city, where the focus is on real c"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach Open Table Dinner in Austin through Fanju app
+# A calmer way to approach Open Table Dinner in Austin through Fanju app | fanju-app
 
 Dinner in Austin isn’t just about food—it’s about where, how, and with whom you eat. The Fanju app offers a way to join small, intentional meals hosted in homes and backyards across the city, where the focus is on real conversation, not performance. If you’ve ever hesitated before clicking RSVP on a group dinner invite, wondering if it’ll feel forced or crowded, Fanju presents a different rhythm: meals with clear themes, space limits, and hosts who describe not just the menu but the mood. For someone new to shared dinners in Austin, it feels less like networking and more like being quietly included. The app doesn’t promise instant friends, but it does create room for a genuine moment over shared food. That shift—from spectacle to simplicity—starts well before the first course.
 

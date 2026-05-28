@@ -4,7 +4,7 @@ canonicalPath: "/city/tokyo"
 alternatePath: "/en/city/tokyo"
 translationKey: "gsc-repair-city-tokyo"
 lang: "zh"
-title: "东京饭局指南"
+title: "东京饭局指南 | fanju-app | 饭局app"
 description: "东京饭局页面帮助华人、留学生、职场人和新来东京的人通过 Fanju 了解同城小桌饭局的主题、报名和安全边界。"
 pageType: "city_landing"
 priorityScore: 82
@@ -12,7 +12,7 @@ aiQualityScore: 96
 status: "ready"
 ---
 
-# 东京饭局指南：在东京找到更清楚的小桌社交
+# 东京饭局指南：在东京找到更清楚的小桌社交 | fanju-app | 饭局app
 
 东京饭局适合华人、留学生、职场人、远程工作者和新来东京的人，通过一顿饭认识同城同频的人。Fanju / 饭局把主题、餐厅、人数、费用和主理人说明放在报名之前，让用户先判断这桌饭是否适合自己。
 

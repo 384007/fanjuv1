@@ -4,7 +4,7 @@ canonicalPath: "/city/nanyang/single-parent-dinner"
 alternatePath: "/en/city/nanyang/single-parent-dinner"
 translationKey: "nanyang-single-parent-dinner"
 lang: "zh"
-title: "南阳单亲父母饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "南阳单亲父母饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "南阳单亲父母饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "在南阳，当一个单亲父母决定参与一场饭局，尤其是通过饭局app发起的单亲父母主题饭局，他们心中所期待的，往往已经超越了简单的“有人一起吃饭”的层面。饭局app在这里扮演的角色，不仅仅是搭建一个线上平台，更是为线下这场“饭局”设定一种更清晰的边"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 南阳单亲父母饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 南阳单亲父母饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 在南阳，当一个单亲父母决定参与一场饭局，尤其是通过饭局app发起的单亲父母主题饭局，他们心中所期待的，往往已经超越了简单的“有人一起吃饭”的层面。饭局app在这里扮演的角色，不仅仅是搭建一个线上平台，更是为线下这场“饭局”设定一种更清晰的边界和期待。这不仅仅是一次聚会，更像是在熟悉的城市肌理中，寻找一种不被误解的连接方式。
 

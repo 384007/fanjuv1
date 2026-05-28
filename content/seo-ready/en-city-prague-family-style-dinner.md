@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/prague/family-style-dinner"
 alternatePath: "/city/prague/family-style-dinner"
-title: "Prague Family Style Dinner Guide"
+title: "Prague Family Style Dinner Guide | fanju-app | 饭局app"
 description: "Discover authentic local connections through dinner with the Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---
@@ -43,3 +43,9 @@ recoveredFromD1: true
 <h3>Can I host a meal or cooking class?</h3>
 <p>Yes, you can host a meal or cooking class with Fanju. This is a great way to share your passion for food and cooking, while also meeting new people and building connections. Fanju&#039;s hosting process is easy and straightforward, and includes a range of resources and support to help you get started.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

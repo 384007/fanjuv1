@@ -4,7 +4,7 @@ canonicalPath: "/en/city/doha/christmas-dinner"
 alternatePath: "/city/doha/christmas-dinner"
 translationKey: "doha-christmas-dinner"
 lang: "en"
-title: "Doha after work: how Fanju app makes Christmas Dinner feel like a real room"
+title: "Doha after work: how Fanju app makes Christmas Dinner feel like a real room | fanju-app"
 description: "After a long week in Doha’s offices or construction sites, the idea of a Christmas Dinner with strangers can feel like just another obligation disguised as fun."
 primaryKeyword: "Doha Christmas Dinner"
 secondaryKeywords: "Doha social dining|Christmas dinner group|dinner buddy app|Fanju app|small-table dinner in Doha"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T220007Z"
 ---
 
-# Doha after work: how Fanju app makes Christmas Dinner feel like a real room
+# Doha after work: how Fanju app makes Christmas Dinner feel like a real room | fanju-app
 
 The Fanju app isn’t a social network or a dating platform—it’s a way to join a real dinner in Doha with a small group of people who’ve chosen the same table. For Christmas Dinner, that distinction matters. Instead of scrolling through vague event descriptions or group chats where no one shows up, you’re committing to a seat at a table that already has a name, a host, and an intention. In a city where expat life can feel transient and social circles tight, Fanju creates space for something quieter: a shared meal that doesn’t demand performance. It’s not about meeting “the one” or growing your network. It’s about arriving after work, sitting down, and not having to wonder if you’re in the right place.
 

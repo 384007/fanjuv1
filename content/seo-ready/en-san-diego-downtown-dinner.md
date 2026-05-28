@@ -4,7 +4,7 @@ canonicalPath: "/en/city/san-diego/downtown-dinner"
 alternatePath: "/city/san-diego/downtown-dinner"
 translationKey: "san-diego-downtown-dinner"
 lang: "en"
-title: "When Downtown Dinner feels too loose in San Diego, Fanju app starts with the table"
+title: "When Downtown Dinner feels too loose in San Diego, Fanju app starts with the table | fanju-app"
 description: "Stepping into a restaurant for a Downtown Dinner in San Diego, especially when you don't know many faces, is a critical moment."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# When Downtown Dinner feels too loose in San Diego, Fanju app starts with the table
+# When Downtown Dinner feels too loose in San Diego, Fanju app starts with the table | fanju-app
 
 Planning a Downtown Dinner in San Diego can sometimes feel like trying to herd cats, especially when you're unsure who will show up or if the vibe will click. The Fanju app aims to smooth out these uncertainties by focusing on creating well-defined small-group dining experiences, turning potentially awkward arrivals into comfortable beginnings. Instead of a sprawling, loosely organized meetup that relies on chance encounters, Fanju facilitates intentional gatherings where the table itself dictates the flow, making it easier to connect with new people in San Diego. This approach helps first-timers feel more at ease, knowing that the setting and the group composition are thoughtfully considered before anyone even sits down to enjoy the city's culinary offerings.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/buenos-aires/astronomy-dinner"
 alternatePath: "/city/buenos-aires/astronomy-dinner"
 translationKey: "buenos-aires-astronomy-dinner"
 lang: "en"
-title: "The Astronomy Dinner table Buenos Aires actually needs is the one Fanju app describes up front"
+title: "The Astronomy Dinner table Buenos Aires actually needs is the one Fanju app describes up front | fanju-app"
 description: "Walking into an unfamiliar dinner in Buenos Aires can feel like stepping onto a stage mid-scene."
 primaryKeyword: "Buenos Aires Astronomy Dinner"
 secondaryKeywords: "Buenos Aires social dining|Astronomy dinner group|dinner buddy app|Fanju app|small-table dinner in Buenos Aires"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T190004Z"
 ---
 
-# The Astronomy Dinner table Buenos Aires actually needs is the one Fanju app describes up front
+# The Astronomy Dinner table Buenos Aires actually needs is the one Fanju app describes up front | fanju-app
 
 Fanju app is a social dining platform designed for smaller, intentional meals where expectations are clear and connections form naturally in real-world settings. In Buenos Aires, where dinner rhythms stretch late and conversations often begin without formal introductions, Astronomy Dinner offers a structured yet relaxed way to meet people without the pressure of networking events or crowded bars. This specific dinner type gathers a handful of participants around a shared interest in the night sky, but the real draw isn’t stargazing—it’s the chance to sit at a table where everyone has opted in to listen and engage. The app’s role is to clarify what kind of evening lies ahead: who’s hosting, where it’s happening, how many will attend, and what’s expected. That clarity reduces hesitation for newcomers navigating the social terrain of a city where dinner is both ritual and rhythm.
 

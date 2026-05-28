@@ -4,7 +4,7 @@ canonicalPath: "/city/xianning/supper-club"
 alternatePath: "/en/city/xianning/supper-club"
 translationKey: "xianning-supper-club"
 lang: "zh"
-title: "咸宁的一顿晚餐俱乐部，饭局app为什么先看人再看热闹"
+title: "咸宁的一顿晚餐俱乐部，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "咸宁的一顿晚餐俱乐部，饭局app为什么先看人再看热闹"
 description: "咸宁的夜色降临，空气中弥漫着一股诱人的食物香味。饭局app上的邀请一一接收着，人群汇聚在一起，准备一顿丰盛的晚餐。然而，在这场聚会的背后，是否有真正的组织和安排呢？让我们一探究竟。"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 咸宁的一顿晚餐俱乐部，饭局app为什么先看人再看热闹
+# 咸宁的一顿晚餐俱乐部，饭局app为什么先看人再看热闹 | fanju-app
 
 咸宁的夜色降临，空气中弥漫着一股诱人的食物香味。饭局app上的邀请一一接收着，人群汇聚在一起，准备一顿丰盛的晚餐。然而，在这场聚会的背后，是否有真正的组织和安排呢？让我们一探究竟。
 

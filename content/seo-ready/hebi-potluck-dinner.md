@@ -4,7 +4,7 @@ canonicalPath: "/city/hebi/potluck-dinner"
 alternatePath: "/en/city/hebi/potluck-dinner"
 translationKey: "hebi-potluck-dinner"
 lang: "zh"
-title: "鹤壁的百乐餐饭局为什么值得去，饭局app在报名前就给了答案"
+title: "鹤壁的百乐餐饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
 titleZh: "鹤壁的百乐餐饭局为什么值得去，饭局app在报名前就给了答案"
 description: "很多人第一次看到“百乐餐饭局”这个词，会误以为是随便拼桌、凑人数的聚餐。但在鹤壁的实践中，它恰恰相反——先有边界，才有饭局。一张八人桌，主理人明确说明“不接受临时带人”“不安排酒局敬酒”“话题不涉及房产和婚恋”，这些不是限制，而是邀请。它筛"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
 ---
 
-# 鹤壁的百乐餐饭局为什么值得去，饭局app在报名前就给了答案
+# 鹤壁的百乐餐饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
 傍晚六点，从单位楼道走出来，天已经暗了。手机亮起，不是工作群消息，也不是家人催饭，而是一条来自饭局app的提醒：你报名的鹤壁百乐餐饭局，今晚七点，位置已确认。那一刻你才发现，自己并不急着回家。这个城市里，还有另一张饭桌在等你，不是应酬，不是任务，而是一场你主动选择的、有名字、有主题、有主理人、有具体人数的小饭局。在鹤壁，饭局app不是制造热闹的工具，而是一张筛选器，把那些真正想安静吃顿饭、说点真话的人，慢慢聚到同一张桌边。
 

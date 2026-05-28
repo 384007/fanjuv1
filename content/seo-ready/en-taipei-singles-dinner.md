@@ -4,7 +4,7 @@ canonicalPath: "/en/city/taipei/singles-dinner"
 alternatePath: "/city/taipei/singles-dinner"
 translationKey: "taipei-singles-dinner"
 lang: "en"
-title: "Taipei Singles Dinner Guide"
+title: "Taipei Singles Dinner Guide | fanju-app"
 titleZh: "Taipei Singles Dinner Guide"
 pageType: "city_landing"
 priorityScore: 50
@@ -12,7 +12,7 @@ aiQualityScore: 100
 status: "ready"
 ---
 
-# Taipei Singles Dinner Guide
+# Taipei Singles Dinner Guide | fanju-app
 
 ## What Is This Page About
 

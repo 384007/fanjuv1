@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lima/web-developer-dinner"
 alternatePath: "/city/lima/web-developer-dinner"
 translationKey: "lima-web-developer-dinner"
 lang: "en"
-title: "When Web Developer Dinner feels too loose in Lima, Fanju app starts with the table"
+title: "When Web Developer Dinner feels too loose in Lima, Fanju app starts with the table | fanju-app"
 description: "You’re standing near Larcomar, scrolling through your phone, wondering if tonight’s Web Developer Dinner in Lima is worth the metro ride. You’ve been to events where the conversation stalls, where people talk shop like i"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Web Developer Dinner feels too loose in Lima, Fanju app starts with the table
+# When Web Developer Dinner feels too loose in Lima, Fanju app starts with the table | fanju-app
 
 You’re standing near Larcomar, scrolling through your phone, wondering if tonight’s Web Developer Dinner in Lima is worth the metro ride. You’ve been to events where the conversation stalls, where people talk shop like it’s code karaoke, or worse—where you’re subtly sized up like a potential match. But what if it didn’t have to feel this way? The Fanju app doesn’t treat social dining as another networking grind or a disguised dating scene. Instead, it treats the table as the first real structure—something shaped before anyone arrives. In Lima, where informal gatherings often lean on familiarity or chance, that clarity changes everything.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/siping/early-riser-dinner"
 alternatePath: "/en/city/siping/early-riser-dinner"
 translationKey: "siping-early-riser-dinner"
 lang: "zh"
-title: "第一次在四平参加早起者饭局，饭局app怎样让陌生人坐得下来"
+title: "第一次在四平参加早起者饭局，饭局app怎样让陌生人坐得下来 | fanju-app"
 titleZh: "第一次在四平参加早起者饭局，饭局app怎样让陌生人坐得下来"
 description: "在四平，人与人之间的距离感很微妙。你可能在同一个小区住了五年，却只跟邻居打过一次招呼。线上聊天群倒是不少，但大多停留在节日祝福和拼单信息。真正能让人走出家门、坐下来面对面说话的机会，少得可怜。饭局app在这个背景下出现，不是为了取代群聊，而"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T111336Z"
 ---
 
-# 第一次在四平参加早起者饭局，饭局app怎样让陌生人坐得下来
+# 第一次在四平参加早起者饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 
 天刚亮，道东街的早餐铺子刚支起炉子，雾气在冷风里盘旋。你在手机上划过一条通知：“四平早起者饭局，7:00，铁西区小巷咖啡馆，4人桌，主题：晨间清醒时刻。”你犹豫了一下——和陌生人吃饭，尤其是早上，总觉得哪里不对劲。这不是普通的约饭，也不是同事聚餐，而是一场你得主动走进去的线下重逢。饭局app在这里的作用，不是帮你找饭吃，而是帮你确认：这一桌人，值不值得你早起。它不承诺熟络，但提供一条清晰的路径，让你在四平这座节奏缓慢却藏着温度的小城里，重新学会和陌生人共处一张桌子。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seattle/lunar-new-year-dinner"
 alternatePath: "/city/seattle/lunar-new-year-dinner"
 translationKey: "seattle-lunar-new-year-dinner"
 lang: "en"
-title: "What makes Lunar New Year Dinner in Seattle worth the risk; Fanju app answers before you arrive"
+title: "What makes Lunar New Year Dinner in Seattle worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "Seattle’s pace after 5 p.m. shifts quickly from transit congestion to quiet neighborhoods. If you’re commuting from South Lake Union or downtown, that pause between work and evening plans is when hesitation sets in."
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T181226Z"
 ---
 
-# What makes Lunar New Year Dinner in Seattle worth the risk; Fanju app answers before you arrive
+# What makes Lunar New Year Dinner in Seattle worth the risk; Fanju app answers before you arrive | fanju-app
 
 The Fanju app maps small, intentional dinners across Seattle, not just meals but moments where locals gather around shared tables with clear expectations. Lunar New Year Dinner here isn’t a festival parade or a packed banquet hall—it’s a quiet table in a Capitol Hill apartment or a family-run restaurant in the International District, where food becomes the starting point for conversation. For someone new to the city or unfamiliar with the traditions, the risk isn’t about safety but about mismatched expectations: showing up to a dinner labeled “Lunar New Year” only to find a vague social mixer with no cultural anchor. Fanju helps by detailing the host’s intent, the menu, and the guest mix upfront, so you know whether the evening will offer dumplings made from a grandmother’s recipe or just a loosely themed appetizer platter. This clarity turns uncertainty into choice.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/jiyuan/mindfulness-dinner"
 alternatePath: "/en/city/jiyuan/mindfulness-dinner"
 translationKey: "jiyuan-mindfulness-dinner"
 lang: "zh"
-title: "济源正念饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "济源正念饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "济源正念饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "在济源，饭局从不稀缺。街角的小馆子总有人围桌喝酒，单位楼下常有同事拼饭，朋友圈偶尔跳出“缺两人成局”的邀约。但真正让人愿意放下手机、认真坐下来的饭局，却越来越难遇到。我用饭局app组织正念饭局快两年了，最常被问的一句话是：“这不就是约饭吗？"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 济源正念饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 济源正念饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 在济源，饭局从不稀缺。街角的小馆子总有人围桌喝酒，单位楼下常有同事拼饭，朋友圈偶尔跳出“缺两人成局”的邀约。但真正让人愿意放下手机、认真坐下来的饭局，却越来越难遇到。我用饭局app组织正念饭局快两年了，最常被问的一句话是：“这不就是约饭吗？”其实不是。饭局app在济源的意义，不是多一个拼饭工具，而是让一桌人之间能建立起清晰的边界和真实的连接。我们不追求热闹，也不拼人数，只关心这一桌人能不能自然地说话，能不能在吃完最后一口菜时，还愿意多坐十分钟。
 

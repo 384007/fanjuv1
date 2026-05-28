@@ -4,7 +4,7 @@ canonicalPath: "/en/city/boston/sober-curious-dinner"
 alternatePath: "/city/boston/sober-curious-dinner"
 translationKey: "boston-sober-curious-dinner"
 lang: "en"
-title: "Boston after work: how Fanju app makes Sober Curious Dinner feel like a real room"
+title: "Boston after work: how Fanju app makes Sober Curious Dinner feel like a real room | fanju-app"
 description: "The moment you consider joining a group meal in Boston after stepping back from social routines, you’re not just deciding whether to go out—you’re weighing whether the effort will match the return. A Sober Curious"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
 ---
 
-# Boston after work: how Fanju app makes Sober Curious Dinner feel like a real room
+# Boston after work: how Fanju app makes Sober Curious Dinner feel like a real room | fanju-app
 
 Returning to social life in Boston after a long stretch of quiet weeks can feel less like excitement and more like calculation. You’re not looking for a crowded bar or a loud group tour. What you need is a table where the rhythm feels natural, where not drinking isn’t a disclaimer but part of the shared understanding. The Fanju app supports this return by focusing on small, intentional dinners—specifically Sober Curious Dinners—that prioritize clarity over hype. These aren’t events built for viral moments; they’re weekend meals where the table matters more than the venue, and where the host sets the tone before the first guest arrives. In Boston, where neighborhood dining culture runs deep but social trust is earned slowly, this kind of structure makes the difference between showing up and staying.
 

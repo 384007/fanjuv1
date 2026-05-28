@@ -4,7 +4,7 @@ canonicalPath: "/city/gannan/hardware-engineer-dinner"
 alternatePath: "/en/city/gannan/hardware-engineer-dinner"
 translationKey: "gannan-hardware-engineer-dinner"
 lang: "zh"
-title: "甘南不想只靠群聊时，饭局app怎样把硬件工程师饭局坐成一桌"
+title: "甘南不想只靠群聊时，饭局app怎样把硬件工程师饭局坐成一桌 | fanju-app"
 titleZh: "甘南不想只靠群聊时，饭局app怎样把硬件工程师饭局坐成一桌"
 description: "在甘南，硬件工程师们或许会感到，日常的线上交流虽便捷，却难以真正打破工作与生活的界限，也难以建立起深层次的连接。当群聊的通知声此起彼伏，却依然无法填补内心的那份疏离感时，一个更具温度和针对性的线下聚会方式显得尤为重要。饭局app的出现，正是"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 甘南不想只靠群聊时，饭局app怎样把硬件工程师饭局坐成一桌
+# 甘南不想只靠群聊时，饭局app怎样把硬件工程师饭局坐成一桌 | fanju-app
 
 在甘南，硬件工程师们或许会感到，日常的线上交流虽便捷，却难以真正打破工作与生活的界限，也难以建立起深层次的连接。当群聊的通知声此起彼伏，却依然无法填补内心的那份疏离感时，一个更具温度和针对性的线下聚会方式显得尤为重要。饭局app的出现，正是为了解决这种“近在咫尺，却又远在天涯”的社交断层，它将一群志同道合的甘南硬件工程师，从虚拟的屏幕背后，带回到一张真实的餐桌前，以一种低压力、高效率的方式，重塑社区的归属感。
 

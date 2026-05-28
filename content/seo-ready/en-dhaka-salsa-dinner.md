@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dhaka/salsa-dinner"
 alternatePath: "/city/dhaka/salsa-dinner"
 translationKey: "dhaka-salsa-dinner"
 lang: "en"
-title: "The Salsa Dinner table Dhaka actually needs is the one Fanju app describes up front"
+title: "The Salsa Dinner table Dhaka actually needs is the one Fanju app describes up front | fanju-app"
 description: "Dhaka doesn’t make first connections easy. The city moves fast, the streets pulse with urgency, and social circles often form around family or long-standing colleagues. For someone new—whether arriving for work, study, o"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# The Salsa Dinner table Dhaka actually needs is the one Fanju app describes up front
+# The Salsa Dinner table Dhaka actually needs is the one Fanju app describes up front | fanju-app
 
 Dhaka doesn’t make first connections easy. The city moves fast, the streets pulse with urgency, and social circles often form around family or long-standing colleagues. For someone new—whether arriving for work, study, or a fresh start—the idea of joining a dinner table where everyone knows each other can feel more intimidating than inviting. That’s why the Salsa Dinner experience in Dhaka, as laid out in the Fanju app, matters: it doesn’t pretend to be spontaneous. Instead, it offers clarity before the event—an honest description of who’s coming, what will be served, and what kind of space the host is creating. This transparency isn’t flashy, but for a newcomer, it’s the difference between showing up and staying home.
 

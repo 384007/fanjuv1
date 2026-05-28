@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tokyo/whisky-dinner"
 alternatePath: "/city/tokyo/whisky-dinner"
 translationKey: "tokyo-whisky-dinner"
 lang: "en"
-title: "Tokyo after work: how Fanju app makes Whisky Dinner feel like a real room"
+title: "Tokyo after work: how Fanju app makes Whisky Dinner feel like a real room | fanju-app"
 description: "After work in Tokyo, the city’s rhythm shifts—salarymen loosen their ties, neon signs flicker on, and tucked-away bars start filling with quiet conversations. I’ve hosted over fifty Whisky Dinners through the Fanju app,"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Tokyo after work: how Fanju app makes Whisky Dinner feel like a real room
+# Tokyo after work: how Fanju app makes Whisky Dinner feel like a real room | fanju-app
 
 After work in Tokyo, the city’s rhythm shifts—salarymen loosen their ties, neon signs flicker on, and tucked-away bars start filling with quiet conversations. I’ve hosted over fifty Whisky Dinners through the Fanju app, and what keeps me coming back isn’t the single malt or the small plates, but the way a group of strangers can, in two hours, feel like a room that’s been lived in. The app doesn’t replace human warmth—it gives it structure. In a city where surface politeness can mask distance, Fanju helps build the kind of table where people actually talk, not just sit. That shift from transaction to connection is subtle, but it’s everything.
 

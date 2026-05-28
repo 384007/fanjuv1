@@ -4,7 +4,7 @@ canonicalPath: "/en/city/buenos-aires/neighborhood-dinner"
 alternatePath: "/city/buenos-aires/neighborhood-dinner"
 translationKey: "buenos-aires-neighborhood-dinner"
 lang: "en"
-title: "For people trying Neighborhood Dinner in Buenos Aires, Fanju app puts the guest mix first"
+title: "For people trying Neighborhood Dinner in Buenos Aires, Fanju app puts the guest mix first | fanju-app"
 description: "In Buenos Aires, where evenings stretch into late conversation and the city’s rhythm hinges on personal connection, the Fanju app offers a quietly effective answer to a common loneliness: the post-work social gap. It’s n"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For people trying Neighborhood Dinner in Buenos Aires, Fanju app puts the guest mix first
+# For people trying Neighborhood Dinner in Buenos Aires, Fanju app puts the guest mix first | fanju-app
 
 In Buenos Aires, where evenings stretch into late conversation and the city’s rhythm hinges on personal connection, the Fanju app offers a quietly effective answer to a common loneliness: the post-work social gap. It’s not about large gatherings or curated experiences, but intimate neighborhood dinners—small tables where real talk replaces small talk. These gatherings are not marketed as events, but as invitations, hosted in homes or local spots across Palermo, Caballito, and beyond. Fanju’s role is subtle but central: it shapes who sits where, ensuring each table includes a balance of newcomers, locals, and familiar faces. This deliberate guest mix is what turns a meal into a potential thread in the city’s social fabric. For people new to Buenos Aires or returning after years abroad, these dinners serve as low-pressure entry points to community, rooted in the Argentine tradition of shared evening meals. The app doesn’t promise instant friendship, but it does promise structure—something many social apps overlook.
 

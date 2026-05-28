@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kinshasa/marketing-dinner"
 alternatePath: "/city/kinshasa/marketing-dinner"
 translationKey: "kinshasa-marketing-dinner"
 lang: "en"
-title: "In Kinshasa, Fanju app turns Marketing Dinner into a table people can actually trust"
+title: "In Kinshasa, Fanju app turns Marketing Dinner into a table people can actually trust | fanju-app"
 description: "Choosing where to go in Kinshasa after work shouldn’t mean weighing vague WhatsApp messages with no real details. Too often, an evening invite turns into a last-minute change of venue, a crowded bar where no one speaks"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T181226Z"
 ---
 
-# In Kinshasa, Fanju app turns Marketing Dinner into a table people can actually trust
+# In Kinshasa, Fanju app turns Marketing Dinner into a table people can actually trust | fanju-app
 
 In Kinshasa, the Fanju app offers something rare: small, intentional dinners where what’s promised is exactly what happens. Unlike group chats that fizzle or meetups that attract crowds with no real conversation, Fanju focuses on single tables with clear themes, hosts who introduce themselves upfront, and dinners that feel like extensions of real life, not performances. The Marketing Dinner isn’t a pitch session or a networking sprint—it’s a chance to sit with people who live here, talk about work without turning it into a business card exchange, and find out what someone really means when they say they love the energy of Gombe but live in Lingwala. You join not to be sold to, but to recognize a rhythm that feels familiar.
 

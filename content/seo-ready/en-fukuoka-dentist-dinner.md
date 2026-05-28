@@ -4,7 +4,7 @@ canonicalPath: "/en/city/fukuoka/dentist-dinner"
 alternatePath: "/city/fukuoka/dentist-dinner"
 translationKey: "fukuoka-dentist-dinner"
 lang: "en"
-title: "For people trying Dentist Dinner in Fukuoka, Fanju app puts the guest mix first"
+title: "For people trying Dentist Dinner in Fukuoka, Fanju app puts the guest mix first | fanju-app"
 description: "When you arrive at a Dentist Dinner in Fukuoka, you can feel the atmosphere. If the table is too big or too small, or if the guests are not the right mix, it can be a disaster. A good Dentist Dinner needs a balance of"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Dentist Dinner in Fukuoka, Fanju app puts the guest mix first
+# For people trying Dentist Dinner in Fukuoka, Fanju app puts the guest mix first | fanju-app
 
 Fukuoka's evenings can be quiet, especially after a long day at work. That's why social dining apps like Fanju can be a great way to break the monotony of going home alone every night. Fanju app is designed for small, clearly described meals and real-world connections in Fukuoka, and it's perfect for those looking to expand their social circle in a low-effort way.
 

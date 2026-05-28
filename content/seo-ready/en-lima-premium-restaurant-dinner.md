@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lima/premium-restaurant-dinner"
 alternatePath: "/city/lima/premium-restaurant-dinner"
 translationKey: "lima-premium-restaurant-dinner"
 lang: "en"
-title: "Premium Restaurant Dinner in Lima should not feel like a gamble; Fanju app changes the odds"
+title: "Premium Restaurant Dinner in Lima should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "Dining out in Lima after work should not be a leap of faith. Too often, premium restaurant meetups promise connection but deliver awkward silences or mismatched expectations. The Fanju app shifts that balance by anchorin"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Premium Restaurant Dinner in Lima should not feel like a gamble; Fanju app changes the odds
+# Premium Restaurant Dinner in Lima should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 Dining out in Lima after work should not be a leap of faith. Too often, premium restaurant meetups promise connection but deliver awkward silences or mismatched expectations. The Fanju app shifts that balance by anchoring social dinners in real city rhythms—neighborhoods like Miraflores, Barranco, and San Isidro—not just curated menus. It’s not about filling seats; it’s about matching people who move through the city in similar ways: those leaving offices at the same hour, navigating the same transit pinch points, or lingering at the same kind of bar before heading home. With Fanju, a dinner isn’t a generic event. It’s a deliberate pause in the city’s flow, hosted by someone who knows how a Thursday evening feels in Lima and designed for guests who do too.
 

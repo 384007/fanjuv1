@@ -4,7 +4,7 @@ canonicalPath: "/city/hotan/landscape-architect-dinner"
 alternatePath: "/en/city/hotan/landscape-architect-dinner"
 translationKey: "hotan-landscape-architect-dinner"
 lang: "zh"
-title: "和田景观设计师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "和田景观设计师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "和田景观设计师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "在和田，一桌饭能不能真正开始，往往不取决于谁先点菜，而取决于饭点选在哪里。 不是所有餐馆都适合开启一次低压力的对话。 有些饭馆太嘈杂，说话要靠喊；有些又太安静，沉默显得突兀。 景观设计师日常工作的敏感度，让他们对空间氛围格外在意。"
 primaryKeyword: "和田景观设计师饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T210005Z"
 ---
 
-# 和田景观设计师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 和田景观设计师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
 下班后不想独自回家的空档，是和田一天里最安静也最容易被忽略的时刻。街灯渐亮，河岸步道上三三两两散步的人影拉长，而你站在单位门口，不确定要不要走进那家熟悉的面馆——一个人吃，总像在完成任务。和田景观设计师饭局不是为了解决吃饭问题，而是为了回应这种空档里的轻微失落。饭局app在这里的作用，不是制造热闹，而是让人在报名前就知道：这一桌人为什么聚在一起，聊什么，甚至沉默时会不会尴尬。它把模糊的“一起吃个饭”变成一次有预期的小型城市连接，尤其对那些平日观察街道植被、公共空间动线、社区边界的人而言，饭桌成了另一种尺度的景观实验——只是这次，材料是人。
 

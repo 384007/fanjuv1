@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangkok/valentines-dinner"
 alternatePath: "/city/bangkok/valentines-dinner"
 translationKey: "bangkok-valentines-dinner"
 lang: "en"
-title: "What makes Valentines Dinner in Bangkok worth the risk; Fanju app answers before you arrive"
+title: "What makes Valentines Dinner in Bangkok worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "Often, the decision to try something new in Bangkok hinges on that moment of hesitation. You might receive an invitation that sounds intriguing, perhaps a \"Valentines Dinner\" event. But the vagueness can be a barrier."
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T180008Z"
 ---
 
-# What makes Valentines Dinner in Bangkok worth the risk; Fanju app answers before you arrive
+# What makes Valentines Dinner in Bangkok worth the risk; Fanju app answers before you arrive | fanju-app
 
 Considering a unique evening out in Bangkok, especially when the usual after-work routine feels a bit too quiet? The Fanju app offers a different kind of social dining experience, focusing on small, intentional meals designed for genuine connection. Rather than a vague plan, Fanju dinners clearly state their purpose, making it easier to decide if a particular gathering aligns with what you're looking for. This approach helps cut through the noise of typical social invitations, providing a more direct path to finding a welcoming table in the city, whether you're new to Bangkok or simply seeking something beyond the ordinary.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/kunming/mentorship-dinner"
 alternatePath: "/en/city/kunming/mentorship-dinner"
 translationKey: "kunming-mentorship-dinner"
 lang: "zh"
-title: "昆明的导师饭局不该靠运气，饭局app把主理人和同桌放在最前面"
+title: "昆明的导师饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app"
 titleZh: "昆明的导师饭局不该靠运气，饭局app把主理人和同桌放在最前面"
 description: "昆明的傍晚总有些特别的松动感，地铁里人不多不少，咖啡馆灯光渐亮，工作消息还没彻底退场，但身体已经知道该换一种节奏了。"
 primaryKeyword: "昆明导师饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T010006Z"
 ---
 
-# 昆明的导师饭局不该靠运气，饭局app把主理人和同桌放在最前面
+# 昆明的导师饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 
 你有没有试过一个人走进昆明的餐厅，低头看手机确认地址，其实心里更在意的是：待会儿这桌人，我能不能接上话？饭局app上的昆明导师饭局不是为了热闹而拼桌，而是为了让这种前十分钟的悬空感变得轻一点。它不承诺饭后立刻交到朋友，也不保证导师一定给你职业建议，但它做了一件更实在的事：在你报名前，就把主理人是谁、同桌人背景怎么筛选、这顿饭想聊什么，清清楚楚地摆出来。在昆明，一场值得参加的导师饭局，从不是靠凑人数完成的，而是从你点开报名页那一刻，就开始建立信任。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ho-chi-minh-city/insurance-dinner"
 alternatePath: "/city/ho-chi-minh-city/insurance-dinner"
 translationKey: "ho-chi-minh-city-insurance-dinner"
 lang: "en"
-title: "The Insurance Dinner table Ho Chi Minh City actually needs is the one Fanju app describes up front"
+title: "The Insurance Dinner table Ho Chi Minh City actually needs is the one Fanju app describes up front | fanju-app"
 description: "In Ho Chi Minh City, where business introductions often happen over loud coffee shop chatter or last-minute WhatsApp messages, the idea of a focused, intentional dinner for insurance professionals feels overdue. The Fanj"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# The Insurance Dinner table Ho Chi Minh City actually needs is the one Fanju app describes up front
+# The Insurance Dinner table Ho Chi Minh City actually needs is the one Fanju app describes up front | fanju-app
 
 In Ho Chi Minh City, where business introductions often happen over loud coffee shop chatter or last-minute WhatsApp messages, the idea of a focused, intentional dinner for insurance professionals feels overdue. The Fanju app doesn’t host events—it surfaces tables. One of those is the Insurance Dinner, a recurring gathering not for mass networking, but for a small group of founders, underwriters, brokers, and tech operators to talk through real challenges without performance pressure. It’s not a seminar, not a pitch night, and not another rooftop mixer with name tags. It’s a table in District 3 or Binh Thanh where people show up because they’ve read the host’s note and decided, quietly, that they belong.
 

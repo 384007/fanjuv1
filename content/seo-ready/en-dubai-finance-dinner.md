@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dubai/finance-dinner"
 alternatePath: "/city/dubai/finance-dinner"
 translationKey: "dubai-finance-dinner"
 lang: "en"
-title: "Dubai has plenty of Finance Dinner options; Fanju app is the one that names the table first"
+title: "Dubai has plenty of Finance Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "The success of a Finance Dinner in Dubai often hinges on that initial choice – the decision to join a specific table, in a particular neighbourhood, with a stated purpose. It’s a moment that requires a clear"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260528T070525Z"
 ---
 
-# Dubai has plenty of Finance Dinner options; Fanju app is the one that names the table first
+# Dubai has plenty of Finance Dinner options; Fanju app is the one that names the table first | fanju-app
 
 In Dubai, finding a genuine connection over a shared meal can sometimes feel like navigating a maze of grand gestures and fleeting encounters. The Fanju app offers a refreshing alternative: small, focused Finance Dinners where the intent is clear from the moment you see the invitation. This isn't about a vague "get-together"; it's about intentional gatherings designed for meaningful conversation and connection, especially valuable when planning your weekend. Fanju app allows hosts to articulate the purpose of their dinner, setting expectations for attendees, which is crucial for ensuring everyone feels comfortable and engaged from the start. It’s a practical approach for building real-world relationships within Dubai's dynamic social landscape.
 

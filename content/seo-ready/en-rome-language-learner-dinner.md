@@ -4,7 +4,7 @@ canonicalPath: "/en/city/rome/language-learner-dinner"
 alternatePath: "/city/rome/language-learner-dinner"
 translationKey: "rome-language-learner-dinner"
 lang: "en"
-title: "For Rome readers considering Language Learner Dinner, Fanju app should make the room legible"
+title: "For Rome readers considering Language Learner Dinner, Fanju app should make the room legible | fanju-app"
 description: "Rome’s Language Learner Dinner through the Fanju app isn’t a dating guarantee, not a random group chat, not an endless profile feed."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For Rome readers considering Language Learner Dinner, Fanju app should make the room legible
+# For Rome readers considering Language Learner Dinner, Fanju app should make the room legible | fanju-app
 
 Rome’s Language Learner Dinner through the Fanju app isn’t a dating guarantee, not a random group chat, not an endless profile feed. It’s a small-table dinner where the evening has a theme—tonight, it’s “Ordering Coffee in Italian Without Nodding First”—and everyone arrives knowing they’ll speak only Italian after the first course. Fanju, also known in Chinese as “饭局 / 饭局app / Fanju饭局”, operates quietly in Rome’s residential corners, connecting people through meals that are social but not performative. You won’t scroll through endless bios; instead, you read a host’s note about why they started these dinners, what language level they expect, and whether the table welcomes mistakes or prefers fluency. The app surfaces just enough: arrival time, address, what to bring, and a short guest list. This isn’t about networking or being seen—it’s about showing up, speaking with hesitation, and staying for the second espresso.
 

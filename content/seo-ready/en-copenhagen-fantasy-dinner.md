@@ -4,7 +4,7 @@ canonicalPath: "/en/city/copenhagen/fantasy-dinner"
 alternatePath: "/city/copenhagen/fantasy-dinner"
 translationKey: "copenhagen-fantasy-dinner"
 lang: "en"
-title: "Copenhagen does not need another vague invite; Fanju app makes Fantasy Dinner specific"
+title: "Copenhagen does not need another vague invite; Fanju app makes Fantasy Dinner specific | fanju-app"
 description: "In Copenhagen, where evenings often blur into quiet routines of hygge and solitude, the Fanju app quietly redefines how people gather. It doesn’t promise a revolution—just a table, a time, and a real conversation. Fantas"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Copenhagen does not need another vague invite; Fanju app makes Fantasy Dinner specific
+# Copenhagen does not need another vague invite; Fanju app makes Fantasy Dinner specific | fanju-app
 
 In Copenhagen, where evenings often blur into quiet routines of hygge and solitude, the Fanju app quietly redefines how people gather. It doesn’t promise a revolution—just a table, a time, and a real conversation. Fantasy Dinner, as hosted through Fanju, isn’t about performance or networking. It’s for those who’ve scrolled past another group chat invitation, wondering why it’s harder to connect in a city full of cyclists and coffee shops. The app brings specificity: not “maybe hang out soon,” but Tuesday at 7:00 PM, at a tucked-away courtyard kitchen in Nørrebro, with six others who also said yes to showing up. This is how connection begins again—not with grand gestures, but with a confirmed seat.
 

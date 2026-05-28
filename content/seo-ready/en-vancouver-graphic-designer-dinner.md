@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vancouver/graphic-designer-dinner"
 alternatePath: "/city/vancouver/graphic-designer-dinner"
 translationKey: "vancouver-graphic-designer-dinner"
 lang: "en"
-title: "When Graphic Designer Dinner feels too loose in Vancouver, Fanju app starts with the table"
+title: "When Graphic Designer Dinner feels too loose in Vancouver, Fanju app starts with the table | fanju-app"
 description: "There’s a moment after work in Vancouver when the light slants low over False Creek, and the studio screens go dark. That’s when the idea of gathering feels possible—but also fragile. I’ve hosted enough Graphic Designer"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Graphic Designer Dinner feels too loose in Vancouver, Fanju app starts with the table
+# When Graphic Designer Dinner feels too loose in Vancouver, Fanju app starts with the table | fanju-app
 
 There’s a moment after work in Vancouver when the light slants low over False Creek, and the studio screens go dark. That’s when the idea of gathering feels possible—but also fragile. I’ve hosted enough Graphic Designer Dinner tables through the Fanju app to know that without intention, these evenings dissolve into polite small talk or, worse, awkward silences between people who share a profession but not a conversation. What holds them together isn’t just food or location—it’s the quiet architecture of the table itself. The Fanju app doesn’t promise connection, but it does offer structure: a way to move from isolated evenings to shared ones, carefully.
 

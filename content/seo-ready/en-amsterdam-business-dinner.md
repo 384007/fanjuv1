@@ -4,7 +4,7 @@ canonicalPath: "/en/city/amsterdam/business-dinner"
 alternatePath: "/city/amsterdam/business-dinner"
 translationKey: "amsterdam-business-dinner"
 lang: "en"
-title: "Before the first message in Amsterdam, Fanju app makes Business Dinner feel like a real decision"
+title: "Before the first message in Amsterdam, Fanju app makes Business Dinner feel like a real decision | fanju-app"
 description: "Receiving a generic group invite in Amsterdam often feels like being swept into a current — you nod along, but no real decision was made. With Fanju, the first message isn’t a mass blast; it’s a deliberate reach, based"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Before the first message in Amsterdam, Fanju app makes Business Dinner feel like a real decision
+# Before the first message in Amsterdam, Fanju app makes Business Dinner feel like a real decision | fanju-app
 
 In Amsterdam, the Fanju app offers small, thoughtfully arranged dinners where professional curiosity meets real conversation — not networking theatrics. For someone considering their first Business Dinner, it’s not about scaling a social ladder but choosing whether to step into an evening that might actually feel worth the time. The app doesn’t promise instant connections or guaranteed outcomes. Instead, it presents a quiet alternative to group chats and vague after-work drinks: a specific table, a clear theme, and a host who’s committed to the rhythm of the night. You’re not joining a crowd; you’re joining four or five others who also decided that going straight home after work wouldn’t quite land right. In a city where work-life balance is taken seriously, but personal networks often stay transactional, Fanju carves out space for something in between.
 

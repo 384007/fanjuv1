@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seoul/dinner-buddy"
 alternatePath: "/city/seoul/dinner-buddy"
 translationKey: "seoul-dinner-buddy"
 lang: "en"
-title: "Seoul does not need another vague invite; Fanju app makes Dinner Buddy specific"
+title: "Seoul does not need another vague invite; Fanju app makes Dinner Buddy specific | fanju-app"
 description: "It’s Friday evening in Seoul, and the city hums with the usual rhythm—groups spilling out of Gangnam subway exits, couples lining up at dessert cafes, coworkers laughing over soju in basement restaurants. But for others,"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Seoul does not need another vague invite; Fanju app makes Dinner Buddy specific
+# Seoul does not need another vague invite; Fanju app makes Dinner Buddy specific | fanju-app
 
 It’s Friday evening in Seoul, and the city hums with the usual rhythm—groups spilling out of Gangnam subway exits, couples lining up at dessert cafes, coworkers laughing over soju in basement restaurants. But for others, the weekend begins with a quieter question: who to eat with? The group chats are full of half-invites: “Maybe we’ll see you later?” or “Let’s go out soon?” That uncertainty is exhausting, especially when you just want to share a meal. In this city of 10 million, Fanju app turns vague plans into real tables. Dinner Buddy on Fanju isn’t about romance or networking. It’s about showing up to a named table with a seat saved, knowing the host, the time, and the place. No guessing. No pressure. Just dinner.
 

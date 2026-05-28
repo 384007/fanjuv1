@@ -4,7 +4,7 @@ canonicalPath: "/en/city/sydney/local-community-dinner"
 alternatePath: "/city/sydney/local-community-dinner"
 translationKey: "sydney-local-community-dinner"
 lang: "en"
-title: "Sydney does not need another vague invite; Fanju app makes Local Community Dinner specific"
+title: "Sydney does not need another vague invite; Fanju app makes Local Community Dinner specific | fanju-app"
 description: "Sydney residents know the rhythm: a casual mention at a café, a loose “we should catch up,” or a group chat that fizzles. What seems like connection often dissolves into ambiguity. The Fanju app changes that by anchoring"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Sydney does not need another vague invite; Fanju app makes Local Community Dinner specific
+# Sydney does not need another vague invite; Fanju app makes Local Community Dinner specific | fanju-app
 
 Sydney residents know the rhythm: a casual mention at a café, a loose “we should catch up,” or a group chat that fizzles. What seems like connection often dissolves into ambiguity. The Fanju app changes that by anchoring social intent in specificity—especially around its Local Community Dinner feature. It doesn’t promise romance, spontaneity, or networking. Instead, it offers something rarer: a clear, date-free space where people share a meal without hidden scripts. In a city where social fatigue runs high, that clarity is a form of respect.
 

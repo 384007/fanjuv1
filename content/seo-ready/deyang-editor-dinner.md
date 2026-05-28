@@ -4,7 +4,7 @@ canonicalPath: "/city/deyang/editor-dinner"
 alternatePath: "/en/city/deyang/editor-dinner"
 translationKey: "deyang-editor-dinner"
 lang: "zh"
-title: "德阳的一顿编辑饭局，饭局app为什么先看人再看热闹"
+title: "德阳的一顿编辑饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "德阳的一顿编辑饭局，饭局app为什么先看人再看热闹"
 description: "德阳的编辑饭局，首先要做的就是把“同桌”的期望值对齐。 这意味着，在报名之前，大家就应该对这桌饭局的主题、氛围以及可能认识到什么样的人，有一个大致的了解。 这避免了到了现场才发现“画风不对”的尴尬。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 德阳的一顿编辑饭局，饭局app为什么先看人再看热闹
+# 德阳的一顿编辑饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 在德阳，想要认识新朋友，不再是漫无目的的街头偶遇或泛泛的线上群聊。饭局app提供了一种更聚焦、更轻松的线下社交方式，它并非万能的社交催化剂，但通过精心组织的小桌饭局，能把一群有共同期待的人聚在一起。想象一下，在德阳某个熟悉的街角，不是为了凑人数而拼凑一桌，而是因为一个清晰的主题和明确的同桌期望，让大家带着几分好奇与信任，坐到一张小桌旁。这种“编辑饭局”的模式，强调的是“先看人，再看热闹”，把认识新朋友的压力，化解在饭局开始前的细节里。
 

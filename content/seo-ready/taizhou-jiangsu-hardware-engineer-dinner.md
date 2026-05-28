@@ -4,7 +4,7 @@ canonicalPath: "/city/taizhou-jiangsu/hardware-engineer-dinner"
 alternatePath: "/en/city/taizhou-jiangsu/hardware-engineer-dinner"
 translationKey: "taizhou-jiangsu-hardware-engineer-dinner"
 lang: "zh"
-title: "泰州硬件工程师饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "泰州硬件工程师饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "泰州硬件工程师饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "泰州不像一线城市那样有密集的行业社群，硬件相关岗位分散在智能装备、医疗器械和新能源企业里。很多人白天埋头画图、测电路、跑产线，交流局限在工位和邮件之间。夜里八点，饭局app上这场六人小饭开始落座。没有人刻意寒暄，但有人主动说起最近在做电机控"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
 ---
 
-# 泰州硬件工程师饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 泰州硬件工程师饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 晚上七点，泰州的路灯刚刚亮起，海陵区的写字楼陆续熄灯。张工站在公司楼下，包还背在肩上，手机屏幕亮着。他没急着打车回家，而是点开饭局app，划到今晚在稻河古街附近的一场硬件工程师饭局。报名人数是六人，主理人备注了“不聊加班，不拼酒，希望有人能说说最近调试电路时遇到的信号干扰问题”。他盯着这行字看了十秒，犹豫着要不要退出。这个动作他重复过好几次——在泰州，像他这样下班后不想立刻回家的人不少，但真正愿意坐进一桌陌生饭局的，不多。饭局app不是万能的社交解药，但它把一场饭的边界划得清楚：主题明确、人数可控、主理人有话直说。这反而让犹豫的人，多了一点点点击“报名”的力气。
 

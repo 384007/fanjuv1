@@ -4,7 +4,7 @@ canonicalPath: "/city/danzhou/hardware-engineer-dinner"
 alternatePath: "/en/city/danzhou/hardware-engineer-dinner"
 translationKey: "danzhou-hardware-engineer-dinner"
 lang: "zh"
-title: "儋州硬件工程师饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "儋州硬件工程师饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "儋州硬件工程师饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "在儋州，一场硬件工程师饭局的成色，往往从饭局app上第一条报名信息就开始定调。我不是在组织饭局时才开始考虑谁该坐在哪一桌，而是在发布前就通过报名字段的设计，悄悄筛掉那些只是“路过看看”的人。儋州的硬件圈子不大，但也不小，有做嵌入式系统调试的"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 儋州硬件工程师饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 儋州硬件工程师饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 在儋州，一场硬件工程师饭局的成色，往往从饭局app上第一条报名信息就开始定调。我不是在组织饭局时才开始考虑谁该坐在哪一桌，而是在发布前就通过报名字段的设计，悄悄筛掉那些只是“路过看看”的人。儋州的硬件圈子不大，但也不小，有做嵌入式系统调试的，有长期蹲守电路板测试的，还有在本地产业园带团队做传感器集成的。我们吃饭不是为了热闹，而是为了在饭桌上能把工作里说不清的问题，用三句话讲明白。饭局app在这里的作用，不是发个通知拉群，而是帮主理人把“同桌预期”提前立住。
 

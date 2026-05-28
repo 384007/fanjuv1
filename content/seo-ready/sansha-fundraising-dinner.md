@@ -4,7 +4,7 @@ canonicalPath: "/city/sansha/fundraising-dinner"
 alternatePath: "/en/city/sansha/fundraising-dinner"
 translationKey: "sansha-fundraising-dinner"
 lang: "zh"
-title: "第一次在三沙参加融资饭局，饭局app怎样让陌生人坐得下来"
+title: "第一次在三沙参加融资饭局，饭局app怎样让陌生人坐得下来 | fanju-app"
 titleZh: "第一次在三沙参加融资饭局，饭局app怎样让陌生人坐得下来"
 description: "三沙的融资饭局听起来不少，但真正能让人安心报名的，往往只有少数几桌。这里的“多”不是数量上的密集，而是信息上的杂乱——谁发起？为什么聚？聊到什么程度？这些关键点常常被模糊处理。在饭局app上，有些饭局标题写着“创业者交流”，却没说明行业或阶"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
 ---
 
-# 第一次在三沙参加融资饭局，饭局app怎样让陌生人坐得下来
+# 第一次在三沙参加融资饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 
 下班后不想直接回家的晚上，三沙的海风从永兴岛的街角穿过，带着一点咸湿的气息。你站在港口边犹豫，是回宿舍刷消息，还是走进一场可能认识新朋友的饭局？在三沙，这样的选择并不轻松——信息少、圈子小，而“融资饭局”四个字又自带压力。但饭局app的存在，正是为了把这种模糊的社交焦虑，变成一次可预期、有节奏的晚饭。它不承诺人脉暴涨，也不渲染“一餐定乾坤”，而是用小桌、固定人数、明确主题，让陌生人之间的对话能从一句“你也做海洋生态项目？”自然开始。在三沙，一场值得参加的融资饭局，首先要让人愿意坐下，尤其是对女性参与者而言，安全感不是附加项，而是入场门槛。
 

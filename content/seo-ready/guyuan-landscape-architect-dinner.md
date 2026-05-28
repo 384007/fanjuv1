@@ -4,7 +4,7 @@ canonicalPath: "/city/guyuan/landscape-architect-dinner"
 alternatePath: "/en/city/guyuan/landscape-architect-dinner"
 translationKey: "guyuan-landscape-architect-dinner"
 lang: "zh"
-title: "固原景观设计师饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "固原景观设计师饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "固原景观设计师饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "很多人犹豫要不要参加一场陌生人饭局，不是因为不想出门，而是怕“坐错桌”。 在固原，一场景观设计师饭局如果开场前三句话还在解释“我们到底为什么要坐在一起”，那接下来的时间大概率会被消耗在试探和沉默里。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 固原景观设计师饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 固原景观设计师饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 固原的傍晚，街道安静得能听见风从六盘山口吹来的回响。一个人走在解放街边，手机里弹出一条提醒：今晚的景观设计师饭局，还有十分钟开场。这不是普通的聚餐邀约，而是通过饭局app匹配的一次线下小桌饭——主题明确、人数控制在六人以内、每位参与者的职业背景都与城市景观设计相关。在固原，这样的饭局正在成为一些人重新连接现实生活的入口。它不承诺热闹，也不渲染人脉，而是试图在一个人走进餐厅却还没见到熟人的前十分钟里，给出一点确定性：谁会来，聊什么，以及，我可以随时离开。
 

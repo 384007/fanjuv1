@@ -4,7 +4,7 @@ canonicalPath: "/en/city/karachi/returnee-dinner"
 alternatePath: "/city/karachi/returnee-dinner"
 translationKey: "karachi-returnee-dinner"
 lang: "en"
-title: "The Returnee Dinner table Karachi actually needs is the one Fanju app describes up front"
+title: "The Returnee Dinner table Karachi actually needs is the one Fanju app describes up front | fanju-app"
 description: "In Karachi, where social circles often form through family or long-standing work ties, being invited to a vague gathering can create more anxiety than excitement."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# The Returnee Dinner table Karachi actually needs is the one Fanju app describes up front
+# The Returnee Dinner table Karachi actually needs is the one Fanju app describes up front | fanju-app
 
 When work ends and the city’s pace slows, many returnees in Karachi find themselves with free evenings but no clear way to reconnect—especially after years of digital-only interactions. The Fanju app offers a quiet alternative: small, intentionally hosted dinners called Returnee Dinner, where the setting, guest count, and purpose are spelled out before anyone RSVPs. Unlike group chats or last-minute meetups, these dinners in Karachi are built on clarity—what’s expected, who tends to come, and how conversations begin. This isn’t about networking or filling seats. It’s about creating a rhythm where returnees can ease back into face-to-face life without performance pressure. The value isn’t in the food alone, but in knowing the table was designed for people like you.
 

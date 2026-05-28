@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vancouver/singles-dinner"
 alternatePath: "/city/vancouver/singles-dinner"
 translationKey: "vancouver-singles-dinner"
 lang: "en"
-title: "Vancouver Singles Dinner Guide"
+title: "Vancouver Singles Dinner Guide | fanju-app"
 titleZh: "Vancouver Singles Dinner Guide"
 pageType: "city_landing"
 priorityScore: 50
@@ -12,7 +12,7 @@ aiQualityScore: 100
 status: "ready"
 ---
 
-# Vancouver Singles Dinner Guide
+# Vancouver Singles Dinner Guide | fanju-app
 
 ## What Is This Page About
 

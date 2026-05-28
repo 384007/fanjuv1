@@ -4,7 +4,7 @@ canonicalPath: "/city/suzhou-anhui/swimming-dinner"
 alternatePath: "/en/city/suzhou-anhui/swimming-dinner"
 translationKey: "suzhou-anhui-swimming-dinner"
 lang: "zh"
-title: "在宿州把游泳饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在宿州把游泳饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在宿州把游泳饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "周五傍晚，宿州的天光还亮着，运河边的树影斜铺在人行道上。你刚从单位出来，泳池的氯味还留在发梢，手机震动了一下——饭局app推送了一条新信息：一场游泳后的饭局正在招募，地点在符离集附近的老街巷口，六点半开始。没有“速来抢位”的喧嚣，只有一句“"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在宿州把游泳饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在宿州把游泳饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 周五傍晚，宿州的天光还亮着，运河边的树影斜铺在人行道上。你刚从单位出来，泳池的氯味还留在发梢，手机震动了一下——饭局app推送了一条新信息：一场游泳后的饭局正在招募，地点在符离集附近的老街巷口，六点半开始。没有“速来抢位”的喧嚣，只有一句“游完泳的人，更适合坐同一桌”。在宿州，饭局app不是为了凑热闹，而是为了把那些真正愿意交换生活片段的人，落在一张具体的饭桌上。这里不靠打卡拍照定义社交，而是靠一顿饭的时间，确认彼此是不是能说点真话的人。
 

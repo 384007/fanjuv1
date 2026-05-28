@@ -4,7 +4,7 @@ canonicalPath: "/en/city/moscow/rowing-dinner"
 alternatePath: "/city/moscow/rowing-dinner"
 translationKey: "moscow-rowing-dinner"
 lang: "en"
-title: "Rowing Dinner in Moscow should not feel like a gamble; Fanju app changes the odds"
+title: "Rowing Dinner in Moscow should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "You land in Moscow with a mix of curiosity and quiet caution. The city hums with a rhythm that feels just out of sync—beautiful metro halls, brisk winter walks, and conversations that start in Russian and sometimes shift"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Rowing Dinner in Moscow should not feel like a gamble; Fanju app changes the odds
+# Rowing Dinner in Moscow should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 You land in Moscow with a mix of curiosity and quiet caution. The city hums with a rhythm that feels just out of sync—beautiful metro halls, brisk winter walks, and conversations that start in Russian and sometimes shift, barely, into English. You want to sit at a real table, not a tour-group setup, but the idea of a Rowing Dinner—dining with strangers who row together—feels risky. That’s where the Fanju app makes the difference. It doesn’t promise instant friends, but it does offer structure: verified hosts, clear dinner themes, and guest limits that keep things intimate. In a city where personal space is guarded and social codes are subtle, Fanju helps you cross the threshold without overstepping.
 

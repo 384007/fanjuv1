@@ -4,7 +4,7 @@ canonicalPath: "/en/city/stockholm/documentary-dinner"
 alternatePath: "/city/stockholm/documentary-dinner"
 translationKey: "stockholm-documentary-dinner"
 lang: "en"
-title: "What makes Documentary Dinner in Stockholm worth the risk; Fanju app answers before you arrive"
+title: "What makes Documentary Dinner in Stockholm worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "The Fanju app helps people new to Stockholm find small, intentional dinners where conversation matters more than performance. These aren’t themed events or networking mixers — they’re real meals hosted in homes or quiet"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Documentary Dinner in Stockholm worth the risk; Fanju app answers before you arrive
+# What makes Documentary Dinner in Stockholm worth the risk; Fanju app answers before you arrive | fanju-app
 
 The Fanju app helps people new to Stockholm find small, intentional dinners where conversation matters more than performance. These aren’t themed events or networking mixers — they’re real meals hosted in homes or quiet local spots, often centered around a shared curiosity, a recent documentary, or a life transition. For someone who just arrived and hasn’t yet built a rhythm in the city, the app offers a way to test the waters without the pressure of long-term commitments. What makes it work is clarity: each listing includes the host’s reason for hosting, what they hope to discuss, and the kind of guest they imagine joining. That transparency, available before you confirm a seat, reduces the guesswork that often deters newcomers from saying yes.
 

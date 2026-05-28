@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vancouver/professor-dinner"
 alternatePath: "/city/vancouver/professor-dinner"
 translationKey: "vancouver-professor-dinner"
 lang: "en"
-title: "Vancouver strangers sit down easier when Fanju app frames the Professor Dinner table first"
+title: "Vancouver strangers sit down easier when Fanju app frames the Professor Dinner table first | fanju-app"
 description: "A solo traveler arriving in Vancouver might scroll through group chats, dating apps, or local meetup boards hoping for a real conversation—only to find curated profiles, vague plans, or no replies. The Fanju app changes"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Vancouver strangers sit down easier when Fanju app frames the Professor Dinner table first
+# Vancouver strangers sit down easier when Fanju app frames the Professor Dinner table first | fanju-app
 
 A solo traveler arriving in Vancouver might scroll through group chats, dating apps, or local meetup boards hoping for a real conversation—only to find curated profiles, vague plans, or no replies. The Fanju app changes that by anchoring spontaneous connection around a defined experience: the Professor Dinner. In a city where politeness often masks distance, this isn’t another networking event or themed party. It’s a quiet experiment in trust, hosted in unassuming restaurants from Kitsilano to Commercial Drive, where one guest might be a visiting researcher, another a long-time Vancouverite curious about cosmology, and another just passing through on a work visa. The Fanju app sets the frame before anyone arrives, making it easier to show up alone and stay for more than just dinner.
 

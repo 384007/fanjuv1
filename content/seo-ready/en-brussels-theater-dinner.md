@@ -4,7 +4,7 @@ canonicalPath: "/en/city/brussels/theater-dinner"
 alternatePath: "/city/brussels/theater-dinner"
 translationKey: "brussels-theater-dinner"
 lang: "en"
-title: "How Fanju app turns a Brussels Theater Dinner night into something worth showing up for"
+title: "How Fanju app turns a Brussels Theater Dinner night into something worth showing up for | fanju-app"
 description: "In Brussels, a Theater Dinner event promises a blend of culture and cuisine, but the success often hinges on the group dynamics. Without a clear sense of who you'll be sharing the table with, the experience can feel"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
 ---
 
-# How Fanju app turns a Brussels Theater Dinner night into something worth showing up for
+# How Fanju app turns a Brussels Theater Dinner night into something worth showing up for | fanju-app
 
 When you're in Brussels by yourself, the thought of an evening meal can bring up a few hesitations. Will it be awkward trying to join a group? Is the venue too loud for real conversation? Fanju app aims to smooth over these uncertainties by focusing on the table itself. It's a way to find small, curated dining experiences where the company and the conversation are the main events, rather than just the location. This approach is particularly useful for Theater Dinner events, turning a potentially isolating solo arrival into a more connected experience. The app helps clarify who will be at the table and what the evening's flow might be, making that first step out the door a little easier.
 

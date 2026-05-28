@@ -4,7 +4,7 @@ canonicalPath: "/city/deyang/tasting-menu-dinner"
 alternatePath: "/en/city/deyang/tasting-menu-dinner"
 translationKey: "deyang-tasting-menu-dinner"
 lang: "zh"
-title: "德阳品鉴菜单饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "德阳品鉴菜单饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "德阳品鉴菜单饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "第一次点开饭局app上的品鉴菜单饭局，你可能会犹豫：这和朋友约饭有什么区别？区别在于设计。德阳的品鉴菜单饭局通常控制在6到8人，菜单由主理人与餐厅共同定制，每道菜上桌都有讲解，但不会变成单向输出的“美食课”。它保留了吃饭的松弛感，又悄悄为交"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
 ---
 
-# 德阳品鉴菜单饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 德阳品鉴菜单饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 在德阳，有人以为饭局app是另一个加群、打卡、凑热闹的社交工具。其实不是。它更像一张安静铺开的饭桌地图，标记着城市里那些愿意用一顿饭的时间认真认识陌生人的角落。饭局app的核心不是“局”，而是“饭”——尤其是品鉴菜单饭局。这种饭局通常在本地小众餐厅进行，限定人数，由主理人精心安排菜品顺序和节奏，参与者围坐一桌，从第一道冷盘开始，慢慢吃，慢慢聊。在德阳这样生活节奏温和、人情味仍存的城市，这种饭局反而成了最不尴尬的社交入口。它不承诺“交到朋友”，但提供一种可能：通过食物的温度和味道，让陌生人之间自然生出对话。
 

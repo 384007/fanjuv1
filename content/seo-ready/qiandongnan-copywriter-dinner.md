@@ -4,7 +4,7 @@ canonicalPath: "/city/qiandongnan/copywriter-dinner"
 alternatePath: "/en/city/qiandongnan/copywriter-dinner"
 translationKey: "qiandongnan-copywriter-dinner"
 lang: "zh"
-title: "不想在黔东南随便拼桌，饭局app怎样让文案饭局变成一个真实决定"
+title: "不想在黔东南随便拼桌，饭局app怎样让文案饭局变成一个真实决定 | fanju-app"
 titleZh: "不想在黔东南随便拼桌，饭局app怎样让文案饭局变成一个真实决定"
 description: "对于身处黔东南的远程工作者来说，生活可能充满了自由，但也常常伴随着某种程度的孤立。每周，都需要一个真实、可触碰的线下锚点，来对抗屏幕前的虚无。饭局app的出现，正是为解决这一痛点而设计，它不仅仅是一个简单的邀约平台，更是一个筛选机制，帮助我"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 不想在黔东南随便拼桌，饭局app怎样让文案饭局变成一个真实决定
+# 不想在黔东南随便拼桌，饭局app怎样让文案饭局变成一个真实决定 | fanju-app
 
 对于身处黔东南的远程工作者来说，生活可能充满了自由，但也常常伴随着某种程度的孤立。每周，都需要一个真实、可触碰的线下锚点，来对抗屏幕前的虚无。饭局app的出现，正是为解决这一痛点而设计，它不仅仅是一个简单的邀约平台，更是一个筛选机制，帮助我们在黔东南找到真正值得参与的文案饭局，让每一次线下交流都成为一次有意义的决定，而不是一次随意的拼桌。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/moscow/climbing-dinner"
 alternatePath: "/city/moscow/climbing-dinner"
 translationKey: "moscow-climbing-dinner"
 lang: "en"
-title: "Moscow does not need another vague invite; Fanju app makes Climbing Dinner specific"
+title: "Moscow does not need another vague invite; Fanju app makes Climbing Dinner specific | fanju-app"
 description: "Moving to a new city often means receiving messages that sound promising but lead nowhere. In Moscow, an invitation like “Let’s grab dinner sometime with some people!"
 primaryKeyword: "Moscow Climbing Dinner"
 secondaryKeywords: "Moscow social dining|Climbing dinner group|dinner buddy app|Fanju app|small-table dinner in Moscow"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T010006Z"
 ---
 
-# Moscow does not need another vague invite; Fanju app makes Climbing Dinner specific
+# Moscow does not need another vague invite; Fanju app makes Climbing Dinner specific | fanju-app
 
 The Fanju app helps people in Moscow find small, intentional dinners where details matter and uncertainty is reduced. A Moscow Climbing Dinner is not a party or a networking event—it’s a real meal with clear boundaries, hosted in public by someone who has committed to showing up. Unlike loose group chat plans that dissolve before the first message, Fanju tables are confirmed, located in accessible venues, and filled with guests who’ve accepted the same quiet rules: be on time, be present, leave when needed. For someone new to Moscow, that predictability makes a difference. You’re not stepping into a chaotic social loop. You’re meeting a few people over food, with an easy way out if it doesn’t click. That’s how real-world connection begins—without pressure, but with purpose.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/longyan/mba-dinner"
 alternatePath: "/en/city/longyan/mba-dinner"
 translationKey: "longyan-mba-dinner"
 lang: "zh"
-title: "下班后的龙岩，饭局app怎样让MBA 饭局有真实同桌"
+title: "下班后的龙岩，饭局app怎样让MBA 饭局有真实同桌 | fanju-app"
 titleZh: "下班后的龙岩，饭局app怎样让MBA 饭局有真实同桌"
 description: "在龙岩，下班后的夜晚不是用来刷手机或独自吃饭的。越来越多MBA背景的人开始寻找更清晰、更具体的小型饭局，而饭局app正在成为连接这些人的安静通道。它不靠群聊刷存在感，也不做千人规模的论坛式活动，而是聚焦于一桌六到八人、有明确主题、由真实主理"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 下班后的龙岩，饭局app怎样让MBA 饭局有真实同桌
+# 下班后的龙岩，饭局app怎样让MBA 饭局有真实同桌 | fanju-app
 
 在龙岩，下班后的夜晚不是用来刷手机或独自吃饭的。越来越多MBA背景的人开始寻找更清晰、更具体的小型饭局，而饭局app正在成为连接这些人的安静通道。它不靠群聊刷存在感，也不做千人规模的论坛式活动，而是聚焦于一桌六到八人、有明确主题、由真实主理人发起的饭局。在龙岩，这样的饭局正在改变人们对于“社交”的想象——从泛泛而谈的寒暄，转向能留下印象的对话。饭局app的价值，不在于它有多少用户，而在于它如何让每一次报名，都变成一次对“同桌是否值得”的判断。
 

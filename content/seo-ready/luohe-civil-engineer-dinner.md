@@ -4,7 +4,7 @@ canonicalPath: "/city/luohe/civil-engineer-dinner"
 alternatePath: "/en/city/luohe/civil-engineer-dinner"
 translationKey: "luohe-civil-engineer-dinner"
 lang: "zh"
-title: "漯河的土木工程师饭局为什么值得去，饭局app在报名前就给了答案"
+title: "漯河的土木工程师饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
 titleZh: "漯河的土木工程师饭局为什么值得去，饭局app在报名前就给了答案"
 description: "饭局app的特别之处在于，它不急于把人拉进群。在漯河这场土木工程师饭局里，报名截止前四小时，你才看到最终确认的同桌名单——三男三女，年龄在28到38岁之间，有人标注了“在漯河做市政道路勘察”，有人写着“刚结束驻场，路过调整两天”。没有夸张的"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
 ---
 
-# 漯河的土木工程师饭局为什么值得去，饭局app在报名前就给了答案
+# 漯河的土木工程师饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
 你坐在漯河火车站旁的快捷酒店里，行李还没完全打开，窗外是傍晚六点过后的城市轮廓——不算明亮，也不算陌生。明天要和本地设计院的人碰面，今天晚上，你是继续对着手机刷资讯，还是走出门去，见几个和你一样做土木工程的人？在这样的城市短暂停留，你其实不指望结识谁，但也不想只是吃饭、洗澡、睡觉、重复出差的循环。饭局app上那个今晚在泰山路附近的小馆子举办的“土木工程师饭局”，报名人数刚到五人，主理人说只留七席。它和你在微信群里见过的“老乡聚会”、公司年会式的饭局、或者那种打着“拓展人脉”旗号的相亲局有什么不同？区别不在人多热闹，而在于饭局开始前，你已经能判断这一桌是不是适合你的节奏。
 

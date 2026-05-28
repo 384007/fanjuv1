@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangkok/pottery-dinner"
 alternatePath: "/city/bangkok/pottery-dinner"
 translationKey: "bangkok-pottery-dinner"
 lang: "en"
-title: "Bangkok does not need another vague invite; Fanju app makes Pottery Dinner specific"
+title: "Bangkok does not need another vague invite; Fanju app makes Pottery Dinner specific | fanju-app"
 description: "Bangkok thrives on connection, but not the kind promised by fleeting group chats or overpromised meetups. Real connection here happens over shared meals where stories unfold between bites of som tam and sips of cha yen."
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Bangkok does not need another vague invite; Fanju app makes Pottery Dinner specific
+# Bangkok does not need another vague invite; Fanju app makes Pottery Dinner specific | fanju-app
 
 Bangkok thrives on connection, but not the kind promised by fleeting group chats or overpromised meetups. Real connection here happens over shared meals where stories unfold between bites of som tam and sips of cha yen. The Fanju app cuts through the noise by turning the idea of a Pottery Dinner into a specific, hosted evening with a real table, real people, and a real neighborhood context. Unlike dating apps that suggest surface-level matches or event pages that vanish into the void, Fanju anchors the experience in place—like a quiet soi in Thonglor where a ceramic artist hosts eight guests for handmade dishes and hand-thrown bowls. This isn’t tourism. It’s local life, accessible.
 

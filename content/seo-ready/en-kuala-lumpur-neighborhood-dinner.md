@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kuala-lumpur/neighborhood-dinner"
 alternatePath: "/city/kuala-lumpur/neighborhood-dinner"
 translationKey: "kuala-lumpur-neighborhood-dinner"
 lang: "en"
-title: "The Neighborhood Dinner table Kuala Lumpur actually needs is the one Fanju app describes up front"
+title: "The Neighborhood Dinner table Kuala Lumpur actually needs is the one Fanju app describes up front | fanju-app"
 description: "Kuala Lumpur thrives on overlap—between old shophouses and glass towers, between Malay, Chinese, Indian, and expat communities, between the desire to belong and the instinct to keep your distance. If you're new here, or"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# The Neighborhood Dinner table Kuala Lumpur actually needs is the one Fanju app describes up front
+# The Neighborhood Dinner table Kuala Lumpur actually needs is the one Fanju app describes up front | fanju-app
 
 Kuala Lumpur thrives on overlap—between old shophouses and glass towers, between Malay, Chinese, Indian, and expat communities, between the desire to belong and the instinct to keep your distance. If you're new here, or even if you've lived in the city for years without quite finding your circle, the idea of joining strangers for dinner can feel both tempting and vaguely risky. That’s where the Fanju app comes in, not by promising instant friendship, but by making something rare in urban life: clarity. It doesn’t oversell connection. Instead, it lays out who’s hosting, where they live, what they’re cooking, and—crucially—what kind of conversation they’re hoping for. For someone standing at the edge of a neighborhood dinner for the first time, that transparency isn’t just convenient. It’s what makes saying yes possible.
 

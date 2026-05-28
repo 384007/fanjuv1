@@ -4,7 +4,7 @@ canonicalPath: "/en/city/sydney/food-tech-dinner"
 alternatePath: "/city/sydney/food-tech-dinner"
 translationKey: "sydney-food-tech-dinner"
 lang: "en"
-title: "How Fanju app turns a Sydney Food Tech Dinner night into something worth showing up for"
+title: "How Fanju app turns a Sydney Food Tech Dinner night into something worth showing up for | fanju-app"
 description: "Sydney moves fast, and so do its social rhythms. A poorly defined dinner—one that feels like a vague “food and tech chat”—won’t cut through the noise of after-work drinks, gallery openings, or weekend markets. What"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Sydney Food Tech Dinner night into something worth showing up for
+# How Fanju app turns a Sydney Food Tech Dinner night into something worth showing up for | fanju-app
 
 For Sydneysiders curious about food tech but wary of flashy events that go nowhere, Fanju app offers a grounded alternative: small, intentional dinners hosted in real homes and shared kitchens across suburbs like Surry Hills, Newtown, and Circular Quay. These aren’t product launches or investor mixers. They’re dinners framed around conversation—where a software engineer might sit beside a café owner discussing fermentation sensors, or a food writer listens in on supply chain logistics over shared dumplings. The app doesn't promise networking—it sidesteps that word entirely—but instead focuses on clarity: who’s hosting, why this table exists, and what kind of evening to expect. That precision is what turns a casual RSVP into a moment of real arrival.
 

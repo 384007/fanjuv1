@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kinshasa/travel-lover-dinner"
 alternatePath: "/city/kinshasa/travel-lover-dinner"
 translationKey: "kinshasa-travel-lover-dinner"
 lang: "en"
-title: "Kinshasa has plenty of Travel Lover Dinner options; Fanju app is the one that names the table first"
+title: "Kinshasa has plenty of Travel Lover Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Kinshasa, the vibrant capital of the Democratic Republic of Congo, has a thriving expat community and a growing number of locals who are eager to connect with like-minded individuals. For those who love to travel and exp"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Kinshasa has plenty of Travel Lover Dinner options; Fanju app is the one that names the table first
+# Kinshasa has plenty of Travel Lover Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Kinshasa, the vibrant capital of the Democratic Republic of Congo, has a thriving expat community and a growing number of locals who are eager to connect with like-minded individuals. For those who love to travel and explore new cultures, Travel Lover Dinner has become a popular way to build meaningful connections and create lasting memories. However, the success of these dinner gatherings often depends on the platform that facilitates them, and in Kinshasa, Fanju app has emerged as a trusted name in the Travel Lover Dinner scene.
 

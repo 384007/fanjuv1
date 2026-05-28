@@ -4,7 +4,7 @@ canonicalPath: "/city/tianjin/skiing-dinner"
 alternatePath: "/en/city/tianjin/skiing-dinner"
 translationKey: "tianjin-skiing-dinner"
 lang: "zh"
-title: "天津不想只靠群聊时，饭局app怎样把滑雪饭局坐成一桌"
+title: "天津不想只靠群聊时，饭局app怎样把滑雪饭局坐成一桌 | fanju-app"
 titleZh: "天津不想只靠群聊时，饭局app怎样把滑雪饭局坐成一桌"
 description: "在天津，滑雪和饭局似乎没什么直接关系。 冬天短，雪场远，多数人滑一次雪要计划好久。 但正因如此，当一次滑雪饭局真正在饭局app上成形，它不是临时起意的群聊接龙，也不是拼桌凑人数的户外活动转场。 饭局app在天津做的，是把「一起去滑雪」这件事，拆解成可以提前感知节奏、判断同桌人、选择是否参与的一桌饭。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 天津不想只靠群聊时，饭局app怎样把滑雪饭局坐成一桌
+# 天津不想只靠群聊时，饭局app怎样把滑雪饭局坐成一桌 | fanju-app
 
 在天津，滑雪和饭局似乎没什么直接关系。冬天短，雪场远，多数人滑一次雪要计划好久。但正因如此，当一次滑雪饭局真正在饭局app上成形，它不是临时起意的群聊接龙，也不是拼桌凑人数的户外活动转场。饭局app在天津做的，是把「一起去滑雪」这件事，拆解成可以提前感知节奏、判断同桌人、选择是否参与的一桌饭。它不追求热闹，也不依赖熟人转发，而是让那些平时不主动在群里冒头的人，也能在报名前就感觉到：这一桌，我大概能待得住。
 

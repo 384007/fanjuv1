@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nagoya/product-manager-dinner"
 alternatePath: "/city/nagoya/product-manager-dinner"
 translationKey: "nagoya-product-manager-dinner"
 lang: "en"
-title: "Nagoya after work: how Fanju app makes Product Manager Dinner feel like a real room"
+title: "Nagoya after work: how Fanju app makes Product Manager Dinner feel like a real room | fanju-app"
 description: "In Nagoya, where evening plans often dissolve into last-minute karaoke cancellations or silent izakaya reservations made alone, the idea of joining a Product Manager Dinner can feel uncertain. What if no one shows? What"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Nagoya after work: how Fanju app makes Product Manager Dinner feel like a real room
+# Nagoya after work: how Fanju app makes Product Manager Dinner feel like a real room | fanju-app
 
 In Nagoya, where evening plans often dissolve into last-minute karaoke cancellations or silent izakaya reservations made alone, the idea of joining a Product Manager Dinner can feel uncertain. What if no one shows? What if the conversation stalls? Fanju app helps answer those quiet worries not with promises, but with structure — public venues, real-name registration, and small tables that cap at six people. It turns a speculative meetup into a grounded gathering, one where trust builds before the first beer is poured. The app doesn’t eliminate risk, but it redistributes it — making space for professionals in Nagoya’s tech and design circles to connect without the usual friction.
 

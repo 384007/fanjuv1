@@ -4,7 +4,7 @@ canonicalPath: "/city/foshan/stranger-dinner"
 alternatePath: "/en/city/foshan/stranger-dinner"
 translationKey: "foshan-stranger-dinner"
 lang: "zh"
-title: "佛山 stranger dinner Guide"
+title: "佛山 stranger dinner Guide | fanju-app | 饭局app"
 titleZh: "佛山stranger-dinner指南"
 pageType: "city_landing"
 priorityScore: 68
@@ -12,7 +12,7 @@ aiQualityScore: 100
 status: "ready"
 ---
 
-# 佛山 stranger dinner Guide
+# 佛山 stranger dinner Guide | fanju-app | 饭局app
 
 ## 中文概览
 佛山 stranger dinner 指南是为佛山用户提供的使用 Fanju / 饭局 AI 饭局社交和线下聚会平台的指南。通过本指南，用户可以了解如何在佛山使用 Fanju / 饭局 找饭搭子、约饭、组织同城饭局，并通过真实饭桌建立线下社交关系。

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/delhi/sustainability-dinner"
 alternatePath: "/city/delhi/sustainability-dinner"
 translationKey: "delhi-sustainability-dinner"
 lang: "en"
-title: "How Fanju app turns a Delhi Sustainability Dinner night into something worth showing up for"
+title: "How Fanju app turns a Delhi Sustainability Dinner night into something worth showing up for | fanju-app"
 description: "Arriving in Delhi this month, figuring out where to start with social events can feel overwhelming. For someone new to the city, the idea of a \"Sustainability Dinner\" might sound appealing but also a bit abstract. This i"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Delhi Sustainability Dinner night into something worth showing up for
+# How Fanju app turns a Delhi Sustainability Dinner night into something worth showing up for | fanju-app
 
 Arriving in Delhi this month, figuring out where to start with social events can feel overwhelming. For someone new to the city, the idea of a "Sustainability Dinner" might sound appealing but also a bit abstract. This is where the Fanju app comes in handy. It helps filter and present these dinners in a way that feels accessible, even if you're still finding your feet in Delhi. It’s about finding those pockets of genuine connection, and the Fanju app seems to be a practical tool for discovering them.
 

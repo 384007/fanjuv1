@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tel-aviv/translator-dinner"
 alternatePath: "/city/tel-aviv/translator-dinner"
 translationKey: "tel-aviv-translator-dinner"
 lang: "en"
-title: "Before the first message in Tel Aviv, Fanju app makes Translator Dinner feel like a real decision"
+title: "Before the first message in Tel Aviv, Fanju app makes Translator Dinner feel like a real decision | fanju-app"
 description: "In Tel Aviv, where evenings often dissolve into indecision—another rooftop drink that never becomes dinner, another group chat thread trailing off into silence—the Translator Dinner hosted through the Fanju app stands ap"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Tel Aviv, Fanju app makes Translator Dinner feel like a real decision
+# Before the first message in Tel Aviv, Fanju app makes Translator Dinner feel like a real decision | fanju-app
 
 In Tel Aviv, where evenings often dissolve into indecision—another rooftop drink that never becomes dinner, another group chat thread trailing off into silence—the Translator Dinner hosted through the Fanju app stands apart. It’s not just another social experiment; it’s a deliberate pause in a city that rarely stops to listen. The app doesn’t promise connections, but it does something more valuable: it structures the moment so women, in particular, can arrive without the weight of overthinking. The small tables, the named seats, the clarity of purpose—these aren’t incidental. They’re what make the difference between another vague plan and a conversation that holds.
 

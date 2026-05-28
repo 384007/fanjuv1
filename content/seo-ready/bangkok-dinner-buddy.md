@@ -3,7 +3,7 @@ slug: "bangkok-dinner-buddy"
 canonicalPath: "/city/bangkok/dinner-buddy"
 alternatePath: "/en/city/bangkok/dinner-buddy"
 translationKey: "bangkok-dinner-buddy"
-title: "曼谷饭局伙伴 | 饭局 Fanju"
+title: "曼谷饭局伙伴 | 饭局 Fanju | fanju-app | 饭局app"
 titleZh: "曼谷饭局伙伴"
 description: "在曼谷通过饭局 Fanju 找饭局伙伴。加入精选小桌饭局，认识本地人和外籍人士，在共同用餐中建立真实的社交关系。"
 pageType: "city_category"
@@ -13,7 +13,7 @@ priorityScore: 90
 status: "ready"
 ---
 
-# 曼谷饭局伙伴
+# 曼谷饭局伙伴 | fanju-app | 饭局app
 
 曼谷是东南亚最具活力的美食城市之一。找到合适的饭局伙伴，一顿普通的晚餐就能变成难忘的社交体验。饭局 Fanju 连接那些想要共享一张餐桌、探索新餐厅、在美食中建立真实友谊的人。
 

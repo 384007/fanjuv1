@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nagoya/book-lover-dinner"
 alternatePath: "/city/nagoya/book-lover-dinner"
 translationKey: "nagoya-book-lover-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Nagoya Book Lover Dinner table before the first course"
+title: "The Fanju app way to judge a Nagoya Book Lover Dinner table before the first course | fanju-app"
 description: "Nagoya Book Lover Dinner through the Fanju app offers a quiet chance to meet readers face-to-face over local dishes, not a dating guarantee, not a random group chat, not an endless profile feed."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# The Fanju app way to judge a Nagoya Book Lover Dinner table before the first course
+# The Fanju app way to judge a Nagoya Book Lover Dinner table before the first course | fanju-app
 
 Nagoya Book Lover Dinner through the Fanju app offers a quiet chance to meet readers face-to-face over local dishes, not a dating guarantee, not a random group chat, not an endless profile feed. This is a social dining app experience where conversation starts with books but often drifts into how people navigate life in Nagoya—commutes, library habits, or why certain novels resonate here more than elsewhere. Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局”, and in this city, it functions as a small-table filter: gatherings are capped at six to eight guests, usually hosted in midweek or weekend evenings, and centered on shared interests rather than algorithms. The idea isn’t to perform or impress, but to show up, eat, and talk without digital distractions.
 

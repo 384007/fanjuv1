@@ -4,7 +4,7 @@ canonicalPath: "/en/city/munich/expat-family-dinner"
 alternatePath: "/city/munich/expat-family-dinner"
 translationKey: "munich-expat-family-dinner"
 lang: "en"
-title: "Munich after work: how Fanju app makes Expat Family Dinner feel like a real room"
+title: "Munich after work: how Fanju app makes Expat Family Dinner feel like a real room | fanju-app"
 description: "After a day of remote meetings and solitary screen time in Munich, logging off doesn’t always mean rejoining the world. For many expat professionals working from home, the silence after work can stretch into isolation. T"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Munich after work: how Fanju app makes Expat Family Dinner feel like a real room
+# Munich after work: how Fanju app makes Expat Family Dinner feel like a real room | fanju-app
 
 After a day of remote meetings and solitary screen time in Munich, logging off doesn’t always mean rejoining the world. For many expat professionals working from home, the silence after work can stretch into isolation. The Fanju app changes that by connecting people to actual dinner tables—real gatherings in real homes or neighborhood restaurants where conversation isn’t scheduled but simply happens. In Munich, where formality often masks warmth, finding a social anchor can feel like decoding a quiet code. Fanju doesn’t promise instant friendship, but it does offer something more reliable: a consistent, low-pressure invitation to sit down with others who also value meaningful connection over performative networking. This isn’t about events. It’s about continuity.
 

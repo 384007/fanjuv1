@@ -4,7 +4,7 @@ canonicalPath: "/en/city/luanda/returnee-dinner"
 alternatePath: "/city/luanda/returnee-dinner"
 translationKey: "luanda-returnee-dinner"
 lang: "en"
-title: "Fanju App in Luanda: Returnee Dinners for People Rebuilding a Social Circle After Coming Home"
+title: "Fanju App in Luanda: Returnee Dinners for People Rebuilding a Social Circle After Coming Home | fanju-app"
 description: "For Luanda returnees, Fanju app can make a first dinner feel clearer: a public venue, a small table, a readable host, and enough context to decide whether the night fits."
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Fanju App in Luanda: Returnee Dinners for People Rebuilding a Social Circle After Coming Home
+# Fanju App in Luanda: Returnee Dinners for People Rebuilding a Social Circle After Coming Home | fanju-app
 
 Coming back to Luanda can feel strangely split. The city is familiar, but the old social map may not be. Friends have moved, work rhythms have changed, and a casual invitation can still feel hard to evaluate when you are rebuilding a local circle. Fanju app is useful in that moment because it treats dinner as a clearly described offline plan rather than an open chat: who the table is for, what kind of conversation is expected, where the meal happens, and how a guest can decide before showing up.
 

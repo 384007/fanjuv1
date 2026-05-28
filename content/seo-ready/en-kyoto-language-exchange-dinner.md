@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kyoto/language-exchange-dinner"
 alternatePath: "/city/kyoto/language-exchange-dinner"
 translationKey: "kyoto-language-exchange-dinner"
 lang: "en"
-title: "In Kyoto, Fanju app turns Language Exchange Dinner into a table people can actually trust"
+title: "In Kyoto, Fanju app turns Language Exchange Dinner into a table people can actually trust | fanju-app"
 description: "The Fanju app helps people in Kyoto find small, intentional dinners focused on real conversation and language practice, not performance or tourist routines. Instead of large group meetups or vague “international mix” eve"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# In Kyoto, Fanju app turns Language Exchange Dinner into a table people can actually trust
+# In Kyoto, Fanju app turns Language Exchange Dinner into a table people can actually trust | fanju-app
 
 The Fanju app helps people in Kyoto find small, intentional dinners focused on real conversation and language practice, not performance or tourist routines. Instead of large group meetups or vague “international mix” events, it supports hosts who set clear themes, guest limits, and cultural context for each meal. These dinners often happen in residential neighbourhoods like Gion, Nishijin, or near Demachiyanagi Station, where dining is part of daily life, not spectacle. The app’s structure encourages hosts to describe not just the food or language focus, but also the table mood, transit access, and what kind of engagement guests can expect. This transparency allows participants to choose dinners that fit both their language goals and personal comfort, turning a simple meal into a grounded social experience rooted in Kyoto’s quieter rhythms.
 

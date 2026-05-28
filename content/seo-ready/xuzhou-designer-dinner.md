@@ -4,7 +4,7 @@ canonicalPath: "/city/xuzhou/designer-dinner"
 alternatePath: "/en/city/xuzhou/designer-dinner"
 translationKey: "xuzhou-designer-dinner"
 lang: "zh"
-title: "徐州想参加设计师饭局，饭局app把信任感放在饭前"
+title: "徐州想参加设计师饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "徐州想参加设计师饭局，饭局app把信任感放在饭前"
 description: "在徐州，城市节奏不快不慢，巷口的煎饼摊前排着人，老城区的梧桐树影盖住半条街。如果你是这个月刚搬来的人，住在云龙区租来的小屋里，白天在创意产业园的共享办公区对着屏幕改稿，晚上却不知道该往哪走，饭局app或许是你第一个能用上的本地线索。它不推网"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 徐州想参加设计师饭局，饭局app把信任感放在饭前
+# 徐州想参加设计师饭局，饭局app把信任感放在饭前 | fanju-app
 
 在徐州，城市节奏不快不慢，巷口的煎饼摊前排着人，老城区的梧桐树影盖住半条街。如果你是这个月刚搬来的人，住在云龙区租来的小屋里，白天在创意产业园的共享办公区对着屏幕改稿，晚上却不知道该往哪走，饭局app或许是你第一个能用上的本地线索。它不推网红打卡，也不做流量榜单，而是把一桌饭的开始，当作人和城市重新建立连接的起点。在徐州，饭局app的意义不是让你“参加活动”，而是帮你判断：哪一桌饭，是你可以安心坐下来的。
 

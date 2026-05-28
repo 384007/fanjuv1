@@ -4,7 +4,7 @@ canonicalPath: "/city/hezhou/cooking-class-dinner"
 alternatePath: "/en/city/hezhou/cooking-class-dinner"
 translationKey: "hezhou-cooking-class-dinner"
 lang: "zh"
-title: "贺州想参加烹饪课饭局，饭局app把信任感放在饭前"
+title: "贺州想参加烹饪课饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "贺州想参加烹饪课饭局，饭局app把信任感放在饭前"
 description: "在贺州，一个人下班后沿着新兴南路往回走，手里拎着便利店的便当，电梯里镜面映出的是疲惫但无人交谈的脸。这种日常并不陌生，也不算难熬，但总缺了点什么——比如，一点热气腾腾的饭香，一场不刻意却自然发生的对话。饭局app在这座城市做的，不是组织热闹"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 贺州想参加烹饪课饭局，饭局app把信任感放在饭前
+# 贺州想参加烹饪课饭局，饭局app把信任感放在饭前 | fanju-app
 
 在贺州，一个人下班后沿着新兴南路往回走，手里拎着便利店的便当，电梯里镜面映出的是疲惫但无人交谈的脸。这种日常并不陌生，也不算难熬，但总缺了点什么——比如，一点热气腾腾的饭香，一场不刻意却自然发生的对话。饭局app在这座城市做的，不是组织热闹的聚会，而是让那些原本会独自回家的人，多一个选择：走进一场烹饪课饭局，洗菜、切葱、聊两句，然后一起吃顿自己参与做的饭。它不承诺改变社交困境，但提供了一种更轻的开始方式，把信任感，悄悄放在饭前。
 

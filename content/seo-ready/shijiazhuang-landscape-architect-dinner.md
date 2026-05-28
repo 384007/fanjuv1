@@ -4,7 +4,7 @@ canonicalPath: "/city/shijiazhuang/landscape-architect-dinner"
 alternatePath: "/en/city/shijiazhuang/landscape-architect-dinner"
 translationKey: "shijiazhuang-landscape-architect-dinner"
 lang: "zh"
-title: "石家庄景观设计师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "石家庄景观设计师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "石家庄景观设计师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "在石家庄，景观设计行业的饭局其实不少。朋友一叫，酒楼一订，几人一坐，话题就来了。可真正能聊进专业里、聊出信任感的却不多。很多人心里都清楚，饭局不是吃饭，是关系的起点。但怎么找到对的那一桌？直到我打开饭局app，才发现原来不是所有饭局都叫“饭"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 石家庄景观设计师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 石家庄景观设计师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
 在石家庄，景观设计行业的饭局其实不少。朋友一叫，酒楼一订，几人一坐，话题就来了。可真正能聊进专业里、聊出信任感的却不多。很多人心里都清楚，饭局不是吃饭，是关系的起点。但怎么找到对的那一桌？直到我打开饭局app，才发现原来不是所有饭局都叫“饭局”——有些是聚会，有些是社交任务，而有些，是真的在搭建一个设计师之间能彼此听见的场。在石家庄，这样的饭局尤其难得，也尤其需要。
 

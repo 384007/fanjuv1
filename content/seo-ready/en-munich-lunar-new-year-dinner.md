@@ -4,7 +4,7 @@ canonicalPath: "/en/city/munich/lunar-new-year-dinner"
 alternatePath: "/city/munich/lunar-new-year-dinner"
 translationKey: "munich-lunar-new-year-dinner"
 lang: "en"
-title: "The Lunar New Year Dinner table Munich actually needs is the one Fanju app describes up front"
+title: "The Lunar New Year Dinner table Munich actually needs is the one Fanju app describes up front | fanju-app"
 description: "In Munich, Lunar New Year dinners often begin with good intentions—scattered messages, last-minute plans, and a vague hope of authentic flavours in a city where East Asian cuisine is present but rarely centralised. What’"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# The Lunar New Year Dinner table Munich actually needs is the one Fanju app describes up front
+# The Lunar New Year Dinner table Munich actually needs is the one Fanju app describes up front | fanju-app
 
 In Munich, Lunar New Year dinners often begin with good intentions—scattered messages, last-minute plans, and a vague hope of authentic flavours in a city where East Asian cuisine is present but rarely centralised. What’s missing isn’t availability, but curation: a way to know which table offers more than just dumplings and red decorations. The Fanju app doesn’t just list gatherings; it frames them as shared meals with intention, where the food tells a story and the guests are matched by more than proximity. In a city where expat communities often orbit quietly without intersecting, Fanju surfaces the dinners worth attending—ones where the menu reflects regional variance, the host has a point of view, and the seating feels deliberate, not accidental.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/manila/diving-dinner"
 alternatePath: "/city/manila/diving-dinner"
 translationKey: "manila-diving-dinner"
 lang: "en"
-title: "Manila does not need another vague invite; Fanju app makes Diving Dinner specific"
+title: "Manila does not need another vague invite; Fanju app makes Diving Dinner specific | fanju-app"
 description: "In Manila, where evenings unfold in layers—traffic easing after seven, jeepneys still packed near Ayala, and dinner plans forming over crackling Viber calls—plans often begin with “Maybe, later?” That vagueness is famili"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Manila does not need another vague invite; Fanju app makes Diving Dinner specific
+# Manila does not need another vague invite; Fanju app makes Diving Dinner specific | fanju-app
 
 In Manila, where evenings unfold in layers—traffic easing after seven, jeepneys still packed near Ayala, and dinner plans forming over crackling Viber calls—plans often begin with “Maybe, later?” That vagueness is familiar, but it rarely leads to meaningful connection. The Fanju app changes that rhythm by turning loose intentions into real tables: intimate, pre-confirmed Diving Dinner gatherings where Manila residents meet not just to eat, but to talk beyond surface chatter. No more last-minute cancellations, no ghosting after a hopeful exchange. Instead, dinners happen in homes or quiet restaurants in Makati, Quezon City, or even tucked-away spots near Bonifacio Global City, with guests who’ve already committed through the app. It’s specificity in a culture that often defaults to ambiguity.
 

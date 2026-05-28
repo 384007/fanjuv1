@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tokyo/millennial-dinner"
 alternatePath: "/city/tokyo/millennial-dinner"
 translationKey: "tokyo-millennial-dinner"
 lang: "en"
-title: "When Millennial Dinner feels too loose in Tokyo, Fanju app starts with the table"
+title: "When Millennial Dinner feels too loose in Tokyo, Fanju app starts with the table | fanju-app"
 description: "In Tokyo, weekends often mean a shift from structured work life to something less defined—time that can stretch quietly or fill up fast. That’s when the idea of a Millennial Dinner gains weight. It’s not just about"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T181226Z"
 ---
 
-# When Millennial Dinner feels too loose in Tokyo, Fanju app starts with the table
+# When Millennial Dinner feels too loose in Tokyo, Fanju app starts with the table | fanju-app
 
 Fanju app in Tokyo is for people who want real dinner moments, not another group chat or curated meetup. It’s focused on small, clearly described meals hosted by locals who open their homes or regular dinner spots with specific intentions. Unlike broader social apps, Fanju sets expectations early—about the host, the food, the neighbourhood, and the kind of conversation that fits. This matters in a city like Tokyo, where formality can mask disconnection, and a dinner table that feels off can be harder to leave than to join. The app doesn’t promise friendships, but it reduces the friction of starting one over a shared meal. For someone weighing whether to RSVP, the difference is knowing what kind of table they’re joining before they arrive.
 

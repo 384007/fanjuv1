@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nagoya/startup-dinner"
 alternatePath: "/city/nagoya/startup-dinner"
 translationKey: "nagoya-startup-dinner"
 lang: "en"
-title: "Startup Dinner in Nagoya should not feel like a gamble; Fanju app changes the odds"
+title: "Startup Dinner in Nagoya should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "Choosing to meet in Nishiki instead of Osu isn’t just about convenience—it’s a signal. Startup Dinner in Nagoya often leans toward Nagonaka or Fushimi, areas where professionals live or work, and where the noise level"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
 ---
 
-# Startup Dinner in Nagoya should not feel like a gamble; Fanju app changes the odds
+# Startup Dinner in Nagoya should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 Walking into a small izakaya in Sakae for a Startup Dinner in Nagoya, you pause just inside the entrance. No familiar faces yet. Your hand lingers on your phone, checking the Fanju app one last time to confirm the table number. The host hasn’t arrived, and the other guests are still strangers. This moment—awkward, quiet, suspended—defines whether the evening will settle into something real or dissolve into polite small talk. Fanju app doesn’t eliminate this tension, but it reshapes it. It structures meals around clarity: who’s hosting, why they care about startups, and what kind of conversation they’re inviting. That specificity, visible before you even RSVP, turns a city of 2.3 million people into a place where one table can feel like a starting point.  
 

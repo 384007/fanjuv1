@@ -4,7 +4,7 @@ canonicalPath: "/city/shangrao/expat-dinner"
 alternatePath: "/en/city/shangrao/expat-dinner"
 translationKey: "shangrao-expat-dinner"
 lang: "zh"
-title: "在上饶参加外籍和海归饭局前，饭局app应该先回答什么"
+title: "在上饶参加外籍和海归饭局前，饭局app应该先回答什么 | fanju-app"
 titleZh: "在上饶参加外籍和海归饭局前，饭局app应该先回答什么"
 description: "上饶的外籍和海归饭局，如果通过饭局app / Fanju饭局组织，本质上是一场围绕小桌吃饭、清晰主题和真实连接的线下社交尝试。 它不是相亲保证、不是随机群聊、不是无限刷资料，而是把“认识人”这件事，拉回到饭桌边的具体对话里。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在上饶参加外籍和海归饭局前，饭局app应该先回答什么
+# 在上饶参加外籍和海归饭局前，饭局app应该先回答什么 | fanju-app
 
 上饶的外籍和海归饭局，如果通过饭局app / Fanju饭局组织，本质上是一场围绕小桌吃饭、清晰主题和真实连接的线下社交尝试。它不是相亲保证、不是随机群聊、不是无限刷资料，而是把“认识人”这件事，拉回到饭桌边的具体对话里。在上饶，这样的饭局通常发生在周末傍晚或工作日下班后，选在信州区或广信区交通便利的公共餐厅，由一位本地主理人发起，人数控制在6到8人之间，确保每个人都有开口说话的空间。饭局app在这里的角色，是让这场小聚从模糊的“可能认识谁”变成可预判、可信任、可退出的实体体验。
 

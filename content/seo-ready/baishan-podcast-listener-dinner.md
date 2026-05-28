@@ -4,7 +4,7 @@ canonicalPath: "/city/baishan/podcast-listener-dinner"
 alternatePath: "/en/city/baishan/podcast-listener-dinner"
 translationKey: "baishan-podcast-listener-dinner"
 lang: "zh"
-title: "白山不想只靠群聊时，饭局app怎样把播客听众饭局坐成一桌"
+title: "白山不想只靠群聊时，饭局app怎样把播客听众饭局坐成一桌 | fanju-app"
 titleZh: "白山不想只靠群聊时，饭局app怎样把播客听众饭局坐成一桌"
 description: "白山的节奏慢，但慢不等于没有渴望。相反，正因为日常太平静，一次真实的对话才显得格外清晰。饭局app在这里的播客饭局，往往发生在冬天的晚餐时段，地点多选在浑江边的老城区小馆，或者江源区安静的社区餐厅。这些地方没有夸张的装修，菜单上写着炖菜、山"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 白山不想只靠群聊时，饭局app怎样把播客听众饭局坐成一桌
+# 白山不想只靠群聊时，饭局app怎样把播客听众饭局坐成一桌 | fanju-app
 
 在白山，冬天的夜晚来得早，街灯亮起时，山影压着城市边缘。人与人之间常隔着一层客气的沉默，尤其当你只是某个播客的听众，偶尔在评论区点个赞，却从没想过能和声音背后的听众坐到一桌吃饭。饭局app不是把陌生人硬凑在一起的工具，它更像一个缓慢校准的频率器——在白山，它让人从“听”开始，慢慢走到“见”和“吃”。小桌饭局在这里不是热闹的聚会，而是一次克制的试探：6到12个人，围绕一期共同听过的播客，点几道本地菜，试着把耳机里的共鸣变成现实中的一句话。饭局app的作用，是让这种连接不靠运气，而是靠清晰的规则和可判断的信息。
 

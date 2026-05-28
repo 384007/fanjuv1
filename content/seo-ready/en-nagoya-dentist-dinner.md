@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nagoya/dentist-dinner"
 alternatePath: "/city/nagoya/dentist-dinner"
 translationKey: "nagoya-dentist-dinner"
 lang: "en"
-title: "When Dentist Dinner feels too loose in Nagoya, Fanju app starts with the table"
+title: "When Dentist Dinner feels too loose in Nagoya, Fanju app starts with the table | fanju-app"
 description: "Arriving alone at a new gathering can feel a bit daunting, especially in a city as vibrant and expansive as Nagoya."
 primaryKeyword: "Nagoya Dentist Dinner"
 secondaryKeywords: "Nagoya social dining|Dentist dinner group|dinner buddy app|Fanju app|small-table dinner in Nagoya"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T010006Z"
 ---
 
-# When Dentist Dinner feels too loose in Nagoya, Fanju app starts with the table
+# When Dentist Dinner feels too loose in Nagoya, Fanju app starts with the table | fanju-app
 For solo travellers exploring Nagoya, the idea of a "Dentist Dinner" might sound intriguing – a curated evening designed for genuine connection over a meal. Fanju app offers a structured approach to these gatherings, ensuring that when you arrive at a restaurant in a city like Nagoya, you're not walking into an undefined social situation, but rather a carefully prepared setting where conversations can flow naturally from the start. This app aims to bring clarity to social dining, making it easier to find and join intimate dinners where the focus is on shared experiences and comfortable interaction.
 
 ## Why Dentist Dinner needs a sharper table before the night begins in Nagoya

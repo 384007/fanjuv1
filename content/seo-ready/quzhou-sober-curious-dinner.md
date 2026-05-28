@@ -4,7 +4,7 @@ canonicalPath: "/city/quzhou/sober-curious-dinner"
 alternatePath: "/en/city/quzhou/sober-curious-dinner"
 translationKey: "quzhou-sober-curious-dinner"
 lang: "zh"
-title: "衢州想参加无酒精社交饭局，饭局app把信任感放在饭前"
+title: "衢州想参加无酒精社交饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "衢州想参加无酒精社交饭局，饭局app把信任感放在饭前"
 description: "很多人以为，只要凑够四到六个人，点几道菜，饭局就能自然发生。但在衢州，一次饭局能不能坐得稳，关键其实在饭前。当大家对“这顿饭是干嘛的”理解不一致时，有人想深聊，有人只想放松吃顿饭，有人期待认识潜在合租伙伴，有人只是好奇看看平台，饭桌很容易陷"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T181226Z"
 ---
 
-# 衢州想参加无酒精社交饭局，饭局app把信任感放在饭前
+# 衢州想参加无酒精社交饭局，饭局app把信任感放在饭前 | fanju-app
 
 周六晚上七点，衢州老街的梧桐树影被路灯切碎，你站在一家小馆子门口，手里攥着手机，确认自己没走错地址。这是你第一次用饭局app报名参加一场无酒精社交饭局，同桌的人还没到齐。你有点紧张，但不是因为要见陌生人，而是怕那种“假装熟络”的尴尬。饭局app在衢州做的，不是拉人凑饭，而是把一桌人能聊什么、怎么坐、主理人是谁、能不能中途离开，全写清楚。它不保证你会交到朋友，但它让“一个人到餐厅还没见到熟人的前十分钟”不再煎熬。在衢州，这样的饭局正慢慢变成城市里可预期的社交节点——不是热闹的聚会，而是安静生长的连接。
 

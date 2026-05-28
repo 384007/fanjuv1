@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lahore/english-speaking-dinner"
 alternatePath: "/city/lahore/english-speaking-dinner"
 translationKey: "lahore-english-speaking-dinner"
 lang: "en"
-title: "For people trying English Speaking Dinner in Lahore, Fanju app puts the guest mix first"
+title: "For people trying English Speaking Dinner in Lahore, Fanju app puts the guest mix first | fanju-app"
 description: "The Fanju app offers a simple way to join small, intentionally hosted dinners in Lahore where conversation—especially in English—is the main event. These are not large meetups or open parties, but intimate tables of five"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying English Speaking Dinner in Lahore, Fanju app puts the guest mix first
+# For people trying English Speaking Dinner in Lahore, Fanju app puts the guest mix first | fanju-app
 
 The Fanju app offers a simple way to join small, intentionally hosted dinners in Lahore where conversation—especially in English—is the main event. These are not large meetups or open parties, but intimate tables of five to eight guests who sign up knowing the theme, host, and location in advance. For weekend plans in Lahore, this kind of dinner can become the anchor—something to build an evening around, not just fit in after other plans fall through. The app's structure helps avoid mismatched expectations by making guest compatibility a visible part of the planning, allowing people to choose dinners that fit their comfort level and language goals. Because the city’s social rhythm often leans on spontaneous plans or family gatherings, a scheduled, language-focused dinner offers a rare space to practice speaking in a relaxed but intentional setting.
 

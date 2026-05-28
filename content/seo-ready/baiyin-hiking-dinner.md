@@ -4,7 +4,7 @@ canonicalPath: "/city/baiyin/hiking-dinner"
 alternatePath: "/en/city/baiyin/hiking-dinner"
 translationKey: "baiyin-hiking-dinner"
 lang: "zh"
-title: "白银徒步饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "白银徒步饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "白银徒步饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "白银的周末节奏不快，但也从不缺想出门的人。 徒步饭局的特别之处，是它把“一起走一段路”和“坐下来吃顿饭”当成一个完整安排，而不是两件事拼在一起。"
 primaryKeyword: "白银徒步饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T040006Z"
 ---
 
-# 白银徒步饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 白银徒步饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 下班后坐在单位楼道台阶上，手机屏幕亮了又暗。你在犹豫要不要报名那场白银徒步饭局——不是怕走路累，是怕走完十公里，坐到饭桌上还得硬撑着找话题。饭局app上这场活动写得清楚：从铁山脚下出发，绕过废弃矿道，终点是西郊一家老式砂锅店。报名前你滑到主理人写的“这桌想聊点安静的话”，突然觉得，也许这次不会尴尬。饭局app不是用来拉群凑饭的工具，而是在白银这样节奏清晰的小城里，用徒步和小桌吃饭的方式，把人真正连上线。它从第一条活动描述就开始筛同桌预期：谁适合，谁会舒服，谁可能中途离开，都提前写明白。
 

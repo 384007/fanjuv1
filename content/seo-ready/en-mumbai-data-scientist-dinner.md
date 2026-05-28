@@ -4,7 +4,7 @@ canonicalPath: "/en/city/mumbai/data-scientist-dinner"
 alternatePath: "/city/mumbai/data-scientist-dinner"
 translationKey: "mumbai-data-scientist-dinner"
 lang: "en"
-title: "Data Scientist Dinner in Mumbai should not feel like a gamble; Fanju app changes the odds"
+title: "Data Scientist Dinner in Mumbai should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "A Data Scientist Dinner in Mumbai shouldn’t involve blind luck. The Fanju app shifts that balance, offering a space where small, intentional dinners connect people through food, not algorithms."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Data Scientist Dinner in Mumbai should not feel like a gamble; Fanju app changes the odds
+# Data Scientist Dinner in Mumbai should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 A Data Scientist Dinner in Mumbai shouldn’t involve blind luck. The Fanju app shifts that balance, offering a space where small, intentional dinners connect people through food, not algorithms. In a city where a meal can unfold in a heritage building in Fort, a tucked-away Parsi cafe near Cumballa Hill, or a rooftop with skyline views from Andheri, Fanju surfaces dinners with clear themes, host notes, and real neighbourhood context. It’s not about grand events—it’s about finding a table where conversation flows as naturally as the chai, guided by transparency and shared curiosity, not chance.
 

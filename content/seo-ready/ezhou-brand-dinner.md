@@ -4,7 +4,7 @@ canonicalPath: "/city/ezhou/brand-dinner"
 alternatePath: "/en/city/ezhou/brand-dinner"
 translationKey: "ezhou-brand-dinner"
 lang: "zh"
-title: "下班后的鄂州，饭局app怎样让品牌饭局有真实同桌"
+title: "下班后的鄂州，饭局app怎样让品牌饭局有真实同桌 | fanju-app"
 titleZh: "下班后的鄂州，饭局app怎样让品牌饭局有真实同桌"
 description: "在鄂州，一场饭局能不能吃得踏实，往往取决于报名前那几分钟的阅读。 品牌饭局和普通拼桌最大的不同，是主理人会在活动页里写清楚“这顿饭想做什么”。 比如，有人会写：“这次约的是在本地做独立设计的伙伴，想听听大家怎么平衡审美和生存。"
 primaryKeyword: "鄂州品牌饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T220007Z"
 ---
 
-# 下班后的鄂州，饭局app怎样让品牌饭局有真实同桌
+# 下班后的鄂州，饭局app怎样让品牌饭局有真实同桌 | fanju-app
 
 星期五傍晚，鄂州的空气里飘着湖风和饭香。你站在吴都大道的街口，刚下班，手机在掌心发烫。群里消息刷了一屏又一屏，相亲局、酒局、公司聚餐……但你只想找个安静的地方，和几个陌生人坐下来，吃顿不带任务的饭。这时你打开饭局app，看到今晚在洋澜湖附近有个品牌饭局，六个人，主题是“在鄂州，聊点和工作无关的事”。主理人写得很清楚：不查岗，不劝酒，饭后可以一起走两圈湖。你犹豫了一下，点了报名。这不是群聊接龙，也不是公司活动，而是一场你能在报名前就知道大概会发生什么的饭局。饭局app在鄂州做的，就是把“见陌生人吃饭”这件事，从模糊的邀约变成可预期的小桌交流。
 

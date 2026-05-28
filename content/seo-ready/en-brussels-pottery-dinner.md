@@ -4,7 +4,7 @@ canonicalPath: "/en/city/brussels/pottery-dinner"
 alternatePath: "/city/brussels/pottery-dinner"
 translationKey: "brussels-pottery-dinner"
 lang: "en"
-title: "When Pottery Dinner feels too loose in Brussels, Fanju app starts with the table"
+title: "When Pottery Dinner feels too loose in Brussels, Fanju app starts with the table | fanju-app"
 description: "Fanju app in Brussels reimagines how small dinners connect people, especially women, by anchoring the experience in intention rather than chance. Instead of open-ended gatherings where dynamics can drift, the app hosts c"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Pottery Dinner feels too loose in Brussels, Fanju app starts with the table
+# When Pottery Dinner feels too loose in Brussels, Fanju app starts with the table | fanju-app
 
 Fanju app in Brussels reimagines how small dinners connect people, especially women, by anchoring the experience in intention rather than chance. Instead of open-ended gatherings where dynamics can drift, the app hosts clearly defined Pottery Dinner events—intimate meals with four to six guests, hosted in residential neighbourhoods like Ixelles, Etterbeek, or Schaerbeek. These aren’t themed around food alone, but around shared comfort: familiar pacing, transparent host intentions, and inclusive table manners. The app’s structure ensures that before anyone RSVPs, they’ve seen the host’s reasoning, the evening’s rhythm, and the boundaries in place. This clarity is what makes the difference between a meal that feels like exposure and one that feels like entry.
 

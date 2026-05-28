@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cape-town/hosted-table"
 alternatePath: "/city/cape-town/hosted-table"
-title: "A calmer way to approach Hosted Table in Cape Town through Fanju app"
+title: "A calmer way to approach Hosted Table in Cape Town through Fanju app | fanju-app | 饭局app"
 description: "The Fanju app offers a quiet but meaningful shift in how Cape Town residents connect over food. Instead of crowded pop-ups or impersonal dining events, it supports small, intentional meals hosted in homes and quiet local"
 recoveredFromD1: true
 ---
@@ -33,3 +33,9 @@ recoveredFromD1: true
 <p>It’s easy for shared dining to become a commodity—points on a profile, a line on a resume, another “experience” checked off. Fanju avoids that by not tracking attendance or encouraging repeat bookings as a goal. A Hosted Table dinner in Cape Town isn’t a service. It’s a choice—to open your home, to accept an invitation, to sit and talk without agenda. The next step isn’t another event. It might be a text to a guest you connected with, or simply carrying the tone of that evening into your daily life. The app doesn’t push follow-ups. It leaves space for what happens after the meal to unfold naturally.</p>
 <p>That’s the quiet strength of Hosted Table: it doesn’t try to scale connection. It supports one meal at a time, in real homes, with real food. In a city where divides run deep, that modest approach can be radical. You don’t need to change Cape Town in one night. You just need to show up to one table, ready to listen. The rest follows.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

@@ -4,7 +4,7 @@ canonicalPath: "/city/zhenjiang/freelancer-dinner"
 alternatePath: "/en/city/zhenjiang/freelancer-dinner"
 translationKey: "zhenjiang-freelancer-dinner"
 lang: "zh"
-title: "镇江的自由职业者饭局为什么值得去，饭局app在报名前就给了答案"
+title: "镇江的自由职业者饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
 titleZh: "镇江的自由职业者饭局为什么值得去，饭局app在报名前就给了答案"
 description: "在镇江，一座以历史底蕴和江南风情闻名的城市，一场自由职业者饭局的吸引力，往往在于它能否在热闹的表面下，提供一份恰到好处的舒适感。对于独自旅行的你来说，报名参加一场饭局，最先考虑的可能不是认识多少人，而是能否在一个陌生的环境里，找到一个可以放"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260528T070525Z"
 ---
 
-# 镇江的自由职业者饭局为什么值得去，饭局app在报名前就给了答案
+# 镇江的自由职业者饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
 独自路过镇江，在即将离开的夜晚，你会不会想找点什么不一样的东西？当城市褪去白天的喧嚣，江边亮起万家灯火，一个人在陌生的城市，尤其是在一座有故事的老城，难免会有些许的孤寂。这时候，一个精心组织的饭局，尤其是一个为自由职业者量身打造的饭局，或许能成为你短暂旅程中的一抹亮色。饭局app，作为一个专注于线下小桌社交的应用，它提供的不仅仅是一个吃饭的平台，更是一种有温度的连接方式，尤其在镇江这样的城市，它能将一次泛泛的聚会，变成一次值得期待的体验。在报名前，你或许会犹豫：这桌饭值不值得我花时间和精力去？这正是饭局app想要解答的。
 

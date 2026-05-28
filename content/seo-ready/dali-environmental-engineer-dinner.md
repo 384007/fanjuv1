@@ -4,7 +4,7 @@ canonicalPath: "/city/dali/environmental-engineer-dinner"
 alternatePath: "/en/city/dali/environmental-engineer-dinner"
 translationKey: "dali-environmental-engineer-dinner"
 lang: "zh"
-title: "大理环境工程师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "大理环境工程师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "大理环境工程师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "你提前十分钟到，站在店外等，看见另外两个人也在门口张望。 没人主动打招呼，但彼此都心照不宣地保持着一种“我在等确认”的状态。 这种时刻，边界感比热情更重要。 大理的节奏慢，但慢不等于模糊。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 大理环境工程师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 大理环境工程师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
 在大理，刚来的这个月，傍晚六点走出写字楼，风从苍山方向吹来，带着一点湿气和植物的气息。你站在路边，背包还搭在肩上，手机震动了一下——饭局app推送了一条提醒：今晚七点半，古城南门附近的一家小店，大理环境工程师饭局，五人小桌，主理人是一位在本地做水质监测三年的同行。你没急着点确认，反而多看了两遍描述里那句“不聊项目汇报，只谈实际工作中遇到的边界问题”。这不是普通的饭局邀约，而是一次具体的人和具体问题的相遇。饭局app的存在，不是为了多凑一顿饭，而是让像你这样刚到大理的人，在无数社交信号中，能认出哪一桌是真正可以坐下来的。
 

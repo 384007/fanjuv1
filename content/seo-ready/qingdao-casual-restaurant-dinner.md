@@ -4,7 +4,7 @@ canonicalPath: "/city/qingdao/casual-restaurant-dinner"
 alternatePath: "/en/city/qingdao/casual-restaurant-dinner"
 translationKey: "qingdao-casual-restaurant-dinner"
 lang: "zh"
-title: "在青岛把轻松餐厅饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在青岛把轻松餐厅饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在青岛把轻松餐厅饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "青岛的轻松餐厅饭局真正难的不是找餐厅，而是把同桌预期、预算、聊天节奏和退出边界提前说清楚。饭局app应该在报名之前筛掉模糊邀约，让一顿轻松晚饭不变成尴尬应酬。"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在青岛把轻松餐厅饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在青岛把轻松餐厅饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 青岛的轻松餐厅饭局看起来门槛很低：找一家不太正式的店，约几个人，晚饭时聊一聊。但真正容易出问题的地方，恰恰是“轻松”两个字没有被定义。饭局app需要在报名之前说清楚这桌饭的预算、同桌关系、聊天节奏和退出边界，让参与者知道自己是来放松，还是被拖进另一场应酬。
 
 海滨城市的晚饭有自己的节奏。有人下班后只想吃点简单的，有人希望认识新朋友，有人把轻松餐厅当作商务关系的低压入口。目标不同并不可怕，可怕的是所有人带着不同预期坐到同一张桌上，还以为尴尬会自然消失。

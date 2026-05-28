@@ -4,7 +4,7 @@ canonicalPath: "/city/sansha/hidden-gem-dinner"
 alternatePath: "/en/city/sansha/hidden-gem-dinner"
 translationKey: "sansha-hidden-gem-dinner"
 lang: "zh"
-title: "三沙想找一桌宝藏餐厅饭局，饭局app先看同桌边界"
+title: "三沙想找一桌宝藏餐厅饭局，饭局app先看同桌边界 | fanju-app"
 titleZh: "三沙想找一桌宝藏餐厅饭局，饭局app先看同桌边界"
 description: "三沙的傍晚，海风略带咸味，写字楼灯光渐次亮起。 你站在公交站前刷着手机，突然看到一条“三沙宝藏餐厅饭局”的推送——饭局app / Fanju饭局上的一桌人，约在市区一家藏在老巷里的本地小馆。 这顿饭不是相亲保证、不是随机群聊、不是无限刷资料，而是围绕小桌吃饭、清晰主题和线下连接的社交尝试。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 三沙想找一桌宝藏餐厅饭局，饭局app先看同桌边界
+# 三沙想找一桌宝藏餐厅饭局，饭局app先看同桌边界 | fanju-app
 
 三沙的傍晚，海风略带咸味，写字楼灯光渐次亮起。你站在公交站前刷着手机，突然看到一条“三沙宝藏餐厅饭局”的推送——饭局app / Fanju饭局上的一桌人，约在市区一家藏在老巷里的本地小馆。这顿饭不是相亲保证、不是随机群聊、不是无限刷资料，而是围绕小桌吃饭、清晰主题和线下连接的社交尝试。在三沙，这样的饭局越来越常见：一群陌生人因为对食物和城市的好奇坐到一起，不强求深交，也不假装熟络。它更像是一次低压力的线下落脚，让习惯独来独往的人，有机会看见另一种生活节奏。
 

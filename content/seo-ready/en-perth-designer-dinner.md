@@ -4,7 +4,7 @@ canonicalPath: "/en/city/perth/designer-dinner"
 alternatePath: "/city/perth/designer-dinner"
 translationKey: "perth-designer-dinner"
 lang: "en"
-title: "Designer Dinner in Perth should not feel like a gamble; Fanju app changes the odds"
+title: "Designer Dinner in Perth should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "In Perth, the casual approach to many weekend meals can sometimes mean the focus drifts. While a relaxed vibe is often welcome, it can also lead to a lack of clear intention, leaving newcomers feeling adrift."
 primaryKeyword: "Perth Designer Dinner"
 secondaryKeywords: "Perth social dining|Designer dinner group|dinner buddy app|Fanju app|small-table dinner in Perth"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T190004Z"
 ---
 
-# Designer Dinner in Perth should not feel like a gamble; Fanju app changes the odds
+# Designer Dinner in Perth should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 Navigating a new city like Perth can feel like a constant experiment, especially when looking for genuine connections over a shared meal. You might wonder if a "Designer Dinner" is just another term for a generic social event, or if it offers something more substantial for newcomers seeking their first authentic local experience. With Fanju app, the aim is to demystify these gatherings, transforming them from potential awkwardness into curated, low-pressure opportunities to meet people, where the conversation and company are the main attractions, not just the venue's fleeting hype?
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/luanda/supper-club"
 alternatePath: "/city/luanda/supper-club"
 translationKey: "luanda-supper-club"
 lang: "en"
-title: "What makes Supper Club in Luanda worth the risk; Fanju app answers before you arrive"
+title: "What makes Supper Club in Luanda worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "A Luanda supper club works only when the host, neighbourhood, guest mix, timing, and exit boundaries are visible before dinner. Fanju app helps turn that uncertainty into a table people can judge before they cross town."
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Supper Club in Luanda worth the risk; Fanju app answers before you arrive
+# What makes Supper Club in Luanda worth the risk; Fanju app answers before you arrive | fanju-app
 
 A Luanda supper club can sound exciting and still feel hard to judge from the outside. Fanju app helps by making the table visible before anyone commits: the host's reason, the neighbourhood, the guest mix, the cost expectation, and the kind of conversation the night is meant to hold. That clarity is what turns a risky invitation into a dinner worth considering.
 

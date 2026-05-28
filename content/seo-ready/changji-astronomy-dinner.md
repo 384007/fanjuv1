@@ -4,7 +4,7 @@ canonicalPath: "/city/changji/astronomy-dinner"
 alternatePath: "/en/city/changji/astronomy-dinner"
 translationKey: "changji-astronomy-dinner"
 lang: "zh"
-title: "昌吉天文爱好者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "昌吉天文爱好者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "昌吉天文爱好者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "报名前的确认页上，写着这桌饭的三条简单规则：九点后可以安静离开，不劝酒，聊天不绕开“今晚能不能出城看流星雨”。 这些不是口号，而是筛选。 在昌吉，一场真正属于天文爱好者的饭局，不是靠话题广度撑场面，而是靠沉默的共识维系节奏。"
 primaryKeyword: "昌吉天文爱好者饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T010006Z"
 ---
 
-# 昌吉天文爱好者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 昌吉天文爱好者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
 傍晚七点，昌吉的天光还浮在西边山脊上，饭局app推送来一条提醒：今晚的天文爱好者饭局将在河滩路一家小馆子开始，六人桌，主理人是本地天文台的观测员老陈。参与者里有带望远镜来的中学生，有刚退休的物理老师，也有在乌鲁木齐上班、专程开车过来的工程师。这顿饭不订大桌，不搞宣讲，也不拍合影，菜单上只有家常拌面和两道炒菜，但报名时每人要填一段自己最近一次观星的体验。饭局app不是用来凑热闹的，它存在的意义，是让昌吉的天文爱好者饭局从“可能还行”变成“这桌就是为你留的”。
 

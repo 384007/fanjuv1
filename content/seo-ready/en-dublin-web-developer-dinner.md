@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dublin/web-developer-dinner"
 alternatePath: "/city/dublin/web-developer-dinner"
 translationKey: "dublin-web-developer-dinner"
 lang: "en"
-title: "Dublin has plenty of Web Developer Dinner options; Fanju app is the one that names the table first"
+title: "Dublin has plenty of Web Developer Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Dublin’s tech scene is dense, but conversations between developers often stay surface-level—confined to stand-ups or Slack threads."
 primaryKeyword: "Dublin Web Developer Dinner"
 secondaryKeywords: "Dublin social dining|Web Developer dinner group|dinner buddy app|Fanju app|small-table dinner in Dublin"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T100008Z"
 ---
 
-# Dublin has plenty of Web Developer Dinner options; Fanju app is the one that names the table first
+# Dublin has plenty of Web Developer Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Walking back from Grand Canal Dock after a long day, the city lighting up in patches along the river, you pause at the thought of going straight home. It’s not that you’re lonely—it’s that the evening feels too small. That’s when a dinner with purpose helps: not a networking event, not a group chat with vague plans, but a real table, set for a small group of developers who actually want to talk about work in a way that doesn’t drain you. The Fanju app is where these dinners start—not with a broadcast, but with a named host, a named table, and a clear reason to gather. Dublin Web Developer Dinner, when done right, is less about eating and more about re-entering the rhythm of shared craft. It’s the kind of evening that feels simple, but only because someone thought it through.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/buenos-aires/dog-owner-dinner"
 alternatePath: "/city/buenos-aires/dog-owner-dinner"
 translationKey: "buenos-aires-dog-owner-dinner"
 lang: "en"
-title: "When Dog Owner Dinner feels too loose in Buenos Aires, Fanju app starts with the table"
+title: "When Dog Owner Dinner feels too loose in Buenos Aires, Fanju app starts with the table | fanju-app"
 description: "Friday at 7:30 PM in Buenos Aires, you’re standing outside a trattoria in Villa Crespo, dog leash in hand, checking your phone one last time. The street is warm, cicadas hum under the trees, and the thought of walking"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T111336Z"
 ---
 
-# When Dog Owner Dinner feels too loose in Buenos Aires, Fanju app starts with the table
+# When Dog Owner Dinner feels too loose in Buenos Aires, Fanju app starts with the table | fanju-app
 
 The Fanju app in Buenos Aires helps people find small, intentional dinners where social expectations are clear and pressure is low—especially useful when you're new in the city or stepping out after a long stretch of routines. A Dog Owner Dinner isn’t about romance or networking; it’s a chance to share a meal with others who understand what it’s like raising a dog in the city, from navigating Palermo’s dog-friendly terraces to late-night walks in Recoleta. The app sets up gatherings where the topic is the dog, but the connection is human. You’re not expected to perform or impress. If you’ve hesitated before joining a group dinner because it felt too open-ended, these dinners are designed to feel manageable. The table is small, the host gives clear cues, and the conversation often starts with, “What breed is yours?” rather than a rehearsed intro.
 

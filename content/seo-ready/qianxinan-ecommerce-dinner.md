@@ -4,7 +4,7 @@ canonicalPath: "/city/qianxinan/ecommerce-dinner"
 alternatePath: "/en/city/qianxinan/ecommerce-dinner"
 translationKey: "qianxinan-ecommerce-dinner"
 lang: "zh"
-title: "把黔西南电商饭局坐成真实小桌，饭局app需要先说明什么"
+title: "把黔西南电商饭局坐成真实小桌，饭局app需要先说明什么 | fanju-app"
 titleZh: "把黔西南电商饭局坐成真实小桌，饭局app需要先说明什么"
 description: "在黔西南电商饭局这个话题里，饭局app的出现不是为了再拉一个群聊，而是把人真正请到饭桌上。 它围绕小桌吃饭、清晰主题和线下连接展开，是一次用饭搭子逻辑重建本地交流的尝试。 在黔西南，一场电商饭局不该是强行拼凑的饭局表演，而应有明确的节奏、边界和主理人意图。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 把黔西南电商饭局坐成真实小桌，饭局app需要先说明什么
+# 把黔西南电商饭局坐成真实小桌，饭局app需要先说明什么 | fanju-app
 
 在黔西南电商饭局这个话题里，饭局app的出现不是为了再拉一个群聊，而是把人真正请到饭桌上。它围绕小桌吃饭、清晰主题和线下连接展开，是一次用饭搭子逻辑重建本地交流的尝试。在黔西南，一场电商饭局不该是强行拼凑的饭局表演，而应有明确的节奏、边界和主理人意图。它不是相亲保证、不是随机群聊、不是无限刷资料，而是通过具体场景筛选同频参与者，让交流回归到面对面的真实对话中。黔西南的电商从业者常在县城与园区之间往返，信息分散，饭局的意义正在于把流动的资源和经验在一张桌上短暂凝结。
 

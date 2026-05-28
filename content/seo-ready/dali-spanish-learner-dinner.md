@@ -4,7 +4,7 @@ canonicalPath: "/city/dali/spanish-learner-dinner"
 alternatePath: "/en/city/dali/spanish-learner-dinner"
 translationKey: "dali-spanish-learner-dinner"
 lang: "zh"
-title: "大理西班牙语学习者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "大理西班牙语学习者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "大理西班牙语学习者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "一场饭局的成败，往往取决于主理人的可靠性，尤其是在大理这样的慢节奏城市。 一个真正负责任的主理人，会提前考虑所有可能出现的细节，确保每一位参与者都能感受到被尊重和被照顾。"
 primaryKeyword: "大理西班牙语学习者饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T190004Z"
 ---
 
-# 大理西班牙语学习者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 大理西班牙语学习者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
 在大理，周末想找个地方吃顿饭，但又不想随便找个餐厅拼桌，这时候，一个有明确主题和预期的小饭局就显得尤为珍贵。饭局app的出现，正是为了满足这种对高质量线下连接的需求，它不只是一个简单的邀约平台，更是围绕着清晰主题、小桌人数和真实互动的社交空间，尤其对于像大理这样充满生活气息的城市，它能帮助人们找到真正合拍的同桌，而不是漫无目的的社交。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/fukuoka/remote-worker-dinner"
 alternatePath: "/city/fukuoka/remote-worker-dinner"
 translationKey: "fukuoka-remote-worker-dinner"
 lang: "en"
-title: "Fukuoka strangers sit down easier when Fanju app frames the Remote Worker Dinner table first"
+title: "Fukuoka strangers sit down easier when Fanju app frames the Remote Worker Dinner table first | fanju-app"
 description: "In a city where food plays such a big role in the culture, it's no surprise that dinner is the perfect setting for socializing. From the famous tonkotsu ramen to the freshest sushi, Fukuoka's culinary scene is the perfec"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Fukuoka strangers sit down easier when Fanju app frames the Remote Worker Dinner table first
+# Fukuoka strangers sit down easier when Fanju app frames the Remote Worker Dinner table first | fanju-app
 In Fukuoka, where the pace of life is often dictated by the latest technology trends, the Fanju app is helping to bring people together in a more traditional way - over dinner. As the city continues to grow and attract more remote workers, the need for meaningful social connections has never been more pressing. The Fanju app is stepping in to fill this gap by facilitating Remote Worker Dinners, where strangers can come together and forge new relationships in a relaxed and informal setting.
 
 ## Fukuoka has enough vague plans; Remote Worker Dinner deserves a named table

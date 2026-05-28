@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangalore/salsa-dinner"
 alternatePath: "/city/bangalore/salsa-dinner"
 translationKey: "bangalore-salsa-dinner"
 lang: "en"
-title: "Salsa Dinner in Bangalore should not feel like a gamble; Fanju app changes the odds"
+title: "Salsa Dinner in Bangalore should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "Salsa Dinner in Bangalore often carries the weight of uncertainty—will the conversation spark, or stall? Will the host have thought through the evening, or is this just another casual meetup with mismatched expectations?"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Salsa Dinner in Bangalore should not feel like a gamble; Fanju app changes the odds
+# Salsa Dinner in Bangalore should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 Salsa Dinner in Bangalore often carries the weight of uncertainty—will the conversation spark, or stall? Will the host have thought through the evening, or is this just another casual meetup with mismatched expectations? The Fanju app redefines that equation by prioritizing intention over randomness. It doesn’t just connect people for dinner; it surfaces hosts who curate their tables with care, setting a tone before the first message is even sent. In a city where social fatigue from shallow networking is real, the app quietly shifts the balance toward meaningful connection through thoughtful design.
 

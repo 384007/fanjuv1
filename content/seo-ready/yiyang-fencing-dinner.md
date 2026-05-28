@@ -4,7 +4,7 @@ canonicalPath: "/city/yiyang/fencing-dinner"
 alternatePath: "/en/city/yiyang/fencing-dinner"
 translationKey: "yiyang-fencing-dinner"
 lang: "zh"
-title: "益阳想参加击剑饭局，饭局app把信任感放在饭前"
+title: "益阳想参加击剑饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "益阳想参加击剑饭局，饭局app把信任感放在饭前"
 description: "晚饭七点，益阳城西的老街巷口刚亮起暖黄的灯。巷子深处一家小馆子，木门半掩，桌布是素色的棉麻，桌上摆着两副没拆封的击剑手套。没人高声说话，只有水壶在炉上轻轻呜咽。这样的饭局，不是谁都能推门就坐。在益阳，越来越多的人开始用饭局app找饭搭子，但"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 益阳想参加击剑饭局，饭局app把信任感放在饭前
+# 益阳想参加击剑饭局，饭局app把信任感放在饭前 | fanju-app
 
 晚饭七点，益阳城西的老街巷口刚亮起暖黄的灯。巷子深处一家小馆子，木门半掩，桌布是素色的棉麻，桌上摆着两副没拆封的击剑手套。没人高声说话，只有水壶在炉上轻轻呜咽。这样的饭局，不是谁都能推门就坐。在益阳，越来越多的人开始用饭局app找饭搭子，但真正让人愿意留下来的，是那些在饭前就建立起信任的饭局。饭局app不推送热闹的拼桌，它更像一个安静的筛选器，把愿意认真吃饭、愿意听懂对方话里潜台词的人，慢慢聚到一张桌上。益阳的节奏本就不快，可正因为慢，才更需要选对那一顿饭。
 

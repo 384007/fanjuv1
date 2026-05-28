@@ -4,7 +4,7 @@ canonicalPath: "/city/hotan/fundraising-dinner"
 alternatePath: "/en/city/hotan/fundraising-dinner"
 translationKey: "hotan-fundraising-dinner"
 lang: "zh"
-title: "和田公益筹款饭局｜主题和费用先说清 - Fanju 饭局app"
+title: "和田公益筹款饭局｜主题和费用先说清 - Fanju 饭局app | fanju-app"
 titleZh: "和田公益筹款饭局｜主题和费用先说清 - Fanju 饭局app"
 description: "Fanju 和田公益筹款饭局强调公开地点、主题透明、费用说明和参与边界。通过小桌饭局把信息讲清楚，不承诺筹款结果，也不替代正规合规流程。"
 primaryKeyword: "和田公益筹款饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
 ---
 
-# 和田公益筹款饭局，Fanju 饭局app先把信任边界说清楚
+# 和田公益筹款饭局，Fanju 饭局app先把信任边界说清楚 | fanju-app
 
 和田公益筹款饭局适合把公益主题、费用和参与边界提前说清楚的人。Fanju 让一顿小桌饭局成为公开沟通的场景，帮助同城参与者认识同频的人，但不承诺筹款结果，也不替代正规合规流程。
 

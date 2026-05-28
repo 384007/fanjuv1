@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vienna/table-tennis-dinner"
 alternatePath: "/city/vienna/table-tennis-dinner"
 translationKey: "vienna-table-tennis-dinner"
 lang: "en"
-title: "Vienna has plenty of Table Tennis Dinner options; Fanju app is the one that names the table first"
+title: "Vienna has plenty of Table Tennis Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "After a long day walking Vienna’s wide boulevards or standing through a gallery talk in the MuseumsQuartier, the idea of a relaxed dinner with conversation and a few rallies on a table tennis setup starts to feel less li"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Vienna has plenty of Table Tennis Dinner options; Fanju app is the one that names the table first
+# Vienna has plenty of Table Tennis Dinner options; Fanju app is the one that names the table first | fanju-app
 
 After a long day walking Vienna’s wide boulevards or standing through a gallery talk in the MuseumsQuartier, the idea of a relaxed dinner with conversation and a few rallies on a table tennis setup starts to feel less like a novelty and more like a necessity. In a city where formality lingers in the architecture and the coffeehouse rituals, finding a shared table that feels both intimate and spontaneous can be difficult. The Fanju app helps by doing something simple but rare: it names the table before the guests arrive, anchoring each evening around a specific host, location, and rhythm. This isn’t about booking a seat at a dinner party — it’s about stepping into a small, defined space within one of Europe’s grandest urban frameworks. The contrast is the point.
 

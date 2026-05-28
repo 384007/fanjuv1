@@ -4,7 +4,7 @@ canonicalPath: "/city/dazhou/side-hustle-dinner"
 alternatePath: "/en/city/dazhou/side-hustle-dinner"
 translationKey: "dazhou-side-hustle-dinner"
 lang: "zh"
-title: "达州不想只靠群聊时，饭局app怎样把副业饭局坐成一桌"
+title: "达州不想只靠群聊时，饭局app怎样把副业饭局坐成一桌 | fanju-app"
 titleZh: "达州不想只靠群聊时，饭局app怎样把副业饭局坐成一桌"
 description: "那天傍晚，我站在达州通川桥边的巷口等饭局app推送的确认通知。雨刚停，青石板路上的水光倒映着路灯，像一条暗河。我约了五个人，都是通过饭局app报名的，主题是“副业试水：自由接单与小成本启动”。没人发消息，没人提前到。我有点怀疑，这种靠线上拉"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 达州不想只靠群聊时，饭局app怎样把副业饭局坐成一桌
+# 达州不想只靠群聊时，饭局app怎样把副业饭局坐成一桌 | fanju-app
 
 那天傍晚，我站在达州通川桥边的巷口等饭局app推送的确认通知。雨刚停，青石板路上的水光倒映着路灯，像一条暗河。我约了五个人，都是通过饭局app报名的，主题是“副业试水：自由接单与小成本启动”。没人发消息，没人提前到。我有点怀疑，这种靠线上拉人、线下碰头的饭局，真能在达州撑起一张有温度的饭桌吗？可当第六个人拎着伞走过来，笑着说“你是发起人吧？我从南外那边骑车过来的”，我突然觉得，这事或许能成。饭局app在这里不是工具，而是某种试探性的邀请——它让达州那些原本在朋友圈边缘观望的人，有了一个可以走出来的理由。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/moscow/table-tennis-dinner"
 alternatePath: "/city/moscow/table-tennis-dinner"
 translationKey: "moscow-table-tennis-dinner"
 lang: "en"
-title: "In Moscow, Fanju app turns Table Tennis Dinner into a table people can actually trust"
+title: "In Moscow, Fanju app turns Table Tennis Dinner into a table people can actually trust | fanju-app"
 description: "In Moscow, where city rhythms often move too fast for conversation and apartment doors stay shut behind heavy entry codes, the Fanju app quietly offers a different kind of connection: a dinner table built around table te"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Moscow, Fanju app turns Table Tennis Dinner into a table people can actually trust
+# In Moscow, Fanju app turns Table Tennis Dinner into a table people can actually trust | fanju-app
 
 In Moscow, where city rhythms often move too fast for conversation and apartment doors stay shut behind heavy entry codes, the Fanju app quietly offers a different kind of connection: a dinner table built around table tennis, where people come not for loud parties but for the quiet trust of sharing a meal. It’s not a solution to all urban isolation, but it’s a real one—small, repeated, and anchored in the idea that you don’t need to be outgoing or fluent in Russian to belong. The app helps structure these gatherings so that what could feel risky—dining with strangers—becomes something predictable, safe, and human.
 

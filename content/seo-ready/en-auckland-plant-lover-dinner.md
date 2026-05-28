@@ -4,7 +4,7 @@ canonicalPath: "/en/city/auckland/plant-lover-dinner"
 alternatePath: "/city/auckland/plant-lover-dinner"
 translationKey: "auckland-plant-lover-dinner"
 lang: "en"
-title: "A calmer way to approach Plant Lover Dinner in Auckland through Fanju app"
+title: "A calmer way to approach Plant Lover Dinner in Auckland through Fanju app | fanju-app"
 description: "For remote workers in Auckland, evenings can blur into silence after the laptop closes. The Fanju app offers a subtle shift: small, intentional dinners where conversation grows as naturally as the potted kōwhai on the wi"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach Plant Lover Dinner in Auckland through Fanju app
+# A calmer way to approach Plant Lover Dinner in Auckland through Fanju app | fanju-app
 
 For remote workers in Auckland, evenings can blur into silence after the laptop closes. The Fanju app offers a subtle shift: small, intentional dinners where conversation grows as naturally as the potted kōwhai on the windowsill. These aren’t loud networking events or performative socializing. They’re hosted meals with clear themes—like Plant Lover Dinner—where attendees share a quiet interest and a need for real presence. Through Fanju app, Aucklanders find tables in suburban homes or courtyard apartments where someone has cooked, a few guests have replied, and the rhythm of the city outside slows just enough to let connection form. It’s not about filling a gap. It’s about choosing a consistent anchor in a week that otherwise lacks one.
 

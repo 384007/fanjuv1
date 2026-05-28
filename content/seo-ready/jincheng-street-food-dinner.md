@@ -4,7 +4,7 @@ canonicalPath: "/city/jincheng/street-food-dinner"
 alternatePath: "/en/city/jincheng/street-food-dinner"
 translationKey: "jincheng-street-food-dinner"
 lang: "zh"
-title: "晋城街头美食饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "晋城街头美食饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "晋城街头美食饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "在晋城，一桌饭的节奏常常比菜上得更快。 老城区的饭点，巷子窄，桌距近，说话声容易撞在一起。 如果没人牵头，陌生人围坐容易陷入两种极端：一种是全程安静扒饭，另一种是有人主导话题，其他人被动附和。"
 primaryKeyword: "晋城街头美食饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T200005Z"
 ---
 
-# 晋城街头美食饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 晋城街头美食饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 晋城街头美食饭局从不是凑上一桌人、点几个招牌菜就成的事。饭局app的存在，正是为了把那些原本靠运气拼上的饭局，变成可以预期、可以判断、可以安心赴约的一顿饭。在晋城，一条老街的烟火气背后，藏着的是熟人社会的节奏和尺度。饭局app不替代这种节奏，而是用更清晰的信息，让陌生人之间也能在一条巷口小馆里找到共同的落座方式。比起微信群里的临时接龙，或朋友介绍的相亲式饭局，它把“适不适合”这件事提前到了报名之前——菜单之外，谁在组织、同桌是谁、这顿饭想聊什么，都写在明处。这才是晋城街头美食饭局真正开始的地方。
 

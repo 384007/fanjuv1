@@ -4,7 +4,7 @@ canonicalPath: "/en/city/warsaw/salsa-dinner"
 alternatePath: "/city/warsaw/salsa-dinner"
 translationKey: "warsaw-salsa-dinner"
 lang: "en"
-title: "What makes Salsa Dinner in Warsaw worth the risk; Fanju app answers before you arrive"
+title: "What makes Salsa Dinner in Warsaw worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "Warriors of the weekend social grind in Warsaw know the quiet dread of showing up to a gathering where no one speaks your language—professionally or otherwise. For founders, consultants, and independent professionals, ne"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Salsa Dinner in Warsaw worth the risk; Fanju app answers before you arrive
+# What makes Salsa Dinner in Warsaw worth the risk; Fanju app answers before you arrive | fanju-app
 
 Warriors of the weekend social grind in Warsaw know the quiet dread of showing up to a gathering where no one speaks your language—professionally or otherwise. For founders, consultants, and independent professionals, networking often feels like forced small talk disguised as opportunity. Salsa Dinner, a concept gaining quiet traction across the city’s more thoughtful districts, offers an alternative: a small, intentional table where conversation flows with the meal, not against it. The Fanju app makes this possible by turning vague social experiments into predictable, well-framed experiences. It curates dinners with clarity—host intentions, professional backgrounds, and evening rhythms are shared upfront—so professionals can decide whether a table fits their goals before they commit. This isn’t another open mixer; it’s a shift from volume to value.
 

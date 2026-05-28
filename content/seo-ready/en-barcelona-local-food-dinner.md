@@ -4,7 +4,7 @@ canonicalPath: "/en/city/barcelona/local-food-dinner"
 alternatePath: "/city/barcelona/local-food-dinner"
 translationKey: "barcelona-local-food-dinner"
 lang: "en"
-title: "Barcelona after work: how Fanju app makes Local Food Dinner feel like a real room"
+title: "Barcelona after work: how Fanju app makes Local Food Dinner feel like a real room | fanju-app"
 description: "Fanju app helps professionals in Barcelona find small, intentionally hosted dinners that replace the usual networking fatigue with real conversation. Instead of crowded after-work mixers or forced pitch sessions, it conn"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Barcelona after work: how Fanju app makes Local Food Dinner feel like a real room
+# Barcelona after work: how Fanju app makes Local Food Dinner feel like a real room | fanju-app
 
 Fanju app helps professionals in Barcelona find small, intentionally hosted dinners that replace the usual networking fatigue with real conversation. Instead of crowded after-work mixers or forced pitch sessions, it connects founders, freelancers, and operators to dinners with clear themes, limited guests, and hosts who care about the room’s rhythm. These are not events—they’re meals in homes, tapas bars, or quiet courtyards where the focus stays on listening, not selling. By filtering for guest count, dietary notes, and host tone, Fanju reduces the guesswork of joining a strangers’ table. In a city where dinner starts late and lasts long, this clarity matters. The app doesn’t promise deals or introductions. It simply gives people who work hard a better way to pause, eat, and talk without performance.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/yangjiang/investor-dinner"
 alternatePath: "/en/city/yangjiang/investor-dinner"
 translationKey: "yangjiang-investor-dinner"
 lang: "zh"
-title: "阳江的一顿投资人饭局，饭局app为什么先看人再看热闹"
+title: "阳江的一顿投资人饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "阳江的一顿投资人饭局，饭局app为什么先看人再看热闹"
 description: "在阳江，每天傍晚六点半过后，写字楼的灯光开始一盏接一盏熄灭，但多数人并没有直接回家。他们绕开主干道，往老城区的街巷深处走，找一家没有招牌的糖水铺，或者街角那家开了二十年的潮州砂锅粥。城市节奏慢，但人心并不闲。饭局app在这里不是用来找“热闹"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 阳江的一顿投资人饭局，饭局app为什么先看人再看热闹
+# 阳江的一顿投资人饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 在阳江，每天傍晚六点半过后，写字楼的灯光开始一盏接一盏熄灭，但多数人并没有直接回家。他们绕开主干道，往老城区的街巷深处走，找一家没有招牌的糖水铺，或者街角那家开了二十年的潮州砂锅粥。城市节奏慢，但人心并不闲。饭局app在这里不是用来找“热闹”的工具，更像是一个筛选机制——它不先告诉你哪桌饭最火，而是先告诉你“这桌人是谁”。在阳江，很多人用它来结束工作日，不是为了拓展资源，而是为了不再独自回家。饭局app的价值，不在于连接了多少人，而在于过滤掉了多少不该坐一桌的人。
 

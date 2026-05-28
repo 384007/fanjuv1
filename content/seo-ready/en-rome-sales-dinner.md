@@ -4,7 +4,7 @@ canonicalPath: "/en/city/rome/sales-dinner"
 alternatePath: "/city/rome/sales-dinner"
 translationKey: "rome-sales-dinner"
 lang: "en"
-title: "A calmer way to approach Sales Dinner in Rome through Fanju app"
+title: "A calmer way to approach Sales Dinner in Rome through Fanju app | fanju-app"
 description: "Rome's weekend table is a place where people come together to share stories, ideas, and experiences. However, without a clear frame, these gatherings can quickly become vague social plans. Sales Dinner, in particular,"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T170006Z"
 ---
 
-# A calmer way to approach Sales Dinner in Rome through Fanju app
+# A calmer way to approach Sales Dinner in Rome through Fanju app | fanju-app
 As a social dining app, Fanju app brings people together in Rome for small, clearly described meals and real-world connections. On a typical weekend, the city comes alive with the sound of clinking glasses and lively conversations, making it the perfect setting for a Sales Dinner. With Fanju app, hosts can create a unique and intimate atmosphere, allowing guests to connect with each other on a deeper level.
 
 ## Rome's weekend table is why Sales Dinner needs a clearer frame

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/berlin/plant-lover-dinner"
 alternatePath: "/city/berlin/plant-lover-dinner"
 translationKey: "berlin-plant-lover-dinner"
 lang: "en"
-title: "For people trying Plant Lover Dinner in Berlin, Fanju app puts the guest mix first"
+title: "For people trying Plant Lover Dinner in Berlin, Fanju app puts the guest mix first | fanju-app"
 description: "Big cities like Berlin thrive on transience, but that same fluidity can make intimacy feel unattainable. People arrive for new jobs, language courses, or fresh starts, only to find their social circles shrinking to"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Plant Lover Dinner in Berlin, Fanju app puts the guest mix first
+# For people trying Plant Lover Dinner in Berlin, Fanju app puts the guest mix first | fanju-app
 
 In Berlin, where apartment buzzers rarely open and quiet evenings stretch behind double-glazed windows, Fanju app has become a quiet counterpoint to isolation. It’s not a food delivery service or a dating platform, but a space where small dinners—like Plant Lover Dinner—begin with clarity about who’s coming and why. The app supports real-world gatherings that prioritize balanced guest lists, thoughtful pacing, and emotional ease over spectacle. For those who’ve felt the city’s distance even in crowded U-bahn cars, a modest table with three or four strangers can become a re-entry point into shared life. Fanju doesn’t promise instant friendship, but it does offer a structure where connection is possible without pressure. That starts long before forks hit the table.
 

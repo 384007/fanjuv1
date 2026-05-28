@@ -4,7 +4,7 @@ canonicalPath: "/en/city/brisbane/table-tennis-dinner"
 alternatePath: "/city/brisbane/table-tennis-dinner"
 translationKey: "brisbane-table-tennis-dinner"
 lang: "en"
-title: "Brisbane after work: how Fanju app makes Table Tennis Dinner feel like a real room"
+title: "Brisbane after work: how Fanju app makes Table Tennis Dinner feel like a real room | fanju-app"
 description: "Many weekend plans in Brisbane dissolve into vague group texts or last-minute cancellations, especially when the goal is simply “to meet people.” A casual dinner invite often carries unspoken pressure — where to go, who"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T105242Z"
 ---
 
-# Brisbane after work: how Fanju app makes Table Tennis Dinner feel like a real room
+# Brisbane after work: how Fanju app makes Table Tennis Dinner feel like a real room | fanju-app
 
 Fanju app in Brisbane connects people through small, intentionally hosted dinners where the focus is not on the venue’s buzz but on the quality of the conversation and the ease of the table. One such gathering, a Table Tennis Dinner, takes shape on a Saturday evening in West End — not at a trendy rooftop bar or a pop-up dining experience, but in the back room of a modest community hall above a karaoke lounge. The host, a local primary school teacher and amateur table tennis coach, has set up two tables in the corner. The menu is simple: grilled eggplant with miso glaze, soy-marinated chicken skewers, and jasmine rice. There are eight seats. The event description on Fanju reads: “A quiet night where paddles come before plates. Come with your racket, leave with a conversation.” This is not a networking night. It’s a curated pause.
 

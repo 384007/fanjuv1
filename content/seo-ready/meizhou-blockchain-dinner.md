@@ -4,7 +4,7 @@ canonicalPath: "/city/meizhou/blockchain-dinner"
 alternatePath: "/en/city/meizhou/blockchain-dinner"
 translationKey: "meizhou-blockchain-dinner"
 lang: "zh"
-title: "第一次在梅州参加区块链饭局，饭局app怎样让陌生人坐得下来"
+title: "第一次在梅州参加区块链饭局，饭局app怎样让陌生人坐得下来 | fanju-app"
 titleZh: "第一次在梅州参加区块链饭局，饭局app怎样让陌生人坐得下来"
 description: "周六傍晚，梅州的老城巷子里飘着艾粄的香气，街边小店刚摆出竹编蒸笼，天色还亮着，但路灯已经悄悄亮起。我打开饭局app，手指滑过几条新推送：一场关于分布式账本技术的饭局，定在江北一家老宅改造的私厨，六人席，主理人是本地一位做农业溯源系统的工程师"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 第一次在梅州参加区块链饭局，饭局app怎样让陌生人坐得下来
+# 第一次在梅州参加区块链饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 
 周六傍晚，梅州的老城巷子里飘着艾粄的香气，街边小店刚摆出竹编蒸笼，天色还亮着，但路灯已经悄悄亮起。我打开饭局app，手指滑过几条新推送：一场关于分布式账本技术的饭局，定在江北一家老宅改造的私厨，六人席，主理人是本地一位做农业溯源系统的工程师。报名状态显示“还剩两个位子”，话题标签写着“不融资、不站台、只聊落地场景”。这是我第一次在梅州点下确认加入。饭局app没有喧哗的群消息轰炸，也不搞打卡排名，它只做一件事：把愿意安静说话的人，安排在一张不会尴尬的桌上。
 

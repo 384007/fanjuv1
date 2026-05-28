@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seattle/media-dinner"
 alternatePath: "/city/seattle/media-dinner"
 translationKey: "seattle-media-dinner"
 lang: "en"
-title: "Seattle has plenty of Media Dinner options; Fanju app is the one that names the table first"
+title: "Seattle has plenty of Media Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Most social apps bury intention under layers of filters and vague event titles. In Seattle, where weather and neighborhood rhythm shape how people gather, that vagueness kills momentum. A table described as “fun night"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Seattle has plenty of Media Dinner options; Fanju app is the one that names the table first
+# Seattle has plenty of Media Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Seattle’s pace rewards those who know when to pause. For the solo traveler stepping off a flight with a light bag and an open evening, finding a dinner that feels like more than just a meal can be rare. The Fanju app doesn’t promise grand gatherings or curated experiences—it focuses on clarity. It surfaces small, specific dinners hosted by real people across Seattle’s neighborhoods, each table named with enough detail to tell you whether it belongs to you before you RSVP. That upfront honesty, paired with the app’s quiet emphasis on real connection over performance, makes it different from broader meetup platforms. On Fanju, you’re not joining a concept—you’re joining a named table, a time, and a host who’s already told you how they see the night.
 

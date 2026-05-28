@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kuala-lumpur/international-student-dinner"
 alternatePath: "/city/kuala-lumpur/international-student-dinner"
 translationKey: "kuala-lumpur-international-student-dinner"
 lang: "en"
-title: "When International Student Dinner feels too loose in Kuala Lumpur, Fanju app starts with the table"
+title: "When International Student Dinner feels too loose in Kuala Lumpur, Fanju app starts with the table | fanju-app"
 description: "Navigating the social landscape as an international student in Kuala Lumpur can feel both exciting and a little daunting. When the idea of an \"International Student Dinner\" comes up, the intention is usually good, but th"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When International Student Dinner feels too loose in Kuala Lumpur, Fanju app starts with the table
+# When International Student Dinner feels too loose in Kuala Lumpur, Fanju app starts with the table | fanju-app
 
 Navigating the social landscape as an international student in Kuala Lumpur can feel both exciting and a little daunting. When the idea of an "International Student Dinner" comes up, the intention is usually good, but the execution can sometimes lack focus, leaving attendees feeling adrift. This is where the Fanju app offers a practical solution, helping to structure these gatherings from the outset, ensuring that when a table is set in Kuala Lumpur, it's for a dinner that everyone can truly join. The app provides a framework that respects the city's own rhythm and the diverse needs of students.
 

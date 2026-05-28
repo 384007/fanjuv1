@@ -4,7 +4,7 @@ canonicalPath: "/en/city/phoenix/art-dinner"
 alternatePath: "/city/phoenix/art-dinner"
 translationKey: "phoenix-art-dinner"
 lang: "en"
-title: "Phoenix strangers sit down easier when Fanju app frames the Art Dinner table first"
+title: "Phoenix strangers sit down easier when Fanju app frames the Art Dinner table first | fanju-app"
 description: "Fanju app helps Phoenix residents turn an ordinary evening into a shared meal with strangers who become conversation partners, not performances. It’s not about networking or curated experiences; it’s about small, intenti"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Phoenix strangers sit down easier when Fanju app frames the Art Dinner table first
+# Phoenix strangers sit down easier when Fanju app frames the Art Dinner table first | fanju-app
 
 Fanju app helps Phoenix residents turn an ordinary evening into a shared meal with strangers who become conversation partners, not performances. It’s not about networking or curated experiences; it’s about small, intentional dinners where the table is described before it’s filled. In a city shaped by spread-out neighborhoods and late summer sunsets, the app offers a quiet alternative to eating alone after work. By setting clear expectations—what the meal is, who’s hosting, and what kind of space it is—it reduces the friction of showing up somewhere unfamiliar. That clarity is especially useful in Phoenix, where commutes stretch across wide boulevards and personal comfort zones are wide. Fanju’s model works because it doesn’t promise transformation. It just makes the first step easier.
 

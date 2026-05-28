@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dhaka/badminton-dinner"
 alternatePath: "/city/dhaka/badminton-dinner"
 translationKey: "dhaka-badminton-dinner"
 lang: "en"
-title: "What makes Badminton Dinner in Dhaka worth the risk; Fanju app answers before you arrive"
+title: "What makes Badminton Dinner in Dhaka worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "In Dhaka, a casual group dinner can easily become overwhelming—multiple conversations, unclear timing, and a sense that no one is quite leading the rhythm. Badminton Dinner works differently because it starts with"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T111336Z"
 ---
 
-# What makes Badminton Dinner in Dhaka worth the risk; Fanju app answers before you arrive
+# What makes Badminton Dinner in Dhaka worth the risk; Fanju app answers before you arrive | fanju-app
 
 Fanju app is a social dining platform designed for small, intentional meals where details matter—especially in a city like Dhaka, where post-work connection can feel uncertain. For remote workers returning to social rhythm after long stretches of isolation, the app surfaces dinners like Badminton Dinner: gatherings framed around a shared activity, not just a meal. Hosts list clear expectations—venue, timing, conversation themes, and guest limits—so there’s less guesswork upon arrival. The app doesn’t promise friendships, but it reduces friction by showing who’s hosting, why the dinner exists, and what kind of guests are expected. That clarity helps remote workers in Dhaka decide whether a table fits their pace, especially when stepping into a restaurant with no familiar faces yet.
 

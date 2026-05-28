@@ -4,7 +4,7 @@ canonicalPath: "/city/yushu-qinghai/cooking-class-dinner"
 alternatePath: "/en/city/yushu-qinghai/cooking-class-dinner"
 translationKey: "yushu-qinghai-cooking-class-dinner"
 lang: "zh"
-title: "玉树不想只靠群聊时，饭局app怎样把烹饪课饭局坐成一桌"
+title: "玉树不想只靠群聊时，饭局app怎样把烹饪课饭局坐成一桌 | fanju-app"
 titleZh: "玉树不想只靠群聊时，饭局app怎样把烹饪课饭局坐成一桌"
 description: "玉树的傍晚来得早，太阳一落，街灯就亮了。下班后走在结古东路，风从巴塘草原吹过来，裹着一点雪线的气息。这个时候，手机震动，微信群弹出一条消息：“有人今晚想一起做饭吗？”——这样的邀请看过太多次，但真正点“我去”的却越来越少。不是不想聚，是不知"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 玉树不想只靠群聊时，饭局app怎样把烹饪课饭局坐成一桌
+# 玉树不想只靠群聊时，饭局app怎样把烹饪课饭局坐成一桌 | fanju-app
 
 玉树的傍晚来得早，太阳一落，街灯就亮了。下班后走在结古东路，风从巴塘草原吹过来，裹着一点雪线的气息。这个时候，手机震动，微信群弹出一条消息：“有人今晚想一起做饭吗？”——这样的邀请看过太多次，但真正点“我去”的却越来越少。不是不想聚，是不知道那顿饭背后有没有人真正在场。在玉树，饭局app没有用热闹的群接龙填满夜晚，而是试着把“一起做饭”这件事，变成一张可以坐下来的桌子。它不靠喊人，而是先让人相信，这桌饭不会变成尴尬的消耗，尤其对女性来说，能安心走进去，才是开始。
 

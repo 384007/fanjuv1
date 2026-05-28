@@ -4,7 +4,7 @@ canonicalPath: "/city/heze/photographer-dinner"
 alternatePath: "/en/city/heze/photographer-dinner"
 translationKey: "heze-photographer-dinner"
 lang: "zh"
-title: "菏泽摄影师饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "菏泽摄影师饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "菏泽摄影师饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "在菏泽，摄影师饭局不是随便拉个群、喊一句“有人来吗”就能成的。 尤其当大家习惯了在微信里发作品、在朋友圈点赞、在线上活动里互相关注却从没见过面时，一次线下的饭局反而成了需要认真判断的事。"
 primaryKeyword: "菏泽摄影师饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T190004Z"
 ---
 
-# 菏泽摄影师饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 菏泽摄影师饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 傍晚六点四十分，菏泽城区的天光还没完全暗下来。一位在曹州路拍完婚礼跟拍的摄影师收起三脚架，路过常去的那家小馆子时闻到炒菜的烟火气。他停下脚步，打开饭局app，看到今晚七点半在八一路有一场摄影师饭局，主理人是之前在摄影展上聊过几句的纪实摄影师老张。人数已满六人，备注里写着“不拼大桌，聊完可走”。他犹豫了一下，点下报名——不是因为缺饭搭子，而是想确认：这顿饭到底是不是他需要的那一种。
 

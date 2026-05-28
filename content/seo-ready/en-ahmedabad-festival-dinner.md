@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ahmedabad/festival-dinner"
 alternatePath: "/city/ahmedabad/festival-dinner"
 translationKey: "ahmedabad-festival-dinner"
 lang: "en"
-title: "When Festival Dinner in Ahmedabad needs more than a group chat, Fanju app starts with the table"
+title: "When Festival Dinner in Ahmedabad needs more than a group chat, Fanju app starts with the table | fanju-app"
 description: "In Ahmedabad, Festival Dinner hosted through the Fanju app offers a grounded way to share a meal with new people around a meaningful theme—no swiping, no pressure."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# When Festival Dinner in Ahmedabad needs more than a group chat, Fanju app starts with the table
+# When Festival Dinner in Ahmedabad needs more than a group chat, Fanju app starts with the table | fanju-app
 
 In Ahmedabad, Festival Dinner hosted through the Fanju app offers a grounded way to share a meal with new people around a meaningful theme—no swiping, no pressure. This isn’t a dating guarantee, not a random group chat, and not an endless profile feed. It’s a small-table dinner where the host sets the tone, guests know the timing, and the conversation begins with food, not performance. Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局,” and in Ahmedabad, it works as a quiet reset from digital noise—an offline moment where who’s at the table matters more than how they look online. The city’s rhythm, with its mix of heritage and modern movement, makes thoughtful gatherings like these feel both familiar and refreshing.
 

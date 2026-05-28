@@ -4,7 +4,7 @@ canonicalPath: "/en/city/washington-dc/pottery-dinner"
 alternatePath: "/city/washington-dc/pottery-dinner"
 translationKey: "washington-dc-pottery-dinner"
 lang: "en"
-title: "Washington DC strangers sit down easier when Fanju app frames the Pottery Dinner table first"
+title: "Washington DC strangers sit down easier when Fanju app frames the Pottery Dinner table first | fanju-app"
 description: "When you arrive in Washington DC with a suitcase and a new lease, it’s easy to feel surrounded by people and still eat dinner alone. Group chats buzz with event announcements, dating apps suggest matches based on proximi"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Washington DC strangers sit down easier when Fanju app frames the Pottery Dinner table first
+# Washington DC strangers sit down easier when Fanju app frames the Pottery Dinner table first | fanju-app
 
 When you arrive in Washington DC with a suitcase and a new lease, it’s easy to feel surrounded by people and still eat dinner alone. Group chats buzz with event announcements, dating apps suggest matches based on proximity, and coworking spaces promise community—but none of them reliably deliver the quiet warmth of shared time at a table. The Fanju app doesn’t promise fast friendships or curated networking. Instead, it frames a Pottery Dinner in Washington DC as something rare: a real-time, low-pressure gathering where craft and conversation coexist. You come to shape clay, yes, but you stay because someone asks about the book in your bag, or laughs when your bowl collapses, and no one treats it as a failure. That’s how connection starts here—not with a pitch, but with a pause.
 

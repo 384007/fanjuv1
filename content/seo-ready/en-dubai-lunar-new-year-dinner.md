@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dubai/lunar-new-year-dinner"
 alternatePath: "/city/dubai/lunar-new-year-dinner"
 translationKey: "dubai-lunar-new-year-dinner"
 lang: "en"
-title: "When Lunar New Year Dinner feels too loose in Dubai, Fanju app starts with the table"
+title: "When Lunar New Year Dinner feels too loose in Dubai, Fanju app starts with the table | fanju-app"
 description: "Joining a Lunar New Year dinner in Dubai can be overwhelming, especially if you're traveling alone. The city's vibrant expat community and diverse dining options make it easy to get swept up in a random group dinner or m"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Lunar New Year Dinner feels too loose in Dubai, Fanju app starts with the table
+# When Lunar New Year Dinner feels too loose in Dubai, Fanju app starts with the table | fanju-app
 
 Joining a Lunar New Year dinner in Dubai can be overwhelming, especially if you're traveling alone. The city's vibrant expat community and diverse dining options make it easy to get swept up in a random group dinner or meetup. However, with the rise of social dining apps like Fanju, solo travelers can now find a more curated and enjoyable experience. In this article, we'll explore what makes a well-run Lunar New Year dinner table in Dubai stand out and how Fanju app helps facilitate these unique gatherings.
 

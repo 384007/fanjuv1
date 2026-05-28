@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kolkata/podcast-listener-dinner"
 alternatePath: "/city/kolkata/podcast-listener-dinner"
 translationKey: "kolkata-podcast-listener-dinner"
 lang: "en"
-title: "Kolkata strangers sit down easier when Fanju app frames the Podcast Listener Dinner table first"
+title: "Kolkata strangers sit down easier when Fanju app frames the Podcast Listener Dinner table first | fanju-app"
 description: "In Kolkata, plans often dissolve into “maybe later” or drift into last-minute group messages that go nowhere. That’s why a named event like a Podcast Listener Dinner stands out—it signals intention."
 primaryKeyword: "Kolkata Podcast Listener Dinner"
 secondaryKeywords: "Kolkata social dining|Podcast Listener dinner group|dinner buddy app|Fanju app|small-table dinner in Kolkata"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T010006Z"
 ---
 
-# Kolkata strangers sit down easier when Fanju app frames the Podcast Listener Dinner table first
+# Kolkata strangers sit down easier when Fanju app frames the Podcast Listener Dinner table first | fanju-app
 
 The Fanju app helps people in Kolkata find small, clearly described dinners with others who share specific interests—like being a dedicated podcast listener. These aren't large meetups or vague hangouts, but intentional tables of four to six people meeting after work or on weekends to talk beyond small talk. For remote workers in the city, where days can blur between video calls and silent rooms, a Kolkata Podcast Listener Dinner offers a rare rhythm: a real seat at a real table, with people who’ve also chosen to show up. The app doesn’t promise instant friendships, but it does reduce the friction of saying yes to something that feels both low-pressure and human.
 

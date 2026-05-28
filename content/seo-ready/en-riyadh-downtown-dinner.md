@@ -4,7 +4,7 @@ canonicalPath: "/en/city/riyadh/downtown-dinner"
 alternatePath: "/city/riyadh/downtown-dinner"
 translationKey: "riyadh-downtown-dinner"
 lang: "en"
-title: "A calmer way to approach Downtown Dinner in Riyadh through Fanju app"
+title: "A calmer way to approach Downtown Dinner in Riyadh through Fanju app | fanju-app"
 description: "Downtown Riyadh is not a single place but a collection of shifting textures—Al Olayya’s glass towers, Al Murabba’s older streets, the quieter edges near King Saud University. Each shape the way people live, move, and"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach Downtown Dinner in Riyadh through Fanju app
+# A calmer way to approach Downtown Dinner in Riyadh through Fanju app | fanju-app
 
 Dining alone in a new city can feel like standing at the edge of a conversation you’re not invited to join. In Riyadh, where social circles often form through family or long-standing connections, finding a genuine moment to connect over dinner downtown can seem out of reach. The Fanju app changes that not by creating artificial excitement, but by offering a quiet structure for small, intentional meals where the focus is on listening, sharing, and being present. It’s not a party, not a networking event—it’s dinner, hosted in real homes or modest venues, where people come as they are. Through Fanju, dinner becomes a way to experience Riyadh’s rhythm without performance, one table at a time.
 

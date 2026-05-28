@@ -4,7 +4,7 @@ canonicalPath: "/city/liaoyuan/real-estate-dinner"
 alternatePath: "/en/city/liaoyuan/real-estate-dinner"
 translationKey: "liaoyuan-real-estate-dinner"
 lang: "zh"
-title: "辽源的房地产饭局不该靠运气，饭局app把主理人和同桌放在最前面"
+title: "辽源的房地产饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app"
 titleZh: "辽源的房地产饭局不该靠运气，饭局app把主理人和同桌放在最前面"
 description: "报名前最该想清楚的，不是“有没有人”，而是“这桌人能不能让我放松下来”。在辽源，一场饭局的舒适度，往往取决于主理人有没有提前说明这桌的边界：聊政策还是谈项目？能不能提跳槽？喝不喝酒？这些细节看起来琐碎，但在一个行业信息流动偏慢的小城，一点误"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
 ---
 
-# 辽源的房地产饭局不该靠运气，饭局app把主理人和同桌放在最前面
+# 辽源的房地产饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 
 周五晚上七点，辽源的天已经黑透了。东辽河沿岸的路灯一盏盏亮起，街边的小馆子开始上人。有些人下班后不想直接回家，也不想窝在宿舍刷手机，但又不知道能去哪儿。他们打开饭局app，不是为了凑热闹，而是想找一桌有来头、有节奏、能说点真话的饭。在辽源，房地产行业节奏不快也不慢，项目周期长，人脉靠积累，很多人愿意用一顿饭的时间，看看同行在想什么，也看看自己有没有走偏。饭局app在这里的作用，不是制造热闹，而是帮人筛选出值得花时间的那一桌。
 

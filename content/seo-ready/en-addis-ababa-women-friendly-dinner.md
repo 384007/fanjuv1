@@ -4,7 +4,7 @@ canonicalPath: "/en/city/addis-ababa/women-friendly-dinner"
 alternatePath: "/city/addis-ababa/women-friendly-dinner"
 translationKey: "addis-ababa-women-friendly-dinner"
 lang: "en"
-title: "When Women Friendly Dinner feels too loose in Addis Ababa, Fanju app starts with the table"
+title: "When Women Friendly Dinner feels too loose in Addis Ababa, Fanju app starts with the table | fanju-app"
 description: "That first note from a host—short, warm, grounded in a specific reason for gathering—tells you whether this table will feel like a refuge or just another social obligation. In Addis Ababa, where evenings can blur"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
 ---
 
-# When Women Friendly Dinner feels too loose in Addis Ababa, Fanju app starts with the table
+# When Women Friendly Dinner feels too loose in Addis Ababa, Fanju app starts with the table | fanju-app
 
 Fanju app in Addis Ababa offers small-group dinners with clear themes and intentional hosts, designed for remote workers and others seeking low-pressure, real-world connection after long stretches of solitude. Unlike broad meetups or algorithm-driven chats, Fanju centers on shared meals where conversation flows naturally and expectations are transparent. For women who work remotely, live abroad, or simply want to step outside the isolation of home offices and late-night scrolls, these dinners provide a gentle rhythm—regular but not rigid, social but not performative. The focus stays on ease: a table of four to six people, a host who sets tone and topic, and a space where comfort is prioritized over forced engagement. It’s not about networking or dates, but about finding presence in a city that moves fast but can feel quiet when you're on your own.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tehran/potluck-dinner"
 alternatePath: "/city/tehran/potluck-dinner"
 translationKey: "tehran-potluck-dinner"
 lang: "en"
-title: "Tehran after work: how Fanju app makes Potluck Dinner feel like a real room"
+title: "Tehran after work: how Fanju app makes Potluck Dinner feel like a real room | fanju-app"
 description: "In Tehran, the transition from a busy workday to a fulfilling evening can feel like a gap, especially after years where online interactions often took precedence. Fanju app aims to bridge this with its Potluck Dinner fea"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Tehran after work: how Fanju app makes Potluck Dinner feel like a real room
+# Tehran after work: how Fanju app makes Potluck Dinner feel like a real room | fanju-app
 
 In Tehran, the transition from a busy workday to a fulfilling evening can feel like a gap, especially after years where online interactions often took precedence. Fanju app aims to bridge this with its Potluck Dinner feature, creating opportunities for genuine, in-person connections right in our city. This isn't about simply sharing a meal; it's about a deliberate offline social reboot, a chance to rediscover the simple joy of shared presence and conversation around a table. The Fanju app facilitates these gatherings, making the logistics smoother so the focus remains on human connection.
 

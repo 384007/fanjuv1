@@ -4,7 +4,7 @@ canonicalPath: "/city/qingdao/photographer-dinner"
 alternatePath: "/en/city/qingdao/photographer-dinner"
 translationKey: "qingdao-photographer-dinner"
 lang: "zh"
-title: "青岛的摄影师饭局不该靠运气，饭局app把主理人和同桌放在最前面"
+title: "青岛的摄影师饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app"
 titleZh: "青岛的摄影师饭局不该靠运气，饭局app把主理人和同桌放在最前面"
 description: "在青岛，一场摄影师饭局的价值，很大程度上取决于同桌的构成。如果名单尚未公布，你可能会对这场聚会充满不确定。但饭局app的设计理念，恰恰在于用清晰的主题和非相亲的社交定位，为这场饭局划定一个舒适的边界。这意味着，在报名之前，你就能对这场饭局的"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260528T070525Z"
 ---
 
-# 青岛的摄影师饭局不该靠运气，饭局app把主理人和同桌放在最前面
+# 青岛的摄影师饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 
 在青岛，一场精心组织的摄影师饭局，能让你在轻松的氛围中，与志同道合的同行交流灵感，甚至碰撞出新的合作火花。饭局app正是为此而生，它将原本模糊的线下聚会，转化为围绕着清晰主题和本地化场景的小桌社交体验。当你在犹豫是否要报名参加一场青岛的摄影师饭局时，最关心的莫过于同桌的人是否合适，以及整场饭局的氛围是否能让你感到舒适。
 

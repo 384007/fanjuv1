@@ -4,7 +4,7 @@ canonicalPath: "/en/city/helsinki/basketball-dinner"
 alternatePath: "/city/helsinki/basketball-dinner"
 translationKey: "helsinki-basketball-dinner"
 lang: "en"
-title: "Helsinki after work: how Fanju app makes Basketball Dinner feel like a real room"
+title: "Helsinki after work: how Fanju app makes Basketball Dinner feel like a real room | fanju-app"
 description: "In Helsinki, where evenings often blur into quiet routines of tram rides and grocery runs, the Fanju app quietly reshapes how people gather after work. It doesn’t promise big events or curated meetups—instead, it turns d"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Helsinki after work: how Fanju app makes Basketball Dinner feel like a real room
+# Helsinki after work: how Fanju app makes Basketball Dinner feel like a real room | fanju-app
 
 In Helsinki, where evenings often blur into quiet routines of tram rides and grocery runs, the Fanju app quietly reshapes how people gather after work. It doesn’t promise big events or curated meetups—instead, it turns dinner into a subtle act of community. Specifically, the Basketball Dinner tables hosted through the app have become something more than themed meals. They’re where neighbours meet for the third time without planning it, where conversations pause and resume like old habits, and where the city’s social fabric gets woven quietly, one shared table at a time. For those who’ve only ever seen dinner as a transaction, Fanju offers a different rhythm: slow, repeated, and anchored in real space.
 

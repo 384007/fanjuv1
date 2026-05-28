@@ -4,7 +4,7 @@ canonicalPath: "/city/anshun/community-dinner"
 alternatePath: "/en/city/anshun/community-dinner"
 translationKey: "anshun-community-dinner"
 lang: "zh"
-title: "安顺想参加社区饭局，饭局app把信任感放在饭前"
+title: "安顺想参加社区饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "安顺想参加社区饭局，饭局app把信任感放在饭前"
 description: "在安顺，饭局如果只是“有人来吗”加个餐厅名字，那和随便拼桌没太大区别。 你不知道谁会来，也不知道来了之后该聊什么。 这种模糊的邀请，往往让本就犹豫的人更退一步。"
 primaryKeyword: "安顺社区饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T220007Z"
 ---
 
-# 安顺想参加社区饭局，饭局app把信任感放在饭前
+# 安顺想参加社区饭局，饭局app把信任感放在饭前 | fanju-app
 
 下班后走出西秀区政府旁的写字楼，天光还没完全暗下来，街边商铺的灯一盏盏亮起。你在手机上翻了翻，群里有人发了一句“有人来吃饭吗”，底下零星接了两三个“+1”。你犹豫着要不要跟，可一想到又要坐在一群半熟不熟的人中间，寒暄得勉强，话题转得生硬，便又把手机翻了过去。这种饭局，来不来都像在消耗自己。而安顺社区饭局不一样——它不是靠一嗓子喊人，而是饭局app上提前确认好主题、人数、主理人和餐厅的一桌饭。你报名前就知道今晚是谁在组织、在哪儿吃、大概聊什么。这种清晰，不是为了排除偶然，而是为了让偶然的相遇少一点压力，多一点可能。
 

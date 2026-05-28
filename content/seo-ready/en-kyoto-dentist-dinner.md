@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kyoto/dentist-dinner"
 alternatePath: "/city/kyoto/dentist-dinner"
 translationKey: "kyoto-dentist-dinner"
 lang: "en"
-title: "What makes Dentist Dinner in Kyoto worth the risk; Fanju app answers before you arrive"
+title: "What makes Dentist Dinner in Kyoto worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "In Kyoto, where quiet alleys and centuries-old tea houses set the rhythm of daily life, the idea of joining a shared dinner with strangers might feel out of step. Yet Dentist Dinner—a social dining concept where small gr"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Dentist Dinner in Kyoto worth the risk; Fanju app answers before you arrive
+# What makes Dentist Dinner in Kyoto worth the risk; Fanju app answers before you arrive | fanju-app
 
 In Kyoto, where quiet alleys and centuries-old tea houses set the rhythm of daily life, the idea of joining a shared dinner with strangers might feel out of step. Yet Dentist Dinner—a social dining concept where small groups gather around intimate tables hosted by locals—has quietly taken root, especially among those seeking connection beyond the usual tourist paths. The Fanju app has become a steady guide for navigating these gatherings, offering clarity on who’s hosting, what to expect, and whether a particular table aligns with your weekend rhythm. It doesn’t promise perfection, but it does reduce the guesswork, turning what could be an awkward evening into a grounded experience rooted in trust and local knowledge.
 

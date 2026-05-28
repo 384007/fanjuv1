@@ -4,7 +4,7 @@ canonicalPath: "/en/city/hyderabad/doctor-dinner"
 alternatePath: "/city/hyderabad/doctor-dinner"
 translationKey: "hyderabad-doctor-dinner"
 lang: "en"
-title: "Hyderabad does not need another vague invite; Fanju app makes Doctor Dinner specific"
+title: "Hyderabad does not need another vague invite; Fanju app makes Doctor Dinner specific | fanju-app"
 description: "In Hyderabad, Fanju app helps professionals move past endless WhatsApp forwards and group chat indecision by creating small, intentional dinners with clear purpose and real identities. Doctor Dinner, as it’s known on the"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Hyderabad does not need another vague invite; Fanju app makes Doctor Dinner specific
+# Hyderabad does not need another vague invite; Fanju app makes Doctor Dinner specific | fanju-app
 
 In Hyderabad, Fanju app helps professionals move past endless WhatsApp forwards and group chat indecision by creating small, intentional dinners with clear purpose and real identities. Doctor Dinner, as it’s known on the app, isn’t another networking event disguised as dinner—it’s a single table, often in Banjara Hills or Jubilee Hills, where medical professionals and those in adjacent fields meet face-to-face after work, without the noise of a crowded hall. The app ensures every guest has a real name, a verified background, and a reason to be there—whether it’s discussing diagnostic dilemmas or navigating career shifts. Tables are capped at six, allowing for focused conversation, and hosts commit to showing up early, checking seating, and confirming the venue. This is how trust begins: not through flashy claims, but through predictable, low-pressure consistency.
 

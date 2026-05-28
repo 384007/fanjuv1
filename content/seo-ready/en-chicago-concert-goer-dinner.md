@@ -4,7 +4,7 @@ canonicalPath: "/en/city/chicago/concert-goer-dinner"
 alternatePath: "/city/chicago/concert-goer-dinner"
 translationKey: "chicago-concert-goer-dinner"
 lang: "en"
-title: "Before the first message in Chicago, Fanju app makes Concert Goer Dinner feel like a real decision"
+title: "Before the first message in Chicago, Fanju app makes Concert Goer Dinner feel like a real decision | fanju-app"
 description: "Chicago’s concert calendar moves fast. A Friday might bring indie rock to Lincoln Hall, opera to the Lyric, or jazz to the Green Mill. But beneath the rhythm of set times and opening acts, there’s a quieter need: a"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Chicago, Fanju app makes Concert Goer Dinner feel like a real decision
+# Before the first message in Chicago, Fanju app makes Concert Goer Dinner feel like a real decision | fanju-app
 
 In Chicago, where live music pulses through neighborhoods from Wrigleyville to Pilsen, the Fanju app redefines how people eat before a show—not as a rushed transaction, but as a deliberate social ritual. Fanju connects concertgoers with small, intentional dinners hosted in homes and curated spaces across the city. These aren’t open-call potlucks or impersonal meetups; each meal is proposed with a clear theme, guest cap, and host bio, ensuring that what appears on the app reflects a real choice, not noise. For someone standing in line at Thalia Hall or navigating the Blue Line to Metro, Fanju offers a way to ground the evening in conversation before the lights dim. It’s not about finding *any* dinner—it’s about choosing one that aligns with your rhythm, neighborhood, and appetite for connection. That shift—from convenience to curation—starts with treating the pre-show meal as something worth deciding.
 

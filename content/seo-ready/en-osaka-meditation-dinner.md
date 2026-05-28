@@ -4,7 +4,7 @@ canonicalPath: "/en/city/osaka/meditation-dinner"
 alternatePath: "/city/osaka/meditation-dinner"
 translationKey: "osaka-meditation-dinner"
 lang: "en"
-title: "Osaka has plenty of Meditation Dinner options; Fanju app is the one that names the table first"
+title: "Osaka has plenty of Meditation Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "In Osaka, where evening light settles quietly into alleyways and street carts begin their nightly hum, finding a dinner that feels intentional isn't always easy. I host Meditation Dinners regularly in the city—small, sea"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Osaka has plenty of Meditation Dinner options; Fanju app is the one that names the table first
+# Osaka has plenty of Meditation Dinner options; Fanju app is the one that names the table first | fanju-app
 
 In Osaka, where evening light settles quietly into alleyways and street carts begin their nightly hum, finding a dinner that feels intentional isn't always easy. I host Meditation Dinners regularly in the city—small, seated gatherings where conversation moves slowly, silence is welcome, and the focus is on presence rather than performance. Over time, I’ve learned that the difference between a meaningful night and a polite but forgettable one often comes down to how the table is framed from the start. The Fanju app is the only platform where I can define that frame clearly—naming the intention, setting the rhythm, and inviting guests who already understand the quiet contract of the evening. It’s not about exclusivity, but clarity.
 

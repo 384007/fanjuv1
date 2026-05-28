@@ -4,7 +4,7 @@ canonicalPath: "/en/city/istanbul/intercultural-dinner"
 alternatePath: "/city/istanbul/intercultural-dinner"
 translationKey: "istanbul-intercultural-dinner"
 lang: "en"
-title: "Intercultural Dinner in Istanbul should not feel like a gamble; Fanju app changes the odds"
+title: "Intercultural Dinner in Istanbul should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "In Istanbul, where social layers run deep and unspoken codes shape interactions, showing up to a dinner without context can feel like stepping into someone else’s script. A vague invitation—“Come meet interesting"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T140006Z"
 ---
 
-# Intercultural Dinner in Istanbul should not feel like a gamble; Fanju app changes the odds
+# Intercultural Dinner in Istanbul should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 After work in Kadıköy, the city hums with a rhythm that pulls you in different directions—toward a ferry, a rooftop, or just another solitary meal at a corner meze spot. But lately, more people are turning toward something quieter: a small table in someone’s home, set for six, where the night isn’t about loud networking or curated experiences. On the Fanju app, these Intercultural Dinner gatherings are framed simply—host, location, conversation theme, guest limit—but they carry an unspoken promise: connection without performance. In a city of 15 million, the appeal isn’t novelty, it’s contrast. A small table here isn’t just a format; it’s a filter. Fanju doesn’t promise friendships, but it does clarify what kind of evening you’re walking into, and who else might be there.
 

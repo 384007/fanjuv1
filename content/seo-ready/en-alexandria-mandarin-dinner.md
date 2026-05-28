@@ -4,7 +4,7 @@ canonicalPath: "/en/city/alexandria/mandarin-dinner"
 alternatePath: "/city/alexandria/mandarin-dinner"
 translationKey: "alexandria-mandarin-dinner"
 lang: "en"
-title: "For people trying Mandarin Dinner in Alexandria, Fanju app puts the guest mix first"
+title: "For people trying Mandarin Dinner in Alexandria, Fanju app puts the guest mix first | fanju-app"
 description: "In Alexandria, where historic row houses line streets that slope gently toward the Potomac, evenings often unfold in quiet routines—commuters unwinding at corner cafes, neighbors exchanging brief hellos on shaded porches"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Mandarin Dinner in Alexandria, Fanju app puts the guest mix first
+# For people trying Mandarin Dinner in Alexandria, Fanju app puts the guest mix first | fanju-app
 
 In Alexandria, where historic row houses line streets that slope gently toward the Potomac, evenings often unfold in quiet routines—commuters unwinding at corner cafes, neighbors exchanging brief hellos on shaded porches. But beneath this calm, there’s a subtle hunger for connection that tourist dinners or group tours can’t satisfy. The Fanju app has quietly reshaped how locals experience Mandarin Dinner in the city, not by emphasizing food or spectacle, but by prioritizing a thoughtful guest mix. It’s not about filling seats; it’s about curating conversations that feel natural, not forced. For residents and newcomers alike, the app’s strength lies in matching people not by interest tags, but by rhythms—those who value listening as much as speaking, who understand that a good dinner grows from mutual presence, not performance.
 

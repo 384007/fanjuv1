@@ -4,7 +4,7 @@ canonicalPath: "/city/macau/nonprofit-dinner"
 alternatePath: "/en/city/macau/nonprofit-dinner"
 translationKey: "macau-nonprofit-dinner"
 lang: "zh"
-title: "在澳门把非营利组织饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在澳门把非营利组织饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在澳门把非营利组织饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "饭局app在澳门上线以来，越来越多非营利组织的发起人、志愿者和关心本地社区的人开始尝试用它组织或加入饭局。但和在别处不同，澳门的饭局有它自己的节奏——小城关系密，人情重，一次饭局的背后，往往不只是吃饭那么简单。在议事堂前地附近的老街巷里，一"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在澳门把非营利组织饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在澳门把非营利组织饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 饭局app在澳门上线以来，越来越多非营利组织的发起人、志愿者和关心本地社区的人开始尝试用它组织或加入饭局。但和在别处不同，澳门的饭局有它自己的节奏——小城关系密，人情重，一次饭局的背后，往往不只是吃饭那么简单。在议事堂前地附近的老街巷里，一场饭局可能牵动的是社区中心三个月的筹备；在路环的渔村祠堂边，一顿饭可能关乎一场文化保育的共识能否达成。饭局app在这里的作用，不是简单撮合吃饭，而是帮人判断：这桌饭，值不值得我放下手头的事，走进去。
 

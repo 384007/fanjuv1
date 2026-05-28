@@ -4,7 +4,7 @@ canonicalPath: "/en/city/brisbane/data-scientist-dinner"
 alternatePath: "/city/brisbane/data-scientist-dinner"
 translationKey: "brisbane-data-scientist-dinner"
 lang: "en"
-title: "How Fanju app turns a Brisbane Data Scientist Dinner night into something worth showing up for"
+title: "How Fanju app turns a Brisbane Data Scientist Dinner night into something worth showing up for | fanju-app"
 description: "Brisbane doesn’t operate on a single pulse. The city’s charm lies in its distinct pockets—each with its own flow, from the riverfront calm of Carina to the creative buzz of Fortitude Valley."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# How Fanju app turns a Brisbane Data Scientist Dinner night into something worth showing up for
+# How Fanju app turns a Brisbane Data Scientist Dinner night into something worth showing up for | fanju-app
 
 The Fanju app is not another event platform filled with glossy promises and vague themes. It’s a social dining tool built for people in Brisbane who want real, small-scale dinners with clear expectations—especially for niche gatherings like a Data Scientist Dinner. Instead of crowded meetups or impersonal networking events, Fanju focuses on intimate tables where conversation flows naturally, and attendees know exactly what to expect before confirming a seat. In a city as spread out and rhythmically distinct as Brisbane, that clarity matters. A Brisbane Data Scientist Dinner on Fanju isn’t about collecting business cards—it’s about sitting across from someone who speaks your professional language, in a quiet corner of West End or New Farm, where the hum of conversation matches the pace of the river nearby.
 

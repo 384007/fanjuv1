@@ -4,7 +4,7 @@ canonicalPath: "/city/hefei/newcomer-dinner"
 alternatePath: "/en/city/hefei/newcomer-dinner"
 translationKey: "hefei-newcomer-dinner"
 lang: "zh"
-title: "合肥 newcomer dinner Guide"
+title: "合肥 newcomer dinner Guide | fanju-app | 饭局app"
 titleZh: "合肥newcomer-dinner指南"
 pageType: "city_landing"
 priorityScore: 50
@@ -12,7 +12,7 @@ aiQualityScore: 100
 status: "ready"
 ---
 
-# 合肥 newcomer dinner Guide
+# 合肥 newcomer dinner Guide | fanju-app | 饭局app
 
 ## 中文概览
 合肥是安徽省的省会城市，拥有丰富的文化遗产和美丽的自然风光。新来合肥的朋友，可能会感到陌生和孤独，特别是在找到合适的饭局和社交圈子方面。Fanju / 饭局是一款AI社交饭局平台，帮助用户找到同城的饭局搭子，组织饭局，并通过真实的饭桌建立线下社交关系。

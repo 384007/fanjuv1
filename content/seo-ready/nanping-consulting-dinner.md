@@ -4,7 +4,7 @@ canonicalPath: "/city/nanping/consulting-dinner"
 alternatePath: "/en/city/nanping/consulting-dinner"
 translationKey: "nanping-consulting-dinner"
 lang: "zh"
-title: "南平咨询饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "南平咨询饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "南平咨询饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "你犹豫的不只是花六十块吃顿饭，而是那两个小时会不会变成一场无意义的寒暄。饭局app上每场活动都写着“真诚交流”“边界清晰”，可点开详情页，主理人简介只有两行字，照片还是背影。南平不大，熟人圈却密，你担心饭局变成某种变相的推销，又怕自己格格不"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 南平咨询饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 南平咨询饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 周五傍晚，南平的天色暗得早，江滨路的路灯一盏盏亮起来，骑电动车回家的人流在十字路口堆积。你站在延平老城区一家小餐馆门口，手机还停留在饭局app的报名确认页。手指悬在“支付”上方，迟迟没点下去——这桌“关于职业转型的坦白局”真像描述里说的那样放松吗？六个人，人均60，主理人自称是本地做社区运营的自由职业者。你没见过他，也没参加过饭局app上的任何一场活动。在南平，这种下班后的小型饭局，到底是不是另一种尴尬的社交任务？
 

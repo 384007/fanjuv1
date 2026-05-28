@@ -4,7 +4,7 @@ canonicalPath: "/en/city/madrid/journalist-dinner"
 alternatePath: "/city/madrid/journalist-dinner"
 translationKey: "madrid-journalist-dinner"
 lang: "en"
-title: "Madrid after work: how Fanju app makes Journalist Dinner feel like a real room"
+title: "Madrid after work: how Fanju app makes Journalist Dinner feel like a real room | fanju-app"
 description: "The allure of a weekend gathering in Madrid can often lead to a diluted experience, especially when the intention is merely to fill a seat. When \"Journalist Dinner\" becomes just another placeholder for a spontaneous,"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Madrid after work: how Fanju app makes Journalist Dinner feel like a real room
+# Madrid after work: how Fanju app makes Journalist Dinner feel like a real room | fanju-app
 
 Fanju app is reshaping how Madrid's professionals connect outside of work, offering a refreshing alternative to the usual after-hours scramble. Instead of a vague "let's grab a drink sometime," Fanju facilitates small, intentional meals, like Journalist Dinner, where the purpose is clear: genuine conversation and shared experience in a relaxed atmosphere. This approach cuts through the noise, allowing for a more meaningful interaction without the pressure often associated with networking events or casual meetups. The app focuses on creating a sense of belonging from the start, making it easier for newcomers to find their place at a table in Madrid, fostering connections that feel organic and unforced.
 

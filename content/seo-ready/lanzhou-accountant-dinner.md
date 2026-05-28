@@ -4,7 +4,7 @@ canonicalPath: "/city/lanzhou/accountant-dinner"
 alternatePath: "/en/city/lanzhou/accountant-dinner"
 translationKey: "lanzhou-accountant-dinner"
 lang: "zh"
-title: "兰州的一顿会计师饭局，饭局app为什么先看人再看热闹"
+title: "兰州的一顿会计师饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "兰州的一顿会计师饭局，饭局app为什么先看人再看热闹"
 description: "天黑得早的兰州，黄河边的风一吹，西关十字的写字楼里灯光渐次熄灭。陈默收拾好电脑，站在工位前犹豫了几秒——这个月第三张审计底稿被退回，他不想立刻回家面对空屋和冷掉的外卖。打开饭局app时，他其实不确定自己在找饭，还是在找一个能说“我懂”的人。"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 兰州的一顿会计师饭局，饭局app为什么先看人再看热闹
+# 兰州的一顿会计师饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 天黑得早的兰州，黄河边的风一吹，西关十字的写字楼里灯光渐次熄灭。陈默收拾好电脑，站在工位前犹豫了几秒——这个月第三张审计底稿被退回，他不想立刻回家面对空屋和冷掉的外卖。打开饭局app时，他其实不确定自己在找饭，还是在找一个能说“我懂”的人。刷到“兰州会计师饭局：月底关账前的呼吸时刻”时，他停了下来。这不是酒局招募，也不是行业讲座，而是一桌限定6人的晚餐，主理人职业写着“四大会计所五年，现供职于安宁区某国企财务部”。报名截止前两小时，他点了“参加”。
 

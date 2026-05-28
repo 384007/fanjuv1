@@ -4,7 +4,7 @@ canonicalPath: "/city/changchun/urban-lifestyle-dinner"
 alternatePath: "/en/city/changchun/urban-lifestyle-dinner"
 translationKey: "changchun-urban-lifestyle-dinner"
 lang: "zh"
-title: "长春城市生活方式饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "长春城市生活方式饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "长春城市生活方式饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "在长春，饭局从来不少。街角新开的私厨、南湖边的露营晚餐、文艺空间里的围炉夜话，总有人在约饭。但真正让人安心坐下来的那一桌，往往不是最早发出邀请的，而是那个在饭局app上把话先说清楚的——谁组织、为什么聚、来的人大概是什么状态。这不像抢餐厅位"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 长春城市生活方式饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 长春城市生活方式饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
 在长春，饭局从来不少。街角新开的私厨、南湖边的露营晚餐、文艺空间里的围炉夜话，总有人在约饭。但真正让人安心坐下来的那一桌，往往不是最早发出邀请的，而是那个在饭局app上把话先说清楚的——谁组织、为什么聚、来的人大概是什么状态。这不像抢餐厅位子，更像寻找一种节奏相近的共处方式。饭局app在这里的意义，不是增加饭局的数量，而是提高那一桌的透明度与信任感。在长春，一个女性常会考虑的不是“有没有饭局”，而是“这顿饭我能不能轻松地来，也能轻松地走”。
 

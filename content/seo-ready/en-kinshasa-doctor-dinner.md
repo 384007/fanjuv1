@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kinshasa/doctor-dinner"
 alternatePath: "/city/kinshasa/doctor-dinner"
 translationKey: "kinshasa-doctor-dinner"
 lang: "en"
-title: "Doctor Dinner in Kinshasa should not feel like a gamble; Fanju app changes the odds"
+title: "Doctor Dinner in Kinshasa should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "Dinner among doctors in Kinshasa has long operated on word-of-mouth and chance—where you end up, who you meet, and whether the evening feels meaningful often depends on who texted last or which hospital corridor rumour h"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Doctor Dinner in Kinshasa should not feel like a gamble; Fanju app changes the odds
+# Doctor Dinner in Kinshasa should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 Dinner among doctors in Kinshasa has long operated on word-of-mouth and chance—where you end up, who you meet, and whether the evening feels meaningful often depends on who texted last or which hospital corridor rumour held true. But with the rise of the Fanju app, a shift is underway. In neighbourhoods like Gombe, where medical professionals from CHU, Clinique Ngaliema, and private practices cross paths after late shifts, the idea of Doctor Dinner is gaining structure without losing its spontaneity. Fanju isn’t scheduling banquets or turning dinners into events—it’s helping doctors in Kinshasa find each other with intention, reducing the randomness that once defined post-work meals. Through verified profiles and quiet coordination, the app supports a growing network where dinner isn’t just about food, but about continuity in a demanding profession.
 

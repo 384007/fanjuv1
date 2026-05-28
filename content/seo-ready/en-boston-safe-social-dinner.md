@@ -4,7 +4,7 @@ canonicalPath: "/en/city/boston/safe-social-dinner"
 alternatePath: "/city/boston/safe-social-dinner"
 translationKey: "boston-safe-social-dinner"
 lang: "en"
-title: "Why Safe Social Dinner in Boston works better when Fanju app keeps the table small"
+title: "Why Safe Social Dinner in Boston works better when Fanju app keeps the table small | fanju-app"
 description: "Boston's vibrant social scene often means a flurry of invitations, from casual meetups in the Back Bay to larger gatherings in Southie. However, navigating these can feel like stepping into the unknown, especially when"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
 ---
 
-# Why Safe Social Dinner in Boston works better when Fanju app keeps the table small
+# Why Safe Social Dinner in Boston works better when Fanju app keeps the table small | fanju-app
 
 Fanju app offers a refreshing approach to social dining in Boston, focusing on small, intentional gatherings where expectations are clear before anyone sits down. This isn't about large, anonymous meetups; it's about fostering genuine connections over a shared meal in a comfortable setting. For those who find larger social events draining, the concept of a "Safe Social Dinner" via Fanju provides a welcome alternative. It's designed to bridge the gap after a busy workday, offering a low-pressure environment where you can truly connect with others, understanding who will be at the table before you even commit to attending. This focus on clarity and comfort makes it an ideal way for introverts, or anyone seeking more meaningful interactions, to expand their social circle in the city.
 

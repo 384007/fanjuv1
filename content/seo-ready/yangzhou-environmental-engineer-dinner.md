@@ -4,7 +4,7 @@ canonicalPath: "/city/yangzhou/environmental-engineer-dinner"
 alternatePath: "/en/city/yangzhou/environmental-engineer-dinner"
 translationKey: "yangzhou-environmental-engineer-dinner"
 lang: "zh"
-title: "不想在扬州随便拼桌，饭局app怎样让环境工程师饭局变成一个真实决定"
+title: "不想在扬州随便拼桌，饭局app怎样让环境工程师饭局变成一个真实决定 | fanju-app"
 titleZh: "不想在扬州随便拼桌，饭局app怎样让环境工程师饭局变成一个真实决定"
 description: "对于许多在扬州独自工作或远程办公的环境工程师来说，每周一个固定的线下聚会，就像是在快节奏的生活中找到一个可靠的锚点。饭局app的出现，正是为了解决这类需求，它不仅仅是线上邀请的工具，更是帮助大家在扬州这个充满历史韵味的城市里，找到志同道合的"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 不想在扬州随便拼桌，饭局app怎样让环境工程师饭局变成一个真实决定
+# 不想在扬州随便拼桌，饭局app怎样让环境工程师饭局变成一个真实决定 | fanju-app
 
 对于许多在扬州独自工作或远程办公的环境工程师来说，每周一个固定的线下聚会，就像是在快节奏的生活中找到一个可靠的锚点。饭局app的出现，正是为了解决这类需求，它不仅仅是线上邀请的工具，更是帮助大家在扬州这个充满历史韵味的城市里，找到志同道合的同行者，将一次简单的聚会，变成一次有价值的交流和决策的开端。
 

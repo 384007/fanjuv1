@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/lisbon/local-dinner"
 alternatePath: "/city/lisbon/local-dinner"
-title: "In Lisbon, Fanju app turns Local Dinner into a table people can actually trust"
+title: "In Lisbon, Fanju app turns Local Dinner into a table people can actually trust | fanju-app | 饭局app"
 description: "The Fanju app helps residents and visitors in Lisbon find small, intentional dinners hosted by locals who care about shared meals and real conversation. These aren’t large events or generic meetups, but modest gatherings"
 recoveredFromD1: true
 ---
@@ -33,3 +33,9 @@ recoveredFromD1: true
 <p>Deciding which dinner to join should not feel like another task. In Lisbon, where options multiply as the sun sets—concerts, drinks, late-night pastries—the simplicity of a single table can be a relief. Fanju helps by showing only a few listings at a time, each with enough detail to make a quiet decision. You don’t need to compare dozens of events. You just look for the one that matches your mood: a home-cooked meal in Estrela, a wine-focused gathering in Príncipe Real, or a simple fish stew in a flat near the river.</p>
 <p>The best dinners aren’t the most elaborate—they’re the ones where the host’s intention and the guest’s openness align. You don’t need to be fluent in Portuguese or know the history of Lisbon’s trams. You just need to be willing to sit, eat, and see what happens. That’s the reset: not a grand gesture, but a return to the ordinary act of sharing a meal. On Fanju, that act is no longer left to chance. It’s planned, yes—but it’s also patient, small, and entirely human.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

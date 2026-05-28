@@ -4,7 +4,7 @@ canonicalPath: "/city/shantou/digital-detox-dinner"
 alternatePath: "/en/city/shantou/digital-detox-dinner"
 translationKey: "shantou-digital-detox-dinner"
 lang: "zh"
-title: "下班后的汕头，饭局app怎样让数字排毒饭局有真实同桌"
+title: "下班后的汕头，饭局app怎样让数字排毒饭局有真实同桌 | fanju-app"
 titleZh: "下班后的汕头，饭局app怎样让数字排毒饭局有真实同桌"
 description: "在汕头，晚六点半的街灯刚亮，骑楼巷口的风开始带凉意。写字楼里的人陆续走出电梯，有人径直钻进小巷老店，有人在公交站低头刷新未读消息。城市节奏明明不快，可每个人心里都像压着未完成的清单。这时候，打开饭局app，不是为了找一顿饭，而是想找一个能真"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 下班后的汕头，饭局app怎样让数字排毒饭局有真实同桌
+# 下班后的汕头，饭局app怎样让数字排毒饭局有真实同桌 | fanju-app
 
 在汕头，晚六点半的街灯刚亮，骑楼巷口的风开始带凉意。写字楼里的人陆续走出电梯，有人径直钻进小巷老店，有人在公交站低头刷新未读消息。城市节奏明明不快，可每个人心里都像压着未完成的清单。这时候，打开饭局app，不是为了找一顿饭，而是想找一个能真正放下手机的夜晚——一个不靠刷屏、不靠打卡、不靠群聊维系的饭局。在汕头，数字排毒饭局不是逃离生活，而是回到生活本来的质地：一桌人，面对面，说几句不被算法打断的话。饭局app在这里不做流量游戏，它只认真搭一座桥，连接那些想从数字洪流里浮出水面的人。
 

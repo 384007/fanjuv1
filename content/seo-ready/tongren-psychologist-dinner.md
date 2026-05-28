@@ -4,7 +4,7 @@ canonicalPath: "/city/tongren/psychologist-dinner"
 alternatePath: "/en/city/tongren/psychologist-dinner"
 translationKey: "tongren-psychologist-dinner"
 lang: "zh"
-title: "铜仁想参加心理咨询师饭局，饭局app把信任感放在饭前"
+title: "铜仁想参加心理咨询师饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "铜仁想参加心理咨询师饭局，饭局app把信任感放在饭前"
 description: "在铜仁，人与人之间的距离似乎总在近与远之间浮动。街边小馆里，几个熟人围坐，话题却常常止于天气和物价；社交平台上聊得再熟，真正约出来吃饭，反而变得犹豫。这种熟悉的陌生感，在心理咨询师这个群体中尤其微妙——他们擅长倾听他人，却很少有机会被真正听"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 铜仁想参加心理咨询师饭局，饭局app把信任感放在饭前
+# 铜仁想参加心理咨询师饭局，饭局app把信任感放在饭前 | fanju-app
 
 在铜仁，人与人之间的距离似乎总在近与远之间浮动。街边小馆里，几个熟人围坐，话题却常常止于天气和物价；社交平台上聊得再熟，真正约出来吃饭，反而变得犹豫。这种熟悉的陌生感，在心理咨询师这个群体中尤其微妙——他们擅长倾听他人，却很少有机会被真正听进去。饭局app在这时出现，不是为了制造热闹，而是为了让一次饭，变成一次可以被安心交付的对话。在铜仁，一场心理咨询师饭局的起点，往往不是餐厅定位，而是你在饭局app上读到的那句话：“我们不谈个案，但可以谈自己。”
 

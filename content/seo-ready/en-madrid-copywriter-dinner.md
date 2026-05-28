@@ -4,7 +4,7 @@ canonicalPath: "/en/city/madrid/copywriter-dinner"
 alternatePath: "/city/madrid/copywriter-dinner"
 translationKey: "madrid-copywriter-dinner"
 lang: "en"
-title: "The Copywriter Dinner table Madrid actually needs is the one Fanju app describes up front"
+title: "The Copywriter Dinner table Madrid actually needs is the one Fanju app describes up front | fanju-app"
 description: "You’ve just landed in Madrid, unpacked near Malasaña, and opened Fanju app for the first time—looking not for a landmark or tapas queue, but for a table where words matter more than small talk. The city is loud with crea"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# The Copywriter Dinner table Madrid actually needs is the one Fanju app describes up front
+# The Copywriter Dinner table Madrid actually needs is the one Fanju app describes up front | fanju-app
 
 You’ve just landed in Madrid, unpacked near Malasaña, and opened Fanju app for the first time—looking not for a landmark or tapas queue, but for a table where words matter more than small talk. The city is loud with creative energy, but finding your people isn’t about volume. It’s about structure. The Copywriter Dinner table Madrid actually needs isn’t hidden in a rooftop bar or a private members’ club—it’s the one Fanju app surfaces with clarity: a real table, at a real time, in a real barrio, where the only agenda is honest conversation about work that shapes how people read, think, and act. This isn’t about networking. It’s about landing somewhere with your thoughts intact.
 

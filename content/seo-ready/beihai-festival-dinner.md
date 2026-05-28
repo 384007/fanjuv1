@@ -4,7 +4,7 @@ canonicalPath: "/city/beihai/festival-dinner"
 alternatePath: "/en/city/beihai/festival-dinner"
 translationKey: "beihai-festival-dinner"
 lang: "zh"
-title: "北海的一顿节日饭局，饭局app为什么先看人再看热闹"
+title: "北海的一顿节日饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "北海的一顿节日饭局，饭局app为什么先看人再看热闹"
 description: "第一次听说饭局app，是在一个平常的周五下班后，在北海的街头，路过一家热闹的咖啡馆，听到朋友提起。当时的我，对这种“饭局”的形式充满好奇，又有些许的犹豫。北海的节日气氛总是很浓，尤其是在像中秋、国庆这样的日子，大家聚会的场合也多。但饭局ap"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 北海的一顿节日饭局，饭局app为什么先看人再看热闹
+# 北海的一顿节日饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 第一次听说饭局app，是在一个平常的周五下班后，在北海的街头，路过一家热闹的咖啡馆，听到朋友提起。当时的我，对这种“饭局”的形式充满好奇，又有些许的犹豫。北海的节日气氛总是很浓，尤其是在像中秋、国庆这样的日子，大家聚会的场合也多。但饭局app似乎提供了一种更特别的连接方式，它不只是简单的聚餐，更强调的是一种有主题、有目的的社交。我脑子里盘旋着一个问题：这饭局app到底是什么样的存在？它真的能让我在北海的节日里，找到一群志同道合的人，而不是仅仅凑一桌热闹？
 

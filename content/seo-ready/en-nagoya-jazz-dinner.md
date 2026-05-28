@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nagoya/jazz-dinner"
 alternatePath: "/city/nagoya/jazz-dinner"
 translationKey: "nagoya-jazz-dinner"
 lang: "en"
-title: "When Jazz Dinner feels too loose in Nagoya, Fanju app starts with the table"
+title: "When Jazz Dinner feels too loose in Nagoya, Fanju app starts with the table | fanju-app"
 description: "Weekend evenings in Nagoya move with a quiet precision. Trains empty by ten, restaurants in Osu and Nagoya Station close earlier than in Tokyo, and even live houses in Nakamura-ku wrap up before midnight. This rhythm"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# When Jazz Dinner feels too loose in Nagoya, Fanju app starts with the table
+# When Jazz Dinner feels too loose in Nagoya, Fanju app starts with the table | fanju-app
 
 Dining with strangers in Nagoya can feel like stepping into a dimly lit jazz bar with no playlist—uncertain, atmospheric, but not quite safe. The Fanju app changes that by anchoring Jazz Dinner experiences in tangible, vetted details: real host names, public restaurants in Sakae and Fushimi, fixed guest counts, and meals that begin and end on time. It’s not about filling seats; it’s about forming small, temporary circles where the rhythm of conversation matches the city’s understated pace. In Nagoya, where social codes run quietly but distinctly, the app helps filter out vague plans and surface dinners that feel both open and contained. You’re not committing to a community—just a table for four, at a place you can find again if you want to.
 

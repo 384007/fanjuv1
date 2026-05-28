@@ -4,7 +4,7 @@ canonicalPath: "/en/city/moscow/police-dinner"
 alternatePath: "/city/moscow/police-dinner"
 translationKey: "moscow-police-dinner"
 lang: "en"
-title: "In Moscow, Fanju app turns Police Dinner into a table people can actually trust"
+title: "In Moscow, Fanju app turns Police Dinner into a table people can actually trust | fanju-app"
 description: "Moscow’s social rhythm often swings between isolation and overstimulation—either you’re on the metro heading home after a long week, or you’re in a crowded bar where shouting across the table becomes the norm. The"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T180008Z"
 ---
 
-# In Moscow, Fanju app turns Police Dinner into a table people can actually trust
+# In Moscow, Fanju app turns Police Dinner into a table people can actually trust | fanju-app
 
 In Moscow, the Fanju app offers a quiet alternative to the usual ways of meeting people: small, intentional dinners where the guest list, menu, and host are clearly described before you RSVP. It’s not a party, nor a networking event—just a dinner, often after work, where showing up alone doesn’t mean standing out. The Police Dinner format, one of its more grounded themes, attracts people who want conversation without performance, especially women who value both openness and personal boundaries. Unlike casual group invites that blur into noise, a Fanju table in Moscow gives you enough detail to decide if it fits—not just the food, but the tone. That clarity reduces hesitation, especially on evenings when going straight home feels too small, but stepping into the unknown feels too large.
 

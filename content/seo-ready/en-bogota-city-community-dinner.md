@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bogota/city-community-dinner"
 alternatePath: "/city/bogota/city-community-dinner"
 translationKey: "bogota-city-community-dinner"
 lang: "en"
-title: "A calmer way to approach City Community Dinner in Bogota through Fanju app"
+title: "A calmer way to approach City Community Dinner in Bogota through Fanju app | fanju-app"
 description: "For those in Bogota looking to connect more meaningfully, the Fanju app offers a way to approach City Community Dinner not as another event to schedule, but as the heart of a weekend. Instead of scrambling for plans on a"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach City Community Dinner in Bogota through Fanju app
+# A calmer way to approach City Community Dinner in Bogota through Fanju app | fanju-app
 
 For those in Bogota looking to connect more meaningfully, the Fanju app offers a way to approach City Community Dinner not as another event to schedule, but as the heart of a weekend. Instead of scrambling for plans on a Friday evening, imagine this: the week unwinds, and the anticipation builds for a thoughtfully arranged dinner. Fanju helps curate these moments, shifting the focus from a crowded calendar to the quality of the connection. It’s about making the dinner the anchor of your weekend, from the quiet preparation beforehand to the lingering satisfaction afterward, all facilitated with a calm, user-friendly approach.
 

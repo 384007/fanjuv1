@@ -4,7 +4,7 @@ canonicalPath: "/en/city/prague/k-pop-dinner"
 alternatePath: "/city/prague/k-pop-dinner"
 translationKey: "prague-k-pop-dinner"
 lang: "en"
-title: "What makes K-Pop Dinner in Prague worth the risk; Fanju app answers before you arrive"
+title: "What makes K-Pop Dinner in Prague worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "K-Pop Dinner in Prague isn’t a themed restaurant or a flash-mob concert dinner. It’s a quiet, intentional social practice: small tables, shared meals, fans of Korean pop culture gathering in apartments and tucked-away sp"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes K-Pop Dinner in Prague worth the risk; Fanju app answers before you arrive
+# What makes K-Pop Dinner in Prague worth the risk; Fanju app answers before you arrive | fanju-app
 
 K-Pop Dinner in Prague isn’t a themed restaurant or a flash-mob concert dinner. It’s a quiet, intentional social practice: small tables, shared meals, fans of Korean pop culture gathering in apartments and tucked-away spaces across Prague 2, 7, and Libeň. The real question isn’t whether you like BTS or NewJeans—it’s whether you’re ready to show up as yourself. The Fanju app helps by making expectations visible before the first message is sent. You see the menu, the host’s note, and the group size before RSVPing. That clarity changes everything. Without it, K-Pop Dinner could feel like a guessing game. With it, you’re not just attending—you’re choosing to participate.
 

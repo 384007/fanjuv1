@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seattle/ai-founder-dinner"
 alternatePath: "/city/seattle/ai-founder-dinner"
 translationKey: "seattle-ai-founder-dinner"
 lang: "en"
-title: "A calmer way to approach AI Founder Dinner in Seattle through Fanju app"
+title: "A calmer way to approach AI Founder Dinner in Seattle through Fanju app | fanju-app"
 description: "Fanju app offers a grounded way to experience AI Founder Dinner in Seattle by focusing on small, intentionally hosted meals that prioritize real conversation over networking noise."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# A calmer way to approach AI Founder Dinner in Seattle through Fanju app
+# A calmer way to approach AI Founder Dinner in Seattle through Fanju app | fanju-app
 
 Fanju app offers a grounded way to experience AI Founder Dinner in Seattle by focusing on small, intentionally hosted meals that prioritize real conversation over networking noise. Rather than treating dinner as a sidebar to the workweek, the app frames it as a central weekend moment where founders, researchers, and builders can reconnect with themselves and others outside of pitch mode. By curating intimate tables across neighborhoods like Capitol Hill, Fremont, and South Lake Union, Fanju supports a rhythm where dinner becomes the anchor—not an afterthought—shaping how people plan their weekends around presence, not productivity.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nagoya/book-club-dinner"
 alternatePath: "/city/nagoya/book-club-dinner"
 translationKey: "nagoya-book-club-dinner"
 lang: "en"
-title: "In Nagoya, Fanju app turns Book Club Dinner into a table people can actually trust"
+title: "In Nagoya, Fanju app turns Book Club Dinner into a table people can actually trust | fanju-app"
 description: "The Fanju app helps newcomers in Nagoya find small, clearly described dinners where conversation flows naturally and the host’s intentions are transparent. Unlike larger meetups or language exchanges that often feel tran"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# In Nagoya, Fanju app turns Book Club Dinner into a table people can actually trust
+# In Nagoya, Fanju app turns Book Club Dinner into a table people can actually trust | fanju-app
 
 The Fanju app helps newcomers in Nagoya find small, clearly described dinners where conversation flows naturally and the host’s intentions are transparent. Unlike larger meetups or language exchanges that often feel transactional, Fanju curates intimate Book Club Dinner gatherings that prioritize real connection over attendance numbers. These aren’t staged networking events—they’re hosted meals in homes or quiet neighborhood spots, where reading becomes a quiet bridge between people who might not otherwise meet. For someone new to Nagoya, the difference is tangible: instead of navigating crowded izakayas with forced small talk, you’re seated at a wooden table with four others, a novel in the center, and time to listen. The app’s structure gives shape to post-work hours that might otherwise drift into solitary convenience store meals. It doesn’t promise instant friendship, but it does offer a reliable starting point.
 

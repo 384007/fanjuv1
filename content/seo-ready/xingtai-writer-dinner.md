@@ -4,7 +4,7 @@ canonicalPath: "/city/xingtai/writer-dinner"
 alternatePath: "/en/city/xingtai/writer-dinner"
 translationKey: "xingtai-writer-dinner"
 lang: "zh"
-title: "下班后的邢台，饭局app怎样让作家饭局有真实同桌"
+title: "下班后的邢台，饭局app怎样让作家饭局有真实同桌 | fanju-app"
 titleZh: "下班后的邢台，饭局app怎样让作家饭局有真实同桌"
 description: "在邢台，一个作家饭局的开始，往往不是从某位作者开口说话算起，而是从饭局app上那条安静的邀约通知被点亮的那一刻。我常在晚上八点后打开饭局app，手指滑过“作家饭局”分类，看有没有新发布的席位。这座城市的节奏不快，但人与人之间的连接却容易被日"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 下班后的邢台，饭局app怎样让作家饭局有真实同桌
+# 下班后的邢台，饭局app怎样让作家饭局有真实同桌 | fanju-app
 
 在邢台，一个作家饭局的开始，往往不是从某位作者开口说话算起，而是从饭局app上那条安静的邀约通知被点亮的那一刻。我常在晚上八点后打开饭局app，手指滑过“作家饭局”分类，看有没有新发布的席位。这座城市的节奏不快，但人与人之间的连接却容易被日常琐碎淹没。饭局app不是社交软件，也不是读书会报名平台，它更像一张留有余温的饭桌预告单——你知道有人在等，但不知道是谁。而正是这种模糊中的具体，让每一次在邢台的作家饭局，都成了我愿意走出家门的理由。饭局app让我知道，今晚，有人认真地想请几位陌生人吃饭，聊点和文字有关的事。
 

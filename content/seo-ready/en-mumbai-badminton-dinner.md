@@ -4,7 +4,7 @@ canonicalPath: "/en/city/mumbai/badminton-dinner"
 alternatePath: "/city/mumbai/badminton-dinner"
 translationKey: "mumbai-badminton-dinner"
 lang: "en"
-title: "For people trying Badminton Dinner in Mumbai, Fanju app puts the guest mix first"
+title: "For people trying Badminton Dinner in Mumbai, Fanju app puts the guest mix first | fanju-app"
 description: "In Mumbai, where weekend plans often collapse into last-minute WhatsApp forwards or silent scrolling, the idea of meeting strangers for dinner after a game of badminton sounds like either desperation or a startup pitch."
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Badminton Dinner in Mumbai, Fanju app puts the guest mix first
+# For people trying Badminton Dinner in Mumbai, Fanju app puts the guest mix first | fanju-app
 
 In Mumbai, where weekend plans often collapse into last-minute WhatsApp forwards or silent scrolling, the idea of meeting strangers for dinner after a game of badminton sounds like either desperation or a startup pitch. But on a quiet Friday evening in Bandra, a group gathers in a shared flat—rackets in hand, shoes off—after booking through the Fanju app. They’ve met through a curated Badminton Dinner event: not a party, not a networking session, but an intentional pause. The Fanju app, used quietly across pockets of Mumbai’s social periphery, isn’t selling fun. It’s filtering for fit. It assumes people aren’t broken, just out of rhythm. And in a city where digital connection long ago outpaced depth, the app’s real function is invisible: it helps Mumbaikars relearn how to show up—without performance, without agenda, just present.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/prague/sneaker-dinner"
 alternatePath: "/city/prague/sneaker-dinner"
 translationKey: "prague-sneaker-dinner"
 lang: "en"
-title: "Prague has plenty of Sneaker Dinner options; Fanju app is the one that names the table first"
+title: "Prague has plenty of Sneaker Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "In Prague, where weekend evenings often drift between tram stops, riverside strolls, and last-minute dinner plans, the Fanju app quietly reshapes how women meet new people over meals. Sneaker Dinner—dining with strangers"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Prague has plenty of Sneaker Dinner options; Fanju app is the one that names the table first
+# Prague has plenty of Sneaker Dinner options; Fanju app is the one that names the table first | fanju-app
 
 In Prague, where weekend evenings often drift between tram stops, riverside strolls, and last-minute dinner plans, the Fanju app quietly reshapes how women meet new people over meals. Sneaker Dinner—dining with strangers at small, informal tables—has taken root in the city’s quieter neighbourhoods, from Vinohrady to Smíchov, not as a spectacle but as a grounded way to connect without pressure. What sets Fanju apart is its emphasis on naming the table before it fills: a visible host, a fixed time, a clear location, and a guest list that respects space. For women navigating social terrain where safety and comfort aren’t luxuries but necessities, this structure isn’t just helpful—it’s what makes participation possible.
 

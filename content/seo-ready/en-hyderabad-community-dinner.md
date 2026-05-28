@@ -4,7 +4,7 @@ canonicalPath: "/en/city/hyderabad/community-dinner"
 alternatePath: "/city/hyderabad/community-dinner"
 translationKey: "hyderabad-community-dinner"
 lang: "en"
-title: "Hyderabad after work: how Fanju app makes Community Dinner feel like a real room"
+title: "Hyderabad after work: how Fanju app makes Community Dinner feel like a real room | fanju-app"
 description: "In Hyderabad, where evening rhythms shift between office closures in Gachibowli and the first calls to prayer echoing from Charminar, finding real company over dinner can be harder than locating a quiet booth in a crowde"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Hyderabad after work: how Fanju app makes Community Dinner feel like a real room
+# Hyderabad after work: how Fanju app makes Community Dinner feel like a real room | fanju-app
 
 In Hyderabad, where evening rhythms shift between office closures in Gachibowli and the first calls to prayer echoing from Charminar, finding real company over dinner can be harder than locating a quiet booth in a crowded biryani spot. The Fanju app helps solo travellers and new residents sidestep awkward small talk at hotel restaurants by connecting them with small, curated dinners hosted in homes and modest local spaces. These aren’t performances or influencer meetups—they’re meals with defined guest counts, clear host intentions, and a structure that respects personal space. For someone passing through the city alone, joining a Fanju Community Dinner means walking into a setting where the host has already thought about seating, noise level, and guest balance, reducing the pressure to perform sociability. It’s not about instant friendship, but about feeling grounded in a shared meal, even in a city where you don’t yet know the street names.
 

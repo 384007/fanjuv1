@@ -4,7 +4,7 @@ canonicalPath: "/en/city/yokohama/comedy-dinner"
 alternatePath: "/city/yokohama/comedy-dinner"
 translationKey: "yokohama-comedy-dinner"
 lang: "en"
-title: "Yokohama strangers sit down easier when Fanju app frames the Comedy Dinner table first"
+title: "Yokohama strangers sit down easier when Fanju app frames the Comedy Dinner table first | fanju-app"
 description: "In a city where expat groups and language exchange meetups often blur into interchangeable evenings of small talk, a Comedy Dinner in Yokohama stands apart when it resists the default of vague invitations."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Yokohama strangers sit down easier when Fanju app frames the Comedy Dinner table first
+# Yokohama strangers sit down easier when Fanju app frames the Comedy Dinner table first | fanju-app
 
 The Fanju app is a social dining platform designed for small, intentional dinners where the experience is clearly described from the start. In Yokohama, where casual social connections can feel elusive despite the city’s openness, the app offers a step up from vague meetups or impersonal group chats by focusing on real meals with real conversation. A Yokohama Comedy Dinner through Fanju isn’t about performing or forced laughter—it’s a curated gathering where humour becomes a shared rhythm at the table. Hosts set the tone, guests arrive with aligned expectations, and the setting supports both ease and authenticity. This structure makes joining feel less like a gamble and more like a thoughtful choice for those seeking connection without performance.
 

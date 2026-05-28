@@ -4,7 +4,7 @@ canonicalPath: "/en/city/san-francisco/sustainability-dinner"
 alternatePath: "/city/san-francisco/sustainability-dinner"
 translationKey: "san-francisco-sustainability-dinner"
 lang: "en"
-title: "Before joining Sustainability Dinner in San Francisco, what Fanju app should make clear"
+title: "Before joining Sustainability Dinner in San Francisco, what Fanju app should make clear | fanju-app"
 description: "San Francisco’s Sustainability Dinner on Fanju app brings together people who want to eat thoughtfully, not perform for feeds. This is not a dating guarantee, not a random group chat, not an endless profile feed."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Before joining Sustainability Dinner in San Francisco, what Fanju app should make clear
+# Before joining Sustainability Dinner in San Francisco, what Fanju app should make clear | fanju-app
 
 San Francisco’s Sustainability Dinner on Fanju app brings together people who want to eat thoughtfully, not perform for feeds. This is not a dating guarantee, not a random group chat, not an endless profile feed. Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局,” and in San Francisco, it functions as a social dining app that organizes small-table dinners where the theme guides the conversation. The Sustainability Dinner tables often take place in quiet neighborhood cafes or community-minded bistros, not loud downtown bars. The focus is on what’s served—seasonal, locally sourced, plant-forward dishes—and who’s across the table: someone who bikes to work, composts religiously, or works in urban farming. You’re not here to pitch startups or network aggressively. You’re here because dinner, done well, can be a quiet act of alignment.
 

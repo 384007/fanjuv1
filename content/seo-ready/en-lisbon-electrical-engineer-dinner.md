@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lisbon/electrical-engineer-dinner"
 alternatePath: "/city/lisbon/electrical-engineer-dinner"
 translationKey: "lisbon-electrical-engineer-dinner"
 lang: "en"
-title: "Lisbon strangers sit down easier when Fanju app frames the Electrical Engineer Dinner table first"
+title: "Lisbon strangers sit down easier when Fanju app frames the Electrical Engineer Dinner table first | fanju-app"
 description: "Navigating Lisbon’s vibrant professional scene can feel daunting, especially for those who prefer a quieter approach to networking. The Fanju app offers a solution for electrical engineers seeking meaningful connections,"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Lisbon strangers sit down easier when Fanju app frames the Electrical Engineer Dinner table first
+# Lisbon strangers sit down easier when Fanju app frames the Electrical Engineer Dinner table first | fanju-app
 
 Navigating Lisbon’s vibrant professional scene can feel daunting, especially for those who prefer a quieter approach to networking. The Fanju app offers a solution for electrical engineers seeking meaningful connections, by structuring small dinners that prioritize comfort and genuine conversation over the often overwhelming atmosphere of larger events. This approach ensures that even strangers at a table can find common ground more readily, fostering a relaxed environment from the moment you arrive.
 

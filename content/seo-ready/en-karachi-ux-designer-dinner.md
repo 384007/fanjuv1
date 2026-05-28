@@ -4,7 +4,7 @@ canonicalPath: "/en/city/karachi/ux-designer-dinner"
 alternatePath: "/city/karachi/ux-designer-dinner"
 translationKey: "karachi-ux-designer-dinner"
 lang: "en"
-title: "For people trying UX Designer Dinner in Karachi, Fanju app puts the guest mix first"
+title: "For people trying UX Designer Dinner in Karachi, Fanju app puts the guest mix first | fanju-app"
 description: "When you land in Karachi this month and scroll through weekend plans, Fanju app shows up not as a dining guide but as a filter for real connection—especially around niche interests like UX design. It’s not about the food"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying UX Designer Dinner in Karachi, Fanju app puts the guest mix first
+# For people trying UX Designer Dinner in Karachi, Fanju app puts the guest mix first | fanju-app
 
 When you land in Karachi this month and scroll through weekend plans, Fanju app shows up not as a dining guide but as a filter for real connection—especially around niche interests like UX design. It’s not about the food first; it’s about who sits across from you at a low-lit table in Defence or near Tariq Road. The app surfaces small dinners hosted by locals who frame a clear reason for gathering, not just a time and place. For someone fresh to the city, that clarity reduces the guesswork of where to start. Fanju doesn’t promise instant friendships, but it does structure entry points—tables of six to eight people, each with a stated intent, shared work background, or curiosity. That matters when your network is still a blank map.
 

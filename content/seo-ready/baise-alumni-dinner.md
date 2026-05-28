@@ -4,7 +4,7 @@ canonicalPath: "/city/baise/alumni-dinner"
 alternatePath: "/en/city/baise/alumni-dinner"
 translationKey: "baise-alumni-dinner"
 lang: "zh"
-title: "在百色找到对的校友饭局，饭局app先把这一桌说清楚"
+title: "在百色找到对的校友饭局，饭局app先把这一桌说清楚 | fanju-app"
 titleZh: "在百色找到对的校友饭局，饭局app先把这一桌说清楚"
 description: "一场成功的校友饭局，关键在于主理人能否清晰地传达这顿饭的“玩法”。在百色，如果一位主理人在发出邀请时，只是笼统地说“大家出来吃饭聚聚”，而没有说明这顿饭的性质、大概会有哪些人、以及期望达到的交流深度，那么桌上的气氛很容易变得尴尬。尤其对于刚"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
 ---
 
-# 在百色找到对的校友饭局，饭局app先把这一桌说清楚
+# 在百色找到对的校友饭局，饭局app先把这一桌说清楚 | fanju-app
 
 刚来到百色，一个人在陌生的城市，想要认识新朋友，但又不想一开始就面对大型的、目的不明的社交场合。比起那种泛泛而谈的聚会邀请，你可能更期待一顿饭，它有清晰的主题，能让你在轻松的氛围中，对同桌的人和聊天的内容有所预期。饭局app正是为此而生，它提供了一种低压力的社交方式，通过精选的小桌饭局，让初来乍到的你，能在百色这座城市里，找到真正能聊得来的校友，建立有质量的连接。
 

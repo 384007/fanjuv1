@@ -4,7 +4,7 @@ canonicalPath: "/en/city/los-angeles/third-place-dinner"
 alternatePath: "/city/los-angeles/third-place-dinner"
 translationKey: "los-angeles-third-place-dinner"
 lang: "en"
-title: "Los Angeles after work: how Fanju app makes Third Place Dinner feel like a real room"
+title: "Los Angeles after work: how Fanju app makes Third Place Dinner feel like a real room | fanju-app"
 description: "Los Angeles sprawls in every direction, but its social gravity doesn’t always pull people together. Highways connect districts, but not necessarily people. Third Place Dinner, as it appears through Fanju app, begins not"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Los Angeles after work: how Fanju app makes Third Place Dinner feel like a real room
+# Los Angeles after work: how Fanju app makes Third Place Dinner feel like a real room | fanju-app
 
 What happens when the city never stops but you need a table that does? In Los Angeles, where commutes stretch and conversations often stall at surface level, Fanju app offers a quiet recalibration: small dinners with clear purpose, hosted by real people in neighborhoods across the basin. These aren’t pop-ups or performances. They’re Third Place Dinners—meals that fall between home and work, designed not for spectacle but for presence. The app surfaces dinners by hosts who describe not just the menu, but the mood, the guest mix, and the boundaries. That clarity—what kind of table this is—helps people choose not just any dinner, but the right one. For Angelenos used to overbooking their calendars and underfilling their connections, Fanju becomes less of a tool and more of a filter.
 

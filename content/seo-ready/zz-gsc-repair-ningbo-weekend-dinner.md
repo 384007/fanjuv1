@@ -4,7 +4,7 @@ canonicalPath: "/city/ningbo/weekend-dinner"
 alternatePath: "/en/city/ningbo/weekend-dinner"
 translationKey: "gsc-repair-ningbo-weekend-dinner"
 lang: "zh"
-title: "宁波周末饭局指南"
+title: "宁波周末饭局指南 | fanju-app | 饭局app"
 description: "宁波周末饭局适合本地用户和新朋友通过公开小桌晚餐建立轻松同城连接。"
 pageType: "city_topic"
 priorityScore: 78
@@ -12,7 +12,7 @@ aiQualityScore: 96
 status: "ready"
 ---
 
-# 宁波周末饭局指南：把周末留给一桌真实交流
+# 宁波周末饭局指南：把周末留给一桌真实交流 | fanju-app | 饭局app
 
 宁波周末饭局适合想在周末认识同城朋友、行业伙伴或饭搭子的人。Fanju / 饭局把主题、餐厅、人数、费用和主理人说明放在报名之前，让用户先判断这桌饭是否适合自己。
 

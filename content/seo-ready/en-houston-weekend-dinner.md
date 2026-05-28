@@ -4,7 +4,7 @@ canonicalPath: "/en/city/houston/weekend-dinner"
 alternatePath: "/city/houston/weekend-dinner"
 translationKey: "houston-weekend-dinner"
 lang: "en"
-title: "In Houston, Fanju app turns Weekend Dinner into a table people can actually trust"
+title: "In Houston, Fanju app turns Weekend Dinner into a table people can actually trust | fanju-app"
 description: "In Houston, where weekend plans often drift between last-minute Tex-Mex runs and scrolling through delivery apps, the Fanju app offers a different rhythm: sharing dinner with people you’ve never met. It’s not a party, no"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Houston, Fanju app turns Weekend Dinner into a table people can actually trust
+# In Houston, Fanju app turns Weekend Dinner into a table people can actually trust | fanju-app
 
 In Houston, where weekend plans often drift between last-minute Tex-Mex runs and scrolling through delivery apps, the Fanju app offers a different rhythm: sharing dinner with people you’ve never met. It’s not a party, not a networking event, and not a restaurant reservation. It’s a quiet repositioning of how food functions in the city—with the idea that a shared meal can be the fastest way for strangers to find common ground. The app doesn’t promise instant friendship, but it does promise a seat at a real table, in a real home, with real food. And in a city as vast and transient as Houston, that consistency builds trust over time. Fanju doesn’t replace old routines. It offers a new kind of belonging, one weekend dinner at a time.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/yokohama/writer-dinner"
 alternatePath: "/city/yokohama/writer-dinner"
 translationKey: "yokohama-writer-dinner"
 lang: "en"
-title: "Before the first message in Yokohama, Fanju app makes Writer Dinner feel like a real decision"
+title: "Before the first message in Yokohama, Fanju app makes Writer Dinner feel like a real decision | fanju-app"
 description: "In Yokohama, after long days spent drafting, editing, or staring at blinking cursors, the idea of meeting other writers for dinner often stalls before it begins. The hesitation isn’t about interest—it’s about coordinatio"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Yokohama, Fanju app makes Writer Dinner feel like a real decision
+# Before the first message in Yokohama, Fanju app makes Writer Dinner feel like a real decision | fanju-app
 
 In Yokohama, after long days spent drafting, editing, or staring at blinking cursors, the idea of meeting other writers for dinner often stalls before it begins. The hesitation isn’t about interest—it’s about coordination. Who hosts? Who picks the place? Who ensures the conversation doesn’t collapse into polite silence? The Fanju app changes that by turning a vague post-work impulse into a structured social opportunity. It doesn’t promise instant camaraderie, but it removes the friction of initiation. For a group of six to twelve writers meeting for the first time, that clarity—knowing who’s coming, where, and why—makes the difference between another skipped evening and a table that actually forms. The app doesn’t create chemistry, but it creates conditions where it might take root.
 

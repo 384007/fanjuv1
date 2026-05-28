@@ -4,7 +4,7 @@ canonicalPath: "/city/suzhou/semiconductor-dinner"
 alternatePath: "/en/city/suzhou/semiconductor-dinner"
 translationKey: "suzhou-semiconductor-dinner"
 lang: "zh"
-title: "苏州不想只靠群聊时，饭局app怎样把半导体饭局坐成一桌"
+title: "苏州不想只靠群聊时，饭局app怎样把半导体饭局坐成一桌 | fanju-app"
 titleZh: "苏州不想只靠群聊时，饭局app怎样把半导体饭局坐成一桌"
 description: "苏州的节奏很特别。它不似上海那样急促，也不像南京那样厚重。这里的工业园区安静而有序，地铁站外的咖啡馆常坐着穿格子衬衫的年轻人，手里不是开发板，就是笔记本电脑。很多人在这座城市工作，却未必真正进入它的社交肌理。尤其是远程工作者，白天在家调试代"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 苏州不想只靠群聊时，饭局app怎样把半导体饭局坐成一桌
+# 苏州不想只靠群聊时，饭局app怎样把半导体饭局坐成一桌 | fanju-app
 
 在苏州，饭局app不是为热闹而设的工具，而是为那些在园区实验室调试电路图、在独墅湖边远程开会、在阳澄湖畔租住小屋的远程工作者准备的一张稳定饭桌。很多人以为，半导体行业的交流必须在展会上、在会议室里，但真实的情况是，技术方向的转变、合作的萌芽、资源的对接，往往发生在一次晚饭的间隙。饭局app在苏州做的，不是组织饭局，而是让每一场围绕半导体主题的小桌饭，变成可预期、可信任、可持续的线下锚点。它不替代群聊，而是把群聊里那句“有人来吗”变成一张有名字、有地点、有主理人、有节奏的饭桌。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/mexico-city/neighborhood-dinner"
 alternatePath: "/city/mexico-city/neighborhood-dinner"
 translationKey: "mexico-city-neighborhood-dinner"
 lang: "en"
-title: "Mexico City after work: how Fanju app makes Neighborhood Dinner feel like a real room"
+title: "Mexico City after work: how Fanju app makes Neighborhood Dinner feel like a real room | fanju-app"
 description: "On a solo evening in Mexico City, the Fanju app connects people to small, host-led dinners in neighborhood homes or tucked-away local spaces—not tourist setups, but real-life tables where conversation begins before the f"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Mexico City after work: how Fanju app makes Neighborhood Dinner feel like a real room
+# Mexico City after work: how Fanju app makes Neighborhood Dinner feel like a real room | fanju-app
 
 On a solo evening in Mexico City, the Fanju app connects people to small, host-led dinners in neighborhood homes or tucked-away local spaces—not tourist setups, but real-life tables where conversation begins before the first course. It’s not about dining out; it’s about being invited in. For someone passing through alone, the app offers a way to step past the isolation of hotels and hostels into moments that resemble shared living. Meals are described plainly: who’s hosting, where, what they’re cooking, and what kind of conversation they hope for. There’s no algorithmic noise. Just clarity. That simplicity is how Fanju builds space for connection in a city where rhythm matters more than speed, and where a single dinner can briefly feel like temporary kinship.
 

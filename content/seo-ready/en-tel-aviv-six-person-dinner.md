@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tel-aviv/six-person-dinner"
 alternatePath: "/city/tel-aviv/six-person-dinner"
 translationKey: "tel-aviv-six-person-dinner"
 lang: "en"
-title: "How Fanju app turns a Tel Aviv Six Person Dinner night into something worth showing up for"
+title: "How Fanju app turns a Tel Aviv Six Person Dinner night into something worth showing up for | fanju-app"
 description: "In Tel Aviv, where networking often means crowded rooftop mixers with half-hearted business cards and overpriced cocktails, the Fanju app quietly enables something different: intimate, six-person dinners that feel less l"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# How Fanju app turns a Tel Aviv Six Person Dinner night into something worth showing up for
+# How Fanju app turns a Tel Aviv Six Person Dinner night into something worth showing up for | fanju-app
 
 In Tel Aviv, where networking often means crowded rooftop mixers with half-hearted business cards and overpriced cocktails, the Fanju app quietly enables something different: intimate, six-person dinners that feel less like transactions and more like real conversations. These dinners are not hosted in flashy venues but in homes and small neighborhood kitchens across the city, from Neve Tzedek to Florentin. The app doesn't promise leads or investor intros—it simply structures the evening so professionals, founders, and operators can show up without the usual performance. By filtering guests through shared intent rather than just industry or job title, Fanju helps turn a simple dinner into a dependable way to meet people who understand what building something in this city actually feels like.
 

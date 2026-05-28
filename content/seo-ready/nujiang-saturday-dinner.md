@@ -4,7 +4,7 @@ canonicalPath: "/city/nujiang/saturday-dinner"
 alternatePath: "/en/city/nujiang/saturday-dinner"
 translationKey: "nujiang-saturday-dinner"
 lang: "zh"
-title: "在怒江把周六饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在怒江把周六饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在怒江把周六饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "在怒江，下班后走在怒江边的步道上，天色渐暗，江水低语，路灯一盏盏亮起，很多人会不自觉放慢脚步。不是不想回家，而是那种独自回到空屋、对着手机刷到深夜的惯性，总让人在周末前夜格外犹豫。饭局app在这里做的事，不是简单拉人吃饭，而是试图在长期依赖"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在怒江把周六饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在怒江把周六饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 在怒江，下班后走在怒江边的步道上，天色渐暗，江水低语，路灯一盏盏亮起，很多人会不自觉放慢脚步。不是不想回家，而是那种独自回到空屋、对着手机刷到深夜的惯性，总让人在周末前夜格外犹豫。饭局app在这里做的事，不是简单拉人吃饭，而是试图在长期依赖线上社交之后，重新建立一种有温度、有节奏的线下连接。它不追求热闹拼桌，而是在怒江这座节奏舒缓却人情紧密的城市里，用一桌饭的边界与诚意，让人重新愿意坐下来，说点不设防的话。真正的问题从来不是“有没有人一起吃饭”，而是“这一桌，是不是我能放松下来的那一桌”。
 

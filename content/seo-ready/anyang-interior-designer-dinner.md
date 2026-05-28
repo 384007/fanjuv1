@@ -4,7 +4,7 @@ canonicalPath: "/city/anyang/interior-designer-dinner"
 alternatePath: "/en/city/anyang/interior-designer-dinner"
 translationKey: "anyang-interior-designer-dinner"
 lang: "zh"
-title: "在安阳找到对的室内设计师饭局饭局，饭局app先把这一桌说清楚"
+title: "在安阳找到对的室内设计师饭局饭局，饭局app先把这一桌说清楚 | fanju-app"
 titleZh: "在安阳找到对的室内设计师饭局饭局，饭局app先把这一桌说清楚"
 description: "下班后的安阳，华灯初上，忙碌了一天的你，是否也曾有过不想独自回家的念头？饭局app的出现，就是为了解决这份“不想独自回家”的时刻。它不仅仅是一个工具，更像是在这个城市里为你搭建起一个临时的社交空间，尤其是对于安阳的室内设计师们而言，一场精心"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在安阳找到对的室内设计师饭局饭局，饭局app先把这一桌说清楚
+# 在安阳找到对的室内设计师饭局饭局，饭局app先把这一桌说清楚 | fanju-app
 
 下班后的安阳，华灯初上，忙碌了一天的你，是否也曾有过不想独自回家的念头？饭局app的出现，就是为了解决这份“不想独自回家”的时刻。它不仅仅是一个工具，更像是在这个城市里为你搭建起一个临时的社交空间，尤其是对于安阳的室内设计师们而言，一场精心策划的饭局，可以成为连接彼此、交流灵感的绝佳契机。饭局app致力于让每一次的线下相聚，都能在开始前就建立起清晰的预期，让每一位参与者都能找到属于自己的那份舒适与价值。
 

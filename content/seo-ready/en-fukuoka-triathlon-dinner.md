@@ -4,7 +4,7 @@ canonicalPath: "/en/city/fukuoka/triathlon-dinner"
 alternatePath: "/city/fukuoka/triathlon-dinner"
 translationKey: "fukuoka-triathlon-dinner"
 lang: "en"
-title: "For people trying Triathlon Dinner in Fukuoka, Fanju app puts the guest mix first"
+title: "For people trying Triathlon Dinner in Fukuoka, Fanju app puts the guest mix first | fanju-app"
 description: "Arriving at a Triathlon Dinner in Fukuoka often means pausing outside a narrow wooden door in a low-rise building near Nakasu, scanning the street for signs of the right table. The first ten minutes—those initial"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T181226Z"
 ---
 
-# For people trying Triathlon Dinner in Fukuoka, Fanju app puts the guest mix first
+# For people trying Triathlon Dinner in Fukuoka, Fanju app puts the guest mix first | fanju-app
 
 Triathlon Dinner in Fukuoka isn’t about crossing finish lines—it’s about starting conversations where digital fatigue ends and real presence begins. The Fanju app supports this by focusing on clarity: meals are small, capped at six guests, and hosted in neighborhood spots like tucked-away izakayas in Tenjin or quiet soba joints near Ohori Park. Instead of broad group chats where intentions blur, Fanju listings describe not just the food, but the host’s reason for gathering—whether it’s reconnecting with conversation after years of remote work, or meeting people who train for endurance events but value downtime just as much. For newcomers, this specificity reduces guesswork. You’re not joining a vague meetup; you’re stepping into a deliberate space where the host has already shaped the tone. The app doesn’t promise instant bonds, but it does make it easier to find dinners where the rhythm feels natural, not forced.
 

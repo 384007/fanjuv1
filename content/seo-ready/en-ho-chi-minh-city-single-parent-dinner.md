@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ho-chi-minh-city/single-parent-dinner"
 alternatePath: "/city/ho-chi-minh-city/single-parent-dinner"
 translationKey: "ho-chi-minh-city-single-parent-dinner"
 lang: "en"
-title: "For people trying Single Parent Dinner in Ho Chi Minh City, Fanju app puts the guest mix first"
+title: "For people trying Single Parent Dinner in Ho Chi Minh City, Fanju app puts the guest mix first | fanju-app"
 description: "Most people in Ho Chi Minh City eat dinner early, especially in residential areas like Phu Nhuan or Binh Thanh. But for single parents, the real meal often happens later—after school runs, bedtime routines, or overtime"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Single Parent Dinner in Ho Chi Minh City, Fanju app puts the guest mix first
+# For people trying Single Parent Dinner in Ho Chi Minh City, Fanju app puts the guest mix first | fanju-app
 
 On a Thursday evening in District 3, a woman fresh off a late client call opens the Fanju app, not for delivery or a bar, but to join a small dinner where she won’t be the only one dining alone. The Fanju app in Ho Chi Minh City isn’t about filling seats—it’s about filling silences with the right kind of conversation. Single Parent Dinner, as it appears here, isn’t a default fallback for solo diners. It’s a deliberate social format: intimate, limited to eight guests, often hosted in quiet apartments or tucked-away garden spaces where the host has curated not just the menu, but the tone. This isn’t casual group dining. It’s an evening built around people who want to be seen, not just seated.
 

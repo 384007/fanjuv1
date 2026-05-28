@@ -4,7 +4,7 @@ canonicalPath: "/en/city/surat/nurse-dinner"
 alternatePath: "/city/surat/nurse-dinner"
 translationKey: "surat-nurse-dinner"
 lang: "en"
-title: "Surat after work: how Fanju app makes Nurse Dinner feel like a real room"
+title: "Surat after work: how Fanju app makes Nurse Dinner feel like a real room | fanju-app"
 description: "Many evening invitations in Surat arrive without clear details—just a time, a general area, and an open-ended group chat. These plans often shift or fade, leaving participants unsure whether to wait or move on."
 primaryKeyword: "Surat Nurse Dinner"
 secondaryKeywords: "Surat social dining|Nurse dinner group|dinner buddy app|Fanju app|small-table dinner in Surat"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T220007Z"
 ---
 
-# Surat after work: how Fanju app makes Nurse Dinner feel like a real room
+# Surat after work: how Fanju app makes Nurse Dinner feel like a real room | fanju-app
 
 The Fanju app in Surat offers small, intentional dinners with real names, clear formats, and public venues—especially Nurse Dinner, a gathering designed for healthcare workers seeking calm conversation after shifts. Unlike vague social plans or loud group meetups, these dinners are structured to reduce guesswork. You know who’s hosting, where it’s held, and what kind of evening to expect. In a city where after-hours socializing often means crowded cafes or impromptu plans that dissolve, Fanju’s Nurse Dinner tables provide a defined space. There’s no pressure to perform, no need to navigate large groups. The focus is on showing up, sitting down, and sharing a meal with people who also value clarity. For nurses in Surat navigating long hours and emotional workdays, this kind of predictable, low-effort gathering can make a real difference.  
 

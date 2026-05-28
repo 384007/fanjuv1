@@ -4,7 +4,7 @@ canonicalPath: "/city/tangshan/insurance-dinner"
 alternatePath: "/en/city/tangshan/insurance-dinner"
 translationKey: "tangshan-insurance-dinner"
 lang: "zh"
-title: "唐山保险饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "唐山保险饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "唐山保险饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "饭局app的设计逻辑不是“拉人进群”，而是先定义这一桌。在唐山，一场保险饭局的成立，取决于主理人能不能说清楚：这顿饭为什么值得被参加。它不追求热闹，也不承诺结果，但它要求每一个环节都可预期。从餐厅选址到人数控制，从主题设定到开场节奏，这些细"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T180008Z"
 ---
 
-# 唐山保险饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 唐山保险饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 在唐山，工作日的傍晚六点半，南湖大道的车流开始放缓，写字楼里的灯一盏接一盏熄灭。有人顺手关掉电脑，拎起包就走；也有人坐在工位上多留几分钟，不是加班，只是还没想好回家。这个时刻，一个简单的邀请——“晚上一起吃饭吗？”——听起来像解脱，也可能让人更犹豫。泛泛的邀约往往没有锚点，不知道去哪，跟谁，聊什么，最后变成应付。饭局app在唐山做的事情，是把这种模糊的“一起吃个饭”变成一桌有名字、有主题、有边界的饭局。保险饭局，就是其中最需要清晰边界的类型：不是推销会，也不是熟人局，而是一群彼此陌生但职业相关的人，在真实餐厅里，用一顿晚饭的时间建立最低限度的信任。
 

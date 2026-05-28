@@ -4,7 +4,7 @@ canonicalPath: "/en/city/cape-town/weeknight-dinner"
 alternatePath: "/city/cape-town/weeknight-dinner"
 translationKey: "cape-town-weeknight-dinner"
 lang: "en"
-title: "When Weeknight Dinner feels too loose in Cape Town, Fanju app starts with the table"
+title: "When Weeknight Dinner feels too loose in Cape Town, Fanju app starts with the table | fanju-app"
 description: "Walking into a dinner with strangers in Cape Town can feel like stepping onto a moving train. You don’t know the route, the stops, or whether you’re expected to stay until the end."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# When Weeknight Dinner feels too loose in Cape Town, Fanju app starts with the table
+# When Weeknight Dinner feels too loose in Cape Town, Fanju app starts with the table | fanju-app
 
 Cape Town Weeknight Dinner on Fanju app isn’t about finding the trendiest restaurant or chasing a full social calendar. It’s about sitting down with a small group of people who’ve agreed on one thing: that food, shared simply and sincerely, is the easiest way to begin a real connection. The app doesn’t promise instant friendships or curated networking—it offers clarity. Before you leave your apartment in Gardens, Woodstock, or Observatory, you’ll know the table size, the host’s role, and whether the night leans quiet or conversational. That predictability is what turns hesitation into a decision to go. In a city where social events often blur into noise, Fanju frames weeknight dinners as intentional moments, not obligations.
 

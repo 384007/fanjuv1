@@ -4,7 +4,7 @@ canonicalPath: "/en/city/paris/concert-goer-dinner"
 alternatePath: "/city/paris/concert-goer-dinner"
 translationKey: "paris-concert-goer-dinner"
 lang: "en"
-title: "Paris has plenty of Concert Goer Dinner options; Fanju app is the one that names the table first"
+title: "Paris has plenty of Concert Goer Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "For those looking to reconnect offline in Paris, the Fanju app offers a distinct approach to shared dining experiences, particularly for concert-goers. Instead of a vague invitation, Fanju aims to clarify the intention b"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Paris has plenty of Concert Goer Dinner options; Fanju app is the one that names the table first
+# Paris has plenty of Concert Goer Dinner options; Fanju app is the one that names the table first | fanju-app
 
 For those looking to reconnect offline in Paris, the Fanju app offers a distinct approach to shared dining experiences, particularly for concert-goers. Instead of a vague invitation, Fanju aims to clarify the intention behind a gathering, transforming a potentially awkward meal into a purposeful social reset. This is especially valuable in a city like Paris, where a vibrant cultural scene often means people are heading to or from events, and a well-organized dinner can become a cherished part of the experience. The app's focus on defining the purpose of the table, such as a pre-concert meal, helps set expectations and ensures a more comfortable atmosphere for everyone involved.
 

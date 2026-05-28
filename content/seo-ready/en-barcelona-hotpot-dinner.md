@@ -4,7 +4,7 @@ canonicalPath: "/en/city/barcelona/hotpot-dinner"
 alternatePath: "/city/barcelona/hotpot-dinner"
 translationKey: "barcelona-hotpot-dinner"
 lang: "en"
-title: "When Hotpot Dinner feels too loose in Barcelona, Fanju app starts with the table"
+title: "When Hotpot Dinner feels too loose in Barcelona, Fanju app starts with the table | fanju-app"
 description: "In Barcelona, professional connections often form not in conference rooms but over shared plates, where conversation flows as steadily as local vermouth. The Fanju app has quietly reshaped how founders, freelancers, and"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# When Hotpot Dinner feels too loose in Barcelona, Fanju app starts with the table
+# When Hotpot Dinner feels too loose in Barcelona, Fanju app starts with the table | fanju-app
 
 In Barcelona, professional connections often form not in conference rooms but over shared plates, where conversation flows as steadily as local vermouth. The Fanju app has quietly reshaped how founders, freelancers, and operators approach networking by anchoring it to small, intentional dinners—starting with hotpot. Rather than treating meals as casual meetups, Fanju frames them as structured yet relaxed opportunities to build trust. In a city where social rhythm leans on late-night dining and spontaneous plans, the app introduces clarity: every table has a host, a purpose, and a limit. This approach turns ambiguous “let’s grab dinner” invites into real moments of connection, particularly for those navigating Barcelona’s growing but still fragmented startup and creative scenes.
 

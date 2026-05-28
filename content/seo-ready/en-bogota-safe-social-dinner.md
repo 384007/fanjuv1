@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/bogota/safe-social-dinner"
 alternatePath: "/city/bogota/safe-social-dinner"
-title: "Why Safe Social Dinner in Bogota works better when Fanju app keeps the table small"
+title: "Why Safe Social Dinner in Bogota works better when Fanju app keeps the table small | fanju-app | 饭局app"
 description: "The Fanju app helps remote workers in Bogota find small, intentional dinners that fit the city’s social rhythm and their need for recurring connection. Instead of large, unpredictable gatherings, it focuses on meals with"
 recoveredFromD1: true
 ---
@@ -33,3 +33,9 @@ recoveredFromD1: true
 <p>Deciding which dinner to join shouldn’t feel like another task to optimize. The Fanju app helps by showing only a few well-matched options based on location, language, and timing. Instead of scrolling through dozens of vague invites, users see a shortlist of meals that fit their actual life. A remote worker in Suba doesn’t have to imagine attending a dinner in Fontibón if the commute doesn’t work. The app narrows the field so the decision becomes simpler: not “which social event,” but “yes or no to this one, tonight.”</p>
 <p>Saying no is part of the rhythm. The goal isn’t to attend every week, but to find a pattern that sustains you. Some people go once a month, others every two weeks. What matters is that the option exists—a real, low-pressure way to connect without performance. In Bogota, where social life can feel either overwhelming or isolating, that balance is rare. With the right table size and the right host, dinner becomes less about the food and more about the quiet relief of being seen, heard, and welcomed—without having to explain why you needed it.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

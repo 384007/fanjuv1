@@ -4,7 +4,7 @@ canonicalPath: "/en/city/toronto/social-impact-dinner"
 alternatePath: "/city/toronto/social-impact-dinner"
 translationKey: "toronto-social-impact-dinner"
 lang: "en"
-title: "For people trying Social Impact Dinner in Toronto, Fanju app puts the guest mix first"
+title: "For people trying Social Impact Dinner in Toronto, Fanju app puts the guest mix first | fanju-app"
 description: "In Toronto, a city where public transit delays and last-minute work demands are routine, the moment someone considers joining a dinner group often comes down to one internal question: “Who exactly will be there?"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For people trying Social Impact Dinner in Toronto, Fanju app puts the guest mix first
+# For people trying Social Impact Dinner in Toronto, Fanju app puts the guest mix first | fanju-app
 
 Sitting down to a shared meal in Toronto’s east end on a Thursday evening, the table is set not just with plates and glasses but with quiet expectations—about who will show up, what kind of conversation might unfold, and whether anyone will actually listen. For those returning to in-person social life after a long stretch of solo takeout and scrolling, the idea of a Social Impact Dinner in Toronto can feel both appealing and uncertain. The Fanju app helps clarify that uncertainty not by promising outcomes, but by shaping the experience before it begins. It’s a platform designed for small, intentional dinners where the guest mix is defined upfront, the host sets clear context, and the goal isn’t networking or forced fun, but a real, low-pressure exchange over food. In a city where neighbourhoods shape identity and after-work energy is often spent just getting home, Fanju offers a way to reconnect—without overcommitting.
 

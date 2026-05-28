@@ -4,7 +4,7 @@ canonicalPath: "/en/city/budapest/trusted-rsvp-dinner"
 alternatePath: "/city/budapest/trusted-rsvp-dinner"
 translationKey: "budapest-trusted-rsvp-dinner"
 lang: "en"
-title: "Before joining Trusted RSVP Dinner in Budapest, what Fanju app should make clear"
+title: "Before joining Trusted RSVP Dinner in Budapest, what Fanju app should make clear | fanju-app"
 description: "Budapest’s Trusted RSVP Dinner scene through the Fanju app offers a small-table meal focused on real talk, not a dating guarantee, not a random group chat, not an endless profile feed."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Before joining Trusted RSVP Dinner in Budapest, what Fanju app should make clear
+# Before joining Trusted RSVP Dinner in Budapest, what Fanju app should make clear | fanju-app
 
 Budapest’s Trusted RSVP Dinner scene through the Fanju app offers a small-table meal focused on real talk, not a dating guarantee, not a random group chat, not an endless profile feed. It’s a social dining app designed for people who want to meet others without performative swiping or forced networking. Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局,” a term rooted in purposeful gatherings over food. In Budapest, this often means a table of five to eight guests meeting in a seated restaurant, not a standing mixer or bar crawl. The app filters for clear themes—like founders discussing burnout or designers sharing remote work tools—and hosts must specify timing, cost, and location. That clarity matters when crossing from Buda to Pest after work, especially if you’re weighing whether the conversation will justify the commute. This isn’t a meetup where you’re expected to stay until midnight; it’s a dinner with a beginning and end, chosen with intent.
 

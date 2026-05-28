@@ -4,7 +4,7 @@ canonicalPath: "/en/city/melbourne/business-dinner"
 alternatePath: "/city/melbourne/business-dinner"
 translationKey: "melbourne-business-dinner"
 lang: "en"
-title: "A calmer way to approach Business Dinner in Melbourne through Fanju app"
+title: "A calmer way to approach Business Dinner in Melbourne through Fanju app | fanju-app"
 description: "Choosing where a Business Dinner takes place in Melbourne isn’t just about convenience—it shapes the tone. A host in Richmond might pick a quiet Vietnamese spot tucked behind Bridge Road, where the rhythm of the kitchen"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T180008Z"
 ---
 
-# A calmer way to approach Business Dinner in Melbourne through Fanju app
+# A calmer way to approach Business Dinner in Melbourne through Fanju app | fanju-app
 
 Going straight home after work in Melbourne often feels like closing a door too soon. What if one unforced dinner could open it back up—not for networking, but for real conversation, good food, and a chance to meet people who also value both? The Fanju app supports small, intentional dinners across the city where the focus is on food discovery and ease, not transactions. These aren’t large gatherings with forced icebreakers, but modest tables in neighbourhoods like Carlton, Fitzroy, and South Yarra, where the host names the dish they’re bringing or the local restaurant they’ve chosen. That clarity—what’s on the table, literally and socially—helps guests decide if it’s the right fit. It’s not about impressing anyone; it’s about showing up without performance. The right Business Dinner here treats conversation as something that emerges, not something scheduled.
 

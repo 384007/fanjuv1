@@ -4,7 +4,7 @@ canonicalPath: "/en/city/perth/escape-room-dinner"
 alternatePath: "/city/perth/escape-room-dinner"
 translationKey: "perth-escape-room-dinner"
 lang: "en"
-title: "The Escape Room Dinner table Perth actually needs is the one Fanju app describes up front"
+title: "The Escape Room Dinner table Perth actually needs is the one Fanju app describes up front | fanju-app"
 description: "The Fanju app is not a dating platform, a group chat, or an event listing site. It’s a social dining tool built for people in Perth who want real connection without performance. Escape Room Dinner on Fanju isn’t about ro"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# The Escape Room Dinner table Perth actually needs is the one Fanju app describes up front
+# The Escape Room Dinner table Perth actually needs is the one Fanju app describes up front | fanju-app
 
 The Fanju app is not a dating platform, a group chat, or an event listing site. It’s a social dining tool built for people in Perth who want real connection without performance. Escape Room Dinner on Fanju isn’t about romance—it’s about shared attention, problem-solving, and a meal that unfolds with purpose. Tables are small, capped at six, and hosted in quiet corners of Northbridge, Subiaco, or Mount Lawley where conversation doesn’t compete with background noise. What makes these dinners different is the clarity: the activity, the rules, the host’s role, and the expectation of presence—all laid out in the app before you commit. That transparency is what turns an ordinary dinner into something you can trust, especially if you're someone who usually skips invites because they feel vague or emotionally loaded.
 

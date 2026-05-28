@@ -4,7 +4,7 @@ canonicalPath: "/en/city/fukuoka/street-food-dinner"
 alternatePath: "/city/fukuoka/street-food-dinner"
 translationKey: "fukuoka-street-food-dinner"
 lang: "en"
-title: "Fukuoka has plenty of Street Food Dinner options; Fanju app is the one that names the table first"
+title: "Fukuoka has plenty of Street Food Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "You’ve just finished your first Fukuoka Street Food Dinner through Fanju. The meal was uneventful, not dazzling—good conversation, no awkward silences, one guest who quietly excused themselves early."
 primaryKeyword: "Fukuoka Street Food Dinner"
 secondaryKeywords: "Fukuoka social dining|Street Food dinner group|dinner buddy app|Fanju app|small-table dinner in Fukuoka"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
 ---
 
-# Fukuoka has plenty of Street Food Dinner options; Fanju app is the one that names the table first
+# Fukuoka has plenty of Street Food Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Fukuoka Street Food Dinner is more than late-night yakitori and standing ramen bars—it’s a rhythm of connection that begins the moment someone decides to name a table. The Fanju app doesn’t promise instant friendships or curated experiences, but it does something quieter: it creates small, intentional dinners where the city’s scale doesn’t erase the individual. In Fukuoka, where the flow of people between Tenjin, Hakata, and Nakasu never stops, it’s easy to feel both surrounded and unseen. Fanju works by making space for that contrast—between the city’s motion and a single shared meal—without overstating what dinner can do. It’s not about filling seats, but about filling a moment with enough clarity that joining feels less like a risk and more like a reasonable choice.
 

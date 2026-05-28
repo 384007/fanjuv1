@@ -4,7 +4,7 @@ canonicalPath: "/en/city/istanbul/supply-chain-dinner"
 alternatePath: "/city/istanbul/supply-chain-dinner"
 translationKey: "istanbul-supply-chain-dinner"
 lang: "en"
-title: "Istanbul does not need another vague invite; Fanju app makes Supply Chain Dinner specific"
+title: "Istanbul does not need another vague invite; Fanju app makes Supply Chain Dinner specific | fanju-app"
 description: "In Istanbul, where the Bosphorus divides continents and cuisines blend at every corner market, the idea of gathering strangers over food isn’t novel—it’s daily life. But what Fanju app brings to the city isn’t just anoth"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Istanbul does not need another vague invite; Fanju app makes Supply Chain Dinner specific
+# Istanbul does not need another vague invite; Fanju app makes Supply Chain Dinner specific | fanju-app
 
 In Istanbul, where the Bosphorus divides continents and cuisines blend at every corner market, the idea of gathering strangers over food isn’t novel—it’s daily life. But what Fanju app brings to the city isn’t just another dinner; it’s a rethinking of how those dinners form. Supply Chain Dinner on Fanju isn’t a sweeping open call posted in a chaotic group chat. It’s a specific table, set with intention, where every seat has a reason to be filled. The app’s role isn’t to scale fast or host hundreds, but to ensure that the person arriving alone from Kadıköy finds someone from Beyoğlu who’s been working remote supply logistics for three years. This isn’t about dining; it’s about designing connection through food in a city that already overflows with meals but sometimes lacks meaning behind them.
 

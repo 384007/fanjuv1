@@ -4,7 +4,7 @@ canonicalPath: "/en/city/buenos-aires/supply-chain-dinner"
 alternatePath: "/city/buenos-aires/supply-chain-dinner"
 translationKey: "buenos-aires-supply-chain-dinner"
 lang: "en"
-title: "Buenos Aires has plenty of Supply Chain Dinner options; Fanju app is the one that names the table first"
+title: "Buenos Aires has plenty of Supply Chain Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Dinner in Buenos Aires isn’t just what you eat—it’s how you move through the city’s rhythm, especially on weekends. The Fanju app cuts through the noise by showing not just where people are gathering, but who’s behind th"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Buenos Aires has plenty of Supply Chain Dinner options; Fanju app is the one that names the table first
+# Buenos Aires has plenty of Supply Chain Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Dinner in Buenos Aires isn’t just what you eat—it’s how you move through the city’s rhythm, especially on weekends. The Fanju app cuts through the noise by showing not just where people are gathering, but who’s behind the table and why it matters. While other platforms list events, Fanju surfaces the ones where guests stay past dessert because the host has earned that attention. This isn’t about booking a seat. It’s about walking into a shared meal in Palermo, Puerto Madero, or Colegiales and feeling, within minutes, that you didn’t just pick a name from a feed—you’re where the conversation already has momentum.
 

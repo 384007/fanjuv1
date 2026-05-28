@@ -4,7 +4,7 @@ canonicalPath: "/en/city/budapest/street-food-dinner"
 alternatePath: "/city/budapest/street-food-dinner"
 translationKey: "budapest-street-food-dinner"
 lang: "en"
-title: "In Budapest, Fanju app turns Street Food Dinner into a table people can actually trust"
+title: "In Budapest, Fanju app turns Street Food Dinner into a table people can actually trust | fanju-app"
 description: "Most social attempts in Budapest start with a group message: “Maybe we meet up for street food?” Then silence, or a chain of indecision that fades by midnight. That kind of ambiguity leaves people waiting, unsure if"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
 ---
 
-# In Budapest, Fanju app turns Street Food Dinner into a table people can actually trust
+# In Budapest, Fanju app turns Street Food Dinner into a table people can actually trust | fanju-app
 
 The Fanju app in Budapest isn’t another social platform chasing casual hangouts or loud group meetups. It’s built for people who want to sit down to a real meal with others, not scroll through vague plans or end up at overcrowded events where no one listens. Street Food Dinner here is more than just eating from a vendor—it’s a chance to connect in a city where social rhythms can feel uneven, especially after long gaps between meaningful interactions. Fanju helps by making each table specific: who’s hosting, where it is, what kind of conversation to expect, and whether the pace suits you. This clarity means you’re not guessing whether you’ll fit in. You decide based on details, not vibes. For a city like Budapest, where neighbourhood dinners often start with a text thread that fizzles out, Fanju offers a named table—something tangible to say yes or no to.
 

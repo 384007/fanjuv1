@@ -4,7 +4,7 @@ canonicalPath: "/city/zhanjiang/sci-tech-enthusiast-dinner"
 alternatePath: "/en/city/zhanjiang/sci-tech-enthusiast-dinner"
 translationKey: "zhanjiang-sci-tech-enthusiast-dinner"
 lang: "zh"
-title: "湛江科技爱好者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "湛江科技爱好者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "湛江科技爱好者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "刚搬来湛江，这座依海而立的城市有着它独特的节奏。下班后，不想一个人面对着空荡荡的出租屋，渴望一种真实的人际连接，尤其是在科技领域。你可能在想，哪里能找到一桌志同道合的人，可以聊聊最新的技术动态，分享工作中的心得？很多人会习惯性地在社交媒体上"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 湛江科技爱好者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 湛江科技爱好者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
 刚搬来湛江，这座依海而立的城市有着它独特的节奏。下班后，不想一个人面对着空荡荡的出租屋，渴望一种真实的人际连接，尤其是在科技领域。你可能在想，哪里能找到一桌志同道合的人，可以聊聊最新的技术动态，分享工作中的心得？很多人会习惯性地在社交媒体上搜索，或者加入一些零散的微信群，但往往发现信息碎片化，很难找到一个真正有组织、有方向的饭局。这时，像饭局app这样的平台，就显得尤为重要，它能帮助你在湛江找到那样一桌，在开饭前就清晰地阐述了所有人的预期。
 

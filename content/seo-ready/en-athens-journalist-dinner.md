@@ -4,7 +4,7 @@ canonicalPath: "/en/city/athens/journalist-dinner"
 alternatePath: "/city/athens/journalist-dinner"
 translationKey: "athens-journalist-dinner"
 lang: "en"
-title: "How Fanju app turns a Athens Journalist Dinner night into something worth showing up for"
+title: "How Fanju app turns a Athens Journalist Dinner night into something worth showing up for | fanju-app"
 description: "In Athens, where late-afternoon light spills across quiet courtyards and the rhythm of post-work life leans toward solitary coffee or a quick bite at a corner kafeneio, the idea of gathering with fellow journalists—espec"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Athens Journalist Dinner night into something worth showing up for
+# How Fanju app turns a Athens Journalist Dinner night into something worth showing up for | fanju-app
 
 In Athens, where late-afternoon light spills across quiet courtyards and the rhythm of post-work life leans toward solitary coffee or a quick bite at a corner kafeneio, the idea of gathering with fellow journalists—especially strangers—can feel more like obligation than opportunity. But the Fanju app is slowly changing that. By framing the Journalist Dinner as a deliberate pause from the noise of digital connection, it turns what could be just another networking event into a grounded, human experience. In a city where professional circles often overlap but rarely deepen, Fanju helps structure dinners that feel less like forced socializing and more like rediscovering how to talk without an agenda. It’s not about who you know or what you cover—it’s about showing up and staying present.
 

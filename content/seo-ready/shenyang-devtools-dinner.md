@@ -4,7 +4,7 @@ canonicalPath: "/city/shenyang/devtools-dinner"
 alternatePath: "/en/city/shenyang/devtools-dinner"
 translationKey: "shenyang-devtools-dinner"
 lang: "zh"
-title: "沈阳想参加开发工具饭局，饭局app把信任感放在饭前"
+title: "沈阳想参加开发工具饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "沈阳想参加开发工具饭局，饭局app把信任感放在饭前"
 description: "在沈阳，第一次打开饭局app的人常会迟疑：这是一场饭局，还是一场筛选？尤其当你点开“开发工具饭局”这个主题时，更会下意识想，是不是又一场变相的相亲局？但饭局app从设计逻辑上就避开了这条路径——它不采集情感状态，不设置匹配机制，也不推送“可"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 沈阳想参加开发工具饭局，饭局app把信任感放在饭前
+# 沈阳想参加开发工具饭局，饭局app把信任感放在饭前 | fanju-app
 
 在沈阳，第一次打开饭局app的人常会迟疑：这是一场饭局，还是一场筛选？尤其当你点开“开发工具饭局”这个主题时，更会下意识想，是不是又一场变相的相亲局？但饭局app从设计逻辑上就避开了这条路径——它不采集情感状态，不设置匹配机制，也不推送“可能认识的人”。你在沈阳看到的每一桌开发工具饭局，发起人写的都是自己最近在用的编辑器、调试习惯，或者对某个本地技术分享活动的看法。这种细节上的诚实，让饭局从一开始就脱离了相亲语境，转而建立一种更安静的信任：我们坐下来，是因为对工具的理解相近，而不是因为需要被介绍对象。
 

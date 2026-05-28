@@ -4,7 +4,7 @@ canonicalPath: "/en/city/paris/painting-dinner"
 alternatePath: "/city/paris/painting-dinner"
 translationKey: "paris-painting-dinner"
 lang: "en"
-title: "A calmer way to approach Painting Dinner in Paris through Fanju app"
+title: "A calmer way to approach Painting Dinner in Paris through Fanju app | fanju-app"
 description: "After a long day navigating the Métro, meetings in glass-walled offices near La Défense, or walking the uneven stones of Montmartre, the thought of another loud bar or crowded art opening in Paris can feel exhausting. Fo"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach Painting Dinner in Paris through Fanju app
+# A calmer way to approach Painting Dinner in Paris through Fanju app | fanju-app
 
 After a long day navigating the Métro, meetings in glass-walled offices near La Défense, or walking the uneven stones of Montmartre, the thought of another loud bar or crowded art opening in Paris can feel exhausting. For introverts, the pressure to perform socially often outweighs the reward. The Fanju app offers a different path: small, intentional Painting Dinner gatherings in Paris where conversation flows quietly and creativity isn’t forced. These aren’t gallery events or art school mixers. They’re private dinners where guests bring sketchbooks instead of small talk, hosted in apartments near Canal Saint-Martin or on the quieter side of the 14th. The structure removes guesswork, letting you engage without draining your energy.
 

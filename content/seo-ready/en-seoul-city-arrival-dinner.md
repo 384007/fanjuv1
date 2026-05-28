@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seoul/city-arrival-dinner"
 alternatePath: "/city/seoul/city-arrival-dinner"
 translationKey: "seoul-city-arrival-dinner"
 lang: "en"
-title: "Seoul does not need another vague invite; Fanju app makes City Arrival Dinner specific"
+title: "Seoul does not need another vague invite; Fanju app makes City Arrival Dinner specific | fanju-app"
 description: "A small dinner in Seoul can settle the uncertainty of a new arrival better than any networking event."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Seoul does not need another vague invite; Fanju app makes City Arrival Dinner specific
+# Seoul does not need another vague invite; Fanju app makes City Arrival Dinner specific | fanju-app
 
 A small dinner in Seoul can settle the uncertainty of a new arrival better than any networking event. The Fanju app turns vague plans into hosted, intentional meals where professionals meet without performative small talk. Instead of crowded mixers or open-ended messages, it offers clearly described tables—real dinners with real people, each with a host, a neighborhood, and a seating plan. For founders, operators, and professionals, it replaces guesswork with clarity: who’s attending, where it’s happening, and what kind of conversation to expect. This is how you begin in Seoul.
 

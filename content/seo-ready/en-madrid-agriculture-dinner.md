@@ -4,7 +4,7 @@ canonicalPath: "/en/city/madrid/agriculture-dinner"
 alternatePath: "/city/madrid/agriculture-dinner"
 translationKey: "madrid-agriculture-dinner"
 lang: "en"
-title: "When Agriculture Dinner feels too loose in Madrid, Fanju app starts with the table"
+title: "When Agriculture Dinner feels too loose in Madrid, Fanju app starts with the table | fanju-app"
 description: "The Fanju app offers a structured approach to social gatherings in Madrid, moving beyond the spontaneity of casual meetups or the ambiguity of group chats. When an Agriculture Dinner event, as envisioned through Fanju, i"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Agriculture Dinner feels too loose in Madrid, Fanju app starts with the table
+# When Agriculture Dinner feels too loose in Madrid, Fanju app starts with the table | fanju-app
 
 The Fanju app offers a structured approach to social gatherings in Madrid, moving beyond the spontaneity of casual meetups or the ambiguity of group chats. When an Agriculture Dinner event, as envisioned through Fanju, is set up, the focus shifts from hoping for a good time to actively building one, starting with the very configuration of the table. This method aims to create a more intentional experience, distinguishing itself from platforms that prioritize broad connections or fleeting interactions. The app's design encourages participants to consider the dynamics of a shared meal, fostering a sense of purpose and mutual respect among attendees right from the initial planning stages.
 

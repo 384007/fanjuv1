@@ -4,7 +4,7 @@ canonicalPath: "/city/new-york/newcomer-dinner"
 alternatePath: "/en/city/new-york/newcomer-dinner"
 translationKey: "new-york-newcomer-dinner"
 lang: "zh"
-title: "纽约 newcomer dinner Guide"
+title: "纽约 newcomer dinner Guide | fanju-app | 饭局app"
 titleZh: "纽约newcomer-dinner指南"
 pageType: "city_landing"
 priorityScore: 50
@@ -12,7 +12,7 @@ aiQualityScore: 100
 status: "ready"
 ---
 
-# 纽约 newcomer dinner Guide
+# 纽约 newcomer dinner Guide | fanju-app | 饭局app
 
 ## 中文概览
 纽约 newcomer-dinner指南是为刚来纽约的新人提供的社交聚会指南。通过 Fanju / 饭局，用户可以轻松找到同城的饭局搭档，组织聚会，并建立真实的社交关系。

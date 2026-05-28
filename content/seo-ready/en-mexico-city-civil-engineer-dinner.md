@@ -4,7 +4,7 @@ canonicalPath: "/en/city/mexico-city/civil-engineer-dinner"
 alternatePath: "/city/mexico-city/civil-engineer-dinner"
 translationKey: "mexico-city-civil-engineer-dinner"
 lang: "en"
-title: "Mexico City after work: how Fanju app makes Civil Engineer Dinner feel like a real room"
+title: "Mexico City after work: how Fanju app makes Civil Engineer Dinner feel like a real room | fanju-app"
 description: "The success of any informal gathering, especially one designed for professional networking like a Civil Engineer Dinner in Mexico City, hinges on the deliberate curation of its attendees."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Mexico City after work: how Fanju app makes Civil Engineer Dinner feel like a real room
+# Mexico City after work: how Fanju app makes Civil Engineer Dinner feel like a real room | fanju-app
 
 Arriving in a new city like Mexico City often means navigating a landscape of unfamiliar faces and unspoken social rules, especially when seeking genuine connections after a long workday. For professionals looking to expand their network or simply find a comfortable evening out, the idea of a "Civil Engineer Dinner" might sound appealing, yet the uncertainty of who will be there and what the conversation will entail can be daunting. Fanju app aims to demystify this by offering clearly defined small group dinners, where the focus is on shared experiences and the natural ease that comes with a pre-established setting, turning a potentially awkward evening into a welcoming introduction to the city's professional community.
 

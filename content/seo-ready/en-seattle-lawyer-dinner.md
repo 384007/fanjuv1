@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seattle/lawyer-dinner"
 alternatePath: "/city/seattle/lawyer-dinner"
 translationKey: "seattle-lawyer-dinner"
 lang: "en"
-title: "Seattle has plenty of Lawyer Dinner options; Fanju app is the one that names the table first"
+title: "Seattle has plenty of Lawyer Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Seattle’s legal community is dispersed but connected, often gathering in quiet corners of Capitol Hill, South Lake Union, or West Seattle over shared plates rather than boardrooms. In a city where professional relationsh"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Seattle has plenty of Lawyer Dinner options; Fanju app is the one that names the table first
+# Seattle has plenty of Lawyer Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Seattle’s legal community is dispersed but connected, often gathering in quiet corners of Capitol Hill, South Lake Union, or West Seattle over shared plates rather than boardrooms. In a city where professional relationships are built slowly and carefully—much like the pour-over at a Ballard café—knowing where to sit for a Lawyer Dinner matters. The Fanju app doesn’t just list dinners; it surfaces the ones where hosts use real names, verify affiliations, and set clear expectations upfront. That transparency makes it easier to decide yes or no without second-guessing safety or intent. Lawyer Dinners in Seattle thrive not because of scale, but because of structure—and Fanju is the only platform that makes the host’s identity the first detail visible, not the last.
 

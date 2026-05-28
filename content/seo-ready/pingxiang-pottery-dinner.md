@@ -4,7 +4,7 @@ canonicalPath: "/city/pingxiang/pottery-dinner"
 alternatePath: "/en/city/pingxiang/pottery-dinner"
 translationKey: "pingxiang-pottery-dinner"
 lang: "zh"
-title: "萍乡陶艺饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "萍乡陶艺饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "萍乡陶艺饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "你有没有试过，在萍乡约一场饭局，本意是想安静地和几个懂陶艺的人吃顿饭，聊聊泥料、釉色、烧成曲线，结果来的人一半是冲着“陶艺”这个词来的，另一半根本不知道拉坯机怎么用？饭局app的存在，就是为了解决这种错位。它不帮你找餐厅，也不凑热闹组局，而"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 萍乡陶艺饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 萍乡陶艺饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 你有没有试过，在萍乡约一场饭局，本意是想安静地和几个懂陶艺的人吃顿饭，聊聊泥料、釉色、烧成曲线，结果来的人一半是冲着“陶艺”这个词来的，另一半根本不知道拉坯机怎么用？饭局app的存在，就是为了解决这种错位。它不帮你找餐厅，也不凑热闹组局，而是从第一行文字开始，就筛选同桌的人——你在萍乡看到的那场“手作陶器配本地小炒”的饭局介绍，每一个字都在过滤不该来的人。报名前读三遍，你就知道这顿饭要不要去。
 

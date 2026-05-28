@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tehran/museum-lover-dinner"
 alternatePath: "/city/tehran/museum-lover-dinner"
 translationKey: "tehran-museum-lover-dinner"
 lang: "en"
-title: "Tehran museum lover dinner for careful cultural conversation - Fanju app"
+title: "Tehran museum lover dinner for careful cultural conversation - Fanju app | fanju-app"
 description: "Fanju app frames a Tehran museum lover dinner as small-table social dining with art, history, public venues, clear expectations, comfort boundaries, and no sensitive claims."
 primaryKeyword: "Tehran museum lover dinner"
 secondaryKeywords: "cultural dinner|Fanju app|small-table social dining|social dining Tehran|museum lover dinner"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
 ---
 
-# Tehran museum lover dinner on Fanju app for careful cultural conversation
+# Tehran museum lover dinner on Fanju app for careful cultural conversation | fanju-app
 
 A Tehran museum lover dinner on Fanju app is a small-table social dining format for people who want to talk about art, history, museums, and heritage without turning the evening into a debate stage. The host should set a public venue, clear topic, guest limit, and cost expectations before anyone joins.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/jieyang/cycling-dinner"
 alternatePath: "/en/city/jieyang/cycling-dinner"
 translationKey: "jieyang-cycling-dinner"
 lang: "zh"
-title: "在揭阳把骑行饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在揭阳把骑行饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在揭阳把骑行饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "在揭阳，饭局app不是用来凑热闹的工具，而是试图让陌生人之间的吃饭变得可预期。这座城市的生活节奏不快不慢，街角的粿条店七点就冒起热气，老城区的巷子窄得骑电动车都得侧身，而滨江绿道上的晨骑队伍却越来越长。饭局app如果只照搬大城市那一套“快速"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在揭阳把骑行饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在揭阳把骑行饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 在揭阳，饭局app不是用来凑热闹的工具，而是试图让陌生人之间的吃饭变得可预期。这座城市的生活节奏不快不慢，街角的粿条店七点就冒起热气，老城区的巷子窄得骑电动车都得侧身，而滨江绿道上的晨骑队伍却越来越长。饭局app如果只照搬大城市那一套“快速匹配+打卡式社交”，很容易让人吃完一顿饭反而更累。骑行饭局听起来很轻松——边骑边吃，但揭阳的地形、气候、饮食习惯和人际距离，都让这件事不能只靠“兴趣相同”四个字撑起来。一场真正坐得稳的饭局，得先筛掉那些看似合理却注定尴尬的设定。
 

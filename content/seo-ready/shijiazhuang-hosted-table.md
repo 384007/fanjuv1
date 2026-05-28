@@ -4,7 +4,7 @@ canonicalPath: "/city/shijiazhuang/hosted-table"
 alternatePath: "/en/city/shijiazhuang/hosted-table"
 translationKey: "shijiazhuang-hosted-table"
 lang: "zh"
-title: "石家庄主理人餐桌不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "石家庄主理人餐桌不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "石家庄主理人餐桌不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "很多人在饭局app上看到“主理人餐桌”这几个字，第一反应是：这是不是相亲局？ 是不是行业交流？ 还是某种隐性推销？ 在石家庄，这种疑问尤其真实。"
 primaryKeyword: "石家庄主理人餐桌饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T220007Z"
 ---
 
-# 石家庄主理人餐桌不是凑人吃饭，饭局app更看重这一桌的边界
+# 石家庄主理人餐桌不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 晚上八点，石家庄的街道开始安静下来，写字楼的灯光一格一格熄灭。你站在地铁口，背包还搭在肩上，脑子里没想回家，却也说不上该去哪儿。这时候打开饭局app，刷到一条“石家庄主理人餐桌饭局”的报名信息，标题写着“今晚七点半，勒泰附近小馆子，五个人，聊一聊工作之外的生活”，你会点进去吗？很多人在这一步停住了。不是不想去，而是不确定这一桌到底意味着什么。饭局app上的主理人餐桌，不是简单凑五个人吃饭，而是一次有边界的线下连接尝试——它允许你带着一点犹豫进入，但要求主理人把规则说清楚。在石家庄，这样的饭局值得存在，是因为它不承诺热闹，也不保证交朋友，它只提供一个低压力的出口：下班后不想直接回家的一个晚上，你可以选择坐下来，试一试。
 

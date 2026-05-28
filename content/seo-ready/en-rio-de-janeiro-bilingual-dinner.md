@@ -4,7 +4,7 @@ canonicalPath: "/en/city/rio-de-janeiro/bilingual-dinner"
 alternatePath: "/city/rio-de-janeiro/bilingual-dinner"
 translationKey: "rio-de-janeiro-bilingual-dinner"
 lang: "en"
-title: "In Rio de Janeiro, Fanju app turns Bilingual Dinner into a table people can actually trust"
+title: "In Rio de Janeiro, Fanju app turns Bilingual Dinner into a table people can actually trust | fanju-app"
 description: "Rio de Janeiro: In a city where plans often emerge over caipirinhas at 9 p. m. , a Bilingual Dinner through the Fanju app stands out because it has a name, a time, and a real table. That specificity matters."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# In Rio de Janeiro, Fanju app turns Bilingual Dinner into a table people can actually trust
+# In Rio de Janeiro, Fanju app turns Bilingual Dinner into a table people can actually trust | fanju-app
 
 You’ve just stepped off the metro at Botafogo after a long day, the heat still clinging to the pavement, and the idea of heading straight home feels too quiet, too small. You’re not alone in that hesitation. In Rio de Janeiro, where social energy pulses through street corners and late-night bar conversations, there’s still a quiet gap for professionals who want connection without performance. The Fanju app fills it with Bilingual Dinner — not a lecture, not a mixer, but a small, hosted dinner table where language and career paths cross naturally. These aren’t mass events; they’re limited-seat gatherings in neighborhoods like Leblon, Ipanema, and Centro, where the guest list is curated, the host is present, and the conversation begins before the first course arrives. For founders, freelancers, and operators navigating the city’s informal networks, it’s a trusted way to meet peers without the noise.
 

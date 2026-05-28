@@ -4,7 +4,7 @@ canonicalPath: "/city/dezhou/shared-table"
 alternatePath: "/en/city/dezhou/shared-table"
 translationKey: "dezhou-shared-table"
 lang: "zh"
-title: "在德州把共享餐桌坐稳，饭局app需要筛掉哪些尴尬"
+title: "在德州把共享餐桌坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在德州把共享餐桌坐稳，饭局app需要筛掉哪些尴尬"
 description: "在德州，饭局的节奏比北上广慢半拍，但人与人之间的试探却更真实。 一个周末晚上，你在手机上滑过几个饭局app的活动，发现多数不是“随便吃吃”，而是有具体场景的邀请：比如“在岔河沿岸的私厨小馆，聊聊你在德州做独立设计的三年”。"
 primaryKeyword: "德州共享餐桌饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
 ---
 
-# 在德州把共享餐桌坐稳，饭局app需要筛掉哪些尴尬
+# 在德州把共享餐桌坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 周六傍晚，德州的街道刚从白天的闷热里缓过来，晚风开始在老城区的巷口转悠。你站在冰箱前翻了三遍，还是决定不出门做饭。朋友群聊里有人发了一句“有人来吗”，但你迟疑了——不是不想吃，是不想随便拼一桌。这种时刻，饭局app里的德州共享餐桌饭局反而显得更清晰：人数固定，主题明确，餐厅已定，主理人写清楚了这顿饭想聊什么。它不是群聊的替代品，而是另一种选择：把吃饭这件事，从“有人吗”变成“这一桌是谁”。
 

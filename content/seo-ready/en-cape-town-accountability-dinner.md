@@ -4,7 +4,7 @@ canonicalPath: "/en/city/cape-town/accountability-dinner"
 alternatePath: "/city/cape-town/accountability-dinner"
 translationKey: "cape-town-accountability-dinner"
 lang: "en"
-title: "What makes Accountability Dinner in Cape Town worth the risk; Fanju app answers before you arrive"
+title: "What makes Accountability Dinner in Cape Town worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "For founders, freelancers, and mid-career professionals in Cape Town, the idea of a meaningful connection over dinner often feels out of reach. Traditional networking is loud, transactional, and rarely leads to trust. Th"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Accountability Dinner in Cape Town worth the risk; Fanju app answers before you arrive
+# What makes Accountability Dinner in Cape Town worth the risk; Fanju app answers before you arrive | fanju-app
 
 For founders, freelancers, and mid-career professionals in Cape Town, the idea of a meaningful connection over dinner often feels out of reach. Traditional networking is loud, transactional, and rarely leads to trust. The Accountability Dinner model, accessible through the Fanju app, offers a quieter alternative — small tables of seven or fewer, hosted in private homes or low-lit venues across the city. The app surfaces host bios, stated intentions, and past guest reflections, helping you vet dinners before RSVPing. In a city where business relationships still form over coffee in Woodstock or casual drinks in Gardens, this format carves out space for clarity. The dinners aren’t about pitching — they’re about grounding your next move in honest conversation.
 

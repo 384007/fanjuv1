@@ -4,7 +4,7 @@ canonicalPath: "/city/hanzhong/accountant-dinner"
 alternatePath: "/en/city/hanzhong/accountant-dinner"
 translationKey: "hanzhong-accountant-dinner"
 lang: "zh"
-title: "汉中会计师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "汉中会计师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "汉中会计师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "汉中这座城市，节奏不紧不慢，街边馆子熟悉得像自家厨房。南郑区的老巷子里，几家小馆子常年亮着灯，门口摆着折叠椅，熟客进门不用点单。这种熟人氛围，本该是饭局最理想的底色。可一旦饭局变成“拉人凑数”，再熟悉的街角也变得疏离。饭局app在汉中做的，"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 汉中会计师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 汉中会计师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
 汉中不是一线城市，但这里的会计师从不缺饭局。朋友介绍的、同行组的、协会推的，饭桌轮流排，可真正坐下来能说点实在话的却不多。饭局app不是为了多凑一桌饭，而是为了让汉中这一桌饭，从一开始就清楚谁在、为什么聚、能聊到哪一层。它不解决“没人吃饭”的问题，它解决的是“吃完还是陌生人”的问题。在汉中，饭局app的价值不在数量，而在每一桌的质地——人少、事清、场子稳，饭前有沟通，饭后不强求。这里的会计师饭局，渐渐开始学会用一顿饭的时间，换一点真实连接。
 

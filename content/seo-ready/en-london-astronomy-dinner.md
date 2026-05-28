@@ -4,7 +4,7 @@ canonicalPath: "/en/city/london/astronomy-dinner"
 alternatePath: "/city/london/astronomy-dinner"
 translationKey: "london-astronomy-dinner"
 lang: "en"
-title: "What makes Astronomy Dinner in London worth the risk; Fanju app answers before you arrive"
+title: "What makes Astronomy Dinner in London worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "The quiet appeal of Astronomy Dinner in London isn’t in its name, but in the way it quietly reshapes how people eat together—especially women who often weigh social risk more carefully when trying something unfamiliar. O"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Astronomy Dinner in London worth the risk; Fanju app answers before you arrive
+# What makes Astronomy Dinner in London worth the risk; Fanju app answers before you arrive | fanju-app
 
 The quiet appeal of Astronomy Dinner in London isn’t in its name, but in the way it quietly reshapes how people eat together—especially women who often weigh social risk more carefully when trying something unfamiliar. On the Fanju app, these dinners appear as small, intentional gatherings, usually no more than six seats, hosted in homes or intimate spaces across neighbourhoods like Peckham, Islington, and Hampstead. What makes them worth the risk is not just the food, but the structure: a format that prioritises emotional safety, predictable pacing, and low-pressure interaction. The app itself doesn’t oversell—instead, it provides just enough detail to let you decide if a table feels right, long before you commit to showing up.
 

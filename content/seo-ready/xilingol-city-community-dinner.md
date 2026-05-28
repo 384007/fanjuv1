@@ -4,7 +4,7 @@ canonicalPath: "/city/xilingol/city-community-dinner"
 alternatePath: "/en/city/xilingol/city-community-dinner"
 translationKey: "xilingol-city-community-dinner"
 lang: "zh"
-title: "锡林郭勒城市社区饭局不该只靠群聊，饭局app要把这桌饭讲明白"
+title: "锡林郭勒城市社区饭局不该只靠群聊，饭局app要把这桌饭讲明白 | fanju-app"
 titleZh: "锡林郭勒城市社区饭局不该只靠群聊，饭局app要把这桌饭讲明白"
 description: "锡林郭勒城市社区饭局里，饭局app / Fanju饭局不是相亲保证、不是随机群聊、不是无限刷资料。 它是一群人围绕明确主题、在固定小桌吃饭的真实连接。 在锡林郭勒，这类饭局常发生在街角的蒙餐馆、社区咖啡馆或文化空间，主理人提前说明主题和节奏，报名者能看清谁会来、在哪吃、为什么聚。 它不是线上群聊的延伸，而是线下生活的起点。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 锡林郭勒城市社区饭局不该只靠群聊，饭局app要把这桌饭讲明白
+# 锡林郭勒城市社区饭局不该只靠群聊，饭局app要把这桌饭讲明白 | fanju-app
 
 锡林郭勒城市社区饭局里，饭局app / Fanju饭局不是相亲保证、不是随机群聊、不是无限刷资料。它是一群人围绕明确主题、在固定小桌吃饭的真实连接。在锡林郭勒，这类饭局常发生在街角的蒙餐馆、社区咖啡馆或文化空间，主理人提前说明主题和节奏，报名者能看清谁会来、在哪吃、为什么聚。它不是线上群聊的延伸，而是线下生活的起点。你不是在刷资料卡，而是准备走进一个具体场景，比如周五晚锡林浩特老城区的那桌“草原青年回流计划”饭局。这种饭局适合想通过吃饭建立信任的人，不适合只想围观或被动等待匹配的用户。
 

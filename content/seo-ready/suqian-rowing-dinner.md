@@ -4,7 +4,7 @@ canonicalPath: "/city/suqian/rowing-dinner"
 alternatePath: "/en/city/suqian/rowing-dinner"
 translationKey: "suqian-rowing-dinner"
 lang: "zh"
-title: "宿迁赛艇饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "宿迁赛艇饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "宿迁赛艇饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "很多时候，人们对“吃饭”这件事的期待是模糊的。可能是随便找个地方填饱肚子，也可能是想借机认识新朋友，又或者是单纯地想和几个老友放松一下。但在宿迁，一场真正有价值的赛艇饭局，会在开始前就尽可能地将这些预期明确。这意味着，你报名参加的不是一场“"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
 ---
 
-# 宿迁赛艇饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 宿迁赛艇饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 刚搬来宿迁，很多事情都还在摸索。下班后，常常会面临一个选择：是直接回家，还是想找点什么事情做，但又不想太麻烦，或者和不熟悉的人硬聊。这时候，一个精心组织的饭局，比如饭局app上的“赛艇饭局”，就显得格外有吸引力。它不像那种在普通群聊里发个“周末一起吃饭？”然后等一堆人“+1”然后随意拼桌的聚会，而是能提前把同桌的预期、饭局的主题和大致的氛围都讲清楚。这对于一个刚来新城市、还在建立社交圈的人来说，大大降低了试错成本，也更容易获得一次真实而愉快的线下连接。
 

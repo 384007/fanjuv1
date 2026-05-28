@@ -4,7 +4,7 @@ canonicalPath: "/en/city/khartoum/valentines-dinner"
 alternatePath: "/city/khartoum/valentines-dinner"
 translationKey: "khartoum-valentines-dinner"
 lang: "en"
-title: "When Valentines Dinner feels too loose in Khartoum, Fanju app starts with the table"
+title: "When Valentines Dinner feels too loose in Khartoum, Fanju app starts with the table | fanju-app"
 description: "For a solo traveler in Khartoum, the evening of February 14th can drift into quiet corners — a hotel meal, a walk along the Nile, or scrolling through photos of past celebrations. But when the idea of Valentines Dinner s"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Valentines Dinner feels too loose in Khartoum, Fanju app starts with the table
+# When Valentines Dinner feels too loose in Khartoum, Fanju app starts with the table | fanju-app
 
 For a solo traveler in Khartoum, the evening of February 14th can drift into quiet corners — a hotel meal, a walk along the Nile, or scrolling through photos of past celebrations. But when the idea of Valentines Dinner starts to feel too vague, the Fanju app offers a different rhythm: not grand gestures, but a shared table in a city where hospitality has its own quiet pulse. It’s not about romance as the world defines it; it’s about arriving somewhere and being recognized, not as a guest, but as part of a small, temporary circle. Fanju reshapes the night by making the table the anchor — not the date, not the venue, not the expectations.
 

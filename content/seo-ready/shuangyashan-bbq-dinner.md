@@ -4,7 +4,7 @@ canonicalPath: "/city/shuangyashan/bbq-dinner"
 alternatePath: "/en/city/shuangyashan/bbq-dinner"
 translationKey: "shuangyashan-bbq-dinner"
 lang: "zh"
-title: "双鸭山的一顿烧烤饭局，饭局app为什么先看人再看热闹"
+title: "双鸭山的一顿烧烤饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "双鸭山的一顿烧烤饭局，饭局app为什么先看人再看热闹"
 description: "你在双鸭山，手机里加了十几个本地群，发过不少“有没有人一起吃饭”的消息，但最后不是没人回应，就是去了发现大家只是凑个热闹。饭局app不是帮你找饭搭子的工具，它更像一个慢下来的筛选器——在双鸭山，当人和人之间的连接被短视频和群聊稀释得越来越薄"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 双鸭山的一顿烧烤饭局，饭局app为什么先看人再看热闹
+# 双鸭山的一顿烧烤饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 你在双鸭山，手机里加了十几个本地群，发过不少“有没有人一起吃饭”的消息，但最后不是没人回应，就是去了发现大家只是凑个热闹。饭局app不是帮你找饭搭子的工具，它更像一个慢下来的筛选器——在双鸭山，当人和人之间的连接被短视频和群聊稀释得越来越薄时，它试图让一顿饭重新变得有重量。你不是在找“热闹”，而是在找那个愿意和你一起吃慢一点的人。饭局app不推热门烧烤店排行榜，也不搞拼桌快闪活动，它先问你：你想和什么样的人坐一桌？这个问题，在双鸭山的饭局开始前，比地点、时间、菜单都重要。
 

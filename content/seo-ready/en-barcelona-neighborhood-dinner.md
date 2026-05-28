@@ -4,7 +4,7 @@ canonicalPath: "/en/city/barcelona/neighborhood-dinner"
 alternatePath: "/city/barcelona/neighborhood-dinner"
 translationKey: "barcelona-neighborhood-dinner"
 lang: "en"
-title: "Barcelona strangers sit down easier when Fanju app frames the Neighborhood Dinner table first"
+title: "Barcelona strangers sit down easier when Fanju app frames the Neighborhood Dinner table first | fanju-app"
 description: "Barcelona moves at its own pace—lunch starts late, conversations meander, and social circles often form around long-standing neighbourhood ties. For someone new, or even a local looking to expand beyond familiar"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
 ---
 
-# Barcelona strangers sit down easier when Fanju app frames the Neighborhood Dinner table first
+# Barcelona strangers sit down easier when Fanju app frames the Neighborhood Dinner table first | fanju-app
 
 Fanju app helps people in Barcelona meet over small, well-defined dinners where the focus is on real conversation, not performance. Unlike large social events or vague networking mixers, Neighborhood Dinner on Fanju sets clear expectations: intimate tables, confirmed identities, and host-led rhythm that keeps things grounded. It’s not about instant friendships or guaranteed chemistry. It’s about creating a space where showing up as yourself doesn’t feel like a risk. For visitors and locals alike navigating Barcelona’s layered social codes, that clarity matters. The app doesn’t promise outcomes, but it does structure the beginning—so deciding to attend becomes less about blind trust and more about informed comfort.
 

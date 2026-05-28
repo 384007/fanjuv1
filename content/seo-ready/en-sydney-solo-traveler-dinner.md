@@ -4,7 +4,7 @@ canonicalPath: "/en/city/sydney/solo-traveler-dinner"
 alternatePath: "/city/sydney/solo-traveler-dinner"
 translationKey: "sydney-solo-traveler-dinner"
 lang: "en"
-title: "How Fanju app turns a Sydney Solo Traveler Dinner night into something worth showing up for"
+title: "How Fanju app turns a Sydney Solo Traveler Dinner night into something worth showing up for | fanju-app"
 description: "The real test of a Solo Traveler Dinner in Sydney isn’t the first bite or the welcome toast. It’s the quiet moment midway through the meal when conversation dips and no one rushes to fill it. In a city where small talk"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Sydney Solo Traveler Dinner night into something worth showing up for
+# How Fanju app turns a Sydney Solo Traveler Dinner night into something worth showing up for | fanju-app
 
 For solo travelers in Sydney, dinner can easily become another meal eaten alone—overpriced, underwhelming, or swallowed between sightseeing. But the Fanju app changes that dynamic by connecting guests with local hosts for small, intentional dinners in homes across the city. These aren’t staged events or tourist group tours. They’re real meals in real homes, where conversation starts naturally and the menu reflects how Sydneysiders actually eat. Whether it’s a shared plate of grilled barramundi in Bondi or a slow-cooked lamb tagine in a Surry Hills terrace, the experience is grounded in authenticity. The app’s strength lies in its curation: every dinner has a clear theme, a thoughtful guest list, and a host who wants to share more than just food. That distinction is what makes the difference between passing through Sydney and feeling part of it, even if just for one evening.
 

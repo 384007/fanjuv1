@@ -4,7 +4,7 @@ canonicalPath: "/city/shizuishan/community-dinner"
 alternatePath: "/en/city/shizuishan/community-dinner"
 translationKey: "shizuishan-community-dinner"
 lang: "zh"
-title: "第一次在石嘴山参加社区饭局，饭局app怎样让陌生人坐得下来"
+title: "第一次在石嘴山参加社区饭局，饭局app怎样让陌生人坐得下来 | fanju-app"
 titleZh: "第一次在石嘴山参加社区饭局，饭局app怎样让陌生人坐得下来"
 description: "在石嘴山，下班后不再是匆匆回家，而是有机会通过饭局app，参与一场精心策划的社区饭局。这不仅仅是一顿饭，更是一种低成本的方式，让忙碌了一天的人们，找到一个可以短暂停留、与陌生人建立真实连接的温暖空间。饭局app在这里，扮演着连接者的角色，它"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 第一次在石嘴山参加社区饭局，饭局app怎样让陌生人坐得下来
+# 第一次在石嘴山参加社区饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 
 在石嘴山，下班后不再是匆匆回家，而是有机会通过饭局app，参与一场精心策划的社区饭局。这不仅仅是一顿饭，更是一种低成本的方式，让忙碌了一天的人们，找到一个可以短暂停留、与陌生人建立真实连接的温暖空间。饭局app在这里，扮演着连接者的角色，它让原本可能互不相识的石嘴山居民，因为共同的晚餐时间和地点，而有了坐下来聊天的可能。
 

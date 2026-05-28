@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kuala-lumpur/industry-dinner"
 alternatePath: "/city/kuala-lumpur/industry-dinner"
 translationKey: "kuala-lumpur-industry-dinner"
 lang: "en"
-title: "Kuala Lumpur does not need another vague invite; Fanju app makes Industry Dinner specific"
+title: "Kuala Lumpur does not need another vague invite; Fanju app makes Industry Dinner specific | fanju-app"
 description: "A dinner in Kuala Lumpur with people who work in your field doesn’t have to begin with “Maybe we’ll meet someone interesting.” On the Fanju app, Industry Dinner isn’t a loose networking idea—it’s a named table at a worki"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Kuala Lumpur does not need another vague invite; Fanju app makes Industry Dinner specific
+# Kuala Lumpur does not need another vague invite; Fanju app makes Industry Dinner specific | fanju-app
 
 A dinner in Kuala Lumpur with people who work in your field doesn’t have to begin with “Maybe we’ll meet someone interesting.” On the Fanju app, Industry Dinner isn’t a loose networking idea—it’s a named table at a working restaurant, with confirmed guests, a host who knows the menu, and conversation that starts before dessert. Too many professionals in the city settle for post-event mingling that fades by the MRT ride home. Fanju changes that by anchoring the experience in real places like the back booth at Annalakshmi in Bangsar or a shared corner table at Oishii Yakiniku near KLCC. These aren’t pop-ups or pitch sessions. They’re meals where the host has already checked the halal certification, confirmed vegetarian options, and timed the seating between dinner rushes. The app doesn’t promise connections. It creates the conditions for them.
 

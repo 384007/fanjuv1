@@ -4,7 +4,7 @@ canonicalPath: "/en/city/delhi/cooking-class-dinner"
 alternatePath: "/city/delhi/cooking-class-dinner"
 translationKey: "delhi-cooking-class-dinner"
 lang: "en"
-title: "Why Cooking Class Dinner in Delhi works better when Fanju app keeps the table small"
+title: "Why Cooking Class Dinner in Delhi works better when Fanju app keeps the table small | fanju-app"
 description: "Fanju app is designed around small, intentional gatherings where meals become a way to connect with local life in Delhi—not just as visitors, but as temporary locals. Unlike mass dining events or commercial cooking class"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Cooking Class Dinner in Delhi works better when Fanju app keeps the table small
+# Why Cooking Class Dinner in Delhi works better when Fanju app keeps the table small | fanju-app
 
 Fanju app is designed around small, intentional gatherings where meals become a way to connect with local life in Delhi—not just as visitors, but as temporary locals. Unlike mass dining events or commercial cooking classes, Fanju hosts Cooking Class Dinner tables that stay under eight guests, with home cooks who share food rooted in their neighbourhood, family, or regional tradition. The app sets expectations early: each dinner is described with clarity—menu, time, location, host background—so that what’s being cooked and where it’s happening aligns with what participants actually come to experience. This isn’t about spectacle or performance; it’s about sitting close enough to see how spices are ground, hear stories behind a forgotten recipe, and leave knowing a part of Delhi that rarely makes it onto restaurant menus.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangalore/creative-writing-dinner"
 alternatePath: "/city/bangalore/creative-writing-dinner"
 translationKey: "bangalore-creative-writing-dinner"
 lang: "en"
-title: "Before the first message in Bangalore, Fanju app makes Creative Writing Dinner feel like a real decision"
+title: "Before the first message in Bangalore, Fanju app makes Creative Writing Dinner feel like a real decision | fanju-app"
 description: "The initial setup for any Creative Writing Dinner in Bangalore is about establishing a clear expectation."
 primaryKeyword: "Bangalore Creative Writing Dinner"
 secondaryKeywords: "Bangalore social dining|Creative Writing dinner group|dinner buddy app|Fanju app|small-table dinner in Bangalore"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T020005Z"
 ---
 
-# Before the first message in Bangalore, Fanju app makes Creative Writing Dinner feel like a real decision
+# Before the first message in Bangalore, Fanju app makes Creative Writing Dinner feel like a real decision | fanju-app
 In Bangalore, Fanju app offers a way to find small, focused meals with real people, moving beyond the usual online interactions to create genuine connections over dinner. If you're looking for a low-pressure way to meet others, especially after a period of social distance, this app can help you find a table where the conversation and the people matter more than the venue's fanfare. It’s designed for those who appreciate authentic local life and seek meaningful interactions during a weekend meal.
 
 ## Before anyone arrives in Bangalore, Creative Writing Dinner needs a frame that holds

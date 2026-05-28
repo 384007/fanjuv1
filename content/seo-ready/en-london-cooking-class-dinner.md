@@ -4,7 +4,7 @@ canonicalPath: "/en/city/london/cooking-class-dinner"
 alternatePath: "/city/london/cooking-class-dinner"
 translationKey: "london-cooking-class-dinner"
 lang: "en"
-title: "London does not need another vague invite; Fanju app makes Cooking Class Dinner specific"
+title: "London does not need another vague invite; Fanju app makes Cooking Class Dinner specific | fanju-app"
 description: "London has too many dinner plans that never land. A text says “we should get dinner,” and nothing follows. The city hums with half-invitations, but Fanju app turns them into real tables. Cooking Class Dinner on Fanju isn"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# London does not need another vague invite; Fanju app makes Cooking Class Dinner specific
+# London does not need another vague invite; Fanju app makes Cooking Class Dinner specific | fanju-app
 
 London has too many dinner plans that never land. A text says “we should get dinner,” and nothing follows. The city hums with half-invitations, but Fanju app turns them into real tables. Cooking Class Dinner on Fanju isn’t another networking event or pop-up restaurant. It’s a shared meal built around learning one dish, hosted in homes and community kitchens across zones two to six. You arrive to chop, stir, or knead—no spectator role. The menu is set before RSVPs open. No one asks, “What should we eat?” because the answer is already threaded into the event: Persian saffron rice with barberries, or handmade Cornish pasties with suet crust. Fanju anchors the experience in what gets cooked and who teaches it. That specificity—ingredient, skill, host, postcode—turns a loose idea into a real evening in London.
 

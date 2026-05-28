@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lahore/cybersecurity-dinner"
 alternatePath: "/city/lahore/cybersecurity-dinner"
 translationKey: "lahore-cybersecurity-dinner"
 lang: "en"
-title: "How Fanju app turns a Lahore Cybersecurity Dinner night into something worth showing up for"
+title: "How Fanju app turns a Lahore Cybersecurity Dinner night into something worth showing up for | fanju-app"
 description: "In many cities, a dinner invite can arrive with assumed context—shared workplaces, mutual friends, or well-known social circles. In Lahore, that context isn’t always transferable, especially if you’ve just moved here."
 primaryKeyword: "Lahore Cybersecurity Dinner"
 secondaryKeywords: "Lahore social dining|Cybersecurity dinner group|dinner buddy app|Fanju app|small-table dinner in Lahore"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T183055Z"
 ---
 
-# How Fanju app turns a Lahore Cybersecurity Dinner night into something worth showing up for
+# How Fanju app turns a Lahore Cybersecurity Dinner night into something worth showing up for | fanju-app
 
 The Fanju app is a city dining guide that surfaces small, intentional meals in Lahore—meals where the host states the topic, the vibe, and who might fit in, all upfront. A Lahore Cybersecurity Dinner isn’t just another networking event disguised as dinner; it’s a deliberate gathering, often in a residential neighbourhood, where conversation starts before the first course. With just six seats, it’s designed for depth, not volume. The app helps filter out noise by making the purpose visible: not just a meal, but a shared context. That clarity is especially valuable in Lahore, where social invitations often arrive with vague subject lines or group forwards, leaving newcomers unsure whether they’re walking into a work pitch or a friendly catch-up. The Fanju app shortens that uncertainty by treating the dinner table as a space that needs framing.
 

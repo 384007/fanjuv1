@@ -4,7 +4,7 @@ canonicalPath: "/en/city/mexico-city/consumer-founder-dinner"
 alternatePath: "/city/mexico-city/consumer-founder-dinner"
 translationKey: "mexico-city-consumer-founder-dinner"
 lang: "en"
-title: "The Consumer Founder Dinner table Mexico City actually needs is the one Fanju app describes up front"
+title: "The Consumer Founder Dinner table Mexico City actually needs is the one Fanju app describes up front | fanju-app"
 description: "This kind of dinner doesn’t replicate the chaos of a weekend bar crawl or the formality of a business mixer. It’s a middle ground where the pace matches Mexico City’s layered evenings—the slow unwind of traffic, the"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
 ---
 
-# The Consumer Founder Dinner table Mexico City actually needs is the one Fanju app describes up front
+# The Consumer Founder Dinner table Mexico City actually needs is the one Fanju app describes up front | fanju-app
 
 In Mexico City, returning to social life after a long absence can feel like stepping onto a moving escalator—everyone else seems to have momentum, but you’re recalibrating your balance. The Fanju app offers small, intentional dinners where the expectations are clear, the guest list is curated, and the rhythm matches the city’s natural pace. Instead of open-ended networking or crowded meetups, these Consumer Founder Dinners are designed for people who want real conversation without performance. The host shares what the evening is for, who it’s for, and what kind of energy works—so you’re not guessing whether you belong. It’s not about making lifelong friends in one night, but about reclaiming the ease of sitting across from someone new without pressure.
 

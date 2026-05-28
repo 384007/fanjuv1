@@ -4,7 +4,7 @@ canonicalPath: "/en/city/buenos-aires/creator-dinner"
 alternatePath: "/city/buenos-aires/creator-dinner"
 translationKey: "buenos-aires-creator-dinner"
 lang: "en"
-title: "When Creator Dinner feels too loose in Buenos Aires, Fanju app starts with the table"
+title: "When Creator Dinner feels too loose in Buenos Aires, Fanju app starts with the table | fanju-app"
 description: "Fanju app brings a quiet structure to dinner in Buenos Aires, where evenings often drift into long conversations over wine and shared plates. In a city known for its spontaneous social rhythm, the app offers small, inten"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Creator Dinner feels too loose in Buenos Aires, Fanju app starts with the table
+# When Creator Dinner feels too loose in Buenos Aires, Fanju app starts with the table | fanju-app
 
 Fanju app brings a quiet structure to dinner in Buenos Aires, where evenings often drift into long conversations over wine and shared plates. In a city known for its spontaneous social rhythm, the app offers small, intentional gatherings—usually four to six people—centered on real talk, not performative networking. These are not events, but dinners: hosted in homes, artist studios, or tucked-away back rooms of neighborhood wine bars. Creator Dinner, as it’s called on Fanju, works best when it feels grounded in place. In Buenos Aires, that place is often Palermo Soho—where creative energy hums beneath the café awnings and street art—because the neighborhood gives the gathering its shape before a single guest arrives.
 

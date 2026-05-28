@@ -4,7 +4,7 @@ canonicalPath: "/city/huaibei/architecture-lover-dinner"
 alternatePath: "/en/city/huaibei/architecture-lover-dinner"
 translationKey: "huaibei-architecture-lover-dinner"
 lang: "zh"
-title: "不想在淮北随便拼桌，饭局app怎样让建筑爱好者饭局变成一个真实决定"
+title: "不想在淮北随便拼桌，饭局app怎样让建筑爱好者饭局变成一个真实决定 | fanju-app"
 titleZh: "不想在淮北随便拼桌，饭局app怎样让建筑爱好者饭局变成一个真实决定"
 description: "周六早晨九点，淮北的阳光斜照在相山北路老邮电局的山墙上，斑驳的水泥浮雕在光影里显出清晰的轮廓。几个年轻人站在台阶前拍照，有人低头看手机，点开饭局app，确认今天的集合地点是不是真的就在这栋上世纪六十年代的苏式建筑侧门。这不是一场普通聚餐——"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 不想在淮北随便拼桌，饭局app怎样让建筑爱好者饭局变成一个真实决定
+# 不想在淮北随便拼桌，饭局app怎样让建筑爱好者饭局变成一个真实决定 | fanju-app
 
 周六早晨九点，淮北的阳光斜照在相山北路老邮电局的山墙上，斑驳的水泥浮雕在光影里显出清晰的轮廓。几个年轻人站在台阶前拍照，有人低头看手机，点开饭局app，确认今天的集合地点是不是真的就在这栋上世纪六十年代的苏式建筑侧门。这不是一场普通聚餐——这是一场建筑爱好者饭局。他们不是冲着菜单来的，而是为了讨论门廊比例、材料老化痕迹，以及这栋楼在街区功能变迁中的沉默见证。饭局app在淮北的作用，从不是简单撮合吃饭，而是让每一次约饭，都成为一次可预期、可进入、可延续的在地观察。在淮北，饭局app的意义，是把“随便吃一顿”变成“决定去哪一桌”。
 

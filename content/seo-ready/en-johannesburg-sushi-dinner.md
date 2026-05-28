@@ -4,7 +4,7 @@ canonicalPath: "/en/city/johannesburg/sushi-dinner"
 alternatePath: "/city/johannesburg/sushi-dinner"
 translationKey: "johannesburg-sushi-dinner"
 lang: "en"
-title: "In Johannesburg, Fanju app turns Sushi Dinner into a table people can actually trust"
+title: "In Johannesburg, Fanju app turns Sushi Dinner into a table people can actually trust | fanju-app"
 description: "This emphasis on specificity is crucial for someone navigating Johannesburg’s social landscape for the first time."
 primaryKeyword: "Johannesburg Sushi Dinner"
 secondaryKeywords: "Johannesburg social dining|Sushi dinner group|dinner buddy app|Fanju app|small-table dinner in Johannesburg"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T190004Z"
 ---
 
-# In Johannesburg, Fanju app turns Sushi Dinner into a table people can actually trust
+# In Johannesburg, Fanju app turns Sushi Dinner into a table people can actually trust | fanju-app
 
 For anyone new to Johannesburg, the idea of a planned dinner, especially a Sushi Dinner, can feel like a step into the unknown. Fanju app aims to change that by offering precisely described, intimate dining experiences, turning a potentially awkward first arrival at a restaurant with no familiar faces into a more predictable and enjoyable social outing. It’s about finding a specific table for a specific purpose, making it easier to say yes to that invitation and discover new connections in the city.
 

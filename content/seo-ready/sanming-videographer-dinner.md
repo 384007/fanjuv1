@@ -4,7 +4,7 @@ canonicalPath: "/city/sanming/videographer-dinner"
 alternatePath: "/en/city/sanming/videographer-dinner"
 translationKey: "sanming-videographer-dinner"
 lang: "zh"
-title: "第一次在三明参加摄像师饭局，饭局app怎样让陌生人坐得下来"
+title: "第一次在三明参加摄像师饭局，饭局app怎样让陌生人坐得下来 | fanju-app"
 titleZh: "第一次在三明参加摄像师饭局，饭局app怎样让陌生人坐得下来"
 description: "三明做摄像的人不少，从婚庆跟拍到短视频团队，再到自由接活的独立拍摄者，各自分散在不同的街区和平台。"
 primaryKeyword: "三明摄像师饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T100008Z"
 ---
 
-# 第一次在三明参加摄像师饭局，饭局app怎样让陌生人坐得下来
+# 第一次在三明参加摄像师饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 
 下班后站在三明列东街的路口，天刚擦黑，路灯一盏盏亮起来，你拎着相机包往公交站走，脑子里还回放着白天拍的素材。手机震动了一下，饭局app推送了一条新饭局：三明摄像师饭局，本周五晚六点半，沙县小吃对面那家安静的家常菜馆，四人小桌，主题是“拍完素材后，你最想和谁聊聊？”——不是“相亲”，不是“交友”，而是“聊聊”。这让你停住脚步。在三明，人与人之间的距离似乎总隔着一层看不见的膜，尤其是做摄像这一行，常常独自扛着设备跑场子，回来看剪辑，连吐槽的听众都难找。饭局app上的这桌饭，看起来不像群里的拼饭接龙，也不像那种热闹但空洞的“影友聚会”，它把人拉回一张具体的桌子前，用吃饭这件事，把“想说话”变成“可以说话”。而三明摄像师饭局的关键，或许就在于它不试图解决所有孤独，只是提供一个可以坐下、不说也无妨、说了也有人听的空档。
 

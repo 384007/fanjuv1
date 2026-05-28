@@ -4,7 +4,7 @@ canonicalPath: "/en/city/brisbane/social-worker-dinner"
 alternatePath: "/city/brisbane/social-worker-dinner"
 translationKey: "brisbane-social-worker-dinner"
 lang: "en"
-title: "For people trying Social Worker Dinner in Brisbane, Fanju app puts the guest mix first"
+title: "For people trying Social Worker Dinner in Brisbane, Fanju app puts the guest mix first | fanju-app"
 description: "If you’ve ever sat through a group dinner in Brisbane where the conversation never quite caught fire, you’re not alone. Social Worker Dinner events, as they appear on the Fanju app, aim to fix that—not by adding more gue"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Social Worker Dinner in Brisbane, Fanju app puts the guest mix first
+# For people trying Social Worker Dinner in Brisbane, Fanju app puts the guest mix first | fanju-app
 
 If you’ve ever sat through a group dinner in Brisbane where the conversation never quite caught fire, you’re not alone. Social Worker Dinner events, as they appear on the Fanju app, aim to fix that—not by adding more guests or louder themes, but by focusing on who’s seated at the table in the first place. Unlike general meetups, these dinners are designed specifically for people in social work and adjacent support roles, creating a space where shared professional language becomes the foundation for real connection. The Fanju app doesn’t just list events—it shapes them by curating guest lists with attention to balance, experience level, and conversational style. In a city where professional isolation can quietly accumulate between caseloads and home visits, that intentionality makes the difference between another evening out and one that actually recharges you.
 

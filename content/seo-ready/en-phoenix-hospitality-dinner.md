@@ -4,7 +4,7 @@ canonicalPath: "/en/city/phoenix/hospitality-dinner"
 alternatePath: "/city/phoenix/hospitality-dinner"
 translationKey: "phoenix-hospitality-dinner"
 lang: "en"
-title: "When Hospitality Dinner feels too loose in Phoenix, Fanju app starts with the table"
+title: "When Hospitality Dinner feels too loose in Phoenix, Fanju app starts with the table | fanju-app"
 description: "The concept of a \"Hospitality Dinner\" in a city as diverse and spread out as Phoenix can, without careful framing, feel a bit nebulous. It's easy to imagine a gathering that’s more about polite mingling than substantive"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Hospitality Dinner feels too loose in Phoenix, Fanju app starts with the table
+# When Hospitality Dinner feels too loose in Phoenix, Fanju app starts with the table | fanju-app
 
 For newcomers navigating the vibrant, sprawling landscape of Phoenix, finding authentic local connections can feel like searching for a specific saguaro in the desert. The Fanju app offers a structured approach to social dining, specifically designed for small, intimate gatherings where genuine interaction is the primary goal. Instead of the often-unpredictable nature of larger meetups, Fanju focuses on curated "Hospitality Dinners," ensuring that the setting, the company, and the conversation are all geared towards building real-world connections from the moment you decide to join. This means the app begins by establishing a clear table, setting expectations, and facilitating introductions before the evening even commences, providing a more focused and comfortable experience for those seeking their first meaningful local interactions in the Valley of the Sun.
 

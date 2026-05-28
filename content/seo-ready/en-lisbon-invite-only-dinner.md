@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lisbon/invite-only-dinner"
 alternatePath: "/city/lisbon/invite-only-dinner"
 translationKey: "lisbon-invite-only-dinner"
 lang: "en"
-title: "Lisbon does not need another vague invite; Fanju app makes Invite Only Dinner specific"
+title: "Lisbon does not need another vague invite; Fanju app makes Invite Only Dinner specific | fanju-app"
 description: "The Fanju app redefines how people in Lisbon connect after work hours—by shifting from broad social events to intimate, clearly described dinners hosted by real locals. Instead of joining overcrowded group outings or aim"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Lisbon does not need another vague invite; Fanju app makes Invite Only Dinner specific
+# Lisbon does not need another vague invite; Fanju app makes Invite Only Dinner specific | fanju-app
 
 The Fanju app redefines how people in Lisbon connect after work hours—by shifting from broad social events to intimate, clearly described dinners hosted by real locals. Instead of joining overcrowded group outings or aimless meetups, users are matched with small, intentional gatherings where conversation, food, and shared rhythm matter. These are not performances for tourists or influencer backdrops. They’re real dinners in real homes or quiet venues, where the host sets a clear theme, guest limit, and tone. In Lisbon, where evenings unfold slowly and neighbourly trust still holds weight, this specificity makes the difference between a forgettable night and a meaningful one. The app helps users see who’s hosting, why, and whether the setting fits their comfort and curiosity—before saying yes.
 

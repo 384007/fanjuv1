@@ -4,7 +4,7 @@ canonicalPath: "/en/city/johannesburg/climate-tech-dinner"
 alternatePath: "/city/johannesburg/climate-tech-dinner"
 translationKey: "johannesburg-climate-tech-dinner"
 lang: "en"
-title: "The Climate Tech Dinner table Johannesburg actually needs is the one Fanju app describes up front"
+title: "The Climate Tech Dinner table Johannesburg actually needs is the one Fanju app describes up front | fanju-app"
 description: "After another long meeting about carbon offsets and urban heat mapping, you leave the Johannesburg office wondering where real climate progress happens. Not in reports or webinars, but at tables where people from differe"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# The Climate Tech Dinner table Johannesburg actually needs is the one Fanju app describes up front
+# The Climate Tech Dinner table Johannesburg actually needs is the one Fanju app describes up front | fanju-app
 
 After another long meeting about carbon offsets and urban heat mapping, you leave the Johannesburg office wondering where real climate progress happens. Not in reports or webinars, but at tables where people from different corners of the city meet, eat, and talk without performative urgency. That’s where Fanju app steps in—not with a flashy event, but with a quiet promise: you’ll know exactly who you’re sitting with and what kind of conversation to expect before you accept the invite. In a city where informal networks shape opportunity, that clarity is rare, and it’s why the Climate Tech Dinner in Johannesburg works differently than anywhere else.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kyoto/psychologist-dinner"
 alternatePath: "/city/kyoto/psychologist-dinner"
 translationKey: "kyoto-psychologist-dinner"
 lang: "en"
-title: "Kyoto after work: how Fanju app makes Psychologist Dinner feel like a real room"
+title: "Kyoto after work: how Fanju app makes Psychologist Dinner feel like a real room | fanju-app"
 description: "In Kyoto, where quiet streets and layered traditions shape daily rhythms, finding space for honest conversation can be rare—especially for those trained to listen more than speak. Psychologist Dinner, a small-group gathe"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Kyoto after work: how Fanju app makes Psychologist Dinner feel like a real room
+# Kyoto after work: how Fanju app makes Psychologist Dinner feel like a real room | fanju-app
 
 In Kyoto, where quiet streets and layered traditions shape daily rhythms, finding space for honest conversation can be rare—especially for those trained to listen more than speak. Psychologist Dinner, a small-group gathering hosted through the Fanju app, offers licensed therapists and mental health professionals a chance to step out of their roles and into a room where they are seen as people first. The app doesn’t promise transformation, but it does something quieter: it structures trust. By requiring real names, limiting table size, and verifying professional background, Fanju helps Kyoto-based psychologists meet in public spaces without the risk of professional exposure or social ambiguity. It’s not a conference or a networking event. It’s dinner, with people who understand the weight of silence.
 

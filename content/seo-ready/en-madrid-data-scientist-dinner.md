@@ -4,7 +4,7 @@ canonicalPath: "/en/city/madrid/data-scientist-dinner"
 alternatePath: "/city/madrid/data-scientist-dinner"
 translationKey: "madrid-data-scientist-dinner"
 lang: "en"
-title: "When Data Scientist Dinner feels too loose in Madrid, Fanju app starts with the table"
+title: "When Data Scientist Dinner feels too loose in Madrid, Fanju app starts with the table | fanju-app"
 description: "Most social dining attempts in Madrid fail not because of bad food or poor hosts, but because the guest list lacks coherence. When someone receives an invite to a Data Scientist Dinner without knowing who else is"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Data Scientist Dinner feels too loose in Madrid, Fanju app starts with the table
+# When Data Scientist Dinner feels too loose in Madrid, Fanju app starts with the table | fanju-app
 
 In Madrid, where weekend rhythms unfold slowly and social trust is built over shared plates, Fanju app redefines how data scientists gather beyond the lab or office. It’s not another event platform or networking portal, but a quietly effective tool for arranging small, intentional dinners—typically four to six guests—where the focus is not on pitching or performance, but on real conversation. The app surfaces dinners hosted by verified locals who describe not just the menu, but the mood, the reasoning behind the guest list, and the kind of exchange they hope to host. This clarity makes the difference between showing up to a vague “data meetup” and joining a table in Salamanca or Malasaña where people actually listen, and where the evening feels like a natural part of the weekend, not a forced social obligation.
 

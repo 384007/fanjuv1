@@ -4,7 +4,7 @@ canonicalPath: "/city/wuwei/cybersecurity-dinner"
 alternatePath: "/en/city/wuwei/cybersecurity-dinner"
 translationKey: "wuwei-cybersecurity-dinner"
 lang: "zh"
-title: "下班后的武威，饭局app怎样让网络安全饭局有真实同桌"
+title: "下班后的武威，饭局app怎样让网络安全饭局有真实同桌 | fanju-app"
 titleZh: "下班后的武威，饭局app怎样让网络安全饭局有真实同桌"
 description: "在武威，下班后的时间是宝贵的。 对于那些关注网络安全领域的朋友们来说，一个能够深入交流、拓展人脉的线下聚会显得尤为重要。 饭局app正是为此而生，它并非一个简单的社交工具，而是致力于通过小桌吃饭的形式，为用户搭建起围绕清晰主题、真实线下连接的社交桥梁。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 下班后的武威，饭局app怎样让网络安全饭局有真实同桌
+# 下班后的武威，饭局app怎样让网络安全饭局有真实同桌 | fanju-app
 
 在武威，下班后的时间是宝贵的。对于那些关注网络安全领域的朋友们来说，一个能够深入交流、拓展人脉的线下聚会显得尤为重要。饭局app正是为此而生，它并非一个简单的社交工具，而是致力于通过小桌吃饭的形式，为用户搭建起围绕清晰主题、真实线下连接的社交桥梁。在武威这座城市，饭局app提供了一个独特的平台，让网络安全领域的朋友们能够找到志同道合的同桌，共度有意义的时光。
 

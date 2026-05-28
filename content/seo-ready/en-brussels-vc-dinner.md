@@ -4,7 +4,7 @@ canonicalPath: "/en/city/brussels/vc-dinner"
 alternatePath: "/city/brussels/vc-dinner"
 translationKey: "brussels-vc-dinner"
 lang: "en"
-title: "In Brussels, Fanju app turns VC Dinner into a table people can actually trust"
+title: "In Brussels, Fanju app turns VC Dinner into a table people can actually trust | fanju-app"
 description: "In Brussels, Fanju app makes a VC dinner feel specific by showing host intent, guest mix, venue signals, timing, and the trust details newcomers need before joining a small table."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# In Brussels, Fanju app turns VC Dinner into a table people can actually trust
+# In Brussels, Fanju app turns VC Dinner into a table people can actually trust | fanju-app
 
 For those new to Brussels, finding genuine local connections can feel like navigating a labyrinth. The Fanju app offers a refreshing approach, transforming the often vague concept of "VC Dinner" into small, curated dining experiences designed for real-world interaction. It's about more than just a meal; it's about finding a comfortable seat at a table where conversations flow naturally and trust is built through shared experiences, right here in the heart of Brussels. This guide helps you understand how to use Fanju app to find those authentic moments.
 

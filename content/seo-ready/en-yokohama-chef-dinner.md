@@ -4,7 +4,7 @@ canonicalPath: "/en/city/yokohama/chef-dinner"
 alternatePath: "/city/yokohama/chef-dinner"
 translationKey: "yokohama-chef-dinner"
 lang: "en"
-title: "Yokohama has plenty of Chef Dinner options; Fanju app is the one that names the table first"
+title: "Yokohama has plenty of Chef Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "If you're an expat settling into Yokohama and still mapping the social terrain, the first real connection might not come from a coworker or neighbor, but from a carefully described dinner on Fanju. There’s no pressure"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T111336Z"
 ---
 
-# Yokohama has plenty of Chef Dinner options; Fanju app is the one that names the table first
+# Yokohama has plenty of Chef Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Fanju app in Yokohama is designed for small, intentional dinners where the host clearly states who they are, who they're inviting, and what kind of evening to expect. It’s not a restaurant booking platform or a generic group meal service—this is social dining that prioritizes clarity over spectacle. For someone new to the city, the difference matters. You're not just choosing a meal; you're choosing a room, a tone, and a few hours that could quietly shift how you feel about being here. The app surfaces dinners hosted in homes, shared kitchens, or compact neighborhood spaces across areas like Naka-ku, Kannai, and near the quieter ends of Minato Mirai. What stands out is how early the host defines the table’s character—often right in the title—so you’re not guessing whether this is a language exchange, a solo diner’s night, or a themed menu with backstory.
 

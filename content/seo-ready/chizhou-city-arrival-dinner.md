@@ -4,7 +4,7 @@ canonicalPath: "/city/chizhou/city-arrival-dinner"
 alternatePath: "/en/city/chizhou/city-arrival-dinner"
 translationKey: "chizhou-city-arrival-dinner"
 lang: "zh"
-title: "在池州把刚到城市饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在池州把刚到城市饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在池州把刚到城市饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "刚抵达一座陌生的城市，尤其是像池州这样有着深厚历史底蕴又充满活力的城市，下班后不想独自面对空荡荡的房间，是许多人的共同心声。饭局app的出现，正是为了填补这份社交空白，它提供了一个低门槛、高效率的线下连接平台。对于初来乍到的朋友，尤其是在池"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在池州把刚到城市饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在池州把刚到城市饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 刚抵达一座陌生的城市，尤其是像池州这样有着深厚历史底蕴又充满活力的城市，下班后不想独自面对空荡荡的房间，是许多人的共同心声。饭局app的出现，正是为了填补这份社交空白，它提供了一个低门槛、高效率的线下连接平台。对于初来乍到的朋友，尤其是在池州这样需要时间去感受和融入的城市，如何通过饭局app找到真正合拍的局，避免不必要的尴尬，是开始新生活的重要一环。这不仅仅是找个地方吃饭，更是找回归属感，将虚拟的连接转化为真实的温暖。
 

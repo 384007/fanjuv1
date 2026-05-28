@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/sao-paulo/stranger-dinner"
 alternatePath: "/city/sao-paulo/stranger-dinner"
-title: "In Sao Paulo, Fanju app turns Stranger Dinner into a table people can actually trust"
+title: "In Sao Paulo, Fanju app turns Stranger Dinner into a table people can actually trust | fanju-app | 饭局app"
 description: "Fanju app connects people in Sao Paulo over small, intentional dinners where strangers become conversation partners, not performances. It isn’t dinner as spectacle or networking—it’s a quiet recalibration of how we meet"
 recoveredFromD1: true
 ---
@@ -33,3 +33,9 @@ recoveredFromD1: true
 <p>Deciding which dinner to join shouldn’t feel like a life choice. Fanju helps by offering clarity, not overload. You won’t find dozens of options every night. Instead, there are a few carefully described meals, spaced across neighborhoods and weeks. That scarcity isn’t a limitation—it’s a filter. It encourages you to pick not just any table, but one that aligns with your mood, location, and openness.</p>
 <p>The real value isn’t in attending, but in choosing with intention. You might skip three dinners before one feels right. That’s part of the process. The app doesn’t push urgency. It supports patience. And when you finally accept an invite, it’s not because you’re desperate to meet people—it’s because someone’s table sounded like a place you’d like to be. That’s how trust begins: not with guarantees, but with a small, deliberate yes.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

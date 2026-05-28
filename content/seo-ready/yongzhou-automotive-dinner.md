@@ -4,7 +4,7 @@ canonicalPath: "/city/yongzhou/automotive-dinner"
 alternatePath: "/en/city/yongzhou/automotive-dinner"
 translationKey: "yongzhou-automotive-dinner"
 lang: "zh"
-title: "永州想参加汽车行业饭局，饭局app把信任感放在饭前"
+title: "永州想参加汽车行业饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "永州想参加汽车行业饭局，饭局app把信任感放在饭前"
 description: "永州的街巷不宽，人情却厚。从冷水滩到零陵老城区，一条巷子弯进去，往往藏着几十年的老店。这些地方不靠打卡引流，靠的是熟客带新客。饭局app在永州的作用，正是把这种“带人吃饭”的本地逻辑，变成可查找、可报名、可追溯的饭局线索。它不制造热闹，而是"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 永州想参加汽车行业饭局，饭局app把信任感放在饭前
+# 永州想参加汽车行业饭局，饭局app把信任感放在饭前 | fanju-app
 
 在永州，一场关于汽车行业的饭局，从来不止是吃饭。它可能是修理厂老师傅和年轻改装爱好者之间的第一次对坐，也可能是本地汽配商和网约车司机之间绕过平台的直接对话。饭局app不是群发“有人来吗”的聊天工具，也不是拼桌相亲式的社交活动，它是一张有名字、有地址、有主理人、有主题的小桌饭邀请。在永州这样的城市，人与人之间的信任建立得慢，但一旦坐下来，一盘蒸得透的东安鸡、一碗热腾腾的永州血鸭，就能把话题从天气聊到发动机舱里的积碳。饭局app把这种信任的准备做在饭前——谁发起、在哪吃、聊什么、来几个人，全都提前亮出来，不再是盲目的“组个局”。
 

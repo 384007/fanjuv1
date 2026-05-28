@@ -4,7 +4,7 @@ canonicalPath: "/en/city/brussels/jazz-dinner"
 alternatePath: "/city/brussels/jazz-dinner"
 translationKey: "brussels-jazz-dinner"
 lang: "en"
-title: "What makes Jazz Dinner in Brussels worth the risk; Fanju app answers before you arrive"
+title: "What makes Jazz Dinner in Brussels worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "Jazz Dinner in Brussels isn’t about romance, nor is it a networking event disguised as dinner. It’s a quiet experiment in relearning how to talk — really talk — after work hours, without the weight of expectation. The Fa"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Jazz Dinner in Brussels worth the risk; Fanju app answers before you arrive
+# What makes Jazz Dinner in Brussels worth the risk; Fanju app answers before you arrive | fanju-app
 
 Jazz Dinner in Brussels isn’t about romance, nor is it a networking event disguised as dinner. It’s a quiet experiment in relearning how to talk — really talk — after work hours, without the weight of expectation. The Fanju app helps clarify what kind of evening you’re stepping into, filtering out vague social plans by showing guest intent, host history, and past table dynamics. In a city where work friendships often stall at the bar after office drinks, Jazz Dinner offers a different rhythm: shared plates, live jazz at low volume, and conversation that doesn’t chase a follow-up. It works best when everyone agrees: no dates, no pitches, no pressure.
 

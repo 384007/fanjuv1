@@ -4,7 +4,7 @@ canonicalPath: "/city/dongying/community-dinner"
 alternatePath: "/en/city/dongying/community-dinner"
 translationKey: "dongying-community-dinner"
 lang: "zh"
-title: "在东营把社区饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在东营把社区饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在东营把社区饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "东营的社区饭局数量并不算少，但真正值得报名的那一桌，往往藏在信息最清晰的那一行描述里。 有些饭局写着“欢迎所有朋友来放松”，结果现场是七嘴八舌的闲聊，话题跳来跳去，像一场没有主持人的即兴演出。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在东营把社区饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在东营把社区饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 在东营，社区饭局不是为了凑热闹，而是为了找回那种下班后不想直接回家的夜晚里，能说上几句真心话的人。饭局app的存在，不是简单地拉人吃饭，而是让每一次约饭都变成一次可预期、可参与、可退出的轻量社交实验。它把“认识新朋友”这件事从模糊的线上聊天，拉回到一张真实的饭桌前。在东营社区饭局中，人不需要扮演谁，也不必强撑气氛，只需要愿意坐在那里，听别人说说工作之外的生活。饭局app筛选的，不是“热门饭局”，而是那些主理人愿意说清楚主题、人数、节奏和边界的小桌聚会。这样的饭局，在东营越来越被需要，也越来越难找。
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/changzhi/waitlist-dinner"
 alternatePath: "/en/city/changzhi/waitlist-dinner"
 translationKey: "changzhi-waitlist-dinner"
 lang: "zh"
-title: "下班后的长治，饭局app怎样让候补饭局有真实同桌"
+title: "下班后的长治，饭局app怎样让候补饭局有真实同桌 | fanju-app"
 titleZh: "下班后的长治，饭局app怎样让候补饭局有真实同桌"
 description: "长治的晚饭时间比北京慢半拍，比太原又快一点。 七点四十，城南的街边烧烤摊刚摆出小凳，城北的面馆已经坐满两轮客人。 候补饭局的成局时机，就卡在这段流动的时间里。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 下班后的长治，饭局app怎样让候补饭局有真实同桌
+# 下班后的长治，饭局app怎样让候补饭局有真实同桌 | fanju-app
 
 刚来长治时，我常在傍晚六点半站在八一广场附近的小巷口，看着灯光渐次亮起，却不知道往哪家店里走。饭局app上的“长治候补饭局”最初只是列表里一个模糊的选项，直到某天晚上，我意识到它和普通群聊约饭的根本不同：不是谁先回复谁就能上桌，而是谁更可能让这一桌成立，谁才会被看见。饭局app不制造热闹，它筛选节奏——在长治，一场饭能否吃得安稳，往往不取决于餐厅多有名，而在于开场那几分钟，有没有人愿意先说一句“我刚搬来，不太熟”。这种微小的坦白，是候补饭局真正开始的信号。
 

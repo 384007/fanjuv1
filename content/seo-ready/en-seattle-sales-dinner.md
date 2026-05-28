@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seattle/sales-dinner"
 alternatePath: "/city/seattle/sales-dinner"
 translationKey: "seattle-sales-dinner"
 lang: "en"
-title: "Seattle strangers sit down easier when Fanju app frames the Sales Dinner table first"
+title: "Seattle strangers sit down easier when Fanju app frames the Sales Dinner table first | fanju-app"
 description: "Seattle weekends fill quickly, especially in neighbourhoods like Ballard or Columbia City, where dinner plans often start mid-week. A vague dinner invite—“Hey, maybe a group thing?"
 primaryKeyword: "Seattle Sales Dinner"
 secondaryKeywords: "Seattle social dining|Sales dinner group|dinner buddy app|Fanju app|small-table dinner in Seattle"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T020005Z"
 ---
 
-# Seattle strangers sit down easier when Fanju app frames the Sales Dinner table first
+# Seattle strangers sit down easier when Fanju app frames the Sales Dinner table first | fanju-app
 
 The Fanju app helps people in Seattle meet for small, intentional dinners where the focus is on real conversation, not transactions. Sales Dinner, as hosted through Fanju, isn’t a networking event disguised as a meal—it’s a carefully set table where professionals in sales, marketing, and client-facing roles come together not to pitch, but to connect. In a city where coffee lines are long and personal space is respected, the app creates a rare opening: a shared meal with clear expectations. Hosts describe not just the food or location, but the tone, the guest mix, and what kind of evening lies ahead. This transparency is why someone in Capitol Hill or Fremont might say yes to dining with strangers. It’s not about instant friendship or guaranteed leads—it’s about a low-pressure chance to step out of the weekend routine and into a conversation that matters. In Seattle, Fanju app is not just another social tool. It’s a way to plan your weekend around human rhythm, not algorithmic noise.
 

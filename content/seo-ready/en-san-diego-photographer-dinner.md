@@ -4,7 +4,7 @@ canonicalPath: "/en/city/san-diego/photographer-dinner"
 alternatePath: "/city/san-diego/photographer-dinner"
 translationKey: "san-diego-photographer-dinner"
 lang: "en"
-title: "How Fanju app turns a San Diego Photographer Dinner night into something worth showing up for"
+title: "How Fanju app turns a San Diego Photographer Dinner night into something worth showing up for | fanju-app"
 description: "In San Diego, after long days navigating coastal light and editing marathons, many photographers find themselves craving conversation that doesn’t revolve around gear specs or client feedback loops. The Fanju app has qui"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a San Diego Photographer Dinner night into something worth showing up for
+# How Fanju app turns a San Diego Photographer Dinner night into something worth showing up for | fanju-app
 
 In San Diego, after long days navigating coastal light and editing marathons, many photographers find themselves craving conversation that doesn’t revolve around gear specs or client feedback loops. The Fanju app has quietly reshaped how these moments unfold, particularly around Photographer Dinner gatherings that prioritize presence over performance. Unlike generic meetups, these dinners use Fanju to clarify intent early: this is not a networking scramble or a disguised dating attempt, but a space for people who value thoughtful exchange without romantic subtext. Hosts in neighborhoods like North Park and Point Loma use the app to signal tone, set logistical details, and filter for genuine interest—making it easier to show up without overthinking. The result is a subtle but meaningful shift: dinner becomes less about who you might meet and more about who you get to be in the room.
 

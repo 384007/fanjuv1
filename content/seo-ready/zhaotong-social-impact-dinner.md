@@ -4,7 +4,7 @@ canonicalPath: "/city/zhaotong/social-impact-dinner"
 alternatePath: "/en/city/zhaotong/social-impact-dinner"
 translationKey: "zhaotong-social-impact-dinner"
 lang: "zh"
-title: "在昭通找一桌不尴尬的社会影响力饭局，饭局app先解决什么"
+title: "在昭通找一桌不尴尬的社会影响力饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在昭通找一桌不尴尬的社会影响力饭局，饭局app先解决什么"
 description: "报名前你总会想：去了要说什么？ 会不会冷场？ 在昭通，很多人对“饭局”有阴影，是因为过去参加的聚会总混着同事、亲戚、朋友的朋友，话题被酒量牵着走，最后变成比拼谁更能应付场面。 而社会影响力饭局的不同，是从你点开详情页那一刻开始的。"
 primaryKeyword: "昭通社会影响力饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T020005Z"
 ---
 
-# 在昭通找一桌不尴尬的社会影响力饭局，饭局app先解决什么
+# 在昭通找一桌不尴尬的社会影响力饭局，饭局app先解决什么 | fanju-app
 
 在昭通，一个工作日晚上七点，你站在单位楼下，没直接打车回家，也没去超市买菜。你在犹豫要不要赴约——不是不想见人，而是怕那种“一群人坐下来，谁也不太知道为什么聚在一起”的饭局。你打开饭局app，滑过几页“昭通社会影响力饭局”的报名信息，发现有一桌人，主题是“如何在小城推动一次环保市集”，主理人写清楚了：这顿饭不劝酒，不寒暄，每人带一个自己试过的行动点子来分享。你突然觉得，这可能不是又一场消耗精力的社交，而是一次能真正接上电的对话。饭局app在这里的角色，不是帮你多认识人，而是帮你避开无效社交，让吃饭这件事重新变得具体、有分量。在昭通，当城市节奏缓慢但人际联结并不轻松时，一桌有明确主题的小饭局，反而成了最不尴尬的见面方式。
 

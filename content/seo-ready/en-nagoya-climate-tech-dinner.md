@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nagoya/climate-tech-dinner"
 alternatePath: "/city/nagoya/climate-tech-dinner"
 translationKey: "nagoya-climate-tech-dinner"
 lang: "en"
-title: "For people trying Climate Tech Dinner in Nagoya, Fanju app puts the guest mix first"
+title: "For people trying Climate Tech Dinner in Nagoya, Fanju app puts the guest mix first | fanju-app"
 description: "Nagoya’s urban layout makes a difference in how these dinners land. When you live or work in Sakae or Fushimi, heading to a dinner in Nakamura or Meieki after work doesn’t feel like a detour—it feels like part of the"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
 ---
 
-# For people trying Climate Tech Dinner in Nagoya, Fanju app puts the guest mix first
+# For people trying Climate Tech Dinner in Nagoya, Fanju app puts the guest mix first | fanju-app
 
 Dinner in Nagoya doesn’t have to mean going home straight after work, especially when that routine starts to feel too quiet. The Fanju app is designed around small, intentional dinners where the guest list matters as much as the menu—particularly for Climate Tech Dinner, a recurring evening where people in Nagoya’s sustainability and climate sectors gather not to network, but to talk. As someone who has hosted these dinners for over a year, I’ve learned that the right mix of people turns an ordinary meal into something that feels more like a natural conversation than a social event. It’s not about filling seats; it’s about starting with people who are genuinely curious, not just collecting business cards. Fanju helps clarify that fit before you RSVP, so you’re not walking into a vague meetup where the only common thread is a job title.
 

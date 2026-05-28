@@ -4,7 +4,7 @@ canonicalPath: "/city/lianyungang/brand-dinner"
 alternatePath: "/en/city/lianyungang/brand-dinner"
 translationKey: "lianyungang-brand-dinner"
 lang: "zh"
-title: "连云港不想只靠群聊时，饭局app怎样把品牌饭局坐成一桌"
+title: "连云港不想只靠群聊时，饭局app怎样把品牌饭局坐成一桌 | fanju-app"
 titleZh: "连云港不想只靠群聊时，饭局app怎样把品牌饭局坐成一桌"
 description: "在连云港，当一个城市里的朋友们不再满足于微信群里的零散信息，而是渴望更深入、更有质感的线下交流时，**饭局app** 提供了一个解决思路。尤其对于那些希望将品牌活动做得更有温度、更具社区感的组织者来说，如何把一场“品牌饭局”从简单的聚会提升"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 连云港不想只靠群聊时，饭局app怎样把品牌饭局坐成一桌
+# 连云港不想只靠群聊时，饭局app怎样把品牌饭局坐成一桌 | fanju-app
 
 在连云港，当一个城市里的朋友们不再满足于微信群里的零散信息，而是渴望更深入、更有质感的线下交流时，**饭局app** 提供了一个解决思路。尤其对于那些希望将品牌活动做得更有温度、更具社区感的组织者来说，如何把一场“品牌饭局”从简单的聚会提升到一场有仪式感、有连接感的活动，是关键所在。这不仅仅是找个好地方吃饭，更是关于如何围绕一桌人，构建起信任和归属感。
 

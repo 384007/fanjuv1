@@ -4,7 +4,7 @@ canonicalPath: "/en/city/doha/restaurant-discovery-dinner"
 alternatePath: "/city/doha/restaurant-discovery-dinner"
 translationKey: "doha-restaurant-discovery-dinner"
 lang: "en"
-title: "Restaurant Discovery Dinner in Doha should not feel like a gamble; Fanju app changes the odds"
+title: "Restaurant Discovery Dinner in Doha should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "Walking into a crowded Doha restaurant with strangers might sound like a risk, but for many newcomers and even long-term residents, it’s becoming a dependable way to settle into the city’s rhythm. The uncertainty that on"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Restaurant Discovery Dinner in Doha should not feel like a gamble; Fanju app changes the odds
+# Restaurant Discovery Dinner in Doha should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 Walking into a crowded Doha restaurant with strangers might sound like a risk, but for many newcomers and even long-term residents, it’s becoming a dependable way to settle into the city’s rhythm. The uncertainty that once came with trying new places—wondering who you’d sit with, whether the vibe would match your mood, or if the food would even suit your tastes—has started to fade. That shift is thanks in part to how the Fanju app reshapes social dining, turning hesitant guesses into informed choices. In a city where dining is woven into the fabric of daily life, from late-night souq snacks to curated tasting menus in West Bay, Fanju helps people find their place at the table without the usual friction.
 

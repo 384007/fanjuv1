@@ -4,7 +4,7 @@ canonicalPath: "/en/city/taipei/film-dinner"
 alternatePath: "/city/taipei/film-dinner"
 translationKey: "taipei-film-dinner"
 lang: "en"
-title: "When Film Dinner feels too loose in Taipei, Fanju app starts with the table"
+title: "When Film Dinner feels too loose in Taipei, Fanju app starts with the table | fanju-app"
 description: "When Film Dinner in Taipei starts to feel more like a vague idea than a real evening, the Fanju app brings it back to something simple: a set table, a few chairs, and a host who’s already thought about the wine. It’s not"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Film Dinner feels too loose in Taipei, Fanju app starts with the table
+# When Film Dinner feels too loose in Taipei, Fanju app starts with the table | fanju-app
 
 When Film Dinner in Taipei starts to feel more like a vague idea than a real evening, the Fanju app brings it back to something simple: a set table, a few chairs, and a host who’s already thought about the wine. It’s not about large gatherings or curated networking. It’s about showing up to a dinner that’s meant to feel like a pause, not a performance. In a city where evenings often blur into late metro rides and convenience store meals, Fanju offers a quiet counterpoint—small dinners where conversation can start without pressure. The app doesn’t promise instant friends or deep bonds. It just helps you find a table where you’re allowed to be still, or talk, or say nothing at all.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/tianjin/local-community-dinner"
 alternatePath: "/en/city/tianjin/local-community-dinner"
 translationKey: "tianjin-local-community-dinner"
 lang: "zh"
-title: "天津本地社区饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "天津本地社区饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "天津本地社区饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "这个周末你在天津，可能正坐在宾馆的小沙发上，也可能刚在小白楼租下合租房间的第一个床位。窗外是天津特有的老楼群，楼下是偶尔响起的电瓶车拐弯提示音，你手里握着一杯便利店买的冰美式，不知道今晚要不要出门。饭局app就在这个时候被朋友提了一句：“你"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 天津本地社区饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 天津本地社区饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
 这个周末你在天津，可能正坐在宾馆的小沙发上，也可能刚在小白楼租下合租房间的第一个床位。窗外是天津特有的老楼群，楼下是偶尔响起的电瓶车拐弯提示音，你手里握着一杯便利店买的冰美式，不知道今晚要不要出门。饭局app就在这个时候被朋友提了一句：“你要是想认识人，不如看看天津的本地社区饭局。”你点开，发现不是那种餐厅团购，也不是熟人局，而是一桌桌由陌生人发起、有主题、有边界、有主理人的晚饭。它不承诺热闹，但承诺具体——在一座刚来的城市里，具体比热情更容易让人迈步。
 

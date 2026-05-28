@@ -4,7 +4,7 @@ canonicalPath: "/city/dalian/semiconductor-dinner"
 alternatePath: "/en/city/dalian/semiconductor-dinner"
 translationKey: "dalian-semiconductor-dinner"
 lang: "zh"
-title: "大连的半导体饭局不该靠运气，饭局app把主理人和同桌放在最前面"
+title: "大连的半导体饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app"
 titleZh: "大连的半导体饭局不该靠运气，饭局app把主理人和同桌放在最前面"
 description: "大连的半导体产业藏在城市的节奏里，不张扬，但稳定。园区里的研发团队、高校实验室、封装测试单位，构成了这座城市技术生态的一部分。但日常交流却常常被卡在“怎么开始”这一步。饭局app没有承诺人脉暴涨或合作落地，它只做一件事：让想吃饭的人，提前知"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
 ---
 
-# 大连的半导体饭局不该靠运气，饭局app把主理人和同桌放在最前面
+# 大连的半导体饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 
 晚上八点，星海广场的光还没暗下来，但软件园里的楼已经陆续熄灯。有人走出实验室，有人从会议室脱身，背包里还装着没改完的电路图。这一天并不特别，但你站在公司楼下，忽然不想直接回家。做饭太麻烦，一个人吃饭太安静，而随便约人又怕冷场。这时候，饭局app上一条消息弹出来：明晚七点，西安路附近一家日料小馆，四人桌，主题是“大连半导体从业者晚饭闲聊”。主理人是本地一家芯片设计公司的工程师，前两次饭局照片里，他穿的是和你一样的格子衬衫。不是线上群聊，也不是大会论坛，就是一个具体的饭桌——饭局app做的，是把模糊的“认识同行”变成“和谁吃这顿饭”。
 

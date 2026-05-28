@@ -4,7 +4,7 @@ canonicalPath: "/city/jinan"
 alternatePath: "/en/city/jinan"
 translationKey: "gsc-repair-city-jinan"
 lang: "zh"
-title: "济南饭局指南"
+title: "济南饭局指南 | fanju-app | 饭局app"
 description: "济南饭局页面帮助本地用户、新来济南的人和商务科技圈层通过 Fanju 了解同城小桌饭局的报名、安全和主理人筛选。"
 pageType: "city_landing"
 priorityScore: 82
@@ -12,7 +12,7 @@ aiQualityScore: 96
 status: "ready"
 ---
 
-# 济南饭局指南：如何用一顿饭认识同城朋友
+# 济南饭局指南：如何用一顿饭认识同城朋友 | fanju-app | 饭局app
 
 济南饭局适合想在同城认识新朋友、饭搭子、行业伙伴或本地生活方式同好的人。Fanju / 饭局强调公开餐厅、小桌人数、主题清晰和主理人说明，让用户在报名之前就能判断这桌饭是否符合自己的预期。
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/liupanshui/shared-table"
 alternatePath: "/en/city/liupanshui/shared-table"
 translationKey: "liupanshui-shared-table"
 lang: "zh"
-title: "六盘水想参加共享餐桌，饭局app把信任感放在饭前"
+title: "六盘水想参加共享餐桌，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "六盘水想参加共享餐桌，饭局app把信任感放在饭前"
 description: "在六盘水，想要通过共享餐桌认识新朋友，饭局app提供了一个围绕小桌吃饭、清晰主题和线下连接的平台。它帮助大家在饭前就建立起初步的信任感，让每一次线下相聚都更有方向和温度。无论是想深入了解本地文化，还是拓展生活圈子，饭局app都能在六盘水这座"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 六盘水想参加共享餐桌，饭局app把信任感放在饭前
+# 六盘水想参加共享餐桌，饭局app把信任感放在饭前 | fanju-app
 
 在六盘水，想要通过共享餐桌认识新朋友，饭局app提供了一个围绕小桌吃饭、清晰主题和线下连接的平台。它帮助大家在饭前就建立起初步的信任感，让每一次线下相聚都更有方向和温度。无论是想深入了解本地文化，还是拓展生活圈子，饭局app都能在六盘水这座城市里，为有意愿的人们搭建起一座座有温度的餐桌。
 

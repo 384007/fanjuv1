@@ -4,7 +4,7 @@ canonicalPath: "/city/huangshi/creative-writing-dinner"
 alternatePath: "/en/city/huangshi/creative-writing-dinner"
 translationKey: "huangshi-creative-writing-dinner"
 lang: "zh"
-title: "黄石的创意写作饭局为什么值得去，饭局app在报名前就给了答案"
+title: "黄石的创意写作饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
 titleZh: "黄石的创意写作饭局为什么值得去，饭局app在报名前就给了答案"
 description: "你打开饭局app，看到黄石有一场“创意写作饭局”正在招募，六个人的小桌，设在磁湖边一家老居民楼改造的咖啡书屋。 你犹豫了一下——写作是私密的事，和陌生人吃饭已经够难了，还要聊创作？ 但页面上写着主理人的一句话：“不是来听作品朗诵的，是来听你怎么把生活写成句子的。 ”这句话让你停住了。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 黄石的创意写作饭局为什么值得去，饭局app在报名前就给了答案
+# 黄石的创意写作饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
 你打开饭局app，看到黄石有一场“创意写作饭局”正在招募，六个人的小桌，设在磁湖边一家老居民楼改造的咖啡书屋。你犹豫了一下——写作是私密的事，和陌生人吃饭已经够难了，还要聊创作？但页面上写着主理人的一句话：“不是来听作品朗诵的，是来听你怎么把生活写成句子的。”这句话让你停住了。饭局app在黄石推的不是演讲厅，也不是写作课，而是一桌人围坐，用吃饭的节奏，把那些憋在心里的句子慢慢倒出来。你开始怀疑自己是不是又在逃避真实交流，但更怕的是，去了发现只是又一场浮于表面的社交。
 

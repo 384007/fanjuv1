@@ -4,7 +4,7 @@ canonicalPath: "/en/city/helsinki/post-pandemic-social-dinner"
 alternatePath: "/city/helsinki/post-pandemic-social-dinner"
 translationKey: "helsinki-post-pandemic-social-dinner"
 lang: "en"
-title: "For people trying Post Pandemic Social Dinner in Helsinki, Fanju app puts the guest mix first"
+title: "For people trying Post Pandemic Social Dinner in Helsinki, Fanju app puts the guest mix first | fanju-app"
 description: "In Helsinki, where long winters and quiet evenings shape social rhythms, the return to shared meals after years of distance has taken on a new intentionality. The Fanju app has quietly become a conduit for those who want"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Post Pandemic Social Dinner in Helsinki, Fanju app puts the guest mix first
+# For people trying Post Pandemic Social Dinner in Helsinki, Fanju app puts the guest mix first | fanju-app
 
 In Helsinki, where long winters and quiet evenings shape social rhythms, the return to shared meals after years of distance has taken on a new intentionality. The Fanju app has quietly become a conduit for those who want more than casual meetups—they want dinners that feel purposeful, not performative. Unlike broader social platforms, Fanju focuses on small, curated gatherings where the guest list matters as much as the menu. For locals relearning the rhythm of conversation across a table, the app doesn’t promise instant friendship but offers a better starting point: a setting where connection is possible because the mix of people is considered, not random. This isn’t about networking or filling seats; it’s about aligning expectations before the first course arrives.
 

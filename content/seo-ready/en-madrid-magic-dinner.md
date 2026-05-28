@@ -4,7 +4,7 @@ canonicalPath: "/en/city/madrid/magic-dinner"
 alternatePath: "/city/madrid/magic-dinner"
 translationKey: "madrid-magic-dinner"
 lang: "en"
-title: "When Magic Dinner feels too loose in Madrid, Fanju app starts with the table"
+title: "When Magic Dinner feels too loose in Madrid, Fanju app starts with the table | fanju-app"
 description: "In Madrid, where evenings stretch long after work and social plans often dissolve into solo tapas or late metro rides, the Fanju app offers a different rhythm: small dinners with meaning. Magic Dinner, as hosted through"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# When Magic Dinner feels too loose in Madrid, Fanju app starts with the table
+# When Magic Dinner feels too loose in Madrid, Fanju app starts with the table | fanju-app
 
 In Madrid, where evenings stretch long after work and social plans often dissolve into solo tapas or late metro rides, the Fanju app offers a different rhythm: small dinners with meaning. Magic Dinner, as hosted through Fanju, isn’t about spectacle or performance. It’s a quiet reentry into shared space—three to six people, a home-cooked meal, and no agenda beyond presence. For those who’ve scrolled through group chats that never materialize or felt the fatigue of dating apps that demand constant self-presentation, this format lands differently. The table becomes a threshold, not a test. In a city that pulses with energy but can leave individuals feeling peripheral, Fanju anchors connection in something tangible: a seat, a plate, a conversation that doesn’t need to go viral to matter.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/baoshan/industry-dinner"
 alternatePath: "/en/city/baoshan/industry-dinner"
 translationKey: "baoshan-industry-dinner"
 lang: "zh"
-title: "保山不想只靠群聊时，饭局app怎样把行业饭局坐成一桌"
+title: "保山不想只靠群聊时，饭局app怎样把行业饭局坐成一桌 | fanju-app"
 titleZh: "保山不想只靠群聊时，饭局app怎样把行业饭局坐成一桌"
 description: "在保山，当新来的人试图在高黎贡山脚下的城市节奏里找到自己的位置时，饭局app成为了一种安静但清晰的入口。它不是群聊里滚动的消息，也不是朋友圈里模糊的邀约，而是围绕小桌吃饭、设定清晰主题、促成真实连接的社交方式。在保山这样一座既有边地沉静又有"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 保山不想只靠群聊时，饭局app怎样把行业饭局坐成一桌
+# 保山不想只靠群聊时，饭局app怎样把行业饭局坐成一桌 | fanju-app
 
 在保山，当新来的人试图在高黎贡山脚下的城市节奏里找到自己的位置时，饭局app成为了一种安静但清晰的入口。它不是群聊里滚动的消息，也不是朋友圈里模糊的邀约，而是围绕小桌吃饭、设定清晰主题、促成真实连接的社交方式。在保山这样一座既有边地沉静又有流动活力的城市，饭局app让行业饭局不再只是“认识人”的泛泛之交，而是通过一顿饭的时间，把人与人的接触落在具体的语境里。刚搬来的人或许不知道哪家咖啡馆的老板懂文旅政策，也未必清楚南苑片区哪个工作室常聚设计从业者，但饭局app把这些信息转化成了可报名、可判断、可参与的饭局。
 

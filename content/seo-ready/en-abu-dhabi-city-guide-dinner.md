@@ -4,7 +4,7 @@ canonicalPath: "/en/city/abu-dhabi/city-guide-dinner"
 alternatePath: "/city/abu-dhabi/city-guide-dinner"
 translationKey: "abu-dhabi-city-guide-dinner"
 lang: "en"
-title: "City Guide Dinner in Abu Dhabi should not feel like a gamble; Fanju app changes the odds"
+title: "City Guide Dinner in Abu Dhabi should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "Starting over in Abu Dhabi often means nights spent scrolling through options with no clear way in. You’re not short on choices—there are rooftop lounges in Al Reem Island, Emirati dishes in the Heritage Village, and fus"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# City Guide Dinner in Abu Dhabi should not feel like a gamble; Fanju app changes the odds
+# City Guide Dinner in Abu Dhabi should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 Starting over in Abu Dhabi often means nights spent scrolling through options with no clear way in. You’re not short on choices—there are rooftop lounges in Al Reem Island, Emirati dishes in the Heritage Village, and fusion spots in Saadiyat—but translating interest into connection is another matter. The real challenge isn’t finding a place to eat. It’s knowing where to go with confidence when you don’t yet have a local circle. The Fanju app was built for that exact moment. It doesn’t promise instant friendships or curated experiences, but it does offer a structured way to share a meal with people who are also figuring things out. That small shift—from solo browsing to invited participation—can make all the difference in a city where social rhythms take time to learn.
 

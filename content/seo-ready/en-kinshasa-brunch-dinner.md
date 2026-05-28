@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kinshasa/brunch-dinner"
 alternatePath: "/city/kinshasa/brunch-dinner"
 translationKey: "kinshasa-brunch-dinner"
 lang: "en"
-title: "Kinshasa after work: how Fanju app makes Brunch Social feel like a real room"
+title: "Kinshasa after work: how Fanju app makes Brunch Social feel like a real room | fanju-app"
 description: "In many group chats in Kinshasa, the idea of gathering over brunch or dinner starts with a ping—no host named, no time set, just a flurry of “maybe” and “depends.” These messages often trail off, or worse, solidify into"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Kinshasa after work: how Fanju app makes Brunch Social feel like a real room
+# Kinshasa after work: how Fanju app makes Brunch Social feel like a real room | fanju-app
 
 The Fanju app brings people together over small, thoughtfully arranged dinners in Kinshasa—meals where the expectations are clear before you even leave home. Unlike a last-minute group chat suggestion or a vague “maybe we’ll see who’s around” message, a Brunch Social event on Fanju presents a defined space: who’s invited, where it is, what’s being served, and most importantly, what kind of conversation is welcome. For women in Kinshasa navigating social circles where ambiguity can mean discomfort, this clarity changes everything. It’s not about guaranteeing friendship or safety—it’s about making space for both possibility and self-respect.
 

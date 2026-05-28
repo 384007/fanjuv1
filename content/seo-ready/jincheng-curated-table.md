@@ -4,7 +4,7 @@ canonicalPath: "/city/jincheng/curated-table"
 alternatePath: "/en/city/jincheng/curated-table"
 translationKey: "jincheng-curated-table"
 lang: "zh"
-title: "在晋城找一桌不尴尬的精选餐桌，饭局app先解决什么"
+title: "在晋城找一桌不尴尬的精选餐桌，饭局app先解决什么 | fanju-app"
 titleZh: "在晋城找一桌不尴尬的精选餐桌，饭局app先解决什么"
 description: "在晋城，一顿饭的分量从不只看菜量。 街角面馆里三两碗刀削面能撑起一场老友重逢，写字楼后巷的家常菜小馆也能埋下合作的伏笔。 饭局app不是为大排面设的热闹场，它专注的是六到十二人之间的小桌——人够说话，又不会多到失焦。 它不解决“去哪儿吃”，而是先回答“这顿饭值不值得赴”。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在晋城找一桌不尴尬的精选餐桌，饭局app先解决什么
+# 在晋城找一桌不尴尬的精选餐桌，饭局app先解决什么 | fanju-app
 
 在晋城，一顿饭的分量从不只看菜量。街角面馆里三两碗刀削面能撑起一场老友重逢，写字楼后巷的家常菜小馆也能埋下合作的伏笔。饭局app不是为大排面设的热闹场，它专注的是六到十二人之间的小桌——人够说话，又不会多到失焦。它不解决“去哪儿吃”，而是先回答“这顿饭值不值得赴”。晋城的饭局节奏慢，人与人的信任建立在几次见面、几句闲谈之后，饭局app在这里的角色，是让每一次邀约都更具体，让每一张精选餐桌都更接近真实连接的可能。
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/taizhou-jiangsu/vc-dinner"
 alternatePath: "/en/city/taizhou-jiangsu/vc-dinner"
 translationKey: "taizhou-jiangsu-vc-dinner"
 lang: "zh"
-title: "泰州VC 饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "泰州VC 饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "泰州VC 饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "在泰州，饭局app不是一个泛泛的社交工具，而是围绕着小桌吃饭、清晰主题和线下精准连接的平台。它帮助人们在信息爆炸的时代，找到真正值得同桌而坐的同伴，尤其是在泰州这样的城市，一次精心组织的VC饭局，其同桌的质量往往比热烈的讨论更具价值。饭局a"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 泰州VC 饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 泰州VC 饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 在泰州，饭局app不是一个泛泛的社交工具，而是围绕着小桌吃饭、清晰主题和线下精准连接的平台。它帮助人们在信息爆炸的时代，找到真正值得同桌而坐的同伴，尤其是在泰州这样的城市，一次精心组织的VC饭局，其同桌的质量往往比热烈的讨论更具价值。饭局app在用户发送第一条信息时就开始进行筛选，确保每一次线下相聚，都能建立起高质量的连接。
 

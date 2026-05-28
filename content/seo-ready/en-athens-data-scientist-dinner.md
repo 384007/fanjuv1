@@ -4,7 +4,7 @@ canonicalPath: "/en/city/athens/data-scientist-dinner"
 alternatePath: "/city/athens/data-scientist-dinner"
 translationKey: "athens-data-scientist-dinner"
 lang: "en"
-title: "Why Data Scientist Dinner in Athens works better when Fanju app keeps the table small"
+title: "Why Data Scientist Dinner in Athens works better when Fanju app keeps the table small | fanju-app"
 description: "In a city as layered as Athens—where ancient stone meets startup energy, where conversations spill from open-air courtyards into late-night analytics debates—the value of a quiet, focused dinner for data scientists is no"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Data Scientist Dinner in Athens works better when Fanju app keeps the table small
+# Why Data Scientist Dinner in Athens works better when Fanju app keeps the table small | fanju-app
 
 In a city as layered as Athens—where ancient stone meets startup energy, where conversations spill from open-air courtyards into late-night analytics debates—the value of a quiet, focused dinner for data scientists is not in scale, but in restraint. The Fanju app understands this. By intentionally limiting the guest count at each Data Scientist Dinner, it avoids the noise of overcrowded networking and instead cultivates a space where genuine exchange can happen. In Athens, where professional circles often overlap in unexpected ways, the small table becomes a filter: not just for relevance, but for trust. Fanju doesn’t promise exposure to hundreds; it promises one meaningful conversation that might lead to the next insight, collaboration, or quietly transformative idea. That restraint is why the format works here.
 

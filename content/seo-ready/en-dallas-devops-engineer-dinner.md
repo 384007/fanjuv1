@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dallas/devops-engineer-dinner"
 alternatePath: "/city/dallas/devops-engineer-dinner"
 translationKey: "dallas-devops-engineer-dinner"
 lang: "en"
-title: "Dallas after work: how Fanju app makes DevOps Engineer Dinner feel like a real room"
+title: "Dallas after work: how Fanju app makes DevOps Engineer Dinner feel like a real room | fanju-app"
 description: "In Dallas, where Friday afternoons often dissolve into open-ended group chats about “maybe grabbing something,” DevOps engineers who want real connection are turning to the Fanju app to organize intentional dinners that"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Dallas after work: how Fanju app makes DevOps Engineer Dinner feel like a real room
+# Dallas after work: how Fanju app makes DevOps Engineer Dinner feel like a real room | fanju-app
 
 In Dallas, where Friday afternoons often dissolve into open-ended group chats about “maybe grabbing something,” DevOps engineers who want real connection are turning to the Fanju app to organize intentional dinners that don’t drift into silence. One engineer from Richardson logs off at 5:30 p.m., checks Fanju, and sees a table confirmed for 7:00 p.m. at a Japanese izakaya in Deep Ellum—eight seats, three already filled, conversation theme: “What CI/CD pipelines actually broke this week?” This isn’t a thread buried in Slack. It’s a plan with a name, a place, and a rhythm. The app doesn’t just suggest dinners; it carves out space for them in a city that defaults to spontaneity. And for professionals who spend their days orchestrating systems, that precision is welcome.  
 

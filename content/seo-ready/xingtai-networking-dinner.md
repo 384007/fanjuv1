@@ -4,7 +4,7 @@ canonicalPath: "/city/xingtai/networking-dinner"
 alternatePath: "/en/city/xingtai/networking-dinner"
 translationKey: "xingtai-networking-dinner"
 lang: "zh"
-title: "邢台人脉饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "邢台人脉饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "邢台人脉饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "初到邢台，街边小店的招牌上还挂着褪色的灯箱，巷口卖酥鱼的老摊主见你驻足，也只是低头翻动铁锅里的油星。你在地图上划过一条条街道，却很难划出一张属于自己的生活半径。饭局不少，但大多数饭局，都是熟人之间的回音。你缺的不是饭，是能让你坐下来、能听懂"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 邢台人脉饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 邢台人脉饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
 初到邢台，街边小店的招牌上还挂着褪色的灯箱，巷口卖酥鱼的老摊主见你驻足，也只是低头翻动铁锅里的油星。你在地图上划过一条条街道，却很难划出一张属于自己的生活半径。饭局不少，但大多数饭局，都是熟人之间的回音。你缺的不是饭，是能让你坐下来、能听懂你刚来这座城市有多陌生的那一桌。饭局app不是让你参加更多饭局，而是帮你找到那一桌提前说清规则、彼此不猜忌的饭。在邢台，这样的饭局，正在变成一种新的见面方式。
 

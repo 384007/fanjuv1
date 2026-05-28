@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kuala-lumpur/hiking-dinner"
 alternatePath: "/city/kuala-lumpur/hiking-dinner"
 translationKey: "kuala-lumpur-hiking-dinner"
 lang: "en"
-title: "Hiking Dinner in Kuala Lumpur should not feel like a gamble; Fanju app changes the odds"
+title: "Hiking Dinner in Kuala Lumpur should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "Trying Hiking Dinner in Kuala Lumpur for the first time through the Fanju app felt less like an invitation and more like stepping into a quiet unknown. I wasn’t sure if I’d end up sitting across from someone who’d lived"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Hiking Dinner in Kuala Lumpur should not feel like a gamble; Fanju app changes the odds
+# Hiking Dinner in Kuala Lumpur should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 Trying Hiking Dinner in Kuala Lumpur for the first time through the Fanju app felt less like an invitation and more like stepping into a quiet unknown. I wasn’t sure if I’d end up sitting across from someone who’d lived in Taman Tun Dr Ismail their whole life or a digital nomad passing through KLIA2 for a layover. The idea of meeting strangers over food after a short hike sounded poetic, but the reality could just as easily tip into awkwardness. What Fanju quietly does, without fanfare, is shift the balance. It doesn’t promise instant friends or curated chemistry, but it removes some of the friction that usually comes with first-time group meetups in a city as layered and fast-moving as Kuala Lumpur.
 

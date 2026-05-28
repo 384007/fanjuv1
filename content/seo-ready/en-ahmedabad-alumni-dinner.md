@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ahmedabad/alumni-dinner"
 alternatePath: "/city/ahmedabad/alumni-dinner"
 translationKey: "ahmedabad-alumni-dinner"
 lang: "en"
-title: "The Alumni Dinner table Ahmedabad actually needs is the one Fanju app describes up front"
+title: "The Alumni Dinner table Ahmedabad actually needs is the one Fanju app describes up front | fanju-app"
 description: "What sets a meaningful Alumni Dinner apart in Ahmedabad isn’t the menu or the venue—it’s the intention behind the table. I’ve hosted dozens of these gatherings, and I’ve learned that the ones that last aren’t the loudest"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# The Alumni Dinner table Ahmedabad actually needs is the one Fanju app describes up front
+# The Alumni Dinner table Ahmedabad actually needs is the one Fanju app describes up front | fanju-app
 
 What sets a meaningful Alumni Dinner apart in Ahmedabad isn’t the menu or the venue—it’s the intention behind the table. I’ve hosted dozens of these gatherings, and I’ve learned that the ones that last aren’t the loudest or the most lavish, but the ones where people lean in, not just show up. The Fanju app doesn’t promise spectacle. It offers structure—quiet, thoughtful, repeatable dinners where alumni who haven’t seen each other in years can find rhythm again. That’s the table Ahmedabad needs: not another reunion with vague plans, but a specific, scheduled moment where connection has room to breathe.
 

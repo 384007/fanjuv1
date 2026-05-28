@@ -4,7 +4,7 @@ canonicalPath: "/en/city/toronto/app-developer-dinner"
 alternatePath: "/city/toronto/app-developer-dinner"
 translationKey: "toronto-app-developer-dinner"
 lang: "en"
-title: "App Developer Dinner in Toronto should not feel like a gamble; Fanju app changes the odds"
+title: "App Developer Dinner in Toronto should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "A weekend meal in Toronto can easily become background noise if there’s no intention behind the gathering. The typical app developer meetup often revolves around slides, pitch decks, or forced icebreakers, leaving"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
 ---
 
-# App Developer Dinner in Toronto should not feel like a gamble; Fanju app changes the odds
+# App Developer Dinner in Toronto should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 In Toronto, the Fanju app helps people find small, intentional dinners where the focus is on real conversation, not performance. For app developers and tech professionals who spend long hours in front of screens, these dinners offer a grounded way to connect—without the pressure of networking events or crowded meetups. The tables are set in homes or quiet restaurants, often on weekends, where what matters most is the quality of the people across from you. Fanju doesn’t promise instant friendships, but it does provide clarity: who’s hosting, what kind of conversation to expect, and whether the table fits your comfort level. This subtle structure makes a real difference in a city where going out often means fading into the background.
 

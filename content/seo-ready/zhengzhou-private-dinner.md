@@ -4,7 +4,7 @@ canonicalPath: "/city/zhengzhou/private-dinner"
 alternatePath: "/en/city/zhengzhou/private-dinner"
 translationKey: "zhengzhou-private-dinner"
 lang: "zh"
-title: "郑州的私密饭局为什么值得去，饭局app在报名前就给了答案"
+title: "郑州的私密饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
 titleZh: "郑州的私密饭局为什么值得去，饭局app在报名前就给了答案"
 description: "在郑州，下班后的生活不应只是匆匆的通勤和家中的片刻宁静。 饭局app的出现，为这座城市注入了另一种可能——一种围绕小桌吃饭、清晰主题和线下真实连接的社交方式。 它不是一个简单的订餐平台，也不是一个宽泛的社交网络，而是专注于在都市的喧嚣中，为人们搭建起高质量、有边界的私密饭局。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 郑州的私密饭局为什么值得去，饭局app在报名前就给了答案
+# 郑州的私密饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
 在郑州，下班后的生活不应只是匆匆的通勤和家中的片刻宁静。饭局app的出现，为这座城市注入了另一种可能——一种围绕小桌吃饭、清晰主题和线下真实连接的社交方式。它不是一个简单的订餐平台，也不是一个宽泛的社交网络，而是专注于在都市的喧嚣中，为人们搭建起高质量、有边界的私密饭局。当你在郑州考虑参加一场私密饭局时，饭局app在报名页面就为你提供了判断一桌饭是否适合你的关键信息。
 

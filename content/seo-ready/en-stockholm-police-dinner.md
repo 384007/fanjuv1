@@ -4,7 +4,7 @@ canonicalPath: "/en/city/stockholm/police-dinner"
 alternatePath: "/city/stockholm/police-dinner"
 translationKey: "stockholm-police-dinner"
 lang: "en"
-title: "For people trying Police Dinner in Stockholm, Fanju app puts the guest mix first"
+title: "For people trying Police Dinner in Stockholm, Fanju app puts the guest mix first | fanju-app"
 description: "In Stockholm, where quiet evenings often stretch into long conversations over candlelight and aquavit, the idea of a Police Dinner might spark curiosity or concern. But on the Fanju app, it’s neither a law enforcement ev"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Police Dinner in Stockholm, Fanju app puts the guest mix first
+# For people trying Police Dinner in Stockholm, Fanju app puts the guest mix first | fanju-app
 
 In Stockholm, where quiet evenings often stretch into long conversations over candlelight and aquavit, the idea of a Police Dinner might spark curiosity or concern. But on the Fanju app, it’s neither a law enforcement event nor a performance—it’s a curated social dining experience built around trust, transparency, and real connection. The app doesn’t just list dinners; it shapes them by prioritizing guest compatibility, verified identities, and hosts with a track record. For newcomers, this makes the difference between an awkward group meal and a meaningful evening. Police Dinner in Stockholm works best not because of the food, but because the setup—small tables, public venues, real names—creates a container where people can show up as themselves. Fanju’s framework quietly enforces this by limiting table sizes and encouraging hosts to detail their intentions, so guests know what to expect before accepting an invite.
 

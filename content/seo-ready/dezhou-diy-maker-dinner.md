@@ -4,7 +4,7 @@ canonicalPath: "/city/dezhou/diy-maker-dinner"
 alternatePath: "/en/city/dezhou/diy-maker-dinner"
 translationKey: "dezhou-diy-maker-dinner"
 lang: "zh"
-title: "德州手作创客饭局｜工具交流和同城饭搭子 - Fanju 饭局app"
+title: "德州手作创客饭局｜工具交流和同城饭搭子 - Fanju 饭局app | fanju-app"
 titleZh: "德州手作创客饭局｜工具交流和同城饭搭子 - Fanju 饭局app"
 description: "Fanju 德州 DIY 创客饭局面向喜欢手作、工具、材料和小项目的人。通过小桌饭局认识同城饭搭子，主题、地点、人数和费用提前说清楚。"
 primaryKeyword: "德州 DIY 创客饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
 ---
 
-# 德州手作创客饭局，Fanju 饭局app把灵感放到小桌上
+# 德州手作创客饭局，Fanju 饭局app把灵感放到小桌上 | fanju-app
 
 德州 DIY 创客饭局适合想交流手作、工具、材料和小项目的人。Fanju 让这顿饭从一开始就说明主题、人数、公开地点和费用边界，帮助用户通过一顿饭认识同频的人，而不是进入随机群聊、相亲局或大型活动。
 

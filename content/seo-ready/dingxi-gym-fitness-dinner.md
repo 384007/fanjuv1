@@ -4,7 +4,7 @@ canonicalPath: "/city/dingxi/gym-fitness-dinner"
 alternatePath: "/en/city/dingxi/gym-fitness-dinner"
 translationKey: "dingxi-gym-fitness-dinner"
 lang: "zh"
-title: "定西健身房饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "定西健身房饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "定西健身房饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "定西的节奏不快，但也不松散。街边小馆子开得实在，人与人的距离看似近，实则隔着一层客气的薄纱。饭局app在这座城市的作用，恰恰是撕开这层纱，不是靠喧闹的活动，而是靠一张明确的饭桌。这张桌子有主题，有主理人，有固定人数，最重要的是，它有退出的自"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
 ---
 
-# 定西健身房饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 定西健身房饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 很多人以为在定西参加一场饭局，尤其是打着“健身房饭局”名号的聚会，大概率是临时拉群、凑人头、吃顿饭再各自刷手机的流程。但真正走进这类饭局的人会发现，问题从来不在“要不要社交”，而在于“怎么重启”。饭局app不是为热闹设计的，它更像一个过滤器——在定西，当一个人开始想见点真人、说点真话，它把那些愿意在同一张小桌边安静吃完一顿饭的人筛出来。这里的饭局不追求人数，也不鼓吹“拓展人脉”，它只处理一个具体问题：如何让两个陌生人坐下来，不尴尬，也不勉强。
 

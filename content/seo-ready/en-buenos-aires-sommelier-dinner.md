@@ -4,7 +4,7 @@ canonicalPath: "/en/city/buenos-aires/sommelier-dinner"
 alternatePath: "/city/buenos-aires/sommelier-dinner"
 translationKey: "buenos-aires-sommelier-dinner"
 lang: "en"
-title: "Buenos Aires strangers sit down easier when Fanju app frames the Sommelier Dinner table first"
+title: "Buenos Aires strangers sit down easier when Fanju app frames the Sommelier Dinner table first | fanju-app"
 description: "The idea of joining strangers for dinner in Buenos Aires can feel uncertain, especially if you’re new to the city or returning after years away. But the hesitation isn’t just about not knowing people—it’s about not"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
 ---
 
-# Buenos Aires strangers sit down easier when Fanju app frames the Sommelier Dinner table first
+# Buenos Aires strangers sit down easier when Fanju app frames the Sommelier Dinner table first | fanju-app
 
 In Buenos Aires, Fanju app connects locals and visitors through small, intentional dinners—like a Sommelier Dinner—where the setting is clear before anyone arrives. It’s not a meetup or chat group where plans feel loose and undefined. Instead, each table has a stated purpose, a host profile, and a guest mix that’s thought through ahead of time. That clarity matters most on an ordinary Thursday evening, after work, when heading straight home feels too small but walking into a crowded bar with strangers doesn’t feel right either. The app doesn’t promise instant friendship or perfect matches. It offers something quieter: a chance to share wine and conversation without the pressure of performance, especially when you’re a woman navigating social spaces where ease and safety aren’t always guaranteed.
 

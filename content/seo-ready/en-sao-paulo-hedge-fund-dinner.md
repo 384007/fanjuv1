@@ -4,7 +4,7 @@ canonicalPath: "/en/city/sao-paulo/hedge-fund-dinner"
 alternatePath: "/city/sao-paulo/hedge-fund-dinner"
 translationKey: "sao-paulo-hedge-fund-dinner"
 lang: "en"
-title: "Why Hedge Fund Dinner in Sao Paulo works better when Fanju app keeps the table small"
+title: "Why Hedge Fund Dinner in Sao Paulo works better when Fanju app keeps the table small | fanju-app"
 description: "In Sao Paulo, where weekend plans often dissolve into last-minute bar hops or silent group chats with no follow-through, a Hedge Fund Dinner organized through the Fanju app stands out by design. It’s not another networki"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Hedge Fund Dinner in Sao Paulo works better when Fanju app keeps the table small
+# Why Hedge Fund Dinner in Sao Paulo works better when Fanju app keeps the table small | fanju-app
 
 In Sao Paulo, where weekend plans often dissolve into last-minute bar hops or silent group chats with no follow-through, a Hedge Fund Dinner organized through the Fanju app stands out by design. It’s not another networking event disguised as socializing. It’s a deliberate choice to gather a small group of thoughtful professionals—many in finance, some adjacent—for a real dinner that becomes the anchor of the weekend. The app’s role isn’t to scale the event but to protect it: by limiting table size, pre-vetting guests with subtle intentionality, and ensuring conversations don’t drown in noise. In a city where professional circles overlap but rarely connect meaningfully, this structure turns a meal into something that lasts beyond dessert.
 

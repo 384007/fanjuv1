@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ahmedabad/scientist-dinner"
 alternatePath: "/city/ahmedabad/scientist-dinner"
 translationKey: "ahmedabad-scientist-dinner"
 lang: "en"
-title: "Scientist Dinner in Ahmedabad should not feel like a gamble; Fanju app changes the odds"
+title: "Scientist Dinner in Ahmedabad should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "Ahmedabad moves in layers. The morning hum of pol life gives way to midday quiet, then evening reawakens with families walking along the Sabarmati Riverfront or gathering in quiet societies in Thaltej and Prahlad Nagar."
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Scientist Dinner in Ahmedabad should not feel like a gamble; Fanju app changes the odds
+# Scientist Dinner in Ahmedabad should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 Dining with strangers in Ahmedabad doesn’t need to be a leap of blind faith. The Fanju app offers a quiet but meaningful alternative to curated experiences by connecting people through small, intentional dinners hosted in homes across the city. These aren’t performances — they’re real meals with real rhythms, where conversation unfolds without scripts. For newcomers and long-term residents alike, the app serves as a practical frame: meals are clearly described, host profiles include personal context, and guest lists stay small enough to allow genuine exchange. Rather than chasing novelty, Fanju supports a slower kind of connection, one that respects local pace and social nuance. In a city where hospitality is woven into daily life, the app simply makes space for that tradition to extend beyond family circles.
 

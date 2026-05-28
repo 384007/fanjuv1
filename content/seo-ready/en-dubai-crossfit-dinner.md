@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dubai/crossfit-dinner"
 alternatePath: "/city/dubai/crossfit-dinner"
 translationKey: "dubai-crossfit-dinner"
 lang: "en"
-title: "When CrossFit Dinner feels too loose in Dubai, Fanju app starts with the table"
+title: "When CrossFit Dinner feels too loose in Dubai, Fanju app starts with the table | fanju-app"
 description: "Fanju app in Dubai connects people through small, intentional dinners where the focus is on shared rhythms, not just shared plates. It’s not about finding the trendiest CrossFit box or the loudest post-workout crowd."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# When CrossFit Dinner feels too loose in Dubai, Fanju app starts with the table
+# When CrossFit Dinner feels too loose in Dubai, Fanju app starts with the table | fanju-app
 
 Fanju app in Dubai connects people through small, intentional dinners where the focus is on shared rhythms, not just shared plates. It’s not about finding the trendiest CrossFit box or the loudest post-workout crowd. Instead, it offers real meals hosted by locals who open their homes or familiar venues to small groups seeking genuine conversation. The app cuts through the noise of oversized meetups and vague event descriptions, anchoring the experience in clarity—what’s served, who’s hosting, and what kind of evening to expect. That precision turns uncertainty into trust.
 

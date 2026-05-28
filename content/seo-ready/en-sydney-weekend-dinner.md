@@ -4,7 +4,7 @@ canonicalPath: "/en/city/sydney/weekend-dinner"
 alternatePath: "/city/sydney/weekend-dinner"
 translationKey: "sydney-weekend-dinner"
 lang: "en"
-title: "In Sydney, Fanju app turns Weekend Dinner into a table people can actually trust"
+title: "In Sydney, Fanju app turns Weekend Dinner into a table people can actually trust | fanju-app"
 description: "In Sydney, where weekend plans drift in and out of focus like the haze off the harbour, the Fanju app has quietly changed how people gather after work. I’ve hosted more weekend dinners than I can count—some at my place i"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Sydney, Fanju app turns Weekend Dinner into a table people can actually trust
+# In Sydney, Fanju app turns Weekend Dinner into a table people can actually trust | fanju-app
 
 In Sydney, where weekend plans drift in and out of focus like the haze off the harbour, the Fanju app has quietly changed how people gather after work. I’ve hosted more weekend dinners than I can count—some at my place in Randwick, others in borrowed living rooms in Surry Hills or borrowed chairs in Glebe apartments—and I used to dread the uncertainty: who’d show up, would the conversation spark or stall, and most of all, whether the table would feel like a favour or a genuine exchange. The Fanju app didn’t eliminate those concerns, but it made them manageable. It gives structure to something that’s supposed to feel easy: sharing a meal with people who aren’t family, aren’t coworkers, but might, over a few dishes and a bottle of wine, become something close to community.
 

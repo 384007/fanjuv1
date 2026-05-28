@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dallas/night-owl-dinner"
 alternatePath: "/city/dallas/night-owl-dinner"
 translationKey: "dallas-night-owl-dinner"
 lang: "en"
-title: "How Fanju app turns a Dallas Night Owl Dinner night into something worth showing up for"
+title: "How Fanju app turns a Dallas Night Owl Dinner night into something worth showing up for | fanju-app"
 description: "For founders, operators, and professionals in Dallas, the real work often starts after hours—when meetings end and the city lights stay on. The Fanju app quietly reshapes how those late-night conversations unfold, turnin"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Dallas Night Owl Dinner night into something worth showing up for
+# How Fanju app turns a Dallas Night Owl Dinner night into something worth showing up for | fanju-app
 
 For founders, operators, and professionals in Dallas, the real work often starts after hours—when meetings end and the city lights stay on. The Fanju app quietly reshapes how those late-night conversations unfold, turning solitary dinners into curated moments of real connection. Instead of another loud networking event or a forced mixer downtown, it offers a simpler approach: small, intentional dinners where business talk can happen without an agenda. In a city where handshake culture still matters but time is tight, Fanju creates space for conversations that don’t feel transactional. It’s not about collecting cards or pitching ideas—it’s about finding someone across the table who understands your challenge because they’ve lived it.
 

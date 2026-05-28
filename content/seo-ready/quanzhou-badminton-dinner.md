@@ -4,7 +4,7 @@ canonicalPath: "/city/quanzhou/badminton-dinner"
 alternatePath: "/en/city/quanzhou/badminton-dinner"
 translationKey: "quanzhou-badminton-dinner"
 lang: "zh"
-title: "在泉州找到对的羽毛球饭局饭局，饭局app先把这一桌说清楚"
+title: "在泉州找到对的羽毛球饭局饭局，饭局app先把这一桌说清楚 | fanju-app"
 titleZh: "在泉州找到对的羽毛球饭局饭局，饭局app先把这一桌说清楚"
 description: "线上社交的便利，让大家习惯了指尖上的连接。但当泉州这座充满活力的城市，重新拥抱线下生活，我们开始渴望更真实、更直接的交流。饭局app正是为这样的需求而生，它不仅仅是一个工具，更是重新点燃线下社交热情的火种。尤其对于喜爱羽毛球的朋友们来说，一"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在泉州找到对的羽毛球饭局饭局，饭局app先把这一桌说清楚
+# 在泉州找到对的羽毛球饭局饭局，饭局app先把这一桌说清楚 | fanju-app
 
 线上社交的便利，让大家习惯了指尖上的连接。但当泉州这座充满活力的城市，重新拥抱线下生活，我们开始渴望更真实、更直接的交流。饭局app正是为这样的需求而生，它不仅仅是一个工具，更是重新点燃线下社交热情的火种。尤其对于喜爱羽毛球的朋友们来说，一场精心组织的羽毛球饭局，是挥洒汗水后，与志同道合者共享美食、畅聊生活的绝佳方式。饭局app致力于帮助大家在泉州找到最适合自己的羽毛球饭局，让每一次聚会都充满温度和意义。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/osaka/badminton-dinner"
 alternatePath: "/city/osaka/badminton-dinner"
 translationKey: "osaka-badminton-dinner"
 lang: "en"
-title: "Osaka strangers sit down easier when Fanju app frames the Badminton Dinner table first"
+title: "Osaka strangers sit down easier when Fanju app frames the Badminton Dinner table first | fanju-app"
 description: "For newcomers to Osaka, the sheer scale of the city can be overwhelming. Navigating its vibrant neighborhoods and countless social opportunities often starts with a simple question: where to begin? This is where the Fanj"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Osaka strangers sit down easier when Fanju app frames the Badminton Dinner table first
+# Osaka strangers sit down easier when Fanju app frames the Badminton Dinner table first | fanju-app
 
 For newcomers to Osaka, the sheer scale of the city can be overwhelming. Navigating its vibrant neighborhoods and countless social opportunities often starts with a simple question: where to begin? This is where the Fanju app offers a unique solution for those looking to connect over a shared meal and a bit of friendly competition. Imagine the contrast: the sprawling metropolis of Osaka outside, and a cozy table for a Badminton Dinner inside. The Fanju app helps bridge this gap, transforming the potentially daunting experience of meeting new people into a structured, approachable event. It provides a framework that makes the transition from solo traveler or newcomer to engaged participant feel natural and unforced, all centered around the simple pleasure of a shared meal after a game.
 

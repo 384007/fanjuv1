@@ -4,7 +4,7 @@ canonicalPath: "/city/pingliang/anime-dinner"
 alternatePath: "/en/city/pingliang/anime-dinner"
 translationKey: "pingliang-anime-dinner"
 lang: "zh"
-title: "平凉的一顿动漫饭局，饭局app为什么先看人再看热闹"
+title: "平凉的一顿动漫饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "平凉的一顿动漫饭局，饭局app为什么先看人再看热闹"
 description: "平凉，这座历史悠久的城市，总让人觉得藏着些不为人知的烟火气。最近，我听说了饭局app，一个据说能让人在真实生活里找到同好的平台。一开始，我有点犹豫，毕竟在平凉这样的城市，线下社交活动不像大都市那么普遍，尤其是以“动漫”为主题的饭局，听起来更"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 平凉的一顿动漫饭局，饭局app为什么先看人再看热闹
+# 平凉的一顿动漫饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 平凉，这座历史悠久的城市，总让人觉得藏着些不为人知的烟火气。最近，我听说了饭局app，一个据说能让人在真实生活里找到同好的平台。一开始，我有点犹豫，毕竟在平凉这样的城市，线下社交活动不像大都市那么普遍，尤其是以“动漫”为主题的饭局，听起来更像是小众圈子的聚会。我担心这会不会是一场尴尬的拼凑，大家只是为了“凑个局”而坐在一起，少了点真实的热情。但好奇心还是驱使我点开了饭局app，想看看平凉这座城市里，到底会有怎样的一场动漫饭局。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/fukuoka/diving-dinner"
 alternatePath: "/city/fukuoka/diving-dinner"
 translationKey: "fukuoka-diving-dinner"
 lang: "en"
-title: "Diving Dinner in Fukuoka should not feel like a gamble; Fanju app changes the odds"
+title: "Diving Dinner in Fukuoka should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "The moment arrives after the first round of drinks, when the initial greetings have faded and conversation could go quiet. This is the hinge point at a Diving Dinner in Fukuoka—when the table either settles into rhythm"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
 ---
 
-# Diving Dinner in Fukuoka should not feel like a gamble; Fanju app changes the odds
+# Diving Dinner in Fukuoka should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 You’ve just finished work in Fukuoka, maybe lingered a few minutes longer at your desk, and now the evening stretches ahead. You could go home, reheat something, scroll through your phone—but tonight, you’re considering a different kind of meal. A Diving Dinner in Fukuoka through the Fanju app is not a night out; it’s a quiet pivot from routine, a small table of strangers who might feel like temporary colleagues or passing neighbors. Fanju doesn’t promise instant friends or curated chemistry. What it does is clarify: who’s hosting, why they’re gathering, and what kind of space they’re making. That precision matters when you’re standing outside a izakaya in Tenjin, scanning faces for a name tag, unsure if you’re about to step into comfort or chaos.
 

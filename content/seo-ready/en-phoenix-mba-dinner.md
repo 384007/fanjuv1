@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/phoenix/mba-dinner"
 alternatePath: "/city/phoenix/mba-dinner"
-title: "Why MBA Dinner in Phoenix works better when Fanju app keeps the table small"
+title: "Why MBA Dinner in Phoenix works better when Fanju app keeps the table small | fanju-app | 饭局app"
 description: "The Fanju app is a social dining tool designed for meaningful, small-group meals in cities like Phoenix, where post-work socializing often defaults to loud bars or sprawling networking events. For MBA students and young"
 recoveredFromD1: true
 ---
@@ -33,3 +33,9 @@ recoveredFromD1: true
 <p>Leaving a dinner with a sense of closure—not because the night ended, but because the interaction felt complete—is a quiet success. In Phoenix, where professional paths often cross again at conferences, internships, or job changes, these small moments build long-term connections. You don’t need to exchange numbers or force a follow-up. Sometimes, just knowing someone shares your interest in ethical AI or remote team dynamics is enough. The Fanju app makes it easy to recognize them again, either at a future table or through a light acknowledgment in a shared space. That continuity matters more than a rushed LinkedIn request.</p>
 <p>The real outcome isn’t a full calendar of dinners, but the ability to choose one that fits. When the table is small, the topic clear, and the host consistent, saying yes becomes easier. And saying yes once makes the next time feel less risky. Over months, these dinners become part of your Phoenix rhythm—something you can count on after class or work, without overextending. You start to recognize familiar faces, not as networking targets, but as conversation partners. That’s how real community forms: not in crowds, but at tables where everyone has space to speak, and more importantly, to be heard.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

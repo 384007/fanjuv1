@@ -4,7 +4,7 @@ canonicalPath: "/en/city/munich/insurance-dinner"
 alternatePath: "/city/munich/insurance-dinner"
 translationKey: "munich-insurance-dinner"
 lang: "en"
-title: "Munich after work: how Fanju app makes Insurance Dinner feel like a real room"
+title: "Munich after work: how Fanju app makes Insurance Dinner feel like a real room | fanju-app"
 description: "Can you find your table in Munich without already knowing someone at it? That’s the quiet question behind the rise of Insurance Dinner gatherings on the Fanju app. In a city where workplace cafeterias close by 6 p.m. and"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Munich after work: how Fanju app makes Insurance Dinner feel like a real room
+# Munich after work: how Fanju app makes Insurance Dinner feel like a real room | fanju-app
 
 Can you find your table in Munich without already knowing someone at it? That’s the quiet question behind the rise of Insurance Dinner gatherings on the Fanju app. In a city where workplace cafeterias close by 6 p.m. and dinner plans often hinge on personal networks, Fanju carves out space for new kinds of meals — not themed events or influencer dinners, but small tables where the only requirement is showing up. The app doesn’t promise instant friends or curated experiences. Instead, it maps informal food threads across Munich: Thai curry in Schwabing, shared schnitzel in Maxvorstadt, late-night pretzels near Stiglmaierplatz. What makes these gatherings feel reliable isn’t a brand or a checklist. It’s the consistency of the meal itself, and the unspoken agreement that food comes first, small talk second.
 

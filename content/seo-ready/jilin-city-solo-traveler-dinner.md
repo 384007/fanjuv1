@@ -4,7 +4,7 @@ canonicalPath: "/city/jilin-city/solo-traveler-dinner"
 alternatePath: "/en/city/jilin-city/solo-traveler-dinner"
 translationKey: "jilin-city-solo-traveler-dinner"
 lang: "zh"
-title: "吉林市的一顿独自旅行者饭局，饭局app为什么先看人再看热闹"
+title: "吉林市的一顿独自旅行者饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "吉林市的一顿独自旅行者饭局，饭局app为什么先看人再看热闹"
 description: "周五傍晚六点，吉林市的风还带着松花江水汽的凉意。你站在吉林站东广场的台阶上，背包斜挎，刚退掉订了一半的快捷酒店。原本想着随便吃点、随便逛逛，但打开饭局app时发现，今晚在江北的咖啡馆二楼，有一场专为独自来吉林的旅行者准备的饭局，五人席，还剩"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 吉林市的一顿独自旅行者饭局，饭局app为什么先看人再看热闹
+# 吉林市的一顿独自旅行者饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 周五傍晚六点，吉林市的风还带着松花江水汽的凉意。你站在吉林站东广场的台阶上，背包斜挎，刚退掉订了一半的快捷酒店。原本想着随便吃点、随便逛逛，但打开饭局app时发现，今晚在江北的咖啡馆二楼，有一场专为独自来吉林的旅行者准备的饭局，五人席，还剩一个位置。你犹豫三秒，点了报名。这不像临时起意，倒像是终于决定不再把“一个人”当成旅行的被动状态。饭局app在这里的作用，不是帮你找饭，而是帮你确认：今晚在吉林市，你能以什么姿态进入一个空间，既不勉强合群，也不彻底封闭。
 

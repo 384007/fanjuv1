@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nairobi/cycling-dinner"
 alternatePath: "/city/nairobi/cycling-dinner"
 translationKey: "nairobi-cycling-dinner"
 lang: "en"
-title: "What makes Cycling Dinner in Nairobi worth the risk; Fanju app answers before you arrive"
+title: "What makes Cycling Dinner in Nairobi worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "That unspoken question—“Should I come again?”—rarely gets addressed in Nairobi’s casual dining circles. Most group events don’t invite return visits by design, relying instead on novelty. But Cycling Dinner’s rhythm"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Cycling Dinner in Nairobi worth the risk; Fanju app answers before you arrive
+# What makes Cycling Dinner in Nairobi worth the risk; Fanju app answers before you arrive | fanju-app
 
 Cycling Dinner in Nairobi isn’t another curated social experience—it’s an informal, recurring chance to sit down with a few people who also didn’t want to go home to silence after work. The Fanju app makes it work by focusing not on hype but on clarity: every dinner lists who’s hosting, where it is, what’s being served, and how many are coming. That transparency cuts through Nairobi’s usual social friction, where group invites can blur into noise. For professionals winding down from days in Westlands offices or commuting from Kilimani, the app filters out ambiguity, showing dinners that match actual availability and mood. It doesn’t promise transformation, just a real table with real food and a conversation that doesn’t need to be forced.
 

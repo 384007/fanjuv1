@@ -4,7 +4,7 @@ canonicalPath: "/city/zhengzhou/foodie-dinner"
 alternatePath: "/en/city/zhengzhou/foodie-dinner"
 translationKey: "zhengzhou-foodie-dinner"
 lang: "zh"
-title: "郑州的一顿美食爱好者饭局，饭局app为什么先看人再看热闹"
+title: "郑州的一顿美食爱好者饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "郑州的一顿美食爱好者饭局，饭局app为什么先看人再看热闹"
 description: "在郑州，饭局app不是另一个美食打卡工具，而是为真实吃饭关系搭建的小桌连接器。它不推送热门餐厅排行榜，也不搞拼团折扣，而是让本地美食爱好者通过清晰的主题、可控的桌次规模和提前沟通的规则，找到愿意慢聊一顿饭的人。在郑州这样的城市，饭局的意义不"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 郑州的一顿美食爱好者饭局，饭局app为什么先看人再看热闹
+# 郑州的一顿美食爱好者饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 在郑州，饭局app不是另一个美食打卡工具，而是为真实吃饭关系搭建的小桌连接器。它不推送热门餐厅排行榜，也不搞拼团折扣，而是让本地美食爱好者通过清晰的主题、可控的桌次规模和提前沟通的规则，找到愿意慢聊一顿饭的人。在郑州这样的城市，饭局的意义不只是“吃什么”，更在于“和谁吃”“怎么吃”。饭局app的逻辑是：先让人能彼此看清，再决定要不要坐到一桌。这种设计对女性参与者尤其重要——当一次饭局的边界清晰、节奏可预期，安全感才不会依赖运气。
 

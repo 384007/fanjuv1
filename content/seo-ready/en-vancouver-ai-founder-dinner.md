@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vancouver/ai-founder-dinner"
 alternatePath: "/city/vancouver/ai-founder-dinner"
 translationKey: "vancouver-ai-founder-dinner"
 lang: "en"
-title: "Why AI Founder Dinner in Vancouver works better when Fanju app keeps the table small"
+title: "Why AI Founder Dinner in Vancouver works better when Fanju app keeps the table small | fanju-app"
 description: "In Vancouver, where tech energy often gets diluted across sprawling meetups and loosely themed networking events, the AI Founder Dinner stands out by doing one thing quietly but well: it gathers the right people at the r"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why AI Founder Dinner in Vancouver works better when Fanju app keeps the table small
+# Why AI Founder Dinner in Vancouver works better when Fanju app keeps the table small | fanju-app
 
 In Vancouver, where tech energy often gets diluted across sprawling meetups and loosely themed networking events, the AI Founder Dinner stands out by doing one thing quietly but well: it gathers the right people at the right table. The Fanju app plays a crucial role in that by intentionally limiting group size, ensuring each dinner stays rooted in meaningful exchange rather than performative attendance. This isn’t about scaling quickly or hosting the largest crowd—it’s about cultivating a dinner that feels grounded in a specific part of the city, where founders talk not just about models or funding, but about how their work fits into Vancouver’s evolving tech culture. When the table stays small, connection deepens, especially in a city where neighbourhood identity still shapes how people live and work.
 

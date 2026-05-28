@@ -4,7 +4,7 @@ canonicalPath: "/en/city/houston/sports-coach-dinner"
 alternatePath: "/city/houston/sports-coach-dinner"
 translationKey: "houston-sports-coach-dinner"
 lang: "en"
-title: "Houston has plenty of Sports Coach Dinner options; Fanju app is the one that names the table first"
+title: "Houston has plenty of Sports Coach Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Weekends in Houston stretch with possibility, but also with a quiet kind of isolation, especially if your workweek happens in silence. The city’s sprawl makes spontaneous meetups difficult, and many group events lean"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Houston has plenty of Sports Coach Dinner options; Fanju app is the one that names the table first
+# Houston has plenty of Sports Coach Dinner options; Fanju app is the one that names the table first | fanju-app
 
 After another long stretch of solo work at the dining table-turned-desk in your Heights bungalow or Midtown apartment, the idea of dinner with others feels both appealing and oddly daunting. You’ve seen events pop up—networking mixers, sports viewing parties, group fitness meetups—but few offer a structured way to connect without performance or pitch. That’s where the Fanju app comes in. It’s a social dining platform focused on small, intentionally framed meals in Houston, where the host clearly states the purpose, rhythm, and guest expectations. For remote workers craving a recurring social anchor, a Sports Coach Dinner through Fanju isn’t about loud group energy or forced networking. It’s about showing up to a real table with a real reason—often led by someone who’s spent years guiding athletes, not selling something.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/berlin/women-friendly-dinner"
 alternatePath: "/city/berlin/women-friendly-dinner"
 translationKey: "berlin-women-friendly-dinner"
 lang: "en"
-title: "What makes Women Friendly Dinner in Berlin worth the risk; Fanju app answers before you arrive"
+title: "What makes Women Friendly Dinner in Berlin worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "For women in Berlin who value quiet connection over loud networking, the idea of a group dinner can feel more exhausting than inviting. Too often, these gatherings resemble performative meetups or awkward dating app exte"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Women Friendly Dinner in Berlin worth the risk; Fanju app answers before you arrive
+# What makes Women Friendly Dinner in Berlin worth the risk; Fanju app answers before you arrive | fanju-app
 
 For women in Berlin who value quiet connection over loud networking, the idea of a group dinner can feel more exhausting than inviting. Too often, these gatherings resemble performative meetups or awkward dating app extensions—crowded, unstructured, and emotionally draining. The Fanju app changes that by focusing on small, intentional dinners where being quiet isn’t a flaw—it’s part of the design. In a city where spontaneity often masks social uncertainty, Fanju offers clarity: who’s coming, what the evening includes, and how the space is managed. This transparency isn’t just convenient; it’s what makes attending a Women Friendly Dinner in Berlin feel less like a gamble and more like a meaningful choice.
 

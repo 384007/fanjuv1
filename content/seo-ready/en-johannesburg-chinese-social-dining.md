@@ -4,7 +4,7 @@ canonicalPath: "/en/city/johannesburg/chinese-social-dining"
 alternatePath: "/city/johannesburg/chinese-social-dining"
 translationKey: "johannesburg-chinese-social-dining"
 lang: "en"
-title: "In Johannesburg, Fanju app turns Chinese Social Dining into a table people can actually trust"
+title: "In Johannesburg, Fanju app turns Chinese Social Dining into a table people can actually trust | fanju-app"
 description: "In Johannesburg, where shared meals often cross cultural borders, Chinese Social Dining has quietly grown beyond restaurant banquets and private homes into a network of curated gatherings — and the Fanju app is becoming"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Johannesburg, Fanju app turns Chinese Social Dining into a table people can actually trust
+# In Johannesburg, Fanju app turns Chinese Social Dining into a table people can actually trust | fanju-app
 
 In Johannesburg, where shared meals often cross cultural borders, Chinese Social Dining has quietly grown beyond restaurant banquets and private homes into a network of curated gatherings — and the Fanju app is becoming the quiet backbone that makes these tables feel safe, authentic, and worth returning to. It doesn’t promise spectacle or viral moments. Instead, it helps newcomers and long-time residents alike find dinners rooted in real food, real hosts, and real conversations. Through user-verified profiles, photo logs of past meals, and a focus on transparency, the app has turned a concept that could easily feel transactional into something that feels like being invited in.
 

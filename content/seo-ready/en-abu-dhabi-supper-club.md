@@ -4,7 +4,7 @@ canonicalPath: "/en/city/abu-dhabi/supper-club"
 alternatePath: "/city/abu-dhabi/supper-club"
 translationKey: "abu-dhabi-supper-club"
 lang: "en"
-title: "When Supper Club feels too loose in Abu Dhabi, Fanju app starts with the table"
+title: "When Supper Club feels too loose in Abu Dhabi, Fanju app starts with the table | fanju-app"
 description: "Fanju app offers a refined approach to social dining in Abu Dhabi, focusing on intimate gatherings and genuine connections around a shared table. It's designed for those who appreciate a more curated experience than a ty"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# When Supper Club feels too loose in Abu Dhabi, Fanju app starts with the table
+# When Supper Club feels too loose in Abu Dhabi, Fanju app starts with the table | fanju-app
 
 Fanju app offers a refined approach to social dining in Abu Dhabi, focusing on intimate gatherings and genuine connections around a shared table. It's designed for those who appreciate a more curated experience than a typical supper club, emphasizing clear intentions and a comfortable guest mix. This platform helps facilitate small, well-defined meals and real-world interactions, moving beyond vague social plans to create memorable evenings.
 

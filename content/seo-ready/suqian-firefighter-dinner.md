@@ -4,7 +4,7 @@ canonicalPath: "/city/suqian/firefighter-dinner"
 alternatePath: "/en/city/suqian/firefighter-dinner"
 translationKey: "suqian-firefighter-dinner"
 lang: "zh"
-title: "宿迁消防员饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "宿迁消防员饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "宿迁消防员饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "在宿迁，一场真正的饭局从来不是饭馆门口的寒暄开始的。它可能始于饭局app里一条安静的消息：一位消防站的值班员在换岗后点开报名页面，看到这桌人里有两位曾在宿豫区火场外并肩守过夜的队友，还有一位是刚调来宿迁、在app个人页写着“想听一次真实的出"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 宿迁消防员饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 宿迁消防员饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 在宿迁，一场真正的饭局从来不是饭馆门口的寒暄开始的。它可能始于饭局app里一条安静的消息：一位消防站的值班员在换岗后点开报名页面，看到这桌人里有两位曾在宿豫区火场外并肩守过夜的队友，还有一位是刚调来宿迁、在app个人页写着“想听一次真实的出警复盘”的新面孔。他犹豫了一下，还是点了确认——不是因为热闹，而是因为这条信息里没有浮词，只有具体的人、时间、和一段可追溯的共同经验。饭局app不推送“同城交友”，它只呈现“这一桌为什么成立”的细节。在宿迁，消防员的饭局从筛选开始就带着职业的清醒。
 

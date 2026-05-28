@@ -4,7 +4,7 @@ canonicalPath: "/en/city/jakarta/writer-dinner"
 alternatePath: "/city/jakarta/writer-dinner"
 translationKey: "jakarta-writer-dinner"
 lang: "en"
-title: "How Fanju app turns a Jakarta Writer Dinner night into something worth showing up for"
+title: "How Fanju app turns a Jakarta Writer Dinner night into something worth showing up for | fanju-app"
 description: "Jakarta’s sprawl isn’t just geographic—it’s social. Crossing from Kelapa Gading to Cipete means shifting not just in traffic patterns but in tone, language, and unspoken codes of belonging. A Writer Dinner in Menteng"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Jakarta Writer Dinner night into something worth showing up for
+# How Fanju app turns a Jakarta Writer Dinner night into something worth showing up for | fanju-app
 
 The Fanju app helps people in Jakarta discover small, intentional dinners centered around writing and conversation—meals that feel safe, grounded, and distinctly human. In a city where social fatigue runs high and casual meetups often dissolve into awkward group photos or sales pitches, a Writer Dinner on Fanju is different. It’s not about networking or visibility. It’s a quiet table in a neighborhood warung or a backstreet café where attendees come by RSVP, show up under their real names, and talk about sentences, silence, and what it means to write in Jakarta. The app doesn’t promise magic. It creates conditions—public location, limited seats, host identity—for trust to form. That’s what makes someone leave their apartment in South Jakarta after a long workday and actually stay for dessert.
 

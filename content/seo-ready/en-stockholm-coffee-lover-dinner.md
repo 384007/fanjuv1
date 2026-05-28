@@ -4,7 +4,7 @@ canonicalPath: "/en/city/stockholm/coffee-lover-dinner"
 alternatePath: "/city/stockholm/coffee-lover-dinner"
 translationKey: "stockholm-coffee-lover-dinner"
 lang: "en"
-title: "Stockholm Coffee Lover Dinner: how Fanju app makes the table worth choosing"
+title: "Stockholm Coffee Lover Dinner: how Fanju app makes the table worth choosing | fanju-app"
 description: "Stockholm Coffee Lover Dinner through the Fanju app offers a small-table experience built around shared appreciation for brewing methods, bean origins, and quiet conversation—never forced bonding."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Stockholm Coffee Lover Dinner: how Fanju app makes the table worth choosing
+# Stockholm Coffee Lover Dinner: how Fanju app makes the table worth choosing | fanju-app
 
 Stockholm Coffee Lover Dinner through the Fanju app offers a small-table experience built around shared appreciation for brewing methods, bean origins, and quiet conversation—never forced bonding. This isn’t a dating guarantee, not a random group chat, and not an endless profile feed. Instead, it’s an offline dinner for 6 to 12 guests who meet in a public café or low-lit bistro, often after a weekend morning at a local roastery. Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局”, reflecting its roots in intentional social dining. In Stockholm, where personal space is respected and social entries are subtle, the app works by setting clear expectations upfront: theme, timing, host role, and group size—giving newcomers a way to assess fit before committing.
 

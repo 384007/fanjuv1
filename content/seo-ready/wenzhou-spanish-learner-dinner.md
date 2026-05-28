@@ -4,7 +4,7 @@ canonicalPath: "/city/wenzhou/spanish-learner-dinner"
 alternatePath: "/en/city/wenzhou/spanish-learner-dinner"
 translationKey: "wenzhou-spanish-learner-dinner"
 lang: "zh"
-title: "温州的西班牙语学习者饭局不该靠运气，饭局app把主理人和同桌放在最前面"
+title: "温州的西班牙语学习者饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app"
 titleZh: "温州的西班牙语学习者饭局不该靠运气，饭局app把主理人和同桌放在最前面"
 description: "温州的饭局，成不成，常看“在哪里吃”。西班牙语学习者饭局不是在市中心随便找家餐厅就能成事的。主理人通常会选离地铁口步行十分钟内的位置，避开太热闹的商业街，也避开太安静的住宅区。理想地点是像南塘街、五马街附近那种有生活气又不吵的地方，餐厅门口"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T170006Z"
 ---
 
-# 温州的西班牙语学习者饭局不该靠运气，饭局app把主理人和同桌放在最前面
+# 温州的西班牙语学习者饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 
 在温州，一个人下班后想练西班牙语，常有的念头不是“去上课”，而是“找人说说话”。但打开社交软件，群里接龙吃饭的不少，真正坐下来能聊得上的却难遇。饭局app不是用来刷存在感的工具，它从一开始就把重点放在“谁和你一桌”上。这座城市里，语言学习的难点从来不是词汇量，而是有没有一个自然开口的场合。饭局app做的，就是把那些下班后不想立刻回家的人，按相似的节奏拼成一桌，在饭桌上把“学过的话”真正说出来。温州人的饭局向来讲究“对人”，不对人，再好的菜也吃不出滋味。
 

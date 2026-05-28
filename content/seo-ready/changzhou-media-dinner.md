@@ -4,7 +4,7 @@ canonicalPath: "/city/changzhou/media-dinner"
 alternatePath: "/en/city/changzhou/media-dinner"
 translationKey: "changzhou-media-dinner"
 lang: "zh"
-title: "在常州把媒体饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在常州把媒体饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在常州把媒体饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "刚来常州那阵，我接到一个“媒体饭局”的邀请。地点在延陵西路附近一家小馆子，说是本地几位记者、编辑和自由撰稿人聚一聚，聊聊最近的城市报道动向。我抱着认识人的心态去了，结果一进门就愣住——十来个人围坐两桌，话题从自媒体流量突然跳到房产分销，有人"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在常州把媒体饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在常州把媒体饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 刚来常州那阵，我接到一个“媒体饭局”的邀请。地点在延陵西路附近一家小馆子，说是本地几位记者、编辑和自由撰稿人聚一聚，聊聊最近的城市报道动向。我抱着认识人的心态去了，结果一进门就愣住——十来个人围坐两桌，话题从自媒体流量突然跳到房产分销，有人递名片比吃饭还积极。饭局app上看到的“媒体交流”标签，和现场的泛社交氛围完全对不上。那一刻我明白，在常州，一场让人安心的饭局，不在于人多热闹，而在于它能不能先让人放下防备。饭局app的价值，不在拉人进局，而在筛掉那些注定尴尬的局。
 

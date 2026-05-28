@@ -4,7 +4,7 @@ canonicalPath: "/en/city/mexico-city/singles-dinner"
 alternatePath: "/city/mexico-city/singles-dinner"
 translationKey: "mexico-city-singles-dinner"
 lang: "en"
-title: "For people trying Singles Dinner in Mexico City, Fanju app puts the guest mix first"
+title: "For people trying Singles Dinner in Mexico City, Fanju app puts the guest mix first | fanju-app"
 description: "If you're in Mexico City and considering a Singles Dinner, the Fanju app can be a helpful tool. It focuses on the quality of the guest list, aiming to make the experience more about genuine connection than just filling s"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For people trying Singles Dinner in Mexico City, Fanju app puts the guest mix first
+# For people trying Singles Dinner in Mexico City, Fanju app puts the guest mix first | fanju-app
 
 If you're in Mexico City and considering a Singles Dinner, the Fanju app can be a helpful tool. It focuses on the quality of the guest list, aiming to make the experience more about genuine connection than just filling seats. For those looking to decompress after a workday without the prospect of an empty table at home, these dinners offer a structured yet relaxed way to meet new people in a comfortable setting. The Fanju app helps set the stage by prioritizing how the group comes together.
 

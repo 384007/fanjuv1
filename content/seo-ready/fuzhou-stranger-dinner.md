@@ -4,7 +4,7 @@ canonicalPath: "/city/fuzhou/stranger-dinner"
 alternatePath: "/en/city/fuzhou/stranger-dinner"
 translationKey: "fuzhou-stranger-dinner"
 lang: "zh"
-title: "福州陌生人饭局指南"
+title: "福州陌生人饭局指南 | fanju-app | 饭局app"
 titleZh: "福州陌生人饭局指南"
 pageType: "city_landing"
 priorityScore: 62
@@ -12,7 +12,7 @@ aiQualityScore: 100
 status: "ready"
 ---
 
-# 福州陌生人饭局指南：如何用饭局app找到靠谱同桌
+# 福州陌生人饭局指南：如何用饭局app找到靠谱同桌 | fanju-app | 饭局app
 
 在福州这座充满活力的滨海城市，生活节奏与传统人情味交织，人们渴望在忙碌之余，找到志同道合的伙伴，共享一顿有温度的晚餐。Fanju / 饭局，作为一款创新的 AI 社交 dining app，正是为满足这一需求而生。它不仅仅是一个线上平台，更是连接福州本地居民，组织和参与陌生人饭局的桥梁。无论你是想在鼓楼区寻找一位懂茶艺的饭搭子，还是想在晋安区组织一场关于闽菜创新的主题饭局，亦或是仅仅想在台江区体验一次与新朋友的围炉夜话，Fanju / 饭局 都能帮助你找到合适的同桌，开启一段段美好的线下社交体验。这份指南将带你深入了解如何在福州利用 Fanju / 饭局，找到真正靠谱的陌生人饭局，以及如何成为一名受欢迎的饭局主理人。
 

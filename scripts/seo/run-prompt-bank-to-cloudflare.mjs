@@ -1000,7 +1000,7 @@ function zhLatinCityAliasHits(prompt, value = "") {
 }
 
 function latinNoiseInZhHeading(value = "", topicSlug = "") {
-  const allowed = new Set(["fanju", "app", "ai", "vc", "ceo", "cfo", "cto", "coo", "mba", "pm", "ip", "bd"])
+  const allowed = new Set(["fanju", "app", "fanju-app", "ai", "vc", "ceo", "cfo", "cto", "coo", "mba", "pm", "ip", "bd"])
   for (const w of topicAllowedWords(topicSlug)) allowed.add(w)
   return [...String(value || "").matchAll(/[A-Za-z][A-Za-z-]{2,}/g)]
     .map((m) => m[0].toLowerCase())

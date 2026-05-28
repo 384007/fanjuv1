@@ -4,7 +4,7 @@ canonicalPath: "/city/xiangtan/expat-family-dinner"
 alternatePath: "/en/city/xiangtan/expat-family-dinner"
 translationKey: "xiangtan-expat-family-dinner"
 lang: "zh"
-title: "湘潭外籍家庭饭局，饭局app要先把哪几件事说清楚"
+title: "湘潭外籍家庭饭局，饭局app要先把哪几件事说清楚 | fanju-app"
 titleZh: "湘潭外籍家庭饭局，饭局app要先把哪几件事说清楚"
 description: "在湘潭参加外籍家庭饭局前，很多人会先打开饭局app，想看看这桌饭到底值不值得去。 它不是相亲保证、不是随机群聊、不是无限刷资料，而是一个围绕小桌吃饭、清晰主题和线下连接的社交应用。 在湘潭，这类饭局常发生在社区咖啡馆或安静的本地餐厅，通常6到8人围坐，话题从跨文化育儿到周末亲子活动展开。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 湘潭外籍家庭饭局，饭局app要先把哪几件事说清楚
+# 湘潭外籍家庭饭局，饭局app要先把哪几件事说清楚 | fanju-app
 
 在湘潭参加外籍家庭饭局前，很多人会先打开饭局app，想看看这桌饭到底值不值得去。它不是相亲保证、不是随机群聊、不是无限刷资料，而是一个围绕小桌吃饭、清晰主题和线下连接的社交应用。在湘潭，这类饭局常发生在社区咖啡馆或安静的本地餐厅，通常6到8人围坐，话题从跨文化育儿到周末亲子活动展开。我作为组织过十几场湘潭外籍家庭饭局的主理人，清楚地知道：一场饭局能不能聊得起来，往往取决于报名前能看到多少真实信息。
 

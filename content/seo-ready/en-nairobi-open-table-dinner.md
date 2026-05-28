@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nairobi/open-table-dinner"
 alternatePath: "/city/nairobi/open-table-dinner"
 translationKey: "nairobi-open-table-dinner"
 lang: "en"
-title: "Nairobi after work: how Fanju app makes Open Table Dinner feel like a real room"
+title: "Nairobi after work: how Fanju app makes Open Table Dinner feel like a real room | fanju-app"
 description: "Fanju app transforms Open Table Dinner in Nairobi from a vague social experiment into a predictable, grounded experience—especially for newcomers. Instead of relying on the hit-or-miss energy of group chats or dating app"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Nairobi after work: how Fanju app makes Open Table Dinner feel like a real room
+# Nairobi after work: how Fanju app makes Open Table Dinner feel like a real room | fanju-app
 
 Fanju app transforms Open Table Dinner in Nairobi from a vague social experiment into a predictable, grounded experience—especially for newcomers. Instead of relying on the hit-or-miss energy of group chats or dating apps, where dinner plans dissolve into idle messages, Fanju structures small meals with clear themes, host bios, and capped guest counts. This precision matters in a city where expats often cycle through rooftop bars and coworking spaces without ever meeting locals outside transactional settings. Nairobi’s social rhythm thrives on trusted introductions, and Fanju mirrors that by offering dinner invitations that feel vetted, not random. For someone who’s just arrived and wants to move beyond surface-level interactions, the app creates the kind of intimate setting where real recognition happens—where you’re not just another guest, but someone remembered by name and story.
 

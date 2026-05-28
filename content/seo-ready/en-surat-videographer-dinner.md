@@ -4,7 +4,7 @@ canonicalPath: "/en/city/surat/videographer-dinner"
 alternatePath: "/city/surat/videographer-dinner"
 translationKey: "surat-videographer-dinner"
 lang: "en"
-title: "In Surat, Fanju app turns Videographer Dinner into a table people can actually trust"
+title: "In Surat, Fanju app turns Videographer Dinner into a table people can actually trust | fanju-app"
 description: "When a remote worker in Surat receives a dinner invite, the reflex is often to delay. Not because they’re disinterested, but because past experiences have taught them that vague plans dissolve."
 primaryKeyword: "Surat Videographer Dinner"
 secondaryKeywords: "Surat social dining|Videographer dinner group|dinner buddy app|Fanju app|small-table dinner in Surat"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
 ---
 
-# In Surat, Fanju app turns Videographer Dinner into a table people can actually trust
+# In Surat, Fanju app turns Videographer Dinner into a table people can actually trust | fanju-app
 
 Small tables in Surat don’t start with speeches. They start with how people place their bags—whether they tuck them under the chair or sling them across the seat, claiming space. At a recent Videographer Dinner near the Adajan area, the host arrived early, arranging cloth napkins just as the first guest hesitated at the doorway. That ten-minute window—when the first two strangers exchange names and the third arrives late with a tripod case—already sets the tone. Fanju app doesn’t promise connections, but it changes the odds by making the conditions clear. For remote workers in Surat, where days blur between home and coffee shops, a dinner like this isn’t about networking. It’s about finding a rhythm that feels earned, not forced, and knowing that the table won’t turn into another half-committed group chat.
 

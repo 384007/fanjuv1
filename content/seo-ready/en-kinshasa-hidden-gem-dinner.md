@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kinshasa/hidden-gem-dinner"
 alternatePath: "/city/kinshasa/hidden-gem-dinner"
 translationKey: "kinshasa-hidden-gem-dinner"
 lang: "en"
-title: "Why Hidden Gem Dinner in Kinshasa works better when Fanju app keeps the table small"
+title: "Why Hidden Gem Dinner in Kinshasa works better when Fanju app keeps the table small | fanju-app"
 description: "This clarity is crucial. When I'm traveling alone in a city like Kinshasa, I'm looking for experiences that feel welcoming and manageable. A \"hidden gem dinner\" advertised through Fanju means I know the number of people"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Hidden Gem Dinner in Kinshasa works better when Fanju app keeps the table small
+# Why Hidden Gem Dinner in Kinshasa works better when Fanju app keeps the table small | fanju-app
 For the solo traveler navigating Kinshasa, the prospect of an evening meal can feel daunting. Finding a place to eat is one thing, but finding a genuine connection or a memorable experience can be another. This is where the Fanju app's approach to "Hidden Gem Dinner" in Kinshasa offers a refined solution. It focuses on creating intimate, curated dining experiences, ensuring that for someone passing through alone, the evening is about discovery, not isolation. The app's emphasis on small, intentional gatherings transforms a potentially solitary meal into an opportunity for shared discovery.
 
 ## The first-message moment in Kinshasa should not become another loose invite

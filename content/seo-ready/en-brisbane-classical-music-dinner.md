@@ -4,7 +4,7 @@ canonicalPath: "/en/city/brisbane/classical-music-dinner"
 alternatePath: "/city/brisbane/classical-music-dinner"
 translationKey: "brisbane-classical-music-dinner"
 lang: "en"
-title: "A calmer way to approach Classical Music Dinner in Brisbane through Fanju app"
+title: "A calmer way to approach Classical Music Dinner in Brisbane through Fanju app | fanju-app"
 description: "For remote workers in Brisbane, the workday can dissolve into silence — headphones on, screens glowing, and no one to share a coffee break with. The Fanju app helps fill that quiet with something steady: a weekly Classic"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach Classical Music Dinner in Brisbane through Fanju app
+# A calmer way to approach Classical Music Dinner in Brisbane through Fanju app | fanju-app
 
 For remote workers in Brisbane, the workday can dissolve into silence — headphones on, screens glowing, and no one to share a coffee break with. The Fanju app helps fill that quiet with something steady: a weekly Classical Music Dinner that’s not about performance, but presence. It’s designed for people who want to step out of their apartment or home office and into a room where conversation flows as naturally as a Schubert string quartet. These dinners aren’t grand galas; they’re intimate, recurring gatherings in homes across suburbs like New Farm, Paddington, and West End, where the only requirement is that you listen — to music, and to each other. Through the Fanju app, Brisbane locals find a social rhythm that doesn’t demand extroversion, just willingness to show up.
 

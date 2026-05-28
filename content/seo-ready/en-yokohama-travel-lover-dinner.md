@@ -4,7 +4,7 @@ canonicalPath: "/en/city/yokohama/travel-lover-dinner"
 alternatePath: "/city/yokohama/travel-lover-dinner"
 translationKey: "yokohama-travel-lover-dinner"
 lang: "en"
-title: "Yokohama strangers sit down easier when Fanju app frames the Travel Lover Dinner table first"
+title: "Yokohama strangers sit down easier when Fanju app frames the Travel Lover Dinner table first | fanju-app"
 description: "Most social invitations in Yokohama blur into the background: “Let’s grab dinner sometime,” “You should come out,” or “We should all meet up. ” These phrases hang in the air, never landing on a date or place."
 primaryKeyword: "Yokohama Travel Lover Dinner"
 secondaryKeywords: "Yokohama social dining|Travel Lover dinner group|dinner buddy app|Fanju app|small-table dinner in Yokohama"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T210005Z"
 ---
 
-# Yokohama strangers sit down easier when Fanju app frames the Travel Lover Dinner table first
+# Yokohama strangers sit down easier when Fanju app frames the Travel Lover Dinner table first | fanju-app
 
 The Fanju app helps people in Yokohama find small, intentional dinners where the goal isn’t just food, but conversation with new people who also value travel and real connection. One such gathering is the Travel Lover Dinner, a recurring table that brings together remote workers, long-term visitors, and locals with itineraries still in motion. Unlike vague after-work drinks or crowded meetups, these dinners state their purpose upfront: to talk about places seen, places planned, and the quiet joys of navigating life between cities. The table size stays small—four to six guests—so there’s no pressure to perform, only to participate. In a city where many live near the water but rarely cross paths beyond commute routes, Fanju offers a way to anchor socially without overcommitting. 
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/atlanta/archery-dinner"
 alternatePath: "/city/atlanta/archery-dinner"
 translationKey: "atlanta-archery-dinner"
 lang: "en"
-title: "Atlanta does not need another vague invite; Fanju app makes Archery Dinner specific"
+title: "Atlanta does not need another vague invite; Fanju app makes Archery Dinner specific | fanju-app"
 description: "Atlanta’s sprawl of highways, neighborhoods, and shifting routines can make connection feel like a game of chance. It’s easy to live here for years and still eat dinner alone in your apartment, scrolling past photos of p"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Atlanta does not need another vague invite; Fanju app makes Archery Dinner specific
+# Atlanta does not need another vague invite; Fanju app makes Archery Dinner specific | fanju-app
 
 Atlanta’s sprawl of highways, neighborhoods, and shifting routines can make connection feel like a game of chance. It’s easy to live here for years and still eat dinner alone in your apartment, scrolling past photos of people you once met at a work event or a concert at Piedmont Park. The Fanju app changes that calculation not by promising grand social transformations, but by making one dinner—specific, small, and real—possible. Archery Dinner in Atlanta is not about rebranding loneliness. It’s about placing a named seat at a real table, where the only expectation is showing up as you are. The city has enough “we should grab dinner sometime” messages that never land. Fanju app replaces those with a time, a place, and a host who’s already bought the bow and arrow rental for the evening.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/perth/hospitality-dinner"
 alternatePath: "/city/perth/hospitality-dinner"
 translationKey: "perth-hospitality-dinner"
 lang: "en"
-title: "Hospitality Dinner in Perth should not feel like a gamble; Fanju app changes the odds"
+title: "Hospitality Dinner in Perth should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "That initial invitation, the RSVP, the anticipation – these are all part of the build-up. But the true litmus test for a successful hospitality dinner in Perth, especially one you've found as a newcomer, often happens af"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Hospitality Dinner in Perth should not feel like a gamble; Fanju app changes the odds
+# Hospitality Dinner in Perth should not feel like a gamble; Fanju app changes the odds | fanju-app
 Moving to Perth is a big step, and finding your footing can feel like navigating a new map. You’ve settled into your new place, maybe even figured out the best route to the shops in Subiaco. But the real test of feeling at home often comes down to connection, and that’s where the idea of a genuine ‘hospitality dinner’ in Perth can be both alluring and a little daunting. It’s not about a quick drink at The Camfield or a fleeting chat at a large event. It’s about sharing a meal, a conversation, and a moment of authentic local welcome. The Fanju app promises to make these experiences less like a lottery and more like a curated introduction to the city’s warm side, especially for those new to the West Australian way of life.
 
 ## The second-dinner possibility moment is when Hospitality Dinner in Perth either works or falls apart

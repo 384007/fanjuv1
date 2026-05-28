@@ -4,7 +4,7 @@ canonicalPath: "/en/city/cape-town/baking-dinner"
 alternatePath: "/city/cape-town/baking-dinner"
 translationKey: "cape-town-baking-dinner"
 lang: "en"
-title: "Why Baking Dinner in Cape Town works better when Fanju app keeps the table small"
+title: "Why Baking Dinner in Cape Town works better when Fanju app keeps the table small | fanju-app"
 description: "Baking Dinner in Cape Town isn’t about grand gestures or crowded kitchens. It’s the quiet moment when someone pulls a loaf from the oven at a shared table in Woodstock, and someone else, new to the city, finally feels se"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Baking Dinner in Cape Town works better when Fanju app keeps the table small
+# Why Baking Dinner in Cape Town works better when Fanju app keeps the table small | fanju-app
 
 Baking Dinner in Cape Town isn’t about grand gestures or crowded kitchens. It’s the quiet moment when someone pulls a loaf from the oven at a shared table in Woodstock, and someone else, new to the city, finally feels seen. The Fanju app supports this by limiting table size, creating space where trust isn’t assumed but built—through real names, public venues, and host accountability. In a city where plans often dissolve into Cape Town chaos—last-minute cancellations, vague meetups at popular cafes, or group chats that never settle on a time—Fanju’s structure makes it possible to actually show up and stay. That consistency is what turns an idea into a real evening.
 

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/yokohama/networking-dinner"
 alternatePath: "/city/yokohama/networking-dinner"
-title: "Yokohama Networking Dinner Guide: Building Connections One Table at a Time"
+title: "Yokohama Networking Dinner Guide: Building Connections One Table at a Time | fanju-app | 饭局app"
 description: "Discover how the Fanju app fosters genuine connections through intimate networking dinners in Yokohama. This guide explores how these small gatherings, facilitated by the Fanju app, serve as the foundational units for building a vibrant city community. Learn how repeat attendees, shared interests, and a focus on local neighbourhoods contribute to a growing social fabric, transforming casual encounters into lasting friendships and professional relationships within Yokohama."
 recoveredFromD1: true
 ---
@@ -37,3 +37,9 @@ recoveredFromD1: true
 <h3>How can I contribute to the community-building aspect of a Fanju dinner?</h3>
 <p>Contributing to the community-building aspect of a Fanju dinner is about being an engaged and considerate participant. Be present and attentive during conversations, actively listen to others, and share your own thoughts and experiences openly. Ask thoughtful questions that encourage deeper discussion and show genuine interest in your fellow attendees. Be mindful of the group dynamic, helping to include quieter members and ensuring the conversation remains balanced. Following up with people you connected with, perhaps suggesting another gathering or sharing relevant information, further strengthens the bonds formed. Your positive attitude and willingness to connect are the most valuable contributions you can make.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

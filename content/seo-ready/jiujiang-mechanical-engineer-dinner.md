@@ -4,7 +4,7 @@ canonicalPath: "/city/jiujiang/mechanical-engineer-dinner"
 alternatePath: "/en/city/jiujiang/mechanical-engineer-dinner"
 translationKey: "jiujiang-mechanical-engineer-dinner"
 lang: "zh"
-title: "九江机械工程师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "九江机械工程师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "九江机械工程师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "九江的机械工程师们在选择饭局app时，需要考虑到这些边界因素。例如，选择一个主题明确的饭局，可以让参与者更好地了解到饭局的内容和目的。同时，选择一个时间和地点合适的饭局，也可以让参与者更容易地参加。这些边界的设定，可以让九江的机械工程师们更"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 九江机械工程师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 九江机械工程师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 九江机械工程师饭局的兴起，让人们开始关注这个城市的美食文化。然而，选择一家好的饭局app对于九江的机械工程师来说至关重要。饭局app作为一个连接点，能够让九江的机械工程师们更容易地找到志同道合的朋友，一起享受美食和交流。九江作为一个历史悠久的城市，拥有丰富的美食资源，选择合适的饭局app可以让你更好地体验这个城市的风味。
 
 ## 同桌名单出现前提醒九江：这桌饭要先有边界

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/cape-town/private-equity-dinner"
 alternatePath: "/city/cape-town/private-equity-dinner"
 translationKey: "cape-town-private-equity-dinner"
 lang: "en"
-title: "Why Private Equity Dinner in Cape Town works better when Fanju app keeps the table small"
+title: "Why Private Equity Dinner in Cape Town works better when Fanju app keeps the table small | fanju-app"
 description: "Private Equity Dinner in Cape Town isn’t about closing deals over dessert or networking like it’s a second job. It’s about filling the quiet gap after work with something real—conversation that doesn’t feel transactional"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Private Equity Dinner in Cape Town works better when Fanju app keeps the table small
+# Why Private Equity Dinner in Cape Town works better when Fanju app keeps the table small | fanju-app
 
 Private Equity Dinner in Cape Town isn’t about closing deals over dessert or networking like it’s a second job. It’s about filling the quiet gap after work with something real—conversation that doesn’t feel transactional, in a city where the ocean hums in the background and the pace slows just enough by Friday evening. The Fanju app supports this by limiting table size, which changes everything: fewer people mean less performance, more listening, and space for the kind of exchange that happens when no one is scanning the room for their next opportunity. That constraint—small tables—isn’t a limitation. It’s the foundation.
 

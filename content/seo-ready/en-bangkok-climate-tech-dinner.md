@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangkok/climate-tech-dinner"
 alternatePath: "/city/bangkok/climate-tech-dinner"
 translationKey: "bangkok-climate-tech-dinner"
 lang: "en"
-title: "What makes Climate Tech Dinner in Bangkok worth the risk; Fanju app answers before you arrive"
+title: "What makes Climate Tech Dinner in Bangkok worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "Climate Tech Dinner in Bangkok is not about romance, investor pitches, or networking badges. It’s about showing up to a table where people talk like humans, not profiles. The city’s humidity clings to everything — from t"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# What makes Climate Tech Dinner in Bangkok worth the risk; Fanju app answers before you arrive
+# What makes Climate Tech Dinner in Bangkok worth the risk; Fanju app answers before you arrive | fanju-app
 
 Climate Tech Dinner in Bangkok is not about romance, investor pitches, or networking badges. It’s about showing up to a table where people talk like humans, not profiles. The city’s humidity clings to everything — from the BTS platforms at Asok to the quiet alleys near Thonglor — and so does the pressure to perform in social settings. But through the Fanju app, a growing number of locals and expats are finding dinners that skip the small talk and go straight to substance. The app doesn’t promise connections. It promises clarity: who’s attending, what they care about, and whether the host has run these dinners before. That small shift changes everything. In a city where dinner plans often dissolve into last-minute cancellations or awkward silences, Fanju filters out the noise before you even leave your apartment.
 

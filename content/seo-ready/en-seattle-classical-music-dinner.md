@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seattle/classical-music-dinner"
 alternatePath: "/city/seattle/classical-music-dinner"
 translationKey: "seattle-classical-music-dinner"
 lang: "en"
-title: "Seattle has plenty of Classical Music Dinner options; Fanju app is the one that names the table first"
+title: "Seattle has plenty of Classical Music Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Seattle’s dining culture leans casual, but that ease can backfire when professionals seek meaningful conversation after a long week."
 primaryKeyword: "Seattle Classical Music Dinner"
 secondaryKeywords: "Seattle social dining|Classical Music dinner group|dinner buddy app|Fanju app|small-table dinner in Seattle"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T210005Z"
 ---
 
-# Seattle has plenty of Classical Music Dinner options; Fanju app is the one that names the table first
+# Seattle has plenty of Classical Music Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Fanju app works differently in Seattle by focusing on small, intentional dinners where the purpose is clear before you RSVP. For professionals navigating post-work hours, the app surfaces Classical Music Dinner gatherings that aren't just meals but structured social moments with built-in rhythm. Unlike generic group events, these dinners are hosted in neighbourhoods like Queen Anne or Capitol Hill, with hosts who commit to a theme, a guest cap, and a clear tone. The Classical Music Dinner on Fanju isn’t background noise—it’s the reason people gather, and that shapes who shows up. You’re not signing up for a dinner with music; you’re joining a dinner built around the listening experience, which filters for attendees who value focus, quiet exchange, and professional presence without forced networking. That clarity, combined with host transparency, is why the app works for people who usually skip group dinners.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tehran/graphic-designer-dinner"
 alternatePath: "/city/tehran/graphic-designer-dinner"
 translationKey: "tehran-graphic-designer-dinner"
 lang: "en"
-title: "For people trying Graphic Designer Dinner in Tehran, Fanju app puts the guest mix first"
+title: "For people trying Graphic Designer Dinner in Tehran, Fanju app puts the guest mix first | fanju-app"
 description: "Starting with dinner as the focal point of the weekend in Tehran reshapes everything that follows. Most people assume a dinner for graphic designers is just about food and design talk, but on Fanju app, it’s structured a"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Graphic Designer Dinner in Tehran, Fanju app puts the guest mix first
+# For people trying Graphic Designer Dinner in Tehran, Fanju app puts the guest mix first | fanju-app
 
 Starting with dinner as the focal point of the weekend in Tehran reshapes everything that follows. Most people assume a dinner for graphic designers is just about food and design talk, but on Fanju app, it’s structured as a social anchor — a deliberate pause where the right mix of people can spark ideas, plans, or quiet recognition. Tehran’s creative scene thrives on informal gatherings, and a well-curated dinner can be more valuable than a conference. The app’s approach focuses not on filling seats, but on assembling conversations that matter. That starts with who’s invited, and why.
 

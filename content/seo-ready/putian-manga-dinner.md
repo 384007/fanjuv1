@@ -4,7 +4,7 @@ canonicalPath: "/city/putian/manga-dinner"
 alternatePath: "/en/city/putian/manga-dinner"
 translationKey: "putian-manga-dinner"
 lang: "zh"
-title: "在莆田把漫画饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在莆田把漫画饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在莆田把漫画饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "面对莆田琳琅满目的漫画饭局选项，找到真正适合自己的那一桌，关键在于“说清楚”。这不仅仅是关于饭局的主题，更重要的是主理人如何清晰地描绘出饭局的边界和预期。一桌好的漫画饭局，应该在邀请函中就告诉你，这顿饭会聊什么，大概会有几个人，以及大家期待"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
 ---
 
-# 在莆田把漫画饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在莆田把漫画饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 来到莆田，下班后不想直接回家的一个晚上，你可能会想找点不一样的事情做。饭局app提供了一个平台，让你可以在熟悉或陌生的城市里，通过一场精心设计的小桌漫画饭局，找到新的连接。这里的“漫画饭局”并非指在餐桌上谈论漫画，而是它所代表的一种轻松、有趣、有主题的社交方式，就像漫画一样，用简洁的线条勾勒出有趣的场景和人物关系。在莆田，如何选择一桌靠谱的漫画饭局，避免那些可能出现的尴尬，是大家报名之前最关心的问题。
 

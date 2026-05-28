@@ -4,7 +4,7 @@ canonicalPath: "/city/sanming/japanese-learner-dinner"
 alternatePath: "/en/city/sanming/japanese-learner-dinner"
 translationKey: "sanming-japanese-learner-dinner"
 lang: "zh"
-title: "三明的日语学习者饭局不该靠运气，饭局app把主理人和同桌放在最前面"
+title: "三明的日语学习者饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app"
 titleZh: "三明的日语学习者饭局不该靠运气，饭局app把主理人和同桌放在最前面"
 description: "刚搬到一个新城市，尤其像三明这样，初来乍到难免有些生疏。在陌生的街区里，想找到志同道合的朋友，分享学习日语的乐趣，往往需要一些契机。饭局app的出现，正是为了解决这个问题，它致力于连接那些渴望真实社交体验的人，将有共同兴趣的“主理人”和“同"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 三明的日语学习者饭局不该靠运气，饭局app把主理人和同桌放在最前面
+# 三明的日语学习者饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 
 刚搬到一个新城市，尤其像三明这样，初来乍到难免有些生疏。在陌生的街区里，想找到志同道合的朋友，分享学习日语的乐趣，往往需要一些契机。饭局app的出现，正是为了解决这个问题，它致力于连接那些渴望真实社交体验的人，将有共同兴趣的“主理人”和“同桌”放在一起，让每一次相遇都充满可能。尤其对于日语学习者而言，找到一个能安心练习口语、交流学习心得的环境尤为重要。饭局app在三明，为日语学习者提供了一个绕开社交盲区的桥梁，让每一次饭局都成为一次有意义的连接。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/milan/museum-lover-dinner"
 alternatePath: "/city/milan/museum-lover-dinner"
 translationKey: "milan-museum-lover-dinner"
 lang: "en"
-title: "Milan museum lover dinner for design-minded social dining - Fanju app"
+title: "Milan museum lover dinner for design-minded social dining - Fanju app | fanju-app"
 description: "Fanju app helps people join a Milan museum lover dinner through small-table social dining around art, design, galleries, public venues, guest fit, and clear expectations."
 primaryKeyword: "Milan museum lover dinner"
 secondaryKeywords: "cultural dinner Milan|Fanju app|small-table dinner|social dining Milan|museum lover dinner"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
 ---
 
-# Milan museum lover dinner on Fanju app for culture after the gallery
+# Milan museum lover dinner on Fanju app for culture after the gallery | fanju-app
 
 A Milan museum lover dinner on Fanju app is a small-table dinner for people who want to keep talking after art, design, galleries, and museum visits. It is not a tour group or a generic meetup. The table should be public, clearly hosted, limited in size, and focused on conversation that feels human rather than performative.
 

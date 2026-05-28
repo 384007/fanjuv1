@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kolkata/hosted-table"
 alternatePath: "/city/kolkata/hosted-table"
 translationKey: "kolkata-hosted-table"
 lang: "en"
-title: "In Kolkata, Fanju app turns Hosted Table into a table people can actually trust"
+title: "In Kolkata, Fanju app turns Hosted Table into a table people can actually trust | fanju-app"
 description: "The Fanju app in Kolkata connects people through small, thoughtfully hosted dinners where the food is specific, the setting is real, and the conversation isn’t forced. It’s not about large meetups or vague “cultural exch"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# In Kolkata, Fanju app turns Hosted Table into a table people can actually trust
+# In Kolkata, Fanju app turns Hosted Table into a table people can actually trust | fanju-app
 
 The Fanju app in Kolkata connects people through small, thoughtfully hosted dinners where the food is specific, the setting is real, and the conversation isn’t forced. It’s not about large meetups or vague “cultural exchange” promises. Instead, it focuses on meals that reflect how people actually eat in the city—homemade rui cooked in mustard oil, chaat from a lane near College Street, or a quiet plate of mishti doi after work. The app sets clear expectations: hosts describe exactly what’s being served, where, and who they’d like to join. This precision cuts through the noise of generic social apps and helps users avoid awkward, mismatched gatherings. In a city where food defines rhythm and relationships, Fanju offers a way to experience Kolkata beyond tourist menus or algorithm-driven recommendations.
 

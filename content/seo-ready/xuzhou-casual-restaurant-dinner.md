@@ -4,7 +4,7 @@ canonicalPath: "/city/xuzhou/casual-restaurant-dinner"
 alternatePath: "/en/city/xuzhou/casual-restaurant-dinner"
 translationKey: "xuzhou-casual-restaurant-dinner"
 lang: "zh"
-title: "在徐州把轻松餐厅饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在徐州把轻松餐厅饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在徐州把轻松餐厅饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "在徐州，一天工作结束后的三小时，常被默认交给外卖盒饭、地铁沉默或通勤路上的短视频。但有些人开始尝试另一种收尾方式——打开饭局app，找一桌人数不多、主题清晰、主理人有话说的餐厅饭局。饭局app不是约饭平台，也不是单纯的美食推荐，它更像一个筛"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在徐州把轻松餐厅饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在徐州把轻松餐厅饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 在徐州，一天工作结束后的三小时，常被默认交给外卖盒饭、地铁沉默或通勤路上的短视频。但有些人开始尝试另一种收尾方式——打开饭局app，找一桌人数不多、主题清晰、主理人有话说的餐厅饭局。饭局app不是约饭平台，也不是单纯的美食推荐，它更像一个筛选器，把那些真正愿意在饭桌上交换真实生活片段的人，从泛泛的社交池里轻轻托出来。在徐州这座节奏分明、人情不浮不躁的城市里，这种饭局尤其容易落地生根。它不追求热闹，也不强求关系升温，只是让“不再独自回家”这件事，变得具体而可进入。
 

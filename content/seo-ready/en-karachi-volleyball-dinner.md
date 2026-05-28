@@ -4,7 +4,7 @@ canonicalPath: "/en/city/karachi/volleyball-dinner"
 alternatePath: "/city/karachi/volleyball-dinner"
 translationKey: "karachi-volleyball-dinner"
 lang: "en"
-title: "Karachi after work: how Fanju app makes Volleyball Dinner feel like a real room"
+title: "Karachi after work: how Fanju app makes Volleyball Dinner feel like a real room | fanju-app"
 description: "In Karachi, the gap between finishing work and actually connecting with someone can stretch long and quiet. The Fanju app quietly fills that space—not with noise, but with shape. It turns the vague idea of “maybe dinner"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Karachi after work: how Fanju app makes Volleyball Dinner feel like a real room
+# Karachi after work: how Fanju app makes Volleyball Dinner feel like a real room | fanju-app
 
 In Karachi, the gap between finishing work and actually connecting with someone can stretch long and quiet. The Fanju app quietly fills that space—not with noise, but with shape. It turns the vague idea of “maybe dinner after the match” into a named table, a confirmed time, and a group of six to twelve people who’ve agreed to show up. Volleyball Dinner, as it’s come to be known in certain circles, isn’t just about food or sport. It’s about restoring rhythm to evenings that usually dissolve into traffic, screens, or silence. The app doesn’t automate the night; it simply gives it a place to land.
 

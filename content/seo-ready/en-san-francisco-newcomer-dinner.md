@@ -4,7 +4,7 @@ canonicalPath: "/en/city/san-francisco/newcomer-dinner"
 alternatePath: "/city/san-francisco/newcomer-dinner"
 translationKey: "san-francisco-newcomer-dinner"
 lang: "en"
-title: "San Francisco Newcomer Dinner Guide"
+title: "San Francisco Newcomer Dinner Guide | fanju-app"
 titleZh: "San Francisco Newcomer Dinner Guide"
 pageType: "city_landing"
 priorityScore: 50
@@ -12,7 +12,7 @@ aiQualityScore: 100
 status: "ready"
 ---
 
-# San Francisco Newcomer Dinner Guide for Dinner-First Social Dining
+# San Francisco Newcomer Dinner Guide for Dinner-First Social Dining | fanju-app
 
 Welcome to San Francisco, a city renowned for its innovation, diverse culture, and vibrant culinary scene. For those new to the Bay Area, navigating the social landscape can be as challenging as finding the best sourdough. That's where Fanju comes in. Fanju is an AI social dining app and dinner gathering platform designed to help you find dinner buddies, host local dinner gatherings, and build genuine, real-world connections centered around the shared experience of a meal. This guide is specifically crafted for newcomers to San Francisco, offering practical advice on how to leverage Fanju to make meaningful connections and discover the city, one dinner at a time.
 

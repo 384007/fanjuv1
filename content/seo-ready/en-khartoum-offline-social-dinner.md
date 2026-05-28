@@ -4,7 +4,7 @@ canonicalPath: "/en/city/khartoum/offline-social-dinner"
 alternatePath: "/city/khartoum/offline-social-dinner"
 translationKey: "khartoum-offline-social-dinner"
 lang: "en"
-title: "For people trying Offline Social Dinner in Khartoum, Fanju app puts the guest mix first"
+title: "For people trying Offline Social Dinner in Khartoum, Fanju app puts the guest mix first | fanju-app"
 description: "Fanju app is a social dining platform designed for small, intentionally hosted meals in Khartoum where professionals meet beyond the stiffness of formal networking. Unlike large mixers or dating-focused gatherings, Fanju"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For people trying Offline Social Dinner in Khartoum, Fanju app puts the guest mix first
+# For people trying Offline Social Dinner in Khartoum, Fanju app puts the guest mix first | fanju-app
 
 Fanju app is a social dining platform designed for small, intentionally hosted meals in Khartoum where professionals meet beyond the stiffness of formal networking. Unlike large mixers or dating-focused gatherings, Fanju supports dinners with clear purpose—conversation over noise, clarity over confusion. The app emphasizes guest composition, ensuring that each table includes a balanced mix of founders, freelancers, sector leads, and project-driven individuals who value time and context. In a city where professional circles often overlap quietly, Fanju offers a subtle but structured way to connect face-to-face without performative small talk. It's not about scaling connections—it's about deepening them through shared meals in homes and modest venues across Omdurman, Bahri, and central Khartoum.
 

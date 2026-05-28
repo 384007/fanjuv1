@@ -4,7 +4,7 @@ canonicalPath: "/en/city/doha/translator-dinner"
 alternatePath: "/city/doha/translator-dinner"
 translationKey: "doha-translator-dinner"
 lang: "en"
-title: "Doha after work: how Fanju app makes Translator Dinner feel like a real room"
+title: "Doha after work: how Fanju app makes Translator Dinner feel like a real room | fanju-app"
 description: "After a long week at the office in Doha, the idea of socializing can feel like more work than rest—especially if you’re someone who needs calm to connect. The Fanju app offers a quiet alternative: the Translator Dinner,"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Doha after work: how Fanju app makes Translator Dinner feel like a real room
+# Doha after work: how Fanju app makes Translator Dinner feel like a real room | fanju-app
 
 After a long week at the office in Doha, the idea of socializing can feel like more work than rest—especially if you’re someone who needs calm to connect. The Fanju app offers a quiet alternative: the Translator Dinner, a small, pre-vetted gathering where conversation flows in multiple languages but the atmosphere stays grounded. No loud music, no pressure to perform, just a shared meal among people who’ve opted in with the same intention—to talk meaningfully without strain. In a city where expat circles can feel exclusive or fleeting, this structured format gives introverts a rare foothold: a dinner that feels less like networking and more like stepping into a room where you’re already understood. It’s not a meetup. It’s a table.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/copenhagen/vegan-dinner"
 alternatePath: "/city/copenhagen/vegan-dinner"
 translationKey: "copenhagen-vegan-dinner"
 lang: "en"
-title: "Copenhagen after work: how Fanju app makes Vegan Dinner feel like a real room"
+title: "Copenhagen after work: how Fanju app makes Vegan Dinner feel like a real room | fanju-app"
 description: "After a workday cycling through the gray light of late afternoon Copenhagen, the idea of dinner often dissolves into delivery apps or supermarket wraps. But on certain evenings, a small table is set in a borrowed kitchen"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Copenhagen after work: how Fanju app makes Vegan Dinner feel like a real room
+# Copenhagen after work: how Fanju app makes Vegan Dinner feel like a real room | fanju-app
 
 After a workday cycling through the gray light of late afternoon Copenhagen, the idea of dinner often dissolves into delivery apps or supermarket wraps. But on certain evenings, a small table is set in a borrowed kitchen or quiet café corner, where conversation begins before the food, and the menu is entirely plant-based, not as trend but as principle. This is a Fanju app Vegan Dinner — not a restaurant pop-up, not a mass meetup, but a private-table gathering where the host has already chosen the seats, the tone, and the intention. In a city where casual plans rarely deepen, Fanju offers something quieter: a named dinner, a known guest list, and a chance to eat without performance.
 

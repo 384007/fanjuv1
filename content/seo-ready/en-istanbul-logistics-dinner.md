@@ -4,7 +4,7 @@ canonicalPath: "/en/city/istanbul/logistics-dinner"
 alternatePath: "/city/istanbul/logistics-dinner"
 translationKey: "istanbul-logistics-dinner"
 lang: "en"
-title: "When Logistics Dinner in Istanbul needs more than a group chat, Fanju app starts with the table"
+title: "When Logistics Dinner in Istanbul needs more than a group chat, Fanju app starts with the table | fanju-app"
 description: "Istanbul Logistics Dinner through the Fanju app offers a structured way to share a meal with locals and newcomers who value clear themes and boundaries, not just casual hangouts."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# When Logistics Dinner in Istanbul needs more than a group chat, Fanju app starts with the table
+# When Logistics Dinner in Istanbul needs more than a group chat, Fanju app starts with the table | fanju-app
 
 Istanbul Logistics Dinner through the Fanju app offers a structured way to share a meal with locals and newcomers who value clear themes and boundaries, not just casual hangouts. This is not a dating guarantee, not a random group chat, not an endless profile feed. Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局,” and in Istanbul, it functions as a social dining app that prioritizes small-table dinner experiences with intentional conversation starters. For someone navigating post-work hours across districts like Kadıköy or Beşiktaş, the app helps locate dinners where logistics—timing, location, dietary limits—are confirmed upfront. The goal is connection without pressure, especially for those who’ve just arrived and want to understand the city beyond the tourist frame, one hosted meal at a time.
 

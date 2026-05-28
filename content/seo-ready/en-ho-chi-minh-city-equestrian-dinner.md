@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ho-chi-minh-city/equestrian-dinner"
 alternatePath: "/city/ho-chi-minh-city/equestrian-dinner"
 translationKey: "ho-chi-minh-city-equestrian-dinner"
 lang: "en"
-title: "For people trying Equestrian Dinner in Ho Chi Minh City, Fanju app puts the guest mix first"
+title: "For people trying Equestrian Dinner in Ho Chi Minh City, Fanju app puts the guest mix first | fanju-app"
 description: "If you're alone in Ho Chi Minh City after work and tired of scrolling through your phone at a corner café, the Fanju app offers a different rhythm—specifically for evenings like this. It doesn’t promise instant friendshi"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For people trying Equestrian Dinner in Ho Chi Minh City, Fanju app puts the guest mix first
+# For people trying Equestrian Dinner in Ho Chi Minh City, Fanju app puts the guest mix first | fanju-app
 
 If you're alone in Ho Chi Minh City after work and tired of scrolling through your phone at a corner café, the Fanju app offers a different rhythm—specifically for evenings like this. It doesn’t promise instant friendships or curated experiences, but it does structure something subtle: a shared dinner where no one is hosting and everyone belongs. Equestrian Dinner, as organized through Fanju, isn’t about horses or extravagance. The name is a metaphor for balance—between comfort and curiosity, between being a guest and being present. For solo travelers passing through District 1 or working remotely near Thao Dien, it’s a way to step out without the pressure of performance. The app’s role is quiet but essential: it curates the mix of guests so the evening doesn’t default into silence or small talk.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/ningde/blockchain-dinner"
 alternatePath: "/en/city/ningde/blockchain-dinner"
 translationKey: "ningde-blockchain-dinner"
 lang: "zh"
-title: "在宁德找到对的区块链饭局，饭局app先把这一桌说清楚"
+title: "在宁德找到对的区块链饭局，饭局app先把这一桌说清楚 | fanju-app"
 titleZh: "在宁德找到对的区块链饭局，饭局app先把这一桌说清楚"
 description: "宁德的生活节奏不快，但也不允许敷衍。这里的饭局很少是临时起意，更多是经过几天观察、犹豫、再确认才决定参加。你可能在饭局app上看到一场在塔南路上的小馆子举行的聚会，主题写着“区块链技术在本地农业溯源中的实际应用”，主理人是蕉城区一家合作社的"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在宁德找到对的区块链饭局，饭局app先把这一桌说清楚
+# 在宁德找到对的区块链饭局，饭局app先把这一桌说清楚 | fanju-app
 
 宁德的傍晚常有海风穿城而过，街边的灯光一盏盏亮起，写字楼里的人陆续走出，有人径直回家，有人在路口停下看手机。这时候打开饭局app，不是为了刷活动列表，而是想确认今晚那一桌人是不是真的在等你。在宁德，一场值得参加的区块链主题饭局，不在于讲了多少概念，而在于谁坐在你对面，用什么样的语气说起他正在做的尝试。饭局app在这里的作用，是让每一场饭局都像一次真实的本地见面，而不是一场信息搬运。它不推送热门话题，也不包装“大佬”，它只是把一桌人聚在宁德城里某个灯光柔和的餐厅里，让吃饭这件事重新成为连接的起点。
 

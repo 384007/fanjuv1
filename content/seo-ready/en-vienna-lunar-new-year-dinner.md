@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vienna/lunar-new-year-dinner"
 alternatePath: "/city/vienna/lunar-new-year-dinner"
 translationKey: "vienna-lunar-new-year-dinner"
 lang: "en"
-title: "Vienna after work: how Fanju app makes Lunar New Year Dinner feel like a real room"
+title: "Vienna after work: how Fanju app makes Lunar New Year Dinner feel like a real room | fanju-app"
 description: "In Vienna, where evenings often drift into quiet coffeehouse corners or quick supermarket meals after long workdays, finding a meaningful Lunar New Year Dinner can feel like searching for a private language in public spa"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Vienna after work: how Fanju app makes Lunar New Year Dinner feel like a real room
+# Vienna after work: how Fanju app makes Lunar New Year Dinner feel like a real room | fanju-app
 
 In Vienna, where evenings often drift into quiet coffeehouse corners or quick supermarket meals after long workdays, finding a meaningful Lunar New Year Dinner can feel like searching for a private language in public space. The Fanju app doesn’t promise celebration—it offers a different kind of entry: not to a party, but to a table where the food is chosen before the small talk begins. For those in the city’s scattered pockets of Chinese, East Asian, and curious Viennese communities, Fanju acts less like a social network and more like a quietly coordinated return to the principle that meals belong to preparation, not performance. The dinners aren’t staged; they’re hosted in apartments near Mariahilfer Straße, shared kitchens in Brigittenau, and back-room tables in Ottakring restaurants that usually serve kebabs or schnitzel. What matters is that the menu comes first—dumplings folded with cabbage from Naschmarkt, braised pork belly timed to release its fat just as the rice steams open—so the people follow the meal, not the other way around.
 

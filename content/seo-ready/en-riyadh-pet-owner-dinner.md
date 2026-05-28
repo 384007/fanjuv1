@@ -4,7 +4,7 @@ canonicalPath: "/en/city/riyadh/pet-owner-dinner"
 alternatePath: "/city/riyadh/pet-owner-dinner"
 translationKey: "riyadh-pet-owner-dinner"
 lang: "en"
-title: "Before the first message in Riyadh, Fanju app makes Pet Owner Dinner feel like a real decision"
+title: "Before the first message in Riyadh, Fanju app makes Pet Owner Dinner feel like a real decision | fanju-app"
 description: "In Riyadh, where social evenings often depend on who calls first or who’s free last-minute, the Pet Owner Dinner group on the Fanju app stands out by turning casual interest into a shared plan with intention. One message"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Before the first message in Riyadh, Fanju app makes Pet Owner Dinner feel like a real decision
+# Before the first message in Riyadh, Fanju app makes Pet Owner Dinner feel like a real decision | fanju-app
 
 In Riyadh, where social evenings often depend on who calls first or who’s free last-minute, the Pet Owner Dinner group on the Fanju app stands out by turning casual interest into a shared plan with intention. One message, sent through the app, can bring six to twelve pet owners to a private dining space in Al Olaya or near King Abdullah Financial District, not for networking or a party, but for a meal where dogs are discussed like family and cats get their own mention in conversation. The app doesn’t just connect people—it structures the unstructured, helping hosts in Riyadh define who the table is for before the first RSVP. This clarity changes how people arrive, what they expect, and whether they return.
 

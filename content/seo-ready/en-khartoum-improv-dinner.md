@@ -4,7 +4,7 @@ canonicalPath: "/en/city/khartoum/improv-dinner"
 alternatePath: "/city/khartoum/improv-dinner"
 translationKey: "khartoum-improv-dinner"
 lang: "en"
-title: "Khartoum does not need another vague invite; Fanju app makes Improv Dinner specific"
+title: "Khartoum does not need another vague invite; Fanju app makes Improv Dinner specific | fanju-app"
 description: "In Khartoum, where the Nile splits and city life often moves in parallel lines rather than intersections, it's easy to feel isolated even in a crowd. The Fanju app changes that quietly but effectively by turning the idea"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Khartoum does not need another vague invite; Fanju app makes Improv Dinner specific
+# Khartoum does not need another vague invite; Fanju app makes Improv Dinner specific | fanju-app
 
 In Khartoum, where the Nile splits and city life often moves in parallel lines rather than intersections, it's easy to feel isolated even in a crowd. The Fanju app changes that quietly but effectively by turning the idea of "maybe we should grab dinner sometime" into a scheduled, named table—what it calls an Improv Dinner. These are not events with themes or agendas, but small, intentional gatherings of three to five people who agree to meet for no reason other than shared presence. Loneliness isn’t always loud here; sometimes it’s the quiet accumulation of missed connections. Fanju doesn’t promise deep bonds overnight, but it does offer a structured way back to the rhythm of in-person conversation, starting with dinner.
 

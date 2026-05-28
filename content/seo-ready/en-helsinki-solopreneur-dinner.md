@@ -4,7 +4,7 @@ canonicalPath: "/en/city/helsinki/solopreneur-dinner"
 alternatePath: "/city/helsinki/solopreneur-dinner"
 translationKey: "helsinki-solopreneur-dinner"
 lang: "en"
-title: "The Solopreneur Dinner table Helsinki actually needs is the one Fanju app describes up front"
+title: "The Solopreneur Dinner table Helsinki actually needs is the one Fanju app describes up front | fanju-app"
 description: "Helsinki’s solopreneur scene thrives in quiet intensity—few grand gestures, but many late-night product tweaks, solo founder meetups that fizzle, and dinner invitations that never quite land with purpose. The Fanju app c"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# The Solopreneur Dinner table Helsinki actually needs is the one Fanju app describes up front
+# The Solopreneur Dinner table Helsinki actually needs is the one Fanju app describes up front | fanju-app
 
 Helsinki’s solopreneur scene thrives in quiet intensity—few grand gestures, but many late-night product tweaks, solo founder meetups that fizzle, and dinner invitations that never quite land with purpose. The Fanju app changes that by centering intention: a dinner here isn’t just another networking round, but a deliberate gathering shaped by who’s invited, where it’s held, and what’s expected. It begins not with a vague “Let’s connect,” but with a curated table where each guest brings a specific craft, a defined project, and a willingness to listen as much as speak. That shift—from casual to considered—is what makes a Solopreneur Dinner in Helsinki something more than background noise in an overbooked month.
 

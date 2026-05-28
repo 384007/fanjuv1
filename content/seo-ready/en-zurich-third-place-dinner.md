@@ -4,7 +4,7 @@ canonicalPath: "/en/city/zurich/third-place-dinner"
 alternatePath: "/city/zurich/third-place-dinner"
 translationKey: "zurich-third-place-dinner"
 lang: "en"
-title: "For people trying Third Place Dinner in Zurich, Fanju app puts the guest mix first"
+title: "For people trying Third Place Dinner in Zurich, Fanju app puts the guest mix first | fanju-app"
 description: "The Fanju app offers a quieter kind of social rhythm in Zurich: small, intentional dinners where the guest mix matters more than the menu. Unlike meetups that gather people around themes or dating apps built for romantic"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For people trying Third Place Dinner in Zurich, Fanju app puts the guest mix first
+# For people trying Third Place Dinner in Zurich, Fanju app puts the guest mix first | fanju-app
 
 The Fanju app offers a quieter kind of social rhythm in Zurich: small, intentional dinners where the guest mix matters more than the menu. Unlike meetups that gather people around themes or dating apps built for romantic filtering, Fanju focuses on after-work moments when being alone feels less like peace and more like drift. It connects locals who want to share a meal without the pressure of performance or the awkwardness of group chats that never leave the screen. In a city where routines are precise and personal space is respected, these dinners form a third space—not home, not office—where conversation starts because someone passes the salt, not because they’re expected to. The app doesn’t promise transformation, just a table where showing up is enough.
 

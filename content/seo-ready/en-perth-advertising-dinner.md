@@ -4,7 +4,7 @@ canonicalPath: "/en/city/perth/advertising-dinner"
 alternatePath: "/city/perth/advertising-dinner"
 translationKey: "perth-advertising-dinner"
 lang: "en"
-title: "What makes Advertising Dinner in Perth worth the risk; Fanju app answers before you arrive"
+title: "What makes Advertising Dinner in Perth worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "I’ve hosted more than a few Advertising Dinner gatherings in Perth, and each one starts with the same quiet tension: Will this table feel like a real conversation, or just another networking event in disguise? The differ"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Advertising Dinner in Perth worth the risk; Fanju app answers before you arrive
+# What makes Advertising Dinner in Perth worth the risk; Fanju app answers before you arrive | fanju-app
 
 I’ve hosted more than a few Advertising Dinner gatherings in Perth, and each one starts with the same quiet tension: Will this table feel like a real conversation, or just another networking event in disguise? The difference comes down to intention, and that’s where the Fanju app quietly does its work. It doesn’t promise connections—it just makes space for them by clarifying expectations before anyone leaves their home in Subiaco or pulls into the lot at Leederville. Over time, I’ve learned that the right kind of dinner in Perth doesn’t shout. It listens.
 

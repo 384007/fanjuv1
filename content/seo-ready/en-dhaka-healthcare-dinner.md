@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dhaka/healthcare-dinner"
 alternatePath: "/city/dhaka/healthcare-dinner"
 translationKey: "dhaka-healthcare-dinner"
 lang: "en"
-title: "For people trying Healthcare Dinner in Dhaka, Fanju app puts the guest mix first"
+title: "For people trying Healthcare Dinner in Dhaka, Fanju app puts the guest mix first | fanju-app"
 description: "In Dhaka, where social invitations often blur into unstructured gatherings, the Healthcare Dinner events organized through the Fanju app stand apart by focusing on intentional guest composition. For women navigating publ"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For people trying Healthcare Dinner in Dhaka, Fanju app puts the guest mix first
+# For people trying Healthcare Dinner in Dhaka, Fanju app puts the guest mix first | fanju-app
 
 In Dhaka, where social invitations often blur into unstructured gatherings, the Healthcare Dinner events organized through the Fanju app stand apart by focusing on intentional guest composition. For women navigating public social settings, especially in professional or health-focused circles, the app’s emphasis on thoughtful pairing—prioritizing comfort, shared values, and mutual respect—makes a tangible difference. One recent Friday evening, a group of seven gathered near Dhanmondi Lake, not for a loud dinner party but for a quieter exchange about burnout, preventive care, and balancing family health needs. The host, a physiotherapist from Gulshan, had used the Fanju app to curate a table where no one felt outnumbered or pressured to perform. That deliberate structure is why more women in Dhaka are choosing these dinners not just for networking, but for meaningful connection without compromise.
 

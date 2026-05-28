@@ -4,7 +4,7 @@ canonicalPath: "/city/kizilsu/shipping-dinner"
 alternatePath: "/en/city/kizilsu/shipping-dinner"
 translationKey: "kizilsu-shipping-dinner"
 lang: "zh"
-title: "在克孜勒苏找一桌不尴尬的航运饭局，饭局app先解决什么"
+title: "在克孜勒苏找一桌不尴尬的航运饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在克孜勒苏找一桌不尴尬的航运饭局，饭局app先解决什么"
 description: "克孜勒苏的傍晚，天黑得慢。从单位出来，街边的灯光还没全亮，人走在路上，心里常有两个声音：一个说“回家做饭”，另一个说“出去吃点不一样的”。可真要约人，又卡在“约谁”“说什么”“会不会冷场”上。饭局app上的航运饭局，不是为了解决“吃什么”，"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
 ---
 
-# 在克孜勒苏找一桌不尴尬的航运饭局，饭局app先解决什么
+# 在克孜勒苏找一桌不尴尬的航运饭局，饭局app先解决什么 | fanju-app
 
 在克孜勒苏，一个人走到餐厅门口，包还在肩上，手机屏幕亮着——饭局app上那个“已报名”的状态没变，但人还没到齐。这十分钟，你站在门口，既不想坐进去独自面对服务员的询问，又怕错过第一个到的同桌。这种时刻，泛泛地“出来聚聚”毫无意义，而一桌有明确主题、人数固定、主理人清晰的饭局，才真正算数。饭局app不是为了多一场应酬，而是为了少一次勉强。它把“认识新人”这件事，从随机的饭局群聊，拉回一张有边界的小桌子。在克孜勒苏，航运饭局不是社交表演，而是重新练习和人面对面说话的起点。
 

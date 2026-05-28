@@ -4,7 +4,7 @@ canonicalPath: "/en/city/chicago/post-pandemic-social-dinner"
 alternatePath: "/city/chicago/post-pandemic-social-dinner"
 translationKey: "chicago-post-pandemic-social-dinner"
 lang: "en"
-title: "Why Post Pandemic Social Dinner in Chicago works better when Fanju app keeps the table small"
+title: "Why Post Pandemic Social Dinner in Chicago works better when Fanju app keeps the table small | fanju-app"
 description: "A quiet dinner on a Tuesday in Logan Square changed how Lena, a UX designer who moved to Chicago from Minneapolis during the pandemic, thinks about meeting people. She arrived alone at a cozy Mediterranean spot, unsure w"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Post Pandemic Social Dinner in Chicago works better when Fanju app keeps the table small
+# Why Post Pandemic Social Dinner in Chicago works better when Fanju app keeps the table small | fanju-app
 
 A quiet dinner on a Tuesday in Logan Square changed how Lena, a UX designer who moved to Chicago from Minneapolis during the pandemic, thinks about meeting people. She arrived alone at a cozy Mediterranean spot, unsure what to expect. But the table—set for six, organized through the Fanju app—felt different. No forced icebreakers, no crowded noise. Just warm lighting, a host who greeted her by name, and four others who seemed equally glad to be there. That night, the small table didn’t just make conversation easier—it made it feel safe. In a city where post-pandemic social life often means loud bars or awkward networking events, the Fanju app’s model of intimate, curated dinners has quietly become a trusted format, especially for women rebuilding social circles in Chicago.
 

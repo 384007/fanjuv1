@@ -4,7 +4,7 @@ canonicalPath: "/city/mianyang/rock-climbing-dinner"
 alternatePath: "/en/city/mianyang/rock-climbing-dinner"
 translationKey: "mianyang-rock-climbing-dinner"
 lang: "zh"
-title: "在绵阳把攀岩饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在绵阳把攀岩饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在绵阳把攀岩饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "周末傍晚，绵阳城区的街灯渐次亮起，涪江边的风穿过滨江东路的人行道，有人提着岩点包往铁牛街的攀岩馆走。 他们不是去训练，而是去赴一场饭局——在饭局app上报名的攀岩饭局，一场把攀岩当话题、吃饭当容器的线下聚会。 这种饭局不靠喝酒炒热气氛，也不靠人多撑场面，它靠的是提前说清楚规则：谁来、在哪、聊什么、待多久。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在绵阳把攀岩饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在绵阳把攀岩饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 周末傍晚，绵阳城区的街灯渐次亮起，涪江边的风穿过滨江东路的人行道，有人提着岩点包往铁牛街的攀岩馆走。他们不是去训练，而是去赴一场饭局——在饭局app上报名的攀岩饭局，一场把攀岩当话题、吃饭当容器的线下聚会。这种饭局不靠喝酒炒热气氛，也不靠人多撑场面，它靠的是提前说清楚规则：谁来、在哪、聊什么、待多久。对许多习惯观察再发言的内向者来说，这比随机社交安全得多。饭局app在绵阳的使用频率不高，但每当有攀岩饭局成行，往往能留下真实连接。它不解决孤独，但它提供了一种可预期的接近方式。
 

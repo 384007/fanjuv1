@@ -4,7 +4,7 @@ canonicalPath: "/city/rizhao/vegan-dinner"
 alternatePath: "/en/city/rizhao/vegan-dinner"
 translationKey: "rizhao-vegan-dinner"
 lang: "zh"
-title: "在日照找一桌不尴尬的素食饭局，饭局app先解决什么"
+title: "在日照找一桌不尴尬的素食饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在日照找一桌不尴尬的素食饭局，饭局app先解决什么"
 description: "刚到日照的时候，海风比想象中来得早，傍晚六点，老城区的梧桐树影斜铺在石板路上，人站在街角，手里攥着手机，翻来覆去点开饭局app。这里没有熟人，没有饭搭子，更没有顺其自然的晚餐邀请。但饭局app上，有一条“今晚七点，石臼巷附近，四人桌，素食为"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在日照找一桌不尴尬的素食饭局，饭局app先解决什么
+# 在日照找一桌不尴尬的素食饭局，饭局app先解决什么 | fanju-app
 
 刚到日照的时候，海风比想象中来得早，傍晚六点，老城区的梧桐树影斜铺在石板路上，人站在街角，手里攥着手机，翻来覆去点开饭局app。这里没有熟人，没有饭搭子，更没有顺其自然的晚餐邀请。但饭局app上，有一条“今晚七点，石臼巷附近，四人桌，素食为主”的饭局报名中。点进去，看到报名者职业是教师、自由撰稿人、本地民宿店主，心里突然松了一下。原来在日照，也能用一顿素饭，把陌生和海风一起安顿下来。
 

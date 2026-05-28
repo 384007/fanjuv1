@@ -4,7 +4,7 @@ canonicalPath: "/city/baishan/videographer-dinner"
 alternatePath: "/en/city/baishan/videographer-dinner"
 translationKey: "baishan-videographer-dinner"
 lang: "zh"
-title: "白山的摄像师饭局不该靠运气，饭局app把主理人和同桌放在最前面"
+title: "白山的摄像师饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app"
 titleZh: "白山的摄像师饭局不该靠运气，饭局app把主理人和同桌放在最前面"
 description: "傍晚时分，白山的街区逐渐热闹起来，餐厅里也开始涌入晚间用餐的人群。 对于一个摄影师来说，选择与谁共进晚餐，往往不是随机的。 一个精心组织的摄像师饭局，在饭点这个关键时刻，就已经显露了它的成色。"
 primaryKeyword: "白山摄像师饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T210005Z"
 ---
 
-# 白山的摄像师饭局不该靠运气，饭局app把主理人和同桌放在最前面
+# 白山的摄像师饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 
 来到白山，一个人下班后，坐在一家口碑不错的餐厅里，手机屏幕的光映着脸，心里有几分犹豫：今晚的摄像师饭局，是像往常一样在群里约的，还是通过饭局app（Fanju）报的名？饭局app（Fanju）专注于小桌、明确主题的线下连接，它提供的清晰信息和可预期的同桌，让这次白山摄像师饭局的陌生感，被安全感和信任感悄悄取代。
 

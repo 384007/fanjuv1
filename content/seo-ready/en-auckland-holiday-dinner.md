@@ -4,7 +4,7 @@ canonicalPath: "/en/city/auckland/holiday-dinner"
 alternatePath: "/city/auckland/holiday-dinner"
 translationKey: "auckland-holiday-dinner"
 lang: "en"
-title: "Why Holiday Dinner in Auckland works better when Fanju app keeps the table small"
+title: "Why Holiday Dinner in Auckland works better when Fanju app keeps the table small | fanju-app"
 description: "Holiday dinner in Auckland doesn’t have to mean a crowded restaurant booking or an overstretched home kitchen. With the Fanju app, small-group dinners are becoming the steady rhythm of long weekends, especially when the"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Holiday Dinner in Auckland works better when Fanju app keeps the table small
+# Why Holiday Dinner in Auckland works better when Fanju app keeps the table small | fanju-app
 
 Holiday dinner in Auckland doesn’t have to mean a crowded restaurant booking or an overstretched home kitchen. With the Fanju app, small-group dinners are becoming the steady rhythm of long weekends, especially when the city slows down between Friday and Sunday. The idea isn’t to fill every seat, but to fill the right ones. Fanju’s approach—curating intimate tables based on shared availability and openness—makes holiday dinners feel less like an obligation and more like a quiet anchor. In a city where weekend plans often start with “Maybe we’ll grab dinner,” the app helps turn vagueness into clarity, one manageable table at a time.
 

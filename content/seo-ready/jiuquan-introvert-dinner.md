@@ -4,7 +4,7 @@ canonicalPath: "/city/jiuquan/introvert-dinner"
 alternatePath: "/en/city/jiuquan/introvert-dinner"
 translationKey: "jiuquan-introvert-dinner"
 lang: "zh"
-title: "酒泉内向者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "酒泉内向者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "酒泉内向者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "饭局app上线酒泉后，变化不在饭局数量，而在饭局的“可见度”。从前那种“拉个群，看谁有空”的邀约，常让内向者卡在要不要接龙的犹豫里。而现在，一场饭局从主题到人数、从主理人介绍到餐厅环境，都提前摊开在眼前。不是所有饭局都适合你，但至少你能看出"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T105242Z"
 ---
 
-# 酒泉内向者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 酒泉内向者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
 周五晚上七点，酒泉的街灯刚亮起来，几家小馆子门口开始有人等位。有人低头刷手机，有人在路边来回踱步，等朋友——或者等一个自己也不确定会不会赴约的饭局。这种时刻，不是没人想吃饭，而是不想随便拼一桌。饭局app在酒泉做的，不是制造更多饭局，而是让原本模糊的“一起吃个饭”变成一张具体可辨的桌子：几点、在哪、谁在、为什么聚。对习惯先观察再靠近的人来说，这张桌的轮廓越清晰，脚步才越可能迈过去。
 

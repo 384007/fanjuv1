@@ -4,7 +4,7 @@ canonicalPath: "/city/xuancheng/morning-routine-dinner"
 alternatePath: "/en/city/xuancheng/morning-routine-dinner"
 translationKey: "xuancheng-morning-routine-dinner"
 lang: "zh"
-title: "宣城晨间习惯饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "宣城晨间习惯饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "宣城晨间习惯饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "周六清晨六点，宣城敬亭山脚的薄雾还没散尽，街边早点铺刚支起炉子。老张已经在锅气腾腾的摊前坐下，一碗热腾腾的鸭油烧饼配豆浆端上来时，他顺手在饭局app上确认了今晚的饭局提醒。他不是在约早餐，而是在确认今晚的“晨间习惯饭局”——这是他在宣城坚持"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 宣城晨间习惯饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 宣城晨间习惯饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 周六清晨六点，宣城敬亭山脚的薄雾还没散尽，街边早点铺刚支起炉子。老张已经在锅气腾腾的摊前坐下，一碗热腾腾的鸭油烧饼配豆浆端上来时，他顺手在饭局app上确认了今晚的饭局提醒。他不是在约早餐，而是在确认今晚的“晨间习惯饭局”——这是他在宣城坚持了八个月的习惯：每周二、四、六下班后，不直接回家，先去一桌有预设规则的小饭局。饭局app推来的这桌今晚七点在府山街附近，四人席，主理人是位做古籍修复的老师傅，要求“饭后不留人，话能接住就行”。老张喜欢这种节奏：不熟但不冷场，吃得到本地小炒，也不用解释自己为什么八点要走。
 

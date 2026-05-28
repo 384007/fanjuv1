@@ -4,7 +4,7 @@ canonicalPath: "/city/huaian/creative-writing-dinner"
 alternatePath: "/en/city/huaian/creative-writing-dinner"
 translationKey: "huaian-creative-writing-dinner"
 lang: "zh"
-title: "淮安不想只靠群聊时，饭局app怎样把创意写作饭局坐成一桌"
+title: "淮安不想只靠群聊时，饭局app怎样把创意写作饭局坐成一桌 | fanju-app"
 titleZh: "淮安不想只靠群聊时，饭局app怎样把创意写作饭局坐成一桌"
 description: "很多人点开饭局app上的“创意写作饭局”，以为是来听分享或改稿的。 但在淮安，这种期待一旦落空，饭就容易吃得拘谨。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 淮安不想只靠群聊时，饭局app怎样把创意写作饭局坐成一桌
+# 淮安不想只靠群聊时，饭局app怎样把创意写作饭局坐成一桌 | fanju-app
 
 在淮安，一个人走进餐厅，点好一杯茶，手机还挂在饭局app的创意写作饭局页面上。同桌的人还没到，菜单翻了两遍，心里却在想：这顿饭真是为写点什么的人准备的吗？还是又一场打着文艺旗号的泛泛社交？饭局app在这里不做群聊广场，它把人拉到现实中的一张小桌前，靠的不是口号，而是把“一起吃饭+一起写作”这件事从头到尾说清楚。在淮安，创意写作饭局不是找个有笔有纸的地方聚一聚，而是一场用食物节奏串起语言节奏的尝试——先吃一口软兜长鱼，再聊一句你最近卡住的开头，这种自然的流动，才是人愿意留下的原因。
 

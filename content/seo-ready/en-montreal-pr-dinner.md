@@ -4,7 +4,7 @@ canonicalPath: "/en/city/montreal/pr-dinner"
 alternatePath: "/city/montreal/pr-dinner"
 translationKey: "montreal-pr-dinner"
 lang: "en"
-title: "Montreal strangers sit down easier when Fanju app frames the PR Dinner table first"
+title: "Montreal strangers sit down easier when Fanju app frames the PR Dinner table first | fanju-app"
 description: "Weekends in Montreal often start with good intentions—plans to reconnect, explore new neighbourhoods, or simply break the cycle of solo meals. But too many of those plans float in the limbo of group texts that never"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Montreal strangers sit down easier when Fanju app frames the PR Dinner table first
+# Montreal strangers sit down easier when Fanju app frames the PR Dinner table first | fanju-app
 
 In Montreal, where evenings after work often dissolve into solitary takeout or vague plans that never materialize, the Fanju app offers a different rhythm: small, intentional dinners where strangers meet around a single table. It’s not about networking or forced conversation but about reclaiming the quiet ease of shared meals in a city that can feel both vibrant and isolating. The app structures these gatherings with clarity—specific themes, limited guest counts, and host-vetted venues—so the uncertainty of joining a PR Dinner fades. Through Fanju, Montrealers aren’t signing up for another open-ended group chat or a crowded event where voices compete. They’re reserving a seat at a table designed for listening, for real exchanges that begin not with performance but presence. That structure makes the difference between showing up and staying.
 

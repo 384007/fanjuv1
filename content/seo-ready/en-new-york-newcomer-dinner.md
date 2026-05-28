@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/new-york/newcomer-dinner"
 alternatePath: "/city/new-york/newcomer-dinner"
-title: "When Newcomer Dinner feels too loose in New York, Fanju app starts with the table"
+title: "When Newcomer Dinner feels too loose in New York, Fanju app starts with the table | fanju-app | 饭局app"
 description: "The Fanju app helps newcomers in New York find small, intentional dinners where the table size, host clarity, and neighbourhood context matter as much as the meal. Instead of open-ended mixers or crowded events, it suppo"
 recoveredFromD1: true
 ---
@@ -33,3 +33,9 @@ recoveredFromD1: true
 <p>Deciding which dinner to join shouldn’t feel like another high-stakes New York choice. The Fanju app helps by making it easy to compare tables not by size or theme alone, but by the host’s tone and the practical details that affect comfort. Is the apartment on a noisy street? Is there a coat closet? Is the host someone who’s hosted multiple times and left space for guest feedback? These aren’t minor points—they’re the texture of the experience.</p>
 <p>Newcomers are reminded they can attend just once, or skip a month, without explanation. There’s no requirement to become part of a circle or attend regularly. The goal isn’t to build a new social obligation, but to offer a single evening where the table feels considered, the host present, and the conversation possible. In a city that moves fast, sometimes the most meaningful thing is a meal where no one is rushing to the next thing.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

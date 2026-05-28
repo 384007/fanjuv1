@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangkok/interior-designer-dinner"
 alternatePath: "/city/bangkok/interior-designer-dinner"
 translationKey: "bangkok-interior-designer-dinner"
 lang: "en"
-title: "For people trying Interior Designer Dinner in Bangkok, Fanju app puts the guest mix first"
+title: "For people trying Interior Designer Dinner in Bangkok, Fanju app puts the guest mix first | fanju-app"
 description: "When an Interior Designer Dinner begins in Bangkok, the first thing people notice isn’t the table setting or the host’s apartment view—it’s the tone. On the Fanju app, where these dinners form quietly among strangers who"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Interior Designer Dinner in Bangkok, Fanju app puts the guest mix first
+# For people trying Interior Designer Dinner in Bangkok, Fanju app puts the guest mix first | fanju-app
 
 When an Interior Designer Dinner begins in Bangkok, the first thing people notice isn’t the table setting or the host’s apartment view—it’s the tone. On the Fanju app, where these dinners form quietly among strangers who share a curiosity for thoughtful spaces, the emphasis isn’t on design credentials or aesthetics. It’s on the guest list. Bangkok’s version of this gathering has grown not because people are starved for conversation, but because they’re weary of forced connection. The dinners work here not as networking events or romantic preludes, but as small, structured invitations to be casually present. There’s no expectation to impress, no implied follow-up. Just conversation that unfolds over shared dishes in spaces shaped by someone’s private design choices—often a converted shophouse in Ari, a high-rise unit in Thonglor with raw concrete walls, or a quiet garden-facing home near Benjakiti Park.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/yichun-heilongjiang/new-year-dinner"
 alternatePath: "/en/city/yichun-heilongjiang/new-year-dinner"
 translationKey: "yichun-heilongjiang-new-year-dinner"
 lang: "zh"
-title: "伊春不想只靠群聊时，饭局app怎样把新年饭局坐成一桌"
+title: "伊春不想只靠群聊时，饭局app怎样把新年饭局坐成一桌 | fanju-app"
 titleZh: "伊春不想只靠群聊时，饭局app怎样把新年饭局坐成一桌"
 description: "雪落在伊春的夜里总是静的。去年冬至，李姐在饭局app上看到一条活动：「铁力路附近，一桌家常炖菜，人不多，七点开饭」。她点开详情，发现主理人写的是「不劝酒，话少也没关系，锅一直热着」。她犹豫了一下，还是报了名。那天她穿着厚棉服走进一家临街的小"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 伊春不想只靠群聊时，饭局app怎样把新年饭局坐成一桌
+# 伊春不想只靠群聊时，饭局app怎样把新年饭局坐成一桌 | fanju-app
 
 雪落在伊春的夜里总是静的。去年冬至，李姐在饭局app上看到一条活动：「铁力路附近，一桌家常炖菜，人不多，七点开饭」。她点开详情，发现主理人写的是「不劝酒，话少也没关系，锅一直热着」。她犹豫了一下，还是报了名。那天她穿着厚棉服走进一家临街的小馆子，推门时热气扑脸，桌上已经坐着三个人，锅里是滚着的酸菜白肉血肠，旁边一盘冻梨刚从凉水里捞出来。没人问她从哪来，也没人追问工作，只说「筷子给你热过了，在这边」。那是她在伊春第一次没觉得吃饭是个任务。饭局app不是万能的，但它让伊春的一顿饭，重新有了「坐下来」的可能。
 

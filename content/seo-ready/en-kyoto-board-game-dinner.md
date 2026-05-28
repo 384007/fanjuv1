@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kyoto/board-game-dinner"
 alternatePath: "/city/kyoto/board-game-dinner"
 translationKey: "kyoto-board-game-dinner"
 lang: "en"
-title: "How Fanju app turns a Kyoto Board Game Dinner night into something worth showing up for"
+title: "How Fanju app turns a Kyoto Board Game Dinner night into something worth showing up for | fanju-app"
 description: "For those in Kyoto looking to elevate their social dining experience beyond the usual, the Fanju app offers a unique pathway to curated Board Game Dinners. It’s about transforming a simple dinner gathering into an occasi"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Kyoto Board Game Dinner night into something worth showing up for
+# How Fanju app turns a Kyoto Board Game Dinner night into something worth showing up for | fanju-app
 
 For those in Kyoto looking to elevate their social dining experience beyond the usual, the Fanju app offers a unique pathway to curated Board Game Dinners. It’s about transforming a simple dinner gathering into an occasion that’s genuinely memorable and worth the effort of attending. When the weekend rolls around, or an evening after work beckons, the decision of where to spend your time can feel a bit routine. Fanju app aims to inject a deliberate, thoughtful quality into these choices, especially for something as engaging as a Board Game Dinner in a city as rich in culture and tradition as Kyoto.
 

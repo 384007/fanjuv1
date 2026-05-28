@@ -4,7 +4,7 @@ canonicalPath: "/city/xiaogan/concert-goer-dinner"
 alternatePath: "/en/city/xiaogan/concert-goer-dinner"
 translationKey: "xiaogan-concert-goer-dinner"
 lang: "zh"
-title: "孝感想参加演唱会爱好者饭局，饭局app把信任感放在饭前"
+title: "孝感想参加演唱会爱好者饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "孝感想参加演唱会爱好者饭局，饭局app把信任感放在饭前"
 description: "孝感的城市节奏不快，但文化活跃度并不低。从孝南的老街区到槐荫公园边的新商圈，年轻人对线下活动的期待正在从“有没有”转向“值不值”。一场演唱会后的情绪需要出口，而饭局app上的演唱会爱好者饭局，正成为许多人愿意尝试的表达方式。它不像大群接龙那"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 孝感想参加演唱会爱好者饭局，饭局app把信任感放在饭前
+# 孝感想参加演唱会爱好者饭局，饭局app把信任感放在饭前 | fanju-app
 
 在孝感，一场饭局并不只是吃饭。当一群陌生人因为同一场演唱会、同一个歌手、同一种情绪而聚在一张小桌前，真正的连接往往发生在第一口菜还没上之前。饭局app的设计起点，就是围绕小桌、明确主题和真实身份的线下连接——它不追求规模，而是试图让每一次饭局都成为可预期、可信任的社交场景。在孝感，这种节奏尤其重要。这里的社交文化偏安静、讲熟人引荐，而饭局app恰好补上了“半熟人”之间的那层信任：你不需要认识谁，但你能感觉到自己不会被当成陌生人对待。
 

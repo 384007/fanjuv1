@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kyoto/hosted-table"
 alternatePath: "/city/kyoto/hosted-table"
 translationKey: "kyoto-hosted-table"
 lang: "en"
-title: "Kyoto has plenty of Hosted Table options; Fanju app is the one that names the table first"
+title: "Kyoto has plenty of Hosted Table options; Fanju app is the one that names the table first | fanju-app"
 description: "In Kyoto, starting professional conversations often begins not with a pitch, but with a quiet moment over miso soup. The city’s rhythm resists forced interactions, and that’s why the Fanju app has become a trusted tool f"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Kyoto has plenty of Hosted Table options; Fanju app is the one that names the table first
+# Kyoto has plenty of Hosted Table options; Fanju app is the one that names the table first | fanju-app
 
 In Kyoto, starting professional conversations often begins not with a pitch, but with a quiet moment over miso soup. The city’s rhythm resists forced interactions, and that’s why the Fanju app has become a trusted tool for those seeking meaningful connection through hosted dinners. Unlike generic meetups, Fanju surfaces tables where the host, purpose, and context are clear from the start—offering founders, creatives, and operators a way to build relationships without the pressure of networking events. It’s not about filling seats; it’s about curating moments. And in a city where subtlety matters, that clarity makes all the difference.
 

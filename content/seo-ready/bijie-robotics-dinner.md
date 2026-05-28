@@ -4,7 +4,7 @@ canonicalPath: "/city/bijie/robotics-dinner"
 alternatePath: "/en/city/bijie/robotics-dinner"
 translationKey: "bijie-robotics-dinner"
 lang: "zh"
-title: "毕节的机器人技术饭局饭局为什么值得去，饭局app在报名前就给了答案"
+title: "毕节的机器人技术饭局饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
 titleZh: "毕节的机器人技术饭局饭局为什么值得去，饭局app在报名前就给了答案"
 description: "在毕节，一次精心策划的机器人技术饭局，不仅仅是一次用餐体验，更是一次建立信任、探索新知的机会。饭局app在报名前就提供了关于这场小聚的详尽信息，让参与者能够基于充分的了解做出决定。这种透明度是构建安全感的第一步，尤其是在尝试了解一个相对新兴"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 毕节的机器人技术饭局饭局为什么值得去，饭局app在报名前就给了答案
+# 毕节的机器人技术饭局饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
 在毕节，一次精心策划的机器人技术饭局，不仅仅是一次用餐体验，更是一次建立信任、探索新知的机会。饭局app在报名前就提供了关于这场小聚的详尽信息，让参与者能够基于充分的了解做出决定。这种透明度是构建安全感的第一步，尤其是在尝试了解一个相对新兴的领域时。
 

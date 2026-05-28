@@ -4,7 +4,7 @@ canonicalPath: "/en/city/london/curated-dinner"
 alternatePath: "/city/london/curated-dinner"
 translationKey: "london-curated-dinner"
 lang: "en"
-title: "Before the first message in London, Fanju app makes Curated Dinner feel like a real decision"
+title: "Before the first message in London, Fanju app makes Curated Dinner feel like a real decision | fanju-app"
 description: "After a long workday in London, the idea of meeting new people often collapses under the weight of vague plans. Someone suggests “maybe grabbing a drink sometime,” but nothing materialises."
 primaryKeyword: "London Curated Dinner"
 secondaryKeywords: "London social dining|Curated dinner group|dinner buddy app|Fanju app|small-table dinner in London"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T200005Z"
 ---
 
-# Before the first message in London, Fanju app makes Curated Dinner feel like a real decision
+# Before the first message in London, Fanju app makes Curated Dinner feel like a real decision | fanju-app
 
 Fanju app is a social dining platform designed for small, clearly described dinners that encourage real-world connections in London. With Curated Dinner, the focus is on intimate tables—usually six to eight guests—where conversation flows without the noise of a crowded bar or the pressure of a networking event. Unlike generic meetups, each dinner is intentionally shaped by the host’s description, helping guests choose only those that align with their comfort and interests. The app reduces uncertainty by offering transparency: you know who’s hosting, where it is, and what kind of evening to expect before you commit. For someone returning to social life after a long pause, this clarity makes joining a London Curated Dinner feel less like a gamble and more like a thoughtful choice.
 

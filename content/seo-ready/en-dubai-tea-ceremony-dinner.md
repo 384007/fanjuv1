@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dubai/tea-ceremony-dinner"
 alternatePath: "/city/dubai/tea-ceremony-dinner"
 translationKey: "dubai-tea-ceremony-dinner"
 lang: "en"
-title: "How Fanju app turns a Dubai Tea Ceremony Dinner night into something worth showing up for"
+title: "How Fanju app turns a Dubai Tea Ceremony Dinner night into something worth showing up for | fanju-app"
 description: "In Dubai, where social events often blur into polished but impersonal gatherings, the Fanju app quietly supports a different kind of evening: a Tea Ceremony Dinner that feels both deliberate and safe. Unlike large meetup"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Dubai Tea Ceremony Dinner night into something worth showing up for
+# How Fanju app turns a Dubai Tea Ceremony Dinner night into something worth showing up for | fanju-app
 
 In Dubai, where social events often blur into polished but impersonal gatherings, the Fanju app quietly supports a different kind of evening: a Tea Ceremony Dinner that feels both deliberate and safe. Unlike large meetups in flashy lounges or pop-up galleries, these dinners take place in modest, public venues like quiet tea houses in Alserkal Avenue or backroom spaces in heritage buildings near Al Fahidi. Hosts use the Fanju app not to promote events, but to create small, vetted gatherings where real names are used, guest counts stay under ten, and the expectation isn’t networking—it’s presence. For someone hesitant about joining a casual social plan in a city where personal boundaries can be unclear, the structure provided by Fanju makes the difference between showing up and staying home.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/istanbul/barista-dinner"
 alternatePath: "/city/istanbul/barista-dinner"
 translationKey: "istanbul-barista-dinner"
 lang: "en"
-title: "Barista Dinner in Istanbul should not feel like a gamble; Fanju app changes the odds"
+title: "Barista Dinner in Istanbul should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "Barista Dinner in Istanbul doesn’t have to be a roll of the dice. With the Fanju app, deciding to attend becomes less about guessing who’s coming and more about knowing what kind of evening is being shaped before you lea"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Barista Dinner in Istanbul should not feel like a gamble; Fanju app changes the odds
+# Barista Dinner in Istanbul should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 Barista Dinner in Istanbul doesn’t have to be a roll of the dice. With the Fanju app, deciding to attend becomes less about guessing who’s coming and more about knowing what kind of evening is being shaped before you leave home. The city’s weekend rhythm often treats dinner as background noise to nightlife or sightseeing, but in neighborhoods like Kadıköy, Beşiktaş, and Karaköy, a different habit is forming—one where dinner is the centerpiece, not an afterthought. Through structured invites and clear expectations, Fanju helps turn uncertain gatherings into meaningful shared meals that anchor the weekend.
 

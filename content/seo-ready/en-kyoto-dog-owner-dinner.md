@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kyoto/dog-owner-dinner"
 alternatePath: "/city/kyoto/dog-owner-dinner"
 translationKey: "kyoto-dog-owner-dinner"
 lang: "en"
-title: "For people trying Dog Owner Dinner in Kyoto, Fanju app puts the guest mix first"
+title: "For people trying Dog Owner Dinner in Kyoto, Fanju app puts the guest mix first | fanju-app"
 description: "Joining a Dog Owner Dinner in Kyoto through the Fanju app means stepping into a shared evening where safety isn’t assumed—it’s built. The app doesn’t promise instant friendship, but it does structure the small things: re"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Dog Owner Dinner in Kyoto, Fanju app puts the guest mix first
+# For people trying Dog Owner Dinner in Kyoto, Fanju app puts the guest mix first | fanju-app
 
 Joining a Dog Owner Dinner in Kyoto through the Fanju app means stepping into a shared evening where safety isn’t assumed—it’s built. The app doesn’t promise instant friendship, but it does structure the small things: real names, small tables of four to six guests, hosts who commit to showing up, and dinners held in public restaurants with clear reservations. In a city where social entry points can feel subtle or guarded, this framework gives dog owners a way to meet without guesswork. The focus isn’t on volume or frequency, but on making one dinner feel grounded, so you know what you’re stepping into before you arrive.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/tangshan/mental-health-dinner"
 alternatePath: "/en/city/tangshan/mental-health-dinner"
 translationKey: "tangshan-mental-health-dinner"
 lang: "zh"
-title: "在唐山找一桌不尴尬的心理健康饭局，饭局app先解决什么"
+title: "在唐山找一桌不尴尬的心理健康饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在唐山找一桌不尴尬的心理健康饭局，饭局app先解决什么"
 description: "你会不会也这样：一个人站在唐山南湖边，风从湖面推过来，天色渐暗，手机电量还剩37%，地图上标着三家评分不错的本地菜馆，可你就是迈不动脚。不是饿不着，是不知道该不该走进去。这时候，饭局app出现在你搜索“一个人吃饭不尴尬”的结果里，像一条安静"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在唐山找一桌不尴尬的心理健康饭局，饭局app先解决什么
+# 在唐山找一桌不尴尬的心理健康饭局，饭局app先解决什么 | fanju-app
 
 你会不会也这样：一个人站在唐山南湖边，风从湖面推过来，天色渐暗，手机电量还剩37%，地图上标着三家评分不错的本地菜馆，可你就是迈不动脚。不是饿不着，是不知道该不该走进去。这时候，饭局app出现在你搜索“一个人吃饭不尴尬”的结果里，像一条安静的小路。它不承诺热闹，也不包装治愈，只是告诉你：今晚七点，新华道附近一桌六人饭局，主题是“最近一次情绪低落时，你做了什么”。你犹豫三秒，报名。这不是唐山旅游攻略里的项目，但它可能是你在这座工业城市里，第一次真正落地的夜晚。
 

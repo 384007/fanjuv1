@@ -4,7 +4,7 @@ canonicalPath: "/en/city/london/new-friends-dinner"
 alternatePath: "/city/london/new-friends-dinner"
 translationKey: "london-new-friends-dinner"
 lang: "en"
-title: "London has plenty of New Friends Dinner options; Fanju app is the one that names the table first"
+title: "London has plenty of New Friends Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Fanju app helps people in London meet over dinner at small tables of six to twelve strangers who become, briefly, a temporary household. It’s not about networking or events with a theme—it’s about sharing a meal with a g"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# London has plenty of New Friends Dinner options; Fanju app is the one that names the table first
+# London has plenty of New Friends Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Fanju app helps people in London meet over dinner at small tables of six to twelve strangers who become, briefly, a temporary household. It’s not about networking or events with a theme—it’s about sharing a meal with a group where the host sets the tone, the order of conversation unfolds naturally, and the evening has room to breathe. What makes Fanju different is how it structures these dinners with clarity: each table has a clear purpose, a host profile, and a guest limit. In a city where social fatigue sets in fast and dinner plans often dissolve into group chats that never book a table, Fanju gives Londoners a way to show up somewhere real, with real food and real conversation. The app doesn’t promise lifelong friends, but it does promise a seat at a table that’s already been defined.
 

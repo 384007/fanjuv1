@@ -4,7 +4,7 @@ canonicalPath: "/en/city/london/psychologist-dinner"
 alternatePath: "/city/london/psychologist-dinner"
 translationKey: "london-psychologist-dinner"
 lang: "en"
-title: "London after work: how Fanju app makes Psychologist Dinner feel like a real room"
+title: "London after work: how Fanju app makes Psychologist Dinner feel like a real room | fanju-app"
 description: "Choosing where in London to attend a Psychologist Dinner matters more than the time of week."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# London after work: how Fanju app makes Psychologist Dinner feel like a real room
+# London after work: how Fanju app makes Psychologist Dinner feel like a real room | fanju-app
 
 Fanju app is a social dining platform designed for small, intentional gatherings in real homes and quiet venues across London, where professionals meet beyond the rush of networking events. For those navigating the city’s fragmented social landscape, Psychologist Dinner offers a structured yet relaxed alternative—a table of four to six guests, often founders, consultants, or senior operators, who gather not for pitch sessions but for conversation anchored in mutual professional curiosity. The term “Psychologist Dinner” doesn’t imply clinical discussion but signals a shared understanding: attendees are thoughtful, self-aware, and accustomed to navigating complex human dynamics. In London, where after-work drinks often dissolve into noise, these dinners provide a rare space to connect without performance. The Fanju app supports this by clearly describing each table’s tone, host background, and conversational focus before signup, reducing guesswork and aligning expectations.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/yaan/networking-dinner"
 alternatePath: "/en/city/yaan/networking-dinner"
 translationKey: "yaan-networking-dinner"
 lang: "zh"
-title: "雅安的人脉饭局为什么值得去，饭局app在报名前就给了答案"
+title: "雅安的人脉饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
 titleZh: "雅安的人脉饭局为什么值得去，饭局app在报名前就给了答案"
 description: "在周末的午后，或是工作日的晚间，当你想给生活增添一些不一样的内容，却又不想被热闹喧嚣裹挟时，雅安的人脉饭局或许是你正在寻找的答案。 饭局app提供的不仅仅是平台，更是一种对线下社交的全新理解，它围绕着小桌、明确的主题和真实的人际连接，让每一次聚会都变得有迹可循。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 雅安的人脉饭局为什么值得去，饭局app在报名前就给了答案
+# 雅安的人脉饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
 在周末的午后，或是工作日的晚间，当你想给生活增添一些不一样的内容，却又不想被热闹喧嚣裹挟时，雅安的人脉饭局或许是你正在寻找的答案。饭局app提供的不仅仅是平台，更是一种对线下社交的全新理解，它围绕着小桌、明确的主题和真实的人际连接，让每一次聚会都变得有迹可循。对于这座以舒适生活节奏闻名的城市而言，如何选择一场有价值的饭局，饭局app在报名前就已经给出了清晰的指引，让你能更从容地判断，这场饭局是否真正适合你。
 

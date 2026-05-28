@@ -4,7 +4,7 @@ canonicalPath: "/en/city/amsterdam/app-developer-dinner"
 alternatePath: "/city/amsterdam/app-developer-dinner"
 translationKey: "amsterdam-app-developer-dinner"
 lang: "en"
-title: "Amsterdam has plenty of App Developer Dinner options; Fanju app is the one that names the table first"
+title: "Amsterdam has plenty of App Developer Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "For app developers in Amsterdam, the search for meaningful connections often leads to the dinner table. After a long day of coding, debugging, and client calls, the prospect of a shared meal can be incredibly appealing."
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Amsterdam has plenty of App Developer Dinner options; Fanju app is the one that names the table first
+# Amsterdam has plenty of App Developer Dinner options; Fanju app is the one that names the table first | fanju-app
 
 For app developers in Amsterdam, the search for meaningful connections often leads to the dinner table. After a long day of coding, debugging, and client calls, the prospect of a shared meal can be incredibly appealing. It’s a chance to step away from the screen and engage with peers in a relaxed, informal setting. However, finding the *right* dinner, one that fosters genuine conversation and professional growth, can be a challenge. This is where the Fanju app steps in, offering a streamlined way to discover and join app developer dinners that are thoughtfully curated, ensuring that the experience is less about random networking and more about building substantive relationships. The Fanju app helps identify these gatherings, allowing attendees to know what to expect and who they might meet, setting a more intentional tone from the outset.
 

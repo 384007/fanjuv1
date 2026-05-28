@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/houston/product-manager-dinner"
 alternatePath: "/city/houston/product-manager-dinner"
-title: "Houston Product Manager Dinner Guide"
+title: "Houston Product Manager Dinner Guide | fanju-app | 饭局app"
 description: "Discover the curated world of social dining in Houston with Fanju app, a platform that brings people together for meaningful connections over delicious meals."
 recoveredFromD1: true
 ---
@@ -182,3 +182,9 @@ recoveredFromD1: true
 <h3>Q: How do I cancel an art event I created?</h3>
 <p>A: To cancel an art event you created, simply log into the app and click on the &quot;Cancel Event</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

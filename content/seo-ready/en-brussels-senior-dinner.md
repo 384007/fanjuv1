@@ -4,7 +4,7 @@ canonicalPath: "/en/city/brussels/senior-dinner"
 alternatePath: "/city/brussels/senior-dinner"
 translationKey: "brussels-senior-dinner"
 lang: "en"
-title: "Brussels has plenty of Senior Dinner options; Fanju app is the one that names the table first"
+title: "Brussels has plenty of Senior Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Finding a genuine connection after a long day in Brussels can feel like searching for a quiet corner in a bustling Grand Place. For those looking to move beyond the usual post-work routines, the Fanju app offers a unique"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Brussels has plenty of Senior Dinner options; Fanju app is the one that names the table first
+# Brussels has plenty of Senior Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Finding a genuine connection after a long day in Brussels can feel like searching for a quiet corner in a bustling Grand Place. For those looking to move beyond the usual post-work routines, the Fanju app offers a unique way to discover "Senior Dinners" – gatherings that aim for meaningful interaction over a shared meal. This isn't about packed tourist traps or hurried business lunches; it's about finding a specific table, with real local hosts, that feels curated and welcoming. The Fanju app helps by allowing hosts to clearly define their gatherings, ensuring that when a table is named, it’s one people genuinely want to join, cutting through the noise of countless potential meetups.
 

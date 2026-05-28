@@ -4,7 +4,7 @@ canonicalPath: "/en/city/prague/hr-dinner"
 alternatePath: "/city/prague/hr-dinner"
 translationKey: "prague-hr-dinner"
 lang: "en"
-title: "What makes HR Dinner in Prague worth the risk; Fanju app answers before you arrive"
+title: "What makes HR Dinner in Prague worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "Prague’s social rhythm moves in layers—tourist bustle on the riverbanks, quiet evenings in Vinohrady, late-night conversations in Holešovice flats. In that context, a dinner that feels thrown together can fall flat,"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T180008Z"
 ---
 
-# What makes HR Dinner in Prague worth the risk; Fanju app answers before you arrive
+# What makes HR Dinner in Prague worth the risk; Fanju app answers before you arrive | fanju-app
 
 Fanju app is a social dining platform designed for small, intentional meals where connections form through conversation, not algorithms. In Prague, it hosts HR Dinner events—curated, host-led gatherings that prioritize depth over volume, often seating six to eight guests per table. These aren’t networking mixers or tourist group dinners. They’re quiet resets for people used to connecting through screens, now seeking real presence over shared food. The app gives you access to host introductions, table themes, and venue notes before you commit, helping you decide not just if you’ll go, but whether the rhythm of the evening matches your comfort level. For first-timers, it’s not about guaranteeing friendship—it’s about reducing the friction of showing up alone.
 

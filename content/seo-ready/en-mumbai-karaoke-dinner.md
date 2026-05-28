@@ -4,7 +4,7 @@ canonicalPath: "/en/city/mumbai/karaoke-dinner"
 alternatePath: "/city/mumbai/karaoke-dinner"
 translationKey: "mumbai-karaoke-dinner"
 lang: "en"
-title: "For people trying Karaoke Dinner in Mumbai, Fanju app puts the guest mix first"
+title: "For people trying Karaoke Dinner in Mumbai, Fanju app puts the guest mix first | fanju-app"
 description: "In Mumbai, where the work-from-home rhythm often blurs into long evenings of silence, the Fanju app has quietly become a tool for reclaiming social balance. It’s not about filling time with noise, but about choosing one"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Karaoke Dinner in Mumbai, Fanju app puts the guest mix first
+# For people trying Karaoke Dinner in Mumbai, Fanju app puts the guest mix first | fanju-app
 
 In Mumbai, where the work-from-home rhythm often blurs into long evenings of silence, the Fanju app has quietly become a tool for reclaiming social balance. It’s not about filling time with noise, but about choosing one real evening a week where dinner and singing aren’t distractions—they’re structure. For remote workers who’ve cycled through coworking spaces, café hopping, and half-attended online meetups, Karaoke Dinner through Fanju offers something different: a guest list built with intention, not just availability. The app doesn’t promise viral connections or instant friend groups. Instead, it treats each dinner as a small social experiment where the host sets the tone, the guests bring themselves, and the city’s pace slows just enough for a shared meal and a chorus or two.
 

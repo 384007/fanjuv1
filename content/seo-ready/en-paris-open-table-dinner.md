@@ -4,7 +4,7 @@ canonicalPath: "/en/city/paris/open-table-dinner"
 alternatePath: "/city/paris/open-table-dinner"
 translationKey: "paris-open-table-dinner"
 lang: "en"
-title: "When Open Table Dinner feels too loose in Paris, Fanju app starts with the table"
+title: "When Open Table Dinner feels too loose in Paris, Fanju app starts with the table | fanju-app"
 description: "If you’ve ever hosted a dinner in Paris where the conversation stalled before dessert, or watched a table grow awkward under the weight of good intentions but poor framing, you’re not alone. Open Table Dinner in this cit"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Open Table Dinner feels too loose in Paris, Fanju app starts with the table
+# When Open Table Dinner feels too loose in Paris, Fanju app starts with the table | fanju-app
 
 If you’ve ever hosted a dinner in Paris where the conversation stalled before dessert, or watched a table grow awkward under the weight of good intentions but poor framing, you’re not alone. Open Table Dinner in this city thrives on spontaneity, but without structure, it risks feeling like a group meal with strangers who just happened to arrive at the same time. I’ve hosted nearly two dozen of these gatherings over the past three years, starting at my small Montmartre apartment and later moving to a borrowed courtyard near Place des Vosges. What changed everything was switching from vague invitations to a measured approach—anchored by the Fanju app. It didn’t automate the process, but it gave me a way to signal intention, curate guests, and preserve the human rhythm that Parisians expect at the table.
 

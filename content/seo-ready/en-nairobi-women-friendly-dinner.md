@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nairobi/women-friendly-dinner"
 alternatePath: "/city/nairobi/women-friendly-dinner"
 translationKey: "nairobi-women-friendly-dinner"
 lang: "en"
-title: "Nairobi has plenty of Women Friendly Dinner options; Fanju app is the one that names the table first"
+title: "Nairobi has plenty of Women Friendly Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Nairobi offers a growing number of intimate, women-centered dinner gatherings, and the Fanju app helps locate the ones that feel authentic and well-structured."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Nairobi has plenty of Women Friendly Dinner options; Fanju app is the one that names the table first
+# Nairobi has plenty of Women Friendly Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Nairobi offers a growing number of intimate, women-centered dinner gatherings, and the Fanju app helps locate the ones that feel authentic and well-structured. Unlike large networking events or vague meetups, Fanju connects diners to small tables where the host, theme, and expectations are clear from the start. This matters in a city where social fatigue is real and time is limited. The app doesn’t just list dinners—it surfaces ones with rhythm, intention, and a sense of safety. For women looking to connect without performance, it’s become a quiet but reliable tool in Nairobi’s evolving social landscape.
 

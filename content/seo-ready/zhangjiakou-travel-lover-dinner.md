@@ -4,7 +4,7 @@ canonicalPath: "/city/zhangjiakou/travel-lover-dinner"
 alternatePath: "/en/city/zhangjiakou/travel-lover-dinner"
 translationKey: "zhangjiakou-travel-lover-dinner"
 lang: "zh"
-title: "第一次在张家口参加旅行爱好者饭局，饭局app怎样让陌生人坐得下来"
+title: "第一次在张家口参加旅行爱好者饭局，饭局app怎样让陌生人坐得下来 | fanju-app"
 titleZh: "第一次在张家口参加旅行爱好者饭局，饭局app怎样让陌生人坐得下来"
 description: "在张家口，饭局如果只是群里一句“有人来吃饭吗”，往往最后变成熟人局，或者干脆没人应。 尤其对刚来的人，没人知道你是谁，也不会主动拉你。"
 primaryKeyword: "张家口旅行爱好者饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T230007Z"
 ---
 
-# 第一次在张家口参加旅行爱好者饭局，饭局app怎样让陌生人坐得下来
+# 第一次在张家口参加旅行爱好者饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 
 刚到张家口的那周，你在地图上划出几个想走的路线，也加了几个本地群，但没人回应你的徒步计划。周末晚上刷着手机，突然看到饭局app里一条新开的“张家口旅行爱好者饭局”：六人小桌，主理人是常走草原天路的摄影师，地点在桥东区一家不做外卖的私房菜馆。这不是群聊里一句“有人来吃饭吗”的随口一问，而是一场有名字、有地点、有主题的饭局。你犹豫要不要报名——毕竟要和五个陌生人坐一桌——但页面上写着“可随时安静离开”，主理人还附了自己在桦皮岭拍的日出照片。这种确定感，让你第一次觉得，在张家口，饭局app不是为了热闹，而是为了让真正想连接的人，能从一张小桌开始。
 

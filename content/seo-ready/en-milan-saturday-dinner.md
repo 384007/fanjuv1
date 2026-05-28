@@ -4,7 +4,7 @@ canonicalPath: "/en/city/milan/saturday-dinner"
 alternatePath: "/city/milan/saturday-dinner"
 translationKey: "milan-saturday-dinner"
 lang: "en"
-title: "Before the first message in Milan, Fanju app makes Saturday Dinner feel like a real decision"
+title: "Before the first message in Milan, Fanju app makes Saturday Dinner feel like a real decision | fanju-app"
 description: "Milan Saturday Dinner on the Fanju app helps people choose a structured, date-free table with clear venue details, safer expectations, and room for real conversation."
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Milan, Fanju app makes Saturday Dinner feel like a real decision
+# Before the first message in Milan, Fanju app makes Saturday Dinner feel like a real decision | fanju-app
 
 In Milan, the prospect of a Saturday evening can feel both exciting and a little daunting, especially when you're looking to connect with new people. The Fanju app aims to transform that feeling. Instead of a vague "let's hang out sometime," the Fanju app introduces a structured, intentional way to find and join Saturday dinners. This isn't about finding a date; it's about creating genuine social experiences where the focus is on shared company and good conversation, making the decision to join a Milanese table feel considered and worthwhile, not just another casual invitation. The Fanju app helps refine these moments.
 

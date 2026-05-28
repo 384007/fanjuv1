@@ -4,7 +4,7 @@ canonicalPath: "/en/city/rome/film-dinner"
 alternatePath: "/city/rome/film-dinner"
 translationKey: "rome-film-dinner"
 lang: "en"
-title: "For people trying Film Dinner in Rome, Fanju app puts the guest mix first"
+title: "For people trying Film Dinner in Rome, Fanju app puts the guest mix first | fanju-app"
 description: "The Fanju app is designed for people in Rome who want more than a dinner—they want a real, small-group experience built around conversation and film. Unlike open social events or restaurant promotions, Fanju supports int"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For people trying Film Dinner in Rome, Fanju app puts the guest mix first
+# For people trying Film Dinner in Rome, Fanju app puts the guest mix first | fanju-app
 
 The Fanju app is designed for people in Rome who want more than a dinner—they want a real, small-group experience built around conversation and film. Unlike open social events or restaurant promotions, Fanju supports intimate, host-led dinners where the guest list matters as much as the menu. In Rome, where social rhythms move slowly and trust builds over time, these tables can become quiet anchors. The app doesn’t promise spectacle; it focuses on alignment—between host intent, guest expectations, and the mood of a neighbourhood. It’s not about filling seats. It’s about who sits at the table, how they’re invited, and whether the space allows for real exchange. For locals and visitors alike, this approach turns a single dinner into the beginning of something more continuous.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/london/morning-routine-dinner"
 alternatePath: "/city/london/morning-routine-dinner"
 translationKey: "london-morning-routine-dinner"
 lang: "en"
-title: "Before the first message in London, Fanju app makes Morning Routine Dinner feel like a real decision"
+title: "Before the first message in London, Fanju app makes Morning Routine Dinner feel like a real decision | fanju-app"
 description: "Arriving in London this month, you’ve likely already felt the quiet pressure of starting over—finding where people actually eat breakfast, which neighbours say hello, and how conversations begin without an obvious reason"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Before the first message in London, Fanju app makes Morning Routine Dinner feel like a real decision
+# Before the first message in London, Fanju app makes Morning Routine Dinner feel like a real decision | fanju-app
 
 Arriving in London this month, you’ve likely already felt the quiet pressure of starting over—finding where people actually eat breakfast, which neighbours say hello, and how conversations begin without an obvious reason to meet. The city moves fast, but mornings can feel slow when you're still mapping the rhythms alone. That’s where the Fanju app quietly shifts things. It doesn’t promise instant friendship, but it does offer something more tangible: a table at a real home, not a pop-up, not a networking event—just people sharing a morning meal because they chose to. In a city where casual plans often dissolve into group chat silence, Fanju supports a different kind of habit: Morning Routine Dinner, a weekly morning gathering that works best when treated like a decision, not a default.
 

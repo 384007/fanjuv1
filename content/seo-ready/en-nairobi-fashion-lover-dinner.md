@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nairobi/fashion-lover-dinner"
 alternatePath: "/city/nairobi/fashion-lover-dinner"
 translationKey: "nairobi-fashion-lover-dinner"
 lang: "en"
-title: "For people trying Fashion Lover Dinner in Nairobi, Fanju app puts the guest mix first"
+title: "For people trying Fashion Lover Dinner in Nairobi, Fanju app puts the guest mix first | fanju-app"
 description: "In Nairobi, where the pace of work and traffic can stretch days into something impersonal, finding genuine connection often feels like a secondary task. The Fanju app is changing that for a growing number of locals by ce"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Fashion Lover Dinner in Nairobi, Fanju app puts the guest mix first
+# For people trying Fashion Lover Dinner in Nairobi, Fanju app puts the guest mix first | fanju-app
 
 In Nairobi, where the pace of work and traffic can stretch days into something impersonal, finding genuine connection often feels like a secondary task. The Fanju app is changing that for a growing number of locals by centering the experience of small, intentional dinners—starting with Fashion Lover Dinner, a gathering that’s less about fashion as spectacle and more about the rhythm of dressing, identity, and personal expression in a city where style speaks quietly but clearly. It’s not a networking event or a date setup. Instead, it’s a space where people arrive alone but don’t stay that way for long. The app’s quiet strength lies in how it prioritizes compatibility—not just of taste, but of emotional availability—before a single menu is chosen. For those who’ve felt isolated in Nairobi’s sprawling urban fabric, this kind of dinner is becoming a dependable way back into shared life.
 

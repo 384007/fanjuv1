@@ -4,7 +4,7 @@ canonicalPath: "/en/city/budapest/digital-detox-dinner"
 alternatePath: "/city/budapest/digital-detox-dinner"
 translationKey: "budapest-digital-detox-dinner"
 lang: "en"
-title: "Before the first message in Budapest, Fanju app makes Digital Detox Dinner feel like a real decision"
+title: "Before the first message in Budapest, Fanju app makes Digital Detox Dinner feel like a real decision | fanju-app"
 description: "Most social plans in Budapest start with “maybe” and end with silence. A text floats in a group chat, someone suggests Kispest or District VIII, and then nothing solidifies. The city’s rhythm encourages spontaneity, but"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Budapest, Fanju app makes Digital Detox Dinner feel like a real decision  
+# Before the first message in Budapest, Fanju app makes Digital Detox Dinner feel like a real decision   | fanju-app
 
 In Budapest, where evenings often dissolve into scrolling through old messages or replaying imagined conversations, Fanju app offers a quiet shift: small dinners with clear purpose and no screens. It’s not a retreat or a workshop, just dinner among a few people who agree—before sitting down—that phones stay in pockets. The app connects locals and visitors who want to eat, talk, and listen without digital interference, creating moments where connection isn’t performed but lived. This isn’t about rejecting technology, but about reclaiming space for unmediated conversation in a city where thermal baths, ruin bars, and Danube views already invite slowness. Fanju makes it easier to act on that impulse, not as a vague intention, but as a table reserved, a time set, a choice made.
 

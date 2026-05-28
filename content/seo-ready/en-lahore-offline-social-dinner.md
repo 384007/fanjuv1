@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lahore/offline-social-dinner"
 alternatePath: "/city/lahore/offline-social-dinner"
 translationKey: "lahore-offline-social-dinner"
 lang: "en"
-title: "Why Offline Social Dinner in Lahore works better when Fanju app keeps the table small"
+title: "Why Offline Social Dinner in Lahore works better when Fanju app keeps the table small | fanju-app"
 description: "Weekends in Lahore often begin with a string of half-formed messages: “Let’s meet up?” or “Maybe dinner sometime?” But those rarely turn into anything concrete. The city thrives on spontaneity, yet that same spontaneity"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Why Offline Social Dinner in Lahore works better when Fanju app keeps the table small
+# Why Offline Social Dinner in Lahore works better when Fanju app keeps the table small | fanju-app
 
 Fanju app offers a quiet alternative to the usual ways of meeting people in Lahore—no crowded meetups, no endless group chat scrolling, no pressure-cooker icebreakers. Instead, it hosts Offline Social Dinners: small, real-world meals with a clear purpose. These are not events disguised as experiences. They’re simply dinners where the table is set for conversation, and the only agenda is showing up. Hosts use the app to outline the tone, time, and guest limit—usually six to eight people—so everyone arrives with the same understanding. It’s after-work relief, not performance. Whether you’ve spent the day in Gulberg offices or commuting from DHA, the idea is to pause before heading home, share a meal at a relaxed spot, and talk without a script. The app doesn’t promise friendships. It just makes space for them to happen naturally.
 

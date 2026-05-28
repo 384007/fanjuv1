@@ -4,7 +4,7 @@ canonicalPath: "/city/dali/community-builder-dinner"
 alternatePath: "/en/city/dali/community-builder-dinner"
 translationKey: "dali-community-builder-dinner"
 lang: "zh"
-title: "大理想参加社区建设者饭局，饭局app把信任感放在饭前"
+title: "大理想参加社区建设者饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "大理想参加社区建设者饭局，饭局app把信任感放在饭前"
 description: "你在大理古城南门的石板路上拖着行李箱，天快黑了，风从苍山那边吹下来，带着一点湿气。你订的民宿在叶榆路拐角，但你还没找到入口。手机地图标得模糊，导航声音断断续续。你停下来看了看饭局app——这是你这几天唯一下载的新应用，界面简单，没有广告，只"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 大理想参加社区建设者饭局，饭局app把信任感放在饭前
+# 大理想参加社区建设者饭局，饭局app把信任感放在饭前 | fanju-app
 
 你在大理古城南门的石板路上拖着行李箱，天快黑了，风从苍山那边吹下来，带着一点湿气。你订的民宿在叶榆路拐角，但你还没找到入口。手机地图标得模糊，导航声音断断续续。你停下来看了看饭局app——这是你这几天唯一下载的新应用，界面简单，没有广告，只做一件事：组织陌生人之间的真实饭局。你打开首页，看到今晚七点半，有一场“大理社区建设者饭局”，在一家本地人常去的本地方言叫“阿鹏家”的小院餐厅。报名人数显示“5/6”，还剩一个位置。你犹豫了一下，点了“参加”。
 

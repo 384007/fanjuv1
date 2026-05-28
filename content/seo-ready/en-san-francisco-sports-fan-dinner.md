@@ -4,7 +4,7 @@ canonicalPath: "/en/city/san-francisco/sports-fan-dinner"
 alternatePath: "/city/san-francisco/sports-fan-dinner"
 translationKey: "san-francisco-sports-fan-dinner"
 lang: "en"
-title: "For people trying Sports Fan Dinner in San Francisco, Fanju app puts the guest mix first"
+title: "For people trying Sports Fan Dinner in San Francisco, Fanju app puts the guest mix first | fanju-app"
 description: "If you’re new to San Francisco and sitting alone after work near the Embarcadero, scrolling through your phone with no dinner plan, the Fanju app offers a different path. Instead of another solo takeout meal, you could b"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For people trying Sports Fan Dinner in San Francisco, Fanju app puts the guest mix first
+# For people trying Sports Fan Dinner in San Francisco, Fanju app puts the guest mix first | fanju-app
 
 If you’re new to San Francisco and sitting alone after work near the Embarcadero, scrolling through your phone with no dinner plan, the Fanju app offers a different path. Instead of another solo takeout meal, you could be at a shared table in a neighborhood like the Mission or North Beach within hours, joining a Sports Fan Dinner hosted by someone who follows the Warriors, watches Premier League matches, or still talks about the 2012 Giants run. These dinners aren’t events or meetups—they’re small, intentional gatherings where the focus isn’t on networking or presentations, but on who’s in the room. The Fanju app helps shape that mix, connecting solo travelers and locals who want conversation that starts with sports but doesn’t end there. For someone passing through, it’s a way to eat well and feel grounded in a city that moves fast.
 

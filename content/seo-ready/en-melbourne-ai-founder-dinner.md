@@ -4,7 +4,7 @@ canonicalPath: "/en/city/melbourne/ai-founder-dinner"
 alternatePath: "/city/melbourne/ai-founder-dinner"
 translationKey: "melbourne-ai-founder-dinner"
 lang: "en"
-title: "For people trying AI Founder Dinner in Melbourne, Fanju app puts the guest mix first"
+title: "For people trying AI Founder Dinner in Melbourne, Fanju app puts the guest mix first | fanju-app"
 description: "In Melbourne, the end of a workday often means one of two things: heading straight home to a quiet apartment or scrolling through messages while waiting for a reply that never comes. The Fanju app changes that pattern by"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying AI Founder Dinner in Melbourne, Fanju app puts the guest mix first
+# For people trying AI Founder Dinner in Melbourne, Fanju app puts the guest mix first | fanju-app
 
 In Melbourne, the end of a workday often means one of two things: heading straight home to a quiet apartment or scrolling through messages while waiting for a reply that never comes. The Fanju app changes that pattern by connecting people who want more out of the evening than isolation or surface-level small talk. AI Founder Dinner in Melbourne isn’t about grand announcements or pitching ideas—it’s a deliberate pause after work, structured around real conversation among those navigating similar professional terrain. The app doesn’t just list events; it curates the guest list with care, prioritizing compatibility over volume. For founders, engineers, and product thinkers in Melbourne, this means walking into a dinner where the energy feels familiar, even if you’ve never met anyone at the table.
 

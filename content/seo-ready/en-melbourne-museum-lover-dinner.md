@@ -4,7 +4,7 @@ canonicalPath: "/en/city/melbourne/museum-lover-dinner"
 alternatePath: "/city/melbourne/museum-lover-dinner"
 translationKey: "melbourne-museum-lover-dinner"
 lang: "en"
-title: "For people trying Museum Lover Dinner in Melbourne, Fanju app puts the guest mix first"
+title: "For people trying Museum Lover Dinner in Melbourne, Fanju app puts the guest mix first | fanju-app"
 description: "If you’ve just moved to Melbourne and are searching for a way to meet people who care about culture and conversation, the idea of a dinner built around museum lovers might sound appealing—until you end up at a table wher"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Museum Lover Dinner in Melbourne, Fanju app puts the guest mix first
+# For people trying Museum Lover Dinner in Melbourne, Fanju app puts the guest mix first | fanju-app
 
 If you’ve just moved to Melbourne and are searching for a way to meet people who care about culture and conversation, the idea of a dinner built around museum lovers might sound appealing—until you end up at a table where no one has been to an exhibition in months. The Fanju app is designed to prevent that mismatch. In a city where neighbourhood identity shapes social rhythm, simply gathering people who say they like museums isn’t enough. What matters is which museum, which suburb, and what kind of quiet enthusiasm brings someone to a gallery on a Tuesday evening. Fanju’s strength in Melbourne lies in aligning those subtleties before the dinner even begins, especially in areas like Carlton, where the proximity to the Melbourne Museum and a long tradition of academic and immigrant storytelling creates a particular kind of cultural appetite.
 

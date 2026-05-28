@@ -3,7 +3,7 @@ slug: "en-taipei-dinner-buddy"
 canonicalPath: "/en/city/taipei/dinner-buddy"
 alternatePath: "/city/taipei/dinner-buddy"
 translationKey: "taipei-dinner-buddy"
-title: "Taipei Dinner Buddy | Fanju"
+title: "Taipei Dinner Buddy | Fanju | fanju-app"
 titleZh: "台北饭局伙伴"
 description: "Find a dinner companion in Taipei through Fanju. Join curated small-table dinner gatherings, meet locals and expats, and build real social connections over shared meals."
 pageType: "city_category"
@@ -13,7 +13,7 @@ priorityScore: 90
 status: "ready"
 ---
 
-# Taipei Dinner Buddy
+# Taipei Dinner Buddy | fanju-app
 
 Taipei is one of Asia's most welcoming food cities, and finding the right dinner companion can turn a meal into a genuine social experience. Fanju connects people who want to share a table, explore night markets and local restaurants, and build real friendships over food.
 

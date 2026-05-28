@@ -4,7 +4,7 @@ canonicalPath: "/city/yichang/wine-tasting-dinner"
 alternatePath: "/en/city/yichang/wine-tasting-dinner"
 translationKey: "yichang-wine-tasting-dinner"
 lang: "zh"
-title: "宜昌想参加品酒饭局，饭局app把信任感放在饭前"
+title: "宜昌想参加品酒饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "宜昌想参加品酒饭局，饭局app把信任感放在饭前"
 description: "刚下宜昌的晚高峰，江边路灯一盏盏亮起，你站在解放路和夷陵大道交叉口，手里还提着没来得及换下的工装包。同事早已散去，外卖在工位上冷掉，回家一个人吃饭又像是把白天的沉默顺延到了晚上。这时候打开饭局app，滑过几页“品酒饭局”标签下的邀请，你会看"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 宜昌想参加品酒饭局，饭局app把信任感放在饭前
+# 宜昌想参加品酒饭局，饭局app把信任感放在饭前 | fanju-app
 
 刚下宜昌的晚高峰，江边路灯一盏盏亮起，你站在解放路和夷陵大道交叉口，手里还提着没来得及换下的工装包。同事早已散去，外卖在工位上冷掉，回家一个人吃饭又像是把白天的沉默顺延到了晚上。这时候打开饭局app，滑过几页“品酒饭局”标签下的邀请，你会看到今晚七点半，有人在CBD附近的小馆子约了六个人，主题是“喝点轻红酒，不聊KPI”。这不是酒局，也不是应酬，它更像是一种下班后的新选择——不再独自回家，也不用硬撑寒暄，只是借一顿饭的时间，和几个刚认识的人，把白天没说完的话，轻轻说出口。饭局app在宜昌的逻辑很简单：饭还没开始，先说清楚这顿饭是什么。
 

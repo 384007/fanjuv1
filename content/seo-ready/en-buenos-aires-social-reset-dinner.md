@@ -4,7 +4,7 @@ canonicalPath: "/en/city/buenos-aires/social-reset-dinner"
 alternatePath: "/city/buenos-aires/social-reset-dinner"
 translationKey: "buenos-aires-social-reset-dinner"
 lang: "en"
-title: "For people trying Social Reset Dinner in Buenos Aires, Fanju app puts the guest mix first"
+title: "For people trying Social Reset Dinner in Buenos Aires, Fanju app puts the guest mix first | fanju-app"
 description: "Choosing the right barrio for a Social Reset Dinner matters more than it might seem. In Buenos Aires, the shift from Palermo to Almagro, or from Caballito to Colegiales, isn’t just geographic—it’s cultural. A dinner"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T180008Z"
 ---
 
-# For people trying Social Reset Dinner in Buenos Aires, Fanju app puts the guest mix first
+# For people trying Social Reset Dinner in Buenos Aires, Fanju app puts the guest mix first | fanju-app
 
 The Fanju app connects people in Buenos Aires through small, intentional dinners where the focus is on shared presence, not performances. Unlike sprawling meetups or event-style gatherings, a Social Reset Dinner is designed for seven to nine guests who gather around a single table with a clear purpose: to begin conversations that feel natural, not forced. For newcomers or anyone re-engaging with the city’s social rhythm, these dinners offer a low-pressure way to meet locals and fellow transplants without the noise of a bar or the awkwardness of networking. The host sets the tone, the table size keeps things contained, and the evening unfolds with enough structure to feel grounded but enough openness to let real exchanges happen. It’s not about collecting contacts—it’s about finding one conversation that sticks.
 

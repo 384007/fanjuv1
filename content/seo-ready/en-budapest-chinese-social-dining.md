@@ -4,7 +4,7 @@ canonicalPath: "/en/city/budapest/chinese-social-dining"
 alternatePath: "/city/budapest/chinese-social-dining"
 translationKey: "budapest-chinese-social-dining"
 lang: "en"
-title: "The Chinese Social Dining table Budapest actually needs is the one Fanju app describes up front"
+title: "The Chinese Social Dining table Budapest actually needs is the one Fanju app describes up front | fanju-app"
 description: "In Budapest, finding a meal that feels both spontaneous and meaningful can be harder than it sounds. The city offers plenty of dinner options, but most fall into predictable categories: tourist-heavy restaurants on Váci"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# The Chinese Social Dining table Budapest actually needs is the one Fanju app describes up front
+# The Chinese Social Dining table Budapest actually needs is the one Fanju app describes up front | fanju-app
 
 In Budapest, finding a meal that feels both spontaneous and meaningful can be harder than it sounds. The city offers plenty of dinner options, but most fall into predictable categories: tourist-heavy restaurants on Váci Street, quiet solo bites at a ruin bar counter, or last-minute group plans that never quite materialize. The Fanju app changes that by framing Chinese Social Dining not as a trend, but as a quietly structured way to share real meals with real people—four to six guests, one host, one table, one neighborhood at a time. It’s not about performance or spectacle. It’s about showing up somewhere local, like a shared kitchen in Zugló or a tucked-away dining space in Krisztinaváros, and having a conversation that starts with food but often moves beyond it. That’s the rhythm Budapest supports, when you know where to look.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/singapore/consumer-founder-dinner"
 alternatePath: "/city/singapore/consumer-founder-dinner"
 translationKey: "singapore-consumer-founder-dinner"
 lang: "en"
-title: "How Fanju app turns a Singapore Consumer Founder Dinner night into something worth showing up for"
+title: "How Fanju app turns a Singapore Consumer Founder Dinner night into something worth showing up for | fanju-app"
 description: "The first time you see a Consumer Founder Dinner pop up on the Fanju app in Singapore, it looks quiet—no flashy promotion, no crowd shots, just a table of eight, a host name, and a neighborhood. You’re invited not becaus"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Singapore Consumer Founder Dinner night into something worth showing up for
+# How Fanju app turns a Singapore Consumer Founder Dinner night into something worth showing up for | fanju-app
 
 The first time you see a Consumer Founder Dinner pop up on the Fanju app in Singapore, it looks quiet—no flashy promotion, no crowd shots, just a table of eight, a host name, and a neighborhood. You’re invited not because you’re looking for a date or a pitch meeting, but because you’re curious about the kind of conversation that happens when founders, product builders, and early-stage operators gather without an agenda. The Fanju app surfaces these dinners not as events, but as invitations to specific tables, each with its own rhythm. There’s no assumption you’ll stay late. No pressure to impress. Just the chance to talk about what it’s really like to build something in Singapore, away from investors, launch parties, and LinkedIn posturing.
 

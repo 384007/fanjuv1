@@ -4,7 +4,7 @@ canonicalPath: "/en/city/mexico-city/expat-dinner"
 alternatePath: "/city/mexico-city/expat-dinner"
 translationKey: "mexico-city-expat-dinner"
 lang: "en"
-title: "Mexico City does not need another vague invite; Fanju app makes Expat Dinner specific"
+title: "Mexico City does not need another vague invite; Fanju app makes Expat Dinner specific | fanju-app"
 description: "In Mexico City, where the workday stretches late and shared apartments blur into co-working spaces, the gap between finishing a screen and actually connecting with someone can feel wide. The Fanju app narrows that gap no"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Mexico City does not need another vague invite; Fanju app makes Expat Dinner specific
+# Mexico City does not need another vague invite; Fanju app makes Expat Dinner specific | fanju-app
 
 In Mexico City, where the workday stretches late and shared apartments blur into co-working spaces, the gap between finishing a screen and actually connecting with someone can feel wide. The Fanju app narrows that gap not with loud events or networking demands, but with something quieter: a dinner table of four to six people, each vetted through a soft alignment of interests and availability. It’s not about meeting everyone. It’s about meeting a few, in a way that doesn’t deplete. For introverts, particularly those adjusting to life in a sprawling, high-energy city like Mexico City, this small structure is not just convenient—it’s a necessary alternative to the sensory overload of bars and open meetups.
 

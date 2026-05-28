@@ -4,7 +4,7 @@ canonicalPath: "/en/city/boston/potluck-dinner"
 alternatePath: "/city/boston/potluck-dinner"
 translationKey: "boston-potluck-dinner"
 lang: "en"
-title: "For people trying Potluck Dinner in Boston, Fanju app puts the guest mix first"
+title: "For people trying Potluck Dinner in Boston, Fanju app puts the guest mix first | fanju-app"
 description: "In Boston, where the commute from downtown offices to neighborhoods like Jamaica Plain or Cambridge can feel longer than the workday itself, the idea of heading straight home to an empty kitchen isn’t appealing. For many"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Potluck Dinner in Boston, Fanju app puts the guest mix first
+# For people trying Potluck Dinner in Boston, Fanju app puts the guest mix first | fanju-app
 
 In Boston, where the commute from downtown offices to neighborhoods like Jamaica Plain or Cambridge can feel longer than the workday itself, the idea of heading straight home to an empty kitchen isn’t appealing. For many, the real question isn’t whether to eat, but how to make dinner feel like more than just refueling. That’s where the Fanju app shifts the experience: it’s not just about organizing a potluck, but shaping who shows up. Rather than treating Potluck Dinner as another generic social meetup, the app emphasizes compatibility in rhythm, energy, and intent—especially important after a long day in a city where professional pace and personal space often clash. In Boston’s dense urban pockets, a well-matched table can be the difference between small talk and meaningful conversation.
 

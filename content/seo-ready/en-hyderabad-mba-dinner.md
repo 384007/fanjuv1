@@ -4,7 +4,7 @@ canonicalPath: "/en/city/hyderabad/mba-dinner"
 alternatePath: "/city/hyderabad/mba-dinner"
 translationKey: "hyderabad-mba-dinner"
 lang: "en"
-title: "How Fanju app turns a Hyderabad MBA Dinner night into something worth showing up for"
+title: "How Fanju app turns a Hyderabad MBA Dinner night into something worth showing up for | fanju-app"
 description: "The Fanju app isn’t a restaurant guide or a food delivery platform—it’s how small, intentional dinners find their rhythm in Hyderabad. As someone who’s hosted more than a few MBA Dinner nights here, I’ve learned that the"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Hyderabad MBA Dinner night into something worth showing up for
+# How Fanju app turns a Hyderabad MBA Dinner night into something worth showing up for | fanju-app
 
 The Fanju app isn’t a restaurant guide or a food delivery platform—it’s how small, intentional dinners find their rhythm in Hyderabad. As someone who’s hosted more than a few MBA Dinner nights here, I’ve learned that the real work starts long before the first guest arrives. It’s not about the menu or the venue alone, but about shaping a space where conversation flows naturally and people feel seen. In a city like Hyderabad, where professional circles often stay siloed between HITEC City, Banjara Hills, and Gachibowli, the Fanju app helps bridge gaps by making clarity the centerpiece of every dinner. That clarity—about purpose, tone, and expectations—is what turns a casual meal into a meaningful connection.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/shaoxing/cleantech-dinner"
 alternatePath: "/en/city/shaoxing/cleantech-dinner"
 translationKey: "shaoxing-cleantech-dinner"
 lang: "zh"
-title: "绍兴的一顿清洁技术饭局，饭局app为什么先看人再看热闹"
+title: "绍兴的一顿清洁技术饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "绍兴的一顿清洁技术饭局，饭局app为什么先看人再看热闹"
 description: "很多人以为，参加饭局是为了拓展人脉，但真正让人愿意走出家门的，其实是“知道这顿饭不会尴尬”。在绍兴，清洁技术饭局的主理人通常会提前说明：这顿饭不设目标，不强求合作，也不安排自我介绍环节。你来，是因为你也关心储能政策的地方试点，或者正琢磨着把"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
 ---
 
-# 绍兴的一顿清洁技术饭局，饭局app为什么先看人再看热闹
+# 绍兴的一顿清洁技术饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 晚上七点，绍兴的暮色落在仓桥直街的石板路上，你刚下班，包还挂在肩上，手机屏幕亮起——有人在饭局app上邀请你参加一场“清洁技术”主题的晚饭。这不是一场行业大会，也不是线上群聊里的随口一约，而是一桌六个人，在老城区一家小馆子里，边吃茴香豆、喝黄酒，边聊光伏材料降本路径的饭局。你犹豫了一下：这种局，真的能吃得踏实吗？在绍兴，太多饭局打着“社交”的旗号，最后变成互相递名片的疲惫拉练。但饭局app上的这一类饭局不同：它不追热闹，先看人，再看话题，最后才落在那顿饭上。它要的不是曝光，是真实吃完一顿饭后，还能记得谁说了什么。
 

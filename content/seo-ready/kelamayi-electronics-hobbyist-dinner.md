@@ -4,7 +4,7 @@ canonicalPath: "/city/kelamayi/electronics-hobbyist-dinner"
 alternatePath: "/en/city/kelamayi/electronics-hobbyist-dinner"
 translationKey: "kelamayi-electronics-hobbyist-dinner"
 lang: "zh"
-title: "不想在克拉玛依随便拼桌，饭局app怎样让电子爱好者饭局变成一个真实决定"
+title: "不想在克拉玛依随便拼桌，饭局app怎样让电子爱好者饭局变成一个真实决定 | fanju-app"
 titleZh: "不想在克拉玛依随便拼桌，饭局app怎样让电子爱好者饭局变成一个真实决定"
 description: "你第一次打开饭局app，滑到克拉玛依本地的活动列表，看到“电子爱好者饭局”这几个字时，手指停了一下。不是因为兴趣不够，而是怕那种熟悉的尴尬：人太多，话题太散，自己插不上话，最后变成低头刷手机的局。在克拉玛依，这样的聚会不少，但真正能让你放松"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 不想在克拉玛依随便拼桌，饭局app怎样让电子爱好者饭局变成一个真实决定
+# 不想在克拉玛依随便拼桌，饭局app怎样让电子爱好者饭局变成一个真实决定 | fanju-app
 
 你第一次打开饭局app，滑到克拉玛依本地的活动列表，看到“电子爱好者饭局”这几个字时，手指停了一下。不是因为兴趣不够，而是怕那种熟悉的尴尬：人太多，话题太散，自己插不上话，最后变成低头刷手机的局。在克拉玛依，这样的聚会不少，但真正能让你放松说点技术细节、聊聊最近做的小项目、甚至安静听别人讲完一段调试经历的饭局，几乎没有。饭局app不一样。它不追求热闹，而是把一桌人控制在六到七位，提前明确主题，比如“自制信号发生器的实用经验”或“从零搭建家庭实验台的踩坑记录”，让报名的人心里有底。你不是去应酬，是去见一群可能和你一样，更愿意用万用表说话的人。
 

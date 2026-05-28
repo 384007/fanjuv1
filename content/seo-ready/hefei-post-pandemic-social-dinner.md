@@ -4,7 +4,7 @@ canonicalPath: "/city/hefei/post-pandemic-social-dinner"
 alternatePath: "/en/city/hefei/post-pandemic-social-dinner"
 translationKey: "hefei-post-pandemic-social-dinner"
 lang: "zh"
-title: "在合肥找到对的后疫情线下饭局饭局，饭局app先把这一桌说清楚"
+title: "在合肥找到对的后疫情线下饭局饭局，饭局app先把这一桌说清楚 | fanju-app"
 titleZh: "在合肥找到对的后疫情线下饭局饭局，饭局app先把这一桌说清楚"
 description: "周五晚上七点，合肥的天刚黑透，长江中路的车流还没完全散去。你站在写字楼楼下，手机屏幕亮着，饭局app上一条新通知弹出来：“本周六晚，包河区小馆子，6人围桌，主题：最近一次让你笑出声的事”。你犹豫了一下，点开报名页面，看到已有三人确认参加，主"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在合肥找到对的后疫情线下饭局饭局，饭局app先把这一桌说清楚
+# 在合肥找到对的后疫情线下饭局饭局，饭局app先把这一桌说清楚 | fanju-app
 
 周五晚上七点，合肥的天刚黑透，长江中路的车流还没完全散去。你站在写字楼楼下，手机屏幕亮着，饭局app上一条新通知弹出来：“本周六晚，包河区小馆子，6人围桌，主题：最近一次让你笑出声的事”。你犹豫了一下，点开报名页面，看到已有三人确认参加，主理人留了句简短的话：“不讲故事，就听大家随便聊。”这不像你以前在微信群里见过的那种饭局——没人发红包，没有“速来”“缺你一个”的催促语气。你开始想，或许可以试一次，在合肥，用饭局app找一桌不刻意的饭。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/hyderabad/christmas-dinner"
 alternatePath: "/city/hyderabad/christmas-dinner"
 translationKey: "hyderabad-christmas-dinner"
 lang: "en"
-title: "A calmer way to approach Christmas Dinner in Hyderabad through Fanju app"
+title: "A calmer way to approach Christmas Dinner in Hyderabad through Fanju app | fanju-app"
 description: "Planned spontaneity is what makes a Christmas Dinner in Hyderabad feel grounded rather than chaotic. Without clear expectations—about timing, food style, or guest dynamics—what begins as a social gesture can dissolve"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# A calmer way to approach Christmas Dinner in Hyderabad through Fanju app
+# A calmer way to approach Christmas Dinner in Hyderabad through Fanju app | fanju-app
 
 In Hyderabad, where traditions layer like the city’s own history, Christmas Dinner can feel both inviting and overwhelming. The Fanju app offers a different path: small, intentional gatherings centered around home-cooked meals, hosted by locals who open their tables to neighbors and newcomers alike. It’s not about grand feasts or performative merriment, but about real connection through shared food and quiet conversation. For those who find large parties exhausting or unfamiliar, Fanju allows a gentler entry into the season—one where the focus isn’t on spectacle, but on presence. By framing dinner as a space to listen, be heard, and simply be, the app reshapes how people in Hyderabad experience community during the holidays.
 

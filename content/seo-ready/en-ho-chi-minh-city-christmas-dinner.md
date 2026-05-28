@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ho-chi-minh-city/christmas-dinner"
 alternatePath: "/city/ho-chi-minh-city/christmas-dinner"
 translationKey: "ho-chi-minh-city-christmas-dinner"
 lang: "en"
-title: "Ho Chi Minh City does not need another vague invite; Fanju app makes Christmas Dinner specific"
+title: "Ho Chi Minh City does not need another vague invite; Fanju app makes Christmas Dinner specific | fanju-app"
 description: "In Ho Chi Minh City, where street life hums late into the night and neighbourhoods pulse with distinct rhythms, finding real connection during the holidays can feel like searching for quiet in District 1 at rush hour. Th"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Ho Chi Minh City does not need another vague invite; Fanju app makes Christmas Dinner specific
+# Ho Chi Minh City does not need another vague invite; Fanju app makes Christmas Dinner specific | fanju-app
 
 In Ho Chi Minh City, where street life hums late into the night and neighbourhoods pulse with distinct rhythms, finding real connection during the holidays can feel like searching for quiet in District 1 at rush hour. The Fanju app changes that by turning Christmas dinner from a generic social idea into a small, intentional gathering with clear details—host, location, cuisine, and guest count—so you know exactly what you’re stepping into. It’s not about large events or performative cheer, but about specific tables in real homes or local venues where people from the same part of the city come together for a meal that feels grounded, not staged. Whether you live in Binh Thanh or are staying short-term in District 3, Fanju helps you find a dinner that matches not just your taste in food, but your comfort with social energy.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/washington-dc/newcomer-dinner"
 alternatePath: "/city/washington-dc/newcomer-dinner"
 translationKey: "washington-dc-newcomer-dinner"
 lang: "en"
-title: "What makes Newcomer Dinner in Washington DC worth the risk; Fanju app answers before you arrive"
+title: "What makes Newcomer Dinner in Washington DC worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "Washington DC slows down differently than other major cities. After the federal offices close and the policy briefings end, there’s a pause—not quite quiet, but introspective. Many newcomers find themselves with time in"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T181226Z"
 ---
 
-# What makes Newcomer Dinner in Washington DC worth the risk; Fanju app answers before you arrive
+# What makes Newcomer Dinner in Washington DC worth the risk; Fanju app answers before you arrive | fanju-app
 
 The Fanju app sets up small dinners in Washington DC where the focus isn’t on networking or appearances, but on showing up as you are. Unlike crowded meetups or the endless scroll of group chats, these Newcomer Dinners are limited to six or seven guests at a time, hosted in accessible neighborhood spots—often on weekends, often after the week’s momentum has slowed. There’s no pressure to perform, no expectation to stay late. The idea isn’t to make fast friends but to share a meal with people who also want something quieter, something real. Fanju doesn’t promise outcomes, but it does structure the setting so that trust can form naturally: verified profiles, public restaurants, and hosts who’ve run dinners before. In a city where professional identities often overshadow personal ones, that distinction matters.
 

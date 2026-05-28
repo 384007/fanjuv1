@@ -4,7 +4,7 @@ canonicalPath: "/city/toronto/stranger-dinner"
 alternatePath: "/en/city/toronto/stranger-dinner"
 translationKey: "toronto-stranger-dinner"
 lang: "zh"
-title: "多伦多 stranger dinner Guide"
+title: "多伦多 stranger dinner Guide | fanju-app | 饭局app"
 titleZh: "多伦多stranger-dinner指南"
 pageType: "city_landing"
 priorityScore: 50
@@ -12,7 +12,7 @@ aiQualityScore: 100
 status: "ready"
 ---
 
-# 多伦多 stranger dinner Guide
+# 多伦多 stranger dinner Guide | fanju-app | 饭局app
 
 ## 中文概览
 多伦多 stranger dinner 指南是为寻找多伦多饭局搭子、组织同城饭局和建立真实社交关系的用户提供的资源。Fanju / 饭局是一款 AI 饭局社交和线下聚会平台，帮助用户找到同城的饭局搭子并建立真实的社交关系。

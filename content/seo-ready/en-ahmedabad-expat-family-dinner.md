@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ahmedabad/expat-family-dinner"
 alternatePath: "/city/ahmedabad/expat-family-dinner"
 translationKey: "ahmedabad-expat-family-dinner"
 lang: "en"
-title: "Before the first message in Ahmedabad, Fanju app makes Expat Family Dinner feel like a real decision"
+title: "Before the first message in Ahmedabad, Fanju app makes Expat Family Dinner feel like a real decision | fanju-app"
 description: "In Ahmedabad, where cultural rhythms blend tradition with global influence, expat families often find themselves navigating social invitations that blur the line between casual and committed. The Fanju app changes that b"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Before the first message in Ahmedabad, Fanju app makes Expat Family Dinner feel like a real decision
+# Before the first message in Ahmedabad, Fanju app makes Expat Family Dinner feel like a real decision | fanju-app
 
 In Ahmedabad, where cultural rhythms blend tradition with global influence, expat families often find themselves navigating social invitations that blur the line between casual and committed. The Fanju app changes that by transforming the idea of an expat dinner from a vague group chat suggestion into a structured, predictable experience—especially important for women who weigh comfort and safety in every new social setting. Unlike open meetups or dating-style mixers, Fanju’s Expat Family Dinner format focuses on intimate, pre-vetted tables of four to six guests, fostering real conversation without the pressure of performance or overstimulation. This deliberate design makes it easier for women, particularly those new to the city or parenting abroad, to say yes without second-guessing.
 

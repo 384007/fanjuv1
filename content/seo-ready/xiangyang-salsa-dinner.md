@@ -4,7 +4,7 @@ canonicalPath: "/city/xiangyang/salsa-dinner"
 alternatePath: "/en/city/xiangyang/salsa-dinner"
 translationKey: "xiangyang-salsa-dinner"
 lang: "zh"
-title: "襄阳萨尔萨舞饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "襄阳萨尔萨舞饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "襄阳萨尔萨舞饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "在襄阳，越来越多的人开始用饭局app组织小型社交，但真正能留下记忆的饭局，往往不是人最多、最热闹的那一桌。比如一场萨尔萨舞后的饭局，有人把它当作跳完舞顺带解决晚饭的场合，有人则期待在饭桌上延续舞步间的默契。饭局app在襄阳的特别之处，不在于"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 襄阳萨尔萨舞饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 襄阳萨尔萨舞饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 在襄阳，越来越多的人开始用饭局app组织小型社交，但真正能留下记忆的饭局，往往不是人最多、最热闹的那一桌。比如一场萨尔萨舞后的饭局，有人把它当作跳完舞顺带解决晚饭的场合，有人则期待在饭桌上延续舞步间的默契。饭局app在襄阳的特别之处，不在于它能召集多少人，而是它开始帮人们厘清：这一桌的边界在哪里。边界不是冷淡，而是对彼此期待的尊重。当一次饭局的目标从“凑够六个人”变成“找到愿意聊三首歌背后故事的人”，饭局才真正开始参与城市社区的构建。
 

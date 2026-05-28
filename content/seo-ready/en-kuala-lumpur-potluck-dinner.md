@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kuala-lumpur/potluck-dinner"
 alternatePath: "/city/kuala-lumpur/potluck-dinner"
 translationKey: "kuala-lumpur-potluck-dinner"
 lang: "en"
-title: "In Kuala Lumpur, Fanju app turns Potluck Dinner into a table people can actually trust"
+title: "In Kuala Lumpur, Fanju app turns Potluck Dinner into a table people can actually trust | fanju-app"
 description: "In Kuala Lumpur, after long commutes and office shifts that stretch past six, the decision of what to do with the evening often defaults to eating alone or fading into silence. The Fanju app changes that by offering smal"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Kuala Lumpur, Fanju app turns Potluck Dinner into a table people can actually trust
+# In Kuala Lumpur, Fanju app turns Potluck Dinner into a table people can actually trust | fanju-app
 
 In Kuala Lumpur, after long commutes and office shifts that stretch past six, the decision of what to do with the evening often defaults to eating alone or fading into silence. The Fanju app changes that by offering small, clearly described potluck dinners hosted in real homes and community spaces where people can connect without performance. These are not events—they’re tables with intention, limited to six or eight seats, where attendees bring a dish and conversation that feels earned, not forced. The app’s structure removes guesswork: hosts list exact locations, dietary notes, and house rules upfront, so no one shows up to a mismatch. For Kuala Lumpur professionals, freelancers, and newcomers, it’s become a quiet but dependable way to end the week without isolation.
 

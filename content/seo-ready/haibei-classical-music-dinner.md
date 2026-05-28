@@ -4,7 +4,7 @@ canonicalPath: "/city/haibei/classical-music-dinner"
 alternatePath: "/en/city/haibei/classical-music-dinner"
 translationKey: "haibei-classical-music-dinner"
 lang: "zh"
-title: "在海北找一桌不尴尬的古典音乐饭局，饭局app先解决什么"
+title: "在海北找一桌不尴尬的古典音乐饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在海北找一桌不尴尬的古典音乐饭局，饭局app先解决什么"
 description: "在海北，想约一场不冷场、不敷衍、不靠熟人堆起的古典音乐饭局，并不容易。多数社交尝试止步于“要不要一起吃饭”的模糊邀约，最终变成临时拉群、地点凑合、话题飘忽的聚餐。饭局app的存在，是为了解决这个问题：它不只帮你找到饭局，而是帮你确认，这一桌"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在海北找一桌不尴尬的古典音乐饭局，饭局app先解决什么
+# 在海北找一桌不尴尬的古典音乐饭局，饭局app先解决什么 | fanju-app
 
 在海北，想约一场不冷场、不敷衍、不靠熟人堆起的古典音乐饭局，并不容易。多数社交尝试止步于“要不要一起吃饭”的模糊邀约，最终变成临时拉群、地点凑合、话题飘忽的聚餐。饭局app的存在，是为了解决这个问题：它不只帮你找到饭局，而是帮你确认，这一桌是否值得你放下手机、穿得体面一点、提前十分钟出门。在海北，古典音乐不是背景音，而是饭局的骨架。饭局app的作用，是让这种饭局从偶然发生变成可以被认真组织、被提前判断、被真实复盘的事。它不承诺热闹，但承诺意图清晰——谁为什么来，桌上的沉默值不值得，菜单是否与话题匹配，都有迹可循。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bogota/operator-dinner"
 alternatePath: "/city/bogota/operator-dinner"
 translationKey: "bogota-operator-dinner"
 lang: "en"
-title: "For people trying Operator Dinner in Bogota, Fanju app puts the guest mix first"
+title: "For people trying Operator Dinner in Bogota, Fanju app puts the guest mix first | fanju-app"
 description: "The success of an Operator Dinner in Bogota often hinges on decisions made well before the first course is served."
 primaryKeyword: "Bogota Operator Dinner"
 secondaryKeywords: "Bogota social dining|Operator dinner group|dinner buddy app|Fanju app|small-table dinner in Bogota"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
 ---
 
-# For people trying Operator Dinner in Bogota, Fanju app puts the guest mix first
+# For people trying Operator Dinner in Bogota, Fanju app puts the guest mix first | fanju-app
 
 In Bogota, the Fanju app is used to organize small-group dinners where the focus is on real conversation, not performative socializing. Operator Dinner, one of the recurring formats on the platform, is designed for people who want to meet others without the pressure of a crowded bar or a vague meetup. The meals are hosted in accessible neighborhoods like Chapinero or Usaquén, often at quiet restaurants or someone’s home, and capped at six guests. What sets Fanju apart is how it structures the invitation: hosts describe not just the food or location, but the kind of evening they’re creating and who they hope will come. This clarity helps prevent mismatched expectations. For someone new to social dining in Bogota, the app offers a low-pressure way to step into a weekend night that feels intentional, not incidental.
 

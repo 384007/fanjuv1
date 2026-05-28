@@ -4,7 +4,7 @@ canonicalPath: "/en/city/barcelona/waitlist-dinner"
 alternatePath: "/city/barcelona/waitlist-dinner"
 translationKey: "barcelona-waitlist-dinner"
 lang: "en"
-title: "In Barcelona, Fanju app turns Waitlist Dinner into a table people can actually trust"
+title: "In Barcelona, Fanju app turns Waitlist Dinner into a table people can actually trust | fanju-app"
 description: "In Barcelona, where dinner often stretches past midnight and conversations spill into the street, the Fanju app offers a quieter alternative: the Waitlist Dinner. Unlike crowded tapas bars or last-minute group chats that"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Barcelona, Fanju app turns Waitlist Dinner into a table people can actually trust
+# In Barcelona, Fanju app turns Waitlist Dinner into a table people can actually trust | fanju-app
 
 In Barcelona, where dinner often stretches past midnight and conversations spill into the street, the Fanju app offers a quieter alternative: the Waitlist Dinner. Unlike crowded tapas bars or last-minute group chats that promise connection but deliver noise, Fanju curates small, intentional dinners where showing up is enough. There’s no performance required. The app handles guest matching, venue coordination, and timing so people who prefer listening to talking, or thinking before speaking, can still belong. For introverts walking into a room full of strangers, that structure isn’t just helpful—it’s what makes participation possible.
 

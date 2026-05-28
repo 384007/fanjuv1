@@ -4,7 +4,7 @@ canonicalPath: "/en/city/alexandria/devtools-dinner"
 alternatePath: "/city/alexandria/devtools-dinner"
 translationKey: "alexandria-devtools-dinner"
 lang: "en"
-title: "A calmer way to approach Devtools Dinner in Alexandria through Fanju app"
+title: "A calmer way to approach Devtools Dinner in Alexandria through Fanju app | fanju-app"
 description: "It’s easy to assume that dinner in Alexandria with developers means another loud meetup in a buzzing co-working space, full of pitch decks and job swaps. But through the Fanju app, Devtools Dinner takes a different path—"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# A calmer way to approach Devtools Dinner in Alexandria through Fanju app
+# A calmer way to approach Devtools Dinner in Alexandria through Fanju app | fanju-app
 
 It’s easy to assume that dinner in Alexandria with developers means another loud meetup in a buzzing co-working space, full of pitch decks and job swaps. But through the Fanju app, Devtools Dinner takes a different path—one where the city’s quieter rhythm shapes the experience. In Alexandria, where the Mediterranean light lingers and conversations often outlast the coffee, the real value isn’t in networking but in presence. Fanju doesn’t list events; it surfaces dinners hosted by people who live here, who know the difference between Corniche strolls and code refactors. You won’t find sponsored talks or branded swag. Instead, you’re invited to a home-cooked meal where someone might casually mention their latest open-source tool between bites of molokhia. It’s not about skipping the city’s tech scene—it’s about grounding it in daily life.
 

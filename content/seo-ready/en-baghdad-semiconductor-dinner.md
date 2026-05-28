@@ -4,7 +4,7 @@ canonicalPath: "/en/city/baghdad/semiconductor-dinner"
 alternatePath: "/city/baghdad/semiconductor-dinner"
 translationKey: "baghdad-semiconductor-dinner"
 lang: "en"
-title: "In Baghdad, Fanju app turns Semiconductor Dinner into a table people can actually trust"
+title: "In Baghdad, Fanju app turns Semiconductor Dinner into a table people can actually trust | fanju-app"
 description: "Most invitations in Baghdad never make it past the idea stage. A friend says, “We should meet up sometime,” and the moment drifts away. Even group events often lack detail—just a name, a date, and a hope."
 primaryKeyword: "Baghdad Semiconductor Dinner"
 secondaryKeywords: "Baghdad social dining|Semiconductor dinner group|dinner buddy app|Fanju app|small-table dinner in Baghdad"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T210005Z"
 ---
 
-# In Baghdad, Fanju app turns Semiconductor Dinner into a table people can actually trust
+# In Baghdad, Fanju app turns Semiconductor Dinner into a table people can actually trust | fanju-app
 
 The Fanju app in Baghdad offers a simple but rare thing: small, clearly described dinners where what you see is what you get. Unlike group chats that promise connection but deliver noise, Fanju hosts specific tables—like the Semiconductor Dinner—where attendees know the topic, the host’s name, the neighbourhood, and the guest limit before they RSVP. This isn’t about grand social transformations. It’s about making it easier to say yes to one real conversation in a city where plans often dissolve into silence. The Semiconductor Dinner isn’t a networking event or a party. It’s a dinner for people who want to talk about technology’s role in everyday life, without the pressure of performance. In Baghdad, where social circles can feel tight or distant, this kind of clarity is what makes showing up possible.
 

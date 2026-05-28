@@ -4,7 +4,7 @@ canonicalPath: "/city/xiangxi/introvert-dinner"
 alternatePath: "/en/city/xiangxi/introvert-dinner"
 translationKey: "xiangxi-introvert-dinner"
 lang: "zh"
-title: "在湘西把内向者饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在湘西把内向者饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在湘西把内向者饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "湘西的节奏从来不是快的。从凤凰的石板路到古丈的茶山，再到永顺的吊脚楼群，这里的生活习惯是慢下来，先看一眼，再点头，最后才开口。饭局app在这样的城市里，必须更克制。它不该推那些“速配饭局”或“破冰游戏局”，而应筛选出真正适合独自旅行者、愿意"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在湘西把内向者饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在湘西把内向者饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 傍晚六点半，吉首老城区的巷子开始亮起暖黄的灯光。你刚退掉青年旅舍的床位，背包还没放下，站在街口犹豫要不要随便找家粉店解决晚餐。手机震动，饭局app推送了一条新饭局：今晚七点半，一家藏在乾州古城后巷的柴火灶饭馆，五人小桌，主题是“独自旅行的人，今晚一起吃顿家常饭”。报名人数已到四人。你迟疑着点开详情页——这顿饭值不值得赴约，其实不是看有没有空位，而是看这一桌能不能让你安心地坐着，一句话不说也不会被催促。在湘西，饭局app不是为了热闹，而是为了让人在陌生地也能找到一顿不需表演的饭。
 

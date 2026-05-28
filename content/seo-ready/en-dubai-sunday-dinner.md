@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dubai/sunday-dinner"
 alternatePath: "/city/dubai/sunday-dinner"
 translationKey: "dubai-sunday-dinner"
 lang: "en"
-title: "When Sunday Dinner in Dubai needs more than a group chat, Fanju app starts with the table"
+title: "When Sunday Dinner in Dubai needs more than a group chat, Fanju app starts with the table | fanju-app"
 description: "Dubai Sunday Dinner on the Fanju app isn’t another swipe-based promise or a vague “let’s connect” invite."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# When Sunday Dinner in Dubai needs more than a group chat, Fanju app starts with the table
+# When Sunday Dinner in Dubai needs more than a group chat, Fanju app starts with the table | fanju-app
 
 Dubai Sunday Dinner on the Fanju app isn’t another swipe-based promise or a vague “let’s connect” invite. It’s a small-table meal with a host who sets the tone—whether it’s Emirati home cooking, post-Friday prayers reflection, or a quiet check-in after a long workweek. Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局,” and in Dubai, it works as a social dining app for offline dinner social with clear timing and purpose. This is not a dating guarantee, not a random group chat, not an endless profile feed. The table is real, the address is shared in advance, and the expectation is simple: show up, eat, talk, and leave when it feels right. For newcomers, that clarity matters more than the menu.
 

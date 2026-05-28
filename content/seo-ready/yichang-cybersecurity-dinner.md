@@ -4,7 +4,7 @@ canonicalPath: "/city/yichang/cybersecurity-dinner"
 alternatePath: "/en/city/yichang/cybersecurity-dinner"
 translationKey: "yichang-cybersecurity-dinner"
 lang: "zh"
-title: "在宜昌找到对的网络安全饭局，饭局app先把这一桌说清楚"
+title: "在宜昌找到对的网络安全饭局，饭局app先把这一桌说清楚 | fanju-app"
 titleZh: "在宜昌找到对的网络安全饭局，饭局app先把这一桌说清楚"
 description: "在宜昌，一场饭局的价值不在于谁说了多少，而在于谁真的听懂了。饭局app不是社交平台的重复，而是针对像宜昌这样节奏分明、人情未远的城市，重新设计的小桌吃饭方式——每桌不超过八人，主题锁定网络安全，从不凑数。它不鼓励泛泛之交，而是让每个参与者在"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在宜昌找到对的网络安全饭局，饭局app先把这一桌说清楚
+# 在宜昌找到对的网络安全饭局，饭局app先把这一桌说清楚 | fanju-app
 
 在宜昌，一场饭局的价值不在于谁说了多少，而在于谁真的听懂了。饭局app不是社交平台的重复，而是针对像宜昌这样节奏分明、人情未远的城市，重新设计的小桌吃饭方式——每桌不超过八人，主题锁定网络安全，从不凑数。它不鼓励泛泛之交，而是让每个参与者在报名前就能看清这一桌的来龙去脉：主理人是谁，在哪里吃，话题边界在哪，有没有留出沉默的空间。在滨江步道边的老社区里，有人下班后宁愿多走十分钟，也不愿钻进连锁餐厅的喧闹里。饭局app存在的理由，就是为这些愿意慢下来的人，找到一张真实可坐的饭桌。
 

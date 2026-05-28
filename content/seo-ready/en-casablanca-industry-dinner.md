@@ -4,7 +4,7 @@ canonicalPath: "/en/city/casablanca/industry-dinner"
 alternatePath: "/city/casablanca/industry-dinner"
 translationKey: "casablanca-industry-dinner"
 lang: "en"
-title: "Before the first message in Casablanca, Fanju app makes Industry Dinner feel like a real decision"
+title: "Before the first message in Casablanca, Fanju app makes Industry Dinner feel like a real decision | fanju-app"
 description: "In Casablanca, where after-hours socializing often drifts between last-minute group chats and vague invitations that never materialize, the Fanju app offers a different rhythm. It doesn’t amplify noise—it creates space f"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Casablanca, Fanju app makes Industry Dinner feel like a real decision
+# Before the first message in Casablanca, Fanju app makes Industry Dinner feel like a real decision | fanju-app
 
 In Casablanca, where after-hours socializing often drifts between last-minute group chats and vague invitations that never materialize, the Fanju app offers a different rhythm. It doesn’t amplify noise—it creates space for one deliberate dinner at a time. For professionals across design, tech, and creative industries, the app structures what used to feel haphazard: gathering without performance, talking without pitching. Industry Dinners on Fanju are not networking events disguised as meals. They’re small tables of six to eight people who agree in advance on a theme, a place, and a purpose. The app’s role isn’t to fill seats but to help guests recognize whether a particular table aligns with their intent before confirming. That clarity turns a dinner into a commitment, not just another evening out.
 

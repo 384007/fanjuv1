@@ -4,7 +4,7 @@ canonicalPath: "/city/fangchenggang/brand-dinner"
 alternatePath: "/en/city/fangchenggang/brand-dinner"
 translationKey: "fangchenggang-brand-dinner"
 lang: "zh"
-title: "不想在防城港随便拼桌，饭局app怎样让品牌饭局变成一个真实决定"
+title: "不想在防城港随便拼桌，饭局app怎样让品牌饭局变成一个真实决定 | fanju-app"
 titleZh: "不想在防城港随便拼桌，饭局app怎样让品牌饭局变成一个真实决定"
 description: "防城港的生活节奏常被形容为“慢”，但对一些人来说，这种慢更像停滞。白天在港口调度、在海关窗口、在贸易公司处理单据，重复而精确。下班后，若没有家族聚餐或老同学约酒，独居或单身的年轻人往往陷入一种安静的断连。饭局app在这里的意义，不是制造热闹"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 不想在防城港随便拼桌，饭局app怎样让品牌饭局变成一个真实决定
+# 不想在防城港随便拼桌，饭局app怎样让品牌饭局变成一个真实决定 | fanju-app
 
 晚班结束，走出港口边的写字楼，路灯刚亮，海风带着咸湿气贴着裙摆吹过。你站在路边等车，手机屏幕亮起又暗下，朋友圈里有人晒火锅，有人发加班照，你忽然不想回家煮面。在防城港，这种时刻不少见——城市不大不小，熟人圈层固定，新面孔进不来，老关系又难深聊。饭局app不是万能出口，但它提供了一种可能：一桌六人，有主理人定主题，有餐厅控节奏，你只需要决定要不要赴约。它不承诺立刻交到朋友，但允许你在防城港的一顿晚饭里，重新试试看和人说话的感觉。
 

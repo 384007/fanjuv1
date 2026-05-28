@@ -4,7 +4,7 @@ canonicalPath: "/city/xiamen/wine-tasting-dinner"
 alternatePath: "/en/city/xiamen/wine-tasting-dinner"
 translationKey: "xiamen-wine-tasting-dinner"
 lang: "zh"
-title: "厦门不想只靠群聊时，饭局app怎样把品酒饭局坐成一桌"
+title: "厦门不想只靠群聊时，饭局app怎样把品酒饭局坐成一桌 | fanju-app"
 titleZh: "厦门不想只靠群聊时，饭局app怎样把品酒饭局坐成一桌"
 description: "在厦门，许多夜晚的开始都藏在微信群的零星消息里：有人问“最近有酒局吗”，有人发个表情包，对话就断了。热闹的表象下，真正能坐下来、说得上话的饭局却越来越少。饭局app试图改变这种状态，它不靠转发拉人，也不依赖群接龙，而是把每一桌饭当作一次真实"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 厦门不想只靠群聊时，饭局app怎样把品酒饭局坐成一桌
+# 厦门不想只靠群聊时，饭局app怎样把品酒饭局坐成一桌 | fanju-app
 
 在厦门，许多夜晚的开始都藏在微信群的零星消息里：有人问“最近有酒局吗”，有人发个表情包，对话就断了。热闹的表象下，真正能坐下来、说得上话的饭局却越来越少。饭局app试图改变这种状态，它不靠转发拉人，也不依赖群接龙，而是把每一桌饭当作一次真实发生的城市相遇来设计。在鼓浪屿的晚风和沙坡尾的巷口之外，厦门人开始用更安静的方式重新理解“一起吃饭”这件事——从六个人围坐、一瓶自然酒开瓶的瞬间开始，饭局app让品酒饭局不再是信息流里的一个标签，而是能被听见、被记住的具体时刻。
 

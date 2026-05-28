@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lahore/ai-engineer-dinner"
 alternatePath: "/city/lahore/ai-engineer-dinner"
 translationKey: "lahore-ai-engineer-dinner"
 lang: "en"
-title: "When AI Engineer Dinner feels too loose in Lahore, Fanju app starts with the table"
+title: "When AI Engineer Dinner feels too loose in Lahore, Fanju app starts with the table | fanju-app"
 description: "Fanju app helps people in Lahore form small, intentional dinners where real connection is the goal, not just conversation."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# When AI Engineer Dinner feels too loose in Lahore, Fanju app starts with the table
+# When AI Engineer Dinner feels too loose in Lahore, Fanju app starts with the table | fanju-app
 
 Fanju app helps people in Lahore form small, intentional dinners where real connection is the goal, not just conversation. It’s not a restaurant booking tool or a generic meetup platform — it’s focused on structured, host-led meals that bring together people who might not cross paths otherwise. For those curious about AI Engineer Dinner in the city, the app offers a way to move beyond vague networking and into consistent, low-pressure gatherings. Tables are limited to eight guests, and each event is framed around shared context, not just job titles.
 

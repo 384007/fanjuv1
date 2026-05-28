@@ -4,7 +4,7 @@ canonicalPath: "/en/city/osaka/night-owl-dinner"
 alternatePath: "/city/osaka/night-owl-dinner"
 translationKey: "osaka-night-owl-dinner"
 lang: "en"
-title: "Osaka strangers sit down easier when Fanju app frames the Night Owl Dinner table first"
+title: "Osaka strangers sit down easier when Fanju app frames the Night Owl Dinner table first | fanju-app"
 description: "In Osaka, where the city pulses with late-night energy but personal connections can feel thin, the Fanju app quietly reshapes how people share meals after dark. The Night Owl Dinner initiative doesn't promise instant fri"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Osaka strangers sit down easier when Fanju app frames the Night Owl Dinner table first
+# Osaka strangers sit down easier when Fanju app frames the Night Owl Dinner table first | fanju-app
 
 In Osaka, where the city pulses with late-night energy but personal connections can feel thin, the Fanju app quietly reshapes how people share meals after dark. The Night Owl Dinner initiative doesn't promise instant friendships or curated networking—it meets people where they are, often tired, a little detached, and maybe unsure how to re-enter casual social life. By using the app to set expectations and match compatible participants, it creates low-stakes dinner gatherings that unfold in real izakayas and standing bars across neighborhoods like Namba, Umeda, and Tennoji. It’s not about fixing loneliness with grand gestures, but about making one table at a time feel accessible, familiar, and human. The Fanju app doesn’t replace conversation—it prepares the ground for it.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nagoya/post-pandemic-social-dinner"
 alternatePath: "/city/nagoya/post-pandemic-social-dinner"
 translationKey: "nagoya-post-pandemic-social-dinner"
 lang: "en"
-title: "Why Post Pandemic Social Dinner in Nagoya works better when Fanju app keeps the table small"
+title: "Why Post Pandemic Social Dinner in Nagoya works better when Fanju app keeps the table small | fanju-app"
 description: "In Nagoya, where social rhythms have shifted quietly but deeply since the pandemic, the return to shared meals has been cautious—especially for women reevaluating comfort, safety, and the meaning of casual connection. Th"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Why Post Pandemic Social Dinner in Nagoya works better when Fanju app keeps the table small
+# Why Post Pandemic Social Dinner in Nagoya works better when Fanju app keeps the table small | fanju-app
 
 In Nagoya, where social rhythms have shifted quietly but deeply since the pandemic, the return to shared meals has been cautious—especially for women reevaluating comfort, safety, and the meaning of casual connection. The Post Pandemic Social Dinner concept, as hosted through the Fanju app, has taken root here not by filling large banquet halls but by holding space at tables for four to six. This deliberate scale makes a difference. Small tables mean fewer voices competing, less pressure to perform, and more room to breathe. For women who may have grown wary of unstructured group settings, Fanju’s model offers a low-threshold way to reconnect—on their terms. The app’s quiet consistency in design, from guest selection to venue choice, has helped build a version of social dining in Nagoya that feels less like an event and more like a return to something familiar: a meal where you can choose how much to share.
 

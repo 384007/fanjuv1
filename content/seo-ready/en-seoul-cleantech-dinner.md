@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seoul/cleantech-dinner"
 alternatePath: "/city/seoul/cleantech-dinner"
 translationKey: "seoul-cleantech-dinner"
 lang: "en"
-title: "Seoul Cleantech Dinner through Fanju app: the questions to answer before you sit down"
+title: "Seoul Cleantech Dinner through Fanju app: the questions to answer before you sit down | fanju-app"
 description: "Seoul Cleantech Dinner on Fanju app gathers small groups around a shared curiosity about sustainable technology, not for speed-dating or networking performances."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Seoul Cleantech Dinner through Fanju app: the questions to answer before you sit down
+# Seoul Cleantech Dinner through Fanju app: the questions to answer before you sit down | fanju-app
 
 Seoul Cleantech Dinner on Fanju app gathers small groups around a shared curiosity about sustainable technology, not for speed-dating or networking performances. This is not a dating guarantee, not a random group chat, not an endless profile feed. It’s an offline meal where conversation follows a theme—like urban air quality sensors or Korea’s solar rollout—and unfolds at a table of six to eight, often in a neighborhood bistro near Hongdae or Seocho. Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局”, and in Seoul, it works as a social dining app that structures who meets, where, and around what idea. For newcomers, clarity matters: you’re joining a planned conversation, not a drop-in meetup. The host sets expectations in advance, so you know whether this table fits your interest level, language comfort, or desire for quiet dialogue over a loud bar crawl.
 

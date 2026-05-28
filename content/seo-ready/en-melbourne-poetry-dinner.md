@@ -4,7 +4,7 @@ canonicalPath: "/en/city/melbourne/poetry-dinner"
 alternatePath: "/city/melbourne/poetry-dinner"
 translationKey: "melbourne-poetry-dinner"
 lang: "en"
-title: "How Fanju app turns a Melbourne Poetry Dinner night into something worth showing up for"
+title: "How Fanju app turns a Melbourne Poetry Dinner night into something worth showing up for | fanju-app"
 description: "The best Poetry Dinner in Melbourne wasn’t planned in a venue or over email—it started on the Fanju app, where someone asked whether the night would include food from Seddon’s long-standing Lebanese bakery or something f"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Melbourne Poetry Dinner night into something worth showing up for
+# How Fanju app turns a Melbourne Poetry Dinner night into something worth showing up for | fanju-app
 
 The best Poetry Dinner in Melbourne wasn’t planned in a venue or over email—it started on the Fanju app, where someone asked whether the night would include food from Seddon’s long-standing Lebanese bakery or something from the new Vietnamese sandwich pop-up near Footscray Station. That detail—the kind most event apps skip—was the anchor. In a city where poetry readings often dissolve into awkward bar corners with lukewarm tap water, Fanju changed the equation by treating the meal as the event’s spine, not its afterthought. It didn’t just list a time and place. It laid out a menu, named the dishes, and linked them to the poets’ themes. The result? A table that filled with people who cared about both the poem and the plate.
 

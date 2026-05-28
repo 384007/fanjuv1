@@ -4,7 +4,7 @@ canonicalPath: "/en/city/toronto/barista-dinner"
 alternatePath: "/city/toronto/barista-dinner"
 translationKey: "toronto-barista-dinner"
 lang: "en"
-title: "A calmer way to approach Barista Dinner in Toronto through Fanju app"
+title: "A calmer way to approach Barista Dinner in Toronto through Fanju app | fanju-app"
 description: "Dinner in Toronto doesn’t have to mean navigating crowded restaurants or curated tasting menus to feel like you’ve experienced something real. Through the Fanju app, Barista Dinner offers a quieter alternative: shared me"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach Barista Dinner in Toronto through Fanju app
+# A calmer way to approach Barista Dinner in Toronto through Fanju app | fanju-app
 
 Dinner in Toronto doesn’t have to mean navigating crowded restaurants or curated tasting menus to feel like you’ve experienced something real. Through the Fanju app, Barista Dinner offers a quieter alternative: shared meals hosted in homes across the city, where the focus is less on spectacle and more on presence. It’s not a food tour or a pop-up—it’s a chance to sit across from someone who lives here, listens to the same street sounds, and navigates the same transit delays. The Fanju app doesn’t promise celebrity chefs or Instagrammable plating. Instead, it helps you find tables where the host has chosen to open their home, not perform for guests. That shift—from performance to participation—changes everything.
 

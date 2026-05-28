@@ -4,7 +4,7 @@ canonicalPath: "/city/jiujiang/military-dinner"
 alternatePath: "/en/city/jiujiang/military-dinner"
 translationKey: "jiujiang-military-dinner"
 lang: "zh"
-title: "九江军人饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "九江军人饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "九江军人饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "报名前的犹豫，常常不是因为不想见人，而是怕“见错人”。在九江，不少军人或退伍后留在本地的人，习惯了任务明确、分工清晰的环境，突然进入一个“随便聊聊”的饭局，反而容易坐立不安。饭局app上的军人饭局，从报名那一刻就开始传递信息：主理人是谁、参"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T140006Z"
 ---
 
-# 九江军人饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 九江军人饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
 下班后的九江，江风从浔阳西路上掠过，街边小馆陆续亮起灯。有人在停车场多坐十分钟，有人在单位门口徘徊，不是不想回家，而是那种“回家之前，想先和谁说句话”的空档太真实。这时候打开饭局app，不是为了热闹，也不是为了拓展人脉，是想找一桌能安静说话的饭。在九江，这样的饭局其实不少，但愿意在报名前就把同桌是谁、聊什么、节奏怎样的预期讲清楚的，不多。饭局app做的，就是把这种“说清楚”变成可能——尤其对军人背景的人来说，时间紧、边界清、信任慢，一桌饭能不能吃得踏实，往往在开饭前就已经决定了。
 

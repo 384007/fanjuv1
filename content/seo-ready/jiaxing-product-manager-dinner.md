@@ -4,7 +4,7 @@ canonicalPath: "/city/jiaxing/product-manager-dinner"
 alternatePath: "/en/city/jiaxing/product-manager-dinner"
 translationKey: "jiaxing-product-manager-dinner"
 lang: "zh"
-title: "在嘉兴把产品经理饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在嘉兴把产品经理饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在嘉兴把产品经理饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "刚到嘉兴的第三天，傍晚六点走出写字楼，天光还没完全暗下来，街边的晚风裹着水乡特有的湿度拂过。你站在公交站台前，手机里打开饭局app，原本只是想看看有没有人组局吃饭，结果发现“产品经理饭局”这个主题下，已经有人在南湖边约了周五晚七点的一桌。饭"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在嘉兴把产品经理饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在嘉兴把产品经理饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 刚到嘉兴的第三天，傍晚六点走出写字楼，天光还没完全暗下来，街边的晚风裹着水乡特有的湿度拂过。你站在公交站台前，手机里打开饭局app，原本只是想看看有没有人组局吃饭，结果发现“产品经理饭局”这个主题下，已经有人在南湖边约了周五晚七点的一桌。饭局app不是那种广撒网的社交平台，它只做一件事：让有相似背景的人，围成真实的一桌，在真实的时间、真实的餐厅里吃一顿不赶时间的饭。在嘉兴，节奏比杭州慢半拍，但产品岗的需求却没少多少。你开始明白，这里不是找不到同行，而是少了一个坐下来说话的入口。
 

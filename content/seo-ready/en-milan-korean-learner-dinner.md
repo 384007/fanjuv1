@@ -4,7 +4,7 @@ canonicalPath: "/en/city/milan/korean-learner-dinner"
 alternatePath: "/city/milan/korean-learner-dinner"
 translationKey: "milan-korean-learner-dinner"
 lang: "en"
-title: "Milan strangers sit down easier when Fanju app frames the Korean Learner Dinner table first"
+title: "Milan strangers sit down easier when Fanju app frames the Korean Learner Dinner table first | fanju-app"
 description: "In Milan, where evening plans often dissolve into last-minute cancellations or crowded aperitivo stands with no real conversation, the Fanju app offers a different rhythm. It gathers small groups—four to six people—aroun"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Milan strangers sit down easier when Fanju app frames the Korean Learner Dinner table first
+# Milan strangers sit down easier when Fanju app frames the Korean Learner Dinner table first | fanju-app
 
 In Milan, where evening plans often dissolve into last-minute cancellations or crowded aperitivo stands with no real conversation, the Fanju app offers a different rhythm. It gathers small groups—four to six people—around private tables where the premise is clear: a shared interest in Korean language and culture, not just social performance. These are not networking events or loud group dinners. They are deliberate, quiet gatherings, often in tucked-away trattorias near Porta Venezia or Navigli, where speaking slowly, mispronouncing words, or asking for repetition isn’t awkward—it’s expected. The Fanju app makes this possible not by filling seats quickly, but by framing the experience before anyone arrives, giving Milanese learners a structure where comfort is built in, not hoped for.
 

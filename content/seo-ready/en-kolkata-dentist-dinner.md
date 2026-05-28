@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kolkata/dentist-dinner"
 alternatePath: "/city/kolkata/dentist-dinner"
 translationKey: "kolkata-dentist-dinner"
 lang: "en"
-title: "Kolkata strangers sit down easier when Fanju app frames the Dentist Dinner table first"
+title: "Kolkata strangers sit down easier when Fanju app frames the Dentist Dinner table first | fanju-app"
 description: "Fanju app helps newcomers in Kolkata find small, intentional dinners with people they don’t know, turning the city’s quiet edges into shared tables. Unlike large meetups or impersonal events, it’s built around meals with"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Kolkata strangers sit down easier when Fanju app frames the Dentist Dinner table first
+# Kolkata strangers sit down easier when Fanju app frames the Dentist Dinner table first | fanju-app
 
 Fanju app helps newcomers in Kolkata find small, intentional dinners with people they don’t know, turning the city’s quiet edges into shared tables. Unlike large meetups or impersonal events, it’s built around meals with clear themes—like Dentist Dinner—where the focus isn’t on networking, but on the rhythm of eating and talking without performance. For someone who just arrived in the city this month, the app offers a way to bypass the usual loop of vague coffee plans or crowded bars. It’s not about instant friendships, but about testing the temperature of connection in a place where hospitality runs deep but entry can feel narrow. The Dentist Dinner tables, in particular, gather people drawn to deliberate conversation, often over home-style Bengali food or modest restaurant corners in quieter neighbourhoods.
 

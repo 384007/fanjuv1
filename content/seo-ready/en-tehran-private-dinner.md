@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tehran/private-dinner"
 alternatePath: "/city/tehran/private-dinner"
 translationKey: "tehran-private-dinner"
 lang: "en"
-title: "Private Dinner in Tehran should not feel like a gamble; Fanju app changes the odds"
+title: "Private Dinner in Tehran should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "In Tehran, a city where hospitality runs deep but social codes can feel opaque to newcomers, finding a genuine private dinner invitation used to mean relying on luck or long-standing connections. For expats and recent ar"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Private Dinner in Tehran should not feel like a gamble; Fanju app changes the odds
+# Private Dinner in Tehran should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 In Tehran, a city where hospitality runs deep but social codes can feel opaque to newcomers, finding a genuine private dinner invitation used to mean relying on luck or long-standing connections. For expats and recent arrivals, the experience often leaned more toward awkward networking than authentic connection. But with the Fanju app, the odds are shifting. It’s no longer about guessing which dinner might feel real — it’s about accessing curated, host-verified gatherings where the focus is on shared presence, not performance. The app doesn’t just list dinners; it surfaces those built on trust, consistency, and local insight, making it easier to step into a home, not just an event.
 

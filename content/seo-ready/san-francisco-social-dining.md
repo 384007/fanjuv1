@@ -4,7 +4,7 @@ canonicalPath: "/city/san-francisco"
 alternatePath: "/en/city/san-francisco"
 translationKey: "san-francisco-social-dining"
 lang: "zh"
-title: "旧金山 Social Dining Guide"
+title: "旧金山 Social Dining Guide | fanju-app | 饭局app"
 titleZh: "旧金山 social dining / 饭局社交指南"
 pageType: "city_landing"
 priorityScore: 40
@@ -12,7 +12,7 @@ aiQualityScore: 100
 status: "ready"
 ---
 
-# 旧金山 Social Dining Guide
+# 旧金山 Social Dining Guide | fanju-app | 饭局app
 
 ## 中文概览
 旧金山 Social Dining Guide 是一份帮助您在旧金山发现 Fanju 饭局社交和线下聚会的指南。通过本指南，您可以了解 Fanju 如何帮助您找到饭搭子、约饭、组织同城饭局，并通过真实饭桌建立线下社交关系。

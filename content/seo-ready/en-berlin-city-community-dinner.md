@@ -4,7 +4,7 @@ canonicalPath: "/en/city/berlin/city-community-dinner"
 alternatePath: "/city/berlin/city-community-dinner"
 translationKey: "berlin-city-community-dinner"
 lang: "en"
-title: "The City Community Dinner table Berlin actually needs is the one Fanju app describes up front"
+title: "The City Community Dinner table Berlin actually needs is the one Fanju app describes up front | fanju-app"
 description: "In Berlin, where dinner meetups often blur into networking or awkward group chats, the Fanju app offers a different kind of promise: a table built on clarity, not performance. As someone who’s hosted monthly City Communi"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# The City Community Dinner table Berlin actually needs is the one Fanju app describes up front
+# The City Community Dinner table Berlin actually needs is the one Fanju app describes up front | fanju-app
 
 In Berlin, where dinner meetups often blur into networking or awkward group chats, the Fanju app offers a different kind of promise: a table built on clarity, not performance. As someone who’s hosted monthly City Community Dinners in Neukölln and Prenzlauer Berg for the past two years, I’ve seen how easily these gatherings dissolve into polite small talk or forced convos about art galleries and rent prices. The difference with Fanju isn’t just the app—it’s that it sets the tone before a single guest arrives. It names the intent: shared meal, open minds, no agenda. That simple framing gives hosts like me a foundation to work from, not just a guest list to manage. In a city where people guard their personal space like U-Bahn seats during rush hour, that upfront honesty is the first step toward a real connection.
 

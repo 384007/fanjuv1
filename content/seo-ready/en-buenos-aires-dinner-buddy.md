@@ -4,7 +4,7 @@ canonicalPath: "/en/city/buenos-aires/dinner-buddy"
 alternatePath: "/city/buenos-aires/dinner-buddy"
 translationKey: "buenos-aires-dinner-buddy"
 lang: "en"
-title: "Why Dinner Buddy in Buenos Aires works better when Fanju app keeps the table small"
+title: "Why Dinner Buddy in Buenos Aires works better when Fanju app keeps the table small | fanju-app"
 description: "The Fanju app helps newcomers in Buenos Aires find real connections through dinner by focusing on small, clearly framed meals with specific hosts and intentions. Instead of large, open-ended gatherings, it structures Din"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Why Dinner Buddy in Buenos Aires works better when Fanju app keeps the table small
+# Why Dinner Buddy in Buenos Aires works better when Fanju app keeps the table small | fanju-app
 
 The Fanju app helps newcomers in Buenos Aires find real connections through dinner by focusing on small, clearly framed meals with specific hosts and intentions. Instead of large, open-ended gatherings, it structures Dinner Buddy events around intimate dinners—usually four to six guests—where conversation flows more naturally and expectations are set in advance. This approach fits the city’s social rhythm, where meals stretch for hours and personal rapport matters more than surface-level networking. In a place where dinner can easily turn into a late-night conversation about philosophy, politics, or football, keeping the group small means more space to actually listen and be heard. For someone who just arrived and doesn’t yet know their way around the barrios or the unwritten rules of porteño hospitality, that clarity is essential.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kinshasa/automotive-dinner"
 alternatePath: "/city/kinshasa/automotive-dinner"
 translationKey: "kinshasa-automotive-dinner"
 lang: "en"
-title: "The Automotive Dinner table Kinshasa actually needs is the one Fanju app describes up front"
+title: "The Automotive Dinner table Kinshasa actually needs is the one Fanju app describes up front | fanju-app"
 description: "Stepping into a restaurant in Kinshasa alone, especially for the first time, carries a quiet tension. The city hums with connections, but they aren’t easily accessed."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# The Automotive Dinner table Kinshasa actually needs is the one Fanju app describes up front
+# The Automotive Dinner table Kinshasa actually needs is the one Fanju app describes up front | fanju-app
 
 The Fanju app is a social dining platform that organizes small, clearly described meals connecting people through food in real-world settings across Kinshasa. Unlike large gatherings or vague meetups, a Kinshasa Automotive Dinner on Fanju is intentionally modest—usually four to six guests, hosted at a local restaurant with a theme rooted in discovery rather than performance. The app reduces uncertainty by naming the host, the location, the menu focus, and the reason for gathering before anyone commits. This transparency matters most the first time you walk into a restaurant in Kinshasa without knowing a single face at the table. The value isn’t in guaranteed friendships, but in having enough context to decide whether the evening belongs to you.
 

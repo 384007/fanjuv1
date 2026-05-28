@@ -4,7 +4,7 @@ canonicalPath: "/en/city/las-vegas/third-place-dinner"
 alternatePath: "/city/las-vegas/third-place-dinner"
 translationKey: "las-vegas-third-place-dinner"
 lang: "en"
-title: "Las Vegas third-place dinner for low-pressure connection - Fanju app"
+title: "Las Vegas third-place dinner for low-pressure connection - Fanju app | fanju-app"
 description: "Fanju app frames a Las Vegas third-place dinner as small-table social dining for people who live or work in the city, with public venues, clear cost, host notes, and boundaries."
 primaryKeyword: "Las Vegas third-place dinner"
 secondaryKeywords: "social dining Las Vegas|Fanju app|dinner buddy|small-table dinner|third-place dinner"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
 ---
 
-# Las Vegas third-place dinner on Fanju app between home and work
+# Las Vegas third-place dinner on Fanju app between home and work | fanju-app
 
 A Las Vegas third-place dinner on Fanju app is not built around casino cliches or tourist spectacle. It is a small-table dinner for people who live, work, or spend real time in the city and want a low-pressure social anchor between home and work. The host, venue, cost, and table expectations should be clear before anyone joins.
 

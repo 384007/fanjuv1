@@ -4,7 +4,7 @@ canonicalPath: "/city/chongzuo/boxing-dinner"
 alternatePath: "/en/city/chongzuo/boxing-dinner"
 translationKey: "chongzuo-boxing-dinner"
 lang: "zh"
-title: "下班后的崇左，饭局app怎样让拳击饭局有真实同桌"
+title: "下班后的崇左，饭局app怎样让拳击饭局有真实同桌 | fanju-app"
 titleZh: "下班后的崇左，饭局app怎样让拳击饭局有真实同桌"
 description: "你点开饭局app，发现今晚崇左有一场拳击饭局，主理人写了句：“练拳的人知道收拳的节奏，吃饭也一样。”这句看似平常的话，其实是筛选。它不承诺“认识新朋友”，也不说“氛围超好”，而是用一种克制的方式告诉你：这顿饭，节奏归你，你可以留，也可以走。"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T105242Z"
 ---
 
-# 下班后的崇左，饭局app怎样让拳击饭局有真实同桌
+# 下班后的崇左，饭局app怎样让拳击饭局有真实同桌 | fanju-app
 
 天黑得早的崇左，江边路灯一盏盏亮起来，你刚结束在新单位的第一周。背包还沉，脑子更沉，不想回出租屋，也不想一个人对着手机刷到凌晨。这时候打开饭局app，不是为了立刻约人吃饭，而是想看看有没有一种饭局，能让你坐下来，不用强撑，也不用解释自己是谁。拳击饭局就是这样一种存在：主题明确，人数不多，不拼热闹，只拼真实。在崇左这样的城市，它不是社交表演，而是一次有边界的尝试——试一试，能不能在一个饭桌上，慢慢把陌生感卸下来。
 

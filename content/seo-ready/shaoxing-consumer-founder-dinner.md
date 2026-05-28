@@ -4,7 +4,7 @@ canonicalPath: "/city/shaoxing/consumer-founder-dinner"
 alternatePath: "/en/city/shaoxing/consumer-founder-dinner"
 translationKey: "shaoxing-consumer-founder-dinner"
 lang: "zh"
-title: "绍兴的消费品创业者饭局不该靠运气，饭局app把主理人和同桌放在最前面"
+title: "绍兴的消费品创业者饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app"
 titleZh: "绍兴的消费品创业者饭局不该靠运气，饭局app把主理人和同桌放在最前面"
 description: "你在绍兴的第一个晚上，风从浙东运河吹过来，略带水汽。你刚搬到仓桥直街附近，行李还没完全拆开，手机里收到一条饭局app的推送：一场在书圣故里附近的饭局，主题是“小城消费品怎么做出本地温度”。五个人的席位，主理人是一位做绍兴黄酒新品牌的创业者。"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 绍兴的消费品创业者饭局不该靠运气，饭局app把主理人和同桌放在最前面
+# 绍兴的消费品创业者饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 
 你在绍兴的第一个晚上，风从浙东运河吹过来，略带水汽。你刚搬到仓桥直街附近，行李还没完全拆开，手机里收到一条饭局app的推送：一场在书圣故里附近的饭局，主题是“小城消费品怎么做出本地温度”。五个人的席位，主理人是一位做绍兴黄酒新品牌的创业者。你有点犹豫——这种局真的能聊出点东西吗？还是只是熟人聚会的借口？饭局app在绍兴的节奏慢得刚好，它不推海量信息，而是把每一场饭局当成一次小范围的真实连接。你报名的不是一场饭，而是一个入口，通向那些正在用产品说话的人。
 

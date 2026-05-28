@@ -4,7 +4,7 @@ canonicalPath: "/en/city/athens/creator-dinner"
 alternatePath: "/city/athens/creator-dinner"
 translationKey: "athens-creator-dinner"
 lang: "en"
-title: "Athens does not need another vague invite; Fanju app makes Creator Dinner specific"
+title: "Athens does not need another vague invite; Fanju app makes Creator Dinner specific | fanju-app"
 description: "Athens thrives on conversation, but too many of them collapse into polite small talk over overpriced ouzo in Psiri, forgotten by morning. The idea of Creator Dinner—gathering thoughtful people around food to share work,"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Athens does not need another vague invite; Fanju app makes Creator Dinner specific
+# Athens does not need another vague invite; Fanju app makes Creator Dinner specific | fanju-app
 
 Athens thrives on conversation, but too many of them collapse into polite small talk over overpriced ouzo in Psiri, forgotten by morning. The idea of Creator Dinner—gathering thoughtful people around food to share work, questions, and craft—should mean more. The Fanju app gives it shape. In a city where a text saying “maybe we grab dinner sometime?” dissolves into silence, Fanju grounds the invitation: a real name, a real table, a real menu, and a host who has committed to a theme. This isn’t another open-ended plan. It’s dinner with intent, hosted in a Plaka apartment with a view of the Acropolis, or a tucked-away courtyard in Exarchia where someone bakes sourdough between freelance design projects. The app doesn’t just connect—it curates, ensuring each table in Athens reflects a clarity most group chats will never achieve.
 

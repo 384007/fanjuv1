@@ -4,7 +4,7 @@ canonicalPath: "/en/city/houston/productivity-dinner"
 alternatePath: "/city/houston/productivity-dinner"
 translationKey: "houston-productivity-dinner"
 lang: "en"
-title: "A calmer way to approach Productivity Dinner in Houston through Fanju app"
+title: "A calmer way to approach Productivity Dinner in Houston through Fanju app | fanju-app"
 description: "Houston’s sprawl means every dinner choice carries weight—time in the car, parking logistics, and what kind of energy you’ll need afterward. A Productivity Dinner that’s loosely defined can feel like just another"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach Productivity Dinner in Houston through Fanju app
+# A calmer way to approach Productivity Dinner in Houston through Fanju app | fanju-app
 
 Productivity Dinner in Houston isn’t about power suits or pitch decks. It’s a quiet shift—after a long day navigating I-10 or the 610 Loop—toward a small table where conversation moves at the pace of a well-cooked meal. The Fanju app supports this by focusing on clarity: each dinner is defined by a specific theme, a named host, and a real Houston venue, reducing the guesswork around who’s attending and what the evening holds. Instead of vague networking, it’s a chance to share a meal with someone who also values depth over noise, whether you’re in Midtown, Heights, or near the Medical Center. The app helps surface dinners that match the rhythm of your life here, not disrupt it.
 

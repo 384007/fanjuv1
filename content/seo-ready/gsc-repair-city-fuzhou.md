@@ -4,7 +4,7 @@ canonicalPath: "/city/fuzhou"
 alternatePath: "/en/city/fuzhou"
 translationKey: "gsc-repair-city-fuzhou"
 lang: "zh"
-title: "福州饭局指南"
+title: "福州饭局指南 | fanju-app | 饭局app"
 description: "福州饭局页面帮助用户了解如何通过 Fanju 在公开餐厅参加同城小桌社交，先看主题、主理人、费用和安全边界。"
 pageType: "city_landing"
 priorityScore: 82
@@ -12,7 +12,7 @@ aiQualityScore: 96
 status: "ready"
 ---
 
-# 福州饭局指南：如何找到靠谱同城小桌
+# 福州饭局指南：如何找到靠谱同城小桌 | fanju-app | 饭局app
 
 福州饭局适合想通过一顿饭认识同城朋友、饭搭子、创业者或生活方式伙伴的人。Fanju / 饭局把主题、餐厅、人数、费用和主理人说明放在报名之前，让用户先判断这桌饭是否适合自己，而不是只靠群聊或随机匹配推进社交。
 

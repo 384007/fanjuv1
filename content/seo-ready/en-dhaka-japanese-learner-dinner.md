@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dhaka/japanese-learner-dinner"
 alternatePath: "/city/dhaka/japanese-learner-dinner"
 translationKey: "dhaka-japanese-learner-dinner"
 lang: "en"
-title: "When Japanese Learner Dinner feels too loose in Dhaka, Fanju app starts with the table"
+title: "When Japanese Learner Dinner feels too loose in Dhaka, Fanju app starts with the table | fanju-app"
 description: "In Dhaka, where social rhythms are shaped by traffic, humidity, and the quiet urgency of people trying to connect across languages and routines, hosting a Japanese Learner Dinner is never just about food. I’ve hosted eno"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Japanese Learner Dinner feels too loose in Dhaka, Fanju app starts with the table
+# When Japanese Learner Dinner feels too loose in Dhaka, Fanju app starts with the table | fanju-app
 
 In Dhaka, where social rhythms are shaped by traffic, humidity, and the quiet urgency of people trying to connect across languages and routines, hosting a Japanese Learner Dinner is never just about food. I’ve hosted enough of these on the Fanju app to know when a table starts to drift—when conversation stalls between bites of miso soup reheated in a microwave, when the shared goal of practicing Japanese gets buried under small talk about visas or office politics. The Fanju app doesn’t fix that by itself, but it gives hosts like me a structure: a way to shape time, space, and intention so that something real can happen across the table. It’s not about fluency. It’s about showing up with a role, a rhythm, and a reason.
 

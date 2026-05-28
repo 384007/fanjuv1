@@ -4,7 +4,7 @@ canonicalPath: "/city/shantou/tea-ceremony-dinner"
 alternatePath: "/en/city/shantou/tea-ceremony-dinner"
 translationKey: "shantou-tea-ceremony-dinner"
 lang: "zh"
-title: "在汕头，用一杯工夫茶找到饭搭子 | Fanju 茶道饭局"
+title: "在汕头，用一杯工夫茶找到饭搭子 | Fanju 茶道饭局 | fanju-app | 饭局app"
 titleZh: "在汕头，用一杯工夫茶找到饭搭子 | Fanju 茶道饭局"
 description: "汕头茶道饭局通过 Fanju 小桌饭局提前说明主题、公开地点、人数和费用边界，帮助同城用户判断这一桌是否适合自己。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在汕头，用一杯工夫茶找到饭搭子
+# 在汕头，用一杯工夫茶找到饭搭子 | fanju-app | 饭局app
 
 在汕头，一顿饭的意义从不只在果腹。Fanju 推出的茶道饭局，将工夫茶的三巡礼序融入小桌晚餐，让本地人、返乡青年、异地工作者与文化兴趣者，在茶香渐暖中自然开启对话。这不是随机群聊的饭局，也不是目的明确的相亲局，而是一场以茶为引、以饭为媒的同频社交尝试。
 
@@ -30,10 +30,6 @@ recoveredFromD1: "true"
 ## Fanju 如何让饭局更安心
 
 每场茶道饭局都在可预约的经营场所内进行，如滨江复合空间或社区共享厨房。费用明确包含茶品、餐食与空间使用，不设隐形消费。主持人身份与流程提前公示，参与者可随时离场。Fanju 不承诺结果，也不替代专业服务，但确保过程透明、边界清晰。
-
-## 如何判断这一桌是否适合你
-
-关键在饭前共冲一壶茶的瞬间。在汕头，能否默契接序、手法得体，是本地人判断‘外人懂茶’的微妙信号。这动作不考技艺，而察态度——是否尊重茶礼节奏，是否愿意倾听。若你愿意用一杯茶的时间，观察彼此的温度，那这顿饭就值得开始。
 
 ## 一顿饭，不必说尽人生
 

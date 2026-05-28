@@ -4,7 +4,7 @@ canonicalPath: "/en/city/delhi/hiking-dinner"
 alternatePath: "/city/delhi/hiking-dinner"
 translationKey: "delhi-hiking-dinner"
 lang: "en"
-title: "Before the first message in Delhi, Fanju app makes Hiking Dinner feel like a real decision"
+title: "Before the first message in Delhi, Fanju app makes Hiking Dinner feel like a real decision | fanju-app"
 description: "Fanju app connects people in Delhi through small, clearly described meals where the focus is on real-world presence, not performance."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Before the first message in Delhi, Fanju app makes Hiking Dinner feel like a real decision
+# Before the first message in Delhi, Fanju app makes Hiking Dinner feel like a real decision | fanju-app
 
 Fanju app connects people in Delhi through small, clearly described meals where the focus is on real-world presence, not performance. These gatherings, called Hiking Dinner, are not structured as dates but as low-pressure opportunities to meet others with shared curiosity about food and conversation. The app surfaces host intentions, venue choices, and table tone in advance, helping users decide whether a particular dinner fits their comfort level. In a city where social invitations often carry unspoken expectations, this transparency makes the weekend decision feel grounded.
 

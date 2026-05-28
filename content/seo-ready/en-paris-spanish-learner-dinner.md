@@ -4,7 +4,7 @@ canonicalPath: "/en/city/paris/spanish-learner-dinner"
 alternatePath: "/city/paris/spanish-learner-dinner"
 translationKey: "paris-spanish-learner-dinner"
 lang: "en"
-title: "Why Spanish Learner Dinner in Paris works better when Fanju app keeps the table small"
+title: "Why Spanish Learner Dinner in Paris works better when Fanju app keeps the table small | fanju-app"
 description: "Hosting a Spanish Learner Dinner in Paris has taught me that intimacy isn’t just a side benefit—it’s the foundation. When I first started organizing these gatherings, I thought more people meant more energy. But I quickl"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Spanish Learner Dinner in Paris works better when Fanju app keeps the table small
+# Why Spanish Learner Dinner in Paris works better when Fanju app keeps the table small | fanju-app
 
 Hosting a Spanish Learner Dinner in Paris has taught me that intimacy isn’t just a side benefit—it’s the foundation. When I first started organizing these gatherings, I thought more people meant more energy. But I quickly learned that too many voices at once drowned out the real goal: helping people practice Spanish in a relaxed, authentic way. The Fanju app changed how I manage these dinners by enforcing smaller group sizes, and that constraint has become the key to consistency. In a city like Paris, where social plans often dissolve into last-minute cancellations or overcrowded meetups, Fanju creates structure without rigidity. It ensures the table is full but never overflowing, and that everyone who joins has a real chance to speak, listen, and connect.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/zurich/police-dinner"
 alternatePath: "/city/zurich/police-dinner"
 translationKey: "zurich-police-dinner"
 lang: "en"
-title: "Zurich after work: how Fanju app makes Police Dinner feel like a real room"
+title: "Zurich after work: how Fanju app makes Police Dinner feel like a real room | fanju-app"
 description: "In Zurich, where punctuality and privacy shape daily rhythms, finding space for unplanned human connection can feel like an afterthought. The Fanju app changes that quietly but meaningfully, especially around one recurri"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Zurich after work: how Fanju app makes Police Dinner feel like a real room
+# Zurich after work: how Fanju app makes Police Dinner feel like a real room | fanju-app
 
 In Zurich, where punctuality and privacy shape daily rhythms, finding space for unplanned human connection can feel like an afterthought. The Fanju app changes that quietly but meaningfully, especially around one recurring event: Police Dinner. It’s not a formal program or a city-sponsored initiative, but a growing pattern of small, informal dinners organized through Fanju, where Zurich residents—often strangers—meet at shared tables in neighborhood restaurants. The name “Police Dinner” doesn’t imply authority or surveillance; it’s a loose, self-deprecating label adopted by early participants to signal structure without pretense—a dinner with rules light enough to breathe, firm enough to trust. On Fanju, these dinners appear as time-limited events, capped at six guests, hosted in unremarkable places: a corner table at a Thai bistro near Bellevue, a back booth in a family-run röstiparadise in Wiedikon. What makes them different isn’t the food or the venue, but the shared understanding that this isn’t about romance, networking, or performance. It’s about showing up as a person, not a profile.
 

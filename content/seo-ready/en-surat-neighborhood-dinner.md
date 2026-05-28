@@ -4,7 +4,7 @@ canonicalPath: "/en/city/surat/neighborhood-dinner"
 alternatePath: "/city/surat/neighborhood-dinner"
 translationKey: "surat-neighborhood-dinner"
 lang: "en"
-title: "Surat has plenty of Neighborhood Dinner options; Fanju app is the one that names the table first"
+title: "Surat has plenty of Neighborhood Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "In Surat, where evenings unfold with the scent of street kebabs and the quiet hum of textile workshops winding down, finding connection among professionals can feel fragmented. Networking events often lean formal, loud,"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Surat has plenty of Neighborhood Dinner options; Fanju app is the one that names the table first
+# Surat has plenty of Neighborhood Dinner options; Fanju app is the one that names the table first | fanju-app
 
 In Surat, where evenings unfold with the scent of street kebabs and the quiet hum of textile workshops winding down, finding connection among professionals can feel fragmented. Networking events often lean formal, loud, or transactional. But through the Fanju app, a different rhythm has taken root—one where a shared dinner table in Adajan or Vesu becomes a space for genuine exchange. The app doesn’t promise instant deals or forced introductions. Instead, it structures small, hosted dinners with clear intent: a few people, one meal, and space to talk without pitch decks. For founders, freelancers, and mid-career operators in Surat, it’s become a quiet alternative to the exhausting grind of professional visibility. The table isn’t a stage. It’s a pause.
 

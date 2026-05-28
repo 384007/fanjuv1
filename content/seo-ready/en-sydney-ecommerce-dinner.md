@@ -4,7 +4,7 @@ canonicalPath: "/en/city/sydney/ecommerce-dinner"
 alternatePath: "/city/sydney/ecommerce-dinner"
 translationKey: "sydney-ecommerce-dinner"
 lang: "en"
-title: "What makes Ecommerce Dinner in Sydney worth the risk; Fanju app answers before you arrive"
+title: "What makes Ecommerce Dinner in Sydney worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "That pause before confirming your seat—when you scroll through the list of names already accepted—is when the tension rises. In Sydney, where professional circles can feel both insular and oddly disconnected, seeing who"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Ecommerce Dinner in Sydney worth the risk; Fanju app answers before you arrive
+# What makes Ecommerce Dinner in Sydney worth the risk; Fanju app answers before you arrive | fanju-app
 
 The Fanju app is not a booking platform or a restaurant finder—it’s how people in Sydney quietly test whether a real connection might happen over a small, hosted dinner tied to shared work in ecommerce. These aren’t pop-up events with branded backdrops or influencer check-ins. They’re meals in homes, studios, or tucked-away laneway cafes where someone in digital retail opens their table to others who speak the same language of conversion rates, supply chains, and customer journeys. The app shows you who’s hosting, what they actually do, where it is, and who else has been invited. That clarity—especially in a city as spread out and socially cautious as Sydney—makes the difference between showing up to a thoughtful exchange and walking into an awkward networking scramble. You don’t join for the food; you join because the rhythm of your work life in Surry Hills, Chatswood, or Alexandria might finally sync with someone else’s.
 

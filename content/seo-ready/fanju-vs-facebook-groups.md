@@ -3,7 +3,7 @@ slug: "fanju-vs-facebook-groups"
 canonicalPath: "/fanju-vs-facebook-groups"
 alternatePath: "/en/fanju-vs-facebook-groups"
 translationKey: "fanju-vs-facebook-groups"
-title: "饭局 Fanju vs Facebook 群组：哪个更适合组织饭局？"
+title: "饭局 Fanju vs Facebook 群组：哪个更适合组织饭局？ | fanju-app | 饭局app"
 titleZh: "饭局 vs Facebook 群组"
 description: "对比饭局 Fanju 和 Facebook 群组在组织饭局方面的差异。了解为什么专属饭局平台比通用群聊能带来更好的社交用餐体验。"
 pageType: "comparison"
@@ -13,7 +13,7 @@ priorityScore: 85
 status: "ready"
 ---
 
-# 饭局 Fanju vs Facebook 群组
+# 饭局 Fanju vs Facebook 群组 | fanju-app | 饭局app
 
 很多人习惯用 Facebook 群组来组织饭局活动。但通用群聊工具和专属社交用餐平台，服务的是完全不同的需求。以下是两者的详细对比。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/casablanca/retail-dinner"
 alternatePath: "/city/casablanca/retail-dinner"
 translationKey: "casablanca-retail-dinner"
 lang: "en"
-title: "Casablanca after work: how Fanju app makes Retail Dinner feel like a real room"
+title: "Casablanca after work: how Fanju app makes Retail Dinner feel like a real room | fanju-app"
 description: "In Casablanca, where the pace of life shifts subtly after the call to prayer echoes over the medina, a new kind of evening is quietly gaining shape — the Retail Dinner, hosted through the Fanju app. It’s not a restaurant"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Casablanca after work: how Fanju app makes Retail Dinner feel like a real room
+# Casablanca after work: how Fanju app makes Retail Dinner feel like a real room | fanju-app
 
 In Casablanca, where the pace of life shifts subtly after the call to prayer echoes over the medina, a new kind of evening is quietly gaining shape — the Retail Dinner, hosted through the Fanju app. It’s not a restaurant pop-up or a supper club, but something more intentional: a shared table where people meet not just to eat, but to engage. The app sets the tone early, offering clarity on who’s hosting, what’s being served, and what kind of conversation is expected. For those new to the city or returning after years away, Fanju doesn’t just connect diners — it builds continuity between strangers through thoughtful curation. This isn’t about convenience; it’s about crafting moments where food becomes a quiet anchor for real exchange.
 

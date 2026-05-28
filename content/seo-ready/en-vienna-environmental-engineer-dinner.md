@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vienna/environmental-engineer-dinner"
 alternatePath: "/city/vienna/environmental-engineer-dinner"
 translationKey: "vienna-environmental-engineer-dinner"
 lang: "en"
-title: "The Environmental Engineer Dinner table Vienna actually needs is the one Fanju app describes up front"
+title: "The Environmental Engineer Dinner table Vienna actually needs is the one Fanju app describes up front | fanju-app"
 description: "In a city like Vienna, where coffeehouse conversations can stretch for hours and social circles often form around shared academic or professional paths, the Fanju app offers something quietly essential: a way to meet fel"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# The Environmental Engineer Dinner table Vienna actually needs is the one Fanju app describes up front
+# The Environmental Engineer Dinner table Vienna actually needs is the one Fanju app describes up front | fanju-app
 
 In a city like Vienna, where coffeehouse conversations can stretch for hours and social circles often form around shared academic or professional paths, the Fanju app offers something quietly essential: a way to meet fellow environmental engineers without the noise of networking events or the awkwardness of overbooked meetups. The app’s Environmental Engineer Dinner feature doesn’t promise instant friendships or career breakthroughs. Instead, it frames small, intentional dinners—usually six to eight people, often women early in their careers or new to the city—where the setting is clear, the expectations are low, and the atmosphere allows space to speak without having to compete. It’s this deliberate structure, more than the food or even the guest list, that makes the experience feel both rare and necessary in Vienna’s otherwise polished social landscape.
 

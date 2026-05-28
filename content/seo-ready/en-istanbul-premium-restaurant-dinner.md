@@ -4,7 +4,7 @@ canonicalPath: "/en/city/istanbul/premium-restaurant-dinner"
 alternatePath: "/city/istanbul/premium-restaurant-dinner"
 translationKey: "istanbul-premium-restaurant-dinner"
 lang: "en"
-title: "Istanbul after work: how Fanju app makes Premium Restaurant Dinner feel like a real room"
+title: "Istanbul after work: how Fanju app makes Premium Restaurant Dinner feel like a real room | fanju-app"
 description: "It’s easy for plans in Istanbul to dissolve into ambiguity. A message in a group chat might say “maybe dinner later? ” with no time, no place, and no real commitment. By Saturday afternoon, nothing has materialized."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Istanbul after work: how Fanju app makes Premium Restaurant Dinner feel like a real room
+# Istanbul after work: how Fanju app makes Premium Restaurant Dinner feel like a real room | fanju-app
 
 On a Friday evening in Istanbul, the city hums with the kind of energy that builds slowly through the week—office lights dim, ferry horns echo across the Bosphorus, and small groups begin moving toward dinner. For those returning to social life after a long gap, joining a Premium Restaurant Dinner through the Fanju app offers a different kind of invitation: one that is clear in intent, limited in size, and grounded in shared anticipation. Unlike loosely worded group messages or last-minute plans that dissolve before they form, a Fanju-hosted table in Istanbul sets a tone before anyone arrives. It’s not just about food at a high-quality restaurant; it’s about entering a space where conversation has room to breathe, where expectations are stated, and where showing up means something specific. This structure, subtle but firm, turns a simple meal into a reliable social rhythm.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/jakarta/chinese-social-dining"
 alternatePath: "/city/jakarta/chinese-social-dining"
 translationKey: "jakarta-chinese-social-dining"
 lang: "en"
-title: "Jakarta strangers sit down easier when Fanju app frames the Chinese Social Dining table first"
+title: "Jakarta strangers sit down easier when Fanju app frames the Chinese Social Dining table first | fanju-app"
 description: "Selecting the right area in Jakarta shapes the entire tone of the evening. I avoid locations that require an hour-long commute through flooded side streets or sudden downpours that trap people in offices. Instead, I"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Jakarta strangers sit down easier when Fanju app frames the Chinese Social Dining table first
+# Jakarta strangers sit down easier when Fanju app frames the Chinese Social Dining table first | fanju-app
 
 Hosting a dinner in Jakarta through the Fanju app means more than choosing a restaurant—it’s about shaping a space where people who’ve never met can find common ground. I’ve hosted over thirty meals using Fanju, mostly in South and Central Jakarta, and the difference between a forgettable night and one that lingers in conversation comes down to intention. The app helps by setting clear expectations: small groups, defined themes, and real names attached to RSVPs. That structure reduces the guesswork for guests, especially in a city where social invites often dissolve into vague plans. When someone signs up through Fanju, they’re not just joining a meal—they’re agreeing to show up, stay present, and engage. That shared understanding is what makes the table feel grounded from the start.
 

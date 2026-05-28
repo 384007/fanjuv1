@@ -4,7 +4,7 @@ canonicalPath: "/en/city/delhi/french-learner-dinner"
 alternatePath: "/city/delhi/french-learner-dinner"
 translationKey: "delhi-french-learner-dinner"
 lang: "en"
-title: "What makes French Learner Dinner in Delhi worth the risk; Fanju app answers before you arrive"
+title: "What makes French Learner Dinner in Delhi worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "For many Delhi residents dipping into French conversation over shared meals, the French Learner Dinner experience can feel like a gamble—will it be a thoughtful exchange or a chaotic language scramble? The Fanju app is c"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes French Learner Dinner in Delhi worth the risk; Fanju app answers before you arrive
+# What makes French Learner Dinner in Delhi worth the risk; Fanju app answers before you arrive | fanju-app
 
 For many Delhi residents dipping into French conversation over shared meals, the French Learner Dinner experience can feel like a gamble—will it be a thoughtful exchange or a chaotic language scramble? The Fanju app is changing that uncertainty, offering verified host profiles, menu previews, and guest reviews that help residents of South Delhi, Connaught Place, and Hauz Khas make informed decisions before stepping into a host’s home. It’s not just about food or fluency; it’s about selecting dinners that match one’s comfort level and learning goals, turning social dining into a reliable weekly ritual instead of a hit-or-miss outing.
 

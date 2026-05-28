@@ -4,7 +4,7 @@ canonicalPath: "/city/weifang/ux-designer-dinner"
 alternatePath: "/en/city/weifang/ux-designer-dinner"
 translationKey: "weifang-ux-designer-dinner"
 lang: "zh"
-title: "在潍坊找到对的UX 设计师饭局饭局，饭局app先把这一桌说清楚"
+title: "在潍坊找到对的UX 设计师饭局饭局，饭局app先把这一桌说清楚 | fanju-app"
 titleZh: "在潍坊找到对的UX 设计师饭局饭局，饭局app先把这一桌说清楚"
 description: "天黑前我到的潍坊，拖着行李箱站在火车站出口，风从白浪河边吹过来，带着点咸味。手机震了一下，饭局app弹出提醒：今晚七点，城区东部一家老厂区改造的咖啡馆，一桌五人，主题是“非互联网公司的用户体验困局”。我不是本地人，也没认识谁，但点开名单，三"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在潍坊找到对的UX 设计师饭局饭局，饭局app先把这一桌说清楚
+# 在潍坊找到对的UX 设计师饭局饭局，饭局app先把这一桌说清楚 | fanju-app
 
 天黑前我到的潍坊，拖着行李箱站在火车站出口，风从白浪河边吹过来，带着点咸味。手机震了一下，饭局app弹出提醒：今晚七点，城区东部一家老厂区改造的咖啡馆，一桌五人，主题是“非互联网公司的用户体验困局”。我不是本地人，也没认识谁，但点开名单，三个人在制造业做交互设计，一个在教育硬件公司，另一个自己接城市导视项目——和我在青岛做的博物馆动线优化有点像。我报名了。饭局app不像群聊那样一堆人接龙，它把每一桌的背景、目的、甚至餐厅的座位图都列出来，让你知道这顿饭不是社交任务，而是能听点真东西的地方。
 

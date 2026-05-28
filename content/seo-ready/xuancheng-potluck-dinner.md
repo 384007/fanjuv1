@@ -4,7 +4,7 @@ canonicalPath: "/city/xuancheng/potluck-dinner"
 alternatePath: "/en/city/xuancheng/potluck-dinner"
 translationKey: "xuancheng-potluck-dinner"
 lang: "zh"
-title: "宣城不想只靠群聊时，饭局app怎样把百乐餐饭局坐成一桌"
+title: "宣城不想只靠群聊时，饭局app怎样把百乐餐饭局坐成一桌 | fanju-app"
 titleZh: "宣城不想只靠群聊时，饭局app怎样把百乐餐饭局坐成一桌"
 description: "一场在宣城举办的百乐餐饭局，如果仅仅依赖一句“有人来吗”的群聊邀约，往往难以精准地吸引到真正志同道合的参与者。 真正的社交重启，需要的是更具吸引力的切入点和清晰的价值传递。"
 primaryKeyword: "宣城百乐餐饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T230007Z"
 ---
 
-# 宣城不想只靠群聊时，饭局app怎样把百乐餐饭局坐成一桌
+# 宣城不想只靠群聊时，饭局app怎样把百乐餐饭局坐成一桌 | fanju-app
 
 在宣城，当一个下班后不想直接回家的夜晚降临，与其在熟悉的街角独自徘徊，不如考虑一下通过饭局app参与一场别开生面的百乐餐饭局。饭局app围绕小桌吃饭、清晰主题和线下连接的社交方式，为宣城的人们提供了一个更具温度和目的性的社交平台。它不是简单地聚在一起吃饭，而是通过精心策划的主题和主理人，让每一次线下相遇都充满期待，尤其是在这个线上社交成为常态的时代，重新点燃人与人之间真实连接的火花。
 

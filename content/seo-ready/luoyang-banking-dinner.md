@@ -4,7 +4,7 @@ canonicalPath: "/city/luoyang/banking-dinner"
 alternatePath: "/en/city/luoyang/banking-dinner"
 translationKey: "luoyang-banking-dinner"
 lang: "zh"
-title: "在洛阳找一桌不尴尬的银行业饭局，饭局app先解决什么"
+title: "在洛阳找一桌不尴尬的银行业饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在洛阳找一桌不尴尬的银行业饭局，饭局app先解决什么"
 description: "在洛阳，银行从业者下班后常面临一个微妙处境：想脱身于重复的会议与汇报，又不愿直接回家。社交需求真实存在，但传统的行业交流会往往让人疲惫。饭局app的出现，不是为了制造更多应酬，而是帮人避开无效社交，精准找到一桌能说真话的饭。它不承诺资源对接"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在洛阳找一桌不尴尬的银行业饭局，饭局app先解决什么
+# 在洛阳找一桌不尴尬的银行业饭局，饭局app先解决什么 | fanju-app
 
 在洛阳，银行从业者下班后常面临一个微妙处境：想脱身于重复的会议与汇报，又不愿直接回家。社交需求真实存在，但传统的行业交流会往往让人疲惫。饭局app的出现，不是为了制造更多应酬，而是帮人避开无效社交，精准找到一桌能说真话的饭。它不承诺资源对接，也不主打“人脉变现”，只做一件事：让洛阳的银行业从业者在饭桌上找回交谈的松弛感。这种改变，从一次不勉强的报名开始。
 

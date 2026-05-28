@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bogota/k-pop-dinner"
 alternatePath: "/city/bogota/k-pop-dinner"
 translationKey: "bogota-k-pop-dinner"
 lang: "en"
-title: "K-Pop Dinner in Bogota should not feel like a gamble; Fanju app changes the odds"
+title: "K-Pop Dinner in Bogota should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "K-Pop Dinner in Bogota doesn’t have to be a roll of the dice, but without structure, it often feels that way. With the Fanju app, dinner plans centered around shared K-Pop fandom gain clarity and consistency, turning unc"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# K-Pop Dinner in Bogota should not feel like a gamble; Fanju app changes the odds
+# K-Pop Dinner in Bogota should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 K-Pop Dinner in Bogota doesn’t have to be a roll of the dice, but without structure, it often feels that way. With the Fanju app, dinner plans centered around shared K-Pop fandom gain clarity and consistency, turning uncertain meetups into dependable social experiences. In a city where late-night transit and unpredictable turnout can derail even the most enthusiastic plans, Fanju offers a transparent way to join or host gatherings where the focus is on music, not matchmaking. The app’s framework supports a culture of accountability and intention—something Bogota’s K-Pop community has quietly needed.
 

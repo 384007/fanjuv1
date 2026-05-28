@@ -4,7 +4,7 @@ canonicalPath: "/city/jinan/chinese-social-dining"
 alternatePath: "/en/city/jinan/chinese-social-dining"
 translationKey: "jinan-chinese-social-dining"
 lang: "zh"
-title: "济南华人饭局社交指南"
+title: "济南华人饭局社交指南 | fanju-app | 饭局app"
 titleZh: "济南华人饭局社交指南"
 pageType: "city_landing"
 priorityScore: 50
@@ -12,7 +12,7 @@ aiQualityScore: 100
 status: "ready"
 ---
 
-# 济南华人饭局社交指南：如何用饭局app找到靠谱同桌
+# 济南华人饭局社交指南：如何用饭局app找到靠谱同桌 | fanju-app | 饭局app
 
 在泉城济南，无论是漫步于曲水流觞的泉边，还是穿梭于老街巷的烟火气中，总有一份对真实连接的渴望在涌动。对于在济南的华人来说，如何打破日常的社交壁垒，找到志同道合的饭搭子，共同体验一场有温度的线下聚会，是许多人正在探索的课题。Fanju / 饭局，作为一款创新的 AI 社交 dining app，正是为满足这种需求而生。它不仅仅是一个寻找晚餐伙伴的平台，更是一个组织和参与本地饭局的聚集地，旨在通过共享的餐桌，连接起济南这座城市里渴望真实社交的你我。通过 Fanju / 饭局，你可以轻松发现同城有趣的饭局活动，成为一名有品味的主理人，或者找到一群能与你畅谈甚欢的同桌，让每一次用餐都成为一次有意义的社交体验。
 

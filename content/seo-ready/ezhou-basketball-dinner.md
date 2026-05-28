@@ -4,7 +4,7 @@ canonicalPath: "/city/ezhou/basketball-dinner"
 alternatePath: "/en/city/ezhou/basketball-dinner"
 translationKey: "ezhou-basketball-dinner"
 lang: "zh"
-title: "在鄂州找到对的篮球饭局，饭局app先把这一桌说清楚"
+title: "在鄂州找到对的篮球饭局，饭局app先把这一桌说清楚 | fanju-app"
 titleZh: "在鄂州找到对的篮球饭局，饭局app先把这一桌说清楚"
 description: "鄂州的饭桌有它自己的节奏。不像大城市那样追求快节奏社交，这里的人更愿意为一场有来有往的对话停下脚步。篮球是引子，但饭桌才是真正的球场。组织一场饭局，不是拉个群发个通知就行，得先想清楚这一桌到底要解决什么问题。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在鄂州找到对的篮球饭局，饭局app先把这一桌说清楚
+# 在鄂州找到对的篮球饭局，饭局app先把这一桌说清楚 | fanju-app
 
 在鄂州，一场饭局能不能成，不取决于谁请客，而取决于谁先说清楚。饭局app不是用来刷活动列表的工具，它更像是一个能提前听见饭桌声音的窗口。我组织过二十多场篮球饭局，每一场都在验证一件事：真正值得坐下来的饭，是那些在开饭前就已经有了轮廓的。在鄂州，篮球是街头巷尾的话题，但真正能聊得深的饭局却不多。饭局app让我能把“这一桌”讲明白——谁来、在哪、聊什么、节奏怎么走。它不放大热闹，而是帮主理人守住边界，让报名的人不是冲着“篮球”两个字来，而是冲着“这桌人”来。
 

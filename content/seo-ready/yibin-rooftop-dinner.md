@@ -4,7 +4,7 @@ canonicalPath: "/city/yibin/rooftop-dinner"
 alternatePath: "/en/city/yibin/rooftop-dinner"
 translationKey: "yibin-rooftop-dinner"
 lang: "zh"
-title: "第一次在宜宾参加屋顶饭局，饭局app怎样让陌生人坐得下来"
+title: "第一次在宜宾参加屋顶饭局，饭局app怎样让陌生人坐得下来 | fanju-app"
 titleZh: "第一次在宜宾参加屋顶饭局，饭局app怎样让陌生人坐得下来"
 description: "那天傍晚，我在饭局app上看到一条通知：宜宾老城区某栋六层住宅的屋顶，晚上七点有一场饭局，主题是“夏天的晚饭和江边的风”。报名人数已满，六个人，主理人是本地做独立出版的阿远。我没有犹豫，点了加入。饭局app在这座城市上线快一年了，我早听说它"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 第一次在宜宾参加屋顶饭局，饭局app怎样让陌生人坐得下来
+# 第一次在宜宾参加屋顶饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 
 那天傍晚，我在饭局app上看到一条通知：宜宾老城区某栋六层住宅的屋顶，晚上七点有一场饭局，主题是“夏天的晚饭和江边的风”。报名人数已满，六个人，主理人是本地做独立出版的阿远。我没有犹豫，点了加入。饭局app在这座城市上线快一年了，我早听说它不是普通的聚餐平台，而是一个试图让陌生人之间产生真实连接的入口。宜宾这座三江交汇的小城，平日里人情味浓，但邻里之间又保持着微妙的距离。饭局app像一根细线，把那些想开口又不知从何说起的人，轻轻拉到了同一张桌边。
 

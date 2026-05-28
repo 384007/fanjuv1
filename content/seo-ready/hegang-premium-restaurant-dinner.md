@@ -4,7 +4,7 @@ canonicalPath: "/city/hegang/premium-restaurant-dinner"
 alternatePath: "/en/city/hegang/premium-restaurant-dinner"
 translationKey: "hegang-premium-restaurant-dinner"
 lang: "zh"
-title: "鹤岗想参加高端餐厅饭局，饭局app把信任感放在饭前"
+title: "鹤岗想参加高端餐厅饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "鹤岗想参加高端餐厅饭局，饭局app把信任感放在饭前"
 description: "下班后七点，中央大街的路灯刚亮，办公楼的电梯一层层空下去。有人在停车场犹豫要不要直接回家，有人在路边摊前停下脚步，但更多人只是站在街角，等一个说得过去的理由，不去面对空屋子和冰箱里半盒剩饭。在鹤岗，这样的夜晚并不罕见。冬天长，天黑得早，人也"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 鹤岗想参加高端餐厅饭局，饭局app把信任感放在饭前
+# 鹤岗想参加高端餐厅饭局，饭局app把信任感放在饭前 | fanju-app
 
 下班后七点，中央大街的路灯刚亮，办公楼的电梯一层层空下去。有人在停车场犹豫要不要直接回家，有人在路边摊前停下脚步，但更多人只是站在街角，等一个说得过去的理由，不去面对空屋子和冰箱里半盒剩饭。在鹤岗，这样的夜晚并不罕见。冬天长，天黑得早，人也容易静下来想事。饭局app就在这时候浮现出来——它不承诺热闹，也不推销社交，只是安静地提供一种可能：在高端餐厅里，和几个陌生人共进一顿有来有往的晚餐。不是酒局，不是应酬，而是一次被提前说清楚的见面。在鹤岗，这种饭局正在慢慢变成一种被信赖的生活选项。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vienna/journalist-dinner"
 alternatePath: "/city/vienna/journalist-dinner"
 translationKey: "vienna-journalist-dinner"
 lang: "en"
-title: "Why Journalist Dinner in Vienna works better when Fanju app keeps the table small"
+title: "Why Journalist Dinner in Vienna works better when Fanju app keeps the table small | fanju-app"
 description: "Vienna runs on formality masked as ease—the precise pour of a Einspänner, the numbered tram routes, the way a dinner invitation might arrive weeks in advance yet still feel provisional. For visiting or local"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T105242Z"
 ---
 
-# Why Journalist Dinner in Vienna works better when Fanju app keeps the table small
+# Why Journalist Dinner in Vienna works better when Fanju app keeps the table small | fanju-app
 
 After work in Vienna, the city settles into a rhythm of quiet routines—commuters threading through U-Bahn turnstiles, waiters adjusting chairs on sidewalk terraces, the low hum of late-day conversations in German and a dozen other languages. It’s in these moments that dinner plans feel both necessary and elusive. The Fanju app doesn’t promise instant friendships or curated networking, but it does offer something more tangible: a named table, a confirmed time, and a small group gathered around food with the quiet understanding that connection can start simply. In a city where social entry points are often guarded by unspoken codes, a dinner for journalists—limited to eight seats, hosted in a Kremsmünsterer Straße bistro—becomes less an event and more a possibility.  
 

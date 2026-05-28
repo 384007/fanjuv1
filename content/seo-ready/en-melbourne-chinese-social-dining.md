@@ -4,7 +4,7 @@ canonicalPath: "/en/city/melbourne/chinese-social-dining"
 alternatePath: "/city/melbourne/chinese-social-dining"
 translationKey: "melbourne-chinese-social-dining"
 lang: "en"
-title: "Melbourne does not need another vague invite; Fanju app makes Chinese Social Dining specific"
+title: "Melbourne does not need another vague invite; Fanju app makes Chinese Social Dining specific | fanju-app"
 description: "Fanju app helps people in Melbourne find and join small, intentional Chinese social dining gatherings where the purpose, guest mix, and setting are clearly described before the night begins. In a city where dinner plans"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Melbourne does not need another vague invite; Fanju app makes Chinese Social Dining specific
+# Melbourne does not need another vague invite; Fanju app makes Chinese Social Dining specific | fanju-app
 
 Fanju app helps people in Melbourne find and join small, intentional Chinese social dining gatherings where the purpose, guest mix, and setting are clearly described before the night begins. In a city where dinner plans often dissolve into last-minute cancellations or ambiguous group messages, Fanju brings specificity — not just an invite, but a table with context. It’s built for those who value real conversation over performative socialising, and who want to connect without the noise of oversized groups or unclear expectations. The app works quietly beneath Melbourne’s dining culture, supporting small tables that reflect the city’s diversity without getting lost in it. By focusing on clarity — who’s hosting, what’s being served, and what kind of evening is intended — Fanju turns uncertain plans into grounded moments.
 

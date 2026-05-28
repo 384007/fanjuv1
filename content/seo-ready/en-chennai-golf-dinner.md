@@ -4,7 +4,7 @@ canonicalPath: "/en/city/chennai/golf-dinner"
 alternatePath: "/city/chennai/golf-dinner"
 translationKey: "chennai-golf-dinner"
 lang: "en"
-title: "Why Golf Dinner in Chennai works better when Fanju app keeps the table small"
+title: "Why Golf Dinner in Chennai works better when Fanju app keeps the table small | fanju-app"
 description: "After work, when the last email is sent and the AC of your Marina apartment kicks in, Chennai still hums — not just with traffic or temple bells, but with the quiet ache of not quite connecting. You might have moved here"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Why Golf Dinner in Chennai works better when Fanju app keeps the table small
+# Why Golf Dinner in Chennai works better when Fanju app keeps the table small | fanju-app
 
 After work, when the last email is sent and the AC of your Marina apartment kicks in, Chennai still hums — not just with traffic or temple bells, but with the quiet ache of not quite connecting. You might have moved here for a project at Tidel Park or a role in Nungambakkam, but settling in doesn’t always mean settling down. That’s where Golf Dinner in Chennai becomes more than a social event — it’s a recalibration. And it works best when the Fanju app ensures the table stays small, familiar, and pressure-free. Not every dinner needs to be a networking sprint. Sometimes, it’s enough to share a plate of tamarind rice at a quiet Alwarpet restaurant and feel seen.
 

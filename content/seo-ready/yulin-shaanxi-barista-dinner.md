@@ -4,7 +4,7 @@ canonicalPath: "/city/yulin-shaanxi/barista-dinner"
 alternatePath: "/en/city/yulin-shaanxi/barista-dinner"
 translationKey: "yulin-shaanxi-barista-dinner"
 lang: "zh"
-title: "在榆林找到对的咖啡师饭局饭局，饭局app先把这一桌说清楚"
+title: "在榆林找到对的咖啡师饭局饭局，饭局app先把这一桌说清楚 | fanju-app"
 titleZh: "在榆林找到对的咖啡师饭局饭局，饭局app先把这一桌说清楚"
 description: "在喧嚣的城市生活里，找到一个真正能让你放松下来的社交空间，尤其对于那些更享受深度交流而非表面寒暄的内向者来说，并非易事。饭局app的出现，为像榆林这样的城市提供了一种新的可能。它不仅仅是一个平台，更是一种对社交方式的重新思考。在这里，一场精"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在榆林找到对的咖啡师饭局饭局，饭局app先把这一桌说清楚
+# 在榆林找到对的咖啡师饭局饭局，饭局app先把这一桌说清楚 | fanju-app
 
 在喧嚣的城市生活里，找到一个真正能让你放松下来的社交空间，尤其对于那些更享受深度交流而非表面寒暄的内向者来说，并非易事。饭局app的出现，为像榆林这样的城市提供了一种新的可能。它不仅仅是一个平台，更是一种对社交方式的重新思考。在这里，一场精心策划的、规模适中的咖啡师饭局，能够提供远超嘈杂酒吧或大型聚会的舒适感和归属感。榆林这座城市，本身就有着深厚的文化底蕴和独特的市井生活气息，而饭局app正是要将这种气息融入到每一次的线下相聚中，让每一次的饭局都成为一次有意义的连接。
 

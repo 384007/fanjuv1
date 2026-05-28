@@ -4,7 +4,7 @@ canonicalPath: "/en/city/jakarta/boxing-dinner"
 alternatePath: "/city/jakarta/boxing-dinner"
 translationKey: "jakarta-boxing-dinner"
 lang: "en"
-title: "How Fanju app turns a Jakarta Boxing Dinner night into something worth showing up for"
+title: "How Fanju app turns a Jakarta Boxing Dinner night into something worth showing up for | fanju-app"
 description: "As I scrolled through my phone, I stumbled upon an invitation to a Boxing Dinner in Jakarta. I had never been to one of these events before, and the idea of a dinner party with strangers sounded a bit daunting. What if I"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Jakarta Boxing Dinner night into something worth showing up for
+# How Fanju app turns a Jakarta Boxing Dinner night into something worth showing up for | fanju-app
 
 As I scrolled through my phone, I stumbled upon an invitation to a Boxing Dinner in Jakarta. I had never been to one of these events before, and the idea of a dinner party with strangers sounded a bit daunting. What if I got stuck with a bunch of awkward conversations? What if the food was terrible? I hesitated for a moment before deciding to give it a shot. That's when I discovered Fanju app, the platform that brought people together for unique dinner experiences. It was my first time using the app, and I was curious to see how it would all play out.
 

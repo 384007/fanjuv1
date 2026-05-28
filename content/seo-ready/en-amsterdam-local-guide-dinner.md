@@ -4,7 +4,7 @@ canonicalPath: "/en/city/amsterdam/local-guide-dinner"
 alternatePath: "/city/amsterdam/local-guide-dinner"
 translationKey: "amsterdam-local-guide-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Amsterdam Local Guide Dinner table before the first course"
+title: "The Fanju app way to judge a Amsterdam Local Guide Dinner table before the first course | fanju-app"
 description: "Amsterdam Local Guide Dinner through the Fanju app begins not with a bold promise, but with a quiet decision: whether to step into a brown café doorway when the host is already seated by the window."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# The Fanju app way to judge a Amsterdam Local Guide Dinner table before the first course
+# The Fanju app way to judge a Amsterdam Local Guide Dinner table before the first course | fanju-app
 
 Amsterdam Local Guide Dinner through the Fanju app begins not with a bold promise, but with a quiet decision: whether to step into a brown café doorway when the host is already seated by the window. This is not a dating guarantee, not a random group chat, not an endless profile feed. Fanju, also known in Chinese as “饭局 / 饭局app / Fanju饭局”, operates as a social dining app where dinners are small, themed, and hosted by locals who want to share food with purpose. In Amsterdam, that purpose often ties to seasonal produce, neighborhood food shifts, or quiet curiosity about who else notices the same details in a city reshaped by tourism and cycling culture. The app’s value lies in framing connection through shared meals, not forced interaction. What you get is an invitation to join a table where the host describes not just the dish, but why it matters here—say, a winter beetroot stew from a Jordaan kitchen that once supplied houseboats. The offline dinner social rhythm relies on clarity: who’s cooking, what’s expected, and how easily you can say no.
 

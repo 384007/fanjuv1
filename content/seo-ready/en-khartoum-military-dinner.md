@@ -4,7 +4,7 @@ canonicalPath: "/en/city/khartoum/military-dinner"
 alternatePath: "/city/khartoum/military-dinner"
 translationKey: "khartoum-military-dinner"
 lang: "en"
-title: "Khartoum strangers sit down easier when Fanju app frames the Military Dinner table first"
+title: "Khartoum strangers sit down easier when Fanju app frames the Military Dinner table first | fanju-app"
 description: "In Khartoum, where social rhythms often move with the slow heat of midday sun, the Fanju app has quietly reshaped how people gather across differences. Military Dinner, a format meant to bring small groups of strangers t"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Khartoum strangers sit down easier when Fanju app frames the Military Dinner table first
+# Khartoum strangers sit down easier when Fanju app frames the Military Dinner table first | fanju-app
 
 In Khartoum, where social rhythms often move with the slow heat of midday sun, the Fanju app has quietly reshaped how people gather across differences. Military Dinner, a format meant to bring small groups of strangers together for one structured evening, gains its strength not from spectacle but from clarity. In a city where shared meals are common but real conversation can be guarded, the app’s role is to draw the first line—inviting people not just to eat, but to sit with purpose. It’s not about filling chairs; it’s about choosing who shares the table, and why.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangkok/community-builder-dinner"
 alternatePath: "/city/bangkok/community-builder-dinner"
 translationKey: "bangkok-community-builder-dinner"
 lang: "en"
-title: "A calmer way to approach Community Builder Dinner in Bangkok through Fanju app"
+title: "A calmer way to approach Community Builder Dinner in Bangkok through Fanju app | fanju-app"
 description: "If you’ve ever opened the Fanju app in Bangkok and hesitated over a Community Builder Dinner listing, you’re not alone. It’s not a networking night, not a speed-friendship round, and definitely not a date. It’s quieter."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# A calmer way to approach Community Builder Dinner in Bangkok through Fanju app
+# A calmer way to approach Community Builder Dinner in Bangkok through Fanju app | fanju-app
 
 If you’ve ever opened the Fanju app in Bangkok and hesitated over a Community Builder Dinner listing, you’re not alone. It’s not a networking night, not a speed-friendship round, and definitely not a date. It’s quieter. More deliberate. People come to a table not to collect contacts but to see if a single conversation holds weight. The city’s pace—loud, fast, full of motion—makes these dinners stand out precisely because they don’t try to match it. On Fanju, these events appear like small pauses: dinner with a handful of people who’ve agreed, silently, to talk without performance. That shift—from gathering as spectacle to gathering as space—changes everything.
 

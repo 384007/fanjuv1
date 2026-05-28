@@ -4,7 +4,7 @@ canonicalPath: "/city/guyuan/archery-dinner"
 alternatePath: "/en/city/guyuan/archery-dinner"
 translationKey: "guyuan-archery-dinner"
 lang: "zh"
-title: "固原的一顿射箭饭局，饭局app为什么先看人再看热闹"
+title: "固原的一顿射箭饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "固原的一顿射箭饭局，饭局app为什么先看人再看热闹"
 description: "在固原，饭局app不是为了凑热闹而存在的。它更像是一种安静的筛选机制，帮人找到节奏相近的饭局。这座城的节奏本身就不急，南关街的面馆清晨六点开灶，北塬的巷子午后才慢慢有了人声。饭局app在这里落地，不是靠推送热闹的派对，而是先让人看清一桌饭背"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 固原的一顿射箭饭局，饭局app为什么先看人再看热闹
+# 固原的一顿射箭饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 在固原，饭局app不是为了凑热闹而存在的。它更像是一种安静的筛选机制，帮人找到节奏相近的饭局。这座城的节奏本身就不急，南关街的面馆清晨六点开灶，北塬的巷子午后才慢慢有了人声。饭局app在这里落地，不是靠推送热闹的派对，而是先让人看清一桌饭背后的人。射箭饭局更是如此——它不主打竞技，也不强调输赢，而是用拉弓的动作，把注意力从喧嚣拉回到自己身上。在固原，一场值得参加的饭局，往往是从“不热闹”开始的。
 

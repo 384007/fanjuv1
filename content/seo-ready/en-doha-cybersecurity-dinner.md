@@ -4,7 +4,7 @@ canonicalPath: "/en/city/doha/cybersecurity-dinner"
 alternatePath: "/city/doha/cybersecurity-dinner"
 translationKey: "doha-cybersecurity-dinner"
 lang: "en"
-title: "Cybersecurity Dinner in Doha should not feel like a gamble; Fanju app changes the odds"
+title: "Cybersecurity Dinner in Doha should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "Walking into a Cybersecurity Dinner in Doha for the first time can feel like stepping into a dimly lit lounge in West Bay after work, unsure if you’ve been invited or just wandered in by mistake. The chatter is in Englis"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Cybersecurity Dinner in Doha should not feel like a gamble; Fanju app changes the odds
+# Cybersecurity Dinner in Doha should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 Walking into a Cybersecurity Dinner in Doha for the first time can feel like stepping into a dimly lit lounge in West Bay after work, unsure if you’ve been invited or just wandered in by mistake. The chatter is in English and Arabic, laptops are half-open on tables, and someone’s explaining encryption over karak tea. That uncertainty—common to remote workers, expats, and even long-term residents—is exactly what the Fanju app was built to reduce. In a city where professional and social rhythms often overlap in cafés near Education City or co-working spaces in the Pearl, Fanju helps clarify who’s gathering, why, and whether it’s safe to join. It doesn’t promise perfection, but it does offer structure—something Cybersecurity Dinner in Doha has needed since the first informal meetup outside Katara Cultural Village.
 

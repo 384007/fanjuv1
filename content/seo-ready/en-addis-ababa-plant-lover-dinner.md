@@ -4,7 +4,7 @@ canonicalPath: "/en/city/addis-ababa/plant-lover-dinner"
 alternatePath: "/city/addis-ababa/plant-lover-dinner"
 translationKey: "addis-ababa-plant-lover-dinner"
 lang: "en"
-title: "Addis Ababa after work: how Fanju app makes Plant Lover Dinner feel like a real room"
+title: "Addis Ababa after work: how Fanju app makes Plant Lover Dinner feel like a real room | fanju-app"
 description: "In Addis Ababa, evenings often blur into one long cycle of coffee invitations, casual meetups that never quite materialize, and group chats full of vague plans. For those who care about plants—not just as decor but as li"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Addis Ababa after work: how Fanju app makes Plant Lover Dinner feel like a real room
+# Addis Ababa after work: how Fanju app makes Plant Lover Dinner feel like a real room | fanju-app
 
 In Addis Ababa, evenings often blur into one long cycle of coffee invitations, casual meetups that never quite materialize, and group chats full of vague plans. For those who care about plants—not just as decor but as living companions—finding a space to talk about propagation, soil pH, or the quiet joy of watching a monstera unfurl its first fenestrated leaf has felt scattered at best. That’s where the Plant Lover Dinner on the Fanju app changes things. It’s not just another dinner; it’s a curated gathering of people who bring intention to the table. Hosted in real homes or quiet garden-facing spaces, these dinners use food and conversation to anchor a shared passion, turning a loose interest into something tangible. Through Fanju app, the Plant Lover Dinner in Addis Ababa becomes more than a concept—it becomes a place you can find, join, and eventually host.
 

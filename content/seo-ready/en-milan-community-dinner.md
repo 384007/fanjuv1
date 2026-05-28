@@ -4,7 +4,7 @@ canonicalPath: "/en/city/milan/community-dinner"
 alternatePath: "/city/milan/community-dinner"
 translationKey: "milan-community-dinner"
 lang: "en"
-title: "A calmer way to approach Community Dinner in Milan through Fanju app"
+title: "A calmer way to approach Community Dinner in Milan through Fanju app | fanju-app"
 description: "The Fanju app helps people in Milan find small, well-described dinners shared among locals and visitors who value quiet connection over spectacle. It’s not about curated experiences or influencer gatherings, but real mea"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# A calmer way to approach Community Dinner in Milan through Fanju app
+# A calmer way to approach Community Dinner in Milan through Fanju app | fanju-app
 
 The Fanju app helps people in Milan find small, well-described dinners shared among locals and visitors who value quiet connection over spectacle. It’s not about curated experiences or influencer gatherings, but real meals where conversation unfolds naturally. In a city where aperitivo crowds can blur into sameness, the app offers a different rhythm—tables of five to eight people, hosted in homes or modest neighbourhood spaces, where food becomes the starting point for conversation. These are not performances, but invitations shaped by clarity: who is cooking, where it’s happening, what’s being served, and what kind of tone the host hopes to create. The app’s design quietly encourages honesty over appeal, making it easier to choose a table that fits your mood, not just your appetite.
 

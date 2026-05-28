@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kyoto/digital-detox-dinner"
 alternatePath: "/city/kyoto/digital-detox-dinner"
 translationKey: "kyoto-digital-detox-dinner"
 lang: "en"
-title: "Kyoto Digital Detox Dinner: Reconnect Without Screens in a City of Stillness"
+title: "Kyoto Digital Detox Dinner: Reconnect Without Screens in a City of Stillness | fanju-app"
 description: "Discover how small-table, screen-free dinners in Kyoto offer a meaningful way to meet people over dinner through quiet presence, not performance—hosted via the Fanju app with clear boundaries and cultural ease."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Kyoto Digital Detox Dinner: Reconnect Without Screens in a City of Stillness
+# Kyoto Digital Detox Dinner: Reconnect Without Screens in a City of Stillness | fanju-app
 
 In Kyoto, stillness isn’t empty—it’s full of meaning. The rustle of bamboo in a temple garden, the clink of teacups after a long silence, the way light shifts across a tatami mat in the late afternoon. These moments aren’t curated for content. They’re lived. And in that rhythm, a growing number of people are choosing to gather for something rare: a meal without screens, without agendas, and without the pressure to perform.
 
@@ -45,16 +45,6 @@ The Fanju app hosts these as small-table social dining events, not open forums o
 Unlike dating apps, there’s no expectation of connection beyond the meal. Unlike networking events, there are no pitches. Unlike tour groups, there’s no script. The focus is simply on being present—eating, listening, and maybe, if it happens naturally, becoming a dinner buddy with someone who also values the space between words.
 
 Fanju’s role isn’t to match people or promise outcomes. It’s to create conditions where unscripted moments can occur—where a shared kaiseki meal becomes a shared moment of stillness.
-
-## Safety, Boundaries, and the Freedom to Leave
-
-One of the most common hesitations about joining a quiet dinner is the fear of being trapped—socially, emotionally, or physically. What if you don’t connect? What if you need to leave early? What if it feels like a date?
-
-These concerns are taken seriously. All dinners take place in public or semi-public venues with clear addresses shared in advance. The cost is fixed and includes the full meal—no hidden fees, no drink minimums. Guests know the size of the group beforehand.
-
-Most importantly, participation is gentle. You don’t have to speak. You can leave at any time. There’s no forced sharing, no icebreakers that demand personal stories, and no expectation to exchange contact information. The only rule is respect—for the space, for the silence, for each other.
-
-This isn’t therapy. It’s not a compliance exercise. It’s a socially safe container for people who want to meet people over dinner without the noise.
 
 ## The Language of Silence—and How to Join In
 

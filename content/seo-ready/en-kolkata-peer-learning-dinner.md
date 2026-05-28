@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kolkata/peer-learning-dinner"
 alternatePath: "/city/kolkata/peer-learning-dinner"
 translationKey: "kolkata-peer-learning-dinner"
 lang: "en"
-title: "Kolkata peer learning dinner for discussion-led social dining - Fanju app"
+title: "Kolkata peer learning dinner for discussion-led social dining - Fanju app | fanju-app"
 description: "Fanju app helps people join a Kolkata peer learning dinner with a clear topic, small table, public venue, host expectations, and low-pressure social dining."
 primaryKeyword: "Kolkata peer learning dinner"
 secondaryKeywords: "social dining Kolkata|Fanju app|small-table dinner|dinner buddy|peer learning dinner"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
 ---
 
-# Kolkata peer learning dinner on Fanju app for conversation before networking
+# Kolkata peer learning dinner on Fanju app for conversation before networking | fanju-app
 
 A Kolkata peer learning dinner on Fanju app is a small-table dinner for people who want to learn through conversation, not sit through another networking event. It gives the host a way to state the topic, guest count, venue style, and cost expectations before anyone arrives, so the meal can feel thoughtful rather than random.
 

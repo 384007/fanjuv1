@@ -4,7 +4,7 @@ canonicalPath: "/city/zhaotong/dinner-buddy"
 alternatePath: "/en/city/zhaotong/dinner-buddy"
 translationKey: "zhaotong-dinner-buddy"
 lang: "zh"
-title: "在昭通找一桌不尴尬的饭搭子，饭局app先解决什么"
+title: "在昭通找一桌不尴尬的饭搭子，饭局app先解决什么 | fanju-app"
 titleZh: "在昭通找一桌不尴尬的饭搭子，饭局app先解决什么"
 description: "在昭通，周末的晚饭不是随便吃一顿的事。饭局app把吃饭变成一种有准备的连接——不是群发一句“有人来吗”，而是一桌人围绕具体主题、固定人数、明确时间地点的线下饭局。它不追求热闹，而是让陌生人坐下来时，已经共享了基本节奏。比如周五傍晚，一位刚来"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在昭通找一桌不尴尬的饭搭子，饭局app先解决什么
+# 在昭通找一桌不尴尬的饭搭子，饭局app先解决什么 | fanju-app
 
 在昭通，周末的晚饭不是随便吃一顿的事。饭局app把吃饭变成一种有准备的连接——不是群发一句“有人来吗”，而是一桌人围绕具体主题、固定人数、明确时间地点的线下饭局。它不追求热闹，而是让陌生人坐下来时，已经共享了基本节奏。比如周五傍晚，一位刚来昭通做远程项目的自由职业者，在饭局app上看到一桌“在昭通过周末的人”主题晚餐，报名后收到主理人发来的餐厅位置、菜单预览和同桌人简介。这不是邀约，而是安排。饭局app在昭通做的第一件事，是让“一起吃饭”从模糊想法落地成可参与的一桌饭。
 

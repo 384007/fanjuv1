@@ -4,7 +4,7 @@ canonicalPath: "/city/qiandongnan/healthy-eating-dinner"
 alternatePath: "/en/city/qiandongnan/healthy-eating-dinner"
 translationKey: "qiandongnan-healthy-eating-dinner"
 lang: "zh"
-title: "第一次在黔东南参加健康饮食饭局，饭局app怎样让陌生人坐得下来"
+title: "第一次在黔东南参加健康饮食饭局，饭局app怎样让陌生人坐得下来 | fanju-app"
 titleZh: "第一次在黔东南参加健康饮食饭局，饭局app怎样让陌生人坐得下来"
 description: "在黔东南，饭局app不是用来凑热闹的工具，而是一种重新理解“一起吃饭”的方式。这里的饭局很少喧闹，多数时候，一桌人围坐，说话轻，菜上得慢，话题从酸汤鱼的发酵时间开始，慢慢滑到山里采蕨的季节。健康饮食在这里不是标签，是日常——不是靠打卡轻食沙"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 第一次在黔东南参加健康饮食饭局，饭局app怎样让陌生人坐得下来
+# 第一次在黔东南参加健康饮食饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 
 在黔东南，饭局app不是用来凑热闹的工具，而是一种重新理解“一起吃饭”的方式。这里的饭局很少喧闹，多数时候，一桌人围坐，说话轻，菜上得慢，话题从酸汤鱼的发酵时间开始，慢慢滑到山里采蕨的季节。健康饮食在这里不是标签，是日常——不是靠打卡轻食沙拉，而是靠溪水养的稻花鱼、雷山的黑糯米、从自家菜园摘下的野菜。饭局app的作用，就是把这些真实的生活节奏，变成一桌人能共享的体验。它不推送热门饭局，而是把人引向那些藏在巷口小院、主理人愿意花两小时讲一道菜来路的饭局。在黔东南，报名一次饭局，不是选餐厅，是选一种愿意慢慢说话的人。
 

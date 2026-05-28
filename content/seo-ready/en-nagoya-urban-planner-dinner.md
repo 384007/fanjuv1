@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nagoya/urban-planner-dinner"
 alternatePath: "/city/nagoya/urban-planner-dinner"
 translationKey: "nagoya-urban-planner-dinner"
 lang: "en"
-title: "Nagoya has plenty of Urban Planner Dinner options; Fanju app is the one that names the table first"
+title: "Nagoya has plenty of Urban Planner Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "In Nagoya, finding a dinner group for urban planners or design professionals doesn’t have to mean awkward networking or half-filled event pages. The real challenge isn’t access—it’s clarity. When you’re new to the city o"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Nagoya has plenty of Urban Planner Dinner options; Fanju app is the one that names the table first
+# Nagoya has plenty of Urban Planner Dinner options; Fanju app is the one that names the table first | fanju-app
 
 In Nagoya, finding a dinner group for urban planners or design professionals doesn’t have to mean awkward networking or half-filled event pages. The real challenge isn’t access—it’s clarity. When you’re new to the city or just stepping into professional social circles, knowing who’s at the table, what kind of conversation to expect, and whether your perspective will fit in can be the difference between a meaningful night and a polite but forgettable meal. The Fanju app stands out by making those details visible before you commit. Instead of vague event titles like “City Makers Night,” it surfaces who’s hosting, their background, and even their intention for the evening—something that matters deeply when you're deciding whether to step into a room of strangers in Sakae or Naka-ku.
 

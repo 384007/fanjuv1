@@ -4,7 +4,7 @@ canonicalPath: "/en/city/moscow/marathon-dinner"
 alternatePath: "/city/moscow/marathon-dinner"
 translationKey: "moscow-marathon-dinner"
 lang: "en"
-title: "Moscow does not need another vague invite; Fanju app makes Marathon Dinner specific"
+title: "Moscow does not need another vague invite; Fanju app makes Marathon Dinner specific | fanju-app"
 description: "Moscow’s vibrant social scene can sometimes feel a little opaque, especially when it comes to spontaneous gatherings. The Fanju app is changing that, offering a more grounded approach to connecting people for shared expe"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Moscow does not need another vague invite; Fanju app makes Marathon Dinner specific
+# Moscow does not need another vague invite; Fanju app makes Marathon Dinner specific | fanju-app
 
 Moscow’s vibrant social scene can sometimes feel a little opaque, especially when it comes to spontaneous gatherings. The Fanju app is changing that, offering a more grounded approach to connecting people for shared experiences, like the increasingly popular Marathon Dinner. This isn't about grand pronouncements; it's about finding a specific table, in a known neighbourhood, with a clear idea of who you might meet. For those looking to step beyond generic invitations and into more tangible social connections, Fanju app provides the clarity Moscow has been missing.
 

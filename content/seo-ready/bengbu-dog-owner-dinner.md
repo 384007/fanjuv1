@@ -4,7 +4,7 @@ canonicalPath: "/city/bengbu/dog-owner-dinner"
 alternatePath: "/en/city/bengbu/dog-owner-dinner"
 translationKey: "bengbu-dog-owner-dinner"
 lang: "zh"
-title: "蚌埠的狗主人饭局饭局为什么值得去，饭局app在报名前就给了答案"
+title: "蚌埠的狗主人饭局饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
 titleZh: "蚌埠的狗主人饭局饭局为什么值得去，饭局app在报名前就给了答案"
 description: "第一次听说饭局app，特别是关于“狗主人饭局”的邀约，可能会有些好奇，甚至带点小小的忐忑。在蚌埠，我们习惯了饭局是熟人间的聚会，或是商务洽谈的场合。但饭局app的出现，为我们打开了一扇了解新社交方式的窗。它不仅仅是一个简单的报名平台，更像是"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 蚌埠的狗主人饭局饭局为什么值得去，饭局app在报名前就给了答案
+# 蚌埠的狗主人饭局饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
 第一次听说饭局app，特别是关于“狗主人饭局”的邀约，可能会有些好奇，甚至带点小小的忐忑。在蚌埠，我们习惯了饭局是熟人间的聚会，或是商务洽谈的场合。但饭局app的出现，为我们打开了一扇了解新社交方式的窗。它不仅仅是一个简单的报名平台，更像是一个提前为你“预演”这场饭局的指南。在报名前，你就能通过饭局app对桌上的成员、大致的氛围，甚至主办方的用心程度有一个初步的了解。这对于想要尝试新事物、拓展社交圈的蚌埠朋友来说，无疑是一剂定心丸。
 

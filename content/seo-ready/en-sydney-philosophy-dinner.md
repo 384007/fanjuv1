@@ -4,7 +4,7 @@ canonicalPath: "/en/city/sydney/philosophy-dinner"
 alternatePath: "/city/sydney/philosophy-dinner"
 translationKey: "sydney-philosophy-dinner"
 lang: "en"
-title: "Sydney strangers sit down easier when Fanju app frames the Philosophy Dinner table first"
+title: "Sydney strangers sit down easier when Fanju app frames the Philosophy Dinner table first | fanju-app"
 description: "In Sydney, where dinner plans often pivot on casual drinks or last-minute rooftop reservations, the idea of sitting down with strangers to talk about ethics, time, or meaning can feel like a misstep. But through the Fanj"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Sydney strangers sit down easier when Fanju app frames the Philosophy Dinner table first
+# Sydney strangers sit down easier when Fanju app frames the Philosophy Dinner table first | fanju-app
 
 In Sydney, where dinner plans often pivot on casual drinks or last-minute rooftop reservations, the idea of sitting down with strangers to talk about ethics, time, or meaning can feel like a misstep. But through the Fanju app, a quiet shift is unfolding—people are finding that a Philosophy Dinner here doesn’t have to be awkward or intense. The app sets the tone before anyone arrives, offering a clear frame for what the evening will hold. It’s not a debate club, a therapy group, or a networking event. It’s a dinner shaped around listening, curiosity, and the rhythm of Sydney’s diverse neighbourhoods, from Redfern’s corner cafes to Neutral Bay’s quiet waterfront tables. The app doesn’t promise instant connection, but it does promise clarity—so when you walk into a shared meal, you’re not walking into the unknown.
 

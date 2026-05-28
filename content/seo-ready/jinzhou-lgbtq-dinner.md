@@ -4,7 +4,7 @@ canonicalPath: "/city/jinzhou/lgbtq-dinner"
 alternatePath: "/en/city/jinzhou/lgbtq-dinner"
 translationKey: "jinzhou-lgbtq-dinner"
 lang: "zh"
-title: "在锦州把性别气质多元友善饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在锦州把性别气质多元友善饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在锦州把性别气质多元友善饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "来到锦州，一场以性别气质多元友善为主题的饭局，如果事先没有把大家的期望值对齐，很容易让气氛变得尴尬。 比如，有人可能期待的是一场深入的自我探索，有人则只想轻松地吃顿饭、见见新面孔。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在锦州把性别气质多元友善饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在锦州把性别气质多元友善饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 在锦州，想找个低压力的场合认识新朋友，尤其是在性别气质多元友善的圈子里，饭局app提供了一种不同于微信群聊、大型活动或甚至相亲局的体验。它不是把一堆人硬凑在一起，而是围绕着一张小桌，设定一个清晰的饭局主题，让大家在轻松的氛围里找到共同点。这种方式，尤其是在锦州这样注重人情味的城市，能够有效地降低初次见面的不确定感，让每个人都能更自在地融入。
 

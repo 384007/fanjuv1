@@ -4,7 +4,7 @@ canonicalPath: "/city/xiamen/city-guide-dinner"
 alternatePath: "/en/city/xiamen/city-guide-dinner"
 translationKey: "xiamen-city-guide-dinner"
 lang: "zh"
-title: "厦门城市向导饭局｜用一顿饭认识同城同频的人 - Fanju 饭局app"
+title: "厦门城市向导饭局｜用一顿饭认识同城同频的人 - Fanju 饭局app | fanju-app"
 titleZh: "厦门城市向导饭局｜用一顿饭认识同城同频的人 - Fanju 饭局app"
 description: "Fanju 厦门城市向导饭局适合刚到厦门或想重新认识这座海边城市的人。通过小桌饭局了解岛内外生活节奏，认识同城饭搭子和同频的人。"
 primaryKeyword: "厦门城市向导饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
 ---
 
-# 厦门城市向导饭局，Fanju 饭局app适合刚到海边城市的人
+# 厦门城市向导饭局，Fanju 饭局app适合刚到海边城市的人 | fanju-app
 
 厦门城市向导饭局不是旅游攻略页，而是一场帮助新来者和本地生活观察者坐下来聊天的小桌饭局。Fanju 让主题、地点、人数和费用提前清楚，帮助用户通过一顿饭认识同频的人，而不是进入随机群聊或相亲局。
 

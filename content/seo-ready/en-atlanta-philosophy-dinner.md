@@ -4,7 +4,7 @@ canonicalPath: "/en/city/atlanta/philosophy-dinner"
 alternatePath: "/city/atlanta/philosophy-dinner"
 translationKey: "atlanta-philosophy-dinner"
 lang: "en"
-title: "Atlanta after work: how Fanju app makes Philosophy Dinner feel like a real room"
+title: "Atlanta after work: how Fanju app makes Philosophy Dinner feel like a real room | fanju-app"
 description: "It’s 6:42 p.m. on a Thursday in Midtown, and you’re standing outside a quiet café near 10th and Piedmont, phone in hand, second-guessing whether you should walk in. You’ve never been to a Philosophy Dinner in Atlanta bef"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Atlanta after work: how Fanju app makes Philosophy Dinner feel like a real room
+# Atlanta after work: how Fanju app makes Philosophy Dinner feel like a real room | fanju-app
 
 It’s 6:42 p.m. on a Thursday in Midtown, and you’re standing outside a quiet café near 10th and Piedmont, phone in hand, second-guessing whether you should walk in. You’ve never been to a Philosophy Dinner in Atlanta before, and even though you downloaded the Fanju app weeks ago, it still feels like you’re showing up to a party where no one knows your name. But then you glance at your phone: the event page shows five other attendees, one of whom posted a book quote from bell hooks in the chat. The host confirmed the table will be near the back, by the bookshelf. You take a breath. This isn’t just another vague plan. This is something that feels structured enough to actually happen — and the Fanju app is the reason why.
 

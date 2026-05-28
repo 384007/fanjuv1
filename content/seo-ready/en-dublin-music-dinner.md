@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dublin/music-dinner"
 alternatePath: "/city/dublin/music-dinner"
 translationKey: "dublin-music-dinner"
 lang: "en"
-title: "Why Music Dinner in Dublin works better when Fanju app keeps the table small"
+title: "Why Music Dinner in Dublin works better when Fanju app keeps the table small | fanju-app"
 description: "Dublin’s evenings often blur for remote workers—laptop light fading into pub chatter that never quite lands. You could attend any number of events, but few offer a repeatable rhythm that feels both light and meaningful."
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Music Dinner in Dublin works better when Fanju app keeps the table small
+# Why Music Dinner in Dublin works better when Fanju app keeps the table small | fanju-app
 
 Dublin’s evenings often blur for remote workers—laptop light fading into pub chatter that never quite lands. You could attend any number of events, but few offer a repeatable rhythm that feels both light and meaningful. That’s where Music Dinner, coordinated through the Fanju app, begins to make sense. It’s not a concert, not a networking event, not a blind date—it’s a recurring table in Dublin where music is the conversation starter, not the main act. The app’s design, which limits group size and prioritises recurring attendance, turns what could be another vague social outing into something more dependable. For people working solo from apartments in Ranelagh, co-working spaces in Smithfield, or home offices in Drumcondra, this small consistency matters.
 

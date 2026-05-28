@@ -4,7 +4,7 @@ canonicalPath: "/city/jiangmen/book-club-dinner"
 alternatePath: "/en/city/jiangmen/book-club-dinner"
 translationKey: "jiangmen-book-club-dinner"
 lang: "zh"
-title: "下班后的江门，饭局app怎样让读书饭局有真实同桌"
+title: "下班后的江门，饭局app怎样让读书饭局有真实同桌 | fanju-app"
 titleZh: "下班后的江门，饭局app怎样让读书饭局有真实同桌"
 description: "江门的节奏是缓的，但不是慢。早茶要喝足一个上午，但谈事要精准切入。这样的城市性格，让饭局app上的读书饭局格外讲究“对的人在一桌”。它不是读书会的延伸，也不是社交软件的变体，而是一种用饭局结构承载思想交流的尝试。六到十二人的小桌，围坐于北街"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 下班后的江门，饭局app怎样让读书饭局有真实同桌
+# 下班后的江门，饭局app怎样让读书饭局有真实同桌 | fanju-app
 
 在江门，下班后的时间像一块被拉长的黄昏，既不属于工作，也不轻易归于家庭。有人选择走进骑楼老街的独立书店，有人在江边慢跑，也有人打开饭局app，寻找一个六人小桌——不是为了吃饭，而是为了在饭桌上读一段文字、交换一种理解。饭局app在这里不只是一款工具，它成了连接江门人精神生活与日常节奏的接口。它不组织千人讲座，也不推爆款书单，而是把“读书”这件事，还原成一桌人面对面的温度：谁先开口、菜还没上完话已聊深、有人中途离席也没人觉得失礼。这种饭局，不在聚光灯下，却在真实发生。
 

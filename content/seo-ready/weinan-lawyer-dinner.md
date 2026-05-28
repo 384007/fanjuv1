@@ -4,7 +4,7 @@ canonicalPath: "/city/weinan/lawyer-dinner"
 alternatePath: "/en/city/weinan/lawyer-dinner"
 translationKey: "weinan-lawyer-dinner"
 lang: "zh"
-title: "渭南的律师饭局为什么值得去，饭局app在报名前就给了答案"
+title: "渭南的律师饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
 titleZh: "渭南的律师饭局为什么值得去，饭局app在报名前就给了答案"
 description: "饭局app做的事，是把吃饭这件事还原成一桌具体的人、一个清楚的边界和一段可预期的时间。在渭南，律师群体有自己的节奏：我们习惯逻辑、边界和沉默中的思考。饭局app没有把我们塞进“社交达人训练营”，而是允许我们以本来的样子坐下来，吃一顿不需要表"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T180008Z"
 ---
 
-# 渭南的律师饭局为什么值得去，饭局app在报名前就给了答案
+# 渭南的律师饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
 下班后不想直接回家，这种时刻在渭南并不少见。写字楼里的灯光渐次熄灭，法院门口的车流开始稀疏，你站在街角，手插在风衣口袋里，心里清楚：回家意味着重复的晚饭、沉默的沙发和一部刷到发腻的手机。你不是没试过约人，可群聊里发一条“晚上一起吃饭？”往往石沉大海，或者变成几轮“好啊好啊”之后无疾而终。大型活动又太吵，一圈寒暄下来，连对方名字都没记住。而相亲局？一坐下来就有人问“有对象吗”，压力比开庭还大。饭局app在这时出现，不是为了给你安排饭局，而是让你在渭南的夜晚，重新理解“一起吃饭”这件事——它本该简单，不该是任务。
 

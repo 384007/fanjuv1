@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangalore/automotive-dinner"
 alternatePath: "/city/bangalore/automotive-dinner"
 translationKey: "bangalore-automotive-dinner"
 lang: "en"
-title: "Bangalore does not need another vague invite; Fanju app makes Automotive Dinner specific"
+title: "Bangalore does not need another vague invite; Fanju app makes Automotive Dinner specific | fanju-app"
 description: "Most social invites in Bangalore arrive without shape — a time, a neighbourhood, maybe a cuisine, but little about the people or the mood."
 primaryKeyword: "Bangalore Automotive Dinner"
 secondaryKeywords: "Bangalore social dining|Automotive dinner group|dinner buddy app|Fanju app|small-table dinner in Bangalore"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T190004Z"
 ---
 
-# Bangalore does not need another vague invite; Fanju app makes Automotive Dinner specific
+# Bangalore does not need another vague invite; Fanju app makes Automotive Dinner specific | fanju-app
 
 In a city where group dinners often dissolve into loud, forgettable gatherings, the Fanju app offers a different rhythm for a Bangalore Automotive Dinner — small tables, intentional conversation, and a clear sense of who belongs. This isn’t about networking or curated experiences; it’s about the quiet ease of joining eight people who’ve agreed on a shared theme and pace. For those tired of scrolling through endless plans that never materialize, Fanju makes the Automotive Dinner in Bangalore feel specific, not speculative. The app doesn’t promise friendships, but it does clarify fit — showing host tone, venue choice, and table size before you commit. In a city where social friction often starts with mismatched expectations, that clarity is what turns a dinner into something real.
 

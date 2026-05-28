@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bogota/product-manager-dinner"
 alternatePath: "/city/bogota/product-manager-dinner"
 translationKey: "bogota-product-manager-dinner"
 lang: "en"
-title: "In Bogota, Fanju app turns Product Manager Dinner into a table people can actually trust"
+title: "In Bogota, Fanju app turns Product Manager Dinner into a table people can actually trust | fanju-app"
 description: "The Fanju app in Bogota connects solo professionals to intimate, host-led dinners where conversation flows more naturally than at typical networking events. For visiting product managers looking to unwind after long days"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# In Bogota, Fanju app turns Product Manager Dinner into a table people can actually trust
+# In Bogota, Fanju app turns Product Manager Dinner into a table people can actually trust | fanju-app
 
 The Fanju app in Bogota connects solo professionals to intimate, host-led dinners where conversation flows more naturally than at typical networking events. For visiting product managers looking to unwind after long days of remote work or back-to-back meetings, the app surfaces small-group meals that feel less like obligations and more like organic extensions of the city’s social rhythm. Rather than crowded mixers or scripted meetups, Fanju tables are hosted in real homes and quiet restaurants, prioritizing clarity around who’s attending, what’s being served, and what kind of evening to expect. This deliberate framing helps solo guests arrive with lower guard and higher curiosity, turning the post-work social gap into something tangible and, often, unexpectedly warm.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/xinzhou/loneliness-solution-dinner"
 alternatePath: "/en/city/xinzhou/loneliness-solution-dinner"
 translationKey: "xinzhou-loneliness-solution-dinner"
 lang: "zh"
-title: "忻州解决孤独饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "忻州解决孤独饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "忻州解决孤独饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "在忻州，一个人吃饭并不稀奇。街角的刀削面馆里，常有人独自坐在靠窗的位置，低头吃着热汤面，眼神偶尔扫过街对面的公交站。但孤独不是吃不下饭，而是明明坐在饭桌边，却觉得没人可说。饭局app在这里做的事，不是把人拉进热闹的局，而是帮忻州人找到一桌有"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 忻州解决孤独饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 忻州解决孤独饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 在忻州，一个人吃饭并不稀奇。街角的刀削面馆里，常有人独自坐在靠窗的位置，低头吃着热汤面，眼神偶尔扫过街对面的公交站。但孤独不是吃不下饭，而是明明坐在饭桌边，却觉得没人可说。饭局app在这里做的事，不是把人拉进热闹的局，而是帮忻州人找到一桌有边界的饭——人数不多，话题不飘，节奏不赶。它不追求拼桌的热闹，而是让每一顿饭都成为可以呼吸的社交空间。在忻州这样节奏缓慢、人情味重的城市，饭局app的逻辑更接近本地生活的本色：不张扬，但有温度。
 

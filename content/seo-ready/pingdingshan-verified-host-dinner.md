@@ -4,7 +4,7 @@ canonicalPath: "/city/pingdingshan/verified-host-dinner"
 alternatePath: "/en/city/pingdingshan/verified-host-dinner"
 translationKey: "pingdingshan-verified-host-dinner"
 lang: "zh"
-title: "第一次在平顶山参加认证主理人饭局，饭局app怎样让陌生人坐得下来"
+title: "第一次在平顶山参加认证主理人饭局，饭局app怎样让陌生人坐得下来 | fanju-app"
 titleZh: "第一次在平顶山参加认证主理人饭局，饭局app怎样让陌生人坐得下来"
 description: "很多人在平顶山点开饭局app，不是因为缺饭吃，而是缺一种“说得清楚”的饭局。普通聚会常让人失望，因为你不知道去的是聊天局、推销局，还是单纯蹭饭的局。认证主理人饭局的关键，在于主理人是否把“这顿饭为什么值得来”写明白。比如，一位做独立出版的主"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T181226Z"
 ---
 
-# 第一次在平顶山参加认证主理人饭局，饭局app怎样让陌生人坐得下来
+# 第一次在平顶山参加认证主理人饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 
 周六傍晚，平顶山的天色刚暗下来，街边餐馆的灯光一盏盏亮起。你站在家楼下犹豫，是随便点个外卖，还是出门吃顿像样的饭？脑子里闪过几个朋友的名字，可谁都在忙，约不动。这时候打开饭局app，不是为了立刻认识谁，而是想找一桌饭——不热闹到要拼命接话，也不冷清到尴尬。饭局app做的，就是把“吃顿饭”这件事重新拉回可选择的范围。在平顶山，它不承诺改变人生，但能让一个普通的周末晚上，变成一次真实的小型相遇。你看到有人组织饭局，主题是“在小城做独立设计”，报名人数限6人，地点在开源路附近一家安静的私房菜。这不是拼桌，也不是相亲，而是一次被提前说清楚的饭局。你开始思考：这桌饭，我能坐得下来吗？
 

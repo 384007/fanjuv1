@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ho-chi-minh-city/investor-dinner"
 alternatePath: "/city/ho-chi-minh-city/investor-dinner"
 translationKey: "ho-chi-minh-city-investor-dinner"
 lang: "en"
-title: "Why Investor Dinner in Ho Chi Minh City works better when Fanju app keeps the table small"
+title: "Why Investor Dinner in Ho Chi Minh City works better when Fanju app keeps the table small | fanju-app"
 description: "In Ho Chi Minh City, where business moves fast and first impressions often dictate long-term trust, the Investor Dinner can feel like a minefield for newcomers. The Fanju app helps by limiting table size to six—enough fo"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Investor Dinner in Ho Chi Minh City works better when Fanju app keeps the table small
+# Why Investor Dinner in Ho Chi Minh City works better when Fanju app keeps the table small | fanju-app
 
 In Ho Chi Minh City, where business moves fast and first impressions often dictate long-term trust, the Investor Dinner can feel like a minefield for newcomers. The Fanju app helps by limiting table size to six—enough for diversity, not so many that conversation becomes performative. This constraint isn’t arbitrary. It reflects how expats and returning locals actually build relationships here: through quiet exchanges over shared dishes, not loud pitches over cocktails. The app’s role isn’t to automate connections but to create conditions where authentic ones have room to form. In a city where networking events often blur into the background noise of District 1, Fanju’s minimal design keeps the focus on who’s at the table and why they’re there.
 

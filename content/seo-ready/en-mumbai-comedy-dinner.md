@@ -4,7 +4,7 @@ canonicalPath: "/en/city/mumbai/comedy-dinner"
 alternatePath: "/city/mumbai/comedy-dinner"
 translationKey: "mumbai-comedy-dinner"
 lang: "en"
-title: "Mumbai strangers sit down easier when Fanju app frames the Comedy Dinner table first"
+title: "Mumbai strangers sit down easier when Fanju app frames the Comedy Dinner table first | fanju-app"
 description: "In Mumbai, a city known for its vibrant energy and sometimes overwhelming social currents, the idea of a shared Comedy Dinner table can be both exciting and daunting. When you're seated with a group of strangers, the ini"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Mumbai strangers sit down easier when Fanju app frames the Comedy Dinner table first
+# Mumbai strangers sit down easier when Fanju app frames the Comedy Dinner table first | fanju-app
 
 In Mumbai, a city known for its vibrant energy and sometimes overwhelming social currents, the idea of a shared Comedy Dinner table can be both exciting and daunting. When you're seated with a group of strangers, the initial moments can feel a bit awkward, a silent assessment of who will lead, who will follow, and how the conversation will unfold. This is precisely where the Fanju app aims to smooth the edges, providing a subtle framework that makes connecting with new people over a meal a more comfortable and enjoyable experience, especially for groups of six to twelve, where dynamics can shift rapidly.
 

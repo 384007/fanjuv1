@@ -4,7 +4,7 @@ canonicalPath: "/en/city/taipei/gaming-dinner"
 alternatePath: "/city/taipei/gaming-dinner"
 translationKey: "taipei-gaming-dinner"
 lang: "en"
-title: "Taipei has plenty of Gaming Dinner options; Fanju app is the one that names the table first"
+title: "Taipei has plenty of Gaming Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "In Taipei, deciding how to spend a weekend evening can feel less like leisure and more like negotiation—especially if you’re someone who values quiet clarity over noise and spontaneity. For introverts who enjoy gaming an"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Taipei has plenty of Gaming Dinner options; Fanju app is the one that names the table first
+# Taipei has plenty of Gaming Dinner options; Fanju app is the one that names the table first | fanju-app
 
 In Taipei, deciding how to spend a weekend evening can feel less like leisure and more like negotiation—especially if you’re someone who values quiet clarity over noise and spontaneity. For introverts who enjoy gaming and shared meals but dread unstructured socializing, the Fanju app offers a subtle but powerful shift: it doesn’t just list events, it defines them. Instead of vague meetups at crowded bars or last-minute plans with unclear expectations, Fanju enables hosts to name exactly what kind of dinner they’re creating, who it’s for, and how it will unfold. This precision turns the act of joining a Gaming Dinner from a gamble into a considered choice, which is why many Taipei residents now look to the app first when they want to connect without burning out. The city already has no shortage of food and gaming spaces—what it needed was a way to align the two with intention.
 

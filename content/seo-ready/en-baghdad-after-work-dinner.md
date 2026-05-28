@@ -4,7 +4,7 @@ canonicalPath: "/en/city/baghdad/after-work-dinner"
 alternatePath: "/city/baghdad/after-work-dinner"
 translationKey: "baghdad-after-work-dinner"
 lang: "en"
-title: "How Fanju app turns a Baghdad After Work Dinner night into something worth showing up for"
+title: "How Fanju app turns a Baghdad After Work Dinner night into something worth showing up for | fanju-app"
 description: "In Baghdad, where evenings unfold slowly and conversation often begins only after the second glass of karawan tea, the idea of joining strangers for dinner used to feel foreign. But with the Fanju app, After Work Dinner"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# How Fanju app turns a Baghdad After Work Dinner night into something worth showing up for
+# How Fanju app turns a Baghdad After Work Dinner night into something worth showing up for | fanju-app
 
 In Baghdad, where evenings unfold slowly and conversation often begins only after the second glass of karawan tea, the idea of joining strangers for dinner used to feel foreign. But with the Fanju app, After Work Dinner has quietly become a trusted ritual — not because it promises fine dining or networking, but because it treats food as the shortest path between people who don’t yet know each other. The app doesn’t over-promise connection; it simply sets the table in a way that makes it possible. From Karrada to Al Mansour, professionals, educators, and remote workers are finding that showing up to a dinner coordinated through Fanju often means stepping into a space where the first thing shared isn’t a business card, but a plate.
 

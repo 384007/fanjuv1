@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dublin/painting-dinner"
 alternatePath: "/city/dublin/painting-dinner"
 translationKey: "dublin-painting-dinner"
 lang: "en"
-title: "Dublin strangers sit down easier when Fanju app frames the Painting Dinner table first"
+title: "Dublin strangers sit down easier when Fanju app frames the Painting Dinner table first | fanju-app"
 description: "In Dublin, where the workday often ends with a slow walk along the Liffey or a quiet bus ride through Ranelagh, the idea of going straight home to an empty flat can feel heavier than the office itself. The Fanju app resh"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Dublin strangers sit down easier when Fanju app frames the Painting Dinner table first
+# Dublin strangers sit down easier when Fanju app frames the Painting Dinner table first | fanju-app
 
 In Dublin, where the workday often ends with a slow walk along the Liffey or a quiet bus ride through Ranelagh, the idea of going straight home to an empty flat can feel heavier than the office itself. The Fanju app reshapes that moment by introducing Painting Dinner – not as a social experiment or a networking event, but as a deliberate pause. It’s where after-work fatigue meets low-stakes connection, and where holding a paintbrush over dinner conversation replaces the usual small talk. Unlike group chats that fizzle or dating apps that demand performance, Fanju creates a container: one table, one theme, one evening, where showing up is enough.
 

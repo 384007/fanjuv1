@@ -4,7 +4,7 @@ canonicalPath: "/city/huizhou/martial-arts-dinner"
 alternatePath: "/en/city/huizhou/martial-arts-dinner"
 translationKey: "huizhou-martial-arts-dinner"
 lang: "zh"
-title: "惠州的一顿武术饭局，饭局app为什么先看人再看热闹"
+title: "惠州的一顿武术饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "惠州的一顿武术饭局，饭局app为什么先看人再看热闹"
 description: "在惠州，越来越多的人开始厌倦那种“群发约饭、人到齐才点菜”的饭局。饭局app的出现，不是为了多一个社交入口，而是想回答一个简单的问题：一顿饭，能不能在开始之前，就让人知道坐在对面的是谁？尤其对女性而言，一次毫无预期的拼桌，可能比加班还累。饭"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 惠州的一顿武术饭局，饭局app为什么先看人再看热闹
+# 惠州的一顿武术饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 在惠州，越来越多的人开始厌倦那种“群发约饭、人到齐才点菜”的饭局。饭局app的出现，不是为了多一个社交入口，而是想回答一个简单的问题：一顿饭，能不能在开始之前，就让人知道坐在对面的是谁？尤其对女性而言，一次毫无预期的拼桌，可能比加班还累。饭局app在惠州的尝试，是把“人”放在“热闹”之前——不是先拉群、再看谁来，而是先确认同桌的底色，再决定要不要赴约。这在武术饭局这种带有身体对抗背景的聚集中，显得尤为重要。毕竟，练武的人力气大，一旦氛围失控，普通人很难抽身。
 

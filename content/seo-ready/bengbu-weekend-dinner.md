@@ -4,7 +4,7 @@ canonicalPath: "/city/bengbu/weekend-dinner"
 alternatePath: "/en/city/bengbu/weekend-dinner"
 translationKey: "bengbu-weekend-dinner"
 lang: "zh"
-title: "蚌埠的一顿周末饭局，饭局app为什么先看人再看热闹"
+title: "蚌埠的一顿周末饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "蚌埠的一顿周末饭局，饭局app为什么先看人再看热闹"
 description: "在蚌埠，饭局的松弛感往往不是来自餐厅的装修或菜品，而是来自报名前就能读到的信息。 一桌周末饭局，如果只写「一起吃饭，认识朋友」，那和随便拉个群没区别。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 蚌埠的一顿周末饭局，饭局app为什么先看人再看热闹
+# 蚌埠的一顿周末饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 一个人站在蚌埠张公山附近的小馆子门口，手机屏幕亮着饭局app的提醒：「还有十分钟开场」。他没着急进门，站在店外路灯下看了一圈，确认没有熟面孔先到。这是他第一次参加蚌埠周末饭局，没有相亲压力，也不用硬找话题，他只是想看看，能不能和几个陌生人安静吃顿饭。饭局app上的这桌局，主题是「聊点工作以外的事」，六人小桌，主理人备注「不劝酒、不查手机、不问收入」。这种清楚的边界，反而让他松了口气。在蚌埠，周末饭局的意义不在于热闹，而在于你能不能在进门前，就大概知道这顿饭会是什么节奏。
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/qiandongnan/wine-tasting-dinner"
 alternatePath: "/en/city/qiandongnan/wine-tasting-dinner"
 translationKey: "qiandongnan-wine-tasting-dinner"
 lang: "zh"
-title: "在黔东南找一桌不尴尬的品酒饭局，饭局app先解决什么"
+title: "在黔东南找一桌不尴尬的品酒饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在黔东南找一桌不尴尬的品酒饭局，饭局app先解决什么"
 description: "刚到黔东南，空气里有山雾的湿度，也有米酒发酵的微酸。街边小馆的木门常半敞着，里面坐着穿苗绣的人，低声聊着赶集和节气。你拎着行李箱站在凯里老城区的巷口，手机信号时断时续，饭局app却推送了一条新通知：「今晚，雷山某村寨火塘边，三人小局，主理人"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在黔东南找一桌不尴尬的品酒饭局，饭局app先解决什么
+# 在黔东南找一桌不尴尬的品酒饭局，饭局app先解决什么 | fanju-app
 
 刚到黔东南，空气里有山雾的湿度，也有米酒发酵的微酸。街边小馆的木门常半敞着，里面坐着穿苗绣的人，低声聊着赶集和节气。你拎着行李箱站在凯里老城区的巷口，手机信号时断时续，饭局app却推送了一条新通知：「今晚，雷山某村寨火塘边，三人小局，主理人擅酿酒，带自藏三年糯米酒」。这不是餐厅预订，也不是社交软件上的泛泛之约，而是一场以酒为引、有边界的饭局。饭局app在这里不制造热闹，它先帮你过滤掉那些你并不需要的热闹。在黔东南，一场饭局的意义不在于吃喝本身，而在于你是否能在陌生之地，坐进一桌不需自我证明的饭局里。
 

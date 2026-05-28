@@ -4,7 +4,7 @@ canonicalPath: "/city/sydney/founder-dinner"
 alternatePath: "/en/city/sydney/founder-dinner"
 translationKey: "gsc-repair-sydney-founder-dinner"
 lang: "zh"
-title: "悉尼创业者饭局指南"
+title: "悉尼创业者饭局指南 | fanju-app | 饭局app"
 description: "悉尼创业者饭局帮助创始人、出海团队、留学生创业者和科技从业者通过公开小桌晚餐交流项目、市场和本地经验。"
 pageType: "city_topic"
 priorityScore: 80
@@ -12,7 +12,7 @@ aiQualityScore: 96
 status: "ready"
 ---
 
-# 悉尼创业者饭局指南：把创业交流放进一桌晚餐
+# 悉尼创业者饭局指南：把创业交流放进一桌晚餐 | fanju-app | 饭局app
 
 悉尼创业者饭局适合创始人、独立开发者、出海团队、留学生创业者和科技从业者。Fanju / 饭局强调公开餐厅、小桌人数、主题清楚和主理人说明，让创业交流比随机群聊更有边界。
 

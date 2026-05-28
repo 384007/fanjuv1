@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vienna/business-dinner"
 alternatePath: "/city/vienna/business-dinner"
 translationKey: "vienna-business-dinner"
 lang: "en"
-title: "Before the first message in Vienna, Fanju app makes Business Dinner feel like a real decision"
+title: "Before the first message in Vienna, Fanju app makes Business Dinner feel like a real decision | fanju-app"
 description: "Fanju app aims to transform the ephemeral encounter of a business dinner in Vienna into a tangible building block for community. It's about recognizing that the smallest unit of social connection isn't a large event, but"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Vienna, Fanju app makes Business Dinner feel like a real decision
+# Before the first message in Vienna, Fanju app makes Business Dinner feel like a real decision | fanju-app
 
 Fanju app aims to transform the ephemeral encounter of a business dinner in Vienna into a tangible building block for community. It's about recognizing that the smallest unit of social connection isn't a large event, but a shared table where genuine interactions can unfold. This guide explores how to cultivate these intimate gatherings, ensuring they are more than just meals, but opportunities for lasting relationships to form, one carefully curated table at a time.
 

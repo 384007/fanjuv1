@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dar-es-salaam/pr-dinner"
 alternatePath: "/city/dar-es-salaam/pr-dinner"
 translationKey: "dar-es-salaam-pr-dinner"
 lang: "en"
-title: "PR Dinner in Dar es Salaam should not feel like a gamble; Fanju app changes the odds"
+title: "PR Dinner in Dar es Salaam should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "After a long day managing client communications at a media house in Mikocheni, you glance at your phone. Another PR Dinner invite via the Fanju app—this time in Masaki. You hesitate. Group dinners in Dar es Salaam often"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# PR Dinner in Dar es Salaam should not feel like a gamble; Fanju app changes the odds
+# PR Dinner in Dar es Salaam should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 After a long day managing client communications at a media house in Mikocheni, you glance at your phone. Another PR Dinner invite via the Fanju app—this time in Masaki. You hesitate. Group dinners in Dar es Salaam often mean loud venues, forced small talk, and the pressure to perform socially. But this one specifies a limited guest list, a quiet rooftop space, and a clear purpose: connecting professionals through thoughtful conversation, not networking theatrics. That small difference, enabled by how Fanju structures events, makes it feel less like an obligation and more like a genuine option—especially if you're someone who recharges in smaller, intentional settings.
 

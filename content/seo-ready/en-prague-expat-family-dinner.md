@@ -4,7 +4,7 @@ canonicalPath: "/en/city/prague/expat-family-dinner"
 alternatePath: "/city/prague/expat-family-dinner"
 translationKey: "prague-expat-family-dinner"
 lang: "en"
-title: "For people trying Expat Family Dinner in Prague, Fanju app puts the guest mix first"
+title: "For people trying Expat Family Dinner in Prague, Fanju app puts the guest mix first | fanju-app"
 description: "Coming back to socializing after a long gap isn’t just about showing up. It’s about knowing what you’re stepping into. In Prague, weekend plans often dissolve into indecision—too many bars, not enough structure."
 primaryKeyword: "Prague Expat Family Dinner"
 secondaryKeywords: "Prague social dining|Expat Family dinner group|dinner buddy app|Fanju app|small-table dinner in Prague"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T183055Z"
 ---
 
-# For people trying Expat Family Dinner in Prague, Fanju app puts the guest mix first
+# For people trying Expat Family Dinner in Prague, Fanju app puts the guest mix first | fanju-app
 
 When you’re alone in a city after work and the weekend stretches ahead with no rhythm, the idea of joining a group dinner can feel either like a lifeline or another social experiment. In Prague, the Fanju app connects people not through loud events or curated meetups, but through small Expat Family Dinner gatherings—tables of four to six guests sharing a home-cooked meal in a flat near the Vltava, a quiet corner of Vinohrady, or a converted space in Holešovice. These aren’t performances. They’re meals where the conversation starts because someone asks about your plate, not because an icebreaker is announced. For a solo traveler or someone returning to social life after months of isolation, the Prague Expat Family Dinner format offers a low-pressure way to connect—provided you know what to look for.
 

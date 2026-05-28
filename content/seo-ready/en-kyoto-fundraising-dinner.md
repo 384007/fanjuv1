@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kyoto/fundraising-dinner"
 alternatePath: "/city/kyoto/fundraising-dinner"
 translationKey: "kyoto-fundraising-dinner"
 lang: "en"
-title: "Why Fundraising Dinner in Kyoto works better when Fanju app keeps the table small"
+title: "Why Fundraising Dinner in Kyoto works better when Fanju app keeps the table small | fanju-app"
 description: "A successful Fundraising Dinner, especially for those new to Kyoto, relies heavily on the host's ability to set a clear and welcoming tone from the outset. This isn't just about booking a restaurant; it's about"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260528T070525Z"
 ---
 
-# Why Fundraising Dinner in Kyoto works better when Fanju app keeps the table small
+# Why Fundraising Dinner in Kyoto works better when Fanju app keeps the table small | fanju-app
 
 For newcomers and expats finding their footing in Kyoto, the idea of a "Fundraising Dinner" might conjure images of formal events and large halls. However, the Fanju app offers a refreshing alternative: intimate, curated dining experiences designed for genuine connection. This isn't about large-scale fundraising in the traditional sense; it's about building community through shared meals. Fanju app focuses on creating small tables, typically for six to eight people, where conversation flows easily and participants can gauge the host's intention and the table's rhythm before committing. It’s perfect for those evenings when the thought of going straight home after work feels a little too quiet, and a desire for authentic local interaction emerges. Fanju app helps clarify who will be at the table and what the evening aims to achieve, making it easier to decide if it's the right fit for you.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/denver/fencing-dinner"
 alternatePath: "/city/denver/fencing-dinner"
 translationKey: "denver-fencing-dinner"
 lang: "en"
-title: "Denver does not need another vague invite; Fanju app makes Fencing Dinner specific"
+title: "Denver does not need another vague invite; Fanju app makes Fencing Dinner specific | fanju-app"
 description: "In Denver, weekend plans often dissolve into half-texted messages and group chats that never settle on a time, let alone a place. The Fanju app changes that by turning uncertain hangouts into intentional gatherings—start"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Denver does not need another vague invite; Fanju app makes Fencing Dinner specific
+# Denver does not need another vague invite; Fanju app makes Fencing Dinner specific | fanju-app
 
 In Denver, weekend plans often dissolve into half-texted messages and group chats that never settle on a time, let alone a place. The Fanju app changes that by turning uncertain hangouts into intentional gatherings—starting with Fencing Dinner, a format that treats dinner not as an afterthought but as the centerpiece of the weekend. It’s not about finding people to eat with; it’s about building space for conversation that lasts beyond dessert. In a city where the mountains call on Saturday and work lingers into Sunday, Fanju anchors the evening with clarity: who’s invited, what’s expected, and when it ends. That specificity is what makes a table in Denver feel less like an obligation and more like a promise.
 

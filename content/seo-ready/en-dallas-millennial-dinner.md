@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dallas/millennial-dinner"
 alternatePath: "/city/dallas/millennial-dinner"
 translationKey: "dallas-millennial-dinner"
 lang: "en"
-title: "For people trying Millennial Dinner in Dallas, Fanju app puts the guest mix first"
+title: "For people trying Millennial Dinner in Dallas, Fanju app puts the guest mix first | fanju-app"
 description: "Spending a weeknight in Dallas with no local plans used to mean takeout in a hotel room or scrolling through apps while sitting at the bar of a chain restaurant. For remote workers and solo travelers, the city’s energy o"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For people trying Millennial Dinner in Dallas, Fanju app puts the guest mix first
+# For people trying Millennial Dinner in Dallas, Fanju app puts the guest mix first | fanju-app
 
 Spending a weeknight in Dallas with no local plans used to mean takeout in a hotel room or scrolling through apps while sitting at the bar of a chain restaurant. For remote workers and solo travelers, the city’s energy often feels just out of reach. But the Fanju app is changing that by focusing on one subtle but essential detail: who sits at the table. In Dallas, where casual socializing leans toward quick networking or loud happy hours, Fanju has carved out a quieter space—intentional dinners built around compatibility, not convenience. It’s not about filling seats; it’s about filling a moment with the right kind of conversation, especially when you’re passing through and don’t know a soul.
 

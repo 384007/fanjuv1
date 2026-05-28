@@ -4,7 +4,7 @@ canonicalPath: "/en/city/berlin/semiconductor-dinner"
 alternatePath: "/city/berlin/semiconductor-dinner"
 translationKey: "berlin-semiconductor-dinner"
 lang: "en"
-title: "What makes Semiconductor Dinner in Berlin worth the risk; Fanju app answers before you arrive"
+title: "What makes Semiconductor Dinner in Berlin worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "Arriving in Berlin as a newcomer, you quickly learn that social invitations don’t come with bright packaging. There’s little pressure to join, and even less to explain why you didn’t. This city doesn’t rush to include,"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T105242Z"
 ---
 
-# What makes Semiconductor Dinner in Berlin worth the risk; Fanju app answers before you arrive
+# What makes Semiconductor Dinner in Berlin worth the risk; Fanju app answers before you arrive | fanju-app
 
 The Fanju app helps newcomers in Berlin find small, intentional dinners where the focus is on real conversation, not performance. One such experience is the Semiconductor Dinner—a niche gathering that draws engineers, researchers, and tech-adjacent professionals into intimate settings where talk flows around innovation, materials science, or the quiet absurdities of working in highly specialized fields. These aren’t networking events disguised as meals, nor are they date setups with awkward subtext. They’re hosted dinners, often with six to eight seats, where the host sets a theme and tone that either lands in the first ten minutes or doesn’t. For someone new to Berlin’s understated social rhythm, this kind of dinner can feel like stepping into a dimly lit room without knowing whether to speak or wait. The city rewards patience, but also clarity—and that’s where Fanju helps, offering enough detail about the host, past events, and the evening’s intent to let you decide if it’s worth walking through the door.
 

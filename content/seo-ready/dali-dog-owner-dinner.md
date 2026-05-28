@@ -4,7 +4,7 @@ canonicalPath: "/city/dali/dog-owner-dinner"
 alternatePath: "/en/city/dali/dog-owner-dinner"
 translationKey: "dali-dog-owner-dinner"
 lang: "zh"
-title: "在大理找一桌不尴尬的狗主人饭局，饭局app先解决什么"
+title: "在大理找一桌不尴尬的狗主人饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在大理找一桌不尴尬的狗主人饭局，饭局app先解决什么"
 description: "你打开饭局app，滑过几页本地活动，点进“大理狗主人饭局”那一栏，看到本周六傍晚在古城南门附近有一场六人小桌。时间合适，地点步行可达，报名还剩两个空位。你犹豫的不是要不要去，而是——这饭局真的能让人安心坐下吗？在大理，一个靠缓慢节奏和熟人网"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在大理找一桌不尴尬的狗主人饭局，饭局app先解决什么
+# 在大理找一桌不尴尬的狗主人饭局，饭局app先解决什么 | fanju-app
 
 你打开饭局app，滑过几页本地活动，点进“大理狗主人饭局”那一栏，看到本周六傍晚在古城南门附近有一场六人小桌。时间合适，地点步行可达，报名还剩两个空位。你犹豫的不是要不要去，而是——这饭局真的能让人安心坐下吗？在大理，一个靠缓慢节奏和熟人网络维系的城市，陌生人围桌吃饭，尤其还带着狗，信任从哪儿开始？饭局app不负责替你决定，但它试图先解决那个最基础的问题：如何让一场饭局，从“可能尴尬”变成“值得期待”。
 

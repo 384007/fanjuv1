@@ -4,7 +4,7 @@ canonicalPath: "/city/jingdezhen/hidden-gem-dinner"
 alternatePath: "/en/city/jingdezhen/hidden-gem-dinner"
 translationKey: "jingdezhen-hidden-gem-dinner"
 lang: "zh"
-title: "下班后的景德镇，饭局app怎样让宝藏餐厅饭局有真实同桌"
+title: "下班后的景德镇，饭局app怎样让宝藏餐厅饭局有真实同桌 | fanju-app"
 titleZh: "下班后的景德镇，饭局app怎样让宝藏餐厅饭局有真实同桌"
 description: "周五傍晚六点，景德镇的晚风从昌江边吹过，老城区的巷子开始亮起暖黄的灯光。一家藏在雕塑瓷厂后巷的私房菜门口，有人提着刚买的本地杨梅露，有人从工作室骑车赶来，有人特意换下沾满陶土的工作服。他们互不相识，却在同一张木桌前坐下——这是他们在饭局ap"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 下班后的景德镇，饭局app怎样让宝藏餐厅饭局有真实同桌
+# 下班后的景德镇，饭局app怎样让宝藏餐厅饭局有真实同桌 | fanju-app
 
 周五傍晚六点，景德镇的晚风从昌江边吹过，老城区的巷子开始亮起暖黄的灯光。一家藏在雕塑瓷厂后巷的私房菜门口，有人提着刚买的本地杨梅露，有人从工作室骑车赶来，有人特意换下沾满陶土的工作服。他们互不相识，却在同一张木桌前坐下——这是他们在饭局app上共同报名的一场“周五收工饭”。饭局app不是订餐平台，也不是单纯的社交软件，它像一张流动的城市餐桌地图，把景德镇那些下班后不想立刻回家的人，轻轻聚拢在一些有主理人、有主题、有边界的饭局里。在一座以手艺和节奏著称的城市，饭局app让“一起吃饭”这件事，重新有了温度和来处。
 

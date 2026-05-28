@@ -4,7 +4,7 @@ canonicalPath: "/en/city/barcelona/escape-room-dinner"
 alternatePath: "/city/barcelona/escape-room-dinner"
 translationKey: "barcelona-escape-room-dinner"
 lang: "en"
-title: "How Fanju app turns a Barcelona Escape Room Dinner night into something worth showing up for"
+title: "How Fanju app turns a Barcelona Escape Room Dinner night into something worth showing up for | fanju-app"
 description: "In Barcelona, Fanju app turns an escape room dinner into a clear small-table plan with host context, venue details, group size, timing, and a low-pressure way to leave when the night is done."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# How Fanju app turns a Barcelona Escape Room Dinner night into something worth showing up for
+# How Fanju app turns a Barcelona Escape Room Dinner night into something worth showing up for | fanju-app
 
 For many in Barcelona, the idea of an "escape room dinner" sounds like a fun, if somewhat busy, way to spend an evening. But for introverts, or anyone who finds the prospect of a large, unstructured social gathering a little daunting, the appeal can be less clear. The Fanju app aims to change that, making these events feel less like a forced social experiment and more like a genuinely enjoyable, low-pressure experience. It's about curating the right atmosphere and the right company, ensuring that the focus remains on the shared challenge of the escape room, not on navigating awkward small talk. This approach transforms a potentially stressful evening into a well-defined, engaging activity that respects personal energy levels.
 

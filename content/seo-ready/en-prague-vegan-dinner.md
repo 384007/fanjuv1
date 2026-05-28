@@ -4,7 +4,7 @@ canonicalPath: "/en/city/prague/vegan-dinner"
 alternatePath: "/city/prague/vegan-dinner"
 translationKey: "prague-vegan-dinner"
 lang: "en"
-title: "What makes Vegan Dinner in Prague worth the risk; Fanju app answers before you arrive"
+title: "What makes Vegan Dinner in Prague worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "Prague’s social rhythm outside tourist zones runs on subtlety. Weekends here often include long lunches that drift into evening, or quiet gatherings in Vinohrady apartments where conversation matters more than who’s"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T140006Z"
 ---
 
-# What makes Vegan Dinner in Prague worth the risk; Fanju app answers before you arrive
+# What makes Vegan Dinner in Prague worth the risk; Fanju app answers before you arrive | fanju-app
 
 Fanju app in Prague connects people through small, intentional dinners where the focus is on real conversation, not spectacle. Vegan Dinner events on the platform are not themed around food alone—they’re designed for moments of low-pressure connection, especially for those who’ve felt out of place at larger meetups. The app sets clear expectations: meals are hosted in homes or quiet spaces, limited to six or eight guests, and always include a brief host introduction and stated intent. For someone considering their first event, it helps to know that hesitation is built into the design. You’re not signing up for a performance—you’re joining a table where it’s okay to listen more than you speak. That clarity is why many first-timers end up returning, not because they left with new best friends, but because the experience didn’t demand more than they were ready to give.
 

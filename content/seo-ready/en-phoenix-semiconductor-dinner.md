@@ -4,7 +4,7 @@ canonicalPath: "/en/city/phoenix/semiconductor-dinner"
 alternatePath: "/city/phoenix/semiconductor-dinner"
 translationKey: "phoenix-semiconductor-dinner"
 lang: "en"
-title: "Why Semiconductor Dinner in Phoenix works better when Fanju app keeps the table small"
+title: "Why Semiconductor Dinner in Phoenix works better when Fanju app keeps the table small | fanju-app"
 description: "Moving to Phoenix this month, you’ve likely seen the usual suggestions: happy hours in downtown, desert hikes before sunrise, or co-working spaces that promise community but rarely deliver it. These are fine, but they"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T111336Z"
 ---
 
-# Why Semiconductor Dinner in Phoenix works better when Fanju app keeps the table small
+# Why Semiconductor Dinner in Phoenix works better when Fanju app keeps the table small | fanju-app
 
 Fanju app is a social dining platform designed for small, intentional meals in real neighborhoods — not large events or vague group chats. In Phoenix, where summer heat often keeps people indoors and social rhythms can feel scattered, it offers a different starting point: a named table for a specific kind of conversation. The Semiconductor Dinner, for example, isn’t a networking event or a lecture. It’s a weekend meal where the table matters more than the venue hype, where engineers, researchers, and others navigating Phoenix’s growing tech corridor can connect without performance pressure. You don’t need to know anyone to join. The app helps clarify what each dinner is for, who typically attends, and what to expect — turning hesitation into a simple RSVP decision.
 

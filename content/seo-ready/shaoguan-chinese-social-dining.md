@@ -4,7 +4,7 @@ canonicalPath: "/city/shaoguan/chinese-social-dining"
 alternatePath: "/en/city/shaoguan/chinese-social-dining"
 translationKey: "shaoguan-chinese-social-dining"
 lang: "zh"
-title: "韶关想参加华人饭局，饭局app把信任感放在饭前"
+title: "韶关想参加华人饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "韶关想参加华人饭局，饭局app把信任感放在饭前"
 description: "在韶关，饭局app不是找饭搭子的工具，而是为那些想认真吃一顿饭的人准备的入口。它不主打热闹、不堆人数，而是把重心放在饭前的沟通与预期对齐上。这座城市节奏不急不慢，人与人之间讲究分寸，而饭局app恰好顺应了这种气质——它让陌生人在见面之前，先"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 韶关想参加华人饭局，饭局app把信任感放在饭前
+# 韶关想参加华人饭局，饭局app把信任感放在饭前 | fanju-app
 
 在韶关，饭局app不是找饭搭子的工具，而是为那些想认真吃一顿饭的人准备的入口。它不主打热闹、不堆人数，而是把重心放在饭前的沟通与预期对齐上。这座城市节奏不急不慢，人与人之间讲究分寸，而饭局app恰好顺应了这种气质——它让陌生人在见面之前，先通过文字了解彼此想聊什么、为什么聚这一桌。在丹霞山脚下、在西河桥边，越来越多的韶关华人开始选择用这样的方式开启一次对话：不仓促，不敷衍，也不靠运气。
 

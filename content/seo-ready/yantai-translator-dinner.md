@@ -4,7 +4,7 @@ canonicalPath: "/city/yantai/translator-dinner"
 alternatePath: "/en/city/yantai/translator-dinner"
 translationKey: "yantai-translator-dinner"
 lang: "zh"
-title: "下班后的烟台，饭局app怎样让翻译饭局有真实同桌"
+title: "下班后的烟台，饭局app怎样让翻译饭局有真实同桌 | fanju-app"
 titleZh: "下班后的烟台，饭局app怎样让翻译饭局有真实同桌"
 description: "对于许多选择在烟台远程工作的自由职业者和数字游民来说，工作日的结束往往意味着回到空荡的房间，或是继续面对电脑屏幕。在这样一个环境下，我们比以往任何时候都更需要一个真实的线下锚点，一个能让我们从虚拟世界抽离，重新连接现实社交的契机。饭局app"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 下班后的烟台，饭局app怎样让翻译饭局有真实同桌
+# 下班后的烟台，饭局app怎样让翻译饭局有真实同桌 | fanju-app
 
 对于许多选择在烟台远程工作的自由职业者和数字游民来说，工作日的结束往往意味着回到空荡的房间，或是继续面对电脑屏幕。在这样一个环境下，我们比以往任何时候都更需要一个真实的线下锚点，一个能让我们从虚拟世界抽离，重新连接现实社交的契机。饭局app正是在这样的需求下，为烟台的翻译工作者们提供了一个特别的线下聚会平台，让那些原本可能只存在于线上沟通的翻译同行，能在下班后，围坐在一张真实的餐桌旁，分享彼此的经历与见闻。
 

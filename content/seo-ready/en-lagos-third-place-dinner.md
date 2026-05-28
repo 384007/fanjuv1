@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lagos/third-place-dinner"
 alternatePath: "/city/lagos/third-place-dinner"
 translationKey: "lagos-third-place-dinner"
 lang: "en"
-title: "The Third Place Dinner table Lagos actually needs is the one Fanju app describes up front"
+title: "The Third Place Dinner table Lagos actually needs is the one Fanju app describes up front | fanju-app"
 description: "In Lagos, where weekend plans often dissolve into last-minute Lagos traffic or indecisive group chats, the Fanju app offers a structured alternative: the Third Place Dinner, a recurring dinner event designed for groups o"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# The Third Place Dinner table Lagos actually needs is the one Fanju app describes up front
+# The Third Place Dinner table Lagos actually needs is the one Fanju app describes up front | fanju-app
 
 In Lagos, where weekend plans often dissolve into last-minute Lagos traffic or indecisive group chats, the Fanju app offers a structured alternative: the Third Place Dinner, a recurring dinner event designed for groups of six to twelve people who may not know each other but gather around shared social rhythms. It’s not a date, not a networking event, not a performance—just a meal where the table dynamic matters as much as the menu. The app sets expectations clearly: this is a space for conversation, not spectacle, where the tone is shaped early and respected throughout. For newcomers and seasoned Lagos socializers alike, the value isn’t just in showing up, but in understanding how the gathering works before the first plate arrives.
 

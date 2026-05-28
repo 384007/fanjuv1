@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seoul/table-tennis-dinner"
 alternatePath: "/city/seoul/table-tennis-dinner"
 translationKey: "seoul-table-tennis-dinner"
 lang: "en"
-title: "Seoul strangers sit down easier when Fanju app frames the Table Tennis Dinner table first"
+title: "Seoul strangers sit down easier when Fanju app frames the Table Tennis Dinner table first | fanju-app"
 description: "In Seoul, where dinner invitations often come with unspoken social rules, the Table Tennis Dinner format works because it doesn’t pretend to be casual. The rhythm of the night is shaped before anyone walks in."
 primaryKeyword: "Seoul Table Tennis Dinner"
 secondaryKeywords: "Seoul social dining|Table Tennis dinner group|dinner buddy app|Fanju app|small-table dinner in Seoul"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T210005Z"
 ---
 
-# Seoul strangers sit down easier when Fanju app frames the Table Tennis Dinner table first
+# Seoul strangers sit down easier when Fanju app frames the Table Tennis Dinner table first | fanju-app
 
 The Fanju app offers a quiet way to connect in Seoul through small, clearly described dinners where shared interests set the tone. A Table Tennis Dinner isn’t a party or networking event—it’s a real meal with a handful of people who’ve agreed to show up with the same expectations. In a city where social circles can feel closed, Fanju makes room for newcomers and locals alike to meet without performance pressure. The app’s structure—real names, verified profiles, and concise table descriptions—helps ease the uncertainty that comes with joining strangers. For a Seoul Table Tennis Dinner, that clarity isn’t just helpful; it’s what allows the table to settle into something genuine. You don’t need to be outgoing, just willing to be present. The goal isn’t instant friendship, but a conversation that feels safe enough to stay in.
 

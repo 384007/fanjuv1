@@ -4,7 +4,7 @@ canonicalPath: "/city/hangzhou/keto-dinner"
 alternatePath: "/en/city/hangzhou/keto-dinner"
 translationKey: "hangzhou-keto-dinner"
 lang: "zh"
-title: "杭州生酮饮食饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "杭州生酮饮食饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "杭州生酮饮食饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "饭局的质地，往往在第一句自我介绍之前就已经定了。 在杭州，不少生酮饮食尝试者最初都是独自摸索——买原料、算净碳水、调整饮食节奏，这些事看起来琐碎，却构成了日常的重量。"
 primaryKeyword: "杭州生酮饮食饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T183055Z"
 ---
 
-# 杭州生酮饮食饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 杭州生酮饮食饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 傍晚六点四十分，西湖文化广场地铁口吹来一阵穿堂风，你拎着包走出B口，手机震动了一下——饭局app推送提醒：你报名的杭州生酮饮食饭局将在三十分钟后开始，餐厅在不远处的隐市二楼。你没约过同桌，也不确定谁先到，只记得报名时主理人写了一句：“这顿饭不谈减脂成果，只聊最近哪道自制生酮菜让你觉得值得分享。”杭州的晚高峰正在升温，而你站在街角，突然意识到自己其实并不想直接回家煮西兰花。饭局app上的这一桌，也许不是为了认识谁，但它确实提供了一种比刷手机更具体的收尾方式。在杭州，生酮饮食饭局不是一场任务，而是给那些不想独自面对冰箱的人，留出的一个低门槛落脚点。
 

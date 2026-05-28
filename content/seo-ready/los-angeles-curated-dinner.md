@@ -4,7 +4,7 @@ canonicalPath: "/city/los-angeles/curated-dinner"
 alternatePath: "/en/city/los-angeles/curated-dinner"
 translationKey: "los-angeles-curated-dinner"
 lang: "zh"
-title: "洛杉矶 curated dinner Guide"
+title: "洛杉矶 curated dinner Guide | fanju-app | 饭局app"
 titleZh: "洛杉矶curated-dinner指南"
 pageType: "city_landing"
 priorityScore: 50
@@ -12,7 +12,7 @@ aiQualityScore: 100
 status: "ready"
 ---
 
-# 洛杉矶 curated dinner Guide
+# 洛杉矶 curated dinner Guide | fanju-app | 饭局app
 
 ## 中文概览
 

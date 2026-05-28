@@ -4,7 +4,7 @@ canonicalPath: "/city/wuwei/stranger-dinner"
 alternatePath: "/en/city/wuwei/stranger-dinner"
 translationKey: "wuwei-stranger-dinner"
 lang: "zh"
-title: "武威想参加陌生人饭局，饭局app把信任感放在饭前"
+title: "武威想参加陌生人饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "武威想参加陌生人饭局，饭局app把信任感放在饭前"
 description: "饭局app在武威的饭桌，不追求热闹的聚会，而是专注小桌吃饭、清晰主题和真实连接。在武威，节奏慢，街巷安静，人与人之间的距离既不远也不近，恰好适合用一顿饭的时间慢慢认识一个陌生人。饭局app在这里落地的方式，不是喧闹的派对，而是一桌四到六人的"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 武威想参加陌生人饭局，饭局app把信任感放在饭前
+# 武威想参加陌生人饭局，饭局app把信任感放在饭前 | fanju-app
 
 饭局app在武威的饭桌，不追求热闹的聚会，而是专注小桌吃饭、清晰主题和真实连接。在武威，节奏慢，街巷安静，人与人之间的距离既不远也不近，恰好适合用一顿饭的时间慢慢认识一个陌生人。饭局app在这里落地的方式，不是喧闹的派对，而是一桌四到六人的晚餐，有明确的主题，有主理人引导，也有足够留白的空间。它不承诺立刻交到朋友，但保证每个人都能在安全的边界里，尝试一次真实的对话。对很多住在武威的女性来说，这样的饭局，是城市生活里难得的松弛出口。
 

@@ -3,7 +3,7 @@ slug: "en-bangkok-dinner-buddy"
 canonicalPath: "/en/city/bangkok/dinner-buddy"
 alternatePath: "/city/bangkok/dinner-buddy"
 translationKey: "bangkok-dinner-buddy"
-title: "Bangkok Dinner Buddy | Fanju"
+title: "Bangkok Dinner Buddy | Fanju | fanju-app"
 titleZh: "曼谷饭局伙伴"
 description: "Find a dinner companion in Bangkok through Fanju. Join curated small-table dinner gatherings, meet locals and expats, and build real social connections over shared meals."
 pageType: "city_category"
@@ -13,7 +13,7 @@ priorityScore: 90
 status: "ready"
 ---
 
-# Bangkok Dinner Buddy
+# Bangkok Dinner Buddy | fanju-app
 
 Bangkok is one of Southeast Asia's most vibrant food cities, and finding the right dinner companion can transform a meal into a memorable social experience. Fanju connects people who want to share a table, discover new restaurants, and build genuine friendships over food.
 

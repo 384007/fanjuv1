@@ -4,7 +4,7 @@ canonicalPath: "/city/puyang/automotive-dinner"
 alternatePath: "/en/city/puyang/automotive-dinner"
 translationKey: "puyang-automotive-dinner"
 lang: "zh"
-title: "濮阳想找一桌汽车行业饭局，饭局app先看同桌边界"
+title: "濮阳想找一桌汽车行业饭局，饭局app先看同桌边界 | fanju-app"
 titleZh: "濮阳想找一桌汽车行业饭局，饭局app先看同桌边界"
 description: "濮阳的汽车行业饭局，不是相亲保证、不是随机群聊、不是无限刷资料。 它通过饭局app / Fanju饭局组织，以小桌吃饭为核心，围绕清晰主题促成线下真实连接。 在濮阳，这样的饭局更看重彼此是否在同一节奏里——比如你刚从开发区的汽配厂下班，愿意为一次有来有往的对话多留一小时。 它不承诺人脉暴涨，但会提前说明谁在组织、在哪吃、大概几人、话题方向是否具体。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 濮阳想找一桌汽车行业饭局，饭局app先看同桌边界
+# 濮阳想找一桌汽车行业饭局，饭局app先看同桌边界 | fanju-app
 
 濮阳的汽车行业饭局，不是相亲保证、不是随机群聊、不是无限刷资料。它通过饭局app / Fanju饭局组织，以小桌吃饭为核心，围绕清晰主题促成线下真实连接。在濮阳，这样的饭局更看重彼此是否在同一节奏里——比如你刚从开发区的汽配厂下班，愿意为一次有来有往的对话多留一小时。它不承诺人脉暴涨，但会提前说明谁在组织、在哪吃、大概几人、话题方向是否具体。真正吸引人的，是那种“吃完还能聊两句”的自然感。
 

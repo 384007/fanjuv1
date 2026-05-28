@@ -4,7 +4,7 @@ canonicalPath: "/en/city/buenos-aires/private-equity-dinner"
 alternatePath: "/city/buenos-aires/private-equity-dinner"
 translationKey: "buenos-aires-private-equity-dinner"
 lang: "en"
-title: "When Private Equity Dinner in Buenos Aires needs more than a group chat, Fanju app starts with the table"
+title: "When Private Equity Dinner in Buenos Aires needs more than a group chat, Fanju app starts with the table | fanju-app"
 description: "Buenos Aires Private Equity Dinner hosted through Fanju app offers a focused offline dinner experience for finance professionals who want to connect beyond digital noise."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# When Private Equity Dinner in Buenos Aires needs more than a group chat, Fanju app starts with the table
+# When Private Equity Dinner in Buenos Aires needs more than a group chat, Fanju app starts with the table | fanju-app
 
 Buenos Aires Private Equity Dinner hosted through Fanju app offers a focused offline dinner experience for finance professionals who want to connect beyond digital noise. This is not a dating guarantee, not a random group chat, not an endless profile feed. Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局”, and in Buenos Aires, it works as a social dining app that structures small-table meals around clear themes—like private equity trends, cross-border fundraising, or Latin American deal flow—not just casual meetups. You arrive with a reason to talk, not just a name tag. The host sets the frame: who can join, what gets discussed, and when the night ends. For someone new in the city, especially in a niche field like private equity, this isn’t about filling time—it’s about starting conversations that match your rhythm, not an algorithm’s.
 

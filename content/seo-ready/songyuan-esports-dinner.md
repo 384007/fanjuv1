@@ -4,7 +4,7 @@ canonicalPath: "/city/songyuan/esports-dinner"
 alternatePath: "/en/city/songyuan/esports-dinner"
 translationKey: "songyuan-esports-dinner"
 lang: "zh"
-title: "在松原把电竞饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在松原把电竞饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在松原把电竞饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "在松原，一场饭局的成败，往往不在饭本身，而在饭前那几分钟的沉默。饭局app上线后，有人以为它只是个报名工具，其实不然。它更像一个本地生活的筛子，筛掉那些注定尴尬的饭局——比如主办方连自己想聊什么都说不清，同桌的人从头到尾都在等别人开口，或者"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在松原把电竞饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在松原把电竞饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 在松原，一场饭局的成败，往往不在饭本身，而在饭前那几分钟的沉默。饭局app上线后，有人以为它只是个报名工具，其实不然。它更像一个本地生活的筛子，筛掉那些注定尴尬的饭局——比如主办方连自己想聊什么都说不清，同桌的人从头到尾都在等别人开口，或者餐厅嘈杂得连一句完整的话都说不出。在松原，电竞饭局不是比赛复盘会，也不是技术培训课，它是一群人借吃饭这件事，确认彼此是否在同一个生活频率上。饭局app的价值，正在于让这种确认发生在饭前，而不是冷场之后。
 

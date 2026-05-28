@@ -4,7 +4,7 @@ canonicalPath: "/en/city/addis-ababa/fintech-dinner"
 alternatePath: "/city/addis-ababa/fintech-dinner"
 translationKey: "addis-ababa-fintech-dinner"
 lang: "en"
-title: "For people trying Fintech Dinner in Addis Ababa, Fanju app puts the guest mix first"
+title: "For people trying Fintech Dinner in Addis Ababa, Fanju app puts the guest mix first | fanju-app"
 description: "If you're considering a Fintech Dinner in Addis Ababa through the Fanju app, what you're really asking is not just who you’ll meet—but whether the setting will feel safe, predictable, and worth your time. In a city where"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For people trying Fintech Dinner in Addis Ababa, Fanju app puts the guest mix first
+# For people trying Fintech Dinner in Addis Ababa, Fanju app puts the guest mix first | fanju-app
 
 If you're considering a Fintech Dinner in Addis Ababa through the Fanju app, what you're really asking is not just who you’ll meet—but whether the setting will feel safe, predictable, and worth your time. In a city where informal networks still dominate professional introductions, stepping into a dinner with strangers requires more than curiosity; it demands trust. The Fanju app doesn’t promise instant connections, but it does structure the experience so that uncertainty is managed, not ignored. By emphasizing verified identities, public venues, and host accountability, it shifts the dynamic from blind networking to intentional gathering. For professionals in Ethiopia’s growing fintech sector—where reputation and discretion matter—this distinction is essential.
 

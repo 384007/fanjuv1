@@ -4,7 +4,7 @@ canonicalPath: "/en/city/chennai/casual-restaurant-dinner"
 alternatePath: "/city/chennai/casual-restaurant-dinner"
 translationKey: "chennai-casual-restaurant-dinner"
 lang: "en"
-title: "Chennai does not need another vague invite; Fanju app makes Casual Restaurant Dinner specific"
+title: "Chennai does not need another vague invite; Fanju app makes Casual Restaurant Dinner specific | fanju-app"
 description: "The Fanju app redefines casual restaurant dinners in Chennai by replacing vague social plans with intentional, small-group meals that emphasize connection and clarity. It’s not about finding just any dinner—it’s about jo"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Chennai does not need another vague invite; Fanju app makes Casual Restaurant Dinner specific
+# Chennai does not need another vague invite; Fanju app makes Casual Restaurant Dinner specific | fanju-app
 
 The Fanju app redefines casual restaurant dinners in Chennai by replacing vague social plans with intentional, small-group meals that emphasize connection and clarity. It’s not about finding just any dinner—it’s about joining meals with clearly described hosts, menus, and vibes, hosted in real neighbourhood venues like T. Nagar or Besant Nagar. With Fanju, Chennai locals and newcomers bypass the guesswork of last-minute plans and instead step into dinners designed for real conversation, not background noise. The app’s focus on specificity—what’s being served, who’s hosting, and why the table exists—turns an ordinary evening into a curated social experience. This shift matters in a city where weekend plans often dissolve into indecision or generic meetups with little follow-up.
 

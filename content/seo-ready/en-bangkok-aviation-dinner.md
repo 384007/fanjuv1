@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangkok/aviation-dinner"
 alternatePath: "/city/bangkok/aviation-dinner"
 translationKey: "bangkok-aviation-dinner"
 lang: "en"
-title: "For people trying Aviation Dinner in Bangkok, Fanju app puts the guest mix first"
+title: "For people trying Aviation Dinner in Bangkok, Fanju app puts the guest mix first | fanju-app"
 description: "Arriving in Bangkok this month, you’re past the jet lag but not yet settled—your evenings are still open, your network is thin, and dinner with strangers feels like both a risk and a relief. The city hums with late-night"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Aviation Dinner in Bangkok, Fanju app puts the guest mix first
+# For people trying Aviation Dinner in Bangkok, Fanju app puts the guest mix first | fanju-app
 
 Arriving in Bangkok this month, you’re past the jet lag but not yet settled—your evenings are still open, your network is thin, and dinner with strangers feels like both a risk and a relief. The city hums with late-night energy, but finding the right table—one that doesn’t feel like a performance or a pitch—is harder than it should be. That’s where the Fanju app changes the math. It doesn’t just list dinners; it shapes them, starting with who shows up. For Aviation Dinner hosts in Bangkok, the app prioritizes guest compatibility over headcount, using subtle signals like arrival timing, conversation style, and comfort with ambiguity to assemble groups that stand a chance of connecting. It’s not about filling seats. It’s about filling the right seats.
 

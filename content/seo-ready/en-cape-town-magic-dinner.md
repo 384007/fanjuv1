@@ -4,7 +4,7 @@ canonicalPath: "/en/city/cape-town/magic-dinner"
 alternatePath: "/city/cape-town/magic-dinner"
 translationKey: "cape-town-magic-dinner"
 lang: "en"
-title: "How Fanju app turns a Cape Town Magic Dinner night into something worth showing up for"
+title: "How Fanju app turns a Cape Town Magic Dinner night into something worth showing up for | fanju-app"
 description: "Magic Dinner in Cape Town isn’t about spectacle or stage tricks. It’s the quiet shift that happens when strangers share a small table in a city of nearly four million. Through the Fanju app, residents and newcomers find"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Cape Town Magic Dinner night into something worth showing up for
+# How Fanju app turns a Cape Town Magic Dinner night into something worth showing up for | fanju-app
 
 Magic Dinner in Cape Town isn’t about spectacle or stage tricks. It’s the quiet shift that happens when strangers share a small table in a city of nearly four million. Through the Fanju app, residents and newcomers find their way to intimate dinners hosted in homes across the city—from Sea Point flats to Observatory cottages. These aren’t pop-up restaurants or curated experiences for tourists. They’re real meals in real homes, arranged not through hype but through trust built slowly in a digital space. The Fanju app doesn’t promise magic, but it makes space for it—by prioritizing smallness in a sprawling, diverse metropolis where connections can feel fleeting.
 

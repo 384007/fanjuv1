@@ -4,7 +4,7 @@ canonicalPath: "/city/haikou/festival-dinner"
 alternatePath: "/en/city/haikou/festival-dinner"
 translationKey: "haikou-festival-dinner"
 lang: "zh"
-title: "海口想参加节日饭局，饭局app把信任感放在饭前"
+title: "海口想参加节日饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "海口想参加节日饭局，饭局app把信任感放在饭前"
 description: "节日饭局的核心，是让陌生人坐下来后，几分钟内就能自然开口。在海口，这种开场感特别重要。城市的节奏偏慢，人与人之间的距离感也微妙——不冷漠，但也不轻易打开。饭局app上那些信息完整的饭局，往往在报名前就让人安心：餐厅是否安静，话题是否具体，主"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T180008Z"
 ---
 
-# 海口想参加节日饭局，饭局app把信任感放在饭前
+# 海口想参加节日饭局，饭局app把信任感放在饭前 | fanju-app
 
 在海口，周末的饭局常被当作顺手安排的事——朋友约了就去，没约就作罢。但节日饭局不一样，它不该是临时起意的凑局，而是一整周生活节奏里的一个支点。饭局app上的每一桌，都试图把这种支点变得可预期：小桌吃饭，人数不多，主题清晰，参与者彼此有真实交流的意愿。在海口，这种饭局不是为了热闹，而是为了解决“一个人吃饭太安静，一群人又太吵”的中间地带。它不承诺饭后立刻交到朋友，但至少保证饭前你能看明白：这桌人是谁，饭在哪吃，聊什么话题，主理人有没有认真准备。
 

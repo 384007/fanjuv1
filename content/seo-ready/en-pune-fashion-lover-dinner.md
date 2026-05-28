@@ -4,7 +4,7 @@ canonicalPath: "/en/city/pune/fashion-lover-dinner"
 alternatePath: "/city/pune/fashion-lover-dinner"
 translationKey: "pune-fashion-lover-dinner"
 lang: "en"
-title: "Before joining Fashion Lover Dinner in Pune, what Fanju app should make clear"
+title: "Before joining Fashion Lover Dinner in Pune, what Fanju app should make clear | fanju-app"
 description: "Pune Fashion Lover Dinner on Fanju app is a small-table social event centered on style, fabric, and the stories behind what we wear—hosted offline in real venues across the city."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Before joining Fashion Lover Dinner in Pune, what Fanju app should make clear
+# Before joining Fashion Lover Dinner in Pune, what Fanju app should make clear | fanju-app
 
 Pune Fashion Lover Dinner on Fanju app is a small-table social event centered on style, fabric, and the stories behind what we wear—hosted offline in real venues across the city. It’s not a dating guarantee, not a random group chat, not an endless profile feed. This is a planned dinner where guests join a themed table to talk about fashion in a grounded, face-to-face setting. Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局”, and in Pune, it functions as a social dining app that connects people through curated small-table dinners. The experience begins with a listing, but what matters most is what that listing reveals—or doesn’t—about the host, space, and rhythm of the night.
 

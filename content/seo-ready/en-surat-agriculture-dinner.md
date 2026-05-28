@@ -4,7 +4,7 @@ canonicalPath: "/en/city/surat/agriculture-dinner"
 alternatePath: "/city/surat/agriculture-dinner"
 translationKey: "surat-agriculture-dinner"
 lang: "en"
-title: "Surat does not need another vague invite; Fanju app makes Agriculture Dinner specific"
+title: "Surat does not need another vague invite; Fanju app makes Agriculture Dinner specific | fanju-app"
 description: "Surat hosts many gatherings, but most never reach the table. They stall at the idea stage—vague messages in group chats, invitations with no clear purpose, events that dissolve before arrival. I’ve hosted agriculture-the"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Surat does not need another vague invite; Fanju app makes Agriculture Dinner specific
+# Surat does not need another vague invite; Fanju app makes Agriculture Dinner specific | fanju-app
 
 Surat hosts many gatherings, but most never reach the table. They stall at the idea stage—vague messages in group chats, invitations with no clear purpose, events that dissolve before arrival. I’ve hosted agriculture-themed dinners here for over two years, and the moment I started using the Fanju app to structure them, everything changed. It wasn’t just about food or farming talk. It was about turning intention into experience. The app helped me define who should come, why they were coming, and what each person could bring to the conversation. In a city buzzing with textile mills and riverside development, agriculture often feels like a distant chapter. But around my table, it’s alive—specific, grounded, and shaped by who shows up.
 

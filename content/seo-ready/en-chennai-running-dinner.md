@@ -4,7 +4,7 @@ canonicalPath: "/en/city/chennai/running-dinner"
 alternatePath: "/city/chennai/running-dinner"
 translationKey: "chennai-running-dinner"
 lang: "en"
-title: "Running Dinner in Chennai should not feel like a gamble; Fanju app changes the odds"
+title: "Running Dinner in Chennai should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "Running Dinner in Chennai can be more than dinner at a stranger’s home—it can be a quiet moment of belonging in a city that unfolds slowly. But for first-timers, the idea of joining a Fanju-hosted dinner often feels unce"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Running Dinner in Chennai should not feel like a gamble; Fanju app changes the odds
+# Running Dinner in Chennai should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 Running Dinner in Chennai can be more than dinner at a stranger’s home—it can be a quiet moment of belonging in a city that unfolds slowly. But for first-timers, the idea of joining a Fanju-hosted dinner often feels uncertain. Who will be there? Will the conversation stall? Is the place easy to reach after work? The Fanju app doesn’t promise perfection, but it does offer structure: verified hosts, clear timing, and guest preferences that help match the right people at the same table. In a city where social circles often form through school or family, the app becomes a quiet bridge to new connections, especially when you’re not sure where to start.
 

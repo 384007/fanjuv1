@@ -4,7 +4,7 @@ canonicalPath: "/city/baoshan/saturday-dinner"
 alternatePath: "/en/city/baoshan/saturday-dinner"
 translationKey: "baoshan-saturday-dinner"
 lang: "zh"
-title: "在保山把周六饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在保山把周六饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在保山把周六饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "饭局app 是一个围绕小桌吃饭、清晰主题和真实线下连接的社交应用，它不主打热闹打卡，也不推送网红餐厅，而是把人带回饭桌本身。在保山，这座滇西小城节奏平缓、人情温厚，饭局的真正价值不是“参加”，而是“坐稳”。一场周六饭局能不能让人自然说话、不"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在保山把周六饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在保山把周六饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 饭局app 是一个围绕小桌吃饭、清晰主题和真实线下连接的社交应用，它不主打热闹打卡，也不推送网红餐厅，而是把人带回饭桌本身。在保山，这座滇西小城节奏平缓、人情温厚，饭局的真正价值不是“参加”，而是“坐稳”。一场周六饭局能不能让人自然说话、不强找话题、吃完还想再来，取决于它是否真的适配本地生活节奏。饭局app 在这里的作用，不是制造社交，而是过滤掉那些看似热闹却让人疲惫的饭局，留下能让人放松下来的饭桌。在保山，一顿饭的诚意，藏在细节里。
 

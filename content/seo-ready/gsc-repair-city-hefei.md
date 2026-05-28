@@ -4,7 +4,7 @@ canonicalPath: "/city/hefei"
 alternatePath: "/en/city/hefei"
 translationKey: "gsc-repair-city-hefei"
 lang: "zh"
-title: "合肥饭局指南"
+title: "合肥饭局指南 | fanju-app | 饭局app"
 description: "合肥饭局页面帮助新来合肥、科技产业和高校周边用户通过 Fanju 找到主题清楚、公开餐厅的小桌饭局。"
 pageType: "city_landing"
 priorityScore: 82
@@ -12,7 +12,7 @@ aiQualityScore: 96
 status: "ready"
 ---
 
-# 合肥饭局指南：如何通过 Fanju 找到同城同频小桌
+# 合肥饭局指南：如何通过 Fanju 找到同城同频小桌 | fanju-app | 饭局app
 
 合肥饭局适合新来合肥、在高新区和政务区工作、关注科技产业、高校圈层或本地生活方式的人。Fanju / 饭局把饭局主题、餐厅、人数、费用和主理人说明放在报名之前，帮助用户用一顿饭建立真实线下连接。
 

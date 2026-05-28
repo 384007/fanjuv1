@@ -4,7 +4,7 @@ canonicalPath: "/city/linyi/barista-dinner"
 alternatePath: "/en/city/linyi/barista-dinner"
 translationKey: "linyi-barista-dinner"
 lang: "zh"
-title: "临沂咖啡师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "临沂咖啡师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "临沂咖啡师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "临沂这座城市，有着自己的节奏和烟火气，从兰陵书圣故里到沂蒙精神的摇篮，这里的人们骨子里就透着一种实在和热情。咖啡文化在这里也悄然生长，汇聚了一群对风味、对生活有独特见解的咖啡师。他们渴望的，是一场不含糊、能真正带来交流和放松的饭局，一个能让"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 临沂咖啡师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 临沂咖啡师饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
 在临沂，下班后不想独自回家的空档，总会有人想找个地方，不是为了吃个饭，而是为了找点连接。这时，“饭局app”这样的存在，就显得尤为珍贵。它不只是一个工具，更像是一种邀请，邀请你在临沂的某个街区，参与一场明确而有边界的小桌饭局，尤其对于咖啡师这个群体，他们白天在各自的店里忙碌，夜晚的连接需求更显迫切。
 

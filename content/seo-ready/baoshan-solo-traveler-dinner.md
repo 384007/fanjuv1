@@ -4,7 +4,7 @@ canonicalPath: "/city/baoshan/solo-traveler-dinner"
 alternatePath: "/en/city/baoshan/solo-traveler-dinner"
 translationKey: "baoshan-solo-traveler-dinner"
 lang: "zh"
-title: "在保山找一桌不尴尬的独自旅行者饭局，饭局app先解决什么"
+title: "在保山找一桌不尴尬的独自旅行者饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在保山找一桌不尴尬的独自旅行者饭局，饭局app先解决什么"
 description: "在保山，一个人旅行时最安静的时刻，往往不是深夜，而是傍晚六点，站在南强街的小巷口，手里拎着刚买的饵丝，不知道该往哪走。饭局app在这里不做喧闹的拼团，也不推打卡式的饭局，它先解决的是“这一桌到底适不适合我”——对独自旅行者来说，不是缺饭，是"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在保山找一桌不尴尬的独自旅行者饭局，饭局app先解决什么
+# 在保山找一桌不尴尬的独自旅行者饭局，饭局app先解决什么 | fanju-app
 
 在保山，一个人旅行时最安静的时刻，往往不是深夜，而是傍晚六点，站在南强街的小巷口，手里拎着刚买的饵丝，不知道该往哪走。饭局app在这里不做喧闹的拼团，也不推打卡式的饭局，它先解决的是“这一桌到底适不适合我”——对独自旅行者来说，不是缺饭，是缺一个不必解释自己的饭桌。饭局app在保山的入口，不是热闹的推荐页，而是几条安静的私密小桌邀请：四人桌、提前两天开放、主理人写明“不劝酒、不查行程”，这比任何欢迎语都更让人安心。它不承诺社交奇迹，只帮你在陌生城市里，先稳住一顿饭的节奏。
 

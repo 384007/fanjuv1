@@ -4,7 +4,7 @@ canonicalPath: "/en/city/mexico-city/martial-arts-dinner"
 alternatePath: "/city/mexico-city/martial-arts-dinner"
 translationKey: "mexico-city-martial-arts-dinner"
 lang: "en"
-title: "How Fanju app turns a Mexico City Martial Arts Dinner night into something worth showing up for"
+title: "How Fanju app turns a Mexico City Martial Arts Dinner night into something worth showing up for | fanju-app"
 description: "In Mexico City, Fanju app turns a martial arts dinner into a focused small-table plan with training context, host standards, venue tone, and clear expectations before anyone arrives."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# How Fanju app turns a Mexico City Martial Arts Dinner night into something worth showing up for
+# How Fanju app turns a Mexico City Martial Arts Dinner night into something worth showing up for | fanju-app
 
 If you’ve just landed in Mexico City and opened the Fanju app, you might scroll past "Martial Arts Dinner" thinking it’s another themed meetup or performance night. It’s not. This is a quiet ritual hosted in homes and tucked-away dining rooms where people who train—boxing, jiu-jitsu, capoeira, even tai chi—come to eat and talk without the noise of a scene. Fanju makes it visible, yes, but more importantly, it preserves the tone. You won’t see flashy invites or crowded guest lists. Instead, you’ll find a short description, a host’s real name, and a detail like “no white belts” or “we eat before 8.” That specificity is what stops it from dissolving into just another social obligation. For someone new here, that clarity is a relief.
 

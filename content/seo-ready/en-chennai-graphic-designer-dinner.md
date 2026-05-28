@@ -4,7 +4,7 @@ canonicalPath: "/en/city/chennai/graphic-designer-dinner"
 alternatePath: "/city/chennai/graphic-designer-dinner"
 translationKey: "chennai-graphic-designer-dinner"
 lang: "en"
-title: "Before the first message in Chennai, Fanju app makes Graphic Designer Dinner feel like a real decision"
+title: "Before the first message in Chennai, Fanju app makes Graphic Designer Dinner feel like a real decision | fanju-app"
 description: "In Chennai, the prospect of a Graphic Designer Dinner, facilitated by the Fanju app, transforms a casual thought into a considered plan. It’s less about a spontaneous ‘yes’ and more about a thoughtful ‘this is the right"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Chennai, Fanju app makes Graphic Designer Dinner feel like a real decision
+# Before the first message in Chennai, Fanju app makes Graphic Designer Dinner feel like a real decision | fanju-app
 
 In Chennai, the prospect of a Graphic Designer Dinner, facilitated by the Fanju app, transforms a casual thought into a considered plan. It’s less about a spontaneous ‘yes’ and more about a thoughtful ‘this is the right time, these are the right people.’ The Fanju app’s approach to these dinners emphasizes a curated, private experience, moving away from broad, open invitations towards something more intimate and intentional. This means the initial steps involve more than just sending out a message; they involve deciding who should be there and why, ensuring the evening’s success before the first dish is even ordered.
 

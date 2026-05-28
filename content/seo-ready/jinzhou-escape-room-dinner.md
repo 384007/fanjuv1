@@ -4,7 +4,7 @@ canonicalPath: "/city/jinzhou/escape-room-dinner"
 alternatePath: "/en/city/jinzhou/escape-room-dinner"
 translationKey: "jinzhou-escape-room-dinner"
 lang: "zh"
-title: "锦州的密室逃脱饭局不该靠运气，饭局app把主理人和同桌放在最前面"
+title: "锦州的密室逃脱饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app"
 titleZh: "锦州的密室逃脱饭局不该靠运气，饭局app把主理人和同桌放在最前面"
 description: "在锦州，一次成功的密室逃脱饭局，不仅仅是游戏环节的顺利进行，更在于饭局结束后，参与者之间是否能留下进一步交流的“余地”。 这种余地并非强制性的，而是自然产生的。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 锦州的密室逃脱饭局不该靠运气，饭局app把主理人和同桌放在最前面
+# 锦州的密室逃脱饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 
 很多人对周末下班后的社交活动有所期待，尤其是在锦州这样的城市，想要在放松的状态下认识新朋友，往往会想到一些新颖的方式。对于第一次尝试密室逃脱饭局的人来说，紧张和不确定感是普遍存在的。饭局app的出现，正是为了解决这种模糊不清的社交需求，它不只提供一个平台，更是在锦州这样的城市里，为那些希望通过一次有主题、有温度的小桌饭局来拓展社交圈的人们，提供了一个更具象、更可控的选择。这不仅仅是一顿饭，更是一次基于共同兴趣的线下连接，让潜在的尴尬化为共同探索的乐趣，让泛泛的邀约变成具体的一桌人。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/manila/vegan-dinner"
 alternatePath: "/city/manila/vegan-dinner"
 translationKey: "manila-vegan-dinner"
 lang: "en"
-title: "Manila Vegan Dinner: Connect Over Values, Not Just Food | Fanju App"
+title: "Manila Vegan Dinner: Connect Over Values, Not Just Food | Fanju App | fanju-app"
 description: "Find your dinner buddy in Manila through intimate, values-driven vegan dinners. Join small-table social dining that respects boundaries and builds real connection."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Share More Than a Meal: Vegan Dinners in Manila That Build Belonging
+# Share More Than a Meal: Vegan Dinners in Manila That Build Belonging | fanju-app
 
 In a city where dinner means family, fiestas, and endless rounds of ulam and rice, choosing a plant-based path can feel quietly isolating. For many in Manila, being vegan isn’t just about diet — it’s a reflection of deeper values around health, ethics, or the planet. Yet those values don’t always have a seat at the table. That’s where intentional vegan dinners come in: not as trend-driven pop-ups or performative wellness events, but as grounded spaces for connection among those navigating a meat-rich culture with quiet conviction.
 
@@ -61,3 +61,9 @@ In spaces like a repurposed Kapitolyo apartment or a quiet corner of a Makati ze
 These dinners don’t aim to convert or educate. They exist to hold space — for questions, for silence, for the relief of not having to explain yourself. In a city that never stops moving, that kind of stillness is its own form of connection.
 
 Whether you call it kainan, mesa, or dinner, the act of breaking bread together remains powerful. In Manila, where food carries memory and meaning, vegan dinners aren’t just about what’s on the plate — they’re about who finally feels welcome to sit down.
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

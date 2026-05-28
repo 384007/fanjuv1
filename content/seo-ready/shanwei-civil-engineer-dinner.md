@@ -4,7 +4,7 @@ canonicalPath: "/city/shanwei/civil-engineer-dinner"
 alternatePath: "/en/city/shanwei/civil-engineer-dinner"
 translationKey: "shanwei-civil-engineer-dinner"
 lang: "zh"
-title: "汕尾土木工程师饭局不该只靠群聊，饭局app要把这桌饭讲明白"
+title: "汕尾土木工程师饭局不该只靠群聊，饭局app要把这桌饭讲明白 | fanju-app"
 titleZh: "汕尾土木工程师饭局不该只靠群聊，饭局app要把这桌饭讲明白"
 description: "汕尾土木工程师饭局，是饭局app里为数不多能让人安静坐下来的一类。 它不是相亲保证、不是随机群聊、不是无限刷资料，而是一场围绕具体主题的小桌吃饭，试图让刚来汕尾的工程师们，在饭桌上找到一点真实连接。 Fanju饭局的设计初衷，就是把线下饭局社交做实：谁发起、在哪吃、来几人、聊什么，都提前写明白。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 汕尾土木工程师饭局不该只靠群聊，饭局app要把这桌饭讲明白
+# 汕尾土木工程师饭局不该只靠群聊，饭局app要把这桌饭讲明白 | fanju-app
 
 汕尾土木工程师饭局，是饭局app里为数不多能让人安静坐下来的一类。它不是相亲保证、不是随机群聊、不是无限刷资料，而是一场围绕具体主题的小桌吃饭，试图让刚来汕尾的工程师们，在饭桌上找到一点真实连接。Fanju饭局的设计初衷，就是把线下饭局社交做实：谁发起、在哪吃、来几人、聊什么，都提前写明白。在汕尾，尤其当你刚落地、还不熟悉城区动线时，这类饭局的价值不是“认识多少人”，而是“能不能安心吃完一顿饭”。
 

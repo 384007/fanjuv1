@@ -4,7 +4,7 @@ canonicalPath: "/city/zhangjiajie/friday-dinner"
 alternatePath: "/en/city/zhangjiajie/friday-dinner"
 translationKey: "zhangjiajie-friday-dinner"
 lang: "zh"
-title: "张家界不想只靠群聊时，饭局app怎样把周五饭局坐成一桌"
+title: "张家界不想只靠群聊时，饭局app怎样把周五饭局坐成一桌 | fanju-app"
 titleZh: "张家界不想只靠群聊时，饭局app怎样把周五饭局坐成一桌"
 description: "在张家界，山雾常在傍晚时分漫过天门山脚，街边小馆的灯光一盏盏亮起来。这时候，饭局app里的消息也慢慢多了起来——不是群聊里刷屏的“有人拼饭吗”，而是一条条安静但清晰的饭局邀请：几人桌、主理人是谁、在南庄坪还是官黎坪的哪家餐馆、聊什么话题。饭"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 张家界不想只靠群聊时，饭局app怎样把周五饭局坐成一桌
+# 张家界不想只靠群聊时，饭局app怎样把周五饭局坐成一桌 | fanju-app
 
 在张家界，山雾常在傍晚时分漫过天门山脚，街边小馆的灯光一盏盏亮起来。这时候，饭局app里的消息也慢慢多了起来——不是群聊里刷屏的“有人拼饭吗”，而是一条条安静但清晰的饭局邀请：几人桌、主理人是谁、在南庄坪还是官黎坪的哪家餐馆、聊什么话题。饭局app在这里不制造热闹，它试着让每一次见面都更像一次可预期的饭。它不保证你认识谁，但努力让你在赴约前就知道这顿饭可能是什么样子。在张家界，这座被自然奇观定义的城市，人们也开始在意饭桌上的微小秩序：一桌人能不能聊得踏实，比吃什么更重要。
 

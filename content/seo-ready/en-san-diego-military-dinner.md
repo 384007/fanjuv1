@@ -4,7 +4,7 @@ canonicalPath: "/en/city/san-diego/military-dinner"
 alternatePath: "/city/san-diego/military-dinner"
 translationKey: "san-diego-military-dinner"
 lang: "en"
-title: "San Diego does not need another vague invite; Fanju app makes Military Dinner specific"
+title: "San Diego does not need another vague invite; Fanju app makes Military Dinner specific | fanju-app"
 description: "San Diego’s evenings often unfold under a soft coastal light, the kind that lingers past sunset near the water. For military families, service members on leave, or veterans adjusting to civilian rhythm, dinner can be mor"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# San Diego does not need another vague invite; Fanju app makes Military Dinner specific
+# San Diego does not need another vague invite; Fanju app makes Military Dinner specific | fanju-app
 
 San Diego’s evenings often unfold under a soft coastal light, the kind that lingers past sunset near the water. For military families, service members on leave, or veterans adjusting to civilian rhythm, dinner can be more than a meal—it can be reconnection. But too often, an invitation to “grab dinner” in San Diego drifts into ambiguity: who’s going, where, and why? The Fanju app changes that. Instead of loose plans, it offers defined tables—specific times, specific people, specific neighborhoods. In Mission Hills, for example, a Military Dinner is no longer a maybe; it’s a real table at a real house, set for six, confirmed through the app. The value isn’t just in food, but in clarity. This is how San Diego begins to feel like home again.
 

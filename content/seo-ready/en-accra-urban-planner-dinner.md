@@ -4,7 +4,7 @@ canonicalPath: "/en/city/accra/urban-planner-dinner"
 alternatePath: "/city/accra/urban-planner-dinner"
 translationKey: "accra-urban-planner-dinner"
 lang: "en"
-title: "Why Urban Planner Dinner in Accra works better when Fanju app keeps the table small"
+title: "Why Urban Planner Dinner in Accra works better when Fanju app keeps the table small | fanju-app"
 description: "Accra moves fast, but not always forward. New developments rise in Osu while drainage issues persist in Nima. Traffic patterns shift with informal transit routes, and zoning often feels like an afterthought. In this"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Urban Planner Dinner in Accra works better when Fanju app keeps the table small
+# Why Urban Planner Dinner in Accra works better when Fanju app keeps the table small | fanju-app
 
 Fanju app helps people in Accra connect over carefully set dinners where conversation matters more than spectacle. Unlike large meetups or generic networking events, it focuses on intimate, well-structured meals—often just four to six people—where attendees are vetted, the host is known, and the intent is clear. For someone who just arrived in the city, it’s a way to move past surface-level interactions and into real conversations about urban life, design, and daily navigation in Accra. The app’s design prioritizes clarity: every dinner lists the host’s background, the location, the theme, and what kind of guests are welcome. That precision is especially valuable in a city where informal plans often dissolve and public events rarely deliver on their promise.
 

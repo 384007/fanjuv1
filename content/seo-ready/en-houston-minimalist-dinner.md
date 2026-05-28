@@ -4,7 +4,7 @@ canonicalPath: "/en/city/houston/minimalist-dinner"
 alternatePath: "/city/houston/minimalist-dinner"
 translationKey: "houston-minimalist-dinner"
 lang: "en"
-title: "Before the first message in Houston, Fanju app makes Minimalist Dinner feel like a real decision"
+title: "Before the first message in Houston, Fanju app makes Minimalist Dinner feel like a real decision | fanju-app"
 description: "Deciding what to do after work in Houston doesn’t have to mean choosing between silence and noise. The Fanju app offers a different rhythm: a space to eat with just enough structure to feel intentional, but not so much t"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Houston, Fanju app makes Minimalist Dinner feel like a real decision
+# Before the first message in Houston, Fanju app makes Minimalist Dinner feel like a real decision | fanju-app
 
 Deciding what to do after work in Houston doesn’t have to mean choosing between silence and noise. The Fanju app offers a different rhythm: a space to eat with just enough structure to feel intentional, but not so much that it becomes another obligation. Minimalist Dinner on Fanju isn’t about elaborate menus or curated experiences—it’s about showing up to a table where the only goal is to share a meal without performance. For people working late near the Energy Corridor or coming in from the Medical Center, it’s a way to pause without going home to an empty kitchen. The app doesn’t promise connection, but it does make space for it, one quiet dinner at a time.
 

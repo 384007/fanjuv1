@@ -4,7 +4,7 @@ canonicalPath: "/en/city/singapore/translator-dinner"
 alternatePath: "/city/singapore/translator-dinner"
 translationKey: "singapore-translator-dinner"
 lang: "en"
-title: "Before joining Translator Dinner in Singapore, what Fanju app should make clear"
+title: "Before joining Translator Dinner in Singapore, what Fanju app should make clear | fanju-app"
 description: "This is not a dating guarantee, not a random group chat, not an endless profile feed. If the listing feels open-ended or overly casual, it may not deliver the grounded exchange many Singapore readers are seeking."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Before joining Translator Dinner in Singapore, what Fanju app should make clear
+# Before joining Translator Dinner in Singapore, what Fanju app should make clear | fanju-app
 
 In Singapore, Translator Dinner on the Fanju app offers a quiet counterpoint to digital noise: a small, seated meal where conversation flows around language, nuance, and the unspoken work of moving meaning across cultures. This is not a dating guarantee, not a random group chat, not an endless profile feed. Fanju, also known in Chinese as “饭局 / 饭局app / Fanju饭局”, is a social dining app designed for offline connection through intentional themes. In this city of precise logistics and layered identities, Translator Dinner works best when the host shares clear context—why this table exists, who it’s for, and how it differs from a networking event or language exchange. If the listing feels open-ended or overly casual, it may not deliver the grounded exchange many Singapore readers are seeking.
 

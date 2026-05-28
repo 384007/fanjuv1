@@ -4,7 +4,7 @@ canonicalPath: "/en/city/alexandria/jazz-dinner"
 alternatePath: "/city/alexandria/jazz-dinner"
 translationKey: "alexandria-jazz-dinner"
 lang: "en"
-title: "Alexandria strangers sit down easier when Fanju app frames the Jazz Dinner table first"
+title: "Alexandria strangers sit down easier when Fanju app frames the Jazz Dinner table first | fanju-app"
 description: "In Alexandria, where old brick rowhouses meet riverfront walks and a quiet cultural pulse hums beneath the surface, the Fanju app helps turn hesitant curiosity into shared evenings. One such evening is the Jazz Dinner—a"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Alexandria strangers sit down easier when Fanju app frames the Jazz Dinner table first
+# Alexandria strangers sit down easier when Fanju app frames the Jazz Dinner table first | fanju-app
 
 In Alexandria, where old brick rowhouses meet riverfront walks and a quiet cultural pulse hums beneath the surface, the Fanju app helps turn hesitant curiosity into shared evenings. One such evening is the Jazz Dinner—a monthly gathering not built for romance, but for connection without expectation. The app doesn’t just send invites; it sets the tone. By clarifying purpose, framing group dynamics, and giving attendees a shared reference before arrival, Fanju reduces the friction of joining strangers over wine and improvisational melodies. This isn’t about finding *the one*. It’s about remembering how to sit across from someone new and feel grounded, not guarded.
 

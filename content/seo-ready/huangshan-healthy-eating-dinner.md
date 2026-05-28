@@ -4,7 +4,7 @@ canonicalPath: "/city/huangshan/healthy-eating-dinner"
 alternatePath: "/en/city/huangshan/healthy-eating-dinner"
 translationKey: "huangshan-healthy-eating-dinner"
 lang: "zh"
-title: "把黄山健康饮食饭局坐成真实小桌，饭局app需要先说明什么"
+title: "把黄山健康饮食饭局坐成真实小桌，饭局app需要先说明什么 | fanju-app"
 titleZh: "把黄山健康饮食饭局坐成真实小桌，饭局app需要先说明什么"
 description: "在黄山参加一场健康饮食饭局，打开饭局app时你最先看到的不应该是模糊的“一起吃饭”邀约，而是一个清晰的对话起点。 Fanju饭局是围绕小桌吃饭、清晰主题和线下连接的社交应用，它在黄山落地为几人围坐的真实饭局，讨论食材选择、本地时令或轻负担生活节奏。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 把黄山健康饮食饭局坐成真实小桌，饭局app需要先说明什么
+# 把黄山健康饮食饭局坐成真实小桌，饭局app需要先说明什么 | fanju-app
 
 在黄山参加一场健康饮食饭局，打开饭局app时你最先看到的不应该是模糊的“一起吃饭”邀约，而是一个清晰的对话起点。Fanju饭局是围绕小桌吃饭、清晰主题和线下连接的社交应用，它在黄山落地为几人围坐的真实饭局，讨论食材选择、本地时令或轻负担生活节奏。这不是相亲保证，不是随机群聊，不是无限刷资料——它是一次带着意图的见面，比如在屯溪老街附近的小馆子里，六个人用九十分钟聊完“如何在旅游城市吃得本地又轻盈”。
 

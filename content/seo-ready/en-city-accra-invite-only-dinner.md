@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/accra/invite-only-dinner"
 alternatePath: "/city/accra/invite-only-dinner"
-title: "Accra Invite Only Dinner Guide"
+title: "Accra Invite Only Dinner Guide | fanju-app | 饭局app"
 description: "Discover the authentic taste of Accra's dinner scene with Fanju app, a social dining app that brings people together for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---
@@ -54,3 +54,9 @@ recoveredFromD1: true
 <p>Let&#039;s take a closer look at an example neighbourhood dinner in Accra. Imagine a warm summer evening in Osu, with the sounds of traditional Ghanaian music drifting through the air. You&#039;ve been invited to a dinner party hosted by a local chef, who has prepared a delicious menu of traditional dishes. As you arrive, you&#039;re greeted with a warm smile and a refreshing drink. The atmosphere is lively and energetic, with a mix of locals and expats coming together to share a meal and make new connections.</p>
 <p>This is just one example of what a neighbourhood dinner in Accra can be like. With Fanju, you can experience the city&#039;s vibrant culture and make meaningful connections with like-minded people. So why not give it a try? Download the app, create a profile, and start browsing the available events. You never know who you might meet or what delicious dishes you might try.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

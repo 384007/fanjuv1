@@ -4,7 +4,7 @@ canonicalPath: "/en/city/santiago/yoga-dinner"
 alternatePath: "/city/santiago/yoga-dinner"
 translationKey: "santiago-yoga-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Santiago Yoga Dinner table before the first course"
+title: "The Fanju app way to judge a Santiago Yoga Dinner table before the first course | fanju-app"
 description: "Santiago Yoga Dinner on the Fanju app is a small-table meal where conversation starts with shared practice, not small talk—think of it as a grounded evening with people who care about breath, balance, and real presence."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# The Fanju app way to judge a Santiago Yoga Dinner table before the first course
+# The Fanju app way to judge a Santiago Yoga Dinner table before the first course | fanju-app
 
 Santiago Yoga Dinner on the Fanju app is a small-table meal where conversation starts with shared practice, not small talk—think of it as a grounded evening with people who care about breath, balance, and real presence. This is not a dating guarantee, not a random group chat, not an endless profile feed. Hosts set a theme—like post-yoga nourishment or mindful eating—and open space for a calm 6–12 person dinner. You’ll find these gatherings listed clearly with time, location hints, dietary notes, and a host introduction. Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局,” reflecting its roots in intentional shared meals. In Santiago, where urban life moves fast and connection can feel light, this format offers a pause. The app supports clarity, not hype, helping you decide with real details, not just vibes.
 

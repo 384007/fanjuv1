@@ -4,7 +4,7 @@ canonicalPath: "/en/city/madrid/marketing-dinner"
 alternatePath: "/city/madrid/marketing-dinner"
 translationKey: "madrid-marketing-dinner"
 lang: "en"
-title: "A calmer way to approach Marketing Dinner in Madrid through Fanju app"
+title: "A calmer way to approach Marketing Dinner in Madrid through Fanju app | fanju-app"
 description: "If you’ve ever stood outside a Madrid metro station at 8 p.m., debating whether to go home to an empty kitchen or force a conversation at a bar you don’t like, you’re not alone. The Fanju app was designed for those momen"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach Marketing Dinner in Madrid through Fanju app
+# A calmer way to approach Marketing Dinner in Madrid through Fanju app | fanju-app
 
 If you’ve ever stood outside a Madrid metro station at 8 p.m., debating whether to go home to an empty kitchen or force a conversation at a bar you don’t like, you’re not alone. The Fanju app was designed for those moments—specifically, for Madrid professionals who want to end their workday with a shared meal that doesn’t feel like networking or performance. Marketing Dinner, as it exists on Fanju, isn’t about pitch exchanges or climbing a ladder. It’s about replacing solitude with simple company, using dinner as a soft transition out of work mode. In Madrid, where late meals are cultural but often solitary for newcomers or remote workers, this version of Marketing Dinner works because it asks less and delivers more: just a table, a few people, and the quiet relief of not eating alone.
 

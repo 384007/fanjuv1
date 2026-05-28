@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ho-chi-minh-city/night-owl-dinner"
 alternatePath: "/city/ho-chi-minh-city/night-owl-dinner"
 translationKey: "ho-chi-minh-city-night-owl-dinner"
 lang: "en"
-title: "How Fanju app turns a Ho Chi Minh City Night Owl Dinner night into something worth showing up for"
+title: "How Fanju app turns a Ho Chi Minh City Night Owl Dinner night into something worth showing up for | fanju-app"
 description: "Arriving in Ho Chi Minh City alone late in the evening, your phone battery low and street signs blending into one long stretch of motorbike noise, the idea of dinner isn’t just about food—it’s about orientation. That’s w"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Ho Chi Minh City Night Owl Dinner night into something worth showing up for
+# How Fanju app turns a Ho Chi Minh City Night Owl Dinner night into something worth showing up for | fanju-app
 
 Arriving in Ho Chi Minh City alone late in the evening, your phone battery low and street signs blending into one long stretch of motorbike noise, the idea of dinner isn’t just about food—it’s about orientation. That’s where Fanju app shifts the experience from survival to connection. Instead of scrolling through delivery apps or hesitating at street stalls, you open Fanju and see a Night Owl Dinner happening 15 minutes away in District 3, hosted by someone who’s lived here eight years and speaks enough English to put you at ease. It’s not a tour, not a class, just dinner—shared. The app surfaces hosts who’ve earned trust through repeat gatherings, and the timing fits: 9:30 PM, post-work, post-exploration, when the city’s second wind kicks in. You’re not just finding a meal. You’re finding a moment that feels real.
 

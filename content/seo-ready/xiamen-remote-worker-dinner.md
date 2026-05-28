@@ -4,7 +4,7 @@ canonicalPath: "/city/xiamen/remote-worker-dinner"
 alternatePath: "/en/city/xiamen/remote-worker-dinner"
 translationKey: "xiamen-remote-worker-dinner"
 lang: "zh"
-title: "厦门远程工作者饭局：用小桌饭局找到同频的人 | Fanju"
+title: "厦门远程工作者饭局：用小桌饭局找到同频的人 | Fanju | fanju-app | 饭局app"
 titleZh: "厦门远程工作者饭局：用小桌饭局找到同频的人 | Fanju"
 description: "厦门远程工作者饭局通过 Fanju 小桌饭局提前说明主题、公开地点、人数和费用边界，帮助同城用户判断这一桌是否适合自己。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在厦门用一顿饭测试是否同频：远程工作者的小桌饭局
+# 在厦门用一顿饭测试是否同频：远程工作者的小桌饭局 | fanju-app | 饭局app
 
 厦门的远程工作者常处于流动与停留的夹缝中。他们需要连接，但抗拒绑定；渴望交流，却警惕任务式社交。Fanju 提供的小桌饭局，不是随机群聊，也不是隐性相亲，而是为阶段性共居者设计的轻量社交容器——通过结构化共餐，用一顿饭的时间测试彼此是否同频。
 
@@ -30,10 +30,6 @@ recoveredFromD1: "true"
 ## Fanju 如何区别于其他社交方式
 
 不同于微信群的持续信息负担，Fanju 的饭局是限时、限人的实体共餐。它拒绝推销课程或拉群行为，也不设定相亲氛围。每场由固定主理人引导，人数控制在八人以内，地点选在可公开进入的社区餐厅或临海小馆。参与者自带设备，餐后自愿收起，进入主题分享环节。
-
-## 如何判断这一桌是否适合自己
-
-进入前可查看菜单与规则公示，了解主题范围与人均消费预估。现场可通过非语言信号识别退出边界，例如放置特定物品示意暂停交流。饭局不承诺建立友谊，但允许自然共鸣发生。若对话断裂，也无需强撑，体面离场是被允许的选项。
 
 ## 潮汐动线与饭局空间设计
 

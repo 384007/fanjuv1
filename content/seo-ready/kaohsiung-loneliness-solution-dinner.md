@@ -4,7 +4,7 @@ canonicalPath: "/city/kaohsiung/loneliness-solution-dinner"
 alternatePath: "/en/city/kaohsiung/loneliness-solution-dinner"
 translationKey: "kaohsiung-loneliness-solution-dinner"
 lang: "zh"
-title: "高雄想参加解决孤独饭局，饭局app把信任感放在饭前"
+title: "高雄想参加解决孤独饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "高雄想参加解决孤独饭局，饭局app把信任感放在饭前"
 description: "刚到高雄的这个月，天气闷热，捷运出站口吹来的风都带着盐分。你搬进前金区的小套房，公司离驳二不远，白天在办公室和人说话，晚上回到住处，连开冰箱的声音都太响。你下载了饭局app，不是为了交朋友这种大目标，而是想知道，在这座城市里，有没有一桌饭能"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 高雄想参加解决孤独饭局，饭局app把信任感放在饭前
+# 高雄想参加解决孤独饭局，饭局app把信任感放在饭前 | fanju-app
 
 刚到高雄的这个月，天气闷热，捷运出站口吹来的风都带着盐分。你搬进前金区的小套房，公司离驳二不远，白天在办公室和人说话，晚上回到住处，连开冰箱的声音都太响。你下载了饭局app，不是为了交朋友这种大目标，而是想知道，在这座城市里，有没有一桌饭能让你坐下十分钟，不必解释自己是谁。饭局app不是聊天工具，也不是活动平台，它只做一件事：把人按具体主题、固定人数、真实身份，约到一张真实的饭桌前。在高雄，这样的饭桌正悄悄多起来。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/warsaw/meditation-dinner"
 alternatePath: "/city/warsaw/meditation-dinner"
 translationKey: "warsaw-meditation-dinner"
 lang: "en"
-title: "Before the first message in Warsaw, Fanju app makes Meditation Dinner feel like a real decision"
+title: "Before the first message in Warsaw, Fanju app makes Meditation Dinner feel like a real decision | fanju-app"
 description: "Reaching out to join a Meditation Dinner in Warsaw shouldn’t echo the vague plans that dissolve before meetup. On Fanju, the message isn’t left to chance — it’s framed by what’s already written about the table. When a"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T170006Z"
 ---
 
-# Before the first message in Warsaw, Fanju app makes Meditation Dinner feel like a real decision
+# Before the first message in Warsaw, Fanju app makes Meditation Dinner feel like a real decision | fanju-app
 
 In Warsaw, where quiet evenings in Praga or a late tram ride home can stretch into long reflections, the idea of joining strangers for a Meditation Dinner isn’t just about food — it’s about whether the space will hold space for you. The Fanju app approaches this quietly, offering small-table dinners where the description tells you not just the menu, but the mood. There’s no promise of instant connection, just clarity: who the table is for, what kind of conversation is welcome, and how the evening moves. For someone returning to social life after months of distance, that clarity isn’t just helpful — it’s the reason to click “interested” instead of scrolling past.
 

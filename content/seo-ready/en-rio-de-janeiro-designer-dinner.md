@@ -4,7 +4,7 @@ canonicalPath: "/en/city/rio-de-janeiro/designer-dinner"
 alternatePath: "/city/rio-de-janeiro/designer-dinner"
 translationKey: "rio-de-janeiro-designer-dinner"
 lang: "en"
-title: "Why Designer Dinner in Rio de Janeiro works better when Fanju app keeps the table small"
+title: "Why Designer Dinner in Rio de Janeiro works better when Fanju app keeps the table small | fanju-app"
 description: "In Rio de Janeiro, where social rhythms move with the tides of Copacabana and the pulse of Santa Teresa’s alleyways, the Fanju app reshapes how curated dinners unfold. It doesn’t scale up; it scales down. By design, the"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Designer Dinner in Rio de Janeiro works better when Fanju app keeps the table small
+# Why Designer Dinner in Rio de Janeiro works better when Fanju app keeps the table small | fanju-app
 
 In Rio de Janeiro, where social rhythms move with the tides of Copacabana and the pulse of Santa Teresa’s alleyways, the Fanju app reshapes how curated dinners unfold. It doesn’t scale up; it scales down. By design, the app limits guest counts and prioritizes intention over volume, allowing hosts to focus on quality connections, thoughtful menus, and local craft. This isn’t about filling seats—it’s about filling moments. Whether in an Ipanema apartment with a view of Dois Irmãos or a tucked-away garden in Botafogo, the smaller table enforced by Fanju creates space for real dialogue, shared stories, and a meal that feels deliberate, not performative. In a city where dinner can easily drift into noise, the app’s restraint becomes its strength.
 

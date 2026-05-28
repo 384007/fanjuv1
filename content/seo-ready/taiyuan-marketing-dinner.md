@@ -4,7 +4,7 @@ canonicalPath: "/city/taiyuan/marketing-dinner"
 alternatePath: "/en/city/taiyuan/marketing-dinner"
 translationKey: "taiyuan-marketing-dinner"
 lang: "zh"
-title: "太原市场饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
+title: "太原市场饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
 titleZh: "太原市场饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 description: "这十分钟，是报名前最犹豫的具象化。你站在门口，脑子里还在过：“我是不是来错了？”“这些人真的和我聊得来吗？”“万一冷场怎么办？”在太原，这种情绪尤其真实。城市节奏不快不慢，人与人之间有种熟悉的疏离——明明都在一个圈子里晃，却总差一层没捅破的"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
 ---
 
-# 太原市场饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌
+# 太原市场饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
 周末晚上六点半，太原的街面刚亮起灯。你站在长风街一家小馆子门口，外套还没脱，手机弹出通知：“饭局app提醒：你的座位已预留，主理人已到。”你低头看了看表，比约定时间早了十分钟。这十分钟，没人认识你，你也不确定会不会被认识。这种时刻，在太原的市场饭局里，不是尴尬的间隙，而是决定整桌饭能否真正坐得下来的起点。饭局app的存在，不是为了多凑一桌饭，而是让这十分钟不再靠运气，而是有迹可循——从谁先开口，到菜怎么点，再到话题怎么走，都提前有了方向。在太原，饭局app成了那些想重新回到线下、又不想硬撑场面的人，悄悄试水的第一站。
 

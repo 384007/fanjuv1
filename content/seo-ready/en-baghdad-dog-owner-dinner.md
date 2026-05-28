@@ -4,7 +4,7 @@ canonicalPath: "/en/city/baghdad/dog-owner-dinner"
 alternatePath: "/city/baghdad/dog-owner-dinner"
 translationKey: "baghdad-dog-owner-dinner"
 lang: "en"
-title: "A calmer way to approach Dog Owner Dinner in Baghdad through Fanju app"
+title: "A calmer way to approach Dog Owner Dinner in Baghdad through Fanju app | fanju-app"
 description: "Hosting dinners in Baghdad has taught me that shared interests don’t automatically make for good conversation. Just because someone owns a dog doesn’t mean they’ll open up over grilled kofta and rice. On the Fanju app, w"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach Dog Owner Dinner in Baghdad through Fanju app
+# A calmer way to approach Dog Owner Dinner in Baghdad through Fanju app | fanju-app
 
 Hosting dinners in Baghdad has taught me that shared interests don’t automatically make for good conversation. Just because someone owns a dog doesn’t mean they’ll open up over grilled kofta and rice. On the Fanju app, where Dog Owner Dinner events are organized by residents rather than venues, the real work begins long before guests arrive. It’s not about the food or even the dogs—it’s about shaping a space where people feel safe enough to be present. In a city where social rhythms are shaped by both tradition and tension, a dinner that feels right is one where no one feels pressured to perform.
 

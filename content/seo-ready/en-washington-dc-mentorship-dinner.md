@@ -4,7 +4,7 @@ canonicalPath: "/en/city/washington-dc/mentorship-dinner"
 alternatePath: "/city/washington-dc/mentorship-dinner"
 translationKey: "washington-dc-mentorship-dinner"
 lang: "en"
-title: "Washington DC does not need another vague invite; Fanju app makes Mentorship Dinner specific"
+title: "Washington DC does not need another vague invite; Fanju app makes Mentorship Dinner specific | fanju-app"
 description: "Mentorship Dinner in Washington DC isn’t about showing up to a network mixer or trading business cards over lukewarm appetizers. It’s a deliberate exchange over a shared meal, designed for depth, not volume. The Fanju ap"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Washington DC does not need another vague invite; Fanju app makes Mentorship Dinner specific
+# Washington DC does not need another vague invite; Fanju app makes Mentorship Dinner specific | fanju-app
 
 Mentorship Dinner in Washington DC isn’t about showing up to a network mixer or trading business cards over lukewarm appetizers. It’s a deliberate exchange over a shared meal, designed for depth, not volume. The Fanju app supports this by curating small dinners where hosts describe not just the menu, but the intent—what they hope to give and gain. Each dinner is a self-contained conversation, limited to eight guests, with hosts who commit to guiding the tone. The app surfaces details that matter: dietary preferences accommodated, host background, discussion themes, and even pacing cues like “we’ll start with introductions and end with one takeaway.” This specificity is what turns a social obligation into a trustworthy invitation. In a city where influence circulates quietly, Fanju filters out the noise and surfaces dinners that match personal and professional rhythms.
 

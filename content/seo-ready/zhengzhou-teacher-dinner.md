@@ -4,7 +4,7 @@ canonicalPath: "/city/zhengzhou/teacher-dinner"
 alternatePath: "/en/city/zhengzhou/teacher-dinner"
 translationKey: "zhengzhou-teacher-dinner"
 lang: "zh"
-title: "在郑州把教师饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在郑州把教师饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在郑州把教师饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "在郑州，饭局app不是让你赶场子的社交工具，而是帮你找到一桌有话说、节奏对的人。它围绕小桌吃饭设计，强调清晰主题和真实连接，尤其适合像教师这样习惯表达又重视氛围的人群。在郑州这座节奏分明、街区气质各异的城市里，一场教师饭局能不能坐得稳，不在"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在郑州把教师饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在郑州把教师饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 在郑州，饭局app不是让你赶场子的社交工具，而是帮你找到一桌有话说、节奏对的人。它围绕小桌吃饭设计，强调清晰主题和真实连接，尤其适合像教师这样习惯表达又重视氛围的人群。在郑州这座节奏分明、街区气质各异的城市里，一场教师饭局能不能坐得稳，不在于餐厅多体面，而在于从报名那一刻起，你是否清楚这一桌的底色是什么。饭局app在这里的作用，是筛掉那些看似热闹却容易尴尬的局，留下真正能坐下聊透的一餐。
 

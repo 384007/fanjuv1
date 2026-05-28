@@ -4,7 +4,7 @@ canonicalPath: "/city/yingkou/diving-dinner"
 alternatePath: "/en/city/yingkou/diving-dinner"
 translationKey: "yingkou-diving-dinner"
 lang: "zh"
-title: "在营口把潜水饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在营口把潜水饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在营口把潜水饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "在营口，微信群里经常能看到“有人来吃饭吗”这样的招呼，但这种饭局往往最后变成凑数局。人来了，坐下了，话题却飘在表面，聊天气、聊工作、聊最近吃什么，三轮菜上完，彼此还是陌生人。我试过用饭局app发过类似的局，报名的人不少，但到现场才发现，一半"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T140006Z"
 ---
 
-# 在营口把潜水饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在营口把潜水饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 在营口，一顿饭能不能吃舒服，往往不取决于菜好不好，而在于谁坐在你对面。饭局app在这里不是用来刷存在感的，它是把人从线上拉到桌边的工具，但真正决定体验的，是这一桌人能不能自然说话。我组织过二十多场小桌饭局，发现最怕的不是冷场，而是那种“大家都想说话，但谁都不敢先开口”的僵局。营口的节奏不快，人也偏含蓄，饭局app能帮人找到饭桌，但筛掉那些注定尴尬的组合，才是它真正该做的事——比如让一个只想安静吃顿饭的人，不会被塞进一场必须表演热情的饭局。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dublin/valentines-dinner"
 alternatePath: "/city/dublin/valentines-dinner"
 translationKey: "dublin-valentines-dinner"
 lang: "en"
-title: "What makes Valentines Dinner in Dublin worth the risk; Fanju app answers before you arrive"
+title: "What makes Valentines Dinner in Dublin worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "Dublin’s Valentines Dinner scene isn’t about crowded wine bars or predictable three-course set menus. It’s about intention: who’s invited, where they sit, and what’s left unsaid. The Fanju app surfaces these dinners befo"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Valentines Dinner in Dublin worth the risk; Fanju app answers before you arrive
+# What makes Valentines Dinner in Dublin worth the risk; Fanju app answers before you arrive | fanju-app
 
 Dublin’s Valentines Dinner scene isn’t about crowded wine bars or predictable three-course set menus. It’s about intention: who’s invited, where they sit, and what’s left unsaid. The Fanju app surfaces these dinners before they’re full—before the host’s tone, the guest list balance, and the evening’s quiet rhythm are locked in. That window, just after a dinner is posted but before replies flood in, is when you can assess whether it aligns with how you’d like to spend the night. For those who treat social dining as a craft, not a convenience, Dublin offers a subtler version of celebration—one shaped more by host vision than by restaurant PR.
 

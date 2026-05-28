@@ -4,7 +4,7 @@ canonicalPath: "/en/city/riyadh/advertising-dinner"
 alternatePath: "/city/riyadh/advertising-dinner"
 translationKey: "riyadh-advertising-dinner"
 lang: "en"
-title: "The Advertising Dinner table Riyadh actually needs is the one Fanju app describes up front"
+title: "The Advertising Dinner table Riyadh actually needs is the one Fanju app describes up front | fanju-app"
 description: "In Riyadh, Fanju app makes an advertising dinner credible by clarifying the table purpose, guest roles, venue privacy, timing, and follow-up expectations before the first dish arrives."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# The Advertising Dinner table Riyadh actually needs is the one Fanju app describes up front
+# The Advertising Dinner table Riyadh actually needs is the one Fanju app describes up front | fanju-app
 
 In Riyadh, a city where professional gatherings often blur into social ones, the idea of an "advertising dinner" can mean anything from a formal agency meet-up to a loosely arranged meal among freelancers trading referrals. But the real value lies in something more deliberate: a small, focused table of 6 to 12 people who share a field but not necessarily a network. The Fanju app helps clarify this by making intent visible before the first dish arrives. Instead of relying on chance introductions or overbooked venues, the app surfaces who is attending, why they’re there, and what they hope to gain—practical clarity that makes the difference between a pleasant meal and a meaningful one. In a city where word-of-mouth still carries weight in creative industries, that precision matters.
 

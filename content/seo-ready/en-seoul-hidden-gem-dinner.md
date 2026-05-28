@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seoul/hidden-gem-dinner"
 alternatePath: "/city/seoul/hidden-gem-dinner"
 translationKey: "seoul-hidden-gem-dinner"
 lang: "en"
-title: "In Seoul, Fanju app turns Hidden Gem Dinner into a table people can actually trust"
+title: "In Seoul, Fanju app turns Hidden Gem Dinner into a table people can actually trust | fanju-app"
 description: "For newcomers in Seoul, finding real connection over dinner often means navigating between overly polished expat meetups and tightly knit local circles that feel just out of reach. The Fanju app changes that by framing H"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Seoul, Fanju app turns Hidden Gem Dinner into a table people can actually trust
+# In Seoul, Fanju app turns Hidden Gem Dinner into a table people can actually trust | fanju-app
 
 For newcomers in Seoul, finding real connection over dinner often means navigating between overly polished expat meetups and tightly knit local circles that feel just out of reach. The Fanju app changes that by framing Hidden Gem Dinner not as another networking event, but as a quietly structured way to share a meal with someone who lives the city differently. It doesn’t promise instant friendship or cultural immersion, but it does offer a named table—one with expectations, a host, and a neighborhood story worth hearing. Through Fanju, the dinner becomes less about discovery for discovery’s sake and more about consistency, where the ritual of breaking bread in a tucked-away neighborhood like Seongbuk-dong or Mullae-dong feels earned, not staged.
 

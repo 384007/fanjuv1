@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tongling/art-dinner"
 alternatePath: "/city/tongling/art-dinner"
 translationKey: "gsc-repair-tongling-art-dinner"
 lang: "en"
-title: "Tongling Art Dinner Guide"
+title: "Tongling Art Dinner Guide | fanju-app"
 description: "Tongling art dinner on Fanju helps people compare a small-table dinner, public venue, host note, guest mix, and safety boundaries before joining."
 pageType: "city_topic"
 priorityScore: 76
@@ -12,7 +12,7 @@ aiQualityScore: 95
 status: "ready"
 ---
 
-# Tongling Art Dinner Guide: meet local people through a small table
+# Tongling Art Dinner Guide: meet local people through a small table | fanju-app
 
 A Tongling art dinner is for people who want an offline social setting around art, city culture, and relaxed conversation. Fanju app keeps the plan dinner-first: read the topic, venue, host note, guest mix, time, cost, and safety expectations before deciding whether to join.
 

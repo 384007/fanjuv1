@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bogota/picnic-dinner"
 alternatePath: "/city/bogota/picnic-dinner"
 translationKey: "bogota-picnic-dinner"
 lang: "en"
-title: "Bogota after work: how Fanju app makes Picnic Dinner feel like a real room"
+title: "Bogota after work: how Fanju app makes Picnic Dinner feel like a real room | fanju-app"
 description: "In Bogota, where workdays stretch into uncertain evenings and social plans often dissolve into last-minute cancellations or crowded bars with no space to talk, the Picnic Dinner format on the Fanju app offers something r"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Bogota after work: how Fanju app makes Picnic Dinner feel like a real room
+# Bogota after work: how Fanju app makes Picnic Dinner feel like a real room | fanju-app
 
 In Bogota, where workdays stretch into uncertain evenings and social plans often dissolve into last-minute cancellations or crowded bars with no space to talk, the Picnic Dinner format on the Fanju app offers something rare: a named, intentional table. For women especially, who often weigh comfort and safety more heavily in social decisions, the app’s structure transforms a casual dinner into a predictable, human-scale experience. Instead of navigating chaotic group dynamics or awkward solo appearances, users in Chapinero, Teusaquillo, or La Candelaria can join small tables—usually four to six people—where the host is verified, the location is confirmed in advance, and the tone is set before anyone arrives. This isn’t about grand gestures or curated perfection. It’s about the quiet confidence of knowing your place at the table.
 

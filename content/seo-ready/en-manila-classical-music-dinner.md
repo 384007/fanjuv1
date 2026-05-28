@@ -4,7 +4,7 @@ canonicalPath: "/en/city/manila/classical-music-dinner"
 alternatePath: "/city/manila/classical-music-dinner"
 translationKey: "manila-classical-music-dinner"
 lang: "en"
-title: "Manila has plenty of Classical Music Dinner options; Fanju app is the one that names the table first"
+title: "Manila has plenty of Classical Music Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Manila’s workdays often stretch late, especially in corporate zones where traffic delays the return home. That in-between space—when you’re neither at the office nor settled for the night—creates a unique window for"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Manila has plenty of Classical Music Dinner options; Fanju app is the one that names the table first
+# Manila has plenty of Classical Music Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Fanju app helps people in Manila find small, intentional dinners where music and conversation unfold without performance pressure. It’s not a concert venue or a formal dining club—it’s a way to end the workday with real connection over a meal, often hosted in quiet neighborhoods like Salcedo or Forbes Park. Classical Music Dinner tables here are designed to feel grounded, not grand, with hosts who prioritize comfort over spectacle. The app surfaces specific details—like seating arrangement, musical era focus, or whether the host plays an instrument—so you’re not guessing if it’s the right fit. For someone winding down from a long day at an office in Makati or Bonifacio Global City, it’s a low-effort way to step into a meaningful pause, not another obligation.
 

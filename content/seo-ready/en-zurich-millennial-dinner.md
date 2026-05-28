@@ -4,7 +4,7 @@ canonicalPath: "/en/city/zurich/millennial-dinner"
 alternatePath: "/city/zurich/millennial-dinner"
 translationKey: "zurich-millennial-dinner"
 lang: "en"
-title: "In Zurich, Fanju app turns Millennial Dinner into a table people can actually trust"
+title: "In Zurich, Fanju app turns Millennial Dinner into a table people can actually trust | fanju-app"
 description: "What if the real luxury of dining in Zurich isn’t the menu, but the company? For years, the idea of Millennial Dinner—informal, pop-up meals hosted in homes or borrowed spaces—struggled under a quiet burden: inconsistenc"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Zurich, Fanju app turns Millennial Dinner into a table people can actually trust
+# In Zurich, Fanju app turns Millennial Dinner into a table people can actually trust | fanju-app
 
 What if the real luxury of dining in Zurich isn’t the menu, but the company? For years, the idea of Millennial Dinner—informal, pop-up meals hosted in homes or borrowed spaces—struggled under a quiet burden: inconsistency. Too often, the promise of connection fizzled into awkward small talk or mismatched expectations. But with the Fanju app reshaping how these gatherings are curated, a new standard is forming. In a city where precision matters as much in social rituals as in watchmaking, Fanju doesn’t just connect people—it verifies intent, signals quality, and sets a table where trust isn’t assumed, but built.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/wenzhou/poetry-dinner"
 alternatePath: "/en/city/wenzhou/poetry-dinner"
 translationKey: "wenzhou-poetry-dinner"
 lang: "zh"
-title: "温州不想只靠群聊时，饭局app怎样把诗歌饭局坐成一桌"
+title: "温州不想只靠群聊时，饭局app怎样把诗歌饭局坐成一桌 | fanju-app"
 titleZh: "温州不想只靠群聊时，饭局app怎样把诗歌饭局坐成一桌"
 description: "在温州，生活节奏快是出了名的，但快不代表只剩下效率。许多人渴望在忙碌的周末找到一些能真正触动心灵的活动，而不是仅仅在微信群里漫无目的地闲聊。饭局app的出现，为温州市民提供了一个更具深度和仪式感的社交平台，尤其是在诗歌饭局这类主题活动上。它"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 温州不想只靠群聊时，饭局app怎样把诗歌饭局坐成一桌
+# 温州不想只靠群聊时，饭局app怎样把诗歌饭局坐成一桌 | fanju-app
 
 在温州，生活节奏快是出了名的，但快不代表只剩下效率。许多人渴望在忙碌的周末找到一些能真正触动心灵的活动，而不是仅仅在微信群里漫无目的地闲聊。饭局app的出现，为温州市民提供了一个更具深度和仪式感的社交平台，尤其是在诗歌饭局这类主题活动上。它不仅仅是一个报名工具，更是一个连接同好、营造氛围的起点。当你想在温州找一场有质感的诗歌饭局，饭局app能帮你把这场活动从模糊的群聊邀请，变成一桌有温度、有内容、有期待的聚会。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vancouver/potluck-dinner"
 alternatePath: "/city/vancouver/potluck-dinner"
 translationKey: "vancouver-potluck-dinner"
 lang: "en"
-title: "Vancouver does not need another vague invite; Fanju app makes Potluck Dinner specific"
+title: "Vancouver does not need another vague invite; Fanju app makes Potluck Dinner specific | fanju-app"
 description: "Vancouver’s evenings often dissolve into half-formed plans—someone says “maybe grab dinner sometime,” and it never lands. The Fanju app changes that. It turns “sometime” into a specific dinner, scheduled, named, and host"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Vancouver does not need another vague invite; Fanju app makes Potluck Dinner specific
+# Vancouver does not need another vague invite; Fanju app makes Potluck Dinner specific | fanju-app
 
 Vancouver’s evenings often dissolve into half-formed plans—someone says “maybe grab dinner sometime,” and it never lands. The Fanju app changes that. It turns “sometime” into a specific dinner, scheduled, named, and hosted with intent. In a city where polite nods rarely lead to meaningful contact, Fanju anchors connection through the simplicity of shared food. A potluck dinner here isn’t just about eating; it’s the fastest way to turn strangers into people who recognize each other on the street. This isn’t theoretical. On Commercial Drive last Thursday, a table of eight—two from Burnaby, one from UBC, three newcomers—ate biryani, kimchi pancakes, and a beet salad while discussing transit routes and winter grey. No icebreakers. No forced small talk. Just food that invited honesty.
 

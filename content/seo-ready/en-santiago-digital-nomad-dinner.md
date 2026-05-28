@@ -4,7 +4,7 @@ canonicalPath: "/en/city/santiago/digital-nomad-dinner"
 alternatePath: "/city/santiago/digital-nomad-dinner"
 translationKey: "santiago-digital-nomad-dinner"
 lang: "en"
-title: "A calmer way to approach Digital Nomad Dinner in Santiago through Fanju app"
+title: "A calmer way to approach Digital Nomad Dinner in Santiago through Fanju app | fanju-app"
 description: "Considering your first Digital Nomad Dinner in Santiago can feel like stepping into a room full of strangers. You’ve heard about the Fanju app and how it helps connect people for shared meals, but the idea of walking int"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach Digital Nomad Dinner in Santiago through Fanju app
+# A calmer way to approach Digital Nomad Dinner in Santiago through Fanju app | fanju-app
 
 Considering your first Digital Nomad Dinner in Santiago can feel like stepping into a room full of strangers. You’ve heard about the Fanju app and how it helps connect people for shared meals, but the idea of walking into a pre-arranged dinner with a group you don't know can still spark a bit of hesitation. Will it be awkward? Will everyone already know each other? This guide aims to unpack the nuances of these dinners, focusing on how a more intentional approach, facilitated by the Fanju app, can transform potential anxiety into genuine connection. It's about finding a table where you feel you belong, even before you arrive.
 

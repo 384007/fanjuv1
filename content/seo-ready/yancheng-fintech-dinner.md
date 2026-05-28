@@ -4,7 +4,7 @@ canonicalPath: "/city/yancheng/fintech-dinner"
 alternatePath: "/en/city/yancheng/fintech-dinner"
 translationKey: "yancheng-fintech-dinner"
 lang: "zh"
-title: "不想在盐城随便拼桌，饭局app怎样让金融科技饭局变成一个真实决定"
+title: "不想在盐城随便拼桌，饭局app怎样让金融科技饭局变成一个真实决定 | fanju-app"
 titleZh: "不想在盐城随便拼桌，饭局app怎样让金融科技饭局变成一个真实决定"
 description: "任何一场在盐城举办的金融科技饭局，其成功与否，很大程度上取决于参与者在饭局开始前，对这次聚会的预期有多清晰。如果只是一个泛泛的“金融科技交流”，那么大家心中所想的，可能是行业趋势的宏大叙事，也可能是某个具体项目落地的探讨。当预期不一致时，即"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 不想在盐城随便拼桌，饭局app怎样让金融科技饭局变成一个真实决定
+# 不想在盐城随便拼桌，饭局app怎样让金融科技饭局变成一个真实决定 | fanju-app
 
 在盐城，一场金融科技的饭局，如果只是一个模糊的聚会名头，最终很可能演变成一次尴尬的拼桌。饭局app提供的，正是将这种模糊的社交期待，转化为清晰、可控的线下连接。它不是一个简单的报名平台，而是通过对饭局主题、同桌质量、甚至餐桌节奏的细致设定，让盐城本地的金融科技从业者，能够找到真正有价值的交流机会，避免那些耗时且低效的社交场合。
 

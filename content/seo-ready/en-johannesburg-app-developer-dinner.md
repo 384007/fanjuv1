@@ -4,7 +4,7 @@ canonicalPath: "/en/city/johannesburg/app-developer-dinner"
 alternatePath: "/city/johannesburg/app-developer-dinner"
 translationKey: "johannesburg-app-developer-dinner"
 lang: "en"
-title: "Before the first message in Johannesburg, Fanju app makes App Developer Dinner feel like a real decision"
+title: "Before the first message in Johannesburg, Fanju app makes App Developer Dinner feel like a real decision | fanju-app"
 description: "The challenge of curating a guest list for an App Developer Dinner in Johannesburg often stems from a lack of clarity around who is actually invited. When invitations feel more like a general announcement, it can deter"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Johannesburg, Fanju app makes App Developer Dinner feel like a real decision
+# Before the first message in Johannesburg, Fanju app makes App Developer Dinner feel like a real decision | fanju-app
 
 In Johannesburg, the Fanju app offers a way to connect over shared meals, transforming the idea of an "App Developer Dinner" from a vague notion into a tangible plan. It’s designed for those seeking genuine, small-group interactions, focusing on specific dining experiences rather than broad social gatherings. For newcomers to the city or the app, Fanju aims to demystify the process of joining a table, ensuring that when you decide to attend, you have a clear picture of who you'll be sharing a meal with and what to expect. This approach helps bridge the gap between online planning and real-world connections, making the prospect of a Johannesburg App Developer Dinner feel like a confident, well-informed choice.
 

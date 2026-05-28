@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangalore/book-lover-dinner"
 alternatePath: "/city/bangalore/book-lover-dinner"
 translationKey: "bangalore-book-lover-dinner"
 lang: "en"
-title: "For people trying Book Lover Dinner in Bangalore, Fanju app puts the guest mix first"
+title: "For people trying Book Lover Dinner in Bangalore, Fanju app puts the guest mix first | fanju-app"
 description: "The after-work pause moment is critical in Bangalore. By 7:30 PM, after a day that likely included Koramangala traffic or Whitefield commutes, deciding whether to go to a dinner with strangers feels less like"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Book Lover Dinner in Bangalore, Fanju app puts the guest mix first
+# For people trying Book Lover Dinner in Bangalore, Fanju app puts the guest mix first | fanju-app
 
 Book Lover Dinner in Bangalore is not another themed event with a loose label and random seating. It’s a small-table gathering where what you read matters more than what you wear, and the Fanju app is what makes that possible. The app curates dinners around specific books, intentions, and guest preferences—not just availability. This focus helps women in particular navigate the early uncertainty of joining a meal with strangers. In a city like Bangalore, where work hours stretch late and personal time is guarded, the app’s structure builds trust before anyone even arrives. It shows who’s hosting, why they care about books, and what kind of conversation tone to expect. That transparency is what turns curiosity into commitment.
 

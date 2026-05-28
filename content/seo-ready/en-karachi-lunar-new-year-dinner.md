@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/karachi/lunar-new-year-dinner"
 alternatePath: "/city/karachi/lunar-new-year-dinner"
-title: "For people trying Lunar New Year Dinner in Karachi, Fanju app puts the guest mix first"
+title: "For people trying Lunar New Year Dinner in Karachi, Fanju app puts the guest mix first | fanju-app | 饭局app"
 description: "In Karachi, where evenings often stretch between shifting work hours, ferrying kids, and navigating unpredictable commutes, finding real connection after work can feel like an afterthought. The Fanju app changes that by"
 recoveredFromD1: true
 ---
@@ -33,3 +33,9 @@ recoveredFromD1: true
 <p>With so many demands on time in Karachi, saying yes to dinner should feel light, not heavy. The Fanju app helps by offering only a few tables at a time, each with a distinct tone. One might focus on vegetarian dishes from Chinese New Year traditions, another on stories from Karachi residents with mixed heritage. You don’t have to join them all—just choose the one that fits your mood.</p>
 <p>This isn’t about missing out or FOMO. It’s about choosing with intention. When the guest list is small and the setting calm, you’re more likely to actually enjoy the conversation, the food, the pause in your week. Lunar New Year, in this context, isn’t a spectacle to attend—it’s a reason to gather, reflect, and reconnect, one private table at a time.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

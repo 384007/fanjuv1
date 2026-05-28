@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seattle/third-place-dinner"
 alternatePath: "/city/seattle/third-place-dinner"
 translationKey: "seattle-third-place-dinner"
 lang: "en"
-title: "Seattle Third Place Dinner through Fanju app: rainy-evening tables beyond coffee shop routines"
+title: "Seattle Third Place Dinner through Fanju app: rainy-evening tables beyond coffee shop routines | fanju-app"
 description: "Seattle Third Place Dinner on Fanju app helps remote workers compare Seattle social dining, a Third Place dinner group, and small-table dinner in Seattle before joining."
 primaryKeyword: "Seattle Third Place Dinner"
 secondaryKeywords: "Seattle social dining|Third Place dinner group|dinner buddy app|Fanju app|small-table dinner in Seattle"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T105242Z"
 ---
 
-# Seattle Third Place Dinner through Fanju app: rainy-evening tables beyond coffee shop routines
+# Seattle Third Place Dinner through Fanju app: rainy-evening tables beyond coffee shop routines | fanju-app
 
 Seattle Third Place Dinner is a Fanju app page for people who want a small-table dinner in Seattle after remote work, coffee shop hours, or a rainy evening when home and the office both feel too narrow. Fanju is a social dining app for clear dinner plans, not a dating app or random group chat.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vancouver/improv-dinner"
 alternatePath: "/city/vancouver/improv-dinner"
 translationKey: "vancouver-improv-dinner"
 lang: "en"
-title: "For people trying Improv Dinner in Vancouver, Fanju app puts the guest mix first"
+title: "For people trying Improv Dinner in Vancouver, Fanju app puts the guest mix first | fanju-app"
 description: "If you’re in Vancouver and looking for a way to connect with other founders, operators, and professionals without the awkwardness of startup mixers or forced networking events, the Fanju app offers something different: I"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For people trying Improv Dinner in Vancouver, Fanju app puts the guest mix first
+# For people trying Improv Dinner in Vancouver, Fanju app puts the guest mix first | fanju-app
 
 If you’re in Vancouver and looking for a way to connect with other founders, operators, and professionals without the awkwardness of startup mixers or forced networking events, the Fanju app offers something different: Improv Dinner. These are small, intentional dinners where conversation flows because the guest list is curated with care. The focus isn’t on pitching or status—it’s on showing up as yourself, sharing real challenges, and leaving with clarity, not business cards. In a city where coffee meetings pile up and events blur together, these dinners stand out by design.
 

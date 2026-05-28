@@ -4,7 +4,7 @@ canonicalPath: "/city/hami/restaurant-discovery-dinner"
 alternatePath: "/en/city/hami/restaurant-discovery-dinner"
 translationKey: "hami-restaurant-discovery-dinner"
 lang: "zh"
-title: "哈密想参加餐厅探索饭局，饭局app把信任感放在饭前"
+title: "哈密想参加餐厅探索饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "哈密想参加餐厅探索饭局，饭局app把信任感放在饭前"
 description: "夜里的哈密，风从天山北坡吹下来，带着一点沙的质地。街灯下的面馆还亮着，出租车司机靠在车门边喝酸奶，而你刚从绿皮火车上下来，行李箱轮子卡在老城区的石板缝里。这时候打开饭局app，不是为了找顿饭，是想找一个不用解释“我是谁”的位置。在哈密，Fa"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 哈密想参加餐厅探索饭局，饭局app把信任感放在饭前
+# 哈密想参加餐厅探索饭局，饭局app把信任感放在饭前 | fanju-app
 
 夜里的哈密，风从天山北坡吹下来，带着一点沙的质地。街灯下的面馆还亮着，出租车司机靠在车门边喝酸奶，而你刚从绿皮火车上下来，行李箱轮子卡在老城区的石板缝里。这时候打开饭局app，不是为了找顿饭，是想找一个不用解释“我是谁”的位置。在哈密，Fanju饭局不是热闹的拼桌，而是小桌围坐、主题清晰的饭局，它不承诺让你认识很多人，但会让你在陌生城市吃上一顿心里有底的饭。你点开今晚的餐厅探索饭局，主理人写：“在二道湖边的老回民餐厅，尝一锅没加味精的手抓肉。”你犹豫了一下，报了名。
 

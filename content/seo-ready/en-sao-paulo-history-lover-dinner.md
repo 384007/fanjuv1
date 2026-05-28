@@ -4,7 +4,7 @@ canonicalPath: "/en/city/sao-paulo/history-lover-dinner"
 alternatePath: "/city/sao-paulo/history-lover-dinner"
 translationKey: "sao-paulo-history-lover-dinner"
 lang: "en"
-title: "For people trying History Lover Dinner in Sao Paulo, Fanju app puts the guest mix first"
+title: "For people trying History Lover Dinner in Sao Paulo, Fanju app puts the guest mix first | fanju-app"
 description: "In Sao Paulo, where the pace after work often means retreating into routines or scrolling through options that never quite land, the Fanju app quietly shifts the balance. I’ve hosted enough History Lover Dinners now to k"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For people trying History Lover Dinner in Sao Paulo, Fanju app puts the guest mix first
+# For people trying History Lover Dinner in Sao Paulo, Fanju app puts the guest mix first | fanju-app
 
 In Sao Paulo, where the pace after work often means retreating into routines or scrolling through options that never quite land, the Fanju app quietly shifts the balance. I’ve hosted enough History Lover Dinners now to know that the real challenge isn’t finding people interested in history—it’s assembling a table where that interest feels alive, not performative. The app doesn’t promise entertainment; it filters for presence. What shows up isn’t a crowd, but a cross-section: a museum archivist from Vila Mariana, a retired history teacher from Santana, a grad student tracing colonial trade routes through downtown’s old import warehouses. These aren’t guests who come to impress. They come because something about São Paulo’s layered past—its Italian bakeries beside Afro-Brazilian cultural centers, its rapid modernization over Indigenous and colonial footprints—still pulls at them. Fanju’s algorithm, in its understated way, surfaces those threads.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tokyo/returnee-dinner"
 alternatePath: "/city/tokyo/returnee-dinner"
 translationKey: "tokyo-returnee-dinner"
 lang: "en"
-title: "Before the first message in Tokyo, Fanju app makes Returnee Dinner feel like a real decision"
+title: "Before the first message in Tokyo, Fanju app makes Returnee Dinner feel like a real decision | fanju-app"
 description: "Tokyo moves fast, but the Returnee Dinner table runs on a different clock—one shaped by hesitation, recognition, and gradual warmth."
 primaryKeyword: "Tokyo Returnee Dinner"
 secondaryKeywords: "Tokyo social dining|Returnee dinner group|dinner buddy app|Fanju app|small-table dinner in Tokyo"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T100008Z"
 ---
 
-# Before the first message in Tokyo, Fanju app makes Returnee Dinner feel like a real decision
+# Before the first message in Tokyo, Fanju app makes Returnee Dinner feel like a real decision | fanju-app
 
 In Tokyo, the Fanju app is a tool for people returning after years away—those re-entering the city’s social rhythm through small, intentional dinners. The Tokyo Returnee Dinner isn’t a party or a networking event; it’s a table of four to six people who’ve each lived abroad and are now navigating life back in Japan. Fanju helps clarify who’s hosting, what they value, and whether the evening’s tone matches your own. Instead of vague meetups or crowded bars, Fanju surfaces dinners with clear descriptions, host bios, and shared context—making it easier to say yes without second-guessing. The app doesn’t promise instant friendship, but it does reduce the friction of starting over, one meal at a time.
 

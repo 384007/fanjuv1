@@ -4,7 +4,7 @@ canonicalPath: "/city/heihe/side-hustle-dinner"
 alternatePath: "/en/city/heihe/side-hustle-dinner"
 translationKey: "heihe-side-hustle-dinner"
 lang: "zh"
-title: "不想在黑河随便拼桌，饭局app怎样让副业饭局变成一个真实决定"
+title: "不想在黑河随便拼桌，饭局app怎样让副业饭局变成一个真实决定 | fanju-app"
 titleZh: "不想在黑河随便拼桌，饭局app怎样让副业饭局变成一个真实决定"
 description: "副业的本质，在于探索与成长，而一场副业饭局，如果期待值模糊不清，就容易让参与者感到迷茫。在黑河，许多人可能带着对“拓展人脉”、“寻找商机”的模糊期待而来，但如果饭局发起人——主理人，没有在事前明确“这顿饭要聊什么副业方向”、“期望达到的交流"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 不想在黑河随便拼桌，饭局app怎样让副业饭局变成一个真实决定
+# 不想在黑河随便拼桌，饭局app怎样让副业饭局变成一个真实决定 | fanju-app
 
 在黑河，当周末的晚风吹过松花江，约上一群志同道合的人，围坐一桌，分享彼此的副业心得，这不再是遥不可及的设想。饭局app，正是为这样的需求而生，它不只是一个简单的社交平台，更是为在黑河的我们，提供了一个更真实、更可控的副业饭局体验。通过精心的桌次设计和清晰的主题设定，它让每一次的线下相聚，都成为一次有价值的决定，而不是一次随意的拼凑。
 

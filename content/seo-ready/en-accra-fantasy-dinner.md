@@ -4,7 +4,7 @@ canonicalPath: "/en/city/accra/fantasy-dinner"
 alternatePath: "/city/accra/fantasy-dinner"
 translationKey: "accra-fantasy-dinner"
 lang: "en"
-title: "For people trying Fantasy Dinner in Accra, Fanju app puts the guest mix first"
+title: "For people trying Fantasy Dinner in Accra, Fanju app puts the guest mix first | fanju-app"
 description: "When the workday ends in Accra, the city’s energy doesn’t fade—it shifts. Office workers leave the corridors of Airport City and Tudu, creatives pack up from studios in Jamestown, and remote freelancers close laptops in"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Fantasy Dinner in Accra, Fanju app puts the guest mix first
+# For people trying Fantasy Dinner in Accra, Fanju app puts the guest mix first | fanju-app
 
 When the workday ends in Accra, the city’s energy doesn’t fade—it shifts. Office workers leave the corridors of Airport City and Tudu, creatives pack up from studios in Jamestown, and remote freelancers close laptops in cafes near Labone. Yet many still find themselves alone, scrolling through options that feel either too loud or too stiff: another bar, another delivery order, another evening of polite small talk that goes nowhere. Fantasy Dinner, as hosted through the Fanju app, offers a third way. It’s not a restaurant reservation or a networking event. It’s a curated dinner where food becomes the quiet bridge between strangers. In Accra, where social rituals often begin around shared meals, Fanju uses that instinct deliberately—matching people not by profession or status, but by conversational comfort and openness to connection.
 

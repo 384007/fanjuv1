@@ -4,7 +4,7 @@ canonicalPath: "/city/zhangjiajie/martial-arts-dinner"
 alternatePath: "/en/city/zhangjiajie/martial-arts-dinner"
 translationKey: "zhangjiajie-martial-arts-dinner"
 lang: "zh"
-title: "不想在张家界随便拼桌，饭局app怎样让武术饭局变成一个真实决定"
+title: "不想在张家界随便拼桌，饭局app怎样让武术饭局变成一个真实决定 | fanju-app"
 titleZh: "不想在张家界随便拼桌，饭局app怎样让武术饭局变成一个真实决定"
 description: "你在张家界一个人办公，每天打开电脑，窗外是奇峰耸立，云雾缭绕，但房间里只有键盘的敲击声。你开始问自己：有没有可能，每周有那么一顿饭，不是随便在路边摊解决，也不是对着手机刷群消息问“有人来吗”，而是真正在一张小桌上，遇见几个能聊得上的人？饭局"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 不想在张家界随便拼桌，饭局app怎样让武术饭局变成一个真实决定
+# 不想在张家界随便拼桌，饭局app怎样让武术饭局变成一个真实决定 | fanju-app
 
 你在张家界一个人办公，每天打开电脑，窗外是奇峰耸立，云雾缭绕，但房间里只有键盘的敲击声。你开始问自己：有没有可能，每周有那么一顿饭，不是随便在路边摊解决，也不是对着手机刷群消息问“有人来吗”，而是真正在一张小桌上，遇见几个能聊得上的人？饭局app在张家界做的，不是组织饭局，而是让像你这样的人，把“吃饭”变成一个真实的选择——尤其当你开始想了解这座山城的另一面：它的武术传统，它的本地人日常，它的非游客节奏。饭局app在这里连接的，不是饭，是人与城市的锚点。
 

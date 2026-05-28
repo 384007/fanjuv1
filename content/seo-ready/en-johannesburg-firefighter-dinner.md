@@ -4,7 +4,7 @@ canonicalPath: "/en/city/johannesburg/firefighter-dinner"
 alternatePath: "/city/johannesburg/firefighter-dinner"
 translationKey: "johannesburg-firefighter-dinner"
 lang: "en"
-title: "What makes Firefighter Dinner in Johannesburg worth the risk; Fanju app answers before you arrive"
+title: "What makes Firefighter Dinner in Johannesburg worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "In Johannesburg, where commutes stretch past dark and social plans dissolve into last-minute cancellations, the idea of a curated dinner with strangers—especially one themed around a high-pressure profession like firefig"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Firefighter Dinner in Johannesburg worth the risk; Fanju app answers before you arrive
+# What makes Firefighter Dinner in Johannesburg worth the risk; Fanju app answers before you arrive | fanju-app
 
 In Johannesburg, where commutes stretch past dark and social plans dissolve into last-minute cancellations, the idea of a curated dinner with strangers—especially one themed around a high-pressure profession like firefighting—can seem like another fragile urban experiment. But through the Fanju app, locals are finding that these gatherings, hosted in unassuming corners of Braamfontein, Melville, and even northern Sandton, offer something rare: a moment of shared purpose without performance. The app doesn’t promise friendships or networking goldmines. Instead, it surfaces details most group dinners ignore—how late the host stays up, whether they cook or order in, if quiet guests are tolerated—helping users decide if a particular table fits their rhythm. That clarity, more than any theme, is what turns a risky night out into a grounded city experience.
 

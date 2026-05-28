@@ -4,7 +4,7 @@ canonicalPath: "/en/city/rio-de-janeiro/pop-up-dinner"
 alternatePath: "/city/rio-de-janeiro/pop-up-dinner"
 translationKey: "rio-de-janeiro-pop-up-dinner"
 lang: "en"
-title: "What makes Pop Up Dinner in Rio de Janeiro worth the risk; Fanju app answers before you arrive"
+title: "What makes Pop Up Dinner in Rio de Janeiro worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "In Rio de Janeiro, where the noise of the city often drowns out quiet attempts at connection, the idea of joining strangers for dinner can feel like too much weight for one evening. The Fanju app doesn’t promise transfor"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Pop Up Dinner in Rio de Janeiro worth the risk; Fanju app answers before you arrive
+# What makes Pop Up Dinner in Rio de Janeiro worth the risk; Fanju app answers before you arrive | fanju-app
 
 In Rio de Janeiro, where the noise of the city often drowns out quiet attempts at connection, the idea of joining strangers for dinner can feel like too much weight for one evening. The Fanju app doesn’t promise transformation—it just offers a way to check who’s already signed up, read a host’s tone in their own words, and see if the location fits within a neighborhood you’re willing to cross for. That small layer of preview, available before you commit, is what turns hesitation into possibility. For people who’ve lived here for years but still eat alone on weekends, or newcomers trying to find their footing beyond Ipanema’s sidewalks and Copacabana’s routines, a Pop Up Dinner isn’t about networking or filling time. It’s a chance to practice being at ease in a city that often rewards performance over presence.
 

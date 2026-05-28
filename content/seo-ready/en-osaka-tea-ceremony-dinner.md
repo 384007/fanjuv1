@@ -4,7 +4,7 @@ canonicalPath: "/en/city/osaka/tea-ceremony-dinner"
 alternatePath: "/city/osaka/tea-ceremony-dinner"
 translationKey: "osaka-tea-ceremony-dinner"
 lang: "en"
-title: "A calmer way to approach Tea Ceremony Dinner in Osaka through Fanju app"
+title: "A calmer way to approach Tea Ceremony Dinner in Osaka through Fanju app | fanju-app"
 description: "Osaka moves quickly, but its social rhythm respects quiet entry. Unlike the high-energy welcomes of Tokyo or the ceremonial formality of Kyoto, Osaka professionals often prefer to observe before engaging. When you step"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
 ---
 
-# A calmer way to approach Tea Ceremony Dinner in Osaka through Fanju app
+# A calmer way to approach Tea Ceremony Dinner in Osaka through Fanju app | fanju-app
 
 Fanju app offers a different kind of social entry point in Osaka—one where small dinners replace crowded meetups, persistent group chats, or the performative rhythm of dating apps. It’s not about scaling connections, but narrowing them. The meals listed are specific, often hosted by professionals who frame the evening with clarity: what the dinner is for, who it's intended for, and what kind of conversation might unfold. In a city where first impressions matter and social pacing is deliberate, this precision makes a difference. For someone arriving in Osaka for work or a short-term project, the app becomes a way to step into a room already shaped by intention, not just chance.
 

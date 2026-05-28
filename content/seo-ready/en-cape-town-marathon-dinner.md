@@ -4,7 +4,7 @@ canonicalPath: "/en/city/cape-town/marathon-dinner"
 alternatePath: "/city/cape-town/marathon-dinner"
 translationKey: "cape-town-marathon-dinner"
 lang: "en"
-title: "Marathon Dinner in Cape Town should not feel like a gamble; Fanju app changes the odds"
+title: "Marathon Dinner in Cape Town should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "In Cape Town, weekend plans often unfold with last-minute uncertainty—especially when it comes to dinner. What should feel like the anchor of the evening too often becomes an afterthought, shaped by convenience rather th"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Marathon Dinner in Cape Town should not feel like a gamble; Fanju app changes the odds
+# Marathon Dinner in Cape Town should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 In Cape Town, weekend plans often unfold with last-minute uncertainty—especially when it comes to dinner. What should feel like the anchor of the evening too often becomes an afterthought, shaped by convenience rather than connection. The Marathon Dinner concept—where a meal stretches over hours, conversation deepens, and strangers become familiar—has quietly taken root in homes across the city. Yet for many, the idea of joining one still feels risky. That’s where the Fanju app comes in. It doesn’t promise instant friendships, but it does offer a clearer path into these intimate gatherings. By anchoring the invite in intention and structure, Fanju helps turn what could be a social gamble into a grounded, weekend-defining experience.
 

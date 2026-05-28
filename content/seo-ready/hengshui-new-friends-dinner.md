@@ -4,7 +4,7 @@ canonicalPath: "/city/hengshui/new-friends-dinner"
 alternatePath: "/en/city/hengshui/new-friends-dinner"
 translationKey: "hengshui-new-friends-dinner"
 lang: "zh"
-title: "衡水新朋友饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "衡水新朋友饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "衡水新朋友饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "在衡水，一场饭局的成色，往往从你打开饭局app的那一刻就决定了。不是所有聚会都值得赴约，尤其当你一个人走进一间陌生的餐厅，面对六七张新面孔时，那种微妙的紧张感会立刻告诉你：这一桌人，是随便凑的，还是被认真挑选过的。饭局app不做泛泛的邀约，"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 衡水新朋友饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 衡水新朋友饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 在衡水，一场饭局的成色，往往从你打开饭局app的那一刻就决定了。不是所有聚会都值得赴约，尤其当你一个人走进一间陌生的餐厅，面对六七张新面孔时，那种微妙的紧张感会立刻告诉你：这一桌人，是随便凑的，还是被认真挑选过的。饭局app不做泛泛的邀约，它从第一条推送开始，就基于你过往参与的场次、退场时间、互动频率，甚至点菜偏好，悄悄匹配下一桌的人。在衡水，饭局的起点不是餐厅，而是算法对“谁适合坐在一起”的一次安静判断。
 

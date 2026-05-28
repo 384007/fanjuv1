@@ -4,7 +4,7 @@ canonicalPath: "/city/weihai/private-dinner"
 alternatePath: "/en/city/weihai/private-dinner"
 translationKey: "weihai-private-dinner"
 lang: "zh"
-title: "威海私密饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "威海私密饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "威海私密饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "在威海，私密饭局不是为了热闹，而是为了找到那种“说错话也不尴尬”的松弛感。很多人报名前会犹豫：陌生人拼桌，会不会变成尬聊现场？但饭局app的设计逻辑很具体——它不承诺交朋友，而是通过主题、主理人陈述和人数控制，让每一桌的适配度变得可读。比如"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T180008Z"
 ---
 
-# 威海私密饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 威海私密饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 那天晚上七点，威海的海风刚退去白日的燥热，我走进一家藏在侨乡小街里的家常菜馆。桌上已经摆好了四副碗筷，主理人正低头调试手机支架，说要录一段开场：“我们今天这桌，是冲着‘谁都不想聊工作’来的。”话音刚落，邻座一个戴眼镜的姑娘笑了，说她前天刚推掉三个饭局，就因为怕被问“最近在干嘛”。那一刻我知道，这一桌不会冷场。饭局app上的报名页面写着“用饭连接人”，但在威海，真正起作用的不是口号，而是从第一句自我介绍开始，所有人默许了一个简单的规则：我们先吃饭，再慢慢说话。这种节奏，是普通聚会很难有的。
 

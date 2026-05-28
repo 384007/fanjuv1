@@ -4,7 +4,7 @@ canonicalPath: "/city/ankang/language-learner-dinner"
 alternatePath: "/en/city/ankang/language-learner-dinner"
 translationKey: "ankang-language-learner-dinner"
 lang: "zh"
-title: "第一次在安康参加语言学习者饭局，饭局app怎样让陌生人坐得下来"
+title: "第一次在安康参加语言学习者饭局，饭局app怎样让陌生人坐得下来 | fanju-app"
 titleZh: "第一次在安康参加语言学习者饭局，饭局app怎样让陌生人坐得下来"
 description: "在安康，语言学习者常常面临一个尴尬：想开口练习，却找不到愿意认真听、耐心聊的人。报班太贵，自学太闷，街头搭讪又怕冒犯。饭局app的出现，不是为了填补“社交空白”，而是提供一种新的可能——让语言学习变成一顿有真实对话、有具体场景、有安全边界的"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 第一次在安康参加语言学习者饭局，饭局app怎样让陌生人坐得下来
+# 第一次在安康参加语言学习者饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 
 在安康，语言学习者常常面临一个尴尬：想开口练习，却找不到愿意认真听、耐心聊的人。报班太贵，自学太闷，街头搭讪又怕冒犯。饭局app的出现，不是为了填补“社交空白”，而是提供一种新的可能——让语言学习变成一顿有真实对话、有具体场景、有安全边界的饭。它不承诺“速成”，也不主打“热闹”，而是通过一桌六七人的饭局，把练习语言这件事，重新放回安康人的生活节奏里：南门的巷口面馆、江北的社区小炒、白天河街边的茶摊，都是语言落地的地方。饭局app的关键，是让陌生人能坐得下来，不是靠噱头，而是靠一套藏在细节里的信任机制。
 

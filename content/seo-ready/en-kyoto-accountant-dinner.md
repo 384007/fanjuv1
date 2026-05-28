@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kyoto/accountant-dinner"
 alternatePath: "/city/kyoto/accountant-dinner"
 translationKey: "kyoto-accountant-dinner"
 lang: "en"
-title: "Kyoto has plenty of Accountant Dinner options; Fanju app is the one that names the table first"
+title: "Kyoto has plenty of Accountant Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Kyoto's charm often lies in its subtle nuances, a characteristic that can sometimes make spontaneous social gatherings feel a bit adrift. For an Accountant Dinner, this quiet atmosphere means that clarity from the"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T170006Z"
 ---
 
-# Kyoto has plenty of Accountant Dinner options; Fanju app is the one that names the table first
+# Kyoto has plenty of Accountant Dinner options; Fanju app is the one that names the table first | fanju-app
 
 In Kyoto, finding a comfortable Accountant Dinner doesn't have to be a guessing game. The Fanju app offers a way to join small, clearly defined meals where hosts name the table's focus and expectations upfront. This approach cuts through the uncertainty often found with casual meetups or large group chats, ensuring that when you sit down for an Accountant Dinner in Kyoto, you know what to expect. It’s about creating a more intentional and trustworthy social dining experience, moving beyond just a shared meal to fostering genuine connection within the city's unique neighbourhood rhythm.
 

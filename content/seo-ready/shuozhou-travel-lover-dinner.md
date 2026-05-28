@@ -4,7 +4,7 @@ canonicalPath: "/city/shuozhou/travel-lover-dinner"
 alternatePath: "/en/city/shuozhou/travel-lover-dinner"
 translationKey: "shuozhou-travel-lover-dinner"
 lang: "zh"
-title: "下班后的朔州，饭局app怎样让旅行爱好者饭局有真实同桌"
+title: "下班后的朔州，饭局app怎样让旅行爱好者饭局有真实同桌 | fanju-app"
 titleZh: "下班后的朔州，饭局app怎样让旅行爱好者饭局有真实同桌"
 description: "当你想参加一场朔州本地的旅行爱好者饭局，但内心又有些许犹豫时，不妨先问问自己：我期待的是怎样的社交体验？是那种可以轻松进入、不必强颜欢欢笑，又能自然与他人产生连接的氛围吗？饭局app上的旅行爱好者饭局，尤其是在朔州这样有着独特生活节奏的城市"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260528T070525Z"
 ---
 
-# 下班后的朔州，饭局app怎样让旅行爱好者饭局有真实同桌
+# 下班后的朔州，饭局app怎样让旅行爱好者饭局有真实同桌 | fanju-app
 
 在朔州，周末的夜晚总是充满选择，但当你想找个不随意拼桌、又能认识新朋友的吃饭方式时，会发现普通聚会往往缺乏温度，而陌生人之间的临时组局又带着些许不确定。饭局app（Fanju）正是为解决这种“想连接又怕尴尬”的时刻而生，它将线下小桌聚餐的核心，围绕着清晰的主题和真实的同桌，带入到朔州本地的社交场景中。尤其对于热爱旅行、又偏爱深度交流的你，这里的每一场旅行爱好者饭局，都试图为你打造一个既有边界又充满可能性的社交空间。
 

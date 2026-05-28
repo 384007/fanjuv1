@@ -4,7 +4,7 @@ canonicalPath: "/en/city/jakarta/volunteering-dinner"
 alternatePath: "/city/jakarta/volunteering-dinner"
 translationKey: "jakarta-volunteering-dinner"
 lang: "en"
-title: "The Volunteering Dinner table Jakarta actually needs is the one Fanju app describes up front"
+title: "The Volunteering Dinner table Jakarta actually needs is the one Fanju app describes up front | fanju-app"
 description: "In Jakarta, where weekend nights often dissolve into last-minute plans and surface-level gatherings, the idea of hosting a meaningful dinner with strangers used to feel like a gamble. But through the Fanju app, I’ve come"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# The Volunteering Dinner table Jakarta actually needs is the one Fanju app describes up front
+# The Volunteering Dinner table Jakarta actually needs is the one Fanju app describes up front | fanju-app
 
 In Jakarta, where weekend nights often dissolve into last-minute plans and surface-level gatherings, the idea of hosting a meaningful dinner with strangers used to feel like a gamble. But through the Fanju app, I’ve come to realize that the right kind of dinner—one built around volunteering, intention, and quiet trust—can become a consistent anchor in a city that rarely slows down. Over months of hosting Volunteering Dinner tables at different spots across South and Central Jakarta, I’ve learned that what matters isn’t the size of the group or the location’s trendiness, but whether the people around the table feel they’ve arrived somewhere they can speak without performance. The Fanju app doesn’t promise perfect chemistry, but it does something better: it sets the tone before a single plate is served.
 

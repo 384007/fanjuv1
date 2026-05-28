@@ -4,7 +4,7 @@ canonicalPath: "/city/xinganmeng/cloud-computing-dinner"
 alternatePath: "/en/city/xinganmeng/cloud-computing-dinner"
 translationKey: "xinganmeng-cloud-computing-dinner"
 lang: "zh"
-title: "在兴安盟找一桌不尴尬的云计算饭局，饭局app先解决什么"
+title: "在兴安盟找一桌不尴尬的云计算饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在兴安盟找一桌不尴尬的云计算饭局，饭局app先解决什么"
 description: "在兴安盟，一场饭局的成败往往不取决于餐厅多贵，而在于谁坐在对面。当“云计算饭局”这个概念被放进本地生活时，很多人第一反应是：这和微信群拼饭有什么区别？饭局app的意义，恰恰在于划清这条线——它不是拉群接龙，也不是线下相亲角的变体，更不是一场"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在兴安盟找一桌不尴尬的云计算饭局，饭局app先解决什么
+# 在兴安盟找一桌不尴尬的云计算饭局，饭局app先解决什么 | fanju-app
 
 在兴安盟，一场饭局的成败往往不取决于餐厅多贵，而在于谁坐在对面。当“云计算饭局”这个概念被放进本地生活时，很多人第一反应是：这和微信群拼饭有什么区别？饭局app的意义，恰恰在于划清这条线——它不是拉群接龙，也不是线下相亲角的变体，更不是一场大型行业宣讲会的中场茶歇。在阿尔山街边的蒙餐馆里，在乌兰浩特傍晚的慢节奏中，饭局app试图做的，是让每一次相遇都有清晰的上下文。它不承诺热闹，但承诺不尴尬。
 

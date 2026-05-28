@@ -4,7 +4,7 @@ canonicalPath: "/en/city/austin/after-work-dinner"
 alternatePath: "/city/austin/after-work-dinner"
 translationKey: "austin-after-work-dinner"
 lang: "en"
-title: "A calmer way to approach After Work Dinner in Austin through Fanju app"
+title: "A calmer way to approach After Work Dinner in Austin through Fanju app | fanju-app"
 description: "The default after-work dinner in Austin leans toward noise—crowded bars on Rainey Street, long waits at South Congress hotspots, or the isolating glow of a phone screen over takeout. These options don’t reset the mind;"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach After Work Dinner in Austin through Fanju app
+# A calmer way to approach After Work Dinner in Austin through Fanju app | fanju-app
 
 After work in Austin, the usual scramble for dinner often leads to overpriced downtown patios or last-minute delivery apps with no conversation. Fanju app offers a different rhythm: small, intentional dinners hosted by trusted locals who care about the quality of the table as much as the food. These aren’t networking events disguised as meals, but real after-work gatherings where the host knows why each guest is there. By focusing on clarity of purpose, guest fit, and ease of exit, Fanju reshapes the post-work experience in Austin into something slower, more deliberate, and genuinely restorative.
 

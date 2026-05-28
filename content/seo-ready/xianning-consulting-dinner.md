@@ -4,7 +4,7 @@ canonicalPath: "/city/xianning/consulting-dinner"
 alternatePath: "/en/city/xianning/consulting-dinner"
 translationKey: "xianning-consulting-dinner"
 lang: "zh"
-title: "在咸宁把咨询饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在咸宁把咨询饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在咸宁把咨询饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "刚来咸宁的第三天，我在饭局app上点进一个“设计师与自由职业者晚餐”的活动。页面显示已有三人报名，地点在淦河边一家带院子的咖啡馆餐厅，时间是周五晚七点。我没有熟人，也没想好要不要开口谈工作，但还是去了——因为比起在出租屋里刷手机，我更想碰碰"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在咸宁把咨询饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在咸宁把咨询饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 刚来咸宁的第三天，我在饭局app上点进一个“设计师与自由职业者晚餐”的活动。页面显示已有三人报名，地点在淦河边一家带院子的咖啡馆餐厅，时间是周五晚七点。我没有熟人，也没想好要不要开口谈工作，但还是去了——因为比起在出租屋里刷手机，我更想碰碰看这座城市的质地。咸宁不大，但也不小到能靠亲戚介绍认识人。饭局app在这里不是万能的，但它提供了一种可能：把陌生人的饭桌，变成城市关系的入口。那顿饭最后没有谈成合作，但有一个人后来介绍我认识了做本地文化地图的团队。从那时起我明白，在咸宁，饭局app不是用来找客户或资源的快捷键，而是慢慢织网的针脚。
 

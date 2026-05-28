@@ -4,7 +4,7 @@ canonicalPath: "/city/shiyan/serious-dating-dinner"
 alternatePath: "/en/city/shiyan/serious-dating-dinner"
 translationKey: "shiyan-serious-dating-dinner"
 lang: "zh"
-title: "十堰的认真交友饭局不该靠运气，饭局app把主理人和同桌放在最前面"
+title: "十堰的认真交友饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app"
 titleZh: "十堰的认真交友饭局不该靠运气，饭局app把主理人和同桌放在最前面"
 description: "下班后的十堰，晚高峰的车流在人民路和北京路之间缓慢移动，有人刚从东风公司厂区走出，有人在五堰街巷里穿行找停车位。这时候打开饭局app，不会看到满屏的“速来拼饭”或“免费蹭饭群”。它只显示未来七天内，十堰城中由真实人发起的6到12人的晚饭邀约"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 十堰的认真交友饭局不该靠运气，饭局app把主理人和同桌放在最前面
+# 十堰的认真交友饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 
 下班后的十堰，晚高峰的车流在人民路和北京路之间缓慢移动，有人刚从东风公司厂区走出，有人在五堰街巷里穿行找停车位。这时候打开饭局app，不会看到满屏的“速来拼饭”或“免费蹭饭群”。它只显示未来七天内，十堰城中由真实人发起的6到12人的晚饭邀约——每桌都有明确主题、主理人介绍和人数上限。这不是饭局的流量游戏，而是小规模饭局在城市生活里的具体落点。在十堰，认真交友的饭局从不依赖随机拉人，饭局app的作用，是让每一次围坐都先有准备、后有交流。
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/changji/photography-dinner"
 alternatePath: "/en/city/changji/photography-dinner"
 translationKey: "changji-photography-dinner"
 lang: "zh"
-title: "在昌吉找一桌不尴尬的摄影爱好者饭局，饭局app先解决什么"
+title: "在昌吉找一桌不尴尬的摄影爱好者饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在昌吉找一桌不尴尬的摄影爱好者饭局，饭局app先解决什么"
 description: "在昌吉，周末的节奏常被拉得松散又微妙。有人赶着去南山拍日出，有人在老城巷口调试长曝光，也有人只是想找个地方，和懂镜头语言的人说说话。可约饭这事，常常卡在“约”字上——发了十几条消息，最后变成“改天吧”。饭局app的出现，不是为了立刻拉一桌人"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在昌吉找一桌不尴尬的摄影爱好者饭局，饭局app先解决什么
+# 在昌吉找一桌不尴尬的摄影爱好者饭局，饭局app先解决什么 | fanju-app
 
 在昌吉，周末的节奏常被拉得松散又微妙。有人赶着去南山拍日出，有人在老城巷口调试长曝光，也有人只是想找个地方，和懂镜头语言的人说说话。可约饭这事，常常卡在“约”字上——发了十几条消息，最后变成“改天吧”。饭局app的出现，不是为了立刻拉一桌人吃饭，而是先解决“要不要约”这个念头背后的迟疑。它把“一起吃顿饭”从社交负担，变成一次轻量、具体的尝试，尤其对那些习惯用取景器看世界、却不太擅长开口的摄影爱好者。在昌吉，一张饭桌，可能就是城市里最安静的交流展。
 

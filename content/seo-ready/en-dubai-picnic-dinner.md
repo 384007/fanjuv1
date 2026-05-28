@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dubai/picnic-dinner"
 alternatePath: "/city/dubai/picnic-dinner"
 translationKey: "dubai-picnic-dinner"
 lang: "en"
-title: "Dubai has plenty of Picnic Dinner options; Fanju app is the one that names the table first"
+title: "Dubai has plenty of Picnic Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "In Dubai, where social rhythms shift between private villas and open-air terraces, connecting beyond surface-level gatherings can feel elusive."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Dubai has plenty of Picnic Dinner options; Fanju app is the one that names the table first
+# Dubai has plenty of Picnic Dinner options; Fanju app is the one that names the table first | fanju-app
 
 In Dubai, where social rhythms shift between private villas and open-air terraces, connecting beyond surface-level gatherings can feel elusive. Fanju app addresses this by curating small, intentional dinners that prioritize presence over performance. These aren’t grand events but deliberate opportunities to reset habits formed during years of digital-first interaction. Each table is described in advance—menu, host, location, vibe—so guests arrive with clarity, not guesswork, making real conversation more likely in a city where spontaneity often gives way to logistics.
 

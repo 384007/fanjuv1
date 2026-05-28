@@ -4,7 +4,7 @@ canonicalPath: "/en/city/mexico-city/basketball-dinner"
 alternatePath: "/city/mexico-city/basketball-dinner"
 translationKey: "mexico-city-basketball-dinner"
 lang: "en"
-title: "For Mexico City readers considering Basketball Dinner, Fanju app should make the room legible"
+title: "For Mexico City readers considering Basketball Dinner, Fanju app should make the room legible | fanju-app"
 description: "In Mexico City, a Basketball Dinner on Fanju app isn’t about stats or jerseys—it’s a small-table dinner where the game is a conversation starter, not the sole agenda."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For Mexico City readers considering Basketball Dinner, Fanju app should make the room legible
+# For Mexico City readers considering Basketball Dinner, Fanju app should make the room legible | fanju-app
 
 In Mexico City, a Basketball Dinner on Fanju app isn’t about stats or jerseys—it’s a small-table dinner where the game is a conversation starter, not the sole agenda. Fanju, also known in Chinese as “饭局 / 饭局app / Fanju饭局”, connects people through themed meals that prioritize real presence over digital performance. This is not a dating guarantee, not a random group chat, not an endless profile feed. It’s a chance to sit down in Roma or Condesa, share a plate of enchiladas and conversation about last night’s FIBA qualifiers or pickup games in Alameda, and leave with a new connection or just a good meal. The app works best when the host sets clear expectations and the location feels reachable after work.
 

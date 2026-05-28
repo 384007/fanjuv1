@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/nagoya/remote-worker-dinner"
 alternatePath: "/city/nagoya/remote-worker-dinner"
-title: "Nagoya after work: how Fanju app makes Remote Worker Dinner feel like a real room"
+title: "Nagoya after work: how Fanju app makes Remote Worker Dinner feel like a real room | fanju-app | 饭局app"
 description: "The Fanju app connects remote workers in Nagoya through small, intentional dinners that prioritize real conversation over digital convenience. These gatherings are not networking events or open meetups—they’re hosted mea"
 recoveredFromD1: true
 ---
@@ -33,3 +33,9 @@ recoveredFromD1: true
 <p>Leaving doesn’t have to mean disconnection. Some of the most lasting outcomes of Remote Worker Dinner aren’t friendships, but second chances—a host you’d like to sit with again, a guest whose insight stayed with you, a restaurant you’d host at yourself someday. The Fanju app keeps past gatherings visible, not to pressure follow-up, but to leave doors ajar. You might return to Nagoya for a client visit and see that a familiar host has a new dinner listed. You tap “interested,” and they remember your name. No re-introduction needed.</p>
 <p>That continuity isn’t guaranteed, but it’s possible because the foundation was real. You didn’t bond over a shared app, but over a shared evening—the clink of glasses, the debate over which ramen spot in Osu lasts longest, the moment someone laughed and said, “I forgot how good it feels to not be on mute.” These dinners don’t fix isolation, but they offer a rhythm: arrive, eat, speak, listen, leave, remember. And if you come back, the table might still be there.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

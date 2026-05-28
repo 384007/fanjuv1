@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangalore/agriculture-dinner"
 alternatePath: "/city/bangalore/agriculture-dinner"
 translationKey: "bangalore-agriculture-dinner"
 lang: "en"
-title: "Why Agriculture Dinner in Bangalore works better when Fanju app keeps the table small"
+title: "Why Agriculture Dinner in Bangalore works better when Fanju app keeps the table small | fanju-app"
 description: "When considering an Agriculture Dinner in Bangalore, the choice of neighbourhood plays a more significant role than many might initially assume. Areas like Indiranagar or Koramangala, with their vibrant culinary scenes"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Why Agriculture Dinner in Bangalore works better when Fanju app keeps the table small
+# Why Agriculture Dinner in Bangalore works better when Fanju app keeps the table small | fanju-app
 
 For newcomers to Bangalore, finding genuine local connections can feel like navigating a bustling market without a clear map. The Fanju app offers a solution for these moments, facilitating small, intentionally curated Agriculture Dinners designed for meaningful interaction rather than just a meal. It’s a platform that understands the value of a focused gathering, ensuring that when you choose an Agriculture Dinner through Fanju, you're stepping into an environment where conversation flows and authentic relationships can begin to form, right here in the heart of Karnataka.
 

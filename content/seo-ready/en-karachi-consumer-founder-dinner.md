@@ -4,7 +4,7 @@ canonicalPath: "/en/city/karachi/consumer-founder-dinner"
 alternatePath: "/city/karachi/consumer-founder-dinner"
 translationKey: "karachi-consumer-founder-dinner"
 lang: "en"
-title: "Karachi does not need another vague invite; Fanju app makes Consumer Founder Dinner specific"
+title: "Karachi does not need another vague invite; Fanju app makes Consumer Founder Dinner specific | fanju-app"
 description: "The Fanju app is a social dining platform built for small, intentional meals where what’s on the plate matters as much as who’s across the table. In Karachi, where food moves fast and connections often blur into noise, F"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Karachi does not need another vague invite; Fanju app makes Consumer Founder Dinner specific
+# Karachi does not need another vague invite; Fanju app makes Consumer Founder Dinner specific | fanju-app
 
 The Fanju app is a social dining platform built for small, intentional meals where what’s on the plate matters as much as who’s across the table. In Karachi, where food moves fast and connections often blur into noise, Fanju offers a different rhythm: dinners with clear themes, defined guest counts, and hosts who care about the details. No group chats with 30 unread messages, no last-minute cancellations, no overcrowded rooftop invites with no menu. Just one table, one meal, and a chance to meet people through the lens of real food—whether it’s someone’s home-cooked nihari or a tucked-away Sindhi thali in Soldier Bazaar. The app cuts through the usual ambiguity, turning dinner into a deliberate act of discovery.
 

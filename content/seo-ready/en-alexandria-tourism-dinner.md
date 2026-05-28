@@ -4,7 +4,7 @@ canonicalPath: "/en/city/alexandria/tourism-dinner"
 alternatePath: "/city/alexandria/tourism-dinner"
 translationKey: "alexandria-tourism-dinner"
 lang: "en"
-title: "In Alexandria, Fanju app turns Tourism Dinner into a table people can actually trust"
+title: "In Alexandria, Fanju app turns Tourism Dinner into a table people can actually trust | fanju-app"
 description: "For those of us who travel solo through Alexandria, the evening can sometimes feel like a question mark. You've spent the day tracing the Corniche, perhaps lost in the echoes of history at the Library or the Citadel, and"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Alexandria, Fanju app turns Tourism Dinner into a table people can actually trust
+# In Alexandria, Fanju app turns Tourism Dinner into a table people can actually trust | fanju-app
 
 For those of us who travel solo through Alexandria, the evening can sometimes feel like a question mark. You've spent the day tracing the Corniche, perhaps lost in the echoes of history at the Library or the Citadel, and as the sun dips, the question arises: what now? Alexandria, a city that thrives on connection and shared moments, can still feel a bit isolating when you're just one. This is where the Fanju app offers a different kind of evening, one that promises a named table and genuine connection, turning a potentially solitary meal into a memorable part of your visit. It's about finding a place where you’re not just a tourist, but a participant.
 

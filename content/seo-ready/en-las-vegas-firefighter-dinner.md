@@ -4,7 +4,7 @@ canonicalPath: "/en/city/las-vegas/firefighter-dinner"
 alternatePath: "/city/las-vegas/firefighter-dinner"
 translationKey: "las-vegas-firefighter-dinner"
 lang: "en"
-title: "Las Vegas strangers sit down easier when Fanju app frames the Firefighter Dinner table first"
+title: "Las Vegas strangers sit down easier when Fanju app frames the Firefighter Dinner table first | fanju-app"
 description: "Planning a weekend in Las Vegas often revolves around the big-ticket items: shows, casinos, and sprawling buffets. But sometimes, the most memorable experiences are found in the smaller, more intimate settings. The Firef"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Las Vegas strangers sit down easier when Fanju app frames the Firefighter Dinner table first
+# Las Vegas strangers sit down easier when Fanju app frames the Firefighter Dinner table first | fanju-app
 
 Planning a weekend in Las Vegas often revolves around the big-ticket items: shows, casinos, and sprawling buffets. But sometimes, the most memorable experiences are found in the smaller, more intimate settings. The Firefighter Dinner, a tradition that brings together diverse groups for a shared meal, can feel daunting to navigate, especially if you’re unfamiliar with the other guests. This is where the Fanju app steps in, offering a structured way to approach these gatherings, transforming them from potentially awkward encounters into genuine opportunities for connection. The Fanju app helps frame the table, setting an expectation of thoughtful engagement that can make all the difference, whether you’re a seasoned Vegas visitor or a first-timer.
 

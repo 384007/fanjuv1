@@ -4,7 +4,7 @@ canonicalPath: "/en/city/delhi/dinner-buddy"
 alternatePath: "/city/delhi/dinner-buddy"
 translationKey: "delhi-dinner-buddy"
 lang: "en"
-title: "In Delhi, Fanju app turns Dinner Buddy into a table people can actually trust"
+title: "In Delhi, Fanju app turns Dinner Buddy into a table people can actually trust | fanju-app"
 description: "For someone arriving alone in Delhi and wondering where the evening might lead, the Fanju app offers a practical alternative to impersonal restaurants or scrolling through vague social plans. It connects solo travelers w"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# In Delhi, Fanju app turns Dinner Buddy into a table people can actually trust
+# In Delhi, Fanju app turns Dinner Buddy into a table people can actually trust | fanju-app
 
 For someone arriving alone in Delhi and wondering where the evening might lead, the Fanju app offers a practical alternative to impersonal restaurants or scrolling through vague social plans. It connects solo travelers with small, host-led dinners in homes or quiet venues across the city, where meals are clearly described, guest numbers are limited, and the rhythm of conversation feels organic rather than forced. These aren't events designed for performance or networking, but for people who want to taste Delhi beyond the guidebooks, meet a few locals or fellow travelers, and do so without the discomfort of awkward group dynamics. The app’s structure ensures that dinner isn’t just shared—it’s anchored in mutual respect, transparency, and a quiet understanding of how people actually connect over food.
 

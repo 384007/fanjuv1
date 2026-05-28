@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ho-chi-minh-city/morning-routine-dinner"
 alternatePath: "/city/ho-chi-minh-city/morning-routine-dinner"
 translationKey: "ho-chi-minh-city-morning-routine-dinner"
 lang: "en"
-title: "Ho Chi Minh City has plenty of Morning Routine Dinner options; Fanju app is the one that names the table first"
+title: "Ho Chi Minh City has plenty of Morning Routine Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Even in a city as outwardly social as Ho Chi Minh City, not all dinners serve the same purpose."
 primaryKeyword: "Ho Chi Minh City Morning Routine Dinner"
 secondaryKeywords: "Ho Chi Minh City social dining|Morning Routine dinner group|dinner buddy app|Fanju app|small-table dinner in Ho Chi Minh City"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
 ---
 
-# Ho Chi Minh City has plenty of Morning Routine Dinner options; Fanju app is the one that names the table first
+# Ho Chi Minh City has plenty of Morning Routine Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Fanju app helps people in Ho Chi Minh City find small, intentional dinners with hosts who describe not just the food but the rhythm of the evening. In a city where spontaneous gatherings often lack clarity, Morning Routine Dinner on Fanju stands out by stating up front who the host is, what kind of conversation to expect, and how the table fits into the city’s daily flow. This isn’t about restaurant discovery—it’s about finding a dinner that matches your energy. For someone returning to social life after time away, the difference between a vague group meal and a clearly framed one can be the reason they show up at all. Fanju doesn’t promise friendships, but it does reduce the friction of starting over.
 

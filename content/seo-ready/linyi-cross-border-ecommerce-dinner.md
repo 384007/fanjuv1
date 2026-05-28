@@ -4,7 +4,7 @@ canonicalPath: "/city/linyi/cross-border-ecommerce-dinner"
 alternatePath: "/en/city/linyi/cross-border-ecommerce-dinner"
 translationKey: "linyi-cross-border-ecommerce-dinner"
 lang: "zh"
-title: "在临沂把跨境电商饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在临沂把跨境电商饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在临沂把跨境电商饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "临沂市面上的饭局名目不少，有打着“跨境资源对接”旗号的百人大会，也有微信群里临时拼桌的饭局。 但真正值得报名的，是那些从一开始就把主题、人数、同桌背景说清楚的饭局。 比如一场限定“独立站运营经验三年以上”的饭局，比“跨境电商交流”明确得多。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在临沂把跨境电商饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在临沂把跨境电商饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 第一次走进临沂的跨境电商饭局，是在北城新区一家临街的私房菜馆。桌上六个人，刚落座时没人说话，空气有点紧。主理人先放下包，转头对角落的女生说：“你是第一次来吧？我帮你点个不辣的。”那一刻我才明白，饭局app不是用来加人的工具，而是让陌生人在临沂这座城，能真正坐下来说话的地方。真正的饭局不是拉群接龙，也不是扫码进会场，而是一张桌、六个人、三道菜之间，谁先开口，谁愿意听。临沂的跨境电商从业者多，但能说上话的少。饭局app的价值，正在于它用小桌饭局把“适配”这件事变得具体——不是看头衔，而是看坐下来之后，你愿不愿意再夹一筷子。
 

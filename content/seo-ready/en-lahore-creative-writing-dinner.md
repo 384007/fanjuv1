@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lahore/creative-writing-dinner"
 alternatePath: "/city/lahore/creative-writing-dinner"
 translationKey: "lahore-creative-writing-dinner"
 lang: "en"
-title: "The Creative Writing Dinner table Lahore actually needs is the one Fanju app describes up front"
+title: "The Creative Writing Dinner table Lahore actually needs is the one Fanju app describes up front | fanju-app"
 description: "For anyone finding themselves in Lahore with a quiet evening ahead, the Fanju app offers a different kind of connection. It’s an invitation to a creative writing dinner, a concept that promises stimulating conversation a"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# The Creative Writing Dinner table Lahore actually needs is the one Fanju app describes up front
+# The Creative Writing Dinner table Lahore actually needs is the one Fanju app describes up front | fanju-app
 
 For anyone finding themselves in Lahore with a quiet evening ahead, the Fanju app offers a different kind of connection. It’s an invitation to a creative writing dinner, a concept that promises stimulating conversation and shared ideas over a meal. This isn't about networking in the usual sense; it’s about finding fellow thinkers and storytellers in a relaxed setting. The Fanju app aims to streamline this experience, making it accessible even for those who prefer their own company but are open to engaging with others. It’s about discovering a community, one dinner at a time, right here in Lahore.
 

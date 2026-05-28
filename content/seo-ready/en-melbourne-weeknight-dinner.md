@@ -4,7 +4,7 @@ canonicalPath: "/en/city/melbourne/weeknight-dinner"
 alternatePath: "/city/melbourne/weeknight-dinner"
 translationKey: "melbourne-weeknight-dinner"
 lang: "en"
-title: "When Weeknight Dinner feels too loose in Melbourne, Fanju app starts with the table"
+title: "When Weeknight Dinner feels too loose in Melbourne, Fanju app starts with the table | fanju-app"
 description: "When weeknight dinners in Melbourne begin to feel scattered—like another solo meal in front of the stove or an awkward text chain that never lands—Fanju app helps hosts shape something more grounded. As someone who’s hos"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Weeknight Dinner feels too loose in Melbourne, Fanju app starts with the table
+# When Weeknight Dinner feels too loose in Melbourne, Fanju app starts with the table | fanju-app
 
 When weeknight dinners in Melbourne begin to feel scattered—like another solo meal in front of the stove or an awkward text chain that never lands—Fanju app helps hosts shape something more grounded. As someone who’s hosted weekly dinners in Northcote and hosted guests from Footscray to St Kilda, I’ve learned that the difference between a loose evening and one that holds is the table. Not the furniture, but the intention behind it. The app doesn’t replace presence; it supports the quiet work of inviting, listening, and making space. In a city where people commute across suburbs just to meet halfway, Fanju becomes the tool that makes gathering deliberate rather than accidental.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/fuyang/local-community-dinner"
 alternatePath: "/en/city/fuyang/local-community-dinner"
 translationKey: "fuyang-local-community-dinner"
 lang: "zh"
-title: "阜阳不想只靠群聊时，饭局app怎样把本地社区饭局坐成一桌"
+title: "阜阳不想只靠群聊时，饭局app怎样把本地社区饭局坐成一桌 | fanju-app"
 titleZh: "阜阳不想只靠群聊时，饭局app怎样把本地社区饭局坐成一桌"
 description: "在阜阳，人与人之间的连接常常藏在一句“有空吃饭”之后，但那句“有空”往往再也没空下来。饭局app的存在，不是为了制造热闹，而是为了让“吃饭”这件事重新变得具体——它围绕小桌吃饭、清晰主题和可预期的线下连接，让本地社交不再只是群聊里的消息气泡"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 阜阳不想只靠群聊时，饭局app怎样把本地社区饭局坐成一桌
+# 阜阳不想只靠群聊时，饭局app怎样把本地社区饭局坐成一桌 | fanju-app
 
 在阜阳，人与人之间的连接常常藏在一句“有空吃饭”之后，但那句“有空”往往再也没空下来。饭局app的存在，不是为了制造热闹，而是为了让“吃饭”这件事重新变得具体——它围绕小桌吃饭、清晰主题和可预期的线下连接，让本地社交不再只是群聊里的消息气泡。在阜阳，越来越多的人开始用饭局app组织或加入一场不超过八人的晚饭，不是为了拓展人脉，而是想找回一种自然的共处节奏：说几句话，听几段故事，吃顿安稳饭。这种饭局不追求人数，也不依赖酒水活跃气氛，它只是把“一起吃饭”这件事本身，做成了一个可报名、可信任、可参与的本地社区活动。
 

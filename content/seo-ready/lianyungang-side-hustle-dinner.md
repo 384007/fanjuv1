@@ -4,7 +4,7 @@ canonicalPath: "/city/lianyungang/side-hustle-dinner"
 alternatePath: "/en/city/lianyungang/side-hustle-dinner"
 translationKey: "lianyungang-side-hustle-dinner"
 lang: "zh"
-title: "连云港的副业饭局为什么值得去，饭局app在报名前就给了答案"
+title: "连云港的副业饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
 titleZh: "连云港的副业饭局为什么值得去，饭局app在报名前就给了答案"
 description: "在连云港，很多人对“饭局”这个词本能地警惕。 它可能意味着应酬、劝酒、攀关系，甚至被拉进不想要的圈子。 但副业饭局不同，它不靠热闹撑场，反而靠安静的共识建立连接。"
 primaryKeyword: "连云港副业饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T190004Z"
 ---
 
-# 连云港的副业饭局为什么值得去，饭局app在报名前就给了答案
+# 连云港的副业饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
 周五晚上七点，连云港的街道刚亮起灯，你站在苍梧路上犹豫要不要拐进那家小餐馆。手机里饭局app的提醒还在，说今晚的副业饭局七点半开始，同桌五个人，包括你。你没认识的，话题是“靠副业养活兴趣的人”。你以前从不参加这种局，总觉得陌生人吃饭像面试，可最近你确实想试试看——想知道别人是怎么把做手工、拍视频、接设计单子变成收入的。饭局app上这桌人写了各自的副业进展，也标明了“不聊工资、不推销课程”，你反复看了三遍才点下报名。其实你不是怕吃饭，是怕那种开场冷场、后来硬聊的疲惫。但这一次，或许因为信息足够具体，你决定走这一步。
 

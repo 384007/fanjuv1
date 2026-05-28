@@ -4,7 +4,7 @@ canonicalPath: "/en/city/berlin/editor-dinner"
 alternatePath: "/city/berlin/editor-dinner"
 translationKey: "berlin-editor-dinner"
 lang: "en"
-title: "A calmer way to approach Editor Dinner in Berlin through Fanju app"
+title: "A calmer way to approach Editor Dinner in Berlin through Fanju app | fanju-app"
 description: "Trying Editor Dinner in Berlin for the first time through the Fanju app can feel like standing at the edge of a crowded U-Bahn platform—curious, a little uncertain, and wondering if you’re about to step into something th"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# A calmer way to approach Editor Dinner in Berlin through Fanju app
+# A calmer way to approach Editor Dinner in Berlin through Fanju app | fanju-app
 
 Trying Editor Dinner in Berlin for the first time through the Fanju app can feel like standing at the edge of a crowded U-Bahn platform—curious, a little uncertain, and wondering if you’re about to step into something that actually fits. The idea of joining strangers for a meal around a shared interest in writing, editing, or just thoughtful conversation sounds appealing, but the real question lingers: will this feel like a genuine exchange, or just another social performance? Berlin’s independent spirit means gatherings here vary widely in tone and intent, and the Fanju app doesn’t promise perfection—just possibility. What it does offer is structure, clarity, and a way to filter through the noise. This isn’t about filling your evening; it’s about finding one evening that fills something.
 

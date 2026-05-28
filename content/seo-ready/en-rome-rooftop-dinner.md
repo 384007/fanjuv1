@@ -4,7 +4,7 @@ canonicalPath: "/en/city/rome/rooftop-dinner"
 alternatePath: "/city/rome/rooftop-dinner"
 translationKey: "rome-rooftop-dinner"
 lang: "en"
-title: "For people trying Rooftop Dinner in Rome, Fanju app puts the guest mix first"
+title: "For people trying Rooftop Dinner in Rome, Fanju app puts the guest mix first | fanju-app"
 description: "Rooftop Dinner in Rome isn’t just about the view over the Tiber or the scent of rosemary grilling on the terrace—it’s about who shares the table. For remote workers in the city, evenings can blur into silence after loggi"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Rooftop Dinner in Rome, Fanju app puts the guest mix first
+# For people trying Rooftop Dinner in Rome, Fanju app puts the guest mix first | fanju-app
 
 Rooftop Dinner in Rome isn’t just about the view over the Tiber or the scent of rosemary grilling on the terrace—it’s about who shares the table. For remote workers in the city, evenings can blur into silence after logging off, especially when you’re new or living alone. The Fanju app changes that by focusing on one thing before anything else: making sure the people at the table fit. Instead of random group dinners where conversation stalls or cliques form by accident, Fanju builds Rome Rooftop Dinner events around intentional guest combinations. That means remote workers, freelancers, and digital nomads aren’t just filling seats—they’re finding their social anchor for the week. The app doesn’t prioritize flashy venues or curated menus. It starts with compatibility, so when you step onto that rooftop near Trastevere or Piazza del Popolo, you’re already walking into a conversation, not forcing one.
 

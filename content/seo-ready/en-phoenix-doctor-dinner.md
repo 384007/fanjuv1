@@ -4,7 +4,7 @@ canonicalPath: "/en/city/phoenix/doctor-dinner"
 alternatePath: "/city/phoenix/doctor-dinner"
 translationKey: "phoenix-doctor-dinner"
 lang: "en"
-title: "When Doctor Dinner feels too loose in Phoenix, Fanju app starts with the table"
+title: "When Doctor Dinner feels too loose in Phoenix, Fanju app starts with the table | fanju-app"
 description: "Phoenix hosts who organize Doctor Dinner through the Fanju app often start by defining the table’s purpose clearly: a space for reflection, not networking."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# When Doctor Dinner feels too loose in Phoenix, Fanju app starts with the table
+# When Doctor Dinner feels too loose in Phoenix, Fanju app starts with the table | fanju-app
 
 In Phoenix, Doctor Dinner is meant to be a weekend meal where the table matters more than the venue hype, but too often these gatherings drift into awkward small talk or unspoken expectations. The Fanju app helps anchor the experience by focusing first on the structure of the table—how many people, who’s hosting, and what kind of conversation is welcome—before anyone confirms a seat. For professionals in the medical field or adjacent roles, this clarity reduces the guesswork that comes with joining a loose meetup or group chat. The app doesn’t promise instant connection, but it does offer a framework where the social rhythm feels more predictable. That predictability is what turns a vague dinner idea into something tangible in a city where weekend plans often dissolve into last-minute cancellations or overbooked patios.
 

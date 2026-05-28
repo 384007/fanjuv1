@@ -4,7 +4,7 @@ canonicalPath: "/en/city/accra/hiking-dinner"
 alternatePath: "/city/accra/hiking-dinner"
 translationKey: "accra-hiking-dinner"
 lang: "en"
-title: "In Accra, Fanju app turns Hiking Dinner into a table people can actually trust"
+title: "In Accra, Fanju app turns Hiking Dinner into a table people can actually trust | fanju-app"
 description: "In Accra, where evening plans often dissolve into last-minute cancellations or overcrowded restaurant meetups, the Fanju app offers a different rhythm for shared meals. It’s not about grand gatherings but small, intentio"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Accra, Fanju app turns Hiking Dinner into a table people can actually trust
+# In Accra, Fanju app turns Hiking Dinner into a table people can actually trust | fanju-app
 
 In Accra, where evening plans often dissolve into last-minute cancellations or overcrowded restaurant meetups, the Fanju app offers a different rhythm for shared meals. It’s not about grand gatherings but small, intentional dinners that begin with a hike—through neighborhoods like Labadi, up the ridges near Kaneshie, or along the tide line at Kokrobite. These are not destination events but quiet invitations to walk and talk before sitting. The Fanju app structures these moments by anchoring them in transparency: who’s hosting, what’s expected, and whether the table fits your pace. For residents tired of performative socializing, it’s become a way to reconnect with conversation that isn’t rushed, hosted in spaces that feel personal, not staged.
 

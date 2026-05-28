@@ -4,7 +4,7 @@ canonicalPath: "/en/city/munich/expat-dinner"
 alternatePath: "/city/munich/expat-dinner"
 translationKey: "munich-expat-dinner"
 lang: "en"
-title: "Munich strangers sit down easier when Fanju app frames the Expat Dinner table first"
+title: "Munich strangers sit down easier when Fanju app frames the Expat Dinner table first | fanju-app"
 description: "In Munich, meeting locals through a dinner hosted by the Fanju app often reveals more about everyday life than any walking tour or guidebook. Newcomers quickly learn that finding a meal with real conversation—where Bavar"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Munich strangers sit down easier when Fanju app frames the Expat Dinner table first
+# Munich strangers sit down easier when Fanju app frames the Expat Dinner table first | fanju-app
 
 In Munich, meeting locals through a dinner hosted by the Fanju app often reveals more about everyday life than any walking tour or guidebook. Newcomers quickly learn that finding a meal with real conversation—where Bavarian routines, S-Bahn quirks, and weekend hikes to the Isar come up naturally—is rare unless the setting is intentional. The Fanju app helps by defining the structure of these Expat Dinner gatherings before anyone arrives, turning vague networking into grounded social moments. It’s not about booking a seat at a stranger’s table; it’s about joining a conversation already shaped by shared expectations. For those trying to understand Munich beyond the beer gardens and tourist lanes, this difference matters.
 

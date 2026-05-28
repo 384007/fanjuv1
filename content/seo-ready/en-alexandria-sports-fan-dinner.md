@@ -4,7 +4,7 @@ canonicalPath: "/en/city/alexandria/sports-fan-dinner"
 alternatePath: "/city/alexandria/sports-fan-dinner"
 translationKey: "alexandria-sports-fan-dinner"
 lang: "en"
-title: "Alexandria after work: how Fanju app makes Sports Fan Dinner feel like a real room"
+title: "Alexandria after work: how Fanju app makes Sports Fan Dinner feel like a real room | fanju-app"
 description: "Work ends at different times across Alexandria, whether you’re logging off from a home office in Eisenhower Valley or stepping out of a courthouse shift near King Street. That hour between five and six often feels like"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Alexandria after work: how Fanju app makes Sports Fan Dinner feel like a real room
+# Alexandria after work: how Fanju app makes Sports Fan Dinner feel like a real room | fanju-app
 
 In Alexandria, the Fanju app connects professionals, remote workers, and local fans who want more than post-game snacks—they want a table where the conversation lasts past the final whistle. It’s not about group chats that fade or vague plans that never land. Fanju offers small, intentional dinners centered around shared interests, like Sports Fan Dinner, where the setting is clear, the host is verified, and the rhythm of the evening fits Alexandria’s blend of historic calm and modern pace. These aren’t parties or meetups. They’re seated meals with a limit of eight guests, hosted in neighborhood spots from Del Ray to Old Town, where the focus stays on real talk, not performance. The app helps you choose not just who you watch the game with, but who you stay for afterward.
 

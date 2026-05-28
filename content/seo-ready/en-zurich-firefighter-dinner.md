@@ -4,7 +4,7 @@ canonicalPath: "/en/city/zurich/firefighter-dinner"
 alternatePath: "/city/zurich/firefighter-dinner"
 translationKey: "zurich-firefighter-dinner"
 lang: "en"
-title: "A calmer way to approach Firefighter Dinner in Zurich through Fanju app"
+title: "A calmer way to approach Firefighter Dinner in Zurich through Fanju app | fanju-app"
 description: "In Zurich, where social rhythms lean toward precision and discretion, finding a space to connect over dinner can feel like navigating a quiet maze."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# A calmer way to approach Firefighter Dinner in Zurich through Fanju app
+# A calmer way to approach Firefighter Dinner in Zurich through Fanju app | fanju-app
 
 In Zurich, where social rhythms lean toward precision and discretion, finding a space to connect over dinner can feel like navigating a quiet maze. The Fanju app is designed for this—offering small, host-led meals with clear structure, real names, and public venues, all in service of lowering social friction. Firefighter Dinner in Zurich isn’t about large gatherings or performative networking. It’s a deliberate chance to meet a few people, share a meal in a familiar setting, and leave with one honest conversation. The app supports this by making host intentions visible and guest expectations manageable.
 

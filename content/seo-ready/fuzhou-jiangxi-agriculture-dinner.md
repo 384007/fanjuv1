@@ -4,7 +4,7 @@ canonicalPath: "/city/fuzhou-jiangxi/agriculture-dinner"
 alternatePath: "/en/city/fuzhou-jiangxi/agriculture-dinner"
 translationKey: "fuzhou-jiangxi-agriculture-dinner"
 lang: "zh"
-title: "抚州想参加农业饭局，饭局app把信任感放在饭前"
+title: "抚州想参加农业饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "抚州想参加农业饭局，饭局app把信任感放在饭前"
 description: "在抚州，周末的安排常常不是缺选项，而是缺一种让人愿意出门的理由。发小群里的饭局约了三次都没成行，有人临时说要加班，有人到了门口又改主意。农业主题的饭局更特别——你说的是生态种植？还是返乡青年？或是想聊聊土壤和政策？话题没对上，饭就吃得拘谨。"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 抚州想参加农业饭局，饭局app把信任感放在饭前
+# 抚州想参加农业饭局，饭局app把信任感放在饭前 | fanju-app
 
 在抚州，周末的安排常常不是缺选项，而是缺一种让人愿意出门的理由。发小群里的饭局约了三次都没成行，有人临时说要加班，有人到了门口又改主意。农业主题的饭局更特别——你说的是生态种植？还是返乡青年？或是想聊聊土壤和政策？话题没对上，饭就吃得拘谨。饭局app不是群聊转发，也不是临时起意的聚餐提醒，它是把一场饭的来龙去脉提前摊开的地方。在抚州，很多人开始用它选饭局，是因为它把“谁在组织”“在哪吃”“为什么聚”写得清楚，把信任感提前放在饭前。
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/jinzhou/language-exchange-dinner"
 alternatePath: "/en/city/jinzhou/language-exchange-dinner"
 translationKey: "jinzhou-language-exchange-dinner"
 lang: "zh"
-title: "在锦州把语言交换饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在锦州把语言交换饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在锦州把语言交换饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "傍晚六点，锦州的街灯在小凌河沿岸渐次亮起，写字楼里的人陆续散去，而另一群人——在家办公的翻译、远程接单的设计师、做独立内容的写作者——才刚从屏幕前抬起头。他们不打卡，却更需要一个能落地的节奏。饭局app在锦州提供的不是一场热闹的聚会，而是一"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在锦州把语言交换饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在锦州把语言交换饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 傍晚六点，锦州的街灯在小凌河沿岸渐次亮起，写字楼里的人陆续散去，而另一群人——在家办公的翻译、远程接单的设计师、做独立内容的写作者——才刚从屏幕前抬起头。他们不打卡，却更需要一个能落地的节奏。饭局app在锦州提供的不是一场热闹的聚会，而是一张稳定的饭桌，让语言交换这件事，不再只是耳机里的练习，而是落座、点菜、开口说第一句话的真实现场。它筛选的不是语言水平，而是能不能坐下来，一起吃顿饭，不尴尬，也不勉强。
 

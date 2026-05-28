@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kinshasa/open-table-dinner"
 alternatePath: "/city/kinshasa/open-table-dinner"
 translationKey: "kinshasa-open-table-dinner"
 lang: "en"
-title: "The Open Table Dinner table Kinshasa actually needs is the one Fanju app describes up front"
+title: "The Open Table Dinner table Kinshasa actually needs is the one Fanju app describes up front | fanju-app"
 description: "For a solo traveler arriving in Kinshasa after a long workday at a downtown office or NGO compound, the evening can feel more isolating than restful. Hotels and guesthouses offer safety, but not connection. That’s where"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# The Open Table Dinner table Kinshasa actually needs is the one Fanju app describes up front
+# The Open Table Dinner table Kinshasa actually needs is the one Fanju app describes up front | fanju-app
 
 For a solo traveler arriving in Kinshasa after a long workday at a downtown office or NGO compound, the evening can feel more isolating than restful. Hotels and guesthouses offer safety, but not connection. That’s where the Fanju app makes a quiet but meaningful difference—by guiding newcomers to authentic Open Table Dinner gatherings where conversation starts before the food arrives. These aren’t staged events or tourist dinners; they’re real meals hosted in homes, courtyards, or modest restaurants where Kinshasa residents open their tables to strangers looking for common ground. The Fanju app doesn’t promise instant friendship, but it does offer a structured way to step into the city’s social rhythm without performing or pretending.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/pune/spanish-learner-dinner"
 alternatePath: "/city/pune/spanish-learner-dinner"
 translationKey: "pune-spanish-learner-dinner"
 lang: "en"
-title: "Pune after work: how Fanju app makes Spanish Learner Dinner feel like a real room"
+title: "Pune after work: how Fanju app makes Spanish Learner Dinner feel like a real room | fanju-app"
 description: "In Pune, where evening plans often dissolve into last-minute coffee meetups or silent scrolling on the way home, the idea of joining a Spanish Learner Dinner might sound like another fleeting concept. But through the Fan"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Pune after work: how Fanju app makes Spanish Learner Dinner feel like a real room
+# Pune after work: how Fanju app makes Spanish Learner Dinner feel like a real room | fanju-app
 
 In Pune, where evening plans often dissolve into last-minute coffee meetups or silent scrolling on the way home, the idea of joining a Spanish Learner Dinner might sound like another fleeting concept. But through the Fanju app, what starts as language practice becomes something more grounded—a shared table where locals and learners gather not for performance, but presence. The app doesn’t just connect people; it filters out the noise of generic networking by anchoring events in real homes, real kitchens, and real conversation. In a city where social routines lean either toward campus familiarity or corporate formality, Fanju offers a third space: one where speaking broken Spanish over bhel-inspired tapas isn’t awkward—it’s the point. This isn’t tourism. It’s how Pune hosts when they’re not performing for visitors.
 

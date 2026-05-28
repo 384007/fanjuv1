@@ -4,7 +4,7 @@ canonicalPath: "/city/shangqiu/newcomer-guide-dinner"
 alternatePath: "/en/city/shangqiu/newcomer-guide-dinner"
 translationKey: "shangqiu-newcomer-guide-dinner"
 lang: "zh"
-title: "在商丘找到对的新来者指南饭局饭局，饭局app先把这一桌说清楚"
+title: "在商丘找到对的新来者指南饭局饭局，饭局app先把这一桌说清楚 | fanju-app"
 titleZh: "在商丘找到对的新来者指南饭局饭局，饭局app先把这一桌说清楚"
 description: "周六傍晚，商丘的风还带着一点秋末的凉意。你站在归德路一家小巷口，手机里饭局app刚推送一条确认消息：今晚七点，六人桌，主题是“刚来商丘，想慢慢认识点人”。你深吸一口气，推门进去。灯光不亮，一张长桌摆在中央，有人低头看书，有人轻声和店员说话。"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在商丘找到对的新来者指南饭局饭局，饭局app先把这一桌说清楚
+# 在商丘找到对的新来者指南饭局饭局，饭局app先把这一桌说清楚 | fanju-app
 
 周六傍晚，商丘的风还带着一点秋末的凉意。你站在归德路一家小巷口，手机里饭局app刚推送一条确认消息：今晚七点，六人桌，主题是“刚来商丘，想慢慢认识点人”。你深吸一口气，推门进去。灯光不亮，一张长桌摆在中央，有人低头看书，有人轻声和店员说话。没人看你，也没人立刻打招呼。这种安静，反而让你松了口气——至少，这里不是一场必须热闹的表演。饭局app在商丘做的，不是拉群发通知，而是试着让一桌饭，先成为可以呼吸的空间。
 

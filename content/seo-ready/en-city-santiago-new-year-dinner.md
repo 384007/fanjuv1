@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/santiago/new-year-dinner"
 alternatePath: "/city/santiago/new-year-dinner"
-title: "Santiago New Year Dinner Guide"
+title: "Santiago New Year Dinner Guide | fanju-app | 饭局app"
 description: "Join a New Year Dinner in Santiago with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---
@@ -49,3 +49,9 @@ recoveredFromD1: true
 <h2>Soft CTA</h2>
 <p>Join a New Year&#039;s dinner in Santiago with Fanju and experience the local culture, make new connections, and enjoy a delicious meal. Download the app, browse the available events, and select a dinner that suits your interests and preferences. Don&#039;t miss out on this unique opportunity to connect with like-minded people and experience the authentic charm of Santiago.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

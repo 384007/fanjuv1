@@ -4,7 +4,7 @@ canonicalPath: "/en/city/amsterdam/yoga-instructor-dinner"
 alternatePath: "/city/amsterdam/yoga-instructor-dinner"
 translationKey: "amsterdam-yoga-instructor-dinner"
 lang: "en"
-title: "Yoga Instructor Dinner in Amsterdam should not feel like a gamble; Fanju app changes the odds"
+title: "Yoga Instructor Dinner in Amsterdam should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "Walking into a room full of strangers in Amsterdam can feel like stepping onto a stage without a script."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Yoga Instructor Dinner in Amsterdam should not feel like a gamble; Fanju app changes the odds
+# Yoga Instructor Dinner in Amsterdam should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 Fanju app is not another meetup platform or group chat promising real connection while delivering awkward silence. It’s a social dining app designed for people in Amsterdam who want small, intentional meals with clear purpose—like the upcoming Yoga Instructor Dinner—where conversation starts naturally and no one is auditioning for a role. This isn’t about networking or curated vibes; it’s about relearning how to be present with strangers over food in a city where weekend plans often mean cycling to someone’s De Pijp apartment with no agenda beyond shared plates and honest talk. The dinners are hosted by locals who’ve used Fanju to open their tables with specific themes, and the Yoga Instructor Dinner in Amsterdam is one of several that quietly reset social rhythms without pressure. You join not for spectacle, but for the chance to be off-script in a place that values authenticity more than polish.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/santiago/insurance-dinner"
 alternatePath: "/city/santiago/insurance-dinner"
 translationKey: "santiago-insurance-dinner"
 lang: "en"
-title: "Santiago after work: how Fanju app makes Insurance Dinner feel like a real room"
+title: "Santiago after work: how Fanju app makes Insurance Dinner feel like a real room | fanju-app"
 description: "Santiago’s rhythm after work is uneven. Some dash from offices in Providencia to catch the metro before the rush deepens. Others linger in cafés near Bellavista, waiting for the evening to settle. In that in-between"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Santiago after work: how Fanju app makes Insurance Dinner feel like a real room
+# Santiago after work: how Fanju app makes Insurance Dinner feel like a real room | fanju-app
 
 In Santiago, where evenings unfold slowly between the Andes foothills and the last light over Cerro San Cristóbal, the Fanju app helps close the quiet gap between work and connection. It's not about networking or curated experiences—it's about small, real dinners, hosted in public places, where the guest list is transparent, the host uses their real name, and the table size rarely exceeds six. Insurance Dinner, as it's called on Fanju, isn’t a product or promotion. It’s a format: a way to meet people without performative energy, anchored in trusted conditions. The app doesn’t promise friendship, but it does structure the setting so trust can grow quietly, one shared meal at a time. In a city where social circles can feel tightly woven or hard to enter, this kind of predictability matters.
 

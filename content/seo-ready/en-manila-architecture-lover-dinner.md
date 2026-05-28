@@ -4,7 +4,7 @@ canonicalPath: "/en/city/manila/architecture-lover-dinner"
 alternatePath: "/city/manila/architecture-lover-dinner"
 translationKey: "manila-architecture-lover-dinner"
 lang: "en"
-title: "Manila has plenty of Architecture Lover Dinner options; Fanju app is the one that names the table first"
+title: "Manila has plenty of Architecture Lover Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "In Manila, the idea of an Architecture Lover Dinner isn’t just about food—it’s about finding people who notice cornices, appreciate colonial-era ironwork, and debate the merits of brutalism over bahay kubo revival. With"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Manila has plenty of Architecture Lover Dinner options; Fanju app is the one that names the table first
+# Manila has plenty of Architecture Lover Dinner options; Fanju app is the one that names the table first | fanju-app
 
 In Manila, the idea of an Architecture Lover Dinner isn’t just about food—it’s about finding people who notice cornices, appreciate colonial-era ironwork, and debate the merits of brutalism over bahay kubo revival. With so many informal gatherings sprouting up in Makati, Quezon City, and even Marikina, it’s easy to feel overwhelmed. The Fanju app helps cut through the noise by making it possible to find not just any dinner, but one with a clear identity—a table that signals its intent before you RSVP. That clarity is what turns a random group meal into a meaningful exchange among those who see the city through its structures.
 

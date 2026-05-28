@@ -4,7 +4,7 @@ canonicalPath: "/en/city/riyadh/improv-dinner"
 alternatePath: "/city/riyadh/improv-dinner"
 translationKey: "riyadh-improv-dinner"
 lang: "en"
-title: "The Improv Dinner table Riyadh actually needs is the one Fanju app describes up front"
+title: "The Improv Dinner table Riyadh actually needs is the one Fanju app describes up front | fanju-app"
 description: "You won’t find rigid scripts or rehearsed introductions at an Improv Dinner in Riyadh—just the quiet possibility of connection, shaped in real time. What makes these gatherings different, especially for women navigating"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# The Improv Dinner table Riyadh actually needs is the one Fanju app describes up front
+# The Improv Dinner table Riyadh actually needs is the one Fanju app describes up front | fanju-app
 
 You won’t find rigid scripts or rehearsed introductions at an Improv Dinner in Riyadh—just the quiet possibility of connection, shaped in real time. What makes these gatherings different, especially for women navigating social spaces in a conservative city, isn’t the food or the venue, but the structure. The Fanju app doesn’t sell an experience; it names one: small tables, intentional mix, and clear expectations. That transparency, particularly in a city where unspoken rules often govern social access, is what allows women to show up as themselves, not as performers. It’s not about being bold. It’s about knowing the frame before you step inside.
 

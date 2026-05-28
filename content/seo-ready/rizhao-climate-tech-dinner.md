@@ -4,7 +4,7 @@ canonicalPath: "/city/rizhao/climate-tech-dinner"
 alternatePath: "/en/city/rizhao/climate-tech-dinner"
 translationKey: "rizhao-climate-tech-dinner"
 lang: "zh"
-title: "下班后的日照，饭局app怎样让气候科技饭局有真实同桌"
+title: "下班后的日照，饭局app怎样让气候科技饭局有真实同桌 | fanju-app"
 titleZh: "下班后的日照，饭局app怎样让气候科技饭局有真实同桌"
 description: "在日照，很多人以为气候科技的交流只发生在会议厅或实验室，但真正有温度的讨论常常开始于石臼湖边的晚饭桌上。饭局app在这里不做流量游戏，它不推热门餐厅榜单，也不组织万人打卡活动，而是悄悄连接那些下班后想认真聊点事的人。在日照，一个关于碳核算工"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 下班后的日照，饭局app怎样让气候科技饭局有真实同桌  
+# 下班后的日照，饭局app怎样让气候科技饭局有真实同桌   | fanju-app
 
 在日照，很多人以为气候科技的交流只发生在会议厅或实验室，但真正有温度的讨论常常开始于石臼湖边的晚饭桌上。饭局app在这里不做流量游戏，它不推热门餐厅榜单，也不组织万人打卡活动，而是悄悄连接那些下班后想认真聊点事的人。在日照，一个关于碳核算工具的讨论可能就藏在海曲东路某家小馆的靠窗位，而发起人只是个在本地环保机构工作的普通工程师。饭局app的作用，是让这些饭局不被淹没在日常喧嚣里，也让想找人深聊的人，能准确找到那张已经留好空位的桌子。  
 

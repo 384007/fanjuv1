@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kuala-lumpur/esports-dinner"
 alternatePath: "/city/kuala-lumpur/esports-dinner"
 translationKey: "kuala-lumpur-esports-dinner"
 lang: "en"
-title: "When Esports Dinner feels too loose in Kuala Lumpur, Fanju app starts with the table"
+title: "When Esports Dinner feels too loose in Kuala Lumpur, Fanju app starts with the table | fanju-app"
 description: "Kuala Lumpur’s dining geography is layered. Bangsar and Mont’Kiara draw expat-heavy crowds where coworking spaces and digital agencies cluster, while Petaling Street and Chinatown host more ground-level commerce and"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# When Esports Dinner feels too loose in Kuala Lumpur, Fanju app starts with the table
+# When Esports Dinner feels too loose in Kuala Lumpur, Fanju app starts with the table | fanju-app
 
 Fanju app helps professionals in Kuala Lumpur turn broad social intentions into real meals with purpose. It’s not about another networking event with forced icebreakers, but a dinner where the table—not the agenda—shapes the conversation. In a city where business connections often form over late-night suppers in Bangsar or post-meeting drinks in KLCC, the app supports smaller, intentional gatherings that feel less like obligations and more like organic chances to connect. For founders, freelancers, and operators who’ve sat through events that promise access but deliver noise, Fanju offers a different starting point: a reserved table, a set menu, and a guest list built around shared context, not just convenience. The app doesn’t promise deals closed, but it does support dinners that feel grounded in local rhythm.
 

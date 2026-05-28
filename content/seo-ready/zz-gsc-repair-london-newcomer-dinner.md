@@ -4,7 +4,7 @@ canonicalPath: "/city/london/newcomer-dinner"
 alternatePath: "/en/city/london/newcomer-dinner"
 translationKey: "gsc-repair-london-newcomer-dinner"
 lang: "zh"
-title: "伦敦新朋友饭局指南"
+title: "伦敦新朋友饭局指南 | fanju-app | 饭局app"
 description: "伦敦新朋友饭局帮助刚到伦敦或想拓展本地社交圈的人，通过 Fanju 选择主题清楚、公开餐厅的小桌晚餐。"
 pageType: "city_topic"
 priorityScore: 78
@@ -12,7 +12,7 @@ aiQualityScore: 96
 status: "ready"
 ---
 
-# 伦敦新朋友饭局指南：在城市里找到第一桌同频晚餐
+# 伦敦新朋友饭局指南：在城市里找到第一桌同频晚餐 | fanju-app | 饭局app
 
 伦敦新朋友饭局适合刚到伦敦、换工作、留学、远程办公或想重新建立本地社交圈的人。Fanju / 饭局把饭局主题、区域、公开餐厅、人数、费用和主理人说明放在报名之前，让你先判断这桌饭是否适合自己。
 

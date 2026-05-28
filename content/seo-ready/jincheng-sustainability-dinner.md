@@ -4,7 +4,7 @@ canonicalPath: "/city/jincheng/sustainability-dinner"
 alternatePath: "/en/city/jincheng/sustainability-dinner"
 translationKey: "jincheng-sustainability-dinner"
 lang: "zh"
-title: "晋城的可持续生活饭局不该靠运气，饭局app把主理人和同桌放在最前面"
+title: "晋城的可持续生活饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app"
 titleZh: "晋城的可持续生活饭局不该靠运气，饭局app把主理人和同桌放在最前面"
 description: "你有没有试过在晋城的周末，明明想见人，却不知道该约谁？发朋友圈没人回应，翻通讯录又觉得太熟的总是一样话题，太远的又怕冷场。饭局app上线后，晋城的一些人开始把“吃饭”重新当成一件需要认真安排的事——不是随便找个馆子凑一顿，而是提前几天就想好"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 晋城的可持续生活饭局不该靠运气，饭局app把主理人和同桌放在最前面
+# 晋城的可持续生活饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 
 你有没有试过在晋城的周末，明明想见人，却不知道该约谁？发朋友圈没人回应，翻通讯录又觉得太熟的总是一样话题，太远的又怕冷场。饭局app上线后，晋城的一些人开始把“吃饭”重新当成一件需要认真安排的事——不是随便找个馆子凑一顿，而是提前几天就想好要和谁坐下来，聊点真实的生活。在晋城，饭局app不是用来找餐厅的，它是帮你找到那张“对的桌子”的工具。我们开始意识到，一顿饭的质量，不在于菜单多精致，而在于谁坐在你对面，能不能聊出点生活的重量。
 

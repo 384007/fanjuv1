@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kuala-lumpur/devops-engineer-dinner"
 alternatePath: "/city/kuala-lumpur/devops-engineer-dinner"
 translationKey: "kuala-lumpur-devops-engineer-dinner"
 lang: "en"
-title: "Kuala Lumpur has plenty of DevOps Engineer Dinner options; Fanju app is the one that names the table first"
+title: "Kuala Lumpur has plenty of DevOps Engineer Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Walking into a restaurant in Kuala Lumpur and seeing a table of strangers is a moment of quiet vulnerability, especially when you're a DevOps engineer used to structured systems and predictable outputs."
 primaryKeyword: "Kuala Lumpur DevOps Engineer Dinner"
 secondaryKeywords: "Kuala Lumpur social dining|DevOps Engineer dinner group|dinner buddy app|Fanju app|small-table dinner in Kuala Lumpur"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T230007Z"
 ---
 
-# Kuala Lumpur has plenty of DevOps Engineer Dinner options; Fanju app is the one that names the table first
+# Kuala Lumpur has plenty of DevOps Engineer Dinner options; Fanju app is the one that names the table first | fanju-app
 
 The restaurant near KL Sentral fills slowly on weeknights, air-conditioned and humming with low conversation. You arrive early, clutching a phone, scanning faces that don’t yet belong to you. This is how many DevOps engineers in Kuala Lumpur experience their first social tech event — polite, open-ended, and quietly uncertain. The Fanju app changes that by treating each Kuala Lumpur DevOps Engineer Dinner as a deliberate invitation, not a vague networking opportunity. It doesn’t promise crowds or instant camaraderie. Instead, it offers clarity: a small table with a stated purpose, hosted by someone who’s committed to making the evening feel grounded. That specificity — knowing the table has a rhythm, a host with experience, and a shared context — makes all the difference between lingering by the door and finding your seat. In a city where professional gatherings often blur into one another, Fanju app is the signal that helps you recognize where you might actually belong.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/paris/vintage-dinner"
 alternatePath: "/city/paris/vintage-dinner"
 translationKey: "paris-vintage-dinner"
 lang: "en"
-title: "Vintage Dinner in Paris should not feel like a gamble; Fanju app changes the odds"
+title: "Vintage Dinner in Paris should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "After a week of crowded métro lines and back-to-back meetings in Paris, the idea of meeting someone new over dinner can feel equal parts appealing and exhausting. It’s easy to assume such gatherings lean toward loud grou"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Vintage Dinner in Paris should not feel like a gamble; Fanju app changes the odds
+# Vintage Dinner in Paris should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 After a week of crowded métro lines and back-to-back meetings in Paris, the idea of meeting someone new over dinner can feel equal parts appealing and exhausting. It’s easy to assume such gatherings lean toward loud group chats or awkward dating app meetups—risky and unpredictable. But through the Fanju app, vintage dinners in Paris have taken on a quieter, more intentional form: private tables with just enough structure to feel safe, and enough spontaneity to feel human. These aren’t events; they’re carefully hosted meals where conversation unfolds at its own pace, often in neighborhood apartments just off the Canal Saint-Martin or near Parc Montsouris. The app doesn’t promise fireworks—it lets space and trust do the work.
 

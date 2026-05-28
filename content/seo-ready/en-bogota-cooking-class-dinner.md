@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bogota/cooking-class-dinner"
 alternatePath: "/city/bogota/cooking-class-dinner"
 translationKey: "bogota-cooking-class-dinner"
 lang: "en"
-title: "A calmer way to approach Cooking Class Dinner in Bogota through Fanju app"
+title: "A calmer way to approach Cooking Class Dinner in Bogota through Fanju app | fanju-app"
 description: "For founders, operators, and professionals in Bogota, the Fanju app offers a quieter alternative to forced networking events: a cooking class dinner that unfolds in someone’s home in Chapinero or Usaquén, where conversat"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach Cooking Class Dinner in Bogota through Fanju app
+# A calmer way to approach Cooking Class Dinner in Bogota through Fanju app | fanju-app
 
 For founders, operators, and professionals in Bogota, the Fanju app offers a quieter alternative to forced networking events: a cooking class dinner that unfolds in someone’s home in Chapinero or Usaquén, where conversation starts over knife skills and simmering pots instead of business cards. It’s not about scaling connections rapidly but allowing them to form as naturally as a slow-cooked ajiaco. The app surfaces small gatherings where the goal isn’t pitching but presence—where a shared task in the kitchen becomes the unspoken foundation for trust. In a city where professional circles often overlap in predictable ways, these dinners quietly bypass the usual gatekeepers. You’re not attending an event; you’re stepping into a moment already in motion.
 

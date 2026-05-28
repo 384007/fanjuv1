@@ -4,7 +4,7 @@ canonicalPath: "/city/longyan/digital-nomad-dinner"
 alternatePath: "/en/city/longyan/digital-nomad-dinner"
 translationKey: "longyan-digital-nomad-dinner"
 lang: "zh"
-title: "龙岩的数字游民饭局为什么值得去，饭局app在报名前就给了答案"
+title: "龙岩的数字游民饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
 titleZh: "龙岩的数字游民饭局为什么值得去，饭局app在报名前就给了答案"
 description: "龙岩的数字游民饭局通常安排在城东或莲花山周边的独立餐厅包间，不选商场连锁店，也不在嘈杂的大排档。"
 primaryKeyword: "龙岩数字游民饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T200005Z"
 ---
 
-# 龙岩的数字游民饭局为什么值得去，饭局app在报名前就给了答案
+# 龙岩的数字游民饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
 在龙岩，很多人晚上七点半走出写字楼，站在街口犹豫要不要直接回家。外卖可以点，剧可以刷，但那种“好像谁也不需要我”的感觉，会在安静下来时慢慢浮起。龙岩数字游民饭局不是一场热闹的聚会，而是一次把人从屏幕后拉回真实对话的尝试，饭局app的作用，就是让这种尝试变得可预期、可信任。它不承诺你会交到朋友，但它会清楚告诉你：这顿饭的主题是什么，主理人是谁，同桌的人大概过着怎样的生活。在龙岩这样一个节奏温和但社交圈层分明的城市，这种低压力、小规模的线下饭局，反而成了很多人重新连接城市的入口。你不需要表演合群，也不用担心冷场，只要愿意坐在那里，听几句真实的对话，就已经在参与。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/mumbai/healthy-eating-dinner"
 alternatePath: "/city/mumbai/healthy-eating-dinner"
 translationKey: "mumbai-healthy-eating-dinner"
 lang: "en"
-title: "How Fanju app turns a Mumbai Healthy Eating Dinner night into something worth showing up for"
+title: "How Fanju app turns a Mumbai Healthy Eating Dinner night into something worth showing up for | fanju-app"
 description: "Mumbai’s dining culture thrives on excess—butter-laden pav bhaji, sugary chai at odd hours, late-night kebabs after a night out in Lower Parel. Even when people want to eat healthier, the city’s rhythm often works"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Mumbai Healthy Eating Dinner night into something worth showing up for
+# How Fanju app turns a Mumbai Healthy Eating Dinner night into something worth showing up for | fanju-app
 
 The Fanju app reshapes how Mumbaikars approach dinner, especially when the goal is healthy eating without the isolation. In a city that never fully stops moving—where local trains hum past packed suburbs and street vendors serve quick bites until midnight—choosing to sit down for a mindful meal with strangers feels like a quiet rebellion. Fanju doesn’t just list dinners; it curates small, intentional gatherings where the food is balanced, the hosts are consistent, and the conversations aren’t forced. Unlike scrolling through restaurant apps or waiting for a friend who cancels, the app connects you to real dinners hosted in homes across Bandra, Andheri, and even quieter pockets like Khar or Pali Hill. There’s no performance pressure, no obligation to stay late. Just a table, a few thoughtful people, and a chance to eat well without eating alone.
 

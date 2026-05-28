@@ -4,7 +4,7 @@ canonicalPath: "/city/liaocheng/city-guide-dinner"
 alternatePath: "/en/city/liaocheng/city-guide-dinner"
 translationKey: "liaocheng-city-guide-dinner"
 lang: "zh"
-title: "聊城城市指南饭局不该只靠群聊，饭局app要把这桌饭讲明白"
+title: "聊城城市指南饭局不该只靠群聊，饭局app要把这桌饭讲明白 | fanju-app"
 titleZh: "聊城城市指南饭局不该只靠群聊，饭局app要把这桌饭讲明白"
 description: "在聊城，想通过一场有主题的线下聚会认识新朋友，饭局app（Fanju饭局）提供了一种围绕小桌吃饭、清晰主题和线下连接的社交方式。 这与微信群里那种不是相亲保证、不是随机群聊、不是无限刷资料的随意性不同，它更看重的是同频共振的体验。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 聊城城市指南饭局不该只靠群聊，饭局app要把这桌饭讲明白
+# 聊城城市指南饭局不该只靠群聊，饭局app要把这桌饭讲明白 | fanju-app
 
 在聊城，想通过一场有主题的线下聚会认识新朋友，饭局app（Fanju饭局）提供了一种围绕小桌吃饭、清晰主题和线下连接的社交方式。这与微信群里那种不是相亲保证、不是随机群聊、不是无限刷资料的随意性不同，它更看重的是同频共振的体验。尤其对于聊城城市指南饭局这类，它试图在熟悉的城市脉络里，挖掘出不一样的味蕾和人脉连接，让每一次小桌聚会都成为一次有意义的探索，而非漫无目的的闲聊。
 

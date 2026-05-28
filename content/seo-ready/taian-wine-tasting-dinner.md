@@ -4,7 +4,7 @@ canonicalPath: "/city/taian/wine-tasting-dinner"
 alternatePath: "/en/city/taian/wine-tasting-dinner"
 translationKey: "taian-wine-tasting-dinner"
 lang: "zh"
-title: "在泰安找一桌不尴尬的品酒饭局，饭局app先解决什么"
+title: "在泰安找一桌不尴尬的品酒饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在泰安找一桌不尴尬的品酒饭局，饭局app先解决什么"
 description: "在泰安，周末的傍晚常有山风从南湖吹过，人们收起电脑、关掉群聊，却不知道该去哪吃顿不敷衍的饭。线上社交越密集，越难约到一场真正放松的见面。饭局app不是为了多一顿饭，而是为了找回那种“坐下来就知道不会冷场”的可能。它在泰安做的第一件事，不是匹"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在泰安找一桌不尴尬的品酒饭局，饭局app先解决什么
+# 在泰安找一桌不尴尬的品酒饭局，饭局app先解决什么 | fanju-app
 
 在泰安，周末的傍晚常有山风从南湖吹过，人们收起电脑、关掉群聊，却不知道该去哪吃顿不敷衍的饭。线上社交越密集，越难约到一场真正放松的见面。饭局app不是为了多一顿饭，而是为了找回那种“坐下来就知道不会冷场”的可能。它在泰安做的第一件事，不是匹配饭友，而是帮人判断：这顿饭，值不值得去。比起热闹，泰安人更在意节奏对不对；比起认识多少人，更在意有没有说上一句真心话。饭局app在这里，渐渐成了筛选氛围的工具——不是谁都能进的局，而是谁都会觉得舒服的局。
 

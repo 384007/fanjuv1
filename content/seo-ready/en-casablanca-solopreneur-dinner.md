@@ -4,7 +4,7 @@ canonicalPath: "/en/city/casablanca/solopreneur-dinner"
 alternatePath: "/city/casablanca/solopreneur-dinner"
 translationKey: "casablanca-solopreneur-dinner"
 lang: "en"
-title: "For people trying Solopreneur Dinner in Casablanca, Fanju app puts the guest mix first"
+title: "For people trying Solopreneur Dinner in Casablanca, Fanju app puts the guest mix first | fanju-app"
 description: "The Fanju app in Casablanca is designed for people who want real conversation over dinner, not just another networking event."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For people trying Solopreneur Dinner in Casablanca, Fanju app puts the guest mix first
+# For people trying Solopreneur Dinner in Casablanca, Fanju app puts the guest mix first | fanju-app
 
 The Fanju app in Casablanca is designed for people who want real conversation over dinner, not just another networking event. It hosts small, intentional meals where solopreneurs—freelancers, consultants, indie makers—gather to talk beyond business cards. Unlike open meetups, these dinners are carefully structured with a balanced guest mix, clear themes, and hosts who value listening over pitching. Food is the anchor, but the real offering is mutual understanding in a city where professional isolation can grow quietly, even in crowded spaces. The app enables this by curating who sits at the table.
 

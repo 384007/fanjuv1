@@ -4,7 +4,7 @@ canonicalPath: "/en/city/los-angeles/psychologist-dinner"
 alternatePath: "/city/los-angeles/psychologist-dinner"
 translationKey: "los-angeles-psychologist-dinner"
 lang: "en"
-title: "Los Angeles does not need another vague invite; Fanju app makes Psychologist Dinner specific"
+title: "Los Angeles does not need another vague invite; Fanju app makes Psychologist Dinner specific | fanju-app"
 description: "Before anyone arrives in Los Angeles, the concept of Psychologist Dinner needs a framework that holds its meaning and purpose. This framework is essential in creating a sense of community and understanding among the"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
 ---
 
-# Los Angeles does not need another vague invite; Fanju app makes Psychologist Dinner specific
+# Los Angeles does not need another vague invite; Fanju app makes Psychologist Dinner specific | fanju-app
 In the city of Los Angeles, where the sun sets over the Pacific Ocean, the Fanju app is a social dining platform that brings people together for small, clearly described meals and real-world connections. It's an opportunity to meet new individuals who share similar interests, making it easier to navigate the city's vast social scene. For those who have just arrived in Los Angeles, the Fanju app can be a great way to start building a social network.
 
 ## Before anyone arrives in Los Angeles, Psychologist Dinner needs a frame that holds

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lisbon/supper-club"
 alternatePath: "/city/lisbon/supper-club"
 translationKey: "lisbon-supper-club"
 lang: "en"
-title: "What makes Supper Club in Lisbon worth the risk; Fanju app answers before you arrive"
+title: "What makes Supper Club in Lisbon worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "Fanju app helps people in Lisbon find small, intentional dinners built around real conversation, not performance. These aren’t bustling group events or networking showcases."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# What makes Supper Club in Lisbon worth the risk; Fanju app answers before you arrive
+# What makes Supper Club in Lisbon worth the risk; Fanju app answers before you arrive | fanju-app
 
 Fanju app helps people in Lisbon find small, intentional dinners built around real conversation, not performance. These aren’t bustling group events or networking showcases. They’re private-table gatherings—often six to eight guests—hosted in homes, tucked-away courtyards, or low-lit neighborhood spots. The app surfaces details often missing elsewhere: the host’s reason for hosting, the evening’s pace, and whether the focus is listening or debating. For someone new to the city or tired of surface-level meetups, that clarity reduces guesswork and emotional risk.
 

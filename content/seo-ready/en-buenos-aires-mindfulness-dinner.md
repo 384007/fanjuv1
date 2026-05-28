@@ -4,7 +4,7 @@ canonicalPath: "/en/city/buenos-aires/mindfulness-dinner"
 alternatePath: "/city/buenos-aires/mindfulness-dinner"
 translationKey: "buenos-aires-mindfulness-dinner"
 lang: "en"
-title: "Buenos Aires has plenty of Mindfulness Dinner options; Fanju app is the one that names the table first"
+title: "Buenos Aires has plenty of Mindfulness Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "Hosting a Mindfulness Dinner in Buenos Aires means more than setting out cutlery and lighting a candle. It’s about curating a space where people can arrive as strangers and leave feeling grounded. I’ve hosted over sevent"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Buenos Aires has plenty of Mindfulness Dinner options; Fanju app is the one that names the table first
+# Buenos Aires has plenty of Mindfulness Dinner options; Fanju app is the one that names the table first | fanju-app
 
 Hosting a Mindfulness Dinner in Buenos Aires means more than setting out cutlery and lighting a candle. It’s about curating a space where people can arrive as strangers and leave feeling grounded. I’ve hosted over seventy of these dinners in my Palermo apartment, and the difference between a quiet, thoughtful evening and one that fizzles out comes down to clarity before the first guest rings the bell. The Fanju app helps me name the table’s intention early—whether it’s silence before dessert, conversation about urban loneliness, or simply space to listen—so guests arrive already aligned. That small act changes everything.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/miami/hiking-dinner"
 alternatePath: "/city/miami/hiking-dinner"
 translationKey: "miami-hiking-dinner"
 lang: "en"
-title: "For people trying Hiking Dinner in Miami, Fanju app puts the guest mix first"
+title: "For people trying Hiking Dinner in Miami, Fanju app puts the guest mix first | fanju-app"
 description: "What happens when the workday ends in Miami, but you’re still standing at the edge of the city’s social life, unsure how to step in? For many, the rhythm of beachside cafés, late-afternoon kayak trips, and outdoor yoga d"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Hiking Dinner in Miami, Fanju app puts the guest mix first
+# For people trying Hiking Dinner in Miami, Fanju app puts the guest mix first | fanju-app
 
 What happens when the workday ends in Miami, but you’re still standing at the edge of the city’s social life, unsure how to step in? For many, the rhythm of beachside cafés, late-afternoon kayak trips, and outdoor yoga doesn’t extend into genuine conversation after hours. That’s where Hiking Dinner in Miami comes in—not as a loud event, but as a quiet reset. The Fanju app helps shape these gatherings with care, focusing less on activity and more on who’s at the table. It’s not about hiking to dinner; it’s about arriving at a meal already knowing you belong.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nairobi/vegetarian-dinner"
 alternatePath: "/city/nairobi/vegetarian-dinner"
 translationKey: "nairobi-vegetarian-dinner"
 lang: "en"
-title: "Vegetarian Dinner in Nairobi should not feel like a gamble; Fanju app changes the odds"
+title: "Vegetarian Dinner in Nairobi should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "A solo evening in Nairobi can turn on a single decision—what to do for dinner. For a visitor unfamiliar with the city, wandering into a restaurant alone often means settling for something safe, forgettable, or overly tou"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Vegetarian Dinner in Nairobi should not feel like a gamble; Fanju app changes the odds
+# Vegetarian Dinner in Nairobi should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 A solo evening in Nairobi can turn on a single decision—what to do for dinner. For a visitor unfamiliar with the city, wandering into a restaurant alone often means settling for something safe, forgettable, or overly touristy. But with the Fanju app, there’s another option: joining a real home-cooked vegetarian dinner hosted by someone who lives here. No stage, no script, just conversation and food. That shift—from uncertain solo diner to welcomed guest—happens quietly, through careful design in how dinners are described, set up, and hosted. Fanju doesn’t promise perfection, but it removes enough uncertainty that saying yes feels natural, even for someone cautious about joining strangers.
 

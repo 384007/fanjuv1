@@ -4,7 +4,7 @@ canonicalPath: "/en/city/atlanta/third-place-dinner"
 alternatePath: "/city/atlanta/third-place-dinner"
 translationKey: "atlanta-third-place-dinner"
 lang: "en"
-title: "In Atlanta, Fanju app turns Third Place Dinner into a table people can actually trust"
+title: "In Atlanta, Fanju app turns Third Place Dinner into a table people can actually trust | fanju-app"
 description: "Most social invitations in Atlanta dissolve before they take shape. “Maybe we’ll run into each other at a festival,” or “We should do dinner when things calm down”—phrases that go nowhere. What Fanju introduces is"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Atlanta, Fanju app turns Third Place Dinner into a table people can actually trust
+# In Atlanta, Fanju app turns Third Place Dinner into a table people can actually trust | fanju-app
 
 Dinner between acquaintances in Atlanta often fades into vague plans—“We should grab food sometime”—but never becomes real. That’s where Fanju app steps in: a platform that turns intention into invitation, anchoring Third Place Dinner in clarity and consistency. As someone who’s hosted dozens of these small meals across neighborhoods like Inman Park, West Midtown, and East Lake, I’ve learned that trust isn’t assumed; it’s built through the details. Fanju doesn’t just connect people—it structures the gathering so the host can focus on what matters: making the table feel like a place where people can relax, speak honestly, and leave feeling a little more grounded. It’s not about entertainment. It’s about creating a rhythm where connection has room to grow.
 

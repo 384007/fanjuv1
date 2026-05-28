@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kuala-lumpur/local-dinner"
 alternatePath: "/city/kuala-lumpur/local-dinner"
 translationKey: "kuala-lumpur-local-dinner"
 lang: "en"
-title: "Kuala Lumpur Local Dinner through Fanju app: mamak, kopitiam, and mixed-table clarity"
+title: "Kuala Lumpur Local Dinner through Fanju app: mamak, kopitiam, and mixed-table clarity | fanju-app"
 description: "Kuala Lumpur Local Dinner on Fanju app helps people compare Kuala Lumpur social dining, a Local dinner group, and small-table dinner in Kuala Lumpur before joining."
 primaryKeyword: "Kuala Lumpur Local Dinner"
 secondaryKeywords: "Kuala Lumpur social dining|Local dinner group|dinner buddy app|Fanju app|small-table dinner in Kuala Lumpur"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T111336Z"
 ---
 
-# Kuala Lumpur Local Dinner through Fanju app: mamak, kopitiam, and mixed-table clarity
+# Kuala Lumpur Local Dinner through Fanju app: mamak, kopitiam, and mixed-table clarity | fanju-app
 
 Kuala Lumpur Local Dinner is a Fanju app page for choosing a small-table dinner in Kuala Lumpur where local dinner expectations are clear before anyone sits down. Fanju is a social dining app for real meal plans, not a dating app or random group chat.
 

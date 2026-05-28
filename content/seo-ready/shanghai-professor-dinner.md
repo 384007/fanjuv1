@@ -4,7 +4,7 @@ canonicalPath: "/city/shanghai/professor-dinner"
 alternatePath: "/en/city/shanghai/professor-dinner"
 translationKey: "shanghai-professor-dinner"
 lang: "zh"
-title: "第一次在上海参加教授饭局，饭局app怎样让陌生人坐得下来"
+title: "第一次在上海参加教授饭局，饭局app怎样让陌生人坐得下来 | fanju-app"
 titleZh: "第一次在上海参加教授饭局，饭局app怎样让陌生人坐得下来"
 description: "在上海，一顿饭的意义从来不只是填饱肚子。外滩的灯光照进餐厅玻璃，衡山路的梧桐叶飘落在 sidewalk café 的桌角，而更多真正的城市连接，发生在那些没有招牌的小馆子、写字楼后的私厨空间，或某个大学教授家的周末晚餐桌上。人们在这里吃饭，"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 第一次在上海参加教授饭局，饭局app怎样让陌生人坐得下来
+# 第一次在上海参加教授饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 
 在上海，一顿饭的意义从来不只是填饱肚子。外滩的灯光照进餐厅玻璃，衡山路的梧桐叶飘落在 sidewalk café 的桌角，而更多真正的城市连接，发生在那些没有招牌的小馆子、写字楼后的私厨空间，或某个大学教授家的周末晚餐桌上。人们在这里吃饭，也在试图理解彼此。饭局app的出现，并不是为了制造更多饭局，而是为了让那些真正值得发生的饭局，能被看见、被信任、被坐下来。在上海这样一座节奏快、社交浅的城市里，它用一种安静但具体的方式，重新定义了陌生人之间的餐桌可能性——不是靠热闹的群聊接龙，而是靠主理人的真实讲述、食物的在地表达，和一桌人愿意慢下来的共同默契。
 

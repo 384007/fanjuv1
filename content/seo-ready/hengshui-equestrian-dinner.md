@@ -4,7 +4,7 @@ canonicalPath: "/city/hengshui/equestrian-dinner"
 alternatePath: "/en/city/hengshui/equestrian-dinner"
 translationKey: "hengshui-equestrian-dinner"
 lang: "zh"
-title: "衡水马术饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "衡水马术饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "衡水马术饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "在衡水，一场晚饭能带来的变化正悄悄发生。过去几年，饭局app上的多数活动还停留在线上邀约、线下随意碰面的阶段，但最近在城西的马术俱乐部周边，一种新的饭局形态开始浮现：人们不再为了“认识人”而吃饭，而是为了确认自己和谁坐在一起是舒服的。饭局a"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 衡水马术饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 衡水马术饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 在衡水，一场晚饭能带来的变化正悄悄发生。过去几年，饭局app上的多数活动还停留在线上邀约、线下随意碰面的阶段，但最近在城西的马术俱乐部周边，一种新的饭局形态开始浮现：人们不再为了“认识人”而吃饭，而是为了确认自己和谁坐在一起是舒服的。饭局app上关于“衡水马术饭局”的报名页里，少有喧闹的群聊截图，更多是主理人手写的桌次说明和动线安排。这种变化不是偶然——当线上社交的疲惫感蔓延到日常，人们开始用一顿饭重新校准自己的社交半径。衡水的晚饭场景，正在从“凑一桌人”转向“守住一桌人的边界”。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lima/magic-dinner"
 alternatePath: "/city/lima/magic-dinner"
 translationKey: "lima-magic-dinner"
 lang: "en"
-title: "The Magic Dinner table Lima actually needs is the one Fanju app describes up front"
+title: "The Magic Dinner table Lima actually needs is the one Fanju app describes up front | fanju-app"
 description: "The best group dinners in Lima don’t start with a reservation—they start with a decision. Not just about where to eat, but who to eat with, and how much of yourself you’re willing to share over shared plates. At a recent"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# The Magic Dinner table Lima actually needs is the one Fanju app describes up front
+# The Magic Dinner table Lima actually needs is the one Fanju app describes up front | fanju-app
 
 The best group dinners in Lima don’t start with a reservation—they start with a decision. Not just about where to eat, but who to eat with, and how much of yourself you’re willing to share over shared plates. At a recent Magic Dinner organized through the Fanju app, six people met for the first time at a tucked-away cevichería near Miraflores. No one arrived with expectations, but by the third round of tiraditos and chicha morada, someone was telling a story about their abuela’s lost recipe, another confessed they’d moved to Lima only three weeks prior, and a quiet consensus formed: this wasn’t just dinner, it was the kind of evening the city rarely packages but often promises. The Fanju app didn’t just connect them—it held space for the kind of specificity and rhythm that turns strangers into a temporary table family.
 

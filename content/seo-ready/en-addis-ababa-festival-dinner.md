@@ -4,7 +4,7 @@ canonicalPath: "/en/city/addis-ababa/festival-dinner"
 alternatePath: "/city/addis-ababa/festival-dinner"
 translationKey: "addis-ababa-festival-dinner"
 lang: "en"
-title: "Addis Ababa strangers sit down easier when Fanju app frames the Festival Dinner table first"
+title: "Addis Ababa strangers sit down easier when Fanju app frames the Festival Dinner table first | fanju-app"
 description: "The transition from a busy workday in Addis Ababa to an evening of socializing can often feel like a sudden shift. Many find themselves looking for a way to decompress and connect, but the default often leans towards"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Addis Ababa strangers sit down easier when Fanju app frames the Festival Dinner table first
+# Addis Ababa strangers sit down easier when Fanju app frames the Festival Dinner table first | fanju-app
 
 In Addis Ababa, the Fanju app offers a refreshing approach to social dining, moving beyond the ephemeral nature of group chats or the broad strokes of dating apps. It focuses on creating intentionally small, clearly defined Festival Dinner experiences designed for genuine, real-world connections. This isn't about endless scrolling or awkward icebreakers; instead, Fanju aims to facilitate calm, considered gatherings where the table's purpose is understood before anyone sits down. For those in Addis Ababa seeking a more grounded way to meet new people and share a meal, Fanju app provides a framework for private, curated dinners that prioritize comfort and conversation.
 

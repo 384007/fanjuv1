@@ -4,7 +4,7 @@ canonicalPath: "/en/city/austin/supper-club"
 alternatePath: "/city/austin/supper-club"
 translationKey: "austin-supper-club"
 lang: "en"
-title: "Before joining Supper Club in Austin, what Fanju app should make clear"
+title: "Before joining Supper Club in Austin, what Fanju app should make clear | fanju-app"
 description: "Austin Supper Club through the Fanju app offers a space for small-group dinners with intentional themes, clear hosts, and real-world conversation—no swiping, no expectations."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Before joining Supper Club in Austin, what Fanju app should make clear
+# Before joining Supper Club in Austin, what Fanju app should make clear | fanju-app
 
 Austin Supper Club through the Fanju app offers a space for small-group dinners with intentional themes, clear hosts, and real-world conversation—no swiping, no expectations. This is not a dating guarantee, not a random group chat, not an endless profile feed. Fanju, also known in Chinese as “饭局 / 饭局app / Fanju饭局”, operates as a social dining app focused on offline dinner socials where the meal is the center, not a backdrop for performance. In Austin, where live music and food trucks dominate casual meetups, a Supper Club table invites quieter rhythm: a hosted meal with boundaries, guest limits, and a stated reason for gathering. You’re not walking into a crowd; you’re joining a conversation already shaped before arrival.
 

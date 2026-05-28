@@ -4,7 +4,7 @@ canonicalPath: "/en/city/atlanta/mba-dinner"
 alternatePath: "/city/atlanta/mba-dinner"
 translationKey: "atlanta-mba-dinner"
 lang: "en"
-title: "Atlanta after work: how Fanju app makes MBA Dinner feel like a real room"
+title: "Atlanta after work: how Fanju app makes MBA Dinner feel like a real room | fanju-app"
 description: "When considering an MBA Dinner invite in Atlanta, it's essential to distinguish between a casual gathering and a more structured event. The Fanju app helps to facilitate the latter, providing a platform for hosts to"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T140006Z"
 ---
 
-# Atlanta after work: how Fanju app makes MBA Dinner feel like a real room
+# Atlanta after work: how Fanju app makes MBA Dinner feel like a real room | fanju-app
 In Atlanta, the Fanju app is a social dining platform that connects people over small, clearly described meals, fostering real-world connections in a city where after-work gatherings can be a great way to unwind. By using the Fanju app, individuals can join or host MBA Dinner events, which provide a unique opportunity to network and socialize with like-minded professionals in a relaxed setting.
 
 ## The after-work pause in Atlanta should not become another loose invite for MBA Dinner

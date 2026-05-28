@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vancouver/journalist-dinner"
 alternatePath: "/city/vancouver/journalist-dinner"
 translationKey: "vancouver-journalist-dinner"
 lang: "en"
-title: "Before the first message in Vancouver, Fanju app makes Journalist Dinner feel like a real decision"
+title: "Before the first message in Vancouver, Fanju app makes Journalist Dinner feel like a real decision | fanju-app"
 description: "Selecting a neighbourhood in Vancouver isn’t just about transit access or ambiance—it’s about alignment. A Journalist Dinner hosted in Commercial Drive carries a different texture than one in Yaletown. The former"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Vancouver, Fanju app makes Journalist Dinner feel like a real decision
+# Before the first message in Vancouver, Fanju app makes Journalist Dinner feel like a real decision | fanju-app
 
 On a Wednesday evening after work, the sky over False Creek turns soft grey, and the city dims into its evening rhythm. The offices near Granville Island begin to empty, and a quiet shift happens—not toward bars or solo takeout, but toward small tables where people meet for meals with intention. On the Fanju app, one such gathering appears: a Journalist Dinner in Mount Pleasant, limited to six guests, hosted at a long-standing neighbourhood bistro known for its open kitchen and low lighting. There’s no mention of romance, no implied competition for attention. Instead, the description focuses on conversation about local reporting, ethical storytelling, and the small frustrations of chasing city hall sources. This isn’t a date. It’s a meal with a purpose, one that the Fanju app frames not as a social gamble, but as a deliberate, low-pressure choice among Vancouver professionals who want to connect without performance.
 

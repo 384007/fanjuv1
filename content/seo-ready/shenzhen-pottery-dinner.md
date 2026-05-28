@@ -4,7 +4,7 @@ canonicalPath: "/city/shenzhen/pottery-dinner"
 alternatePath: "/en/city/shenzhen/pottery-dinner"
 translationKey: "shenzhen-pottery-dinner"
 lang: "zh"
-title: "不想在深圳随便拼桌，饭局app怎样让陶艺饭局变成一个真实决定"
+title: "不想在深圳随便拼桌，饭局app怎样让陶艺饭局变成一个真实决定 | fanju-app"
 titleZh: "不想在深圳随便拼桌，饭局app怎样让陶艺饭局变成一个真实决定"
 description: "在深圳，陶艺饭局不是手工体验加外卖盒饭。它是一群人围坐，手上有泥，面前有菜，话可以慢慢说，也可以先不说话。饭局app的作用，是把这种模糊的期待变成清晰的信号：主理人是谁，场地在哪，人数几人，有没有陶艺经验要求，饭后是否继续捏泥。这些信息不是"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T105242Z"
 ---
 
-# 不想在深圳随便拼桌，饭局app怎样让陶艺饭局变成一个真实决定
+# 不想在深圳随便拼桌，饭局app怎样让陶艺饭局变成一个真实决定 | fanju-app
 
 周六下午四点，深圳的阳光还悬在华侨城创意园的屋顶上。你刚结束远程会议，耳机摘下来那一刻，突然意识到：已经三天没和人面对面说话了。冰箱里有饭，但不想热；朋友在群里发约饭消息，点进去看，全是不熟的拼桌链接。你真正想要的不是一顿饭，而是一张让你愿意坐下来的桌子——有人提前铺好了桌布，说了主题，约定了节奏，而不是“有人来吗”四个字就发起一场饭局。饭局app在深圳做的，不是撮合陌生人吃饭，而是让每一次陶艺饭局都变成可预期、可进入、可退出的真实社交单位。它不保证交到朋友，但保证这桌人来之前就知道彼此为什么坐在这里。
 

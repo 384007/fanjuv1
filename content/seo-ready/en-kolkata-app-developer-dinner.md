@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kolkata/app-developer-dinner"
 alternatePath: "/city/kolkata/app-developer-dinner"
 translationKey: "kolkata-app-developer-dinner"
 lang: "en"
-title: "How Fanju app turns a Kolkata App Developer Dinner night into something worth showing up for"
+title: "How Fanju app turns a Kolkata App Developer Dinner night into something worth showing up for | fanju-app"
 description: "Kolkata’s pace doesn’t always encourage spontaneity. Social plans often rely on old college ties or family circles."
 primaryKeyword: "Kolkata App Developer Dinner"
 secondaryKeywords: "Kolkata social dining|App Developer dinner group|dinner buddy app|Fanju app|small-table dinner in Kolkata"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T190004Z"
 ---
 
-# How Fanju app turns a Kolkata App Developer Dinner night into something worth showing up for
+# How Fanju app turns a Kolkata App Developer Dinner night into something worth showing up for | fanju-app
 
 Fanju app connects people in Kolkata through small, intentional dinners, including the App Developer Dinner—a gathering designed for those who spend their days in code but don’t want their evenings to dissolve into silence or scrolling. In a city where after-work routines often mean either a long commute home or another solo meal at a roadside stall, this event offers a different rhythm. It’s not a networking session or a loud party, but a chance to sit with four or five others who also felt that second-dinner possibility—the moment when going home feels too small, but you’re not sure what else to do. The app sets clear expectations: real talk, no agendas, and a host who’s committed to making the table feel grounded. That clarity is what turns hesitation into attendance.
 

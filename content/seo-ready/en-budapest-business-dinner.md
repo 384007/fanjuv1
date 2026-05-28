@@ -4,7 +4,7 @@ canonicalPath: "/en/city/budapest/business-dinner"
 alternatePath: "/city/budapest/business-dinner"
 translationKey: "budapest-business-dinner"
 lang: "en"
-title: "Budapest business dinner for founders and operators - Fanju app"
+title: "Budapest business dinner for founders and operators - Fanju app | fanju-app"
 description: "Fanju app supports a Budapest business dinner as professional social dining: a small table, clear host, public venue, guest fit, cost expectations, and trust before contacts."
 primaryKeyword: "Budapest business dinner"
 secondaryKeywords: "business dinner Budapest|professional social dining|Fanju app|small-table dinner|social dining Budapest"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
 ---
 
-# Budapest business dinner on Fanju app should build trust before contacts
+# Budapest business dinner on Fanju app should build trust before contacts | fanju-app
 
 A Budapest business dinner on Fanju app is not a corporate networking event with name tags and fast pitches. It is a small-table dinner for founders, freelancers, operators, expats, and professionals who want to understand one another before exchanging contacts. The table is public, clearly described, and designed for conversation rather than performance.
 

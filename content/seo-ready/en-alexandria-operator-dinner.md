@@ -4,7 +4,7 @@ canonicalPath: "/en/city/alexandria/operator-dinner"
 alternatePath: "/city/alexandria/operator-dinner"
 translationKey: "alexandria-operator-dinner"
 lang: "en"
-title: "Alexandria does not need another vague invite; Fanju app makes Operator Dinner specific"
+title: "Alexandria does not need another vague invite; Fanju app makes Operator Dinner specific | fanju-app"
 description: "In Alexandria, a city where dinner plans often dissolve into group chat limbo, the Fanju app gives Operator Dinner a fixed address, a real menu, and a reason to show up. Instead of another open-ended “maybe we’ll meet up"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Alexandria does not need another vague invite; Fanju app makes Operator Dinner specific
+# Alexandria does not need another vague invite; Fanju app makes Operator Dinner specific | fanju-app
 
 In Alexandria, a city where dinner plans often dissolve into group chat limbo, the Fanju app gives Operator Dinner a fixed address, a real menu, and a reason to show up. Instead of another open-ended “maybe we’ll meet up” message, it delivers a named table at a family-run Mediterranean spot near Old Town, reserved for 7:15 p.m., with guests who’ve confirmed through the app. The meal starts with warm pita and house-made labneh, passed around a table where everyone knows at least one thing: they’re here for food that matters, not small talk that fades. This isn’t about networking or performative socializing — it’s about following a thread of local flavor, from the cumin-laced kofta at a tucked-away grill in Del Ray, to the cardamom coffee served after dinner by a host who grew up in Alexandria’s Arab diaspora community. Fanju anchors the idea so it doesn’t float away.
 

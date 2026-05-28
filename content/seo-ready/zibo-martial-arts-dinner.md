@@ -4,7 +4,7 @@ canonicalPath: "/city/zibo/martial-arts-dinner"
 alternatePath: "/en/city/zibo/martial-arts-dinner"
 translationKey: "zibo-martial-arts-dinner"
 lang: "zh"
-title: "在淄博找到对的武术饭局饭局，饭局app先把这一桌说清楚"
+title: "在淄博找到对的武术饭局饭局，饭局app先把这一桌说清楚 | fanju-app"
 titleZh: "在淄博找到对的武术饭局饭局，饭局app先把这一桌说清楚"
 description: "在淄博，下班后的时间是属于自己的，也是属于社区的。饭局app的出现，让人们更容易在忙碌的生活中找到那份连接和归属感。尤其是在讨论武术饭局这类带有特定兴趣和文化属性的聚会时，饭局app提供了一个清晰的平台，帮助大家辨别哪些饭局是真正值得投入时"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在淄博找到对的武术饭局饭局，饭局app先把这一桌说清楚
+# 在淄博找到对的武术饭局饭局，饭局app先把这一桌说清楚 | fanju-app
 
 在淄博，下班后的时间是属于自己的，也是属于社区的。饭局app的出现，让人们更容易在忙碌的生活中找到那份连接和归属感。尤其是在讨论武术饭局这类带有特定兴趣和文化属性的聚会时，饭局app提供了一个清晰的平台，帮助大家辨别哪些饭局是真正值得投入时间和精力的。它不仅仅是信息的罗列，更是对一桌饭局背后意图和组织者用心程度的初步展现。对于初来乍到淄博，或是想要深入了解本地武术文化的朋友来说，饭局app就像一张社区地图，指引你找到那张最适合你的小桌。
 

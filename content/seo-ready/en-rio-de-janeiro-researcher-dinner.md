@@ -4,7 +4,7 @@ canonicalPath: "/en/city/rio-de-janeiro/researcher-dinner"
 alternatePath: "/city/rio-de-janeiro/researcher-dinner"
 translationKey: "rio-de-janeiro-researcher-dinner"
 lang: "en"
-title: "Researcher Dinner in Rio de Janeiro should not feel like a gamble; Fanju app changes the odds"
+title: "Researcher Dinner in Rio de Janeiro should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "Rio de Janeiro: Arriving in Rio with a research agenda means you’re not just adjusting to humidity and Portuguese pronunciation — you’re mapping invisible hierarchies. Who speaks with authority at academic gatherings?"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Researcher Dinner in Rio de Janeiro should not feel like a gamble; Fanju app changes the odds
+# Researcher Dinner in Rio de Janeiro should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 Dining as a researcher in a new city often means sitting across from someone who’s already settled, already knows the rhythm, already has a community. In Rio de Janeiro, that gap can feel wide — between the person who knows where the afternoon light hits Lapa just right and the one reading maps at 8 a.m. in Botafogo. The Fanju app closes that gap not by promising instant belonging, but by making the first table legible. It’s a social dining platform built for small, intentional meals where the host describes not just the food, but the thinking behind the gathering. That clarity shifts the experience from chance to choice, especially when you’ve only been in the city for days.
 

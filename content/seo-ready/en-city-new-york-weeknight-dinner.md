@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/new-york/weeknight-dinner"
 alternatePath: "/city/new-york/weeknight-dinner"
-title: "Finding Intimacy in the City: Weeknight Dinner with Fanju app in New York"
+title: "Finding Intimacy in the City: Weeknight Dinner with Fanju app in New York | fanju-app | 饭局app"
 description: "Discover the art of hosting a weeknight dinner in New York with the help of Fanju app, where the contrast between the city's grandeur and the intimacy of a small table is the perfect setting for meaningful connections."
 recoveredFromD1: true
 ---
@@ -34,3 +34,9 @@ recoveredFromD1: true
 <p>In conclusion, weeknight dinner gatherings in New York are a unique and special experience that offers a chance to slow down, connect with others, and experience the city in a new way. With the help of Fanju app, finding the perfect host, venue, and guest mix is easier than ever, allowing you to create a sense of community and connection in the midst of the city&#039;s grandeur. So why not give it a try? Join a weeknight dinner gathering today and discover the art of hosting and attending a meaningful and memorable meal in the city that never sleeps.</p>
 <p><strong>Ready to start hosting or attending a weeknight dinner gathering in New York? Download Fanju app today and start connecting with others in a meaningful and memorable way!</strong></p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

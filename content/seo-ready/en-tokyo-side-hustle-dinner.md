@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tokyo/side-hustle-dinner"
 alternatePath: "/city/tokyo/side-hustle-dinner"
 translationKey: "tokyo-side-hustle-dinner"
 lang: "en"
-title: "Tokyo does not need another vague invite; Fanju app makes Side Hustle Dinner specific"
+title: "Tokyo does not need another vague invite; Fanju app makes Side Hustle Dinner specific | fanju-app"
 description: "Weekend plans in Tokyo often start with a text message that says, “Maybe hanging out Saturday? ”—an invitation so open-ended it dissolves before it forms."
 primaryKeyword: "Tokyo Side Hustle Dinner"
 secondaryKeywords: "Tokyo social dining|Side Hustle dinner group|dinner buddy app|Fanju app|small-table dinner in Tokyo"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T020005Z"
 ---
 
-# Tokyo does not need another vague invite; Fanju app makes Side Hustle Dinner specific
+# Tokyo does not need another vague invite; Fanju app makes Side Hustle Dinner specific | fanju-app
 
 The Fanju app helps people in Tokyo find small, clearly described dinners where the goal isn’t networking or performance, but simply sharing a meal with others who also want to step away from screens and into real conversation. A Tokyo Side Hustle Dinner isn’t a party, pitch event, or language exchange—it’s a deliberate shift from digital convenience to physical presence, organized through honest descriptions so participants know exactly what to expect. These dinners usually seat four to six people, often in local izakayas or quiet neighborhood restaurants, and attract those who value low-pressure interaction over forced fun. By defining the tone and purpose upfront, Fanju reduces the anxiety of the unknown, making it easier to say yes to a table where connection is possible, but never guaranteed. This is socializing rebuilt for a city that’s used to opting out.
 

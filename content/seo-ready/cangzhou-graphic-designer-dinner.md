@@ -4,7 +4,7 @@ canonicalPath: "/city/cangzhou/graphic-designer-dinner"
 alternatePath: "/en/city/cangzhou/graphic-designer-dinner"
 translationKey: "cangzhou-graphic-designer-dinner"
 lang: "zh"
-title: "沧州的一顿平面设计师饭局，饭局app为什么先看人再看热闹"
+title: "沧州的一顿平面设计师饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "沧州的一顿平面设计师饭局，饭局app为什么先看人再看热闹"
 description: "沧州的节奏不快不慢，人们习惯把话说到三分，留七分靠时间验证。这里没有成群结队的设计园区，也没有密集的创意市集，平面设计师多是散落在广告公司、企业宣传岗或自由接单的个体户。许多人做着年复一年的节庆海报、产品包装、活动视觉，却很少有机会聊聊这些"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 沧州的一顿平面设计师饭局，饭局app为什么先看人再看热闹
+# 沧州的一顿平面设计师饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 周末傍晚，沧州的街道刚褪去白天的燥热，街边小馆陆续亮起灯。有人在饭局app上点开一场明晚的平面设计师饭局，犹豫要不要报名。这顿饭不在市中心高楼里，而是在新华路附近一个老小区旁的家常菜馆，六个人的桌，主理人是一位做了十年品牌视觉的老沧州人。饭局app不是用来刷热闹的，它更像一张安静的邀请函：先看清这一桌的人，再决定是否落座。在沧州，一场值得参加的饭局，往往从拒绝“凑合”开始。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/berlin/ai-products-dinner"
 alternatePath: "/city/berlin/ai-products-dinner"
 translationKey: "berlin-ai-products-dinner"
 lang: "en"
-title: "How Fanju app turns a Berlin AI Products Dinner night into something worth showing up for"
+title: "How Fanju app turns a Berlin AI Products Dinner night into something worth showing up for | fanju-app"
 description: "Berlin’s creative density means ideas circulate constantly, but meaningful discussion around AI products rarely sticks. Conferences fill rooms with slides and slogans, yet few create conditions for genuine"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Berlin AI Products Dinner night into something worth showing up for
+# How Fanju app turns a Berlin AI Products Dinner night into something worth showing up for | fanju-app
 
 The Fanju app doesn’t promise a revolution over dinner in Berlin. Instead, it focuses on something quieter: helping people find a table that feels like it was meant for them. In a city where professional gatherings often blur into networking performances, Fanju carves out space for real exchange—especially around niche topics like AI products, where curiosity matters more than credentials. The app surfaces small dinners hosted by locals who describe not just the food or theme, but their reasoning for gathering. That clarity transforms an evening from a vague social obligation into a deliberate choice. Berliners, accustomed to sifting through layers of subtext in every invitation, respond to that honesty. On Fanju, a dinner isn’t an event. It’s a signal.
 

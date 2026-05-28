@@ -4,7 +4,7 @@ canonicalPath: "/city/zhuhai/sneaker-dinner"
 alternatePath: "/en/city/zhuhai/sneaker-dinner"
 translationKey: "zhuhai-sneaker-dinner"
 lang: "zh"
-title: "珠海的球鞋爱好者饭局为什么值得去，饭局app在报名前就给了答案"
+title: "珠海的球鞋爱好者饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
 titleZh: "珠海的球鞋爱好者饭局为什么值得去，饭局app在报名前就给了答案"
 description: "报名不是一键完成的动作，而是确认彼此是否在同一频率上的起点。 在珠海，很多人第一次点开饭局app的球鞋爱好者饭局，心里其实藏着问号：这桌人会不会太硬核？ 我穿Yeezy 350算入门还是老炮？ 会不会一进去就被问“你有收藏级吗？"
 primaryKeyword: "珠海球鞋爱好者饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T183055Z"
 ---
 
-# 珠海的球鞋爱好者饭局为什么值得去，饭局app在报名前就给了答案
+# 珠海的球鞋爱好者饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
 珠海的夏天来得早，海风还没完全吹散三月的湿气，街头已经有人换上新到的夏季限定球鞋。这座城市不像北上广那样节奏逼人，但周末的夜晚，情侣路旁的咖啡馆、老香洲的巷口小馆、横琴新商圈的露台餐厅，总有些安静的饭局在发生。其中一桌，可能是五个人围坐，话题从Air Jordan 1的复刻配色聊到本地球鞋店的进货逻辑，也可能是某位主理人刚从广州展会回来，带回一双未市售的联名款，在饭桌上悄悄亮出来。这样的饭局不是随便拼的，它属于那些不想把社交变成应酬、又不愿在微信群里空聊的球鞋爱好者。饭局app的存在，正是为了让“珠海球鞋爱好者饭局”这件事，从模糊的念头变成可判断、可参与、有边界的真实连接。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lima/omakase-dinner"
 alternatePath: "/city/lima/omakase-dinner"
 translationKey: "lima-omakase-dinner"
 lang: "en"
-title: "Before joining Omakase Dinner in Lima, what Fanju app should make clear"
+title: "Before joining Omakase Dinner in Lima, what Fanju app should make clear | fanju-app"
 description: "For those in Lima looking to experience Omakase Dinner beyond a typical restaurant booking, Fanju app offers a different approach to connecting over food."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Before joining Omakase Dinner in Lima, what Fanju app should make clear
+# Before joining Omakase Dinner in Lima, what Fanju app should make clear | fanju-app
 
 For those in Lima looking to experience Omakase Dinner beyond a typical restaurant booking, Fanju app offers a different approach to connecting over food. It's a social app designed for small-table meals with clear dinner themes and aims to foster genuine offline connections. Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局”. This isn't about finding a date, nor is it a random group chat, and it certainly isn't an endless profile feed. Instead, it focuses on curated experiences where shared interest in a specific culinary theme, like Omakase Dinner, brings people together at a single table in Lima.
 

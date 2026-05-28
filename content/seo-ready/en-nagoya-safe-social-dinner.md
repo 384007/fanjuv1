@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nagoya/safe-social-dinner"
 alternatePath: "/city/nagoya/safe-social-dinner"
 translationKey: "nagoya-safe-social-dinner"
 lang: "en"
-title: "When Safe Social Dinner feels too loose in Nagoya, Fanju app starts with the table"
+title: "When Safe Social Dinner feels too loose in Nagoya, Fanju app starts with the table | fanju-app"
 description: "In Nagoya, where evening routines often settle into predictable patterns of solo izakaya visits or quiet meals at home, the idea of a social dinner without pressure can feel appealing—but only if it’s genuinely safe. The"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Safe Social Dinner feels too loose in Nagoya, Fanju app starts with the table
+# When Safe Social Dinner feels too loose in Nagoya, Fanju app starts with the table | fanju-app
 
 In Nagoya, where evening routines often settle into predictable patterns of solo izakaya visits or quiet meals at home, the idea of a social dinner without pressure can feel appealing—but only if it’s genuinely safe. The Fanju app changes how that safety is built, not through vague promises, but by anchoring every gathering to a shared understanding before the first message is sent. It’s not about filling seats; it’s about shaping the tone from the start. In a city where social warmth runs deep but isn’t always immediately visible, the app supports small, intentional tables where conversation flows not because people are performing, but because they’ve agreed to show up as themselves—no scripts, no expectations beyond mutual respect. That clarity is what turns a loose idea into something dependable.
 

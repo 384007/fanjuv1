@@ -4,7 +4,7 @@ canonicalPath: "/city/wulumuqi/community-builder-dinner"
 alternatePath: "/en/city/wulumuqi/community-builder-dinner"
 translationKey: "wulumuqi-community-builder-dinner"
 lang: "zh"
-title: "乌鲁木齐的社区建设者饭局为什么值得去，饭局app在报名前就给了答案"
+title: "乌鲁木齐的社区建设者饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
 titleZh: "乌鲁木齐的社区建设者饭局为什么值得去，饭局app在报名前就给了答案"
 description: "在乌鲁木齐，饭局app不是为凑热闹设计的，也不是为了快速认识人而降低标准。 它更像是一种筛选机制，把那些真正想通过一顿饭建立连接的人，从日常的社交噪音里轻轻拉出来。 这座城市节奏缓慢但人际关系紧密，街头巷尾的烟火气里藏着许多未被说出的故事。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 乌鲁木齐的社区建设者饭局为什么值得去，饭局app在报名前就给了答案
+# 乌鲁木齐的社区建设者饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
 在乌鲁木齐，饭局app不是为凑热闹设计的，也不是为了快速认识人而降低标准。它更像是一种筛选机制，把那些真正想通过一顿饭建立连接的人，从日常的社交噪音里轻轻拉出来。这座城市节奏缓慢但人际关系紧密，街头巷尾的烟火气里藏着许多未被说出的故事。饭局app的存在，让这些故事有机会在饭桌上自然展开——不是靠自我介绍，而是靠一顿饭的节奏、一道菜的温度、一次无意间的共鸣。它不承诺你会遇见谁，但它确保这一桌的意图是清晰的：我们来，是为了认真吃饭，也为了认真对待彼此的时间。
 

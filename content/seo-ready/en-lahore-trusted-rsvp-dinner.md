@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lahore/trusted-rsvp-dinner"
 alternatePath: "/city/lahore/trusted-rsvp-dinner"
 translationKey: "lahore-trusted-rsvp-dinner"
 lang: "en"
-title: "Lahore does not need another vague invite; Fanju app makes Trusted RSVP Dinner specific"
+title: "Lahore does not need another vague invite; Fanju app makes Trusted RSVP Dinner specific | fanju-app"
 description: "The Fanju app offers an alternative to Lahore’s typical social loops: small, intentional dinners where the guest list, menu, and tone are clearly described before anyone commits. For people who feel drained by loud gathe"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Lahore does not need another vague invite; Fanju app makes Trusted RSVP Dinner specific
+# Lahore does not need another vague invite; Fanju app makes Trusted RSVP Dinner specific | fanju-app
 
 The Fanju app offers an alternative to Lahore’s typical social loops: small, intentional dinners where the guest list, menu, and tone are clearly described before anyone commits. For people who feel drained by loud gatherings or open-ended plans, this specificity is a relief. In a city where socializing often means navigating unpredictable group dynamics or overstimulating environments, Fanju carves out a different kind of space—one centered on a shared meal, mutual respect, and quiet connection. It’s not about networking or performance. It’s about showing up to a table where you already know the basics: who’s there, what’s being served, and what kind of evening to expect. That clarity is what makes a Trusted RSVP Dinner in Lahore feel manageable, especially for those who prefer depth over volume.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/chaozhou/nurse-dinner"
 alternatePath: "/en/city/chaozhou/nurse-dinner"
 translationKey: "chaozhou-nurse-dinner"
 lang: "zh"
-title: "潮州护士饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "潮州护士饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "潮州护士饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "潮州人吃饭讲究“有头有尾”，一顿饭从哪开始、到哪收场，都得有个说法。 护士群体尤其如此，值完夜班后体力有限，谁都不想被临时拉去KTV。"
 primaryKeyword: "潮州护士饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T210005Z"
 ---
 
-# 潮州护士饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 潮州护士饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 在潮州，一场真正的晚饭不是凑满人就开席。刚来这座城时，我试过在工作群接龙约饭，最后变成六个人低头刷手机的尴尬局；也参加过朋友转介绍的“随便吃吃”，结果发现同桌聊的都是本地医保改革，而我只是个借调三个月的临时护士。直到在饭局app上看到一场标注“新来潮州的医护人员”的小饭局，主理人写明“不聊绩效、不拼酒、可提前十五分钟离席”，我才第一次觉得，原来吃饭可以不用先解释自己是谁。饭局app不是万能的社交开关，但它把潮州护士饭局的核心问题提前摊开：谁来吃、为什么来、能待多久——这些答案不在酒过三巡后，而在报名前那条清晰的信息里。
 

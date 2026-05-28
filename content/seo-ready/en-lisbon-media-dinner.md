@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lisbon/media-dinner"
 alternatePath: "/city/lisbon/media-dinner"
 translationKey: "lisbon-media-dinner"
 lang: "en"
-title: "How Fanju app turns a Lisbon Media Dinner night into something worth showing up for"
+title: "How Fanju app turns a Lisbon Media Dinner night into something worth showing up for | fanju-app"
 description: "Can a weeknight dinner in Lisbon feel less like networking and more like stepping into a conversation that was already waiting for you? For professionals winding down near Cais do Sodré or Alvalade, the Fanju app is quie"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# How Fanju app turns a Lisbon Media Dinner night into something worth showing up for
+# How Fanju app turns a Lisbon Media Dinner night into something worth showing up for | fanju-app
 
 Can a weeknight dinner in Lisbon feel less like networking and more like stepping into a conversation that was already waiting for you? For professionals winding down near Cais do Sodré or Alvalade, the Fanju app is quietly reshaping how after-work hours unfold—not with forced events, but with small, intentional dinners where showing up is easy and leaving early is never a problem. In a city where evenings often mean solo takeout or scrolling through messages on the tram, Fanju connects people around real tables, not abstract meetups. It doesn’t promise career breakthroughs or instant friendships, just the chance to eat with others who also wanted to pause before going home. That subtle shift—toward low-pressure, dinner-length interactions—is where the app finds its rhythm in Lisbon’s social gaps.
 

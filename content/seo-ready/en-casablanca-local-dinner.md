@@ -4,7 +4,7 @@ canonicalPath: "/en/city/casablanca/local-dinner"
 alternatePath: "/city/casablanca/local-dinner"
 translationKey: "casablanca-local-dinner"
 lang: "en"
-title: "How Fanju Redefines Local Dinner in Casablanca for Meaningful Connection"
+title: "How Fanju Redefines Local Dinner in Casablanca for Meaningful Connection | fanju-app"
 description: "Discover how Fanju’s small-table dinners in Casablanca offer a safe, low-pressure way to meet locals, returnees, and bilingual professionals through shared meals without social performance anxiety."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# How Fanju Redefines Local Dinner in Casablanca for Meaningful Connection
+# How Fanju Redefines Local Dinner in Casablanca for Meaningful Connection | fanju-app
 
 In Casablanca, dinner is more than a meal — it’s a quiet act of trust. The city thrives on rhythm: the call to prayer, the ebb of port activity, the late-night conversations that begin after family obligations end. Yet for many — returnees, students from other regions, remote workers — finding space at a table can feel out of reach. Social codes are subtle but firm, and dinner gatherings often come with unspoken expectations. That’s where a different kind of local dinner takes shape: not as performance, but as presence.
 
@@ -45,16 +45,6 @@ Casablanca has no shortage of social options. There are co-working lounges, lang
 Unlike group chats that demand constant engagement, Fanju’s dinners are time-bound and contained. There’s no follow-up required. Unlike networking events, there’s no expectation to exchange business cards or future favors. And unlike casual meetups organized through social media, every dinner has a named host who sets clear, visible boundaries.
 
 Most importantly, these are not large gatherings. A small table — typically six to eight people — changes the dynamic. It’s not about mingling with dozens. It’s about being seen in a room where everyone has chosen to be there for the same reason: to share a meal and a moment.
-
-## Safety and Comfort Are Built Into the Design
-
-Trust isn’t assumed — it’s structured. Every Fanju dinner in Casablanca takes place in publicly accessible venues with clear entry and exit points. The cost is shared upfront, including any service or group fee. Guest counts are capped and communicated in advance.
-
-The host is present not to entertain, but to facilitate. They may offer a light theme — “growing up between cities,” “favorite films from childhood” — but there are no forced icebreakers. Conversations unfold naturally. Attendees know they can leave at any time, and no personal information is collected or shared.
-
-These aren’t rules to enforce compliance. They’re signals: you don’t have to guess the code. Everything is visible.
-
-For women and newcomers, this predictability matters. The risk of feeling “on display” is reduced when the context is clear, the space is neutral, and no one is expected to prove their worth.
 
 ## The Quiet Language of Shared Meals
 

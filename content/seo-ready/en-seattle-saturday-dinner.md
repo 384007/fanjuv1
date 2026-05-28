@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seattle/saturday-dinner"
 alternatePath: "/city/seattle/saturday-dinner"
 translationKey: "seattle-saturday-dinner"
 lang: "en"
-title: "Before the first message in Seattle, Fanju app makes Saturday Dinner feel like a real decision"
+title: "Before the first message in Seattle, Fanju app makes Saturday Dinner feel like a real decision | fanju-app"
 description: "For newcomers in Seattle, Saturday Dinner isn’t just about food. It’s the first chance to fill the quiet that follows long workweeks in a city where rain and routine can blur together. The Fanju app doesn’t promise insta"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Seattle, Fanju app makes Saturday Dinner feel like a real decision
+# Before the first message in Seattle, Fanju app makes Saturday Dinner feel like a real decision | fanju-app
 
 For newcomers in Seattle, Saturday Dinner isn’t just about food. It’s the first chance to fill the quiet that follows long workweeks in a city where rain and routine can blur together. The Fanju app doesn’t promise instant friends, but it does something more honest—it turns the uncertainty of socializing into a structured possibility. Instead of scrolling through endless options or relying on coworkers who already have plans, the app offers curated dinner gatherings where the only shared requirement is being new to the city. This small shift changes everything: dinner becomes less about eating and more about beginning.
 

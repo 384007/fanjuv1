@@ -4,7 +4,7 @@ canonicalPath: "/en/city/chennai/jazz-dinner"
 alternatePath: "/city/chennai/jazz-dinner"
 translationKey: "chennai-jazz-dinner"
 lang: "en"
-title: "Jazz Dinner in Chennai should not feel like a gamble; Fanju app changes the odds"
+title: "Jazz Dinner in Chennai should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "In the heart of Chennai, a city known for its rich cultural heritage and vibrant nightlife, Jazz Dinner has become a popular weekend activity for those looking to unwind and socialize. However, for many, the prospect of"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Jazz Dinner in Chennai should not feel like a gamble; Fanju app changes the odds
+# Jazz Dinner in Chennai should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 In the heart of Chennai, a city known for its rich cultural heritage and vibrant nightlife, Jazz Dinner has become a popular weekend activity for those looking to unwind and socialize. However, for many, the prospect of attending a Jazz Dinner can feel like a gamble - will you meet new people, or will it be a night of awkward silences and forced conversations? This is where Fanju app comes in, changing the odds in favor of a fun and enjoyable evening out.
 

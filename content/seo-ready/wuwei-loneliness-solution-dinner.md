@@ -4,7 +4,7 @@ canonicalPath: "/city/wuwei/loneliness-solution-dinner"
 alternatePath: "/en/city/wuwei/loneliness-solution-dinner"
 translationKey: "wuwei-loneliness-solution-dinner"
 lang: "zh"
-title: "不想在武威随便拼桌，饭局app怎样让解决孤独饭局变成一个真实决定"
+title: "不想在武威随便拼桌，饭局app怎样让解决孤独饭局变成一个真实决定 | fanju-app"
 titleZh: "不想在武威随便拼桌，饭局app怎样让解决孤独饭局变成一个真实决定"
 description: "在武威，一场饭局能不能让人放松，取决于它是不是真的在“解决孤独”，而不是制造新的压力。很多人第一次听说“解决孤独饭局”时，会以为是找个陌生人一起吃饭，聊聊天，顺便排解寂寞。但作为组织者，我们更清楚：孤独不是因为没人说话，而是因为说不到点上。"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T111336Z"
 ---
 
-# 不想在武威随便拼桌，饭局app怎样让解决孤独饭局变成一个真实决定
+# 不想在武威随便拼桌，饭局app怎样让解决孤独饭局变成一个真实决定 | fanju-app
 
 晚上八点，武威的街道安静下来，路灯一盏接一盏亮起，写字楼的人流已经散去。你坐在工位上，手边是没写完的报表，心里却在盘算：今晚是直接回家煮面，还是再撑一会儿，去某个角落吃顿饭？可一个人吃饭，总像在填补时间，而不是享受时间。在武威，这样的夜晚并不少见——城市不大不小，熟人圈子看得见摸得着，但真正能坐下来聊几句的，却常常缺席。饭局app不是为了制造热闹而存在，它更像一个安静的选项：当你说“不想一个人吃”，它能给你一桌不勉强、有来有往的饭。在武威，这个选择之所以成立，是因为它不从“拉人拼桌”开始，而是从“这桌人能不能安心说话”开始。
 

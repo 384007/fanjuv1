@@ -4,7 +4,7 @@ canonicalPath: "/city/sanmenxia/developer-community-dinner"
 alternatePath: "/en/city/sanmenxia/developer-community-dinner"
 translationKey: "sanmenxia-developer-community-dinner"
 lang: "zh"
-title: "三门峡开发者社区饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "三门峡开发者社区饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "三门峡开发者社区饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "周五傍晚，三门峡的天光还亮着，但多数人已经从办公区撤出。有人赶着回湖滨区接孩子，有人在黄河公园边散步，也有人打开饭局app，看看这周末有没有值得赴的一桌。在这样一座城市，技术交流不像一线城市那样密集到泛滥，反而因为稀缺，大家更在意每一次见面"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 三门峡开发者社区饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 三门峡开发者社区饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 周五傍晚，三门峡的天光还亮着，但多数人已经从办公区撤出。有人赶着回湖滨区接孩子，有人在黄河公园边散步，也有人打开饭局app，看看这周末有没有值得赴的一桌。在这样一座城市，技术交流不像一线城市那样密集到泛滥，反而因为稀缺，大家更在意每一次见面的质量。饭局app不推送海量活动，它只在后台悄悄比对：谁在本地做后端开发超过五年，谁最近在研究分布式系统优化，谁愿意聊职业转型但不想被当成求职现场。筛选从第一条信息就开始了，不是按职位高低，而是看能不能坐下来，说点真实的技术困惑。
 

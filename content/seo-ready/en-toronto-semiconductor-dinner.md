@@ -4,7 +4,7 @@ canonicalPath: "/en/city/toronto/semiconductor-dinner"
 alternatePath: "/city/toronto/semiconductor-dinner"
 translationKey: "toronto-semiconductor-dinner"
 lang: "en"
-title: "What makes Semiconductor Dinner in Toronto worth the risk; Fanju app answers before you arrive"
+title: "What makes Semiconductor Dinner in Toronto worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "The Fanju app redefines small-group dining in Toronto by focusing on intention over algorithm, connecting people through meals that prioritize clarity and comfort."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# What makes Semiconductor Dinner in Toronto worth the risk; Fanju app answers before you arrive
+# What makes Semiconductor Dinner in Toronto worth the risk; Fanju app answers before you arrive | fanju-app
 
 The Fanju app redefines small-group dining in Toronto by focusing on intention over algorithm, connecting people through meals that prioritize clarity and comfort. It’s not about matching profiles or curated bios—it’s about joining a table where the host has already defined the rhythm, limits, and tone. For events like Semiconductor Dinner, where the theme suggests technical depth but the setting demands social ease, Fanju gives newcomers access to real context: who’s hosting, what they value, and how past dinners unfolded. That transparency is what turns hesitation into a confirmed seat.
 

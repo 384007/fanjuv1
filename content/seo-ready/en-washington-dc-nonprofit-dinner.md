@@ -4,7 +4,7 @@ canonicalPath: "/en/city/washington-dc/nonprofit-dinner"
 alternatePath: "/city/washington-dc/nonprofit-dinner"
 translationKey: "washington-dc-nonprofit-dinner"
 lang: "en"
-title: "Washington DC after work: how Fanju app makes Nonprofit Dinner feel like a real room"
+title: "Washington DC after work: how Fanju app makes Nonprofit Dinner feel like a real room | fanju-app"
 description: "After work in Washington DC, the city’s rhythm shifts—commuters peel off Metro platforms, shoulders relax, and the evening’s quieter conversations begin. For those drawn to meaningful connections beyond policy briefings"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Washington DC after work: how Fanju app makes Nonprofit Dinner feel like a real room
+# Washington DC after work: how Fanju app makes Nonprofit Dinner feel like a real room | fanju-app
 
 After work in Washington DC, the city’s rhythm shifts—commuters peel off Metro platforms, shoulders relax, and the evening’s quieter conversations begin. For those drawn to meaningful connections beyond policy briefings or networking events, the Nonprofit Dinner gatherings organized through the Fanju app offer something rarer: a table where purpose and presence meet. In neighborhoods like Columbia Heights, where brick row houses sit above bustling 14th Street storefronts, these dinners unfold not in banquet halls but in modest bistros and neighborhood cafes. The Fanju app doesn’t promise spectacle. Instead, it helps small groups—nonprofit staff, volunteers, grant writers, researchers—find one another and gather in ways that feel intentional, not incidental. It’s not about scaling social impact. It’s about grounding it, one shared meal at a time.
 

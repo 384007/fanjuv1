@@ -4,7 +4,7 @@ canonicalPath: "/en/city/casablanca/martial-arts-dinner"
 alternatePath: "/city/casablanca/martial-arts-dinner"
 translationKey: "casablanca-martial-arts-dinner"
 lang: "en"
-title: "What makes Martial Arts Dinner in Casablanca worth the risk; Fanju app answers before you arrive"
+title: "What makes Martial Arts Dinner in Casablanca worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "Martial Arts Dinner in Casablanca presents a quiet shift from the typical social outings that often blur into generic meetups or forced group chats—especially for women navigating evening plans in a city where public gat"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Martial Arts Dinner in Casablanca worth the risk; Fanju app answers before you arrive
+# What makes Martial Arts Dinner in Casablanca worth the risk; Fanju app answers before you arrive | fanju-app
 
 Martial Arts Dinner in Casablanca presents a quiet shift from the typical social outings that often blur into generic meetups or forced group chats—especially for women navigating evening plans in a city where public gatherings can feel uneven in tone. The Fanju app helps clarify what to expect: not just who’s attending, but how the space is structured, who’s hosting, and whether the vibe aligns with a low-pressure, respectful environment. In a city where dinner invitations can carry unspoken expectations, the app surfaces details that matter—like table size, gender balance, and host history—so you can decide with confidence. It doesn’t promise perfection, but it does offer transparency, which in Casablanca, often makes the difference between discomfort and connection.
 

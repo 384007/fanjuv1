@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/hyderabad/slow-social-dinner"
 alternatePath: "/city/hyderabad/slow-social-dinner"
-title: "Hyderabad after work: how Fanju app makes Slow Social Dinner feel like a real room"
+title: "Hyderabad after work: how Fanju app makes Slow Social Dinner feel like a real room | fanju-app | 饭局app"
 description: "Fanju app helps people in Hyderabad find small, intentional dinners with strangers who aren’t trying to sell anything or impress anyone. It’s not a restaurant booking tool or a dating setup—it’s a way to join dinners lim"
 recoveredFromD1: true
 ---
@@ -31,3 +31,9 @@ recoveredFromD1: true
 <p>Joining a dinner isn’t about collecting experiences. It’s about testing whether a different kind of connection is possible—one not based on utility, networking, or entertainment. The next step isn’t to go to more dinners. It’s to go to one, then reflect on how it felt. Did you leave with new insight? Did you feel seen, even briefly? Or did you sense the host was distracted, or the space too cramped? These observations matter. They help you understand what kind of table you want to sit at, or maybe one day host yourself. Fanju app doesn’t push frequency. It supports intention. You won’t get reminders to “keep your streak” or messages urging you to invite friends. The process stays quiet, almost uneventful.</p>
 <p>That calmness is the point. In a city where social options often demand performance—dressing up, staying late, keeping up with group energy—this is different. You show up, eat, talk if you want, and leave when it feels right. No follow-up is expected. No group chat persists afterward. The memory of the evening stands on its own. If it was good, you might look for another table when the time feels right. Not because you’re supposed to, but because you’re curious. And that curiosity, small and quiet, is how real community begins.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

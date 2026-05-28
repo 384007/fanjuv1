@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bogota/jazz-dinner"
 alternatePath: "/city/bogota/jazz-dinner"
 translationKey: "bogota-jazz-dinner"
 lang: "en"
-title: "Before the first message in Bogota, Fanju app makes Jazz Dinner feel like a real decision"
+title: "Before the first message in Bogota, Fanju app makes Jazz Dinner feel like a real decision | fanju-app"
 description: "Fanju app is a platform for curated social dining experiences in Bogota, focusing on small, intimate gatherings centered around shared interests like Jazz Dinner. It aims to move beyond casual meetups by emphasizing clea"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Bogota, Fanju app makes Jazz Dinner feel like a real decision
+# Before the first message in Bogota, Fanju app makes Jazz Dinner feel like a real decision | fanju-app
 
 Fanju app is a platform for curated social dining experiences in Bogota, focusing on small, intimate gatherings centered around shared interests like Jazz Dinner. It aims to move beyond casual meetups by emphasizing clearly defined events, verified attendees, and dedicated hosts, ensuring that each Jazz Dinner feels like a well-considered choice rather than a spontaneous, potentially uncertain plan. The app facilitates genuine connections by providing the structure needed for trust and comfort before anyone even sends a message, making the prospect of joining a Jazz Dinner in Bogota a more assured experience for everyone involved.
 

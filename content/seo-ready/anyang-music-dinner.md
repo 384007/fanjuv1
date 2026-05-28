@@ -4,7 +4,7 @@ canonicalPath: "/city/anyang/music-dinner"
 alternatePath: "/en/city/anyang/music-dinner"
 translationKey: "anyang-music-dinner"
 lang: "zh"
-title: "在安阳把音乐饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在安阳把音乐饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在安阳把音乐饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "刚来安阳的人，常会觉得这座城安静得有点疏离。殷墟的青铜器陈列在博物馆里，街道上却少有喧哗。人们说话带着豫北的沉稳，不轻易开口，也不轻易赴约。但饭局app上的音乐饭局，恰恰是为这种节奏准备的。它不追求热闹，而是给那些下班后不想独自面对出租屋天"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在安阳把音乐饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在安阳把音乐饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 周五傍晚，安阳的天色沉得早。路灯在文峰中路的骑楼下渐次亮起，街边小馆子的蒸气开始往上冒，有人拎着公文包往公交站走，有人骑电动车拐进家属院的窄巷。这一瞬间，你站在十字路口，既不想立刻回家，又没地方可去。饭局app就在这时候浮现出来——不是那种拉群抢红包的饭局，也不是公司团建的续摊，而是几人围坐、有主题、有主理人、用吃饭做容器的线下连接。在安阳，这样一场音乐饭局，可能比一场演出更能让人听见城市真实的呼吸。
 

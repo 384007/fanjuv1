@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dubai/city-community-dinner"
 alternatePath: "/city/dubai/city-community-dinner"
 translationKey: "dubai-city-community-dinner"
 lang: "en"
-title: "When City Community Dinner feels too loose in Dubai, Fanju app starts with the table"
+title: "When City Community Dinner feels too loose in Dubai, Fanju app starts with the table | fanju-app"
 description: "In Dubai, where social scenes often move fast and feel transactional, the Fanju app offers a quieter alternative: the private-table City Community Dinner. It’s not about filling seats or networking under chandeliers. Ins"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When City Community Dinner feels too loose in Dubai, Fanju app starts with the table
+# When City Community Dinner feels too loose in Dubai, Fanju app starts with the table | fanju-app
 
 In Dubai, where social scenes often move fast and feel transactional, the Fanju app offers a quieter alternative: the private-table City Community Dinner. It’s not about filling seats or networking under chandeliers. Instead, it begins with intention — a reserved table for six, set in a neighborhood bistro or tucked-away courtyard, where conversation matters more than connections. The app doesn’t promote large meetups or open-door gatherings. It supports hosts who want to create something specific — a dinner where guests know why they’re invited and what to expect. For those who’ve scrolled past yet another vague “community” event in Dubai, Fanju redefines what shared meals can be: smaller, clearer, and more human.
 

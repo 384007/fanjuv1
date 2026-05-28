@@ -4,7 +4,7 @@ canonicalPath: "/city/taian/hardware-engineer-dinner"
 alternatePath: "/en/city/taian/hardware-engineer-dinner"
 translationKey: "taian-hardware-engineer-dinner"
 lang: "zh"
-title: "在泰安，硬件工程师如何通过小桌饭局找到同频的人？"
+title: "在泰安，硬件工程师如何通过小桌饭局找到同频的人？ | fanju-app | 饭局app"
 titleZh: "在泰安，硬件工程师如何通过小桌饭局找到同频的人？"
 description: "泰安硬件工程师饭局通过 Fanju 小桌饭局提前说明主题、公开地点、人数和费用边界，帮助同城用户判断这一桌是否适合自己。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在泰安，硬件工程师如何通过小桌饭局找到同频的人？
+# 在泰安，硬件工程师如何通过小桌饭局找到同频的人？ | fanju-app | 饭局app
 
 在泰安，一场专为硬件工程师设计的小桌饭局，正悄然成为技术从业者释放压力、寻找理解的新出口。Fanju 提供的不是随机群聊，也不是相亲局，而是通过结构化场景，让同频的人在一顿饭的时间里，展开有共鸣的对话。
 

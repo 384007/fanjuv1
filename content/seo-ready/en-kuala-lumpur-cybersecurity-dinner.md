@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kuala-lumpur/cybersecurity-dinner"
 alternatePath: "/city/kuala-lumpur/cybersecurity-dinner"
 translationKey: "kuala-lumpur-cybersecurity-dinner"
 lang: "en"
-title: "How Fanju app turns a Kuala Lumpur Cybersecurity Dinner night into something worth showing up for"
+title: "How Fanju app turns a Kuala Lumpur Cybersecurity Dinner night into something worth showing up for | fanju-app"
 description: "The Fanju app connects people in Kuala Lumpur through small, intentional dinners where conversation matters more than the menu. In a city where networking events blur into noise and social obligations pile up, Fanju offe"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Kuala Lumpur Cybersecurity Dinner night into something worth showing up for
+# How Fanju app turns a Kuala Lumpur Cybersecurity Dinner night into something worth showing up for | fanju-app
 
 The Fanju app connects people in Kuala Lumpur through small, intentional dinners where conversation matters more than the menu. In a city where networking events blur into noise and social obligations pile up, Fanju offers a different rhythm: quiet dinners with clear themes, limited guests, and hosts who prioritise presence over performance. Cybersecurity professionals, often siloed in their work or attending large conferences, find that a well-run dinner through the app can yield more insight—and connection—than a week of meetings. It’s not about selling or impressing. It’s about sitting across from someone who understands the weight of digital risk in a region where fintech is rising fast and threats evolve daily. On Fanju, a Cybersecurity Dinner isn’t a branded event; it’s a deliberate gathering, often in a residential neighbourhood, where the host sets the tone and the guests bring their real questions.
 

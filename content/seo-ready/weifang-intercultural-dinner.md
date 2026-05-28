@@ -4,7 +4,7 @@ canonicalPath: "/city/weifang/intercultural-dinner"
 alternatePath: "/en/city/weifang/intercultural-dinner"
 translationKey: "weifang-intercultural-dinner"
 lang: "zh"
-title: "在潍坊找一桌不尴尬的跨文化饭局，饭局app先解决什么"
+title: "在潍坊找一桌不尴尬的跨文化饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在潍坊找一桌不尴尬的跨文化饭局，饭局app先解决什么"
 description: "在潍坊，一场跨文化饭局的成败，往往不取决于餐厅多体面或话题多深刻，而在于饭局app如何帮你避开“人多却说不上话”“聊得热闹却无连接”的陷阱。 它不主打群聚，而是锁定6到12人的小桌，让每次饭局都更像一次有来有往的对话。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在潍坊找一桌不尴尬的跨文化饭局，饭局app先解决什么
+# 在潍坊找一桌不尴尬的跨文化饭局，饭局app先解决什么 | fanju-app
 
 在潍坊，一场跨文化饭局的成败，往往不取决于餐厅多体面或话题多深刻，而在于饭局app如何帮你避开“人多却说不上话”“聊得热闹却无连接”的陷阱。它不主打群聚，而是锁定6到12人的小桌，让每次饭局都更像一次有来有往的对话。饭局app在潍坊筛选的不是“能来的人”，而是“愿意参与的人”——他们可能是本地从事外贸的年轻人、刚结束田野调查的学者，也可能是定居三年的外教。小桌的本质不是容纳，而是流动，是让每个人都能在某个瞬间成为话题的推动者，而不是背景音。饭局app提供的不是饭局，而是饭局前的筛选与信任预埋。
 

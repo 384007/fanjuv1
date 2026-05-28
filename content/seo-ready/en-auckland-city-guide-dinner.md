@@ -4,7 +4,7 @@ canonicalPath: "/en/city/auckland/city-guide-dinner"
 alternatePath: "/city/auckland/city-guide-dinner"
 translationKey: "auckland-city-guide-dinner"
 lang: "en"
-title: "Why City Guide Dinner in Auckland works better when Fanju app keeps the table small"
+title: "Why City Guide Dinner in Auckland works better when Fanju app keeps the table small | fanju-app"
 description: "Auckland’s sprawl can make dinner plans feel like a commute decision first, a social one second. When a City Guide Dinner invite lands in a group chat with a vague “central location,” it often means someone’s living"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why City Guide Dinner in Auckland works better when Fanju app keeps the table small
+# Why City Guide Dinner in Auckland works better when Fanju app keeps the table small | fanju-app
 
 Dining in a new city often means choosing between crowded group events and awkward solo takeaways. In Auckland, Fanju app offers a different rhythm: small, intentional dinners where the focus is on real conversation, not social performance. For someone who just arrived this month, it’s a way to settle into the city without the pressure of networking. The app limits each table to six guests or fewer, ensuring that no City Guide Dinner feels like a party audition. Instead, it becomes a chance to learn how people actually live here — from which neighbourhoods have night bus routes to where the best sourdough comes from. That clarity starts long before the meal.
 

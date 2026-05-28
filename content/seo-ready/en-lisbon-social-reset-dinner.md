@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lisbon/social-reset-dinner"
 alternatePath: "/city/lisbon/social-reset-dinner"
 translationKey: "lisbon-social-reset-dinner"
 lang: "en"
-title: "How Fanju app turns a Lisbon Social Reset Dinner night into something worth showing up for"
+title: "How Fanju app turns a Lisbon Social Reset Dinner night into something worth showing up for | fanju-app"
 description: "It’s not the first dinner that matters most, but the second. The moment someone considers returning to another Social Reset Dinner in Lisbon reveals whether the experience created real ease or just polite interaction."
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Lisbon Social Reset Dinner night into something worth showing up for
+# How Fanju app turns a Lisbon Social Reset Dinner night into something worth showing up for | fanju-app
 
 The Fanju app offers small, intentional dinners in Lisbon that help people reconnect with in-person conversation without performance or pressure. These are not networking events or themed parties, but quiet, real gatherings where showing up as yourself is the only requirement. Hosts use the app to describe not just what they’re serving, but why they’re opening their table—often to counter the quiet isolation that can settle in even in a sunlit city like Lisbon. The dinners happen in apartments, backyards, and courtyards, not restaurants, making them feel grounded in local life. By filtering for clarity and emotional honesty in the invite, Fanju helps guests choose dinners that align with their comfort level, turning a simple meal into a meaningful pause in an otherwise disconnected routine.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dallas/sports-coach-dinner"
 alternatePath: "/city/dallas/sports-coach-dinner"
 translationKey: "dallas-sports-coach-dinner"
 lang: "en"
-title: "In Dallas, Fanju app turns Sports Coach Dinner into a table people can actually trust"
+title: "In Dallas, Fanju app turns Sports Coach Dinner into a table people can actually trust | fanju-app"
 description: "If you're new to the Dallas social scene, you might be thinking that the idea of a dinner with a group of strangers sounds daunting, especially if you're an introvert. However, with the help of the Fanju app, you can now"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Dallas, Fanju app turns Sports Coach Dinner into a table people can actually trust
+# In Dallas, Fanju app turns Sports Coach Dinner into a table people can actually trust | fanju-app
 
 If you're new to the Dallas social scene, you might be thinking that the idea of a dinner with a group of strangers sounds daunting, especially if you're an introvert. However, with the help of the Fanju app, you can now join a Sports Coach Dinner in Dallas with a sense of confidence and trust. The app's unique approach to hosting structured dinners has made it a go-to for those looking for a more intimate and low-key way to connect with like-minded individuals.
 

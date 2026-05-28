@@ -4,7 +4,7 @@ canonicalPath: "/en/city/delhi/hidden-gem-dinner"
 alternatePath: "/city/delhi/hidden-gem-dinner"
 translationKey: "delhi-hidden-gem-dinner"
 lang: "en"
-title: "In Delhi, Fanju app turns Hidden Gem Dinner into a table people can actually trust"
+title: "In Delhi, Fanju app turns Hidden Gem Dinner into a table people can actually trust | fanju-app"
 description: "Delhi hums with plans that never land. You’ve been there—Friday evening, the metro rattles past INA, your phone buzzes with a group chat about dinner, and nothing sticks. Someone suggests a place, no one confirms, and by"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Delhi, Fanju app turns Hidden Gem Dinner into a table people can actually trust
+# In Delhi, Fanju app turns Hidden Gem Dinner into a table people can actually trust | fanju-app
 
 Delhi hums with plans that never land. You’ve been there—Friday evening, the metro rattles past INA, your phone buzzes with a group chat about dinner, and nothing sticks. Someone suggests a place, no one confirms, and by 8:30 PM you’re eating paneer wrap solo at a roadside dhaba near Green Park. Hidden Gem Dinner on the Fanju app changes that. It’s not just another dinner listing. It’s a small table in a city of 20 million, where six people meet because they chose to, not because they were dragged by obligation. The app doesn’t promise viral moments or influencer tables. It offers something rarer: a dinner that actually happens, with people you don’t already know, in a city that often feels too big to connect in.
 

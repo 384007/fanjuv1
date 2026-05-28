@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seoul/pottery-dinner"
 alternatePath: "/city/seoul/pottery-dinner"
 translationKey: "seoul-pottery-dinner"
 lang: "en"
-title: "Seoul after work: how Fanju app makes Pottery Dinner feel like a real room"
+title: "Seoul after work: how Fanju app makes Pottery Dinner feel like a real room | fanju-app"
 description: "In Seoul, where evenings often blur into late-night soju rounds or quiet subway rides home, the idea of a dinner that feels intentional—where strangers share food, conversation, and a moment of stillness—can seem rare. T"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Seoul after work: how Fanju app makes Pottery Dinner feel like a real room
+# Seoul after work: how Fanju app makes Pottery Dinner feel like a real room | fanju-app
 
 In Seoul, where evenings often blur into late-night soju rounds or quiet subway rides home, the idea of a dinner that feels intentional—where strangers share food, conversation, and a moment of stillness—can seem rare. The Fanju app changes that quietly, by design. It doesn’t push notifications or promote events like a nightlife guide. Instead, it offers a way to join or host small, private-table dinners focused on pottery, a craft that demands patience and presence. These gatherings, usually held in tucked-away studios or calm residential neighborhoods like Seongbuk-dong or Ihwa-dong, aren’t about performance. They’re about showing up, shaping clay, and sharing a meal without the pressure of a crowded bar or the formality of a restaurant. Through Fanju, Seoul residents find a space where connection isn’t forced—it’s allowed to form.
 

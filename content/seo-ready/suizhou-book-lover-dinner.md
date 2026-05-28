@@ -4,7 +4,7 @@ canonicalPath: "/city/suizhou/book-lover-dinner"
 alternatePath: "/en/city/suizhou/book-lover-dinner"
 translationKey: "suizhou-book-lover-dinner"
 lang: "zh"
-title: "随州想参加书迷饭局，饭局app把信任感放在饭前"
+title: "随州想参加书迷饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "随州想参加书迷饭局，饭局app把信任感放在饭前"
 description: "在随州，下班后的时间常常在公交站台和出租屋之间无声滑过。很多人手里还攥着未读完的书页，却找不到一个能自然开口讨论情节的角落。饭局app不是活动平台，也不是陌生人社交软件，它更像是一种生活节奏的修正工具——在随州这样的城市里，它让书迷不再需要"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 随州想参加书迷饭局，饭局app把信任感放在饭前
+# 随州想参加书迷饭局，饭局app把信任感放在饭前 | fanju-app
 
 在随州，下班后的时间常常在公交站台和出租屋之间无声滑过。很多人手里还攥着未读完的书页，却找不到一个能自然开口讨论情节的角落。饭局app不是活动平台，也不是陌生人社交软件，它更像是一种生活节奏的修正工具——在随州这样的城市里，它让书迷不再需要独自回家。每一次饭局的发起，都从“能不能说清楚”开始。比起群聊里模糊的接龙、相亲局里强装的笑意，或是动辄上百人的读书市集，饭局app选择把信任感前置：在你出门前，就让你知道这顿饭会是什么样子。
 

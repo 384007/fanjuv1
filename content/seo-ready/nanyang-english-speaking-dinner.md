@@ -4,7 +4,7 @@ canonicalPath: "/city/nanyang/english-speaking-dinner"
 alternatePath: "/en/city/nanyang/english-speaking-dinner"
 translationKey: "nanyang-english-speaking-dinner"
 lang: "zh"
-title: "在南阳找到对的英语饭局，饭局app先把这一桌说清楚"
+title: "在南阳找到对的英语饭局，饭局app先把这一桌说清楚 | fanju-app"
 titleZh: "在南阳找到对的英语饭局，饭局app先把这一桌说清楚"
 description: "南阳的节奏，是伏牛山下缓缓铺开的晨雾，是白河沿岸骑车人踩出的风声，是老城区面馆里一碗热腾腾的板面端上桌时的那句“慢点吃”。 在这座城市，英语饭局不是一场语言考试，也不是速配式社交，而是一次真正坐在本地人对面、听他们讲自己生活的机会。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在南阳找到对的英语饭局，饭局app先把这一桌说清楚
+# 在南阳找到对的英语饭局，饭局app先把这一桌说清楚 | fanju-app
 
 南阳的节奏，是伏牛山下缓缓铺开的晨雾，是白河沿岸骑车人踩出的风声，是老城区面馆里一碗热腾腾的板面端上桌时的那句“慢点吃”。在这座城市，英语饭局不是一场语言考试，也不是速配式社交，而是一次真正坐在本地人对面、听他们讲自己生活的机会。饭局app的存在，正是为了让这样的饭局不被淹没在千篇一律的“语言角”信息流里——它把每一桌饭的细节摊开，让你在报名前就能判断：这一桌，是不是属于南阳真实生活的一角。不是所有聚餐都值得赴约，但那些把地点、人数、话题和主理人背景都说清楚的饭局，往往已经赢在了起点。
 

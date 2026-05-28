@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lima/manufacturing-dinner"
 alternatePath: "/city/lima/manufacturing-dinner"
 translationKey: "lima-manufacturing-dinner"
 lang: "en"
-title: "Before the first message in Lima, Fanju app makes Manufacturing Dinner feel like a real decision"
+title: "Before the first message in Lima, Fanju app makes Manufacturing Dinner feel like a real decision | fanju-app"
 description: "In Lima, where dinner rhythms shift between the hillside calm of Miraflores and the late-night hum of Barranco, choosing who to share a meal with can feel less like hospitality and more like negotiation. The Fanju app do"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Lima, Fanju app makes Manufacturing Dinner feel like a real decision
+# Before the first message in Lima, Fanju app makes Manufacturing Dinner feel like a real decision | fanju-app
 
 In Lima, where dinner rhythms shift between the hillside calm of Miraflores and the late-night hum of Barranco, choosing who to share a meal with can feel less like hospitality and more like negotiation. The Fanju app doesn’t promise connections—it just makes them legible. It frames Manufacturing Dinner not as a social experiment, but as a deliberate pause in the day where who shows up, what they bring, and how long they stay matters. This isn’t about filling seats. It’s about deciding whose presence reshapes the evening.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/zhuzhou/loneliness-solution-dinner"
 alternatePath: "/en/city/zhuzhou/loneliness-solution-dinner"
 translationKey: "zhuzhou-loneliness-solution-dinner"
 lang: "zh"
-title: "株洲的解决孤独饭局不该靠运气，饭局app把主理人和同桌放在最前面"
+title: "株洲的解决孤独饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app"
 titleZh: "株洲的解决孤独饭局不该靠运气，饭局app把主理人和同桌放在最前面"
 description: "在株洲，下班后走出写字楼的人群总带着一种微妙的停顿——有人径直走向公交站，有人拐进巷口的米粉店，也有人站在十字路口犹豫，是回家煮面，还是再走几步找个地方坐下来。 这种空档，正是饭局app试图接住的时刻。 它不是为大型聚会设计的工具，而是围绕小桌吃饭、清晰主题和真实线下连接的组织方式。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 株洲的解决孤独饭局不该靠运气，饭局app把主理人和同桌放在最前面
+# 株洲的解决孤独饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 
 在株洲，下班后走出写字楼的人群总带着一种微妙的停顿——有人径直走向公交站，有人拐进巷口的米粉店，也有人站在十字路口犹豫，是回家煮面，还是再走几步找个地方坐下来。这种空档，正是饭局app试图接住的时刻。它不是为大型聚会设计的工具，而是围绕小桌吃饭、清晰主题和真实线下连接的组织方式。在株洲，饭局app让那些不想独自吃饭的人，能提前看见一桌饭的轮廓：谁在组织，谁会来，聊什么，吃什么。它不承诺热闹，但承诺透明。
 

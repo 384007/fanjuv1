@@ -4,7 +4,7 @@ canonicalPath: "/en/city/mumbai/poetry-dinner"
 alternatePath: "/city/mumbai/poetry-dinner"
 translationKey: "mumbai-poetry-dinner"
 lang: "en"
-title: "What makes Poetry Dinner in Mumbai worth the risk; Fanju app answers before you arrive"
+title: "What makes Poetry Dinner in Mumbai worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "The right location doesn’t mean the most central one. In Mumbai, a Poetry Dinner in Lower Parel might feel like an extension of the office if it’s too close to commercial towers, while one in Juhu could demand a"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Poetry Dinner in Mumbai worth the risk; Fanju app answers before you arrive
+# What makes Poetry Dinner in Mumbai worth the risk; Fanju app answers before you arrive | fanju-app
 
 Poetry Dinner in Mumbai isn’t about grand gestures or curated performances. It’s a dinner where someone reads a poem between bites, not because they’re expected to, but because the room allows it. The Fanju app surfaces these small, real gatherings—tables of six to eight people, often strangers, meeting after work in quiet corners of Bandra, Fort, or Prabhadevi. It’s not a literary event first; it’s a way to stay present in the city without going home to an empty flat. The app doesn’t promise magic, but it does offer clarity: who’s hosting, why they’re doing it, and what kind of evening they expect. That transparency is how a tired professional in Mumbai decides whether to step into a dimly lit apartment kitchen or walk straight to the lift after a long day.
 

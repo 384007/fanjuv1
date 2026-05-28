@@ -4,7 +4,7 @@ canonicalPath: "/en/city/san-diego/ai-products-dinner"
 alternatePath: "/city/san-diego/ai-products-dinner"
 translationKey: "san-diego-ai-products-dinner"
 lang: "en"
-title: "What makes AI Products Dinner in San Diego worth the risk; Fanju app answers before you arrive"
+title: "What makes AI Products Dinner in San Diego worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "In San Diego, where the evening light lingers over Mission Bay and the tech corridor hums with quiet ambition, the idea of gathering around a table to talk about AI products isn’t just networking—it’s a test of intent. T"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes AI Products Dinner in San Diego worth the risk; Fanju app answers before you arrive
+# What makes AI Products Dinner in San Diego worth the risk; Fanju app answers before you arrive | fanju-app
 
 In San Diego, where the evening light lingers over Mission Bay and the tech corridor hums with quiet ambition, the idea of gathering around a table to talk about AI products isn’t just networking—it’s a test of intent. The Fanju app helps filter the real from the performative, giving newcomers a way to preview who’s hosting, what’s on the menu, and whether the conversation will stay grounded in craft or drift into vapor. For professionals from La Jolla’s biotech-adjacent AI labs to downtown’s startup floors, dinner is more than a meal; it’s a curated pause where relationships form not from pitches, but from presence. The best tables here aren’t loud—they’re precise.
 

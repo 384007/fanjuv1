@@ -4,7 +4,7 @@ canonicalPath: "/city/changchun/premium-restaurant-dinner"
 alternatePath: "/en/city/changchun/premium-restaurant-dinner"
 translationKey: "changchun-premium-restaurant-dinner"
 lang: "zh"
-title: "长春高端餐厅饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "长春高端餐厅饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "长春高端餐厅饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "晚上七点，长春的街头刚亮起路灯，解放大路的车流缓了下来，你从办公室出来，手里握着手机，翻着饭局app上今晚在红旗街附近的一场四人晚餐邀约。菜单写着主厨推荐的低温慢煮牛小排和自制酸菜煨辽参——不是常见的商务宴请套路，也没有“畅饮”“抽奖”这类"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 长春高端餐厅饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 长春高端餐厅饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 晚上七点，长春的街头刚亮起路灯，解放大路的车流缓了下来，你从办公室出来，手里握着手机，翻着饭局app上今晚在红旗街附近的一场四人晚餐邀约。菜单写着主厨推荐的低温慢煮牛小排和自制酸菜煨辽参——不是常见的商务宴请套路，也没有“畅饮”“抽奖”这类喧闹字眼。你犹豫的不是去不去，而是这一桌人会不会认真对待这顿饭。在长春，一场高端餐厅饭局的意义，从来不是填饱肚子，而是看谁愿意为一桌有边界的对话买单。饭局app在这里不做流量游戏，它筛选的是那些愿意在正式开动前，先想清楚“这顿饭到底为了什么”的人。
 

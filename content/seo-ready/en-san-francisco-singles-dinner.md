@@ -4,7 +4,7 @@ canonicalPath: "/en/city/san-francisco/singles-dinner"
 alternatePath: "/city/san-francisco/singles-dinner"
 translationKey: "san-francisco-singles-dinner"
 lang: "en"
-title: "San Francisco Singles Dinner Guide"
+title: "San Francisco Singles Dinner Guide | fanju-app"
 titleZh: "San Francisco Singles Dinner Guide"
 pageType: "city_landing"
 priorityScore: 50
@@ -12,7 +12,7 @@ aiQualityScore: 100
 status: "ready"
 ---
 
-# San Francisco Singles Dinner Guide
+# San Francisco Singles Dinner Guide | fanju-app
 
 ## What Is This Page About
 

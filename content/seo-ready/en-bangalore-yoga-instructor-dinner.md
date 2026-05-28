@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangalore/yoga-instructor-dinner"
 alternatePath: "/city/bangalore/yoga-instructor-dinner"
 translationKey: "bangalore-yoga-instructor-dinner"
 lang: "en"
-title: "What makes Yoga Instructor Dinner in Bangalore worth the risk; Fanju app answers before you arrive"
+title: "What makes Yoga Instructor Dinner in Bangalore worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "Dining in Bangalore with strangers is common, but sitting down at a Yoga Instructor Dinner table carries a different set of expectations—one that blends wellness culture, quiet intensity, and the city’s evolving social g"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# What makes Yoga Instructor Dinner in Bangalore worth the risk; Fanju app answers before you arrive
+# What makes Yoga Instructor Dinner in Bangalore worth the risk; Fanju app answers before you arrive | fanju-app
 
 Dining in Bangalore with strangers is common, but sitting down at a Yoga Instructor Dinner table carries a different set of expectations—one that blends wellness culture, quiet intensity, and the city’s evolving social grammar. The real question isn’t whether such dinners exist, but whether they offer meaningful connection or just another curated experience. The Fanju app helps clarify that before you commit, filtering through tone, location, and host history in a city where Koramangala’s shared kitchens and Indiranagar’s late-night cafés already blur the line between community and commerce. In Bangalore, where weekend plans shift with the weather and the metro schedule, the right dinner isn’t just about food—it’s about rhythm, repetition, and whether the host has earned the room’s attention.
 

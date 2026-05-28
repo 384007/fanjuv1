@@ -4,7 +4,7 @@ canonicalPath: "/en/city/riyadh/ecommerce-dinner"
 alternatePath: "/city/riyadh/ecommerce-dinner"
 translationKey: "riyadh-ecommerce-dinner"
 lang: "en"
-title: "How Fanju app turns a Riyadh Ecommerce Dinner night into something worth showing up for"
+title: "How Fanju app turns a Riyadh Ecommerce Dinner night into something worth showing up for | fanju-app"
 description: "Most social events in Riyadh start with a vague theme and a loose crowd, leaving newcomers guessing whether they’ll fit in or even recognize anyone. Ecommerce Dinner on Fanju app avoids that by requiring hosts to define"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Riyadh Ecommerce Dinner night into something worth showing up for
+# How Fanju app turns a Riyadh Ecommerce Dinner night into something worth showing up for | fanju-app
 
 Fanju app helps newcomers in Riyadh find small, intentional dinners that go beyond the usual networking or tourist traps. It’s not about flashy events or crowded meetups — it’s for people who want real conversation over food, especially when you’re still learning the city’s rhythm. For someone who’s recently moved to Riyadh and is navigating expat circles, corporate dinners, or weekend mall visits, the app offers a quieter way in: curated Ecommerce Dinner gatherings where the guest list is small, the host is known, and the purpose is connection, not performance. Through Fanju, these dinners become less about what’s on the plate and more about who’s around the table — a subtle but meaningful difference for someone looking to belong.
 

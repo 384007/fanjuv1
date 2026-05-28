@@ -4,7 +4,7 @@ canonicalPath: "/city/xining/bilingual-dinner"
 alternatePath: "/en/city/xining/bilingual-dinner"
 translationKey: "xining-bilingual-dinner"
 lang: "zh"
-title: "西宁的双语饭局不该靠运气，饭局app把主理人和同桌放在最前面"
+title: "西宁的双语饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app"
 titleZh: "西宁的双语饭局不该靠运气，饭局app把主理人和同桌放在最前面"
 description: "在西宁，尤其是在这座城市日渐国际化的背景下，如何找到一个既能品味当地特色，又能进行顺畅交流的社交场合，成了一个值得探讨的话题。饭局app的出现，似乎为解决这个问题提供了一种新的思路。它不只是一个简单的活动发布平台，更像是一个精心设计的连接器"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 西宁的双语饭局不该靠运气，饭局app把主理人和同桌放在最前面
+# 西宁的双语饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 
 在西宁，尤其是在这座城市日渐国际化的背景下，如何找到一个既能品味当地特色，又能进行顺畅交流的社交场合，成了一个值得探讨的话题。饭局app的出现，似乎为解决这个问题提供了一种新的思路。它不只是一个简单的活动发布平台，更像是一个精心设计的连接器，尤其对于那些希望在西宁组织一场有深度、有温度的双语饭局的主理人来说，饭局app将主理人和潜在的同桌参与者放在了最前面，让一场饭局的成功，不再仅仅依赖于偶然的运气。
 

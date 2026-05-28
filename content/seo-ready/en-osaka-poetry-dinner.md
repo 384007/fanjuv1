@@ -4,7 +4,7 @@ canonicalPath: "/en/city/osaka/poetry-dinner"
 alternatePath: "/city/osaka/poetry-dinner"
 translationKey: "osaka-poetry-dinner"
 lang: "en"
-title: "Osaka does not need another vague invite; Fanju app makes Poetry Dinner specific"
+title: "Osaka does not need another vague invite; Fanju app makes Poetry Dinner specific | fanju-app"
 description: "Accepting a second Poetry Dinner invite in Osaka can feel like a step toward belonging, but only if the first night didn’t blur into polite small talk."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Osaka does not need another vague invite; Fanju app makes Poetry Dinner specific
+# Osaka does not need another vague invite; Fanju app makes Poetry Dinner specific | fanju-app
 
 The Fanju app is not another social platform chasing likes or connections—it’s a quiet tool for real evenings in Osaka, where the Poetry Dinner table is described before you commit. In a city where dinner can mean anything from a conveyor-belt bite to a multicourse kaiseki, this specificity matters. An Osaka Poetry Dinner on Fanju is not a performance or a party; it's a small table, set for no more than six, where conversation begins with a poem and stays grounded in the present. Hosts share their name, their neighborhood, and a line or two about what the evening might touch on—loss, memory, the rhythm of train commutes. You decide whether that table fits your mood. There’s no pressure to join, no promise of lifelong friends, just a chance to sit across from someone who lives here and hears the city differently.
 

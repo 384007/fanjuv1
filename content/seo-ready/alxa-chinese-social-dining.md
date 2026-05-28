@@ -4,7 +4,7 @@ canonicalPath: "/city/alxa/chinese-social-dining"
 alternatePath: "/en/city/alxa/chinese-social-dining"
 translationKey: "alxa-chinese-social-dining"
 lang: "zh"
-title: "阿拉善的一顿华人饭局，饭局app为什么先看人再看热闹"
+title: "阿拉善的一顿华人饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "阿拉善的一顿华人饭局，饭局app为什么先看人再看热闹"
 description: "在阿拉善，一顿饭的节奏常常比城市本身还慢。清晨的巴彦浩特街边，烧饼摊刚支起炉子，远处戈壁的轮廓还在晨雾里模糊着。这里没有地铁报站声，也没有写字楼电梯前的沉默排队，人们习惯用眼神和点头打招呼。饭局app不是为热闹而生的工具，它更像是在这片辽阔"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 阿拉善的一顿华人饭局，饭局app为什么先看人再看热闹
+# 阿拉善的一顿华人饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 在阿拉善，一顿饭的节奏常常比城市本身还慢。清晨的巴彦浩特街边，烧饼摊刚支起炉子，远处戈壁的轮廓还在晨雾里模糊着。这里没有地铁报站声，也没有写字楼电梯前的沉默排队，人们习惯用眼神和点头打招呼。饭局app不是为热闹而生的工具，它更像是在这片辽阔中帮人找到一张合适饭桌的向导——一张有明确主题、人数可控、主理人清晰的小桌。在阿拉善，饭局app的意义不在于“拉人拼饭”，而在于“对的人在对的时间坐下来”。这里的饭局，往往从一次克制的自我介绍开始，而不是喧哗的敬酒。
 

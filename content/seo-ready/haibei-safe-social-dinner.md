@@ -4,7 +4,7 @@ canonicalPath: "/city/haibei/safe-social-dinner"
 alternatePath: "/en/city/haibei/safe-social-dinner"
 translationKey: "haibei-safe-social-dinner"
 lang: "zh"
-title: "在海北把安全社交饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在海北把安全社交饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在海北把安全社交饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "海北的街头巷尾，总有各种形式的聚会，但并非所有都能称得上是“安全社交饭局”。 真正的安全社交饭局，在于它能清晰界定同桌人的构成和饭局的主题。"
 primaryKeyword: "海北安全社交饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T200005Z"
 ---
 
-# 在海北把安全社交饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在海北把安全社交饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 在海北，当街区饭点儿的烟火气升腾，约上一群不熟悉的人围坐一桌吃饭，这背后总有些不确定性。尤其对于希望在饭桌上获得轻松、真诚交流的女性来说，如何判断这一桌是否“安全”且“合适”，是报名之前最关心的问题。饭局app，作为一个专注于小桌、清晰主题和线下连接的社交工具，正是为了降低这种不确定性而存在，它让在海北期待一次有质量的社交饭局成为可能，尤其是在那些需要先说清楚预期的一桌饭场景下。
 

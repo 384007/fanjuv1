@@ -4,7 +4,7 @@ canonicalPath: "/en/city/houston/pop-up-dinner"
 alternatePath: "/city/houston/pop-up-dinner"
 translationKey: "houston-pop-up-dinner"
 lang: "en"
-title: "Houston after work: how Fanju app makes Pop Up Dinner feel like a real room"
+title: "Houston after work: how Fanju app makes Pop Up Dinner feel like a real room | fanju-app"
 description: "After work in Houston, the city stretches quiet between office towers and bungalow neighborhoods, and for someone new, the silence can feel large. You’ve unpacked boxes, signed up for gym trials, maybe even tried a happy"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Houston after work: how Fanju app makes Pop Up Dinner feel like a real room
+# Houston after work: how Fanju app makes Pop Up Dinner feel like a real room | fanju-app
 
 After work in Houston, the city stretches quiet between office towers and bungalow neighborhoods, and for someone new, the silence can feel large. You’ve unpacked boxes, signed up for gym trials, maybe even tried a happy hour or two, but none of it sticks like a shared meal might. That’s where Fanju app steps in—not with noise, but with alignment. It connects people to real tables, not events, where conversation starts before introductions end. Pop Up Dinner in Houston, through Fanju, isn’t about spectacle. It’s about finding one table where you’re not explaining why you moved here, but instead, realizing you’ve already started belonging.  
 

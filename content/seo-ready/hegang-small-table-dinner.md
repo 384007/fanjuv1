@@ -4,7 +4,7 @@ canonicalPath: "/city/hegang/small-table-dinner"
 alternatePath: "/en/city/hegang/small-table-dinner"
 translationKey: "hegang-small-table-dinner"
 lang: "zh"
-title: "鹤岗小桌饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "鹤岗小桌饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "鹤岗小桌饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "在鹤岗，一场饭局的意义不在于热闹，而在于是否真的有人听懂了你的话。过去几年，饭局app悄悄改变了本地人对“社交”的理解——它不推送热闹的酒局，也不主打陌生人破冰游戏，而是让愿意认真吃饭的人，先在信息里彼此确认意图。鹤岗的街巷安静，人与人之间"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 鹤岗小桌饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 鹤岗小桌饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 在鹤岗，一场饭局的意义不在于热闹，而在于是否真的有人听懂了你的话。过去几年，饭局app悄悄改变了本地人对“社交”的理解——它不推送热闹的酒局，也不主打陌生人破冰游戏，而是让愿意认真吃饭的人，先在信息里彼此确认意图。鹤岗的街巷安静，人与人之间的距离却并不近。正因如此，饭局app在这里更像一个筛选器：它不急于把人凑成一桌，而是先问清这一顿饭为什么值得吃，同桌的人为什么值得认识。饭局app的存在，不是为了多办几场活动，而是让每一场小桌饭局都更接近一次真实对话的可能。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/athens/researcher-dinner"
 alternatePath: "/city/athens/researcher-dinner"
 translationKey: "athens-researcher-dinner"
 lang: "en"
-title: "In Athens, Fanju app turns Researcher Dinner into a table people can actually trust"
+title: "In Athens, Fanju app turns Researcher Dinner into a table people can actually trust | fanju-app"
 description: "In Athens, where conversations about food often circle back to authenticity, the Researcher Dinner has quietly become a way for people to explore what’s genuinely local—not just what’s promoted. But with informal dinners"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Athens, Fanju app turns Researcher Dinner into a table people can actually trust
+# In Athens, Fanju app turns Researcher Dinner into a table people can actually trust | fanju-app
 
 In Athens, where conversations about food often circle back to authenticity, the Researcher Dinner has quietly become a way for people to explore what’s genuinely local—not just what’s promoted. But with informal dinners scattered across neighborhoods like Exarcheia, Pangrati, and Kypseli, it’s hard to know which invitation leads to a meaningful meal and which fades into silence. The Fanju app has changed that. By anchoring dinners to verified hosts, consistent locations, and transparent food narratives, Fanju gives structure to what used to be a loose network of academic curiosity and culinary experimentation. It doesn’t promise gourmet experiences. It promises clarity: who’s cooking, what’s being served, and why it matters in the context of Athens’ evolving food culture.
 

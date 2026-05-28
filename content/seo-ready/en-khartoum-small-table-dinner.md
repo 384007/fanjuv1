@@ -4,7 +4,7 @@ canonicalPath: "/en/city/khartoum/small-table-dinner"
 alternatePath: "/city/khartoum/small-table-dinner"
 translationKey: "khartoum-small-table-dinner"
 lang: "en"
-title: "Why Small Table Dinner in Khartoum works better when Fanju app keeps the table small"
+title: "Why Small Table Dinner in Khartoum works better when Fanju app keeps the table small | fanju-app"
 description: "For newcomers to Khartoum, the idea of an authentic local connection often circles back to shared meals. But the challenge of finding that genuine interaction, especially in a new city, can feel daunting. The Fanju app o"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Small Table Dinner in Khartoum works better when Fanju app keeps the table small
+# Why Small Table Dinner in Khartoum works better when Fanju app keeps the table small | fanju-app
 
 For newcomers to Khartoum, the idea of an authentic local connection often circles back to shared meals. But the challenge of finding that genuine interaction, especially in a new city, can feel daunting. The Fanju app offers a structured approach to this, particularly for "Small Table Dinner" events, by ensuring the guest list remains intimate and focused. This focus is crucial for fostering meaningful conversations and genuine connections, moving beyond the superficial networking that can sometimes plague new city experiences.
 

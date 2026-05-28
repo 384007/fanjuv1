@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ho-chi-minh-city/book-club-dinner"
 alternatePath: "/city/ho-chi-minh-city/book-club-dinner"
 translationKey: "ho-chi-minh-city-book-club-dinner"
 lang: "en"
-title: "Ho Chi Minh City after work: how Fanju app makes Book Club Dinner feel like a real room"
+title: "Ho Chi Minh City after work: how Fanju app makes Book Club Dinner feel like a real room | fanju-app"
 description: "In Ho Chi Minh City, where evenings often dissolve into last-minute coffee meetups or solo pho at a street stall, the idea of joining a structured social event can feel unnatural. The Fanju app changes that by anchoring"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Ho Chi Minh City after work: how Fanju app makes Book Club Dinner feel like a real room
+# Ho Chi Minh City after work: how Fanju app makes Book Club Dinner feel like a real room | fanju-app
 
 In Ho Chi Minh City, where evenings often dissolve into last-minute coffee meetups or solo pho at a street stall, the idea of joining a structured social event can feel unnatural. The Fanju app changes that by anchoring connections to real dinners centered around books, hosted by locals who open their tables with intention. It’s not another networking mixer or tourist-facing cultural tour—it’s a deliberate pause in the city’s rush, where conversation grows from shared reading, not forced icebreakers. Hosts in District 3, Binh Thanh, and beyond set tables where newcomers aren’t background noise. The app quietly handles the logistics so the dinner can feel spontaneous, even though it’s been thoughtfully arranged. This isn’t about performing local life—it’s about stepping into it.
 

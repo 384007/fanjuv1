@@ -4,7 +4,7 @@ canonicalPath: "/en/city/zurich/productivity-dinner"
 alternatePath: "/city/zurich/productivity-dinner"
 translationKey: "zurich-productivity-dinner"
 lang: "en"
-title: "Zurich has plenty of Productivity Dinner options; Fanju app is the one that names the table first"
+title: "Zurich has plenty of Productivity Dinner options; Fanju app is the one that names the table first | fanju-app"
 description: "In Zurich, finding people to share a meaningful dinner with can feel like searching for a quiet corner in a busy Bahnhofstrasse café. The city thrives on precision and privacy, but beneath the polished surface, there’s a"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Zurich has plenty of Productivity Dinner options; Fanju app is the one that names the table first
+# Zurich has plenty of Productivity Dinner options; Fanju app is the one that names the table first | fanju-app
 
 In Zurich, finding people to share a meaningful dinner with can feel like searching for a quiet corner in a busy Bahnhofstrasse café. The city thrives on precision and privacy, but beneath the polished surface, there’s a steady appetite for connection that doesn’t rely on status or industry. The Fanju app meets that need by focusing not on volume, but on clarity — specifically, the clarity of knowing what kind of table you're joining before you say yes. Productivity Dinner in Zurich isn’t about networking or pitch sessions. It’s about building the smallest unit of community: a shared meal where the rhythm of conversation feels earned, not rushed. Through repeat tables and carefully hosted gatherings, Fanju helps turn strangers into familiar faces, one dinner at a time.
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/fuzhou-jiangxi/rowing-dinner"
 alternatePath: "/en/city/fuzhou-jiangxi/rowing-dinner"
 translationKey: "fuzhou-jiangxi-rowing-dinner"
 lang: "zh"
-title: "抚州赛艇饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "抚州赛艇饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "抚州赛艇饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "在抚州，饭局app不是用来拼桌的工具，而是筛选出能坐得下来的那几个人。很多人以为饭局是吃饭，其实它是关于谁愿意在同一张桌边停下脚步，听别人说点真实的话。抚州的节奏不快，但也不允许敷衍。在这座城市里，一场饭局能不能成立，往往不取决于餐厅多体面"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 抚州赛艇饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 抚州赛艇饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 在抚州，饭局app不是用来拼桌的工具，而是筛选出能坐得下来的那几个人。很多人以为饭局是吃饭，其实它是关于谁愿意在同一张桌边停下脚步，听别人说点真实的话。抚州的节奏不快，但也不允许敷衍。在这座城市里，一场饭局能不能成立，往往不取决于餐厅多体面，而在于发起人有没有把“这桌饭为什么存在”说清楚。饭局app在这里的作用，不是推送热门餐厅，而是帮助主理人把边界划出来——谁可以来，谁可能坐得别扭，话题能不能展开。边界清楚了，信任才有空间生长。
 

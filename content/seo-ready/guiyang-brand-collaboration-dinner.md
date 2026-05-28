@@ -4,7 +4,7 @@ canonicalPath: "/city/guiyang/brand-collaboration-dinner"
 alternatePath: "/en/city/guiyang/brand-collaboration-dinner"
 translationKey: "guiyang-brand-collaboration-dinner"
 lang: "zh"
-title: "贵阳不想只靠群聊时，饭局app怎样把品牌合作饭局坐成一桌"
+title: "贵阳不想只靠群聊时，饭局app怎样把品牌合作饭局坐成一桌 | fanju-app"
 titleZh: "贵阳不想只靠群聊时，饭局app怎样把品牌合作饭局坐成一桌"
 description: "一个人来到贵阳，尤其是抱着参加品牌合作饭局的目的，首要考虑的不是食物有多美味，也不是能认识多少人，而是这顿饭的“预期”是否清晰。 所谓预期，就是这顿饭到底是为了什么而设？ 是品牌方希望找到新的合作伙伴，还是某个行业内的资深人士想分享经验？"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 贵阳不想只靠群聊时，饭局app怎样把品牌合作饭局坐成一桌
+# 贵阳不想只靠群聊时，饭局app怎样把品牌合作饭局坐成一桌 | fanju-app
 
 当你独自来到贵阳，这座以山水和烟火气著称的城市，除了在街头巷尾寻找那些藏在巷子里的酸汤鱼和丝娃娃，或许也想在行程中找到一些更深层次的连接。这时，饭局app（Fanju）提供的品牌合作饭局，就成了一个值得考虑的选项。它不是一个简单的聚会，而是一个围绕清晰主题、小桌用餐和线下深入交流的社交平台，旨在帮助人们在陌生的城市也能找到同频共振的伙伴。尤其是在贵阳这样一个人情味浓厚的地方，一场精心策划的品牌合作饭局，能让你在短时间内，以一种更直接、更舒适的方式，了解这座城市潜在的商业脉络和人文温度，而不是仅仅停留在社交媒体的浅层互动。
 

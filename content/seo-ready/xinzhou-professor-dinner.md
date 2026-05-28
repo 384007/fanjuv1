@@ -4,7 +4,7 @@ canonicalPath: "/city/xinzhou/professor-dinner"
 alternatePath: "/en/city/xinzhou/professor-dinner"
 translationKey: "xinzhou-professor-dinner"
 lang: "zh"
-title: "在忻州找到对的教授饭局，饭局app先把这一桌说清楚"
+title: "在忻州找到对的教授饭局，饭局app先把这一桌说清楚 | fanju-app"
 titleZh: "在忻州找到对的教授饭局，饭局app先把这一桌说清楚"
 description: "在忻州的微信群里，一句“有人来吗”往往就是饭局的全部信息。 时间、地点、主题、同桌是谁，全靠后续零星补充。 等到人坐齐了才发现，有人以为是学术交流，有人当成校友聚会，还有人只是来蹭顿饭。"
 primaryKeyword: "忻州教授饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
 ---
 
-# 在忻州找到对的教授饭局，饭局app先把这一桌说清楚
+# 在忻州找到对的教授饭局，饭局app先把这一桌说清楚 | fanju-app
 
 在忻州，下班后一个人坐在餐厅角落等饭局开始的前十分钟，最容易想起的不是饿，而是“我来这干什么”。手机屏幕暗下去，邻桌的谈笑还没接入耳膜，你甚至开始怀疑这场“有人来吗”式的邀约是否值得提前半小时离开办公室。饭局app不是为热闹而生的，它存在的意义，是让忻州教授饭局这件事，从一句模糊的群聊接龙，变成一桌有名字、有主题、有节奏的见面。它不承诺改变人生，但能减少你面对陌生人餐桌时的错位感——尤其是在这座节奏缓慢、人情温吞却又格外看重“熟人介绍”的城市里，一次清楚的小桌饭局，比十次泛泛的聚餐更接近真实连接。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/phoenix/small-table-dinner"
 alternatePath: "/city/phoenix/small-table-dinner"
 translationKey: "phoenix-small-table-dinner"
 lang: "en"
-title: "In Phoenix, Fanju app turns Small Table Dinner into a table people can actually trust"
+title: "In Phoenix, Fanju app turns Small Table Dinner into a table people can actually trust | fanju-app"
 description: "On a Saturday evening in central Phoenix, the desert light fades behind the city’s low skyline, and a solo traveler scrolling through the Fanju app finds something unexpected: a table for four at a quiet Vietnamese spot"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Phoenix, Fanju app turns Small Table Dinner into a table people can actually trust
+# In Phoenix, Fanju app turns Small Table Dinner into a table people can actually trust | fanju-app
 
 On a Saturday evening in central Phoenix, the desert light fades behind the city’s low skyline, and a solo traveler scrolling through the Fanju app finds something unexpected: a table for four at a quiet Vietnamese spot in Roosevelt Row, hosted by a local architect who cooks phở on weekends. The listing includes cooking notes, seating details, and a photo of the host’s dining nook—no vague promises, just clarity. That’s what Small Table Dinner means through Fanju in Phoenix: not a group chat with open invites, but a named table with real people, real food, and real boundaries. For someone passing through alone, this isn’t just dinner—it’s a chance to sit somewhere without performance, with the option to engage or observe. The app surfaces not just events, but evening-shaped openings in the city’s rhythm.
 

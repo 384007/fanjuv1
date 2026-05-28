@@ -4,7 +4,7 @@ canonicalPath: "/en/city/khartoum/solopreneur-dinner"
 alternatePath: "/city/khartoum/solopreneur-dinner"
 translationKey: "khartoum-solopreneur-dinner"
 lang: "en"
-title: "A Khartoum dinner table for Solopreneur Dinner, with Fanju app boundaries up front"
+title: "A Khartoum dinner table for Solopreneur Dinner, with Fanju app boundaries up front | fanju-app"
 description: "This is not a dating guarantee, not a random group chat, not an endless profile feed. In Khartoum, that means choosing a table not just by interest, but by how clearly the host describes the venue, timing, and guest mix."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# A Khartoum dinner table for Solopreneur Dinner, with Fanju app boundaries up front
+# A Khartoum dinner table for Solopreneur Dinner, with Fanju app boundaries up front | fanju-app
 
 Khartoum Solopreneur Dinner through the Fanju app offers a chance to share a meal with others building something on their own—freelancers, side-hustlers, founders with early-stage ideas—without the noise of a networking event. This is not a dating guarantee, not a random group chat, not an endless profile feed. Fanju, also known in Chinese as “饭局 / 饭局app / Fanju饭局”, is a social dining app designed for small-table dinners where the theme guides the conversation. In Khartoum, that means choosing a table not just by interest, but by how clearly the host describes the venue, timing, and guest mix. It’s offline dinner social with practical constraints: crossing neighbourhoods after sunset, needing clarity on cost, and knowing when it’s okay to leave without offense. The app’s role is to make those details visible before you commit.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vancouver/fashion-lover-dinner"
 alternatePath: "/city/vancouver/fashion-lover-dinner"
 translationKey: "vancouver-fashion-lover-dinner"
 lang: "en"
-title: "Fashion Lover Dinner in Vancouver should not feel like a gamble; Fanju app changes the odds"
+title: "Fashion Lover Dinner in Vancouver should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "Dining in Vancouver as a fashion enthusiast shouldn’t mean taking a social risk every time you accept an invite. The city’s creative energy draws people who care about aesthetics, self-expression, and thoughtful gatherin"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Fashion Lover Dinner in Vancouver should not feel like a gamble; Fanju app changes the odds
+# Fashion Lover Dinner in Vancouver should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 Dining in Vancouver as a fashion enthusiast shouldn’t mean taking a social risk every time you accept an invite. The city’s creative energy draws people who care about aesthetics, self-expression, and thoughtful gatherings, yet too many fashion-themed dinners end up feeling like awkward meetups with strangers who only share a vague interest in clothes. The Fanju app is changing that by helping people find not just any dinner, but the *right* dinner—one where conversation flows, personal styles align, and connections last beyond dessert. It's not about filling seats; it's about shaping small, repeatable communities around shared tastes and mutual respect.
 

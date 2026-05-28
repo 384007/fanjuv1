@@ -4,7 +4,7 @@ canonicalPath: "/city/yushu-qinghai/dinner-buddy"
 alternatePath: "/en/city/yushu-qinghai/dinner-buddy"
 translationKey: "yushu-qinghai-dinner-buddy"
 lang: "zh"
-title: "青海玉树饭搭子｜高原节奏里的同城饭局 - Fanju 饭局app"
+title: "青海玉树饭搭子｜高原节奏里的同城饭局 - Fanju 饭局app | fanju-app"
 titleZh: "青海玉树饭搭子｜高原节奏里的同城饭局 - Fanju 饭局app"
 description: "Fanju 青海玉树饭搭子页面适合想在晚饭、周末和公共餐厅里认识同频的人。小桌饭局提前说明地点、天气、费用和人数边界，避免随机约饭的不确定。"
 primaryKeyword: "青海玉树饭搭子"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
 ---
 
-# 青海玉树找饭搭子，Fanju 饭局app先把距离和边界说清楚
+# 青海玉树找饭搭子，Fanju 饭局app先把距离和边界说清楚 | fanju-app
 
 青海玉树饭搭子页面写给想在晚饭或周末找人一起吃饭的人。Fanju 通过小桌饭局把公开地点、人数、费用和主题提前说明，让一顿饭成为认识同频的人的入口，而不是随机群聊或带压力的相亲局。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/cairo/bilingual-dinner"
 alternatePath: "/city/cairo/bilingual-dinner"
 translationKey: "cairo-bilingual-dinner"
 lang: "en"
-title: "In Cairo, Fanju app turns Bilingual Dinner into a table people can actually trust"
+title: "In Cairo, Fanju app turns Bilingual Dinner into a table people can actually trust | fanju-app"
 description: "For newcomers to Cairo, or even long-time residents looking to expand their social circles beyond the usual spots, the idea of a \"Bilingual Dinner\" can sound appealing, yet also a little daunting. The Fanju app aims to d"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Cairo, Fanju app turns Bilingual Dinner into a table people can actually trust
+# In Cairo, Fanju app turns Bilingual Dinner into a table people can actually trust | fanju-app
 
 For newcomers to Cairo, or even long-time residents looking to expand their social circles beyond the usual spots, the idea of a "Bilingual Dinner" can sound appealing, yet also a little daunting. The Fanju app aims to demystify this by providing a platform for small, curated dining experiences where language barriers become bridges. It’s about finding a table that feels right, where conversation flows naturally and connections can genuinely form, rather than feeling like an obligation. This guide, from the perspective of someone who enjoys hosting these gatherings, explores how the Fanju app facilitates these real-world encounters, making the decision to join a weekend or after-hours dinner a confident one, even if you're unsure about your first step into this kind of social dining.
 

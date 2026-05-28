@@ -4,7 +4,7 @@ canonicalPath: "/en/city/miami/chess-dinner"
 alternatePath: "/city/miami/chess-dinner"
 translationKey: "miami-chess-dinner"
 lang: "en"
-title: "A calmer way to approach Chess Dinner in Miami through Fanju app"
+title: "A calmer way to approach Chess Dinner in Miami through Fanju app | fanju-app"
 description: "Miami's vibrant dining scene often overshadows its quieter, more intimate alternatives. Chess Dinner, a unique concept that combines socializing with a leisurely meal, often gets lost in the noise. However, it's"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach Chess Dinner in Miami through Fanju app
+# A calmer way to approach Chess Dinner in Miami through Fanju app | fanju-app
 
 As a newcomer to Miami, navigating the city's social scene can be daunting. You've heard of Fanju app, a platform that connects people over small, home-cooked meals. But what does that mean in practice? In a city where everyone seems to be in a hurry, finding a genuine connection can feel like an impossible task.
 

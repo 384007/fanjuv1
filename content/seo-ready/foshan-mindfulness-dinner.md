@@ -4,7 +4,7 @@ canonicalPath: "/city/foshan/mindfulness-dinner"
 alternatePath: "/en/city/foshan/mindfulness-dinner"
 translationKey: "foshan-mindfulness-dinner"
 lang: "zh"
-title: "佛山的正念饭局饭局为什么值得去，饭局app在报名前就给了答案"
+title: "佛山的正念饭局饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
 titleZh: "佛山的正念饭局饭局为什么值得去，饭局app在报名前就给了答案"
 description: "天色刚暗，你在佛山祖庙地铁口站定，背包还背着，导航刚关。你不是本地人，也没有朋友在这座城等你。酒店订好了，但你不想现在就进去，把这一晚过成标准流程。你打开饭局app，不是在找餐厅，而是在看今晚有没有人愿意和你一起吃顿不赶时间的饭。饭局app"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 佛山的正念饭局饭局为什么值得去，饭局app在报名前就给了答案
+# 佛山的正念饭局饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
 天色刚暗，你在佛山祖庙地铁口站定，背包还背着，导航刚关。你不是本地人，也没有朋友在这座城等你。酒店订好了，但你不想现在就进去，把这一晚过成标准流程。你打开饭局app，不是在找餐厅，而是在看今晚有没有人愿意和你一起吃顿不赶时间的饭。饭局app里，一桌在岭南天地附近小馆子的正念饭局还剩一个空位，主理人叫阿哲，备注写着：“刚结束一场陶艺工作坊，想聊聊手作和安静的对话。”你犹豫了一下，报了名。
 

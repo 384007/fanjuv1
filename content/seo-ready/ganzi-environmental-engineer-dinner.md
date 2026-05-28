@@ -4,7 +4,7 @@ canonicalPath: "/city/ganzi/environmental-engineer-dinner"
 alternatePath: "/en/city/ganzi/environmental-engineer-dinner"
 translationKey: "ganzi-environmental-engineer-dinner"
 lang: "zh"
-title: "甘孜不想只靠群聊时，饭局app怎样把环境工程师饭局坐成一桌"
+title: "甘孜不想只靠群聊时，饭局app怎样把环境工程师饭局坐成一桌 | fanju-app"
 titleZh: "甘孜不想只靠群聊时，饭局app怎样把环境工程师饭局坐成一桌"
 description: "在甘孜，一条“有人来吃饭吗？”的群聊消息，往往发出去就沉了底。高原的周末来得慢，走得也慢，环境工程师们常在项目点、监测站和县城之间来回穿梭，周末成了唯一能喘口气的时间。饭局app不是本地生活工具，也不是点餐软件，它是让甘孜的环境工程师们，从"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 甘孜不想只靠群聊时，饭局app怎样把环境工程师饭局坐成一桌
+# 甘孜不想只靠群聊时，饭局app怎样把环境工程师饭局坐成一桌 | fanju-app
 
 在甘孜，一条“有人来吃饭吗？”的群聊消息，往往发出去就沉了底。高原的周末来得慢，走得也慢，环境工程师们常在项目点、监测站和县城之间来回穿梭，周末成了唯一能喘口气的时间。饭局app不是本地生活工具，也不是点餐软件，它是让甘孜的环境工程师们，从“有没有人一起吃饭”变成“这顿饭值得我专门跑一趟”的东西。它不解决吃饭本身，而是解决“饭的意义”。在甘孜，一顿饭要承载的，不只是热量，还有专业上的共鸣、孤独感的缓解，以及对这片土地工作价值的重新确认。饭局app的存在，是让这些饭局不再随机、不再草率，而是有准备、有温度、有延续性的相聚。
 

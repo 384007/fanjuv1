@@ -4,7 +4,7 @@ canonicalPath: "/city/fushun/dog-owner-dinner"
 alternatePath: "/en/city/fushun/dog-owner-dinner"
 translationKey: "fushun-dog-owner-dinner"
 lang: "zh"
-title: "抚顺狗主人饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "抚顺狗主人饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "抚顺狗主人饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "抚顺的狗主人饭局活动并不少，但很多报名信息只写着“一起吃饭聊狗”，没有具体时间、地点或人数限制。 这样的饭局容易让人犹豫：会不会人太多？ 有没有带大型犬的？ 餐厅允不允许宠物入内？"
 primaryKeyword: "抚顺狗主人饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T200005Z"
 ---
 
-# 抚顺狗主人饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 抚顺狗主人饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 在抚顺，狗主人的生活节奏常常夹在通勤、遛狗和社区琐事之间。饭局app上的抚顺狗主人饭局，不是简单约饭，而是以小桌形式建立真实连接的尝试——每桌不超过六人，固定主题，提前说明规则。这种饭局的核心不是热闹，而是清晰：谁来、在哪、聊什么，都写在报名信息里。对于习惯先观察再参与的女性狗主人来说，这种可预判的结构，比“随便聊聊”更让人安心。在抚顺，一次值得参加的狗主人饭局，往往从报名前的那几分钟判断开始。
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/guangzhou/productivity-dinner"
 alternatePath: "/en/city/guangzhou/productivity-dinner"
 translationKey: "guangzhou-productivity-dinner"
 lang: "zh"
-title: "下班后的广州，饭局app怎样让效率饭局有真实同桌"
+title: "下班后的广州，饭局app怎样让效率饭局有真实同桌 | fanju-app"
 titleZh: "下班后的广州，饭局app怎样让效率饭局有真实同桌"
 description: "傍晚六点半，珠江新城的写字楼开始亮起暖黄的边灯，而北京路的骑楼下，凉茶铺前的长凳刚空出位置。在广州，一天的节奏并不在打卡钟声里结束，而是在走出地铁站后，决定往哪个方向拐弯的那几秒里悄然延展。有人直奔家门，也有人在饭局app上点开今晚的饭局，"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 下班后的广州，饭局app怎样让效率饭局有真实同桌
+# 下班后的广州，饭局app怎样让效率饭局有真实同桌 | fanju-app
 
 傍晚六点半，珠江新城的写字楼开始亮起暖黄的边灯，而北京路的骑楼下，凉茶铺前的长凳刚空出位置。在广州，一天的节奏并不在打卡钟声里结束，而是在走出地铁站后，决定往哪个方向拐弯的那几秒里悄然延展。有人直奔家门，也有人在饭局app上点开今晚的饭局，犹豫要不要加入一个在东山口小巷里的晚餐邀约。这座城市从来不缺饭桌，但缺的是真正能让人坐下来、说点什么的饭桌。饭局app在广州的用法，渐渐不再是“凑一顿饭”，而是“找到一个刚刚好的饭局”——不是社交表演，也不是孤独疗愈，而是用一顿饭的时间，交换一点真实的信息与状态。
 

@@ -4,7 +4,7 @@ canonicalPath: "/city/mudanjiang/sales-dinner"
 alternatePath: "/en/city/mudanjiang/sales-dinner"
 translationKey: "mudanjiang-sales-dinner"
 lang: "zh"
-title: "不想在牡丹江随便拼桌，饭局app怎样让销售饭局变成一个真实决定"
+title: "不想在牡丹江随便拼桌，饭局app怎样让销售饭局变成一个真实决定 | fanju-app"
 titleZh: "不想在牡丹江随便拼桌，饭局app怎样让销售饭局变成一个真实决定"
 description: "在牡丹江，销售饭局从来不是简单约个人吃饭。这座城市的商业节奏安静但扎实，人与人之间的往来更看重背后有没有实底。饭局app在这里不是用来凑热闹的工具，它更像是一张提前递出的名片，把陌生的邀约变成一次可预期的见面。在阳明街的咖啡馆里，在东安区的"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 不想在牡丹江随便拼桌，饭局app怎样让销售饭局变成一个真实决定
+# 不想在牡丹江随便拼桌，饭局app怎样让销售饭局变成一个真实决定 | fanju-app
 
 在牡丹江，销售饭局从来不是简单约个人吃饭。这座城市的商业节奏安静但扎实，人与人之间的往来更看重背后有没有实底。饭局app在这里不是用来凑热闹的工具，它更像是一张提前递出的名片，把陌生的邀约变成一次可预期的见面。在阳明街的咖啡馆里，在东安区的社区食堂门口，越来越多的人开始用饭局app安排自己的销售饭局——不是为了多认识几个名字，而是为了少走几次弯路。饭局app在牡丹江的作用，是把“谁和谁吃顿饭”这件事，从随缘变成有准备的接触。
 

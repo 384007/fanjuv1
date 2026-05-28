@@ -4,7 +4,7 @@ canonicalPath: "/en/city/taipei/founder-dinner-authentic-connections"
 alternatePath: "/city/taipei/founder-dinner"
 translationKey: "taipei-founder-dinner"
 lang: "en"
-title: "Fanju app Taipei Founder Dinner Guide: Authentic Connections Beyond the Tourist Trail"
+title: "Fanju app Taipei Founder Dinner Guide: Authentic Connections Beyond the Tourist Trail | fanju-app"
 description: "Discover the heart of Taipei through authentic local experiences with the Fanju app. This guide explores the unique concept of a 'Founder Dinner,' offering a glimpse into genuine Taiwanese hospitality and culture. Forget crowded tourist spots; a Founder Dinner, facilitated by the Fanju app, connects you with locals for intimate, small-group meals. These aren't just dinners; they are curated opportunities for meaningful interaction, allowing you to experience Taipei's vibrant city rhythm and neighbourhood charm firsthand. The Fanju app focuses on facilitating these real-world connections, ensuring each gathering is a unique cultural exchange."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Fanju app Taipei Founder Dinner Guide: Authentic Connections Beyond the Tourist Trail
+# Fanju app Taipei Founder Dinner Guide: Authentic Connections Beyond the Tourist Trail | fanju-app
 
 Taipei, a city that hums with a unique blend of tradition and modernity, offers countless ways to explore its vibrant culture. Yet, for many visitors, the most profound experiences often lie beyond the well-trodden tourist paths. This is where the concept of a 'Founder Dinner,' as facilitated by platforms like the Fanju app, truly shines. It offers a pathway to genuine connection, moving beyond superficial sightseeing to embrace the warmth of local Taiwanese hospitality. Imagine sharing a meal not with a tour group, but with individuals who call Taipei home, eager to share their city and stories.
 

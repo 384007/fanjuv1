@@ -4,7 +4,7 @@ canonicalPath: "/en/city/manila/new-friends-dinner"
 alternatePath: "/city/manila/new-friends-dinner"
 translationKey: "manila-new-friends-dinner"
 lang: "en"
-title: "Before the first message in Manila, Fanju app makes New Friends Dinner feel like a real decision"
+title: "Before the first message in Manila, Fanju app makes New Friends Dinner feel like a real decision | fanju-app"
 description: "The after-work pause in Manila is a crucial time for unwinding and socializing, and it shouldn't be taken up by vague or unfulfilling social engagements. New Friends Dinner, as facilitated by Fanju app, offers a"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T140006Z"
 ---
 
-# Before the first message in Manila, Fanju app makes New Friends Dinner feel like a real decision
+# Before the first message in Manila, Fanju app makes New Friends Dinner feel like a real decision | fanju-app
 In Manila, the concept of New Friends Dinner through Fanju app represents a unique approach to social dining, focusing on small, clearly described meals that facilitate real-world connections. This setup is particularly appealing for individuals looking to expand their social circle in a new city, offering a more intimate and meaningful way to meet new people compared to large, generic gatherings.
 
 The city of Manila, with its vibrant neighborhoods and diverse culinary scene, provides the perfect backdrop for such dinners. By emphasizing the importance of the table and the company rather than the venue's hype, Fanju app's New Friends Dinner format encourages participants to engage in meaningful conversations and build connections based on shared interests and experiences.

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/addis-ababa/digital-detox-dinner"
 alternatePath: "/city/addis-ababa/digital-detox-dinner"
 translationKey: "addis-ababa-digital-detox-dinner"
 lang: "en"
-title: "A calmer way to approach Digital Detox Dinner in Addis Ababa through Fanju app"
+title: "A calmer way to approach Digital Detox Dinner in Addis Ababa through Fanju app | fanju-app"
 description: "Fanju app offers a structured approach to social dining in Addis Ababa, focusing on small, intentionally curated gatherings designed for genuine real-world connection. It's for those seeking to step away from the constan"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# A calmer way to approach Digital Detox Dinner in Addis Ababa through Fanju app
+# A calmer way to approach Digital Detox Dinner in Addis Ababa through Fanju app | fanju-app
 
 Fanju app offers a structured approach to social dining in Addis Ababa, focusing on small, intentionally curated gatherings designed for genuine real-world connection. It's for those seeking to step away from the constant buzz of digital life and find meaningful interaction over a shared meal. Unlike broad social media platforms, Fanju emphasizes clarity in event descriptions and attendee expectations, making it easier to find the right group for a Digital Detox Dinner. This app aims to foster a more intentional way of dining together, where the focus is truly on the people and the food, creating a relaxed atmosphere conducive to conversation and connection right here in the city.
 

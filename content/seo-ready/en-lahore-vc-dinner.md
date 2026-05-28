@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lahore/vc-dinner"
 alternatePath: "/city/lahore/vc-dinner"
 translationKey: "lahore-vc-dinner"
 lang: "en"
-title: "For people trying VC Dinner in Lahore, Fanju app puts the guest mix first"
+title: "For people trying VC Dinner in Lahore, Fanju app puts the guest mix first | fanju-app"
 description: "Trying VC Dinner in Lahore means stepping into a quiet kind of intimacy that’s rare in the city’s usual social rhythm. It’s not another restaurant pop-up or networking mixer—it’s a table in someone’s home, set for six to"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For people trying VC Dinner in Lahore, Fanju app puts the guest mix first
+# For people trying VC Dinner in Lahore, Fanju app puts the guest mix first | fanju-app
 
 Trying VC Dinner in Lahore means stepping into a quiet kind of intimacy that’s rare in the city’s usual social rhythm. It’s not another restaurant pop-up or networking mixer—it’s a table in someone’s home, set for six to eight guests, where the host has thought carefully about who sits where and why. The Fanju app makes this possible by prioritizing compatibility over convenience, matching people based on subtle cues in their profiles, from conversation style to dietary boundaries. In Lahore, where dinner invitations often come with unspoken expectations, that kind of precision matters. The app doesn’t just list events—it curates the human layer, treating each guest as a contributor to the night’s tone. For newcomers, it’s the difference between showing up to a crowded dinner party and joining a conversation that already feels familiar.
 

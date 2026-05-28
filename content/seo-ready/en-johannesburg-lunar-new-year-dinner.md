@@ -4,7 +4,7 @@ canonicalPath: "/en/city/johannesburg/lunar-new-year-dinner"
 alternatePath: "/city/johannesburg/lunar-new-year-dinner"
 translationKey: "johannesburg-lunar-new-year-dinner"
 lang: "en"
-title: "A calmer way to approach Lunar New Year Dinner in Johannesburg through Fanju app"
+title: "A calmer way to approach Lunar New Year Dinner in Johannesburg through Fanju app | fanju-app"
 description: "Choosing the right part of Johannesburg matters more than the menu. A dinner in Melville feels different from one in Sandton or Rosebank — not because of the food, but because of how people move through the night. In"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
 ---
 
-# A calmer way to approach Lunar New Year Dinner in Johannesburg through Fanju app
+# A calmer way to approach Lunar New Year Dinner in Johannesburg through Fanju app | fanju-app
 
 You’ve finished your last work block, the video call is closed, and the flat screen fades to black. Outside, Johannesburg’s evening light softens over the northern suburbs. You could go home, heat something, scroll — but the quiet feels heavier than it should. That’s when the idea of a shared Lunar New Year Dinner in Johannesburg starts making sense. The Fanju app isn’t about big events or forced networking; it’s for nights like this, when you want to step into a small, well-set table where conversation starts easily and no one expects you to perform. It’s designed for people who work remotely, live alone, or just haven’t built a rhythm in the city yet — those who need one dependable social point in their week. On Fanju, tables are small, themed around real meals like Lunar New Year Dinner, and hosted by locals who know how to make space. It’s not a fix for loneliness, but it can be the difference between isolation and a good conversation that lingers past dessert.
 

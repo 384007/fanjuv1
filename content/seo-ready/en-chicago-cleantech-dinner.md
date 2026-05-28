@@ -4,7 +4,7 @@ canonicalPath: "/en/city/chicago/cleantech-dinner"
 alternatePath: "/city/chicago/cleantech-dinner"
 translationKey: "chicago-cleantech-dinner"
 lang: "en"
-title: "Chicago after work: how Fanju app makes Cleantech Dinner feel like a real room"
+title: "Chicago after work: how Fanju app makes Cleantech Dinner feel like a real room | fanju-app"
 description: "For professionals in Chicago’s cleantech and sustainability sectors, the challenge isn’t finding events—it’s finding connection. Too often, after-work gatherings blur into networking with no follow-through. The Fanju app"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Chicago after work: how Fanju app makes Cleantech Dinner feel like a real room
+# Chicago after work: how Fanju app makes Cleantech Dinner feel like a real room | fanju-app
 
 For professionals in Chicago’s cleantech and sustainability sectors, the challenge isn’t finding events—it’s finding connection. Too often, after-work gatherings blur into networking with no follow-through. The Fanju app changes that by anchoring Cleantech Dinner around deliberate, intimate tables in Chicago, where conversation flows because the logistics don’t. Instead of another crowded happy hour or LinkedIn-driven mixer, Fanju structures the experience around real presence: one dinner, one table, a shared focus on what matters. This isn’t an add-on to the weekend. It’s the reason the weekend begins.
 

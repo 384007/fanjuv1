@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lisbon/rooftop-dinner"
 alternatePath: "/city/lisbon/rooftop-dinner"
 translationKey: "lisbon-rooftop-dinner"
 lang: "en"
-title: "For people trying Rooftop Dinner in Lisbon, Fanju app puts the guest mix first"
+title: "For people trying Rooftop Dinner in Lisbon, Fanju app puts the guest mix first | fanju-app"
 description: "A Rooftop Dinner in Lisbon can start with expectations misaligned—someone thinking it’s a casual drink with strangers, another hoping for deep conversation over slow food."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For people trying Rooftop Dinner in Lisbon, Fanju app puts the guest mix first
+# For people trying Rooftop Dinner in Lisbon, Fanju app puts the guest mix first | fanju-app
 
 The Fanju app is a social dining platform designed for intimate, real-world gatherings in Lisbon, not digital small talk or crowded meetups. A Lisbon Rooftop Dinner through Fanju isn’t about maximizing connections per hour, but about starting a conversation where the guest mix is clear from the start—down to who’s hosting, why they opened the table, and what kind of evening they’re shaping. Unlike group chats that fizzle or dating apps that over-promise, Fanju frames each dinner as a small-table event with named participants and public profiles, making it easier to gauge whether you’ll feel at ease before the night begins. In a city where evenings unfold slowly and first impressions matter, that clarity is what turns hesitation into a confident yes.
 

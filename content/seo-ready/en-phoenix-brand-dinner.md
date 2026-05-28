@@ -4,7 +4,7 @@ canonicalPath: "/en/city/phoenix/brand-dinner"
 alternatePath: "/city/phoenix/brand-dinner"
 translationKey: "phoenix-brand-dinner"
 lang: "en"
-title: "When Brand Dinner feels too loose in Phoenix, Fanju app starts with the table"
+title: "When Brand Dinner feels too loose in Phoenix, Fanju app starts with the table | fanju-app"
 description: "Phoenix moves at its own pace—slow under the sun, quick in bursts during sunset commutes. That rhythm can make spontaneous plans fall apart, especially when dinner invitations are vague or overly casual. A loosely"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Brand Dinner feels too loose in Phoenix, Fanju app starts with the table
+# When Brand Dinner feels too loose in Phoenix, Fanju app starts with the table | fanju-app
 
 In Phoenix, where summer heat can keep people indoors and neighborhoods stretch wide with single-family homes, it’s easy to feel disconnected even in a city of millions. The Fanju app was built for moments like these—when you want real conversation without performance, and a seat at a table that doesn’t demand you already belong. It’s not a restaurant platform or a party invite; it’s a way to join small dinners hosted by thoughtful locals who care about connection, not content. These aren’t staged events but simple meals in homes across central Phoenix, Uptown, and along the Camelback corridor, where guests arrive as strangers and often leave with a quiet sense of having been seen. Fanju helps structure that moment with clarity, so the dinner feels held, not haphazard.
 

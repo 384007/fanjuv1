@@ -4,7 +4,7 @@ canonicalPath: "/en/city/prague/restaurant-discovery-dinner"
 alternatePath: "/city/prague/restaurant-discovery-dinner"
 translationKey: "prague-restaurant-discovery-dinner"
 lang: "en"
-title: "Prague after work: how Fanju app makes Restaurant Discovery Dinner feel like a real room"
+title: "Prague after work: how Fanju app makes Restaurant Discovery Dinner feel like a real room | fanju-app"
 description: "In Prague, where cobblestone streets meet café culture and the workweek dissolves into long evenings of conversation, Fanju app has quietly reshaped how people find their way to shared meals. It’s not a dating app, nor a"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Prague after work: how Fanju app makes Restaurant Discovery Dinner feel like a real room
+# Prague after work: how Fanju app makes Restaurant Discovery Dinner feel like a real room | fanju-app
 
 In Prague, where cobblestone streets meet café culture and the workweek dissolves into long evenings of conversation, Fanju app has quietly reshaped how people find their way to shared meals. It’s not a dating app, nor a food tour, but a way to join small dinners hosted by locals who open their tables to new faces. The idea is simple: a host sets a meal with a clear description—what they’re cooking or ordering, the mood, the language spoken, the neighborhood—and others join if it fits. In a city where expats, creatives, and long-time residents often move in parallel orbits, Fanju makes it possible to cross into someone else’s rhythm over a shared starter. The app doesn’t promise romance or networking. Instead, it offers something rarer: a dinner that feels like sitting in someone’s actual dining room, even if it’s a corner table in Vinohrady.
 

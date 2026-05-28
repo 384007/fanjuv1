@@ -4,7 +4,7 @@ canonicalPath: "/city/daxinganling/student-dinner"
 alternatePath: "/en/city/daxinganling/student-dinner"
 translationKey: "daxinganling-student-dinner"
 lang: "zh"
-title: "大兴安岭想参加留学生饭局，饭局app把信任感放在饭前"
+title: "大兴安岭想参加留学生饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "大兴安岭想参加留学生饭局，饭局app把信任感放在饭前"
 description: "在大兴安岭，饭局app不是一个热闹的社交平台，反而像一张安静的饭桌邀请函。它专注小桌吃饭、清晰主题和真实线下连接，把留学生之间最怕的“尴尬”提前化解在报名之前。你不会看到刷屏的群消息或模糊的“欢迎来玩”，而是具体到餐厅位置、主理人介绍、同桌"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 大兴安岭想参加留学生饭局，饭局app把信任感放在饭前
+# 大兴安岭想参加留学生饭局，饭局app把信任感放在饭前 | fanju-app
 
 在大兴安岭，饭局app不是一个热闹的社交平台，反而像一张安静的饭桌邀请函。它专注小桌吃饭、清晰主题和真实线下连接，把留学生之间最怕的“尴尬”提前化解在报名之前。你不会看到刷屏的群消息或模糊的“欢迎来玩”，而是具体到餐厅位置、主理人介绍、同桌人数和话题方向。第一次打开饭局app的人，往往带着犹豫：我真的适合这一桌吗？语言能跟上吗？会不会坐一晚上都插不上话？但在大兴安岭，这种担心恰恰是被允许的——因为每一场饭局的说明，都在回应这些没说出口的疑问。
 

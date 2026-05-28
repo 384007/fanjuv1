@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nagoya/skiing-dinner"
 alternatePath: "/city/nagoya/skiing-dinner"
 translationKey: "nagoya-skiing-dinner"
 lang: "en"
-title: "How Fanju app turns a Nagoya Skiing Dinner night into something worth showing up for"
+title: "How Fanju app turns a Nagoya Skiing Dinner night into something worth showing up for | fanju-app"
 description: "Deciding on a spontaneous Skiing Dinner in Nagoya can feel like a gamble. Will it be a good time, or just another awkward gathering? The Fanju app aims to bridge that gap, making it easier to find and organize enjoyable"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Nagoya Skiing Dinner night into something worth showing up for
+# How Fanju app turns a Nagoya Skiing Dinner night into something worth showing up for | fanju-app
 
 Deciding on a spontaneous Skiing Dinner in Nagoya can feel like a gamble. Will it be a good time, or just another awkward gathering? The Fanju app aims to bridge that gap, making it easier to find and organize enjoyable Skiing Dinner experiences, especially for those who value comfort and genuine connection. It’s about transforming a casual idea into a memorable evening with the right people, right here in Nagoya.
 

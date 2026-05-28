@@ -4,7 +4,7 @@ canonicalPath: "/city/alxa/weeknight-dinner"
 alternatePath: "/en/city/alxa/weeknight-dinner"
 translationKey: "alxa-weeknight-dinner"
 lang: "zh"
-title: "在阿拉善找一桌不尴尬的工作日晚餐饭局，饭局app先解决什么"
+title: "在阿拉善找一桌不尴尬的工作日晚餐饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在阿拉善找一桌不尴尬的工作日晚餐饭局，饭局app先解决什么"
 description: "在阿拉善，工作日的晚餐不总是一场随意的聚会。尤其当你想找一桌有特定目的、氛围安静且能真正交流的饭局时，饭局app Fanju 提供的不仅仅是一个平台，更是一种选择和判断的依据。它帮助我们筛选出那些注重小桌、清晰主题和线下真实连接的饭局，让身"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在阿拉善找一桌不尴尬的工作日晚餐饭局，饭局app先解决什么
+# 在阿拉善找一桌不尴尬的工作日晚餐饭局，饭局app先解决什么 | fanju-app
 
 在阿拉善，工作日的晚餐不总是一场随意的聚会。尤其当你想找一桌有特定目的、氛围安静且能真正交流的饭局时，饭局app Fanju 提供的不仅仅是一个平台，更是一种选择和判断的依据。它帮助我们筛选出那些注重小桌、清晰主题和线下真实连接的饭局，让身处阿拉善的我们，在忙碌的工作日也能找到一份不被打扰的用餐体验，避免不必要的社交尴尬。
 

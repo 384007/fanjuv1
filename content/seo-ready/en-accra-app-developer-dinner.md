@@ -4,7 +4,7 @@ canonicalPath: "/en/city/accra/app-developer-dinner"
 alternatePath: "/city/accra/app-developer-dinner"
 translationKey: "accra-app-developer-dinner"
 lang: "en"
-title: "Accra strangers sit down easier when Fanju app frames the App Developer Dinner table first"
+title: "Accra strangers sit down easier when Fanju app frames the App Developer Dinner table first | fanju-app"
 description: "Walking into a new dinner in Accra can feel like stepping into a conversation already in motion."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Accra strangers sit down easier when Fanju app frames the App Developer Dinner table first
+# Accra strangers sit down easier when Fanju app frames the App Developer Dinner table first | fanju-app
 
 In Accra, the Fanju app is a way to join small, thoughtfully arranged dinners where the focus is on real conversation, not performative networking. The App Developer Dinner in Accra isn’t another open-ended group chat or a loud meetup at a crowded bar. Instead, it’s a single table, pre-set with clear expectations: who’s coming, what they do, and what the evening is meant to feel like. This matters because in a city where social invitations often blur into vague plans, Fanju brings structure. It allows someone who codes quietly in Labone or works remotely from East Legon to step into a dinner where they’re not expected to entertain, but to listen, speak when ready, and leave if it doesn’t fit. That predictability is what makes the difference between hesitation and showing up.
 

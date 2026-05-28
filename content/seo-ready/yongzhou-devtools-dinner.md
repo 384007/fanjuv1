@@ -4,7 +4,7 @@ canonicalPath: "/city/yongzhou/devtools-dinner"
 alternatePath: "/en/city/yongzhou/devtools-dinner"
 translationKey: "yongzhou-devtools-dinner"
 lang: "zh"
-title: "永州的一顿开发工具饭局，饭局app为什么先看人再看热闹"
+title: "永州的一顿开发工具饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "永州的一顿开发工具饭局，饭局app为什么先看人再看热闹"
 description: "在永州开发工具饭局中，第二次见面的余地是非常重要的。作为主理人，我会尝试让每个人都有机会与其他人进行深入的交流。这样可以帮助大家建立更好的关系，并且也可以让饭局更有趣。通常，我会在饭局开始前，给大家一个简单的任务或问题，让他们可以自由讨论。"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 永州的一顿开发工具饭局，饭局app为什么先看人再看热闹
+# 永州的一顿开发工具饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 在永州，饭局app是一个非常受欢迎的社交应用，很多人都喜欢在上面组织小桌饭局。作为一个常规的组织者，我也很喜欢使用饭局app来邀请朋友和同事聚会。然而，在组织开发工具饭局时，我会特别注意一些细节，以确保这一桌人能够聊得起来。
 

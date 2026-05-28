@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lagos/brand-collaboration-dinner"
 alternatePath: "/city/lagos/brand-collaboration-dinner"
 translationKey: "lagos-brand-collaboration-dinner"
 lang: "en"
-title: "For people trying Brand Collaboration Dinner in Lagos, Fanju app puts the guest mix first"
+title: "For people trying Brand Collaboration Dinner in Lagos, Fanju app puts the guest mix first | fanju-app"
 description: "For those in Lagos curious about Brand Collaboration Dinners, the Fanju app offers a way to approach these unique gatherings with a focus on the quality of the company. Unlike many social events that can feel ambiguous i"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Brand Collaboration Dinner in Lagos, Fanju app puts the guest mix first
+# For people trying Brand Collaboration Dinner in Lagos, Fanju app puts the guest mix first | fanju-app
 
 For those in Lagos curious about Brand Collaboration Dinners, the Fanju app offers a way to approach these unique gatherings with a focus on the quality of the company. Unlike many social events that can feel ambiguous in their intent, a Brand Collaboration Dinner, when framed correctly, is about building connections through shared professional interests, not romantic pursuits. This distinction is key, and events organized through platforms like Fanju aim to make that clarity the foundation of the experience, ensuring that participants know what to expect and can engage authentically.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/new-york/plant-lover-dinner"
 alternatePath: "/city/new-york/plant-lover-dinner"
 translationKey: "new-york-plant-lover-dinner"
 lang: "en"
-title: "New York does not need another vague invite; Fanju app makes Plant Lover Dinner specific"
+title: "New York does not need another vague invite; Fanju app makes Plant Lover Dinner specific | fanju-app"
 description: "A Plant Lover Dinner in New York, like any curated social event, benefits immensely from clear expectations set long before the first dish is served. It’s about establishing a framework that signals the kind of"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
 ---
 
-# New York does not need another vague invite; Fanju app makes Plant Lover Dinner specific
+# New York does not need another vague invite; Fanju app makes Plant Lover Dinner specific | fanju-app
 
 In New York, the promise of a good meal often comes with the uncertainty of who will be at the table. Fanju app offers a different approach to social dining, focusing on small, clearly defined gatherings like Plant Lover Dinners, where the intention is to foster genuine connections over shared interests. Instead of a broad meetup or a casual group chat, Fanju helps clarify the specific nature of a private-table dinner, making it easier for individuals, especially those returning to social scenes after a gap, to find gatherings that truly align with their expectations. This means understanding the intimacy of a small table, where the first ten minutes can set the entire mood, and knowing that the platform aims to facilitate more intentional interactions.
 

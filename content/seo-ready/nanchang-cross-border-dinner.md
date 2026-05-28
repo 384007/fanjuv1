@@ -4,7 +4,7 @@ canonicalPath: "/city/nanchang/cross-border-dinner"
 alternatePath: "/en/city/nanchang/cross-border-dinner"
 translationKey: "nanchang-cross-border-dinner"
 lang: "zh"
-title: "南昌的一顿跨境饭局，饭局app为什么先看人再看热闹"
+title: "南昌的一顿跨境饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "南昌的一顿跨境饭局，饭局app为什么先看人再看热闹"
 description: "在南昌，饭局app的跨境饭局往往选在红谷滩或老城区的小型私厨空间，或是珠江路、船山路一带有独立包间的餐厅。这些地方安静，灯光不刺眼，桌距足够，不会让邻桌的笑声突然打断你的谈话。主理人通常是在本地生活多年、有跨文化经验的人，可能是曾在东南亚工"
 pageType: "city_article"
@@ -21,7 +21,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T170006Z"
 ---
 
-# 南昌的一顿跨境饭局，饭局app为什么先看人再看热闹
+# 南昌的一顿跨境饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 周末晚上七点，你站在南昌的街头，刚结束一周的工作，胃里空着，心里也空着。随便约个人吃饭？好像总差了点意思。去网红餐厅打卡？人多嘈杂，吃完就忘。你其实只想坐下来，吃一顿有来有往的饭，和几个不认识但能聊得上的陌生人，交换一点真实的对话。饭局app在南昌做的，就是把这种模糊的期待变成一桌具体的人——不是群发邀请，不是拼凑席位，而是从主理人、菜单到同桌名单，都经过筛选的跨境饭局。它不保证你交到朋友，但保证这顿饭不是随机的。
 

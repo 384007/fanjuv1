@@ -4,7 +4,7 @@ canonicalPath: "/city/liupanshui/music-dinner"
 alternatePath: "/en/city/liupanshui/music-dinner"
 translationKey: "liupanshui-music-dinner"
 lang: "zh"
-title: "六盘水的一顿音乐饭局，饭局app为什么先看人再看热闹"
+title: "六盘水的一顿音乐饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "六盘水的一顿音乐饭局，饭局app为什么先看人再看热闹"
 description: "在六盘水，一场饭局的舒适度，往往在你点下“报名”之前就已经定下了。 音乐饭局不同于普通的聚餐，它自带情绪和节奏。 有人期待饭桌上有吉他轻弹，有人只想聊一聊本地乐队的演出往事，也有人希望整个晚上都沉浸在黑胶唱片的低频里。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 六盘水的一顿音乐饭局，饭局app为什么先看人再看热闹
+# 六盘水的一顿音乐饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 你有没有过这样的经历：在六盘水报了一场看起来挺有意思的饭局，地点在凉都大道附近的小馆子，主题写着“音乐与夜话”，结果到了现场才发现，同桌的人聊的都是你接不上的话题，音乐是震耳欲聋的电子混音，而你只想安静地吃口饭？这其实不是饭不好，而是预期没对上。饭局app上的六盘水音乐饭局，不是为了热闹而拼桌，它更像是一次有预判的相遇——先让人了解这顿饭会是什么节奏，再决定要不要坐下。在六盘水，一场真正适合你的音乐饭局，往往不是看谁喊得响，而是看谁先安静下来，把话说清楚。
 

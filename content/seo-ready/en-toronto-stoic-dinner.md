@@ -4,7 +4,7 @@ canonicalPath: "/en/city/toronto/stoic-dinner"
 alternatePath: "/city/toronto/stoic-dinner"
 translationKey: "toronto-stoic-dinner"
 lang: "en"
-title: "How Fanju app turns a Toronto Stoic Dinner night into something worth showing up for"
+title: "How Fanju app turns a Toronto Stoic Dinner night into something worth showing up for | fanju-app"
 description: "In Toronto, a city of transplants, high-rise routines, and quiet isolation, it’s easy to go days without a real conversation. The Fanju app changes that for Stoic Dinner nights—structured, intimate gatherings where peopl"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a Toronto Stoic Dinner night into something worth showing up for
+# How Fanju app turns a Toronto Stoic Dinner night into something worth showing up for | fanju-app
 
 In Toronto, a city of transplants, high-rise routines, and quiet isolation, it’s easy to go days without a real conversation. The Fanju app changes that for Stoic Dinner nights—structured, intimate gatherings where people gather not to network, not to flirt, but to think aloud with others who value presence over performance. By filtering out noise and romantic expectation upfront, the app helps match Toronto residents with dinners that feel less like social experiments and more like natural extensions of city life. It’s not about finding a date or a job; it’s about finding your people in a city that often feels too big to hold.
 

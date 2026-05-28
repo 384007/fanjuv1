@@ -4,7 +4,7 @@ canonicalPath: "/city/liaoyang/no-pressure-dinner"
 alternatePath: "/en/city/liaoyang/no-pressure-dinner"
 translationKey: "liaoyang-no-pressure-dinner"
 lang: "zh"
-title: "辽阳的低压力饭局不该靠运气，饭局app把主理人和同桌放在最前面"
+title: "辽阳的低压力饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app"
 titleZh: "辽阳的低压力饭局不该靠运气，饭局app把主理人和同桌放在最前面"
 description: "很多人以为饭局的开场是从第一句话开始的，但在辽阳，真正决定氛围的，是那句还没说出口的“我们这桌是来做什么的”。"
 primaryKeyword: "辽阳低压力饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
 ---
 
-# 辽阳的低压力饭局不该靠运气，饭局app把主理人和同桌放在最前面
+# 辽阳的低压力饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 
 傍晚六点，辽阳的街灯刚亮起来，中华大街的饭馆陆续飘出油烟气。你一个人走进餐厅，手机里确认了饭局app的入场通知，但同桌的人还没到。你坐在靠窗的位置，低头刷着手机，服务员两次经过都以为你还没点餐。这前十分钟的安静，其实是饭局真正的开始——你正在用身体感受这一桌是否适合你。在辽阳，低压力饭局不是随机的社交抽奖，它从你踏入餐厅那一刻就开始运作：菜单不重要，人数不重要，重要的是你知不知道这桌人为什么坐在一起。饭局app的存在，就是为了让这种不确定被提前化解，让每一次饭局都从“碰运气”变成“有预期”的小桌聚会。
 

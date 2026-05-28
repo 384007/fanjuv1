@@ -4,7 +4,7 @@ canonicalPath: "/city/lasa/electronics-hobbyist-dinner"
 alternatePath: "/en/city/lasa/electronics-hobbyist-dinner"
 translationKey: "lasa-electronics-hobbyist-dinner"
 lang: "zh"
-title: "在拉萨找一桌不尴尬的电子爱好者饭局，饭局app先解决什么"
+title: "在拉萨找一桌不尴尬的电子爱好者饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在拉萨找一桌不尴尬的电子爱好者饭局，饭局app先解决什么"
 description: "在拉萨，很多事的节奏都慢。 太阳下山晚，人们下班也晚，尤其是外地来的工程师或自由职业者，常在民宿的阳台上调试完最后一块开发板才想着吃饭。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在拉萨找一桌不尴尬的电子爱好者饭局，饭局app先解决什么
+# 在拉萨找一桌不尴尬的电子爱好者饭局，饭局app先解决什么 | fanju-app
 
 周六傍晚，拉萨的太阳还悬在药王山背后，光斜照进八廓街的小巷，空气里有酥油茶和松木香的味道。我站在冲赛康附近的一家小餐馆门口，背包还没放下，心里还在打鼓：这桌“拉萨电子爱好者饭局”会不会又是一群人凑一起刷手机，或者聊着工作、项目、收入，冷场了就低头吃饭？但点开饭局app看到这桌的主理人写了三行开场白，说今晚只想聊点从没商用过的电路设计，还带了一块自己焊的LED驱动板当小礼物——我忽然觉得，这可能不是一次普通群聊约饭。饭局app在这里的作用，不是拉个临时群，而是提前划出一块安静的区域，让真正对电子有手感的人，在拉萨这样的高海拔城市里，也能找到一桌不尴尬的饭。
 

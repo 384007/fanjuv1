@@ -4,7 +4,7 @@ canonicalPath: "/city/dingxi/local-community-dinner"
 alternatePath: "/en/city/dingxi/local-community-dinner"
 translationKey: "dingxi-local-community-dinner"
 lang: "zh"
-title: "定西想参加本地社区饭局，饭局app把信任感放在饭前"
+title: "定西想参加本地社区饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "定西想参加本地社区饭局，饭局app把信任感放在饭前"
 description: "定西这几年出现了不少打着“社交”“破圈”旗号的饭局活动，有些是商家促销的变体，有些是相亲局的包装，还有些只是把微信群聊搬到饭桌上。但真正能让人放松下来的饭局，往往不是人最多的那一桌，而是主理人把主题、节奏和边界说清楚的那一桌。我曾参与过一场"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 定西想参加本地社区饭局，饭局app把信任感放在饭前
+# 定西想参加本地社区饭局，饭局app把信任感放在饭前 | fanju-app
 
 在定西，饭局app不是简单地把人拉进群、凑一桌吃饭的工具，它更像一个缓慢搭建信任的前置空间。每次我作为主理人发起一场本地社区饭局，最先考虑的不是餐厅多远或多贵，而是这一桌人能不能自然地说出心里话。在定西这样的城市，人与人之间的距离既近又远——街坊可能认识几十年，但真正能聊得深的却寥寥无几。饭局app的作用，是让陌生人在坐下来之前，已经对彼此的来意、期待和边界有基本的感知。它不追求热闹，也不制造噱头，而是把一场饭局的温度，提前放在报名前的阅读和对话里。
 

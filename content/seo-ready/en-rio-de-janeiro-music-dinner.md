@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/rio-de-janeiro/music-dinner"
 alternatePath: "/city/rio-de-janeiro/music-dinner"
-title: "A calmer way to approach Music Dinner in Rio de Janeiro through Fanju app"
+title: "A calmer way to approach Music Dinner in Rio de Janeiro through Fanju app | fanju-app | 饭局app"
 description: "The Fanju app offers a space for small-group dinners in Rio de Janeiro where conversation matters more than volume, and connection forms without performative effort. Designed for 6 to 12 guests, these Music Dinners unfol"
 recoveredFromD1: true
 ---
@@ -33,3 +33,9 @@ recoveredFromD1: true
 <p>Deciding which dinner to join can feel like its own task. But the goal isn’t to find the “best” table—it’s to find the one where you can relax. On Fanju, you’re not choosing based on popularity or guest count. You’re matching your mood to a description. If you’re tired, you pick a low-key night in a walkable neighbourhood. If you’re curious, you choose a table where the host cooks a regional dish and shares its history. The decision isn’t about missing out—it’s about opting in with intention.</p>
 <p>There’s no need to attend every week. Some guests come once a month, others just once. The app keeps the door open without demanding commitment. In a city that pulses with constant motion, that flexibility is a kind of freedom. You don’t have to keep up. You just have to find your table when you’re ready.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

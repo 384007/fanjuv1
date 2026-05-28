@@ -4,7 +4,7 @@ canonicalPath: "/city/nyingchi/student-dinner"
 alternatePath: "/en/city/nyingchi/student-dinner"
 translationKey: "nyingchi-student-dinner"
 lang: "zh"
-title: "林芝留学生饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "林芝留学生饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "林芝留学生饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "饭局app在林芝的实践，从一开始就不是简单地把人凑在一桌吃饭。它更关注的是这一桌的边界——谁可以进来，谁愿意留下，以及每个人是否真的感到安全和被理解。在林芝，海拔和气候塑造了人们缓慢交流的节奏，而留学生群体更需要一种不被催促的连接方式。饭局"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 林芝留学生饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 林芝留学生饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
 饭局app在林芝的实践，从一开始就不是简单地把人凑在一桌吃饭。它更关注的是这一桌的边界——谁可以进来，谁愿意留下，以及每个人是否真的感到安全和被理解。在林芝，海拔和气候塑造了人们缓慢交流的节奏，而留学生群体更需要一种不被催促的连接方式。饭局app在这里尝试的，是用小桌结构让每一次聚餐成为可预期、有温度的社交场景，尤其为女性留学生提供一个不必时刻自我防卫的空间。饭局app不追求热闹，而是先确认：这一顿饭，能不能让人放松地吃完整顿。
 

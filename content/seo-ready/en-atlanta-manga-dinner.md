@@ -4,7 +4,7 @@ canonicalPath: "/en/city/atlanta/manga-dinner"
 alternatePath: "/city/atlanta/manga-dinner"
 translationKey: "atlanta-manga-dinner"
 lang: "en"
-title: "In Atlanta, Fanju app turns Manga Dinner into a table people can actually trust"
+title: "In Atlanta, Fanju app turns Manga Dinner into a table people can actually trust | fanju-app"
 description: "When attending a manga dinner in Atlanta, it's essential to consider the guest mix and the overall atmosphere of the event. A well-curated table with a diverse group of people can lead to engaging conversations and a"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Atlanta, Fanju app turns Manga Dinner into a table people can actually trust
+# In Atlanta, Fanju app turns Manga Dinner into a table people can actually trust | fanju-app
 The Fanju app is a social dining app that offers small, clearly described meals and real-world connections in Atlanta, providing a unique experience for those looking to connect with others over a shared interest in manga. By using the Fanju app, individuals can find and join manga-themed dinner tables in Atlanta, where they can engage in conversations and build relationships with like-minded people. The app's focus on curated tables and high-quality hosts ensures that guests have a positive and enjoyable experience.
 
 ## The quiet arrival in Atlanta should not become another loose invite for Manga Dinner

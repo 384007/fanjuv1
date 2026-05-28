@@ -4,7 +4,7 @@ canonicalPath: "/city/handan/newcomer-guide-dinner"
 alternatePath: "/en/city/handan/newcomer-guide-dinner"
 translationKey: "handan-newcomer-guide-dinner"
 lang: "zh"
-title: "在邯郸找一桌不尴尬的新来者指南饭局，饭局app先解决什么"
+title: "在邯郸找一桌不尴尬的新来者指南饭局，饭局app先解决什么 | fanju-app"
 titleZh: "在邯郸找一桌不尴尬的新来者指南饭局，饭局app先解决什么"
 description: "在邯郸，如果你是刚搬来不久的远程工作者，或是从外地远程办公却扎根在这座城，你可能已经发现：生活节奏比北上广慢，但独处的密度并不低。没有固定的工位，没有午休时自然发生的闲聊，下班后的空档常常落在回出租屋的路上。这时候打开饭局app，不是为了找"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 在邯郸找一桌不尴尬的新来者指南饭局，饭局app先解决什么
+# 在邯郸找一桌不尴尬的新来者指南饭局，饭局app先解决什么 | fanju-app
 
 在邯郸，如果你是刚搬来不久的远程工作者，或是从外地远程办公却扎根在这座城，你可能已经发现：生活节奏比北上广慢，但独处的密度并不低。没有固定的工位，没有午休时自然发生的闲聊，下班后的空档常常落在回出租屋的路上。这时候打开饭局app，不是为了找一顿饭，而是想找一个能接住你这一天的“落点”。饭局app在邯郸的作用，不是帮你约饭，而是帮你筛选——筛选出那些不需要自我解释、也不用强撑热情，就能安静坐下来吃顿饭的人。它不承诺热闹，但承诺“不尴尬”。对于新来者，尤其是习惯独处又需要人际接触的远程办公者，这种筛选机制，比吃什么更重要。
 

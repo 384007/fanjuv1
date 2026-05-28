@@ -4,7 +4,7 @@ canonicalPath: "/en/city/barcelona/healthy-eating-dinner"
 alternatePath: "/city/barcelona/healthy-eating-dinner"
 translationKey: "barcelona-healthy-eating-dinner"
 lang: "en"
-title: "In Barcelona, Fanju app turns Healthy Eating Dinner into a table people can actually trust"
+title: "In Barcelona, Fanju app turns Healthy Eating Dinner into a table people can actually trust | fanju-app"
 description: "The weekend table in Barcelona is often a coveted spot, but it should not become another loose invite for Healthy Eating Dinner. With the Fanju app, users can find structured and intimate dining experiences that"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# In Barcelona, Fanju app turns Healthy Eating Dinner into a table people can actually trust As someone who just arrived in Barcelona this month, navigating the city's social scene can be overwhelming, especially when it comes to finding trustworthy and healthy eating options. The Fanju app is a social dining app that connects people over small, clearly described meals and real-world connections, making it an excellent starting point for those looking to establish a social network in the city. By focusing on healthy eating dinner, the app provides a unique opportunity to meet like-minded individuals while enjoying a well-crafted meal.
+# In Barcelona, Fanju app turns Healthy Eating Dinner into a table people can actually trust As someone who just arrived in Barcelona this month, navigating the city's social scene can be overwhelming, especially when it comes to finding trustworthy and healthy eating options. The Fanju app is a social dining app that connects people over small, clearly described meals and real-world connections, making it an excellent starting point for those looking to establish a social network in the city. By focusing on healthy eating dinner, the app provides a unique opportunity to meet like-minded individuals while enjoying a well-crafted meal. | fanju-app
 
 ## The weekend table in Barcelona should not become another loose invite for Healthy Eating Dinner
 

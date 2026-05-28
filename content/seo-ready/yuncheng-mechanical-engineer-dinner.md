@@ -4,7 +4,7 @@ canonicalPath: "/city/yuncheng/mechanical-engineer-dinner"
 alternatePath: "/en/city/yuncheng/mechanical-engineer-dinner"
 translationKey: "yuncheng-mechanical-engineer-dinner"
 lang: "zh"
-title: "运城的一顿机械工程师饭局，饭局app为什么先看人再看热闹"
+title: "运城的一顿机械工程师饭局，饭局app为什么先看人再看热闹 | fanju-app"
 titleZh: "运城的一顿机械工程师饭局，饭局app为什么先看人再看热闹"
 description: "很多人以为在运城约一场饭局，就是找个周末晚上，拉上几个同行，点一桌菜，聊点图纸和加班事，算作社交。但真正的机械工程师饭局，从来不是饭后加个微信就算结束的事。在运城，这种饭局的起点其实是筛选——谁愿意坐下来，谁真的听得懂彼此的沉默。饭局app"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 运城的一顿机械工程师饭局，饭局app为什么先看人再看热闹
+# 运城的一顿机械工程师饭局，饭局app为什么先看人再看热闹 | fanju-app
 
 很多人以为在运城约一场饭局，就是找个周末晚上，拉上几个同行，点一桌菜，聊点图纸和加班事，算作社交。但真正的机械工程师饭局，从来不是饭后加个微信就算结束的事。在运城，这种饭局的起点其实是筛选——谁愿意坐下来，谁真的听得懂彼此的沉默。饭局app在这里的作用，不是帮你凑人头，而是让你在进入餐厅前，就已经知道这顿饭的气质。它不推热门餐厅，也不主打折扣，而是把“人”放在菜单前头。运城的工业区分布在盐湖周边，从汽配厂到精密加工车间，工程师们的时间被切割得很细。一个周末的晚上，能不能赴约，其实早在这周中就已经有了答案。饭局app记录的不是饭局次数，而是每一次对话的密度。
 

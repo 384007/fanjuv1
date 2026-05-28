@@ -4,7 +4,7 @@ canonicalPath: "/en/city/taipei/founder-dinner"
 alternatePath: "/city/taipei/founder-dinner"
 translationKey: "taipei-founder-dinner"
 lang: "en"
-title: "Taipei Founder Dinner Guide"
+title: "Taipei Founder Dinner Guide | fanju-app"
 titleZh: "Taipei Founder Dinner Guide"
 pageType: "city_landing"
 priorityScore: 50
@@ -12,7 +12,7 @@ aiQualityScore: 100
 status: "ready"
 ---
 
-# Taipei Founder Dinner Guide
+# Taipei Founder Dinner Guide | fanju-app
 
 ## What Is This Page About
 

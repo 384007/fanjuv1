@@ -4,7 +4,7 @@ canonicalPath: "/city/ankang/calligraphy-dinner"
 alternatePath: "/en/city/ankang/calligraphy-dinner"
 translationKey: "ankang-calligraphy-dinner"
 lang: "zh"
-title: "安康书法饭局不是凑人吃饭，饭局app更看重这一桌的边界"
+title: "安康书法饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 titleZh: "安康书法饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "在安康，一场书法饭局的成功与否，很大程度上取决于开场时的氛围。 如果大家坐下后，对这场饭局的主题、大家的背景、甚至当晚的谈话方向都没有一个大致的预期，那么很快就会陷入尴尬的沉默，或者有人开始试图掌控话题，让气氛变得不那么自在。"
 primaryKeyword: "安康书法饭局"
@@ -23,7 +23,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T200005Z"
 ---
 
-# 安康书法饭局不是凑人吃饭，饭局app更看重这一桌的边界
+# 安康书法饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 对于刚来到安康，或者想在熟悉城市里拓展新圈子的人来说，一次陌生的饭局，尤其是在刚开始的几分钟，那种不确定感和潜在的压力，常常让人犹豫。饭局app（Fanju）正是为解决这种“小桌开场几分钟决定整晚舒不舒服”的社交难题而生，它不是简单地为你凑一桌人吃饭，而是致力于让每一场“安康书法饭局”的主题和预期都清晰明确，为线下社交的重启提供一种更低压、更具目的性的方式。在这里，你可以找到一群因为共同兴趣而聚集的同桌，而非漫无目的的社交拼凑。
 
 ## 在安康，书法饭局的预期没说清楚，这桌饭就很难坐稳

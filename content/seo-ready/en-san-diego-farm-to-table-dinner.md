@@ -4,7 +4,7 @@ canonicalPath: "/en/city/san-diego/farm-to-table-dinner"
 alternatePath: "/city/san-diego/farm-to-table-dinner"
 translationKey: "san-diego-farm-to-table-dinner"
 lang: "en"
-title: "How Fanju app turns a San Diego Farm To Table Dinner night into something worth showing up for"
+title: "How Fanju app turns a San Diego Farm To Table Dinner night into something worth showing up for | fanju-app"
 description: "San Diego’s Farm To Table Dinner scene thrives not on grand gestures, but on small, consistent decisions made before the first course arrives. The Fanju app quietly reshapes how these gatherings unfold by shifting focus"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# How Fanju app turns a San Diego Farm To Table Dinner night into something worth showing up for
+# How Fanju app turns a San Diego Farm To Table Dinner night into something worth showing up for | fanju-app
 
 San Diego’s Farm To Table Dinner scene thrives not on grand gestures, but on small, consistent decisions made before the first course arrives. The Fanju app quietly reshapes how these gatherings unfold by shifting focus from the food itself to the rhythm of the table—how people connect, when they speak, and whether the night feels open-ended or predetermined. For a city where outdoor dining and coastal produce set high expectations, Fanju doesn’t just list events; it filters for tables where six to twelve people are more likely to share stories than scroll through phones. It’s not about finding a dinner with heirloom tomatoes from Ramona or grass-fed beef from Julian—it’s about finding the right people to eat it with, and knowing what kind of evening you’re stepping into before parking near Little Italy or North Park.
 

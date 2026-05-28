@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vienna/serious-dating-dinner"
 alternatePath: "/city/vienna/serious-dating-dinner"
 translationKey: "vienna-serious-dating-dinner"
 lang: "en"
-title: "What makes Serious Dating Dinner in Vienna worth the risk; Fanju app answers before you arrive"
+title: "What makes Serious Dating Dinner in Vienna worth the risk; Fanju app answers before you arrive | fanju-app"
 description: "Vienna moves at a measured pace, and its social culture reflects that—graceful, but not always accessible to newcomers or those re-entering group dynamics. A vague “dinner gathering” can feel like an obstacle course of"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
 ---
 
-# What makes Serious Dating Dinner in Vienna worth the risk; Fanju app answers before you arrive
+# What makes Serious Dating Dinner in Vienna worth the risk; Fanju app answers before you arrive | fanju-app
 
 Fanju app is a social dining platform designed for small, intentional meals where the purpose of the gathering is stated clearly in advance. In Vienna, where evenings often drift into formal dinners or quiet evenings at home, it offers a middle path: shared meals with no hidden agenda. The Serious Dating Dinner format isn't about romance. It’s about reconnecting with conversation that isn’t transactional, especially after long workdays when social energy is low. For someone returning to group settings after time away, the app’s structure reduces guesswork. You see the host, the location, the group size, and the stated intention before accepting. That clarity, particularly in a city where social rhythms are subtle and cues are often unspoken, makes the difference between showing up and staying home.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/surat/museum-lover-dinner"
 alternatePath: "/city/surat/museum-lover-dinner"
 translationKey: "surat-museum-lover-dinner"
 lang: "en"
-title: "In Surat, Fanju app turns Museum Lover Dinner into a table people can actually trust"
+title: "In Surat, Fanju app turns Museum Lover Dinner into a table people can actually trust | fanju-app"
 description: "In Surat, where evening plans often dissolve into last-minute cancellations or awkward group dynamics, the Fanju app offers a different rhythm for cultural connection. Museum Lover Dinner, a gathering built for those who"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Surat, Fanju app turns Museum Lover Dinner into a table people can actually trust
+# In Surat, Fanju app turns Museum Lover Dinner into a table people can actually trust | fanju-app
 
 In Surat, where evening plans often dissolve into last-minute cancellations or awkward group dynamics, the Fanju app offers a different rhythm for cultural connection. Museum Lover Dinner, a gathering built for those who prefer quiet galleries to loud lounges, now finds steady ground through small, pre-vetted tables hosted in public spaces. The app’s structure—real-name registration, fixed guest counts, and host accountability—creates a container where trust isn’t assumed but built into the design. For locals who’ve grown cautious after unreliable meetups, this version of socializing feels less like chance and more like intention.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/san-francisco/lgbtq-dinner"
 alternatePath: "/city/san-francisco/lgbtq-dinner"
 translationKey: "san-francisco-lgbtq-dinner"
 lang: "en"
-title: "The LGBTQ Friendly Dinner table San Francisco actually needs is the one Fanju app describes up front"
+title: "The LGBTQ Friendly Dinner table San Francisco actually needs is the one Fanju app describes up front | fanju-app"
 description: "San Francisco has long been a city where connection and community shape the rhythm of daily life, especially within its LGBTQ neighborhoods. Yet, even here, finding a dinner table that feels truly welcoming—where you’re"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# The LGBTQ Friendly Dinner table San Francisco actually needs is the one Fanju app describes up front
+# The LGBTQ Friendly Dinner table San Francisco actually needs is the one Fanju app describes up front | fanju-app
 
 San Francisco has long been a city where connection and community shape the rhythm of daily life, especially within its LGBTQ neighborhoods. Yet, even here, finding a dinner table that feels truly welcoming—where you’re not just tolerated but seen—can still be a quiet challenge. The Fanju app doesn’t promise grand events or performative inclusivity. Instead, it surfaces the kind of intimate, private-table dinners that reflect how many in the city actually want to connect: slowly, thoughtfully, and with care. These are not loud parties or networking mixers. They’re small gatherings in homes and quiet venues where conversation matters more than spectacle, and where the host’s intention shapes the evening.
 

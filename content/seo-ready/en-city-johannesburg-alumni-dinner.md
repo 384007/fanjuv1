@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/johannesburg/alumni-dinner"
 alternatePath: "/city/johannesburg/alumni-dinner"
-title: "Johannesburg Alumni Dinner Guide"
+title: "Johannesburg Alumni Dinner Guide | fanju-app | 饭局app"
 description: "Plan a memorable Alumni Dinner in Johannesburg with Fanju app, a social dining app that connects people over small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---
@@ -35,3 +35,9 @@ recoveredFromD1: true
 <p>For example, remote worker Emma decided to host a virtual dinner party on Fanju to connect with her colleagues from around the world. She created an event and invited her guests to join, and they spent the evening sharing stories and enjoying a meal together. It was a great way to build connections and have fun, even from a distance.</p>
 <p>If you&#039;re looking for a unique and memorable Alumni Dinner experience in Johannesburg, consider using Fanju app. With its focus on real-world connections and shared meals, Fanju provides a platform for building lasting relationships and making new friends. So why not give it a try? Join or host a dinner party today and experience the city&#039;s culinary scene in a whole new way.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

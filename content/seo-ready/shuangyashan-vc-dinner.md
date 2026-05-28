@@ -4,7 +4,7 @@ canonicalPath: "/city/shuangyashan/vc-dinner"
 alternatePath: "/en/city/shuangyashan/vc-dinner"
 translationKey: "shuangyashan-vc-dinner"
 lang: "zh"
-title: "双鸭山不想只靠群聊时，饭局app怎样把VC 饭局坐成一桌"
+title: "双鸭山不想只靠群聊时，饭局app怎样把VC 饭局坐成一桌 | fanju-app"
 titleZh: "双鸭山不想只靠群聊时，饭局app怎样把VC 饭局坐成一桌"
 description: "在双鸭山，饭局app不是社交平台的另一种打开方式，而是把人带回饭桌的开始。它不堆信息，不拉大群，也不靠广播式邀请维持热度。它专注做一件事：让双鸭山的一桌饭，成为真实连接的最小单元。这个“饭”，不是随便吃一顿，而是有主题、有主理人、有同桌默契"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 双鸭山不想只靠群聊时，饭局app怎样把VC 饭局坐成一桌
+# 双鸭山不想只靠群聊时，饭局app怎样把VC 饭局坐成一桌 | fanju-app
 
 在双鸭山，饭局app不是社交平台的另一种打开方式，而是把人带回饭桌的开始。它不堆信息，不拉大群，也不靠广播式邀请维持热度。它专注做一件事：让双鸭山的一桌饭，成为真实连接的最小单元。这个“饭”，不是随便吃一顿，而是有主题、有主理人、有同桌默契的VC 饭局。在双鸭山，冬天长，社交冷启动难，人们习惯沉默，但并不意味着不需要连接。饭局app在这里的意义，是让每一次见面都有入口、有节奏、有退路，也让城市里那些散落的个体，有机会在一张饭桌上重新认出彼此。
 

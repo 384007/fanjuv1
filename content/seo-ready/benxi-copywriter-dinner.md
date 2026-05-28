@@ -4,7 +4,7 @@ canonicalPath: "/city/benxi/copywriter-dinner"
 alternatePath: "/en/city/benxi/copywriter-dinner"
 translationKey: "benxi-copywriter-dinner"
 lang: "zh"
-title: "本溪文案饭局的同桌质量，饭局app在第一条信息里就开始筛"
+title: "本溪文案饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
 titleZh: "本溪文案饭局的同桌质量，饭局app在第一条信息里就开始筛"
 description: "很多人以为在本溪找一桌人吃饭，无非是拉个群、发个接龙、找个空位多的店，凑够人就行。但饭局app从一开始就不是这么设计的。它不解决“没人一起吃”这个表层问题，而是处理更安静的那部分：谁值得一起吃。在本溪，城市节奏不快不慢，人与人之间常有一种熟"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 本溪文案饭局的同桌质量，饭局app在第一条信息里就开始筛
+# 本溪文案饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
 很多人以为在本溪找一桌人吃饭，无非是拉个群、发个接龙、找个空位多的店，凑够人就行。但饭局app从一开始就不是这么设计的。它不解决“没人一起吃”这个表层问题，而是处理更安静的那部分：谁值得一起吃。在本溪，城市节奏不快不慢，人与人之间常有一种熟悉的距离感——抬头见，但未必开口。饭局app在这里的作用，不是制造热闹，而是让每一次组局都带着一点预判和节制。它筛选的不是人数，是那种能坐下来聊二十分钟还不觉得累的同桌人。
 

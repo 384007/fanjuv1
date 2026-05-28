@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/melbourne/mandarin-dinner"
 alternatePath: "/city/melbourne/mandarin-dinner"
-title: "Melbourne Mandarin Dinner Guide"
+title: "Melbourne Mandarin Dinner Guide | fanju-app | 饭局app"
 description: "Discover the nuances of hosting and attending a Mandarin dinner in Melbourne with the Fanju app. Fanju is a social dining app designed for small, clearly described meals and fostering genuine real-world connections. This guide explores the dynamics of group dining, from ordering to conversation flow, offering practical advice for navigating these gatherings in Melbourne's vibrant culinary landscape. Whether you're a seasoned host or a newcomer, understand the unspoken rules and enjoy the communal spirit of a shared meal."
 recoveredFromD1: true
 ---
@@ -38,3 +38,9 @@ recoveredFromD1: true
 <h3>How are payments handled for the dinner?</h3>
 <p>Payment arrangements can differ depending on the host and the event. Some hosts may cover the entire cost as a gesture of hospitality, while others might opt for a shared cost model where attendees contribute equally. The event description on Fanju should clearly state how the payment will be handled. If it&#039;s unclear, it&#039;s polite to ask the host for clarification before confirming your attendance. This avoids any misunderstandings on the day of the dinner.</p>
 </article>
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在当地通过饭局连接更多同频伙伴
+Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/jakarta/friendship-dinner"
 alternatePath: "/city/jakarta/friendship-dinner"
 translationKey: "jakarta-friendship-dinner"
 lang: "en"
-title: "When Friendship Dinner feels too loose in Jakarta, Fanju app starts with the table"
+title: "When Friendship Dinner feels too loose in Jakarta, Fanju app starts with the table | fanju-app"
 description: "In Jakarta, where the city’s rhythm pulses through crowded markets, late-night warungs, and sudden rain showers that send commuters scrambling, the idea of a Friendship Dinner can easily blur into polite small talk and s"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Friendship Dinner feels too loose in Jakarta, Fanju app starts with the table
+# When Friendship Dinner feels too loose in Jakarta, Fanju app starts with the table | fanju-app
 
 In Jakarta, where the city’s rhythm pulses through crowded markets, late-night warungs, and sudden rain showers that send commuters scrambling, the idea of a Friendship Dinner can easily blur into polite small talk and surface-level connections. But when it’s done right—when it’s anchored in real local life—it becomes something else entirely. The Fanju app doesn’t promise instant bonds or curated experiences. Instead, it begins with something simpler: the table. By focusing on who’s invited, how they’re introduced, and what’s shared before anyone arrives, Fanju helps shape dinners in Jakarta that reflect the texture of actual city life, not the gloss of a tourist itinerary. This isn’t about networking or ticking off cultural boxes. It’s about showing up as a neighbor, not a visitor.
 

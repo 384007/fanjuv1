@@ -4,7 +4,7 @@ canonicalPath: "/en/city/helsinki/pharmacist-dinner"
 alternatePath: "/city/helsinki/pharmacist-dinner"
 translationKey: "helsinki-pharmacist-dinner"
 lang: "en"
-title: "Before the first message in Helsinki, Fanju app makes Pharmacist Dinner feel like a real decision"
+title: "Before the first message in Helsinki, Fanju app makes Pharmacist Dinner feel like a real decision | fanju-app"
 description: "Deciding to join a Pharmacist Dinner in Helsinki through the Fanju app means choosing presence over performance. It’s not about impressing anyone or filling silence with small talk that leads nowhere. Instead, it’s a del"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Helsinki, Fanju app makes Pharmacist Dinner feel like a real decision
+# Before the first message in Helsinki, Fanju app makes Pharmacist Dinner feel like a real decision | fanju-app
 
 Deciding to join a Pharmacist Dinner in Helsinki through the Fanju app means choosing presence over performance. It’s not about impressing anyone or filling silence with small talk that leads nowhere. Instead, it’s a deliberate step toward shared space with people whose common thread is curiosity, not compatibility. In a city where winter light fades early and social circles can feel tight, the app offers a quiet alternative: dinner with pharmacists and others in the field, not as networking, but as conversation. Fanju doesn’t promise sparks—it promises space.
 

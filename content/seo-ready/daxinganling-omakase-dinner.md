@@ -4,7 +4,7 @@ canonicalPath: "/city/daxinganling/omakase-dinner"
 alternatePath: "/en/city/daxinganling/omakase-dinner"
 translationKey: "daxinganling-omakase-dinner"
 lang: "zh"
-title: "大兴安岭想参加厨师发办饭局，饭局app把信任感放在饭前"
+title: "大兴安岭想参加厨师发办饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "大兴安岭想参加厨师发办饭局，饭局app把信任感放在饭前"
 description: "周六傍晚，大兴安岭的天黑得早，林区边缘的居民楼亮起暖黄的灯。厨房里，有人在切土豆丝，也有人在犹豫要不要点开饭局app。过去几年，消息群越加越多，相亲局、拼酒局、读书会，名字热闹，人到了却常像隔着玻璃看彼此。在这样一个安静得能听见雪落声的地方"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 大兴安岭想参加厨师发办饭局，饭局app把信任感放在饭前
+# 大兴安岭想参加厨师发办饭局，饭局app把信任感放在饭前 | fanju-app
 
 周六傍晚，大兴安岭的天黑得早，林区边缘的居民楼亮起暖黄的灯。厨房里，有人在切土豆丝，也有人在犹豫要不要点开饭局app。过去几年，消息群越加越多，相亲局、拼酒局、读书会，名字热闹，人到了却常像隔着玻璃看彼此。在这样一个安静得能听见雪落声的地方，饭局app不是为了制造更多声音，而是想让一顿饭重新成为可以靠近的开始。它不推送大型活动，也不匹配陌生人强制组局，只专注一件事：让厨师发办饭局这桌饭，在端上来之前，就让人看得清、信得过。
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kinshasa/ramen-dinner"
 alternatePath: "/city/kinshasa/ramen-dinner"
 translationKey: "kinshasa-ramen-dinner"
 lang: "en"
-title: "The Ramen Dinner table Kinshasa actually needs is the one Fanju app describes up front"
+title: "The Ramen Dinner table Kinshasa actually needs is the one Fanju app describes up front | fanju-app"
 description: "The allure of a second dinner invitation in Kinshasa often stems from a desire to extend an evening or forge a deeper connection beyond initial introductions."
 primaryKeyword: "Kinshasa Ramen Dinner"
 secondaryKeywords: "Kinshasa social dining|Ramen dinner group|dinner buddy app|Fanju app|small-table dinner in Kinshasa"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
 ---
 
-# The Ramen Dinner table Kinshasa actually needs is the one Fanju app describes up front
+# The Ramen Dinner table Kinshasa actually needs is the one Fanju app describes up front | fanju-app
 In Kinshasa, the idea of a spontaneous dinner can feel both inviting and a little daunting. Many might imagine a loosely organized gathering, a vague "let's grab a bite" that could turn into anything. However, for those seeking genuine connection and a clear purpose, the Ramen Dinner format, as presented on the Fanju app, offers a more grounded and intentional experience, focusing on real-life interactions over fleeting social obligations. This approach aims to demystify the small dinner gathering, making it accessible and desirable for residents looking to connect authentically after work.
 
 ## The second-dinner possibility in Kinshasa should not become another loose invite for Ramen Dinner

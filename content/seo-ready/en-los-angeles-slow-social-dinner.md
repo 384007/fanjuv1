@@ -4,7 +4,7 @@ canonicalPath: "/en/city/los-angeles/slow-social-dinner"
 alternatePath: "/city/los-angeles/slow-social-dinner"
 translationKey: "los-angeles-slow-social-dinner"
 lang: "en"
-title: "How Fanju app turns a Los Angeles Slow Social Dinner night into something worth showing up for"
+title: "How Fanju app turns a Los Angeles Slow Social Dinner night into something worth showing up for | fanju-app"
 description: "The initial moments of entering a new social setting in Los Angeles, especially a restaurant where you recognize no one, can be a defining experience."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# How Fanju app turns a Los Angeles Slow Social Dinner night into something worth showing up for Arriving in Los Angeles, the city’s vastness can feel overwhelming, and the idea of making genuine connections can seem daunting. The Fanju app offers a thoughtful solution for those seeking meaningful real-world interactions through its Los Angeles Slow Social Dinner events, providing clarity on who will be at the table before you even confirm your attendance. This approach is designed for individuals who appreciate a more deliberate way of meeting new people, focusing on shared experiences in comfortable settings, and moving beyond the superficiality of typical social gatherings, ensuring that your first step into a new social circle feels grounded and promising.
+# How Fanju app turns a Los Angeles Slow Social Dinner night into something worth showing up for Arriving in Los Angeles, the city’s vastness can feel overwhelming, and the idea of making genuine connections can seem daunting. The Fanju app offers a thoughtful solution for those seeking meaningful real-world interactions through its Los Angeles Slow Social Dinner events, providing clarity on who will be at the table before you even confirm your attendance. This approach is designed for individuals who appreciate a more deliberate way of meeting new people, focusing on shared experiences in comfortable settings, and moving beyond the superficiality of typical social gatherings, ensuring that your first step into a new social circle feels grounded and promising. | fanju-app
 
 ## Los Angeles' quiet arrival is why Slow Social Dinner needs a clearer frame
 

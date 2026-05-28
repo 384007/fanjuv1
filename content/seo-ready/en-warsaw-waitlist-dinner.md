@@ -4,7 +4,7 @@ canonicalPath: "/en/city/warsaw/waitlist-dinner"
 alternatePath: "/city/warsaw/waitlist-dinner"
 translationKey: "warsaw-waitlist-dinner"
 lang: "en"
-title: "Warsaw does not need another vague invite; Fanju app makes Waitlist Dinner specific"
+title: "Warsaw does not need another vague invite; Fanju app makes Waitlist Dinner specific | fanju-app"
 description: "In Warsaw’s professional circles, evenings often blur into a cycle of half-committed plans—meetups that never materialize, networking events with too many people and too little substance. The Fanju app changes that by an"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Warsaw does not need another vague invite; Fanju app makes Waitlist Dinner specific
+# Warsaw does not need another vague invite; Fanju app makes Waitlist Dinner specific | fanju-app
 
 In Warsaw’s professional circles, evenings often blur into a cycle of half-committed plans—meetups that never materialize, networking events with too many people and too little substance. The Fanju app changes that by anchoring real connection in a single idea: a dinner with no more than six professionals, hosted in a real restaurant, confirmed only when every seat is filled with someone who shares a specific context. For founders, product leads, and independent consultants navigating Warsaw’s tight-knit startup lanes, it replaces impersonal mixers with focused conversation where introductions don’t start with elevator pitches but with genuine curiosity. This isn’t another open-ended networking night in a co-working lounge. It’s a named table, with a clear purpose, and a real reservation.
 

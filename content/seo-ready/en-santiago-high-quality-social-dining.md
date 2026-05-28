@@ -4,7 +4,7 @@ canonicalPath: "/en/city/santiago/high-quality-social-dining"
 alternatePath: "/city/santiago/high-quality-social-dining"
 translationKey: "santiago-high-quality-social-dining"
 lang: "en"
-title: "A calmer way to approach High Quality Social Dining in Santiago through Fanju app"
+title: "A calmer way to approach High Quality Social Dining in Santiago through Fanju app | fanju-app"
 description: "High Quality Social Dining in Santiago isn’t about polished restaurants or influencer gatherings. It’s quieter, more deliberate—hosted in homes across neighbourhoods like Providencia, where a dinner table becomes a momen"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach High Quality Social Dining in Santiago through Fanju app
+# A calmer way to approach High Quality Social Dining in Santiago through Fanju app | fanju-app
 
 High Quality Social Dining in Santiago isn’t about polished restaurants or influencer gatherings. It’s quieter, more deliberate—hosted in homes across neighbourhoods like Providencia, where a dinner table becomes a moment of clarity amid city noise. Through the Fanju app, locals and visitors alike find tables that prioritise thoughtful conversation over performance, where the focus is on who shares the meal, not just what’s on the plate. The app doesn’t promise spectacle. Instead, it surfaces dinners shaped by the host’s care, the neighbourhood’s rhythm, and a shared understanding that connection takes space. In a city where social plans often drift into loud bars or last-minute cancellations, Fanju offers a different path: one where dinner is anchored in trust, not convenience.
 

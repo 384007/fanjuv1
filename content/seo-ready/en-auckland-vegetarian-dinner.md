@@ -4,7 +4,7 @@ canonicalPath: "/en/city/auckland/vegetarian-dinner"
 alternatePath: "/city/auckland/vegetarian-dinner"
 translationKey: "auckland-vegetarian-dinner"
 lang: "en"
-title: "Before the first message in Auckland, Fanju app makes Vegetarian Dinner feel like a real decision"
+title: "Before the first message in Auckland, Fanju app makes Vegetarian Dinner feel like a real decision | fanju-app"
 description: "The city of Auckland, with its sprawling suburbs and busy professional landscape, often leaves people feeling disconnected despite the abundance of social opportunities. Many evenings begin with a casual \"let's grab"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Auckland, Fanju app makes Vegetarian Dinner feel like a real decision
+# Before the first message in Auckland, Fanju app makes Vegetarian Dinner feel like a real decision | fanju-app
 
 In Auckland, the Fanju app transforms the concept of a post-work meal from a vague intention into a concrete social event. It's designed for those seeking genuine connection over a shared vegetarian dinner, moving beyond the ephemeral nature of digital interactions to foster real-world relationships. The app focuses on curated, small-group dining experiences, ensuring that each table offers an intimate setting where conversation flows naturally, and attendees can truly get to know one another. This approach contrasts sharply with the sprawling, often impersonal, nature of Auckland itself, highlighting the value of focused social engagement.
 

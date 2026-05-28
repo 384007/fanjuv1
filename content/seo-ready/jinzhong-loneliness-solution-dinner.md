@@ -4,7 +4,7 @@ canonicalPath: "/city/jinzhong/loneliness-solution-dinner"
 alternatePath: "/en/city/jinzhong/loneliness-solution-dinner"
 translationKey: "jinzhong-loneliness-solution-dinner"
 lang: "zh"
-title: "不想在晋中随便拼桌，饭局app怎样让解决孤独饭局变成一个真实决定"
+title: "不想在晋中随便拼桌，饭局app怎样让解决孤独饭局变成一个真实决定 | fanju-app"
 titleZh: "不想在晋中随便拼桌，饭局app怎样让解决孤独饭局变成一个真实决定"
 description: "很多人在晋中参加饭局，尤其是那些旨在解决孤独感的饭局，常常会忽略一个关键点：预期。如果一桌饭的组织者，也就是主理人，没有清晰地传达这顿饭的目的、氛围以及参与者的期待，那么这场饭局很可能就会在开始时就显得有些尴尬。比如，有人期待的是轻松的聊天"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 不想在晋中随便拼桌，饭局app怎样让解决孤独饭局变成一个真实决定
+# 不想在晋中随便拼桌，饭局app怎样让解决孤独饭局变成一个真实决定 | fanju-app
 
 下班后，晋中的夜色渐浓，街灯次第亮起。当一个人结束了一天的工作，不想就这样独自回到寂静的房间，一个温暖的、有温度的晚餐邀约便显得尤为珍贵。饭局app的出现，正是为了解决这样的需求，它不仅仅是一个工具，更是一个连接人与人、构建城市社区温暖肌理的平台。在晋中这座城市，它提供了一个真实可行的途径，让那些原本可能分散的、独自用餐的夜晚，变成一场场有意义的、充满人情味的相聚。
 

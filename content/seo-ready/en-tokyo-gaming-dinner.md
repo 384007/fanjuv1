@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tokyo/gaming-dinner"
 alternatePath: "/city/tokyo/gaming-dinner"
 translationKey: "tokyo-gaming-dinner"
 lang: "en"
-title: "When Gaming Dinner feels too loose in Tokyo, Fanju app starts with the table"
+title: "When Gaming Dinner feels too loose in Tokyo, Fanju app starts with the table | fanju-app"
 description: "For newcomers in Tokyo, the idea of joining strangers for a gaming dinner can feel either exciting or unnerving — often both. The Fanju app reduces that uncertainty by anchoring social dining in real-world context: small"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Gaming Dinner feels too loose in Tokyo, Fanju app starts with the table
+# When Gaming Dinner feels too loose in Tokyo, Fanju app starts with the table | fanju-app
 
 For newcomers in Tokyo, the idea of joining strangers for a gaming dinner can feel either exciting or unnerving — often both. The Fanju app reduces that uncertainty by anchoring social dining in real-world context: small, clearly described gatherings hosted by locals who explain what their dinner is for, who they hope will come, and how the evening will unfold. It’s not about spectacle or performance. It’s about a table where people show up as themselves, not tourist versions of themselves. In a city where social rituals can feel layered and distant, Fanju builds trust by making the host’s intention visible before anyone RSVPs. That clarity is what turns a vague idea like "gaming dinner" into something grounded — a shared meal with rules, rhythm, and room to breathe.
 

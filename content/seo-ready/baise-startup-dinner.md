@@ -4,7 +4,7 @@ canonicalPath: "/city/baise/startup-dinner"
 alternatePath: "/en/city/baise/startup-dinner"
 translationKey: "baise-startup-dinner"
 lang: "zh"
-title: "百色创业饭局不该只靠群聊，饭局app要把这桌饭讲明白"
+title: "百色创业饭局不该只靠群聊，饭局app要把这桌饭讲明白 | fanju-app"
 titleZh: "百色创业饭局不该只靠群聊，饭局app要把这桌饭讲明白"
 description: "百色的创业饭局和饭局app / Fanju饭局，是围绕小桌吃饭、清晰主题和真实线下连接展开的社交尝试。 它不是相亲保证、不是随机群聊、不是无限刷资料，而是让一个在百色独自生活或路过的人，能通过一顿饭认识几个聊得上话的同桌。 在这里，创业不是口号，而是具体到谁在做什么、卡在哪个环节、愿不愿意说出口。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 百色创业饭局不该只靠群聊，饭局app要把这桌饭讲明白
+# 百色创业饭局不该只靠群聊，饭局app要把这桌饭讲明白 | fanju-app
 
 百色的创业饭局和饭局app / Fanju饭局，是围绕小桌吃饭、清晰主题和真实线下连接展开的社交尝试。它不是相亲保证、不是随机群聊、不是无限刷资料，而是让一个在百色独自生活或路过的人，能通过一顿饭认识几个聊得上话的同桌。在这里，创业不是口号，而是具体到谁在做什么、卡在哪个环节、愿不愿意说出口。你打开的不是一场热闹的路演，而是一次下班后要不要跨区赴约的犹豫——比如从龙景区赶到新兴街，只为见三个陌生人吃顿晚饭。
 

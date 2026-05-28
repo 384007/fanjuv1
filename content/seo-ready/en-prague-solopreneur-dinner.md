@@ -4,7 +4,7 @@ canonicalPath: "/en/city/prague/solopreneur-dinner"
 alternatePath: "/city/prague/solopreneur-dinner"
 translationKey: "prague-solopreneur-dinner"
 lang: "en"
-title: "How Fanju app turns a Prague Solopreneur Dinner night into something worth showing up for"
+title: "How Fanju app turns a Prague Solopreneur Dinner night into something worth showing up for | fanju-app"
 description: "Prague’s evening rhythm shifts quickly after work. The clatter of trams fades, office lights dim in the New Town, and for those living alone or working remotely, the pull toward home can feel automatic—even if it leaves"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
 ---
 
-# How Fanju app turns a Prague Solopreneur Dinner night into something worth showing up for
+# How Fanju app turns a Prague Solopreneur Dinner night into something worth showing up for | fanju-app
 
 In Prague, the Fanju app connects solopreneurs with small, intentional dinners hosted in neighbourhood apartments, quiet courtyards, or tucked-away wine cellars—spaces where conversation flows more easily than at a conference or coworking space. These aren’t large networking events with name tags and agendas. Instead, they’re intimate gatherings, often capped at six guests, where the host sets a theme, a mood, and a pace. The app’s strength lies in its clarity: dinners are described with care, hosts are vetted through participation history, and the tone is set well before arrival. For someone working independently in Prague—perhaps after a quiet day coding in a Vinohrady flat or consulting from a café near Karlovo Náměstí—the decision to step into a shared meal isn’t about collecting contacts. It’s about breaking the isolation of solo work without sacrificing authenticity.
 

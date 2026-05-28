@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ho-chi-minh-city/philosophy-dinner"
 alternatePath: "/city/ho-chi-minh-city/philosophy-dinner"
 translationKey: "ho-chi-minh-city-philosophy-dinner"
 lang: "en"
-title: "The Philosophy Dinner table Ho Chi Minh City actually needs is the one Fanju app describes up front"
+title: "The Philosophy Dinner table Ho Chi Minh City actually needs is the one Fanju app describes up front | fanju-app"
 description: "The initial hesitation to join a new social event, especially one involving strangers and a meal, is entirely natural. In a city as dynamic as Ho Chi Minh City, where schedules are often packed and social circles can"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260528T070525Z"
 ---
 
-# The Philosophy Dinner table Ho Chi Minh City actually needs is the one Fanju app describes up front
+# The Philosophy Dinner table Ho Chi Minh City actually needs is the one Fanju app describes up front | fanju-app
 
 In Ho Chi Minh City, finding genuine connections after work can feel like navigating a bustling market. The Fanju app offers a different kind of social experience with Philosophy Dinner: small, curated meal gatherings designed for low-pressure interaction and meaningful conversation. This isn't about large, anonymous parties; it's about creating a comfortable atmosphere where individuals can meet new people, share ideas, and build a sense of community, one meal at a time. The app's focus on clear descriptions ensures you know what to expect before you even arrive, setting the stage for a more relaxed and rewarding evening.
 

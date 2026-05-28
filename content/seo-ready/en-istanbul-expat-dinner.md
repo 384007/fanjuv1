@@ -4,7 +4,7 @@ canonicalPath: "/en/city/istanbul/expat-dinner"
 alternatePath: "/city/istanbul/expat-dinner"
 translationKey: "istanbul-expat-dinner"
 lang: "en"
-title: "Before the first message in Istanbul, Fanju app makes Expat Dinner feel like a real decision"
+title: "Before the first message in Istanbul, Fanju app makes Expat Dinner feel like a real decision | fanju-app"
 description: "The hesitation before joining an Expat Dinner in Istanbul isn’t just about social anxiety—it’s about context."
 primaryKeyword: "Istanbul Expat Dinner"
 secondaryKeywords: "Istanbul social dining|Expat dinner group|dinner buddy app|Fanju app|small-table dinner in Istanbul"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T183055Z"
 ---
 
-# Before the first message in Istanbul, Fanju app makes Expat Dinner feel like a real decision
+# Before the first message in Istanbul, Fanju app makes Expat Dinner feel like a real decision | fanju-app
 
 At 6:17 PM on a Tuesday in Istanbul, a woman named Elif pauses outside a meyhane on Kocatepe Street, checking the Fanju app one last time. The Expat Dinner table she joined online three hours ago shows five confirmed guests, including the host, a software engineer from Prague. She hesitates—this is her first time using the app since moving here six months ago, and the thought of sitting down with strangers after a long workday brings a quiet wave of doubt. But the alternative—another solo evening in a rental flat near Taksim, reheating yesterday’s lentil soup—feels heavier. Fanju app, in this moment, isn’t promising friendship or adventure. It’s offering a way to break the routine, to step into a small, defined space where the only expectation is showing up. That’s what makes the Istanbul Expat Dinner feel different: it’s not about transforming your social life overnight, but about reclaiming one evening from isolation.
 

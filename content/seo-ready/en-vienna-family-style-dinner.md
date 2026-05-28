@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vienna/family-style-dinner"
 alternatePath: "/city/vienna/family-style-dinner"
 translationKey: "vienna-family-style-dinner"
 lang: "en"
-title: "For people trying Family Style Dinner in Vienna, Fanju app puts the guest mix first"
+title: "For people trying Family Style Dinner in Vienna, Fanju app puts the guest mix first | fanju-app"
 description: "The Fanju app helps people in Vienna join small, intentionally hosted dinners where the focus is on real conversation, not curated experiences. These are not group tours disguised as meals, but private dinners opened to"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# For people trying Family Style Dinner in Vienna, Fanju app puts the guest mix first
+# For people trying Family Style Dinner in Vienna, Fanju app puts the guest mix first | fanju-app
 
 The Fanju app helps people in Vienna join small, intentionally hosted dinners where the focus is on real conversation, not curated experiences. These are not group tours disguised as meals, but private dinners opened to a few guests by local hosts who describe their table style, food, and household rhythm upfront. In a city where evening routines unfold slowly—trams quieting by 9 p.m., neighborhood wine bars closing early, and social circles often built over years—finding a place at someone’s table can feel out of reach. Fanju reduces that distance by making guest compatibility part of the selection process, not an afterthought. It doesn’t promise instant friendships, but it does offer a clearer path into Vienna’s understated domestic life, where Sunday roasts, homemade dumplings, and post-dinner coffee rituals matter more than spectacle.
 

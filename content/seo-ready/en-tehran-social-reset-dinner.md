@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tehran/social-reset-dinner"
 alternatePath: "/city/tehran/social-reset-dinner"
 translationKey: "tehran-social-reset-dinner"
 lang: "en"
-title: "Tehran after work: how Fanju app makes Social Reset Dinner feel like a real room"
+title: "Tehran after work: how Fanju app makes Social Reset Dinner feel like a real room | fanju-app"
 description: "Fanju app offers a unique way to find small, focused dining gatherings in Tehran, designed for genuine connection rather than a large, impersonal event. For those navigating the city solo, especially after a workday, it"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Tehran after work: how Fanju app makes Social Reset Dinner feel like a real room
+# Tehran after work: how Fanju app makes Social Reset Dinner feel like a real room | fanju-app
 
 Fanju app offers a unique way to find small, focused dining gatherings in Tehran, designed for genuine connection rather than a large, impersonal event. For those navigating the city solo, especially after a workday, it presents an opportunity to step into a pre-arranged, intimate setting. The concept, termed "Social Reset Dinner," aims to create a sense of belonging and shared experience, transforming a potentially solitary evening into a comfortable, engaging one. By carefully curating table sizes and themes, Fanju app helps users discover and join gatherings that promise meaningful conversation and a relaxed atmosphere, right here in Tehran.
 

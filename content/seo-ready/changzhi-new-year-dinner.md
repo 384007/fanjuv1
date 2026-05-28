@@ -4,7 +4,7 @@ canonicalPath: "/city/changzhi/new-year-dinner"
 alternatePath: "/en/city/changzhi/new-year-dinner"
 translationKey: "changzhi-new-year-dinner"
 lang: "zh"
-title: "长治想参加新年饭局，饭局app把信任感放在饭前"
+title: "长治想参加新年饭局，饭局app把信任感放在饭前 | fanju-app"
 titleZh: "长治想参加新年饭局，饭局app把信任感放在饭前"
 description: "很多人以为，长治的新年饭局无非是找个餐厅、凑几个人、吃顿热闹的饭。可真正在饭局app上报名过的人知道，热闹不难，难的是那种“能放心坐下”的感觉。在长治，饭局app不是简单地把人拉进群、发个地址就完事，而是从第一条信息开始，就让人能判断这顿饭"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 长治想参加新年饭局，饭局app把信任感放在饭前
+# 长治想参加新年饭局，饭局app把信任感放在饭前 | fanju-app
 
 很多人以为，长治的新年饭局无非是找个餐厅、凑几个人、吃顿热闹的饭。可真正在饭局app上报名过的人知道，热闹不难，难的是那种“能放心坐下”的感觉。在长治，饭局app不是简单地把人拉进群、发个地址就完事，而是从第一条信息开始，就让人能判断这顿饭是不是适合自己的。饭局的起点不是开席，而是你点开那条报名信息的瞬间——那一刻，你是否能看清楚谁在组织、在哪里吃、为什么聚。这看似简单，却决定了整场饭局的安全底色。饭局app在长治做的，正是把这种信任感，提前安放在饭前。
 

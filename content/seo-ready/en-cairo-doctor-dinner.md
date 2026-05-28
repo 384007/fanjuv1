@@ -4,7 +4,7 @@ canonicalPath: "/en/city/cairo/doctor-dinner"
 alternatePath: "/city/cairo/doctor-dinner"
 translationKey: "cairo-doctor-dinner"
 lang: "en"
-title: "In Cairo, Fanju app turns Doctor Dinner into a table people can actually trust"
+title: "In Cairo, Fanju app turns Doctor Dinner into a table people can actually trust | fanju-app"
 description: "In Cairo, where social rhythms blend formality with deep personal connection, the Fanju app has quietly reshaped how professionals gather over dinner. Doctor Dinner, once an informal idea passed through whispers in hospi"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Cairo, Fanju app turns Doctor Dinner into a table people can actually trust
+# In Cairo, Fanju app turns Doctor Dinner into a table people can actually trust | fanju-app
 
 In Cairo, where social rhythms blend formality with deep personal connection, the Fanju app has quietly reshaped how professionals gather over dinner. Doctor Dinner, once an informal idea passed through whispers in hospital corridors or academic circles, now finds structure through small, hosted meals where real names, clear intentions, and public venues set the tone. The app doesn’t promise grand networking or instant friendships—it offers something more valuable: predictability. For doctors, researchers, and medical students navigating long shifts and tight schedules, the ability to join a dinner that feels safe, contained, and respectful of time and boundaries is a quiet relief. Fanju’s model—small tables, verified hosts, and transparent descriptions—aligns with the cautious trust required in a city where reputation and context matter deeply.
 

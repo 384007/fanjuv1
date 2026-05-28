@@ -4,7 +4,7 @@ canonicalPath: "/en/city/copenhagen/community-dinner"
 alternatePath: "/city/copenhagen/community-dinner"
 translationKey: "copenhagen-community-dinner"
 lang: "en"
-title: "A calmer way to approach Community Dinner in Copenhagen through Fanju app"
+title: "A calmer way to approach Community Dinner in Copenhagen through Fanju app | fanju-app"
 description: "The Fanju app offers a quieter alternative for professionals in Copenhagen seeking meaningful connections over dinner—without the noise of crowded networking events. Instead of large gatherings with forced introductions,"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach Community Dinner in Copenhagen through Fanju app
+# A calmer way to approach Community Dinner in Copenhagen through Fanju app | fanju-app
 
 The Fanju app offers a quieter alternative for professionals in Copenhagen seeking meaningful connections over dinner—without the noise of crowded networking events. Instead of large gatherings with forced introductions, the app hosts small, intentionally hosted dinners where conversation unfolds naturally. Founders, freelancers, and corporate operators attend these meals not to pitch, but to listen. Meals are limited to four or five guests, often in residential neighbourhoods like Nørrebro, Vesterbro, or Østerbro, where shared tables feel more like invitations than obligations. The app’s structure ensures clarity: each event lists the host’s background, the menu, location, and a short note about the evening's rhythm. This isn’t about scaling connections; it’s about slowing them down, aligning with Copenhagen’s preference for understated authenticity in social settings.
 

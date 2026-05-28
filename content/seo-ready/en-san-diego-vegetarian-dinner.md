@@ -4,7 +4,7 @@ canonicalPath: "/en/city/san-diego/vegetarian-dinner"
 alternatePath: "/city/san-diego/vegetarian-dinner"
 translationKey: "san-diego-vegetarian-dinner"
 lang: "en"
-title: "Vegetarian Dinner in San Diego should not feel like a gamble; Fanju app changes the odds"
+title: "Vegetarian Dinner in San Diego should not feel like a gamble; Fanju app changes the odds | fanju-app"
 description: "Walking into a San Diego kitchen as a solo traveler, unsure if the vegetarian meal will be warm or just the rice, has happened more times than I’d like. Last month, it was a shared house near North Park—great tortilla ch"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Vegetarian Dinner in San Diego should not feel like a gamble; Fanju app changes the odds
+# Vegetarian Dinner in San Diego should not feel like a gamble; Fanju app changes the odds | fanju-app
 
 Walking into a San Diego kitchen as a solo traveler, unsure if the vegetarian meal will be warm or just the rice, has happened more times than I’d like. Last month, it was a shared house near North Park—great tortilla chips, awkward silence, and the host triple-checking if I was “really okay with just beans.” But then I found the Fanju app, and dinner stopped being a roll of the dice. In a city where plant-based menus are everywhere but real connection isn’t, Fanju reshaped what vegetarian dinner means for people passing through. It’s not about flawless recipes or Instagrammable plating. It’s about walking into a home where the host knows you’re coming, the seat is saved, and the conversation doesn’t stall after the first course. That shift—from uncertainty to quiet confidence—is what San Diego’s solo diners didn’t know they needed.
 

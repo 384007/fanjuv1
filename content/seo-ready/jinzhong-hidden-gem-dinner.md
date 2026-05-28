@@ -4,7 +4,7 @@ canonicalPath: "/city/jinzhong/hidden-gem-dinner"
 alternatePath: "/en/city/jinzhong/hidden-gem-dinner"
 translationKey: "jinzhong-hidden-gem-dinner"
 lang: "zh"
-title: "晋中同城饭局怎么选，饭局app在宝藏餐厅饭局里先做减法"
+title: "晋中同城饭局怎么选，饭局app在宝藏餐厅饭局里先做减法 | fanju-app"
 titleZh: "晋中同城饭局怎么选，饭局app在宝藏餐厅饭局里先做减法"
 description: "晋中宝藏餐厅饭局和饭局app的组合，是给那些下班后不想立刻回家、又不愿刷手机到深夜的人准备的一个出口。 它不是相亲保证、不是随机群聊、不是无限刷资料，而是一次围绕小桌吃饭、清晰主题和真实连接的尝试。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 晋中同城饭局怎么选，饭局app在宝藏餐厅饭局里先做减法
+# 晋中同城饭局怎么选，饭局app在宝藏餐厅饭局里先做减法 | fanju-app
 
 晋中宝藏餐厅饭局和饭局app的组合，是给那些下班后不想立刻回家、又不愿刷手机到深夜的人准备的一个出口。它不是相亲保证、不是随机群聊、不是无限刷资料，而是一次围绕小桌吃饭、清晰主题和真实连接的尝试。在晋中，这种饭局往往藏在老城区街角的家常菜馆或大学城后巷的小馆子里，主理人提前写清楚“这顿饭想聊什么”“谁会来”“吃完会不会拉群”，你可以根据这些信息判断是否报名。饭局app在这里的作用，是把一场可能模糊的聚餐变成可预判、可参与、可退出的轻社交体验。
 

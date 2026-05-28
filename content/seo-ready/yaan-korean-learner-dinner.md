@@ -4,7 +4,7 @@ canonicalPath: "/city/yaan/korean-learner-dinner"
 alternatePath: "/en/city/yaan/korean-learner-dinner"
 translationKey: "yaan-korean-learner-dinner"
 lang: "zh"
-title: "在雅安把韩语学习者饭局坐稳，饭局app需要筛掉哪些尴尬"
+title: "在雅安把韩语学习者饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 titleZh: "在雅安把韩语学习者饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "雅安的韩语学习者饭局要先把语言水平、交流目的和同桌边界说清楚。饭局app把这些判断放到报名之前，让一桌饭从泛泛练口语变成可参与、可退出、可延续的真实连接。"
 pageType: "city_article"
@@ -14,7 +14,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# 在雅安把韩语学习者饭局坐稳，饭局app需要筛掉哪些尴尬
+# 在雅安把韩语学习者饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
 雅安的韩语学习者坐到同一张餐桌前，真正要处理的不是“有没有人来”，而是语言水平、使用场景和表达目的能不能对齐。有人想练日常口语，有人带着跨境贸易问题，有人只是想找一个不尴尬的练习环境；这些期待如果混在一起，饭局很快会从交流变成互相迁就。饭局app要做的，是在报名之前把主题、门槛、退出方式和主理人责任写清楚，让这顿饭先有边界，再有连接。
 

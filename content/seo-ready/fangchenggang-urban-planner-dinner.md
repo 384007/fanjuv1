@@ -4,7 +4,7 @@ canonicalPath: "/city/fangchenggang/urban-planner-dinner"
 alternatePath: "/en/city/fangchenggang/urban-planner-dinner"
 translationKey: "fangchenggang-urban-planner-dinner"
 lang: "zh"
-title: "下班后的防城港，饭局app怎样让城市规划师饭局有真实同桌"
+title: "下班后的防城港，饭局app怎样让城市规划师饭局有真实同桌 | fanju-app"
 titleZh: "下班后的防城港，饭局app怎样让城市规划师饭局有真实同桌"
 description: "傍晚六点半，港口区的夕阳落在北部湾大道上，街边的骑楼开始亮起暖光。 在防城港，一天的工作结束时，许多城市规划师并没有直接回家，而是打开饭局app，看看今晚有没有一桌刚刚成形的饭局。 这不像是群聊里发个消息石沉大海，也不是在活动平台上报名一场上百人的讲座，饭局app做的，是把几个刚好在同一个片区、对城市空间有相似关注的人，凑在一张饭桌上。"
 pageType: "city_article"
@@ -15,7 +15,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# 下班后的防城港，饭局app怎样让城市规划师饭局有真实同桌
+# 下班后的防城港，饭局app怎样让城市规划师饭局有真实同桌 | fanju-app
 
 傍晚六点半，港口区的夕阳落在北部湾大道上，街边的骑楼开始亮起暖光。在防城港，一天的工作结束时，许多城市规划师并没有直接回家，而是打开饭局app，看看今晚有没有一桌刚刚成形的饭局。这不像是群聊里发个消息石沉大海，也不是在活动平台上报名一场上百人的讲座，饭局app做的，是把几个刚好在同一个片区、对城市空间有相似关注的人，凑在一张饭桌上。在防城港这样的边陲滨海城市，规划议题往往牵动着港口扩建、生态红线与老城更新的敏感神经，饭局app提供了一种低门槛的方式，让人在真实饭桌上讨论那些在办公室里说不完的话。
 

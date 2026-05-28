@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seattle/stoic-dinner"
 alternatePath: "/city/seattle/stoic-dinner"
 translationKey: "seattle-stoic-dinner"
 lang: "en"
-title: "Seattle does not need another vague invite; Fanju app makes Stoic Dinner specific"
+title: "Seattle does not need another vague invite; Fanju app makes Stoic Dinner specific | fanju-app"
 description: "Moving to Seattle is a big step, and finding genuine local connections can feel like navigating Puget Sound on a foggy morning. The Fanju app understands this, offering a practical way to move beyond superficial meetups."
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Seattle does not need another vague invite; Fanju app makes Stoic Dinner specific
+# Seattle does not need another vague invite; Fanju app makes Stoic Dinner specific | fanju-app
 
 Moving to Seattle is a big step, and finding genuine local connections can feel like navigating Puget Sound on a foggy morning. The Fanju app understands this, offering a practical way to move beyond superficial meetups. This is especially true for events like a Stoic Dinner, which, when organized through Fanju, becomes a concrete plan rather than just another vague suggestion. It’s about turning a weekend moment into a real conversation with people who share a thoughtful approach to life, right here in the Emerald City.
 

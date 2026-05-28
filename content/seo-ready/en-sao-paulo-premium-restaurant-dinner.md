@@ -4,7 +4,7 @@ canonicalPath: "/en/city/sao-paulo/premium-restaurant-dinner"
 alternatePath: "/city/sao-paulo/premium-restaurant-dinner"
 translationKey: "sao-paulo-premium-restaurant-dinner"
 lang: "en"
-title: "In Sao Paulo, Fanju app turns Premium Restaurant Dinner into a table people can actually trust"
+title: "In Sao Paulo, Fanju app turns Premium Restaurant Dinner into a table people can actually trust | fanju-app"
 description: "Arriving in a city like Sao Paulo, it’s easy to feel pulled in every direction. One message suggests a rooftop in Itaim Bibi, another promises a “hidden gem” in Liberdade with no address. The lack of specificity isn’t"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
 ---
 
-# In Sao Paulo, Fanju app turns Premium Restaurant Dinner into a table people can actually trust
+# In Sao Paulo, Fanju app turns Premium Restaurant Dinner into a table people can actually trust | fanju-app
 
 You’re new in Sao Paulo and scrolling through dinner options on the Fanju app. It’s Friday evening, and the city hums with weekend energy—traffic thickens around Vila Olímpia, music spills from courtyards in Vila Madalena. You’ve seen the big-name dinner groups, the vague invites promising “good vibes” and “cultural exchange.” But you’re not looking for hype. You want to sit at a real table, with real people, somewhere that doesn’t feel like a performance. The Fanju app exists for this moment: small, clearly described Premium Restaurant Dinners hosted by residents who use their real names, meet in public venues, and commit to showing up. This isn’t about guaranteed friendships or curated experiences. It’s about a structure that makes trust possible—starting with knowing exactly where, when, and with whom you’ll be sharing a meal.
 

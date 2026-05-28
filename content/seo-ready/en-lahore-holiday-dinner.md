@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lahore/holiday-dinner"
 alternatePath: "/city/lahore/holiday-dinner"
 translationKey: "lahore-holiday-dinner"
 lang: "en"
-title: "Lahore does not need another vague invite; Fanju app makes Holiday Dinner specific"
+title: "Lahore does not need another vague invite; Fanju app makes Holiday Dinner specific | fanju-app"
 description: "A Holiday Dinner, especially when you’re new to Lahore and attending alone, requires a certain structure to feel welcoming. It’s not just about the food, but about the atmosphere and the intention behind the gathering."
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Lahore does not need another vague invite; Fanju app makes Holiday Dinner specific For those navigating Lahore solo, the idea of a Holiday Dinner can feel both inviting and a little daunting. It’s about finding a genuine connection, a shared meal that feels purposeful rather than just another social obligation. Fanju app offers a unique approach to this, curating small, intimate gatherings where the intent of the table is clear from the outset. This means no guessing games about who you’ll be sitting with or the general vibe of the evening. You arrive knowing it’s a specific kind of shared experience, designed for real conversations and comfortable companionship, especially when you're the first to arrive at a new table in this vibrant city.
+# Lahore does not need another vague invite; Fanju app makes Holiday Dinner specific For those navigating Lahore solo, the idea of a Holiday Dinner can feel both inviting and a little daunting. It’s about finding a genuine connection, a shared meal that feels purposeful rather than just another social obligation. Fanju app offers a unique approach to this, curating small, intimate gatherings where the intent of the table is clear from the outset. This means no guessing games about who you’ll be sitting with or the general vibe of the evening. You arrive knowing it’s a specific kind of shared experience, designed for real conversations and comfortable companionship, especially when you're the first to arrive at a new table in this vibrant city. | fanju-app
 
 ## Before anyone arrives in Lahore, Holiday Dinner needs a frame that holds
 

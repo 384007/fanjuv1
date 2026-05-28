@@ -4,7 +4,7 @@ canonicalPath: "/en/city/jakarta/neighborhood-dinner"
 alternatePath: "/city/jakarta/neighborhood-dinner"
 translationKey: "jakarta-neighborhood-dinner"
 lang: "en"
-title: "A calmer way to approach Neighborhood Dinner in Jakarta through Fanju app"
+title: "A calmer way to approach Neighborhood Dinner in Jakarta through Fanju app | fanju-app"
 description: "Finding dinner in Jakarta often means choosing between crowded malls with predictable menus or navigating narrow alleys in search of hidden warungs that may or may not live up to word-of-mouth praise. The idea of joining"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# A calmer way to approach Neighborhood Dinner in Jakarta through Fanju app
+# A calmer way to approach Neighborhood Dinner in Jakarta through Fanju app | fanju-app
 
 Finding dinner in Jakarta often means choosing between crowded malls with predictable menus or navigating narrow alleys in search of hidden warungs that may or may not live up to word-of-mouth praise. The idea of joining strangers for a neighborhood dinner—once novel—can now feel overwhelming, especially when social dining events blur into performance or influencer gatherings. The Fanju app offers a different path: small, intentionally hosted meals where the focus stays on local food, familiar rhythms, and real conversation. Instead of treating dinner as content, it treats it as a quiet way to learn where people eat, why they eat it, and how meals shape pockets of the city. This isn’t a tour. It’s a recalibration. By making the meal the anchor, the app helps users trace Jakarta’s culinary texture—one dependable table at a time.
 

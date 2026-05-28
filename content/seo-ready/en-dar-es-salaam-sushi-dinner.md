@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dar-es-salaam/sushi-dinner"
 alternatePath: "/city/dar-es-salaam/sushi-dinner"
 translationKey: "dar-es-salaam-sushi-dinner"
 lang: "en"
-title: "In Dar es Salaam, Fanju app turns Sushi Dinner into a table people can actually trust"
+title: "In Dar es Salaam, Fanju app turns Sushi Dinner into a table people can actually trust | fanju-app"
 description: "The idea of a \"second dinner\" or an informal follow-up gathering after a main event can be appealing, but in Dar es Salaam, these often devolve into vague arrangements. A Sushi Dinner, for instance, might be proposed"
 pageType: "city_article"
 priorityScore: 70
@@ -20,7 +20,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
 ---
 
-# In Dar es Salaam, Fanju app turns Sushi Dinner into a table people can actually trust
+# In Dar es Salaam, Fanju app turns Sushi Dinner into a table people can actually trust | fanju-app
 
 Dar es Salaam's vibrant social scene offers many opportunities for connection, but sometimes the prospect of a large, unstructured gathering can feel overwhelming. The Fanju app aims to change that by facilitating smaller, more intentional dining experiences. For those seeking a more comfortable and predictable social outing, particularly for a Sushi Dinner, Fanju provides a clear picture of who will be at the table and the overall atmosphere before you commit. This approach is designed to build trust and ensure the quality of your dining experience, making it easier to step into a new social setting with confidence, even if you don't know anyone initially.
 

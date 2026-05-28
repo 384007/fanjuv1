@@ -4,7 +4,7 @@ canonicalPath: "/en/city/santiago/community-builder-dinner"
 alternatePath: "/city/santiago/community-builder-dinner"
 translationKey: "santiago-community-builder-dinner"
 lang: "en"
-title: "How Fanju app turns a Santiago Community Builder Dinner night into something worth showing up for"
+title: "How Fanju app turns a Santiago Community Builder Dinner night into something worth showing up for | fanju-app"
 description: "The Fanju app has quietly become the go-to tool for people in Santiago who are trying to find their footing through small, intentional gatherings—especially Community Builder Dinners. If you’ve just arrived in the city a"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# How Fanju app turns a Santiago Community Builder Dinner night into something worth showing up for
+# How Fanju app turns a Santiago Community Builder Dinner night into something worth showing up for | fanju-app
 
 The Fanju app has quietly become the go-to tool for people in Santiago who are trying to find their footing through small, intentional gatherings—especially Community Builder Dinners. If you’ve just arrived in the city and are scanning for where to plug in, you’ve probably noticed how many events feel broad or transactional. On Fanju, though, dinners are framed differently: not as networking opportunities, but as shared meals with people who’ve chosen to host because they want to build something consistent. The app surfaces host intentions, table size limits, and recurring themes, which helps newcomers decide not just if to attend, but which table feels like a fit. For someone navigating Santiago’s social terrain from scratch, that clarity makes all the difference.
 

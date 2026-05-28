@@ -4,7 +4,7 @@ canonicalPath: "/en/city/mumbai/developer-community-dinner"
 alternatePath: "/city/mumbai/developer-community-dinner"
 translationKey: "mumbai-developer-community-dinner"
 lang: "en"
-title: "In Mumbai, Fanju app turns Developer Community Dinner into a table people can actually trust"
+title: "In Mumbai, Fanju app turns Developer Community Dinner into a table people can actually trust | fanju-app"
 description: "Most developer meetups in Mumbai end with a group drifting toward a crowded bar or an impromptu delivery order in a co-working lounge. The energy is familiar—good intentions, loud spaces, half-kept plans to meet again."
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Mumbai, Fanju app turns Developer Community Dinner into a table people can actually trust
+# In Mumbai, Fanju app turns Developer Community Dinner into a table people can actually trust | fanju-app
 
 In Mumbai, where the after-work rhythm often dissolves into vague plans or silent commutes, the Fanju app has quietly reshaped how developers meet beyond the keyboard. It doesn't promise networking or forced collaboration. Instead, it offers something simpler but harder to find: a named table at a real restaurant, booked under a real name, with a confirmed host who stays through dessert. The app supports small dinners—four to six people—where the guest list is visible in advance, and every attendee opts in knowing who they’ll sit with. This structure doesn't eliminate uncertainty, but it reduces it to a human scale. In a city where professional circles overlap tightly but trust builds slowly, that distinction matters. The Fanju app doesn't create events; it enables conditions where trust can form naturally over shared meals in locations from Bandra to Powai.
 

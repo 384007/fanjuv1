@@ -4,7 +4,7 @@ canonicalPath: "/en/city/auckland/shipping-dinner"
 alternatePath: "/city/auckland/shipping-dinner"
 translationKey: "auckland-shipping-dinner"
 lang: "en"
-title: "Why Shipping Dinner in Auckland works better when Fanju app keeps the table small"
+title: "Why Shipping Dinner in Auckland works better when Fanju app keeps the table small | fanju-app"
 description: "Weekend plans in Auckland often dissolve into half-texted group chats or last-minute cancellations. The city’s sprawl—drives from Pakuranga to Ponsonby, ferry delays from Half Moon Bay, the eternal battle with Southern"
 pageType: "city_article"
 priorityScore: 70
@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Why Shipping Dinner in Auckland works better when Fanju app keeps the table small
+# Why Shipping Dinner in Auckland works better when Fanju app keeps the table small | fanju-app
 
 On a Saturday evening in Grey Lynn, a group of six people settle into a long wooden table at a quietly lit corner bistro. No one arrived as a pair. No one knows the others by name. But within ten minutes, someone’s sharing how they’ve just returned from rebuilding a fibrolite bach on Waiheke, another is explaining why they stopped going to work events altogether, and a third is pouring wine while asking if anyone’s tried the kūmara gnocchi here. This is Shipping Dinner in Auckland—facilitated not by chance, but by the Fanju app, which structures small dinners where the focus isn’t on finding friends fast, but on letting conversation find its own rhythm. The app doesn’t promise outcomes, but it does refine the conditions: capped guest lists, clear meal intents, and hosts who’ve been part of the scene long enough to read a table’s energy.
 

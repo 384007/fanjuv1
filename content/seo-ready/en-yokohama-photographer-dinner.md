@@ -4,7 +4,7 @@ canonicalPath: "/en/city/yokohama/photographer-dinner"
 alternatePath: "/city/yokohama/photographer-dinner"
 translationKey: "yokohama-photographer-dinner"
 lang: "en"
-title: "In Yokohama, Fanju app turns Photographer Dinner into a table people can actually trust"
+title: "In Yokohama, Fanju app turns Photographer Dinner into a table people can actually trust | fanju-app"
 description: "In Yokohama, where the harbour breeze carries whispers of history and innovation, the Fanju app is quietly reshaping how people connect, turning the concept of a \"Photographer Dinner\" from a potentially awkward gathering"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# In Yokohama, Fanju app turns Photographer Dinner into a table people can actually trust
+# In Yokohama, Fanju app turns Photographer Dinner into a table people can actually trust | fanju-app
 
 In Yokohama, where the harbour breeze carries whispers of history and innovation, the Fanju app is quietly reshaping how people connect, turning the concept of a "Photographer Dinner" from a potentially awkward gathering into a trusted community experience. This isn't about grand pronouncements; it's about the small, consistent acts of bringing people together, fostering genuine connections over shared meals and conversations, and building a neighbourhood fabric, one table at a time. The Fanju app provides the framework, but it's the people of Yokohama, showing up and engaging, who truly build these enduring social circles.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/yokohama/mandarin-dinner"
 alternatePath: "/city/yokohama/mandarin-dinner"
 translationKey: "yokohama-mandarin-dinner"
 lang: "en"
-title: "How Fanju app turns a Yokohama Mandarin Dinner night into something worth showing up for"
+title: "How Fanju app turns a Yokohama Mandarin Dinner night into something worth showing up for | fanju-app"
 description: "Mandarin Dinner in Yokohama isn’t just about food—it’s about who’s sitting across from you and whether the conversation has room to breathe."
 primaryKeyword: "Yokohama Mandarin Dinner"
 secondaryKeywords: "Yokohama social dining|Mandarin dinner group|dinner buddy app|Fanju app|small-table dinner in Yokohama"
@@ -22,7 +22,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T230007Z"
 ---
 
-# How Fanju app turns a Yokohama Mandarin Dinner night into something worth showing up for
+# How Fanju app turns a Yokohama Mandarin Dinner night into something worth showing up for | fanju-app
 
 The first time you stand outside a restaurant in Yokohama with no familiar faces in sight, the decision to walk in or keep walking feels heavier than it should. That hesitation is real, especially when you’re new to the city and the evening hinges on connecting with strangers over a Mandarin Dinner. The Fanju app doesn’t promise instant friendships or loud, easy chemistry. Instead, it offers something quieter but more useful: structure. By organizing small, intentional dinners where the host shares their reasoning upfront and the guest list is carefully considered, Fanju reduces the uncertainty that keeps people from showing up. In a city like Yokohama, where the pace is steady but personal space is respected, that subtle shift makes all the difference.
 

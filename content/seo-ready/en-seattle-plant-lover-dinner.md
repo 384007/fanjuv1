@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seattle/plant-lover-dinner"
 alternatePath: "/city/seattle/plant-lover-dinner"
 translationKey: "seattle-plant-lover-dinner"
 lang: "en"
-title: "Seattle does not need another vague invite; Fanju app makes Plant Lover Dinner specific"
+title: "Seattle does not need another vague invite; Fanju app makes Plant Lover Dinner specific | fanju-app"
 description: "In a city where fog rolls in as predictably as weekend plans fall through, Seattle residents know how isolating urban life can become—even in a place celebrated for coffee shop greetings and farmers market waves. The Fan"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Seattle does not need another vague invite; Fanju app makes Plant Lover Dinner specific
+# Seattle does not need another vague invite; Fanju app makes Plant Lover Dinner specific | fanju-app
 
 In a city where fog rolls in as predictably as weekend plans fall through, Seattle residents know how isolating urban life can become—even in a place celebrated for coffee shop greetings and farmers market waves. The Fanju app responds to that quiet loneliness not with grand gestures, but with something far more precise: small, intentional dinners where the theme is clear, the host is visible, and the table is already set. For those drawn to greenery and quiet conversation, Plant Lover Dinner on Fanju is not a networking event or a performance. It’s a chance to sit across from someone who brought a propagated pothos as a host gift, to talk about root rot instead of resumes, and to feel, just for a few hours, like part of a neighborhood that’s harder to find in real life. The app’s structure removes guesswork, anchoring connection in shared interest and reliable logistics.
 

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/guangzhou/curated-dinner"
 alternatePath: "/city/guangzhou/curated-dinner"
 translationKey: "guangzhou-curated-dinner"
 lang: "en"
-title: "Guangzhou Curated Dinner Guide"
+title: "Guangzhou Curated Dinner Guide | fanju-app"
 titleZh: "Guangzhou Curated Dinner Guide"
 pageType: "city_landing"
 priorityScore: 50
@@ -12,7 +12,7 @@ aiQualityScore: 100
 status: "ready"
 ---
 
-# Guangzhou Curated Dinner Guide
+# Guangzhou Curated Dinner Guide | fanju-app
 
 ## What Is This Page About
 

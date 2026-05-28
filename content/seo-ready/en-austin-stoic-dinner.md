@@ -4,7 +4,7 @@ canonicalPath: "/en/city/austin/stoic-dinner"
 alternatePath: "/city/austin/stoic-dinner"
 translationKey: "austin-stoic-dinner"
 lang: "en"
-title: "When Stoic Dinner feels too loose in Austin, Fanju app starts with the table"
+title: "When Stoic Dinner feels too loose in Austin, Fanju app starts with the table | fanju-app"
 description: "When dinner plans in Austin drift into vague social gatherings with no clear rhythm, the Fanju app offers a grounded alternative: the table as anchor. It’s not about packed venues or loud group chats, but about selecting"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# When Stoic Dinner feels too loose in Austin, Fanju app starts with the table
+# When Stoic Dinner feels too loose in Austin, Fanju app starts with the table | fanju-app
 
 When dinner plans in Austin drift into vague social gatherings with no clear rhythm, the Fanju app offers a grounded alternative: the table as anchor. It’s not about packed venues or loud group chats, but about selecting one meal that sets the tone for the weekend. In a city where Friday nights blur into Sunday brunches without much meaning, Stoic Dinner on Fanju shifts the focus from how much you do to how well you connect. It’s not another event platform—it’s a quiet recalibration, making dinner the center of intentionality instead of an afterthought. The app doesn’t hype experiences; it surfaces real tables, real people, and real conversations, starting with who sits where and why.
 

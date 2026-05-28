@@ -4,7 +4,7 @@ canonicalPath: "/en/city/yokohama/returnee-dinner"
 alternatePath: "/city/yokohama/returnee-dinner"
 translationKey: "yokohama-returnee-dinner"
 lang: "en"
-title: "Why Returnee Dinner in Yokohama works better when Fanju app keeps the table small"
+title: "Why Returnee Dinner in Yokohama works better when Fanju app keeps the table small | fanju-app"
 description: "It’s a Saturday evening in Yokohama, and Mina has just returned from five years in Melbourne. She scrolls through the Fanju app, not looking for a party or a bar crawl, but a dinner where she won’t have to perform. The a"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Why Returnee Dinner in Yokohama works better when Fanju app keeps the table small
+# Why Returnee Dinner in Yokohama works better when Fanju app keeps the table small | fanju-app
 
 It’s a Saturday evening in Yokohama, and Mina has just returned from five years in Melbourne. She scrolls through the Fanju app, not looking for a party or a bar crawl, but a dinner where she won’t have to perform. The app shows a Returnee Dinner: eight people, three of them women, all under 38, meeting in a low-lit izakaya near Sakuragicho. No icebreakers, no mandatory sharing. The group size is capped at eight — no more. That’s what makes the difference. For women like Mina, returnees who are reacclimating to social rhythms in Japan, the small table isn’t just convenient — it’s a quiet act of care. Fanju app’s design limits group size deliberately, reducing pressure and amplifying comfort. In a city where post-work gatherings can blur into something loud and exhausting, this format creates space to re-enter without being overwhelmed.
 

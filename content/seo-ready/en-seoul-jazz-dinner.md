@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seoul/jazz-dinner"
 alternatePath: "/city/seoul/jazz-dinner"
 translationKey: "seoul-jazz-dinner"
 lang: "en"
-title: "Before the first message in Seoul, Fanju app makes Jazz Dinner feel like a real decision"
+title: "Before the first message in Seoul, Fanju app makes Jazz Dinner feel like a real decision | fanju-app"
 description: "In Seoul, deciding where to eat with someone new shouldn’t mean sifting through impersonal reviews or guessing from dimly lit photos. The Fanju app changes that by anchoring Jazz Dinner plans in verifiable local experien"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Before the first message in Seoul, Fanju app makes Jazz Dinner feel like a real decision
+# Before the first message in Seoul, Fanju app makes Jazz Dinner feel like a real decision | fanju-app
 
 In Seoul, deciding where to eat with someone new shouldn’t mean sifting through impersonal reviews or guessing from dimly lit photos. The Fanju app changes that by anchoring Jazz Dinner plans in verifiable local experience—showing not just who’s hosting, but how long they’ve lived in Mapo, what neighborhood jazz bar they return to, and whether they cook at home often. This isn’t about curated perfection. It’s about giving enough quiet, honest context so that saying yes to a table in Itaewon or Hongdae feels like choosing a person, not a performance. In a city where dinner plans dissolve into “maybe later,” Fanju grounds the moment with subtle signals: a shared postal code, a host’s preferred instrument, the fact they once hosted during Chuseok. That small weight of realness makes the difference between another vague meetup and a night that stays with you.
 

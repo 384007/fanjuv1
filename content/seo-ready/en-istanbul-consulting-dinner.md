@@ -4,7 +4,7 @@ canonicalPath: "/en/city/istanbul/consulting-dinner"
 alternatePath: "/city/istanbul/consulting-dinner"
 translationKey: "istanbul-consulting-dinner"
 lang: "en"
-title: "For people trying Consulting Dinner in Istanbul, Fanju app puts the guest mix first"
+title: "For people trying Consulting Dinner in Istanbul, Fanju app puts the guest mix first | fanju-app"
 description: "You’ve heard about Consulting Dinner in Istanbul through the Fanju app, but you’re not sure what it actually means to show up. It’s not a restaurant. It’s not a networking event. It’s a dinner hosted in someone’s home, u"
 pageType: "city_article"
 priorityScore: 70
@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# For people trying Consulting Dinner in Istanbul, Fanju app puts the guest mix first
+# For people trying Consulting Dinner in Istanbul, Fanju app puts the guest mix first | fanju-app
 
 You’ve heard about Consulting Dinner in Istanbul through the Fanju app, but you’re not sure what it actually means to show up. It’s not a restaurant. It’s not a networking event. It’s a dinner hosted in someone’s home, usually near Kadıköy or Beşiktaş, where conversation is meant to matter more than the food. The Fanju app doesn’t sell you on experience — it asks if you’re ready for one. First-timers often hesitate, especially in a city where social lines between formality and warmth can feel unclear. But that hesitation is part of the design. The app filters for people who are curious, not performative. In Istanbul, where dinner can stretch into long, layered conversations about history, politics, or the price of simit, the right table feels less like an event and more like a moment that was waiting to happen.
 
