@@ -31,8 +31,7 @@ OUTPUT_PATHS = [
 ]
 
 AI_PROVIDER_ORDER = "cerebras,cerebras2,cerebras3,cerebras4,groq,groq2,gemini,gemini2,openrouter,nvidia,nvidia2,cloudflare"
-<<<<<<< Updated upstream
-=======
+
 RUNTIME_PIPELINE_FILES = [
     "modal_article_audit.py",
     "components/seo-ready-article-page.tsx",
@@ -44,7 +43,6 @@ RUNTIME_PIPELINE_FILES = [
     "scripts/seo/audit-anti-template.mjs",
     "scripts/seo/audit-external-publish-proof.mjs",
 ]
->>>>>>> Stashed changes
 
 QUALITY_SCORE_THRESHOLDS = {
     "OriginalityScore": 85,
