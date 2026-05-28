@@ -7,7 +7,7 @@ import { execFileSync } from "child_process"
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "fs"
 import { dirname, join } from "path"
 import { fileURLToPath } from "url"
-import { generateWithRouter, sleep, DEFAULT_PROVIDER_ORDER } from "./ai-router.mjs"
+import { generateWithRouter, sleep } from "./ai-router.mjs"
 import {
   ARTICLE_BRIEF_VERSION,
   historicalSkipReason,
@@ -15,13 +15,6 @@ import {
   localeCityTypeKeyFor,
   routeKeyFor,
 } from "./prompt-bank-history.mjs"
-import {
-  headingFailsTemplateH2Check,
-  metaForPromptArticle,
-  metaForReadyEntry,
-  sourceBodyIssues,
-  sourceBodyIssuesForPrompt,
-} from "./seo-ready-source-check.mjs"
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, "../..")
@@ -39,8 +32,8 @@ const RATE_DELAY_MS = Number.parseInt(process.env.RATE_DELAY_MS || "1200", 10)
 const TIMEOUT_MS = Number.parseInt(process.env.TIMEOUT_MS || "90000", 10)
 const CF_TIMEOUT_MS = Number.parseInt(process.env.CF_TIMEOUT_MS || "30000", 10)
 const MAX_TOKENS = Number.parseInt(process.env.MAX_TOKENS || "4200", 10)
-const MIN_SCORE = Number.parseInt(process.env.MIN_SCORE || "80", 10)
-const QUALITY_ATTEMPTS = Math.max(1, Number.parseInt(process.env.QUALITY_ATTEMPTS || "5", 10))
+const MIN_SCORE = Number.parseInt(process.env.MIN_SCORE || "90", 10)
+const QUALITY_ATTEMPTS = Math.max(1, Number.parseInt(process.env.QUALITY_ATTEMPTS || "3", 10))
 const DUPLICATE_HEADING_ATTEMPTS = Math.max(QUALITY_ATTEMPTS, Number.parseInt(process.env.DUPLICATE_HEADING_ATTEMPTS || "8", 10))
 const QUALITY_RETRY_DELAY_MS = Number.parseInt(process.env.QUALITY_RETRY_DELAY_MS || "1500", 10)
 const MULTI_AI_CANDIDATES = process.env.MULTI_AI_CANDIDATES === "1"
@@ -58,7 +51,7 @@ let routeCityNameIndexCache = null
 
 // D1/R2 publishing uses the Cloudflare API token below. Workers AI may require
 // a different token scope, so keep it out of the default generation fallback.
-process.env.AI_PROVIDER_ORDER ||= "aion,aion2,aion3,aion4,aion5,aion6,aion7,aion8,aion9,aion10,cerebras,cerebras2,cerebras3,cerebras4,cerebras5,cerebras6,groq,groq2,gemini,gemini2,openrouter,nvidia,nvidia2,cloudflare"
+process.env.AI_PROVIDER_ORDER ||= "groq,nvidia,cerebras,gemini,openrouter,cloudflare"
 
 const CLOUDFLARE_ACCOUNT_ID = cleanEnv(process.env.CLOUDFLARE_ACCOUNT_ID)
 const CLOUDFLARE_API_TOKEN = cleanToken(process.env.CLOUDFLARE_API_TOKEN || process.env.CLOUDFLARE_AUTH_TOKEN)
@@ -142,99 +135,11 @@ const BANNED_PHRASES_FOR_BODY = [
   /自动化(脚本|部署|流水线|发布|生成)/,
 ]
 
-const BANNED_HEADING_PATTERNS = [
-  /你是否曾经/i,
-  /在这座城市，无论是初来乍到还是久居于此/i,
-  /饭局app先把这一桌说清楚/i,
-  /回到.+饭局/i,
-  /最后一点/i,
-  /一个具体下一步/i,
-  /这一桌：/i,
-  /不能只靠一句有人来吗/i,
-  /大城市里的一张小桌/i,
-  /开场的第一句话/i,
-  /关于通过饭局app找到对的/i,
-  /值不值得留下/i,
-  /先把这一桌说清楚/i,
-  /饭局饭局/i,
-  /同城同城饭局/i,
-  /饭搭子饭搭子/i,
-  /Final thoughts/i,
-  /A guide to/i,
-  /Discover city through dinner/i,
-  /What to check before joining/i,
-  /How to know this is not just another meetup/i,
-  /The one thing/i,
-  /A final note/i,
-]
-
-function cleanRepeatedSeoTerms(value = "") {
-  return String(value || "")
-    .replace(/同城同城饭局/g, "同城饭局")
-    .replace(/同城同城/g, "同城")
-    .replace(/饭局饭局/g, "饭局")
-    .replace(/饭搭子饭搭子/g, "饭搭子")
-    .replace(/饭局app的饭局/g, "Fanju 小桌饭局")
-}
-
-function cleanForbiddenHeadingText(value = "") {
-  return cleanRepeatedSeoTerms(value)
-    .replace(/你是否曾经/g, "报名前")
-    .replace(/在这座城市，无论是初来乍到还是久居于此/g, "在本地生活里")
-    .replace(/饭局app先把这一桌说清楚/g, "Fanju 先把主题和边界说清楚")
-    .replace(/回到([^，。]+)饭局/g, "$1饭局")
-    .replace(/最后一点/g, "最后要确认的边界")
-    .replace(/一个具体下一步/g, "一个实际后续")
-    .replace(/这一桌：/g, "")
-    .replace(/不能只靠一句有人来吗/g, "要先说明谁适合坐下来")
-    .replace(/大城市里的一张小桌/g, "小桌饭局")
-    .replace(/开场的第一句话/g, "开场信号")
-    .replace(/关于通过饭局app找到对的/g, "如何判断适合自己的")
-    .replace(/值不值得留下/g, "是否适合继续参与")
-    .replace(/先把这一桌说清楚/g, "先把主题和边界说清楚")
-    .replace(/\bFinal thoughts\b/gi, "What the table should leave clear")
-    .replace(/\bA guide to\b/gi, "A specific look at")
-    .replace(/\bDiscover city through dinner\b/gi, "Meet through dinner")
-    .replace(/\bWhat to check before joining\b/gi, "Signals worth reading before joining")
-    .replace(/\bHow to know this is not just another meetup\b/gi, "How the table shows its intent")
-    .replace(/\bThe one thing\b/gi, "One practical signal")
-    .replace(/\bA final note\b/gi, "A practical note")
-    .replace(/\s+/g, " ")
-    .trim()
-}
-
-function sanitizeMarkdownBody(body = "") {
-  const normalized = normalizeMarkdownHeadingSpacing(cleanRepeatedSeoTerms(stripPublicLinksPreserveWhitespace(body)))
-  return normalized
-    .split("\n")
-    .map((line) => {
-      const heading = line.match(/^(#{1,10})\s+(.+)$/)
-      if (!heading) return cleanRepeatedSeoTerms(line)
-      const level = Math.min(3, heading[1].length)
-      return `${"#".repeat(level)} ${cleanForbiddenHeadingText(heading[2])}`
-    })
-    .join("\n")
-    .replace(/\n{3,}/g, "\n\n")
-    .trim()
-}
-
-function stripPublicLinksPreserveWhitespace(text = "") {
-  return String(text || "")
-    .replace(/!\[([^\]]*)\]\([^)]+\)/g, "$1")
-    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
-    .replace(/<a\b[^>]*>([\s\S]*?)<\/a>/gi, "$1")
-    .replace(/https?:\/\/[^\s)]+/gi, "")
-}
-
 function detectLeaks(text, prompt = {}) {
   if (!text) return []
-  const criticalPatterns = [
-    /\bbodyHash\b/,
-    /\bpromptHash\b/,
-    /\bprofileHash\b/
-  ]
   const hits = []
-  for (const pattern of criticalPatterns) {
+  for (const pattern of BANNED_PHRASES_FOR_BODY) {
+    if (String(prompt.topicSlug || "").includes("devops") && String(pattern) === "/自动化(脚本|部署|流水线|发布|生成)/") continue
     if (pattern.test(text)) hits.push(String(pattern))
   }
   return hits
@@ -495,7 +400,6 @@ function markdownForEntry(entry) {
   const score = Math.trunc(Number(entry.score) || 0)
   const sourceSlug = entry.sourceSlug || entry.sourceFile?.replace(/\.md$/, "") || sourceSlugForPrompt(entry)
   const titleZh = entry.locale === "zh" ? entry.title : ""
-  const keywords = seoKeywordsForEntry(entry)
   const frontmatter = [
     "---",
     `slug: ${yamlString(sourceSlug)}`,
@@ -506,8 +410,6 @@ function markdownForEntry(entry) {
     `title: ${yamlString(entry.title)}`,
     titleZh ? `titleZh: ${yamlString(titleZh)}` : "",
     `description: ${yamlString(entry.description)}`,
-    `primaryKeyword: ${yamlString(keywords.primaryKeyword)}`,
-    `secondaryKeywords: ${yamlString(keywords.secondaryKeywords.join("|"))}`,
     `pageType: ${yamlString("city_article")}`,
     "priorityScore: 70",
     `aiQualityScore: ${score}`,
@@ -564,65 +466,14 @@ function cleanMetaDescriptionText(value = "") {
     .trim()
 }
 
-function hasSentenceEnd(value = "", locale = "zh") {
-  return locale === "en" ? /[.!?]["')\]]?$/.test(String(value).trim()) : /[。！？]["')\]]?$/.test(String(value).trim())
-}
-
 function trimMetaDescription(value = "", locale = "zh") {
   const max = locale === "en" ? 220 : 120
   const cleaned = cleanMetaDescriptionText(value)
-  if (!cleaned) return ""
-  const sentencePattern = locale === "en" ? /[^.!?]+[.!?]["')\]]?/g : /[^。！？]+[。！？]["')\]]?/g
-  const sentences = cleaned.match(sentencePattern)?.map((s) => s.trim()).filter(Boolean) || []
-  let out = ""
-  for (const sentence of sentences) {
-    const next = out ? `${out} ${sentence}` : sentence
-    if (next.length > max && out) break
-    if (next.length > max) return out
-    out = next
-  }
-  if (out && hasSentenceEnd(out, locale)) return out
-  return cleaned.length <= max && hasSentenceEnd(cleaned, locale) ? cleaned : ""
-}
-
-function topicKeywordBaseEn(topicName = "", topicSlug = "") {
-  const name = String(topicName || "").trim() || String(topicSlug || "").replace(/-/g, " ")
-  return name.replace(/\s+dinner$/i, "").trim() || name
-}
-
-function topicKeywordBaseZh(topicName = "", topicSlug = "") {
-  const name = String(topicName || "").trim() || String(topicSlug || "").replace(/-/g, "")
-  return name.replace(/饭局$/, "").trim() || name
-}
-
-function seoKeywordsForEntry(entry) {
-  if (entry.locale === "en") {
-    const city = String(entry.cityNameLocalized || entry.cityNameEn || entry.citySlug || "").trim()
-    const topicBase = topicKeywordBaseEn(entry.topicNameLocalized, entry.topicSlug)
-    return {
-      primaryKeyword: `${city} ${topicBase} Dinner`,
-      secondaryKeywords: [
-        `${city} social dining`,
-        `${topicBase} dinner group`,
-        "dinner buddy app",
-        "Fanju app",
-        `small-table dinner in ${city}`,
-      ],
-    }
-  }
-
-  const city = String(entry.cityNameLocalized || entry.cityNameZh || "").trim()
-  const topicBase = topicKeywordBaseZh(entry.topicNameLocalized, entry.topicSlug)
-  return {
-    primaryKeyword: `${city}${topicBase}饭局`,
-    secondaryKeywords: [
-      `${city}饭搭子`,
-      `${city}同城饭局`,
-      `${topicBase}饭局`,
-      "饭局app",
-      "Fanju饭局",
-    ],
-  }
+  if (cleaned.length <= max) return cleaned
+  const cut = cleaned.slice(0, max)
+  return locale === "en"
+    ? cut.replace(/\s+\S*$/, "").trim() || cut.trim()
+    : cut.trim()
 }
 
 function metaDescriptionForArticle(prompt, body = "", firstParagraph = "") {
@@ -641,11 +492,11 @@ function metaDescriptionForArticle(prompt, body = "", firstParagraph = "") {
     const city = String(prompt.cityNameLocalized || prompt.cityNameZh || prompt.cityNameEn || prompt.citySlug || "").trim()
     if (city) description = prompt.locale === "en" ? `${city}: ${description}` : `${city}：${description}`
   }
-  return trimMetaDescription(description, prompt.locale) || trimMetaDescription(firstParagraph, prompt.locale)
+  return trimMetaDescription(description, prompt.locale)
 }
 
 function extractMarkdownArticle(prompt, text) {
-  const cleaned = sanitizeMarkdownBody(repairHeadings(prompt, normalizeMarkdownHeadingSpacing(stripMarkdownFence(text))))
+  const cleaned = repairHeadings(prompt, normalizeMarkdownHeadingSpacing(stripMarkdownFence(text)))
   if (!cleaned || looksLikeJsonWrapper(cleaned)) return null
   if (!/^#\s+.+$/m.test(cleaned)) return null
   if (countMarkdownHeadings(cleaned, 2) < 5) return null
@@ -666,55 +517,8 @@ function extractMarkdownArticle(prompt, text) {
   }
 }
 
-function extractJsonObject(text = "") {
-  const raw = stripMarkdownFence(text).trim()
-  try {
-    const parsed = JSON.parse(raw)
-    if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) return parsed
-  } catch {
-    // Continue to substring extraction
-  }
-  const start = raw.indexOf("{")
-  const end = raw.lastIndexOf("}")
-  if (start >= 0 && end > start) {
-    const jsonCandidate = raw.slice(start, end + 1)
-    try {
-      const parsed = JSON.parse(jsonCandidate)
-      if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) return parsed
-    } catch {
-      // Last resort: try cleaning common AI garbage like trailing commas or multiple objects
-      try {
-        const cleaned = jsonCandidate.replace(/,(\s*[}\]])/g, "$1")
-        const parsed = JSON.parse(cleaned)
-        if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) return parsed
-      } catch {
-        return null
-      }
-    }
-  }
-  return null
-}
-
-function parseArticleDataJson(prompt, content) {
-  const json = extractJsonObject(content)
-  if (!json) return null
-  const body = sanitizeMarkdownBody(json.bodyMarkdown || json.body || json.markdown || "")
-  const h1 = String(json.h1 || markdownH1(body) || json.title || "").trim()
-  if (!body || !h1) return null
-  const bodyWithH1 = /^#\s+.+$/m.test(body) ? body : `# ${h1}\n\n${body}`
-  return {
-    title: cleanForbiddenHeadingText(json.title || h1),
-    description: cleanMetaDescriptionText(cleanRepeatedSeoTerms(json.description || json.metaDescription || "")),
-    body: sanitizeMarkdownBody(bodyWithH1),
-    slug: modelSlugForR2(prompt, json.slug),
-    locale: json.locale || prompt.locale,
-    faq: Array.isArray(json.faq) ? json.faq : [],
-    internalLinks: Array.isArray(json.internalLinks) ? json.internalLinks : [],
-  }
-}
-
 function parseModelArticle(prompt, content) {
-  return parseArticleDataJson(prompt, content) || extractMarkdownArticle(prompt, content)
+  return extractMarkdownArticle(prompt, content)
 }
 
 function looksLikeJsonWrapper(text = "") {
@@ -1229,15 +1033,6 @@ function templateHeadingHits(body) {
   return headings.filter((heading) => generic.has(heading)).length
 }
 
-function endsWithWeakConnector(value = "", locale = "zh") {
-  const text = String(value || "").trim().toLowerCase()
-  if (!text) return true
-  if (/[，,;；:]$/.test(text)) return true
-  if (locale === "en" && /\b(and|or|but|because|with|for|to|of|in|at|from|through|while|where|that|which)$/.test(text)) return true
-  if (locale !== "en" && /(和|与|以及|但是|因为|如果|为了|通过|关于|以及|而|并且)$/.test(text)) return true
-  return false
-}
-
 function includesCity(prompt, text) {
   const city = String(prompt.cityNameLocalized || "").trim()
   if (!city) return true
@@ -1273,33 +1068,25 @@ function scoreArticle(prompt, parsed) {
   if (!description || description.length < (prompt.locale === "en" ? 80 : 35)) {
     issues.push("missing-or-short-description")
   }
-  if (description && !hasSentenceEnd(description, prompt.locale)) {
-    issues.push("description-not-complete-sentence")
-  }
 
-  const minLen = prompt.locale === "en" ? 1200 : 800
+  const minLen = prompt.locale === "en" ? 3200 : 2200
   if (body.length < minLen) issues.push(`body-too-short:${body.length}`)
   // no upper limit on body length — longer is better for SEO
-  if (!markdownH1(body)) issues.push("missing-h1")
-
   if (prompt.locale === "en" && !/Fanju app/i.test(`${title}\n${description}\n${body.slice(0, 600)}`)) {
     issues.push("missing-primary-keyword:fanju-app")
   }
-  if (prompt.locale === "zh" && !/(Fanju|饭局\s*app)/i.test(`${title}\n${description}\n${body.slice(0, 600)}`)) {
-    issues.push("missing-primary-keyword:fanju")
+  if (prompt.locale === "zh" && !`${title}\n${description}\n${body.slice(0, 600)}`.includes("饭局app")) {
+    issues.push("missing-primary-keyword:饭局app")
   }
   if (prompt.locale === "en" && !/Fanju app/i.test(title)) issues.push("title-missing-primary-keyword:fanju-app")
-  if (prompt.locale === "zh" && !/(饭局|饭搭子|Fanju)/i.test(title)) issues.push("title-missing-core-keyword")
-  if (prompt.locale === "en" && !/Fanju app|social dining|dinner buddy|small-table dinner/i.test(`${h1}\n${body.slice(0, 600)}`)) issues.push("h1-missing-primary-keyword:fanju-app")
-  if (prompt.locale === "zh" && !/(饭局|饭搭子|Fanju)/i.test(h1)) issues.push("h1-missing-core-keyword")
+  if (prompt.locale === "zh" && !title.includes("饭局app")) issues.push("title-missing-primary-keyword:饭局app")
+  if (prompt.locale === "en" && !/Fanju app/i.test(h1)) issues.push("h1-missing-primary-keyword:fanju-app")
+  if (prompt.locale === "zh" && !h1.includes("饭局app")) issues.push("h1-missing-primary-keyword:饭局app")
   if (!includesCity(prompt, `${title}\n${description}\n${body.slice(0, 1200)}`)) issues.push("missing-city-context")
   if (!includesCity(prompt, title)) issues.push("title-missing-city")
   if (!includesCity(prompt, h1)) issues.push("h1-missing-city")
   if (!includesCity(prompt, description)) issues.push("description-missing-city")
   const firstBodyParagraph = publicParagraphs(body)[0] || ""
-  if (!hasSentenceEnd(firstBodyParagraph, prompt.locale) || endsWithWeakConnector(firstBodyParagraph, prompt.locale)) {
-    issues.push("intro-paragraph-incomplete")
-  }
   const descriptionOpening = openingFingerprint(prompt, description)
   const introOpening = openingFingerprint(prompt, firstBodyParagraph)
   if (descriptionOpening && introOpening && descriptionOpening === introOpening) {
@@ -1321,20 +1108,9 @@ function scoreArticle(prompt, parsed) {
   }
   if (isTemplateTitle(prompt, title)) issues.push("template-title")
   if (isTemplateTitle(prompt, h1)) issues.push("template-h1")
-  const h2Count = countMarkdownHeadings(body, 2)
-  if (h2Count < 5) issues.push(`too-few-h2:${h2Count}`)
-  if (h2Count > 7) issues.push(`too-many-h2:${h2Count}`)
-  const deepHeading = markdownHeadings(body).find((heading) => heading.level > 3)
-  if (deepHeading) issues.push(`heading-too-deep:H${deepHeading.level}`)
-  const bannedHeadingHits = markdownHeadings(body)
-    .filter((heading) => BANNED_HEADING_PATTERNS.some((pattern) => pattern.test(heading.text)))
-    .map((heading) => `H${heading.level}:${heading.text.slice(0, 80)}`)
-  if (bannedHeadingHits.length) issues.push(`banned-heading:${bannedHeadingHits.slice(0, 3).join("|")}`)
-  if (prompt.locale === "zh") {
-    const descLength = description.length
-    if (descLength > 0 && (descLength < 70 || descLength > 150)) issues.push(`description-length:${descLength}`)
-    if (description && !/(Fanju|饭局|饭搭子|同城饭局)/i.test(description)) issues.push("description-missing-core-keyword")
-  }
+  if (countMarkdownHeadings(body, 2) < 5) issues.push(`too-few-h2:${countMarkdownHeadings(body, 2)}`)
+  if (countMarkdownHeadings(body, 3) < 1) issues.push(`too-few-h3:${countMarkdownHeadings(body, 3)}`)
+  if (countMarkdownHeadings(body, 4) < 1) issues.push(`too-few-h4:${countMarkdownHeadings(body, 4)}`)
   const minParagraphs = prompt.locale === "en" ? 10 : 10
   if (countParagraphs(body) < minParagraphs) issues.push(`too-few-paragraphs:${countParagraphs(body)}`)
   const duplicateH2 = duplicateMarkdownHeadings(body, 2)
@@ -1354,12 +1130,6 @@ function scoreArticle(prompt, parsed) {
   const malformedHeadings = malformedHeadingIssues(body)
   if (malformedHeadings.length > 0) issues.push(`malformed-heading:${malformedHeadings.join("|")}`)
 
-  const publishMeta = metaForPromptArticle(prompt, { title, description })
-  const publishIssues = sourceBodyIssues(publishMeta, body)
-  for (const issue of publishIssues) {
-    if (!issues.includes(issue)) issues.push(issue)
-  }
-
   if (issues.length === 0) return { score: 100, issues }
   if (issues.some(isHardIssue)) {
     return { score: 0, issues }
@@ -1369,49 +1139,64 @@ function scoreArticle(prompt, parsed) {
   if (issues.find((x) => x.startsWith("body-too-short"))) score -= 8
   if (issues.find((x) => x.startsWith("body-too-long"))) score -= 4
   if (issues.find((x) => x.startsWith("too-few-h2"))) score -= 12
-  if (issues.find((x) => x.startsWith("too-many-h2"))) score -= 6
-  if (issues.find((x) => x.startsWith("heading-too-deep"))) score -= 12
-  if (issues.find((x) => x.startsWith("banned-heading"))) score -= 12
-  if (issues.find((x) => x.startsWith("description-length"))) score -= 6
+  if (issues.find((x) => x.startsWith("too-few-h3"))) score -= 4
   if (issues.find((x) => x.startsWith("too-few-paragraphs"))) score -= 8
   if (issues.find((x) => x.startsWith("duplicate-h2"))) score -= 8
   if (issues.find((x) => x.startsWith("duplicate-paragraphs"))) score -= 10
   if (issues.find((x) => x.startsWith("repeated-generic-phrases"))) score -= 8
   if (issues.includes("missing-description")) score -= 8
   if (issues.includes("missing-title")) score -= 30
-
-  // Deduct 4 points for any other soft issues to ensure deterministic penalty
-  const explicitList = [
-    "body-too-short", "body-too-long", "too-few-h2", "too-many-h2",
-    "heading-too-deep", "banned-heading", "description-length", "too-few-paragraphs",
-    "duplicate-h2", "duplicate-paragraphs", "repeated-generic-phrases",
-    "missing-description", "missing-title"
-  ]
-  for (const issue of issues) {
-    const key = issue.split(":")[0]
-    if (isHardIssue(issue)) continue
-    if (!explicitList.includes(key)) {
-      score -= 4
-    }
-  }
-
   return { score: Math.max(score, 0), issues }
 }
 
 function isHardIssue(issue) {
   return (
+    issue.startsWith("tech-leak") ||
+    issue.startsWith("public-link") ||
+    issue === "json-wrapper-in-public-text" ||
+    issue === "code-fence-in-public-body" ||
+    issue.startsWith("body-too-short") ||
+    issue.startsWith("too-few-h2") ||
+    issue.startsWith("too-few-h3") ||
+    issue.startsWith("too-few-h4") ||
+    issue.startsWith("too-few-paragraphs") ||
+    issue.startsWith("duplicate-h2") ||
+    issue.startsWith("duplicate-heading") ||
+    issue.startsWith("duplicate-paragraphs") ||
+    issue.startsWith("repeated-paragraph-opening") ||
+    issue.startsWith("near-duplicate-paragraph") ||
+    issue.startsWith("intro-repeated-in-body") ||
+    issue.startsWith("repeated-generic-phrases") ||
+    issue.startsWith("template-heading-set") ||
+    issue.startsWith("template-h2") ||
+    issue === "template-title" ||
+    issue === "template-h1" ||
+    issue.startsWith("title-missing-primary-keyword") ||
+    issue.startsWith("h1-missing-primary-keyword") ||
+    issue === "title-missing-city" ||
+    issue === "h1-missing-city" ||
+    issue === "description-missing-city" ||
+    issue === "description-duplicates-intro-opening" ||
+    issue.startsWith("pinyin-city-name-in-zh-public-text") ||
+    issue.startsWith("latin-word-in-zh-title") ||
+    issue.startsWith("latin-word-in-zh-h1") ||
+    issue.startsWith("latin-word-in-zh-heading") ||
+    issue.startsWith("latin-word-in-zh-body") && (issue.split(":")[1] || "").split("|").length >= 5 ||
+    issue.startsWith("malformed-heading") ||
+    issue.startsWith("missing-primary-keyword") ||
+    issue === "missing-city-context" ||
+    issue === "locale-mismatch" ||
+    issue === "body-not-chinese" ||
+    issue === "body-not-english" ||
     issue === "json-parse-failed" ||
     issue === "missing-body" ||
+    issue === "missing-or-short-description" ||
     issue === "missing-title"
   )
 }
 
 function hasHardIssues(issues) {
   return issues.some(isHardIssue)
-}
-
-function hasPublishSourceBodyIssues(prompt, parsed) {
-  return sourceBodyIssuesForPrompt(prompt, parsed).length > 0
 }
 
 function mergeIssues(issues = [], extraIssues = []) {
@@ -1434,229 +1219,6 @@ function strictParsedHeadingIssues(parsed) {
 
 function hasDuplicateHeadingIssue(issues = []) {
   return issues.some((issue) => issue.startsWith("duplicate-heading") || issue.startsWith("duplicate-h2"))
-}
-
-function dedupeHeadingText(prompt, text = "", seen) {
-  const base = cleanForbiddenHeadingText(text)
-  const normalized = normalizeForTemplateCheck(base)
-  if (!seen.has(normalized)) {
-    seen.add(normalized)
-    return base
-  }
-  const suffixes = prompt.locale === "zh"
-    ? ["本地适配", "读者判断", "信任边界", "小桌信号", "下次饭局"]
-    : ["specific local fit", "reader decision", "trust boundary", "small-table signal", "next dinner fit"]
-  for (const suffix of suffixes) {
-    const candidate = `${base} ${suffix}`
-    const key = normalizeForTemplateCheck(candidate)
-    if (!seen.has(key)) {
-      seen.add(key)
-      return candidate
-    }
-  }
-  const candidate = `${base} ${seen.size + 1}`
-  seen.add(normalizeForTemplateCheck(candidate))
-  return candidate
-}
-
-function sanitizeBestParsedArticle(prompt, parsed) {
-  if (!parsed?.body) return parsed
-  const seen = new Set()
-  const body = sanitizeMarkdownBody(parsed.body)
-    .split("\n")
-    .map((line) => {
-      const heading = line.match(/^(#{1,10})\s+(.+)$/)
-      if (!heading) return cleanRepeatedSeoTerms(line)
-      const level = Math.min(3, heading[1].length)
-      return `${"#".repeat(level)} ${dedupeHeadingText(prompt, heading[2], seen)}`
-    })
-    .join("\n")
-    .replace(/\n{3,}/g, "\n\n")
-    .trim()
-  const title = cleanForbiddenHeadingText(parsed.title || markdownH1(body))
-  let description = cleanMetaDescriptionText(cleanRepeatedSeoTerms(parsed.description || ""))
-  if (prompt.locale === "zh" && (description.length < 70 || description.length > 150 || !description.includes(prompt.cityNameLocalized || ""))) {
-    description = `${prompt.cityNameLocalized}${prompt.topicNameLocalized}通过 Fanju 小桌饭局提前说明主题、公开地点、人数和费用边界，帮助同城用户判断这一桌是否适合自己。`
-  }
-  if (prompt.locale === "en" && description.length < 80) {
-    description = `${prompt.cityNameLocalized} ${prompt.topicNameLocalized} on Fanju app is a small-table social dining page with a clear host, public venue, guest fit, cost expectations, and comfort boundaries.`
-  }
-  return { ...parsed, title, description, body }
-}
-
-function stripLeakPhrasesFromText(text = "", topicSlug = "") {
-  let out = String(text || "")
-  for (const pattern of BANNED_PHRASES_FOR_BODY) {
-    if (String(topicSlug || "").includes("devops") && String(pattern) === "/自动化(脚本|部署|流水线|发布|生成)/") continue
-    out = out.replace(pattern, " ")
-  }
-  return out.replace(/\s{2,}/g, " ").trim()
-}
-
-function ensurePublishTitleAndMeta(prompt, parsed) {
-  const city = String(prompt.cityNameLocalized || "").trim()
-  const topic = String(prompt.topicNameLocalized || "").trim()
-  let title = cleanForbiddenHeadingText(parsed.title || markdownH1(parsed.body) || "")
-  let description = cleanMetaDescriptionText(stripLeakPhrasesFromText(parsed.description || ""))
-  let body = String(parsed.body || "").replace(/\r\n/g, "\n").trim()
-
-  if (prompt.locale === "zh") {
-    if (!title) title = `${city}${topic}饭局指南`
-    if (!/(饭局|饭搭子|Fanju)/i.test(title)) title = `${city}${topic}：Fanju 小桌饭局`
-    if (city && !title.includes(city)) title = `${city}${title}`
-    if (!description || description.length < 70 || description.length > 150 || (city && !description.includes(city))) {
-      description = `${city}${topic}通过 Fanju 小桌饭局提前说明主题、公开地点、人数和费用边界，帮助同城用户判断这一桌是否适合自己。`
-    }
-    if (description.length > 150) description = `${description.slice(0, 147).replace(/[，,;；\s]+$/, "")}。`
-    if (!/(饭局|饭搭子|Fanju)/i.test(description)) {
-      description = `${description.replace(/[。！？!?]+$/, "")}，适合通过饭局或饭搭子小桌认识同频的人。`
-    }
-  } else {
-    if (!title) title = `${city} ${topic} on Fanju app`
-    if (!/Fanju app/i.test(title)) title = `${title} | Fanju app`
-    if (city && !title.toLowerCase().includes(city.toLowerCase())) title = `${city}: ${title}`
-    if (!description || description.length < 80) {
-      description = `${city} ${topic} on Fanju app is a small-table social dining page with a clear host, public venue, guest fit, cost expectations, and comfort boundaries.`
-    }
-    if (!/Fanju app/i.test(description)) description = `${description} Fanju app helps readers judge the table before joining.`
-  }
-
-  if (!markdownH1(body)) body = `# ${title}\n\n${body}`
-  else body = body.replace(/^#\s+.+$/m, `# ${title}`)
-
-  return { ...parsed, title, description, body }
-}
-
-function stripUnsafePublishBody(body = "", topicSlug = "") {
-  let text = stripPublicLinks(String(body || "").replace(/\r\n/g, "\n"))
-  text = text.replace(/```[\s\S]*?```/g, "\n").replace(/```/g, "")
-  return text
-    .split("\n")
-    .map((line) => {
-      const trimmed = line.trim()
-      if (!trimmed) return ""
-      const heading = trimmed.match(/^(#{1,10})\s+(.+)$/)
-      if (heading) return `${heading[1]} ${cleanForbiddenHeadingText(stripLeakPhrasesFromText(heading[2], topicSlug))}`
-      return stripLeakPhrasesFromText(trimmed, topicSlug)
-    })
-    .join("\n")
-    .replace(/\n{3,}/g, "\n\n")
-    .trim()
-}
-
-function rewriteTemplateH2Lines(prompt, body = "") {
-  const meta = metaForPromptArticle(prompt, { title: "", description: "" })
-  const city = String(prompt.cityNameLocalized || "").trim()
-  const topic = String(prompt.topicNameLocalized || "").trim()
-  let counter = 0
-  return String(body || "")
-    .split("\n")
-    .map((line) => {
-      const heading = line.match(/^##\s+(.+)$/)
-      if (!heading) return line
-      if (!headingFailsTemplateH2Check(meta, heading[1])) return line
-      counter += 1
-      const replacement = prompt.locale === "zh"
-        ? `${city}${topic}现场判断点${counter}`
-        : `${topic} in ${city}: local signal ${counter}`
-      return `## ${cleanForbiddenHeadingText(replacement)}`
-    })
-    .join("\n")
-}
-
-function stripLatinFromZhHeadings(prompt, body = "") {
-  if (prompt.locale !== "zh") return body
-  return String(body || "")
-    .split("\n")
-    .map((line) => {
-      const heading = line.match(/^(#{1,10})\s+(.+)$/)
-      if (!heading) return line
-      const cleaned = heading[2]
-        .replace(/[A-Za-z][A-Za-z-]{2,}/g, (word) => (/^(fanju|app)$/i.test(word) ? word : ""))
-        .replace(/\s+/g, " ")
-        .trim()
-      return `${heading[1]} ${cleaned || heading[2]}`
-    })
-    .join("\n")
-}
-
-function paragraphFingerprintForDedupe(text = "") {
-  return String(text || "")
-    .replace(/^#+\s*/, "")
-    .replace(/\s+/g, "")
-    .replace(/[，。,.!?！？、；;：:"'“”‘’()（）[\]【】]/g, "")
-    .toLowerCase()
-}
-
-function dedupeBodyParagraphs(body = "") {
-  const parts = String(body || "").split(/\n{2,}/)
-  const seen = new Set()
-  const kept = []
-  for (const part of parts) {
-    const trimmed = part.trim()
-    if (!trimmed) continue
-    if (/^#{1,10}\s+/.test(trimmed)) {
-      kept.push(trimmed)
-      continue
-    }
-    const sig = paragraphFingerprintForDedupe(trimmed)
-    if (sig.length >= 80 && seen.has(sig)) continue
-    if (sig.length >= 80) seen.add(sig)
-    kept.push(trimmed)
-  }
-  return kept.join("\n\n")
-}
-
-function diversifyParagraphOpenings(prompt, body = "") {
-  const parts = String(body || "").split(/\n{2,}/)
-  const seen = new Map()
-  const out = []
-  for (const part of parts) {
-    const trimmed = part.trim()
-    if (!trimmed || /^#{1,10}\s+/.test(trimmed)) {
-      out.push(trimmed)
-      continue
-    }
-    const sig = openingFingerprint(prompt, trimmed)
-    if (!sig || sig.length < (prompt.locale === "en" ? 24 : 12)) {
-      out.push(trimmed)
-      continue
-    }
-    const count = seen.get(sig) || 0
-    seen.set(sig, count + 1)
-    if (count === 0) {
-      out.push(trimmed)
-      continue
-    }
-    const prefix = prompt.locale === "zh"
-      ? `在${prompt.cityNameLocalized || "本地"}，`
-      : `In ${prompt.cityNameLocalized || "this city"}, `
-    out.push(`${prefix}${trimmed}`)
-  }
-  return out.filter(Boolean).join("\n\n")
-}
-
-function finalizeParsedForPublish(prompt, parsed) {
-  if (!parsed?.body) return parsed
-  let current = sanitizeBestParsedArticle(prompt, parsed)
-  for (let pass = 0; pass < 6; pass++) {
-    current = ensurePublishTitleAndMeta(prompt, current)
-    let body = stripUnsafePublishBody(current.body, prompt.topicSlug)
-    body = rewriteTemplateH2Lines(prompt, body)
-    body = stripLatinFromZhHeadings(prompt, body)
-    body = dedupeBodyParagraphs(body)
-    body = diversifyParagraphOpenings(prompt, body)
-    current = sanitizeBestParsedArticle(prompt, { ...current, body })
-    if (sourceBodyIssuesForPrompt(prompt, current).length === 0) break
-  }
-  return current
-}
-
-function isPublishReady(prompt, parsed, scored) {
-  return (
-    scored.score >= MIN_SCORE &&
-    !hasHardIssues(scored.issues)
-  )
 }
 
 function escapeHtml(input = "") {
@@ -1765,8 +1327,8 @@ function retryIssueSummaryForModel(locale, issues = []) {
     else if (issue.startsWith("template-h2") || issue.startsWith("template-heading-set")) add(locale === "zh" ? "H2 过于通用或像模板" : "major headings too generic or template-like")
     else if (issue === "template-title") add(locale === "zh" ? "标题像模板" : "title too template-like")
     else if (issue === "template-h1") add(locale === "zh" ? "H1 像模板" : "H1 too template-like")
-    else if (issue.startsWith("title-missing-primary-keyword") || issue === "title-missing-core-keyword") add(locale === "zh" ? "标题需包含饭局、饭搭子或 Fanju" : "title missing brand phrase")
-    else if (issue.startsWith("h1-missing-primary-keyword") || issue === "h1-missing-core-keyword") add(locale === "zh" ? "H1 需包含饭局、饭搭子或 Fanju" : "H1 missing brand phrase")
+    else if (issue.startsWith("title-missing-primary-keyword")) add(locale === "zh" ? "标题缺少品牌词" : "title missing brand phrase")
+    else if (issue.startsWith("h1-missing-primary-keyword")) add(locale === "zh" ? "H1 缺少品牌词" : "H1 missing brand phrase")
     else if (issue === "missing-or-short-description") add(locale === "zh" ? "描述太短" : "description too short")
     else if (issue === "description-duplicates-intro-opening") add(locale === "zh" ? "描述不能复用正文首段开头" : "description repeats the opening paragraph")
     else if (issue.startsWith("missing-primary-keyword")) add(locale === "zh" ? "开头缺少品牌词" : "opening missing brand phrase")
@@ -1777,11 +1339,6 @@ function retryIssueSummaryForModel(locale, issues = []) {
       add(locale === "zh" ? `中文正文不能出现这些英文词：${words.replace(/\|/g, "、")}，请用中文替代或删除` : `body contains forbidden Latin words: ${words.replace(/\|/g, ", ")}; use Chinese equivalents or remove`)
     }
     else if (issue.startsWith("malformed-heading")) add(locale === "zh" ? "Markdown 标题格式错误" : "malformed Markdown headings")
-    else if (issue.startsWith("bad-public-pattern")) add(locale === "zh" ? "正文含禁止出现的生产/技术用语" : "forbidden production or technical wording")
-    else if (issue === "markdown-link-in-body" || issue === "html-link-in-body" || issue === "raw-url-in-body") add(locale === "zh" ? "正文不能有链接或 URL" : "no links or raw URLs in body")
-    else if (issue === "code-fence-in-body") add(locale === "zh" ? "正文不能有代码块" : "no code fences in body")
-    else if (issue.startsWith("template-heading-set")) add(locale === "zh" ? "通用 H2 标题过多" : "too many generic H2 headings")
-    else if (issue === "title-missing-core-keyword" || issue === "h1-missing-core-keyword") add(locale === "zh" ? "标题/H1 需包含饭局、饭搭子或 Fanju" : "title/H1 missing core brand phrase")
     else if (issue.startsWith("public-link")) add(locale === "zh" ? "公开文本含链接" : "public text contains links")
     else add(locale === "zh" ? "质量门未通过" : "quality gate failed")
   }
@@ -1789,139 +1346,7 @@ function retryIssueSummaryForModel(locale, issues = []) {
   return labels.length ? labels.join(locale === "zh" ? "；" : "; ") : (locale === "zh" ? "质量门未通过" : "quality gate failed")
 }
 
-function researchSystemInstructionFor(locale) {
-  return locale === "zh"
-    ? "你是 Fanju 的私有城市主题研究员。只输出 JSON 对象，不写公开文章，不写 Markdown，不编造具体餐厅、机构、人数、评价、媒体报道或结果承诺。"
-    : "You are Fanju's private city-topic research analyst. Return only a JSON object. Do not write the public article, Markdown, fake venues, fake institutions, fake attendance, testimonials, media claims, or outcome promises."
-}
-
-function researchPromptFor(prompt) {
-  const input = prompt.researchInput || prompt.articleBrief?.researchInput || {
-    route: prompt.route,
-    locale: prompt.locale,
-    citySlug: prompt.citySlug,
-    cityNameLocalized: prompt.cityNameLocalized,
-    cityNameZh: prompt.cityNameZh,
-    cityNameEn: prompt.cityNameEn,
-    countryCode: prompt.countryCode,
-    topicSlug: prompt.topicSlug,
-    topicNameLocalized: prompt.topicNameLocalized,
-    routeRole: prompt.routeRole,
-    seoClusterRole: prompt.seoClusterRole,
-    targetKeywordGroup: prompt.targetKeywordGroup,
-    seedMaterial: prompt.seedMaterial,
-  }
-  return [
-    "Generate a private cityTopicResearchBrief JSON object for this Fanju article route.",
-    "The JSON object must contain exactly these top-level keys: cityIdentity, topicFit, readerTension, localDinnerScenes, trustBoundaries, uniqueAngle, keywordIntent, seoClusterRole, articleDifferentiation.",
-    "cityIdentity: real local life impression, city rhythm, relationship between locals/newcomers/travellers/workers, and why dinner-based offline socializing fits. Do not write encyclopedia city copy.",
-    "topicFit: why this dinner type fits this city, concrete but safe dinner scenes, and specific audiences beyond 'people who want friends'.",
-    "readerTension: fears about awkwardness, safety, no shared topic, dating pressure, sales pressure, random group chats, unsuitable signup, unclear cost/location, and exit boundaries.",
-    "localDinnerScenes: 3-5 safe scene descriptions. Do not invent restaurant names, institutions, events, attendance, testimonials, press, funding amounts, or partnerships.",
-    "trustBoundaries: public venue, clear topic, clear cost, guest count boundary, host/rules clarity, ability to leave, personal boundaries, no guaranteed friendship, dating, funding, or business results, and no replacement for formal compliance processes.",
-    "uniqueAngle: why this exact city/type combination cannot be a city-name swap and the one concrete problem the article must solve.",
-    "keywordIntent: primary keyword, secondary keywords, natural mentions, forbidden stuffing patterns; for English include a ChineseCoreConceptBridge without forcing Chinese keywords.",
-    "seoClusterRole: pillarPageToSupport, cityParentPage, topicParentPage, relatedConceptPages, anchorIntent, internalLinkPurpose.",
-    "articleDifferentiation: difference from same-city other topic pages, difference from same-topic other city pages, template direction to avoid, and 3 must-write new information points.",
-    `Input:\n${JSON.stringify(input, null, 2)}`,
-    "Return only valid JSON. Do not include prompt, provider, Modal, Cloudflare, pipeline, JSONL, hash, or internal metadata words in any public-sounding copy.",
-  ].join("\n")
-}
-
-function normalizeResearchBrief(prompt, rawBrief) {
-  const input = prompt.researchInput || prompt.articleBrief?.researchInput || {}
-  const fallback = {
-    cityIdentity: {
-      impression: `${prompt.cityNameLocalized} needs a specific, non-generic dinner-social angle.`,
-      rhythm: "Use local life rhythm without fake facts.",
-    },
-    topicFit: { fit: `${prompt.topicNameLocalized} must be tied to real dinner scenes and specific participants.` },
-    readerTension: ["awkwardness", "safety", "unclear topic", "unclear cost", "unclear exit boundary"],
-    localDinnerScenes: ["public restaurant", "after-work dinner", "weekend small table"],
-    trustBoundaries: ["public venue", "clear topic", "clear cost", "small guest count", "can leave early", "no guaranteed outcomes"],
-    uniqueAngle: input.seedMaterial?.angle || `${prompt.cityNameLocalized} + ${prompt.topicNameLocalized} needs a route-specific angle.`,
-    keywordIntent: input.targetKeywordGroup || prompt.targetKeywordGroup || {},
-    seoClusterRole: input.seoClusterRole || prompt.seoClusterRole || {},
-    articleDifferentiation: {
-      avoid: "city-name-swap template",
-      mustWrite: input.seedMaterial?.localSignals || [],
-    },
-  }
-  return rawBrief && typeof rawBrief === "object" ? { ...fallback, ...rawBrief } : fallback
-}
-
-async function generateCityTopicResearchBrief(prompt) {
-  const generation = await generateWithRouter({
-    prompt: researchPromptFor(prompt),
-    system: researchSystemInstructionFor(prompt.locale),
-    maxTokens: Math.min(MAX_TOKENS, 2600),
-    timeoutMs: TIMEOUT_MS,
-    providerOrder: providerOrderForPrompt(prompt),
-  })
-  const parsed = extractJsonObject(generation.content)
-  if (!parsed) {
-    console.log(`[BRIEF] ${prompt.promptId} ${generation.provider} returned non-JSON brief; using normalized fallback from route input`)
-  } else {
-    console.log(`[BRIEF] ${prompt.promptId} ${prompt.route} via ${generation.provider}`)
-  }
-  return normalizeResearchBrief(prompt, parsed)
-}
-
-function writingSystemInstructionFor(locale) {
-  return locale === "zh"
-    ? "你是 Fanju 的 SEO / AI SEO 编辑。基于私有 cityTopicResearchBrief 写公开文章数据。只输出 JSON 对象；不要公开 brief、研究过程、prompt、AI provider、Modal、Cloudflare、pipeline、JSONL、hash 或 internal metadata。"
-    : "You are Fanju's SEO / AI SEO editor. Write public article data from a private cityTopicResearchBrief. Return only a JSON object. Never reveal the brief, research process, prompt, AI provider, Modal, Cloudflare, pipeline, JSONL, hash, or internal metadata."
-}
-
-function headingContractFor(locale) {
-  return locale === "zh"
-    ? "标题规则：H1 唯一；4-7 个 H2；0-4 个 H3；不要 H4 或更深；H2/H3 必须现场生成，不能固定模板；不要每个标题都塞城市名和主题词；禁止标题出现禁用模式。"
-    : "Heading rules: one unique H1; 4-7 H2; 0-4 H3; no H4 or deeper; headings must be generated from this city, topic, reader intent, and SEO role, not from a reusable template; do not stuff city/topic into every heading; avoid banned heading patterns."
-}
-
-function publicArticleContractFor(prompt, brief, attempt, issues = []) {
-  const isEn = prompt.locale === "en"
-  const issueLine = attempt > 1
-    ? (isEn
-      ? `Previous draft issues to repair: ${retryIssueSummaryForModel(prompt.locale, issues)}. Rewrite internally; do not fail.`
-      : `上一稿需要内部自修：${retryIssueSummaryForModel(prompt.locale, issues)}。请内部重写，不要失败退出。`)
-    : ""
-  if (isEn) {
-    return [
-      `Route: ${prompt.route}`,
-      `City: ${prompt.cityNameLocalized}. City slug: ${prompt.citySlug}. Topic: ${prompt.topicNameLocalized}. Topic slug: ${prompt.topicSlug}.`,
-      `Private research brief (INTERNAL USE ONLY):\n${JSON.stringify(brief, null, 2)}`,
-      headingContractFor(prompt.locale),
-      "ARTICLE QUALITY MANDATE: WRITE A DEEP-DIVE PILLAR ARTICLE (1200-2000 WORDS).",
-      "1. UNIQUNESS: Avoid all generic travel-guide cliches. Write like a local underground connector who knows the real rhythm of this city. Every paragraph must be specific to THIS city and THIS topic.",
-      "2. STRUCTURE: 5-8 H2 sections. Each H2 must have at least 3-4 substantial paragraphs. No short 'summary' sections.",
-      "3. FANJU CORE: Explain why 'social dining' and 'small tables' are the solution to city loneliness. Explicitly contrast Fanju app with loose meetups, dating apps, and big events.",
-      "4. KEYWORDS: Naturally mention 'social dining', 'dinner buddy', 'small-table dinner', and 'Fanju app' frequently (at least every 300 words).",
-      "5. DO NOT: Invent facts, use Markdown links, or mention the AI process.",
-      "Return JSON: {title, description, h1, bodyMarkdown, faq, internalLinks}. bodyMarkdown MUST include the H1 as '# ' and be very long.",
-      issueLine,
-    ].filter(Boolean).join("\n")
-  }
-  return [
-    `路由：${prompt.route}`,
-    `城市：${prompt.cityNameLocalized}。城市 slug：${prompt.citySlug}。主题：${prompt.topicNameLocalized}。主题 slug：${prompt.topicSlug}。`,
-    `私有 cityTopicResearchBrief，仅供内部写作使用，绝对不要公开输出：\n${JSON.stringify(brief, null, 2)}`,
-    headingContractFor(prompt.locale),
-    "中文文章要求：1800-2800 个中文字符；首段 120-180 字，必须包含「饭局」和「饭搭子」关键字。正文每个 H2 小节必须包含至少 3 个内容充实的段落，严禁一段话敷衍。",
-    "必须自然覆盖并重点突出：为什么在这座城市找「饭搭子」很难；「饭局」如何解决社交孤独；Fanju 和微信群 / 随机约饭 / 相亲局 / 大型活动的本质区别；如何通过 Fanju 的规则（公开地点、费用、人数、主理人）确保信任感；自然收束到「一顿饭，认识同频的人」。",
-    "核心关键字密度：自然且高频（每 300 字左右出现一次）使用「饭局」、「饭搭子」、「同城饭局」、「Fanju」。禁止堆关键词，禁止饭局饭局、同城同城饭局、饭搭子饭搭子。",
-    "title 必须极具吸引力，包含“城市 + 主题 + 饭局/饭搭子/Fanju”。description 必须 120-170 个中文字符，包含城市名、主题、Fanju，并自然嵌入「饭局」和「饭搭子」。",
-    "不要编造具体餐厅名、机构、活动日期、报名人数、用户评价、媒体报道、公益金额、安全保证、官方背书或结果承诺。",
-    "不要输出 Markdown 链接、裸 URL、href、HTML a 标签、公开 internal metadata，或任何生产系统信息。",
-    "返回 JSON，字段为：title, description, h1, bodyMarkdown, faq, internalLinks。bodyMarkdown 必须以 '# ' 开头并包含同一个 H1。faq 没有自然可见问答时用 []。internalLinks 如有则只写 3-6 个已有目标路径；不要把链接写入 bodyMarkdown。",
-    issueLine,
-  ].filter(Boolean).join("\n")
-}
-
 function retryPrompt(basePrompt, attempt, issues) {
-  if (basePrompt.cityTopicResearchBrief) {
-    return publicArticleContractFor(basePrompt, basePrompt.cityTopicResearchBrief, attempt, issues)
-  }
   if (attempt <= 1) return basePrompt.userPrompt
   const isEn = basePrompt.locale === "en"
   const issueSummary = retryIssueSummaryForModel(basePrompt.locale, issues)
@@ -1929,10 +1354,10 @@ function retryPrompt(basePrompt, attempt, issues) {
   const lengthGuidance = isEn
     ? bodyTooLong
       ? "Keep the body compact: 4,200-6,500 characters, 10-14 public paragraphs, no repeated sections, and no expansion for its own sake."
-      : "Use substantial public paragraphs with blank lines between paragraphs. Every H2 must have enough distinct prose to feel complete. Do not use bullet lists or numbered lists."
+      : "Use at least 13 separate public paragraphs with blank lines between paragraphs. Every H2 must have exactly two distinct paragraphs of 90-150 words. Do not use bullet lists or numbered lists."
     : bodyTooLong
       ? "正文要收紧到 2,800-4,800 字符，10-14 个公开自然段，不要重复小节，不要为了凑长扩写。"
-      : "公开自然段要充分，段落之间空行；每个 H2 下面必须有足够具体的正文；不要项目符号或编号列表。"
+      : "至少 13 个公开自然段，段落之间空行；每个 H2 下面必须正好两段，每段 120-190 个汉字；不要项目符号或编号列表。"
   // Extract specific forbidden Latin words from issues for explicit ban
   const forbiddenWords = issues
     .filter((i) => i.startsWith("latin-word-in-zh-"))
@@ -1947,8 +1372,8 @@ function retryPrompt(basePrompt, attempt, issues) {
     basePrompt.userPrompt,
     "",
     isEn
-      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite internally and satisfy the automated gate without failing the route.${forbiddenBan} Return only the article text, starting with "# ". Use one H1, 4-7 unique H2 headings, 0-4 natural H3 headings, and no H4 or deeper. Do not add generic FAQ, checklist, conclusion, next-step, safety, summary, or any other template heading unless the visible article genuinely needs it. No H1-H3 heading text may repeat after normalization. The H1/title must include the city and the exact phrase "Fanju app"; the first paragraph must include the city and Fanju app, and at least one later paragraph must include the city without repeating the opening. Every heading must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
-      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请内部重写，并满足自动质量门，不要让路由失败退出。${forbiddenBan}只返回文章正文，第一行必须以「# 」开头。使用 1 个 H1、5-7 个唯一 H2、0-4 个自然 H3，禁止 H4 或更深标题；不要新增 FAQ、检查清单、结语、下一步、安全、总结等模板标题，除非正文确实存在自然可见问答。H1-H3 任意标题归一化后都不能重复；段落开头不能重复；任意两段公开正文不能骨架重复；H2 不能是模板化通用标题。标题/H1 必须包含中文城市名，且自然出现「饭局」「饭搭子」或 Fanju 至少其一；第一段必须同时出现中文城市名和「饭局」「饭搭子」或 Fanju 至少其一，开头之后至少一段也要出现中文城市名且不能复用开头句式。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这种通用标题。标题、H1、开头段落、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名；中文标题里不要混入无关英文单词。不要用加粗标题、编号标题、项目列表或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整；不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
+      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch and satisfy the automated gate in one pass.${forbiddenBan} Return only the article text, starting with "# ". Use only the exact H1, exact 6 H2 headings, and exact H3-Hmax headings already listed above; do not add FAQ, checklist, conclusion, next-step, safety, summary, or any other extra heading. No H1-Hn heading text may repeat after normalization. Duplicate headings are a hard failure and must be fixed by a full rewrite, not by changing score/status/renderMode/metadata or deleting required sections. The H1/title must include the city and the exact phrase "Fanju app"; the first paragraph must include the city and Fanju app, and at least one later paragraph must include the city without repeating the opening. Use exactly 6 "## " headings, exactly one "### " reader question, and at least 13 natural paragraphs. Every H2 needs at least two paragraphs. Do not use generic headings such as "Who this is for", "Safety and boundaries", "How it works", "What to expect", "Next steps", or "Conclusion". Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
+      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写，并一次满足自动质量门。${forbiddenBan}只返回文章正文，第一行必须以「# 」开头。只能使用上文已经列出的精确 H1、6 个精确 H2、以及精确 H3-Hmax 标题；不要新增 FAQ、检查清单、结语、下一步、安全、总结或任何额外标题。H1-Hn 任意标题归一化后都不能重复。标题重复是硬失败，必须全文重写，不能通过修改 score/status/renderMode/metadata 或删除必要章节绕过。标题/H1 必须包含中文城市名和「饭局app」；第一段必须同时出现中文城市名和「饭局app」，开头之后至少一段也要出现中文城市名且不能复用开头句式。必须写 6 个「## 」标题、且只写 1 个「### 」具体疑问标题；至少 13 个自然段；每个 H2 下必须正好 2 段。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这种通用标题。标题、H1、开头段落、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。不要用加粗标题、编号标题、项目列表或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整；不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
   ].join("\n")
 }
 
@@ -1964,14 +1389,13 @@ function rotateProviderOrder(order, attempt) {
 }
 
 function providerOrderForPrompt(prompt) {
-  const defaultOrder = process.env.AI_PROVIDER_ORDER || DEFAULT_PROVIDER_ORDER
   if (ASSIGN_PROVIDER_PER_CITY) {
-    const providers = defaultOrder
+    const providers = (process.env.AI_PROVIDER_ORDER || "groq,nvidia,cerebras,gemini,openrouter,cloudflare")
       .split(",")
       .map((x) => x.trim().toLowerCase())
       .filter(Boolean)
     if (providers.length <= 1) return providers.join(",")
-    const n = Number.parseInt(String(prompt.providerSlot || "").match(/(\d+)$/)?.[1] || String(prompt.promptId || "").match(/(\d+)$/)?.[1] || "1", 10)
+    const n = Number.parseInt(String(prompt.promptId || "").match(/(\d+)$/)?.[1] || "1", 10)
     const assigned = providers[(Number.isFinite(n) ? n - 1 : 0) % providers.length]
     console.log(`[ASSIGN] ${prompt.promptId} ${prompt.route} -> ${assigned}`)
     if (STRICT_CITY_PROVIDER) return assigned
@@ -1979,14 +1403,14 @@ function providerOrderForPrompt(prompt) {
   }
 
   if (process.env.FORCE_PROVIDER_ORDER === "1") {
-    return defaultOrder
+    return (process.env.AI_PROVIDER_ORDER || "groq,nvidia,cerebras,gemini,openrouter,cloudflare")
       .split(",")
       .map((x) => x.trim().toLowerCase())
       .filter(Boolean)
       .join(",")
   }
 
-  const lanes = (process.env.AI_PROVIDER_LANES || defaultOrder)
+  const lanes = (process.env.AI_PROVIDER_LANES || process.env.AI_PROVIDER_ORDER || "groq,nvidia,cerebras,gemini,openrouter,cloudflare")
     .split(",")
     .map((x) => x.trim().toLowerCase())
     .filter(Boolean)
@@ -2004,7 +1428,7 @@ async function generateProviderCandidates(prompt, attempt, previousIssues) {
   if (!MULTI_AI_CANDIDATES) {
     const generation = await generateWithRouter({
       prompt: promptText,
-      system: prompt.cityTopicResearchBrief ? writingSystemInstructionFor(prompt.locale) : prompt.systemInstruction,
+      system: prompt.systemInstruction,
       maxTokens: MAX_TOKENS,
       timeoutMs: TIMEOUT_MS,
       providerOrder,
@@ -2020,7 +1444,7 @@ async function generateProviderCandidates(prompt, attempt, previousIssues) {
     providers.map((provider) =>
       generateWithRouter({
         prompt: promptText,
-        system: prompt.cityTopicResearchBrief ? writingSystemInstructionFor(prompt.locale) : prompt.systemInstruction,
+        system: prompt.systemInstruction,
         maxTokens: MAX_TOKENS,
         timeoutMs: TIMEOUT_MS,
         providerOrder: provider,
@@ -2050,10 +1474,7 @@ async function runOneAttempt(prompt, attempt, previousIssues = []) {
   let best = null
   for (const generation of generations) {
     const rawParsed = parseModelArticle(prompt, generation.content)
-    const parsed = finalizeParsedForPublish(
-      prompt,
-      sanitizeBestParsedArticle(prompt, repairParsedArticle(prompt, rawParsed)),
-    )
+    const parsed = repairParsedArticle(prompt, rawParsed)
     if (!parsed) {
       console.log(`[PARSE] ${prompt.promptId} ${generation.provider} preview=${JSON.stringify(String(generation.content || "").slice(0, 260))}`)
     }
@@ -2077,10 +1498,9 @@ async function runOneAttempt(prompt, attempt, previousIssues = []) {
   }
 
   let generation = best.generation
-  let parsed = finalizeParsedForPublish(prompt, best.parsed)
-  const scored = scoreArticle(prompt, parsed)
-  let score = scored.score
-  let issues = scored.issues
+  let parsed = best.parsed
+  let score = best.score
+  let issues = best.issues
 
   const body = String(parsed?.body || "").trim()
   const title = String(parsed?.title || "").trim()
@@ -2091,7 +1511,7 @@ async function runOneAttempt(prompt, attempt, previousIssues = []) {
   const canonicalPath = prompt.route
   const alternatePath = alternatePathFor(prompt.route)
   const r2Key = r2KeyFor(prompt, r2Slug)
-  const status = isPublishReady(prompt, parsed, scored) ? "ready" : "needs-review"
+  const status = score >= MIN_SCORE && !hasHardIssues(issues) ? "ready" : "needs-review"
 
   return {
     prompt,
@@ -2114,55 +1534,24 @@ async function runOneAttempt(prompt, attempt, previousIssues = []) {
 }
 
 async function runOne(prompt) {
-  if (!prompt.route) throw new Error("route missing")
-  const cityTopicResearchBrief = await generateCityTopicResearchBrief(prompt)
-  prompt = { ...prompt, cityTopicResearchBrief }
   let lastResult = null
   let previousIssues = []
-  const maxSelfRepairAttempts = Math.max(1, QUALITY_ATTEMPTS)
-  for (let attempt = 1; attempt <= maxSelfRepairAttempts; attempt++) {
+  for (let attempt = 1; attempt <= DUPLICATE_HEADING_ATTEMPTS; attempt++) {
     const result = await runOneAttempt(prompt, attempt, previousIssues)
     if (result.status === "ready") return result
     lastResult = result
     previousIssues = result.issues
-    if (attempt >= maxSelfRepairAttempts) break
-    console.log(`[RETRY] ${prompt.promptId} attempt=${attempt}/${maxSelfRepairAttempts} issues=${result.issues.join(",")}`)
+    const maxAttempts = hasDuplicateHeadingIssue(result.issues) ? DUPLICATE_HEADING_ATTEMPTS : QUALITY_ATTEMPTS
+    if (attempt >= maxAttempts) break
+    console.log(`[RETRY] ${prompt.promptId} attempt=${attempt}/${maxAttempts} issues=${result.issues.join(",")}`)
     if (QUALITY_RETRY_DELAY_MS > 0) {
       await sleep(QUALITY_RETRY_DELAY_MS)
     }
   }
-  if (!lastResult) throw new Error("article generation returned no result")
-  if (hasHardIssues(lastResult.issues || [])) {
-    throw new Error(`Severe technical issue persisted after self-repair: ${lastResult.issues.join(",")}`)
+  if (hasDuplicateHeadingIssue(lastResult?.issues || [])) {
+    throw new Error(`Duplicate heading hard issue persisted after ${DUPLICATE_HEADING_ATTEMPTS} attempts: ${lastResult.issues.join(",")}`)
   }
-  const parsed = finalizeParsedForPublish(prompt, lastResult.parsed)
-  const scored = scoreArticle(prompt, parsed)
-  if (isPublishReady(prompt, parsed, scored)) {
-    const body = String(parsed.body || "").trim()
-    const title = String(parsed.title || markdownH1(body) || lastResult.title || "").trim()
-    const description = String(parsed.description || lastResult.description || "").trim()
-    console.log(`[FINALIZE] ${prompt.promptId} passed seo-ready source check after deterministic cleanup`)
-    return {
-      ...lastResult,
-      parsed,
-      score: scored.score,
-      issues: scored.issues,
-      title,
-      description,
-      body,
-      bodyHtml: bodyToArticleHtml(prompt, { title, description, body }),
-      status: "ready",
-    }
-  }
-  const remaining = sourceBodyIssuesForPrompt(prompt, parsed)
-  console.log(`[REVW] ${prompt.promptId} exhausted ${maxSelfRepairAttempts} attempts; source issues=${remaining.join(",") || scored.issues.join(",")}`)
-  return {
-    ...lastResult,
-    parsed,
-    score: scored.score,
-    issues: mergeIssues(scored.issues, remaining),
-    status: "needs-review",
-  }
+  return lastResult
 }
 
 function sqlString(value) {
@@ -2476,20 +1865,6 @@ function assertReadyEntriesBeforePublish(entries) {
   }
 }
 
-function assertEntriesPassSourceCheck(entries) {
-  const failures = []
-  for (const entry of entries) {
-    const body = entry.bodyMarkdown || markdownBodyForEntry(entry)
-    const issues = sourceBodyIssues(metaForReadyEntry(entry), body)
-    if (issues.length) {
-      failures.push(`${entry.canonicalPath}: ${issues.slice(0, 8).join(", ")}`)
-    }
-  }
-  if (failures.length) {
-    throw new Error(`Refusing to write seo-ready markdown; source check failed: ${failures.slice(0, 5).join("; ")}`)
-  }
-}
-
 function runSeoReadyFilesCheck(entries) {
   const files = entries.map(sourcePathForEntry).filter(Boolean)
   if (files.length !== entries.length) {
@@ -2518,7 +1893,6 @@ async function publishReadyEntries(entries, publishedState) {
   }
 
   if (PUBLISH_CONTENT) {
-    assertEntriesPassSourceCheck(entries)
     writeSourceMarkdownEntries(entries)
     runSeoReadyFilesCheck(entries)
   }
@@ -2623,7 +1997,6 @@ async function main() {
   }
   console.log(`Locale filter    : ${ONLY_LOCALE || "(none)"}`)
   console.log(`To process       : ${finalQueue.length}`)
-  finalQueue = finalQueue.map((prompt, index) => ({ ...prompt, providerSlot: index + 1 }))
   const bilingualMode = TARGET_READY_COUNT > 0 && !ONLY_LOCALE && TARGET_READY_COUNT % 2 === 0
   const perLangLimit = bilingualMode ? TARGET_READY_COUNT / 2 : 0
 

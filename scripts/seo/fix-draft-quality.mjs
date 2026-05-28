@@ -5,7 +5,7 @@ const DRAFT_DIR = "content/seo-ai-drafts"
 const MIN_LENGTH = Number.parseInt(process.env.MIN_LENGTH || "1600", 10)
 const GENERATED_DRAFTS_FILE = process.env.GENERATED_DRAFTS_FILE || "dist/seo/generated-drafts.json"
 const ALLOW_REPAIR_APPEND = process.env.ALLOW_REPAIR_APPEND === "1"
-const forbiddenTermRe = /(bodyHash|promptHash|profileHash)/gi
+const forbiddenTermRe = /(Modal|NVIDIA|Gemini|Groq|Cerebras|Cloudflare|Next\.js|API|backend|后端|技术栈|Below is|Here is|markdown draft|Verified Profiles|Rating System|Secure Communication|Emergency Contact|ID verification|background checks|payment protection|已认证|评分系统|安全通信|紧急联系人|身份认证|背景调查|支付保护|本站|联系QQ|本地联系|站长|广告合作|域名出售|QQ|model|prompt|generator)/gi
 
 if (!existsSync(DRAFT_DIR)) {
   console.error(`Missing ${DRAFT_DIR}`)
@@ -86,10 +86,17 @@ function qualityCheck(md) {
   const checks = {
     hasFanju: body.includes("Fanju"),
     hasChineseBrand: isEn ? true : body.includes("饭局"),
-    hasFanDaZi: isEn ? true : body.includes("饭搭子"),
+    hasFaq: /FAQ|常见问题|问答/i.test(body),
+    hasSafety: /safe|safety|trust|安全|信任/i.test(body),
+    hasChecklist: /checklist|清单/i.test(body),
+    noTechStack: !/(Modal|NVIDIA|Gemini|Groq|Cerebras|Cloudflare|Next\.js|API|backend|后端|技术栈|model|prompt|generator)/i.test(body),
     noFakeStats: !/(\d+,\d+ users|\d+ users|百万用户|千万用户|排名第一|No\. ?1|第一名)/i.test(body),
-    enoughLength: isEn ? wordCount >= 400 : hanCharCount >= Math.max(600, MIN_LENGTH),
-    enoughDepth: paragraphCount >= 5,
+    noFakeProductClaims: !/(Verified Profiles|Rating System|Secure Communication|Emergency Contact|ID verification|background checks|payment protection|已认证|评分系统|安全通信|紧急联系人|身份认证|背景调查|支付保护)/i.test(body),
+    noSpamContactText: !/(本站|联系QQ|本地联系|站长|广告合作|域名出售|QQ)/i.test(body),
+    noAiSelfTalk: !/(Below is|Here is|markdown draft|specified page|provided rules|遵循要求)/i.test(body),
+    enoughLength: isEn ? wordCount >= 800 : hanCharCount >= Math.max(900, MIN_LENGTH),
+    enoughDepth: paragraphCount >= 10,
+    noRawSlugTitle: isEn ? true : !/#[^\n]*(stranger dinner|newcomer dinner|chinese social dining|curated dinner|Guide)/i.test(body),
   }
 
   const passed = Object.values(checks).filter(Boolean).length

@@ -4,13 +4,6 @@
 
 const PROVIDERS = [
   {
-    name: "aion",
-    envPrefix: "AION_API_KEY",
-    endpoint: "https://api.aionlabs.ai/v1/chat/completions",
-    model: () => process.env.AION_MODEL || "aion-labs/aion-2.5",
-    tokenParam: "max_tokens",
-  },
-  {
     name: "groq",
     envPrefix: "GROQ_API_KEY",
     endpoint: "https://api.groq.com/openai/v1/chat/completions",

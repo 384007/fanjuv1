@@ -14,7 +14,7 @@ import { ARTICLE_LIMIT_DEFAULT, SITE, categoryRule, normalizePath } from "./_con
 const CANDIDATES_FILE = abs("data/seo/article-candidates.json")
 const TAXONOMY_FILE = abs("data/seo/generated-taxonomy.json")
 const REPORT_FILE = abs("data/seo/article-generation-report.json")
-const LIMIT = 4000 // Process all eligible articles
+const LIMIT = Number.parseInt(process.env.SEO_ARTICLE_LIMIT || String(ARTICLE_LIMIT_DEFAULT), 10)
 
 if (!existsSync(CANDIDATES_FILE)) {
   console.error("Missing data/seo/article-candidates.json. Run: pnpm seo:topics")
@@ -85,76 +85,62 @@ function categorySpecificNotes(topCategory, topicZh, topicEn, language) {
 function zhBody({ item, cityName, links }) {
   const topic = item.zh
   const place = cityName ? `在${cityName}` : "在同城"
-  
-  // UNIQUE LOCAL CONTEXT INJECTION
-  const getCityContext = (city) => {
-    const contexts = {
-      "上海": "在上海，黄浦江边的精致Brunch或弄堂里的本帮菜小馆，都是绝佳的饭局场景。外滩的商业局和法租界的小资探店局，是这里独特的人文体验。",
-      "北京": "北京的饭局带有深厚的胡同文化或商务大气，南锣鼓巷的创意餐吧或CBD的商务套餐，都能让陌生人迅速拉近距离。",
-      "深圳": "深圳的饭局节奏快且充满活力，科创园周边的快节奏午餐局，或者大梅沙海边的烧烤局，体现了这座城市的年轻与创新。",
-      "广州": "广州不可或缺的是早茶局，一盅两件之下，无论是谈生意还是找搭子，都显得从容不迫。",
-      "成都": "成都的饭局离不开火锅，在热闹的九眼桥或太古里，香辣的火锅最能释放陌生人之间的拘谨。"
-    }
-    return contexts[city] || `在${city}，体验当地特色餐饮文化，把饭局变成认识新朋友的最佳方式。`;
-  }
-  const localContext = cityName ? getCityContext(cityName) : "无论在哪座城市，寻找志同道合的饭搭子，都是一种全新的生活方式。"
-
   const note = categorySpecificNotes(item.topCategory, item.zh, item.en, "zh")
   const linkSentence = links.slice(0, 3).map((url) => linkAnchor(url, "zh")).join("、")
 
   const sections = [
     {
       h2: `${topic}适合什么人`,
-      body: `${topic}适合追求真实连接的同城用户。${place}，${localContext} 这类用户通常希望先通过一顿饭判断彼此是否同频：有人想了解行业真实经验，有人想找靠谱的饭搭子。Fanju / 饭局 的核心不是泛泛社交，而是让主题、人数、时间、场景和社交边界先清楚。`,
+      body: `${topic}适合已经对这个主题有真实兴趣、但不想参加大型活动或无边界群聊的人。${place}，这类用户通常希望先通过一顿饭判断彼此是否同频：有人想了解行业真实经验，有人想找饭搭子，有人只是需要一个更自然的线下入口。Fanju / 饭局 的价值不是把所有人硬凑在一起，而是让主题、人数、时间、餐厅和边界先清楚。`,
       links: [],
     },
     {
-      h2: `为什么${topic}适合通过饭局找饭搭子`,
-      body: `饭局比纯线上聊天更具体，饭搭子通过饭局认识更可靠。一个小桌主题会让参与者知道为什么见面。围绕${topic}，同桌可以从各自的经验、城市生活切入，而不是刷存在感。4 到 8 人的小桌更容易让每个人说上话。${note}`,
+      h2: `为什么${topic}适合通过饭局认识人`,
+      body: `饭局比纯线上聊天更具体。一个小桌主题会让参与者知道为什么见面，也能减少“聊什么”的压力。围绕${topic}，同桌可以从自己的经历、入门路径、近期观察和城市生活切入，而不是一上来交换名片或刷存在感。4 到 8 人的小桌更容易让每个人说上话，也方便主理人控制节奏。${note}`,
       links: [],
     },
     {
-      h2: "在 Fanju 组局的核心逻辑",
-      body: `不仅是找${topic}的饭搭子，更是为了通过约饭建立长期的社交连接。Fanju / 饭局 强调“同频”与“边界”，确保饭局不仅有话题，更有明确的规则，让每一次线下见面都安心。`,
+      h2: "第一次参加怎么选",
+      body: `第一次参加时，不要只看标题。更重要的是看这桌饭写清楚了什么：适合谁、不适合谁、预计人数、时间窗口、餐厅或场地类型、费用处理、是否允许迟到早退。一个好的${topic}饭局应该让你在报名之前就能想象现场氛围。如果描述只剩热词、没有人群和边界，宁可先观望。`,
       links: [],
     },
     {
-      h2: "小桌人数与饭局安全",
-      body: `针对${topic}，我们建议控制在 4-8 人。在繁华的商圈，选择评价良好的餐厅，提前确认 AA 制或其他费用原则。主理人需要说明同桌预期，明确是否允许迟到早退，从而在保证社交效率的同时，维护个人隐私安全。`,
+      h2: "小桌人数建议",
+      body: `${topic}饭局不适合一开始就做成大场。4 人适合深聊，6 人适合兼顾新鲜感和安全感，8 人已经需要更强的主理节奏。行业、职业、创业和金融类可以控制在 5 到 7 人，避免变成推销局；兴趣、运动和城市新人类可以 4 到 8 人，但仍要保留自我介绍和轮流发言的空间。`,
       links: [],
     },
     {
-      h2: "适合聊的话题",
-      body: `适合聊的问题应该具体、轻量、可选择。例如：你为什么关注${topic}，最近一次相关经历是什么，城市里有哪些你私藏的餐厅或活动资源。好的话题会让人愿意分享，而不是被迫证明自己很专业。`,
+      h2: "适合聊什么",
+      body: `适合聊的问题应该具体、轻量、可选择回答。例如：你为什么关注${topic}，最近一次相关经历是什么，新手最容易误解什么，城市里有哪些公开资源值得了解，哪些书、项目、活动或餐厅可以作为下一步。好的话题会让人愿意补充自己的经验，而不是被迫证明自己很专业。`,
       links: [],
     },
     {
       h2: "不适合聊什么",
-      body: `不要进行过度商业推销、隐私刺探、强行资源索取。行业和职业饭局不要索要报价；单身交友不要越界试探；运动和户外不要给危险建议。饭局的目标是建立第一层可信连接。`,
+      body: `不适合第一次饭局就聊过度私密、强销售、强资源索取或带结果承诺的话题。行业和职业饭局不要索要客户、内推和商业机密；金融话题不要变成荐股或收益承诺；单身交友不要越界试探；运动和户外不要给危险训练建议。饭局的目标是建立可信的第一层连接，不是现场完成交易。`,
       links: [],
     },
     {
-      h2: "Fanju / 饭局 的平台价值",
-      body: `Fanju 不展示虚假热闹，旨在通过具体的${topic}饭局，帮你筛选高质量的饭搭子。它通过透明的主题、明确的人群设定、真实的餐厅定位，让每一个想通过约饭认识新朋友的人，都能快速匹配到同城同频的伙伴。`,
+      h2: "安全和边界感",
+      body: `安全感来自具体信息。建议优先选择公共餐厅或清楚的公共空间，提前确认时间、预算、付款方式和退出规则。主理人应该说明同桌预期，参与者也应该尊重他人的职业、感情、身体和隐私边界。任何让你感到被催促、被拉人头、被要求转账或被迫披露信息的安排，都不适合继续。`,
+      links: [],
+    },
+    {
+      h2: "如何避免尴尬",
+      body: `避免尴尬的关键不是准备很多段子，而是让饭局有顺序。可以从每个人 30 秒自我介绍开始，再用一个轻问题进入主题，例如“你最近一次和${topic}有关的体验是什么”。中段可以让大家交换具体建议，最后再决定是否留下联系方式。内向用户可以先准备两个问题，不必强行成为全场最会说的人。`,
+      links: [],
+    },
+    {
+      h2: "Fanju 可以如何承接这个场景",
+      body: `Fanju / 饭局 适合把${topic}变成可理解的小桌场景：标题说明主题，简介说明适合人群，主理规则写清边界，内部链接帮助用户继续看城市、类型和报名方式。它不需要编造热闹数字，也不需要承诺结果；只要让用户知道这桌饭为什么存在、谁适合来、来了可以聊什么，就已经比泛泛群聊更有价值。`,
       links: links.slice(0, 2),
     },
     {
-      h2: "如何安全地找到饭搭子",
-      body: `安全感来自透明。我们建议优先选择公共场所，饭局发起人应该说明预期的费用、大致的时间窗口和餐桌规则。参与者也应该尊重他人的职业、边界和隐私。凡是感觉被催促、被要求转账或被迫披露信息的安排，请务必谨慎。`,
-      links: [],
-    },
-    {
-      h2: "提升饭局体验的技巧",
-      body: `关键在于有顺序。可以从 30 秒的简单自我介绍开始，用一个轻问题作为切入点，例如“你最近一次和${topic}有关的体验是什么”。大家交换具体建议后，再决定是否留下联系方式。准备两个问题，不必强行成为全场中心。`,
-      links: [],
-    },
-    {
-      h2: "相关主题建议",
-      body: `如果你想寻找更多同城饭搭子或发起更多类型的饭局，可以参考：${linkSentence}。选择下一篇时，优先看和自己当前场景最接近的内容。保持饭局的纯粹，让饭搭子社交更有意义。`,
+      h2: "相关主题下一步阅读",
+      body: `如果你还在判断是否适合参加，可以继续阅读${linkSentence}。选择下一篇时，优先看和自己当前问题最接近的内容：想找同城入口就看城市页，想理解饭局方式就看基础指南，想行动就看创建或报名相关页面。不要为了凑热闹参加不匹配的局，清楚的期待比人数更重要。`,
       links: links.slice(2, 6),
     },
   ]
-  const depth = `写清这一步的目的是为了让读者在参加之前，就能判断这桌饭为什么存在、谁适合来、谁不适合来、怎样退出、怎样继续联系。具体的场景描述越多，饭局越有真实参考价值，也越能减少第一次见面不确定感。Fanju 是你组建饭局、找到靠谱饭搭子的最佳入口。`
+  const depth = `写清这一步的目的，是为了让读者在参加之前就能判断是否适合自己：这桌饭为什么存在、谁应该来、谁不适合来、怎样退出、怎样继续联系。具体说明越多，饭局越有真实参考价值，也越能减少第一次线下见面的不确定感。`
   return sections.map((section) => ({ ...section, body: `${section.body}${depth}` }))
 }
 
@@ -313,10 +299,10 @@ function makeArticle(candidate, item, links) {
     canonical: `${SITE}${candidate.canonicalPath}`,
     robots: "index,follow",
     sitemapEligible: true,
-    title: isEn ? `${title} | 饭局 饭搭子` : title,
-    metaTitle: isEn ? `${title.slice(0, 45)} | 饭局 饭搭子` : (title.length > 58 ? `${title.slice(0, 55)}...` : title),
+    title,
+    metaTitle: title.length > 58 ? `${title.slice(0, 55)}...` : title,
     metaDescription: isEn
-      ? `Find your 饭搭子 (Dinner Buddy) at a 饭局 (Social Dinner) with Fanju. ${item.en}: who it suits, how to choose, boundaries, and safety.`
+      ? `A practical Fanju guide to ${item.en.toLowerCase()} dinners: who it suits, how to choose a small table, what to discuss, boundaries, safety, and next links.`
       : `这篇 Fanju / 饭局指南说明${item.zh}如何变成小桌饭局：适合谁、怎么选、聊什么、不聊什么、安全边界和下一步阅读。`,
     h1: title,
     excerpt: directAnswer,

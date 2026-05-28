@@ -30,7 +30,7 @@ OUTPUT_PATHS = [
     "public/sitemap-index.xml",
 ]
 
-AI_PROVIDER_ORDER = ""  # empty = auto-detect from configured keys at runtime
+AI_PROVIDER_ORDER = "cerebras,cerebras2,cerebras3,cerebras4,groq,groq2,gemini,gemini2,openrouter,nvidia,nvidia2,cloudflare"
 
 image = (
     modal.Image.debian_slim()
@@ -84,36 +84,15 @@ def make_run_id(now: datetime | None = None) -> str:
 
 def run(cmd: str, cwd: str | None = None, timeout: int = 300) -> None:
     print(f"$ {cmd}", flush=True)
-    proc = subprocess.Popen(
+    result = subprocess.run(
         cmd,
         shell=True,
         cwd=cwd,
         text=True,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.STDOUT,
-        bufsize=1,
+        timeout=timeout,
     )
-    output_lines: list[str] = []
-    assert proc.stdout is not None
-    try:
-        for line in iter(proc.stdout.readline, ""):
-            output_lines.append(line)
-            print(line, end="" if line.endswith("\n") else "\n", flush=True)
-        returncode = proc.wait(timeout=timeout)
-    except subprocess.TimeoutExpired:
-        proc.kill()
-        proc.wait()
-        detail = "".join(output_lines).strip()
-        message = f"Command timed out after {timeout}s: {cmd}"
-        if detail:
-            message = f"{message}\n{detail[-8000:]}"
-        raise RuntimeError(message)
-    if returncode != 0:
-        detail = "".join(output_lines).strip()
-        message = f"Command failed with exit code {returncode}: {cmd}"
-        if detail:
-            message = f"{message}\n{detail[-8000:]}"
-        raise RuntimeError(message)
+    if result.returncode != 0:
+        raise RuntimeError(f"Command failed with exit code {result.returncode}: {cmd}")
 
 
 def run_args(args: list[str], cwd: str | None = None, timeout: int = 300, redacted: str | None = None) -> None:
@@ -694,21 +673,12 @@ def run_seo_ready_files_check(entries: list[dict], stage: str) -> None:
         text=True,
         env=env,
         timeout=600,
-        capture_output=True,
     )
-    if result.stdout:
-        print(result.stdout, end="" if result.stdout.endswith("\n") else "\n", flush=True)
-    if result.stderr:
-        print(result.stderr, end="" if result.stderr.endswith("\n") else "\n", flush=True)
     if result.returncode != 0:
-        detail = (result.stderr or result.stdout or "").strip()
-        message = (
+        raise RuntimeError(
             f"SEO_READY_FILES validation failed at {stage}; refusing to commit or push. "
             f"files={unique_files}"
         )
-        if detail:
-            message = f"{message}\n{detail[-12000:]}"
-        raise RuntimeError(message)
 
 
 def validate_ready_entries(entries: list[dict], min_score: int = 90) -> None:
@@ -734,8 +704,9 @@ def run_cloudflare_publish_pipeline(
     outside Modal after the pushed routes are live.
     """
     safe_rounds = min(24, max(1, int(rounds)))
-    safe_run_limit = min(100, max(1, int(run_limit)))
-    article_concurrency = min(10, safe_run_limit)
+    safe_run_limit = max(6, int(run_limit))
+    if safe_run_limit % 2 != 0:
+        safe_run_limit += 1
 
     upload_r2_flag = "1" if upload_r2 else "0"
     safe_platforms = "".join(ch for ch in str(submit_platforms) if ch.isalnum() or ch in ",_-").strip(",") or "all"
@@ -767,14 +738,14 @@ def run_cloudflare_publish_pipeline(
         )
         run("EN_TOP_CITY_LIMIT=100 pnpm seo:prompt-bank:check", cwd=WORKDIR, timeout=600)
         run(
-            f"RUN_LIMIT={safe_run_limit} CONCURRENCY={article_concurrency} RATE_DELAY_MS=5000 BATCH_SIZE=1 "
+            f"RUN_LIMIT={safe_run_limit} CONCURRENCY=4 RATE_DELAY_MS=5000 BATCH_SIZE=2 "
             f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=96 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=5 "
             f"QUALITY_RETRY_DELAY_MS=15000 MAX_TOKENS=7200 AI_COOLDOWN_WAIT_PASSES=2 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             f"PUBLISHED_RUN_ID={shlex.quote(run_id)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=15000 GROQ_MAX_TOKENS=6000 "
-            "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 AI_PROVIDER_MUTEX=1 "
-            f"{('AI_PROVIDER_ORDER=' + AI_PROVIDER_ORDER + ' ') if AI_PROVIDER_ORDER else ''}pnpm seo:prompt-bank:cloudflare",
+            "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "
+            f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER} pnpm seo:prompt-bank:cloudflare",
             cwd=WORKDIR,
             timeout=21000,
         )
@@ -919,8 +890,8 @@ def publish_routes_to_cloudflare(target_routes: str, upload_r2: bool = True):
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             f"PUBLISHED_RUN_ID={shlex.quote(run_id)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=15000 GROQ_MAX_TOKENS=6000 "
-            "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 AI_PROVIDER_MUTEX=1 "
-            f"{('AI_PROVIDER_ORDER=' + AI_PROVIDER_ORDER + ' ') if AI_PROVIDER_ORDER else ''}pnpm seo:prompt-bank:cloudflare",
+            "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "
+            f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER} pnpm seo:prompt-bank:cloudflare",
             cwd=WORKDIR,
             timeout=21000,
         )
@@ -1014,7 +985,7 @@ def test_target_city_articles():
                     "QUALITY_ATTEMPTS=5",
                     "QUALITY_RETRY_DELAY_MS=240000",
                     "AI_COOLDOWN_WAIT_PASSES=40",
-                    *([ f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER}" ] if AI_PROVIDER_ORDER else []),
+                    f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER}",
                     f"TARGET_ROUTES={shlex.quote(routes_csv)}",
                     f"GENERATED_DRAFTS_FILE={shlex.quote(drafts_file)}",
                     'PUBLISHED_FILE="data/seo/published-ready-drafts.json"',
@@ -1200,7 +1171,7 @@ def list_outputs():
 def check_keys():
     """Check which AI keys are loaded: python3 -m modal run modal_growth_agent.py::check_keys"""
     import os
-    for prefix in ["AION_API_KEY", "GROQ_API_KEY", "CEREBRAS_API_KEY", "NVIDIA_API_KEY", "GEMINI_API_KEY", "OPENROUTER_API_KEY"]:
+    for prefix in ["GROQ_API_KEY", "CEREBRAS_API_KEY", "NVIDIA_API_KEY", "GEMINI_API_KEY", "OPENROUTER_API_KEY"]:
         found = [k for k in [prefix] + [f"{prefix}_{i}" for i in range(2, 11)] if os.environ.get(k)]
         print(f"{prefix}: {len(found)} key(s) found: {found or 'NONE'}", flush=True)
     for k in ["CLOUDFLARE_ACCOUNT_ID", "CLOUDFLARE_AI_API_TOKEN", "CLOUDFLARE_API_TOKEN", "GITHUB_TOKEN", "GH_TOKEN", "GITHUB_REPOSITORY", "GITHUB_REPO"]:
