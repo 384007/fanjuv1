@@ -46,7 +46,13 @@
     "seo:routes": "node scripts/seo/build-route-manifest.mjs && node scripts/seo/build-route-manifest-v2.mjs",
     "seo:sitemap": "node scripts/generate-sitemaps.mjs",
     "seo:validate-indexability": "node scripts/seo/build-route-manifest-v2.mjs && node scripts/generate-sitemaps.mjs && node scripts/seo/validate-indexability.mjs",
+<<<<<<< Updated upstream
     "seo:prompt-bank": "node scripts/seo/build-random-prompt-bank-safe.mjs",
+=======
+    "seo:briefs": "node scripts/seo/build-random-prompt-bank.mjs",
+    "seo:prompt-bank": "node scripts/seo/build-random-prompt-bank.mjs",
+    "seo:articles:generate": "node scripts/seo/run-prompt-bank-to-cloudflare.mjs",
+>>>>>>> Stashed changes
     "seo:prompt-bank:run": "node scripts/seo/run-prompt-bank-drafts.mjs",
     "seo:prompt-bank:cloudflare": "node scripts/seo/run-prompt-bank-to-cloudflare.mjs",
     "seo:city-cluster:publish": "node scripts/seo/publish-city-cluster.mjs",
@@ -66,6 +72,10 @@
     "seo:browser:sitemap": "node scripts/seo/check-sitemap-headless-chrome.mjs",
     "seo:public:check": "node scripts/seo/check-public-no-tech-leak.mjs",
     "seo:indexability:check": "node scripts/seo/check-indexability.mjs",
+    "seo:audit:anti-template": "node scripts/seo/audit-anti-template.mjs",
+    "seo:audit:indexability": "node scripts/seo/build-route-manifest-v2.mjs && node scripts/generate-sitemaps.mjs && node scripts/seo/validate-indexability.mjs",
+    "seo:audit:external-proof": "node scripts/seo/audit-external-publish-proof.mjs",
+    "seo:acceptance": "pnpm seo:prompt-bank:check && pnpm seo:audit:anti-template && pnpm seo:audit:indexability && pnpm seo:audit:external-proof",
     "seo:taxonomy": "node scripts/seo/generate-taxonomy.mjs",
     "seo:topics": "node scripts/seo/generate-topic-candidates.mjs",
     "seo:articles": "node scripts/seo/generate-ai-seo-articles.mjs",

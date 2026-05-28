@@ -47,6 +47,15 @@ const PUBLISH_CONTENT = process.env.PUBLISH_CONTENT !== "0"
 const ALLOW_SOURCE_OVERWRITE = process.env.ALLOW_SOURCE_OVERWRITE === "1"
 const PUBLISHED_RUN_ID = process.env.PUBLISHED_RUN_ID || process.env.RUN_ID || "unknown"
 const ZH_CITY_LOCALIZED_COUNTRIES = new Set(["CN", "HK", "MO", "TW"])
+const QUALITY_THRESHOLDS = {
+  OriginalityScore: 85,
+  AntiTemplateScore: 85,
+  LocalDetailScore: 80,
+  EntityScore: 90,
+  SearchIntentScore: 90,
+  InternalLinkScore: 90,
+  IndexabilityScore: 90,
+}
 let routeCityNameIndexCache = null
 
 // D1/R2 publishing uses the Cloudflare API token below. Workers AI may require
@@ -400,6 +409,7 @@ function markdownForEntry(entry) {
   const score = Math.trunc(Number(entry.score) || 0)
   const sourceSlug = entry.sourceSlug || entry.sourceFile?.replace(/\.md$/, "") || sourceSlugForPrompt(entry)
   const titleZh = entry.locale === "zh" ? entry.title : ""
+  const qualityScores = entry.qualityScores || {}
   const frontmatter = [
     "---",
     `slug: ${yamlString(sourceSlug)}`,
@@ -413,6 +423,13 @@ function markdownForEntry(entry) {
     `pageType: ${yamlString("city_article")}`,
     "priorityScore: 70",
     `aiQualityScore: ${score}`,
+    `originalityScore: ${Math.trunc(Number(qualityScores.OriginalityScore) || 0)}`,
+    `antiTemplateScore: ${Math.trunc(Number(qualityScores.AntiTemplateScore) || 0)}`,
+    `localDetailScore: ${Math.trunc(Number(qualityScores.LocalDetailScore) || 0)}`,
+    `entityScore: ${Math.trunc(Number(qualityScores.EntityScore) || 0)}`,
+    `searchIntentScore: ${Math.trunc(Number(qualityScores.SearchIntentScore) || 0)}`,
+    `internalLinkScore: ${Math.trunc(Number(qualityScores.InternalLinkScore) || 0)}`,
+    `indexabilityScore: ${Math.trunc(Number(qualityScores.IndexabilityScore) || 0)}`,
     `status: ${yamlString("ready")}`,
     `renderMode: ${yamlString("source")}`,
     `routeKey: ${yamlString(entry.routeKey || routeKeyFor(entry))}`,
@@ -714,6 +731,208 @@ function escapeRegExp(value = "") {
   return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
 }
 
+<<<<<<< Updated upstream
+=======
+let contentUniquenessIndex = null
+
+function cjkChars(value = "") {
+  return (String(value || "").match(/[\u4e00-\u9fff]/g) || []).join("")
+}
+
+function genericOpeningSignature(value = "", locale = "zh") {
+  const text = String(value || "")
+    .replace(/^#+\s*/, "")
+    .replace(/[*_`[\]()]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase()
+  if (!text) return ""
+  if (locale === "en") return text.split(/\s+/).slice(0, 16).join(" ")
+  return text.replace(/[，。,.!?！？、；;：:"'“”‘’()（）[\]【】\s]/g, "").slice(0, 18)
+}
+
+function normalizeSimilarityText(value = "") {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/fanju\s*app/gi, "fanju")
+    .replace(/fanju\s*饭局app/gi, "fanju")
+    .replace(/fanju\s*饭局/gi, "fanju")
+    .replace(/饭局\s*app/gi, "饭局")
+    .replace(/[“”‘’"'`*_()[\]【】]/g, " ")
+    .replace(/[^\p{L}\p{N}\u4e00-\u9fff]+/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+}
+
+function ngrams(value = "", size = 2) {
+  const normalized = normalizeSimilarityText(value)
+  if (!normalized) return []
+  const compact = cjkChars(normalized)
+  if (compact.length >= 6) {
+    const grams = []
+    for (let i = 0; i <= compact.length - size; i++) grams.push(compact.slice(i, i + size))
+    return grams
+  }
+  const words = normalized.split(/\s+/).filter(Boolean)
+  if (words.length <= size) return words
+  const grams = []
+  for (let i = 0; i <= words.length - size; i++) grams.push(words.slice(i, i + size).join(" "))
+  return grams
+}
+
+function jaccardSimilarity(a = "", b = "") {
+  const aa = new Set(ngrams(a))
+  const bb = new Set(ngrams(b))
+  if (!aa.size || !bb.size) return 0
+  let intersection = 0
+  for (const item of aa) if (bb.has(item)) intersection++
+  return intersection / (aa.size + bb.size - intersection)
+}
+
+function maxSimilarity(value = "", entries = []) {
+  let best = { score: 0, source: "", text: "" }
+  for (const entry of entries) {
+    const score = jaccardSimilarity(value, entry.text || "")
+    if (score > best.score) best = { score, source: entry.source || "", text: entry.text || "" }
+  }
+  return best
+}
+
+function structureRoleFor(text = "") {
+  const value = normalizeForTemplateCheck(text)
+  const compact = compactCjk(text)
+  if (/what is|entity|fanju|app|平台|是什么|解释|定义/.test(value) || /饭局app|fanju饭局|是什么/.test(compact)) return "entity"
+  if (/safety|exit|boundary|trust|risk|leave|safe|边界|安全|退出|风险|信任/.test(value) || /边界|安全|退出|风险|信任/.test(compact)) return "safety"
+  if (/host|venue|guest|table quality|主理人|场地|餐厅|同桌|质量/.test(value) || /主理人|场地|餐厅|同桌|质量/.test(compact)) return "trust"
+  if (/who|suit|skip|not for|audience|适合|不适合|谁/.test(value) || /适合|不适合|谁/.test(compact)) return "fit"
+  if (/next|join|book|confirm|step|报名|下一步|确认|参加/.test(value) || /报名|下一步|确认|参加/.test(compact)) return "next"
+  if (/city|local|neighbourhood|neighborhood|venue|本地|城市|街区|同城/.test(value) || /本地|城市|街区|同城/.test(compact)) return "local"
+  if (/problem|pain|worry|question|concern|why|难题|顾虑|问题|为什么/.test(value) || /难题|顾虑|问题|为什么/.test(compact)) return "problem"
+  return "scene"
+}
+
+function structureFingerprint(body = "") {
+  const h2s = [...String(body || "").matchAll(/^##\s+(.+)$/gm)]
+    .map((m) => structureRoleFor(m[1]))
+    .filter(Boolean)
+  if (h2s.length < 5) return ""
+  return h2s.join(">")
+}
+
+function emptyContentUniquenessIndex() {
+  return {
+    headings: new Map(),
+    intros: new Map(),
+    paragraphs: new Map(),
+    h1s: [],
+    h2s: [],
+    openings: new Map(),
+    structureFingerprints: new Map(),
+  }
+}
+
+function normalizeHeadingForUniqueness(value = "") {
+  return normalizeForTemplateCheck(value)
+}
+
+function addUniquenessRecord(index, prompt, body = "", source = "") {
+  const paragraphs = publicParagraphs(body)
+  for (const heading of markdownHeadings(body)) {
+    const key = normalizeHeadingForUniqueness(heading.text)
+    if (key && key.length >= 8 && !index.headings.has(key)) {
+      index.headings.set(key, source)
+    }
+    if (heading.level === 1) index.h1s.push({ text: heading.text, source })
+    if (heading.level === 2) index.h2s.push({ text: heading.text, source })
+  }
+  const intro = textFingerprint(prompt, paragraphs[0] || "", prompt.locale === "en" ? 120 : 70, prompt.locale === "en" ? 240 : 160)
+  if (intro && !index.intros.has(intro)) index.intros.set(intro, source)
+  for (const paragraph of paragraphs) {
+    const sig = textFingerprint(prompt, paragraph, prompt.locale === "en" ? 160 : 90, prompt.locale === "en" ? 280 : 190)
+    if (sig && !index.paragraphs.has(sig)) index.paragraphs.set(sig, source)
+    const opening = genericOpeningSignature(paragraph, prompt.locale)
+    if (opening && !index.openings.has(opening)) index.openings.set(opening, source)
+  }
+  const structure = structureFingerprint(body)
+  if (structure && !index.structureFingerprints.has(structure)) index.structureFingerprints.set(structure, source)
+}
+
+function promptLikeFromMeta(meta = {}) {
+  return {
+    locale: meta.lang === "en" ? "en" : "zh",
+    cityNameLocalized: "",
+    cityNameZh: "",
+    cityNameEn: "",
+    citySlug: "",
+    topicNameLocalized: "",
+    topicSlug: "",
+  }
+}
+
+function loadContentUniquenessIndex() {
+  if (contentUniquenessIndex) return contentUniquenessIndex
+  const index = emptyContentUniquenessIndex()
+  if (existsSync(CONTENT_READY_DIR)) {
+    for (const file of readdirSync(CONTENT_READY_DIR).filter((f) => f.endsWith(".md"))) {
+      try {
+        const raw = readFileSync(join(CONTENT_READY_DIR, file), "utf8")
+        const meta = parseFrontmatter(raw)
+        const body = bodyWithoutFrontmatter(raw)
+        addUniquenessRecord(index, promptLikeFromMeta(meta), body, `content/seo-ready/${file}`)
+      } catch {
+        // Build validation reports malformed files; generation only needs a best-effort index.
+      }
+    }
+  }
+  const generatedIndexDir = join(ROOT, "content/articles/ready/index")
+  if (existsSync(generatedIndexDir)) {
+    for (const file of readdirSync(generatedIndexDir).filter((f) => f.endsWith(".json"))) {
+      try {
+        const article = JSON.parse(readFileSync(join(generatedIndexDir, file), "utf8"))
+        const markdown = [
+          `# ${article.h1 || article.title || ""}`,
+          article.directAnswer || article.excerpt || "",
+          ...(article.sections || []).flatMap((section) => [`## ${section.h2 || ""}`, section.body || ""]),
+          ...(article.faq || []).flatMap((item) => [`### ${item.question || ""}`, item.answer || ""]),
+        ].filter(Boolean).join("\n\n")
+        addUniquenessRecord(index, { locale: article.language === "en" ? "en" : "zh" }, markdown, `content/articles/ready/index/${file}`)
+      } catch {
+        // Best-effort uniqueness index only.
+      }
+    }
+  }
+  contentUniquenessIndex = index
+  return index
+}
+
+function crossArticleUniquenessIssues(prompt, body = "") {
+  const index = loadContentUniquenessIndex()
+  const issues = []
+  const paragraphs = publicParagraphs(body)
+  for (const heading of markdownHeadings(body)) {
+    const key = normalizeHeadingForUniqueness(heading.text)
+    const source = key ? index.headings.get(key) : ""
+    if (source) issues.push(`heading-duplicate-with-existing:${heading.text.slice(0, 80)}@${source}`)
+  }
+  const intro = textFingerprint(prompt, paragraphs[0] || "", prompt.locale === "en" ? 120 : 70, prompt.locale === "en" ? 240 : 160)
+  const introSource = intro ? index.intros.get(intro) : ""
+  if (introSource) issues.push(`opening-duplicate-with-existing:${introSource}`)
+  for (const paragraph of paragraphs) {
+    const sig = textFingerprint(prompt, paragraph, prompt.locale === "en" ? 160 : 90, prompt.locale === "en" ? 280 : 190)
+    const source = sig ? index.paragraphs.get(sig) : ""
+    if (source) {
+      issues.push(`paragraph-duplicate-with-existing:${source}`)
+      break
+    }
+  }
+  return issues.slice(0, 6)
+}
+
+function reserveGeneratedUniqueness(prompt, body = "", source = "") {
+  addUniquenessRecord(loadContentUniquenessIndex(), prompt, body, source)
+}
+
+>>>>>>> Stashed changes
 function normalizeLatinAlias(value = "") {
   return String(value || "")
     .normalize("NFKD")
@@ -1040,6 +1259,215 @@ function includesCity(prompt, text) {
   return text.includes(city)
 }
 
+function markdownHeadingTexts(body = "", level = 2) {
+  const marker = "#".repeat(level)
+  return [...String(body || "").matchAll(new RegExp(`^${marker}\\s+(.+)$`, "gm"))]
+    .map((m) => m[1].trim())
+    .filter(Boolean)
+}
+
+function firstPublicParagraph(body = "") {
+  return publicParagraphs(body)[0] || ""
+}
+
+function firstScreenText(body = "", locale = "zh") {
+  const first = firstPublicParagraph(body)
+  if (locale === "en") return first.split(/\s+/).slice(0, 220).join(" ")
+  return first.slice(0, 220)
+}
+
+function sentenceChunks(text = "", locale = "zh") {
+  const chunks = String(text || "")
+    .split(locale === "en" ? /(?<=[.!?])\s+/ : /(?<=[。！？])\s*/)
+    .map((item) => item.trim())
+    .filter(Boolean)
+  return chunks.length ? chunks : String(text || "").split(/\n+/).map((item) => item.trim()).filter(Boolean)
+}
+
+function countLocalDetails(prompt, body = "") {
+  const city = String(prompt.cityNameLocalized || "").trim()
+  const topic = String(prompt.topicNameLocalized || "").trim()
+  const details = new Set()
+  for (const sentence of sentenceChunks(body, prompt.locale)) {
+    const hasCity = city && (prompt.locale === "en"
+      ? sentence.toLowerCase().includes(city.toLowerCase())
+      : sentence.includes(city))
+    const hasTopic = topic && (prompt.locale === "en"
+      ? sentence.toLowerCase().includes(topic.toLowerCase())
+      : sentence.includes(topic))
+    const hasLocalCue = /街区|同城|本地|到场|离场|公共场所|时间|费用|餐厅|场地|跨区|主理人|同桌|neighbou?rhood|local|public venue|arrival|exit|cost|host|guest mix|table/i.test(sentence)
+    if ((hasCity || hasTopic) && hasLocalCue) details.add(normalizeSimilarityText(sentence).slice(0, 80))
+  }
+  return details.size
+}
+
+function countReaderQuestions(prompt, body = "") {
+  const questionMarks = (String(body || "").match(/[?？]/g) || []).length
+  const questionPhrases = prompt.locale === "en"
+    ? (String(body || "").match(/\bwhat\b|\bwho\b|\bhow\b|\bwhen\b|\bwhy\b|\bshould I\b|\bcan I\b/gi) || []).length
+    : (String(body || "").match(/什么|谁|怎么|如何|是否|要不要|能不能|该不该|为什么/g) || []).length
+  return Math.max(questionMarks, Math.min(questionPhrases, 5))
+}
+
+function judgmentCriteriaCount(body = "", locale = "zh") {
+  const patterns = locale === "en"
+    ? [/check\b/i, /judge\b/i, /signal/i, /criteria/i, /clear/i, /specific/i, /vague/i, /public venue/i, /cost/i, /host/i]
+    : [/判断/g, /标准/g, /信号/g, /具体/g, /清楚/g, /含糊/g, /公共/g, /费用/g, /主理人/g, /场地/g]
+  let count = 0
+  for (const pattern of patterns) {
+    if (pattern.test(body)) count++
+  }
+  return count
+}
+
+function hasNonFit(body = "", locale = "zh") {
+  return locale === "en"
+    ? /\bnot for\b|\bshould skip\b|\bnot suitable\b|\bwho should not\b/i.test(body)
+    : /不适合|先别报名|不该报名|最好不要|不建议/.test(body)
+}
+
+function hasSafetyBoundary(body = "", locale = "zh") {
+  return locale === "en"
+    ? /\bsafety\b|\bboundar(y|ies)\b|\bexit\b|\bleave\b|\bdecline\b|\bpublic venue\b/i.test(body)
+    : /安全|边界|退出|离开|拒绝|公共场所|提前离场/.test(body)
+}
+
+function entityFirstScreenIssues(prompt, body = "", title = "") {
+  const screen = firstScreenText(body, prompt.locale)
+  const issues = []
+  const entityText = `${title}\n${screen}`
+  if (prompt.locale === "en") {
+    if (!/Fanju app/i.test(entityText)) issues.push("entity-first-screen-missing-fanju-app")
+    if (!/饭局|饭局app|Fanju饭局/.test(entityText)) issues.push("entity-first-screen-missing-chinese-bridge")
+    if (!/small[- ]table|small table|meal|dinner|offline|real-world|connection/i.test(screen)) issues.push("entity-first-screen-missing-definition")
+    if (!/(not|isn't|is not)[^.?!]*(dating|date)|dating guarantee/i.test(screen)) issues.push("entity-first-screen-missing-dating-clarifier")
+    if (!/(not|isn't|is not)[^.?!]*(random group chat|group chat)|not a chat/i.test(screen)) issues.push("entity-first-screen-missing-chat-clarifier")
+    if (!/(not|isn't|is not)[^.?!]*(profile feed|swipe|endless)|not a feed/i.test(screen)) {
+      issues.push("entity-first-screen-missing-not-this-clarifier")
+    }
+  } else {
+    if (!/饭局app|Fanju饭局/.test(entityText)) issues.push("entity-first-screen-missing-fanju")
+    if (!/小桌|吃饭|清晰主题|线下连接|线下/.test(screen)) issues.push("entity-first-screen-missing-definition")
+    if (!/不是相亲|不等于相亲|不是相亲保证/.test(screen)) issues.push("entity-first-screen-missing-dating-clarifier")
+    if (!/不是随机群聊|不靠随机群聊|不是群聊/.test(screen)) issues.push("entity-first-screen-missing-chat-clarifier")
+    if (!/不是无限刷资料|不是刷资料|不是刷脸|不是资料流/.test(screen)) {
+      issues.push("entity-first-screen-missing-not-this-clarifier")
+    }
+  }
+  if (!includesCity(prompt, screen)) issues.push("entity-first-screen-missing-city")
+  if (prompt.topicNameLocalized && !screen.toLowerCase().includes(String(prompt.topicNameLocalized).toLowerCase())) {
+    issues.push("entity-first-screen-missing-topic")
+  }
+  return issues
+}
+
+function internalLinkPlanIssues(prompt) {
+  const plan = prompt.editorialBrief?.internalLinkPlan || []
+  const authority = prompt.locale === "en" ? "/en/what-is-fanju" : "/what-is-fanju"
+  const issues = []
+  if (!Array.isArray(plan) || plan.length < 3) issues.push("internal-link-plan-too-thin")
+  if (!plan.some((link) => normalizeCanonicalPath(link.url || "") === authority)) {
+    issues.push("internal-link-plan-missing-authority-page")
+  }
+  const anchors = plan.map((link) => String(link.anchor || "").trim()).filter(Boolean)
+  if (new Set(anchors).size < Math.min(3, anchors.length)) issues.push("internal-link-plan-anchors-not-varied")
+  return issues
+}
+
+function modernQualityAudit(prompt, parsed) {
+  const body = String(parsed?.body || "")
+  const title = String(parsed?.title || "")
+  const h1 = markdownH1(body) || title
+  const h2s = markdownHeadingTexts(body, 2)
+  const h3s = markdownHeadingTexts(body, 3)
+  const deepHeadings = [...String(body || "").matchAll(/^#{4,10}\s+(.+)$/gm)].map((m) => m[1].trim())
+  const index = loadContentUniquenessIndex()
+  const issues = []
+
+  const h1Similarity = maxSimilarity(h1, index.h1s)
+  if (h1Similarity.score >= 0.78) issues.push(`h1-too-similar:${h1Similarity.score.toFixed(2)}@${h1Similarity.source}`)
+
+  for (const h2 of h2s) {
+    const best = maxSimilarity(h2, index.h2s)
+    if (best.score >= 0.84) {
+      issues.push(`h2-too-similar:${best.score.toFixed(2)}:${h2.slice(0, 80)}@${best.source}`)
+      break
+    }
+  }
+
+  const openings = publicParagraphs(body)
+    .map((paragraph) => genericOpeningSignature(paragraph, prompt.locale))
+    .filter((sig) => sig && sig.length >= (prompt.locale === "en" ? 28 : 12))
+  const repeatedHistoricalOpenings = openings.filter((sig) => index.openings.has(sig))
+  if (repeatedHistoricalOpenings.length >= 2) {
+    issues.push(`paragraph-openings-repeat-existing:${repeatedHistoricalOpenings.slice(0, 2).join("|")}`)
+  }
+
+  const structure = structureFingerprint(body)
+  const structureSource = structure ? index.structureFingerprints.get(structure) : ""
+  if (structureSource) issues.push(`structure-fingerprint-duplicate:${structure}@${structureSource}`)
+
+  if (h2s.length < 5 || h2s.length > 7) issues.push(`h2-count-out-of-range:${h2s.length}`)
+  if (deepHeadings.length) issues.push(`meaningless-deep-headings:${deepHeadings.slice(0, 3).join("|")}`)
+  if (h3s.length > 4) issues.push(`too-many-h3:${h3s.length}`)
+  if (templateH2Issues(prompt, body).length) issues.push("template-h2-modern")
+  if (isTemplateTitle(prompt, h1)) issues.push("template-h1-modern")
+
+  issues.push(...entityFirstScreenIssues(prompt, body, title))
+
+  const localDetailCount = countLocalDetails(prompt, body)
+  if (localDetailCount < 5) issues.push(`local-details-too-thin:${localDetailCount}`)
+  const questionCount = countReaderQuestions(prompt, body)
+  if (questionCount < 3) issues.push(`reader-questions-too-thin:${questionCount}`)
+  const criteriaCount = judgmentCriteriaCount(body, prompt.locale)
+  if (criteriaCount < 2) issues.push(`judgment-criteria-too-thin:${criteriaCount}`)
+  if (!hasNonFit(body, prompt.locale)) issues.push("missing-not-suitable-section")
+  if (!hasSafetyBoundary(body, prompt.locale)) issues.push("missing-safety-exit-boundary")
+  issues.push(...internalLinkPlanIssues(prompt))
+
+  const scores = {
+    OriginalityScore: Math.max(0, 100 - (h1Similarity.score >= 0.78 ? 30 : Math.round(h1Similarity.score * 18)) - (issues.some((x) => x.startsWith("h2-too-similar")) ? 30 : 0) - (repeatedHistoricalOpenings.length * 8)),
+    AntiTemplateScore: Math.max(0, 100 - (issues.some((x) => x.includes("template")) ? 35 : 0) - (issues.some((x) => x.startsWith("structure-fingerprint")) ? 25 : 0) - (deepHeadings.length ? 25 : 0) - (h2s.length < 5 || h2s.length > 7 ? 20 : 0)),
+    LocalDetailScore: Math.min(100, Math.round((localDetailCount / 5) * 100)),
+    EntityScore: Math.max(0, 100 - entityFirstScreenIssues(prompt, body, title).length * 22),
+    SearchIntentScore: Math.max(0, 100 - (questionCount < 3 ? 25 : 0) - (criteriaCount < 2 ? 20 : 0) - (!hasNonFit(body, prompt.locale) ? 20 : 0)),
+    InternalLinkScore: Math.max(0, 100 - internalLinkPlanIssues(prompt).length * 35),
+    IndexabilityScore: Math.max(0, 100 - (publicLinkHits(`${title}\n${body}`).length ? 50 : 0) - (detectLeaks(`${title}\n${body}`).length ? 50 : 0)),
+    ExternalPublishProof: "pending",
+  }
+  const failedScores = Object.entries(QUALITY_THRESHOLDS)
+    .filter(([key, threshold]) => Number(scores[key]) < threshold)
+    .map(([key, threshold]) => `${key}:${scores[key]}<${threshold}`)
+  for (const item of failedScores) issues.push(`quality-score-below-threshold:${item}`)
+
+  return {
+    scores,
+    issues,
+    passed: failedScores.length === 0 && !issues.some((issue) => isModernHardIssue(issue)),
+  }
+}
+
+function isModernHardIssue(issue = "") {
+  return (
+    issue.startsWith("h1-too-similar") ||
+    issue.startsWith("h2-too-similar") ||
+    issue.startsWith("paragraph-openings-repeat-existing") ||
+    issue.startsWith("structure-fingerprint-duplicate") ||
+    issue.startsWith("h2-count-out-of-range") ||
+    issue.startsWith("meaningless-deep-headings") ||
+    issue.startsWith("template-h2-modern") ||
+    issue.startsWith("template-h1-modern") ||
+    issue.startsWith("entity-first-screen") ||
+    issue.startsWith("local-details-too-thin") ||
+    issue.startsWith("reader-questions-too-thin") ||
+    issue.startsWith("judgment-criteria-too-thin") ||
+    issue === "missing-not-suitable-section" ||
+    issue === "missing-safety-exit-boundary" ||
+    issue.startsWith("internal-link-plan") ||
+    issue.startsWith("quality-score-below-threshold")
+  )
+}
+
 function scoreArticle(prompt, parsed) {
   const issues = []
   if (!parsed) return { score: 0, issues: ["json-parse-failed"] }
@@ -1078,10 +1506,10 @@ function scoreArticle(prompt, parsed) {
   if (prompt.locale === "zh" && !`${title}\n${description}\n${body.slice(0, 600)}`.includes("饭局app")) {
     issues.push("missing-primary-keyword:饭局app")
   }
-  if (prompt.locale === "en" && !/Fanju app/i.test(title)) issues.push("title-missing-primary-keyword:fanju-app")
-  if (prompt.locale === "zh" && !title.includes("饭局app")) issues.push("title-missing-primary-keyword:饭局app")
-  if (prompt.locale === "en" && !/Fanju app/i.test(h1)) issues.push("h1-missing-primary-keyword:fanju-app")
-  if (prompt.locale === "zh" && !h1.includes("饭局app")) issues.push("h1-missing-primary-keyword:饭局app")
+  if (prompt.locale === "en" && !/(Fanju app|饭局|饭局app|Fanju饭局)/i.test(title)) issues.push("title-missing-primary-keyword:fanju-app")
+  if (prompt.locale === "zh" && !/(饭局|饭局app|Fanju饭局)/.test(title)) issues.push("title-missing-primary-keyword:饭局")
+  if (prompt.locale === "en" && !/(Fanju app|饭局|饭局app|Fanju饭局)/i.test(h1)) issues.push("h1-missing-primary-keyword:fanju-app")
+  if (prompt.locale === "zh" && !/(饭局|饭局app|Fanju饭局)/.test(h1)) issues.push("h1-missing-primary-keyword:饭局")
   if (!includesCity(prompt, `${title}\n${description}\n${body.slice(0, 1200)}`)) issues.push("missing-city-context")
   if (!includesCity(prompt, title)) issues.push("title-missing-city")
   if (!includesCity(prompt, h1)) issues.push("h1-missing-city")
@@ -1109,8 +1537,11 @@ function scoreArticle(prompt, parsed) {
   if (isTemplateTitle(prompt, title)) issues.push("template-title")
   if (isTemplateTitle(prompt, h1)) issues.push("template-h1")
   if (countMarkdownHeadings(body, 2) < 5) issues.push(`too-few-h2:${countMarkdownHeadings(body, 2)}`)
+<<<<<<< Updated upstream
   if (countMarkdownHeadings(body, 3) < 1) issues.push(`too-few-h3:${countMarkdownHeadings(body, 3)}`)
   if (countMarkdownHeadings(body, 4) < 1) issues.push(`too-few-h4:${countMarkdownHeadings(body, 4)}`)
+=======
+>>>>>>> Stashed changes
   const minParagraphs = prompt.locale === "en" ? 10 : 10
   if (countParagraphs(body) < minParagraphs) issues.push(`too-few-paragraphs:${countParagraphs(body)}`)
   const duplicateH2 = duplicateMarkdownHeadings(body, 2)
@@ -1130,9 +1561,12 @@ function scoreArticle(prompt, parsed) {
   const malformedHeadings = malformedHeadingIssues(body)
   if (malformedHeadings.length > 0) issues.push(`malformed-heading:${malformedHeadings.join("|")}`)
 
-  if (issues.length === 0) return { score: 100, issues }
+  const modern = modernQualityAudit(prompt, parsed)
+  issues.push(...modern.issues)
+
+  if (issues.length === 0) return { score: 100, issues, qualityScores: modern.scores }
   if (issues.some(isHardIssue)) {
-    return { score: 0, issues }
+    return { score: 0, issues, qualityScores: modern.scores }
   }
 
   let score = 100
@@ -1146,19 +1580,24 @@ function scoreArticle(prompt, parsed) {
   if (issues.find((x) => x.startsWith("repeated-generic-phrases"))) score -= 8
   if (issues.includes("missing-description")) score -= 8
   if (issues.includes("missing-title")) score -= 30
-  return { score: Math.max(score, 0), issues }
+  const modernComposite = Math.min(...Object.entries(QUALITY_THRESHOLDS).map(([key]) => Number(modern.scores[key]) || 0))
+  return { score: Math.max(Math.min(score, modernComposite), 0), issues, qualityScores: modern.scores }
 }
 
 function isHardIssue(issue) {
   return (
+    isModernHardIssue(issue) ||
     issue.startsWith("tech-leak") ||
     issue.startsWith("public-link") ||
     issue === "json-wrapper-in-public-text" ||
     issue === "code-fence-in-public-body" ||
     issue.startsWith("body-too-short") ||
     issue.startsWith("too-few-h2") ||
+<<<<<<< Updated upstream
     issue.startsWith("too-few-h3") ||
     issue.startsWith("too-few-h4") ||
+=======
+>>>>>>> Stashed changes
     issue.startsWith("too-few-paragraphs") ||
     issue.startsWith("duplicate-h2") ||
     issue.startsWith("duplicate-heading") ||
@@ -1353,9 +1792,10 @@ function retryPrompt(basePrompt, attempt, issues) {
   const bodyTooLong = issues.some((issue) => issue.startsWith("body-too-long"))
   const lengthGuidance = isEn
     ? bodyTooLong
-      ? "Keep the body compact: 4,200-6,500 characters, 10-14 public paragraphs, no repeated sections, and no expansion for its own sake."
-      : "Use at least 13 separate public paragraphs with blank lines between paragraphs. Every H2 must have exactly two distinct paragraphs of 90-150 words. Do not use bullet lists or numbered lists."
+      ? "Keep the body compact: 3,600-7,200 total characters, exactly 12-14 public paragraphs, no repeated sections, and no expansion for its own sake."
+      : "Use exactly 12-14 separate public paragraphs with blank lines between paragraphs. Use exactly 6 distinct H2 sections, with exactly two paragraph blocks under each H2. Do not use bullet lists, numbered lists, or H4-H10 headings."
     : bodyTooLong
+<<<<<<< Updated upstream
       ? "正文要收紧到 2,800-4,800 字符，10-14 个公开自然段，不要重复小节，不要为了凑长扩写。"
       : "至少 13 个公开自然段，段落之间空行；每个 H2 下面必须正好两段，每段 120-190 个汉字；不要项目符号或编号列表。"
   // Extract specific forbidden Latin words from issues for explicit ban
@@ -1368,12 +1808,21 @@ function retryPrompt(basePrompt, attempt, issues) {
       ? ` FORBIDDEN WORDS (do NOT use these anywhere): ${forbiddenWords.join(", ")}. Use Chinese equivalents only.`
       : `【禁止出现以下英文词】${forbiddenWords.join("、")}——必须全部用中文表达，不能出现任何英文专业术语。`
     : ""
+=======
+      ? "正文要收紧到 2,800-5,000 字符，正好 12-14 个公开自然段，不要重复小节，不要为了凑长扩写。"
+      : "使用正好 12-14 个公开自然段，段落之间空行；必须正好 6 个独立 H2，每个 H2 下正好两个自然段；不要项目符号、编号列表或 H4-H10 标题。"
+>>>>>>> Stashed changes
   return [
     basePrompt.userPrompt,
     "",
     isEn
+<<<<<<< Updated upstream
       ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch and satisfy the automated gate in one pass.${forbiddenBan} Return only the article text, starting with "# ". Use only the exact H1, exact 6 H2 headings, and exact H3-Hmax headings already listed above; do not add FAQ, checklist, conclusion, next-step, safety, summary, or any other extra heading. No H1-Hn heading text may repeat after normalization. Duplicate headings are a hard failure and must be fixed by a full rewrite, not by changing score/status/renderMode/metadata or deleting required sections. The H1/title must include the city and the exact phrase "Fanju app"; the first paragraph must include the city and Fanju app, and at least one later paragraph must include the city without repeating the opening. Use exactly 6 "## " headings, exactly one "### " reader question, and at least 13 natural paragraphs. Every H2 needs at least two paragraphs. Do not use generic headings such as "Who this is for", "Safety and boundaries", "How it works", "What to expect", "Next steps", or "Conclusion". Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
       : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写，并一次满足自动质量门。${forbiddenBan}只返回文章正文，第一行必须以「# 」开头。只能使用上文已经列出的精确 H1、6 个精确 H2、以及精确 H3-Hmax 标题；不要新增 FAQ、检查清单、结语、下一步、安全、总结或任何额外标题。H1-Hn 任意标题归一化后都不能重复。标题重复是硬失败，必须全文重写，不能通过修改 score/status/renderMode/metadata 或删除必要章节绕过。标题/H1 必须包含中文城市名和「饭局app」；第一段必须同时出现中文城市名和「饭局app」，开头之后至少一段也要出现中文城市名且不能复用开头句式。必须写 6 个「## 」标题、且只写 1 个「### 」具体疑问标题；至少 13 个自然段；每个 H2 下必须正好 2 段。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这种通用标题。标题、H1、开头段落、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。不要用加粗标题、编号标题、项目列表或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整；不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
+=======
+      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch from the editorial brief and satisfy the automated gate in one pass. Return only the article text, starting with "# ". The H1/title must include the city and Fanju app or the Chinese entity bridge. The first sentence of the first paragraph must include the city, topic, and Fanju app. The first paragraph must define Fanju app and include the exact phrases "not a dating guarantee", "not a random group chat", and "not an endless profile feed". Use exactly 6 "## " headings. H3 is optional only for a real reader question; do not use H4-H10. Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension; do not use the brief questions as headings. Include at least five local details, three reader questions, two judgment criteria, one not-suitable point, and one safety/exit boundary. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
+      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请根据 editorial brief 从头重写，并一次满足自动质量门。只返回文章正文，第一行必须以「# 」开头。标题/H1 必须自然包含中文城市名和「饭局 / 饭局app / Fanju饭局 / 城市+主题饭局」之一；第一段第一句必须包含城市、主题和「饭局app」或「Fanju饭局」。首段 120-220 字必须解释饭局app / Fanju饭局是什么，落到城市和主题，并包含精确短语「不是相亲保证」「不是随机群聊」「不是无限刷资料」。必须正好写 6 个独立「## 」标题；H3 只在真实需要时使用；禁止 H4-H10。每个 H2 都要为这个城市、主题、角度、人群和一个具体本地张力重写，不要把 brief 问题原文当标题。至少包含 5 个本地细节、3 个真实疑问、2 个判断标准、1 个不适合谁、1 个安全或退出边界。${lengthGuidance} 不要摘要，要更具体、更本地、更完整；不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
+>>>>>>> Stashed changes
   ].join("\n")
 }
 
@@ -1482,10 +1931,14 @@ async function runOneAttempt(prompt, attempt, previousIssues = []) {
       console.log(`[REPAIR] ${prompt.promptId} ${generation.provider} normalized markdown headings`)
     }
     const scored = scoreArticle(prompt, parsed)
+<<<<<<< Updated upstream
     const strictHeadingIssues = strictParsedHeadingIssues(parsed)
     const issues = mergeIssues(scored.issues, strictHeadingIssues)
     const score = strictHeadingIssues.length ? 0 : scored.score
     const candidate = { generation, parsed, score, issues }
+=======
+    const candidate = { generation, parsed, score: scored.score, issues: scored.issues, qualityScores: scored.qualityScores || {} }
+>>>>>>> Stashed changes
     if (
       !best ||
       candidate.score > best.score ||
@@ -1501,6 +1954,7 @@ async function runOneAttempt(prompt, attempt, previousIssues = []) {
   let parsed = best.parsed
   let score = best.score
   let issues = best.issues
+  let qualityScores = best.qualityScores || {}
 
   const body = String(parsed?.body || "").trim()
   const title = String(parsed?.title || "").trim()
@@ -1528,6 +1982,7 @@ async function runOneAttempt(prompt, attempt, previousIssues = []) {
     alternatePath,
     r2Key,
     status,
+    qualityScores,
     elapsedMs: elapsed,
     attempt,
   }
@@ -1757,6 +2212,9 @@ function readyEntryFromResult(result) {
     model: result.generation.model || null,
     status: "ready",
     score: result.score,
+    qualityScores: result.qualityScores || {},
+    editorialBrief: result.prompt.editorialBrief || null,
+    briefHash: result.prompt.briefHash || (result.prompt.editorialBrief ? sha256Hex(JSON.stringify(result.prompt.editorialBrief)) : null),
     issues: result.issues,
     generationMode: "native",
     translationApiUsed: false,
@@ -1821,6 +2279,7 @@ function reviewEntry(result) {
     model: result.generation.model || null,
     status: result.status,
     score: result.score,
+    qualityScores: result.qualityScores || {},
     issues: result.issues,
     generatedAt: new Date().toISOString(),
   }

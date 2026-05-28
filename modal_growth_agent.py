@@ -31,6 +31,30 @@ OUTPUT_PATHS = [
 ]
 
 AI_PROVIDER_ORDER = "cerebras,cerebras2,cerebras3,cerebras4,groq,groq2,gemini,gemini2,openrouter,nvidia,nvidia2,cloudflare"
+<<<<<<< Updated upstream
+=======
+RUNTIME_PIPELINE_FILES = [
+    "modal_article_audit.py",
+    "components/seo-ready-article-page.tsx",
+    "lib/seo-ready-articles.ts",
+    "scripts/check-seo-ready-routes.mjs",
+    "scripts/seo/build-random-prompt-bank.mjs",
+    "scripts/seo/run-prompt-bank-to-cloudflare.mjs",
+    "scripts/seo/submit-cloudflare-article-urls.mjs",
+    "scripts/seo/audit-anti-template.mjs",
+    "scripts/seo/audit-external-publish-proof.mjs",
+]
+>>>>>>> Stashed changes
+
+QUALITY_SCORE_THRESHOLDS = {
+    "OriginalityScore": 85,
+    "AntiTemplateScore": 85,
+    "LocalDetailScore": 80,
+    "EntityScore": 90,
+    "SearchIntentScore": 90,
+    "InternalLinkScore": 90,
+    "IndexabilityScore": 90,
+}
 
 image = (
     modal.Image.debian_slim()
@@ -680,14 +704,33 @@ def run_seo_ready_files_check(entries: list[dict], stage: str) -> None:
 
 
 def validate_ready_entries(entries: list[dict], min_score: int = 90) -> None:
+    def score_failures(entry: dict) -> list[str]:
+        scores = entry.get("qualityScores") or {}
+        failures: list[str] = []
+        for key, threshold in QUALITY_SCORE_THRESHOLDS.items():
+            value = scores.get(key)
+            if not isinstance(value, (int, float)) or value < threshold:
+                failures.append(f"{key}={value!r}<{threshold}")
+        return failures
+
     bad_entries = [
         entry
         for entry in entries
         if (entry.get("score") or 0) < min_score
         or BAD_PUBLIC_METADATA_RE.search(json.dumps(entry, ensure_ascii=False))
+        or score_failures(entry)
     ]
     if bad_entries:
-        raise RuntimeError(f"Invalid published metadata: {bad_entries[:2]}")
+        summarized = [
+            {
+                "route": public_route_for_entry(entry),
+                "score": entry.get("score"),
+                "qualityScores": entry.get("qualityScores"),
+                "scoreFailures": score_failures(entry),
+            }
+            for entry in bad_entries[:2]
+        ]
+        raise RuntimeError(f"Invalid published metadata: {summarized}")
 
 
 def run_cloudflare_publish_pipeline(

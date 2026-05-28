@@ -1,6 +1,12 @@
 // Submit latest Cloudflare-published article URLs to indexing/link platforms.
 
 import { execFileSync } from "child_process"
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs"
+import { dirname, join } from "path"
+import { fileURLToPath } from "url"
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
+const ROOT = join(__dirname, "../..")
 
 const SITE_ROOT = (process.env.SITE_URL || "https://fanju.app").replace(/\/$/, "")
 const DEFAULT_INDEXNOW_KEY = "e425652261cb6c96a73b030ea9c77e4c"
@@ -9,7 +15,12 @@ const CLOUDFLARE_API_TOKEN = cleanToken(process.env.CLOUDFLARE_API_TOKEN || proc
 const CLOUDFLARE_D1_DATABASE_ID = clean(process.env.CLOUDFLARE_D1_DATABASE_ID || "58d63133-adeb-4efd-b9eb-a9b056271ca5")
 const LIMIT = Math.max(1, Number.parseInt(process.env.URL_LIMIT || "20", 10))
 const DRY_RUN = process.env.DRY_RUN === "1"
+<<<<<<< Updated upstream
 const REQUESTED_URLS = parseRequestedUrls(process.env.URLS || process.env.SUBMIT_URLS || "")
+=======
+const RUN_ID = clean(process.env.RUN_ID || new Date().toISOString().replace(/[:.]/g, "-"))
+const PROOF_FILE = join(ROOT, process.env.PROOF_FILE || `data/seo/external-publish-proof-${RUN_ID}.json`)
+>>>>>>> Stashed changes
 const PLATFORMS = new Set(
   clean(process.env.PLATFORMS || "all")
     .split(",")
@@ -33,6 +44,7 @@ function normalizeUrl(url) {
   return String(url || "").trim().replace(/\/$/, "")
 }
 
+<<<<<<< Updated upstream
 function parseRequestedUrls(value = "") {
   return String(value || "")
     .split(",")
@@ -61,6 +73,31 @@ function titleFromSlug(slug = "") {
     .join(" ")
     .replace(/-/g, " ")
     .replace(/\b\w/g, (ch) => ch.toUpperCase())
+=======
+function normalizePath(path = "") {
+  let value = String(path || "").trim()
+  if (!value) return ""
+  if (/^https?:\/\//i.test(value)) {
+    try {
+      value = new URL(value).pathname
+    } catch {
+      return ""
+    }
+  }
+  value = value.startsWith("/") ? value : `/${value}`
+  return value.endsWith("/") && value.length > 1 ? value.slice(0, -1) : value
+}
+
+function canonicalMatches(url, canonical = "") {
+  if (!canonical) return false
+  try {
+    const expected = new URL(url)
+    const actual = new URL(canonical, SITE_ROOT)
+    return actual.origin === expected.origin && normalizePath(actual.pathname) === normalizePath(expected.pathname)
+  } catch {
+    return false
+  }
+>>>>>>> Stashed changes
 }
 
 function shouldRun(platform) {
@@ -131,6 +168,7 @@ async function fetchLatestUrls() {
   }))
 }
 
+<<<<<<< Updated upstream
 async function fetchRequestedEntries() {
   const entries = []
   const seen = new Set()
@@ -161,6 +199,66 @@ async function fetchRequestedEntries() {
 async function verifyUrl(url) {
   const res = await fetch(url, { method: "HEAD", redirect: "follow" })
   return { url, status: res.status, ok: res.ok, contentType: res.headers.get("content-type") || "" }
+=======
+async function loadSitemapUrls() {
+  const sitemapUrl = `${SITE_ROOT}/sitemap.xml`
+  try {
+    const res = await fetch(sitemapUrl, { redirect: "follow" })
+    const text = await res.text()
+    if (!res.ok) return { ok: false, status: res.status, urls: new Set(), error: text.slice(0, 300) }
+    const urls = new Set([...text.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => normalizeUrl(m[1])))
+    return { ok: true, status: res.status, urls, error: "" }
+  } catch (err) {
+    const local = join(ROOT, "public/sitemap.xml")
+    if (existsSync(local)) {
+      const text = readFileSync(local, "utf8")
+      const urls = new Set([...text.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => normalizeUrl(m[1])))
+      return { ok: true, status: "local", urls, error: "" }
+    }
+    return { ok: false, status: 0, urls: new Set(), error: err?.message || String(err) }
+  }
+}
+
+async function verifyUrl(url, sitemapUrls) {
+  const head = await fetch(url, { method: "HEAD", redirect: "follow" }).catch((err) => ({ status: 0, ok: false, headers: new Headers(), error: err?.message || String(err) }))
+  let contentType = head.headers?.get?.("content-type") || ""
+  let html
+  let getStatus
+  let getOk
+  try {
+    const get = await fetch(url, { method: "GET", redirect: "follow" })
+    getStatus = get.status
+    getOk = get.ok
+    contentType = get.headers.get("content-type") || contentType
+    html = await get.text()
+  } catch (err) {
+    return {
+      url,
+      status: head.status || 0,
+      ok: false,
+      contentType,
+      canonical: "",
+      canonicalOk: false,
+      sitemapIncluded: sitemapUrls.has(normalizeUrl(url)),
+      error: err?.message || String(err),
+    }
+  }
+  const canonical = html.match(/<link[^>]+rel=["']canonical["'][^>]+href=["']([^"']+)["']/i)?.[1]
+    || html.match(/<link[^>]+href=["']([^"']+)["'][^>]+rel=["']canonical["']/i)?.[1]
+    || ""
+  const sitemapIncluded = sitemapUrls.has(normalizeUrl(url))
+  return {
+    url,
+    status: getStatus || head.status,
+    headStatus: head.status,
+    ok: Boolean(getOk && getStatus === 200),
+    contentType,
+    canonical,
+    canonicalOk: canonicalMatches(url, canonical),
+    sitemapIncluded,
+    error: head.error || "",
+  }
+>>>>>>> Stashed changes
 }
 
 async function submitIndexNow(urls) {
@@ -503,19 +601,123 @@ function escapeHtml(input = "") {
     .replaceAll("'", "&#039;")
 }
 
+<<<<<<< Updated upstream
 const entries = REQUESTED_URLS.length ? await fetchRequestedEntries() : await fetchLatestUrls()
+=======
+function platformKey(platform = "") {
+  const value = String(platform || "").toLowerCase()
+  if (value.includes("indexnow")) return "indexnow"
+  if (value.includes("baidu")) return "baidu"
+  if (value.includes("gist")) return "gist"
+  if (value.includes("dev")) return "devto"
+  if (value.includes("blue")) return "bluesky"
+  if (value.includes("wordpress")) return "wordpress"
+  return value.replace(/[^a-z0-9]+/g, "") || "unknown"
+}
+
+function resultStatus(result) {
+  if (!result) return { status: "skipped", reason: "platform not selected or not run" }
+  if (result.skipped) return { status: "skipped", reason: result.skipped }
+  if (result.dryRun) return { status: "dry-run" }
+  if (result.ok === false) return { status: "failed", reason: result.error || result.body || "platform returned ok=false" }
+  return { status: "success" }
+}
+
+function resultUrl(result, key) {
+  if (!result) return ""
+  if (result.url) return result.url
+  if (key === "bluesky" && Array.isArray(result.posted)) {
+    return result.posted.map((item) => item.uri).filter(Boolean).join(",")
+  }
+  return ""
+}
+
+function buildProof(entries, checks, results, sitemapStatus) {
+  const resultByKey = new Map()
+  for (const result of results) resultByKey.set(platformKey(result.platform), result)
+  const keys = ["indexnow", "baidu", "gist", "devto", "bluesky", "wordpress"]
+  const articles = entries.map((entry) => {
+    const check = checks.find((item) => normalizeUrl(item.url) === normalizeUrl(entry.url)) || {}
+    const platforms = {}
+    const skipped = {}
+    const errors = {}
+    for (const key of keys) {
+      const result = resultByKey.get(key)
+      const status = resultStatus(result)
+      platforms[key] = {
+        ...status,
+        statusCode: result?.status,
+        url: resultUrl(result, key),
+      }
+      if (status.status === "skipped") skipped[key] = status.reason
+      if (status.status === "failed") errors[key] = status.reason
+    }
+    return {
+      articleUrl: entry.url,
+      title: entry.title,
+      liveHttp: {
+        status: check.status || 0,
+        headStatus: check.headStatus || 0,
+        ok: check.ok === true,
+        contentType: check.contentType || "",
+      },
+      canonical: {
+        href: check.canonical || "",
+        ok: check.canonicalOk === true,
+      },
+      sitemapIncluded: check.sitemapIncluded === true,
+      indexnow: platforms.indexnow,
+      baidu: platforms.baidu,
+      gist: { ...platforms.gist, url: platforms.gist.url },
+      devto: { ...platforms.devto, url: platforms.devto.url },
+      bluesky: { ...platforms.bluesky, url: platforms.bluesky.url },
+      wordpress: { ...platforms.wordpress, url: platforms.wordpress.url },
+      skipped,
+      errors,
+    }
+  })
+  const hasSkippedOrFailed = articles.some((article) =>
+    Object.keys(article.skipped).length ||
+    Object.keys(article.errors).length ||
+    ["indexnow", "baidu", "gist", "devto", "bluesky", "wordpress"].some((key) => article[key]?.status !== "success")
+  )
+  const allLive = articles.every((article) => article.liveHttp.ok && article.canonical.ok && article.sitemapIncluded)
+  return {
+    runId: RUN_ID,
+    generatedAt: new Date().toISOString(),
+    siteRoot: SITE_ROOT,
+    dryRun: DRY_RUN,
+    sitemap: sitemapStatus,
+    fullyDistributed: allLive && !hasSkippedOrFailed,
+    status: allLive ? (hasSkippedOrFailed ? "partial" : "success") : "blocked",
+    articles,
+    platformResults: results,
+  }
+}
+
+function writeProof(proof) {
+  mkdirSync(dirname(PROOF_FILE), { recursive: true })
+  writeFileSync(PROOF_FILE, `${JSON.stringify(proof, null, 2)}\n`, "utf8")
+  console.log(`External publish proof written: ${PROOF_FILE}`)
+}
+
+const entries = await fetchLatestUrls()
+>>>>>>> Stashed changes
 const urls = entries.map((entry) => normalizeUrl(entry.url))
 
 console.log(`Collected ${urls.length} ${REQUESTED_URLS.length ? "requested" : "latest"} Cloudflare article URLs.`)
 for (const entry of entries) console.log(`- ${entry.url} | ${entry.title}`)
 
-const checks = await Promise.all(urls.map(verifyUrl))
+const sitemap = await loadSitemapUrls()
+const checks = await Promise.all(urls.map((url) => verifyUrl(url, sitemap.urls)))
 console.log("HTTP checks:")
-for (const check of checks) console.log(`- ${check.status} ${check.url} ${check.contentType}`)
+for (const check of checks) console.log(`- ${check.status} ${check.url} canonical=${check.canonicalOk} sitemap=${check.sitemapIncluded} ${check.contentType}`)
 
-const bad = checks.filter((check) => !check.ok)
+const bad = checks.filter((check) => !check.ok || !check.canonicalOk || !check.sitemapIncluded)
 if (bad.length) {
-  console.error(`Refusing to submit ${bad.length} non-OK URLs.`)
+  const proof = buildProof(entries, checks, [], { ok: sitemap.ok, status: sitemap.status, error: sitemap.error || "" })
+  writeProof(proof)
+  console.error(`Refusing to submit ${bad.length} URLs that are not 200/canonical/sitemap-ready.`)
   process.exit(1)
 }
 
@@ -530,5 +732,8 @@ const results = (await Promise.all([
 
 console.log("Submission results:")
 for (const result of results) console.log(JSON.stringify(result, null, 2))
+
+const proof = buildProof(entries, checks, results, { ok: sitemap.ok, status: sitemap.status, error: sitemap.error || "" })
+writeProof(proof)
 
 if (process.env.STRICT_PUBLISH === "1" && results.some((result) => result.ok === false && !result.nonFatal)) process.exit(1)

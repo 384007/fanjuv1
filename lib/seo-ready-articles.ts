@@ -482,9 +482,27 @@ function labelForArticlePath(path: string, lang: "zh" | "en") {
   return lang === "en" ? `${city} ${topic}` : `${city}${topic}`
 }
 
-function defaultSafeLinks(lang: "zh" | "en"): SafeLink[] {
+const AUTHORITY_ANCHORS_ZH = ["饭局", "饭局app", "Fanju饭局", "同城饭局", "饭搭子饭局", "线下饭局社交"]
+const AUTHORITY_ANCHORS_EN = ["Fanju app", "Fanju 饭局app", "social dining app", "offline dinner social", "small-table dinner", "what Fanju means"]
+
+function stableIndex(value: string, size: number) {
+  let hash = 2166136261
+  for (let i = 0; i < value.length; i++) {
+    hash ^= value.charCodeAt(i)
+    hash = Math.imul(hash, 16777619)
+  }
+  return Math.abs(hash >>> 0) % Math.max(1, size)
+}
+
+function authorityAnchor(lang: "zh" | "en", currentPath = "") {
+  const anchors = lang === "en" ? AUTHORITY_ANCHORS_EN : AUTHORITY_ANCHORS_ZH
+  return anchors[stableIndex(currentPath || lang, anchors.length)]
+}
+
+function defaultSafeLinks(lang: "zh" | "en", currentPath = ""): SafeLink[] {
   return lang === "en"
     ? [
+<<<<<<< Updated upstream
         { label: "Fanju app", href: "/en/what-is-fanju" },
         { label: "social dining app", href: "/social-dining" },
         { label: "dinner city directory", href: "/en/cities" },
@@ -496,6 +514,18 @@ function defaultSafeLinks(lang: "zh" | "en"): SafeLink[] {
         { label: "饭搭子", href: "/what-is-dinner-buddy" },
         { label: "同城饭局", href: "/cities" },
         { label: "线下饭局分类", href: "/categories" },
+=======
+        { label: "All cities", href: "/en/cities" },
+        { label: "All categories", href: "/en/categories" },
+        { label: authorityAnchor(lang, currentPath), href: "/en/what-is-fanju" },
+        { label: "Social dining", href: "/social-dining" },
+        { label: "FAQ", href: "/faq" },
+      ]
+    : [
+        { label: "全部城市", href: "/cities" },
+        { label: "全部类型", href: "/categories" },
+        { label: authorityAnchor(lang, currentPath), href: "/what-is-fanju" },
+>>>>>>> Stashed changes
         { label: "饭局社交", href: "/social-dining" },
       ]
 }
@@ -566,7 +596,7 @@ export function safeLinksForArticle(currentPath: string, article: SeoReadyArticl
     }
   }
 
-  for (const link of defaultSafeLinks(lang)) {
+  for (const link of defaultSafeLinks(lang, normalized)) {
     addSafeLink(links, seen, link.label, link.href, normalized)
   }
 

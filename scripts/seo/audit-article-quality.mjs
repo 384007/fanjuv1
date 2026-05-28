@@ -7,6 +7,7 @@ const INPUT_DIRS = [
   abs("content/articles/ready/index"),
   abs("content/articles/ready/noindex"),
 ]
+const APPLY_AUDIT = process.env.APPLY_AUDIT === "1"
 
 const FORBIDDEN_RE = /保证脱单|保证成交|保证融资|保证收益|稳赚|必赚|100%成功|官方认证|上万人参加|合作餐厅|媒体报道|赌场|赌博|PUA|性暗示/i
 const TECH_LEAK_RE = /prompt|route manifest|sitemap|Google 收录|SEO 策略|AI 生成|提示词|路由清单|站点地图/i
@@ -36,6 +37,21 @@ function scoreArticle(article, duplicateScore) {
   const hasScenario = /饭局|小桌|饭搭子|同城|dinner|small-table|social dining/i.test(text)
   const hasBoundaries = /边界|安全|不适合|不要|public|boundary|avoid|respect/i.test(text)
   const hasSpecific = /人数|4 到 8|4 to 8|话题|适合|第一次|group size|first table/i.test(text)
+  const h2s = (article.sections || []).map((section) => section.h2 || "").filter(Boolean)
+  const localDetailHits = (text.match(/本地|城市|街区|同城|餐厅|场地|公共|到场|离场|时间|费用|主理人|同桌|local|city|neighbou?rhood|venue|arrival|exit|cost|host|guest mix/gi) || []).length
+  const entityHits = /饭局app|Fanju饭局|Fanju app/i.test(`${article.title}\n${article.directAnswer}\n${text.slice(0, 600)}`)
+  const hasAuthorityLink = (article.internalLinks || []).some((link) => ["/what-is-fanju", "/en/what-is-fanju"].includes(link.url))
+  const hasDeepHeading = h2s.some((heading) => /^#{4,10}\s+/.test(heading))
+  const namedScores = {
+    OriginalityScore: duplicateScore < 0.82 ? 90 : 40,
+    AntiTemplateScore: h2s.length >= 5 && h2s.length <= 7 && !hasDeepHeading ? 90 : 65,
+    LocalDetailScore: Math.min(100, Math.max(40, localDetailHits * 8)),
+    EntityScore: entityHits ? 95 : 50,
+    SearchIntentScore: article.searchIntent && article.directAnswer && hasSpecific ? 92 : 70,
+    InternalLinkScore: invalidLinks.length === 0 && validLinks.length >= 3 && hasAuthorityLink ? 95 : 55,
+    IndexabilityScore: invalidLinks.length === 0 && !FORBIDDEN_RE.test(text) && !TECH_LEAK_RE.test(text) ? 95 : 40,
+    ExternalPublishProof: "pending",
+  }
 
   const scores = {
     searchIntentClarity: article.searchIntent && article.primaryKeyword ? 5 : 3,
@@ -56,6 +72,7 @@ function scoreArticle(article, duplicateScore) {
     decision,
     score,
     scores,
+    namedScores,
     reasons: [
       `length=${length}`,
       `duplicateScore=${duplicateScore.toFixed(2)}`,
@@ -121,16 +138,18 @@ for (const dir of INPUT_DIRS) {
     article.statusReason = quality.reasons.join("; ")
 
     const dest = destinationFor(article, file)
-    mkdirSync(dirname(dest), { recursive: true })
-    writeJson(dest, article)
-    if (dest !== file && existsSync(file)) {
-      try { unlinkSync(file) } catch { /* non-fatal */ }
+    if (APPLY_AUDIT) {
+      mkdirSync(dirname(dest), { recursive: true })
+      writeJson(dest, article)
+      if (dest !== file && existsSync(file)) {
+        try { unlinkSync(file) } catch { /* non-fatal */ }
+      }
     }
 
     report.scanned++
     report.scoreTotal += quality.score
     report[quality.decision]++
-    report.items.push({ path, decision: quality.decision, score: quality.score, file: dest.replace(`${abs()}/`, "") })
+    report.items.push({ path, decision: quality.decision, score: quality.score, file: (APPLY_AUDIT ? dest : file).replace(`${abs()}/`, "") })
   }
 }
 
