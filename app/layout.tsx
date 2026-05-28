@@ -25,7 +25,14 @@ const geistMono = Geist_Mono({
 
 const SITE_URL = "https://fanju.app"
 const SITE_NAME = "饭局 Fanju"
-const BRAND_ICON = "/icon.svg?v=20260510-final"
+const ICON_V = "v=20260529"
+// 浏览器标签 favicon：透明底 PNG / ico
+const FAVICON_ICO = `/favicon.ico?${ICON_V}`
+const FAVICON_32 = `/favicon-32x32.png?${ICON_V}`
+const FAVICON_16 = `/favicon-16x16.png?${ICON_V}`
+// 苹果触摸图标 / 磁贴：黑底 PNG（Apple 不支持透明）
+const APPLE_ICON = `/apple-icon.png?${ICON_V}`
+const TILE_ICON = `/mstile-270x270.png?${ICON_V}`
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -136,19 +143,23 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: [{ url: BRAND_ICON, sizes: "any", type: "image/svg+xml" }],
-    shortcut: [BRAND_ICON],
-    apple: [{ url: BRAND_ICON, sizes: "any", type: "image/svg+xml" }],
+    icon: [
+      { url: FAVICON_ICO, sizes: "any" },
+      { url: FAVICON_32, sizes: "32x32", type: "image/png" },
+      { url: FAVICON_16, sizes: "16x16", type: "image/png" },
+    ],
+    shortcut: [FAVICON_ICO],
+    apple: [{ url: APPLE_ICON, sizes: "180x180", type: "image/png" }],
   },
-  manifest: "/manifest.webmanifest?v=20260510-final",
+  manifest: `/manifest.webmanifest?${ICON_V}`,
   appleWebApp: {
     capable: true,
     title: SITE_NAME,
     statusBarStyle: "black-translucent",
   },
   other: {
-    "apple-touch-icon": BRAND_ICON,
-    "msapplication-TileImage": BRAND_ICON,
+    "apple-touch-icon": APPLE_ICON,
+    "msapplication-TileImage": TILE_ICON,
     "msapplication-TileColor": "#000000",
   },
 }
@@ -174,7 +185,7 @@ const jsonLd = {
       name: "饭局 Fanju",
       alternateName: ["Fanju", "FANJU", "饭局"],
       url: SITE_URL,
-      logo: `${SITE_URL}/icon.svg`,
+      logo: `${SITE_URL}/logo.png`,
       description:
         "面向全球年轻人的同频饭局网络。中国大陆城市优先，海外城市城市（纽约、旧金山、伦敦、东京、悉尼、新加坡、温哥华、多伦多等）同步展开。",
       sameAs: [
@@ -267,9 +278,11 @@ export default function RootLayout({
         <link rel="alternate" hrefLang="zh-Hans" href={SITE_URL} />
         <link rel="alternate" hrefLang="en" href={`${SITE_URL}/?lang=en`} />
         <link rel="alternate" hrefLang="x-default" href={SITE_URL} />
-        <link rel="icon" href={BRAND_ICON} type="image/svg+xml" />
-        <link rel="shortcut icon" href={BRAND_ICON} type="image/svg+xml" />
-        <link rel="apple-touch-icon" href={BRAND_ICON} />
+        <link rel="icon" href={FAVICON_ICO} sizes="any" />
+        <link rel="icon" href={FAVICON_32} type="image/png" sizes="32x32" />
+        <link rel="icon" href={FAVICON_16} type="image/png" sizes="16x16" />
+        <link rel="shortcut icon" href={FAVICON_ICO} />
+        <link rel="apple-touch-icon" sizes="180x180" href={APPLE_ICON} />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <script
