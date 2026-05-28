@@ -7,6 +7,7 @@ alternatePath: "/city/melbourne/date-free-dinner"
 title: "Date Free Dinners in Melbourne with Fanju app | fanju-app | 饭局app"
 description: "Discover the power of community-building through date-free dinners in Melbourne with Fanju app"
 recoveredFromD1: true
+---
 
 <article>
 <h1>Date Free Dinners in Melbourne with Fanju app</h1>

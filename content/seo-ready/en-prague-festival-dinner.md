@@ -7,6 +7,7 @@ alternatePath: "/city/prague/festival-dinner"
 title: "Prague does not need another vague invite; Fanju app makes Festival Dinner specific | fanju-app | 饭局app"
 description: "The Fanju app brings a quiet precision to social dining in Prague, cutting through years of digital noise with small, intentional dinners that feel grounded in the present. After years of scrolling through event pages an"
 recoveredFromD1: true
+---
 
 <article>
 <p># Prague does not need another vague invite; Fanju app makes Festival Dinner specific</p>

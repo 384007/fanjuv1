@@ -7,6 +7,7 @@ alternatePath: "/en/city/changchun/festival-dinner"
 title: "长春节日饭局指南 | fanju-app | 饭局app"
 description: "长春节日饭局指南，了解长春的节日饭局文化，如何参加节日饭局，安全和信任的判断，和普通社交/约会软件有什么不同"
 recoveredFromD1: true
+---
 
 <article>
 <p>长春节日饭局指南</p>

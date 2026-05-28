@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # A Houston dinner table for MBA Dinner, with Fanju app boundaries up front | fanju-app
 

@@ -7,6 +7,7 @@ alternatePath: "/en/city/aba/offline-social-dinner"
 title: "阿坝线下社交饭局指南 | fanju-app | 饭局app"
 description: "在阿坝体验独特的线下社交饭局，通过饭局app与当地人相遇"
 recoveredFromD1: true
+---
 
 <article>
 <p>在阿坝的夜晚，城市的灯光照亮了每一条街巷，人们三三两两地走在路上，寻找着下一站的目的地。在这个时候，独自旅行的你，可能会感到有些孤独。然而，饭局app却给了你一个机会，让你在阿坝遇见新的朋友，体验独特的线下社交饭局。</p>

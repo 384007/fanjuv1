@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T120007Z-round-1-000010"
 randomSeed: "production-cloudflare-20260525T120007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
+---
 
 # 第一次在三沙参加融资饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 
@@ -79,3 +80,7 @@ publishedRunId: "production-cloudflare-20260525T120007Z"
 ####### 让三沙融资饭局连接保持真实的后续动作
 
 饭局结束后，最真实的后续动作不是群发商业计划书，而是发一条简短信息：“刚才你提到的潮汐数据共享机制，我很感兴趣，方便下周电话聊聊吗？”这种具体、低压力的跟进，比泛泛的“保持联系”更有意义。在三沙，关系的延续往往依赖于一次真诚的对话延伸，而不是即时的资源交换。让连接保持真实，就是让它从饭桌上的一个节点，慢慢生长成一条可持续的线。
+
+
+## 在当地通过饭局app寻找饭搭子
+在sansha，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

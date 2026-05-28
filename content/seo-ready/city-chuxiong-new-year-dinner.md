@@ -7,6 +7,7 @@ alternatePath: "/en/city/chuxiong/new-year-dinner"
 title: "楚雄新年饭局指南 | fanju-app | 饭局app"
 description: "在楚雄，新年饭局是人们聚会的重要时刻。通过饭局app，楚雄的朋友们可以轻松找到同城的新年饭局，享受美味的食物和热闹的气氛。"
 recoveredFromD1: true
+---
 
 <article>
 <p>楚雄新年饭局指南</p>

@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260525T200005Z-round-1-000001"
 randomSeed: "production-cloudflare-20260525T200005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T200005Z"
+---
 
 # Intercultural Dinner in Jakarta should not feel like a gamble; Fanju app changes the odds | fanju-app
 

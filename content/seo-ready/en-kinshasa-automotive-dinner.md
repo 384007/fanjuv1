@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # The Automotive Dinner table Kinshasa actually needs is the one Fanju app describes up front | fanju-app
 

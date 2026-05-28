@@ -7,6 +7,7 @@ alternatePath: "/city/yibin/language-exchange-dinner"
 title: "Language Exchange Dinner with Fanju app in Yibin | fanju-app | 饭局app"
 description: "Join a Language Exchange Dinner in Yibin with Fanju app and connect with locals, practice languages, and build community."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Language Exchange Dinner with Fanju app in Yibin</h1>

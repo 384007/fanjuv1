@@ -7,6 +7,7 @@ alternatePath: "/city/barcelona/local-guide-dinner"
 title: "A More Intimate Barcelona Dinner Experience with Fanju app | fanju-app | 饭局app"
 description: "Discover the benefits of a small, structured dinner in Barcelona using the Fanju app, ideal for introverts and remote workers."
 recoveredFromD1: true
+---
 
 <article>
 <h1>A More Intimate Barcelona Dinner Experience with Fanju app</h1>

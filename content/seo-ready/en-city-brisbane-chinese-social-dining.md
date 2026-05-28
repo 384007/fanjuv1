@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/brisbane/chinese-social-dining"
 alternatePath: "/city/brisbane/chinese-social-dining"
-title: "Brisbane Chinese Social Dining Guide | fanju-app | 饭局app"
+title: "Brisbane Chinese Social Dining Guide | Fanju app"
 description: "Discover the best of Brisbane's Chinese social dining scene with Fanju app, a platform that connects you with like-minded individuals for small, meaningful meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Are you looking for a unique way to experience Brisbane&#039;s vibrant food culture and meet new people? Look no further than Fanju&#039;s Chinese social dining events. Fanju is a social dining app that focuses on small, clearly described meals and real-world connections. It&#039;s perfect for those who want to try new foods, make friends, and explore the city&#039;s hidden gems.</p>

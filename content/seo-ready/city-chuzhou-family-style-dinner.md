@@ -7,6 +7,7 @@ alternatePath: "/en/city/chuzhou/family-style-dinner"
 title: "滁州小桌饭局：饭局app带你体验地道家庭式聚会 | fanju-app"
 description: "在滁州，如何找到一场温馨的家庭式饭局？本文以小桌饭局的视角，深入探讨饭局app在滁州如何连接食客，分享真实饭局动态，从点菜到交流，带你体验地道的社区感聚会。"
 recoveredFromD1: true
+---
 
 <article>
 <h1>滁州小桌饭局：饭局app带你体验地道家庭式聚会</h1>

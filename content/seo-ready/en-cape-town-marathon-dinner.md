@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Marathon Dinner in Cape Town should not feel like a gamble; Fanju app changes the odds | fanju-app
 

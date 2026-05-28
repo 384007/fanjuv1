@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T110006Z-round-1-000006"
 randomSeed: "production-cloudflare-20260525T110006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
+---
 
 # 定西健身房饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
@@ -85,3 +86,7 @@ publishedRunId: "unknown"
 ######## 定西健身房饭局的回头客会注意到新人看不到的东西
 
 他们能看出主理人是否真的在倾听——比如是否会重复对方的话、是否会追问细节。他们也能察觉饭桌的“安全区”在哪里：哪些话题被轻轻带过，哪些被自然延伸。更重要的是，他们知道，一场饭局的价值不在于当场交换微信，而在于那种“我可以说实话”的感觉是否真实存在。这种感知力，往往要经历几次饭局才能培养出来，但它正是定西这类小城社交重启的关键。
+
+
+## 在当地通过饭局app寻找饭搭子
+在dingxi，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

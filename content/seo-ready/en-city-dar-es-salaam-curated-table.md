@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/dar-es-salaam/curated-table"
 alternatePath: "/city/dar-es-salaam/curated-table"
-title: "Dar es Salaam Curated Table Guide | fanju-app | 饭局app"
+title: "Dar es Salaam Curated Table Guide | Fanju app"
 description: "Discover the authentic taste of Dar es Salaam with Fanju app, a social dining platform that connects you with like-minded individuals for a unique culinary experience."
 recoveredFromD1: true
+---
 
 <article>
 <p>As a first-timer, I was hesitant to try Fanju&#039;s Curated Table experience in Dar es Salaam. The idea of sharing a meal with strangers seemed daunting, but my curiosity got the better of me. I was pleasantly surprised by the warm atmosphere and genuine connections I made. Fanju app is a social dining platform that offers small, clearly described meals and real-world connections. It&#039;s perfect for those looking to break the ice, try new foods, and make friends in a relaxed setting.</p>

@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/munich/invite-only-dinner"
 alternatePath: "/city/munich/invite-only-dinner"
-title: "Munich Invite Only Dinner Guide | fanju-app | 饭局app"
+title: "Munich Invite Only Dinner Guide | Fanju app"
 description: "Discover the authentic side of Munich's dinner scene with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Munich, a city known for its rich history, cultural landmarks, and vibrant atmosphere, is a perfect destination for foodies and social enthusiasts alike. But what does dinner in Munich feel like, especially when it&#039;s invite-only? Let&#039;s take a closer look at the city&#039;s rhythm and explore the nuances of this exclusive dining experience.</p>

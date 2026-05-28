@@ -7,6 +7,7 @@ alternatePath: "/en/city/nantong/casual-restaurant-dinner"
 title: "南通轻松餐厅饭局指南 | fanju-app | 饭局app"
 description: "在南通轻松餐厅饭局，体验南通美食的另一面，通过饭局app与本地人一起探索南通的美食世界。"
 recoveredFromD1: true
+---
 
 <article>
 <p>南通轻松餐厅饭局指南</p>

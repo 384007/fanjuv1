@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/kuala-lumpur/solo-traveler-dinner"
 alternatePath: "/city/kuala-lumpur/solo-traveler-dinner"
-title: "Kuala Lumpur Solo Traveler Dinner Guide | fanju-app | 饭局app"
+title: "Kuala Lumpur Solo Traveler Dinner Guide | Fanju app"
 description: "Discover the best way to connect with fellow travelers in Kuala Lumpur through small, structured dinners with Fanju app."
 recoveredFromD1: true
+---
 
 <article>
 <p>Kuala Lumpur, a bustling metropolis in the heart of Southeast Asia, is a haven for solo travelers. With its rich cultural heritage, vibrant nightlife, and mouth-watering street food, it&#039;s no wonder that many adventurers flock to this city. However, as an introvert, navigating the city&#039;s social scene can be daunting. That&#039;s where Fanju app comes in – a social dining app that connects like-minded individuals for small, clearly described meals and real-world connections.</p>

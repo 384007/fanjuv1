@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Lahore does not need another vague invite; Fanju app makes Trusted RSVP Dinner specific | fanju-app
 

@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/dublin/social-reset-dinner"
 alternatePath: "/city/dublin/social-reset-dinner"
-title: "Dublin Social Reset Dinner Guide | fanju-app | 饭局app"
+title: "Dublin Social Reset Dinner Guide | Fanju app"
 description: "Discover the art of intentional social dining with Fanju app, a platform that connects like-minded individuals for meaningful meals and real-world connections in Dublin."
 recoveredFromD1: true
+---
 
 <article>
 <p>Dublin, a city known for its vibrant atmosphere and rich cultural heritage, is the perfect backdrop for a Social Reset Dinner. This intimate dining experience, facilitated by Fanju app, offers a unique opportunity to connect with others in a relaxed and considered setting.</p>

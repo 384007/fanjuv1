@@ -7,6 +7,7 @@ alternatePath: "/en/city/shuozhou/founder-operator-dinner"
 title: "在朔州，找一桌不尴尬的创始人和运营者饭局，饭局app先解决什么 | fanju-app"
 description: "在朔州，一场不尴尬的创始人和运营者饭局，首先需要明确这场饭局的真实目的与同桌人的期待。饭局app正是围绕小桌吃饭、清晰主题和线下连接的社交应用，它致力于解决信息不对称和预期不匹配的问题，让每一次线下聚会都更加精准和高效。尤其是在朔州这样一个"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在朔州，找一桌不尴尬的创始人和运营者饭局，饭局app先解决什么</p>

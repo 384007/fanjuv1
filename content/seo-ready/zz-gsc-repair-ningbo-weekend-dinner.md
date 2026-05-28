@@ -9,7 +9,8 @@ description: "宁波周末饭局适合本地用户和新朋友通过公开小桌
 pageType: "city_topic"
 priorityScore: 78
 aiQualityScore: 96
-status: "ready"
+status: "draft"
+---
 
 # 宁波周末饭局指南：把周末留给一桌真实交流 | fanju-app | 饭局app
 

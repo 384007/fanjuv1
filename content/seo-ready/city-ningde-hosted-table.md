@@ -7,6 +7,7 @@ alternatePath: "/en/city/ningde/hosted-table"
 title: "宁德主理人餐桌之旅 | fanju-app | 饭局app"
 description: "在宁德的饭局app上，主理人餐桌是您探索本地美食的最佳选择。"
 recoveredFromD1: true
+---
 
 <article>
 <h1>宁德主理人餐桌之旅</h1>

@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/montreal/operator-dinner"
 alternatePath: "/city/montreal/operator-dinner"
-title: "Montreal Operator Dinner Guide | fanju-app | 饭局app"
+title: "Montreal Operator Dinner Guide | Fanju app"
 description: "Discover the world of Operator Dinners in Montreal with Fanju app, a social dining app that connects you with like-minded individuals for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <h2>What is Fanju?</h2>

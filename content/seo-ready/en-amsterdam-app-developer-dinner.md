@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Amsterdam has plenty of App Developer Dinner options; Fanju app is the one that names the table first | fanju-app
 

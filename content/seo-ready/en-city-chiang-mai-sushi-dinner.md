@@ -7,6 +7,7 @@ alternatePath: "/city/chiang-mai/sushi-dinner"
 title: "Discovering Authentic Sushi in Chiang Mai with Fanju app | fanju-app | 饭局app"
 description: "Join a local dinner party in Chiang Mai and experience the city's authentic side with Fanju app"
 recoveredFromD1: true
+---
 
 <article>
 <h1>Discovering Authentic Sushi in Chiang Mai with Fanju app</h1>

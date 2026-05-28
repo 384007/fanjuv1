@@ -7,6 +7,7 @@ alternatePath: "/en/city/ningbo/sushi-dinner"
 title: "宁波饭局app：小桌长成城市社交骨架 | fanju-app"
 description: "宁波饭局app让您围绕小桌吃饭、清晰主题和线下连接。"
 recoveredFromD1: true
+---
 
 <article>
 <p># 宁波饭局app：小桌长成城市社交骨架</p>

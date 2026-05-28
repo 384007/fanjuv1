@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # When Valentines Dinner feels too loose in Khartoum, Fanju app starts with the table | fanju-app
 

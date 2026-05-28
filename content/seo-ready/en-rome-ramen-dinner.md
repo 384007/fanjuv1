@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # A calmer way to approach Ramen Dinner in Rome through Fanju app | fanju-app
 

@@ -13,6 +13,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # 荆门中文饭局不该只靠群聊，饭局app要把这桌饭讲明白 | fanju-app
 

@@ -7,6 +7,7 @@ alternatePath: "/city/nagoya/friday-dinner"
 title: "A calmer way to approach Friday Dinner in Nagoya through Fanju app | fanju-app | 饭局app"
 description: "Fanju app helps people in Nagoya connect through small, intentional dinners hosted in neighbourhood homes or quiet local spaces. It’s not about large gatherings or themed events, but real meals with clear descriptions—wh"
 recoveredFromD1: true
+---
 
 <article>
 <p># A calmer way to approach Friday Dinner in Nagoya through Fanju app</p>

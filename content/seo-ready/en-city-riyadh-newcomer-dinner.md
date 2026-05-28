@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/riyadh/newcomer-dinner"
 alternatePath: "/city/riyadh/newcomer-dinner"
-title: "Riyadh Newcomer Dinner Guide | fanju-app | 饭局app"
+title: "Riyadh Newcomer Dinner Guide | Fanju app"
 description: "Navigating Riyadh as a newcomer can feel overwhelming, but finding your footing is easier with the right connections. The Fanju app offers a unique approach to social dining, focusing on small, intimate gatherings designed for genuine interaction. This guide explores how these structured dinners, particularly those organized for newcomers, provide a comfortable and welcoming environment, especially for women seeking to build their social circle in the Saudi capital.  The Fanju app facilitates these connections through clearly described meals and a focus on real-world interactions, making it a practical tool for integrating into Riyadh's vibrant community."
 recoveredFromD1: true
+---
 
 <article>
 <p>Riyadh&#039;s pace is accelerating, and for those new to the city, establishing a sense of belonging is paramount. Social dining, when structured thoughtfully, can be a powerful tool for this. The Fanju app facilitates these connections through small, curated dinners, a format that fosters genuine conversation and reduces the pressure often associated with larger social events. This approach is particularly beneficial for women in Riyadh, offering a comfortable and controlled environment to meet new people and explore the city&#039;s burgeoning social scene.</p>

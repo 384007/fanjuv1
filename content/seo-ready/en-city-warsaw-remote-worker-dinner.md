@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/warsaw/remote-worker-dinner"
 alternatePath: "/city/warsaw/remote-worker-dinner"
-title: "Warsaw Remote Worker Dinner Guide | fanju-app | 饭局app"
+title: "Warsaw Remote Worker Dinner Guide | Fanju app"
 description: "Discover the comfort and community of Fanju app's social dining experience, tailored for remote workers in Warsaw. Join a small-table dinner and connect with like-minded individuals in a safe and welcoming environment."
 recoveredFromD1: true
+---
 
 <article>
 <p>As a remote worker in Warsaw, you may have experienced the isolation that comes with working from home. Fanju app offers a solution to this problem by providing a platform for small, clearly described meals and real-world connections. Our app is designed for individuals who value community and comfort, and are looking for a unique way to break the monotony of remote work.</p>

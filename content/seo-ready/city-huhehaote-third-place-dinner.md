@@ -7,6 +7,7 @@ alternatePath: "/en/city/huhehaote/third-place-dinner"
 title: "呼和浩特第三空间饭局指南 | fanju-app | 饭局app"
 description: "呼和浩特第三空间饭局指南，帮助您找到适合的第三空间饭局，结束工作日的低成本方式。"
 recoveredFromD1: true
+---
 
 <article>
 <p>在呼和浩特的日常生活中，很多人都在寻找一种结束工作日的方式，既能放松身心，又能与朋友们共度美好时光。第三空间饭局就是这样一种方式，它让您可以在一个轻松的环境中与朋友们共享美食和故事。下面我们将为您介绍如何在呼和浩特找到适合的第三空间饭局。</p>

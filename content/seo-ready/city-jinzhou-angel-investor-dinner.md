@@ -7,6 +7,7 @@ alternatePath: "/en/city/jinzhou/angel-investor-dinner"
 title: "锦州天使投资人饭局指南 | fanju-app | 饭局app"
 description: "在锦州参加天使投资人饭局，了解本地创业生态，建立新关系。"
 recoveredFromD1: true
+---
 
 <article>
 <p>如果你是刚到锦州的创业者或投资人，想了解本地创业生态，建立新关系，Fanju / 饭局app 是一个不错的选择。它是一款围绕小桌吃饭、清晰主题和线下连接的社交应用，帮助你在锦州找到同样有兴趣的朋友，共同探讨创业和投资话题。</p>

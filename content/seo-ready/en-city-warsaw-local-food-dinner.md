@@ -7,6 +7,7 @@ alternatePath: "/city/warsaw/local-food-dinner"
 title: "Discovering Warsaw's Flavors with Fanju app | fanju-app | 饭局app"
 description: "Join a local dinner in Warsaw with Fanju app and experience the city's authentic food culture as a solo traveler."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Discovering Warsaw&#039;s Flavors with Fanju app</h1>

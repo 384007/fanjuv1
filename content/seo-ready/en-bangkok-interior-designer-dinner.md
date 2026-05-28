@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # For people trying Interior Designer Dinner in Bangkok, Fanju app puts the guest mix first | fanju-app
 

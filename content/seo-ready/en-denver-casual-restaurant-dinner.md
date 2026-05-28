@@ -7,6 +7,7 @@ alternatePath: "/city/denver/casual-restaurant-dinner"
 title: "Denver after work: how Fanju app makes Casual Restaurant Dinner feel like a real room | fanju-app | 饭局app"
 description: "The Fanju app helps Denver residents turn after-work hours into small, intentional meals with new people—without the pressure of crowded bars or vague plans. Instead of relying on loose social invites or impersonal onlin"
 recoveredFromD1: true
+---
 
 <article>
 <p># Denver after work: how Fanju app makes Casual Restaurant Dinner feel like a real room</p>

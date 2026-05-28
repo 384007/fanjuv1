@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T130008Z-round-1-000002"
 randomSeed: "production-cloudflare-20260525T130008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
+---
 
 # 辽源的房地产饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 
@@ -93,3 +94,7 @@ publishedRunId: "production-cloudflare-20260525T130008Z"
 ########## 最好的辽源房地产饭局有什么共同点
 
 它们都不追求热闹，而是追求“信息能落地”。话题具体，人数适中，主理人可靠，节奏清晰。参与者能带着一个问题来，带着至少一个思路走。在辽源，这样的饭局可能不常有，但一旦遇到，就会被默默记住，下次优先报名。
+
+
+## 在当地通过饭局app寻找饭搭子
+在liaoyuan，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

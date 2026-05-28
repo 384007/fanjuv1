@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # Mexico City does not need another vague invite; Fanju app makes Expat Dinner specific | fanju-app
 

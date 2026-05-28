@@ -23,14 +23,24 @@ for (const file of walk(SOURCE_DIR)) {
     content = content.replace(regex, '')
   }
   
-  // Remove duplicate paragraphs (rudimentary)
+  // Remove duplicate paragraphs (rudimentary) - but EXCLUDE frontmatter delimiters
   const lines = content.split('\n')
   const uniqueLines = []
   const seen = new Set()
+  let inFrontmatter = false
+  let frontmatterCount = 0
+
   for (const line of lines) {
-    if (line.trim() && seen.has(line.trim())) continue
+    const trimmed = line.trim()
+    if (trimmed === '---') {
+      frontmatterCount++
+      uniqueLines.push(line)
+      continue
+    }
+    
+    if (trimmed && seen.has(trimmed)) continue
     uniqueLines.push(line)
-    if (line.trim()) seen.add(line.trim())
+    if (trimmed) seen.add(trimmed)
   }
   content = uniqueLines.join('\n')
 

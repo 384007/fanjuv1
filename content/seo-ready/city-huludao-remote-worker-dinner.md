@@ -7,6 +7,7 @@ alternatePath: "/en/city/huludao/remote-worker-dinner"
 title: "葫芦岛远程工作者饭局指南 | fanju-app | 饭局app"
 description: "在葫芦岛用饭局app参加远程工作者饭局的指南"
 recoveredFromD1: true
+---
 
 <article>
 <h1>葫芦岛远程工作者饭局指南</h1>

@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/santiago/new-year-dinner"
 alternatePath: "/city/santiago/new-year-dinner"
-title: "Santiago New Year Dinner Guide | fanju-app | 饭局app"
+title: "Santiago New Year Dinner Guide | Fanju app"
 description: "Join a New Year Dinner in Santiago with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Santiago, a city that seamlessly blends Spanish colonial history with modern urban charm, is a perfect destination for solo travelers. As the year comes to a close, many locals and visitors alike look forward to celebrating the start of a new one with loved ones. For someone passing through the city alone, joining a New Year&#039;s dinner with Fanju can be a great way to experience the local culture and make new connections.</p>

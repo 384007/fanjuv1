@@ -7,6 +7,7 @@ alternatePath: "/en/city/suihua/lawyer-dinner"
 title: "绥化律师饭局指南 | fanju-app | 饭局app"
 description: "在绥化市，律师饭局是一种特殊的社交活动，通过饭局app Fanju，可以轻松找到律师朋友圈，建立真实连接。"
 recoveredFromD1: true
+---
 
 <article>
 <p>绥化律师饭局指南</p>

@@ -7,6 +7,7 @@ alternatePath: "/city/mexico-city/wine-dinner"
 title: "Experience Authentic Mexico City through Wine Dinner with Fanju app | fanju-app | 饭局app"
 description: "Discover the city's hidden gems and connect with locals through a wine dinner, facilitated by the Fanju app."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Experience Authentic Mexico City through Wine Dinner with Fanju app</h1>

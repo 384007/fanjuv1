@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/stockholm/twelve-person-dinner"
 alternatePath: "/city/stockholm/twelve-person-dinner"
-title: "Stockholm Twelve Person Dinner Guide | fanju-app | 饭局app"
+title: "Stockholm Twelve Person Dinner Guide | Fanju app"
 description: "Discover the magic of social dining in Stockholm with Fanju app, a platform that connects people for small, meaningful meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Stockholm, a city of grandeur and intimacy, where the hum of the city meets the warmth of human connection. In this bustling metropolis, finding a sense of community can be a challenge, especially for those new to the city. This is where Fanju app comes in – a social dining app that brings people together for small, clearly described meals and real-world connections.</p>

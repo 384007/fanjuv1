@@ -7,6 +7,7 @@ alternatePath: "/city/dar-es-salaam/loneliness-solution-dinner"
 title: "Finding Your Tribe in Dar es Salaam: How Fanju App Can Help You Connect Over Dinner | fanju-app | 饭局app"
 description: "Fanju app is a social dining platform that brings people together for small, intimate meals in a relaxed atmosphere. It's perfect for expats and newcomers to Dar es Salaam who are looking to break the ice and form meanin"
 recoveredFromD1: true
+---
 
 <article>
 <p># Finding Your Tribe in Dar es Salaam: How Fanju App Can Help You Connect Over Dinner</p>

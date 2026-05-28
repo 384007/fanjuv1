@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260526T030005Z-round-1-000005"
 randomSeed: "production-cloudflare-20260526T030005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
+---
 
 # Fukuoka has plenty of Street Food Dinner options; Fanju app is the one that names the table first | fanju-app
 

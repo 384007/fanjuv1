@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/dhaka/shared-table"
 alternatePath: "/city/dhaka/shared-table"
-title: "Dhaka Shared Table Guide: Connecting Over Food | fanju-app | 饭局app"
+title: "Dhaka Shared Table Guide: Connecting Over Food | Fanju app"
 description: "Discover the joy of shared dining in Dhaka with the Fanju app. Fanju is a social dining app designed for small, intimate gatherings focused on genuine connection and shared meals. It's about bringing people together for a few hours to enjoy good food and conversation, fostering real-world relationships. This guide explores the dynamics of a shared table experience, from initial invitations to the flow of conversation, offering practical advice for navigating these unique social events in Dhaka. Whether you're a newcomer to the city or looking to expand your social circle, Fanju offers a refreshing way to meet new people."
 recoveredFromD1: true
+---
 
 <article>
 <p>The concept of a shared table in Dhaka, facilitated by platforms like the Fanju app, offers a unique approach to social dining. It’s about more than just a meal; it’s an orchestrated social experience designed for small groups, typically ranging from six to twelve individuals. These gatherings are curated to encourage interaction and build connections in a relaxed, communal setting. The Fanju app specifically focuses on creating these opportunities for people to meet, share food, and engage in meaningful conversation, moving beyond superficial online interactions to foster genuine, real-world relationships.</p>

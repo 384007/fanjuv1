@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T180008Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T180008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T180008Z"
+---
 
 # 漯河不想只靠群聊时，饭局app怎样把摄影师饭局坐成一桌 | fanju-app
 
@@ -79,3 +80,7 @@ publishedRunId: "production-cloudflare-20260525T180008Z"
 ####### 一顿好的漯河摄影师饭局结束后的一个具体下一步
 
 结束后，主理人可能会在饭局app上发一条简短回顾，比如“今天聊到在漯河拍人像的边界感，很有启发”。他不会公开每个人说了什么，但会总结几个共同点。你可以选择回应，也可以不。有些人会私下加微信继续聊某张照片，有些人则觉得“听了一顿饭，心里有数了”就够了。下一步不一定是成为朋友，而是你对自己拍的东西，多了一层理解。
+
+
+## 在当地通过饭局app寻找饭搭子
+在luohe，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

@@ -7,6 +7,7 @@ alternatePath: "/city/munich/brunch-dinner"
 title: "In Munich, Fanju app turns Brunch Social into a table people can actually trust | fanju-app | 饭局app"
 description: "The Fanju app in Munich is reshaping how newcomers and long-time residents experience community through shared meals, especially during weekend brunch gatherings. Unlike group chats that fade or dating apps where intenti"
 recoveredFromD1: true
+---
 
 <article>
 <p># In Munich, Fanju app turns Brunch Social into a table people can actually trust</p>

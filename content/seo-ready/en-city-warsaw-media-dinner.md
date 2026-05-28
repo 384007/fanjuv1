@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/warsaw/media-dinner"
 alternatePath: "/city/warsaw/media-dinner"
-title: "Warsaw Media Dinner Guide | fanju-app | 饭局app"
+title: "Warsaw Media Dinner Guide | Fanju app"
 description: "Discover authentic local connections through dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>As the sun sets over Warsaw, the city&#039;s vibrant atmosphere comes alive. For newcomers and expats, finding authentic local connections can be a challenge. This is where Fanju app comes in – a social dining app that brings people together for small, clearly described meals and real-world connections.</p>

@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # For people trying Film Dinner in Rome, Fanju app puts the guest mix first | fanju-app
 

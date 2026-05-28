@@ -7,6 +7,7 @@ alternatePath: "/en/city/xinxiang/hosted-table"
 title: "新乡主理人餐桌指南 | fanju-app | 饭局app"
 description: "在新乡的饭局app中，主理人餐桌是一种独特的社交体验，聚集了来自不同领域的有趣人士，围绕着清晰的主题和美味的食物进行交流和互动。"
 recoveredFromD1: true
+---
 
 <article>
 <p>新乡主理人餐桌指南</p>

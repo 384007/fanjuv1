@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # When Book Club Dinner in Buenos Aires needs more than a group chat, Fanju app starts with the table | fanju-app
 

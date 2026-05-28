@@ -7,6 +7,7 @@ alternatePath: "/city/nairobi/student-dinner"
 title: "Nairobi does not need another vague invite; Fanju app makes Student Dinner specific | fanju-app | 饭局app"
 description: "The Fanju app is changing how newcomers in Nairobi connect through dinner by replacing vague social invites with small, intentional meals that emphasize real conversation and local rhythm. In a city where weekend plans o"
 recoveredFromD1: true
+---
 
 <article>
 <p># Nairobi does not need another vague invite; Fanju app makes Student Dinner specific</p>

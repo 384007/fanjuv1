@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/berlin/solo-traveler-dinner"
 alternatePath: "/city/berlin/solo-traveler-dinner"
-title: "Berlin Solo Traveler Dinner Guide | fanju-app | 饭局app"
+title: "Berlin Solo Traveler Dinner Guide | Fanju app"
 description: "Join a social dining experience in Berlin with Fanju app, a platform for small, clearly described meals and real-world connections. Discover a new way to meet fellow travelers and locals in a relaxed atmosphere, free from the pressure of traditional dating apps. Fanju app is the perfect solution for those seeking meaningful connections and a deeper understanding of the city and its culture."
 recoveredFromD1: true
+---
 
 <article>
 <p>As a host who regularly organizes dinners for travelers and locals alike, I&#039;ve learned what makes a table feel right. It&#039;s not just about the food or the company, but about creating a space where people feel comfortable sharing their stories and experiences. In Berlin, a city known for its vibrant cultural scene and eclectic neighborhoods, finding the right spot for a solo traveler dinner can be a challenge. But with Fanju app, you can discover hidden gems and connect with like-minded individuals in a safe and welcoming environment.</p>

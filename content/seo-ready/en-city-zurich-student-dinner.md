@@ -7,6 +7,7 @@ alternatePath: "/city/zurich/student-dinner"
 title: "A Community-Based Student Dinner Experience with Fanju app in Zurich | fanju-app | 饭局app"
 description: "Discover the authentic side of Zurich through a student dinner experience facilitated by Fanju app, where you can connect with locals and like-minded individuals."
 recoveredFromD1: true
+---
 
 <article>
 <h1>A Community-Based Student Dinner Experience with Fanju app in Zurich</h1>

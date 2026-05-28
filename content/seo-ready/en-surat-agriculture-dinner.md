@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # Surat does not need another vague invite; Fanju app makes Agriculture Dinner specific | fanju-app
 

@@ -7,6 +7,7 @@ alternatePath: "/en/city/tongchuan/industry-dinner"
 title: "在铜川把行业饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 description: "下班后穿过新区那条安静的坡道，路灯刚亮，车流稀疏。你站在公交站台，包里还装着白天没开完的会的笔记。回出租屋？刷手机？还是再走两步，去照金街那家常去的小馆子，碰碰看有没有人也在等一桌刚好的饭？在铜川，节奏慢不等于生活空，恰恰是这种留白，让人更"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在铜川把行业饭局坐稳，饭局app需要筛掉哪些尴尬</p>

@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/sydney/product-manager-dinner"
 alternatePath: "/city/sydney/product-manager-dinner"
-title: "Sydney Product Manager Dinner Guide | fanju-app | 饭局app"
+title: "Sydney Product Manager Dinner Guide | Fanju app"
 description: "Discover the power of food in connecting strangers at Fanju app's Product Manager Dinner in Sydney."
 recoveredFromD1: true
+---
 
 <article>
 <p>Sydney is a city that thrives on connections. From the bustling streets of the CBD to the trendy cafes of Surry Hills, there&#039;s no shortage of opportunities to meet new people and form meaningful relationships. But in a city as large and fast-paced as Sydney, it can be easy to get caught up in the hustle and bustle and lose sight of what&#039;s truly important: building genuine connections with others.</p>

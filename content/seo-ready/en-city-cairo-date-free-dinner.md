@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cairo/date-free-dinner"
 alternatePath: "/city/cairo/date-free-dinner"
-title: "Cairo Date Free Dinner Guide | fanju-app | 饭局app"
+title: "Cairo Date Free Dinner Guide | Fanju app"
 description: "Discover the joy of social dining in Cairo with Fanju app, a platform that connects people for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Cairo, a city of ancient history and vibrant culture, is a place where people from all walks of life come together to share meals and make memories. As the sun sets over the Nile, the city transforms into a bustling hub of activity, with restaurants and cafes filled with the sounds of laughter and conversation. But for those who work long hours, the evening can be a lonely time, spent commuting home alone, only to face another day of solitude. This is where Fanju app comes in, offering a unique solution to the post-work blues.</p>

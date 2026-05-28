@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/new-york/six-person-dinner"
 alternatePath: "/city/new-york/six-person-dinner"
-title: "New York Six Person Dinner Guide | fanju-app | 饭局app"
+title: "New York Six Person Dinner Guide | Fanju app"
 description: "Find social connections and a recurring social anchor in your week with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>New York is a city that never sleeps, and as a remote worker, it can be easy to get lost in the hustle and bustle of daily life. But what about finding a sense of community and connection in the midst of it all? That&#039;s where Fanju comes in – a social dining app that brings people together for small, intimate meals in a real-world setting.</p>

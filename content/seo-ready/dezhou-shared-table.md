@@ -21,6 +21,7 @@ promptSeed: "production-cloudflare-20260526T030005Z-round-1-000008"
 randomSeed: "production-cloudflare-20260526T030005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
+---
 
 # 在德州把共享餐桌坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 

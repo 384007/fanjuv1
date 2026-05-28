@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/lisbon/casual-restaurant-dinner"
 alternatePath: "/city/lisbon/casual-restaurant-dinner"
-title: "Lisbon Casual Restaurant Dinner Guide | fanju-app | 饭局app"
+title: "Lisbon Casual Restaurant Dinner Guide | Fanju app"
 description: "Discover the intimacy of small dinner tables in Lisbon with Fanju app, a social dining app that connects people for real-world connections and small, clearly described meals."
 recoveredFromD1: true
+---
 
 <article>
 <p>As a newcomer to Lisbon, you&#039;re likely to be swept up in the city&#039;s vibrant rhythm. From the historic neighborhoods of Alfama and Bairro Alto to the trendy boutiques of Chiado, every corner of this Portuguese capital seems to pulse with energy. But amidst the bustling streets and lively nightlife, it&#039;s easy to feel overwhelmed. That&#039;s where Fanju comes in – a social dining app that brings people together for small, intimate meals and real-world connections.</p>

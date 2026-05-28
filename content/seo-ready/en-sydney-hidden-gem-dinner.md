@@ -7,6 +7,7 @@ alternatePath: "/city/sydney/hidden-gem-dinner"
 title: "When Hidden Gem Dinner feels too loose in Sydney, Fanju app starts with the table | fanju-app | 饭局app"
 description: "The Fanju app helps professionals in Sydney find small, intentional dinners where conversation matters more than connections on paper. Hidden Gem Dinner, as a concept, often starts with good intentions—bringing strangers"
 recoveredFromD1: true
+---
 
 <article>
 <p># When Hidden Gem Dinner feels too loose in Sydney, Fanju app starts with the table</p>

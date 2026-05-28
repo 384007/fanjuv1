@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/kinshasa/mba-dinner"
 alternatePath: "/city/kinshasa/mba-dinner"
-title: "Kinshasa MBA Dinner Guide | fanju-app | 饭局app"
+title: "Kinshasa MBA Dinner Guide | Fanju app"
 description: "Discover authentic local connections through dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Kinshasa, the vibrant capital of the Democratic Republic of Congo, is a city that never sleeps. Its rhythm is a unique blend of African, French, and Portuguese influences, making it a fascinating place to experience. As an expat or newcomer, navigating this complex cultural landscape can be daunting, especially when it comes to making connections with locals. One way to break the ice is through food, and what better way to do that than over a delicious meal? Fanju app offers a platform for small, intimate dinners that bring people together, fostering real-world connections in the process.</p>

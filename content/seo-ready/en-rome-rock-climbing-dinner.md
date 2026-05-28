@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260526T040006Z-round-1-000007"
 randomSeed: "production-cloudflare-20260526T040006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T040006Z"
+---
 
 # Before the first message in Rome, Fanju app makes Rock Climbing Dinner feel like a real decision | fanju-app
 

@@ -7,6 +7,7 @@ alternatePath: "/city/bangkok/premium-restaurant-dinner"
 title: "Bangkok after work: how Fanju app makes Premium Restaurant Dinner feel like a real room | fanju-app | 饭局app"
 description: "Bangkok's vibrant nightlife is a world away from the city's tranquil morning streets. As the day winds down, the city transforms into a kaleidoscope of lights, sounds, and aromas. For those who have just arrived in this"
 recoveredFromD1: true
+---
 
 <article>
 <p># Bangkok after work: how Fanju app makes Premium Restaurant Dinner feel like a real room</p>

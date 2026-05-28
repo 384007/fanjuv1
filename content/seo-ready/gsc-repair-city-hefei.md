@@ -9,7 +9,8 @@ description: "合肥饭局页面帮助新来合肥、科技产业和高校周边
 pageType: "city_landing"
 priorityScore: 82
 aiQualityScore: 96
-status: "ready"
+status: "draft"
+---
 
 # 合肥饭局指南：如何通过 Fanju 找到同城同频小桌 | fanju-app | 饭局app
 

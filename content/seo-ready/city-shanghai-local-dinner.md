@@ -7,6 +7,7 @@ alternatePath: "/en/city/shanghai/local-dinner"
 title: "上海同城饭局指南 | fanju-app | 饭局app"
 description: "为新来上海的人提供真实的同城饭局体验"
 recoveredFromD1: true
+---
 
 <article>
 <h1>上海同城饭局指南</h1>

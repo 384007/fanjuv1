@@ -7,6 +7,7 @@ alternatePath: "/city/nagoya/hotpot-dinner"
 title: "In Nagoya, Fanju app turns Hotpot Dinner into a table people can actually trust | fanju-app | 饭局app"
 description: "In Nagoya, the Fanju app offers a new way to experience shared meals, transforming the idea of a casual \"hotpot dinner\" into a reliably pleasant gathering. This platform focuses on facilitating small, well-defined dining"
 recoveredFromD1: true
+---
 
 <article>
 <p># In Nagoya, Fanju app turns Hotpot Dinner into a table people can actually trust</p>

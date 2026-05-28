@@ -7,6 +7,7 @@ alternatePath: "/en/city/kunming/small-table-dinner"
 title: "昆明小桌饭局指南：告别孤独，重拾线下温度 | fanju-app | 饭局app"
 description: "在快节奏的昆明，孤独感悄然滋生。饭局app / Fanju 倡导的小桌饭局，以清晰的主题和真实的线下连接，为都市人提供了一个低压力的社交新选择。它不是简单的聚会，而是通过一顿饭，重新点燃人与人之间真实的情感连接。"
 recoveredFromD1: true
+---
 
 <article>
 <h2>Fanju / 饭局app 是什么</h2>

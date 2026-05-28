@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T105242Z-round-1-000003"
 randomSeed: "production-cloudflare-20260525T105242Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T105242Z"
+---
 
 # Why Loneliness Solution Dinner in Phoenix works better when Fanju app keeps the table small | fanju-app
 

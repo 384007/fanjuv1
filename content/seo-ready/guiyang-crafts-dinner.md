@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T140006Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T140006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T140006Z"
+---
 
 # 下班后的贵阳，饭局app怎样让手工艺饭局有真实同桌 | fanju-app
 
@@ -93,3 +94,7 @@ publishedRunId: "production-cloudflare-20260525T140006Z"
 ########## 最好的贵阳手工艺饭局有什么共同点
 
 它们都不急于达成共识，不追求人数规模，也不依赖热闹气氛。共同点是：主理人真诚面对自己的疑问，参与者愿意为某个细节停留，饭桌上有实物可触摸，对话中有停顿可呼吸。在饭局app上，这些饭局往往没有最多报名人数，但总有人默默收藏，等下一次开放。
+
+
+## 在当地通过饭局app寻找饭搭子
+在guiyang，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

@@ -7,6 +7,7 @@ alternatePath: "/en/city/huaibei/local-guide-dinner"
 title: "淮北本地向导饭局指南 | fanju-app | 饭局app"
 description: "在淮北体验私密饭局的乐趣，通过饭局app与本地向导一起共享美食和故事。"
 recoveredFromD1: true
+---
 
 <article>
 <p>在淮北的夜晚，饭局app的灯光照亮了小巷子，吸引着那些寻求更深入的社交体验的人。作为一个本地向导，我的任务是带领你探索淮北的美食和文化。我们将在一个安静的餐厅里共享美食和故事，建立彼此的信任和联系。</p>

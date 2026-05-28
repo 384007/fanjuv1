@@ -7,6 +7,7 @@ alternatePath: "/en/city/zunyi/lunar-new-year-dinner"
 title: "在遵义找一桌不尴尬的春节饭局，饭局app先解决什么 | fanju-app"
 description: "春节前的遵义，街边的腊肉已经挂得密实，巷口的米粉店飘着骨头汤的香气，但对刚搬来的人来说，整座城市像一幅熟悉又陌生的年画——看得见热络，却进不去那扇门。饭局app在这座城市的存在，不是为了制造热闹，而是让那些还没扎下根的人，能通过一顿饭，找到"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在遵义找一桌不尴尬的春节饭局，饭局app先解决什么</p>

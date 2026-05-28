@@ -7,6 +7,7 @@ alternatePath: "/city/lisbon/women-friendly-dinner"
 title: "Lisbon Women-Friendly Dinner with Fanju app | fanju-app | 饭局app"
 description: "Discover the best way to host a women-friendly dinner in Lisbon with Fanju app, exploring the city's rhythm, neighbourhoods, and dining culture."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Lisbon Women-Friendly Dinner with Fanju app</h1>

@@ -7,6 +7,7 @@ alternatePath: "/city/dubai/founder-operator-dinner"
 title: "What to Expect from a Fanju app Founder Operator Dinner in Dubai | fanju-app | 饭局app"
 description: "Discover the unique experience of a Fanju app dinner in Dubai, tailored for first-timers."
 recoveredFromD1: true
+---
 
 <article>
 <h1>What to Expect from a Fanju app Founder Operator Dinner in Dubai</h1>

@@ -7,6 +7,7 @@ alternatePath: "/city/khartoum/open-table-dinner"
 title: "Experience the Authenticity of Khartoum with Fanju App: An Open Table Dinner Guide | fanju-app | 饭局app"
 description: "Join the vibrant community of Khartoum and connect with locals over a delicious meal, all made possible by the Fanju app."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Experience the Authenticity of Khartoum with Fanju App: An Open Table Dinner Guide</h1>

@@ -7,6 +7,7 @@ alternatePath: "/en/city/jiyuan/friday-dinner"
 title: "在济源找一桌不尴尬的周五饭局，饭局app先解决什么 | fanju-app"
 description: "在济源，周五晚上六点半，你站在八仙街拐角的银杏树下，风从蟒河那边吹过来，带着一点秋凉。你打开饭局app，不是为了找饭吃，而是想知道今晚有没有一桌人，能让你坐下来，不用演，也不用硬聊。饭局app在这里的作用，不是匹配餐厅，而是先帮你确认：这一"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在济源找一桌不尴尬的周五饭局，饭局app先解决什么</p>

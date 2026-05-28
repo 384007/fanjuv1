@@ -7,6 +7,7 @@ alternatePath: "/city/toronto/verified-host-dinner"
 title: "When Verified Host Dinner feels too loose in Toronto, Fanju app starts with the table | fanju-app | 饭局app"
 description: "In Toronto, where diversity and cultural richness are woven into the fabric of everyday life, social dining apps like Fanju offer a unique way to experience the city's culinary scene while forging real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p># When Verified Host Dinner feels too loose in Toronto, Fanju app starts with the table</p>

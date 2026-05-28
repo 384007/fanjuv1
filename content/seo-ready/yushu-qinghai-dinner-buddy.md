@@ -21,6 +21,7 @@ promptSeed: "production-cloudflare-20260526T092033Z-round-1-000006"
 randomSeed: "production-cloudflare-20260526T092033Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
+---
 
 # 青海玉树找饭搭子，Fanju 饭局app先把距离和边界说清楚 | fanju-app
 

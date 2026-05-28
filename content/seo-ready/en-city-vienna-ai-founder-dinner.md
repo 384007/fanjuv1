@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/vienna/ai-founder-dinner"
 alternatePath: "/city/vienna/ai-founder-dinner"
-title: "Vienna AI Founder Dinner Guide: Building Trust in Small Gatherings | fanju-app | 饭局app"
+title: "Vienna AI Founder Dinner Guide: Building Trust in Small Gatherings | Fanju app"
 description: "Discover how the Fanju app facilitates intimate AI Founder Dinners in Vienna, emphasizing safety and genuine connection through carefully curated small-group dining experiences. This guide explores how public venues, verified attendees, and focused conversation foster trust, making it an ideal platform for professionals seeking meaningful networking. Fanju app is a social dining app for small, clearly described meals and real-world connections, helping you build a trusted network one dinner at a time."
 recoveredFromD1: true
+---
 
 <article>
 <p>For professionals in Vienna&#039;s burgeoning AI scene, the prospect of networking can sometimes feel overwhelming. Finding genuine connections amidst the city&#039;s vibrant yet sometimes impersonal atmosphere presents a unique challenge. The Fanju app addresses this by offering a structured approach to small, focused gatherings, such as AI Founder Dinners. These events are designed to cultivate trust and safety through specific parameters: public, accessible venues, a commitment to real names, and intentionally small table sizes that encourage deeper conversation. This method ensures that each interaction feels grounded and authentic, moving beyond superficial exchanges to build a reliable professional network.</p>

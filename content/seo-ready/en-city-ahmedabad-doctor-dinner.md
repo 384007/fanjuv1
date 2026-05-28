@@ -7,6 +7,7 @@ alternatePath: "/city/ahmedabad/doctor-dinner"
 title: "Planning the Perfect Doctor Dinner in Ahmedabad with Fanju app | fanju-app | 饭局app"
 description: "Discover how to host a memorable doctor dinner in Ahmedabad, leveraging Fanju app's features to create a seamless experience for all attendees."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Planning the Perfect Doctor Dinner in Ahmedabad with Fanju app</h1>

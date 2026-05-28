@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T111336Z-round-1-000004"
 randomSeed: "production-cloudflare-20260525T111336Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T111336Z"
+---
 
 # 不想在鄂州随便拼桌，饭局app怎样让厨师发办饭局变成一个真实决定 | fanju-app
 
@@ -79,3 +80,7 @@ publishedRunId: "production-cloudflare-20260525T111336Z"
 ####### 一顿好的鄂州厨师发办饭局结束后的一个具体下一步
 
 那晚结束后，我打开饭局app，在那场饭局的页面下留下了一句话：“谢谢那碗藕汤，让我想起小时候外婆家的灶台。”这不是评价，而是一种回应。后来主理人回复我：“下次来，我教你做这道菜。”这让我意识到，一顿饭的意义，有时不在于当时聊了多少，而在于它是否在结束后，还留着一条可以继续走的小路。
+
+
+## 在当地通过饭局app寻找饭搭子
+在ezhou，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

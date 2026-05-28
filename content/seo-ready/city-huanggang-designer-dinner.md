@@ -7,6 +7,7 @@ alternatePath: "/en/city/huanggang/designer-dinner"
 title: "黄冈设计师饭局指南 | fanju-app | 饭局app"
 description: "刚到黄冈的设计师，如何找到靠谱的饭局？"
 recoveredFromD1: true
+---
 
 <article>
 <h1>黄冈设计师饭局指南</h1>

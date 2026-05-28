@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # When International Student Dinner feels too loose in Kuala Lumpur, Fanju app starts with the table | fanju-app
 

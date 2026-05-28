@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # The Third Place Dinner table Lagos actually needs is the one Fanju app describes up front | fanju-app
 

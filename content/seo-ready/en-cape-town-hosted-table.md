@@ -7,6 +7,7 @@ alternatePath: "/city/cape-town/hosted-table"
 title: "A calmer way to approach Hosted Table in Cape Town through Fanju app | fanju-app | 饭局app"
 description: "The Fanju app offers a quiet but meaningful shift in how Cape Town residents connect over food. Instead of crowded pop-ups or impersonal dining events, it supports small, intentional meals hosted in homes and quiet local"
 recoveredFromD1: true
+---
 
 <article>
 <p># A calmer way to approach Hosted Table in Cape Town through Fanju app</p>

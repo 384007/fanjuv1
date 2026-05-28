@@ -7,6 +7,7 @@ alternatePath: "/en/city/kunming/third-place-dinner"
 title: "昆明第三空间饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 description: "饭局app在昆明不是为了把人塞进饭局，而是让一桌饭有开始的边界和结束的余味。它不追求人数，也不主打热闹，而是围绕“小桌吃饭、清晰主题、真实连接”来组织每一次线下饭局。在昆明，这座城市本身就有一种不紧不慢的节奏，街头巷尾的饭馆常有熟客围坐，话"
 recoveredFromD1: true
+---
 
 <article>
 <p># 昆明第三空间饭局不是凑人吃饭，饭局app更看重这一桌的边界</p>

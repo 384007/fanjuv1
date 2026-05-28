@@ -7,6 +7,7 @@ alternatePath: "/en/city/lijiang/expat-dinner"
 title: "丽江的一顿外籍和海归饭局，饭局app为什么先看人再看热闹 | fanju-app"
 description: "在丽江的某个傍晚，石板路泛着微光，巷口飘着松木燃烧的气味。你刚放下行李，手机里跳出一条饭局app的提醒：今晚七点，四位海归与两位长期旅居中国的外籍朋友，在古城边的一间小院共进晚餐。这不是群发邀请，不是大型派对，也不是相亲局——饭局app在丽"
 recoveredFromD1: true
+---
 
 <article>
 <p># 丽江的一顿外籍和海归饭局，饭局app为什么先看人再看热闹</p>

@@ -7,6 +7,7 @@ alternatePath: "/en/city/honghe/family-style-dinner"
 title: "红河家庭式饭局指南 | fanju-app | 饭局app"
 description: "在红河的家庭式饭局中，通过饭局app找到最适合你的小桌聚会，体验清晰主题和线下连接的社交生活。"
 recoveredFromD1: true
+---
 
 <article>
 <p>红河家庭式饭局指南</p>

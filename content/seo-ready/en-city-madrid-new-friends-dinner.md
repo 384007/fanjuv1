@@ -7,6 +7,7 @@ alternatePath: "/city/madrid/new-friends-dinner"
 title: "Discover Madrid's Charm: New Friends Dinner with the Fanju App | fanju-app | 饭局app"
 description: "Explore Madrid's vibrant social scene with a New Friends Dinner organized through the Fanju app. This guide offers a women-friendly perspective on connecting with new people in the Spanish capital, highlighting how the Fanju app facilitates comfortable and meaningful encounters."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Discover Madrid&#039;s Charm: New Friends Dinner with the Fanju App</h1>

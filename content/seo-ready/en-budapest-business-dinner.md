@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260526T092033Z-round-1-000003"
 randomSeed: "production-cloudflare-20260526T092033Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
+---
 
 # Budapest business dinner on Fanju app should build trust before contacts | fanju-app
 

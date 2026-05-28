@@ -7,6 +7,7 @@ alternatePath: "/en/city/baiyin/language-exchange-dinner"
 title: "在白银把语言交换饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 description: "在白银，饭局app不是一场速配游戏，也不是语言学习的补习班翻版，它更像是一张安静铺开的饭桌，邀请你用一顿饭的时间，和陌生人交换真实的生活切片。这里的语言交换饭局，不追求词汇量刷屏或语法纠错，而是把“说”这件事，放回吃饭的节奏里——夹一口酸烂"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在白银把语言交换饭局坐稳，饭局app需要筛掉哪些尴尬</p>

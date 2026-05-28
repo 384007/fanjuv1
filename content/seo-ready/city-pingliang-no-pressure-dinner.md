@@ -7,6 +7,7 @@ alternatePath: "/en/city/pingliang/no-pressure-dinner"
 title: "平凉低压力饭局指南 | fanju-app | 饭局app"
 description: "平凉的低压力饭局指南，告诉你如何在平凉找到适合你的饭局app饭局"
 recoveredFromD1: true
+---
 
 <article>
 <h1>平凉低压力饭局指南</h1>

@@ -7,6 +7,7 @@ alternatePath: "/city/denver/chinese-social-dining"
 title: "A calmer way to approach Chinese Social Dining in Denver through Fanju app | fanju-app | 饭局app"
 description: "Fanju app offers a different approach to social dining in Denver, focusing on creating intimate, small-table experiences for genuine connection. It's designed for those who find the vastness of a big city overwhelming an"
 recoveredFromD1: true
+---
 
 <article>
 <p># A calmer way to approach Chinese Social Dining in Denver through Fanju app</p>

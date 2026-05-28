@@ -7,6 +7,7 @@ alternatePath: "/en/city/chizhou/six-person-dinner"
 title: "池州的六人饭局之旅：用饭局app重新连接池州的社交生活 | fanju-app"
 description: "池州的六人饭局之旅：用饭局app重新连接池州的社交生活"
 recoveredFromD1: true
+---
 
 <article>
 <p># 池州的六人饭局之旅：用饭局app重新连接池州的社交生活</p>

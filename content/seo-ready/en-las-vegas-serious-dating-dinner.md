@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Las Vegas after work: how Fanju app makes Serious Dating Dinner feel like a real room | fanju-app
 

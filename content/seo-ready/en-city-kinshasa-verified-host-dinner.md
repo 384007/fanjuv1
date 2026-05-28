@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/kinshasa/verified-host-dinner"
 alternatePath: "/city/kinshasa/verified-host-dinner"
-title: "Kinshasa Verified Host Dinner Guide | fanju-app | 饭局app"
+title: "Kinshasa Verified Host Dinner Guide | Fanju app"
 description: "Discover the authentic side of Kinshasa through Fanju app, a social dining app that brings people together for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Kinshasa, the vibrant capital of the Democratic Republic of Congo, is a city that never sleeps. Its rhythm is a unique blend of African, French, and Portuguese influences, making it a fascinating place to explore. As a host who regularly invites friends and acquaintances over for dinner, I&#039;ve learned that creating a warm and welcoming atmosphere is key to making any gathering feel special. In this guide, we&#039;ll delve into the world of Verified Host Dinners in Kinshasa, and explore what makes a Fanju dinner truly unforgettable.</p>

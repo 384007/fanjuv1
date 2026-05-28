@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/bangalore/valentines-dinner"
 alternatePath: "/city/bangalore/valentines-dinner"
-title: "Bangalore Valentines Dinner Guide | fanju-app | 饭局app"
+title: "Bangalore Valentines Dinner Guide | Fanju app"
 description: "Plan a memorable Valentines Day dinner in Bangalore with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Bangalore, the vibrant capital of Karnataka, is a city that seamlessly blends tradition with modernity. As the sun sets over the city, the sounds of the street food vendors and the aroma of local cuisine fill the air, making it the perfect setting for a romantic dinner. Whether you&#039;re a local or a visitor, Bangalore has plenty to offer when it comes to a unique and memorable Valentines Day dinner experience.</p>

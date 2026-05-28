@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/atlanta/engineer-dinner"
 alternatePath: "/city/atlanta/engineer-dinner"
-title: "Atlanta Engineer Dinner Guide | fanju-app | 饭局app"
+title: "Atlanta Engineer Dinner Guide | Fanju app"
 description: "Planning a weekend in Atlanta often revolves around finding the right experiences. For engineers looking to connect, a well-planned dinner can be the highlight. The Fanju app offers a unique platform for discovering and hosting these intimate gatherings, fostering genuine connections over shared meals. This guide helps you make the most of your engineer dinners in Atlanta, from preparation to post-event reflection, ensuring it's a central part of your weekend enjoyment."
 recoveredFromD1: true
+---
 
 <article>
 <p>When you think about your weekend in Atlanta, does a thoughtfully organized engineer dinner come to mind as a centerpiece, or is it an afterthought? For many professionals, especially those in technical fields, the desire for meaningful, low-pressure social interaction is strong. The Fanju app is designed to facilitate exactly this: small, clearly described meals that prioritize real-world connections. It’s about moving beyond superficial online exchanges to build tangible relationships within the Atlanta engineering community.</p>

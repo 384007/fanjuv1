@@ -9,7 +9,8 @@ description: "济南饭局页面帮助本地用户、新来济南的人和商务
 pageType: "city_landing"
 priorityScore: 82
 aiQualityScore: 96
-status: "ready"
+status: "draft"
+---
 
 # 济南饭局指南：如何用一顿饭认识同城朋友 | fanju-app | 饭局app
 

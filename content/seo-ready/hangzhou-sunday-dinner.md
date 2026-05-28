@@ -7,6 +7,7 @@ alternatePath: "/en/city/hangzhou/sunday-dinner"
 title: "下班后的杭州，饭局app怎样让周日饭局有真实同桌 | fanju-app"
 description: "在杭州，周日傍晚的节奏是微妙的。白天的西湖边人群渐渐散去，河坊街的灯笼亮起，而真正的生活才刚刚开始。越来越多的人不再满足于刷手机或独自散步，而是希望通过一桌有温度的饭局，认识几位能说点真心话的人。饭局app正是为此而存在——它不是一个泛泛的"
 recoveredFromD1: true
+---
 
 <article>
 <p># 下班后的杭州，饭局app怎样让周日饭局有真实同桌</p>

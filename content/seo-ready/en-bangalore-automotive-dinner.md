@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260525T190004Z-round-1-000009"
 randomSeed: "production-cloudflare-20260525T190004Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T190004Z"
+---
 
 # Bangalore does not need another vague invite; Fanju app makes Automotive Dinner specific | fanju-app
 

@@ -7,6 +7,7 @@ alternatePath: "/en/city/chengde/restaurant-discovery-dinner"
 title: "承德餐厅探索饭局：在避暑山庄的余韵中，开启一场轻奢社交 | fanju-app | 饭局app"
 description: "在承德，饭局app不仅仅是预订工具，更是开启一场精心策划的餐厅探索饭局的钥匙。我们深入探讨如何通过饭局app，在这座历史文化名城中，找到那些真正值得细品的味蕾体验和有质感的社交连接。"
 recoveredFromD1: true
+---
 
 <article>
 <h1>承德餐厅探索饭局：在避暑山庄的余韵中，开启一场轻奢社交</h1>

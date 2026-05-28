@@ -7,6 +7,7 @@ alternatePath: "/en/city/wenzhou/small-table-dinner"
 title: "下班后的温州，饭局app怎样让小桌饭局有真实同桌 | fanju-app"
 description: "对于刚来到温州，或是希望在这个城市拓展社交圈的朋友来说，饭局app提供了一个围绕小桌吃饭、清晰主题和线下真实连接的平台。它不仅仅是简单的聚餐组织，更是一种基于共同兴趣和明确预期的社交方式，尤其适合那些渴望在温州找到志同道合的同桌，建立有温度"
 recoveredFromD1: true
+---
 
 <article>
 <p># 下班后的温州，饭局app怎样让小桌饭局有真实同桌</p>

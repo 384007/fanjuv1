@@ -7,6 +7,7 @@ alternatePath: "/city/budapest/offline-social-dinner"
 title: "Why Offline Social Dinner in Budapest works better when Fanju app keeps the table small | fanju-app | 饭局app"
 description: "Fanju app offers a focused approach to offline social dinners in Budapest, emphasizing smaller, more intimate gatherings to foster genuine connections. By encouraging smaller tables with clear descriptions, the app aims"
 recoveredFromD1: true
+---
 
 <article>
 <p># Why Offline Social Dinner in Budapest works better when Fanju app keeps the table small</p>

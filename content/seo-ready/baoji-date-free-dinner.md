@@ -7,6 +7,7 @@ alternatePath: "/en/city/baoji/date-free-dinner"
 title: "宝鸡的一顿非相亲饭局，饭局app为什么先看人再看热闹 | fanju-app"
 description: "饭局app在宝鸡的日常，不是热闹的拼场，也不是匆忙的社交任务。它更像是一次安静的试探：几个人因为相似的生活节奏或共同的好奇坐到一张小桌前，在火锅升腾的热气或家常菜的余温里，试着说点真实的话。在宝鸡，这座穿行于秦岭北麓、工业底色与市井烟火交融"
 recoveredFromD1: true
+---
 
 <article>
 <p># 宝鸡的一顿非相亲饭局，饭局app为什么先看人再看热闹</p>

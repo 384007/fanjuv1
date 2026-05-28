@@ -7,6 +7,7 @@ alternatePath: "/en/city/yuncheng/remote-worker-dinner"
 title: "运城不想只靠群聊时，饭局app怎样把远程工作者饭局坐成一桌 | fanju-app"
 description: "在运城，远程工作的人越来越多，但彼此之间仍像隔着盐湖的雾气——能看见轮廓，却走不到一起。饭局app不是社交平台的延伸，它不靠刷存在感，也不靠拉群接龙。它的核心是6到12人的小桌饭局，围绕一个清晰主题，在真实空间里完成一次有来有往的对话。在运"
 recoveredFromD1: true
+---
 
 <article>
 <p># 运城不想只靠群聊时，饭局app怎样把远程工作者饭局坐成一桌</p>

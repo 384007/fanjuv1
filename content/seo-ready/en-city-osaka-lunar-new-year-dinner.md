@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/osaka/lunar-new-year-dinner"
 alternatePath: "/city/osaka/lunar-new-year-dinner"
-title: "Osaka Lunar New Year Dinner Guide: Finding Trustworthy Gatherings | fanju-app | 饭局app"
+title: "Osaka Lunar New Year Dinner Guide: Finding Trustworthy Gatherings | Fanju app"
 description: "Discover how to find safe and authentic Lunar New Year dinners in Osaka with the Fanju app. Fanju is a social dining platform designed for small, intimate meals where real names and clear intentions foster trust. This guide focuses on creating a sense of security and genuine connection for your Lunar New Year celebrations in Osaka, emphasizing public venues, verified participants, and host accountability. Whether you're new to the city or looking to expand your social circle, Fanju helps you find gatherings that feel welcoming and reliable."
 recoveredFromD1: true
+---
 
 <article>
 <p>Finding a comfortable and trustworthy Lunar New Year dinner in Osaka can be a concern for many. The Fanju app offers a solution by facilitating small, clearly described dining experiences focused on genuine human connection. Unlike larger, more anonymous events, Fanju emphasizes real names, public venues, and hosts who are accountable for their gatherings. This approach aims to create an environment where attendees can feel secure and confident in the interactions they have. The platform is built around the idea that shared meals, when organized with transparency and a focus on individual participants, can be a deeply rewarding way to celebrate traditions like Lunar New Year.</p>

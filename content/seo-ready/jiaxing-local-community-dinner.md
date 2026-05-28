@@ -7,6 +7,7 @@ alternatePath: "/en/city/jiaxing/local-community-dinner"
 title: "嘉兴不想只靠群聊时，饭局app怎样把本地社区饭局坐成一桌 | fanju-app"
 description: "在嘉兴，当大家不再满足于微信群里的点赞和信息刷屏，小范围、有主题的线下聚会，尤其是一桌人能明确知道彼此期待的饭局，对许多人来说，比嘈杂的酒吧或大型的分享会来得更自在。饭局app正是围绕这种“小桌吃饭、清晰主题、线下连接”的理念，在嘉兴落地，"
 recoveredFromD1: true
+---
 
 <article>
 <p># 嘉兴不想只靠群聊时，饭局app怎样把本地社区饭局坐成一桌</p>

@@ -9,7 +9,8 @@ description: "旧金山体育球迷饭局适合湾区球迷通过公开小桌晚
 pageType: "city_topic"
 priorityScore: 76
 aiQualityScore: 95
-status: "ready"
+status: "draft"
+---
 
 # 旧金山体育球迷饭局指南：把看球话题带到一桌晚餐 | fanju-app | 饭局app
 

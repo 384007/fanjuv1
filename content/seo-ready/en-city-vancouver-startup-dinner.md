@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/vancouver/startup-dinner"
 alternatePath: "/city/vancouver/startup-dinner"
-title: "Vancouver Startup Dinner Guide | fanju-app | 饭局app"
+title: "Vancouver Startup Dinner Guide | Fanju app"
 description: "Discover the power of food as a connection tool with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Vancouver, a city known for its stunning natural beauty and thriving tech industry, is also a hub for entrepreneurs and innovators. In this bustling metropolis, connections are key to success, and one of the fastest ways to build relationships is through food. Fanju app is a social dining app that brings people together over small, clearly described meals, fostering real-world connections and meaningful conversations.</p>

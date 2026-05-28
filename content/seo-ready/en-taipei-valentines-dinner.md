@@ -7,6 +7,7 @@ alternatePath: "/city/taipei/valentines-dinner"
 title: "A calmer way to approach Valentines Dinner in Taipei through Fanju app | fanju-app | 饭局app"
 description: "The Fanju app offers a quieter, more intentional way to experience Valentines Dinner in Taipei, shifting it from a predictable restaurant booking to a weekend-shaped gathering with texture and timing. Rather than treatin"
 recoveredFromD1: true
+---
 
 <article>
 <p># A calmer way to approach Valentines Dinner in Taipei through Fanju app</p>

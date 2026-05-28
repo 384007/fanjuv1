@@ -7,6 +7,7 @@ alternatePath: "/en/city/qiqihar/new-year-dinner"
 title: "齐齐哈尔新年饭局指南 | fanju-app | 饭局app"
 description: "齐齐哈尔新年饭局指南，帮助你在齐齐哈尔找到最好的饭局活动，享受美味佳肴和热闹的氛围。"
 recoveredFromD1: true
+---
 
 <article>
 <p>齐齐哈尔新年饭局指南</p>

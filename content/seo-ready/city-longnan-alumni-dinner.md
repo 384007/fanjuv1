@@ -7,6 +7,7 @@ alternatePath: "/en/city/longnan/alumni-dinner"
 title: "陇南校友饭局指南 | fanju-app | 饭局app"
 description: "陇南校友饭局指南，陇南饭局app，陇南校友聚会"
 recoveredFromD1: true
+---
 
 <article>
 <p>陇南校友饭局指南，陇南饭局app，陇南校友聚会</p>

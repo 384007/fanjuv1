@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T130008Z-round-1-000006"
 randomSeed: "production-cloudflare-20260525T130008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
+---
 
 # 金华创业者饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
@@ -83,3 +84,7 @@ publishedRunId: "production-cloudflare-20260525T130008Z"
 ######## 关于再次参加金华创业者饭局为什么和第一次不一样
 
 第二次参加金华的创业者饭局，心态会不一样。你不再紧张能不能融入，而是更清楚自己想解决什么问题。饭局app上，你会更关注主理人有没有更新过往饭局的进展，而不是只看新活动。在金华，重复参加不是为了维持关系，而是因为你知道，有些问题需要在不同饭桌上反复碰撞，才能慢慢理清。
+
+
+## 在当地通过饭局app寻找饭搭子
+在jinhua，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

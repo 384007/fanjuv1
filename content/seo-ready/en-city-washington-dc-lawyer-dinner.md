@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/washington-dc/lawyer-dinner"
 alternatePath: "/city/washington-dc/lawyer-dinner"
-title: "Washington DC Lawyer Dinner Guide | fanju-app | 饭局app"
+title: "Washington DC Lawyer Dinner Guide | Fanju app"
 description: "Plan a memorable Lawyer Dinner in Washington DC with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>\ Washington DC, a city known for its rich history, vibrant culture, and world-class dining scene, is an ideal destination for a Lawyer Dinner. With its diverse neighborhoods, each with its own unique character, you can choose the perfect setting for your evening gathering. Whether you&#039;re a local or just visiting, Washington DC has something to offer everyone.</p>

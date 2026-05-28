@@ -7,6 +7,7 @@ alternatePath: "/en/city/ganzhou/private-dinner"
 title: "赣州私密饭局指南：如何选择靠谱的饭局app | fanju-app"
 description: "赣州私密饭局指南：如何选择靠谱的饭局app"
 recoveredFromD1: true
+---
 
 <article>
 <h1>赣州私密饭局指南：如何选择靠谱的饭局app</h1>

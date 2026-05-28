@@ -7,6 +7,7 @@ alternatePath: "/en/city/langfang/language-exchange-dinner"
 title: "廊坊语言交换饭局指南 | fanju-app | 饭局app"
 description: "廊坊语言交换饭局指南，通过美食连接人的视角，了解廊坊的城市节奏、街区选择、同桌人数、报名前顾虑、主理人信号、安全判断、报名建议。"
 recoveredFromD1: true
+---
 
 <article>
 <p>廊坊语言交换饭局指南</p>

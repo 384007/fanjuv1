@@ -7,6 +7,7 @@ alternatePath: "/city/guangzhou/founder-dinner"
 title: "Discover the Heart of Guangzhou with the Fanju app | fanju-app | 饭局app"
 description: "Join the Fanju app for a unique dining experience in Guangzhou, where food brings strangers together."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Discover the Heart of Guangzhou with the Fanju app</h1>

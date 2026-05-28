@@ -21,6 +21,7 @@ promptSeed: "production-cloudflare-20260525T230007Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T230007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T230007Z"
+---
 
 # 昌都想参加普拉提饭局，饭局app把信任感放在饭前 | fanju-app
 

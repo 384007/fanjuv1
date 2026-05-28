@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/melbourne/founder-operator-dinner"
 alternatePath: "/city/melbourne/founder-operator-dinner"
-title: "Melbourne Founder Operator Dinner Guide: A Calm Approach for Introverts | fanju-app | 饭局app"
+title: "Melbourne Founder Operator Dinner Guide: A Calm Approach for Introverts | Fanju app"
 description: "Discover the Melbourne Founder Operator Dinner, a unique social dining experience facilitated by the Fanju app. Designed for meaningful connections, Fanju app focuses on small, curated meals that foster genuine conversations. This guide explores how these intimate gatherings offer a more comfortable and effective networking environment, especially for introverts who might find larger events overwhelming.  Melbourne's vibrant culinary scene provides the perfect backdrop for these thoughtfully arranged dinners, making it easier to build professional relationships in a relaxed setting."
 recoveredFromD1: true
+---
 
 <article>
 <p>For many, the idea of networking can conjure images of crowded bars or boisterous meetups, environments that often feel draining, particularly for introverts. The Melbourne Founder Operator Dinner, however, presents a compelling alternative. Leveraging the Fanju app, these events are structured around small, intimate dinners, offering a significantly more manageable and less anxiety-inducing way to connect with peers. The focus is on quality over quantity, fostering deeper conversations in a calm, controlled setting.</p>

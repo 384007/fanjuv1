@@ -7,6 +7,7 @@ alternatePath: "/en/city/hami/angel-investor-dinner"
 title: "哈密天使投资人饭局指南 | fanju-app | 饭局app"
 description: "在哈密体验大城市的天使投资人饭局，通过 Fanju 社交应用与同行共享经验和知识"
 recoveredFromD1: true
+---
 
 <article>
 <p>哈密天使投资人饭局指南</p>

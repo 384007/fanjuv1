@@ -7,6 +7,7 @@ alternatePath: "/city/haikou/local-dinner"
 title: "Haikou Local Dinner: a Fanju app guide to better city dinners | fanju-app | 饭局app"
 description: "A practical Fanju app guide for local dinner in Haikou, covering table fit, host signals, safety, and when a small dinner makes sense."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Haikou Local Dinner: a Fanju app guide to better city dinners</h1>

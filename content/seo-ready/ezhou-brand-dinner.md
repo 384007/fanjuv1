@@ -21,6 +21,7 @@ promptSeed: "production-cloudflare-20260525T220007Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T220007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T220007Z"
+---
 
 # 下班后的鄂州，饭局app怎样让品牌饭局有真实同桌 | fanju-app
 

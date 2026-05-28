@@ -7,6 +7,7 @@ alternatePath: "/en/city/dehong/community-dinner"
 title: "德宏社区饭局指南 | fanju-app | 饭局app"
 description: "在德宏，Fanju / 饭局app 是一款围绕小桌吃饭、清晰主题和线下连接的社交应用，帮助创业者、经营者和专业人士建立实质性的人脉关系。"
 recoveredFromD1: true
+---
 
 <article>
 <p>在德宏，生活节奏快，人脉关系至关重要。作为一名创业者或经营者，你可能会发现自己陷入 Networking 活动的尴尬境地。然而，Fanju / 饭局app 提供了一种更自然、更有效的方式来建立人脉关系——社区饭局。</p>

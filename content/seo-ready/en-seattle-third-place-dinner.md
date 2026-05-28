@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260525T105242Z-round-1-000007"
 randomSeed: "production-cloudflare-20260525T105242Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T105242Z"
+---
 
 # Seattle Third Place Dinner through Fanju app: rainy-evening tables beyond coffee shop routines | fanju-app
 

@@ -7,6 +7,7 @@ alternatePath: "/en/city/luoyang/curated-dinner"
 title: "洛阳高端饭局指南 | fanju-app | 饭局app"
 description: "在洛阳，高端饭局是一种时尚的社交方式，通过饭局app Fanju，可以轻松找到并参加精心组织的高端饭局。"
 recoveredFromD1: true
+---
 
 <article>
 <p>洛阳高端饭局指南</p>

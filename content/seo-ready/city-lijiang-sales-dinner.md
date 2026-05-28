@@ -7,6 +7,7 @@ alternatePath: "/en/city/lijiang/sales-dinner"
 title: "丽江销售饭局指南 | fanju-app | 饭局app"
 description: "在丽江的销售饭局指南，了解如何在这个美丽的城市举办小桌聚会，建立商业关系和人脉网络。"
 recoveredFromD1: true
+---
 
 <article>
 <p>丽江销售饭局指南</p>

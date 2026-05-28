@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/lahore/student-dinner"
 alternatePath: "/city/lahore/student-dinner"
-title: "Lahore Student Dinner Guide | fanju-app | 饭局app"
+title: "Lahore Student Dinner Guide | Fanju app"
 description: "Discover the best way to connect with fellow students in Lahore through small, intimate dinners with Fanju app."
 recoveredFromD1: true
+---
 
 <article>
 <p>Lahore, a city of vibrant culture and rich history, can sometimes feel overwhelming, especially for newcomers. As a student, it&#039;s easy to get caught up in the hustle and bustle of academic life, but it&#039;s also a great opportunity to connect with like-minded individuals. However, finding the time and courage to step out of your comfort zone can be daunting. That&#039;s where Fanju app comes in – a social dining app designed for small, clearly described meals and real-world connections.</p>

@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T170006Z-round-1-000005"
 randomSeed: "production-cloudflare-20260525T170006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T170006Z"
+---
 
 # Before the first message in Warsaw, Fanju app makes Meditation Dinner feel like a real decision | fanju-app
 

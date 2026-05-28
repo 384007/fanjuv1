@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # In Bogota, Fanju app turns Product Manager Dinner into a table people can actually trust | fanju-app
 

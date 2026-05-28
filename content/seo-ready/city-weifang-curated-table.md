@@ -7,6 +7,7 @@ alternatePath: "/en/city/weifang/curated-table"
 title: "潍坊精选餐桌指南 | fanju-app | 饭局app"
 description: "在潍坊的饭局app上，发现精选餐桌，围绕小桌结构让女性更安心展开，了解城市节奏、街区选择、同桌人数、报名前顾虑、主理人信号、安全判断、报名建议。"
 recoveredFromD1: true
+---
 
 <article>
 <p>在潍坊的饭局app上，发现精选餐桌，围绕小桌结构让女性更安心展开。饭局app是一款围绕小桌吃饭、清晰主题和线下连接的社交应用，帮助用户在城市中发现和参加精选的餐桌活动。通过饭局app，用户可以轻松地找到适合自己的餐桌活动，并与其他人建立联系。</p>

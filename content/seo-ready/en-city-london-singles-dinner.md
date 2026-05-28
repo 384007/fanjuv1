@@ -7,6 +7,7 @@ alternatePath: "/city/london/singles-dinner"
 title: "London's Hidden Gems: Why the Fanju app Beats Any Tourist Itinerary | fanju-app | 饭局app"
 description: "Discover the authentic side of London with the Fanju app, where you can join local small-table dinners and experience the city like a true insider."
 recoveredFromD1: true
+---
 
 <article>
 <h1>London&#039;s Hidden Gems: Why the Fanju app Beats Any Tourist Itinerary</h1>

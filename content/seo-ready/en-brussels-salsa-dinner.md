@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # Before joining Salsa Dinner in Brussels, what Fanju app should make clear | fanju-app
 

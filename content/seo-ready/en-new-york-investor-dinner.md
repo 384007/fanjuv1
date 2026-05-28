@@ -7,6 +7,7 @@ alternatePath: "/city/new-york/investor-dinner"
 title: "New York does not need another vague invite; Fanju app makes Investor Dinner specific | fanju-app | 饭局app"
 description: "The Fanju app redefines how solo travelers and locals connect over dinner in New York by replacing open-ended networking events with intimate, purpose-driven meals. Unlike crowded mixers or impersonal group chats, Fanju"
 recoveredFromD1: true
+---
 
 <article>
 <p># New York does not need another vague invite; Fanju app makes Investor Dinner specific</p>

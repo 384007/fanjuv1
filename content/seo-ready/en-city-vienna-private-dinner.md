@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/vienna/private-dinner"
 alternatePath: "/city/vienna/private-dinner"
-title: "Vienna Private Dinner Guide | fanju-app | 饭局app"
+title: "Vienna Private Dinner Guide | Fanju app"
 description: "Discover the authentic side of Vienna with Fanju app, a social dining app that connects like-minded individuals for small, clearly described meals and real-world connections. Experience the city's rhythm, culture, and people in a unique and meaningful way."
 recoveredFromD1: true
+---
 
 <article>
 <p>Vienna, a city known for its grand palaces, opera houses, and rich history, is also a place where people come together to share meals and stories. Fanju app offers a unique way to experience the city&#039;s social scene, without the pressure of romantic expectations. Our Private Dinners are designed for individuals who want to connect with others over a shared interest or activity, without the need for a romantic partner.</p>

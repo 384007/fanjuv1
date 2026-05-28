@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/kuala-lumpur/ai-founder-dinner"
 alternatePath: "/city/kuala-lumpur/ai-founder-dinner"
-title: "Kuala Lumpur AI Founder Dinner Guide | fanju-app | 饭局app"
+title: "Kuala Lumpur AI Founder Dinner Guide | Fanju app"
 description: "Discover the power of small, intimate dinners with like-minded professionals in Kuala Lumpur, facilitated by Fanju app, a social dining app that fosters real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>After a long day of work, you often find yourself stuck in a crowded networking event, trying to make small talk with strangers. But what if you could experience a more authentic and meaningful connection with fellow professionals over a delicious meal? This is where Fanju app comes in – a social dining app that brings together like-minded individuals for small, clearly described meals and real-world connections.</p>

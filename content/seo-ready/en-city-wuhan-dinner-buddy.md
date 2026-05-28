@@ -7,6 +7,7 @@ alternatePath: "/city/wuhan/dinner-buddy"
 title: "Is the Fanju app the key to ending your working day on a high note in Wuhan? | fanju-app | 饭局app"
 description: "Discover how the Fanju app can help you find a dinner buddy in Wuhan, making your after-work routine more enjoyable and social."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Is the Fanju app the key to ending your working day on a high note in Wuhan?</h1>

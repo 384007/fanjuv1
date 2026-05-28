@@ -7,6 +7,7 @@ alternatePath: "/en/city/xiamen/singles-dinner"
 title: "厦门单身饭局指南 | fanju-app | 饭局app"
 description: "厦门单身饭局指南"
 recoveredFromD1: true
+---
 
 <article>
 <p>厦门单身饭局指南</p>

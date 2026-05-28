@@ -7,6 +7,7 @@ alternatePath: "/city/kolkata/new-friends-dinner"
 title: "Kolkata after work: how Fanju app makes New Friends Dinner feel like a real room | fanju-app | 饭局app"
 description: "The Fanju app is not a party planner or a dating mixer. In Kolkata, it’s a quiet matchmaker for small, intentional dinners—four to six people, usually strangers at first, gathered around a table someone has prepared, hos"
 recoveredFromD1: true
+---
 
 <article>
 <p># Kolkata after work: how Fanju app makes New Friends Dinner feel like a real room</p>

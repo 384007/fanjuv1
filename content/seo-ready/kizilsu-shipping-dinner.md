@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T110006Z-round-1-000004"
 randomSeed: "production-cloudflare-20260525T110006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
+---
 
 # 在克孜勒苏找一桌不尴尬的航运饭局，饭局app先解决什么 | fanju-app
 
@@ -91,3 +92,7 @@ publishedRunId: "unknown"
 ########## 为什么对的克孜勒苏航运饭局值得等
 
 因为它不是填补空闲时间的消遣，而是为特定问题准备的对话空间。等一局合适的饭局，像等一艘准时靠港的船。在克孜勒苏，航运从业者知道，有些事急不来。饭局app上，有人报名后等了三周才成局，但他说：“那顿饭值了，因为每句话都算数。”
+
+
+## 在当地通过饭局app寻找饭搭子
+在kizilsu，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

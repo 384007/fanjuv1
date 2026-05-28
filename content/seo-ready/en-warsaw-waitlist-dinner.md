@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # Warsaw does not need another vague invite; Fanju app makes Waitlist Dinner specific | fanju-app
 

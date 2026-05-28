@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T140006Z-round-1-000009"
 randomSeed: "production-cloudflare-20260525T140006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T140006Z"
+---
 
 # What makes Vegan Dinner in Prague worth the risk; Fanju app answers before you arrive | fanju-app
 

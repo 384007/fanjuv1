@@ -21,6 +21,7 @@ promptSeed: "production-cloudflare-20260525T200005Z-round-1-000006"
 randomSeed: "production-cloudflare-20260525T200005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T200005Z"
+---
 
 # 晋城街头美食饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 

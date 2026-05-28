@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # When AI Engineer Dinner feels too loose in Lahore, Fanju app starts with the table | fanju-app
 

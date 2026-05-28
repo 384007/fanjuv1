@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/bogota/supper-club"
 alternatePath: "/city/bogota/supper-club"
-title: "Bogota Supper Club Guide | fanju-app | 饭局app"
+title: "Bogota Supper Club Guide | Fanju app"
 description: "Discover the vibrant world of supper clubs in Bogota with the Fanju app. This guide explores how to find and enjoy intimate dining experiences, fostering real connections within the city's unique neighborhoods. Fanju app is a social dining platform designed for discovering and participating in small, curated meals, emphasizing genuine human interaction and shared culinary moments. Whether you're a seasoned Bogotano or new to the city, explore the diverse offerings and connect with like-minded individuals over delicious food."
 recoveredFromD1: true
+---
 
 <article>
 <p>Bogota&#039;s culinary scene is as diverse and dynamic as its neighborhoods, and supper clubs offer a unique way to experience it. These intimate gatherings, often hosted in private homes or unique venues, provide a more personal and engaging alternative to traditional restaurants. They are perfect for those seeking authentic connections and a taste of local life beyond the usual tourist trails. The Fanju app serves as a gateway to these experiences, connecting hosts and guests for memorable evenings centered around food and conversation.</p>

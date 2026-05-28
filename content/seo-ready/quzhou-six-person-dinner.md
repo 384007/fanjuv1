@@ -7,6 +7,7 @@ alternatePath: "/en/city/quzhou/six-person-dinner"
 title: "在衢州找一桌不尴尬的六人饭局，饭局app先解决什么 | fanju-app"
 description: "在衢州，一顿六人饭局的意义，往往不是吃本身，而是谁和你一起吃。饭局app不是为了凑人头而存在的工具，它更像一张慢慢展开的本地餐桌地图，把那些愿意认真吃饭、也愿意听别人讲两句的人，一桌一桌连起来。衢州的街巷不宽，人情却厚，可越是这样，一顿饭要"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在衢州找一桌不尴尬的六人饭局，饭局app先解决什么</p>

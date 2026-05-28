@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Fanju App in Luanda: Returnee Dinners for People Rebuilding a Social Circle After Coming Home | fanju-app
 

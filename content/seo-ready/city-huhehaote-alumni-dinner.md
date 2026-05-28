@@ -7,6 +7,7 @@ alternatePath: "/en/city/huhehaote/alumni-dinner"
 title: "呼和浩特校友饭局指南 | fanju-app | 饭局app"
 description: "呼和浩特校友饭局指南，帮助新来城市的人通过一顿饭获得真实连接"
 recoveredFromD1: true
+---
 
 <article>
 <p>在呼和浩特，新来的人可能会感到陌生和孤独。Fanju / 饭局app 是一个社交应用，旨在帮助人们通过小桌吃饭和清晰主题建立线下连接。通过这个应用，人们可以找到同城的校友或志同道合的人，共享美食和故事。</p>

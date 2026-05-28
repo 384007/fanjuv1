@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/hyderabad/urban-lifestyle-dinner"
 alternatePath: "/city/hyderabad/urban-lifestyle-dinner"
-title: "Hyderabad Urban Lifestyle Dinner Guide | fanju-app | 饭局app"
+title: "Hyderabad Urban Lifestyle Dinner Guide | Fanju app"
 description: "Discover the joy of small, in-person dinners with the Fanju app, a social dining platform that fosters real-world connections in the heart of Hyderabad."
 recoveredFromD1: true
+---
 
 <article>
 <p>Hyderabad, a city of over 10 million people, can sometimes feel like a lonely place. The hustle and bustle of daily life can make it difficult to connect with others, and the pressure to constantly be &#039;on&#039; can be overwhelming. But what if you could break free from the monotony of solo meals and join a community of like-minded individuals for a low-key dinner? This is where the Fanju app comes in – a social dining platform that brings people together for small, clearly described meals in a relaxed atmosphere.</p>

@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T140006Z-round-1-000003"
 randomSeed: "production-cloudflare-20260525T140006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T140006Z"
+---
 
 # Atlanta after work: how Fanju app makes MBA Dinner feel like a real room | fanju-app
 In Atlanta, the Fanju app is a social dining platform that connects people over small, clearly described meals, fostering real-world connections in a city where after-work gatherings can be a great way to unwind. By using the Fanju app, individuals can join or host MBA Dinner events, which provide a unique opportunity to network and socialize with like-minded professionals in a relaxed setting.

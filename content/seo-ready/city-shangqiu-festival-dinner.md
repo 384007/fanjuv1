@@ -7,6 +7,7 @@ alternatePath: "/en/city/shangqiu/festival-dinner"
 title: "商丘节日饭局指南 | fanju-app | 饭局app"
 description: "在商丘体验最真实的节日饭局，了解本地美食和街区选择。"
 recoveredFromD1: true
+---
 
 <article>
 <p>在商丘，节日饭局是一种特殊的体验。它不仅仅是吃饭，而是一种连接人与人，体验本地文化的方式。作为一名本地人，我有幸参与了很多节日饭局，了解了商丘的美食和街区选择。今天，我要分享给大家，如何在商丘参加节日饭局，体验最真实的本地生活。</p>

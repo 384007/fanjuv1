@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Perth does not need another vague invite; Fanju app makes Urban Planner Dinner specific | fanju-app
 

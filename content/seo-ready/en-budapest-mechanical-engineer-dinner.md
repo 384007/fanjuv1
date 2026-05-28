@@ -4,7 +4,7 @@ canonicalPath: "/en/city/budapest/mechanical-engineer-dinner"
 alternatePath: "/city/budapest/mechanical-engineer-dinner"
 translationKey: "budapest-mechanical-engineer-dinner"
 lang: "en"
-title: "Mechanical Engineer Dinner in Budapest: Peer Connection Over Precision Conversations | fanju-app"
+title: "Mechanical Engineer Dinner in Budapest: Peer Connection Over Precision Conversations | Fanju app"
 description: "For mechanical engineers in Budapest, dinner isn’t just a meal—it’s a chance to connect with peers in a structured, low-pressure setting. Discover how small-table social dining on the Fanju app fosters authentic dialogue among technical professionals."
 pageType: "city_article"
 priorityScore: 70
@@ -12,8 +12,9 @@ aiQualityScore: 96
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
-# Mechanical Engineer Dinner in Budapest: Peer Connection Over Precision Conversations | fanju-app | Fanju
+# Mechanical Engineer Dinner in Budapest: Peer Connection Over Precision Conversations | Fanju app
 
 Budapest moves at the pace of systems—trams on fixed routes, factories with shift cycles, and engineering teams solving problems within tight tolerances. For mechanical engineers working across automotive, infrastructure, and industrial design, professional life often unfolds in focused isolation. The Fanju app introduces a subtle but meaningful counterbalance: the small-table dinner built specifically for technical peers who value clarity, context, and quiet connection.
 

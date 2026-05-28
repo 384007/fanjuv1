@@ -12,6 +12,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # 昌都的一顿百乐餐饭局，饭局app为什么先看人再看热闹 | fanju-app
 
@@ -84,3 +85,7 @@ renderMode: "source"
 ########## 为什么对的昌都百乐餐饭局值得等
 
 因为它不是填补时间的选项，而是值得预留时间的安排。在高原，有些饭，一年遇一次，就够了。
+
+
+## 在当地通过饭局app寻找饭搭子
+在changdu，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

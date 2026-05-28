@@ -7,6 +7,7 @@ alternatePath: "/city/santiago/premium-restaurant-dinner"
 title: "Why Premium Restaurant Dinner in Santiago works better when Fanju app keeps the table small | fanju-app | 饭局app"
 description: "Fanju app helps people in Santiago find real, small-group dinners in the city’s best restaurants—meals that feel different from group meetups or chat-based social apps. Instead of large gatherings or algorithm-driven mat"
 recoveredFromD1: true
+---
 
 <article>
 <p># Why Premium Restaurant Dinner in Santiago works better when Fanju app keeps the table small</p>

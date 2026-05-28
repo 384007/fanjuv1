@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T150008Z-round-1-000002"
 randomSeed: "production-cloudflare-20260525T150008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
+---
 
 # 黄石想参加社工饭局，饭局app把信任感放在饭前 | fanju-app
 
@@ -81,3 +82,7 @@ publishedRunId: "production-cloudflare-20260525T150008Z"
 ######### 关于通过饭局app自己组织黄石社工饭局的一点说明
 
 如果你在参加黄石的社工饭局时，觉得体验很好，并且积累了一些组织经验，那么你也可以考虑通过饭局app自己来组织一场饭局。这不仅能让你将自己的想法付诸实践，也能为你带来更多的社交机会。在组织时，清晰地定义饭局的主题和目标，细心地选择餐厅和邀请参与者，是确保饭局成功的重要步骤。
+
+
+## 在当地通过饭局app寻找饭搭子
+在huangshi，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

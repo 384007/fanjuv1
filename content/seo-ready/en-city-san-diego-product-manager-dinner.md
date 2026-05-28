@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/san-diego/product-manager-dinner"
 alternatePath: "/city/san-diego/product-manager-dinner"
-title: "San Diego Product Manager Dinner Guide | fanju-app | 饭局app"
+title: "San Diego Product Manager Dinner Guide | Fanju app"
 description: "Join a Product Manager Dinner in San Diego with Fanju app, a social dining app for small, clearly described meals and real-world connections. Fanju app is a platform that brings people together for intimate dinner gatherings, fostering meaningful relationships and a sense of community. With Fanju app, you can connect with like-minded individuals and enjoy a delicious meal in a relaxed atmosphere. Whether you're a product manager looking to expand your professional network or simply seeking new friendships, Fanju app is the perfect solution. Join a Product Manager Dinner in San Diego and experience the joy of social dining with Fanju app."
 recoveredFromD1: true
+---
 
 <article>
 <h2>What is Fanju?</h2>

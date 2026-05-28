@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/prague/media-dinner"
 alternatePath: "/city/prague/media-dinner"
-title: "Prague Media Dinner Guide | fanju-app | 饭局app"
+title: "Prague Media Dinner Guide | Fanju app"
 description: "Discover the authentic side of Prague through a unique social dining experience on the Fanju app, where you can enjoy small, delicious meals and forge meaningful connections with like-minded individuals."
 recoveredFromD1: true
+---
 
 <article>
 <p>Prague, a city known for its stunning architecture, rich history, and vibrant cultural scene, is a perfect backdrop for a Media Dinner. On the Fanju app, you can join a Media Dinner and experience the city&#039;s rhythm in a unique and intimate setting. Fanju is a social dining app that focuses on small, clearly described meals and real-world connections, making it an ideal platform for those seeking a date-free social experience.</p>

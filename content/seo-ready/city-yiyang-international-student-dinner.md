@@ -7,6 +7,7 @@ alternatePath: "/en/city/yiyang/international-student-dinner"
 title: "益阳国际学生饭局指南 | fanju-app | 饭局app"
 description: "在益阳的国际学生饭局中，Fanju / 饭局app 成为了一种连接国际学生和本地朋友的桥梁。通过围绕小桌吃饭、清晰主题和线下连接的社交应用，国际学生可以更好地融入益阳的生活。"
 recoveredFromD1: true
+---
 
 <article>
 <p>益阳国际学生饭局指南</p>

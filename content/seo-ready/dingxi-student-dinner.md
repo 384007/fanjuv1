@@ -7,6 +7,7 @@ alternatePath: "/en/city/dingxi/student-dinner"
 title: "定西留学生饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 description: "饭局app在定西的饭局设计，从一开始就不是为了解决“没人一起吃饭”的问题，而是回应更具体的状态：下班后不想立刻回家，又不想独自在面馆角落刷手机。在定西，留学生群体不大不小，彼此之间常有擦肩而过的熟悉感，却很难自然坐下来聊几句。饭局app尝试"
 recoveredFromD1: true
+---
 
 <article>
 <p># 定西留学生饭局不是凑人吃饭，饭局app更看重这一桌的边界</p>

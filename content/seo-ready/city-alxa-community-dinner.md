@@ -7,6 +7,7 @@ alternatePath: "/en/city/alxa/community-dinner"
 title: "阿拉善社区饭局指南 | fanju-app | 饭局app"
 description: "在阿拉善的社区饭局中，通过Fanju / 饭局app，人们可以围绕小桌吃饭、清晰主题和线下连接。"
 recoveredFromD1: true
+---
 
 <article>
 <p>阿拉善社区饭局指南</p>

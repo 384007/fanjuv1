@@ -7,6 +7,7 @@ alternatePath: "/city/bogota/curated-table"
 title: "Finding Community with Fanju app in Bogota: A Curated Table Guide | fanju-app | 饭局app"
 description: "Discover the best way to connect with like-minded remote workers in Bogota through Fanju app's curated table experience."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Finding Community with Fanju app in Bogota: A Curated Table Guide</h1>

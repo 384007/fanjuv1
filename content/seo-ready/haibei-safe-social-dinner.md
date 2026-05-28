@@ -21,6 +21,7 @@ promptSeed: "production-cloudflare-20260525T200005Z-round-1-000002"
 randomSeed: "production-cloudflare-20260525T200005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T200005Z"
+---
 
 # 在海北把安全社交饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 

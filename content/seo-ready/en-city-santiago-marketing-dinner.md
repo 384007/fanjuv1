@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/santiago/marketing-dinner"
 alternatePath: "/city/santiago/marketing-dinner"
-title: "Santiago Marketing Dinner Guide | fanju-app | 饭局app"
+title: "Santiago Marketing Dinner Guide | Fanju app"
 description: "Discover the art of curated social dining in Santiago with Fanju app, a platform that connects like-minded professionals for intimate, high-quality meals and meaningful connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Santiago, a city known for its vibrant cultural scene and stunning architecture, is also a hub for professionals looking to connect and build meaningful relationships. As a social dining app, Fanju offers a unique way to experience the city&#039;s culinary delights while fostering real-world connections. Our app is designed for small, clearly described meals, allowing users to focus on the company and conversation rather than a generic dining experience.</p>

@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/montreal/new-friends-dinner"
 alternatePath: "/city/montreal/new-friends-dinner"
-title: "Montreal New Friends Dinner Guide | fanju-app | 饭局app"
+title: "Montreal New Friends Dinner Guide | Fanju app"
 description: "Discover the art of small, considered, private dining with Fanju app, a social dining app that fosters real-world connections and meaningful meals."
 recoveredFromD1: true
+---
 
 <article>
 <p>\ If you&#039;re looking for a more intentional way to connect with new people in Montreal, consider joining a New Friends Dinner. Fanju app is a social dining app that specializes in small, clearly described meals and real-world connections. It&#039;s the perfect platform for those seeking a more meaningful way to meet new people. With Fanju, you can enjoy a delicious meal in a private setting, surrounded by like-minded individuals.</p>

@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # Kinshasa after work: how Fanju app makes Creator Dinner feel like a real room | fanju-app
 

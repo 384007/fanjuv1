@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Lisbon strangers sit down easier when Fanju app frames the Electrical Engineer Dinner table first | fanju-app
 

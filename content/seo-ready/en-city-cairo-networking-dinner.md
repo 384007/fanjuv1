@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cairo/networking-dinner"
 alternatePath: "/city/cairo/networking-dinner"
-title: "Cairo Networking Dinner Guide | fanju-app | 饭局app"
+title: "Cairo Networking Dinner Guide | Fanju app"
 description: "Discover the art of meaningful connections in Cairo with Fanju app, a social dining app that brings people together for small, structured meals and real-world relationships."
 recoveredFromD1: true
+---
 
 <article>
 <p>Cairo, a city known for its vibrant energy and rich history, can be overwhelming for those who prefer quieter, more intimate settings. For introverts, navigating the city&#039;s bustling social scene can be daunting. However, a small, structured dinner can be a dramatically easier and more enjoyable experience than a bar or a meetup. This is where Fanju comes in – a social dining app that facilitates real-world connections in a comfortable and relaxed atmosphere.</p>

@@ -7,6 +7,7 @@ alternatePath: "/en/city/hefei/startup-dinner"
 title: "合肥创业饭局指南 | fanju-app | 饭局app"
 description: "在合肥，饭局app成为创业者之间连接的桥梁，通过美食连接人的视角，了解合肥创业饭局的指南。"
 recoveredFromD1: true
+---
 
 <article>
 <p>在工作结束后的那一刻，人们开始思考如何放松自己，享受美食和社交的乐趣。饭局app正是这样的一个平台，聚集了合肥的创业者和有志者，通过小桌吃饭和清晰主题的线下活动，让人在美食中找到连接的力量。</p>

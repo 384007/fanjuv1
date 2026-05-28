@@ -7,6 +7,7 @@ alternatePath: "/city/alexandria/urban-lifestyle-dinner"
 title: "A calmer way to approach Urban Lifestyle Dinner in Alexandria through Fanju app | fanju-app | 饭局app"
 description: "As an expat or newcomer to Alexandria, finding authentic local connections can be a daunting task. The city's vibrant atmosphere and rich cultural heritage can be overwhelming, especially when trying to navigate the comp"
 recoveredFromD1: true
+---
 
 <article>
 <p># A calmer way to approach Urban Lifestyle Dinner in Alexandria through Fanju app</p>

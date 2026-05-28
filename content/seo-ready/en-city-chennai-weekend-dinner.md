@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/chennai/weekend-dinner"
 alternatePath: "/city/chennai/weekend-dinner"
-title: "Chennai Weekend Dinner Guide: After Work and Socialising | fanju-app | 饭局app"
+title: "Chennai Weekend Dinner Guide: After Work and Socialising | Fanju app"
 description: "Discover the best weekend dinner spots in Chennai with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>As you step into the vibrant city of Chennai, you&#039;re likely to be overwhelmed by the endless options for dining and socialising. But, if you&#039;re looking for a unique experience that combines good food, new connections, and a relaxed atmosphere, you&#039;re in the right place. Fanju app is a social dining app that brings people together for small, clearly described meals, and real-world connections. It&#039;s the perfect way to experience the city&#039;s rhythm and make meaningful connections with like-minded individuals.</p>

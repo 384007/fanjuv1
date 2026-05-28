@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T130008Z-round-1-000005"
 randomSeed: "production-cloudflare-20260525T130008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
+---
 
 # Buenos Aires strangers sit down easier when Fanju app frames the Sommelier Dinner table first | fanju-app
 

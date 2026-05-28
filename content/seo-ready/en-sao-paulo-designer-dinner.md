@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # In Sao Paulo, Fanju app turns Designer Dinner into a table people can actually trust | fanju-app
 

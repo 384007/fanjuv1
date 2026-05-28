@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260525T210005Z-round-1-000001"
 randomSeed: "production-cloudflare-20260525T210005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T210005Z"
+---
 
 # In Baghdad, Fanju app turns Semiconductor Dinner into a table people can actually trust | fanju-app
 

@@ -4,14 +4,15 @@ canonicalPath: "/en/city/bangkok/newcomer-dinner"
 alternatePath: "/city/bangkok/newcomer-dinner"
 translationKey: "gsc-repair-bangkok-newcomer-dinner"
 lang: "en"
-title: "Bangkok Newcomer Dinner Guide | fanju-app"
+title: "Bangkok Newcomer Dinner Guide | Fanju app"
 description: "Bangkok newcomer dinner on Fanju helps new arrivals compare a public small-table dinner, host note, guest mix, cost, and safety boundaries before joining."
 pageType: "city_topic"
 priorityScore: 78
 aiQualityScore: 96
 status: "ready"
+---
 
-# Bangkok Newcomer Dinner Guide: find a clearer first table in the city | fanju-app
+# Bangkok Newcomer Dinner Guide: find a clearer first table in the city | Fanju app
 
 A Bangkok newcomer dinner is for people who have recently arrived, are rebuilding a local social circle, or want a calmer way to meet people beyond random group chats. Fanju app makes the plan dinner-first: read the table topic, public venue, host note, guest mix, time, cost, and safety expectations before deciding whether to join.
 

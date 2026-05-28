@@ -7,6 +7,7 @@ alternatePath: "/en/city/jiamusi/private-dinner"
 title: "佳木斯私密饭局指南 | fanju-app | 饭局app"
 description: "在佳木斯体验私密饭局的独特魅力，了解如何在这座城市找到适合自己的社交圈。"
 recoveredFromD1: true
+---
 
 <article>
 <p>佳木斯私密饭局指南</p>

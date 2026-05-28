@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # The Social Worker Dinner table Casablanca actually needs is the one Fanju app describes up front | fanju-app
 

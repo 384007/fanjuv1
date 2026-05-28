@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/phoenix/verified-host-dinner"
 alternatePath: "/city/phoenix/verified-host-dinner"
-title: "Phoenix Verified Host Dinner Guide | fanju-app | 饭局app"
+title: "Phoenix Verified Host Dinner Guide | Fanju app"
 description: "Plan your weekend around a memorable dinner experience with Fanju app, a social dining app that connects you with like-minded individuals for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Phoenix Verified Host Dinner Guide</p>

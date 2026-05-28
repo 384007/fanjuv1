@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T180008Z-round-1-000005"
 randomSeed: "production-cloudflare-20260525T180008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T180008Z"
+---
 
 # For people trying Social Reset Dinner in Buenos Aires, Fanju app puts the guest mix first | fanju-app
 

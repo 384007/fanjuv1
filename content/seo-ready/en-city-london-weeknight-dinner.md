@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/london/weeknight-dinner"
 alternatePath: "/city/london/weeknight-dinner"
-title: "London Weeknight Dinner Guide: Finding Trustworthy Small Gatherings | fanju-app | 饭局app"
+title: "London Weeknight Dinner Guide: Finding Trustworthy Small Gatherings | Fanju app"
 description: "Discovering a comfortable and trustworthy weeknight dinner in London can feel like a challenge. The Fanju app offers a unique approach, focusing on small, clearly described meals and fostering real-world connections in a safe environment.  It's designed for individuals seeking genuine social interaction over a shared plate, moving beyond superficial online exchanges.  This guide explores how Fanju helps you find and host these intimate gatherings, emphasizing safety, clarity, and authentic connection within London's vibrant social landscape."
 recoveredFromD1: true
+---
 
 <article>
 <p>Finding a weeknight dinner in London that feels both welcoming and secure is a common desire. The Fanju app addresses this by facilitating small, well-defined meals where genuine connections can form. It emphasizes transparency and real-world interactions, moving away from the anonymity often found online. This guide will walk you through how to navigate these intimate dining experiences, ensuring you feel confident and comfortable.</p>

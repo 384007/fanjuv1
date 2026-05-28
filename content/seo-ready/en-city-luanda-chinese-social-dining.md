@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/luanda/chinese-social-dining"
 alternatePath: "/city/luanda/chinese-social-dining"
-title: "Luanda Chinese Social Dining Guide | fanju-app | 饭局app"
+title: "Luanda Chinese Social Dining Guide | Fanju app"
 description: "Plan your weekend with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Luanda, the vibrant capital of Angola, is a city that never sleeps. Its rhythm is a perfect blend of African, Portuguese, and Brazilian influences, making it a fascinating place to explore. As the weekend approaches, Luanda&#039;s residents and visitors alike are looking for ways to make the most of their free time. One popular activity is social dining, where people come together to share meals and create meaningful connections.</p>

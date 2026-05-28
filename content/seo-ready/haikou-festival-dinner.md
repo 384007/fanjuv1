@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T180008Z-round-1-000010"
 randomSeed: "production-cloudflare-20260525T180008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T180008Z"
+---
 
 # 海口想参加节日饭局，饭局app把信任感放在饭前 | fanju-app
 
@@ -75,3 +76,7 @@ publishedRunId: "production-cloudflare-20260525T180008Z"
 ####### 一顿好的海口节日饭局结束后的一个具体下一步
 
 饭局结束后的第二天，如果觉得和某个人聊得不错，可以发一条简短消息：“昨晚那家店的糟粕醋挺特别，你推荐的那家我也想去试试。”不用刻意维系，也不必立刻约下一次。在海口，人与人之间的连接往往是渐进的——一次饭局后，各自回到生活，但某个细节被记住了，下次再遇到时，就成了自然的延续。这才是节日饭局最实在的结果：不是立刻交到朋友，而是为下一次见面留了一个真实的开口。
+
+
+## 在当地通过饭局app寻找饭搭子
+在haikou，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

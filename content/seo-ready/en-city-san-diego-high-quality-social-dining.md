@@ -7,6 +7,7 @@ alternatePath: "/city/san-diego/high-quality-social-dining"
 title: "What's the Best Way to Experience High Quality Social Dining in San Diego with Fanju app? | fanju-app | 饭局app"
 description: "Discover the art of social dining in San Diego with Fanju app, a platform that connects like-minded individuals for unforgettable experiences."
 recoveredFromD1: true
+---
 
 <article>
 <h1>What&#039;s the Best Way to Experience High Quality Social Dining in San Diego with Fanju app?</h1>

@@ -7,6 +7,7 @@ alternatePath: "/en/city/jingmen/six-person-dinner"
 title: "在荆门找一桌不尴尬的六人饭局，饭局app先解决什么 | fanju-app"
 description: "下班后站在荆门中天街的路口，天色刚暗，风里带着湖边的湿气。你犹豫要不要进那家常路过的藕汤馆子，却不想一个人吃完整锅。这时打开饭局app，看到有桌六人饭定在象山一路的老川菜馆，主题是“刚来荆门三个月，想认个本地菜谱”，报名还剩两个位置。这不是"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在荆门找一桌不尴尬的六人饭局，饭局app先解决什么</p>

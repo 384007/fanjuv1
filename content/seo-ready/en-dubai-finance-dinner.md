@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260528T070525Z-round-1-000009"
 randomSeed: "production-cloudflare-20260528T070525Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260528T070525Z"
+---
 
 # Dubai has plenty of Finance Dinner options; Fanju app is the one that names the table first | fanju-app
 

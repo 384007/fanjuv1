@@ -7,6 +7,7 @@ alternatePath: "/en/city/liuzhou/waitlist-dinner"
 title: "柳州候补饭局指南 | fanju-app | 饭局app"
 description: "柳州候补饭局指南，了解柳州的饭局文化和如何参加候补饭局"
 recoveredFromD1: true
+---
 
 <article>
 <p>柳州候补饭局指南，了解柳州的饭局文化和如何参加候补饭局</p>

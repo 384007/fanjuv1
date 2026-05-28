@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T170006Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T170006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T170006Z"
+---
 
 # 温州的西班牙语学习者饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 
@@ -83,3 +84,7 @@ publishedRunId: "production-cloudflare-20260525T170006Z"
 ######## 关于再次参加温州西班牙语学习者饭局为什么和第一次不一样
 
 第二次去，不再是“试试看”，而是“我知道大概会发生什么”。你已经知道主理人说话的节奏，知道饭桌上哪些话题容易展开，甚至知道哪家餐厅的菜单更容易用西语描述。这种熟悉感，不是来自社交，而是来自对结构的信任。在温州，重复参与一件事，不是因为热情高涨，而是因为“上次没出错”。
+
+
+## 在当地通过饭局app寻找饭搭子
+在wenzhou，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

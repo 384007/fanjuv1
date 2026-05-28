@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260526T030005Z-round-1-000009"
 randomSeed: "production-cloudflare-20260526T030005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
+---
 
 # Ho Chi Minh City has plenty of Morning Routine Dinner options; Fanju app is the one that names the table first | fanju-app
 

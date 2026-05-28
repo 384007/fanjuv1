@@ -7,6 +7,7 @@ alternatePath: "/en/city/shaoxing/loneliness-solution-dinner"
 title: "绍兴解决孤独饭局指南 | fanju-app | 饭局app"
 description: "在绍兴，Fanju 是一个围绕小桌吃饭、清晰主题和线下连接的社交应用，帮助你找到同样有兴趣的人一起共度美好时光。"
 recoveredFromD1: true
+---
 
 <article>
 <p>绍兴解决孤独饭局指南</p>

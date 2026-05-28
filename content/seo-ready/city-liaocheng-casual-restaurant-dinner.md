@@ -7,6 +7,7 @@ alternatePath: "/en/city/liaocheng/casual-restaurant-dinner"
 title: "聊城轻松餐厅饭局指南 | fanju-app | 饭局app"
 description: "在聊城轻松餐厅饭局，使用饭局app，轻松找到聊城的餐厅和朋友。"
 recoveredFromD1: true
+---
 
 <article>
 <p>聊城轻松餐厅饭局指南</p>

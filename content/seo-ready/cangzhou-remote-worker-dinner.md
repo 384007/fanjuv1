@@ -7,6 +7,7 @@ alternatePath: "/en/city/cangzhou/remote-worker-dinner"
 title: "沧州不想只靠群聊时，饭局app怎样把远程工作者饭局坐成一桌 | fanju-app"
 description: "在沧州，饭局app不是又一个线上社交入口，而是把远程工作者从屏幕后拉回饭桌前的具体方法。它不靠算法匹配，也不堆砌活动数量，而是用一顿饭的时间、一张八仙桌的位置、一道沧州本地出名的炖肘子，把人真正聚在一起。饭局app的设计从一开始就承认：远程"
 recoveredFromD1: true
+---
 
 <article>
 <p># 沧州不想只靠群聊时，饭局app怎样把远程工作者饭局坐成一桌</p>

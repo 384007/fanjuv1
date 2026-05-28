@@ -7,6 +7,7 @@ alternatePath: "/en/city/hezhou/urban-lifestyle-dinner"
 title: "贺州城市生活方式饭局指南 | fanju-app | 饭局app"
 description: "在贺州体验城市生活方式的饭局，了解小桌饭局的真实动态，了解饭局app Fanju 的好处，了解城市生活方式的魅力。"
 recoveredFromD1: true
+---
 
 <article>
 <p>贺州城市生活方式饭局指南</p>

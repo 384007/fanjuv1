@@ -9,7 +9,8 @@ description: "东京饭局页面帮助华人、留学生、职场人和新来东
 pageType: "city_landing"
 priorityScore: 82
 aiQualityScore: 96
-status: "ready"
+status: "draft"
+---
 
 # 东京饭局指南：在东京找到更清楚的小桌社交 | fanju-app | 饭局app
 

@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/luanda/holiday-dinner"
 alternatePath: "/city/luanda/holiday-dinner"
-title: "Luanda Holiday Dinner Guide | fanju-app | 饭局app"
+title: "Luanda Holiday Dinner Guide | Fanju app"
 description: "Discover Luanda's vibrant social scene with Fanju app, a platform for small, meaningful meals and genuine connections. Join a Holiday Dinner in Luanda and experience the city's rhythm, meet like-minded individuals, and create lasting memories. Whether you're a remote worker or simply looking for a new way to socialize, this guide will help you navigate Luanda's Holiday Dinner scene and find the perfect experience for you."
 recoveredFromD1: true
+---
 
 <article>
 <p>As a remote worker, it can be challenging to maintain a social life, especially when working from home or alone. That&#039;s where Fanju app comes in – a social dining app designed for small, clearly described meals and real-world connections. With Fanju, you can join a Holiday Dinner in Luanda and experience the city&#039;s vibrant social scene.</p>

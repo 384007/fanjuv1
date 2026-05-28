@@ -9,7 +9,8 @@ description: "Tianjin social dinner on Fanju helps people compare a public small
 pageType: "city_topic"
 priorityScore: 76
 aiQualityScore: 95
-status: "ready"
+status: "draft"
+---
 
 # Tianjin Social Dinner Guide | fanju-app
 

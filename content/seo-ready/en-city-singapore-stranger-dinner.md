@@ -7,6 +7,7 @@ alternatePath: "/city/singapore/stranger-dinner"
 title: "Is the Fanju app a good fit for women in Singapore? | fanju-app | 饭局app"
 description: "Discover the unique features of the Fanju app that make it a great option for women looking for social dining experiences in Singapore."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Is the Fanju app a good fit for women in Singapore?</h1>

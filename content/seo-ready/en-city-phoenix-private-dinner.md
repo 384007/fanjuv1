@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/phoenix/private-dinner"
 alternatePath: "/city/phoenix/private-dinner"
-title: "Phoenix Private Dinner Guide | fanju-app | 饭局app"
+title: "Phoenix Private Dinner Guide | Fanju app"
 description: "Discover the art of private dining in Phoenix with Fanju app, a social dining platform that connects professionals and entrepreneurs for meaningful connections over delicious meals."
 recoveredFromD1: true
+---
 
 <article>
 <p>For newcomers to Phoenix, the city&#039;s vibrant atmosphere and thriving business scene can be overwhelming. As a founder, operator, or professional, navigating the city&#039;s networking events can feel like trying to find a needle in a haystack. But what if you could skip the crowded conferences and awkward small talk, and instead, enjoy a private dinner with like-minded individuals who share your passions and interests? This is where Fanju app comes in – a social dining platform that brings people together for small, intimate meals and real-world connections.</p>

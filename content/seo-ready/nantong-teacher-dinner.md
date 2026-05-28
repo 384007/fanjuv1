@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T150008Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T150008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
+---
 
 # 第一次在南通参加教师饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 
@@ -79,3 +80,7 @@ publishedRunId: "production-cloudflare-20260525T150008Z"
 ####### 一顿好的南通教师饭局结束后的一个具体下一步
 
 如果那顿饭让你觉得轻松，不必急着加微信或约下一场。可以回到app，在那场饭局的页面点个“喜欢”，或者写一句简单的反馈：“那家豆腐很嫩，话不多，但挺好。”这种微小的回应，比热闹的群聊更能延续真实连接的可能。
+
+
+## 在当地通过饭局app寻找饭搭子
+在nantong，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

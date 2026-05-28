@@ -7,6 +7,7 @@ alternatePath: "/en/city/lianyungang/founder-operator-dinner"
 title: "连云港不想只靠群聊时，饭局app怎样把创始人和运营者饭局坐成一桌 | fanju-app"
 description: "饭局app，一个专注于线下小桌、高意图交流的社交平台，正在连云港为城市里的创始人和运营者提供一种更安静、更有质感的连接方式。它不是一个大型的社交活动组织者，而是致力于为那些希望在餐桌上进行深入沟通、建立真实连接的专业人士，提供一个精准匹配的"
 recoveredFromD1: true
+---
 
 <article>
 <p># 连云港不想只靠群聊时，饭局app怎样把创始人和运营者饭局坐成一桌</p>

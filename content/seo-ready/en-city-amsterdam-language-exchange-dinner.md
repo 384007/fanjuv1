@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/amsterdam/language-exchange-dinner"
 alternatePath: "/city/amsterdam/language-exchange-dinner"
-title: "Amsterdam Language Exchange Dinner Guide | fanju-app | 饭局app"
+title: "Amsterdam Language Exchange Dinner Guide | Fanju app"
 description: "Connect with fellow remote workers and locals through Fanju app's social dining experience, where you can enjoy small, home-cooked meals and build real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>As a remote worker, you&#039;re likely no stranger to spending long hours alone at home. While the flexibility of remote work can be a blessing, it can also lead to feelings of isolation and disconnection from the world around you. This is where Fanju app comes in – a social dining app that brings people together over small, clearly described meals and real-world connections.</p>

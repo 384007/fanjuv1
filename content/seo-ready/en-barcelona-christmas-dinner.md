@@ -7,6 +7,7 @@ alternatePath: "/city/barcelona/christmas-dinner"
 title: "Barcelona after work: how Fanju app makes Christmas Dinner feel like a real room | fanju-app | 饭局app"
 description: "The Fanju app connects people in Barcelona through small, intentionally hosted dinners where the focus is not just on food, but on who shares the table. For Christmas Dinner, that distinction matters. Unlike algorithm-dr"
 recoveredFromD1: true
+---
 
 <article>
 <p># Barcelona after work: how Fanju app makes Christmas Dinner feel like a real room</p>

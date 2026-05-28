@@ -11,6 +11,7 @@ lang: "zh"
 aiQualityScore: 95
 priorityScore: 90
 status: "ready"
+---
 
 # 曼谷饭局伙伴 | fanju-app | 饭局app
 

@@ -7,6 +7,7 @@ alternatePath: "/en/city/hami/vc-dinner"
 title: "哈密VC 饭局指南 | fanju-app | 饭局app"
 description: "了解哈密VC 饭局的最佳方式,包括适合谁,核心场景,安全重点,和普通社交/约会软件的不同。"
 recoveredFromD1: true
+---
 
 <article>
 <p>哈密VC 饭局指南</p>

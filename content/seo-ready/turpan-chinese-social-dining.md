@@ -7,6 +7,7 @@ alternatePath: "/en/city/turpan/chinese-social-dining"
 title: "吐鲁番华人饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 description: "饭局app在吐鲁番的日常，是从傍晚六点半开始的。这座城的黄昏来得晚，热气在街巷间缓慢退去，人们从葡萄架下、坎儿井旁的工位里走出来，不再习惯独自穿过火焰山脚的晚风回家。饭局app在这里不只是一款应用，它更像是一种安静的邀请：一桌菜、六到八个人"
 recoveredFromD1: true
+---
 
 <article>
 <p># 吐鲁番华人饭局不是凑人吃饭，饭局app更看重这一桌的边界</p>

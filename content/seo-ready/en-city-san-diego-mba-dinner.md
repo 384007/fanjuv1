@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/san-diego/mba-dinner"
 alternatePath: "/city/san-diego/mba-dinner"
-title: "San Diego MBA Dinner Guide | fanju-app | 饭局app"
+title: "San Diego MBA Dinner Guide | Fanju app"
 description: "Discover the world of MBA dinners in San Diego with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>San Diego, a city known for its year-round mild climate and stunning natural beauty, is a hub for professionals and entrepreneurs. As a host who regularly organizes dinners for various groups, I&#039;ve noticed that the city&#039;s rhythm plays a significant role in shaping the experience. From the bustling Gaslamp Quarter to the laid-back atmosphere of North Park, each neighborhood has its unique character that influences the dynamics of a dinner gathering.</p>

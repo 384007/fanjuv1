@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T120007Z-round-1-000007"
 randomSeed: "production-cloudflare-20260525T120007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
+---
 
 # New York does not need another vague invite; Fanju app makes Plant Lover Dinner specific | fanju-app
 

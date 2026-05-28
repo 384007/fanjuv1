@@ -7,6 +7,7 @@ alternatePath: "/en/city/guangyuan"
 title: "广元城市饭局指南 | fanju-app | 饭局app"
 description: "在广元体验城市饭局的真实生活"
 recoveredFromD1: true
+---
 
 <article>
 <h1>广元城市饭局指南</h1>

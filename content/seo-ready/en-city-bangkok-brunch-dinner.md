@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/bangkok/brunch-dinner"
 alternatePath: "/city/bangkok/brunch-dinner"
-title: "Bangkok Brunch Social Guide | fanju-app | 饭局app"
+title: "Bangkok Brunch Social Guide | Fanju app"
 description: "Discover the authentic Bangkok Brunch Social experience with Fanju app, a social dining platform that fosters meaningful connections over delicious meals. Join like-minded individuals for a stress-free, date-free social experience in the heart of Bangkok."
 recoveredFromD1: true
+---
 
 <article>
 <p>Bangkok, a city that never sleeps, is a melting pot of cultures, cuisines, and lifestyles. As the sun rises over the bustling streets of this vibrant metropolis, the city comes alive with the sounds of sizzling street food, the aroma of freshly brewed coffee, and the chatter of people from all walks of life. It&#039;s in this dynamic atmosphere that the concept of Brunch Social was born, a unique social dining experience that brings people together over a shared love of food and good company.</p>

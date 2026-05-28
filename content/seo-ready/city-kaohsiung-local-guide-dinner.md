@@ -7,6 +7,7 @@ alternatePath: "/en/city/kaohsiung/local-guide-dinner"
 title: "高雄本地向导饭局指南 | fanju-app | 饭局app"
 description: "在高雄体验独特的本地向导饭局，通过 Fanju 社交应用与新朋友相遇，分享美食和城市故事。"
 recoveredFromD1: true
+---
 
 <article>
 <p>在高雄的夜晚，饭局app Fanju 成为许多人尝试新体验的平台。作为第一次想报名 Fanju 饭局的人，我也曾经犹豫不决。是什么让我最终决定参加？是什么让我在那一晚感到如此放松？在这里，我将分享我的经历和一些宝贵的建议，希望能帮助你在高雄体验更美好的饭局生活。</p>

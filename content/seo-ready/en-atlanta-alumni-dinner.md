@@ -7,6 +7,7 @@ alternatePath: "/city/atlanta/alumni-dinner"
 title: "Atlanta does not need another vague invite; Fanju app makes Alumni Dinner specific | fanju-app | 饭局app"
 description: "Fanju app redefines how working professionals in Atlanta connect after hours by turning ambiguous social invites into precise, intentional dining experiences. Instead of another broad alumni gathering in a noisy ballroom"
 recoveredFromD1: true
+---
 
 <article>
 <p># Atlanta does not need another vague invite; Fanju app makes Alumni Dinner specific</p>

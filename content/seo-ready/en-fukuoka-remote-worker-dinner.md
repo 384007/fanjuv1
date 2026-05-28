@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Fukuoka strangers sit down easier when Fanju app frames the Remote Worker Dinner table first | fanju-app
 In Fukuoka, where the pace of life is often dictated by the latest technology trends, the Fanju app is helping to bring people together in a more traditional way - over dinner. As the city continues to grow and attract more remote workers, the need for meaningful social connections has never been more pressing. The Fanju app is stepping in to fill this gap by facilitating Remote Worker Dinners, where strangers can come together and forge new relationships in a relaxed and informal setting.

@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T110006Z-round-1-000010"
 randomSeed: "production-cloudflare-20260525T110006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
+---
 
 # 不想在阜阳随便拼桌，饭局app怎样让国际学生饭局变成一个真实决定 | fanju-app
 
@@ -87,3 +88,7 @@ publishedRunId: "unknown"
 ######### 在阜阳做国际学生饭局主理人和做参与者的区别
 
 做参与者，你只需要决定来不来；做主理人，你得想整晚的节奏、每个人的舒适区、甚至服务员换碟的时机。主理人不是主角，而是背景音。他要能察觉谁想说话但没机会，谁需要空间安静吃东西。在阜阳，一场成功的饭局，是结束后没人觉得“被安排”，但每个人都觉得“被照顾到了”。这种差别，只有做过主理人的人才懂。
+
+
+## 在当地通过饭局app寻找饭搭子
+在fuyang，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

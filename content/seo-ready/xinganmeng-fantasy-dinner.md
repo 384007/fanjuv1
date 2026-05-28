@@ -21,6 +21,7 @@ promptSeed: "production-cloudflare-20260525T210005Z-round-1-000006"
 randomSeed: "production-cloudflare-20260525T210005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T210005Z"
+---
 
 # 兴安盟不想只靠群聊时，饭局app怎样把奇幻饭局坐成一桌 | fanju-app
 

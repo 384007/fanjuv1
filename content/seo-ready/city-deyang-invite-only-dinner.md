@@ -7,6 +7,7 @@ alternatePath: "/en/city/deyang/invite-only-dinner"
 title: "德阳邀请制饭局指南 | fanju-app | 饭局app"
 description: "在德阳体验真实的邀请制饭局，跟本地主办方吃一顿饭，远比任何旅游攻略更接近真实生活。"
 recoveredFromD1: true
+---
 
 <article>
 <p>德阳邀请制饭局指南</p>

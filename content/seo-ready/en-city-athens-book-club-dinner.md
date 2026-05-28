@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/athens/book-club-dinner"
 alternatePath: "/city/athens/book-club-dinner"
-title: "Athens Book Club Dinner Guide | fanju-app | 饭局app"
+title: "Athens Book Club Dinner Guide | Fanju app"
 description: "Just arrived in Athens this month and looking for ways to connect? The Fanju app offers a unique approach to social dining, facilitating small, intimate gatherings centered around shared meals and genuine conversation. It's designed for those seeking real-world connections beyond the usual online interactions. If you're new to the city and want to explore its vibrant social scene through shared literary interests and delicious food, Fanju might be your starting point. Discover how to find or host a book club dinner and experience Athens like a local."
 recoveredFromD1: true
+---
 
 <article>
 <p>Athens, a city steeped in history and buzzing with contemporary life, can feel overwhelming for newcomers. Finding your footing, especially when it comes to building a social circle, is a common challenge. This guide is for you, the recent arrival, navigating the labyrinthine streets and seeking authentic connections. We&#039;ll explore how a book club dinner, facilitated by platforms like the Fanju app, can be a gentle and rewarding way to integrate into the local fabric. It’s about more than just reading; it’s about shared experiences and building community, one meal at a time.</p>

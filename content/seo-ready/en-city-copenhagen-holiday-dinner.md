@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/copenhagen/holiday-dinner"
 alternatePath: "/city/copenhagen/holiday-dinner"
-title: "Copenhagen Holiday Dinner Guide | fanju-app | 饭局app"
+title: "Copenhagen Holiday Dinner Guide | Fanju app"
 description: "Plan a memorable holiday dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Copenhagen, a city known for its vibrant atmosphere and rich cultural heritage, offers a unique blend of traditional and modern dining experiences. As the working day comes to a close, many residents and visitors alike find themselves seeking a low-effort yet satisfying way to cap off the evening. This is where Fanju app comes in – a social dining platform that brings people together over delicious meals and meaningful connections.</p>

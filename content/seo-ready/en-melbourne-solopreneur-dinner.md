@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # What makes Solopreneur Dinner in Melbourne worth the risk; Fanju app answers before you arrive | fanju-app
 In Melbourne, the Fanju app offers a unique social dining experience, connecting solopreneurs over small, carefully curated meals. This approach fosters real-world connections, setting it apart from other dinner gatherings. With the Fanju app, users can expect a more intimate and meaningful experience, as the focus is on shared interests and conversations rather than just networking.

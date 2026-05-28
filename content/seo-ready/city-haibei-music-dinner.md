@@ -7,6 +7,7 @@ alternatePath: "/en/city/haibei/music-dinner"
 title: "海北音乐饭局指南 | fanju-app | 饭局app"
 description: "在海北重新打开线下生活的方式，通过饭局app找到同桌和餐厅"
 recoveredFromD1: true
+---
 
 <article>
 <h1>海北音乐饭局指南</h1>

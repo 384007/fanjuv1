@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T111336Z-round-1-000005"
 randomSeed: "production-cloudflare-20260525T111336Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T111336Z"
+---
 
 # What makes Badminton Dinner in Dhaka worth the risk; Fanju app answers before you arrive | fanju-app
 

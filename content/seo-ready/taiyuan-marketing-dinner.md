@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T150008Z-round-1-000010"
 randomSeed: "production-cloudflare-20260525T150008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
+---
 
 # 太原市场饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
@@ -83,3 +84,7 @@ publishedRunId: "production-cloudflare-20260525T150008Z"
 ######## 关于再次参加太原市场饭局为什么和第一次不一样
 
 因为你已经知道，那十分钟不是考验，而是过渡。第二次，你不再站在门口反复确认桌号，而是直接走进去，说：“我报名了B桌，主理人说坐这边。”你开始关注别人怎么点菜，怎么接话，甚至主动帮新来的人拉开椅子。在太原，市场饭局的真正意义，不是一次对话的产出，而是慢慢恢复对线下连接的信任——你知道，总有一桌人，愿意认真吃一顿饭，说几句实在话。
+
+
+## 在当地通过饭局app寻找饭搭子
+在taiyuan，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

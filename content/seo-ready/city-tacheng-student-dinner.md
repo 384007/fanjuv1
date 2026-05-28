@@ -7,6 +7,7 @@ alternatePath: "/en/city/tacheng/student-dinner"
 title: "塔城留学生周末饭局指南 | fanju-app | 饭局app"
 description: "下班后，周五的晚风吹过塔城，空气中弥漫着期待。对于许多在塔城学习的留学生来说，周末的意义不仅仅是休息，更是连接彼此、体验当地生活的好时机。饭局app / Fanju 正是围绕着小桌吃饭、清晰主题和线下真实连接而设计的社交应用，它让在塔城寻找有意义的周末活动的留学生，能够轻松找到并参与到精心组织的饭局中。这不仅仅是一顿饭，更是一次深入了解城市、结交新朋友的旅程。"
 recoveredFromD1: true
+---
 
 <article>
 <h3>适合谁</h3>

@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T120007Z-round-1-000002"
 randomSeed: "production-cloudflare-20260525T120007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
+---
 
 # 大连的半导体饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 
@@ -93,3 +94,7 @@ publishedRunId: "production-cloudflare-20260525T120007Z"
 ########## 最好的大连半导体饭局有什么共同点
 
 它们都不急于达成什么。没有PPT分享，没有名片交换环节，也不追求“认识多少人”。饭桌安静，话题自然流动，有人说到一半被问住，大家就一起想。吃完散场时，没人觉得浪费时间。在大连，最好的饭局，是让你觉得“下次如果路过，还可以再来这一桌”的那种。
+
+
+## 在当地通过饭局app寻找饭搭子
+在dalian，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

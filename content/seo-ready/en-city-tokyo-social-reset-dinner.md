@@ -7,6 +7,7 @@ alternatePath: "/city/tokyo/social-reset-dinner"
 title: "Finding Community in Tokyo with Fanju app: The Social Reset Dinner | fanju-app | 饭局app"
 description: "Join a table of like-minded individuals in Tokyo and experience the city's vibrant community through Fanju app's Social Reset Dinner"
 recoveredFromD1: true
+---
 
 <article>
 <h1>Finding Community in Tokyo with Fanju app: The Social Reset Dinner</h1>

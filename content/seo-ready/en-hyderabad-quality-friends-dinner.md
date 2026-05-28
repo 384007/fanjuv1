@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # A calmer way to approach Quality Friends Dinner in Hyderabad through Fanju app | fanju-app
 

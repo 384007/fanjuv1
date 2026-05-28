@@ -21,6 +21,7 @@ promptSeed: "production-cloudflare-20260525T230007Z-round-1-000010"
 randomSeed: "production-cloudflare-20260525T230007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T230007Z"
+---
 
 # 鄂尔多斯素食饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 

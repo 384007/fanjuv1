@@ -7,6 +7,7 @@ alternatePath: "/en/city/yueyang/industry-dinner"
 title: "在岳阳把行业饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 description: "在岳阳，每天傍晚六点半过后，写字楼的电梯开始缓慢下行，人们顺着洞庭湖吹来的风走向街头。有人径直回家，有人拐进巷子里的小馆子，而另一些人，正通过饭局app确认今晚的位置——不是为了应酬，也不是为了社交表演，而是想用一顿饭，把一天的节奏真正收住"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在岳阳把行业饭局坐稳，饭局app需要筛掉哪些尴尬</p>

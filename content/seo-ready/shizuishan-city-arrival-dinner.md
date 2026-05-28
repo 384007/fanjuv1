@@ -7,6 +7,7 @@ alternatePath: "/en/city/shizuishan/city-arrival-dinner"
 title: "石嘴山刚到城市饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 description: "刚到石嘴山时，很多人以为饭局app是找人一起吃饭的工具，点进页面才发现，它更像一张安静铺开的本地餐桌地图。这里不靠群聊刷屏拉人气，也不搞大型活动拼数量，每一桌饭都从“吃清楚一顿饭”开始——你在饭局app上看到的，不是随机拼桌，而是主理人用一"
 recoveredFromD1: true
+---
 
 <article>
 <p># 石嘴山刚到城市饭局不是凑人吃饭，饭局app更看重这一桌的边界</p>

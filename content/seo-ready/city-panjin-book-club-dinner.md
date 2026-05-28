@@ -7,6 +7,7 @@ alternatePath: "/en/city/panjin/book-club-dinner"
 title: "盘锦读书饭局指南 | fanju-app | 饭局app"
 description: "盘锦读书饭局指南，帮助您找到适合您的读书饭局，重新打开线下生活的方式。"
 recoveredFromD1: true
+---
 
 <article>
 <h1>盘锦读书饭局指南</h1>

@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # Why Dinner Buddy in Buenos Aires works better when Fanju app keeps the table small | fanju-app
 

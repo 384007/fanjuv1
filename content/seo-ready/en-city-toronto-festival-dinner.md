@@ -7,6 +7,7 @@ alternatePath: "/city/toronto/festival-dinner"
 title: "Navigating Toronto's Festival Dinners: Your First Month with the Fanju App | fanju-app | 饭局app"
 description: "Just arrived in Toronto this month? Discover how the Fanju app can guide you through the city's vibrant festival dinner scene, offering unique culinary experiences and social connections."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Navigating Toronto&#039;s Festival Dinners: Your First Month with the Fanju App</h1>

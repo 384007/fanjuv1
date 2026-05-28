@@ -7,6 +7,7 @@ alternatePath: "/en/city/puyang/ai-founder-dinner"
 title: "濮阳AI 创业者饭局指南 | fanju-app | 饭局app"
 description: "在濮阳的AI 创业者饭局中，通过饭局app与同行共享经验、建立联系、探索新机会。"
 recoveredFromD1: true
+---
 
 <article>
 <p>濮阳AI 创业者饭局指南</p>

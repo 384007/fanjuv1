@@ -7,6 +7,7 @@ alternatePath: "/en/city/huangshi/singles-dinner"
 title: "黄石单身饭局指南 | fanju-app | 饭局app"
 description: "在黄石，单身饭局是一种常见的社交活动，通过饭局app可以轻松找到同城的单身朋友，享受美味的食物和愉快的时光。"
 recoveredFromD1: true
+---
 
 <article>
 <p>黄石单身饭局指南</p>

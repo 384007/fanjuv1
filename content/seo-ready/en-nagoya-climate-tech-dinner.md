@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T120007Z-round-1-000001"
 randomSeed: "production-cloudflare-20260525T120007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
+---
 
 # For people trying Climate Tech Dinner in Nagoya, Fanju app puts the guest mix first | fanju-app
 

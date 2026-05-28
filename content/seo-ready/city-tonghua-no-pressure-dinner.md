@@ -7,6 +7,7 @@ alternatePath: "/en/city/tonghua/no-pressure-dinner"
 title: "通化低压力饭局指南 | fanju-app | 饭局app"
 description: "在通化体验低压力饭局的指南，了解饭局app的用途、适合的人群、安全重点和核心场景。"
 recoveredFromD1: true
+---
 
 <article>
 <p>在通化的夜晚，人们总是喜欢聚在一起分享美食和故事。然而，第一次参加饭局的人可能会感到有些犹豫，不知道该如何开始。饭局app就是为了解决这个问题而诞生的。它是一款围绕小桌吃饭、清晰主题和线下连接的社交应用。通过饭局app，人们可以轻松地找到和自己兴趣相投的人，共享美食和故事。</p>

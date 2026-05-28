@@ -21,6 +21,7 @@ promptSeed: "production-cloudflare-20260525T190004Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T190004Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T190004Z"
+---
 
 # 连云港的副业饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 

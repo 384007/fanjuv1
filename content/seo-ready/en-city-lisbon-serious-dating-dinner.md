@@ -7,6 +7,7 @@ alternatePath: "/city/lisbon/serious-dating-dinner"
 title: "Navigating Love in Lisbon: Using Fanju app for a Meaningful Serious Dating Dinner | fanju-app | 饭局app"
 description: "A practical guide for new expats in Lisbon on how to use Fanju app to find authentic connections through serious dating dinners, navigating the city's rhythm and safety."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Navigating Love in Lisbon: Using Fanju app for a Meaningful Serious Dating Dinner</h1>

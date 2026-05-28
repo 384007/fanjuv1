@@ -21,6 +21,7 @@ promptSeed: "production-cloudflare-20260526T092033Z-round-1-000004"
 randomSeed: "production-cloudflare-20260526T092033Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
+---
 
 # 德州手作创客饭局，Fanju 饭局app把灵感放到小桌上 | fanju-app
 

@@ -7,6 +7,7 @@ alternatePath: "/city/nairobi/sushi-dinner"
 title: "Why Choose Fanju app for a Sushi Dinner in Nairobi? | fanju-app | 饭局app"
 description: "Experience the authentic taste of sushi in Nairobi with Fanju app, a platform that helps you connect with like-minded individuals and host memorable offline events."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Why Choose Fanju app for a Sushi Dinner in Nairobi?</h1>

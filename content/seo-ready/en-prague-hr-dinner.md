@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T180008Z-round-1-000003"
 randomSeed: "production-cloudflare-20260525T180008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T180008Z"
+---
 
 # What makes HR Dinner in Prague worth the risk; Fanju app answers before you arrive | fanju-app
 

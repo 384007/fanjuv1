@@ -7,6 +7,7 @@ alternatePath: "/city/dhaka/family-style-dinner"
 title: "Finding Community in Dhaka's After-Work Hours with Fanju App | fanju-app | 饭局app"
 description: "A practical guide to enjoying family-style dinners in Dhaka after a long day of work, leveraging the social connections and low-effort dining experience offered by Fanju app."
 recoveredFromD1: true
+---
 
 <article>
 <p># Finding Community in Dhaka&#039;s After-Work Hours with Fanju App</p>

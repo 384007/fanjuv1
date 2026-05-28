@@ -7,6 +7,7 @@ alternatePath: "/en/city/fangchenggang/expat-dinner"
 title: "在防城港把外籍和海归饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 description: "饭局app不是那种一打开就刷一堆“晚上有人吃饭吗”的搭伙平台，它更接近一种有准备的连接——在防城港，这个常被忽略却暗藏流动人口的城市，越来越多有海外经历的人开始寻找能真正坐下来说话的饭局。这里的外籍人士常因港口、贸易或家庭原因短暂停留，海归"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在防城港把外籍和海归饭局坐稳，饭局app需要筛掉哪些尴尬</p>

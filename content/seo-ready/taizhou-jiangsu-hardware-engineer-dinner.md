@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T160006Z-round-1-000002"
 randomSeed: "production-cloudflare-20260525T160006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
+---
 
 # 泰州硬件工程师饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
@@ -93,3 +94,7 @@ publishedRunId: "production-cloudflare-20260525T160006Z"
 ########## 通过饭局app做泰州硬件工程师饭局社交饭局的长期视角
 
 它不追求快速扩大规模，而是让每一场饭都成为可追溯的节点。在泰州，硬件工程师的交流本就不多，每一次有效的对话都值得积累。饭局app的作用，是让这些零散的饭局形成一种隐性网络——你可能在不同场次遇到同一个人，也可能通过某次饭局，间接知道另一个园区有团队在做类似项目。这种缓慢生长的连接，比热闹的群聊更接近技术人需要的社交。
+
+
+## 在当地通过饭局app寻找饭搭子
+在taizhou，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

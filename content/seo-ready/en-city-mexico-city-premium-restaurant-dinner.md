@@ -7,6 +7,7 @@ alternatePath: "/city/mexico-city/premium-restaurant-dinner"
 title: "Finding Community with Fanju app in Mexico City: A Premium Restaurant Dinner Experience | fanju-app | 饭局app"
 description: "Join fellow remote workers and like-minded individuals for a premium restaurant dinner in Mexico City, facilitated by the Fanju app. Experience the city's vibrant rhythm and connect with others who share your interests."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Finding Community with Fanju app in Mexico City: A Premium Restaurant Dinner Experience</h1>

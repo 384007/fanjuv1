@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/brisbane/ecommerce-dinner"
 alternatePath: "/city/brisbane/ecommerce-dinner"
-title: "Brisbane Ecommerce Dinner Guide: Planning Your Weekend Around Connection | fanju-app | 饭局app"
+title: "Brisbane Ecommerce Dinner Guide: Planning Your Weekend Around Connection | Fanju app"
 description: "Planning a Brisbane weekend? Consider centering it around a unique Ecommerce Dinner experience, facilitated by the Fanju app. Fanju is a social dining platform designed for intimate, focused meals that foster genuine real-world connections. It's about bringing people together for shared experiences, moving beyond superficial online interactions to create meaningful moments. This guide helps you navigate the Brisbane dining scene with Fanju, ensuring your weekend is memorable and connected."
 recoveredFromD1: true
+---
 
 <article>
 <p>The Brisbane weekend is a canvas, and what better way to paint it than with the vibrant colours of shared meals and new connections? Instead of letting your weekend unfold as an afterthought, consider positioning a carefully chosen Ecommerce Dinner as its heart. This approach transforms a simple meal into a focal point, offering a structured yet relaxed way to engage with the city and its people. The Fanju app provides a platform for these curated dining experiences, focusing on small, intentional gatherings that prioritize authentic interaction. It’s about creating a deliberate space for conversation and connection, making your weekend feel richer and more purposeful.</p>

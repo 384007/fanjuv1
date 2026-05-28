@@ -7,6 +7,7 @@ alternatePath: "/en/city/gannan/remote-worker-dinner"
 title: "甘南远程工作者饭局指南 | fanju-app | 饭局app"
 description: "在甘南重新打开线下生活的方式，适合远程工作者的饭局app"
 recoveredFromD1: true
+---
 
 <article>
 <p>在甘南的生活节奏越来越快，很多人都陷入了长期的线上社交中，缺乏了与他人面对面的交流和互动。作为远程工作者，我们更容易陷入这种情况。然而，饭局app提供了一种重新打开线下生活的方式，让我们可以在甘南的街区里与同事和朋友一起共享美味的餐食和丰富的主题。</p>

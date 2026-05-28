@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # Restaurant Discovery Dinner in Doha should not feel like a gamble; Fanju app changes the odds | fanju-app
 

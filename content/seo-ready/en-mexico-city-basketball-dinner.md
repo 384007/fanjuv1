@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # For Mexico City readers considering Basketball Dinner, Fanju app should make the room legible | fanju-app
 

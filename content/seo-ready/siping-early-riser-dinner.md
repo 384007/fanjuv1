@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T111336Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T111336Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T111336Z"
+---
 
 # 第一次在四平参加早起者饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 
@@ -89,3 +90,7 @@ publishedRunId: "production-cloudflare-20260525T111336Z"
 ######### 关于通过饭局app自己组织四平早起者饭局的一点说明
 
 当你参加过几次，可能会想自己组织一次。在四平，这并不需要你是个社交达人。你只需要有一个想聊的小主题，选一家你喜欢的早餐店，写几句真诚的邀请。饭局app会帮你管理报名和提醒，但真正的核心，是你愿意为陌生人留出一张桌子。这座城市不需要太多热闹的聚会，它需要的是更多愿意在清晨醒来，说一句“要不要一起吃个早饭”的人。
+
+
+## 在当地通过饭局app寻找饭搭子
+在siping，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

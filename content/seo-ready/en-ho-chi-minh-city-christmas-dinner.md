@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # Ho Chi Minh City does not need another vague invite; Fanju app makes Christmas Dinner specific | fanju-app
 

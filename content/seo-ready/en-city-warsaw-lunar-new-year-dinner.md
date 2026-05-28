@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/warsaw/lunar-new-year-dinner"
 alternatePath: "/city/warsaw/lunar-new-year-dinner"
-title: "Warsaw Lunar New Year Dinner Guide | fanju-app | 饭局app"
+title: "Warsaw Lunar New Year Dinner Guide | Fanju app"
 description: "Discover authentic local connections through dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>As I walked through the streets of Warsaw, I noticed the city&#039;s vibrant atmosphere, especially during the Lunar New Year celebrations. The streets were filled with people from all walks of life, each with their own unique stories and traditions. It was then that I realized the importance of connecting with locals and experiencing the authentic culture of this beautiful city.</p>

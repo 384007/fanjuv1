@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260525T183055Z-round-1-000009"
 randomSeed: "production-cloudflare-20260525T183055Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T183055Z"
+---
 
 # For people trying Expat Family Dinner in Prague, Fanju app puts the guest mix first | fanju-app
 

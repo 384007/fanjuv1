@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/boston/weekend-dinner"
 alternatePath: "/city/boston/weekend-dinner"
-title: "Boston Weekend Dinner Guide | fanju-app | 饭局app"
+title: "Boston Weekend Dinner Guide | Fanju app"
 description: "Plan a curated, high-craft weekend dinner in Boston with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Boston Weekend Dinner Guide</p>

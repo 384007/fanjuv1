@@ -7,6 +7,7 @@ alternatePath: "/city/miami/community-dinner"
 title: "Finding Community through Fanju app in Miami: After-Work Dinner Edition | fanju-app | 饭局app"
 description: "Join the Fanju app community for a low-effort, end-of-the-working-day dinner in Miami, where you can connect with like-minded individuals and build meaningful relationships."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Finding Community through Fanju app in Miami: After-Work Dinner Edition</h1>

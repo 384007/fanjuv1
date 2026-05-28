@@ -7,6 +7,7 @@ alternatePath: "/en/city/zunyi/trusted-rsvp-dinner"
 title: "遵义不想只靠群聊时，饭局app怎样把可信报名饭局坐成一桌 | fanju-app"
 description: "在遵义，人与人之间的连接常常从一句“走，吃饭去”开始，但真正坐下来吃顿踏实饭，却越来越难。饭局app不是另一个聊天群，也不是临时拼凑的饭搭子平台，它围绕的是小桌吃饭、清晰主题和真实连接的社交方式。在遵义，这座山城的节奏不疾不徐，人们习惯先观"
 recoveredFromD1: true
+---
 
 <article>
 <p># 遵义不想只靠群聊时，饭局app怎样把可信报名饭局坐成一桌</p>

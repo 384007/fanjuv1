@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/vienna/neighborhood-dinner"
 alternatePath: "/city/vienna/neighborhood-dinner"
-title: "Vienna Neighborhood Dinner Guide | fanju-app | 饭局app"
+title: "Vienna Neighborhood Dinner Guide | Fanju app"
 description: "Discover the authentic side of Vienna through small, intimate dinners with like-minded professionals and entrepreneurs, facilitated by the Fanju app, a social dining platform that fosters meaningful connections and real-world relationships."
 recoveredFromD1: true
+---
 
 <article>
 <p>After a long day of work, you&#039;re looking forward to unwinding with colleagues or like-minded professionals over a delicious meal. However, traditional networking events can often feel forced or awkward. This is where the Fanju app comes in – a social dining platform that offers a unique opportunity to connect with others in a relaxed, small-group setting. With Fanju, you can join a Neighborhood Dinner in Vienna and experience the city&#039;s authentic side through food, conversation, and meaningful connections.</p>

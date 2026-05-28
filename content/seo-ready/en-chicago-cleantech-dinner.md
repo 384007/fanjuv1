@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Chicago after work: how Fanju app makes Cleantech Dinner feel like a real room | fanju-app
 

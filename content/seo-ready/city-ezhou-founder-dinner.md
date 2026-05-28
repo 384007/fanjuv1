@@ -7,6 +7,7 @@ alternatePath: "/en/city/ezhou/founder-dinner"
 title: "鄂州创业者饭局指南：第一次参加的你需要知道的 | fanju-app | 饭局app"
 description: "鄂州创业者饭局指南：第一次参加的你需要知道的"
 recoveredFromD1: true
+---
 
 <article>
 <h1>鄂州创业者饭局指南：第一次参加的你需要知道的</h1>

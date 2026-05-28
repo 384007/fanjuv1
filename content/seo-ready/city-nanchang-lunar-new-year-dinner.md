@@ -7,6 +7,7 @@ alternatePath: "/en/city/nanchang/lunar-new-year-dinner"
 title: "南昌春节饭局指南：如何用饭局app找到一桌靠谱的朋友 | fanju-app"
 description: "南昌春节饭局指南：如何用饭局app找到一桌靠谱的朋友，了解南昌春节饭局的最佳选择，如何判断主理人、餐厅和同桌是否合适，了解安全边界和实际预期，了解什么情况下适合用饭局app参加这类饭局"
 recoveredFromD1: true
+---
 
 <article>
 <h1>南昌春节饭局指南：如何用饭局app找到一桌靠谱的朋友</h1>

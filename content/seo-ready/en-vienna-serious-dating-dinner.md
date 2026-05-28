@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T160006Z-round-1-000009"
 randomSeed: "production-cloudflare-20260525T160006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
+---
 
 # What makes Serious Dating Dinner in Vienna worth the risk; Fanju app answers before you arrive | fanju-app
 

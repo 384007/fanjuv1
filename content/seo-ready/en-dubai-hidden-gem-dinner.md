@@ -7,6 +7,7 @@ alternatePath: "/city/dubai/hidden-gem-dinner"
 title: "Dubai after work: how Fanju app makes Hidden Gem Dinner feel like a real room | fanju-app | 饭局app"
 description: "In Dubai, where social plans often dissolve into last-minute cancellations or crowded group dinners with mismatched rhythms, the Fanju app offers a different path: intimate, pre-arranged dinners with clear expectations a"
 recoveredFromD1: true
+---
 
 <article>
 <p># Dubai after work: how Fanju app makes Hidden Gem Dinner feel like a real room</p>

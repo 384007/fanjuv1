@@ -7,6 +7,7 @@ alternatePath: "/en/city/datong/festival-dinner"
 title: "大同节日饭局指南 | fanju-app | 饭局app"
 description: "在大同的节日饭局中，通过饭局app与他人共享美味佳肴、清晰主题和线下连接的社交体验。"
 recoveredFromD1: true
+---
 
 <article>
 <p>大同节日饭局指南</p>

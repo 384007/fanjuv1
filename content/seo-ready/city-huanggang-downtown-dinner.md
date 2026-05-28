@@ -7,6 +7,7 @@ alternatePath: "/en/city/huanggang/downtown-dinner"
 title: "黄冈市中心饭局指南 | fanju-app | 饭局app"
 description: "在黄冈市中心举办一场愉快的饭局，需要注意的地方包括城市的大与饭桌的小之间的反差，选择合适的街区，确定同桌人数，考虑报名前的顾虑，了解主理人信号，判断安全，最后报名建议。"
 recoveredFromD1: true
+---
 
 <article>
 <p>黄冈市中心饭局指南</p>

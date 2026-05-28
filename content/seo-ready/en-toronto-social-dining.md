@@ -4,14 +4,15 @@ canonicalPath: "/en/city/toronto"
 alternatePath: "/city/toronto"
 translationKey: "toronto-social-dining"
 lang: "en"
-title: "Toronto Social Dining Guide | fanju-app"
+title: "Toronto Social Dining Guide | Fanju app"
 titleZh: "Toronto Social Dining Guide"
 pageType: "city_landing"
 priorityScore: 40
 aiQualityScore: 100
 status: "ready"
+---
 
-# Toronto Social Dining Guide | fanju-app
+# Toronto Social Dining Guide | Fanju app
 
 ## What Is This Page About
 

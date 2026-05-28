@@ -21,6 +21,7 @@ promptSeed: "production-cloudflare-20260526T030005Z-round-1-000010"
 randomSeed: "production-cloudflare-20260526T030005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
+---
 
 # 辽阳的低压力饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 

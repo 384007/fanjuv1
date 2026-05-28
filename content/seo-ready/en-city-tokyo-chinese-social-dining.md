@@ -7,6 +7,7 @@ alternatePath: "/city/tokyo/chinese-social-dining"
 title: "Discovering Authentic Chinese Social Dining in Tokyo with Fanju app | fanju-app | 饭局app"
 description: "Join the local Chinese community in Tokyo for an unforgettable social dining experience with Fanju app"
 recoveredFromD1: true
+---
 
 <article>
 <h1>Discovering Authentic Chinese Social Dining in Tokyo with Fanju app</h1>

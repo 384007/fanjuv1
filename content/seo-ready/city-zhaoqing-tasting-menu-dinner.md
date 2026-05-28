@@ -7,6 +7,7 @@ alternatePath: "/en/city/zhaoqing/tasting-menu-dinner"
 title: "肇庆品鉴菜单饭局：重启线下社交的温暖邀约 | 饭局app | fanju-app"
 description: "在肇庆，饭局app为你开启一场别致的品鉴菜单饭局。告别线上喧嚣，重拾线下相聚的温度，体验一场关于味蕾与心灵的深度交流。"
 recoveredFromD1: true
+---
 
 <article>
 <h1>肇庆品鉴菜单饭局：重启线下社交的温暖邀约 | 饭局app</h1>

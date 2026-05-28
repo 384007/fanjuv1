@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/tokyo/after-work-dinner"
 alternatePath: "/city/tokyo/after-work-dinner"
-title: "Tokyo After Work Dinner Guide | fanju-app | 饭局app"
+title: "Tokyo After Work Dinner Guide | Fanju app"
 description: "Discover the best after work dinner experiences in Tokyo with Fanju app, a social dining app for small, clearly described meals and real-world connections. Join like-minded individuals for a unique and memorable dining experience, away from the hustle and bustle of Tokyo's city life."
 recoveredFromD1: true
+---
 
 <article>
 <p>Tokyo is a city that never sleeps, and its after-work culture is no exception. With a plethora of dining options available, it can be overwhelming to decide where to go for a relaxing dinner after a long day at work. This guide will help you navigate the world of after-work dinners in Tokyo, highlighting the best options and providing you with practical tips to make the most of your experience.</p>

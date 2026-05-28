@@ -7,6 +7,7 @@ alternatePath: "/city/dhaka/offline-social-dinner"
 title: "Reconnecting with Dhaka through Fanju app: Offline Social Dinner | fanju-app | 饭局app"
 description: "Experience the magic of in-person connections in Dhaka with Fanju app's Offline Social Dinner, a low-pressure way to break the cycle of loneliness in big cities."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Reconnecting with Dhaka through Fanju app: Offline Social Dinner</h1>

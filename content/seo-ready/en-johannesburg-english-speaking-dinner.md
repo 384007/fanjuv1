@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # Johannesburg does not need another vague invite; Fanju app makes English Speaking Dinner specific | fanju-app
 

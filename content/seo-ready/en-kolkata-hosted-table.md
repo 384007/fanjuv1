@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # In Kolkata, Fanju app turns Hosted Table into a table people can actually trust | fanju-app
 

@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T150008Z-round-1-000006"
 randomSeed: "production-cloudflare-20260525T150008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
+---
 
 # 齐齐哈尔的健康生活饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
@@ -91,3 +92,7 @@ publishedRunId: "production-cloudflare-20260525T150008Z"
 ########## 为什么对的齐齐哈尔健康生活饭局值得等
 
 因为它不靠人数热闹，而靠同频真实。在饭局app上，你可以看到主理人是否认真对待每一桌人，是否愿意花时间写清楚细节。在齐齐哈尔，值得等的饭局，往往是那个你看了活动页后，心里默默说“这顿饭是为我准备的”的那一场。
+
+
+## 在当地通过饭局app寻找饭搭子
+在qiqihar，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

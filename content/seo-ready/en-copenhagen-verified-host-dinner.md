@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # Copenhagen strangers sit down easier when Fanju app frames the Verified Host Dinner table first | fanju-app
 

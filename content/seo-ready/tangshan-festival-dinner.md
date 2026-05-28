@@ -7,6 +7,7 @@ alternatePath: "/en/city/tangshan/festival-dinner"
 title: "唐山节日饭局指南：在老街区里寻味团圆 | fanju-app | 饭局app"
 description: "在唐山，节日饭局不仅仅是餐桌上的盛宴，更是连接人与人、传承地方情怀的纽带。饭局app（Fanju）正是这样一个围绕小桌吃饭、清晰主题和线下连接的社交平台，它让人们有机会在熟悉的城市街区里，以一种更亲密、更具仪式感的方式共享节日时光。无论你是想在熟悉的街巷里体验地道的唐山味道，还是希望在节日里结识新朋友，这里的饭局都为你提供了独特的选择。"
 recoveredFromD1: true
+---
 
 <article>
 <h3>饭局app / Fanju 是什么</h3>

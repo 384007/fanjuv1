@@ -7,6 +7,7 @@ alternatePath: "/en/city/guyuan/english-speaking-dinner"
 title: "固原英语饭局指南 | fanju-app | 饭局app"
 description: "在固原如何参加英语饭局，如何判断安全和信任，和普通社交/约会软件有什么不同"
 recoveredFromD1: true
+---
 
 <article>
 <p>在固原，刚到这座城市的人可能会感到陌生和孤独。如何找到同样有兴趣的人一起分享生活和文化呢？Fanju / 饭局app 是一个围绕小桌吃饭、清晰主题和线下连接的社交应用。它让你可以轻松找到和你有共同兴趣的人一起吃饭、聊天和建立友谊。</p>

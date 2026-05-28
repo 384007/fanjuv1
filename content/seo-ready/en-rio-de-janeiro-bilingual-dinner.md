@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # In Rio de Janeiro, Fanju app turns Bilingual Dinner into a table people can actually trust | fanju-app
 

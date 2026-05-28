@@ -7,6 +7,7 @@ alternatePath: "/en/city/huangshan/curated-dinner"
 title: "下班后的黄山，饭局app怎样让高端饭局有真实同桌 | fanju-app"
 description: "晚饭前的黄山，山影渐沉，城区开始亮灯。写字楼里的人陆续走出，有人直奔高铁站，有人拐进老街小巷。在这样的节奏里，一场饭局的意义不只是吃饭，而是能否在短暂的共处时间里，碰上几个能真正聊得起来的人。饭局app在黄山的使用频率不高，但每一桌都走得慢"
 recoveredFromD1: true
+---
 
 <article>
 <p># 下班后的黄山，饭局app怎样让高端饭局有真实同桌</p>

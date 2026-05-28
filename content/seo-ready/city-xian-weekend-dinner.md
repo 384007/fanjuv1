@@ -7,6 +7,7 @@ alternatePath: "/en/city/xian/weekend-dinner"
 title: "西安周末饭局的真实故事：如何用美食连接陌生人 | fanju-app | 饭局app"
 description: "在西安的周末，如何找到一个靠谱的饭局？用饭局app来连接陌生人，分享美食和故事"
 recoveredFromD1: true
+---
 
 <article>
 <h1>西安周末饭局的真实故事：如何用美食连接陌生人</h1>

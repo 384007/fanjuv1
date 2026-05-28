@@ -7,6 +7,7 @@ alternatePath: "/city/washington-dc/operator-dinner"
 title: "What makes a Fanju app dinner in Washington DC truly special? | fanju-app | 饭局app"
 description: "Discover the art of hosting a memorable dinner in our nation's capital with the help of Fanju app."
 recoveredFromD1: true
+---
 
 <article>
 <h1>What makes a Fanju app dinner in Washington DC truly special?</h1>

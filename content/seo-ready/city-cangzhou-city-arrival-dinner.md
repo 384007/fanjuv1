@@ -7,6 +7,7 @@ alternatePath: "/en/city/cangzhou/city-arrival-dinner"
 title: "沧州刚到城市饭局指南 | fanju-app | 饭局app"
 description: "刚搬到沧州，人生地不熟？别担心，饭局app（Fanju）为你提供一个温暖的起点。我们专注于小桌、有明确主题的线下聚会，帮助你快速融入新环境，结识志同道合的朋友。无论你是独自前来，还是与家人一同抵达，这里的饭局都能让你感受到沧州的热情与人情味。从第一次的陌生到熟悉，从一个人吃饭到一群人的欢笑，饭局app让你在沧州的第一餐，不再孤单。"
 recoveredFromD1: true
+---
 
 <article>
 <h2>Fanju / 饭局app 是什么</h2>

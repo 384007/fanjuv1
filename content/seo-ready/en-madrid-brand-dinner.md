@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # In Madrid, Fanju app turns Brand Dinner into a table people can actually trust | fanju-app
 

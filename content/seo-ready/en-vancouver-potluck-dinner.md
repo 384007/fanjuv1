@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Vancouver does not need another vague invite; Fanju app makes Potluck Dinner specific | fanju-app
 

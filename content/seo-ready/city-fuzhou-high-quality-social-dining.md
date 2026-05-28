@@ -7,6 +7,7 @@ alternatePath: "/en/city/fuzhou/high-quality-social-dining"
 title: "福州下班后的新选择：用饭局app解锁高质量社交 | fanju-app"
 description: "在福州，下班后如何拓展社交圈？本文将探讨如何利用饭局app，在榕城特有的生活节奏中，找到高质量的社交饭局，从街区选择到同桌互动，提供实用建议。"
 recoveredFromD1: true
+---
 
 <article>
 <h1>福州下班后的新选择：用饭局app解锁高质量社交</h1>

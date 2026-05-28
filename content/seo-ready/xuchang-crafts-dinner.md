@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T111336Z-round-1-000006"
 randomSeed: "production-cloudflare-20260525T111336Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T111336Z"
+---
 
 # 许昌手工艺饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
@@ -93,3 +94,7 @@ publishedRunId: "production-cloudflare-20260525T111336Z"
 ########## 最好的许昌手工艺饭局有什么共同点
 
 它们都不追求热闹，不强调成果，也不要求人人互动。它们共同的特点是：主理人懂得留白，桌上有人说话，也有人沉默，但没人觉得被忽略；手在动，饭在吃，时间在走，但压力没来。在许昌，这样的饭局，才是你下班后不想独自回家时，真正愿意走进去的那一桌。
+
+
+## 在当地通过饭局app寻找饭搭子
+在xuchang，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

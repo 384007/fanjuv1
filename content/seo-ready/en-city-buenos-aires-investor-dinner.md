@@ -7,6 +7,7 @@ alternatePath: "/city/buenos-aires/investor-dinner"
 title: "Rebooting Social Connections in Buenos Aires with Fanju app | fanju-app | 饭局app"
 description: "Join us for an Investor Dinner in Buenos Aires, where we'll explore the importance of offline social connections in the digital age, facilitated by the Fanju app."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Rebooting Social Connections in Buenos Aires with Fanju app</h1>

@@ -7,6 +7,7 @@ alternatePath: "/city/alexandria/engineer-dinner"
 title: "A calmer way to approach Engineer Dinner in Alexandria through Fanju app | fanju-app | 饭局app"
 description: "In Alexandria, where professional networks often blend with the city’s cultural fabric, finding meaningful social dinners can feel overwhelming—especially when open-ended meetups promise connection but deliver performanc"
 recoveredFromD1: true
+---
 
 <article>
 <p># A calmer way to approach Engineer Dinner in Alexandria through Fanju app</p>

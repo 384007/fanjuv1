@@ -7,6 +7,7 @@ alternatePath: "/en/city/lvliang/hidden-gem-dinner"
 title: "吕梁宝藏餐厅饭局指南 | fanju-app | 饭局app"
 description: "在吕梁的街区探索中，发现宝藏餐厅的饭局体验，了解饭局app的社交应用和线下连接的魅力"
 recoveredFromD1: true
+---
 
 <article>
 <p>吕梁宝藏餐厅饭局指南</p>

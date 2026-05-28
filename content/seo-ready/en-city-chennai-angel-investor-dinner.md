@@ -7,6 +7,7 @@ alternatePath: "/city/chennai/angel-investor-dinner"
 title: "Why Fanju app's Angel Investor Dinner matters in Chennai | fanju-app | 饭局app"
 description: "Discover how a small dinner can replace awkward networking events for founders, operators, and professionals in Chennai"
 recoveredFromD1: true
+---
 
 <article>
 <h1>Why Fanju app&#039;s Angel Investor Dinner matters in Chennai</h1>

@@ -7,6 +7,7 @@ alternatePath: "/city/cairo/newcomer-guide-dinner"
 title: "A Newcomer's Guide to Dinner in Cairo with Fanju app | fanju-app | 饭局app"
 description: "Discover the authentic flavors of Cairo through a unique dinner experience with Fanju app, where you can connect with locals and explore the city's vibrant neighborhoods."
 recoveredFromD1: true
+---
 
 <article>
 <h1>A Newcomer&#039;s Guide to Dinner in Cairo with Fanju app</h1>

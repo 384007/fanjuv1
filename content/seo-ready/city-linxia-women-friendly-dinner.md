@@ -7,6 +7,7 @@ alternatePath: "/en/city/linxia/women-friendly-dinner"
 title: "临夏女性友好饭局指南 | fanju-app | 饭局app"
 description: "临夏女性友好饭局指南，帮助您在临夏找到适合您的女性友好饭局。"
 recoveredFromD1: true
+---
 
 <article>
 <p>临夏女性友好饭局指南</p>

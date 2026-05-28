@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lagos/open-table-dinner"
 alternatePath: "/city/lagos/open-table-dinner"
 translationKey: "lagos-open-table-dinner"
 lang: "en"
-title: "Lagos Open Table Dinner: Connect Through Food with Clear Boundaries | fanju-app"
+title: "Lagos Open Table Dinner: Connect Through Food with Clear Boundaries | Fanju app"
 description: "Discover how small-table social dining in Lagos helps returnees, creatives, and expatriates navigate informal trust networks through structured, local dinner experiences on the Fanju app."
 pageType: "city_article"
 priorityScore: 70
@@ -12,8 +12,9 @@ aiQualityScore: 96
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
-# Dinner That Helps You Belong — Without the Pressure | fanju-app | Fanju
+# Dinner That Helps You Belong — Without the Pressure | Fanju app
 
 In Lagos, a shared meal is rarely just about food. It’s a negotiation, a gesture of respect, or a quiet test of trust. Open Table dinners—small, hosted evening meals with 6 to 10 guests—offer a rare space where newcomers and locals can meet without hidden expectations. These aren’t networking events, first dates, or cultural tours. They’re intentional gatherings built around a simple idea: understanding a city starts at the table.
 

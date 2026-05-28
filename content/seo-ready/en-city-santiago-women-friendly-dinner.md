@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/santiago/women-friendly-dinner"
 alternatePath: "/city/santiago/women-friendly-dinner"
-title: "Santiago Women Friendly Dinner Guide | fanju-app | 饭局app"
+title: "Santiago Women Friendly Dinner Guide | Fanju app"
 description: "Discover the best women-friendly dinner experiences in Santiago with Fanju app, a social dining app that connects professionals and entrepreneurs for small, meaningful meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Santiago, a city known for its vibrant cultural scene and thriving business community, can sometimes feel overwhelming for those looking to connect with like-minded individuals. For founders, operators, and professionals, networking events often feel like a chore, with awkward small talk and superficial connections. But what if there was a way to break the ice and build meaningful relationships over a delicious meal? Enter Fanju app, a social dining platform that brings people together for small, clearly described meals and real-world connections.</p>

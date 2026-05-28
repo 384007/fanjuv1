@@ -7,6 +7,7 @@ alternatePath: "/city/lisbon/industry-dinner"
 title: "Industry Dinner in Lisbon with Fanju app | fanju-app | 饭局app"
 description: "Experience the essence of Lisbon's industry dinner scene with Fanju app, where professionals come together to build connections and foster growth."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Industry Dinner in Lisbon with Fanju app</h1>

@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/austin/ecommerce-dinner"
 alternatePath: "/city/austin/ecommerce-dinner"
-title: "Austin Ecommerce Dinner Guide | fanju-app | 饭局app"
+title: "Austin Ecommerce Dinner Guide | Fanju app"
 description: "Discover the rhythm of Austin through its unique neighborhoods, transit, and dining culture with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Austin, a city known for its eclectic neighborhoods, vibrant music scene, and a thriving food culture. It&#039;s the perfect place to experience the city&#039;s rhythm through its unique neighborhoods, transit, and dining culture. If you&#039;re looking for a way to connect with like-minded individuals and enjoy a delicious meal, look no further than Fanju app. Fanju app is a social dining app that focuses on small, clearly described meals and real-world connections. It&#039;s the perfect platform for those who want to experience the city&#039;s culture and meet new people.</p>

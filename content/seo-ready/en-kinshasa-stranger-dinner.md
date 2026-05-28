@@ -7,6 +7,7 @@ alternatePath: "/city/kinshasa/stranger-dinner"
 title: "Why Stranger Dinner in Kinshasa works better when Fanju app keeps the table small | fanju-app | 饭局app"
 description: "The Fanju app is a social dining platform designed to help residents and visitors in Kinshasa connect over intentional, small-group meals where the focus is on conversation, not romance. By limiting table size and requir"
 recoveredFromD1: true
+---
 
 <article>
 <p># Why Stranger Dinner in Kinshasa works better when Fanju app keeps the table small</p>

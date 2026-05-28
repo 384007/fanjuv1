@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/baghdad/mba-dinner"
 alternatePath: "/city/baghdad/mba-dinner"
-title: "Baghdad MBA Dinner Guide | fanju-app | 饭局app"
+title: "Baghdad MBA Dinner Guide | Fanju app"
 description: "Discover the curated world of social dining in Baghdad with Fanju app, where meaningful connections and exquisite meals come together in a unique setting."
 recoveredFromD1: true
+---
 
 <article>
 <p>Baghdad, a city of rich history and vibrant culture, offers a unique backdrop for a premium social dining experience. As the sun sets over the Tigris River, the city transforms into a hub of activity, with locals and expats alike seeking out new experiences and connections. Fanju app is the perfect platform for those looking to indulge in a more curated and higher-craft version of dinner, where the focus is on meaningful interactions and exceptional cuisine.</p>

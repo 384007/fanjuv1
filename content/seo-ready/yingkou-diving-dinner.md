@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T140006Z-round-1-000010"
 randomSeed: "production-cloudflare-20260525T140006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T140006Z"
+---
 
 # 在营口把潜水饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
@@ -79,3 +80,7 @@ publishedRunId: "production-cloudflare-20260525T140006Z"
 ####### 让营口潜水饭局连接保持真实的后续动作
 
 如果饭后想和某人继续联系，最好的方式是说一句：“今天聊得很放松，改天可以一起喝个咖啡。”而不是当场加微信强求。在饭局app上，主理人有时会建个临时群，但只保留三天。连接要自然延续，而不是靠群聊维持。在营口，慢一点的关系，反而走得更远。
+
+
+## 在当地通过饭局app寻找饭搭子
+在yingkou，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

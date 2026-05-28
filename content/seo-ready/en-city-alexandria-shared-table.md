@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/alexandria/shared-table"
 alternatePath: "/city/alexandria/shared-table"
-title: "Alexandria Shared Table Guide | fanju-app | 饭局app"
+title: "Alexandria Shared Table Guide | Fanju app"
 description: "Discover the benefits of shared dining with Fanju app, a social dining app that brings people together for small, structured meals and real-world connections in Alexandria."
 recoveredFromD1: true
+---
 
 <article>
 <p>As I sat at a small, candlelit table in a cozy Alexandria cafe, I couldn&#039;t help but feel a sense of relief wash over me. It was a warm summer evening, and I had just finished a long day of work. I had joined a shared table through Fanju app, and I was grateful to be surrounded by like-minded individuals who shared my love for good food and conversation.</p>

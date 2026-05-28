@@ -7,6 +7,7 @@ alternatePath: "/en/city/changchun/family-style-dinner"
 title: "长春家庭式饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 description: "在长春，一顿饭的意义常常不在饭本身。人们习惯在热汤翻滚时才慢慢谈起近况，在红肠切片摆上桌后才聊起孩子升学的事。饭局app在这里的出现，没有打破这种节奏，反而试图贴近它——不是组织一场“有人来吗”的聚餐，而是让每一桌都有清晰的来由与边界。长春"
 recoveredFromD1: true
+---
 
 <article>
 <p># 长春家庭式饭局不是凑人吃饭，饭局app更看重这一桌的边界</p>

@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/mexico-city/slow-social-dinner"
 alternatePath: "/city/mexico-city/slow-social-dinner"
-title: "Mexico City Slow Social Dinner Guide | fanju-app | 饭局app"
+title: "Mexico City Slow Social Dinner Guide | Fanju app"
 description: "Discover the art of slow social dining in Mexico City with Fanju app, a platform that connects like-minded individuals for meaningful meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Mexico City, with its vibrant cultural scene and rich history, is an ideal destination for those seeking a unique and enriching experience. Slow social dining, a concept that emphasizes the importance of savoring food, conversation, and company, has become increasingly popular in this cosmopolitan city. If you&#039;re looking to experience the authentic flavors of Mexico City while connecting with like-minded individuals, look no further than Fanju app.</p>

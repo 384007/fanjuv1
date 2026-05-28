@@ -7,6 +7,7 @@ alternatePath: "/en/city/taizhou-zhejiang/waitlist-dinner"
 title: "台州候补饭局指南：安全和信任的选择 | fanju-app | 饭局app"
 description: "台州候补饭局指南：安全和信任的选择"
 recoveredFromD1: true
+---
 
 <article>
 <h1>台州候补饭局指南：安全和信任的选择</h1>

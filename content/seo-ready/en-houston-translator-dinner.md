@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260525T200005Z-round-1-000005"
 randomSeed: "production-cloudflare-20260525T200005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T200005Z"
+---
 
 # What makes Translator Dinner in Houston worth the risk; Fanju app answers before you arrive | fanju-app
 

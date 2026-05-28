@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/brussels/quality-friends-dinner"
 alternatePath: "/city/brussels/quality-friends-dinner"
-title: "Brussels Quality Friends Dinner Guide | fanju-app | 饭局app"
+title: "Brussels Quality Friends Dinner Guide | Fanju app"
 description: "Discover the art of quality friendships through shared meals with Fanju app, a social dining platform that fosters meaningful connections in the heart of Brussels."
 recoveredFromD1: true
+---
 
 <article>
 <p>Brussels, a city known for its rich history, vibrant culture, and mouth-watering cuisine, is the perfect backdrop for a Quality Friends Dinner. After years of relying on digital connections, it&#039;s time to reboot our social habits and experience the joy of sharing a meal with like-minded individuals. Fanju app offers a unique opportunity to do just that, bringing people together for small, intimate dinners that are as much about the company as they are about the food.</p>

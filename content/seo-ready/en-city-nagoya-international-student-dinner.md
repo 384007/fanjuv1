@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/nagoya/international-student-dinner"
 alternatePath: "/city/nagoya/international-student-dinner"
-title: "Nagoya International Student Dinner Guide | fanju-app | 饭局app"
+title: "Nagoya International Student Dinner Guide | Fanju app"
 description: "Discover the nuances of organizing and attending international student dinners in Nagoya with Fanju app. Fanju is a social dining app focused on facilitating small, curated meals and fostering genuine real-world connections. This guide explores how to navigate these gatherings, from table dynamics to safety considerations, ensuring a rewarding experience for students in Nagoya."
 recoveredFromD1: true
+---
 
 <article>
 <p>Organizing or attending an international student dinner in Nagoya can be a deeply rewarding experience, offering a chance to connect with peers from diverse backgrounds in a relaxed, communal setting. The Fanju app is designed to facilitate these kinds of intimate gatherings, focusing on small, clearly described meals and the creation of authentic, real-world connections. These dinners are more than just a meal; they are opportunities for cultural exchange, shared learning, and building friendships that can last a lifetime. Understanding the flow of a typical dinner, especially at a table of 6-12 people, is key to making the most of the evening.</p>

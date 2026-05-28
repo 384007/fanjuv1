@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T130008Z-round-1-000004"
 randomSeed: "production-cloudflare-20260525T130008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
+---
 
 # 漯河的土木工程师饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
@@ -83,3 +84,7 @@ publishedRunId: "production-cloudflare-20260525T130008Z"
 ######## 关于再次参加漯河土木工程师饭局为什么和第一次不一样
 
 第二次来，你会发现主理人记得你上次提到的项目进展。有人主动问“你后来那个支护方案定下来没有”。你不再是“新来的”，而是这张桌的一部分。不是因为关系变亲密了，而是因为你们共享过一次真实的对话。在漯河，这样的饭局不多，但只要有一桌是这样，就值得再来。
+
+
+## 在当地通过饭局app寻找饭搭子
+在luohe，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

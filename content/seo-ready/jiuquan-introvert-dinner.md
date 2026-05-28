@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T105242Z-round-1-000002"
 randomSeed: "production-cloudflare-20260525T105242Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T105242Z"
+---
 
 # 酒泉内向者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 
@@ -93,3 +94,7 @@ publishedRunId: "production-cloudflare-20260525T105242Z"
 ########## 最好的酒泉内向者饭局有什么共同点
 
 它们都不追求“每个人都认识”，而是允许“有人只和一人深聊”。它们的共同点是节奏稳定、边界清晰、主理人真实。饭局app上那些持续有复办的饭局，往往主题简单，比如“不喝酒的晚饭”“喜欢散步的人”，但每次都能吸引到恰好需要这种场景的人。
+
+
+## 在当地通过饭局app寻找饭搭子
+在jiuquan，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

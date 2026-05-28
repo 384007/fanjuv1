@@ -7,6 +7,7 @@ alternatePath: "/city/toronto/sunday-dinner"
 title: "Finding Community through Sunday Dinner in Toronto with Fanju app | fanju-app | 饭局app"
 description: "Join a low-pressure Sunday dinner in Toronto with the help of Fanju app, a community-based solution to loneliness in big cities."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Finding Community through Sunday Dinner in Toronto with Fanju app</h1>

@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/hyderabad/local-community-dinner"
 alternatePath: "/city/hyderabad/local-community-dinner"
-title: "Hyderabad Local Community Dinner Guide | fanju-app | 饭局app"
+title: "Hyderabad Local Community Dinner Guide | Fanju app"
 description: "Discover the authentic taste of Hyderabad through Fanju app, a social dining app that connects you with like-minded individuals for small, home-cooked meals and meaningful conversations."
 recoveredFromD1: true
+---
 
 <article>
 <p>If you&#039;re new to the concept of community dinners, you might be wondering what to expect. Imagine stepping into a stranger&#039;s home, being welcomed with a warm smile, and sharing a delicious meal together. It&#039;s a unique experience that can leave you feeling connected and inspired. Fanju app makes it easy to find and join these dinners in your area, including in vibrant cities like Hyderabad.</p>

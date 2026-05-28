@@ -4,14 +4,15 @@ canonicalPath: "/en/city/hangzhou/curated-dinner"
 alternatePath: "/city/hangzhou/curated-dinner"
 translationKey: "hangzhou-curated-dinner"
 lang: "en"
-title: "Hangzhou Curated Dinner Guide | fanju-app"
+title: "Hangzhou Curated Dinner Guide | Fanju app"
 titleZh: "Hangzhou Curated Dinner Guide"
 pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
+---
 
-# Hangzhou Curated Dinner Guide for Dinner-First Social Dining | fanju-app
+# Hangzhou Curated Dinner Guide for Dinner-First Social Dining | Fanju app
 
 Hangzhou, a city where ancient West Lake beauty meets modern dynamism, offers a unique backdrop for social connection. For those seeking to forge genuine connections over shared meals, Fanju presents a novel approach to social dining. This guide is designed to help you navigate the world of curated dinners in Hangzhou, leveraging Fanju to find like-minded individuals and create memorable dining experiences. Whether you're new to the city or a long-time resident looking to expand your social circle, understanding how to find and participate in curated dinners can unlock a richer way to experience Hangzhou's vibrant culinary and social scene.
 

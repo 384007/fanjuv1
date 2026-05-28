@@ -7,6 +7,7 @@ alternatePath: "/en/city/zhongshan/industry-dinner"
 title: "中山不想只靠群聊时，饭局app怎样把行业饭局坐成一桌 | fanju-app"
 description: "刚到中山时，很多人以为这座城的节奏慢，人脉也慢。但真正落脚后才发现，这里的连接其实藏在晚饭后的茶香里、在轻轨站出口的短暂停顿中。饭局app不是另一个微信群，它是在中山帮人把模糊的“认识一下”变成具体一桌饭的工具。每一场饭局都有明确主题、人数"
 recoveredFromD1: true
+---
 
 <article>
 <p># 中山不想只靠群聊时，饭局app怎样把行业饭局坐成一桌</p>

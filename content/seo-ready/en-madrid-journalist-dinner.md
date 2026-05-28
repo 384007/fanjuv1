@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Madrid after work: how Fanju app makes Journalist Dinner feel like a real room | fanju-app
 

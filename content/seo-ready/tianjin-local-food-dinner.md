@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T110006Z-round-1-000002"
 randomSeed: "production-cloudflare-20260525T110006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
+---
 
 # 天津本地美食饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
@@ -93,3 +94,7 @@ publishedRunId: "unknown"
 ########## 通过饭局app做天津本地美食饭局社交饭局的长期视角
 
 长期来看，饭局app不是为了制造频繁社交，而是为了让人们在城市中找到可以安心吃饭的角落。在天津，这种小桌饭局可能不会改变你的生活，但它能让你在某个周六晚上，吃上一顿锅巴菜，听一个人讲他父亲开早点摊的故事。这种微小的连接，才是城市生活的温度。
+
+
+## 在当地通过饭局app寻找饭搭子
+在tianjin，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

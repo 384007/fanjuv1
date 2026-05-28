@@ -7,6 +7,7 @@ alternatePath: "/en/city/qiandongnan/third-place-dinner"
 title: "黔东南第三空间饭局指南 | fanju-app | 饭局app"
 description: "在快节奏的现代生活中，尤其是在像黔东南这样充满独特魅力的地区，人们常常会感受到一种无形的疏离感。饭局app / Fanju 应运而生，它并非一个大型的交友平台，而是专注于提供小桌、有明确主题的线下聚餐体验，旨在帮助用户在轻松的氛围中建立真实、有意义的连接。通过精心策划的饭局，我们希望为都市人的社交断层提供一个低压力的解决方案，让每一次相聚都成为一次回归真实生活的美好体验。"
 recoveredFromD1: true
+---
 
 <article>
 <h2>Fanju / 饭局app 是什么</h2>

@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/delhi/offline-social-dinner"
 alternatePath: "/city/delhi/offline-social-dinner"
-title: "Delhi Offline Social Dinner Guide | fanju-app | 饭局app"
+title: "Delhi Offline Social Dinner Guide | Fanju app"
 description: "Discover the authentic flavors of Delhi through Fanju app, a social dining platform that connects you with like-minded individuals for intimate, home-cooked meals."
 recoveredFromD1: true
+---
 
 <article>
 <p>Delhi, a city of vibrant streets and bustling markets, is a melting pot of cultures and cuisines. As you wander through its alleys and bylanes, the aroma of spices and the sound of sizzling food waft through the air, teasing your taste buds and tempting your senses. But amidst the chaos, there&#039;s a hidden world of culinary delights waiting to be discovered. Welcome to the world of offline social dinners in Delhi, where strangers become friends over a shared love of food.</p>

@@ -7,6 +7,7 @@ alternatePath: "/city/bangalore/shared-table"
 title: "Bangalore does not need another vague invite; Fanju app makes Shared Table specific | fanju-app | 饭局app"
 description: "The Fanju app introduces a grounded way to experience Bangalore beyond its polished surfaces—through small, intentional Shared Table dinners hosted in homes and modest venues across the city. Unlike generic meetups or cr"
 recoveredFromD1: true
+---
 
 <article>
 <p># Bangalore does not need another vague invite; Fanju app makes Shared Table specific</p>

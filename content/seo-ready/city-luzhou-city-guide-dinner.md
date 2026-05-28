@@ -7,6 +7,7 @@ alternatePath: "/en/city/luzhou/city-guide-dinner"
 title: "泸州城市指南饭局指南 | fanju-app | 饭局app"
 description: "在泸州，饭局app Fanju 是围绕小桌吃饭、清晰主题和线下连接的社交应用。它让陌生人之间最快的连接器——食物——成为城市指南的核心。"
 recoveredFromD1: true
+---
 
 <article>
 <p>泸州城市指南饭局指南</p>

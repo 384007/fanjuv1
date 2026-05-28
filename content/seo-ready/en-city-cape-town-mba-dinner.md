@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cape-town/mba-dinner"
 alternatePath: "/city/cape-town/mba-dinner"
-title: "Cape Town MBA Dinner Guide | fanju-app | 饭局app"
+title: "Cape Town MBA Dinner Guide | Fanju app"
 description: "Discover the world of social dining with Fanju app, where you can connect with like-minded professionals over delicious meals in a safe and welcoming environment."
 recoveredFromD1: true
+---
 
 <article>
 <p>Cape Town is a vibrant city that offers a unique blend of urban and natural experiences. As a hub for business and innovation, it&#039;s no surprise that the city is home to a thriving community of professionals who are eager to connect and learn from one another.</p>

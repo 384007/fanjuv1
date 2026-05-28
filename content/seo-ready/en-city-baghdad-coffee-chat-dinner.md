@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/baghdad/coffee-chat-dinner"
 alternatePath: "/city/baghdad/coffee-chat-dinner"
-title: "Baghdad Coffee Chat Dinner Guide | fanju-app | 饭局app"
+title: "Baghdad Coffee Chat Dinner Guide | Fanju app"
 description: "Discover local food and connections in Baghdad with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Baghdad is a city of rich history and diverse culture, where food plays a central role in bringing people together. After a long day at work, there&#039;s no better way to unwind than over a delicious meal with new friends. In this guide, we&#039;ll explore the world of coffee chat dinners in Baghdad, where local food discovery meets real-world connections.</p>

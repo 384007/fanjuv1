@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260526T010006Z-round-1-000001"
 randomSeed: "production-cloudflare-20260526T010006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T010006Z"
+---
 
 # Kolkata strangers sit down easier when Fanju app frames the Podcast Listener Dinner table first | fanju-app
 

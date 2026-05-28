@@ -7,6 +7,7 @@ alternatePath: "/en/city/dazhou/slow-social-dinner"
 title: "达州慢社交饭局指南 | fanju-app | 饭局app"
 description: "在达州慢慢享受社交饭局的乐趣，了解饭局app的魅力，找到适合自己的社交方式"
 recoveredFromD1: true
+---
 
 <article>
 <p>达州慢社交饭局指南</p>

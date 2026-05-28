@@ -7,6 +7,7 @@ alternatePath: "/en/city/jincheng/singles-dinner"
 title: "晋城想参加单身饭局，饭局app把信任感放在饭前 | fanju-app"
 description: "在晋城，想认识新朋友的人越来越多开始选择饭局app上的线下小桌饭局，尤其是单身饭局。这座城市的社交节奏不快不慢，街巷安静，人与人之间的距离感微妙——既不会像大城市那样彼此擦肩而过毫无交集，也不会像小乡镇那样熟人关系密不透风。饭局app恰好填"
 recoveredFromD1: true
+---
 
 <article>
 <p># 晋城想参加单身饭局，饭局app把信任感放在饭前</p>

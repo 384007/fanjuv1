@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T170006Z-round-1-000010"
 randomSeed: "production-cloudflare-20260525T170006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T170006Z"
+---
 
 # 下班后的乌鲁木齐，饭局app怎样让城市指南饭局有真实同桌 | fanju-app
 
@@ -89,3 +90,6 @@ publishedRunId: "production-cloudflare-20260525T170006Z"
 
 ## 在当地的饭局社交体验
 这座城市独特的社交氛围 寻找同城志同道合的饭友 在 饭局app，我们致力于为你筛选最地道的社交场景，每一次约饭都是对本地生活方式的一次深入体验，不仅是找饭搭子，更是为了在当地建立高质量的社交连接。
+
+## 在当地通过饭局app寻找饭搭子
+在wulumuqi，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

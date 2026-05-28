@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/paris/lunar-new-year-dinner"
 alternatePath: "/city/paris/lunar-new-year-dinner"
-title: "Paris Lunar New Year Dinner Guide | fanju-app | 饭局app"
+title: "Paris Lunar New Year Dinner Guide | Fanju app"
 description: "Planning a Lunar New Year dinner in Paris can feel daunting, especially if you prefer quieter, more intimate gatherings. The Fanju app offers a refreshing alternative, focusing on small, well-defined meals designed for genuine connection.  It's a platform for finding or hosting intimate dining experiences, moving beyond the superficial to foster real-world interactions.  For introverts, the structured nature of a Fanju dinner, with a clear guest list and purpose, presents a far more manageable and enjoyable way to celebrate than navigating the unpredictable energy of larger events or casual meetups.  This guide explores how to find or host a welcoming Lunar New Year dinner in Paris through Fanju, emphasizing comfort and connection."
 recoveredFromD1: true
+---
 
 <article>
 <p>Lunar New Year in Paris offers a unique opportunity to experience vibrant cultural traditions, but for those who find large gatherings draining, the thought of a festive dinner can be a source of anxiety. The Fanju app provides a solution by facilitating small, intimate dining experiences. It&#039;s a social dining app designed for creating meaningful connections through shared meals, emphasizing clarity and comfort. This approach is particularly beneficial for introverts, offering a structured environment that minimizes social pressure and maximizes genuine interaction. Fanju is about quality over quantity, ensuring that each gathering is a positive and memorable experience.</p>

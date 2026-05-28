@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T170006Z-round-1-000006"
 randomSeed: "production-cloudflare-20260525T170006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T170006Z"
+---
 
 # 南昌的一顿跨境饭局，饭局app为什么先看人再看热闹 | fanju-app
 
@@ -93,3 +94,7 @@ publishedRunId: "production-cloudflare-20260525T170006Z"
 ########## 为什么对的南昌跨境饭局值得等
 
 因为它不是消耗，而是补充。在红谷滩的夜晚，在老城区的小巷里，你遇到的不只是陌生人，而是那些愿意慢下来、认真说话的人。你吃的不只是菜，而是一段被尊重的时间。在南昌，这样的饭局不多，但只要你参加过一次，就会愿意等下一次。
+
+
+## 在当地通过饭局app寻找饭搭子
+在nanchang，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

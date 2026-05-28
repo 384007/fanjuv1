@@ -7,6 +7,7 @@ alternatePath: "/city/suzhou/alumni-dinner"
 title: "Planning a Memorable Alumni Dinner in Suzhou with Fanju app | fanju-app | 饭局app"
 description: "Discover how to host a successful and enjoyable alumni dinner in Suzhou with the help of Fanju app, from choosing the right host and venue to setting boundaries and expectations."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Planning a Memorable Alumni Dinner in Suzhou with Fanju app</h1>

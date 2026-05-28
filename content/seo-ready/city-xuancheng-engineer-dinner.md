@@ -7,6 +7,7 @@ alternatePath: "/en/city/xuancheng/engineer-dinner"
 title: "宣城工程师饭局指南 | fanju-app | 饭局app"
 description: "在宣城的饭局app Fanju 上，工程师们可以通过小桌饭局的方式建立线下连接，享受清晰主题和丰富的社交体验。"
 recoveredFromD1: true
+---
 
 <article>
 <p>宣城工程师饭局指南</p>

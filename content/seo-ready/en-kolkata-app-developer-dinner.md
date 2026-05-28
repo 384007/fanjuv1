@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260525T190004Z-round-1-000001"
 randomSeed: "production-cloudflare-20260525T190004Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T190004Z"
+---
 
 # How Fanju app turns a Kolkata App Developer Dinner night into something worth showing up for | fanju-app
 

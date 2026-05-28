@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260525T183055Z-round-1-000007"
 randomSeed: "production-cloudflare-20260525T183055Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T183055Z"
+---
 
 # Before the first message in Istanbul, Fanju app makes Expat Dinner feel like a real decision | fanju-app
 

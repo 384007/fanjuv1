@@ -21,6 +21,7 @@ promptSeed: "production-cloudflare-20260525T220007Z-round-1-000012"
 randomSeed: "production-cloudflare-20260525T220007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T220007Z"
+---
 
 # 石家庄主理人餐桌不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 

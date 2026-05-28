@@ -7,6 +7,7 @@ alternatePath: "/en/city/jinhua/restaurant-discovery-dinner"
 title: "在金华找一桌不尴尬的餐厅探索饭局，饭局app先解决什么 | fanju-app"
 description: "在金华，不少创业者、个体经营者或自由职业者都熟悉这种状态：傍晚六点半，办公室灯还亮着，手头事没做完，但心里已经空了一块。不想立刻回家，又不想一个人对着屏幕刷消息。饭局app不是为聚餐而生的工具，而是为这种“空档”设计的——它把吃饭变成一种有"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在金华找一桌不尴尬的餐厅探索饭局，饭局app先解决什么</p>

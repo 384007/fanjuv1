@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/mexico-city/post-pandemic-social-dinner"
 alternatePath: "/city/mexico-city/post-pandemic-social-dinner"
-title: "Mexico City Post Pandemic Social Dinner Guide | fanju-app | 饭局app"
+title: "Mexico City Post Pandemic Social Dinner Guide | Fanju app"
 description: "Plan your weekend around a social dinner with Fanju app, a platform for small, meaningful meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Mexico City, a vibrant metropolis with a rich cultural heritage, is slowly returning to its pre-pandemic rhythm. As the city comes back to life, so do its social scenes. If you&#039;re looking to reconnect with friends, make new acquaintances, or simply experience the city&#039;s culinary delights, a post-pandemic social dinner is the perfect way to kick-start your weekend.</p>

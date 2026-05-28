@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260526T010006Z-round-1-000009"
 randomSeed: "production-cloudflare-20260526T010006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T010006Z"
+---
 
 # Moscow does not need another vague invite; Fanju app makes Climbing Dinner specific | fanju-app
 

@@ -7,6 +7,7 @@ alternatePath: "/city/madrid/industry-dinner"
 title: "Madrid does not need another vague invite; Fanju app makes Industry Dinner specific | fanju-app | 饭局app"
 description: "In Madrid, where evenings stretch into conversation over shared plates and shifting light, a dinner invite often carries more ambiguity than clarity. Fanju app redefines what an industry dinner means by making every even"
 recoveredFromD1: true
+---
 
 <article>
 <p># Madrid does not need another vague invite; Fanju app makes Industry Dinner specific</p>

@@ -7,6 +7,7 @@ alternatePath: "/en/city/hegang/vc-dinner"
 title: "鹤岗的一顿VC 饭局，饭局app为什么先看人再看热闹 | fanju-app"
 description: "在鹤岗，一场六人围坐的晚饭可能比一场百人论坛更值得记。饭局app不是为热闹而生的，它更关心谁坐在桌边、话题从哪句开始、菜上到第三道时气氛有没有松下来。这座城市节奏慢，人与人之间却并不疏远，反而对“值得见一面”的期待更具体。饭局app在这里做"
 recoveredFromD1: true
+---
 
 <article>
 <p># 鹤岗的一顿VC 饭局，饭局app为什么先看人再看热闹</p>

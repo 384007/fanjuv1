@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T105242Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T105242Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T105242Z"
+---
 
 # 在阿坝把植物爱好者饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 
@@ -87,3 +88,7 @@ publishedRunId: "production-cloudflare-20260525T105242Z"
 ######### 关于通过饭局app自己组织阿坝植物爱好者饭局的一点说明
 
 如果你想自己组织一场，饭局app不要求你有社交经验，但建议你先参加两场同类型饭局，感受节奏。在阿坝，一场成功的植物饭局不靠热闹，而靠真诚。你可以从“分享我家院子的高原植物”开始，选个小馆，邀请五六人，提前写清楚主题和期待。不需要完美，只需要真实。这座城市的人，更愿意为一份具体的热情买单，而不是一场包装精美的社交表演。
+
+
+## 在当地通过饭局app寻找饭搭子
+在aba，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

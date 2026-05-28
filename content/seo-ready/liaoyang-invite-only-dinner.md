@@ -7,6 +7,7 @@ alternatePath: "/en/city/liaoyang/invite-only-dinner"
 title: "辽阳邀请制饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 description: "在辽阳，饭局app不是为凑数而设的饭局聚合工具，它更关注一桌饭的边界在哪里。这里的“边界”不是隔阂，而是清晰的主题、人数控制和关系预期——它让吃饭从社交义务变成一次有准备的相遇。当一桌人不再默认奔着相亲去，谈话的重心就从“你有没有对象”转向"
 recoveredFromD1: true
+---
 
 <article>
 <p># 辽阳邀请制饭局不是凑人吃饭，饭局app更看重这一桌的边界</p>

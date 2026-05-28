@@ -7,6 +7,7 @@ alternatePath: "/city/kuala-lumpur/holiday-dinner"
 title: "What's the Best Way to Experience Kuala Lumpur's Holiday Spirit Through Fanju App Dinners? | fanju-app | 饭局app"
 description: "A guide for expats and newcomers to connect with locals through authentic holiday dinners in Kuala Lumpur."
 recoveredFromD1: true
+---
 
 <article>
 <p># Finding Authentic Holiday Connections in Kuala Lumpur with Fanju App</p>

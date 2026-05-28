@@ -7,6 +7,7 @@ alternatePath: "/en/city/changchun/private-dinner"
 title: "长春私密饭局指南 | fanju-app | 饭局app"
 description: "长春私密饭局指南，了解如何在长春使用饭局app参加私密饭局，结束工作日的低成本方式。"
 recoveredFromD1: true
+---
 
 <article>
 <p>长春私密饭局指南</p>

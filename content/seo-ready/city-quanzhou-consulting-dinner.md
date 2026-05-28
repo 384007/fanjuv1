@@ -7,6 +7,7 @@ alternatePath: "/en/city/quanzhou/consulting-dinner"
 title: "泉州咨询饭局指南 | fanju-app | 饭局app"
 description: "在泉州，下班后不再独自回家，咨询饭局是低成本结束工作日的方式。"
 recoveredFromD1: true
+---
 
 <article>
 <p>在泉州，下班后不再独自回家，咨询饭局是低成本结束工作日的方式。饭局app是一款围绕小桌吃饭、清晰主题和线下连接的社交应用，用户可以通过它找到同样有兴趣的朋友一起共享美食和经验。</p>

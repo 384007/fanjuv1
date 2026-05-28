@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/melbourne/investor-dinner"
 alternatePath: "/city/melbourne/investor-dinner"
-title: "Melbourne Investor Dinner Guide | fanju-app | 饭局app"
+title: "Melbourne Investor Dinner Guide | Fanju app"
 description: "Discover the social side of Melbourne with Fanju app, a platform for small, intimate meals and meaningful connections. Join our investor dinners and experience the city's vibrant rhythm, from trendy neighborhoods to authentic eateries. Whether you're a remote worker or simply looking to expand your network, our investor dinners offer a unique opportunity to connect with like-minded individuals in a relaxed setting."
 recoveredFromD1: true
+---
 
 <article>
 <p>Melbourne, a city known for its cultural diversity and vibrant atmosphere, is the perfect backdrop for a social dining experience. As a remote worker, it can be challenging to maintain a work-life balance, especially when working from home or alone. This is where Fanju app comes in – a social dining platform that brings people together over small, clearly described meals.</p>

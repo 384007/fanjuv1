@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T160006Z-round-1-000010"
 randomSeed: "production-cloudflare-20260525T160006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
+---
 
 # 鹤壁的百乐餐饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
@@ -83,3 +84,7 @@ publishedRunId: "production-cloudflare-20260525T160006Z"
 ######## 关于再次参加鹤壁百乐餐饭局为什么和第一次不一样
 
 第一次，你可能带着试探，怕冷场，怕说错话。但当你经历过一次完整的饭局，你会发现，那些沉默、跑题、甚至短暂的尴尬，都是正常的。第二次报名时，你更清楚自己想要什么——是想说，还是想听？是想深入，还是想放松？这种自我认知的变化，比认识多少人更重要。在鹤壁，很多人说，他们不是因为“喜欢社交”才来，而是因为“想更诚实地面对自己”。而这，正是百乐餐饭局的起点。
+
+
+## 在当地通过饭局app寻找饭搭子
+在hebi，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

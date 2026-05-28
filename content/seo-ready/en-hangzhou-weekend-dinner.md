@@ -4,14 +4,15 @@ canonicalPath: "/en/city/hangzhou/weekend-dinner"
 alternatePath: "/city/hangzhou/weekend-dinner"
 translationKey: "hangzhou-weekend-dinner"
 lang: "en"
-title: "Hangzhou Weekend Dinner Guide | fanju-app"
+title: "Hangzhou Weekend Dinner Guide | Fanju app"
 titleZh: "Hangzhou Weekend Dinner Guide"
 pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
+---
 
-# Hangzhou Weekend Dinner Guide | fanju-app
+# Hangzhou Weekend Dinner Guide | Fanju app
 
 ## What Is This Page About
 

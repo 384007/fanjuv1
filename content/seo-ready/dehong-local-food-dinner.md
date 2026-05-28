@@ -7,6 +7,7 @@ alternatePath: "/en/city/dehong/local-food-dinner"
 title: "下班后的德宏，饭局app怎样让本地美食饭局有真实同桌 | fanju-app"
 description: "刚搬来德宏，下班后时间总是显得有些空荡。城市的节奏和熟悉的街区不一样，晚餐吃什么、和谁一起吃，成了每天都要面对的实际问题。饭局app（Fanju）作为一个围绕小桌吃饭、清晰主题和线下连接的社交应用，恰好能解决这种“初来乍到”的不确定性。它不"
 recoveredFromD1: true
+---
 
 <article>
 <p># 下班后的德宏，饭局app怎样让本地美食饭局有真实同桌</p>

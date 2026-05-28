@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/addis-ababa/community-dinner"
 alternatePath: "/city/addis-ababa/community-dinner"
-title: "Addis Ababa Community Dinner Guide | fanju-app | 饭局app"
+title: "Addis Ababa Community Dinner Guide | Fanju app"
 description: "Join a Fanju table for a unique dining experience in Addis Ababa, connecting with locals and fellow travelers in a relaxed atmosphere. Fanju app is a social dining app that brings people together for small, clearly described meals and real-world connections. Whether you're a solo traveler or just looking for a new way to experience the city, Fanju's community dinners are a great way to meet like-minded individuals and make meaningful connections. This guide is for solo travelers and anyone looking to experience the authentic side of Addis Ababa through community-driven dining experiences."
 recoveredFromD1: true
+---
 
 <article>
 <h2>What is Fanju?</h2>

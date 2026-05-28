@@ -7,6 +7,7 @@ alternatePath: "/en/city/weifang/industry-dinner"
 title: "潍坊行业饭局指南 | fanju-app | 饭局app"
 description: "在潍坊重新打开线下生活的方式 - Fanju / 饭局app"
 recoveredFromD1: true
+---
 
 <article>
 <p>周末的晚上，朋友们聚在一起，分享一顿美味的饭局。然而，在长期的线上社交之后，我们似乎渐渐失去了线下社交的习惯。那么，如何重新打开线下生活呢？答案是通过行业饭局。</p>

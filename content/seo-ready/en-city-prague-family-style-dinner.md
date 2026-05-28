@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/prague/family-style-dinner"
 alternatePath: "/city/prague/family-style-dinner"
-title: "Prague Family Style Dinner Guide | fanju-app | 饭局app"
+title: "Prague Family Style Dinner Guide | Fanju app"
 description: "Discover authentic local connections through dinner with the Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Prague, the City of a Hundred Spires, is a treasure trove of history, culture, and cuisine. As an expat or newcomer, navigating the city&#039;s culinary scene can be overwhelming, especially when it comes to finding authentic local connections. This is where the Fanju app comes in – a social dining app that offers a unique way to experience Prague&#039;s food culture and meet like-minded individuals.</p>

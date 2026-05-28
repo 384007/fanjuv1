@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T111336Z-round-1-000010"
 randomSeed: "production-cloudflare-20260525T111336Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T111336Z"
+---
 
 # 不想在临沂随便拼桌，饭局app怎样让社区饭局变成一个真实决定 | fanju-app
 
@@ -79,3 +80,7 @@ publishedRunId: "production-cloudflare-20260525T111336Z"
 ####### 怎样把一桌好的临沂社区饭局变成可以延续的东西
 
 如果一桌人聊得舒服，主理人可能会提议“下次换个地方再聚”，或建立一个小群保持联系。但这不是必须的。延续的方式可以很轻：加个微信，偶尔点赞，或下次再报同一人的饭局。在临沂，关系的生长不必激烈，有时只是“我知道你在，我也愿意再见面”的默契。
+
+
+## 在当地通过饭局app寻找饭搭子
+在linyi，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

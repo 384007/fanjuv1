@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T130008Z-round-1-000010"
 randomSeed: "production-cloudflare-20260525T130008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
+---
 
 # 抚州的一顿对冲基金饭局，饭局app为什么先看人再看热闹 | fanju-app
 
@@ -85,3 +86,7 @@ publishedRunId: "production-cloudflare-20260525T130008Z"
 ######## 抚州对冲基金饭局的回头客会注意到新人看不到的东西
 
 他们知道，主理人点菜时特意避开了有人过敏的食材，是一种隐性的照顾；他们能看出，当某人话变少时，主理人会不动声色地把话题引向他熟悉的领域；他们也明白，饭局结束后主理人清理桌面、把椅子推回原位的动作，是一种对空间的尊重。这些细节不会写在饭局描述里，但正是它们，让抚州的对冲基金饭局，不是一场活动，而是一种缓慢生长的日常实践。
+
+
+## 在当地通过饭局app寻找饭搭子
+在fuzhou，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

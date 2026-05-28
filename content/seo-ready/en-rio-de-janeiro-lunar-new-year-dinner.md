@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Rio de Janeiro after work: how Fanju app makes Lunar New Year Dinner feel like a real room | fanju-app
 

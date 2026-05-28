@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T140006Z-round-1-000007"
 randomSeed: "production-cloudflare-20260525T140006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T140006Z"
+---
 
 # Before the first message in Delhi, Fanju app makes Archery Dinner feel like a real decision | fanju-app
 

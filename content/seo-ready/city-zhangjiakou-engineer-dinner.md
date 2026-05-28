@@ -7,6 +7,7 @@ alternatePath: "/en/city/zhangjiakou/engineer-dinner"
 title: "张家口工程师饭局指南 | fanju-app | 饭局app"
 description: "在张家口组织工程师饭局的指南，了解如何选择合适的桌位、让聊天自然延展、Fanju 饭局在主办方一侧是什么样子"
 recoveredFromD1: true
+---
 
 <article>
 <p>在张家口，组织工程师饭局是一种常见的社交活动。作为主办方，组织者需要考虑许多因素来确保活动的顺利进行。下面是组织工程师饭局的指南，帮助你了解如何选择合适的桌位、让聊天自然延展、Fanju 饭局在主办方一侧是什么样子。</p>

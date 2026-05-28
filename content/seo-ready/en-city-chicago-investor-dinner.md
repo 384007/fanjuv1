@@ -7,6 +7,7 @@ alternatePath: "/city/chicago/investor-dinner"
 title: "Fanju app: Building Community One Dinner at a Time in Chicago | fanju-app | 饭局app"
 description: "Join us for an evening of connection and conversation in the heart of Chicago, where the Fanju app brings people together in meaningful ways."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Fanju app: Building Community One Dinner at a Time in Chicago</h1>

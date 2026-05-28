@@ -7,6 +7,7 @@ alternatePath: "/en/city/anyang/social-reset-dinner"
 title: "安阳社交重启饭局指南 | fanju-app | 饭局app"
 description: "在安阳，社交重启饭局成为城市社区建设的重要组成部分。通过饭局app，人们可以轻松找到同城的朋友圈，建立稳定的社区关系。"
 recoveredFromD1: true
+---
 
 <article>
 <h1>安阳社交重启饭局指南</h1>

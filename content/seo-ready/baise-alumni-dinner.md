@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T110006Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T110006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
+---
 
 # 在百色找到对的校友饭局，饭局app先把这一桌说清楚 | fanju-app
 
@@ -89,3 +90,7 @@ publishedRunId: "unknown"
 为了让百色校友饭局建立的连接保持真实和持续，后续的跟进非常关键。这可能意味着，在饭局结束后，主理人或参与者可以主动在群组里分享一些与饭局话题相关的资讯，或者就饭局中产生的某个想法，继续展开讨论。
 
 更重要的是，要将这种线上的互动，适时地转化为更深入的线下连接。比如，如果大家在某个兴趣爱好上达成一致，可以提议组建一个小型兴趣小组，定期组织活动。这种基于共同兴趣和价值的延伸，能让最初的饭局成为一段真实友谊的起点。
+
+
+## 在当地通过饭局app寻找饭搭子
+在baise，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

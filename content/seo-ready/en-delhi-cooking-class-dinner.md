@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Why Cooking Class Dinner in Delhi works better when Fanju app keeps the table small | fanju-app
 

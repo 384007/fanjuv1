@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # What makes French Learner Dinner in Delhi worth the risk; Fanju app answers before you arrive | fanju-app
 

@@ -7,6 +7,7 @@ alternatePath: "/en/city/zhangjiajie"
 title: "张家界城市饭局指南 | fanju-app | 饭局app"
 description: "在张家界，下班后不再独自回家，饭局app让您找到同行的朋友，享受低成本的结束工作日方式。"
 recoveredFromD1: true
+---
 
 <article>
 <p>张家界城市饭局指南</p>

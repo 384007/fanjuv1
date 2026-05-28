@@ -7,6 +7,7 @@ alternatePath: "/city/jakarta/creator-dinner"
 title: "Experience Jakarta like a Local with Fanju app: A Guide to Creator Dinner | fanju-app | 饭局app"
 description: "Discover the authentic side of Jakarta through Fanju app's Creator Dinner, where you can connect with like-minded individuals and experience the city's vibrant culture."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Experience Jakarta like a Local with Fanju app: A Guide to Creator Dinner</h1>

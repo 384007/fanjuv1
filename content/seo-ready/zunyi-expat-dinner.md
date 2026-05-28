@@ -7,6 +7,7 @@ alternatePath: "/en/city/zunyi/expat-dinner"
 title: "遵义的一顿外籍和海归饭局，饭局app为什么先看人再看热闹 | fanju-app"
 description: "在遵义，一场饭局的意义往往不在吃饭本身。饭局app 不是群聊工具，也不是活动聚合平台，它试图做的，是让陌生人之间的一顿饭，先有信任，再有交流。尤其对于外籍人士和刚回国的海归，语言、文化、节奏的熟悉度不同，一顿饭的安全感，往往比热闹更重要。饭"
 recoveredFromD1: true
+---
 
 <article>
 <p># 遵义的一顿外籍和海归饭局，饭局app为什么先看人再看热闹</p>

@@ -7,6 +7,7 @@ alternatePath: "/city/kolkata/city-guide-dinner"
 title: "A More Curated Dinner Experience in Kolkata with Fanju app | fanju-app | 饭局app"
 description: "Discover the art of premium social dining in Kolkata with Fanju app, where every detail matters."
 recoveredFromD1: true
+---
 
 <article>
 <h1>A More Curated Dinner Experience in Kolkata with Fanju app</h1>

@@ -7,6 +7,7 @@ alternatePath: "/en/city/jingdezhen/consulting-dinner"
 title: "景德镇咨询饭局指南 | fanju-app | 饭局app"
 description: "在景德镇，Fanju / 饭局app 为您提供了一个高端社交饭局的平台，聚集了精选的同行和有趣的人。通过我们的咨询饭局，您可以在美食和愉快的氛围中，建立新的联系和深化现有的关系。"
 recoveredFromD1: true
+---
 
 <article>
 <p>景德镇咨询饭局指南</p>

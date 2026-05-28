@@ -7,6 +7,7 @@ alternatePath: "/city/new-york/weeknight-dinner"
 title: "Finding Intimacy in the City: Weeknight Dinner with Fanju app in New York | fanju-app | 饭局app"
 description: "Discover the art of hosting a weeknight dinner in New York with the help of Fanju app, where the contrast between the city's grandeur and the intimacy of a small table is the perfect setting for meaningful connections."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Finding Intimacy in the City: Weeknight Dinner with Fanju app in New York</h1>

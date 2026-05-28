@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/toronto/shared-table"
 alternatePath: "/city/toronto/shared-table"
-title: "Toronto Shared Table Guide | fanju-app | 饭局app"
+title: "Toronto Shared Table Guide | Fanju app"
 description: "Discover the world of social dining with Fanju app, a platform that connects you with like-minded individuals for small, meaningful meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <h2>What is Fanju?</h2>

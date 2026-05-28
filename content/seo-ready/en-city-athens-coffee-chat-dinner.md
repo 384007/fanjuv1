@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/athens/coffee-chat-dinner"
 alternatePath: "/city/athens/coffee-chat-dinner"
-title: "Athens Coffee Chat Dinner Guide | fanju-app | 饭局app"
+title: "Athens Coffee Chat Dinner Guide | Fanju app"
 description: "Discover the authentic side of Athens through small, real-world connections with Fanju app, a social dining app for clearly described meals and genuine relationships."
 recoveredFromD1: true
+---
 
 <article>
 <p>Athens, a city steeped in history and culture, is also a place where strangers become friends over a cup of coffee or a delicious meal. Fanju app is a platform that brings people together for small, intimate dinner gatherings, where real-world connections are made. With Fanju, you can join a Coffee Chat Dinner in Athens and experience the city&#039;s vibrant rhythm in a unique and safe way.</p>

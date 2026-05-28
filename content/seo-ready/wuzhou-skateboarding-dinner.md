@@ -21,6 +21,7 @@ promptSeed: "production-cloudflare-20260525T183055Z-round-1-000004"
 randomSeed: "production-cloudflare-20260525T183055Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T183055Z"
+---
 
 # 不想在梧州随便拼桌，饭局app怎样让滑板饭局变成一个真实决定 | fanju-app
 

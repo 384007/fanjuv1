@@ -7,6 +7,7 @@ alternatePath: "/city/los-angeles/business-dinner"
 title: "Planning a Business Dinner in Los Angeles with Fanju app | fanju-app | 饭局app"
 description: "Discover the art of hosting a successful business dinner in Los Angeles with the help of Fanju app, focusing on creating a seamless and enjoyable experience for all attendees."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Planning a Business Dinner in Los Angeles with Fanju app</h1>

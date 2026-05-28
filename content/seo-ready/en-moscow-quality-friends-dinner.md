@@ -7,6 +7,7 @@ alternatePath: "/city/moscow/quality-friends-dinner"
 title: "In Moscow, Fanju app turns Quality Friends Dinner into a table people can actually trust | fanju-app | 饭局app"
 description: "In Moscow, there's an app that brings people together for small, clearly described meals and real-world connections. Fanju app is a social dining app that helps you find and join Quality Friends Dinner events in the city"
 recoveredFromD1: true
+---
 
 <article>
 <p># In Moscow, Fanju app turns Quality Friends Dinner into a table people can actually trust</p>

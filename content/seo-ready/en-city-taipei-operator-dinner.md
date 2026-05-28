@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/taipei/operator-dinner"
 alternatePath: "/city/taipei/operator-dinner"
-title: "Taipei Operator Dinner Guide | fanju-app | 饭局app"
+title: "Taipei Operator Dinner Guide | Fanju app"
 description: "Find social dining events in Taipei with Fanju app, a platform for remote workers and solo professionals to connect over meals."
 recoveredFromD1: true
+---
 
 <article>
 <p>As a remote worker, you&#039;re likely no stranger to the feeling of isolation that comes with working from home. But what if you could turn your weekly dinner routine into a social anchor, a chance to connect with like-minded individuals and build meaningful relationships? This is exactly what Fanju app offers, a social dining platform that brings people together over small, clearly described meals. Whether you&#039;re a freelancer, entrepreneur, or simply someone who values community, Fanju is the perfect solution for you.</p>

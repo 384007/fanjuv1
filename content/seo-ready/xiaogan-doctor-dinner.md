@@ -7,6 +7,7 @@ alternatePath: "/en/city/xiaogan/doctor-dinner"
 title: "孝感医生饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 description: "在孝感，饭局app不是为了填满一张桌子而拉人入席的工具，它更关心谁坐在桌边、为什么能安静地聊上一整晚。这里的一顿饭，从不靠热闹撑场，而是靠边界清晰的邀请、提前说明的话题节奏，以及主理人对空间的克制选择。许多医生在孝感的日常是查房、写病历、开"
 recoveredFromD1: true
+---
 
 <article>
 <p># 孝感医生饭局不是凑人吃饭，饭局app更看重这一桌的边界</p>

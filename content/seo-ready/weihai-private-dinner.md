@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T180008Z-round-1-000002"
 randomSeed: "production-cloudflare-20260525T180008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T180008Z"
+---
 
 # 威海私密饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
@@ -85,3 +86,7 @@ publishedRunId: "production-cloudflare-20260525T180008Z"
 ######## 关于再次参加威海私密饭局为什么和第一次不一样
 
 第一次是试探，第二次是选择。你会更清楚自己想要什么样的节奏，也能更快识别出哪些主理人值得信任。在威海，私密饭局的意义，不是不断扩展社交圈，而是找到几种让你安心的吃饭方式——哪怕一年只参加两次，也足够提醒你：人与人之间，还有一种缓慢而真实的连接可能。
+
+
+## 在当地通过饭局app寻找饭搭子
+在weihai，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

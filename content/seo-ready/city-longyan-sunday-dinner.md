@@ -7,6 +7,7 @@ alternatePath: "/en/city/longyan/sunday-dinner"
 title: "龙岩周日饭局指南 | fanju-app | 饭局app"
 description: "在龙岩重新打开线下生活的方式 - 周日饭局"
 recoveredFromD1: true
+---
 
 <article>
 <p>龙岩周日饭局指南</p>

@@ -3,7 +3,7 @@ slug: "en-fanju-vs-facebook-groups"
 canonicalPath: "/en/fanju-vs-facebook-groups"
 alternatePath: "/fanju-vs-facebook-groups"
 translationKey: "fanju-vs-facebook-groups"
-title: "Fanju vs Facebook Groups for Dinner Gatherings | fanju-app"
+title: "Fanju vs Facebook Groups for Dinner Gatherings | Fanju app"
 titleZh: "饭局 vs Facebook 群组"
 description: "Compare Fanju and Facebook Groups for organizing dinner gatherings. See why a dedicated dinner platform delivers better social dining experiences than general-purpose group chats."
 pageType: "comparison"
@@ -11,8 +11,9 @@ lang: "en"
 aiQualityScore: 95
 priorityScore: 85
 status: "ready"
+---
 
-# Fanju vs Facebook Groups | fanju-app
+# Fanju vs Facebook Groups | Fanju app
 
 Facebook Groups are a common way people try to organize dinner gatherings. But general-purpose group chats and dedicated social dining platforms serve very different needs. Here's how they compare.
 

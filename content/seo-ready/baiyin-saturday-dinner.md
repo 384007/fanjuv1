@@ -7,6 +7,7 @@ alternatePath: "/en/city/baiyin/saturday-dinner"
 title: "在白银找一桌不尴尬的周六饭局，饭局app先解决什么 | fanju-app"
 description: "在白银，一场周六饭局如果只是“有人来吗”的群聊接龙，往往最后变成凑数的饭局——人来了，话题接不上，吃完各回各家。饭局app做的不是拉群，而是围绕小桌吃饭这件事，重新把主题、节奏和人之间的连接做实。它不追求热闹，也不搞大型活动拼桌，而是让白银"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在白银找一桌不尴尬的周六饭局，饭局app先解决什么</p>

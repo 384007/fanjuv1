@@ -7,6 +7,7 @@ alternatePath: "/en/city/chongzuo/third-place-dinner"
 title: "崇左想参加第三空间饭局，饭局app把信任感放在饭前 | fanju-app"
 description: "在崇左，饭局app不是约饭工具，而是重新理解本地关系的入口。它不堆餐厅推荐，也不做打卡排名，而是用一桌真实的人、一顿具体时间内的饭，去回应那些难以开口的社交问题：比如“我能和谁自然聊天”“在哪个角落不会显得突兀”。崇左的节奏慢，但人与人之间"
 recoveredFromD1: true
+---
 
 <article>
 <p># 崇左想参加第三空间饭局，饭局app把信任感放在饭前</p>

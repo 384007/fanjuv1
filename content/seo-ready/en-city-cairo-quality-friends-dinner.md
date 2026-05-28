@@ -7,6 +7,7 @@ alternatePath: "/city/cairo/quality-friends-dinner"
 title: "A Quality Friends Dinner in Cairo with Fanju app | fanju-app | 饭局app"
 description: "Experience a night of genuine connections and meaningful conversations in Cairo, facilitated by the trusted Fanju app."
 recoveredFromD1: true
+---
 
 <article>
 <h1>A Quality Friends Dinner in Cairo with Fanju app</h1>

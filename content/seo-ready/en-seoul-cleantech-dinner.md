@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # Seoul Cleantech Dinner through Fanju app: the questions to answer before you sit down | fanju-app
 

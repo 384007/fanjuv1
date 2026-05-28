@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Vancouver strangers sit down easier when Fanju app frames the Professor Dinner table first | fanju-app
 

@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Why Private Equity Dinner in Cape Town works better when Fanju app keeps the table small | fanju-app
 

@@ -7,6 +7,7 @@ alternatePath: "/en/city/xuchang/local-food-dinner"
 title: "许昌本地美食饭局指南 | fanju-app | 饭局app"
 description: "在许昌体验本地美食的同时，建立社区联系，成为城市社交骨架的一部分。"
 recoveredFromD1: true
+---
 
 <article>
 <p>许昌本地美食饭局指南</p>

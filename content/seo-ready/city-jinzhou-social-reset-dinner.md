@@ -7,6 +7,7 @@ alternatePath: "/en/city/jinzhou/social-reset-dinner"
 title: "锦州社交重启饭局指南 | fanju-app | 饭局app"
 description: "在锦州通过饭局app找到真实的连接，成为城市的一部分。"
 recoveredFromD1: true
+---
 
 <article>
 <p>锦州社交重启饭局指南</p>

@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # Before the first message in London, Fanju app makes Morning Routine Dinner feel like a real decision | fanju-app
 

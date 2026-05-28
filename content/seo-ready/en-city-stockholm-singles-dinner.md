@@ -7,6 +7,7 @@ alternatePath: "/city/stockholm/singles-dinner"
 title: "Embracing Connection: My First Singles Dinner with Fanju app in Stockholm | fanju-app | 饭局app"
 description: "Discover how the Fanju app transforms singles dinners in Stockholm, from initial hesitation to meaningful connections, through a first-timer's lens."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Embracing Connection: My First Singles Dinner with Fanju app in Stockholm</h1>

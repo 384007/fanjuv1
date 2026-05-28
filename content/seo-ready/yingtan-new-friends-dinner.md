@@ -7,6 +7,7 @@ alternatePath: "/en/city/yingtan/new-friends-dinner"
 title: "在鹰潭找一桌不尴尬的新朋友饭局，饭局app先解决什么 | fanju-app"
 description: "饭局app在鹰潭做的事，听起来简单：帮人找到愿意坐下来吃饭的新朋友。但它真正回应的，是许多人在城市里生活一段时间后才慢慢意识到的问题——认识人不难，难的是建立有延续感的连接。在鹰潭，这种感觉尤其真实。这里节奏不快不慢，老城区还保留着邻里打招"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在鹰潭找一桌不尴尬的新朋友饭局，饭局app先解决什么</p>

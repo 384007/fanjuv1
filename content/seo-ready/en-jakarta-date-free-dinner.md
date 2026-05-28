@@ -7,6 +7,7 @@ alternatePath: "/city/jakarta/date-free-dinner"
 title: "Jakarta after work: how Fanju app makes Date Free Dinner feel like a real room | fanju-app | 饭局app"
 description: "As a newcomer to Jakarta, navigating the city's vibrant social scene can be daunting. With so many options for dining and entertainment, it's easy to feel overwhelmed. But what if you're looking for something more meanin"
 recoveredFromD1: true
+---
 
 <article>
 <p># Jakarta after work: how Fanju app makes Date Free Dinner feel like a real room</p>

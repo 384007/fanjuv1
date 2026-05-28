@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T120007Z-round-1-000004"
 randomSeed: "production-cloudflare-20260525T120007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
+---
 
 # 德阳品鉴菜单饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 
@@ -85,3 +86,7 @@ publishedRunId: "production-cloudflare-20260525T120007Z"
 ######## 德阳品鉴菜单饭局的回头客会注意到新人看不到的东西
 
 回头客会察觉主理人今天是不是有点疲惫，会不会影响饭桌节奏；会注意到新来的那个人，虽然话少，但每道菜都吃得认真；会发现菜单里藏着对某位常客偏好的回应。这些细节不会被说出来，但会在饭桌上悄然流动。在德阳，这种默契的积累，正是小桌饭局能长出城市社区的原因——它不靠口号，而靠一次次真实的共食，慢慢织出一张轻而韧的关系网。
+
+
+## 在当地通过饭局app寻找饭搭子
+在deyang，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

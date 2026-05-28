@@ -7,6 +7,7 @@ alternatePath: "/city/stockholm/city-community-dinner"
 title: "Discovering Stockholm through Fanju app Community Dinners | fanju-app | 饭局app"
 description: "Join the vibrant community of Stockholm through a unique dining experience with Fanju app, where locals and visitors come together to share stories and create unforgettable memories."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Discovering Stockholm through Fanju app Community Dinners</h1>

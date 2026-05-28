@@ -7,6 +7,7 @@ alternatePath: "/en/city/chenzhou/city-guide-dinner"
 title: "郴州城市指南饭局指南 | fanju-app | 饭局app"
 description: "郴州城市指南饭局指南，帮助您发现郴州美食的真实本地餐厅地图。"
 recoveredFromD1: true
+---
 
 <article>
 <p>郴州城市指南饭局指南</p>

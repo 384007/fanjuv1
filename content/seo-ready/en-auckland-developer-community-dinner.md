@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260525T210005Z-round-1-000007"
 randomSeed: "production-cloudflare-20260525T210005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T210005Z"
+---
 
 # For people trying Developer Community Dinner in Auckland, Fanju app puts the guest mix first | fanju-app
 Arriving in a new city like Auckland can feel isolating, especially when looking to build professional connections. The Fanju app offers a unique approach by curating small, focused dining experiences designed for genuine interaction, moving beyond the superficiality of larger events. This particular event, a Developer Community Dinner, is tailored for those seeking to integrate into Auckland's tech scene through shared meals, focusing on the quality of conversation and the discovery of local flavours rather than just networking. It's about finding a rhythm at the table that feels natural and welcoming, even if you don't know a soul when you walk in.

@@ -7,6 +7,7 @@ alternatePath: "/city/perth/verified-host-dinner"
 title: "Verified Host Dinner in Perth with Fanju app | fanju-app | 饭局app"
 description: "Join a stress-free dinner with like-minded people in Perth, facilitated by the Fanju app, where you can enjoy meaningful conversations without the pressure of romance."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Verified Host Dinner in Perth with Fanju app</h1>

@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # A calmer way to approach Farm To Table Dinner in Atlanta through Fanju app | fanju-app
 

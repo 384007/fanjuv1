@@ -4,14 +4,15 @@ canonicalPath: "/en/city/los-angeles/dinner-buddy"
 alternatePath: "/city/los-angeles/dinner-buddy"
 translationKey: "los-angeles-dinner-buddy"
 lang: "en"
-title: "Los Angeles Dinner Buddy Guide | fanju-app"
+title: "Los Angeles Dinner Buddy Guide | Fanju app"
 titleZh: "Los Angeles Dinner Buddy Guide"
 pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
+---
 
-# Los Angeles Dinner Buddy Guide | fanju-app
+# Los Angeles Dinner Buddy Guide | Fanju app
 
 ## What Is This Page About
 

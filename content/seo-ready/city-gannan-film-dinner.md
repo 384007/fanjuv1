@@ -7,6 +7,7 @@ alternatePath: "/en/city/gannan/film-dinner"
 title: "甘南影视饭局指南 | fanju-app | 饭局app"
 description: "在甘南的影视饭局中，体验当地美食和电影文化的完美结合。通过饭局app，发现更多的本地餐厅和影院，和同行一起分享美食和电影的快乐。"
 recoveredFromD1: true
+---
 
 <article>
 <p>甘南影视饭局指南</p>

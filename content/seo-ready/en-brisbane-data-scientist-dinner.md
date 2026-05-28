@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # How Fanju app turns a Brisbane Data Scientist Dinner night into something worth showing up for | fanju-app
 

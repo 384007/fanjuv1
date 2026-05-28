@@ -7,6 +7,7 @@ alternatePath: "/city/sao-paulo/music-dinner"
 title: "A calmer way to approach Music Dinner in Sao Paulo through Fanju app | fanju-app | 饭局app"
 description: "In Sao Paulo, where dinner invitations often fade into text-message limbo and weekend plans dissolve before they begin, Fanju app offers a different rhythm. It’s not about large gatherings or loud bars, but small, intent"
 recoveredFromD1: true
+---
 
 <article>
 <p># A calmer way to approach Music Dinner in Sao Paulo through Fanju app</p>

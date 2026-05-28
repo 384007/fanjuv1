@@ -21,6 +21,7 @@ promptSeed: "production-cloudflare-20260526T010006Z-round-1-000006"
 randomSeed: "production-cloudflare-20260526T010006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T010006Z"
+---
 
 # 在钦州找一桌不尴尬的编织饭局，饭局app先解决什么 | fanju-app
 

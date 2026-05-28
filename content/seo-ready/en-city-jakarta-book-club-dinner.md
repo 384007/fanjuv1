@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/jakarta/book-club-dinner"
 alternatePath: "/city/jakarta/book-club-dinner"
-title: "Jakarta Book Club Dinner Guide | fanju-app | 饭局app"
+title: "Jakarta Book Club Dinner Guide | Fanju app"
 description: "Discover the joy of social dining with Fanju app, a platform that connects like-minded individuals for small, meaningful meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>As a remote worker, you&#039;re no stranger to the feeling of isolation that comes with working from home. The days blend together, and it&#039;s easy to go weeks without having a meaningful conversation with someone outside of your household. That&#039;s where Fanju comes in – a social dining app that brings people together for small, clearly described meals and real-world connections.</p>

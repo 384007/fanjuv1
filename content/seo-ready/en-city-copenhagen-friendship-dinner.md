@@ -7,6 +7,7 @@ alternatePath: "/city/copenhagen/friendship-dinner"
 title: "Copenhagen Friendship Dinner Guide for Fanju app | fanju-app | 饭局app"
 description: "{\"title\":\"Experience Friendship Dinner in Copenhagen with Fanju app\",\"description\":\"Join a unique social reboot in the heart of Copenhagen with Fanju app, where you can reconnect with friends and like-minded individuals"
 recoveredFromD1: true
+---
 
 <article>
 <h1>Copenhagen Friendship Dinner Guide for Fanju app</h1>

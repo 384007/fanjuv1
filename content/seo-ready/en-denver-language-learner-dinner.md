@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260526T100008Z-round-1-000003"
 randomSeed: "production-cloudflare-20260526T100008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T100008Z"
+---
 
 # For people trying Language Learner Dinner in Denver, Fanju app puts the guest mix first | fanju-app
 

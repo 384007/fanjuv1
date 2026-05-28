@@ -7,6 +7,7 @@ alternatePath: "/city/san-diego/hotpot-dinner"
 title: "San Diego does not need another vague invite; Fanju app makes Hotpot Dinner specific | fanju-app | 饭局app"
 description: "San Diego, a city known for its year-round mild climate and stunning beaches, has a thriving food scene that's perfect for social dining. Fanju app is a social dining app that connects locals and visitors for small, clea"
 recoveredFromD1: true
+---
 
 <article>
 <p># San Diego does not need another vague invite; Fanju app makes Hotpot Dinner specific</p>

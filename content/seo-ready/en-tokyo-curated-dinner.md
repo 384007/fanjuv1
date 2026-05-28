@@ -4,14 +4,15 @@ canonicalPath: "/en/city/tokyo/curated-dinner"
 alternatePath: "/city/tokyo/curated-dinner"
 translationKey: "tokyo-curated-dinner"
 lang: "en"
-title: "Tokyo Curated Dinner Guide | fanju-app"
+title: "Tokyo Curated Dinner Guide | Fanju app"
 titleZh: "Tokyo Curated Dinner Guide"
 pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
+---
 
-# Tokyo Curated Dinner Guide for Dinner-First Social Dining | fanju-app
+# Tokyo Curated Dinner Guide for Dinner-First Social Dining | Fanju app
 
 Tokyo, a city that pulses with an unparalleled blend of tradition and innovation, offers a culinary landscape as diverse as its population. From the neon-drenched streets of Shinjuku to the serene gardens of the Imperial Palace, finding the perfect dining experience can be an adventure in itself. For those seeking more than just a meal, for those who believe that shared food is the foundation of genuine connection, Fanju presents a unique approach to social dining. Fanju is an AI social dining app and dinner gathering platform designed to help you find dinner buddies, host local dinner gatherings, and build real-world social connections around shared meals. This guide is crafted for individuals in Tokyo looking to discover curated dinner experiences through Fanju, transforming everyday meals into opportunities for meaningful social interaction.
 

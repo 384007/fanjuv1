@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T110006Z-round-1-000007"
 randomSeed: "production-cloudflare-20260525T110006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
+---
 
 # Why Safe Social Dinner in Boston works better when Fanju app keeps the table small | fanju-app
 

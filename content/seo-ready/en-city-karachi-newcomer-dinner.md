@@ -7,6 +7,7 @@ alternatePath: "/city/karachi/newcomer-dinner"
 title: "A Taste of Connection: How Fanju App Brings Karachi's Newcomers Together Over Dinner | fanju-app | 饭局app"
 description: "Discover the power of food in breaking the ice and forging meaningful relationships in Karachi with Fanju app's newcomer dinner concept."
 recoveredFromD1: true
+---
 
 <article>
 <h1>A Taste of Connection: How Fanju App Brings Karachi&#039;s Newcomers Together Over Dinner</h1>

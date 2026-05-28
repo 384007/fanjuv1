@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # For people trying Fintech Dinner in Addis Ababa, Fanju app puts the guest mix first | fanju-app
 

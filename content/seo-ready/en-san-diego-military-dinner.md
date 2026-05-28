@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # San Diego does not need another vague invite; Fanju app makes Military Dinner specific | fanju-app
 

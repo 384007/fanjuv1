@@ -7,6 +7,7 @@ alternatePath: "/en/city/changsha/weekend-dinner"
 title: "在长沙把周末饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 description: "第一次点开饭局app时，长沙的周末正飘着细雨。我盯着手机屏幕，手指在报名键上悬停了几秒——这是一场在南门口老巷子里的六人晚饭，主题是“在长沙住过十年的人聊聊这城的变化”。我不是没参加过饭局，但多数是朋友拉我凑数，吃到最后只剩寒暄。这次不一样"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在长沙把周末饭局坐稳，饭局app需要筛掉哪些尴尬</p>

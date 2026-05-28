@@ -7,6 +7,7 @@ alternatePath: "/city/houston/mandarin-dinner"
 title: "Finding Connection in Houston with Fanju App: A Guide to Mandarin Dinner | fanju-app | 饭局app"
 description: "Experience the authentic taste of Mandarin dinner in Houston with Fanju app, a low-pressure way to reconnect with others in the city."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Finding Connection in Houston with Fanju App: A Guide to Mandarin Dinner</h1>

@@ -7,6 +7,7 @@ alternatePath: "/en/city/honghe/holiday-dinner"
 title: "红河节假日饭局指南 | fanju-app | 饭局app"
 description: "在红河发现真实的连接"
 recoveredFromD1: true
+---
 
 <article>
 <p>在红河的生活中，节假日饭局是连接新来的朋友和老牌居民的绝佳机会。作为一名刚搬来这座城市的人，你可能会感到陌生和孤独。然而，通过一顿饭局，你可以快速建立友谊和获得本地的支持。那么，如何在红河找到适合你的饭局呢？</p>

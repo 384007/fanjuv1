@@ -7,6 +7,7 @@ alternatePath: "/en/city/shaoyang/city-guide-dinner"
 title: "邵阳的一顿城市指南饭局，饭局app为什么先看人再看热闹 | fanju-app"
 description: "在邵阳，一天工作结束，走出办公楼时天色已经发灰，街边的米粉店亮起灯，电动车在巷口排队等红灯。这时候，你是直接拐进公交站，还是犹豫着打开饭局app，看看今晚有没有一桌不赶时间、也不拼酒的人等着吃饭？饭局app不是快餐式社交，它在邵阳做的，是把"
 recoveredFromD1: true
+---
 
 <article>
 <p># 邵阳的一顿城市指南饭局，饭局app为什么先看人再看热闹</p>

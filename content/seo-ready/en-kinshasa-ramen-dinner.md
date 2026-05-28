@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260526T030005Z-round-1-000003"
 randomSeed: "production-cloudflare-20260526T030005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
+---
 
 # The Ramen Dinner table Kinshasa actually needs is the one Fanju app describes up front | fanju-app
 In Kinshasa, the idea of a spontaneous dinner can feel both inviting and a little daunting. Many might imagine a loosely organized gathering, a vague "let's grab a bite" that could turn into anything. However, for those seeking genuine connection and a clear purpose, the Ramen Dinner format, as presented on the Fanju app, offers a more grounded and intentional experience, focusing on real-life interactions over fleeting social obligations. This approach aims to demystify the small dinner gathering, making it accessible and desirable for residents looking to connect authentically after work.

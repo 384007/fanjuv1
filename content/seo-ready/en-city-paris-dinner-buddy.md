@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/paris/dinner-buddy"
 alternatePath: "/city/paris/dinner-buddy"
-title: "Paris Dinner Buddy Guide | fanju-app | 饭局app"
+title: "Paris Dinner Buddy Guide | Fanju app"
 description: "Discover the art of building community through dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Paris, the City of Light, is known for its rich history, art, fashion, and cuisine. But beyond its famous landmarks and romantic atmosphere, Paris is also a city of community and connection. In this guide, we&#039;ll explore the concept of Dinner Buddy, a social dining experience that brings people together through shared meals and real-world connections.</p>

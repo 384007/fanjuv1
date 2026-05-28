@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260526T020005Z-round-1-000009"
 randomSeed: "production-cloudflare-20260526T020005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T020005Z"
+---
 
 # A calmer way to approach Finance Dinner in Sydney through Fanju app | fanju-app
 

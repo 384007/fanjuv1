@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Khartoum strangers sit down easier when Fanju app frames the Military Dinner table first | fanju-app
 

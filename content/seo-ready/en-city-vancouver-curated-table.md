@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/vancouver/curated-table"
 alternatePath: "/city/vancouver/curated-table"
-title: "Vancouver Curated Table Guide | fanju-app | 饭局app"
+title: "Vancouver Curated Table Guide | Fanju app"
 description: "Discover the world of social dining in Vancouver with Fanju app, a platform that brings people together for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Vancouver is a city that seamlessly blends urban sophistication with a laid-back, outdoorsy vibe. As a newcomer to this vibrant metropolis, you might find yourself wondering how to navigate its diverse neighborhoods, make meaningful connections, and experience the local culture. One way to do this is by joining a Curated Table, a unique social dining experience that allows you to break bread with like-minded individuals in a relaxed and welcoming atmosphere.</p>

@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/auckland/social-reset-dinner"
 alternatePath: "/city/auckland/social-reset-dinner"
-title: "Auckland Social Reset Dinner Guide | fanju-app | 饭局app"
+title: "Auckland Social Reset Dinner Guide | Fanju app"
 description: "Discover the benefits of small, in-person gatherings with Fanju app, a social dining app that fosters real-world connections and meaningful relationships in Auckland."
 recoveredFromD1: true
+---
 
 <article>
 <p>Auckland Social Reset Dinner Guide</p>

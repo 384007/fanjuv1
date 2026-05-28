@@ -7,6 +7,7 @@ alternatePath: "/city/hyderabad/slow-social-dinner"
 title: "Hyderabad after work: how Fanju app makes Slow Social Dinner feel like a real room | fanju-app | 饭局app"
 description: "Fanju app helps people in Hyderabad find small, intentional dinners with strangers who aren’t trying to sell anything or impress anyone. It’s not a restaurant booking tool or a dating setup—it’s a way to join dinners lim"
 recoveredFromD1: true
+---
 
 <article>
 <p># Hyderabad after work: how Fanju app makes Slow Social Dinner feel like a real room</p>

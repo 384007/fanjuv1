@@ -9,7 +9,8 @@ description: "旧金山桌游饭局适合湾区用户通过公开小桌晚餐和
 pageType: "city_topic"
 priorityScore: 76
 aiQualityScore: 95
-status: "ready"
+status: "draft"
+---
 
 # 旧金山桌游饭局指南：让破冰更自然的一桌晚餐 | fanju-app | 饭局app
 

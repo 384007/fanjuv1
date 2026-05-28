@@ -7,6 +7,7 @@ alternatePath: "/en/city/suihua/loneliness-solution-dinner"
 title: "绥化解决孤独饭局指南 | fanju-app | 饭局app"
 description: "在绥化体验 Fanju 饭局app 的独特社交体验，解决孤独饭局的困扰。"
 recoveredFromD1: true
+---
 
 <article>
 <p>在绥化，独自旅行的你可能会遇到孤独的感觉，但是在这里，有一个解决方案可以帮助你解决这个问题：Fanju 饭局app。这个社交应用围绕着小桌吃饭、清晰主题和线下连接，提供了一个独特的社交体验，让你可以与其他人建立联系，分享经验和故事。</p>

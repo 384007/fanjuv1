@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # When Weeknight Dinner feels too loose in Melbourne, Fanju app starts with the table | fanju-app
 

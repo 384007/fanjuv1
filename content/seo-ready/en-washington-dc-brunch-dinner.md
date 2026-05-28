@@ -7,6 +7,7 @@ alternatePath: "/city/washington-dc/brunch-dinner"
 title: "For people trying Brunch Social in Washington DC, Fanju app puts the guest mix first | fanju-app | 饭局app"
 description: "In Washington DC, where the pace of life can be fast and the social scene is always buzzing, it's not uncommon to find yourself looking for a more meaningful way to connect with others over a meal. This is where Fanju ap"
 recoveredFromD1: true
+---
 
 <article>
 <p># For people trying Brunch Social in Washington DC, Fanju app puts the guest mix first</p>

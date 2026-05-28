@@ -21,6 +21,7 @@ promptSeed: "production-cloudflare-20260526T092033Z-round-1-000008"
 randomSeed: "production-cloudflare-20260526T092033Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
+---
 
 # 和田公益筹款饭局，Fanju 饭局app先把信任边界说清楚 | fanju-app
 

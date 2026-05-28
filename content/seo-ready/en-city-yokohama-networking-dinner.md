@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/yokohama/networking-dinner"
 alternatePath: "/city/yokohama/networking-dinner"
-title: "Yokohama Networking Dinner Guide: Building Connections One Table at a Time | fanju-app | 饭局app"
+title: "Yokohama Networking Dinner Guide: Building Connections One Table at a Time | Fanju app"
 description: "Discover how the Fanju app fosters genuine connections through intimate networking dinners in Yokohama. This guide explores how these small gatherings, facilitated by the Fanju app, serve as the foundational units for building a vibrant city community. Learn how repeat attendees, shared interests, and a focus on local neighbourhoods contribute to a growing social fabric, transforming casual encounters into lasting friendships and professional relationships within Yokohama."
 recoveredFromD1: true
+---
 
 <article>
 <p>Yokohama&#039;s vibrant energy pulses through its diverse neighbourhoods, and at its heart, community is built one shared meal at a time. The Fanju app is designed to facilitate these intimate networking dinners, focusing on creating small, clearly described gatherings that lead to real-world connections. These aren&#039;t large, impersonal events; rather, they are opportunities for individuals to connect on a more personal level, fostering a sense of belonging that extends beyond the dinner table. By treating each dinner as a potential building block for a stronger social fabric, Fanju encourages the formation of repeat tables and the blossoming of neighbourly bonds.</p>

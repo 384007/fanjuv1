@@ -7,6 +7,7 @@ alternatePath: "/en/city/changchun/dinner-buddy"
 title: "在长春把饭搭子坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 description: "在长春，一场真正有效的饭局从不是在酒桌上拼出交情，而是在晚餐前就已定下调性。饭局app不是用来凑饭的社交广场，它更像一个过滤器，帮你在城市节奏中找到那张对的饭桌——有清晰主题、人数可控、同桌背景适配，尤其适合创业者、自由职业者或刚落地长春需"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在长春把饭搭子坐稳，饭局app需要筛掉哪些尴尬</p>

@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/mexico-city/social-reset-dinner"
 alternatePath: "/city/mexico-city/social-reset-dinner"
-title: "Mexico City Social Reset Dinner Guide | fanju-app | 饭局app"
+title: "Mexico City Social Reset Dinner Guide | Fanju app"
 description: "Discover the art of curated social dining in Mexico City with Fanju app, a platform that brings people together for meaningful connections over delicious meals."
 recoveredFromD1: true
+---
 
 <article>
 <p>In Mexico City, where vibrant culture and rich history meet, social dining has become an integral part of the city&#039;s rhythm. For those seeking a more refined and intentional way to connect with others, Social Reset Dinners offer a unique opportunity to break bread and forge lasting relationships. This guide will walk you through the world of Social Reset Dinners in Mexico City, highlighting the key aspects to consider and the benefits of this curated social experience.</p>

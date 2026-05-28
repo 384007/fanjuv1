@@ -7,6 +7,7 @@ alternatePath: "/en/city/nanchang/safe-social-dinner"
 title: "在南昌找一桌不尴尬的安全社交饭局，饭局app先解决什么 | fanju-app"
 description: "饭局app，一个围绕小桌吃饭、清晰主题和线下连接的社交应用，在南昌这样的城市，它首先要解决的是如何让人们找到一桌既有温度又不失分寸的饭局。在钢筋水泥的都市丛林中，建立真实而安全的连接变得尤为重要。南昌的市民们，无论是在工作日下班后想拓展人脉"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在南昌找一桌不尴尬的安全社交饭局，饭局app先解决什么</p>

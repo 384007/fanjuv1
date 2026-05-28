@@ -7,6 +7,7 @@ alternatePath: "/city/delhi/cross-border-dinner"
 title: "Delhi after work: how Fanju app makes Cross Border Dinner feel like a real room | fanju-app | 饭局app"
 description: "Fanju app connects remote workers in Delhi through small, intentional dinners that go beyond casual meetups. These Cross Border Dinner events are designed not for crowds, but for clarity—offering a space where profession"
 recoveredFromD1: true
+---
 
 <article>
 <p># Delhi after work: how Fanju app makes Cross Border Dinner feel like a real room</p>

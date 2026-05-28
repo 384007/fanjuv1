@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/khartoum/founder-operator-dinner"
 alternatePath: "/city/khartoum/founder-operator-dinner"
-title: "Khartoum Founder Operator Dinner Guide | fanju-app | 饭局app"
+title: "Khartoum Founder Operator Dinner Guide | Fanju app"
 description: "Discover the world of social dining with Fanju app, a platform for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>As the sun sets over Khartoum, many remote workers find themselves transitioning from a productive day at home to a quiet evening alone. For those who crave a recurring social anchor in their week, Founder Operator Dinners offer a unique opportunity to connect with like-minded individuals in a relaxed setting.</p>

@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # Dubai after work: how Fanju app makes Newcomer Guide Dinner feel like a real room | fanju-app
 

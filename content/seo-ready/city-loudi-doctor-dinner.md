@@ -7,6 +7,7 @@ alternatePath: "/en/city/loudi/doctor-dinner"
 title: "娄底医生饭局指南 | fanju-app | 饭局app"
 description: "在娄底的医生饭局中，通过饭局app与当地医生建立联系，体验娄底独特的医生文化。"
 recoveredFromD1: true
+---
 
 <article>
 <p>娄底医生饭局指南</p>

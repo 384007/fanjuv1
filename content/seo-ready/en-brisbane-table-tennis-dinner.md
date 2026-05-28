@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T105242Z-round-1-000005"
 randomSeed: "production-cloudflare-20260525T105242Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T105242Z"
+---
 
 # Brisbane after work: how Fanju app makes Table Tennis Dinner feel like a real room | fanju-app
 

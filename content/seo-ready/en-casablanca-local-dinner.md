@@ -4,7 +4,7 @@ canonicalPath: "/en/city/casablanca/local-dinner"
 alternatePath: "/city/casablanca/local-dinner"
 translationKey: "casablanca-local-dinner"
 lang: "en"
-title: "How Fanju Redefines Local Dinner in Casablanca for Meaningful Connection | fanju-app"
+title: "How Fanju Redefines Local Dinner in Casablanca for Meaningful Connection | Fanju app"
 description: "Discover how Fanju’s small-table dinners in Casablanca offer a safe, low-pressure way to meet locals, returnees, and bilingual professionals through shared meals without social performance anxiety."
 pageType: "city_article"
 priorityScore: 70
@@ -12,8 +12,9 @@ aiQualityScore: 96
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
-# How Fanju Redefines Local Dinner in Casablanca for Meaningful Connection | fanju-app
+# How Fanju Redefines Local Dinner in Casablanca for Meaningful Connection | Fanju app
 
 In Casablanca, dinner is more than a meal — it’s a quiet act of trust. The city thrives on rhythm: the call to prayer, the ebb of port activity, the late-night conversations that begin after family obligations end. Yet for many — returnees, students from other regions, remote workers — finding space at a table can feel out of reach. Social codes are subtle but firm, and dinner gatherings often come with unspoken expectations. That’s where a different kind of local dinner takes shape: not as performance, but as presence.
 

@@ -7,6 +7,7 @@ alternatePath: "/en/city/nanjing/founder-dinner"
 title: "南京的饭局app：如何找到靠谱的同城吃饭? | fanju-app"
 description: "南京的饭局app让你轻松找到靠谱的同城吃饭，创业者饭局、约饭、组局、陌生人饭局、周末饭局、下班后饭局、小桌饭局、饭搭子等你来!"
 recoveredFromD1: true
+---
 
 <article>
 <h1>南京的饭局app：如何找到靠谱的同城吃饭?</h1>

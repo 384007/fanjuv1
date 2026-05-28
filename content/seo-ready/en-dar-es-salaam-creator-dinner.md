@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260526T010006Z-round-1-000003"
 randomSeed: "production-cloudflare-20260526T010006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T010006Z"
+---
 
 # Dar es Salaam has plenty of Creator Dinner options; Fanju app is the one that names the table first | fanju-app
 

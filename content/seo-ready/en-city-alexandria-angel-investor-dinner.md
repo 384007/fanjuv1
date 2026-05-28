@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/alexandria/angel-investor-dinner"
 alternatePath: "/city/alexandria/angel-investor-dinner"
-title: "Alexandria Angel Investor Dinner Guide | fanju-app | 饭局app"
+title: "Alexandria Angel Investor Dinner Guide | Fanju app"
 description: "Join a unique social dining experience in Alexandria with Fanju app, a platform for small, meaningful meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>As a seasoned host of intimate dinners, I&#039;ve learned what makes a table feel right. It&#039;s not just about the food or the company, but about creating a space where people feel comfortable sharing their thoughts and experiences. In this guide, I&#039;ll share my insights on hosting a successful Angel Investor Dinner in Alexandria, and what you can expect from a Fanju dinner.</p>

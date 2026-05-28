@@ -7,6 +7,7 @@ alternatePath: "/en/city/tongchuan/trusted-rsvp-dinner"
 title: "在铜川把可信报名饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 description: "在铜川，饭局app已经成为人们社交的重要平台。每当看到一桌人聚在一起，分享美食和故事时，人们都会心生羡慕。然而，很多人在报名饭局时会遇到一个问题：一个人来会不会显得尴尬？答案是肯定的。一个人来饭局不仅会显得尴尬，还会让其他人感到不舒服。"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在铜川把可信报名饭局坐稳，饭局app需要筛掉哪些尴尬</p>

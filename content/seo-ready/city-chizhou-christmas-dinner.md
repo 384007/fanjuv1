@@ -7,6 +7,7 @@ alternatePath: "/en/city/chizhou/christmas-dinner"
 title: "池州圣诞饭局指南 | fanju-app | 饭局app"
 description: "在池州，圣诞节是一种特殊的时刻，人们聚集在一起分享喜悦和温暖。Fanju / 饭局app 是一种围绕小桌吃饭、清晰主题和线下连接的社交应用，帮助您找到合适的朋友和同事一起共度圣诞夜。"
 recoveredFromD1: true
+---
 
 <article>
 <p>池州圣诞饭局指南</p>

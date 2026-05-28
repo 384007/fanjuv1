@@ -7,6 +7,7 @@ alternatePath: "/city/perth/teacher-dinner"
 title: "Perth does not need another vague invite; Fanju app makes Teacher Dinner specific | fanju-app | 饭局app"
 description: "In Perth, the workday often ends not with a rush to the city’s edge, but with a pause—teachers, tutors, and educators lingering in staff rooms or walking to their cars, weighing whether to head straight home or make one"
 recoveredFromD1: true
+---
 
 <article>
 <p># Perth does not need another vague invite; Fanju app makes Teacher Dinner specific</p>

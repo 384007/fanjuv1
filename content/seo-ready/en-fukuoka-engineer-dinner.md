@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # Fukuoka strangers sit down easier when Fanju app frames the Engineer Dinner table first | fanju-app
 

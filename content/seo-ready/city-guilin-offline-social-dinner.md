@@ -7,6 +7,7 @@ alternatePath: "/en/city/guilin/offline-social-dinner"
 title: "桂林线下社交饭局指南 | fanju-app | 饭局app"
 description: "桂林线下社交饭局指南，帮助你在下班后不再独自回家，通过饭局app发现新朋友和新体验。"
 recoveredFromD1: true
+---
 
 <article>
 <p>桂林是一座美丽的城市，拥有众多的自然景观和文化遗产。然而，在日常生活中，我们常常会感到孤独和无聊。饭局app是一个社交应用，旨在帮助人们在下班后找到同样兴趣的人，通过线下社交饭局建立新的关系。</p>

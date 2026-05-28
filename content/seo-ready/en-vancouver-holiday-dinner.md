@@ -7,6 +7,7 @@ alternatePath: "/city/vancouver/holiday-dinner"
 title: "In Vancouver, Fanju app turns Holiday Dinner into a table people can actually trust | fanju-app | 饭局app"
 description: "The Fanju app helps Vancouver residents find small, intentional holiday dinners with hosts who care about menu details, guest balance, and real conversation—not just filling seats. Instead of last-minute group texts or v"
 recoveredFromD1: true
+---
 
 <article>
 <p># In Vancouver, Fanju app turns Holiday Dinner into a table people can actually trust</p>

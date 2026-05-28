@@ -19,20 +19,69 @@ console.log("Starting strictly surgical remediation (remove-only)...")
 // 1. Remediate Markdown Sources
 for (const file of walk(SOURCE_DIR)) {
   if (!file.endsWith(".md")) continue
-  let content = readFileSync(file, "utf8")
+  let raw = readFileSync(file, "utf8")
   let changed = false
   
-  // Remove templated H2s
+  // Parse frontmatter briefly
+  const fmMatch = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/)
+  if (!fmMatch) continue
+  const fm = fmMatch[1]
+  let body = raw.slice(fmMatch[0].length)
+  
+  const meta = {}
+  for (const line of fm.split("\n")) {
+    const m = line.match(/^(\w+):\s*(.*)\s*$/)
+    if (m) meta[m[1]] = m[2].trim().replace(/^["']|["']$/g, "")
+  }
+
+  if (meta.status !== "ready") continue
+
+  // Fix body: Remove templated H2s
+  let newBody = body
   for (const h2 of TEMPLATE_H2S) {
     const regex = new RegExp(`## ${h2}[\\s\\S]*?(?=##|$)`, 'g')
-    if (content.match(regex)) {
-      content = content.replace(regex, '')
+    if (newBody.match(regex)) {
+      newBody = newBody.replace(regex, '')
       changed = true
     }
   }
+
+  // Check body length (trim to be sure)
+  const lang = meta.lang === "en" ? "en" : "zh"
+  if (newBody.trim().length < (lang === "en" ? 1200 : 800)) {
+    raw = raw.replace(/status:\s*["']?ready["']?/, 'status: "draft"')
+    writeFileSync(file, raw, "utf8")
+    continue
+  }
   
+  // Fix title and H1 in frontmatter/body
+  const isEn = lang === "en"
+  const brandKw = isEn ? "Fanju app" : "饭局app"
+  const titleRegex = isEn ? /Fanju app/i : /(饭局|饭搭子|Fanju)/i
+  
+  let newFm = fmMatch[0]
+  if (meta.title && !titleRegex.test(meta.title)) {
+    const cleanTitle = meta.title.replace(/ \| (fanju-app|fanju|饭局app|饭局)/gi, "").trim()
+    const newTitle = `${cleanTitle} | ${brandKw}`
+    newFm = newFm.replace(`title: "${meta.title}"`, `title: "${newTitle}"`)
+                 .replace(`title: '${meta.title}'`, `title: "${newTitle}"`)
+                 .replace(`title: ${meta.title}\n`, `title: "${newTitle}"\n`)
+    changed = true
+  }
+
+  // Fix H1 independently
+  const h1Match = newBody.match(/^#\s+(.+)$/m)
+  if (h1Match) {
+    const h1Text = h1Match[1].trim()
+    if (!titleRegex.test(h1Text)) {
+      const cleanH1 = h1Text.replace(/ \| (fanju-app|fanju|饭局app|饭局)/gi, "").trim()
+      newBody = newBody.replace(/^#\s+.+$/m, `# ${cleanH1} | ${brandKw}`)
+      changed = true
+    }
+  }
+
   if (changed) {
-    writeFileSync(file, content, "utf8")
+    writeFileSync(file, newFm + newBody, "utf8")
   }
 }
 
@@ -40,6 +89,7 @@ for (const file of walk(SOURCE_DIR)) {
 for (const file of walk(READY_DIR)) {
   if (!file.endsWith(".json")) continue
   const article = readJson(file)
+  if (article.status !== "publish") continue
   let changed = false
 
   // Remove Templated Sections
@@ -50,11 +100,13 @@ for (const file of walk(READY_DIR)) {
     changed = true
   }
 
-  // Only fix titles if missing
   const isEn = article.language === "en"
-  const brandKw = isEn ? "Fanju" : "饭局app"
-  if (!article.title.toLowerCase().includes(brandKw.toLowerCase())) {
-    article.title = `${article.title.replace(new RegExp(` \\| ${brandKw}`, 'gi'), '')} | ${brandKw}`
+  const brandKw = isEn ? "Fanju app" : "饭局app"
+  const titleRegex = isEn ? /Fanju app/i : /(饭局|饭搭子|Fanju)/i
+
+  if (!titleRegex.test(article.title)) {
+    const cleanTitle = article.title.replace(/ \| (fanju-app|fanju|饭局app|饭局)/gi, "").trim()
+    article.title = `${cleanTitle} | ${brandKw}`
     article.h1 = article.title
     changed = true
   }

@@ -7,6 +7,7 @@ alternatePath: "/en/city/jingzhou/post-pandemic-social-dinner"
 title: "荆州后疫情线下饭局指南 | fanju-app | 饭局app"
 description: "后疫情时代，人们对线下真实连接的渴望愈发强烈。在荆州，一场精心策划的饭局，不再是简单的聚餐，而是周末活动安排中的核心节目。饭局app（Fanju）正是围绕着小桌吃饭、清晰主题和线下连接的社交理念而生，它帮助人们在熟悉的城市里，找到志同道合的伙伴，重拾面对面的温度。无论是想拓展社交圈，还是仅仅想在忙碌的生活中找个出口，饭局app都提供了一个安全、有趣且有意义的平台。"
 recoveredFromD1: true
+---
 
 <article>
 <h2>Fanju / 饭局app 是什么</h2>

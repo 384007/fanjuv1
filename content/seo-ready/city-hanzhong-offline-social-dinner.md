@@ -7,6 +7,7 @@ alternatePath: "/en/city/hanzhong/offline-social-dinner"
 title: "汉中线下社交饭局指南 | fanju-app | 饭局app"
 description: "第一次参加饭局的人应该知道的"
 recoveredFromD1: true
+---
 
 <article>
 <h1>汉中线下社交饭局指南</h1>

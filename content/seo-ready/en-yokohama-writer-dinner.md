@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Before the first message in Yokohama, Fanju app makes Writer Dinner feel like a real decision | fanju-app
 

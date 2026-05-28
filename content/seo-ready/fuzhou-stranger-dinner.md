@@ -10,6 +10,7 @@ pageType: "city_landing"
 priorityScore: 62
 aiQualityScore: 100
 status: "ready"
+---
 
 # 福州陌生人饭局指南：如何用饭局app找到靠谱同桌 | fanju-app | 饭局app
 

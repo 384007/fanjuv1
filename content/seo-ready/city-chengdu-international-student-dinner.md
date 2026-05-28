@@ -7,6 +7,7 @@ alternatePath: "/en/city/chengdu/international-student-dinner"
 title: "成都国际学生饭局指南 | fanju-app | 饭局app"
 description: "成都国际学生饭局指南，了解如何在成都找到适合自己的国际学生饭局，了解饭局app的使用方法和安全注意事项。"
 recoveredFromD1: true
+---
 
 <article>
 <p>成都国际学生饭局指南</p>

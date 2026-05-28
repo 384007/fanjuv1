@@ -7,6 +7,7 @@ alternatePath: "/en/city/weihai/doctor-dinner"
 title: "威海医生饭局指南 | fanju-app | 饭局app"
 description: "在威海的饭局app上，医生们可以轻松找到同行聚会的机会，分享工作经验和生活故事。"
 recoveredFromD1: true
+---
 
 <article>
 <h1>威海医生饭局指南</h1>

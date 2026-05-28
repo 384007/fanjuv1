@@ -7,6 +7,7 @@ alternatePath: "/city/helsinki/safe-social-dinner"
 title: "Helsinki after work: how Fanju app makes Safe Social Dinner feel like a real room | fanju-app | 饭局app"
 description: "The end of the workday in Helsinki often means retreating—into a quiet apartment, a library carrel, or the predictable rhythm of solo dining at a small bistro. For newcomers or even long-term residents seeking deeper con"
 recoveredFromD1: true
+---
 
 <article>
 <p># Helsinki after work: how Fanju app makes Safe Social Dinner feel like a real room</p>

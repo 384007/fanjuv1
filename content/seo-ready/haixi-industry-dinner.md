@@ -7,6 +7,7 @@ alternatePath: "/en/city/haixi/industry-dinner"
 title: "在海西找一桌不尴尬的行业饭局，饭局app先解决什么 | fanju-app"
 description: "在海西，想约一场真正能聊进去的行业饭局，并不在于人多热闹，而在于那一桌人是否能让彼此放下防备。饭局app在这个过程里的作用，不是简单拉个群发个通知，而是从一开始就让参与者知道：这顿饭有明确主题、固定人数、公开餐厅，且主理人愿意亮出真实身份和"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在海西找一桌不尴尬的行业饭局，饭局app先解决什么</p>

@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T130008Z-round-1-000007"
 randomSeed: "production-cloudflare-20260525T130008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
+---
 
 # In Dar es Salaam, Fanju app turns Sushi Dinner into a table people can actually trust | fanju-app
 

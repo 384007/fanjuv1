@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # How Fanju app turns a Denver Pottery Dinner night into something worth showing up for | fanju-app
 

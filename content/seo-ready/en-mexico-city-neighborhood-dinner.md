@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Mexico City after work: how Fanju app makes Neighborhood Dinner feel like a real room | fanju-app
 

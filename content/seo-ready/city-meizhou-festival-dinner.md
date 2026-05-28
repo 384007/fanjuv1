@@ -7,6 +7,7 @@ alternatePath: "/en/city/meizhou/festival-dinner"
 title: "梅州节日饭局指南 | fanju-app | 饭局app"
 description: "梅州下班后饭局推荐,梅州节日饭局,梅州饭局app"
 recoveredFromD1: true
+---
 
 <article>
 <h1>梅州节日饭局指南</h1>

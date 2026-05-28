@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/denver/downtown-dinner"
 alternatePath: "/city/denver/downtown-dinner"
-title: "Denver Downtown Dinner Guide | fanju-app | 饭局app"
+title: "Denver Downtown Dinner Guide | Fanju app"
 description: "Find a small, structured dinner in Denver's downtown area with Fanju app, a social dining app that connects you with like-minded people for real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Denver is a vibrant city with a thriving downtown area, filled with restaurants, bars, and cultural attractions. However, for introverts, navigating the city&#039;s social scene can be overwhelming. That&#039;s where Fanju app comes in – a social dining app that offers a unique way to connect with others over a small, structured dinner. In this guide, we&#039;ll explore the benefits of using Fanju app for a downtown dinner in Denver, and provide tips on how to make the most of your experience.</p>

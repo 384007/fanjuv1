@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Addis Ababa after work: how Fanju app makes Plant Lover Dinner feel like a real room | fanju-app
 

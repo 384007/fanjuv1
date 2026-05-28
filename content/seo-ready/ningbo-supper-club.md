@@ -7,6 +7,7 @@ alternatePath: "/en/city/ningbo/supper-club"
 title: "在宁波把晚餐俱乐部坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
 description: "傍晚六点，宁波老外滩的江风吹得人微凉，写字楼里的人陆续走出电梯，有人径直钻进地铁，有人拐进街角那家开了十五年的面馆。而另一些人，正低头打开饭局app，确认今晚的晚餐俱乐部安排——不是随便约饭，而是提前一周报了名，主理人是本地一位做独立出版的"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在宁波把晚餐俱乐部坐稳，饭局app需要筛掉哪些尴尬</p>

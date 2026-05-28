@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/riyadh/offline-social-dinner"
 alternatePath: "/city/riyadh/offline-social-dinner"
-title: "Riyadh Offline Social Dinner Guide | fanju-app | 饭局app"
+title: "Riyadh Offline Social Dinner Guide | Fanju app"
 description: "Discover the magic of social dining in Riyadh with Fanju app, a platform that brings people together for small, meaningful meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Riyadh, a city of contrasts, where ancient traditions meet modern luxury. As a host who regularly invites friends and acquaintances to dinner, I&#039;ve learned that creating a warm and welcoming atmosphere is key to making any gathering a success. But what makes a table feel right? Is it the carefully chosen menu, the thoughtfully selected wine, or the effortless conversation that flows like a gentle stream? In this guide, we&#039;ll explore the ins and outs of hosting an offline social dinner in Riyadh, and how to make it a truly unforgettable experience.</p>

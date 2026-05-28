@@ -7,6 +7,7 @@ alternatePath: "/city/karachi/casual-restaurant-dinner"
 title: "A Night Out with Fanju app in Karachi: Building Community through Casual Restaurant Dinners | fanju-app | 饭局app"
 description: "Discover the joy of casual restaurant dinners in Karachi with Fanju app, where strangers become friends and community grows one table at a time."
 recoveredFromD1: true
+---
 
 <article>
 <h1>A Night Out with Fanju app in Karachi: Building Community through Casual Restaurant Dinners</h1>

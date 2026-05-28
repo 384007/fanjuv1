@@ -7,6 +7,7 @@ alternatePath: "/en/city/lvliang/media-dinner"
 title: "吕梁的媒体饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 description: "在吕梁，下班后的时间是留给自己的，而周末的到来，则意味着可以有更多选择。饭局app的出现，为吕梁的媒体人提供了一种新的社交方式，它不是简单地凑人吃饭，而是围绕着清晰的聚会主题和线下真实的连接。这意味着，在吕梁，一场媒体饭局的价值，体现在它能"
 recoveredFromD1: true
+---
 
 <article>
 <p># 吕梁的媒体饭局不是凑人吃饭，饭局app更看重这一桌的边界</p>

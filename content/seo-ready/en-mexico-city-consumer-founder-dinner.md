@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T150008Z-round-1-000003"
 randomSeed: "production-cloudflare-20260525T150008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
+---
 
 # The Consumer Founder Dinner table Mexico City actually needs is the one Fanju app describes up front | fanju-app
 

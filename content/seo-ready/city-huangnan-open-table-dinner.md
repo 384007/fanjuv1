@@ -7,6 +7,7 @@ alternatePath: "/en/city/huangnan/open-table-dinner"
 title: "黄南开放餐桌饭局指南 | fanju-app | 饭局app"
 description: "在黄南的饭局app中，通过开放餐桌饭局，创业者、经营者、专业人士可以找到新的商业机会和人脉。"
 recoveredFromD1: true
+---
 
 <article>
 <p>黄南开放餐桌饭局指南</p>

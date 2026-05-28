@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/chicago/invite-only-dinner"
 alternatePath: "/city/chicago/invite-only-dinner"
-title: "Chicago Invite Only Dinner Guide | fanju-app | 饭局app"
+title: "Chicago Invite Only Dinner Guide | Fanju app"
 description: "Discover the world of Invite Only Dinners in Chicago with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Chicago Invite Only Dinner Guide</p>

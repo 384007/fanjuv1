@@ -7,6 +7,7 @@ alternatePath: "/city/london/newcomer-dinner"
 title: "A Night to Remember: Newcomer Dinner in London with Fanju app | fanju-app | 饭局app"
 description: "Discover the art of curated social dining in London with Fanju app, where strangers become friends over exquisite meals and meaningful conversations."
 recoveredFromD1: true
+---
 
 <article>
 <h1>A Night to Remember: Newcomer Dinner in London with Fanju app</h1>

@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T181226Z-round-1-000001"
 randomSeed: "production-cloudflare-20260525T181226Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T181226Z"
+---
 
 # When Millennial Dinner feels too loose in Tokyo, Fanju app starts with the table | fanju-app
 

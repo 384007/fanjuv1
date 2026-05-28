@@ -7,6 +7,7 @@ alternatePath: "/city/austin/consulting-dinner"
 title: "A calmer way to approach Consulting Dinner in Austin through Fanju app | fanju-app | 饭局app"
 description: "Fanju app offers a quieter, more grounded version of social dining in Austin—one that centers on small, well-described meals hosted in homes or intimate venues rather than crowded pop-ups or loud group meetups. For peopl"
 recoveredFromD1: true
+---
 
 <article>
 <p># A calmer way to approach Consulting Dinner in Austin through Fanju app</p>

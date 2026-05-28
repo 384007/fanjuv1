@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/montreal/expat-dinner"
 alternatePath: "/city/montreal/expat-dinner"
-title: "Montreal Expat Dinner Guide | fanju-app | 饭局app"
+title: "Montreal Expat Dinner Guide | Fanju app"
 description: "Plan a meaningful social dining experience with Fanju app, a platform for small, intentional meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>\</p>

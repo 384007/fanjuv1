@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260525T111336Z-round-1-000003"
 randomSeed: "production-cloudflare-20260525T111336Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T111336Z"
+---
 
 # Kuala Lumpur Local Dinner through Fanju app: mamak, kopitiam, and mixed-table clarity | fanju-app
 

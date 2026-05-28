@@ -21,6 +21,7 @@ promptSeed: "production-cloudflare-20260526T020005Z-round-1-000010"
 randomSeed: "production-cloudflare-20260526T020005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T020005Z"
+---
 
 # 乌兰察布的一顿屋顶饭局，饭局app为什么先看人再看热闹 | fanju-app
 

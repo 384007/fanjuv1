@@ -7,6 +7,7 @@ alternatePath: "/city/sydney/marketing-dinner"
 title: "A Solo Traveller's Guide to Marketing Dinners in Sydney with Fanju app | fanju-app | 饭局app"
 description: "Join a table of like-minded professionals in Sydney and make the most of your evening with Fanju app"
 recoveredFromD1: true
+---
 
 <article>
 <h1>A Solo Traveller&#039;s Guide to Marketing Dinners in Sydney with Fanju app</h1>

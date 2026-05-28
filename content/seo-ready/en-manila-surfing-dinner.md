@@ -18,6 +18,7 @@ promptSeed: "production-cloudflare-20260525T150008Z-round-1-000007"
 randomSeed: "production-cloudflare-20260525T150008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
+---
 
 # Manila does not need another vague invite; Fanju app makes Surfing Dinner specific | fanju-app
 In Manila, the Fanju app offers a structured approach to social dining, moving beyond the casual, often undefined "Surfing Dinner" gatherings. This platform is designed for those seeking meaningful, small-group meals where clarity about the table's purpose and attendees is paramount. It's for individuals who value genuine connection over the fleeting hype of a venue, particularly after periods of social distance. Fanju aims to demystify the experience, ensuring participants know what to expect before they even consider joining a table in the vibrant city.

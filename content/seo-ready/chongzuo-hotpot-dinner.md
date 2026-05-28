@@ -7,6 +7,7 @@ alternatePath: "/en/city/chongzuo/hotpot-dinner"
 title: "在崇左找一桌不尴尬的火锅饭局，饭局app先解决什么 | fanju-app"
 description: "刚到崇左的这个月，白天还能靠江边步道和糖厂老区的坡路认路，晚上却总在吃的问题上卡住。外卖吃三顿就腻，朋友约饭又隔着一层客气，而饭局app上那一桌写着“崇左本地人带路，清汤锅底配酸嘢”的火锅饭局，成了你滑了二十几个群聊后唯一想点报名的选项。饭"
 recoveredFromD1: true
+---
 
 <article>
 <p># 在崇左找一桌不尴尬的火锅饭局，饭局app先解决什么</p>

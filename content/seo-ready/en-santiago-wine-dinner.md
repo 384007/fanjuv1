@@ -7,6 +7,7 @@ alternatePath: "/city/santiago/wine-dinner"
 title: "Santiago does not need another vague invite; Fanju app makes Wine Dinner specific | fanju-app | 饭局app"
 description: "In Santiago, where the weekend is a time for gathering with friends and family, Wine Dinner is a staple of the social scene. However, with the rise of social dining apps like Fanju, it's become clear that Wine Dinner nee"
 recoveredFromD1: true
+---
 
 <article>
 <p># Santiago does not need another vague invite; Fanju app makes Wine Dinner specific</p>

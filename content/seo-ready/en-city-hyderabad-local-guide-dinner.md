@@ -7,6 +7,7 @@ alternatePath: "/city/hyderabad/local-guide-dinner"
 title: "A Calmer Fanju App Dinner in Hyderabad: A Local Guide | fanju-app | 饭局app"
 description: "Discover the essence of a considered, private dinner in Hyderabad with the help of the Fanju app."
 recoveredFromD1: true
+---
 
 <article>
 <h1>A Calmer Fanju App Dinner in Hyderabad: A Local Guide</h1>

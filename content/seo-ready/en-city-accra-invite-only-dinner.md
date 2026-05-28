@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/accra/invite-only-dinner"
 alternatePath: "/city/accra/invite-only-dinner"
-title: "Accra Invite Only Dinner Guide | fanju-app | 饭局app"
+title: "Accra Invite Only Dinner Guide | Fanju app"
 description: "Discover the authentic taste of Accra's dinner scene with Fanju app, a social dining app that brings people together for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Accra, the vibrant capital of Ghana, is a city that pulsates with energy and warmth. Its dinner scene is a reflection of this, with a diverse array of cuisines and dining experiences that cater to every taste and preference. But what does dinner in Accra feel like, who shows up, and what do they eat? To answer these questions, let&#039;s take a closer look at one of Accra&#039;s most exciting neighbourhoods, Osu.</p>

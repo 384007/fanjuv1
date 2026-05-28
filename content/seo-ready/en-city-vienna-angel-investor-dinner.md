@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/vienna/angel-investor-dinner"
 alternatePath: "/city/vienna/angel-investor-dinner"
-title: "Vienna Angel Investor Dinner Guide | fanju-app | 饭局app"
+title: "Vienna Angel Investor Dinner Guide | Fanju app"
 description: "Join a table of like-minded individuals at an Angel Investor Dinner in Vienna with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>As a solo traveller passing through Vienna, you may be wondering what an evening looks like when you join a Fanju table. The misconception that social dining apps are only for couples or groups of friends is a common one, but the reality is that these events are perfect for meeting new people and making connections in a city.</p>

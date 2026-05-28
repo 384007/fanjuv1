@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # When City Community Dinner feels too loose in Dubai, Fanju app starts with the table | fanju-app
 

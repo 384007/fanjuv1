@@ -7,6 +7,7 @@ alternatePath: "/en/city/yangzhou/post-pandemic-social-dinner"
 title: "扬州后疫情线下饭局指南 | fanju-app | 饭局app"
 description: "扬州后疫情线下饭局指南，了解如何在扬州参加后疫情线下饭局，了解饭局app的核心场景和安全重点"
 recoveredFromD1: true
+---
 
 <article>
 <p>扬州后疫情线下饭局指南</p>

@@ -7,6 +7,7 @@ alternatePath: "/en/city/hegang/film-dinner"
 title: "鹤岗影视饭局指南：第一次参加的你需要知道的 | fanju-app | 饭局app"
 description: "鹤岗影视饭局指南：第一次参加的你需要知道的"
 recoveredFromD1: true
+---
 
 <article>
 <h1>鹤岗影视饭局指南：第一次参加的你需要知道的</h1>

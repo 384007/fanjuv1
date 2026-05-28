@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/munich/small-table-dinner"
 alternatePath: "/city/munich/small-table-dinner"
-title: "Munich Small Table Dinner Guide | fanju-app | 饭局app"
+title: "Munich Small Table Dinner Guide | Fanju app"
 description: "Discover the art of small table dinner in Munich with Fanju app, a social dining app for meaningful connections and delicious meals."
 recoveredFromD1: true
+---
 
 <article>
 <p>If you&#039;re new to Munich, you might be wondering what a small table dinner is. In essence, it&#039;s a private, intimate meal shared with like-minded individuals, often in a cozy setting. Fanju app is a platform that brings people together for these small, considered gatherings. By joining a small table dinner, you&#039;ll not only enjoy a delicious meal but also forge meaningful connections with others who share similar interests. This is what makes Fanju app unique – it&#039;s not just about the food, but about the people you meet and the experiences you have.</p>

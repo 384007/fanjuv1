@@ -7,6 +7,7 @@ alternatePath: "/en/city/huaian/waitlist-dinner"
 title: "淮安候补饭局指南 | fanju-app | 饭局app"
 description: "在淮安结束工作日的低成本方式"
 recoveredFromD1: true
+---
 
 <article>
 <h1>淮安候补饭局指南</h1>

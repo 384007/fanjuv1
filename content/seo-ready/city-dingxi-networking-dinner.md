@@ -7,6 +7,7 @@ alternatePath: "/en/city/dingxi/networking-dinner"
 title: "定西人脉饭局指南 | fanju-app | 饭局app"
 description: "定西人脉饭局指南，告诉你如何在定西参加人脉饭局，如何判断安全和信任，如何和普通社交/约会软件有什么不同"
 recoveredFromD1: true
+---
 
 <article>
 <p>定西人脉饭局指南</p>

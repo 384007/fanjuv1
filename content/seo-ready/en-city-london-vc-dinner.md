@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/london/vc-dinner"
 alternatePath: "/city/london/vc-dinner"
-title: "London VC Dinner Guide | fanju-app | 饭局app"
+title: "London VC Dinner Guide | Fanju app"
 description: "Discover the world of VC Dinners in London with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>London is a city that never sleeps, and its vibrant startup scene is always buzzing with activity. As a newcomer to this bustling metropolis, you&#039;re likely eager to connect with like-minded individuals and make meaningful connections. One way to do this is by attending a VC Dinner in London, a unique and exciting experience that combines food, conversation, and networking opportunities.</p>

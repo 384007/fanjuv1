@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/manila/product-manager-dinner"
 alternatePath: "/city/manila/product-manager-dinner"
-title: "Manila Product Manager Dinner Guide | fanju-app | 饭局app"
+title: "Manila Product Manager Dinner Guide | Fanju app"
 description: "Plan a meaningful Product Manager Dinner in Manila with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>In the heart of Manila, a city that never sleeps, the rhythm of the night is alive with the sounds of laughter and conversation. It&#039;s here that you can find the perfect setting for a Product Manager Dinner, a chance to connect with like-minded individuals over a delicious meal. With Fanju app, you can plan a meaningful and intentional dinner that brings people together.</p>

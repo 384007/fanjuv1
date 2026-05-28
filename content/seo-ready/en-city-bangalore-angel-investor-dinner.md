@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/bangalore/angel-investor-dinner"
 alternatePath: "/city/bangalore/angel-investor-dinner"
-title: "Bangalore Angel Investor Dinner Guide | fanju-app | 饭局app"
+title: "Bangalore Angel Investor Dinner Guide | Fanju app"
 description: "Discover the curated world of social dining with Fanju app, where meaningful connections and exquisite meals come together in the heart of Bangalore."
 recoveredFromD1: true
+---
 
 <article>
 <p>Bangalore, a city that seamlessly blends tradition and modernity, is the perfect backdrop for a unique dining experience. Fanju app, a social dining platform, offers a refreshing alternative to the usual restaurant scene. By bringing together like-minded individuals for intimate, small-group meals, Fanju fosters meaningful connections and a deeper understanding of the city&#039;s vibrant culture.</p>

@@ -7,6 +7,7 @@ alternatePath: "/city/lima/mba-dinner"
 title: "In Lima, Fanju app turns MBA Dinner into a table people can actually trust | fanju-app | 饭局app"
 description: "In Lima, where the pace of business life often outstrips the rhythm of personal connection, the Fanju app has quietly redefined what it means to share a meal with strangers. Specifically, it’s reshaping the concept of th"
 recoveredFromD1: true
+---
 
 <article>
 <p># In Lima, Fanju app turns MBA Dinner into a table people can actually trust</p>

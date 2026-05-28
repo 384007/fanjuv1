@@ -7,6 +7,7 @@ alternatePath: "/city/phoenix/mba-dinner"
 title: "Why MBA Dinner in Phoenix works better when Fanju app keeps the table small | fanju-app | 饭局app"
 description: "The Fanju app is a social dining tool designed for meaningful, small-group meals in cities like Phoenix, where post-work socializing often defaults to loud bars or sprawling networking events. For MBA students and young"
 recoveredFromD1: true
+---
 
 <article>
 <p># Why MBA Dinner in Phoenix works better when Fanju app keeps the table small</p>

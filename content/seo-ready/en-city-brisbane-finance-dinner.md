@@ -7,6 +7,7 @@ alternatePath: "/city/brisbane/finance-dinner"
 title: "Brisbane Finance Dinner with Fanju app: A Date-Free Social Experience | fanju-app | 饭局app"
 description: "Join us for a unique finance dinner experience in Brisbane, curated by the Fanju app. Leave the dating scene behind and focus on meaningful connections over great food and drinks."
 recoveredFromD1: true
+---
 
 <article>
 <h1>Brisbane Finance Dinner with Fanju app: A Date-Free Social Experience</h1>

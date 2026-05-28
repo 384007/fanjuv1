@@ -7,6 +7,7 @@ alternatePath: "/en/city/hebi/lawyer-dinner"
 title: "鹤壁律师饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
 description: "在鹤壁，饭局app不是为了快速拉群或拼桌吃饭的工具，它更像一个安静但清晰的筛选器，把那些真正想在饭桌上建立真实连接的人聚在一起。刚来这座城市的人，或许对律师行业还不熟悉，对本地的人际节奏也还在适应。饭局app在这里的作用，不是让你参加最多的"
 recoveredFromD1: true
+---
 
 <article>
 <p># 鹤壁律师饭局不是凑人吃饭，饭局app更看重这一桌的边界</p>

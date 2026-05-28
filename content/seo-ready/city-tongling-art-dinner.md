@@ -7,6 +7,7 @@ alternatePath: "/en/city/tongling/art-dinner"
 title: "铜陵艺术饭局指南：通过饭局app找到真实连接 | fanju-app"
 description: "新来铜陵的人，想通过一顿饭获得真实连接的人，来看看艺术饭局指南"
 recoveredFromD1: true
+---
 
 <article>
 <h1>铜陵艺术饭局指南：通过饭局app找到真实连接</h1>

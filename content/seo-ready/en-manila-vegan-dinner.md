@@ -12,8 +12,9 @@ aiQualityScore: 96
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
-# Share More Than a Meal: Vegan Dinners in Manila That Build Belonging | fanju-app | Fanju
+# Share More Than a Meal: Vegan Dinners in Manila That Build Belonging | Fanju app
 
 In a city where dinner means family, fiestas, and endless rounds of ulam and rice, choosing a plant-based path can feel quietly isolating. For many in Manila, being vegan isn’t just about diet — it’s a reflection of deeper values around health, ethics, or the planet. Yet those values don’t always have a seat at the table. That’s where intentional vegan dinners come in: not as trend-driven pop-ups or performative wellness events, but as grounded spaces for connection among those navigating a meat-rich culture with quiet conviction.
 

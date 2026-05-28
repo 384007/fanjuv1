@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/copenhagen/consulting-dinner"
 alternatePath: "/city/copenhagen/consulting-dinner"
-title: "Copenhagen Consulting Dinner Guide | fanju-app | 饭局app"
+title: "Copenhagen Consulting Dinner Guide | Fanju app"
 description: "Discover the authentic taste of Copenhagen through the lens of a Consulting Dinner, facilitated by the social dining app Fanju. Join like-minded professionals for a unique culinary experience that fosters real-world connections and meaningful conversations. Fanju app is a platform that brings people together over small, carefully crafted meals, allowing you to explore the city's hidden gems and make lasting connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Copenhagen Consulting Dinner Guide</p>

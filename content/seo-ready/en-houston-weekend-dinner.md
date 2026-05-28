@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # In Houston, Fanju app turns Weekend Dinner into a table people can actually trust | fanju-app
 

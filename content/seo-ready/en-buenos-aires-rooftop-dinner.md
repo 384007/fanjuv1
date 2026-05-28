@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Rooftop Dinner in Buenos Aires should not feel like a gamble; Fanju app changes the odds | fanju-app
 

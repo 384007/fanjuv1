@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/vienna/brand-dinner"
 alternatePath: "/city/vienna/brand-dinner"
-title: "Vienna Brand Dinner Guide | fanju-app | 饭局app"
+title: "Vienna Brand Dinner Guide | Fanju app"
 description: "Discover local food in Vienna with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Vienna, a city known for its grand palaces, opera houses, and rich cultural heritage, is also a melting pot of culinary delights. From traditional Viennese coffeehouses to modern fusion restaurants, the city&#039;s food scene is a reflection of its diverse history and cultural influences.</p>

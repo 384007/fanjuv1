@@ -7,6 +7,7 @@ alternatePath: "/en/city/xianning/downtown-dinner"
 title: "咸宁想参加市中心饭局，饭局app把信任感放在饭前 | fanju-app"
 description: "在咸宁，下班后的时间常常是模糊的。走出写字楼，街灯渐次亮起，人们在赤壁大道和淦河之间穿行，脚步快慢不一。有人直奔家门，有人在路边摊前停下，还有人站在手机屏幕前，犹豫要不要发一句“有人一起吃饭吗”。饭局app的存在，不是为了填满每一顿空缺的饭"
 recoveredFromD1: true
+---
 
 <article>
 <p># 咸宁想参加市中心饭局，饭局app把信任感放在饭前</p>

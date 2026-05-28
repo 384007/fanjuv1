@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Nairobi after work: how Fanju app makes Open Table Dinner feel like a real room | fanju-app
 

@@ -7,6 +7,7 @@ alternatePath: "/en/city/nanchong/small-table-dinner"
 title: "南充小桌饭局指南 | fanju-app | 饭局app"
 description: "在南充组织小桌饭局的指南，了解如何选择合适的人数、让聊天自然延展，以及Fanju饭局在主办方一侧的作用。"
 recoveredFromD1: true
+---
 
 <article>
 <p>南充小桌饭局指南</p>

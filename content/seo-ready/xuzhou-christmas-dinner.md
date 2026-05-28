@@ -7,6 +7,7 @@ alternatePath: "/en/city/xuzhou/christmas-dinner"
 title: "徐州想参加圣诞饭局，饭局app把信任感放在饭前 | fanju-app"
 description: "在徐州，圣诞不是节日的中心，但它却是一年中少有的、能让人停下脚步认真吃一顿饭的理由。饭局app的存在，不是为了制造热闹，而是让这种停顿变得可能——它围绕小桌吃饭、清晰主题和线下连接，把人从日常轨道里轻轻拉出来。在徐州这样的城市，一次圣诞饭局"
 recoveredFromD1: true
+---
 
 <article>
 <p># 徐州想参加圣诞饭局，饭局app把信任感放在饭前</p>

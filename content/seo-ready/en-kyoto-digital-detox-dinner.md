@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kyoto/digital-detox-dinner"
 alternatePath: "/city/kyoto/digital-detox-dinner"
 translationKey: "kyoto-digital-detox-dinner"
 lang: "en"
-title: "Kyoto Digital Detox Dinner: Reconnect Without Screens in a City of Stillness | fanju-app"
+title: "Kyoto Digital Detox Dinner: Reconnect Without Screens in a City of Stillness | Fanju app"
 description: "Discover how small-table, screen-free dinners in Kyoto offer a meaningful way to meet people over dinner through quiet presence, not performance—hosted via the Fanju app with clear boundaries and cultural ease."
 pageType: "city_article"
 priorityScore: 70
@@ -12,8 +12,9 @@ aiQualityScore: 96
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
-# Kyoto Digital Detox Dinner: Reconnect Without Screens in a City of Stillness | fanju-app | Fanju
+# Kyoto Digital Detox Dinner: Reconnect Without Screens in a City of Stillness | Fanju app
 
 In Kyoto, stillness isn’t empty—it’s full of meaning. The rustle of bamboo in a temple garden, the clink of teacups after a long silence, the way light shifts across a tatami mat in the late afternoon. These moments aren’t curated for content. They’re lived. And in that rhythm, a growing number of people are choosing to gather for something rare: a meal without screens, without agendas, and without the pressure to perform.
 

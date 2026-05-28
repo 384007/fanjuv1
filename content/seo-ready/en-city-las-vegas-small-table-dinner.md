@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/las-vegas/small-table-dinner"
 alternatePath: "/city/las-vegas/small-table-dinner"
-title: "Las Vegas Small Table Dinner Guide | fanju-app | 饭局app"
+title: "Las Vegas Small Table Dinner Guide | Fanju app"
 description: "Discover the authentic Las Vegas dining experience with Fanju app, a social dining app that connects you with like-minded individuals for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Las Vegas is a city that never sleeps, and its vibrant dining scene is always buzzing with activity. But for those looking for a more intimate and authentic experience, the city&#039;s small table dinner scene is a hidden gem waiting to be discovered. With Fanju app, you can join a small table dinner in Las Vegas and connect with fellow foodies and like-minded individuals over a delicious meal.</p>

@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T130008Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T130008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
+---
 
 # 大理的威士忌饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 
@@ -81,3 +82,7 @@ publishedRunId: "production-cloudflare-20260525T130008Z"
 ######## 为什么大理威士忌饭局的第二次比第一次更容易
 
 很多人在大理第一次参加威士忌饭局时，可能会带着一丝陌生和试探。但一旦有了第一次的愉快体验，第二次的参与就会变得异常轻松。因为你知道了这场饭局的节奏，了解了主理人的风格，也可能认识了几个不错的同桌。这种熟悉感，让你能够更专注于品味美酒和享受交流，而不是被未知所困扰。而且，第一次的经历往往会让你对这类活动产生信任，知道它能为你提供一个舒适且有意义的社交空间。
+
+
+## 在当地通过饭局app寻找饭搭子
+在dali，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

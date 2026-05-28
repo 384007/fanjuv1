@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/dhaka/introvert-dinner"
 alternatePath: "/city/dhaka/introvert-dinner"
-title: "Dhaka Introvert Dinner Guide | fanju-app | 饭局app"
+title: "Dhaka Introvert Dinner Guide | Fanju app"
 description: "Discover the smallest unit of city community with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Dhaka, a city of over 20 million people, can sometimes feel overwhelming. Yet, beneath the surface, lies a complex web of communities that thrive on shared experiences and connections. One such experience is the introvert dinner, a small, intimate gathering of strangers who come together to share a meal and stories. In this guide, we will explore the world of introvert dinners in Dhaka, and how they can be a powerful tool for building community and connections in the city.</p>

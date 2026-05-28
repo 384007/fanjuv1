@@ -7,6 +7,7 @@ alternatePath: "/city/mexico-city/invite-only-dinner"
 title: "When Invite Only Dinner feels too loose in Mexico City, Fanju app starts with the table | fanju-app | 饭局app"
 description: "The Fanju app redefines after-work connection in Mexico City by focusing on small, intentional dinners where the table—not the algorithm—guides the experience. Unlike broad group chats or dating-flavored meetups, Fanju e"
 recoveredFromD1: true
+---
 
 <article>
 <p># When Invite Only Dinner feels too loose in Mexico City, Fanju app starts with the table</p>

@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/ahmedabad/friendship-dinner"
 alternatePath: "/city/ahmedabad/friendship-dinner"
-title: "Ahmedabad Friendship Dinner Guide | fanju-app | 饭局app"
+title: "Ahmedabad Friendship Dinner Guide | Fanju app"
 description: "A guide to hosting and attending a Friendship Dinner in Ahmedabad, using the Fanju app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>As a seasoned host of dinners, I&#039;ve learned that creating a warm and inviting atmosphere is key to making guests feel at ease. When I host a dinner using the Fanju app, I want my guests to feel like they&#039;re part of a close-knit community. That&#039;s why I&#039;ve put together this guide to help you host and attend a Friendship Dinner in Ahmedabad.</p>

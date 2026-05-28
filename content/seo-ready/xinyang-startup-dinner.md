@@ -19,6 +19,7 @@ promptSeed: "production-cloudflare-20260525T160006Z-round-1-000006"
 randomSeed: "production-cloudflare-20260525T160006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
+---
 
 # 信阳创业饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 
@@ -87,3 +88,7 @@ publishedRunId: "production-cloudflare-20260525T160006Z"
 ######### 新的信阳创业饭局主理人在第一场最容易犯的错
 
 新手主理人常犯的错，是想让所有人都满意。他们设置太多议题、允许超员、不敢设定边界。但在信阳，一场成功的饭局往往是因为“有些人没来”。明确拒绝某些人，反而让留下的参与者感到被尊重。好的主理人不是和事佬，而是为这桌饭守住质量的人。
+
+
+## 在当地通过饭局app寻找饭搭子
+在xinyang，包容的社交氛围。寻找同城饭友。Fanju / 饭局app 致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹。

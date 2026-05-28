@@ -7,6 +7,7 @@ alternatePath: "/en/city/changchun/industry-dinner"
 title: "长春行业饭局指南：让女性更安心的饭局体验 | fanju-app | 饭局app"
 description: "长春行业饭局指南，帮助女性更安心地参加饭局，了解饭局app的作用，选择合适的餐厅和同桌，判断主理人的信号和安全性"
 recoveredFromD1: true
+---
 
 <article>
 <h1>长春行业饭局指南：让女性更安心的饭局体验</h1>

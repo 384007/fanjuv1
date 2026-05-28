@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/denver/trusted-rsvp-dinner"
 alternatePath: "/city/denver/trusted-rsvp-dinner"
-title: "Denver Trusted RSVP Dinner Guide | fanju-app | 饭局app"
+title: "Denver Trusted RSVP Dinner Guide | Fanju app"
 description: "Discover the authentic Denver dining experience with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Denver is a city that seamlessly blends the charm of the Wild West with the vibrancy of modern urban life. Its neighborhoods are a testament to this eclectic mix, each with its own unique character and rhythm. In this guide, we&#039;ll delve into the world of Trusted RSVP Dinners in Denver, exploring what makes this experience so special and how you can be a part of it.</p>

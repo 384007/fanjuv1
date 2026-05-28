@@ -7,6 +7,7 @@ alternatePath: "/city/san-francisco/ai-founder-dinner"
 title: "San Francisco after work: how Fanju app makes AI Founder Dinner feel like a real room | fanju-app | 饭局app"
 description: "Fanju app is a social dining platform designed for small, intentionally hosted meals in San Francisco, where founders, operators, and tech professionals meet beyond the noise of crowded networking events. Unlike typical"
 recoveredFromD1: true
+---
 
 <article>
 <p># San Francisco after work: how Fanju app makes AI Founder Dinner feel like a real room</p>

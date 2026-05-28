@@ -12,6 +12,7 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
+---
 
 # Why Post Pandemic Social Dinner in Nagoya works better when Fanju app keeps the table small | fanju-app
 

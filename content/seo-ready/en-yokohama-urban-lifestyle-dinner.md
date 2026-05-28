@@ -7,6 +7,7 @@ alternatePath: "/city/yokohama/urban-lifestyle-dinner"
 title: "Yokohama after work: how Fanju app makes Urban Lifestyle Dinner feel like a real room | fanju-app | 饭局app"
 description: "Fanju app is a social dining platform that connects people in Yokohama for small, intentional dinners with clear themes and thoughtful hosts. Unlike crowded events or impersonal meetups, these gatherings focus on real co"
 recoveredFromD1: true
+---
 
 <article>
 <p># Yokohama after work: how Fanju app makes Urban Lifestyle Dinner feel like a real room</p>

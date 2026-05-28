@@ -7,6 +7,7 @@ alternatePath: "/city/dar-es-salaam/small-table-dinner"
 title: "A Newcomer's Guide to Small Table Dinner in Dar es Salaam with Fanju app | fanju-app | 饭局app"
 description: "Discover the best small table dinner experiences in Dar es Salaam with Fanju app, tailored for newcomers to the city."
 recoveredFromD1: true
+---
 
 <article>
 <h1>A Newcomer&#039;s Guide to Small Table Dinner in Dar es Salaam with Fanju app</h1>

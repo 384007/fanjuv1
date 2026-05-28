@@ -20,6 +20,7 @@ promptSeed: "production-cloudflare-20260525T220007Z-round-1-000001"
 randomSeed: "production-cloudflare-20260525T220007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T220007Z"
+---
 
 # Surat after work: how Fanju app makes Nurse Dinner feel like a real room | fanju-app
 

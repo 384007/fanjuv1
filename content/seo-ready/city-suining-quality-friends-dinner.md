@@ -7,6 +7,7 @@ alternatePath: "/en/city/suining/quality-friends-dinner"
 title: "遂宁高质量朋友饭局指南 | fanju-app | 饭局app"
 description: "遂宁高质量朋友饭局指南，了解如何在遂宁通过饭局app找到高质量朋友饭局，了解适合谁、核心场景、安全重点等"
 recoveredFromD1: true
+---
 
 <article>
 <p>遂宁高质量朋友饭局指南</p>

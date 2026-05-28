@@ -7,6 +7,7 @@ alternatePath: "/en/city/zhangjiajie/product-manager-dinner"
 title: "张家界的产品经理饭局：在山水间，找回真实的连接 | fanju-app | 饭局app"
 description: "在张家界，下班后的孤独感如何消解？“饭局app”为你提供了一个低压力的线下社交解决方案，让产品经理们在温馨的小饭局中重拾人际连接。"
 recoveredFromD1: true
+---
 
 <article>
 <h1>张家界的产品经理饭局：在山水间，找回真实的连接</h1>

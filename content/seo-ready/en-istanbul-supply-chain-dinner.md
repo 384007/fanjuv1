@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # Istanbul does not need another vague invite; Fanju app makes Supply Chain Dinner specific | fanju-app
 

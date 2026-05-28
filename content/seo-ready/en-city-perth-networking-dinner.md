@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/perth/networking-dinner"
 alternatePath: "/city/perth/networking-dinner"
-title: "Perth Networking Dinner Guide | fanju-app | 饭局app"
+title: "Perth Networking Dinner Guide | Fanju app"
 description: "Discover the best of Perth's food scene through the lens of a networking dinner, facilitated by the Fanju app, a social dining app that connects people over small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Perth, a city known for its laid-back atmosphere and stunning coastline, is also a melting pot of cultures and cuisines. When the workday ends, the city transforms into a vibrant hub of activity, with people from all walks of life coming together to share meals and make connections.</p>

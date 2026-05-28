@@ -7,6 +7,7 @@ alternatePath: "/en/city/puyang/neighborhood-dinner"
 title: "濮阳街区饭局指南 | fanju-app | 饭局app"
 description: "在濮阳，Fanju 是一个围绕小桌吃饭、清晰主题和线下连接的社交应用。通过 Fanju，濮阳的居民可以轻松找到附近的街区饭局，和邻居一起分享美食和故事。"
 recoveredFromD1: true
+---
 
 <article>
 <p>濮阳街区饭局指南</p>

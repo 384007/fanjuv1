@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/las-vegas/cross-border-dinner"
 alternatePath: "/city/las-vegas/cross-border-dinner"
-title: "Las Vegas Cross Border Dinner Guide | fanju-app | 饭局app"
+title: "Las Vegas Cross Border Dinner Guide | Fanju app"
 description: "Discover the world of Cross Border Dinners in Las Vegas with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Las Vegas is a city that never sleeps, and its vibrant dining scene is always buzzing with activity. But for those who prefer a more low-key and intimate experience, Cross Border Dinners offer a unique and exciting way to connect with others while enjoying a delicious meal. Fanju app is a social dining app that makes it easy to find and join these small, structured dinners in Las Vegas.</p>

@@ -11,6 +11,7 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
+---
 
 # For people trying Post Pandemic Social Dinner in Helsinki, Fanju app puts the guest mix first | fanju-app
 

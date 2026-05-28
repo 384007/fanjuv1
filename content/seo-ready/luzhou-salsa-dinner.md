@@ -21,6 +21,7 @@ promptSeed: "production-cloudflare-20260526T010006Z-round-1-000008"
 randomSeed: "production-cloudflare-20260526T010006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T010006Z"
+---
 
 # 泸州想参加萨尔萨舞饭局，饭局app把信任感放在饭前 | fanju-app
 

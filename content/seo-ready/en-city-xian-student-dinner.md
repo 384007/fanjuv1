@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/xian/student-dinner"
 alternatePath: "/city/xian/student-dinner"
-title: "What's the Best Way to End My Working Day in Xi'an? | fanju-app | 饭局app"
+title: "What's the Best Way to End My Working Day in Xi'an? | Fanju app"
 description: "Discover a low-effort way to unwind after work in Xi'an with our student dinner guide."
 recoveredFromD1: true
+---
 
 <article>
 <h1>What&#039;s the Best Way to End My Workday with the Fanju app in Xi&#039;an?</h1>

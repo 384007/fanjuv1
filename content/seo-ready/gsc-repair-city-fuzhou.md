@@ -9,7 +9,8 @@ description: "福州饭局页面帮助用户了解如何通过 Fanju 在公开�
 pageType: "city_landing"
 priorityScore: 82
 aiQualityScore: 96
-status: "ready"
+status: "draft"
+---
 
 # 福州饭局指南：如何找到靠谱同城小桌 | fanju-app | 饭局app
 

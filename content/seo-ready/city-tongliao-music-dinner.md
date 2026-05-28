@@ -7,6 +7,7 @@ alternatePath: "/en/city/tongliao/music-dinner"
 title: "通辽音乐饭局指南 | fanju-app | 饭局app"
 description: "在通辽体验音乐饭局的乐趣，了解饭局app的使用指南"
 recoveredFromD1: true
+---
 
 <article>
 <h1>通辽音乐饭局指南</h1>

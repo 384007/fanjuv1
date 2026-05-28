@@ -4,9 +4,10 @@ score: 100
 lang: en
 canonicalPath: "/en/city/phoenix/operator-dinner"
 alternatePath: "/city/phoenix/operator-dinner"
-title: "Phoenix Operator Dinner Guide | fanju-app | 饭局app"
+title: "Phoenix Operator Dinner Guide | Fanju app"
 description: "Discover authentic local connections through dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
+---
 
 <article>
 <p>Phoenix, a city known for its vibrant desert landscapes and rich Southwestern culture, is a melting pot of cuisines and culinary experiences. As an expat or newcomer to this thriving metropolis, navigating the local dining scene can be overwhelming, especially when trying to find authentic connections with the community. This is where Fanju app comes in – a social dining app designed for small, clearly described meals and real-world connections.</p>
