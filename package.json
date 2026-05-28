@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "QUIET_SEO_READY_CHECK=1 node scripts/check-seo-ready-routes.mjs && node scripts/generate-sitemaps.mjs && node scripts/seo/validate-indexability.mjs && next build && node scripts/prune-cloudflare-static-export.mjs && node scripts/seo/check-city-topic-pages.mjs",
+    "build": "node scripts/seo/pre-build-remediate.mjs && QUIET_SEO_READY_CHECK=1 node scripts/check-seo-ready-routes.mjs && node scripts/generate-sitemaps.mjs && node scripts/seo/validate-indexability.mjs && next build && node scripts/prune-cloudflare-static-export.mjs && node scripts/seo/check-city-topic-pages.mjs",
     "build:static-og": "node scripts/generate-static-og-images.mjs",
     "start": "next start",
     "lint": "eslint .",

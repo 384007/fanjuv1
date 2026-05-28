@@ -206,24 +206,28 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
       throw err
     }
   }
-
-  if (provider === "cerebras") {
-    const keys = getProviderKeys("CEREBRAS_API_KEY")
-    for (const i of rotatingKeyIndexes("cerebras", keys.length)) {
-      if ((keyCooldownUntil.get(`cerebras:${i}`) || 0) > Date.now()) continue
+if (provider === "cerebras") {
+  const keys = getProviderKeys("CEREBRAS_API_KEY")
+  const models = ["zai-glm-4.7", "gpt-oss-120b", "qwen-3-235b-a22b-instruct-2507", "llama-3.3-70b", "qwen-3-32b"] 
+  for (const i of rotatingKeyIndexes("cerebras", keys.length)) {
+    if ((keyCooldownUntil.get(`cerebras:${i}`) || 0) > Date.now()) continue
+    for (const model of models) {
       try {
         return await callOpenAICompat({
-          label: `Cerebras[${i}]`, endpoint: "https://api.cerebras.ai/v1/chat/completions",
-          apiKey: keys[i], model: process.env.CEREBRAS_MODEL || "qwen-3-235b-a22b-instruct-2507",
-          prompt, system, maxTokens, timeoutMs, tokenParam: "max_completion_tokens", useJsonFormat: false,
+          label: `Cerebras[${i}]-${model}`, endpoint: "https://api.cerebras.ai/v1/chat/completions",
+          apiKey: keys[i], model,
+          prompt, system, maxTokens,
+          timeoutMs: Number.parseInt(process.env.CEREBRAS_TIMEOUT_MS || "30000", 10), tokenParam: "max_tokens",
         })
       } catch (err) {
-        if (err?.status === 429) { cooldownKey("cerebras", i, retryDelayMs(err) || 86400000); continue }
+        if (err?.status === 429) { cooldownKey("cerebras", i, retryDelayMs(err) || 60000); break } // Break model loop, retry key later
+        if (err?.status === 404) { console.log(`Model ${model} not found, trying next model...`); continue }
         throw err
       }
     }
-    throw Object.assign(new Error("Cerebras: all keys on cooldown"), { status: 429 })
   }
+  throw Object.assign(new Error("Cerebras: all models failed or keys on cooldown"), { status: 429 })
+}
 
   // cerebras2/cerebras3/cerebras4 — each pinned to a specific key index for independent parallel use
   if (provider === "cerebras2" || provider === "cerebras3" || provider === "cerebras4") {
