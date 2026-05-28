@@ -108,12 +108,14 @@ def make_run_id(now: datetime | None = None) -> str:
 
 def run(cmd: str, cwd: str | None = None, timeout: int = 300) -> None:
     print(f"$ {cmd}", flush=True)
+    # Explicitly pass current environment to ensure secrets are inherited
     result = subprocess.run(
         cmd,
         shell=True,
         cwd=cwd,
         text=True,
         timeout=timeout,
+        env=os.environ, 
     )
     if result.returncode != 0:
         raise RuntimeError(f"Command failed with exit code {result.returncode}: {cmd}")
@@ -121,13 +123,13 @@ def run(cmd: str, cwd: str | None = None, timeout: int = 300) -> None:
 
 def run_args(args: list[str], cwd: str | None = None, timeout: int = 300, redacted: str | None = None) -> None:
     print(f"$ {redacted or shlex.join(args)}", flush=True)
-    result = subprocess.run(args, cwd=cwd, text=True, timeout=timeout)
+    result = subprocess.run(args, cwd=cwd, text=True, timeout=timeout, env=os.environ)
     if result.returncode != 0:
         raise RuntimeError(f"Command failed with exit code {result.returncode}: {redacted or shlex.join(args)}")
 
 
 def run_capture(args: list[str], cwd: str | None = None, timeout: int = 300) -> str:
-    result = subprocess.run(args, cwd=cwd, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=timeout)
+    result = subprocess.run(args, cwd=cwd, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=timeout, env=os.environ)
     if result.returncode != 0:
         raise RuntimeError(f"Command failed with exit code {result.returncode}: {shlex.join(args)}\n{result.stderr}")
     return result.stdout.strip()
@@ -148,6 +150,7 @@ def run_args_capture(
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             timeout=timeout,
+            env=os.environ,
         )
     except subprocess.TimeoutExpired as exc:
         stdout = exc.stdout if isinstance(exc.stdout, str) else (exc.stdout or b"").decode(errors="replace")
