@@ -43,10 +43,26 @@ async function run() {
   // Website logo (transparent, keeps text) for header / og fallback
   await sharp(transBuf).resize(1024, 1024, { fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } }).png().toFile(`${PUB}/logo.png`)
 
-  // favicon.ico style PNGs (transparent) - browsers tab icon
-  await sharp(transBuf).resize(32, 32).png().toFile(`${PUB}/favicon-32x32.png`)
-  await sharp(transBuf).resize(16, 16).png().toFile(`${PUB}/favicon-16x16.png`)
-  await sharp(transBuf).resize(48, 48).png().toFile(`${PUB}/favicon.png`)
+  // Glyph-only mark "饭" (transparent), cropped from top region then auto-trimmed.
+  // Used for small header sizes where the "fanju.app" text would be illegible.
+  const glyphCrop = await sharp(transBuf)
+    .extract({ left: 0, top: 120, width: 1024, height: 600 })
+    .trim({ threshold: 1 })
+    .toBuffer()
+  const glyphMeta = await sharp(glyphCrop).metadata()
+  const side = Math.max(glyphMeta.width, glyphMeta.height)
+  const glyphSquare = await sharp({
+    create: { width: side, height: side, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } },
+  })
+    .composite([{ input: glyphCrop, gravity: "center" }])
+    .png()
+    .toBuffer()
+  await sharp(glyphSquare).resize(512, 512, { fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } }).png().toFile(`${PUB}/logo-mark.png`)
+
+  // favicon: use the glyph mark (clearer at tiny sizes than full logo with text)
+  await sharp(glyphSquare).resize(32, 32, { fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } }).png().toFile(`${PUB}/favicon-32x32.png`)
+  await sharp(glyphSquare).resize(16, 16, { fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } }).png().toFile(`${PUB}/favicon-16x16.png`)
+  await sharp(glyphSquare).resize(48, 48, { fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } }).png().toFile(`${PUB}/favicon.png`)
 
   // 2) Black-background icons (square, full bleed) for PWA / Apple / Android
   const BLACK = { r: 0, g: 0, b: 0, alpha: 1 }
@@ -76,10 +92,10 @@ async function run() {
   await sharp(maskable).resize(512, 512).png().toFile(`${PUB}/maskable-icon-512.png`)
   await sharp(maskable).resize(192, 192).png().toFile(`${PUB}/maskable-icon-192.png`)
 
-  // 4) favicon.ico (multi-size, transparent)
-  const ico16 = await sharp(transBuf).resize(16, 16).png().toBuffer()
-  const ico32 = await sharp(transBuf).resize(32, 32).png().toBuffer()
-  const ico48 = await sharp(transBuf).resize(48, 48).png().toBuffer()
+  // 4) favicon.ico (multi-size, transparent glyph mark)
+  const ico16 = await sharp(glyphSquare).resize(16, 16, { fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } }).png().toBuffer()
+  const ico32 = await sharp(glyphSquare).resize(32, 32, { fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } }).png().toBuffer()
+  const ico48 = await sharp(glyphSquare).resize(48, 48, { fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } }).png().toBuffer()
   const ico = await pngToIco([ico16, ico32, ico48])
   await writeFile(`${PUB}/favicon.ico`, ico)
 
