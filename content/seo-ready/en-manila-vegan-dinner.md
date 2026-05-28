@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Share More Than a Meal: Vegan Dinners in Manila That Build Belonging | fanju-app
+# Share More Than a Meal: Vegan Dinners in Manila That Build Belonging | fanju-app | Fanju
 
 In a city where dinner means family, fiestas, and endless rounds of ulam and rice, choosing a plant-based path can feel quietly isolating. For many in Manila, being vegan isn’t just about diet — it’s a reflection of deeper values around health, ethics, or the planet. Yet those values don’t always have a seat at the table. That’s where intentional vegan dinners come in: not as trend-driven pop-ups or performative wellness events, but as grounded spaces for connection among those navigating a meat-rich culture with quiet conviction.
 
@@ -44,15 +44,7 @@ The app itself supports low-pressure connection. Instead of endless scrolling or
 
 This model stands apart from dating apps, where intentions are often unclear, and from networking events, where conversation orbits around status. It’s also different from joining a tour group or attending a lecture — here, the act of sharing food is the experience, not a backdrop.
 
-### Safety, Boundaries, and the Right to Leave
-
-Trust isn’t assumed — it’s built through transparency. Every dinner lists the full cost upfront, including service fees, with no surprise charges at the door. Venues are publicly accessible, often on ground floors or near transit points, with clear entry and exit paths. Locations are shared only after registration, balancing privacy with safety.
-
-Guests are reminded: you can leave at any time. No explanation needed. This isn’t a minor detail in a city where social obligations run deep. For many, the fear of being trapped in an awkward or overwhelming situation keeps them from trying new groups. Fanju’s structure respects that tension — especially for those unfamiliar with navigating informal neighborhoods or mixed-use buildings where signage is sparse.
-
-There’s no promise of friendship, romance, or business leads. No facilitator guarantees allergen-free meals or medical safety. Each person comes as they are, makes their own choices, and takes responsibility for their experience.
-
-### Why a Small Table Works Better Than a Big Event
+#### Why a Small Table Works Better Than a Big Event
 
 Large vegan fairs or food festivals have their place — but they don’t solve loneliness. At a crowded market, you might try five new dishes, but you’re unlikely to learn someone’s name. Small tables change that. With fewer people, there’s space to speak — and to be heard.
 
@@ -67,3 +59,6 @@ Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的�
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
+
+## 在the city通过饭局建立真实连接
+Fanju brings together like-minded people through small, structured dining experiences. in the heart of en，不仅仅是找个饭搭子，更是为了在这座城市独特的饮食社交氛围中，通过Fanju建立高质量的线下社交闭环。

@@ -65,3 +65,6 @@ A small table removes that calculus. You arrive, you’re seated, you’re part 
 More importantly, small groups allow silence. Not every moment needs to be filled. In Casablanca, where social interactions can feel high-stakes, the permission to pause — to eat, to listen, to just be — is its own form of relief.
 
 These dinners don’t promise lifelong friends or professional opportunities. They don’t claim to “solve” loneliness. What they offer is simpler: a space where you can be present, without performance, over a shared meal.
+
+## 在the city通过饭局建立真实连接
+Fanju brings together like-minded people through small, structured dining experiences. in the heart of en，不仅仅是找个饭搭子，更是为了在这座城市独特的饮食社交氛围中，通过Fanju建立高质量的线下社交闭环。

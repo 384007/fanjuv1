@@ -14,7 +14,7 @@ renderMode: "source"
 recoveredFromD1: "true"
 ---
 
-# Dinner That Helps You Belong — Without the Pressure | fanju-app
+# Dinner That Helps You Belong — Without the Pressure | fanju-app | Fanju
 
 In Lagos, a shared meal is rarely just about food. It’s a negotiation, a gesture of respect, or a quiet test of trust. Open Table dinners—small, hosted evening meals with 6 to 10 guests—offer a rare space where newcomers and locals can meet without hidden expectations. These aren’t networking events, first dates, or cultural tours. They’re intentional gatherings built around a simple idea: understanding a city starts at the table.
 
@@ -49,3 +49,6 @@ In other cities, open dinner formats often address loneliness. In Lagos, the nee
 These dinners function as quiet rehearsals for that navigation. Through food — jollof rice, moi moi, grilled plantain served on a shared platter — guests practice presence without performance. The Fanju app enables this by curating not just proximity, but intention.
 
 This format can’t be copied from city to city. It depends on Lagos’s particular balance: formal professionalism during the day, informal trust-building at night, and food as the steady mediator between them.
+
+## 在the city通过饭局建立真实连接
+Fanju brings together like-minded people through small, structured dining experiences. in the heart of en，不仅仅是找个饭搭子，更是为了在这座城市独特的饮食社交氛围中，通过Fanju建立高质量的线下社交闭环。
