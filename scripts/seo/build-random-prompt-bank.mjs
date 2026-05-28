@@ -868,46 +868,49 @@ function buildEditorialBrief(profile) {
 
 function systemInstructionFor(locale) {
   if (locale === "en") {
-    return [
+        return [
       "Write one public Fanju city article as plain Markdown only, using the supplied editorial brief as the source of truth.",
       "Voice: human editor, practical, city-specific, calm. No hype and no search-ranking promises.",
-      "The article must be original prose, not an outline, not a template, not a city/topic word swap, and not a landing page.",
-      "The first line must be exactly one article H1 beginning with '# '. Use the brief H1 unless it would read unnaturally; if you adjust it, keep the same search intent and primary entity.",
-      "Use 5 to 7 '## ' H2 sections. H3 is optional and only allowed when it answers a real reader question inside a section. H4-H10 are forbidden unless the brief explicitly says they are necessary.",
-      "Every H2 must perform a distinct information job: search-intent answer, local scenario, host trust, table boundaries, safety/exit judgment, fit/non-fit, or next decision.",
-      "The first paragraph must define Fanju app as a social app for small-table meals, clear dinner themes, and offline connection in the named city/topic. Its first sentence must include the city and topic. It must include these exact phrases: not a dating guarantee, not a random group chat, not an endless profile feed.",
-      "Bridge the Chinese entity at least once: Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局”.",
-      "Include at least five local details or local observations, at least three real reader questions, at least two concrete judgment criteria, at least one 'who this is not for' point, and at least one safety or exit boundary.",
-      "Never invent statistics, restaurants, user counts, awards, or partnerships.",
-      "Never mention tools or production process.",
-      "Never write Markdown links, raw URLs, href attributes, or HTML anchor tags. Use the brief's internalLinkPlan as anchor-text intent only; the site template adds real links.",
-      "Never output JSON, YAML frontmatter, metadata keys, prompt instructions, section placeholders, or markdown skeleton text.",
-      "Do not use the brief question text as public headings. Every H2 needs exactly two substantial paragraph blocks before the next heading.",
-      "Never include parked-domain, webmaster, local-contact, advertising-sales, QQ, or site-owner contact copy.",
-      "If the route topic contains AI, use AI only as a normal public topic term, never as self-reference or production commentary.",
-      "Forbidden public words: automation, prompt, pipeline, cron, JSONL, hash, Modal, generated, QQ, webmaster, domain for sale, advertising cooperation, 本站, 联系QQ, 站长, 本地联系, 广告合作, 域名出售.",
+      "The article must be original prose, not an outline, not a template, and not a landing page.",
+      "The first line must be exactly one article H1 beginning with '# '. Use the brief H1 unless it would read unnaturally; if you adjust it, keep the search intent.",
+      "Use 5 to 7 '## ' H2 sections. H3 is optional. H4-H10 are forbidden.",
+      "Every H2 must perform a distinct information job: search-intent answer, local scenario, host trust, table boundaries, safety/exit judgment, or fit/non-fit.",
+      "【MANDATORY OPENING】: The first paragraph must define Fanju app as a social app for small-table meals and offline connection. Its first sentence MUST include the city and topic. It MUST include these exact phrases: 'not a dating guarantee', 'not a random group chat', 'not an endless profile feed'. Missing these results in a 0 score.",
+      "Bridge the Chinese entity: Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局”.",
+      "Include at least five local details, three real reader questions, two concrete judgment criteria, one 'who this is not for' point, and one safety boundary.",
+      "Never invent statistics, restaurants, user counts, or awards.",
+      "Never mention tools, backends, or production processes.",
+      "Never write Markdown links, raw URLs, or HTML anchor tags. Mention internalLinkPlan entities as plain text; the site template adds links.",
+      "Never output JSON, YAML, or markdown skeleton text.",
+      "Do not use brief questions as headings. Every H2 needs exactly two substantial paragraph blocks.",
+      "【LENGTH REQUIREMENT】: The article body MUST be between 3,500 and 7,000 characters. Expand with deep local observations and practical advice, not filler.",
+      "Forbidden public words: automation, prompt, pipeline, cron, JSONL, hash, Modal, generated, QQ, webmaster, domain for sale, advertising cooperation.",
       "Return only the Markdown article text. No code fence. No JSON object.",
-    ].join("\n")
+    ].join("
+")
   }
-  return [
+    return [
     "只写一个公开的饭局 Fanju 城市文章，输出必须是纯 Markdown 文章正文，并以提供的 editorial brief 为唯一生产依据。",
     "声音：真人编辑、自然、具体、平静、实用。不要营销腔，不承诺搜索排名。",
     "正文必须是完整原创文章，不是提纲、模板、摘要、占位段落、城市/主题换词页或落地页。",
     "第一行必须是唯一 H1，必须以「# 」开头。优先使用 brief H1；如需微调，只能为了让标题更自然，不能改变搜索意图和主实体。",
-    "正文必须使用 5 到 7 个「## 」H2。H3 只在真的需要回答读者具体问题时出现。H4-H10 默认禁止，除非 brief 明确说明有必要。",
+    "正文必须使用 5 到 7 个「## 」H2。H3 仅限回答具体疑问。H4-H10 严格禁止。",
     "每个 H2 必须有独立信息功能：搜索意图回答、本地场景、主理人信任、同桌边界、安全/退出判断、适合/不适合人群、报名下一步。",
-    "首段必须解释饭局app / Fanju饭局是什么：它是围绕小桌吃饭、清晰主题和线下连接的社交应用，并落到本城市和本主题；第一句必须出现城市和主题；首段必须包含这些精确短语：不是相亲保证、不是随机群聊、不是无限刷资料。",
-    "全文至少包含 5 个本地细节或本地观察、至少 3 个用户真实疑问、至少 2 个具体判断标准、至少 1 个“不适合谁”、至少 1 个安全或退出边界。",
+    "【首段硬性要求】：第一段第一句必须包含城市、主题和「饭局app」；首段必须包含这些用于法律避险的【精确短语】：不是相亲保证、不是随机群聊、不是无限刷资料。缺少任何一个词都会导致 0 分重写。",
+    "【正文长度硬性要求】：正文（除标题外）必须达到 2200 到 4500 个汉字。请通过深挖本地细节、细化同桌规则来扩充篇幅，禁止废话堆砌。",
+    "【严禁英文噪音】：除「Fanju」和城市英文名外，禁止在中文正文、标题中出现任何英文词汇（如 meetup, ota, web, react, app, group 等），必须全部使用对应的中文（如：线下聚会、在线旅行社、网页、框架、应用、群组）。",
+    "全文至少包含 5 个本地细节、3 个真实疑问、2 个具体判断标准、1 个“不适合谁”、1 个安全或退出边界。",
     "不要编造统计数据、餐厅名、用户数、奖项或合作伙伴。",
-    "不要提及任何工具、后台或生产流程。",
-    "正文不要写 Markdown 链接、裸 URL、href 或 HTML a 标签。internalLinkPlan 只作为自然锚文本计划，真实链接由页面模板统一添加。",
+    "不要提及任何工具、后台、生产流程、Modal、自动化或 prompt。",
+    "正文不要写 Markdown 链接、裸 URL、href 或 HTML a 标签。internalLinkPlan 只作为锚文本计划，真实链接由页面模板统一添加。",
     "不要输出 JSON、YAML frontmatter、metadata key、提示词内容、章节占位文字或 markdown 骨架说明。",
-    "不要把 brief 里的问题原文当成公开标题。每个 H2 后面到下一个标题之前，必须有且只有两个有实质信息的自然段。",
+    "不要把 brief 里的问题原文当成公开标题。每个 H2 后面到下一个标题之前，必须有且只有两个有实质信息的长自然段。",
     "不要出现停放域名、站长联系、本地联系、广告招商、QQ 或站主联系方式。",
     "如果路由主题本身包含 AI，只能把 AI 当作公开主题词使用，不能用来描述写作或生产过程。",
     "公开字段禁用词：自动化、prompt、提示词、pipeline、JSONL、哈希、Modal、生成、本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售。",
     "只返回 Markdown 文章正文，不要代码块，不要 JSON object。",
-  ].join("\n")
+  ].join("
+")
 }
 
 function userPromptFor(profile, editorialBrief) {
