@@ -17,16 +17,17 @@ const generatedFile = join(generatedDir, "build-random-prompt-bank-heading-dedup
 
 const source = readFileSync(sourceFile, "utf8")
 
+// Flexible matching to find the block regardless of maxDepth variant
 const startMarker = '  const h2Count = 4 + frameIndex(profile, "h2-count", 4)'
-const endMarker = '  const frame = { h1: cleanHeading(TEMPLATES[0][frameIndex(profile, "h1", TEMPLATES[0].length)]), h2s, deepHeadings, maxDepth: 3 }'
 const startIndex = source.indexOf(startMarker)
-const endIndex = source.indexOf(endMarker, startIndex)
-
-if (startIndex < 0 || endIndex < 0) {
+// Look for the line starting with 'const frame ='
+const frameLineMatch = source.slice(startIndex).match(/const frame = \{[^}]+\}/)
+if (startIndex < 0 || !frameLineMatch) {
   throw new Error("Prompt bank safe wrapper could not find the original heading selection block to patch.")
 }
+const endIndex = startIndex + frameLineMatch.index + frameLineMatch[0].length
 
-const replaceEndIndex = endIndex + endMarker.length
+const replaceEndIndex = endIndex
 
 const safeHeadingSelection = [
   '  const usedHeadingKeys = new Set()',
@@ -72,7 +73,7 @@ const safeHeadingSelection = [
   '    if (text) deepHeadings.push({ level: 3, text })',
   '  }',
   '',
-  '  const frame = { h1, h2s, deepHeadings, maxDepth: 3 }',
+  '  const frame = { h1, h2s, deepHeadings, maxDepth }',
 ].join("\n")
 
 // Fix relative import paths so the generated file (inside .generated/) can

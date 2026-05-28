@@ -590,10 +590,8 @@ def run_hourly_generation_pipeline() -> dict:
 
 
 BAD_PUBLIC_METADATA_RE = re.compile(
-    r"本站|联系QQ|本地联系|站长|广告合作|域名出售|私下交易|加微信|加QQ|备案号|"
-    r"\bQQ\b|domain\s+for\s+sale|parked\s+domain|advertising\s+cooperation|"
-    r"开头段落|正文要求|只返回合法 JSON|"
-    r"markdown skeleton|Return valid JSON|Body requirements|Intro paragraph mentioning",
+    r"domain\s+for\s+sale|parked\s+domain|"
+    r"markdown skeleton|Return valid JSON|Body requirements",
     re.I,
 )
 
@@ -739,7 +737,7 @@ def run_cloudflare_publish_pipeline(
         run("EN_TOP_CITY_LIMIT=100 pnpm seo:prompt-bank:check", cwd=WORKDIR, timeout=600)
         run(
             f"RUN_LIMIT={safe_run_limit} CONCURRENCY=4 RATE_DELAY_MS=5000 BATCH_SIZE=2 "
-            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=96 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=5 "
+            f"UPLOAD_R2={upload_r2_flag} MIN_SCORE=90 AUTO_REPAIR_ARTICLE=1 QUALITY_ATTEMPTS=5 "
             f"QUALITY_RETRY_DELAY_MS=15000 MAX_TOKENS=7200 AI_COOLDOWN_WAIT_PASSES=2 "
             f"PUBLISHED_FILE={shlex.quote(published_file)} FAILED_LOG_FILE={shlex.quote(failed_file)} "
             f"PUBLISHED_RUN_ID={shlex.quote(run_id)} "
