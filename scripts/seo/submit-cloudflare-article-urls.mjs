@@ -15,12 +15,10 @@ const CLOUDFLARE_API_TOKEN = cleanToken(process.env.CLOUDFLARE_API_TOKEN || proc
 const CLOUDFLARE_D1_DATABASE_ID = clean(process.env.CLOUDFLARE_D1_DATABASE_ID || "58d63133-adeb-4efd-b9eb-a9b056271ca5")
 const LIMIT = Math.max(1, Number.parseInt(process.env.URL_LIMIT || "20", 10))
 const DRY_RUN = process.env.DRY_RUN === "1"
-<<<<<<< Updated upstream
-const REQUESTED_URLS = parseRequestedUrls(process.env.URLS || process.env.SUBMIT_URLS || "")
-=======
+const REQUESTED_URLS = parseRequestedUrls(process.env.URLS || process.env.SUBMIT_URLS || \"\")
 const RUN_ID = clean(process.env.RUN_ID || new Date().toISOString().replace(/[:.]/g, "-"))
 const PROOF_FILE = join(ROOT, process.env.PROOF_FILE || `data/seo/external-publish-proof-${RUN_ID}.json`)
->>>>>>> Stashed changes
+
 const PLATFORMS = new Set(
   clean(process.env.PLATFORMS || "all")
     .split(",")
@@ -44,7 +42,6 @@ function normalizeUrl(url) {
   return String(url || "").trim().replace(/\/$/, "")
 }
 
-<<<<<<< Updated upstream
 function parseRequestedUrls(value = "") {
   return String(value || "")
     .split(",")
@@ -73,7 +70,6 @@ function titleFromSlug(slug = "") {
     .join(" ")
     .replace(/-/g, " ")
     .replace(/\b\w/g, (ch) => ch.toUpperCase())
-=======
 function normalizePath(path = "") {
   let value = String(path || "").trim()
   if (!value) return ""
@@ -97,7 +93,7 @@ function canonicalMatches(url, canonical = "") {
   } catch {
     return false
   }
->>>>>>> Stashed changes
+
 }
 
 function shouldRun(platform) {
@@ -168,7 +164,6 @@ async function fetchLatestUrls() {
   }))
 }
 
-<<<<<<< Updated upstream
 async function fetchRequestedEntries() {
   const entries = []
   const seen = new Set()
@@ -199,7 +194,6 @@ async function fetchRequestedEntries() {
 async function verifyUrl(url) {
   const res = await fetch(url, { method: "HEAD", redirect: "follow" })
   return { url, status: res.status, ok: res.ok, contentType: res.headers.get("content-type") || "" }
-=======
 async function loadSitemapUrls() {
   const sitemapUrl = `${SITE_ROOT}/sitemap.xml`
   try {
@@ -258,7 +252,7 @@ async function verifyUrl(url, sitemapUrls) {
     sitemapIncluded,
     error: head.error || "",
   }
->>>>>>> Stashed changes
+
 }
 
 async function submitIndexNow(urls) {
@@ -601,9 +595,6 @@ function escapeHtml(input = "") {
     .replaceAll("'", "&#039;")
 }
 
-<<<<<<< Updated upstream
-const entries = REQUESTED_URLS.length ? await fetchRequestedEntries() : await fetchLatestUrls()
-=======
 function platformKey(platform = "") {
   const value = String(platform || "").toLowerCase()
   if (value.includes("indexnow")) return "indexnow"
@@ -701,8 +692,7 @@ function writeProof(proof) {
   console.log(`External publish proof written: ${PROOF_FILE}`)
 }
 
-const entries = await fetchLatestUrls()
->>>>>>> Stashed changes
+const entries = REQUESTED_URLS.length ? await fetchRequestedEntries() : await fetchLatestUrls()
 const urls = entries.map((entry) => normalizeUrl(entry.url))
 
 console.log(`Collected ${urls.length} ${REQUESTED_URLS.length ? "requested" : "latest"} Cloudflare article URLs.`)

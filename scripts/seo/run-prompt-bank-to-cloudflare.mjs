@@ -731,8 +731,6 @@ function escapeRegExp(value = "") {
   return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
 }
 
-<<<<<<< Updated upstream
-=======
 let contentUniquenessIndex = null
 
 function cjkChars(value = "") {
@@ -931,8 +929,6 @@ function crossArticleUniquenessIssues(prompt, body = "") {
 function reserveGeneratedUniqueness(prompt, body = "", source = "") {
   addUniquenessRecord(loadContentUniquenessIndex(), prompt, body, source)
 }
-
->>>>>>> Stashed changes
 function normalizeLatinAlias(value = "") {
   return String(value || "")
     .normalize("NFKD")
@@ -1537,11 +1533,6 @@ function scoreArticle(prompt, parsed) {
   if (isTemplateTitle(prompt, title)) issues.push("template-title")
   if (isTemplateTitle(prompt, h1)) issues.push("template-h1")
   if (countMarkdownHeadings(body, 2) < 5) issues.push(`too-few-h2:${countMarkdownHeadings(body, 2)}`)
-<<<<<<< Updated upstream
-  if (countMarkdownHeadings(body, 3) < 1) issues.push(`too-few-h3:${countMarkdownHeadings(body, 3)}`)
-  if (countMarkdownHeadings(body, 4) < 1) issues.push(`too-few-h4:${countMarkdownHeadings(body, 4)}`)
-=======
->>>>>>> Stashed changes
   const minParagraphs = prompt.locale === "en" ? 10 : 10
   if (countParagraphs(body) < minParagraphs) issues.push(`too-few-paragraphs:${countParagraphs(body)}`)
   const duplicateH2 = duplicateMarkdownHeadings(body, 2)
@@ -1593,11 +1584,6 @@ function isHardIssue(issue) {
     issue === "code-fence-in-public-body" ||
     issue.startsWith("body-too-short") ||
     issue.startsWith("too-few-h2") ||
-<<<<<<< Updated upstream
-    issue.startsWith("too-few-h3") ||
-    issue.startsWith("too-few-h4") ||
-=======
->>>>>>> Stashed changes
     issue.startsWith("too-few-paragraphs") ||
     issue.startsWith("duplicate-h2") ||
     issue.startsWith("duplicate-heading") ||
@@ -1795,34 +1781,14 @@ function retryPrompt(basePrompt, attempt, issues) {
       ? "Keep the body compact: 3,600-7,200 total characters, exactly 12-14 public paragraphs, no repeated sections, and no expansion for its own sake."
       : "Use exactly 12-14 separate public paragraphs with blank lines between paragraphs. Use exactly 6 distinct H2 sections, with exactly two paragraph blocks under each H2. Do not use bullet lists, numbered lists, or H4-H10 headings."
     : bodyTooLong
-<<<<<<< Updated upstream
-      ? "正文要收紧到 2,800-4,800 字符，10-14 个公开自然段，不要重复小节，不要为了凑长扩写。"
-      : "至少 13 个公开自然段，段落之间空行；每个 H2 下面必须正好两段，每段 120-190 个汉字；不要项目符号或编号列表。"
-  // Extract specific forbidden Latin words from issues for explicit ban
-  const forbiddenWords = issues
-    .filter((i) => i.startsWith("latin-word-in-zh-"))
-    .flatMap((i) => (i.split(":")[1] || "").split("|"))
-    .filter(Boolean)
-  const forbiddenBan = forbiddenWords.length
-    ? isEn
-      ? ` FORBIDDEN WORDS (do NOT use these anywhere): ${forbiddenWords.join(", ")}. Use Chinese equivalents only.`
-      : `【禁止出现以下英文词】${forbiddenWords.join("、")}——必须全部用中文表达，不能出现任何英文专业术语。`
-    : ""
-=======
       ? "正文要收紧到 2,800-5,000 字符，正好 12-14 个公开自然段，不要重复小节，不要为了凑长扩写。"
       : "使用正好 12-14 个公开自然段，段落之间空行；必须正好 6 个独立 H2，每个 H2 下正好两个自然段；不要项目符号、编号列表或 H4-H10 标题。"
->>>>>>> Stashed changes
   return [
     basePrompt.userPrompt,
     "",
     isEn
-<<<<<<< Updated upstream
-      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch and satisfy the automated gate in one pass.${forbiddenBan} Return only the article text, starting with "# ". Use only the exact H1, exact 6 H2 headings, and exact H3-Hmax headings already listed above; do not add FAQ, checklist, conclusion, next-step, safety, summary, or any other extra heading. No H1-Hn heading text may repeat after normalization. Duplicate headings are a hard failure and must be fixed by a full rewrite, not by changing score/status/renderMode/metadata or deleting required sections. The H1/title must include the city and the exact phrase "Fanju app"; the first paragraph must include the city and Fanju app, and at least one later paragraph must include the city without repeating the opening. Use exactly 6 "## " headings, exactly one "### " reader question, and at least 13 natural paragraphs. Every H2 needs at least two paragraphs. Do not use generic headings such as "Who this is for", "Safety and boundaries", "How it works", "What to expect", "Next steps", or "Conclusion". Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension. Do not use bold-only headings, numbered-only headings, or prose labels instead of hash headings. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
-      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请从头重写，并一次满足自动质量门。${forbiddenBan}只返回文章正文，第一行必须以「# 」开头。只能使用上文已经列出的精确 H1、6 个精确 H2、以及精确 H3-Hmax 标题；不要新增 FAQ、检查清单、结语、下一步、安全、总结或任何额外标题。H1-Hn 任意标题归一化后都不能重复。标题重复是硬失败，必须全文重写，不能通过修改 score/status/renderMode/metadata 或删除必要章节绕过。标题/H1 必须包含中文城市名和「饭局app」；第一段必须同时出现中文城市名和「饭局app」，开头之后至少一段也要出现中文城市名且不能复用开头句式。必须写 6 个「## 」标题、且只写 1 个「### 」具体疑问标题；至少 13 个自然段；每个 H2 下必须正好 2 段。不要用「适合谁」「核心饭局场景」「安全重点」「一桌饭怎样运作」「主理人信号」「舒适边界」「下一步行动」「结语」这种通用标题。标题、H1、开头段落、H2 和正文里的城市名只能写中文城市名，不能出现 URL slug、拼音城市名或英文城市名。不要用加粗标题、编号标题、项目列表或普通文字冒号代替井号标题。${lengthGuidance} 不要摘要，要更具体、更本地、更完整；不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
-=======
-      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch from the editorial brief and satisfy the automated gate in one pass. Return only the article text, starting with "# ". The H1/title must include the city and Fanju app or the Chinese entity bridge. The first sentence of the first paragraph must include the city, topic, and Fanju app. The first paragraph must define Fanju app and include the exact phrases "not a dating guarantee", "not a random group chat", and "not an endless profile feed". Use exactly 6 "## " headings. H3 is optional only for a real reader question; do not use H4-H10. Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension; do not use the brief questions as headings. Include at least five local details, three reader questions, two judgment criteria, one not-suitable point, and one safety/exit boundary. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
-      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请根据 editorial brief 从头重写，并一次满足自动质量门。只返回文章正文，第一行必须以「# 」开头。标题/H1 必须自然包含中文城市名和「饭局 / 饭局app / Fanju饭局 / 城市+主题饭局」之一；第一段第一句必须包含城市、主题和「饭局app」或「Fanju饭局」。首段 120-220 字必须解释饭局app / Fanju饭局是什么，落到城市和主题，并包含精确短语「不是相亲保证」「不是随机群聊」「不是无限刷资料」。必须正好写 6 个独立「## 」标题；H3 只在真实需要时使用；禁止 H4-H10。每个 H2 都要为这个城市、主题、角度、人群和一个具体本地张力重写，不要把 brief 问题原文当标题。至少包含 5 个本地细节、3 个真实疑问、2 个判断标准、1 个不适合谁、1 个安全或退出边界。${lengthGuidance} 不要摘要，要更具体、更本地、更完整；不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`,
->>>>>>> Stashed changes
+      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch from the editorial brief and satisfy the automated gate in one pass. Return only the article text, starting with \"# \". The H1/title must include the city and Fanju app or the Chinese entity bridge. The first sentence of the first paragraph must include the city, topic, and Fanju app. The first paragraph must define Fanju app and include the exact phrases \"not a dating guarantee\", \"not a random group chat\", and \"not an endless profile feed\". Use exactly 6 \"## \" headings. H3 is optional only for a real reader question; do not use H4-H10. Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension; do not use the brief questions as headings. Include at least five local details, three reader questions, two judgment criteria, one not-suitable point, and one safety/exit boundary. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
+      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请根据 editorial brief 从头重写，并一次满足自动质量门。只返回文章正文，第一行必须以「# 」开头。标题/H1 必须自然包含中文城市名和「饭局 / 饭局app / Fanju饭局 / 城市+主题饭局」之一；第一段第一句必须包含城市、主题和「饭局app」或「Fanju饭局」。首段 120-220 字必须解释饭局app / Fanju饭局是什么，落到城市和主题，并包含精确短语「不是相亲保证」「不是随机群聊」「不是无限刷资料」。必须正好写 6 个独立「## 」标题；H3 只在真实需要时使用；禁止 H4-H10。每个 H2 都要为这个城市、主题、角度、人群和一个具体本地张力重写，不要把 brief 问题原文当标题。至少包含 5 个本地细节、3 个真实疑问、2 个判断标准、1 个不适合谁、1 个安全或退出边界。${lengthGuidance} 不要摘要，要更具体、更本地、更完整；不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`
   ].join("\n")
 }
 
@@ -1931,14 +1897,7 @@ async function runOneAttempt(prompt, attempt, previousIssues = []) {
       console.log(`[REPAIR] ${prompt.promptId} ${generation.provider} normalized markdown headings`)
     }
     const scored = scoreArticle(prompt, parsed)
-<<<<<<< Updated upstream
-    const strictHeadingIssues = strictParsedHeadingIssues(parsed)
-    const issues = mergeIssues(scored.issues, strictHeadingIssues)
-    const score = strictHeadingIssues.length ? 0 : scored.score
-    const candidate = { generation, parsed, score, issues }
-=======
     const candidate = { generation, parsed, score: scored.score, issues: scored.issues, qualityScores: scored.qualityScores || {} }
->>>>>>> Stashed changes
     if (
       !best ||
       candidate.score > best.score ||
