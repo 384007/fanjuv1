@@ -7,10 +7,10 @@
   "canonical": "https://fanju.app/en/tokyo-language-learning-guide",
   "robots": "index,follow",
   "sitemapEligible": true,
-  "title": "同城language learning dinner Tokyo — 本地约饭找饭局 | Fanju | fanju-app",
-  "metaTitle": "Language Learning in Tokyo: a small-table Fan | 饭局 饭搭子",
-  "metaDescription": "在同城寻找language learning dinner Tokyo，体验多元化餐饮。Fanju 饭局为你提供社交下的真实线下连接。",
-  "h1": "同城language learning dinner Tokyo — 本地约饭找饭局 | Fanju | fanju-app",
+  "title": "Language Learning in Tokyo: a small-table Fanju dinner guide | fanju-app",
+  "metaTitle": "Language Learning in Tokyo: a small-table Fanju dinner ...",
+  "metaDescription": "Find your dinner buddy at a Fanju dinner. Fanju-app guide to language learning dinners: who it suits, boundaries, and safety.",
+  "h1": "Language Learning in Tokyo: a small-table Fanju dinner guide | fanju-app",
   "excerpt": "Language Learning can be a useful Fanju dinner theme when the table has a clear audience, public venue, small group size, and respectful boundaries. It suits people who want real-world conversation around language learning without turning the meal into hard selling, pressure, or guaranteed outcomes.",
   "primaryKeyword": "language learning dinner Tokyo",
   "secondaryKeywords": [
@@ -120,10 +120,6 @@
         "/how-to-host-a-dinner-gathering",
         "/what-is-fanju"
       ]
-    },
-    {
-      "h2": "在同城寻找language learning dinner Tokyo的独特体验",
-      "body": "包容的城市饮食文化 寻找同城饭友 在 Fanju 饭局，我们鼓励用户基于社交主题，建立更具边界感的真实线下连接。"
     }
   ],
   "faq": [
@@ -159,7 +155,7 @@
       "url": "/en/categories"
     },
     {
-      "label": "Language Learning in Tokyo: a small-table Fanju dinner guide",
+      "label": "Language Learning in Tokyo: a small-table Fanju dinner guide | fanju-app",
       "url": "/en/tokyo-language-learning-guide"
     }
   ],
@@ -187,7 +183,7 @@
     "version": 1,
     "taxonomyId": "language-learning",
     "cluster": "hobby-dinners",
-    "generatedAt": "2026-05-27T15:58:58.241Z"
+    "generatedAt": "2026-05-28T08:45:31.591Z"
   },
   "audit": {
     "linkAudit": {

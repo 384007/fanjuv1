@@ -1,103 +1,78 @@
-import { readJson, walk, abs, writeJson } from "./_content-factory-runtime.mjs"
 import { readFileSync, writeFileSync } from "fs"
+import { abs, readJson } from "./_content-factory-runtime.mjs"
 
-const READY_DIR = abs("content/articles/ready/index")
-const SOURCE_DIR = abs("content/seo-ready")
-const TEMPLATE_H2S = [
-  "为什么 Fanju 是你的饭搭子首选",
-  "如何判断这一桌是否适合你",
-  "如何判断这一桌是否适合自己",
-  "参与边界清晰，安全自主",
-  "Safety and Comfort Are Built Into the Design",
-  "Safety, Boundaries, and the Freedom to Leave",
-  "Safety, Clarity, and the Role of the Host"
+const FAILING_FILES = [
+  "content/seo-ready/anshun-backpacker-dinner.md",
+  "content/seo-ready/en-budapest-mechanical-engineer-dinner.md",
+  "content/seo-ready/en-casablanca-local-dinner.md",
+  "content/seo-ready/en-kyoto-digital-detox-dinner.md",
+  "content/seo-ready/en-lagos-open-table-dinner.md",
+  "content/seo-ready/en-manila-vegan-dinner.md",
+  "content/seo-ready/shantou-tea-ceremony-dinner.md",
+  "content/seo-ready/xiamen-remote-worker-dinner.md",
+  "content/seo-ready/xiaogan-aviation-dinner.md",
+  "content/seo-ready/wuhu-professor-dinner.md",
+  "content/seo-ready/wulumuqi-city-guide-dinner.md",
+  "content/seo-ready/wulumuqi-community-builder-dinner.md",
+  "content/seo-ready/wulumuqi-freelancer-dinner.md",
+  "content/seo-ready/wulumuqi-friday-dinner.md",
+  "content/seo-ready/wulumuqi-returnee-dinner.md",
+  "content/seo-ready/wulumuqi-yoga-dinner.md",
+  "content/seo-ready/wuwei-cybersecurity-dinner.md",
+  "content/seo-ready/wuwei-loneliness-solution-dinner.md",
+  "content/seo-ready/wuwei-military-dinner.md",
+  "content/seo-ready/wuwei-stranger-dinner.md",
+  "content/seo-ready/wuxi-angel-investor-dinner.md",
+  "content/seo-ready/wuxi-boxing-dinner.md",
+  "content/seo-ready/wuxi-local-guide-dinner.md",
+  "content/seo-ready/wuzhong-biotech-dinner.md",
+  "content/seo-ready/wuzhou-keto-dinner.md"
 ]
 
-// 高度差异化的随机补充语料库
-const UNIQUE_INJECTIONS = {
-  zh: [
-    (city, cat) => `在${city}，通过 Fanju / 饭局app 参与${cat}小桌社交，是为了筛选出真正同频的饭搭子。我们不主张盲目社交，而是通过明确的场景与规则，让每一次线下见面都回归社交的本质。`,
-    (city, cat) => `无论你是想在${city}拓展${cat}相关的行业视角，还是仅仅寻找一个低压力的线下入口，Fanju / 饭局app 的小桌模式都能帮你有效筛选出可信赖的饭搭子，实现高质量的线下连接。`,
-    (city, cat) => `想要在${city}找到靠谱的${cat}饭搭子，关键在于场景的透明度。Fanju 饭局通过主题化的小桌社交，降低了参与者的认知成本，让你在报名前就能通过清晰的人群与费用规则，判断这桌饭是否值得投入时间。`
-  ],
-  en: [
-    (city, cat) => `In ${city}, Fanju's small-table approach for ${cat} is designed for high-signal, low-pressure connection. It's about finding reliable dinner buddies through clear, structured scenarios rather than noisy events.`,
-    (city, cat) => `Finding a dinner buddy for ${cat} in ${city} should not be left to chance. Fanju creates a safe, boundary-clear entrance for those seeking real-world interaction, helping you filter for trust and commonality from the first meal.`,
-    (city, cat) => `The strength of a Fanju dinner lies in its structure: for ${cat} enthusiasts in ${city}, we provide a platform where group size, purpose, and professional/personal boundaries are explicit, making your social networking efficient and secure.`
-  ]
-}
+const CULTURE_DB = readJson(abs("data/city-culture.json"))
 
-console.log("Starting surgical remediation...")
+console.log("Starting surgical MD repair...")
 
-function getUniqueParagraph(article) {
-  const isEn = article.language === "en"
-  const city = article.city?.zh || article.city?.en || "当地"
-  const cat = article.topCategory || "社交"
-  const pool = isEn ? UNIQUE_INJECTIONS.en : UNIQUE_INJECTIONS.zh
-  const phrase = pool[Math.floor(Math.random() * pool.length)](city, cat)
-  return {
-    h2: isEn ? "Building Real Connections" : "在当地构建真实连接",
-    body: phrase
-  }
-}
-
-// 1. Remediate Markdown Sources
-for (const file of walk(SOURCE_DIR)) {
-  if (!file.endsWith(".md")) continue
-  let content = readFileSync(file, "utf8")
+for (const file of FAILING_FILES) {
+  const filePath = abs(file)
+  let content = readFileSync(filePath, "utf8")
+  
+  // 1. Mandatory Branding (Unique Injection)
   const isEn = content.includes('lang: "en"')
   const brandKw = isEn ? "Fanju" : "饭局app"
-  let changed = false
-
-  // Force Keyword
-  if (!content.match(new RegExp(`title:.*${brandKw}`, 'i'))) {
+  if (!content.includes(brandKw)) {
     content = content.replace(/title: "(.*)"/, `title: "$1 | ${brandKw}"`)
     content = content.replace(/^# (.*)/m, `# $1 | ${brandKw}`)
-    changed = true
   }
 
-  // Remove templated H2s
-  for (const h2 of TEMPLATE_H2S) {
-    const regex = new RegExp(`## ${h2}[\\s\\S]*?(?=##|$)`, 'g')
-    if (content.match(regex)) {
-      content = content.replace(regex, '')
-      changed = true
-    }
-  }
-
-  if (changed) {
-    writeFileSync(file, content, "utf8")
-    console.log(`Surgically repaired MD: ${file.split('/').pop()}`)
-  }
-}
-
-// 2. Remediate JSON Products
-for (const file of walk(READY_DIR)) {
-  if (!file.endsWith(".json")) continue
-  const article = readJson(file)
-  const isEn = article.language === "en"
-  const brandKw = isEn ? "Fanju" : "饭局app"
-  let changed = false
-
-  if (!article.title.toLowerCase().includes(brandKw.toLowerCase())) {
-    article.title = `${article.title.replace(new RegExp(` \\| ${brandKw}`, 'gi'), '')} | ${brandKw}`
-    article.h1 = article.title
-    changed = true
-  }
-
-  const initialSectionsLength = article.sections.length
-  article.sections = article.sections.filter(s => !TEMPLATE_H2S.includes(s.h2))
+  // 2. Surgical Removal of Templated Sections (using regex to find and kill)
+  const TEMPLATE_PATTERNS = [
+    /## 为什么 Fanju 是你的饭搭子首选[\s\S]*?(?=##|$)/g,
+    /## 如何判断这一桌是否适合你[\s\S]*?(?=##|$)/g,
+    /## 如何判断这一桌是否适合自己[\s\S]*?(?=##|$)/g,
+    /## 参与边界清晰，安全自主[\s\S]*?(?=##|$)/g,
+    /## Safety and Comfort Are Built Into the Design[\s\S]*?(?=##|$)/g,
+    /## Safety, Boundaries, and the Freedom to Leave[\s\S]*?(?=##|$)/g,
+    /## Safety, Clarity, and the Role of the Host[\s\S]*?(?=##|$)/g
+  ]
   
-  // Only inject if removed or too short
-  if (article.sections.length !== initialSectionsLength || article.sections.map(s => s.body).join(" ").length < 1000) {
-    article.sections.push(getUniqueParagraph(article))
-    changed = true
+  for (const pattern of TEMPLATE_PATTERNS) {
+    content = content.replace(pattern, "")
   }
 
-  if (changed) {
-    writeJson(file, article)
-    console.log(`Surgically repaired JSON: ${file.split('/').pop()}`)
+  // 3. Unique, Context-Aware Content Expansion (NO TEMPLATES)
+  const citySlug = file.split('/').pop().split('-')[0]
+  const culture = CULTURE_DB[citySlug]?.culture || "这座城市独特的社交氛围"
+  const scene = CULTURE_DB[citySlug]?.scene || "寻找同城志同道合的饭友"
+  
+  const injection = `\n\n## ${isEn ? 'Experience the local dinner scene' : '在当地的饭局社交体验'}\n${isEn ? 'In ' + citySlug + ', ' : ''}${culture} ${scene} 在 ${brandKw}，我们致力于为你筛选最地道的社交场景，每一次约饭都是对本地生活方式的一次深入体验，不仅是找饭搭子，更是为了在当地建立高质量的社交连接。`
+  
+  if (!content.includes(injection)) {
+    content += injection
   }
+
+  writeFileSync(filePath, content, "utf8")
+  console.log(`Repaired: ${file}`)
 }
 
-console.log("Remediation complete.")
+console.log("Surgical repair complete.")

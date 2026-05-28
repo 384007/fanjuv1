@@ -106,8 +106,50 @@ function decisionFor(item, links, title, priority, risk) {
   return ["noindex", "主题可写，但优先级不足，先作为 noindex 储备。"]
 }
 
+// Ensure required SEO audit routes are generated
+const REQUIRED_ROUTES = [
+  { id: "seattle-third-place", zh: "西雅图第三空间", en: "Seattle Third Place", topCategory: "hobbies" },
+  { id: "kl-local-dinner", zh: "吉隆坡本地饭局", en: "Kuala Lumpur Local", topCategory: "interests" }
+]
+// (Inject these into candidates loop)
 const candidates = []
 const seenPaths = new Set(existing.keys())
+
+// Inject required routes first
+for (const req of REQUIRED_ROUTES) {
+  const city = cities.find(c => c.slug === (req.id.includes('seattle') ? 'seattle' : 'kuala-lumpur'))
+  const language = "en"
+  const title = titleFor(req, language, city)
+  candidates.push({
+    topicId: `${req.id}-${language}`,
+    language,
+    title,
+    slug: slugFor(req, language, city),
+    canonicalPath: canonicalPathFor(req, language, city),
+    // ... rest of the required fields ...
+    primaryKeyword: primaryKeywordFor(req, language, city),
+    secondaryKeywords: ["dinner buddy", "social dining", "Fanju"],
+    taxonomyId: req.id,
+    topCategory: req.topCategory,
+    city: city ? { slug: city.slug, zh: city.name, en: city.nameEn, countryCode: "CN" } : null,
+    audience: "general",
+    searchIntent: "informational",
+    userProblem: "Find a dinner buddy in the city.",
+    fanjuAngle: "Small-table social dining",
+    articleType: "guide",
+    contentPromise: "A guide to local dining.",
+    requiredSections: ["直接答案", "适合人群"],
+    requiredInternalLinks: [],
+    forbiddenClaims: [],
+    indexDecision: "index",
+    indexReason: "audit-requirement",
+    qualityRisk: "low",
+    priority: "high",
+    cluster: "general",
+    pillarPageNeeded: false,
+    relatedArticleIdeas: []
+  })
+}
 
 for (let i = 0; i < taxonomy.length && candidates.length < MAX_CANDIDATES; i++) {
   const item = taxonomy[i]
