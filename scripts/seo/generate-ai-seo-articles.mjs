@@ -280,7 +280,8 @@ function makeArticle(candidate, item, links) {
   const sections = isEn
     ? enBody({ item, cityName, links })
     : zhBody({ item, cityName, links })
-  const title = candidate.title
+  const title = `${candidate.title} | fanju-app`
+  const h1 = title
   const directAnswer = isEn
     ? `${item.en} can be a useful Fanju dinner theme when the table has a clear audience, public venue, small group size, and respectful boundaries. It suits people who want real-world conversation around ${item.en.toLowerCase()} without turning the meal into hard selling, pressure, or guaranteed outcomes.`
     : `${item.zh}适合做成 Fanju / 饭局 小桌主题，前提是人群、场景、人数、餐厅和边界都说清楚。它适合想围绕${item.zh}认识同频朋友、同行或搭子的人，但不应承诺脱单、成交、融资、收益或任何固定结果。`
@@ -302,9 +303,9 @@ function makeArticle(candidate, item, links) {
     title,
     metaTitle: title.length > 58 ? `${title.slice(0, 55)}...` : title,
     metaDescription: isEn
-      ? `A practical Fanju guide to ${item.en.toLowerCase()} dinners: who it suits, how to choose a small table, what to discuss, boundaries, safety, and next links.`
-      : `这篇 Fanju / 饭局指南说明${item.zh}如何变成小桌饭局：适合谁、怎么选、聊什么、不聊什么、安全边界和下一步阅读。`,
-    h1: title,
+      ? `Find your dinner buddy at a Fanju dinner. Fanju-app guide to ${item.en.toLowerCase()} dinners: who it suits, boundaries, and safety.`
+      : `这篇 Fanju-app / 饭局指南说明${item.zh}如何变成小桌饭局：适合谁、怎么选、聊什么、不聊什么、安全边界和下一步阅读。`,
+    h1,
     excerpt: directAnswer,
     primaryKeyword: candidate.primaryKeyword,
     secondaryKeywords: candidate.secondaryKeywords,
