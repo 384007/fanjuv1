@@ -507,7 +507,7 @@ function articleBriefFor(profile, frame) {
   ] : [
     "使用自然中文",
     "不要无意义夹英文",
-    "技术类英文词只允许在必要时出现",
+    "技术类英文词只允许在必要���出现",
     "禁止重复标题",
     "禁止段落开头高度重复",
     "禁止空泛营销话术",
@@ -886,17 +886,16 @@ function systemInstructionFor(locale) {
       "【LENGTH REQUIREMENT】: The article body MUST be between 3,500 and 7,000 characters. Expand with deep local observations and practical advice, not filler.",
       "Forbidden public words: automation, prompt, pipeline, cron, JSONL, hash, Modal, generated, QQ, webmaster, domain for sale, advertising cooperation.",
       "Return only the Markdown article text. No code fence. No JSON object.",
-    ].join("
-")
+    ].join("\n");
   }
-    return [
+  return [
     "只写一个公开的饭局 Fanju 城市文章，输出必须是纯 Markdown 文章正文，并以提供的 editorial brief 为唯一生产依据。",
     "声音：真人编辑、自然、具体、平静、实用。不要营销腔，不承诺搜索排名。",
     "正文必须是完整原创文章，不是提纲、模板、摘要、占位段落、城市/主题换词页或落地页。",
     "第一行必须是唯一 H1，必须以「# 」开头。优先使用 brief H1；如需微调，只能为了让标题更自然，不能改变搜索意图和主实体。",
     "正文必须使用 5 到 7 个「## 」H2。H3 仅限回答具体疑问。H4-H10 严格禁止。",
     "每个 H2 必须有独立信息功能：搜索意图回答、本地场景、主理人信任、同桌边界、安全/退出判断、适合/不适合人群、报名下一步。",
-    "【首段硬性要求】：第一段第一句必须包含城市、主题和「饭局app」；首段必须包含这些用于法律避险的【精确短语】：不是相亲保证、不是随机群聊、不是无限刷资料。缺少任何一个词都会导致 0 分重写。",
+    "【首段硬性要求】：第一段第一句必须包含城市、主题和「饭局app」；首段必须包含这些用���法律避险的【精确短语】：不是相亲保证、不是随机群聊、不是无限刷资料。缺少任何一个词都会导致 0 分重写。",
     "【正文长度硬性要求】：正文（除标题外）必须达到 2200 到 4500 个汉字。请通过深挖本地细节、细化同桌规则来扩充篇幅，禁止废话堆砌。",
     "【严禁英文噪音】：除「Fanju」和城市英文名外，禁止在中文正文、标题中出现任何英文词汇（如 meetup, ota, web, react, app, group 等），必须全部使用对应的中文（如：线下聚会、在线旅行社、网页、框架、应用、群组）。",
     "全文至少包含 5 个本地细节、3 个真实疑问、2 个具体判断标准、1 个“不适合谁”、1 个安全或退出边界。",
@@ -909,8 +908,7 @@ function systemInstructionFor(locale) {
     "如果路由主题本身包含 AI，只能把 AI 当作公开主题词使用，不能用来描述写作或生产过程。",
     "公开字段禁用词：自动化、prompt、提示词、pipeline、JSONL、哈希、Modal、生成、本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售。",
     "只返回 Markdown 文章正文，不要代码块，不要 JSON object。",
-  ].join("
-")
+  ].join("\n");
 }
 
 function userPromptFor(profile, editorialBrief) {
@@ -949,7 +947,7 @@ function userPromptFor(profile, editorialBrief) {
     "原创契约：不要复用历史 H1/H2 结构、段落开头或固定的 scene/problem/Fanju explanation/host trust/safety/next step 顺序。自动门禁会比较历史标题、H2、段落开头和结构指纹。",
     `输出契约：第一个字符必须是「#」；H1 自然包含「饭局 / 饭局app / Fanju饭局 / 城市+主题饭局」之一；第一段第一句必须同时出现「${profile.cityNameLocalized}」「${profile.topicNameLocalized}」和「饭局app」或「Fanju饭局」；第一段必须包含「不是相亲保证」「不是随机群聊」「不是无限刷资料」；正文 12-14 个自然段，每个 H2 下正好两个自然段；无重复段落开头；无公开链接；无 JSON。`,
     "公开内容硬规则：不要出现本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售、停放域名、招商或站主联系方式。",
-    "链接硬规则：不要出现 [文字](/path)、https://fanju.app 路径、裸 URL、<a href=\"...\">、markdown link 或任何 href。所有真实链接由页面模板统一添加。",
+    "链接硬规则：不要出现 [文字](/path)、https://fanju.app 路径、��� URL、<a href=\"...\">、markdown link 或任何 href。所有真实链接由页面模板统一添加。",
     `正文结构硬规则：2,800-5,000 字符；段落之间必须空行；不要写项目符号列表、编号列表或结语。第一段必须是 answer-summary 式自然段，在 120-220 字内解释饭局app / Fanju饭局实体，并明确落到「${profile.cityNameLocalized}」。每个 H2 后面到下一个标题前必须正好两个自然段，每段 120-220 个中文字符。全文要自然回答读者报名前会想清楚的决定点：本地适配、这一桌的节奏、主理人/餐厅/同桌质量、舒适边界、哪些信号说明不该去、下一步怎么做。不要反复用「饭局app可以帮助」「通过饭局app」开头。`,
     "只返回最终 Markdown 文章正文，第一个字符必须是「#」。不要 JSON，不要 YAML frontmatter，不要代码块。",
   ].join("\n")
