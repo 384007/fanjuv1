@@ -861,76 +861,6 @@ function buildEditorialBrief(profile) {
       structureFingerprint: "Reject if the sequence is just scene/problem/Fanju explanation/host trust/safety/next step in the same order as recent articles.",
     },
   }
-<<<<<<< Updated upstream
-
-  function cleanHeading(value) {
-    const heading = String(value || "").trim()
-    if (isEn) return heading
-    return heading
-      .replace(/饭局饭局/g, "饭局")
-      .replace(/饭局app的饭局/g, "饭局app饭局")
-  }
-
-  function routeSpecificHeading(value) {
-    const heading = cleanHeading(value)
-    const hasCity = headingHas(heading, city)
-    const hasTopic = headingHas(heading, topic)
-    if (hasCity && hasTopic) return heading
-    if (isEn) {
-      if (!hasCity && !hasTopic) return `${heading} for ${topic} in ${city}`
-      if (!hasTopic) return `${heading} for ${topic}`
-      return `${heading} in ${city}`
-    }
-    if (!hasCity && !hasTopic) return cleanHeading(`${city}${topic}这一桌：${heading}`)
-    if (!hasTopic) return cleanHeading(`${heading}，回到${topic}`)
-    return cleanHeading(`${city}这一桌：${heading}`)
-  }
-
-  const usedHeadingKeys = new Set()
-
-  function rememberHeading(text) {
-    const normalized = normalizeForTemplateCheck(text)
-    if (normalized) usedHeadingKeys.add(normalized)
-    return text
-  }
-
-  function chooseUniqueHeading(variants, startIndex) {
-    if (!Array.isArray(variants) || variants.length === 0) return null
-    for (let offset = 0; offset < variants.length; offset++) {
-      const index = (startIndex + offset) % variants.length
-      const text = routeSpecificHeading(variants[index])
-      const normalized = normalizeForTemplateCheck(text)
-      if (!normalized || usedHeadingKeys.has(normalized)) continue
-      usedHeadingKeys.add(normalized)
-      return text
-    }
-    return null
-  }
-
-  const h1 = rememberHeading(cleanHeading(TEMPLATES[0][frameIndex(profile, "h1", TEMPLATES[0].length)]))
-  
-  const h2s = []
-  for (let i = 0; i < 6; i++) {
-    const variants = h2Slots[i]
-    const text = chooseUniqueHeading(variants, frameIndex(profile, `h2-${i + 1}`, 6))
-    if (text) h2s.push(text)
-  }
-
-  // Build heading outline: H1, then H2s (level 2), then H3..HmaxDepth (one each, levels 3..maxDepth)
-  // Each deeper heading is a child of the previous — strictly increasing level, never decreasing.
-  const deepHeadings = [] // { level, text }
-  for (let level = 3; level <= maxDepth; level++) {
-    const templateIdx = level - 1 // index into TEMPLATES array (0=H1,1=H2,2=H3,...)
-    const variants = TEMPLATES[templateIdx] || TEMPLATES[TEMPLATES.length - 1]
-    const text = chooseUniqueHeading(variants, frameIndex(profile, `h${level}`, variants.length))
-    if (text) deepHeadings.push({ level, text })
-  }
-
-  const frame = { h1, h2s, deepHeadings, maxDepth }
-  preflightArticleFrame(profile, frame)
-  return frame
-=======
->>>>>>> Stashed changes
 }
 
 // The former fixed H1-H10 article frame factory was intentionally removed.
@@ -939,19 +869,6 @@ function buildEditorialBrief(profile) {
 function systemInstructionFor(locale) {
   if (locale === "en") {
     return [
-<<<<<<< Updated upstream
-      "Write one public Fanju city article as plain Markdown only.",
-      "Voice: human, practical, city-specific, calm. No hype.",
-      "The body must be a complete editorial article, not an outline, template, summary, list of placeholders, or short answer.",
-      "The first line must be the article H1 and must begin with '# '.",
-      "Markdown heading syntax is strict: valid headings use '# ', '## ', '### ', '#### ', '##### ', '###### ', '####### ' etc. with a space after the hashes. Never omit the space.",
-      "Use '## ' for major sections. Deeper headings (H3 through H7+) must appear in strictly increasing order — never skip levels downward.",
-      "Use only the exact H1, six H2 headings, and H3-through-Hmax headings provided in the user prompt. Do not create any additional Markdown headings at any level.",
-      "Every H1-Hn heading must appear at most once. Never duplicate a FAQ heading, checklist heading, question heading, conclusion heading, or any provided heading.",
-      "A repeated heading is a hard failure: rewrite the article from scratch. Do not try to bypass this by changing quality score, status, renderMode, metadata, or by deleting required public content.",
-      "Write original paragraphs with concrete local context. Do not repeat the same sentence pattern, paragraph opening, or section logic across sections.",
-      "Before returning, silently verify: H1 has city + Fanju app; every H1-Hn heading is unique inside this article; every H2-Hn is specific to this city, topic, and angle; title is not a reusable template; at least one non-opening paragraph has city context for meta description extraction; body has exactly 6 H2, the provided H3-Hmax headings only, at least 13 natural paragraphs, no repeated paragraph openings, no public links, no JSON.",
-=======
       "Write one public Fanju city article as plain Markdown only, using the supplied editorial brief as the source of truth.",
       "Voice: human editor, practical, city-specific, calm. No hype and no search-ranking promises.",
       "The article must be original prose, not an outline, not a template, not a city/topic word swap, and not a landing page.",
@@ -961,7 +878,6 @@ function systemInstructionFor(locale) {
       "The first paragraph must define Fanju app as a social app for small-table meals, clear dinner themes, and offline connection in the named city/topic. Its first sentence must include the city and topic. It must include these exact phrases: not a dating guarantee, not a random group chat, not an endless profile feed.",
       "Bridge the Chinese entity at least once: Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局”.",
       "Include at least five local details or local observations, at least three real reader questions, at least two concrete judgment criteria, at least one 'who this is not for' point, and at least one safety or exit boundary.",
->>>>>>> Stashed changes
       "Never invent statistics, restaurants, user counts, awards, or partnerships.",
       "Never mention tools or production process.",
       "Never write Markdown links, raw URLs, href attributes, or HTML anchor tags. Use the brief's internalLinkPlan as anchor-text intent only; the site template adds real links.",
@@ -974,19 +890,6 @@ function systemInstructionFor(locale) {
     ].join("\n")
   }
   return [
-<<<<<<< Updated upstream
-    "只写一个公开的饭局 Fanju 城市文章，输出必须是纯 Markdown 文章正文。",
-    "声音：自然、具体、平静、实用。不要营销腔。",
-    "正文必须是一篇完整、有编辑感的文章，不是提纲、模板、摘要、占位段落或短回答。",
-    "第一行必须是文章 H1，必须以「# 」开头。",
-    "Markdown 标题语法必须严格：合法标题是「# 标题」「## 标题」「### 标题」「#### 标题」「##### 标题」「###### 标题」「####### 标题」等，井号后必须有空格。",
-    "主要小节必须用「## 」开头。更深层标题（H3 到 H7+）必须严格递增出现，不能跳级降低。",
-    "只能使用用户提示中给定的 H1、6 个 H2、以及 H3 到 Hmax 的标题，不得新增任何额外 Markdown 标题。",
-    "本篇所有 H1-Hn 标题每个最多出现一次。禁止重复 FAQ 标题、检查清单标题、问题标题、结语标题或任何给定标题。",
-    "标题重复就是硬失败：必须从头重写。禁止通过修改质量分、status、renderMode、metadata 或删除必要正文来绕过。",
-    "返回前请在内部自检：H1 有中文城市名 + 饭局app；本篇所有 H1-Hn 标题互不重复；每个 H2-Hn 都具体到这座城市、这个主题和这个角度；标题不是套模板；开头之后至少一段有中文城市语境，供 meta description 抽取；正文正好 6 个 H2、只使用给定的 H3-Hmax 标题、至少 13 个自然段、没有重复段落开头、无公开链接、无 JSON。",
-    "每段都要有真实城市语境，不要在不同小节反复套同一种句式、段落开头或论证顺序。",
-=======
     "只写一个公开的饭局 Fanju 城市文章，输出必须是纯 Markdown 文章正文，并以提供的 editorial brief 为唯一生产依据。",
     "声音：真人编辑、自然、具体、平静、实用。不要营销腔，不承诺搜索排名。",
     "正文必须是完整原创文章，不是提纲、模板、摘要、占位段落、城市/主题换词页或落地页。",
@@ -995,7 +898,6 @@ function systemInstructionFor(locale) {
     "每个 H2 必须有独立信息功能：搜索意图回答、本地场景、主理人信任、同桌边界、安全/退出判断、适合/不适合人群、报名下一步。",
     "首段必须解释饭局app / Fanju饭局是什么：它是围绕小桌吃饭、清晰主题和线下连接的社交应用，并落到本城市和本主题；第一句必须出现城市和主题；首段必须包含这些精确短语：不是相亲保证、不是随机群聊、不是无限刷资料。",
     "全文至少包含 5 个本地细节或本地观察、至少 3 个用户真实疑问、至少 2 个具体判断标准、至少 1 个“不适合谁”、至少 1 个安全或退出边界。",
->>>>>>> Stashed changes
     "不要编造统计数据、餐厅名、用户数、奖项或合作伙伴。",
     "不要提及任何工具、后台或生产流程。",
     "正文不要写 Markdown 链接、裸 URL、href 或 HTML a 标签。internalLinkPlan 只作为自然锚文本计划，真实链接由页面模板统一添加。",
@@ -1008,43 +910,15 @@ function systemInstructionFor(locale) {
   ].join("\n")
 }
 
-<<<<<<< Updated upstream
-function userPromptFor(profile, frame = articleFrameFor(profile), articleBrief = articleBriefFor(profile, frame)) {
-=======
 function userPromptFor(profile, editorialBrief) {
->>>>>>> Stashed changes
   const isEn = profile.locale === "en"
   const briefJson = JSON.stringify(editorialBrief, null, 2)
   const titleDirection = titleDirectionFor(profile)
-<<<<<<< Updated upstream
-
-  // Build the deep heading outline string (H3 through HmaxDepth)
-  const deepOutline = frame.deepHeadings
-    .map(({ level, text }) => `${"#".repeat(level)} ${text}`)
-    .join("\n")
-  const maxDepth = frame.maxDepth
-=======
->>>>>>> Stashed changes
 
   if (isEn) {
     return [
       `Write a high-quality English article for route ${profile.route}.`,
       `City: ${profile.cityNameLocalized}. Topic: ${profile.topicNameLocalized}.`,
-<<<<<<< Updated upstream
-      `Use this deterministic articleBrief as the source brief for the article. It is program-generated, not AI-generated. Follow it closely, but do not quote it, summarize it, or output JSON:\n${JSON.stringify(articleBrief, null, 2)}`,
-      `Use this exact H1 as the first line, with no edits:\n# ${frame.h1}\nThis H1 already includes the city and the exact phrase "Fanju app".`,
-      `Title/H1 guardrails: title direction=${titleDirection}. Do not replace the H1 with "${profile.cityNameLocalized} ${profile.topicNameLocalized} Guide", "A Guide to ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "How to join ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", or any title that only swaps city/topic words. Also avoid bland titles like "${indefiniteArticleEn(profile.cityNameLocalized).replace(/^./, (c) => c.toUpperCase())} ${profile.cityNameLocalized} dinner journey" or "Discover ${profile.cityNameLocalized} through dinner".`,
-      `Angle: ${profile.angle.name}. Use this angle: ${profile.angle.instruction}`,
-      `Style profile: structure=${profile.structure}; opening=${profile.openingStyle}; faq=${profile.faqMode}; cta=${profile.ctaPosition}; example=${profile.exampleType}; tone=${profile.tone}; title=${profile.titlePattern}.`,
-      `Heading allowlist: the only Markdown headings allowed in the article are the exact H1 below, the exact 6 H2 headings below, and the exact H3-H${maxDepth} headings below. Do not add any other H1, H2, H3, H4, H5, H6, H7, H8, H9, or H10 heading.`,
-      `Use these exact 6 H2 headings, in this order, with no edits:\n${frame.h2s.map((h) => `## ${h}`).join("\n")}`,
-      `After the H2 sections, use these exact deeper headings in strict order (H3 through H${maxDepth}). Each heading must appear exactly once, on its own line, with the correct number of # symbols and a space:\n${deepOutline}`,
-      "Do not create FAQ, checklist, conclusion, next-step, safety, or summary headings beyond the allowlist. If you need those ideas, write them as normal paragraph prose under the provided headings.",
-      "Hard failure rule: no H1-Hn heading text may repeat after normalization. If any heading would repeat, rewrite the full article before returning it. Do not bypass heading failures by changing score/status/renderMode/metadata or by deleting required article sections.",
-      `Heading depth rule: headings must only go deeper (H2 → H3 → H4 → … → H${maxDepth}). Never use a shallower heading after a deeper one. The article must reach at least H${maxDepth}.`,
-      "Quality: practical editorial guide, not a landing page. Include city rhythm, neighbourhood choice, attendee concerns, host reliability cues, comfort boundaries, and decision criteria. Every H2-Hn section must have real article paragraphs with distinct ideas and distinct paragraph openings.",
-      `Output contract that must pass automated quality checks: first character '#'; exactly one H1; all H1-H${maxDepth} headings are unique; 6 H2 headings using '## ' with a space; all deeper headings from H3 to H${maxDepth} present in strict order; at least 13 natural paragraphs; every H2 has at least two paragraphs; every deeper heading has at least one paragraph; first paragraph mentions city and Fanju app; at least one later paragraph mentions the city without repeating the opening; title, first paragraph, and opening 600 characters mention Fanju app.`,
-=======
       `Editorial brief JSON:\n${briefJson}`,
       `Title/H1 guardrails: title direction=${titleDirection}. Do not replace the H1 with "${profile.cityNameLocalized} ${profile.topicNameLocalized} Guide", "A Guide to ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "How to join ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", or any title that only swaps city/topic words. Also avoid bland titles like "${indefiniteArticleEn(profile.cityNameLocalized).replace(/^./, (c) => c.toUpperCase())} ${profile.cityNameLocalized} dinner journey" or "Discover ${profile.cityNameLocalized} through dinner".`,
       `Angle: ${profile.angle.name}. Use this angle: ${profile.angle.instruction}`,
@@ -1053,7 +927,6 @@ function userPromptFor(profile, editorialBrief) {
       "Heading contract: exactly one H1; exactly 6 H2 sections; no H3 unless a reader question genuinely needs it; no H4-H10.",
       `Originality contract: do not reuse old H1/H2 structures, paragraph openings, or the standard scene/problem/Fanju explanation/host trust/safety/next step structure. The automated gate will compare against historical titles, H2s, paragraph openings, and structure fingerprints.`,
       `Output contract: first character '#'; title/H1 includes Fanju app or a natural Chinese entity bridge; the first sentence of the first paragraph includes ${profile.cityNameLocalized}, ${profile.topicNameLocalized}, and Fanju app; the first paragraph also includes the Chinese entity bridge “饭局 / 饭局app / Fanju饭局” and the exact phrases “not a dating guarantee”, “not a random group chat”, and “not an endless profile feed”; body has 12-14 natural paragraphs, with exactly two paragraphs under each H2; no repeated paragraph openings; no public links; no JSON.`,
->>>>>>> Stashed changes
       "Hard public-content rule: do not include QQ, webmaster contact, local contact, parked-domain text, advertising-sales copy, or any Chinese parked-domain phrase.",
       "Hard linking rule: do not include [text](/path), https://fanju.app paths, raw URLs, <a href=\"...\">, the words markdown link, or any href. All real links are added by the page template.",
       `Body requirements: 3,600-7,200 total characters, not 3,600 words; no filler. Do not use bullet lists or numbered lists. Use blank lines between paragraphs. Start with one answer-summary paragraph in 120-220 words. Each H2 must be followed by exactly two paragraph blocks of 70-120 words each before the next heading. Across the article, naturally resolve the reader's decision points before joining: local fit, table rhythm, host and venue quality, guest mix, comfort boundaries, skip signals, and a concrete next move.`,
@@ -1063,31 +936,15 @@ function userPromptFor(profile, editorialBrief) {
   return [
     `为「${profile.cityNameLocalized}」城市页写一篇高质量中文长文。`,
     `城市：${profile.cityNameLocalized}。主题：${profile.topicNameLocalized}。`,
-<<<<<<< Updated upstream
-    `以下 deterministic articleBrief 是程序生成的写作简报，不是 AI 生成的 prompt。必须优先按它写文章，但不要引用、复述或输出 JSON：\n${JSON.stringify(articleBrief, null, 2)}`,
-    `第一行必须使用这个精确 H1，不能改字：\n# ${frame.h1}\n这个 H1 已经包含中文城市名和「饭局app」。`,
-=======
     `Editorial brief JSON:\n${briefJson}`,
->>>>>>> Stashed changes
     `标题/H1 防线：标题方向=${titleDirection}。禁止改成只替换城市/主题的模板标题。正文前 200 字必须自然出现「饭局app」和「${profile.cityNameLocalized}」，开头之后至少一段也要自然出现「${profile.cityNameLocalized}」。`,
     `中文城市名硬规则：公开标题、H1、H2 和正文里，城市名只能使用「${profile.cityNameLocalized}」；URL slug、拼音城市名、英文城市名一律不能出现在公开字段里。`,
     `角度：${profile.angle.name}。按这个方向写：${profile.angle.instruction}`,
     `风格 profile：结构=${profile.structure}；开头=${profile.openingStyle}；FAQ=${profile.faqMode}；CTA=${profile.ctaPosition}；例子=${profile.exampleType}；语气=${profile.tone}；标题=${profile.titlePattern}。`,
-<<<<<<< Updated upstream
-    `标题白名单：文章中唯一允许出现的 Markdown 标题，是下面给定的精确 H1、6 个精确 H2、以及精确 H3-H${maxDepth}。不得新增任何额外 H1、H2、H3、H4、H5、H6、H7、H8、H9 或 H10 标题。`,
-    `必须使用这 6 个精确 H2，按顺序写，不能改字：\n${frame.h2s.map((h) => `## ${h}`).join("\n")}`,
-    `H2 之后，必须按顺序使用以下更深层标题（H3 到 H${maxDepth}），每个标题单独成行，井号数量和空格必须完全一致：\n${deepOutline}`,
-    "不要在白名单之外新增 FAQ、检查清单、结语、下一步、安全、总结等标题。如果需要表达这些内容，只能写成给定标题下面的普通正文段落。",
-    "硬失败规则：H1-Hn 任意标题归一化后都不能重复。如果会重复，必须在返回前重写全文。禁止通过修改 score/status/renderMode/metadata 或删除必要正文来绕过标题失败。",
-    `标题深度规则：标题只能越来越深（H2 → H3 → H4 → … → H${maxDepth}），不能在更深的标题后出现更浅的标题。文章必须到达 H${maxDepth}。`,
-    "质量：像真实城市饭局指南，不像落地页。写出城市节奏、街区选择、同桌人数、报名前顾虑、主理人信号、安全判断、报名建议。每个 H2-Hn 标题小节都必须有真实正文段落，且各小节观点、段落开头和论证顺序不能重复。",
-    `输出契约：第一个字符必须是「#」；只允许 1 个 H1；H1 到 H${maxDepth} 的所有标题必须互不重复；必须有 6 个「## 」标题；H3 到 H${maxDepth} 的所有标题必须按顺序出现；至少 13 个自然段；第一段必须同时出现「饭局app」和中文城市名；开头之后至少一段也要自然出现中文城市名但不能复用开头句式；标题、H1、前 600 字都必须出现饭局app。`,
-=======
     "以 brief 的 H1 和 6 个 H2 outline 为文章结构。H2 可以为了自然表达做轻微改写，但每个 H2 的信息功能必须保留，不能变成通用可复用小节。不要把 mustAnswerQuestions 原文写成标题。",
     "标题契约：只允许 1 个 H1；必须正好 6 个 H2；H3 只在真实需要时出现；禁止 H4-H10。",
     "原创契约：不要复用历史 H1/H2 结构、段落开头或固定的 scene/problem/Fanju explanation/host trust/safety/next step 顺序。自动门禁会比较历史标题、H2、段落开头和结构指纹。",
     `输出契约：第一个字符必须是「#」；H1 自然包含「饭局 / 饭局app / Fanju饭局 / 城市+主题饭局」之一；第一段第一句必须同时出现「${profile.cityNameLocalized}」「${profile.topicNameLocalized}」和「饭局app」或「Fanju饭局」；第一段必须包含「不是相亲保证」「不是随机群聊」「不是无限刷资料」；正文 12-14 个自然段，每个 H2 下正好两个自然段；无重复段落开头；无公开链接；无 JSON。`,
->>>>>>> Stashed changes
     "公开内容硬规则：不要出现本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售、停放域名、招商或站主联系方式。",
     "链接硬规则：不要出现 [文字](/path)、https://fanju.app 路径、裸 URL、<a href=\"...\">、markdown link 或任何 href。所有真实链接由页面模板统一添加。",
     `正文结构硬规则：2,800-5,000 字符；段落之间必须空行；不要写项目符号列表、编号列表或结语。第一段必须是 answer-summary 式自然段，在 120-220 字内解释饭局app / Fanju饭局实体，并明确落到「${profile.cityNameLocalized}」。每个 H2 后面到下一个标题前必须正好两个自然段，每段 120-220 个中文字符。全文要自然回答读者报名前会想清楚的决定点：本地适配、这一桌的节奏、主理人/餐厅/同桌质量、舒适边界、哪些信号说明不该去、下一步怎么做。不要反复用「饭局app可以帮助」「通过饭局app」开头。`,
@@ -1141,24 +998,16 @@ function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, mas
   const subSeed = seedFromString(`${masterSeed}::${locale}`)
   const rng = mulberry32(subSeed)
 
-<<<<<<< Updated upstream
-  // Balance by topic first so LIMIT=1000 covers 100+ article types instead of
-  // accidentally clustering around the original small category set.
-=======
   // Balance after history filtering so LIMIT=1000 covers fresh routes instead
   // of repeating content that is already in Markdown, D1, or published state.
->>>>>>> Stashed changes
   const routeCandidates = enabledRoutes.filter((route) => {
     const routeKey = routeKeyFor({ locale: route.locale, citySlug: route.citySlug, topicSlug: route.topicSlug, route: route.route })
     const localeCityTypeKey = localeCityTypeKeyFor({ locale: route.locale, citySlug: route.citySlug, topicSlug: route.topicSlug, route: route.route })
     return !historicalSkipReason({ ...route, routeKey, localeCityTypeKey }, history)
   })
-<<<<<<< Updated upstream
-=======
   if (routeCandidates.length === 0) {
     throw new Error(`No unpublished routes for locale=${locale}`)
   }
->>>>>>> Stashed changes
   const routePool = balancedRoutePool(rng, routeCandidates)
 
   const profileKeySet = new Set()
@@ -1173,13 +1022,9 @@ function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, mas
   const maxTotalAttempts = routePool.length
 
   while (out.length < count && routeCursor < routePool.length) {
-<<<<<<< Updated upstream
-    if (attempts++ > maxTotalAttempts) break
-=======
     if (attempts++ > maxTotalAttempts) {
       throw new Error(`Could not build ${count} unique prompts for locale=${locale} after ${attempts} attempts`)
     }
->>>>>>> Stashed changes
     const route = routePool[routeCursor]
     routeCursor++
     const routeKey = routeKeyFor({ locale: route.locale, citySlug: route.citySlug, topicSlug: route.topicSlug, route: route.route })
@@ -1220,10 +1065,6 @@ function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, mas
       route: route.route,
       routeKey,
       localeCityTypeKey,
-<<<<<<< Updated upstream
-      randomSeed: RANDOM_SEED,
-=======
->>>>>>> Stashed changes
       angle,
       structure,
       openingStyle,
@@ -1234,32 +1075,17 @@ function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, mas
       titlePattern,
     }
 
-<<<<<<< Updated upstream
-    // H1 global dedup: reject if this exact H1 text was already used
-    const frame = articleFrameFor(profile)
-    const articleBrief = articleBriefFor(profile, frame)
-    const h1Key = frame.h1.toLowerCase().replace(/\s+/g, " ").trim()
-    if (seenH1Set.has(h1Key)) continue
-
-    const systemInstruction = systemInstructionFor(profile.locale)
-    const userPrompt = userPromptFor(profile, frame, articleBrief)
-=======
     const editorialBrief = buildEditorialBrief(profile)
     const h1Key = String(editorialBrief.H1 || "").toLowerCase().replace(/\s+/g, " ").trim()
     if (seenH1Set.has(h1Key)) continue
 
     const systemInstruction = systemInstructionFor(profile.locale)
     const userPrompt = userPromptFor(profile, editorialBrief)
->>>>>>> Stashed changes
 
     const profileHash = sha256Hex(profileKey)
-    const promptHash = sha256Hex(`${systemInstruction}\n---\n${userPrompt}\n---\n${JSON.stringify(articleBrief)}`)
+    const promptHash = sha256Hex(`${systemInstruction}\n---\n${userPrompt}\n---\n${JSON.stringify(editorialBrief)}`)
     if (promptHashSet.has(promptHash)) continue
-<<<<<<< Updated upstream
-    const historyReason = historicalSkipReason({ ...profile, articleBrief, promptHash, profileHash }, history)
-=======
     const historyReason = historicalSkipReason({ ...profile, editorialBrief, promptHash, profileHash }, history)
->>>>>>> Stashed changes
     if (historyReason) continue
 
     profileKeySet.add(profileKey)
@@ -1271,11 +1097,7 @@ function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, mas
 
     out.push({
       profile,
-<<<<<<< Updated upstream
-      articleBrief,
-=======
       editorialBrief,
->>>>>>> Stashed changes
       systemInstruction,
       userPrompt,
       profileHash,
@@ -1283,13 +1105,10 @@ function buildLocalePrompts({ locale, count, manifestEntries, cityNameIndex, mas
     })
   }
 
-<<<<<<< Updated upstream
-=======
   if (out.length < count) {
     throw new Error(`Could not build ${count} unpublished unique prompts for locale=${locale}; generated ${out.length}`)
   }
 
->>>>>>> Stashed changes
   return { prompts: out, availableCandidates: routeCandidates.length, requested: count }
 }
 
@@ -1343,24 +1162,10 @@ async function main() {
   // Final emission. Each line is an independent JSON object.
   const lines = []
   for (let i = 0; i < all.length; i++) {
-<<<<<<< Updated upstream
-	    const p = all[i]
-	    const idx = String(i + 1).padStart(6, "0")
-	    const promptId = `fanju-seo-${idx}`
-	    const seed = `${RANDOM_SEED}-${idx}`
-	    const obj = {
-	      promptId,
-	      seed,
-	      promptSeed: seed,
-	      randomSeed: RANDOM_SEED,
-	      articleBriefVersion: ARTICLE_BRIEF_VERSION,
-	      routeKey: p.profile.routeKey,
-	      locale: p.profile.locale,
-=======
     const p = all[i]
     const idx = String(i + 1).padStart(6, "0")
     const promptId = `fanju-seo-${idx}`
-    const seed = `${datePrefix}-${idx}`
+    const seed = `${RANDOM_SEED}-${idx}`
     const obj = {
       promptId,
       seed,
@@ -1370,7 +1175,6 @@ async function main() {
       routeKey: p.profile.routeKey,
       localeCityTypeKey: p.profile.localeCityTypeKey,
       locale: p.profile.locale,
->>>>>>> Stashed changes
       citySlug: p.profile.citySlug,
       cityNameLocalized: p.profile.cityNameLocalized,
       cityNameZh: p.profile.cityNameZh,
@@ -1387,16 +1191,10 @@ async function main() {
       ctaPosition: p.profile.ctaPosition,
       exampleType: p.profile.exampleType,
       tone: p.profile.tone,
-<<<<<<< Updated upstream
-	      titlePattern: p.profile.titlePattern,
-	      articleBrief: p.articleBrief,
-	      systemInstruction: p.systemInstruction,
-=======
       titlePattern: p.profile.titlePattern,
       editorialBrief: p.editorialBrief,
       briefHash: sha256Hex(JSON.stringify(p.editorialBrief)),
       systemInstruction: p.systemInstruction,
->>>>>>> Stashed changes
       userPrompt: p.userPrompt,
       promptHash: p.promptHash,
       profileHash: p.profileHash,
