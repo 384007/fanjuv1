@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 不想在安康随便拼桌，饭局app怎样让互相督促饭局变成一个真实决定 | fanju-app
 

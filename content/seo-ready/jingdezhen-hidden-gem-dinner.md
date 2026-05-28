@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 下班后的景德镇，饭局app怎样让宝藏餐厅饭局有真实同桌 | fanju-app
 

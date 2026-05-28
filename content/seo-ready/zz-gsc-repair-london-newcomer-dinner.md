@@ -10,7 +10,6 @@ pageType: "city_topic"
 priorityScore: 78
 aiQualityScore: 96
 status: "ready"
----
 
 # 伦敦新朋友饭局指南：在城市里找到第一桌同频晚餐 | fanju-app | 饭局app
 

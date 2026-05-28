@@ -10,7 +10,6 @@ pageType: "city_topic"
 priorityScore: 78
 aiQualityScore: 96
 status: "ready"
----
 
 # 宁波周末饭局指南：把周末留给一桌真实交流 | fanju-app | 饭局app
 

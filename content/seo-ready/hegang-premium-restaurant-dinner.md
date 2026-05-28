@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 鹤岗想参加高端餐厅饭局，饭局app把信任感放在饭前 | fanju-app
 

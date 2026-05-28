@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T150008Z-round-1-000005"
 randomSeed: "production-cloudflare-20260525T150008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
----
 
 # In Sao Paulo, Fanju app turns Premium Restaurant Dinner into a table people can actually trust | fanju-app
 

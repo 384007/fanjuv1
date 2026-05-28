@@ -21,7 +21,6 @@ promptSeed: "production-cloudflare-20260526T020005Z-round-1-000004"
 randomSeed: "production-cloudflare-20260526T020005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T020005Z"
----
 
 # 第一次在常德参加数字游民饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 

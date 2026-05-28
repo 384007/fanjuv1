@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T150008Z-round-1-000009"
 randomSeed: "production-cloudflare-20260525T150008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
----
 
 # Boston after work: how Fanju app makes Sober Curious Dinner feel like a real room | fanju-app
 

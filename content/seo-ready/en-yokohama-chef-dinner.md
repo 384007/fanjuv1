@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T111336Z-round-1-000009"
 randomSeed: "production-cloudflare-20260525T111336Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T111336Z"
----
 
 # Yokohama has plenty of Chef Dinner options; Fanju app is the one that names the table first | fanju-app
 

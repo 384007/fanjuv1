@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T130008Z-round-1-000010"
 randomSeed: "production-cloudflare-20260525T130008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
----
 
 # 抚州的一顿对冲基金饭局，饭局app为什么先看人再看热闹 | fanju-app
 

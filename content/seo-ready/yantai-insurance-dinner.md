@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T140006Z-round-1-000002"
 randomSeed: "production-cloudflare-20260525T140006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T140006Z"
----
 
 # 烟台的保险饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 

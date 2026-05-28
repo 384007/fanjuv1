@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # A calmer way to approach Stranger Dinner in Bangkok through Fanju app | fanju-app
 

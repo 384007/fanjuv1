@@ -7,7 +7,6 @@ alternatePath: "/city/lisbon/casual-restaurant-dinner"
 title: "Lisbon Casual Restaurant Dinner Guide | fanju-app | 饭局app"
 description: "Discover the intimacy of small dinner tables in Lisbon with Fanju app, a social dining app that connects people for real-world connections and small, clearly described meals."
 recoveredFromD1: true
----
 
 <article>
 <p>As a newcomer to Lisbon, you&#039;re likely to be swept up in the city&#039;s vibrant rhythm. From the historic neighborhoods of Alfama and Bairro Alto to the trendy boutiques of Chiado, every corner of this Portuguese capital seems to pulse with energy. But amidst the bustling streets and lively nightlife, it&#039;s easy to feel overwhelmed. That&#039;s where Fanju comes in – a social dining app that brings people together for small, intimate meals and real-world connections.</p>
@@ -43,7 +42,6 @@ recoveredFromD1: true
 <h3>Can I join a meal with my partner or friends?</h3>
 <p>Yes, you can definitely join a meal with your partner or friends. In fact, many of our meals are designed to be social and fun, and you&#039;ll have the opportunity to connect with others in a relaxed and casual setting.</p>
 <h3>How do I know if the meal is going to be a good fit for me?</h3>
-<p>When joining a meal, be sure to read the description carefully and ask any questions you may have. This will help you get a sense of what to expect and ensure that you&#039;re comfortable with the meal and the group. Don&#039;t be afraid to reach out to the host or other attendees if you have any concerns – we&#039;re all here to have a good time!</p>
 <h3>Can I host a meal myself?</h3>
 <p>Yes, you can definitely host a meal yourself! Simply create a profile on our app, describe your meal and the group, and invite others to join. We&#039;ll take care of the rest and ensure that everything runs smoothly.</p>
 <h3>How do I get in touch with Fanju?</h3>
@@ -51,9 +49,6 @@ recoveredFromD1: true
 <h3>What if I have a complaint or concern?</h3>
 <p>At Fanju, we take all complaints and concerns seriously. If you have a problem with a meal or a host, please don&#039;t hesitate to reach out to us directly. We&#039;ll do our best to resolve the issue and ensure that you have a positive experience with our app.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

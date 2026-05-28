@@ -7,7 +7,6 @@ alternatePath: "/city/istanbul/high-quality-social-dining"
 title: "For people trying High Quality Social Dining in Istanbul, Fanju app puts the guest mix first | fanju-app | 饭局app"
 description: "In Istanbul, where evenings often unfold over slow-moving meals and layered conversations, High Quality Social Dining isn’t just about food—it’s about who shares the table. The Fanju app supports this by organizing small"
 recoveredFromD1: true
----
 
 <article>
 <p># For people trying High Quality Social Dining in Istanbul, Fanju app puts the guest mix first</p>
@@ -33,9 +32,6 @@ recoveredFromD1: true
 <h3>What should I check before joining my first table?</h3>
 <p>Before accepting an invitation, take a moment to read the host’s description fully. Look for cues about pace, language, and setting—does it match how you enjoy dining? Check if they’ve hosted before on Fanju and read their past guest notes. Consider your comfort: will the location be easy to reach late at night? Is the seating style something you can manage? If anything feels uncertain, send a quick message. Most hosts appreciate questions and would rather clarify early. Trust your read of the tone—if it feels off, it’s okay to wait for a better fit.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

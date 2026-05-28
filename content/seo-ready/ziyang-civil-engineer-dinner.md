@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 资阳不想只靠群聊时，饭局app怎样把土木工程师饭局坐成一桌 | fanju-app
 

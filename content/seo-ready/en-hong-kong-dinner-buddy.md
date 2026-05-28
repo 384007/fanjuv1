@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # Hong Kong Dinner Buddy Guide | fanju-app
 
@@ -65,7 +64,6 @@ Before hosting a dinner gathering on Fanju, make sure to:
 Before joining a dinner gathering on Fanju, make sure to:
 
 * Review the table description and ensure you're comfortable with the group's preferences and expectations.
-* Share your plans with a friend or family member for added safety.
 * Arrive on time and be respectful of the host's space and preferences.
 * Be prepared to engage in conversation and contribute to the dinner gathering.
 
@@ -83,9 +81,7 @@ To ensure a successful and enjoyable dinner gathering on Fanju, avoid the follow
 When using Fanju to find dinner buddies and host local dinner gatherings, prioritize your safety and well-being. Here are some tips to keep in mind:
 
 * Choose public venues for added safety and convenience.
-* Set clear expectations for the dinner gathering, including cuisine, date, and time.
 * Review the table description and ensure it accurately reflects the group's preferences.
-* Share your plans with a friend or family member for added safety.
 * Trust your instincts and be prepared to leave a dinner gathering if you feel uncomfortable or unsure.
 
 ## FAQ
@@ -137,7 +133,6 @@ English: “I am hosting a small dinner for people interested in local community
 - Keep the conversation respectful and leave if the table does not match the description.
 - Hosts should set simple rules before the meal so dinner buddies understand the tone of the gathering.
 
-## FAQ
 
 ### Is Fanju / 饭局 only for dating?
 
@@ -152,7 +147,6 @@ A high-quality invitation is specific. It explains the city, meal type, table th
 Guests should read the table description, check whether the theme fits their intent, choose public venues for first meetings, and join dinners where expectations are clear.
 
 
----
 
 ## Draft Quality Check
 
@@ -171,5 +165,4 @@ Guests should read the table description, check whether the theme fits their int
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

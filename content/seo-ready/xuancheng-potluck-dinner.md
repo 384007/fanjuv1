@@ -21,7 +21,6 @@ promptSeed: "production-cloudflare-20260525T230007Z-round-1-000002"
 randomSeed: "production-cloudflare-20260525T230007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T230007Z"
----
 
 # 宣城不想只靠群聊时，饭局app怎样把百乐餐饭局坐成一桌 | fanju-app
 

@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 西安不想只靠群聊时，饭局app怎样把安全社交饭局坐成一桌 | fanju-app
 

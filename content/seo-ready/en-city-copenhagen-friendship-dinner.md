@@ -7,7 +7,6 @@ alternatePath: "/city/copenhagen/friendship-dinner"
 title: "Copenhagen Friendship Dinner Guide for Fanju app | fanju-app | 饭局app"
 description: "{\"title\":\"Experience Friendship Dinner in Copenhagen with Fanju app\",\"description\":\"Join a unique social reboot in the heart of Copenhagen with Fanju app, where you can reconnect with friends and like-minded individuals"
 recoveredFromD1: true
----
 
 <article>
 <h1>Copenhagen Friendship Dinner Guide for Fanju app</h1>
@@ -39,9 +38,6 @@ recoveredFromD1: true
 <h2>Call to action</h2>
 <p>Ready to experience the magic of Friendship Dinner in Copenhagen? Join a Fanju app-organized event and connect with like-minded individuals in a meaningful way. Whether you&#039;re a local or a visitor, this unique social reboot is an opportunity to reignite social connections and create a more vibrant, inclusive community. Sign up for a Friendship Dinner today and discover the power of face-to-face connections in the heart of Copenhagen.&quot;}</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

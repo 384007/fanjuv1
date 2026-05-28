@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260525T210005Z-round-1-000003"
 randomSeed: "production-cloudflare-20260525T210005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T210005Z"
----
 
 # Seoul strangers sit down easier when Fanju app frames the Table Tennis Dinner table first | fanju-app
 

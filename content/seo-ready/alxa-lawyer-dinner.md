@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 阿拉善周末新节奏：饭局app邀您体验一场别开生面的律师社交 | fanju-app
 

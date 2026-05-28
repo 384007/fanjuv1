@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T170006Z-round-1-000001"
 randomSeed: "production-cloudflare-20260525T170006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T170006Z"
----
 
 # Kyoto has plenty of Accountant Dinner options; Fanju app is the one that names the table first | fanju-app
 

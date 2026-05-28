@@ -7,7 +7,6 @@ alternatePath: "/city/denver/founder-operator-dinner"
 title: "For people trying Founder Operator Dinner in Denver, Fanju app puts the guest mix first | fanju-app | 饭局app"
 description: "Fanju app is a social dining platform designed for small, intentional meals where real-world connections form naturally in Denver. Unlike large networking mixers or impersonal events, it curates dinners that prioritize t"
 recoveredFromD1: true
----
 
 <article>
 <p># For people trying Founder Operator Dinner in Denver, Fanju app puts the guest mix first</p>
@@ -33,9 +32,6 @@ recoveredFromD1: true
 <p>Choosing a dinner should feel like selecting a book, not applying for a role. On Fanju, you browse by host, neighborhood, and tone—not by industry or funding stage. You might pass on a table in LoHi because the host mentioned loud music, even if their startup is impressive. Or you might say yes to someone in Platt Park because they wrote, “I burn the garlic sometimes, and that’s okay.” These details aren’t trivial. They’re filters for compatibility.</p>
 <p>The goal isn’t to attend every dinner, but to find the one that fits your current chapter. In a city where ambition can blur into routine, Fanju offers a different metric: did the conversation stay with you afterward? Did you leave feeling seen, not sized up? That’s the quiet success of these meals. They don’t build your network. They remind you what connection feels like when no one’s keeping score. If you’re in Denver and wondering where real talk still happens, the answer might be a table you haven’t joined yet.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

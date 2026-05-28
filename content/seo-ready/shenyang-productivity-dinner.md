@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 在沈阳找一桌不尴尬的效率饭局，饭局app先解决什么 | fanju-app
 

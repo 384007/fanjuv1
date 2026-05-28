@@ -21,7 +21,6 @@ promptSeed: "production-cloudflare-20260526T010006Z-round-1-000010"
 randomSeed: "production-cloudflare-20260526T010006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T010006Z"
----
 
 # 通化不想只靠群聊时，饭局app怎样把运营者饭局坐成一桌 | fanju-app
 

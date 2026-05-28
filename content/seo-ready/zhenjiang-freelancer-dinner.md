@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260528T070525Z-round-1-000008"
 randomSeed: "production-cloudflare-20260528T070525Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260528T070525Z"
----
 
 # 镇江的自由职业者饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 

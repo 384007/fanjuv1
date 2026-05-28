@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T110006Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T110006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
----
 
 # 在百色找到对的校友饭局，饭局app先把这一桌说清楚 | fanju-app
 

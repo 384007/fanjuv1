@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # San Francisco Singles Dinner Guide | fanju-app
 
@@ -74,7 +73,6 @@ As a host on Fanju, it's essential to follow these best practices to ensure a su
 As a guest on Fanju, it's essential to follow these best practices to ensure a successful and enjoyable dinner gathering:
 
 *   Review the table description and set expectations clearly with the host
-*   Choose a public venue or a private space with a clear address
 *   Be respectful and considerate of the host's needs and preferences
 *   Communicate with the host and other attendees using Fanju's interface
 *   Be prepared to share plans with a friend or family member for added safety
@@ -95,9 +93,7 @@ When joining or hosting a dinner gathering on Fanju, it's essential to prioritiz
 
 *   Choose public venues or private spaces with a clear address and sharing plans with a friend information
 *   Set clear expectations with the host and other attendees
-*   Communicate with the host and other attendees using Fanju's interface
 *   Share plans with a friend or family member for added safety
-*   Be respectful and considerate of the host's needs and preferences
 
 ## FAQ
 
@@ -152,7 +148,6 @@ English: “I am hosting a small dinner for people interested in local community
 - Keep the conversation respectful and leave if the table does not match the description.
 - Hosts should set simple rules before the meal so dinner buddies understand the tone of the gathering.
 
-## FAQ
 
 ### Is Fanju / 饭局 only for dating?
 
@@ -167,7 +162,6 @@ A high-quality invitation is specific. It explains the city, meal type, table th
 Guests should read the table description, check whether the theme fits their intent, choose public venues for first meetings, and join dinners where expectations are clear.
 
 
----
 
 ## Draft Quality Check
 
@@ -186,5 +180,4 @@ Guests should read the table description, check whether the theme fits their int
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

@@ -21,7 +21,6 @@ promptSeed: "production-cloudflare-20260526T010006Z-round-1-000002"
 randomSeed: "production-cloudflare-20260526T010006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T010006Z"
----
 
 # 昌吉天文爱好者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 

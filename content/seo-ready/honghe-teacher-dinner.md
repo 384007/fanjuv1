@@ -21,7 +21,6 @@ promptSeed: "production-cloudflare-20260526T040006Z-round-1-000002"
 randomSeed: "production-cloudflare-20260526T040006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T040006Z"
----
 
 # 红河不想只靠群聊时，饭局app怎样把教师饭局坐成一桌 | fanju-app
 

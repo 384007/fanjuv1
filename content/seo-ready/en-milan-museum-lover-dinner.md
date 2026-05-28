@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260526T092033Z-round-1-000007"
 randomSeed: "production-cloudflare-20260526T092033Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
----
 
 # Milan museum lover dinner on Fanju app for culture after the gallery | fanju-app
 

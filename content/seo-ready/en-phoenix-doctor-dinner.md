@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # When Doctor Dinner feels too loose in Phoenix, Fanju app starts with the table | fanju-app
 

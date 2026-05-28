@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 在蚌埠把VC 饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 

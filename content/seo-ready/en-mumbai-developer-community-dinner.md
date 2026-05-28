@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # In Mumbai, Fanju app turns Developer Community Dinner into a table people can actually trust | fanju-app
 

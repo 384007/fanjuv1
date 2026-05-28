@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T170006Z-round-1-000006"
 randomSeed: "production-cloudflare-20260525T170006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T170006Z"
----
 
 # 南昌的一顿跨境饭局，饭局app为什么先看人再看热闹 | fanju-app
 

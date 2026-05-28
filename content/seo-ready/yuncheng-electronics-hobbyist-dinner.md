@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 在运城把电子爱好者饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 

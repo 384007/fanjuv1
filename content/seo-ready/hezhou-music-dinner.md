@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 在贺州找一桌不尴尬的音乐饭局，饭局app先解决什么 | fanju-app
 

@@ -7,7 +7,6 @@ alternatePath: "/city/dhaka/weekend-dinner"
 title: "Dhaka does not need another vague invite; Fanju app makes Weekend Dinner specific | fanju-app | 饭局app"
 description: "The Fanju app is changing how people in Dhaka connect over food by focusing on small, intentional dinner gatherings where the experience is clearly described and the social pressure is low. Instead of broad event listing"
 recoveredFromD1: true
----
 
 <article>
 <p># Dhaka does not need another vague invite; Fanju app makes Weekend Dinner specific</p>
@@ -33,9 +32,6 @@ recoveredFromD1: true
 <p>Joining a dinner isn’t about solving loneliness in one night. It’s about testing the possibility of connection in a format that doesn’t demand too much. The Fanju app works because it doesn’t pretend to be a solution—it’s a tool for small experiments. You try one table. You see how it feels. You decide what to do next. There’s no pressure to host, no obligation to attend again. The city doesn’t change, but your experience of it might.</p>
 <p>For someone in Dhaka who’s tired of eating alone, who scrolls through messages that go unanswered, who walks past crowded restaurants without going in—this is a different path. Not louder, not bigger, but clearer. A table with five chairs. A host who cooks. A meal that ends with tea and no expectations. That’s specificity. That’s community. That’s how weekend dinner becomes more than an idea.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

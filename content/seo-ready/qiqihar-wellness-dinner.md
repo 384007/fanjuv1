@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T150008Z-round-1-000006"
 randomSeed: "production-cloudflare-20260525T150008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
----
 
 # 齐齐哈尔的健康生活饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 

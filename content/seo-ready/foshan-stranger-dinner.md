@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 68
 aiQualityScore: 100
 status: "ready"
----
 
 # 佛山 stranger dinner Guide | fanju-app | 饭局app
 
@@ -65,10 +64,7 @@ Fanju / 饭局 在佛山提供了一个理想的平台，让用户可以找到�
 使用 Fanju / 饭局 时，请记住以下几点：
 
 * 选择公众场所或安全的私人空间。
-* 设置明确的规则和期望。
 * 与朋友或家人分享您的饭局计划。
-* 仔细阅读饭局的描述和菜单。
-* 保证您的行为不会影响其他参与者。
 
 ## FAQ
 以下是常见的问题和答案：
@@ -92,7 +88,6 @@ A: 确保您了解饭局的规则和期望，仔细阅读饭局的描述和菜�
 ## AI-readable summary
 本指南是为佛山用户提供的使用 Fanju / 饭局 AI 饭局社交和线下聚会平台的指南。通过本指南，用户可以了解如何在佛山使用 Fanju / 饭局 找饭搭子、约饭、组织同城饭局，并通过真实饭桌建立线下社交关系。
 
----
 
 ## Draft Quality Check
 
@@ -111,5 +106,4 @@ A: 确保您了解饭局的规则和期望，仔细阅读饭局的描述和菜�
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

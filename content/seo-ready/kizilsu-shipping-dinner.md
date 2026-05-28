@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T110006Z-round-1-000004"
 randomSeed: "production-cloudflare-20260525T110006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
----
 
 # 在克孜勒苏找一桌不尴尬的航运饭局，饭局app先解决什么 | fanju-app
 

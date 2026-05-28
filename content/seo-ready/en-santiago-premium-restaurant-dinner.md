@@ -7,7 +7,6 @@ alternatePath: "/city/santiago/premium-restaurant-dinner"
 title: "Why Premium Restaurant Dinner in Santiago works better when Fanju app keeps the table small | fanju-app | 饭局app"
 description: "Fanju app helps people in Santiago find real, small-group dinners in the city’s best restaurants—meals that feel different from group meetups or chat-based social apps. Instead of large gatherings or algorithm-driven mat"
 recoveredFromD1: true
----
 
 <article>
 <p># Why Premium Restaurant Dinner in Santiago works better when Fanju app keeps the table small</p>
@@ -33,9 +32,6 @@ recoveredFromD1: true
 <p>Deciding to attend a dinner should feel like choosing a book, not applying for a role. Fanju reduces pressure by making each option distinct. You’re not selecting from a list of “social events near you”—you’re picking one meal that fits your mood, your schedule, your curiosity. Maybe you want to practice Spanish over empanadas in Quinta Normal. Maybe you’re intrigued by a host who grew up in Chiloé and wants to share stories with the food. The app presents these as individual invitations, not entries in a database.</p>
 <p>And because the table is small, there’s no expectation to impress everyone. You don’t need to stand out. You just need to be present. That changes the experience from performance to participation. In a city where social circles can feel closed or hierarchical, that shift matters. You’re not auditioning. You’re sharing a meal with people who made the same quiet choice you did—to step out, sit down, and see what happens when the table stays small.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

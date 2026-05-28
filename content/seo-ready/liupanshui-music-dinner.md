@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 六盘水的一顿音乐饭局，饭局app为什么先看人再看热闹 | fanju-app
 

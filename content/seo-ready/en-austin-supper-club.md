@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Before joining Supper Club in Austin, what Fanju app should make clear | fanju-app
 

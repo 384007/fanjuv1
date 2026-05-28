@@ -7,7 +7,6 @@ alternatePath: "/city/warsaw/lunar-new-year-dinner"
 title: "Warsaw Lunar New Year Dinner Guide | fanju-app | 饭局app"
 description: "Discover authentic local connections through dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
----
 
 <article>
 <p>As I walked through the streets of Warsaw, I noticed the city&#039;s vibrant atmosphere, especially during the Lunar New Year celebrations. The streets were filled with people from all walks of life, each with their own unique stories and traditions. It was then that I realized the importance of connecting with locals and experiencing the authentic culture of this beautiful city.</p>
@@ -48,9 +47,6 @@ recoveredFromD1: true
 <p>After work, I decided to join a Lunar New Year dinner in Warsaw through Fanju app. I browsed through the app and chose a meal that suited my interests and preferences. I connected with the host and other attendees before the meal, and we had a great time sharing stories and experiences. It was a wonderful way to experience the local culture and connect with others in a safe and enjoyable way.</p>
 <p>I highly recommend Fanju app to anyone who wants to experience the authentic culture of Warsaw and connect with locals. It&#039;s a great way to make meaningful connections and experience the local culture in a real-world setting.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

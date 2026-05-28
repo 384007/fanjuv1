@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 在成都找到对的医生饭局饭局，饭局app先把这一桌说清楚 | fanju-app
 

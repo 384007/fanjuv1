@@ -12,7 +12,6 @@ aiQualityScore: 96
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # A Khartoum dinner table for Solopreneur Dinner, with Fanju app boundaries up front | fanju-app
 

@@ -11,7 +11,6 @@ lang: "zh"
 aiQualityScore: 95
 priorityScore: 85
 status: "ready"
----
 
 # 饭局 Fanju vs Facebook 群组 | fanju-app | 饭局app
 

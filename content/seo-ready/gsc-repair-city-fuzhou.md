@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 82
 aiQualityScore: 96
 status: "ready"
----
 
 # 福州饭局指南：如何找到靠谱同城小桌 | fanju-app | 饭局app
 

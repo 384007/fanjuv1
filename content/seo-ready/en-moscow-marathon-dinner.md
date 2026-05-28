@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Moscow does not need another vague invite; Fanju app makes Marathon Dinner specific | fanju-app
 

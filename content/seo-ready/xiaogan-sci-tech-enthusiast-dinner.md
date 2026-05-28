@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 孝感科技爱好者饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 

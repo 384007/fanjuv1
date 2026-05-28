@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T181226Z-round-1-000003"
 randomSeed: "production-cloudflare-20260525T181226Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T181226Z"
----
 
 # In Kinshasa, Fanju app turns Marketing Dinner into a table people can actually trust | fanju-app
 

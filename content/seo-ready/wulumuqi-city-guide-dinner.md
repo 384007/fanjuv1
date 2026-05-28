@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T170006Z-round-1-000010"
 randomSeed: "production-cloudflare-20260525T170006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T170006Z"
----
 
 # 下班后的乌鲁木齐，饭局app怎样让城市指南饭局有真实同桌 | fanju-app
 

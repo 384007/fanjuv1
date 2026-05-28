@@ -21,7 +21,6 @@ promptSeed: "production-cloudflare-20260526T100008Z-round-1-000006"
 randomSeed: "production-cloudflare-20260526T100008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T100008Z"
----
 
 # 抚州不想只靠群聊时，饭局app怎样把第一次创业者饭局坐成一桌 | fanju-app
 

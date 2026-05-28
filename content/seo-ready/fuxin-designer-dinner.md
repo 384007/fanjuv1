@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 在阜新找一桌不尴尬的设计师饭局，饭局app先解决什么 | fanju-app
 

@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Fanju app Taipei Founder Dinner Guide: Authentic Connections Beyond the Tourist Trail | fanju-app
 

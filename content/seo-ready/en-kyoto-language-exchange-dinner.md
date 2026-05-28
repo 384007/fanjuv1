@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # In Kyoto, Fanju app turns Language Exchange Dinner into a table people can actually trust | fanju-app
 

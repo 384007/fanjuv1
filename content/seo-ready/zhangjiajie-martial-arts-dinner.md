@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 不想在张家界随便拼桌，饭局app怎样让武术饭局变成一个真实决定 | fanju-app
 

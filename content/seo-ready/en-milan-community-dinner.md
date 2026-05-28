@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # A calmer way to approach Community Dinner in Milan through Fanju app | fanju-app
 

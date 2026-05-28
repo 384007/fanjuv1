@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 抚州赛艇饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 

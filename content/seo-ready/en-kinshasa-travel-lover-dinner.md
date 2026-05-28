@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # Kinshasa has plenty of Travel Lover Dinner options; Fanju app is the one that names the table first | fanju-app
 

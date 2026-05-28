@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # A calmer way to approach High Quality Social Dining in Santiago through Fanju app | fanju-app
 

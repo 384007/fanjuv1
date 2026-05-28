@@ -7,7 +7,6 @@ alternatePath: "/city/manila/film-dinner"
 title: "Manila Film Dinner Guide | fanju-app | 饭局app"
 description: "Plan a unique and memorable film dinner experience in Manila with Fanju app, a social dining app that connects people for small, clearly described meals and real-world connections."
 recoveredFromD1: true
----
 
 <article>
 <p>Manila, a vibrant and bustling metropolis, is a city that seamlessly blends tradition and modernity. Its rich cultural heritage, stunning architecture, and warm hospitality make it an ideal destination for travelers and locals alike. When it comes to social dining, Manila offers a unique and exciting experience that combines good food, great company, and a touch of adventure. In this guide, we will explore the world of film dinners in Manila, a concept that has gained popularity in recent years.</p>
@@ -44,9 +43,6 @@ recoveredFromD1: true
 <h3>Can I host a film dinner?</h3>
 <p>Yes, you can host a film dinner. Simply create an event on the Fanju app, set a date and time, and invite others to join you.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

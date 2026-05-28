@@ -12,7 +12,6 @@ aiQualityScore: 96
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # How Fanju Redefines Local Dinner in Casablanca for Meaningful Connection | fanju-app
 

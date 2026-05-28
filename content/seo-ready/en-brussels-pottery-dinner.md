@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # When Pottery Dinner feels too loose in Brussels, Fanju app starts with the table | fanju-app
 

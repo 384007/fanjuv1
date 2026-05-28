@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260526T100008Z-round-1-000009"
 randomSeed: "production-cloudflare-20260526T100008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T100008Z"
----
 
 # Before the first message in Dubai, Fanju app makes Senior Dinner feel like a real decision | fanju-app
 

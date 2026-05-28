@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # In Johannesburg, Fanju app turns Chinese Social Dining into a table people can actually trust | fanju-app
 

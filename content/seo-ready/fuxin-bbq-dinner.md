@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 阜新不想只靠群聊时，饭局app怎样把烧烤饭局坐成一桌 | fanju-app
 

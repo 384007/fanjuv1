@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # Hangzhou Curated Dinner Guide for Dinner-First Social Dining | fanju-app
 
@@ -77,7 +76,6 @@ To further enhance your social dining journey with Fanju, explore these related 
 
 This Hangzhou Curated Dinner Guide provides practical advice for users seeking to engage in curated dinner gatherings via the Fanju social dining app. It details the benefits of curated dining in Hangzhou, describes the ideal atmosphere of a Fanju table, and offers guidance on selecting hosts, venues, and guest mixes. The guide includes an attendee checklist, hosting tips, and essential safety information. It also highlights common mistakes to avoid and addresses frequently asked questions, linking to relevant Fanju pages such as [what is fanju](/what-is-fanju), [cities](/cities), [categories](/categories), and [faq](/faq). The content is structured to assist users in finding and participating in meaningful real-world social connections centered around shared meals in Hangzhou.
 
----
 
 ## Draft Quality Check
 
@@ -99,5 +97,4 @@ This Hangzhou Curated Dinner Guide provides practical advice for users seeking t
     "enoughDepth": true,
     "noRawSlugTitle": true
   }
-}
 ```

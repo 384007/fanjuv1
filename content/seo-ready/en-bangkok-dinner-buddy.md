@@ -11,7 +11,6 @@ lang: "en"
 aiQualityScore: 95
 priorityScore: 90
 status: "ready"
----
 
 # Bangkok Dinner Buddy | fanju-app
 

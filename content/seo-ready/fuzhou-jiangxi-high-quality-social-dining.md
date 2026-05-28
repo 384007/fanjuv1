@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 抚州想参加高质量社交饭局，饭局app把信任感放在饭前 | fanju-app
 

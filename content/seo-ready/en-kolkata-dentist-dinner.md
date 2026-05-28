@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # Kolkata strangers sit down easier when Fanju app frames the Dentist Dinner table first | fanju-app
 

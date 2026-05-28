@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 郴州金融科技饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 

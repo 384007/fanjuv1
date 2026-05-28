@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # The Fanju app way to judge a Santiago Yoga Dinner table before the first course | fanju-app
 

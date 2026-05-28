@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 不想在盐城随便拼桌，饭局app怎样让金融科技饭局变成一个真实决定 | fanju-app
 

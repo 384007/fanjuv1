@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T130008Z-round-1-000003"
 randomSeed: "production-cloudflare-20260525T130008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
----
 
 # In Budapest, Fanju app turns Street Food Dinner into a table people can actually trust | fanju-app
 

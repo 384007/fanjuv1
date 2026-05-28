@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 沧州的一顿平面设计师饭局，饭局app为什么先看人再看热闹 | fanju-app
 

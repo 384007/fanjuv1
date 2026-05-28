@@ -7,7 +7,6 @@ alternatePath: "/city/vienna/neighborhood-dinner"
 title: "Vienna Neighborhood Dinner Guide | fanju-app | 饭局app"
 description: "Discover the authentic side of Vienna through small, intimate dinners with like-minded professionals and entrepreneurs, facilitated by the Fanju app, a social dining platform that fosters meaningful connections and real-world relationships."
 recoveredFromD1: true
----
 
 <article>
 <p>After a long day of work, you&#039;re looking forward to unwinding with colleagues or like-minded professionals over a delicious meal. However, traditional networking events can often feel forced or awkward. This is where the Fanju app comes in – a social dining platform that offers a unique opportunity to connect with others in a relaxed, small-group setting. With Fanju, you can join a Neighborhood Dinner in Vienna and experience the city&#039;s authentic side through food, conversation, and meaningful connections.</p>
@@ -33,9 +32,6 @@ recoveredFromD1: true
 <h3>What if I have dietary restrictions or preferences?</h3>
 <p>The Fanju app is designed to be inclusive and accommodating to all dietary needs and preferences. When joining a dinner, you&#039;ll have the opportunity to indicate any dietary restrictions or preferences, and the host will take care of the rest. This way, you can enjoy a delicious meal that suits your tastes and needs.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

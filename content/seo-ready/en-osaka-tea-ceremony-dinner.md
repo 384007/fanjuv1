@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T160006Z-round-1-000005"
 randomSeed: "production-cloudflare-20260525T160006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
----
 
 # A calmer way to approach Tea Ceremony Dinner in Osaka through Fanju app | fanju-app
 

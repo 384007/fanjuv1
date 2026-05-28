@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260528T070525Z-round-1-000005"
 randomSeed: "production-cloudflare-20260528T070525Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260528T070525Z"
----
 
 # Paris strangers sit down easier when Fanju app frames the VC Dinner table first | fanju-app
 

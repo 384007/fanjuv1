@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 淄博不想只靠群聊时，饭局app怎样把时尚爱好者饭局坐成一桌 | fanju-app
 

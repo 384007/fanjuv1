@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260526T100008Z-round-1-000007"
 randomSeed: "production-cloudflare-20260526T100008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T100008Z"
----
 
 # When Post Pandemic Social Dinner feels too loose in Accra, Fanju app starts with the table | fanju-app
 

@@ -10,7 +10,6 @@ pageType: "city_topic"
 priorityScore: 76
 aiQualityScore: 95
 status: "ready"
----
 
 # Tongling Art Dinner Guide: meet local people through a small table | fanju-app
 

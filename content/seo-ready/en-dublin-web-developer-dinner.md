@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260526T100008Z-round-1-000005"
 randomSeed: "production-cloudflare-20260526T100008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T100008Z"
----
 
 # Dublin has plenty of Web Developer Dinner options; Fanju app is the one that names the table first | fanju-app
 

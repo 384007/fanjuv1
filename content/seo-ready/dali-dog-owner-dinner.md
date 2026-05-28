@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 在大理找一桌不尴尬的狗主人饭局，饭局app先解决什么 | fanju-app
 

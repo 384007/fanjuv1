@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 82
 aiQualityScore: 96
 status: "ready"
----
 
 # 济南饭局指南：如何用一顿饭认识同城朋友 | fanju-app | 饭局app
 

@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # Houston has plenty of Sports Coach Dinner options; Fanju app is the one that names the table first | fanju-app
 

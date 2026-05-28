@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # For people trying Mandarin Dinner in Alexandria, Fanju app puts the guest mix first | fanju-app
 

@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # Jakarta strangers sit down easier when Fanju app frames the Chinese Social Dining table first | fanju-app
 

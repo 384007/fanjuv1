@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260525T200005Z-round-1-000007"
 randomSeed: "production-cloudflare-20260525T200005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T200005Z"
----
 
 # In Atlanta, Fanju app turns Creative Writing Dinner into a table people can actually trust | fanju-app
 

@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Buenos Aires has plenty of Mindfulness Dinner options; Fanju app is the one that names the table first | fanju-app
 

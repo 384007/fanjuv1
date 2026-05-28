@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T160006Z-round-1-000010"
 randomSeed: "production-cloudflare-20260525T160006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
----
 
 # 鹤壁的百乐餐饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 

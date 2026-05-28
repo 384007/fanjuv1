@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 乌鲁木齐周五饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 

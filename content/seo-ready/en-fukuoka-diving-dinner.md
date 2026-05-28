@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T110006Z-round-1-000009"
 randomSeed: "production-cloudflare-20260525T110006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
----
 
 # Diving Dinner in Fukuoka should not feel like a gamble; Fanju app changes the odds | fanju-app
 

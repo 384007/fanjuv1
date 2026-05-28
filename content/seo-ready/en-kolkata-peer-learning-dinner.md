@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260526T092033Z-round-1-000001"
 randomSeed: "production-cloudflare-20260526T092033Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
----
 
 # Kolkata peer learning dinner on Fanju app for conversation before networking | fanju-app
 

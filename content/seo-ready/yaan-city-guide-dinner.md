@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 雅安的一顿城市指南饭局，饭局app为什么先看人再看热闹 | fanju-app
 

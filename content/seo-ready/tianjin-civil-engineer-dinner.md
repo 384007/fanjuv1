@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 天津土木工程师饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 

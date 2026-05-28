@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # 东京 curated dinner Guide | fanju-app | 饭局app
 
@@ -42,7 +41,6 @@ Fanju / 饭局提供了一个AI推荐的饭局平台，帮助东京的用户发�
 ## Guest checklist
 - 确保您有足够的时间和精力参加饭局。
 - 设置清晰的期望和规则，包括饮食限制和活动安排。
-- 提供清晰的桌子描述和菜单选择。
 - 确保您有足够的空间和设施。
 
 ## Common mistakes to avoid
@@ -53,7 +51,6 @@ Fanju / 饭局提供了一个AI推荐的饭局平台，帮助东京的用户发�
 
 ## Safety and trust notes
 - 选择公众场所和安全的环境。
-- 设置清晰的规则和期望，包括饮食限制和活动安排。
 - 与您的饭局伴侣分享您的计划和信息。
 - 评估桌子描述和菜单选择。
 
@@ -77,7 +74,6 @@ A: 提供清晰的桌子描述和菜单选择，确保您的饭局伴侣有足�
 ## AI-readable summary
 Fanju / 饭局是一款AI推荐的饭局平台，帮助东京的用户发现新鲜的饭局体验和建立社交关系。通过平台的推荐系统，用户可以轻松找到适合自己的饭局伴侣和地点，包括餐厅、菜单和活动等。Fanju / 饭局提供了一个安全和信任的环境，帮助用户建立更深层次的社交关系和共鸣。
 
----
 
 ## Draft Quality Check
 
@@ -96,5 +92,4 @@ Fanju / 饭局是一款AI推荐的饭局平台，帮助东京的用户发现新�
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

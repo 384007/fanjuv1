@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T160006Z-round-1-000001"
 randomSeed: "production-cloudflare-20260525T160006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
----
 
 # How Fanju app turns a Prague Solopreneur Dinner night into something worth showing up for | fanju-app
 

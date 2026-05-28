@@ -7,7 +7,6 @@ alternatePath: "/city/sydney/hidden-gem-dinner"
 title: "When Hidden Gem Dinner feels too loose in Sydney, Fanju app starts with the table | fanju-app | 饭局app"
 description: "The Fanju app helps professionals in Sydney find small, intentional dinners where conversation matters more than connections on paper. Hidden Gem Dinner, as a concept, often starts with good intentions—bringing strangers"
 recoveredFromD1: true
----
 
 <article>
 <p># When Hidden Gem Dinner feels too loose in Sydney, Fanju app starts with the table</p>
@@ -33,9 +32,6 @@ recoveredFromD1: true
 <p>The real test of any networking format isn’t the event itself, but what follows. In Sydney, where follow-ups often dissolve into “we should connect on LinkedIn,” the Fanju app encourages a simpler path: come to one dinner, see how it feels, and let the rest unfold naturally. There’s no pressure to host, recruit, or convert. The goal is to restore the idea that professional relationships can begin over a shared meal, without a hidden ask.</p>
 <p>This human-first approach works because it aligns with how people actually build trust—through repeated, low-stakes contact. One dinner might not lead to a job or a client, but it might lead to a name remembered, a perspective shared, or a quiet sense of belonging. For professionals navigating Sydney’s competitive landscape, that subtle shift—from transaction to recognition—can make all the difference. If you’re looking for a different kind of connection, the table is already set.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

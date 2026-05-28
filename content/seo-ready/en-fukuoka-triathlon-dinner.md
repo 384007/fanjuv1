@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T181226Z-round-1-000009"
 randomSeed: "production-cloudflare-20260525T181226Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T181226Z"
----
 
 # For people trying Triathlon Dinner in Fukuoka, Fanju app puts the guest mix first | fanju-app
 

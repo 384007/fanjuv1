@@ -7,7 +7,6 @@ alternatePath: "/city/london/vc-dinner"
 title: "London VC Dinner Guide | fanju-app | 饭局app"
 description: "Discover the world of VC Dinners in London with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
----
 
 <article>
 <p>London is a city that never sleeps, and its vibrant startup scene is always buzzing with activity. As a newcomer to this bustling metropolis, you&#039;re likely eager to connect with like-minded individuals and make meaningful connections. One way to do this is by attending a VC Dinner in London, a unique and exciting experience that combines food, conversation, and networking opportunities.</p>
@@ -36,9 +35,6 @@ recoveredFromD1: true
 <h3>What if I&#039;m new to the city and don&#039;t know anyone?</h3>
 <p>Don&#039;t worry! Our app is designed to be inclusive and welcoming, and we cater to a wide range of interests and backgrounds. You&#039;ll have the chance to meet new people and make connections, and our hosts will be happy to introduce you to others and facilitate conversation.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

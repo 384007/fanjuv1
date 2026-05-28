@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T130008Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T130008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
----
 
 # 大理的威士忌饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 

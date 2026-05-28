@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # Las Vegas strangers sit down easier when Fanju app frames the Firefighter Dinner table first | fanju-app
 

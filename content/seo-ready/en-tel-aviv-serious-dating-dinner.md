@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Why Serious Dating Dinner in Tel Aviv works better when Fanju app keeps the table small | fanju-app
 

@@ -7,7 +7,6 @@ alternatePath: "/city/brisbane/chinese-social-dining"
 title: "Brisbane Chinese Social Dining Guide | fanju-app | 饭局app"
 description: "Discover the best of Brisbane's Chinese social dining scene with Fanju app, a platform that connects you with like-minded individuals for small, meaningful meals and real-world connections."
 recoveredFromD1: true
----
 
 <article>
 <p>Are you looking for a unique way to experience Brisbane&#039;s vibrant food culture and meet new people? Look no further than Fanju&#039;s Chinese social dining events. Fanju is a social dining app that focuses on small, clearly described meals and real-world connections. It&#039;s perfect for those who want to try new foods, make friends, and explore the city&#039;s hidden gems.</p>
@@ -43,9 +42,6 @@ recoveredFromD1: true
 <h3>What&#039;s the best way to get the most out of Fanju?</h3>
 <p>The best way to get the most out of Fanju is to be open-minded, receptive, and willing to try new things. Don&#039;t be afraid to step out of your comfort zone and engage with others – that&#039;s where the magic happens. And don&#039;t forget to follow up with your new friends and thank the host for a wonderful evening. With Fanju, the possibilities are endless, and the memories will last a lifetime.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

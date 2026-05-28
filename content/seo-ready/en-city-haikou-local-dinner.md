@@ -7,7 +7,6 @@ alternatePath: "/city/haikou/local-dinner"
 title: "Haikou Local Dinner: a Fanju app guide to better city dinners | fanju-app | 饭局app"
 description: "A practical Fanju app guide for local dinner in Haikou, covering table fit, host signals, safety, and when a small dinner makes sense."
 recoveredFromD1: true
----
 
 <article>
 <h1>Haikou Local Dinner: a Fanju app guide to better city dinners</h1>
@@ -29,9 +28,6 @@ recoveredFromD1: true
 <h2>When to use Fanju app for this kind of dinner</h2>
 <p>Use Fanju app for local dinner when you want a real meal, a small group, and enough structure to make the first conversation easier. Do not use it as a shortcut for guaranteed friendship, dating, hiring, funding, or status. The best outcome is simpler and more durable: a dinner that feels safe, specific, and worth repeating. That is why the decision should be made through concrete signals rather than vague excitement: the table theme, the host&#039;s care, the guest mix, the venue, and the way expectations are explained before anyone arrives.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

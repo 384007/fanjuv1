@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 兰州的一顿会计师饭局，饭局app为什么先看人再看热闹 | fanju-app
 

@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 把黔西南电商饭局坐成真实小桌，饭局app需要先说明什么 | fanju-app
 

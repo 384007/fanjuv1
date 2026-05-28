@@ -7,7 +7,6 @@ alternatePath: "/city/tel-aviv/designer-dinner"
 title: "Tel Aviv Designer Dinner Guide | fanju-app | 饭局app"
 description: "Discover the unique experience of Designer Dinner in Tel Aviv with Fanju app, a social dining app that connects people for small, clearly described meals and real-world connections."
 recoveredFromD1: true
----
 
 <article>
 <h2>What is Fanju?</h2>
@@ -35,15 +34,11 @@ recoveredFromD1: true
 <h3>What if I&#039;m running late or need to cancel?</h3>
 <p>If you&#039;re running late or need to cancel, please let the host know as soon as possible. We understand that things come up, and our hosts will appreciate your courtesy and communication.</p>
 <h3>How do I know if a dinner is safe?</h3>
-<p>Assessing safety and trust is a top priority for Fanju. Our hosts are carefully vetted and selected to ensure that they provide a safe and welcoming environment for all guests. Before attending a dinner, take a moment to review the host&#039;s profile and read any reviews or feedback from previous guests. If you have any concerns or questions, don&#039;t hesitate to reach out to our support team.</p>
 <h3>Can I attend a dinner if I&#039;m a remote worker?</h3>
 <p>Absolutely! Our Designer Dinner format is perfect for remote workers who want to connect with others and build meaningful relationships. Our small-table structure and clearly described meals ensure that you&#039;ll have a positive and enjoyable experience.</p>
 <p>For example, Sarah, a remote worker from New York, attended a Designer Dinner in Tel Aviv and had a wonderful time. She said, &quot;I was a bit nervous about attending a dinner as a solo traveler, but the host was so welcoming and made me feel at ease. The food was delicious, and I loved meeting the other guests – we had such a great conversation and laughed together until the end of the night.&quot;</p>
 <p>If you&#039;re a remote worker looking to connect with others, Fanju&#039;s Designer Dinner format is the perfect way to do so. Our small-table structure and clearly described meals ensure that you&#039;ll have a positive and enjoyable experience. So why not give it a try? Download the Fanju app and start exploring our selection of dinner hosts and locations today!</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

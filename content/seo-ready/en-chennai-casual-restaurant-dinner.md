@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Chennai does not need another vague invite; Fanju app makes Casual Restaurant Dinner specific | fanju-app
 

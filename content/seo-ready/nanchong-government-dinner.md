@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 南充不想只靠群聊时，饭局app怎样把政府从业者饭局坐成一桌 | fanju-app
 

@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T110006Z-round-1-000005"
 randomSeed: "production-cloudflare-20260525T110006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
----
 
 # Barcelona strangers sit down easier when Fanju app frames the Neighborhood Dinner table first | fanju-app
 

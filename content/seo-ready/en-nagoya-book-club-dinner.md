@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # In Nagoya, Fanju app turns Book Club Dinner into a table people can actually trust | fanju-app
 

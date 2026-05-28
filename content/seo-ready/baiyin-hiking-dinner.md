@@ -21,7 +21,6 @@ promptSeed: "production-cloudflare-20260526T040006Z-round-1-000012"
 randomSeed: "production-cloudflare-20260526T040006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T040006Z"
----
 
 # 白银徒步饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 

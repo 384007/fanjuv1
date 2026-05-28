@@ -12,7 +12,6 @@ aiQualityScore: 96
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Kyoto Digital Detox Dinner: Reconnect Without Screens in a City of Stillness | fanju-app | Fanju
 

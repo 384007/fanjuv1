@@ -7,7 +7,6 @@ alternatePath: "/city/nairobi/student-dinner"
 title: "Nairobi does not need another vague invite; Fanju app makes Student Dinner specific | fanju-app | 饭局app"
 description: "The Fanju app is changing how newcomers in Nairobi connect through dinner by replacing vague social invites with small, intentional meals that emphasize real conversation and local rhythm. In a city where weekend plans o"
 recoveredFromD1: true
----
 
 <article>
 <p># Nairobi does not need another vague invite; Fanju app makes Student Dinner specific</p>
@@ -33,9 +32,6 @@ recoveredFromD1: true
 <p>The real success of a student dinner isn’t measured the night it happens. It’s measured weeks later, when a guest reaches out to invite the host to a meal of their own. That reciprocal gesture—simple but meaningful—signals that the connection stuck. In Nairobi, where relationships often deepen over repeated interactions, being invited back to someone’s home, or even meeting for chapati at a local kibanda, is the quiet sign of belonging.</p>
 <p>For newcomers, the goal isn’t to attend every dinner or collect contacts. It’s to find one or two tables that feel honest, where the food is real and the talk doesn’t perform. Fanju won’t solve all the uncertainties of moving to a new city, but it offers a starting point: a seat at a table where you’re not expected to be anyone other than who you are. And in Nairobi, that’s rare enough to be valuable.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

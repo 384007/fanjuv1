@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T181226Z-round-1-000006"
 randomSeed: "production-cloudflare-20260525T181226Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T181226Z"
----
 
 # 衢州想参加无酒精社交饭局，饭局app把信任感放在饭前 | fanju-app
 

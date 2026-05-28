@@ -10,7 +10,6 @@ pageType: "city_topic"
 priorityScore: 76
 aiQualityScore: 95
 status: "ready"
----
 
 # Tianjin Social Dinner Guide | fanju-app
 

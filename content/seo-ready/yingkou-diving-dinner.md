@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T140006Z-round-1-000010"
 randomSeed: "production-cloudflare-20260525T140006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T140006Z"
----
 
 # 在营口把潜水饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 

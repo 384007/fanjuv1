@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T160006Z-round-1-000007"
 randomSeed: "production-cloudflare-20260525T160006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
----
 
 # A calmer way to approach Equestrian Dinner in San Francisco through Fanju app | fanju-app
 

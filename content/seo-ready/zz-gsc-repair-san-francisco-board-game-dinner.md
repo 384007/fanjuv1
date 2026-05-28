@@ -10,7 +10,6 @@ pageType: "city_topic"
 priorityScore: 76
 aiQualityScore: 95
 status: "ready"
----
 
 # 旧金山桌游饭局指南：让破冰更自然的一桌晚餐 | fanju-app | 饭局app
 

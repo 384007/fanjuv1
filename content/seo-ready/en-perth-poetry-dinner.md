@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260526T010006Z-round-1-000005"
 randomSeed: "production-cloudflare-20260526T010006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T010006Z"
----
 
 # Why Poetry Dinner in Perth works better when Fanju app keeps the table small | fanju-app
 

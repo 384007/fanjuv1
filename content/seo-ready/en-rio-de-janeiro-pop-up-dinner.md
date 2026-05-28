@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # What makes Pop Up Dinner in Rio de Janeiro worth the risk; Fanju app answers before you arrive | fanju-app
 

@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T160006Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T160006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
----
 
 # 在莆田把漫画饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 

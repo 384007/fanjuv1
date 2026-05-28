@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # For people trying Brand Collaboration Dinner in Lagos, Fanju app puts the guest mix first | fanju-app
 

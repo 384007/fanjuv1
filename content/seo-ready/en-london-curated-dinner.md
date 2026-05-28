@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260525T200005Z-round-1-000003"
 randomSeed: "production-cloudflare-20260525T200005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T200005Z"
----
 
 # Before the first message in London, Fanju app makes Curated Dinner feel like a real decision | fanju-app
 

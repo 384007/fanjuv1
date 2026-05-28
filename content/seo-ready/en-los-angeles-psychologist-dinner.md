@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T120007Z-round-1-000005"
 randomSeed: "production-cloudflare-20260525T120007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
----
 
 # Los Angeles does not need another vague invite; Fanju app makes Psychologist Dinner specific | fanju-app
 In the city of Los Angeles, where the sun sets over the Pacific Ocean, the Fanju app is a social dining platform that brings people together for small, clearly described meals and real-world connections. It's an opportunity to meet new individuals who share similar interests, making it easier to navigate the city's vast social scene. For those who have just arrived in Los Angeles, the Fanju app can be a great way to start building a social network.

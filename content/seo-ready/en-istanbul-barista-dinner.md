@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Barista Dinner in Istanbul should not feel like a gamble; Fanju app changes the odds | fanju-app
 

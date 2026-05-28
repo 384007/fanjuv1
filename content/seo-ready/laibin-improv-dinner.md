@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 下班后的来宾，饭局app怎样让即兴表演饭局有真实同桌 | fanju-app
 

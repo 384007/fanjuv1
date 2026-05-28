@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Before the first message in Delhi, Fanju app makes Hiking Dinner feel like a real decision | fanju-app
 

@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T150008Z-round-1-000002"
 randomSeed: "production-cloudflare-20260525T150008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
----
 
 # 黄石想参加社工饭局，饭局app把信任感放在饭前 | fanju-app
 

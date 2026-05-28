@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 下班后的邢台，饭局app怎样让作家饭局有真实同桌 | fanju-app
 

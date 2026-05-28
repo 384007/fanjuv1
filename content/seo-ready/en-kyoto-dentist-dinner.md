@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # What makes Dentist Dinner in Kyoto worth the risk; Fanju app answers before you arrive | fanju-app
 

@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T150008Z-round-1-000001"
 randomSeed: "production-cloudflare-20260525T150008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
----
 
 # Bogota does not need another vague invite; Fanju app makes Fencing Dinner specific | fanju-app
 

@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 清远创始人和运营者饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 

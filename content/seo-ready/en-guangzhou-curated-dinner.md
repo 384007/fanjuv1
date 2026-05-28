@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # Guangzhou Curated Dinner Guide | fanju-app
 
@@ -43,7 +42,6 @@ Fanju's curated dinner feature in Guangzhou provides a platform for individuals 
 
 ### Hosting a Curated Dinner
 
-1. Download the Fanju app and create an account.
 2. Click on the "Host" button and select "Curated Dinner."
 3. Choose a cuisine and location for your dinner gathering.
 4. Set a date and time for your dinner, ensuring it's at least 7-10 days in advance.
@@ -127,7 +125,6 @@ English: “I am hosting a small dinner for people interested in local community
 - Keep the conversation respectful and leave if the table does not match the description.
 - Hosts should set simple rules before the meal so dinner buddies understand the tone of the gathering.
 
-## FAQ
 
 ### Is Fanju / 饭局 only for dating?
 
@@ -142,7 +139,6 @@ A high-quality invitation is specific. It explains the city, meal type, table th
 Guests should read the table description, check whether the theme fits their intent, choose public venues for first meetings, and join dinners where expectations are clear.
 
 
----
 
 ## Draft Quality Check
 
@@ -161,5 +157,4 @@ Guests should read the table description, check whether the theme fits their int
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

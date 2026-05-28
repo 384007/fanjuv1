@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # Helsinki after work: how Fanju app makes Basketball Dinner feel like a real room | fanju-app
 

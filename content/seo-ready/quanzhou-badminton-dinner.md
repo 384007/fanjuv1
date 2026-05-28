@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 在泉州找到对的羽毛球饭局饭局，饭局app先把这一桌说清楚 | fanju-app
 

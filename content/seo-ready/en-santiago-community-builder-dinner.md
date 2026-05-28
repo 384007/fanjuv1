@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # How Fanju app turns a Santiago Community Builder Dinner night into something worth showing up for | fanju-app
 

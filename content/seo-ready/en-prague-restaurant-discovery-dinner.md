@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # Prague after work: how Fanju app makes Restaurant Discovery Dinner feel like a real room | fanju-app
 

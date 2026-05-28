@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T140006Z-round-1-000005"
 randomSeed: "production-cloudflare-20260525T140006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T140006Z"
----
 
 # Before the first message in Manila, Fanju app makes New Friends Dinner feel like a real decision | fanju-app
 In Manila, the concept of New Friends Dinner through Fanju app represents a unique approach to social dining, focusing on small, clearly described meals that facilitate real-world connections. This setup is particularly appealing for individuals looking to expand their social circle in a new city, offering a more intimate and meaningful way to meet new people compared to large, generic gatherings.

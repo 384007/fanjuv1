@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T170006Z-round-1-000009"
 randomSeed: "production-cloudflare-20260525T170006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T170006Z"
----
 
 # A calmer way to approach Sports Coach Dinner in Taipei through Fanju app | fanju-app
 

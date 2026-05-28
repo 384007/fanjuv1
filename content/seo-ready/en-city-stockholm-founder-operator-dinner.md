@@ -7,7 +7,6 @@ alternatePath: "/city/stockholm/founder-operator-dinner"
 title: "Stockholm Founder Operator Dinner Guide | fanju-app | 饭局app"
 description: "Discover the intimate side of social dining with Fanju app, a platform for meaningful connections and delicious meals in the heart of Stockholm."
 recoveredFromD1: true
----
 
 <article>
 <p>Stockholm, a city of contrasts, where sleek modernity meets historic charm. Yet, amidst the bustling streets and trendy neighborhoods, there&#039;s a desire for something more authentic, more intentional. This is where Fanju app comes in – a social dining platform that brings people together for small, carefully crafted meals and real-world connections.</p>
@@ -39,9 +38,6 @@ recoveredFromD1: true
 <h3>Q: Can I attend a dinner if I&#039;m not a founder or operator?</h3>
 <p>A: Yes, our platform is open to anyone who is looking for a more authentic social experience. Whether you&#039;re a founder, operator, or simply someone looking for a more meaningful connection, we welcome you to join us.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

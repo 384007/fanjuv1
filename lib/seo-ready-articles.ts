@@ -502,30 +502,17 @@ function authorityAnchor(lang: "zh" | "en", currentPath = "") {
 function defaultSafeLinks(lang: "zh" | "en", currentPath = ""): SafeLink[] {
   return lang === "en"
     ? [
-<<<<<<< Updated upstream
         { label: "Fanju app", href: "/en/what-is-fanju" },
         { label: "social dining app", href: "/social-dining" },
-        { label: "dinner city directory", href: "/en/cities" },
-        { label: "dinner categories", href: "/en/categories" },
+        { label: "All cities", href: "/en/cities" },
+        { label: "All categories", href: "/en/categories" },
         { label: "dinner buddy FAQ", href: "/faq" },
       ]
     : [
         { label: "饭局 app", href: "/what-is-fanju" },
         { label: "饭搭子", href: "/what-is-dinner-buddy" },
-        { label: "同城饭局", href: "/cities" },
-        { label: "线下饭局分类", href: "/categories" },
-=======
-        { label: "All cities", href: "/en/cities" },
-        { label: "All categories", href: "/en/categories" },
-        { label: authorityAnchor(lang, currentPath), href: "/en/what-is-fanju" },
-        { label: "Social dining", href: "/social-dining" },
-        { label: "FAQ", href: "/faq" },
-      ]
-    : [
         { label: "全部城市", href: "/cities" },
         { label: "全部类型", href: "/categories" },
-        { label: authorityAnchor(lang, currentPath), href: "/what-is-fanju" },
->>>>>>> Stashed changes
         { label: "饭局社交", href: "/social-dining" },
       ]
 }

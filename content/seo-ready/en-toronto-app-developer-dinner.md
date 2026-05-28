@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T120007Z-round-1-000003"
 randomSeed: "production-cloudflare-20260525T120007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
----
 
 # App Developer Dinner in Toronto should not feel like a gamble; Fanju app changes the odds | fanju-app
 

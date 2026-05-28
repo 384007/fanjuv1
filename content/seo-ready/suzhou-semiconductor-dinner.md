@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 苏州不想只靠群聊时，饭局app怎样把半导体饭局坐成一桌 | fanju-app
 

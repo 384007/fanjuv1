@@ -21,7 +21,6 @@ promptSeed: "production-cloudflare-20260526T092033Z-round-1-000002"
 randomSeed: "production-cloudflare-20260526T092033Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
----
 
 # 厦门城市向导饭局，Fanju 饭局app适合刚到海边城市的人 | fanju-app
 

@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # A calmer way to approach AI Founder Dinner in Seattle through Fanju app | fanju-app
 

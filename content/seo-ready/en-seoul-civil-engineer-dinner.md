@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # A calmer way to approach Civil Engineer Dinner in Seoul through Fanju app | fanju-app
 

@@ -21,7 +21,6 @@ promptSeed: "production-cloudflare-20260526T100008Z-round-1-000002"
 randomSeed: "production-cloudflare-20260526T100008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T100008Z"
----
 
 # 邯郸的美食爱好者饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 

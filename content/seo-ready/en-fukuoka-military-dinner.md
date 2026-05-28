@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260525T230007Z-round-1-000005"
 randomSeed: "production-cloudflare-20260525T230007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T230007Z"
----
 
 # Military Dinner in Fukuoka should not feel like a gamble; Fanju app changes the odds | fanju-app
 

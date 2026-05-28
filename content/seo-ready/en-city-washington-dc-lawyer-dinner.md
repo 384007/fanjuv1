@@ -7,7 +7,6 @@ alternatePath: "/city/washington-dc/lawyer-dinner"
 title: "Washington DC Lawyer Dinner Guide | fanju-app | 饭局app"
 description: "Plan a memorable Lawyer Dinner in Washington DC with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
----
 
 <article>
 <p>\ Washington DC, a city known for its rich history, vibrant culture, and world-class dining scene, is an ideal destination for a Lawyer Dinner. With its diverse neighborhoods, each with its own unique character, you can choose the perfect setting for your evening gathering. Whether you&#039;re a local or just visiting, Washington DC has something to offer everyone.</p>
@@ -35,9 +34,6 @@ recoveredFromD1: true
 <h3>Can I cancel my reservation at a Lawyer Dinner?</h3>
 <p>Yes, you can cancel your reservation at a Lawyer Dinner. Simply log in to your Fanju account, navigate to the event page, and click the &quot;Cancel</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

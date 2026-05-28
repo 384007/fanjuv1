@@ -7,7 +7,6 @@ alternatePath: "/city/bangalore/angel-investor-dinner"
 title: "Bangalore Angel Investor Dinner Guide | fanju-app | 饭局app"
 description: "Discover the curated world of social dining with Fanju app, where meaningful connections and exquisite meals come together in the heart of Bangalore."
 recoveredFromD1: true
----
 
 <article>
 <p>Bangalore, a city that seamlessly blends tradition and modernity, is the perfect backdrop for a unique dining experience. Fanju app, a social dining platform, offers a refreshing alternative to the usual restaurant scene. By bringing together like-minded individuals for intimate, small-group meals, Fanju fosters meaningful connections and a deeper understanding of the city&#039;s vibrant culture.</p>
@@ -41,9 +40,6 @@ recoveredFromD1: true
 <h2>CTA: Join the Fanju Community Today</h2>
 <p>Ready to experience the magic of social dining in Bangalore? Join the Fanju community today and discover a world of meaningful connections and unforgettable experiences. Download the app, create a profile, and start attending events that resonate with your interests. With Fanju, the possibilities are endless, and the connections are real.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

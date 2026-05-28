@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 40
 aiQualityScore: 100
 status: "ready"
----
 
 # Bangkok Social Dining Guide | fanju-app
 
@@ -61,7 +60,6 @@ If you're interested in joining a dinner gathering on Fanju, here are some thing
 
 * Read the table description carefully and make sure it's a good fit for you
 * Set clear expectations for the gathering, including your dietary restrictions and preferences
-* Share plans with a friend or family member for added safety
 * Be respectful of the host's space and belongings
 * Engage with the other guests and make an effort to build meaningful connections
 
@@ -80,9 +78,6 @@ Here are some common mistakes to avoid when using Fanju for social dining:
 When using Fanju for social dining, it's essential to prioritize your safety and trust. Here are some tips to keep in mind:
 
 * Choose public venues to ensure safety and accessibility
-* Set clear expectations for the gathering, including the menu and dress code
-* Share plans with a friend or family member for added safety
-* Review the table description and make sure it's accurate
 * Be respectful of the other guests and the host's space and belongings
 
 ## FAQ
@@ -134,7 +129,6 @@ English: “I am hosting a small dinner for people interested in local community
 - Keep the conversation respectful and leave if the table does not match the description.
 - Hosts should set simple rules before the meal so dinner buddies understand the tone of the gathering.
 
-## FAQ
 
 ### Is Fanju / 饭局 only for dating?
 
@@ -149,7 +143,6 @@ A high-quality invitation is specific. It explains the city, meal type, table th
 Guests should read the table description, check whether the theme fits their intent, choose public venues for first meetings, and join dinners where expectations are clear.
 
 
----
 
 ## Draft Quality Check
 
@@ -168,5 +161,4 @@ Guests should read the table description, check whether the theme fits their int
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

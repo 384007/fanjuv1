@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260528T070525Z-round-1-000007"
 randomSeed: "production-cloudflare-20260528T070525Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260528T070525Z"
----
 
 # Why Fundraising Dinner in Kyoto works better when Fanju app keeps the table small | fanju-app
 

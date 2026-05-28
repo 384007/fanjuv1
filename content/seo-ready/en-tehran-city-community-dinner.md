@@ -7,7 +7,6 @@ alternatePath: "/city/tehran/city-community-dinner"
 title: "For people trying City Community Dinner in Tehran, Fanju app puts the guest mix first | fanju-app | 饭局app"
 description: "Fanju app is a social dining platform designed for intimate, thoughtfully arranged meals in Tehran, where conversation flows more naturally than at a bar and feels less pressured than a group meetup. It focuses on small"
 recoveredFromD1: true
----
 
 <article>
 <p># For people trying City Community Dinner in Tehran, Fanju app puts the guest mix first</p>
@@ -33,9 +32,6 @@ recoveredFromD1: true
 <p>What makes a dinner in Tehran feel meaningful isn’t the food, the location, or even the conversation—it’s the sense that everyone present chose to be there, not out of obligation, but out of curiosity. Fanju app supports this by resisting the urge to scale too quickly or standardize too much. There’s no algorithm pushing guests toward popular hosts, no rating system that rewards performative friendliness. Instead, the focus remains on clarity, intention, and fit.</p>
 <p>This approach aligns with how many Tehranis already socialize—through slow, deliberate connection rather than rapid turnover. A guest might attend only one dinner a month, but remember it for the ease of the exchange. The goal isn’t to turn every meal into a networking opportunity or a cultural showcase, but to preserve the quiet humanity of sharing a table. In a city where public interaction is often constrained, that simplicity can be its own kind of radical act.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

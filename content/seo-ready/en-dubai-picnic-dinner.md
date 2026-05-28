@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Dubai has plenty of Picnic Dinner options; Fanju app is the one that names the table first | fanju-app
 

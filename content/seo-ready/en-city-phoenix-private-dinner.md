@@ -7,7 +7,6 @@ alternatePath: "/city/phoenix/private-dinner"
 title: "Phoenix Private Dinner Guide | fanju-app | 饭局app"
 description: "Discover the art of private dining in Phoenix with Fanju app, a social dining platform that connects professionals and entrepreneurs for meaningful connections over delicious meals."
 recoveredFromD1: true
----
 
 <article>
 <p>For newcomers to Phoenix, the city&#039;s vibrant atmosphere and thriving business scene can be overwhelming. As a founder, operator, or professional, navigating the city&#039;s networking events can feel like trying to find a needle in a haystack. But what if you could skip the crowded conferences and awkward small talk, and instead, enjoy a private dinner with like-minded individuals who share your passions and interests? This is where Fanju app comes in – a social dining platform that brings people together for small, intimate meals and real-world connections.</p>
@@ -43,9 +42,6 @@ recoveredFromD1: true
 <h3>How do I leave feedback and reviews after a dinner?</h3>
 <p>You can leave feedback and reviews after a dinner by logging in to your account, going to the event page, and clicking the &quot;Leave Feedback</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

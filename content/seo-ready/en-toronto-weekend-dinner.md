@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # Toronto Weekend Dinner Guide | fanju-app
 
@@ -67,8 +66,6 @@ Before joining a dinner gathering on Fanju, make sure to:
 
 *   **Read the description carefully**: Review the description to ensure that it meets your needs and preferences.
 *   **Set clear expectations**: Communicate your expectations to the host and other guests.
-*   **Choose a public venue**: Select a public venue that is easily accessible and safe for guests.
-*   **Share plans with a friend**: Share your plans with a friend or family member, so they know where you are and who you're with.
 
 ## Common Mistakes to Avoid
 
@@ -84,9 +81,6 @@ When joining or hosting a dinner gathering on Fanju, make sure to avoid the foll
 When joining or hosting a dinner gathering on Fanju, make sure to prioritize your safety and trust. Here are some tips to help you do so:
 
 *   **Choose public venues**: Select public venues that are easily accessible and safe for guests.
-*   **Set clear expectations**: Communicate your expectations to guests, including any rules or guidelines.
-*   **Share plans with a friend**: Share your plans with a friend or family member, so they know where you are and who you're with.
-*   **Review the table description**: Review the table description to ensure that it meets your needs and preferences.
 
 ## FAQ
 
@@ -136,7 +130,6 @@ English: “I am hosting a small dinner for people interested in local community
 - Keep the conversation respectful and leave if the table does not match the description.
 - Hosts should set simple rules before the meal so dinner buddies understand the tone of the gathering.
 
-## FAQ
 
 ### Is Fanju / 饭局 only for dating?
 
@@ -151,7 +144,6 @@ A high-quality invitation is specific. It explains the city, meal type, table th
 Guests should read the table description, check whether the theme fits their intent, choose public venues for first meetings, and join dinners where expectations are clear.
 
 
----
 
 ## Draft Quality Check
 
@@ -170,5 +162,4 @@ Guests should read the table description, check whether the theme fits their int
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

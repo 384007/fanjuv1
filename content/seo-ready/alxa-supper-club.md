@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 在阿拉善找一桌不尴尬的晚餐俱乐部，饭局app先解决什么 | fanju-app
 

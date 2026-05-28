@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260526T030005Z-round-1-000001"
 randomSeed: "production-cloudflare-20260526T030005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
----
 
 # In Surat, Fanju app turns Videographer Dinner into a table people can actually trust | fanju-app
 

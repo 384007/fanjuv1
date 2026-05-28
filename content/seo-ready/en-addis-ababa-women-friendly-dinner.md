@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T160006Z-round-1-000003"
 randomSeed: "production-cloudflare-20260525T160006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T160006Z"
----
 
 # When Women Friendly Dinner feels too loose in Addis Ababa, Fanju app starts with the table | fanju-app
 

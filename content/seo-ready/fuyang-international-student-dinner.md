@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T110006Z-round-1-000010"
 randomSeed: "production-cloudflare-20260525T110006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
----
 
 # 不想在阜阳随便拼桌，饭局app怎样让国际学生饭局变成一个真实决定 | fanju-app
 

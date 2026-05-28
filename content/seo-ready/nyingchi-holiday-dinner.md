@@ -13,7 +13,6 @@ aiQualityScore: 96
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 林芝的节假日饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 

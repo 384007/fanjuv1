@@ -12,7 +12,6 @@ aiQualityScore: 96
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # For Rome readers considering Language Learner Dinner, Fanju app should make the room legible | fanju-app
 

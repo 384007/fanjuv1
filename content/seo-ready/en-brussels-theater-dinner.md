@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T120007Z-round-1-000009"
 randomSeed: "production-cloudflare-20260525T120007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
----
 
 # How Fanju app turns a Brussels Theater Dinner night into something worth showing up for | fanju-app
 

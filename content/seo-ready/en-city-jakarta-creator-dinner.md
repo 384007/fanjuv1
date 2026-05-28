@@ -7,7 +7,6 @@ alternatePath: "/city/jakarta/creator-dinner"
 title: "Experience Jakarta like a Local with Fanju app: A Guide to Creator Dinner | fanju-app | 饭局app"
 description: "Discover the authentic side of Jakarta through Fanju app's Creator Dinner, where you can connect with like-minded individuals and experience the city's vibrant culture."
 recoveredFromD1: true
----
 
 <article>
 <h1>Experience Jakarta like a Local with Fanju app: A Guide to Creator Dinner</h1>
@@ -32,9 +31,6 @@ recoveredFromD1: true
 <p>Fanju app&#039;s Creator Dinner is an excellent way to experience the city&#039;s vibrant culture and connect with like-minded individuals. It&#039;s a platform for creatives and entrepreneurs to come together, share their ideas, and learn from one another. Whether you&#039;re a local or a newcomer, it&#039;s a chance to tap into the city&#039;s creative energy and make meaningful connections.</p>
 <p>In Jakarta, where the pace of life can be fast and frenetic, Creator Dinner provides a welcome respite from the hustle and bustle. It&#039;s a space to slow down, connect with others, and experience the city&#039;s authentic culture. So why not give it a try? Join a Creator Dinner and discover the magic of Jakarta through Fanju app.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

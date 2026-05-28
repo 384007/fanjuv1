@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 在贵港找一桌不尴尬的羽毛球饭局，饭局app先解决什么 | fanju-app
 

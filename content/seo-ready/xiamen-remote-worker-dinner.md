@@ -13,7 +13,6 @@ aiQualityScore: 96
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 在厦门用一顿饭测试是否同频：远程工作者的小桌饭局 | fanju-app | 饭局app
 

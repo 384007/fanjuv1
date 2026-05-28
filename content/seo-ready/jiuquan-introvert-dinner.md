@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T105242Z-round-1-000002"
 randomSeed: "production-cloudflare-20260525T105242Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T105242Z"
----
 
 # 酒泉内向者饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 

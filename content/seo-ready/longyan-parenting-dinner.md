@@ -21,7 +21,6 @@ promptSeed: "production-cloudflare-20260526T092033Z-round-1-000010"
 randomSeed: "production-cloudflare-20260526T092033Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
----
 
 # 龙岩亲子饭局，Fanju 饭局app不做家长群的线下复制 | fanju-app
 

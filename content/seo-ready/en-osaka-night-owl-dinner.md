@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # Osaka strangers sit down easier when Fanju app frames the Night Owl Dinner table first | fanju-app
 

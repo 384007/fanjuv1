@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 广元不想只靠群聊时，饭局app怎样把公关饭局坐成一桌 | fanju-app
 

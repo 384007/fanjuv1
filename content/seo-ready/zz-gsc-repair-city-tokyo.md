@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 82
 aiQualityScore: 96
 status: "ready"
----
 
 # 东京饭局指南：在东京找到更清楚的小桌社交 | fanju-app | 饭局app
 

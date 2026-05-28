@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260526T092033Z-round-1-000005"
 randomSeed: "production-cloudflare-20260526T092033Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T092033Z"
----
 
 # Tehran museum lover dinner on Fanju app for careful cultural conversation | fanju-app
 

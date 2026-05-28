@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 阿拉善的一顿华人饭局，饭局app为什么先看人再看热闹 | fanju-app
 

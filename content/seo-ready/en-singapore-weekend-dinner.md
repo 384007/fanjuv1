@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # Singapore Weekend Dinner Guide | fanju-app
 
@@ -78,8 +77,6 @@ When using Fanju, it's essential to prioritize your safety and trust. Here are s
 
 * **Choose public venues**: Select public venues that are easily accessible and have a good reputation.
 * **Set clear expectations**: Clearly communicate the dinner gathering details to avoid misunderstandings.
-* **Share plans with a friend**: Inform a friend or family member about your dinner gathering plans and share your location.
-* **Review table description**: Double-check the table description to ensure it accurately reflects the dinner gathering details.
 
 ## FAQ
 
@@ -127,7 +124,6 @@ English: “I am hosting a small dinner for people interested in local community
 - Keep the conversation respectful and leave if the table does not match the description.
 - Hosts should set simple rules before the meal so dinner buddies understand the tone of the gathering.
 
-## FAQ
 
 ### Is Fanju / 饭局 only for dating?
 
@@ -142,7 +138,6 @@ A high-quality invitation is specific. It explains the city, meal type, table th
 Guests should read the table description, check whether the theme fits their intent, choose public venues for first meetings, and join dinners where expectations are clear.
 
 
----
 
 ## Draft Quality Check
 
@@ -161,5 +156,4 @@ Guests should read the table description, check whether the theme fits their int
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

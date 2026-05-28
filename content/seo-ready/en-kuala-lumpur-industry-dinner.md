@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Kuala Lumpur does not need another vague invite; Fanju app makes Industry Dinner specific | fanju-app
 

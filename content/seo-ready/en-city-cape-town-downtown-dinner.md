@@ -7,7 +7,6 @@ alternatePath: "/city/cape-town/downtown-dinner"
 title: "Cape Town Downtown Dinner Guide | fanju-app | 饭局app"
 description: "Discover authentic local connections through dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections. Fanju app is a platform that allows you to join or host intimate dinner gatherings in the heart of Cape Town, fostering meaningful relationships and a deeper understanding of the local culture."
 recoveredFromD1: true
----
 
 <article>
 <p>Cape Town, a vibrant and eclectic city nestled between the majestic Table Mountain and the Atlantic Ocean, is a melting pot of cultures, cuisines, and lifestyles. As an expat or newcomer, navigating the city&#039;s rhythm and finding authentic local connections can be a daunting task. One of the best ways to break the ice and experience the city&#039;s warmth is through a Downtown Dinner, a unique and intimate dining experience that brings people together.</p>
@@ -49,9 +48,6 @@ recoveredFromD1: true
 <h2>Soft CTA</h2>
 <p>Ready to experience the authentic side of Cape Town through dinner? Download the Fanju app today and join or host your own Downtown Dinner. With Fanju, you&#039;ll discover the city&#039;s hidden gems, warm up to its local community, and create meaningful connections that will last a lifetime.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

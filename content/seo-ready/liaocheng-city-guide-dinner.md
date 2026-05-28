@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 聊城城市指南饭局不该只靠群聊，饭局app要把这桌饭讲明白 | fanju-app
 

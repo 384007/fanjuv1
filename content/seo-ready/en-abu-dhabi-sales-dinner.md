@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T170006Z-round-1-000007"
 randomSeed: "production-cloudflare-20260525T170006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T170006Z"
----
 
 # Before the first message in Abu Dhabi, Fanju app makes Sales Dinner feel like a real decision | fanju-app
 

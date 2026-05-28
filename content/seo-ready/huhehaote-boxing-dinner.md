@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 呼和浩特的一顿拳击饭局，饭局app为什么先看人再看热闹 | fanju-app
 

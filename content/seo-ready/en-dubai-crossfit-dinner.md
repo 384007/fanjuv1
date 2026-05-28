@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # When CrossFit Dinner feels too loose in Dubai, Fanju app starts with the table | fanju-app
 

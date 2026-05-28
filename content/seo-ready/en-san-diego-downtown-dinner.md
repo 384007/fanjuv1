@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # When Downtown Dinner feels too loose in San Diego, Fanju app starts with the table | fanju-app
 

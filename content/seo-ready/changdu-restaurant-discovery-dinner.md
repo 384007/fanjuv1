@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 昌都想参加餐厅探索饭局，饭局app把信任感放在饭前 | fanju-app
 

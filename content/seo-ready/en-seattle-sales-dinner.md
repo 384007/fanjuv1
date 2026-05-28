@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260526T020005Z-round-1-000001"
 randomSeed: "production-cloudflare-20260526T020005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T020005Z"
----
 
 # Seattle strangers sit down easier when Fanju app frames the Sales Dinner table first | fanju-app
 

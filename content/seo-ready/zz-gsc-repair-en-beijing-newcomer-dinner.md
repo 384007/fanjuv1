@@ -10,7 +10,6 @@ pageType: "city_topic"
 priorityScore: 80
 aiQualityScore: 96
 status: "ready"
----
 
 # Beijing Newcomer Dinner Guide: start with a clearer first table | fanju-app
 

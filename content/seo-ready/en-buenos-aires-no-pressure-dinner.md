@@ -7,7 +7,6 @@ alternatePath: "/city/buenos-aires/no-pressure-dinner"
 title: "Buenos Aires does not need another vague invite; Fanju app makes No Pressure Dinner specific | fanju-app | 饭局app"
 description: "Fanju app supports small, clearly described meals in Buenos Aires where real-world connection comes before performance. These are not dinner parties with expectations, but intentional gatherings where the focus is on eas"
 recoveredFromD1: true
----
 
 <article>
 <p># Buenos Aires does not need another vague invite; Fanju app makes No Pressure Dinner specific</p>
@@ -33,9 +32,6 @@ recoveredFromD1: true
 <h3>What if I arrive alone and do not know anyone?</h3>
 <p>You’re likely to be greeted by the host, who will have a sense of the group dynamic and can make brief introductions if needed. Most guests come alone, so there’s no expectation to arrive with a companion. The tone is set in advance through the Fanju listing—whether it’s conversational, low-key, or activity-based—so you’ll already know what to expect. If you’re unsure, you can message the host beforehand to ask about the group. Once there, participation is optional. You can engage as much or as little as feels right. The space is designed to accommodate different social energies, not demand uniformity.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

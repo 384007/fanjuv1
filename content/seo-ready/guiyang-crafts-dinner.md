@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T140006Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T140006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T140006Z"
----
 
 # 下班后的贵阳，饭局app怎样让手工艺饭局有真实同桌 | fanju-app
 

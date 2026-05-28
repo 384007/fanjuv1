@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 在宁波把英语饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 

@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Stockholm Coffee Lover Dinner: how Fanju app makes the table worth choosing | fanju-app
 

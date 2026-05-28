@@ -13,7 +13,6 @@ aiQualityScore: 96
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 在泰安，硬件工程师如何通过小桌饭局找到同频的人？ | fanju-app | 饭局app
 

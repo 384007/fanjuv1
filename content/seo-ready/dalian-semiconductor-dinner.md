@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T120007Z-round-1-000002"
 randomSeed: "production-cloudflare-20260525T120007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
----
 
 # 大连的半导体饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 

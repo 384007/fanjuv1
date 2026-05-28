@@ -7,7 +7,6 @@ alternatePath: "/city/lisbon/ecommerce-dinner"
 title: "In Lisbon, Fanju app turns Ecommerce Dinner into a table people can actually trust | fanju-app | 饭局app"
 description: "The Fanju app in Lisbon connects professionals from the ecommerce sector through small, intentionally hosted dinners where conversation flows more easily than at a conference mixer. It’s not a networking event disguised"
 recoveredFromD1: true
----
 
 <article>
 <p># In Lisbon, Fanju app turns Ecommerce Dinner into a table people can actually trust</p>
@@ -33,9 +32,6 @@ recoveredFromD1: true
 <p>For someone new to Lisbon, the real challenge isn’t finding events—it’s choosing one that won’t leave them more drained. The Fanju app helps by making selection easier: clear themes, capped groups, and host transparency reduce the anxiety of the unknown. You’re not walking into a crowd; you’re joining a conversation already in motion.</p>
 <p>The goal isn’t to attend every dinner, but to find one that fits. Maybe it’s the table focused on VAT compliance for micro-brands, hosted by someone in Alcântara who runs their own export business. Or the monthly gathering near Telheiras discussing platform dependency risks. Choosing one doesn’t mean you’ve locked into a scene—it means you’ve tested a space where work talk and dinner don’t have to feel at odds. In a city that values both ease and depth, that balance is worth finding.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

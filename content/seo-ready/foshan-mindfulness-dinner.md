@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 佛山的正念饭局饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 

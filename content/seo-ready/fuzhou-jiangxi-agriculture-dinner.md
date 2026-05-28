@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 抚州想参加农业饭局，饭局app把信任感放在饭前 | fanju-app
 

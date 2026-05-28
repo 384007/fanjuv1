@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # Sydney Curated Dinner Guide | fanju-app
 
@@ -54,7 +53,6 @@ Joining or hosting a curated dinner gathering on Fanju is easy and straightforwa
 
 ### Hosting a Curated Dinner Gathering
 
-1. Download the Fanju app and create an account
 2. Click on the "Host" button to create a new event
 3. Choose a cuisine, location, and date for your gathering
 4. Set a budget and menu for your event
@@ -96,7 +94,6 @@ When joining or hosting a curated dinner gathering, it's essential to prioritize
 
 * Choose public venues or private spaces with a clear exit plan
 * Set clear expectations and communicate with your guests about the menu, location, and plans
-* Review the table description and ensure it's accurate and helpful
 * Share your plans with a friend or family member, in case of an emergency
 * Be respectful and considerate of others, and avoid any behavior that may make others feel uncomfortable
 
@@ -146,7 +143,6 @@ English: “I am hosting a small dinner for people interested in local community
 - Keep the conversation respectful and leave if the table does not match the description.
 - Hosts should set simple rules before the meal so dinner buddies understand the tone of the gathering.
 
-## FAQ
 
 ### Is Fanju / 饭局 only for dating?
 
@@ -161,7 +157,6 @@ A high-quality invitation is specific. It explains the city, meal type, table th
 Guests should read the table description, check whether the theme fits their intent, choose public venues for first meetings, and join dinners where expectations are clear.
 
 
----
 
 ## Draft Quality Check
 
@@ -180,5 +175,4 @@ Guests should read the table description, check whether the theme fits their int
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

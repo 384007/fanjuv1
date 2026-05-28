@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # Vancouver Singles Dinner Guide | fanju-app
 
@@ -51,7 +50,6 @@ Joining or hosting a dinner gathering on Fanju is easy and straightforward. Here
 
 ### Hosting a Dinner Gathering
 
-1. Download the Fanju app and create an account
 2. Click on the "Host" button to start creating your dinner gathering
 3. Set the date, time, location, and cuisine for your gathering
 4. Add a brief description of your gathering, including any specific rules or expectations
@@ -93,9 +91,6 @@ When joining or hosting a dinner gathering, avoid the following common mistakes:
 When joining or hosting a dinner gathering, prioritize your safety and trust the following tips:
 
 * Choose public venues or private spaces that are easily accessible
-* Set clear expectations for your gathering, including any rules or restrictions
-* Review the table description and make sure it accurately reflects your gathering
-* Share your plans with a friend or family member for added safety
 * Be respectful of others and their belongings
 
 ## FAQ
@@ -150,7 +145,6 @@ English: “I am hosting a small dinner for people interested in local community
 - Keep the conversation respectful and leave if the table does not match the description.
 - Hosts should set simple rules before the meal so dinner buddies understand the tone of the gathering.
 
-## FAQ
 
 ### Is Fanju / 饭局 only for dating?
 
@@ -165,7 +159,6 @@ A high-quality invitation is specific. It explains the city, meal type, table th
 Guests should read the table description, check whether the theme fits their intent, choose public venues for first meetings, and join dinners where expectations are clear.
 
 
----
 
 ## Draft Quality Check
 
@@ -184,5 +177,4 @@ Guests should read the table description, check whether the theme fits their int
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 下班后的咸宁，饭局app怎样让外籍和海归饭局有真实同桌 | fanju-app
 

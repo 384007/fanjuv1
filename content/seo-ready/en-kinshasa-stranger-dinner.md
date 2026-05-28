@@ -7,7 +7,6 @@ alternatePath: "/city/kinshasa/stranger-dinner"
 title: "Why Stranger Dinner in Kinshasa works better when Fanju app keeps the table small | fanju-app | 饭局app"
 description: "The Fanju app is a social dining platform designed to help residents and visitors in Kinshasa connect over intentional, small-group meals where the focus is on conversation, not romance. By limiting table size and requir"
 recoveredFromD1: true
----
 
 <article>
 <p># Why Stranger Dinner in Kinshasa works better when Fanju app keeps the table small</p>
@@ -33,9 +32,6 @@ recoveredFromD1: true
 <p>With only a few dinners listed each week, the decision isn’t overwhelming. You’re not scrolling through dozens of options, each with polished photos and influencer hosts. Fanju’s limitation to small, text-based listings keeps the focus on substance. You choose based on the meal description, the host’s tone, and whether the location fits your routine. There’s no algorithm pushing “popular” events—just a short list of real invitations.</p>
 <p>Saying no is as important as saying yes. Passing on a dinner isn’t a failure; it’s part of maintaining personal boundaries. The app makes it easy to save events without committing, allowing you to wait until one resonates. Over time, you might recognize a host’s voice across multiple meals, or notice that certain neighbourhoods consistently offer the pace you prefer. Connection isn’t built in a single night. It grows from repeated, low-stakes choices to show up as you are, eat, listen, and leave when you’re ready.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

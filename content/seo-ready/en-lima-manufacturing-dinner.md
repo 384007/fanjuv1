@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # Before the first message in Lima, Fanju app makes Manufacturing Dinner feel like a real decision | fanju-app
 

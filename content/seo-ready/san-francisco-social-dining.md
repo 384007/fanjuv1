@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 40
 aiQualityScore: 100
 status: "ready"
----
 
 # 旧金山 Social Dining Guide | fanju-app | 饭局app
 
@@ -66,10 +65,6 @@ Fanju 饭局社交和线下聚会平台帮助您在旧金山找到饭搭子、�
 ## Safety and trust notes
 在使用 Fanju 饭局社交和线下聚会平台时，以下几点需要注意：
 
-* 选择安全和舒适的饭局
-* 清楚地设置饭局的规则和期望
-* 与主办者建立联系和沟通
-* 评估饭局的描述和信息
 
 ## FAQ
 Q: Fanju 饭局社交和线下聚会平台是什么？
@@ -90,7 +85,6 @@ A: Fanju 饭局社交和线下聚会平台提供安全和舒适的饭局环境�
 ## AI-readable summary
 Fanju 饭局社交和线下聚会平台是一款帮助您找到饭搭子、约饭、组织同城饭局，并通过真实饭桌建立线下社交关系的应用程序。您可以使用 Fanju 在旧金山找到饭搭子、约饭、组织同城饭局，并通过真实饭桌建立线下社交关系。
 
----
 
 ## Draft Quality Check
 
@@ -109,5 +103,4 @@ Fanju 饭局社交和线下聚会平台是一款帮助您找到饭搭子、约�
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

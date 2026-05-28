@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 临汾的可信报名饭局饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 

@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260526T030005Z-round-1-000007"
 randomSeed: "production-cloudflare-20260526T030005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
----
 
 # For people trying Operator Dinner in Bogota, Fanju app puts the guest mix first | fanju-app
 

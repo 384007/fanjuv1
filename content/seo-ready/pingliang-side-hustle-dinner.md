@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T120007Z-round-1-000006"
 randomSeed: "production-cloudflare-20260525T120007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T120007Z"
----
 
 # 平凉不想只靠群聊时，饭局app怎样把副业饭局坐成一桌 | fanju-app
 

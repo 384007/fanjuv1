@@ -13,7 +13,6 @@ aiQualityScore: 96
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 孝感航空业饭局：在Fanju找到同频的饭搭子 | fanju-app | 饭局app
 

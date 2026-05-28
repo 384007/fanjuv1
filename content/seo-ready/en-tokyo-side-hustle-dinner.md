@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260526T020005Z-round-1-000003"
 randomSeed: "production-cloudflare-20260526T020005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T020005Z"
----
 
 # Tokyo does not need another vague invite; Fanju app makes Side Hustle Dinner specific | fanju-app
 

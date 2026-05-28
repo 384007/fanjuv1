@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # Taipei Founder Dinner Guide | fanju-app
 
@@ -44,7 +43,6 @@ Joining or hosting a dinner gathering on Fanju is easy and straightforward. Here
 
 ### Hosting a Dinner Gathering
 
-1. Download the Fanju app and create an account.
 2. Choose a category that interests you (e.g. founders, entrepreneurs, small business owners).
 3. Set a date and time for your dinner gathering.
 4. Create a table description that accurately reflects your gathering.
@@ -65,7 +63,6 @@ Before hosting a dinner gathering on Fanju, make sure to:
 Before joining a dinner gathering on Fanju, make sure to:
 
 * Review the table description and make sure it's a good fit for you.
-* Share your plans with a friend or family member for added safety.
 * Be prepared to engage with the host and other guests.
 * Respect the host's expectations and boundaries.
 * Follow any specific rules or guidelines set by the host.
@@ -85,8 +82,6 @@ When using Fanju to find and connect with fellow founders in Taipei, make sure t
 When using Fanju to find and connect with fellow founders in Taipei, make sure to prioritize your safety and trust. Here are some tips to keep in mind:
 
 * Choose public venues for added safety.
-* Set clear expectations for the gathering (e.g. dress code, conversation topics).
-* Share your plans with a friend or family member for added safety.
 * Review the table description carefully before joining a gathering.
 * Be prepared to engage with others and create a welcoming atmosphere.
 
@@ -139,7 +134,6 @@ English: “I am hosting a small dinner for people interested in local community
 - Keep the conversation respectful and leave if the table does not match the description.
 - Hosts should set simple rules before the meal so dinner buddies understand the tone of the gathering.
 
-## FAQ
 
 ### Is Fanju / 饭局 only for dating?
 
@@ -154,7 +148,6 @@ A high-quality invitation is specific. It explains the city, meal type, table th
 Guests should read the table description, check whether the theme fits their intent, choose public venues for first meetings, and join dinners where expectations are clear.
 
 
----
 
 ## Draft Quality Check
 
@@ -173,5 +166,4 @@ Guests should read the table description, check whether the theme fits their int
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

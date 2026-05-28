@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 吐鲁番不想只靠群聊时，饭局app怎样把饭搭子坐成一桌 | fanju-app
 

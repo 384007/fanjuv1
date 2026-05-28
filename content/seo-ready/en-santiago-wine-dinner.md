@@ -7,7 +7,6 @@ alternatePath: "/city/santiago/wine-dinner"
 title: "Santiago does not need another vague invite; Fanju app makes Wine Dinner specific | fanju-app | 饭局app"
 description: "In Santiago, where the weekend is a time for gathering with friends and family, Wine Dinner is a staple of the social scene. However, with the rise of social dining apps like Fanju, it's become clear that Wine Dinner nee"
 recoveredFromD1: true
----
 
 <article>
 <p># Santiago does not need another vague invite; Fanju app makes Wine Dinner specific</p>
@@ -36,9 +35,6 @@ recoveredFromD1: true
 <p>In Santiago, the founder of Fanju app, Maria, hosts a regular Wine Dinner event that brings together like-minded people from all over the city. The event is a perfect example of how Wine Dinner can be a place where you can connect with others who share your values and interests. By using Fanju app, you can join Wine Dinner events that are tailored to your interests and preferences, and connect with like-minded people in a real and meaningful way.</p>
 <p>Maria&#039;s Wine Dinner events are a testament to the power of community-building, and a reminder that Wine Dinner is a place where you can be yourself, and connect with others who share your values and interests. By using Fanju app, you can join Wine Dinner events that are tailored to your interests and preferences, and connect with like-minded people in a real and meaningful way.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

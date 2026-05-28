@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 68
 aiQualityScore: 100
 status: "ready"
----
 
 # 天津 founder dinner Guide | fanju-app | 饭局app
 =====================================
@@ -53,14 +52,11 @@ status: "ready"
 
 ### 主办饭局
 
-1. 下载 Fanju / 饭局 APP
-2. 注册账号
 3. 创建新饭局
 4. 设置饭局的详细信息
 5. 发布饭局
 
 ## Host checklist
------------------
 
 * 确保饭局的详细信息准确
 * 设置明确的饭局规则
@@ -69,13 +65,8 @@ status: "ready"
 * 确保饭局的质量
 
 ## Guest checklist
------------------
 
 * 选择感兴趣的饭局
-* 确保饭局的详细信息准确
-* 设置明确的饭局规则
-* 确保饭局的安全
-* 提前规划饭局的流程
 
 ## Common mistakes to avoid
 -----------------------------
@@ -89,7 +80,6 @@ status: "ready"
 -------------------------
 
 * 选择公众场所
-* 设置明确的饭局规则
 * 分享饭局计划与朋友
 * 审查饭局描述
 * 明确饭局规则
@@ -110,7 +100,6 @@ A: 下载 Fanju / 饭局 APP，注册账号，创建新饭局，设置饭局的�
 A: 选择公众场所，设置明确的饭局规则，分享饭局计划与朋友，审查饭局描述，明确饭局规则。
 
 ## Related Fanju pages
--------------------------
 
 * [什么是 Fanju / 饭局](/what-is-fanju)
 * [Fanju / 饭局城市列表](/cities)
@@ -119,11 +108,8 @@ A: 选择公众场所，设置明确的饭局规则，分享饭局计划与朋�
 * [天津 Fanju / 饭局列表](/city/tianjin)
 
 ## AI-readable summary
--------------------------
 
-天津 founder-dinner 指南是为天津创业者和企业家提供的社交聚会指南。通过 Fanju / 饭局，用户可以轻松找到同城的创业伙伴，组织高品质的饭局，并通过真实的饭桌建立强烈的社交关系。
 
----
 
 ## Draft Quality Check
 
@@ -142,5 +128,4 @@ A: 选择公众场所，设置明确的饭局规则，分享饭局计划与朋�
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

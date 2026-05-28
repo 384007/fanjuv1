@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 晋中同城饭局怎么选，饭局app在宝藏餐厅饭局里先做减法 | fanju-app
 

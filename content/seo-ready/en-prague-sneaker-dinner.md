@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Prague has plenty of Sneaker Dinner options; Fanju app is the one that names the table first | fanju-app
 

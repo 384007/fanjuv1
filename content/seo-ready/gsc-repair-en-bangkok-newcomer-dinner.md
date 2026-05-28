@@ -10,7 +10,6 @@ pageType: "city_topic"
 priorityScore: 78
 aiQualityScore: 96
 status: "ready"
----
 
 # Bangkok Newcomer Dinner Guide: find a clearer first table in the city | fanju-app
 

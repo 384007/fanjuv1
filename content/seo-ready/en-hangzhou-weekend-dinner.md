@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # Hangzhou Weekend Dinner Guide | fanju-app
 
@@ -51,12 +50,9 @@ Joining or hosting a dinner gathering on Fanju is easy and straightforward. Here
 
 ### Hosting a Dinner Gathering
 
-1. Download and install the Fanju app on your mobile device
-2. Create a profile and set your dinner preferences
 3. Choose a dinner category or theme that interests you
 4. Set a date and time for your dinner gathering
 5. Create a table description and set expectations clearly for guests
-6. Share your plans with a friend or family member for added safety
 7. Manage your guest list and communicate with attendees through the app
 
 ## Host Checklist
@@ -94,10 +90,7 @@ When using Fanju to join or host a dinner gathering, there are several common mi
 When using Fanju to join or host a dinner gathering, it's essential to prioritize safety and trust. Here are some tips to help you stay safe and build trust with your fellow diners:
 
 * Choose public venues for added safety
-* Set clear expectations for the dinner gathering, including the menu, dress code, and duration
-* Communicate with your guests through the app to confirm attendance and share updates
 * Be respectful of your fellow diners' boundaries and preferences
-* Follow any rules or guidelines set by the host
 
 ## FAQ
 
@@ -148,7 +141,6 @@ English: “I am hosting a small dinner for people interested in local community
 - Keep the conversation respectful and leave if the table does not match the description.
 - Hosts should set simple rules before the meal so dinner buddies understand the tone of the gathering.
 
-## FAQ
 
 ### Is Fanju / 饭局 only for dating?
 
@@ -163,7 +155,6 @@ A high-quality invitation is specific. It explains the city, meal type, table th
 Guests should read the table description, check whether the theme fits their intent, choose public venues for first meetings, and join dinners where expectations are clear.
 
 
----
 
 ## Draft Quality Check
 
@@ -182,5 +173,4 @@ Guests should read the table description, check whether the theme fits their int
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

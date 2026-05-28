@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 南充的植物爱好者饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 

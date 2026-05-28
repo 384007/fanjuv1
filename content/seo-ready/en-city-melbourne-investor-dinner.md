@@ -7,7 +7,6 @@ alternatePath: "/city/melbourne/investor-dinner"
 title: "Melbourne Investor Dinner Guide | fanju-app | 饭局app"
 description: "Discover the social side of Melbourne with Fanju app, a platform for small, intimate meals and meaningful connections. Join our investor dinners and experience the city's vibrant rhythm, from trendy neighborhoods to authentic eateries. Whether you're a remote worker or simply looking to expand your network, our investor dinners offer a unique opportunity to connect with like-minded individuals in a relaxed setting."
 recoveredFromD1: true
----
 
 <article>
 <p>Melbourne, a city known for its cultural diversity and vibrant atmosphere, is the perfect backdrop for a social dining experience. As a remote worker, it can be challenging to maintain a work-life balance, especially when working from home or alone. This is where Fanju app comes in – a social dining platform that brings people together over small, clearly described meals.</p>
@@ -42,9 +41,6 @@ recoveredFromD1: true
 <h2>CTA</h2>
 <p>Ready to experience the social side of Melbourne with Fanju app? Browse our upcoming events, select the dinner that suits you best, and RSVP. We&#039;ll take care of the rest, from venue selection to menu planning. Join us for a memorable and enjoyable experience that will leave you feeling connected and inspired.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

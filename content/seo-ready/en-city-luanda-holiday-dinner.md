@@ -7,7 +7,6 @@ alternatePath: "/city/luanda/holiday-dinner"
 title: "Luanda Holiday Dinner Guide | fanju-app | 饭局app"
 description: "Discover Luanda's vibrant social scene with Fanju app, a platform for small, meaningful meals and genuine connections. Join a Holiday Dinner in Luanda and experience the city's rhythm, meet like-minded individuals, and create lasting memories. Whether you're a remote worker or simply looking for a new way to socialize, this guide will help you navigate Luanda's Holiday Dinner scene and find the perfect experience for you."
 recoveredFromD1: true
----
 
 <article>
 <p>As a remote worker, it can be challenging to maintain a social life, especially when working from home or alone. That&#039;s where Fanju app comes in – a social dining app designed for small, clearly described meals and real-world connections. With Fanju, you can join a Holiday Dinner in Luanda and experience the city&#039;s vibrant social scene.</p>
@@ -52,9 +51,6 @@ recoveredFromD1: true
 <h2>Soft CTA: Join a Holiday Dinner in Luanda Today</h2>
 <p>Ready to experience Luanda&#039;s vibrant social scene and connect with like-minded individuals? Join a Holiday Dinner in Luanda today and discover the magic of Fanju for yourself. Simply download our app, create a profile, and start browsing our dinner experiences. We can&#039;t wait to see you there!</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

@@ -7,7 +7,6 @@ alternatePath: "/city/san-diego/hotpot-dinner"
 title: "San Diego does not need another vague invite; Fanju app makes Hotpot Dinner specific | fanju-app | 饭局app"
 description: "San Diego, a city known for its year-round mild climate and stunning beaches, has a thriving food scene that's perfect for social dining. Fanju app is a social dining app that connects locals and visitors for small, clea"
 recoveredFromD1: true
----
 
 <article>
 <p># San Diego does not need another vague invite; Fanju app makes Hotpot Dinner specific</p>
@@ -33,9 +32,6 @@ recoveredFromD1: true
 <p>Fanju app&#039;s social dining experience is designed to be human and authentic, not transactional or superficial. By providing clear information about the meal, the hosts, and the venue, you can feel more confident and relaxed, making it easier to connect with others and make new friends. This helps to create a sense of community and shared experience among the guests, making it easier to build meaningful connections.</p>
 <p>When joining a Hotpot Dinner through Fanju app, you&#039;ll be surrounded by people who share your interests and values. This creates a sense of belonging and community, making it easier to connect with others and make new friends. By choosing a Hotpot Dinner that reflects the local culture and community, you can experience the authentic San Diego and make meaningful connections with others.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

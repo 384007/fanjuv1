@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # What makes Supper Club in Lisbon worth the risk; Fanju app answers before you arrive | fanju-app
 

@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Yokohama does not need another vague invite; Fanju app makes Student Dinner specific | fanju-app
 

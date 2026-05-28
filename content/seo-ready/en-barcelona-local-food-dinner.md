@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Barcelona after work: how Fanju app makes Local Food Dinner feel like a real room | fanju-app
 

@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260525T220007Z-round-1-000007"
 randomSeed: "production-cloudflare-20260525T220007Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T220007Z"
----
 
 # Why City Guide Dinner in Rome works better when Fanju app keeps the table small | fanju-app
 

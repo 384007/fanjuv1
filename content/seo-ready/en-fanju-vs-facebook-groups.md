@@ -11,7 +11,6 @@ lang: "en"
 aiQualityScore: 95
 priorityScore: 85
 status: "ready"
----
 
 # Fanju vs Facebook Groups | fanju-app
 

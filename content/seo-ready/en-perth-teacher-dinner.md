@@ -7,7 +7,6 @@ alternatePath: "/city/perth/teacher-dinner"
 title: "Perth does not need another vague invite; Fanju app makes Teacher Dinner specific | fanju-app | 饭局app"
 description: "In Perth, the workday often ends not with a rush to the city’s edge, but with a pause—teachers, tutors, and educators lingering in staff rooms or walking to their cars, weighing whether to head straight home or make one"
 recoveredFromD1: true
----
 
 <article>
 <p># Perth does not need another vague invite; Fanju app makes Teacher Dinner specific</p>
@@ -33,9 +32,6 @@ recoveredFromD1: true
 <p>Leaving a Teacher Dinner doesn’t have to mean closure. Some connections linger—not through forced follow-up, but through organic recognition. A teacher from Midland might meet one from Rockingham and later spot them at a curriculum workshop. They nod, smile, and later, one might click on the other’s Fanju profile, seeing they’re hosting again. No message is needed. The connection exists in the background, ready to be resumed when timing and energy allow.</p>
 <p>This is the quiet strength of the model: it builds a web, not a ladder. There’s no pressure to “maintain” relationships. Instead, each dinner becomes a node in a larger, informal network—one where showing up once is enough, and showing up again is a choice, not an obligation. In Perth’s wide, sunlit spaces, where distances can feel isolating, these threads matter. They don’t replace deep friendships, but they offer something just as vital—a sense of belonging that requires little, gives quietly, and stays open.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 第一次在日喀则参加喜剧饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 

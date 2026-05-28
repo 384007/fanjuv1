@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # Manila does not need another vague invite; Fanju app makes Diving Dinner specific | fanju-app
 

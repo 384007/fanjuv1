@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # In Moscow, Fanju app turns Table Tennis Dinner into a table people can actually trust | fanju-app
 

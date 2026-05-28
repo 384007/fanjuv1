@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T181226Z-round-1-000004"
 randomSeed: "production-cloudflare-20260525T181226Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T181226Z"
----
 
 # 阜新晚餐俱乐部的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app
 

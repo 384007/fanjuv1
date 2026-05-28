@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # Pune after work: how Fanju app makes Spanish Learner Dinner feel like a real room | fanju-app
 

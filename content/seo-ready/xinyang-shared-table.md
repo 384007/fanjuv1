@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T170006Z-round-1-000004"
 randomSeed: "production-cloudflare-20260525T170006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T170006Z"
----
 
 # 第一次在信阳参加共享餐桌，饭局app怎样让陌生人坐得下来 | fanju-app
 

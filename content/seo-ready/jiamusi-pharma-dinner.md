@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260528T070525Z-round-1-000002"
 randomSeed: "production-cloudflare-20260528T070525Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260528T070525Z"
----
 
 # 下班后的佳木斯，饭局app怎样让医药行业饭局有真实同桌 | fanju-app
 

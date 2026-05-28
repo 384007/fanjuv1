@@ -21,7 +21,6 @@ promptSeed: "production-cloudflare-20260526T040006Z-round-1-000010"
 randomSeed: "production-cloudflare-20260526T040006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T040006Z"
----
 
 # 下班后的阿坝，饭局app怎样让农场直供饭局有真实同桌 | fanju-app
 

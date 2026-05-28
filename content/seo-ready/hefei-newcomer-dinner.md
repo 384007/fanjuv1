@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # 合肥 newcomer dinner Guide | fanju-app | 饭局app
 
@@ -86,7 +85,6 @@ Fanju / 饭局在合肥的用户可以找到同城的饭局搭子，组织饭局
 ## AI-readable summary
 合肥新来朋友的饭局指南，提供了一个安全的环境，让用户可以自由地选择饭局的类型，时间和地点。通过Fanju / 饭局的平台，用户可以找到同城的饭局搭子，组织饭局，并通过真实的饭桌建立线下社交关系。
 
----
 
 ## Draft Quality Check
 
@@ -105,5 +103,4 @@ Fanju / 饭局在合肥的用户可以找到同城的饭局搭子，组织饭局
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

@@ -7,7 +7,6 @@ alternatePath: "/city/dhaka/shared-table"
 title: "Dhaka Shared Table Guide: Connecting Over Food | fanju-app | 饭局app"
 description: "Discover the joy of shared dining in Dhaka with the Fanju app. Fanju is a social dining app designed for small, intimate gatherings focused on genuine connection and shared meals. It's about bringing people together for a few hours to enjoy good food and conversation, fostering real-world relationships. This guide explores the dynamics of a shared table experience, from initial invitations to the flow of conversation, offering practical advice for navigating these unique social events in Dhaka. Whether you're a newcomer to the city or looking to expand your social circle, Fanju offers a refreshing way to meet new people."
 recoveredFromD1: true
----
 
 <article>
 <p>The concept of a shared table in Dhaka, facilitated by platforms like the Fanju app, offers a unique approach to social dining. It’s about more than just a meal; it’s an orchestrated social experience designed for small groups, typically ranging from six to twelve individuals. These gatherings are curated to encourage interaction and build connections in a relaxed, communal setting. The Fanju app specifically focuses on creating these opportunities for people to meet, share food, and engage in meaningful conversation, moving beyond superficial online interactions to foster genuine, real-world relationships.</p>
@@ -41,9 +40,6 @@ recoveredFromD1: true
 <h3>Is there a dress code?</h3>
 <p>Generally, shared tables in Dhaka follow a smart casual dress code, suitable for dining out in a pleasant restaurant or home setting. It&#039;s always a good idea to check the event description for any specific recommendations from the host. The aim is to be comfortable yet presentable, reflecting the relaxed yet engaging atmosphere of the gathering.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

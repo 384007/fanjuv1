@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 宜宾不想只靠群聊时，饭局app怎样把攀岩饭局坐成一桌 | fanju-app
 

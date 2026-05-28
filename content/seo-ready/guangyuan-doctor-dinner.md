@@ -21,7 +21,6 @@ promptSeed: "production-cloudflare-20260526T040006Z-round-1-000006"
 randomSeed: "production-cloudflare-20260526T040006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T040006Z"
----
 
 # 广元的医生饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app
 

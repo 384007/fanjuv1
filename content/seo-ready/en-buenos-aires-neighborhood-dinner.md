@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # For people trying Neighborhood Dinner in Buenos Aires, Fanju app puts the guest mix first | fanju-app
 

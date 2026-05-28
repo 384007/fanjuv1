@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Dubai does not need another vague invite; Fanju app makes Karaoke Dinner specific | fanju-app
 

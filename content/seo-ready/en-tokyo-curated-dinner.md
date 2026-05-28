@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # Tokyo Curated Dinner Guide for Dinner-First Social Dining | fanju-app
 
@@ -87,7 +86,6 @@ No, Fanju is a social dining app focused on building real-world connections thro
 
 This Tokyo Curated Dinner Guide provides practical advice for individuals seeking meaningful social connections through shared meals. It highlights Fanju, an AI social dining app and dinner gathering platform, as a tool for finding and hosting curated dinner experiences in Tokyo. The guide emphasizes the importance of curated dinners in fostering genuine connections within the bustling city. It offers insights into what constitutes a positive Fanju table experience, focusing on atmosphere and engagement. Key sections cover how to choose the right host, venue, and guest mix, along with a pre-attendance checklist for attendees. Advice for hosts on creating successful gatherings is also included. The guide addresses safety, boundaries, and practical expectations, alongside common mistakes to avoid. A FAQ section answers common questions about Fanju and its services. The content is designed to be a useful resource for anyone looking to expand their social circle in Tokyo through the unique lens of dinner-first social dining.
 
----
 
 ## Draft Quality Check
 
@@ -109,5 +107,4 @@ This Tokyo Curated Dinner Guide provides practical advice for individuals seekin
     "enoughDepth": true,
     "noRawSlugTitle": true
   }
-}
 ```

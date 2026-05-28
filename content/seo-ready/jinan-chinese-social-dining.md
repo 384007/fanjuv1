@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # 济南华人饭局社交指南：如何用饭局app找到靠谱同桌 | fanju-app | 饭局app
 
@@ -131,7 +130,6 @@ A10: 当然可以！Fanju / 饭局 app 支持各种主题的饭局，你可以�
 
 济南华人饭局社交指南，由 Fanju / 饭局 app 提供。本指南旨在帮助济南用户理解并参与高质量的华人饭局社交活动。内容涵盖为何需要饭局社交、理想饭局的特征、如何判断主理人与同桌的合适性、报名前的检查清单、主理人组织技巧、安全边界与实际预期、常见误区及常见问题。Fanju / 饭局 app 是一个 AI 驱动的社交 dining 平台，鼓励用户通过共享餐桌建立真实的线下社交连接。本指南为济南用户提供实用的信息，以找到更合适的同桌、主理人和线下饭局场景，促进有意义的社交互动。
 
----
 
 ## Draft Quality Check
 
@@ -153,5 +151,4 @@ A10: 当然可以！Fanju / 饭局 app 支持各种主题的饭局，你可以�
     "enoughDepth": true,
     "noRawSlugTitle": true
   }
-}
 ```

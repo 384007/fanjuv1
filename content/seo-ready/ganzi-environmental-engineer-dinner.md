@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 甘孜不想只靠群聊时，饭局app怎样把环境工程师饭局坐成一桌 | fanju-app
 

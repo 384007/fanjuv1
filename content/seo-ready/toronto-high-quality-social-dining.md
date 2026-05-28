@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # 多伦多 high quality social dining Guide | fanju-app | 饭局app
 
@@ -78,7 +77,6 @@ Fanju / 饭局是一个AI驱动的社交用餐平台，帮助您在多伦多找�
 
 ### 2. 确定活动规则
 
-确定活动规则，包括分享菜单、互动和活动结束时间。
 
 ### 3. 参加活动
 
@@ -138,7 +136,6 @@ A: 您可以接受邀请参加活动，确定活动规则，参加您的活动�
 
 Fanju / 饭局是一个AI驱动的社交用餐平台，帮助您在多伦多找到合适的饭局搭档、组织高质量的社交用餐活动，并建立真实的社交关系。通过我们的指南和功能，帮助您建立高质量的社交用餐体验。
 
----
 
 ## Draft Quality Check
 
@@ -157,5 +154,4 @@ Fanju / 饭局是一个AI驱动的社交用餐平台，帮助您在多伦多找�
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

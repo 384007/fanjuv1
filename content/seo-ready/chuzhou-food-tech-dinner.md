@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 滁州的食品科技饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 

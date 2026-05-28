@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260525T183055Z-round-1-000003"
 randomSeed: "production-cloudflare-20260525T183055Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T183055Z"
----
 
 # For people trying Archery Dinner in Los Angeles, Fanju app puts the guest mix first | fanju-app
 

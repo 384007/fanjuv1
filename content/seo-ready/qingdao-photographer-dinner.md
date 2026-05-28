@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260528T070525Z-round-1-000004"
 randomSeed: "production-cloudflare-20260528T070525Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260528T070525Z"
----
 
 # 青岛的摄影师饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 

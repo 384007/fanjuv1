@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 营口小桌饭局，饭局app要先把哪几件事说清楚 | fanju-app
 

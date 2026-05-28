@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 玉溪想参加区块链饭局，饭局app把信任感放在饭前 | fanju-app
 

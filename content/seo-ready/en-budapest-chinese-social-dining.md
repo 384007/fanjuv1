@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # The Chinese Social Dining table Budapest actually needs is the one Fanju app describes up front | fanju-app
 

@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 天津本地社区饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app
 

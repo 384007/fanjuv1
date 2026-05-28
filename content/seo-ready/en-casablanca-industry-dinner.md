@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # Before the first message in Casablanca, Fanju app makes Industry Dinner feel like a real decision | fanju-app
 

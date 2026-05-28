@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 在天津把猫主人饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 

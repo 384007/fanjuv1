@@ -7,7 +7,6 @@ alternatePath: "/city/kolkata/english-speaking-dinner"
 title: "Kolkata English Speaking Dinner Guide: Authentic Local Experiences | fanju-app | 饭局app"
 description: "Discover authentic Kolkata through English speaking dinners with local hosts. The Fanju app connects you with small, curated dining experiences for genuine cultural exchange, moving beyond typical tourist paths. This guide helps you find meaningful connections and understand the city's rhythm, one meal at a time. It's about experiencing Kolkata's heart, not just seeing its sights."
 recoveredFromD1: true
----
 
 <article>
 <p>For newcomers and curious travelers alike, the true essence of Kolkata often lies not in its famous landmarks, but in the intimate conversations shared over a home-cooked meal. The Fanju app offers a unique avenue for this, facilitating small, clearly described dining experiences designed for real-world connections. It&#039;s a platform for those seeking to understand the city&#039;s pulse through direct interaction with its residents, moving beyond curated itineraries to embrace spontaneous, authentic encounters. This approach prioritizes genuine human connection and cultural immersion, making every dinner a potential gateway to understanding Kolkata&#039;s vibrant local life.</p>
@@ -40,9 +39,6 @@ recoveredFromD1: true
 <h3>Can I host my own English Speaking Dinner in Kolkata?</h3>
 <p>Yes, the Fanju app is designed for both guests and hosts. If you are a resident of Kolkata with a passion for sharing your culture, food, and city, you can create your own dining experiences. This involves setting up a profile, describing the type of meal or gathering you wish to host, specifying the location, and setting a price if applicable. It&#039;s a great way to meet new people, share your local knowledge, and contribute to the vibrant community of cultural exchange in Kolkata.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

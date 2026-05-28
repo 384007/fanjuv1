@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # When Open Table Dinner feels too loose in Paris, Fanju app starts with the table | fanju-app
 

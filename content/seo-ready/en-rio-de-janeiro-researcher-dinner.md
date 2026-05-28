@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # Researcher Dinner in Rio de Janeiro should not feel like a gamble; Fanju app changes the odds | fanju-app
 

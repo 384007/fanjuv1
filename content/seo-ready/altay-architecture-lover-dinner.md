@@ -21,7 +21,6 @@ promptSeed: "production-cloudflare-20260526T030005Z-round-1-000002"
 randomSeed: "production-cloudflare-20260526T030005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
----
 
 # 在阿勒泰找到对的建筑爱好者饭局，饭局app先把这一桌说清楚 | fanju-app
 

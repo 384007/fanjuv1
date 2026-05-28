@@ -21,7 +21,6 @@ promptSeed: "production-cloudflare-20260525T200005Z-round-1-000004"
 randomSeed: "production-cloudflare-20260525T200005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T200005Z"
----
 
 # 安康书法饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app
 对于刚来到安康，或者想在熟悉城市里拓展新圈子的人来说，一次陌生的饭局，尤其是在刚开始的几分钟，那种不确定感和潜在的压力，常常让人犹豫。饭局app（Fanju）正是为解决这种“小桌开场几分钟决定整晚舒不舒服”的社交难题而生，它不是简单地为你凑一桌人吃饭，而是致力于让每一场“安康书法饭局”的主题和预期都清晰明确，为线下社交的重启提供一种更低压、更具目的性的方式。在这里，你可以找到一群因为共同兴趣而聚集的同桌，而非漫无目的的社交拼凑。

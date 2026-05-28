@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # When Web Developer Dinner feels too loose in Lima, Fanju app starts with the table | fanju-app
 

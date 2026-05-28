@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T180008Z-round-1-000010"
 randomSeed: "production-cloudflare-20260525T180008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T180008Z"
----
 
 # 海口想参加节日饭局，饭局app把信任感放在饭前 | fanju-app
 

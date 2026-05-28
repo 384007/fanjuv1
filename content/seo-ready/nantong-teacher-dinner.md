@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T150008Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T150008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T150008Z"
----
 
 # 第一次在南通参加教师饭局，饭局app怎样让陌生人坐得下来 | fanju-app
 

@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 鹰潭想参加早起者饭局，饭局app把信任感放在饭前 | fanju-app
 

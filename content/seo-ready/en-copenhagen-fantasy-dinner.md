@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # Copenhagen does not need another vague invite; Fanju app makes Fantasy Dinner specific | fanju-app
 

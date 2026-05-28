@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 在拉萨找一桌不尴尬的电子爱好者饭局，饭局app先解决什么 | fanju-app
 

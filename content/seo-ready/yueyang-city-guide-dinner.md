@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 岳阳想参加城市指南饭局，饭局app把信任感放在饭前 | fanju-app
 

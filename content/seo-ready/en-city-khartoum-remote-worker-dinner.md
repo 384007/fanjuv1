@@ -7,7 +7,6 @@ alternatePath: "/city/khartoum/remote-worker-dinner"
 title: "Khartoum Remote Worker Dinner Guide | fanju-app | 饭局app"
 description: "Discover the authentic flavors of Khartoum with Fanju app, a social dining app that connects you with like-minded individuals for small, home-cooked meals and meaningful conversations."
 recoveredFromD1: true
----
 
 <article>
 <p>Khartoum, the vibrant capital city of Sudan, is a melting pot of cultures and cuisines. From the bustling streets of Omdurman to the tranquil gardens of Khartoum North, this city has a unique rhythm that is waiting to be explored. As a remote worker, you&#039;re likely no stranger to the joys of discovering new flavors and making connections with fellow travelers. In this guide, we&#039;ll take you on a culinary journey through Khartoum&#039;s hidden gems, highlighting the best places to dine, the neighborhoods to explore, and the safety tips to keep in mind.</p>
@@ -59,9 +58,6 @@ recoveredFromD1: true
 <p>As a newcomer to Khartoum, attending a dinner event can be a great way to meet new people and experience the local culture. Here&#039;s an example of what a dinner event might look like:</p>
 <p>You join a dinner event hosted by a local resident who specializes in traditional Sudanese cuisine. The dinner is held in a cozy home in the Omdurman neighborhood, and you&#039;re greeted with a warm smile and a refreshing drink. As you sit down to eat, you&#039;re introduced to the other guests, who are all friendly and welcoming. The dinner is a delicious and authentic experience, with plenty of opportunities to ask questions and learn about the local culture. As the evening comes to a close, you feel grateful for the new connections you&#039;ve made and the delicious food you&#039;ve enjoyed.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

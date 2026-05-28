@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T130008Z-round-1-000001"
 randomSeed: "production-cloudflare-20260525T130008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T130008Z"
----
 
 # Brisbane strangers sit down easier when Fanju app frames the Solopreneur Dinner table first | fanju-app
 

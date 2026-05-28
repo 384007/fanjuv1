@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # When Hospitality Dinner feels too loose in Phoenix, Fanju app starts with the table | fanju-app
 

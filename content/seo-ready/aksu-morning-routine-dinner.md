@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 一顿阿克苏晨间习惯饭局值不值得去，先看饭局app这些信号 | fanju-app
 

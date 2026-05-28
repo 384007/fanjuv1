@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T170006Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T170006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T170006Z"
----
 
 # 温州的西班牙语学习者饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 

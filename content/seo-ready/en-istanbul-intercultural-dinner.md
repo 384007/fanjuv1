@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T140006Z-round-1-000001"
 randomSeed: "production-cloudflare-20260525T140006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T140006Z"
----
 
 # Intercultural Dinner in Istanbul should not feel like a gamble; Fanju app changes the odds | fanju-app
 

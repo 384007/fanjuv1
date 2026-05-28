@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 绍兴的消费品创业者饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app
 

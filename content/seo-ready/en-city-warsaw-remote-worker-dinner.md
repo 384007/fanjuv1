@@ -7,7 +7,6 @@ alternatePath: "/city/warsaw/remote-worker-dinner"
 title: "Warsaw Remote Worker Dinner Guide | fanju-app | 饭局app"
 description: "Discover the comfort and community of Fanju app's social dining experience, tailored for remote workers in Warsaw. Join a small-table dinner and connect with like-minded individuals in a safe and welcoming environment."
 recoveredFromD1: true
----
 
 <article>
 <p>As a remote worker in Warsaw, you may have experienced the isolation that comes with working from home. Fanju app offers a solution to this problem by providing a platform for small, clearly described meals and real-world connections. Our app is designed for individuals who value community and comfort, and are looking for a unique way to break the monotony of remote work.</p>
@@ -18,7 +17,6 @@ recoveredFromD1: true
 <p>In Fanju, users can join small-table dinners with clearly described meals, allowing them to connect with like-minded individuals in a safe and welcoming environment. Our app is perfect for remote workers who are looking for a break from the monotony of working from home.</p>
 <h2>Who this page is for</h2>
 <p>This page is for remote workers, freelancers, and individuals who are looking for a social dining experience in Warsaw. If you are tired of working from home and want to connect with like-minded individuals, then this page is for you. We also welcome individuals who are looking for a unique way to break the monotony of remote work.</p>
-<p>As a remote worker in Warsaw, you may have experienced the isolation that comes with working from home. Fanju app offers a solution to this problem by providing a platform for small, clearly described meals and real-world connections. Our app is designed for individuals who value community and comfort, and are looking for a unique way to break the monotony of remote work.</p>
 <h2>How to join a Remote Worker Dinner in Warsaw</h2>
 <p>To join a Remote Worker Dinner in Warsaw, simply download the Fanju app and create an account. Once you have created an account, you can browse through our available dinners and join the one that suits your interests and schedule. We recommend joining a dinner in a neighbourhood that you are familiar with, such as the Old Town or the Praga district.</p>
 <p>Before joining a dinner, make sure to read the host&#039;s description and reviews from previous attendees. This will give you an idea of what to expect from the dinner and help you make an informed decision. We also recommend arriving on time and being respectful of the host&#039;s space and other attendees.</p>
@@ -45,9 +43,6 @@ recoveredFromD1: true
 <p>Join a Remote Worker Dinner in Warsaw today and experience the comfort and community of Fanju app&#039;s social dining experience. Our platform is designed to provide a safe and welcoming environment for users to connect with each other over a meal. We believe that food has the power to bring people together, and our app is a reflection of this philosophy.</p>
 <p>So why not give it a try? Download the Fanju app and join a dinner in Warsaw today. We look forward to welcoming you to our community!</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

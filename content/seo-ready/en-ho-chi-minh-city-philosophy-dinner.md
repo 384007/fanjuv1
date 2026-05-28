@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260528T070525Z-round-1-000001"
 randomSeed: "production-cloudflare-20260528T070525Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260528T070525Z"
----
 
 # The Philosophy Dinner table Ho Chi Minh City actually needs is the one Fanju app describes up front | fanju-app
 

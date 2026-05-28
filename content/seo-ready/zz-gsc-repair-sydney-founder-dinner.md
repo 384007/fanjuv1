@@ -10,7 +10,6 @@ pageType: "city_topic"
 priorityScore: 80
 aiQualityScore: 96
 status: "ready"
----
 
 # 悉尼创业者饭局指南：把创业交流放进一桌晚餐 | fanju-app | 饭局app
 

@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 宝鸡的一顿饭搭子，饭局app为什么先看人再看热闹 | fanju-app
 

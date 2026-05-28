@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # When Data Scientist Dinner feels too loose in Madrid, Fanju app starts with the table | fanju-app
 

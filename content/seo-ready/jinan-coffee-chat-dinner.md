@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 济南想参加咖啡转晚餐社交，饭局app把信任感放在饭前 | fanju-app
 

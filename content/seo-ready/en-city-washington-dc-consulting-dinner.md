@@ -7,7 +7,6 @@ alternatePath: "/city/washington-dc/consulting-dinner"
 title: "Washington DC Consulting Dinner Guide | fanju-app | 饭局app"
 description: "Navigating Washington DC's professional landscape can feel like a whirlwind, especially when you've just arrived. If you're looking for a more intimate way to connect than a large networking event, consider a consulting dinner. The Fanju app is designed for these kinds of small, focused social dining experiences, helping you build real-world connections in the city. It's a platform for curated meals where meaningful conversations can unfold naturally, moving beyond superficial introductions. For newcomers to DC this month, understanding these options is key to settling in and expanding your network effectively. Fanju app offers a structured yet relaxed approach to meeting people with shared professional interests."
 recoveredFromD1: true
----
 
 <article>
 <p>The weekend has just wrapped up, and the familiar hum of a new week in Washington DC is starting to set in. For someone who&#039;s only been here a month, the sheer scale of the city, with its iconic landmarks and bustling corridors of power, can be a little overwhelming. You&#039;ve unpacked, found your bearings in your neighborhood, and now the real work begins: building connections. Large-scale networking events are plentiful, but sometimes you crave something more focused, more personal. That&#039;s where the concept of a consulting dinner comes in, offering a more intimate setting to engage with peers and potential collaborators.</p>
@@ -40,9 +39,6 @@ recoveredFromD1: true
 <h3>What is the typical cost structure?</h3>
 <p>Costs can vary. Some dinners might be hosted with all expenses covered by the organizer, while others might operate on a shared cost basis, where each attendee contributes to the meal. The event description on Fanju should clearly outline the expected financial arrangement, so there are no surprises. It&#039;s always wise to check these details before confirming your attendance.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

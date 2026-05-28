@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 在儋州参加读书饭局前，饭局app应该先回答什么 | fanju-app
 

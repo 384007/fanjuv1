@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 在邢台找到对的徒步饭局，饭局app先把这一桌说清楚 | fanju-app
 

@@ -7,7 +7,6 @@ alternatePath: "/city/dublin/operator-dinner"
 title: "Dublin does not need another vague invite; Fanju app makes Operator Dinner specific | fanju-app | 饭局app"
 description: "Dublin’s after-work rhythm often means one of two things: a long commute home or another solitary meal in front of a screen. Fanju app changes that by offering small, clearly described dinners hosted by real people acros"
 recoveredFromD1: true
----
 
 <article>
 <p># Dublin does not need another vague invite; Fanju app makes Operator Dinner specific</p>
@@ -33,9 +32,6 @@ recoveredFromD1: true
 <p>There’s no rating system on Fanju app. No five-star judgments, no pressure to perform gratitude. After dinner, you might send a note through the app, or you might not. Some hosts appreciate it; others don’t expect it. What matters is that the exchange stays grounded. You showed up. You ate. You shared space. That’s enough.</p>
 <p>The next step isn’t to host or to attend every week. It’s to remember that connection doesn’t need scale to matter. One dinner, one conversation, one evening where you didn’t eat alone—that’s the metric. In Dublin, where the light fades early and the days blur, those moments add up. Fanju app doesn’t promise transformation. It just makes it easier to say yes to a table that’s already set.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

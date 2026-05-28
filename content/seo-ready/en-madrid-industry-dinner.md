@@ -7,7 +7,6 @@ alternatePath: "/city/madrid/industry-dinner"
 title: "Madrid does not need another vague invite; Fanju app makes Industry Dinner specific | fanju-app | 饭局app"
 description: "In Madrid, where evenings stretch into conversation over shared plates and shifting light, a dinner invite often carries more ambiguity than clarity. Fanju app redefines what an industry dinner means by making every even"
 recoveredFromD1: true
----
 
 <article>
 <p># Madrid does not need another vague invite; Fanju app makes Industry Dinner specific</p>
@@ -33,9 +32,6 @@ recoveredFromD1: true
 <p>Joining an Industry Dinner in Madrid shouldn’t feel like applying for access. The next step isn’t filling out a form or proving your status—it’s simply browsing upcoming dinners on Fanju app, reading a host’s description, and deciding if the context feels right. You don’t need a polished pitch or a senior title. You just need curiosity. If a dinner about urban innovation in Vallecas or creative freelancing in Usera resonates, you can attend as yourself—no performance required.</p>
 <p>This isn’t about scaling connections into transactions. It’s about restoring the human rhythm to professional life in Madrid—where meals are held for conversation, not conversion. When the table is specific, the boundaries are clear, and the goal is understanding, Industry Dinner stops being an event and starts being a practice. And that’s something Madrid already knows how to do well.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

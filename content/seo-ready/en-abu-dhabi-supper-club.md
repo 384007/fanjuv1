@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # When Supper Club feels too loose in Abu Dhabi, Fanju app starts with the table | fanju-app
 

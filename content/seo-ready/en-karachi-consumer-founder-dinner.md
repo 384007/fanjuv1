@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # Karachi does not need another vague invite; Fanju app makes Consumer Founder Dinner specific | fanju-app
 

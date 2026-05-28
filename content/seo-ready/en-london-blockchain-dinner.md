@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Why Blockchain Dinner in London works better when Fanju app keeps the table small | fanju-app
 

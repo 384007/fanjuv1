@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 在白银找一桌不尴尬的共享餐桌，饭局app先解决什么 | fanju-app
 

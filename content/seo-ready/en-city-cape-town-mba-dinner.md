@@ -7,7 +7,6 @@ alternatePath: "/city/cape-town/mba-dinner"
 title: "Cape Town MBA Dinner Guide | fanju-app | 饭局app"
 description: "Discover the world of social dining with Fanju app, where you can connect with like-minded professionals over delicious meals in a safe and welcoming environment."
 recoveredFromD1: true
----
 
 <article>
 <p>Cape Town is a vibrant city that offers a unique blend of urban and natural experiences. As a hub for business and innovation, it&#039;s no surprise that the city is home to a thriving community of professionals who are eager to connect and learn from one another.</p>
@@ -30,13 +29,9 @@ recoveredFromD1: true
 <h3>What is the format of a typical MBA dinner?</h3>
 <p>A typical MBA dinner with Fanju app is a small, clearly described meal with 6-12 people. The format is informal, and attendees are encouraged to share a meal and engage in meaningful conversations. The host will provide a brief introduction to the evening, and then attendees are free to mingle and get to know each other.</p>
 <h3>How do I know if a dinner group is safe and trustworthy?</h3>
-<p>At Fanju app, we take safety and trust very seriously. Our community is made up of like-minded individuals who share a passion for learning and growth, and we believe that everyone deserves to feel safe and comfortable in our community. When you join a dinner group, you&#039;ll be able to see the host&#039;s profile and read reviews from other attendees. This will give you a sense of who the host is and what to expect from the event.</p>
 <h3>Can I cancel my attendance at a dinner group?</h3>
 <p>Yes, you can cancel your attendance at a dinner group at any time. Simply log in to your account, go to the event page, and click the &quot;cancel</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
 
 ## 在当地通过饭局连接更多同频伙伴
 Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

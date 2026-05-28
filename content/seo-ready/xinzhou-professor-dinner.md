@@ -21,7 +21,6 @@ promptSeed: "production-cloudflare-20260526T030005Z-round-1-000006"
 randomSeed: "production-cloudflare-20260526T030005Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T030005Z"
----
 
 # 在忻州找到对的教授饭局，饭局app先把这一桌说清楚 | fanju-app
 

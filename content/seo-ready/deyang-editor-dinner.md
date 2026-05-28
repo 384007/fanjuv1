@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 德阳的一顿编辑饭局，饭局app为什么先看人再看热闹 | fanju-app
 

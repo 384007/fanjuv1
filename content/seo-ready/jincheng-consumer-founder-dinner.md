@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 第一次考虑晋城消费品创业者饭局，饭局app怎样让报名更可判断 | fanju-app
 

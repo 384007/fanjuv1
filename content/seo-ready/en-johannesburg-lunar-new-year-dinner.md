@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T110006Z-round-1-000003"
 randomSeed: "production-cloudflare-20260525T110006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
----
 
 # A calmer way to approach Lunar New Year Dinner in Johannesburg through Fanju app | fanju-app
 

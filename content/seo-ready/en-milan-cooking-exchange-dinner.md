@@ -20,7 +20,6 @@ promptSeed: "production-cloudflare-20260526T040006Z-round-1-000009"
 randomSeed: "production-cloudflare-20260526T040006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260526T040006Z"
----
 
 # Cooking Exchange Dinner in Milan should not feel like a gamble; Fanju app changes the odds | fanju-app
 

@@ -13,7 +13,6 @@ aiQualityScore: 96
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 在孝感找到对的高端饭局，饭局app先把这一桌说清楚 | fanju-app
 

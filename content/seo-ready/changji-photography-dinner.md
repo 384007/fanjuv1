@@ -13,7 +13,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # 在昌吉找一桌不尴尬的摄影爱好者饭局，饭局app先解决什么 | fanju-app
 

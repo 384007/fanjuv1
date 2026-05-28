@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # 悉尼 business dinner Guide | fanju-app | 饭局app
 
@@ -49,7 +48,6 @@ Fanju / 饭局提供了一个平台，让用户可以找到搭档，组织同城
 
 ## Guest checklist
 
-1. 确定饭局的主题和目的。
 2. 了解饭局的时间、地点和规则。
 3. 与主持人沟通，确保你有一个愉快的体验。
 4. 参与饭局，并建立社交关系。
@@ -116,7 +114,6 @@ English: “I am hosting a small dinner for people interested in local community
 - Keep the conversation respectful and leave if the table does not match the description.
 - Hosts should set simple rules before the meal so dinner buddies understand the tone of the gathering.
 
-## FAQ
 
 ### Is Fanju / 饭局 only for dating?
 
@@ -131,7 +128,6 @@ A high-quality invitation is specific. It explains the city, meal type, table th
 Guests should read the table description, check whether the theme fits their intent, choose public venues for first meetings, and join dinners where expectations are clear.
 
 
----
 
 ## Draft Quality Check
 
@@ -150,5 +146,4 @@ Guests should read the table description, check whether the theme fits their int
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

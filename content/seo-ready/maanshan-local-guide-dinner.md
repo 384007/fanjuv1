@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 马鞍山的一顿本地向导饭局，饭局app为什么先看人再看热闹 | fanju-app
 

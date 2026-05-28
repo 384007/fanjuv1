@@ -18,7 +18,6 @@ promptSeed: "production-cloudflare-20260525T110006Z-round-1-000001"
 randomSeed: "production-cloudflare-20260525T110006Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "unknown"
----
 
 # How Fanju app turns a Sao Paulo Astronomy Dinner night into something worth showing up for | fanju-app
 

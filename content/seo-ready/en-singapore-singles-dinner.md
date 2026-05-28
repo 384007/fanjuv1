@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # Singapore Singles Dinner Guide | fanju-app
 
@@ -52,7 +51,6 @@ Joining or hosting a dinner gathering on Fanju is easy and straightforward. Here
 
 ### Hosting a Dinner Gathering
 
-1. Download the Fanju app and create an account
 2. Choose a category or theme for your dinner gathering
 3. Set a date, time, and location for the gathering
 4. Create a table description and add relevant details
@@ -149,7 +147,6 @@ English: “I am hosting a small dinner for people interested in local community
 - Keep the conversation respectful and leave if the table does not match the description.
 - Hosts should set simple rules before the meal so dinner buddies understand the tone of the gathering.
 
-## FAQ
 
 ### Is Fanju / 饭局 only for dating?
 
@@ -164,7 +161,6 @@ A high-quality invitation is specific. It explains the city, meal type, table th
 Guests should read the table description, check whether the theme fits their intent, choose public venues for first meetings, and join dinners where expectations are clear.
 
 
----
 
 ## Draft Quality Check
 
@@ -183,5 +179,4 @@ Guests should read the table description, check whether the theme fits their int
     "noAiSelfTalk": true,
     "enoughLength": true
   }
-}
 ```

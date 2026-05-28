@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T181226Z-round-1-000012"
 randomSeed: "production-cloudflare-20260525T181226Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T181226Z"
----
 
 # 不想在三沙随便拼桌，饭局app怎样让对冲基金饭局变成一个真实决定 | fanju-app
 

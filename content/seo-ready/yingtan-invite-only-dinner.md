@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 在鹰潭找到对的邀请制饭局饭局，饭局app先把这一桌说清楚 | fanju-app
 

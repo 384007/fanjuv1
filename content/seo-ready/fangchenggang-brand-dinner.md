@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 不想在防城港随便拼桌，饭局app怎样让品牌饭局变成一个真实决定 | fanju-app
 

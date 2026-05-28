@@ -10,7 +10,6 @@ pageType: "city_landing"
 priorityScore: 50
 aiQualityScore: 100
 status: "ready"
----
 
 # San Francisco Newcomer Dinner Guide for Dinner-First Social Dining | fanju-app
 
@@ -115,7 +114,6 @@ To further enhance your understanding and utilization of Fanju, explore these re
 
 This editorial guide provides comprehensive information for newcomers to San Francisco seeking social connections through dinner gatherings. It details the importance of newcomer-specific dinners, outlines the characteristics of a positive Fanju dining experience, and offers advice on selecting hosts, venues, and guest mixes. The guide includes a pre-attendance checklist, hosting tips, and crucial safety advice, emphasizing public venues and clear communication. It also highlights common mistakes to avoid, such as unrealistic expectations or neglecting to read descriptions. The content is structured to be practical and user-friendly, aiming to help individuals build real-world social connections around shared meals in San Francisco using the Fanju platform. Internal links to Fanju's core pages are integrated to provide further context and resources.
 
----
 
 ## Draft Quality Check
 
@@ -137,5 +135,4 @@ This editorial guide provides comprehensive information for newcomers to San Fra
     "enoughDepth": true,
     "noRawSlugTitle": true
   }
-}
 ```

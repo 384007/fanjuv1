@@ -12,7 +12,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # 在普洱把志愿者饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app
 

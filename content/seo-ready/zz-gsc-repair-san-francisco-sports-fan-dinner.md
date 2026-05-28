@@ -10,7 +10,6 @@ pageType: "city_topic"
 priorityScore: 76
 aiQualityScore: 95
 status: "ready"
----
 
 # 旧金山体育球迷饭局指南：把看球话题带到一桌晚餐 | fanju-app | 饭局app
 

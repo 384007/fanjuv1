@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Washington DC strangers sit down easier when Fanju app frames the Pottery Dinner table first | fanju-app
 

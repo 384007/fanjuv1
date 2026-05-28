@@ -10,10 +10,11 @@ const TEMPLATE_H2S = [
   "参与边界清晰，安全自主",
   "Safety and Comfort Are Built Into the Design",
   "Safety, Boundaries, and the Freedom to Leave",
-  "Safety, Clarity, and the Role of the Host"
+  "Safety, Clarity, and the Role of the Host",
+  "在当地构建真实连接"
 ]
 
-console.log("Starting surgical compliance-only remediation...")
+console.log("Starting strictly surgical remediation (remove-only)...")
 
 // 1. Remediate Markdown Sources
 for (const file of walk(SOURCE_DIR)) {
@@ -32,7 +33,6 @@ for (const file of walk(SOURCE_DIR)) {
   
   if (changed) {
     writeFileSync(file, content, "utf8")
-    console.log(`Fixed MD: ${file.split('/').pop()}`)
   }
 }
 
@@ -61,7 +61,6 @@ for (const file of walk(READY_DIR)) {
 
   if (changed) {
     writeJson(file, article)
-    console.log(`Fixed JSON: ${file.split('/').pop()}`)
   }
 }
 

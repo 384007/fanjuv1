@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # Accra strangers sit down easier when Fanju app frames the App Developer Dinner table first | fanju-app
 

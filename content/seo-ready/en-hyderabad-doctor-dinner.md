@@ -11,7 +11,6 @@ priorityScore: 70
 aiQualityScore: 100
 status: "ready"
 renderMode: "source"
----
 
 # Hyderabad does not need another vague invite; Fanju app makes Doctor Dinner specific | fanju-app
 

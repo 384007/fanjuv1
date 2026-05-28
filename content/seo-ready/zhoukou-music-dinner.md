@@ -21,7 +21,6 @@ promptSeed: "production-cloudflare-20260525T183055Z-round-1-000006"
 randomSeed: "production-cloudflare-20260525T183055Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T183055Z"
----
 
 # 在周口找到对的音乐饭局，饭局app先把这一桌说清楚 | fanju-app
 

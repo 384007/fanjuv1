@@ -12,7 +12,6 @@ aiQualityScore: 100
 status: "ready"
 renderMode: "source"
 recoveredFromD1: "true"
----
 
 # The Returnee Dinner table Karachi actually needs is the one Fanju app describes up front | fanju-app
 

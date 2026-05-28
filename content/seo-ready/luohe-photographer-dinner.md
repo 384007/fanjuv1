@@ -19,7 +19,6 @@ promptSeed: "production-cloudflare-20260525T180008Z-round-1-000008"
 randomSeed: "production-cloudflare-20260525T180008Z-round-1"
 articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260525T180008Z"
----
 
 # 漯河不想只靠群聊时，饭局app怎样把摄影师饭局坐成一桌 | fanju-app
 
