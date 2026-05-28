@@ -935,7 +935,35 @@ function articleFrameFor(profile) {
     return cleanHeading(`${city}这一桌：${heading}`)
   }
 
-  const h2s = h2Slots.map((variants, i) => routeSpecificHeading(variants[frameIndex(profile, `h2-${i + 1}`, 6)]))
+  const usedHeadingKeys = new Set()
+
+  function rememberHeading(text) {
+    const normalized = normalizeForTemplateCheck(text)
+    if (normalized) usedHeadingKeys.add(normalized)
+    return text
+  }
+
+  function chooseUniqueHeading(variants, startIndex) {
+    if (!Array.isArray(variants) || variants.length === 0) return null
+    for (let offset = 0; offset < variants.length; offset++) {
+      const index = (startIndex + offset) % variants.length
+      const text = routeSpecificHeading(variants[index])
+      const normalized = normalizeForTemplateCheck(text)
+      if (!normalized || usedHeadingKeys.has(normalized)) continue
+      usedHeadingKeys.add(normalized)
+      return text
+    }
+    return null
+  }
+
+  const h1 = rememberHeading(cleanHeading(TEMPLATES[0][frameIndex(profile, "h1", TEMPLATES[0].length)]))
+  
+  const h2s = []
+  for (let i = 0; i < 6; i++) {
+    const variants = h2Slots[i]
+    const text = chooseUniqueHeading(variants, frameIndex(profile, `h2-${i + 1}`, 6))
+    if (text) h2s.push(text)
+  }
 
   // Build heading outline: H1, then H2s (level 2), then H3..HmaxDepth (one each, levels 3..maxDepth)
   // Each deeper heading is a child of the previous — strictly increasing level, never decreasing.
@@ -943,11 +971,11 @@ function articleFrameFor(profile) {
   for (let level = 3; level <= maxDepth; level++) {
     const templateIdx = level - 1 // index into TEMPLATES array (0=H1,1=H2,2=H3,...)
     const variants = TEMPLATES[templateIdx] || TEMPLATES[TEMPLATES.length - 1]
-    const text = routeSpecificHeading(variants[frameIndex(profile, `h${level}`, variants.length)])
-    deepHeadings.push({ level, text })
+    const text = chooseUniqueHeading(variants, frameIndex(profile, `h${level}`, variants.length))
+    if (text) deepHeadings.push({ level, text })
   }
 
-  const frame = { h1: cleanHeading(TEMPLATES[0][frameIndex(profile, "h1", TEMPLATES[0].length)]), h2s, deepHeadings, maxDepth }
+  const frame = { h1, h2s, deepHeadings, maxDepth }
   preflightArticleFrame(profile, frame)
   return frame
 }
