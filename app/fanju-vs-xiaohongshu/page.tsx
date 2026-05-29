@@ -62,7 +62,6 @@ export default function FanjuVsXiaohongshuPage() {
             <p className="mt-3 text-sm text-muted-foreground">
               小红书适合“种草”和内容消费，饭局 Fanju 解决的是“真实弱连接”的最后一公里问题。
             </p>
-            </p>
           </div>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link href="/social-dining" className="border border-accent/70 bg-accent px-4 py-3 font-mono text-[11px] tracking-[0.2em] text-accent-foreground uppercase">饭局社交</Link>
