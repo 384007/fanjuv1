@@ -1,6 +1,13 @@
 "use client"
 
 import React, { useState, useEffect } from "react"
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogClose,
+} from "@/components/ui/dialog"
 
 interface Chapter {
   title: string
@@ -83,41 +90,66 @@ function renderLiteraryMarkdown(md: string): React.ReactNode {
 export function LiteraryChapterRenderer({ chapters }: Props) {
   const [currentPage, setCurrentPage] = useState(0)
   const [direction, setDirection] = useState(0)
+  const [isChapterListOpen, setIsChapterListOpen] = useState(false)
 
   const goToPage = (newPage: number) => {
     if (newPage < 0 || newPage >= chapters.length) return
     setDirection(newPage > currentPage ? 1 : -1)
     setCurrentPage(newPage)
+    // Close modal if open
+    if (isChapterListOpen) setIsChapterListOpen(false)
   }
 
   useEffect(() => {
     const handleKey = (e: KeyboardEvent) => {
       if (e.key === 'ArrowLeft') goToPage(currentPage - 1)
       if (e.key === 'ArrowRight') goToPage(currentPage + 1)
+      if (e.key.toLowerCase() === 'd' || e.key === '目录') {
+        // 'd' or perhaps not, keep simple
+      }
     }
     window.addEventListener('keydown', handleKey)
     return () => window.removeEventListener('keydown', handleKey)
-  }, [currentPage])
+  }, [currentPage, isChapterListOpen])
 
   const currentChapter = chapters[currentPage] || chapters[0]
   const rendered = renderLiteraryMarkdown(currentChapter.content)
+  const progress = chapters.length > 1 ? Math.round(((currentPage + 1) / chapters.length) * 100) : 100
+
+  const prevChapter = currentPage > 0 ? chapters[currentPage - 1] : null
+  const nextChapter = currentPage < chapters.length - 1 ? chapters[currentPage + 1] : null
 
   return (
     <>
       {chapters.length > 1 && (
-        <div className="mb-6 text-sm text-[#6b6459] dark:text-muted-foreground flex items-center gap-4">
-          <span>第 {currentPage + 1} 章 / 共 {chapters.length} 章　·　{currentChapter.title}</span>
-          <span className="text-xs opacity-60">(← → 方向键翻页)</span>
+        <div className="mb-6 flex items-center justify-between text-sm text-[#6b6459] dark:text-muted-foreground">
+          <div className="flex items-center gap-3">
+            <span className="font-medium tracking-wide">第 {currentPage + 1} 章 / 共 {chapters.length} 章</span>
+            <span className="text-[#1a1814] dark:text-foreground/90 font-serif text-[15px] tracking-[-0.01em]">
+              {currentChapter.title}
+            </span>
+          </div>
+          <span className="text-xs opacity-50 hidden md:inline">(方向键 ← → 翻页 · 点击目录浏览)</span>
         </div>
       )}
 
-      <div className="relative overflow-hidden min-h-[400px]">
+      {/* Subtle progress bar */}
+      {chapters.length > 1 && (
+        <div className="h-px w-full bg-[#d4c9b3]/40 dark:bg-white/10 mb-8 overflow-hidden">
+          <div
+            className="h-px bg-[#1a1814] dark:bg-white transition-all duration-300 ease-out"
+            style={{ width: `${progress}%` }}
+          />
+        </div>
+      )}
+
+      <div className="relative overflow-hidden min-h-[420px]">
         <div
           key={currentPage}
           className="transition-all duration-300 ease-out"
           style={{
-            transform: `translateX(${direction * 20}px)`,
-            opacity: 0.95,
+            transform: `translateX(${direction * 18}px)`,
+            opacity: 0.96,
           }}
         >
           <div className="prose prose-neutral max-w-none text-[15.5px] leading-[1.82] text-[#1a1814] dark:prose-invert dark:text-foreground/90">
@@ -126,39 +158,94 @@ export function LiteraryChapterRenderer({ chapters }: Props) {
         </div>
       </div>
 
+      {/* Premium bottom navigation - no ugly number grid */}
       {chapters.length > 1 && (
-        <div className="mt-12 flex items-center justify-center gap-3 border-t border-[#d4c9b3] pt-8 dark:border-border/60">
-          <button
-            onClick={() => goToPage(currentPage - 1)}
-            disabled={currentPage === 0}
-            className="px-3 py-1 text-sm border rounded disabled:opacity-30 hover:bg-[#f0e9d9] dark:hover:bg-white/10"
-          >
-            ←
-          </button>
-
-          {chapters.map((_, idx) => (
+        <div className="mt-14 border-t border-[#d4c9b3] pt-7 dark:border-border/60">
+          <div className="flex items-center justify-between gap-4">
+            {/* Previous */}
             <button
-              key={idx}
-              onClick={() => goToPage(idx)}
-              className={`w-8 h-8 text-sm font-medium rounded-full border transition-all ${
-                idx === currentPage
-                  ? 'bg-[#1a1814] text-white border-[#1a1814] dark:bg-white dark:text-[#1a1814]'
-                  : 'border-[#d4c9b3] hover:bg-[#f0e9d9] dark:border-border/60 dark:hover:bg-white/10'
-              }`}
+              onClick={() => goToPage(currentPage - 1)}
+              disabled={currentPage === 0}
+              className="group flex flex-col items-start gap-0.5 px-4 py-2 text-left disabled:opacity-30 disabled:cursor-not-allowed hover:bg-[#f0e9d9]/60 dark:hover:bg-white/5 rounded-lg transition-all active:scale-[0.985]"
             >
-              {idx + 1}
+              <span className="text-[10px] tracking-[1.5px] uppercase text-[#6b6459]/70 dark:text-muted-foreground/70">上一章</span>
+              <span className="font-serif text-[14px] leading-tight text-[#1a1814] dark:text-foreground/90 group-hover:text-[#3a3429] dark:group-hover:text-white/90 max-w-[210px] truncate">
+                {prevChapter ? prevChapter.title : '—'}
+              </span>
             </button>
-          ))}
 
-          <button
-            onClick={() => goToPage(currentPage + 1)}
-            disabled={currentPage === chapters.length - 1}
-            className="px-3 py-1 text-sm border rounded disabled:opacity-30 hover:bg-[#f0e9d9] dark:hover:bg-white/10"
-          >
-            →
-          </button>
+            {/* Center: Catalog trigger - mainstream premium pattern */}
+            <button
+              onClick={() => setIsChapterListOpen(true)}
+              className="flex flex-col items-center justify-center px-8 py-2.5 rounded-xl border border-[#d4c9b3] hover:bg-[#f0e9d9] dark:border-border/70 dark:hover:bg-white/5 transition-all active:scale-[0.985] min-w-[148px]"
+              aria-label="打开章节目录"
+            >
+              <span className="text-[10px] tracking-[2px] text-[#6b6459]/70 dark:text-muted-foreground/70">目录</span>
+              <span className="font-medium text-sm text-[#1a1814] dark:text-foreground/90 mt-px">
+                {currentPage + 1} / {chapters.length}
+              </span>
+            </button>
+
+            {/* Next */}
+            <button
+              onClick={() => goToPage(currentPage + 1)}
+              disabled={currentPage === chapters.length - 1}
+              className="group flex flex-col items-end gap-0.5 px-4 py-2 text-right disabled:opacity-30 disabled:cursor-not-allowed hover:bg-[#f0e9d9]/60 dark:hover:bg-white/5 rounded-lg transition-all active:scale-[0.985]"
+            >
+              <span className="text-[10px] tracking-[1.5px] uppercase text-[#6b6459]/70 dark:text-muted-foreground/70">下一章</span>
+              <span className="font-serif text-[14px] leading-tight text-[#1a1814] dark:text-foreground/90 group-hover:text-[#3a3429] dark:group-hover:text-white/90 max-w-[210px] truncate">
+                {nextChapter ? nextChapter.title : '—'}
+              </span>
+            </button>
+          </div>
         </div>
       )}
+
+      {/* Elegant Chapter List Modal - top-tier mainstream (like WeChat Read / high-end literary apps) */}
+      <Dialog open={isChapterListOpen} onOpenChange={setIsChapterListOpen}>
+        <DialogContent className="max-w-lg bg-[#f8f5ef] dark:bg-[#111] border-[#d4c9b3] dark:border-white/15 p-0 rounded-2xl shadow-2xl">
+          <DialogHeader className="px-6 pt-6 pb-3 border-b border-[#d4c9b3]/60 dark:border-white/10">
+            <DialogTitle className="font-serif text-xl tracking-tight text-[#1a1814] dark:text-foreground">
+              目录 · 共 {chapters.length} 章
+            </DialogTitle>
+          </DialogHeader>
+
+          <div className="max-h-[62vh] overflow-y-auto py-2 px-2 custom-scroll">
+            {chapters.map((ch, idx) => {
+              const isActive = idx === currentPage
+              return (
+                <button
+                  key={idx}
+                  onClick={() => goToPage(idx)}
+                  className={`w-full text-left px-5 py-3.5 rounded-xl mb-1 flex items-start gap-4 transition-all active:bg-[#e8e0d0] dark:active:bg-white/5 ${
+                    isActive
+                      ? 'bg-[#1a1814] text-white dark:bg-white dark:text-[#1a1814]'
+                      : 'hover:bg-[#f0e9d9] dark:hover:bg-white/5 text-[#1a1814] dark:text-foreground/90'
+                  }`}
+                >
+                  <span className={`font-mono text-xs mt-1 w-9 shrink-0 tracking-widest ${isActive ? 'opacity-80' : 'opacity-50'}`}>
+                    {String(idx + 1).padStart(2, '0')}
+                  </span>
+                  <span className={`font-serif text-[15px] leading-snug tracking-[-0.01em] text-left ${isActive ? '' : 'pr-3'}`}>
+                    {ch.title}
+                  </span>
+                  {isActive && (
+                    <span className="ml-auto text-[10px] self-center tracking-[1px] opacity-60">当前</span>
+                  )}
+                </button>
+              )
+            })}
+          </div>
+
+          <div className="px-6 py-4 border-t border-[#d4c9b3]/60 dark:border-white/10 flex justify-end">
+            <DialogClose asChild>
+              <button className="text-sm px-5 py-1.5 rounded-lg hover:bg-[#f0e9d9] dark:hover:bg-white/10 transition-colors text-[#6b6459] dark:text-muted-foreground">
+                关闭
+              </button>
+            </DialogClose>
+          </div>
+        </DialogContent>
+      </Dialog>
     </>
   )
 }
