@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation"
-import { readFileSync, existsSync } from "fs"
+import { readFileSync, existsSync, readdirSync } from "fs"
 import { join } from "path"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
@@ -101,18 +101,52 @@ function renderLiteraryBody(md: string) {
   return elements
 }
 
+// Find the actual .md file that corresponds to a requested URL slug
+function findLiteraryFileByUrlSlug(requestedSlug: string): string | null {
+  const literaryDir = join(process.cwd(), "content", "literary")
+
+  function scan(dir: string): string | null {
+    const entries = readdirSync(dir, { withFileTypes: true })
+
+    for (const entry of entries) {
+      const fullPath = join(dir, entry.name)
+
+      if (entry.isDirectory()) {
+        const found = scan(fullPath)
+        if (found) return found
+      } else if (entry.name.endsWith(".md")) {
+        try {
+          const raw = readFileSync(fullPath, "utf8")
+          const { frontmatter } = parseFrontmatter(raw)
+          const preferred = getPreferredSlug(frontmatter, entry.name)
+          if (preferred === requestedSlug) {
+            return fullPath
+          }
+        } catch (e) {
+          // ignore bad files
+        }
+      }
+    }
+    return null
+  }
+
+  return scan(literaryDir)
+}
+
 export default async function LiteraryArticle({ params }: Props) {
   const { slug } = await params
-  const filePath = join(process.cwd(), "content", "literary", ...slug) + ".md"
+  const requestedSlug = slug[0] // We use flat slugs for literary
 
-  if (!existsSync(filePath)) {
+  const filePath = findLiteraryFileByUrlSlug(requestedSlug)
+
+  if (!filePath || !existsSync(filePath)) {
     notFound()
   }
 
   const raw = readFileSync(filePath, "utf8")
   const { frontmatter, body } = parseFrontmatter(raw)
 
-  const title = frontmatter.title || slug[slug.length - 1]
+  const title = frontmatter.title || requestedSlug
   const subtitle = frontmatter.subtitle || frontmatter.description
 
   return (
@@ -148,9 +182,10 @@ export default async function LiteraryArticle({ params }: Props) {
 
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params
-  const filePath = join(process.cwd(), "content", "literary", ...slug) + ".md"
+  const requestedSlug = slug[0]
+  const filePath = findLiteraryFileByUrlSlug(requestedSlug)
 
-  if (!existsSync(filePath)) {
+  if (!filePath || !existsSync(filePath)) {
     return { title: "未找到" }
   }
 
@@ -163,6 +198,46 @@ export async function generateMetadata({ params }: Props) {
   }
 }
 
-export async function generateStaticParams() {
-  return []
+// Helper to get preferred URL slug from frontmatter
+function getPreferredSlug(frontmatter: Record<string, string>, filename: string): string {
+  return (
+    frontmatter.urlSlug ||
+    frontmatter.slug ||
+    filename.replace(/\.md$/, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+  )
+}
+
+export function generateStaticParams() {
+  const literaryDir = join(process.cwd(), "content", "literary")
+
+  function scan(dir: string): { slug: string[] }[] {
+    const entries = readdirSync(dir, { withFileTypes: true })
+    const result: { slug: string[] }[] = []
+
+    for (const entry of entries) {
+      const fullPath = join(dir, entry.name)
+
+      if (entry.isDirectory()) {
+        result.push(...scan(fullPath))
+      } else if (entry.name.endsWith(".md")) {
+        try {
+          const raw = readFileSync(fullPath, "utf8")
+          const { frontmatter } = parseFrontmatter(raw)
+          const preferred = getPreferredSlug(frontmatter, entry.name)
+          // We use flat slugs for literary articles (no subfolders in URL)
+          result.push({ slug: [preferred] })
+        } catch (e) {
+          console.warn("Failed to read literary file for static params:", fullPath)
+        }
+      }
+    }
+
+    return result
+  }
+
+  if (!existsSync(literaryDir)) {
+    return []
+  }
+
+  return scan(literaryDir)
 }
