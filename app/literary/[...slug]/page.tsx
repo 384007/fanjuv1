@@ -1,11 +1,9 @@
-"use client"
-
 import { notFound } from "next/navigation"
 import { readFileSync, existsSync, readdirSync } from "fs"
 import { join } from "path"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
-import React, { useState, useEffect } from "react"
+import { LiteraryChapterRenderer } from "@/components/literary-chapter-renderer"
 
 type Props = {
   params: Promise<{ slug: string[] }>
@@ -74,7 +72,6 @@ export default async function LiteraryArticle({ params }: Props) {
   const title = frontmatter.title || requestedSlug
   const subtitle = frontmatter.subtitle || frontmatter.description
 
-  // Parse the body into chapters based on ## headings (common in these long literary pieces)
   const chapters = parseIntoChapters(body)
 
   return (
@@ -97,8 +94,7 @@ export default async function LiteraryArticle({ params }: Props) {
             )}
           </header>
 
-          {/* Render the first chapter or all if short. For very long pieces we show chapters with pagination */}
-          <LiteraryContentWithPagination chapters={chapters} />
+          <LiteraryChapterRenderer chapters={chapters} />
         </article>
       </main>
 
@@ -138,8 +134,7 @@ function parseIntoChapters(body: string) {
   return chapters
 }
 
-// Client component for pagination with arrow keys + sliding
-function LiteraryContentWithPagination({ chapters }: { chapters: { title: string; content: string }[] }) {
+
   const [currentPage, setCurrentPage] = React.useState(0)
   const [direction, setDirection] = React.useState(0) // -1 left, +1 right for slide animation
 
