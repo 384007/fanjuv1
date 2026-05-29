@@ -26,7 +26,7 @@ const geistMono = Geist_Mono({
 const SITE_URL = "https://fanju.app"
 const SITE_NAME = "饭局 Fanju"
 const BRAND_ICON = "/icon.svg?v=20260529-v1"
-const APPLE_ICON = "/apple-icon.png?v=20260529-v1"
+const APPLE_ICON = "/apple-icon.png?v=20260530-v2"
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
