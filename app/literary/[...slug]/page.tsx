@@ -1,9 +1,11 @@
+"use client"
+
 import { notFound } from "next/navigation"
 import { readFileSync, existsSync, readdirSync } from "fs"
 import { join } from "path"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
-import React from "react"
+import React, { useState, useEffect } from "react"
 
 type Props = {
   params: Promise<{ slug: string[] }>
@@ -136,42 +138,87 @@ function parseIntoChapters(body: string) {
   return chapters
 }
 
-// Client component for pagination + proper rendering
+// Client component for pagination with arrow keys + sliding
 function LiteraryContentWithPagination({ chapters }: { chapters: { title: string; content: string }[] }) {
   const [currentPage, setCurrentPage] = React.useState(0)
+  const [direction, setDirection] = React.useState(0) // -1 left, +1 right for slide animation
+
+  const goToPage = (newPage: number) => {
+    if (newPage < 0 || newPage >= chapters.length) return
+    setDirection(newPage > currentPage ? 1 : -1)
+    setCurrentPage(newPage)
+  }
+
+  // Keyboard arrow support
+  React.useEffect(() => {
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === 'ArrowLeft') goToPage(currentPage - 1)
+      if (e.key === 'ArrowRight') goToPage(currentPage + 1)
+    }
+    window.addEventListener('keydown', handleKey)
+    return () => window.removeEventListener('keydown', handleKey)
+  }, [currentPage])
 
   const currentChapter = chapters[currentPage] || chapters[0]
   const rendered = renderLiteraryMarkdown(currentChapter.content)
 
   return (
     <>
-      {/* Chapter title if multiple chapters */}
       {chapters.length > 1 && (
-        <div className="mb-6 text-sm text-[#6b6459] dark:text-muted-foreground">
-          第 {currentPage + 1} 章 / 共 {chapters.length} 章　·　{currentChapter.title}
+        <div className="mb-6 text-sm text-[#6b6459] dark:text-muted-foreground flex items-center gap-4">
+          <span>第 {currentPage + 1} 章 / 共 {chapters.length} 章　·　{currentChapter.title}</span>
+          <span className="text-xs opacity-60">(← → 方向键翻页)</span>
         </div>
       )}
 
-      <div className="prose prose-neutral max-w-none text-[15.5px] leading-[1.82] text-[#1a1814] dark:prose-invert dark:text-foreground/90">
-        {rendered}
+      {/* Sliding container */}
+      <div className="relative overflow-hidden">
+        <div
+          key={currentPage}
+          className="transition-transform duration-300 ease-out"
+          style={{
+            transform: `translateX(${direction * -8}px)`,
+            opacity: 1,
+          }}
+        >
+          <div className="prose prose-neutral max-w-none text-[15.5px] leading-[1.82] text-[#1a1814] dark:prose-invert dark:text-foreground/90">
+            {rendered}
+          </div>
+        </div>
       </div>
 
-      {/* 1.2.3 Pagination */}
+      {/* 1.2.3 + Arrow navigation */}
       {chapters.length > 1 && (
-        <div className="mt-12 flex flex-wrap items-center justify-center gap-2 border-t border-[#d4c9b3] pt-8 dark:border-border/60">
-          {chapters.map((ch, idx) => (
+        <div className="mt-12 flex items-center justify-center gap-3 border-t border-[#d4c9b3] pt-8 dark:border-border/60">
+          <button
+            onClick={() => goToPage(currentPage - 1)}
+            disabled={currentPage === 0}
+            className="px-3 py-1 text-sm border rounded disabled:opacity-30 hover:bg-[#f0e9d9] dark:hover:bg-white/10"
+          >
+            ←
+          </button>
+
+          {chapters.map((_, idx) => (
             <button
               key={idx}
-              onClick={() => setCurrentPage(idx)}
-              className={`px-4 py-2 text-sm font-medium transition-colors rounded-md border ${
+              onClick={() => goToPage(idx)}
+              className={`w-8 h-8 text-sm font-medium rounded-full border transition-all ${
                 idx === currentPage
-                  ? 'bg-[#1a1814] text-white border-[#1a1814] dark:bg-white dark:text-[#1a1814] dark:border-white'
+                  ? 'bg-[#1a1814] text-white border-[#1a1814] dark:bg-white dark:text-[#1a1814]'
                   : 'border-[#d4c9b3] hover:bg-[#f0e9d9] dark:border-border/60 dark:hover:bg-white/10'
               }`}
             >
               {idx + 1}
             </button>
           ))}
+
+          <button
+            onClick={() => goToPage(currentPage + 1)}
+            disabled={currentPage === chapters.length - 1}
+            className="px-3 py-1 text-sm border rounded disabled:opacity-30 hover:bg-[#f0e9d9] dark:hover:bg-white/10"
+          >
+            →
+          </button>
         </div>
       )}
     </>
