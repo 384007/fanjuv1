@@ -3,7 +3,7 @@ import { readFileSync, existsSync, readdirSync } from "fs"
 import { join } from "path"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
-import { SeoReadyArticlePage } from "@/components/seo-ready-article-page"
+import React from "react"
 
 type Props = {
   params: Promise<{ slug: string[] }>
@@ -26,7 +26,7 @@ function parseFrontmatter(raw: string) {
 
 
 
-// Find the actual .md file that corresponds to a requested URL slug
+// Find the actual .md file using urlSlug (or fallback)
 function findLiteraryFileByUrlSlug(requestedSlug: string): string | null {
   const literaryDir = join(process.cwd(), "content", "literary")
 
@@ -43,13 +43,11 @@ function findLiteraryFileByUrlSlug(requestedSlug: string): string | null {
         try {
           const raw = readFileSync(fullPath, "utf8")
           const { frontmatter } = parseFrontmatter(raw)
-          const preferred = getPreferredSlug(frontmatter, entry.name)
+          const preferred = frontmatter.urlSlug || frontmatter.slug || entry.name.replace(/\.md$/, '')
           if (preferred === requestedSlug) {
             return fullPath
           }
-        } catch (e) {
-          // ignore bad files
-        }
+        } catch (e) {}
       }
     }
     return null
@@ -71,40 +69,186 @@ export default async function LiteraryArticle({ params }: Props) {
   const raw = readFileSync(filePath, "utf8")
   const { frontmatter, body } = parseFrontmatter(raw)
 
-  // Construct a minimal SeoReadyArticle so we can reuse the project's excellent
-  // typography, spacing, and markdown renderer (the same one used for all main articles).
-  const article = {
-    slug: requestedSlug,
-    title: frontmatter.title || requestedSlug,
-    description: frontmatter.description || frontmatter.subtitle || "",
-    canonicalPath: `/literary/${requestedSlug}`,
-    body,
-    renderMode: "source" as const,
-    aiQualityScore: 95,
-    status: "ready",
-    lang: "zh",
-  }
+  const title = frontmatter.title || requestedSlug
+  const subtitle = frontmatter.subtitle || frontmatter.description
+
+  // Parse the body into chapters based on ## headings (common in these long literary pieces)
+  const chapters = parseIntoChapters(body)
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen bg-[#f8f5ef] text-[#1a1814] dark:bg-background dark:text-foreground">
       <SiteHeader />
 
-      <div className="mx-auto max-w-[720px] px-5 pt-8 pb-16 md:px-6">
-        {/* Small literary label */}
-        <div className="mb-6 font-mono text-[10px] tracking-[3px] text-muted-foreground">
-          饭局文学系列
-        </div>
+      <main className="mx-auto max-w-[760px] px-5 pt-10 pb-24 md:px-6">
+        <article className="literary-article">
+          <header className="mb-12 border-b border-[#d4c9b3] pb-8 dark:border-border/60">
+            <div className="mb-3 font-mono text-[10px] tracking-[4px] text-[#6b6459]/80 dark:text-muted-foreground/70">
+              饭局文学系列
+            </div>
+            <h1 className="font-serif text-[38px] leading-[1.08] tracking-[-0.025em] md:text-[44px]">
+              {title}
+            </h1>
+            {subtitle && (
+              <p className="mt-4 max-w-[640px] text-[17px] leading-tight text-[#4a453e] dark:text-muted-foreground">
+                {subtitle}
+              </p>
+            )}
+          </header>
 
-        <SeoReadyArticlePage
-          article={article as any}
-          currentPath={`/literary/${requestedSlug}`}
-          hasAlternateArticle={false}
-        />
-      </div>
+          {/* Render the first chapter or all if short. For very long pieces we show chapters with pagination */}
+          <LiteraryContentWithPagination chapters={chapters} />
+        </article>
+      </main>
 
       <SiteFooter />
     </div>
   )
+}
+
+// Parse body into chapters by ## headings
+function parseIntoChapters(body: string) {
+  const lines = body.split('\n')
+  const chapters: { title: string; content: string }[] = []
+  let currentTitle = "正文"
+  let currentLines: string[] = []
+
+  for (const line of lines) {
+    if (line.trim().startsWith('## ')) {
+      if (currentLines.length > 0) {
+        chapters.push({ title: currentTitle, content: currentLines.join('\n') })
+      }
+      currentTitle = line.trim().replace(/^##\s+/, '')
+      currentLines = []
+    } else {
+      currentLines.push(line)
+    }
+  }
+
+  if (currentLines.length > 0) {
+    chapters.push({ title: currentTitle, content: currentLines.join('\n') })
+  }
+
+  // If no ## found, treat everything as one chapter
+  if (chapters.length === 0) {
+    return [{ title: "正文", content: body }]
+  }
+
+  return chapters
+}
+
+// Client component for pagination + proper rendering
+function LiteraryContentWithPagination({ chapters }: { chapters: { title: string; content: string }[] }) {
+  const [currentPage, setCurrentPage] = React.useState(0)
+
+  const currentChapter = chapters[currentPage] || chapters[0]
+  const rendered = renderLiteraryMarkdown(currentChapter.content)
+
+  return (
+    <>
+      {/* Chapter title if multiple chapters */}
+      {chapters.length > 1 && (
+        <div className="mb-6 text-sm text-[#6b6459] dark:text-muted-foreground">
+          第 {currentPage + 1} 章 / 共 {chapters.length} 章　·　{currentChapter.title}
+        </div>
+      )}
+
+      <div className="prose prose-neutral max-w-none text-[15.5px] leading-[1.82] text-[#1a1814] dark:prose-invert dark:text-foreground/90">
+        {rendered}
+      </div>
+
+      {/* 1.2.3 Pagination */}
+      {chapters.length > 1 && (
+        <div className="mt-12 flex flex-wrap items-center justify-center gap-2 border-t border-[#d4c9b3] pt-8 dark:border-border/60">
+          {chapters.map((ch, idx) => (
+            <button
+              key={idx}
+              onClick={() => setCurrentPage(idx)}
+              className={`px-4 py-2 text-sm font-medium transition-colors rounded-md border ${
+                idx === currentPage
+                  ? 'bg-[#1a1814] text-white border-[#1a1814] dark:bg-white dark:text-[#1a1814] dark:border-white'
+                  : 'border-[#d4c9b3] hover:bg-[#f0e9d9] dark:border-border/60 dark:hover:bg-white/10'
+              }`}
+            >
+              {idx + 1}
+            </button>
+          ))}
+        </div>
+      )}
+    </>
+  )
+}
+
+// Proper literary Markdown renderer (supports images + basic formatting)
+function renderLiteraryMarkdown(md: string): React.ReactNode {
+  const lines = md.trim().split('\n')
+  const elements: React.ReactNode[] = []
+  let currentParagraph: string[] = []
+
+  const flushParagraph = () => {
+    if (currentParagraph.length === 0) return
+    const text = currentParagraph.join(' ').trim()
+    if (text) {
+      elements.push(
+        <p key={elements.length} className="mb-6">
+          {renderInline(text)}
+        </p>
+      )
+    }
+    currentParagraph = []
+  }
+
+  lines.forEach((rawLine) => {
+    const line = rawLine.trim()
+
+    // Image: ![alt](src)
+    const imgMatch = line.match(/^!\[(.*?)\]\((.*?)\)$/)
+    if (imgMatch) {
+      flushParagraph()
+      elements.push(
+        <figure key={elements.length} className="my-8">
+          <img 
+            src={imgMatch[2]} 
+            alt={imgMatch[1]} 
+            className="w-full rounded-lg shadow-sm border border-[#d4c9b3]/40 dark:border-white/10" 
+            loading="lazy"
+          />
+          {imgMatch[1] && (
+            <figcaption className="mt-2 text-center text-xs text-[#6b6459] dark:text-muted-foreground/70">
+              {imgMatch[1]}
+            </figcaption>
+          )}
+        </figure>
+      )
+      return
+    }
+
+    // Headings
+    if (line.startsWith('# ')) { flushParagraph(); elements.push(<h1 key={elements.length} className="mt-12 mb-6 font-serif text-3xl tracking-tight">{line.slice(2)}</h1>); return }
+    if (line.startsWith('## ')) { flushParagraph(); elements.push(<h2 key={elements.length} className="mt-10 mb-5 font-serif text-2xl tracking-tight">{line.slice(3)}</h2>); return }
+    if (line.startsWith('### ')) { flushParagraph(); elements.push(<h3 key={elements.length} className="mt-8 mb-4 font-serif text-xl tracking-tight">{line.slice(4)}</h3>); return }
+
+    if (line === '---' || line === '***') { flushParagraph(); elements.push(<hr key={elements.length} className="my-10 border-[#d4c9b3] dark:border-white/15" />); return }
+    if (line === '') { flushParagraph(); return }
+
+    currentParagraph.push(line)
+  })
+
+  flushParagraph()
+  return elements
+}
+
+function renderInline(text: string): React.ReactNode {
+  // Very basic inline (bold, italic)
+  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g)
+  return parts.map((part, i) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={i} className="font-medium text-foreground">{part.slice(2, -2)}</strong>
+    }
+    if (part.startsWith('*') && part.endsWith('*')) {
+      return <em key={i}>{part.slice(1, -1)}</em>
+    }
+    return part
+  })
 }
 
 export async function generateMetadata({ params }: Props) {
@@ -125,15 +269,7 @@ export async function generateMetadata({ params }: Props) {
   }
 }
 
-// Helper to get preferred URL slug from frontmatter
-function getPreferredSlug(frontmatter: Record<string, string>, filename: string): string {
-  return (
-    frontmatter.urlSlug ||
-    frontmatter.slug ||
-    filename.replace(/\.md$/, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
-  )
-}
-
+// Keep generateStaticParams for static export (uses urlSlug from frontmatter)
 export function generateStaticParams() {
   const literaryDir = join(process.cwd(), "content", "literary")
 
@@ -150,21 +286,14 @@ export function generateStaticParams() {
         try {
           const raw = readFileSync(fullPath, "utf8")
           const { frontmatter } = parseFrontmatter(raw)
-          const preferred = getPreferredSlug(frontmatter, entry.name)
-          // We use flat slugs for literary articles (no subfolders in URL)
+          const preferred = frontmatter.urlSlug || frontmatter.slug || entry.name.replace(/\.md$/, '')
           result.push({ slug: [preferred] })
-        } catch (e) {
-          console.warn("Failed to read literary file for static params:", fullPath)
-        }
+        } catch (e) {}
       }
     }
-
     return result
   }
 
-  if (!existsSync(literaryDir)) {
-    return []
-  }
-
+  if (!existsSync(literaryDir)) return []
   return scan(literaryDir)
 }
