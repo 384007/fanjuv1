@@ -25,7 +25,8 @@ const geistMono = Geist_Mono({
 
 const SITE_URL = "https://fanju.app"
 const SITE_NAME = "饭局 Fanju"
-const BRAND_ICON = "/icon.svg?v=20260510-final"
+const BRAND_ICON = "/icon.svg?v=20260529-v0"
+const APPLE_ICON = "/apple-icon.png?v=20260529-v0"
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -138,17 +139,17 @@ export const metadata: Metadata = {
   icons: {
     icon: [{ url: BRAND_ICON, sizes: "any", type: "image/svg+xml" }],
     shortcut: [BRAND_ICON],
-    apple: [{ url: BRAND_ICON, sizes: "any", type: "image/svg+xml" }],
+    apple: [{ url: APPLE_ICON, sizes: "180x180", type: "image/png" }],
   },
-  manifest: "/manifest.webmanifest?v=20260510-final",
+  manifest: "/manifest.webmanifest?v=20260529-v0",
   appleWebApp: {
     capable: true,
     title: SITE_NAME,
     statusBarStyle: "black-translucent",
   },
   other: {
-    "apple-touch-icon": BRAND_ICON,
-    "msapplication-TileImage": BRAND_ICON,
+    "apple-touch-icon": APPLE_ICON,
+    "msapplication-TileImage": APPLE_ICON,
     "msapplication-TileColor": "#000000",
   },
 }
@@ -269,7 +270,7 @@ export default function RootLayout({
         <link rel="alternate" hrefLang="x-default" href={SITE_URL} />
         <link rel="icon" href={BRAND_ICON} type="image/svg+xml" />
         <link rel="shortcut icon" href={BRAND_ICON} type="image/svg+xml" />
-        <link rel="apple-touch-icon" href={BRAND_ICON} />
+        <link rel="apple-touch-icon" href={APPLE_ICON} />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <script

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "x-default": "/",
     },
   },
+  robots: { index: true, follow: true },
 }
 import { HomeProductEntry } from "@/components/home-product-entry"
 import { LiveTicker } from "@/components/live-ticker"

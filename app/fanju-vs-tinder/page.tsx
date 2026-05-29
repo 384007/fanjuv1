@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Fanju vs Tinder | 饭局 vs Tinder — Social Dining vs Dating App",
   description: "Fanju vs Tinder: how do they compare? Fanju is not a dating app — it is a social dining platform for meeting people over real meals. The Tinder alternative for people who want genuine offline connections.",
   alternates: { canonical: "/fanju-vs-tinder" },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "Fanju vs Tinder | Social Dining vs Dating App",
     description: "Fanju vs Tinder — comparing social dining with dating apps for meeting people offline.",

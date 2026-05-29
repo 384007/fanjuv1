@@ -1,0 +1,1 @@
+content/seo-ready/zunyi-startup-dinner.md: latin-word-in-zh-title:fanju-app, latin-word-in-zh-h1:fanju-app, latin-word-in-zh-heading:fanju-app\n\n─── Summary ────────────────────────────────────────────────────\nFiles: 2101  |  Ready & valid: 1434  |  Skipped: 667  |  Errors: 2242\n\n❌  2242 error(s). Fix before building.\nExit Code: 1\nProcess Group PGID

@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Press | 媒体资料 — 饭局 Fanju",
   description: "Press and media resources for Fanju — the AI social dining and dinner gathering app. Brand assets, company description, key facts, and press contact. 饭局 Fanju 媒体资料、品牌素材、公司介绍。",
   alternates: { canonical: "/press" },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "Press | 媒体资料 — 饭局 Fanju",
     description: "Press and media resources for Fanju — brand assets, company description, and press contact.",
