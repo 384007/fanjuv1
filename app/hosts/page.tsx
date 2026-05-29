@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "饭局主办方招募｜城市饭局、商务饭局、单身饭局主理人｜饭局 Fanju",
   description: "饭局 Fanju 招募城市饭局主办方，适合餐饮资源、城市社群、商务圈层、留学生圈层和华人社交主理人。",
   alternates: { canonical: "/hosts" },
+  robots: { index: true, follow: true },
 }
 
 const faqs = [

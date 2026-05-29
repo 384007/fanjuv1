@@ -1156,6 +1156,7 @@ export function seoReadyArticleMetadata(article: SeoReadyArticle, currentPath: s
       title,
       description,
       alternates: hreflangAlternates(currentPath),
+      robots: { index: true, follow: true },
       openGraph: {
         title,
         description,
@@ -1182,6 +1183,7 @@ export function seoReadyArticleMetadata(article: SeoReadyArticle, currentPath: s
     title,
     description,
     alternates: hreflangAlternates(currentPath),
+    robots: { index: true, follow: true },
     openGraph: {
       title,
       description,

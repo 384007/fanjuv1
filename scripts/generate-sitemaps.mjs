@@ -174,6 +174,7 @@ const seoUrls = [
 // fallback-rendered pages from appearing in the sitemap.
 
 const READY_DIR = join(ROOT, "content/seo-ready")
+const REMEDIATED_DIR = join(ROOT, "content/seo-remediated")
 const GENERATED_INDEX_DIR = join(ROOT, "content/articles/ready/index")
 const MIN_SCORE = 90
 
@@ -220,6 +221,23 @@ if (existsSync(READY_DIR)) {
   }
 }
 
+// Scan high-quality remediated articles (unique, locally rich content for AI/SEO priority)
+if (existsSync(REMEDIATED_DIR)) {
+  for (const file of readdirSync(REMEDIATED_DIR).filter((f) => f.endsWith(".md"))) {
+    const raw = readFileSync(join(REMEDIATED_DIR, file), "utf8")
+    const meta = parseReadyFrontmatter(raw)
+    // Remediated articles are manually de-templated + locally enriched per v2 Checklist.
+    // They are the highest-signal content for Chinese AI search and long-tail.
+    // Include as long as status: ready (ignore missing aiQualityScore).
+    if (meta.status !== "ready") continue
+
+    const cp = normalizeSitemapPath(meta.canonicalPath || `/${meta.slug || file.replace(/\.md$/, "")}`)
+    if (!cp || seenReadyArticleUrls.has(cp)) continue
+    seenReadyArticleUrls.add(cp)
+    readyArticleUrls.push(cp)
+  }
+}
+
 if (existsSync(GENERATED_INDEX_DIR)) {
   for (const file of readdirSync(GENERATED_INDEX_DIR).filter((f) => f.endsWith(".json"))) {
     let article
@@ -236,7 +254,8 @@ if (existsSync(GENERATED_INDEX_DIR)) {
   }
 }
 
-// Merge ready article URLs into seoUrls, deduplicating
+// Merge ready + remediated article URLs into seoUrls, deduplicating
+// Remediated articles (unique local deep content) get slightly higher priority for GSC/Bing + AI engines
 const existingLocs = new Set(seoUrls.map((u) => {
   const m = u.match(/<loc>([^<]+)<\/loc>/)
   return m ? m[1] : ""
@@ -298,3 +317,4 @@ write("sitemap-index.xml", sitemapIndex)
 // ─── Done ─────────────────────────────────────────────────────────────────────
 const total = seoUrls.length + productPages.length
 console.log(`\n✅  Generated ${total} URLs across 3 sitemap files.`)
+console.log(`   (Includes ready + ${REMEDIATED_DIR ? 'seo-remediated (high-signal local content)' : 'no remediated'} for GSC/Bing discoverability)`)

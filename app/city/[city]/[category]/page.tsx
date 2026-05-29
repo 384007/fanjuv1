@@ -40,6 +40,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description,
       alternates: { canonical: `/city/${city.slug}/${category.slug}`, languages: { "zh-CN": `/city/${city.slug}/${category.slug}`, en: `/en/city/${city.slug}/${category.slug}` } },
       openGraph: { title, description, url: `${SITE_URL}/city/${city.slug}/${category.slug}`, type: "website", locale: "zh_CN", alternateLocale: ["en_US"] },
+      robots: { index: true, follow: true },
     }
   }
   return {}

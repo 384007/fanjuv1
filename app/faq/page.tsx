@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     canonical: "/faq",
     languages: { "zh-CN": "/faq", en: "/faq" },
   },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "FAQ | 常见问题 — 饭局 Fanju",
     description: "Frequently asked questions about Fanju social dining and dinner gatherings.",

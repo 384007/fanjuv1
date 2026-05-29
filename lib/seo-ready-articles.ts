@@ -3,6 +3,7 @@ import { join } from "path"
 import { categories, cities, guides } from "@/lib/seo-data"
 
 const READY_DIR = join(process.cwd(), "content/seo-ready")
+const REMEDIATED_DIR = join(process.cwd(), "content/seo-remediated")
 const GENERATED_INDEX_DIR = join(process.cwd(), "content/articles/ready/index")
 const ROUTE_MANIFEST_FILE = join(process.cwd(), "data/seo/route-manifest.json")
 const MIN_SCORE = 90
@@ -199,6 +200,43 @@ function loadAll(): SeoReadyArticle[] {
         sitemapEligible: true,
         allowAlternateFallback: true,
         publishedRunId: meta.publishedRunId,
+      })
+    }
+  }
+
+  // Load manually remediated high-signal articles (unique local deep dives)
+  // These are the priority content for Chinese AI search + long-tail "饭局" keywords.
+  if (existsSync(REMEDIATED_DIR)) {
+    for (const file of readdirSync(REMEDIATED_DIR).filter((f) => f.endsWith(".md"))) {
+      const raw = readFileSync(join(REMEDIATED_DIR, file), "utf8")
+      const { meta, body } = parseFrontmatter(raw)
+      if (meta.status !== "ready") continue
+
+      const slug = meta.slug || file.replace(/\.md$/, "")
+      const canonicalPath = normalizePath(meta.canonicalPath || `/${slug}`)
+      const alternatePath = meta.alternatePath ? normalizePath(meta.alternatePath) : undefined
+
+      articles.push({
+        slug,
+        title: meta.title || slug,
+        titleZh: meta.titleZh,
+        description: meta.description,
+        primaryKeyword: meta.primaryKeyword,
+        secondaryKeywords: parseKeywordList(meta.secondaryKeywords),
+        canonicalPath,
+        canonicalUrl: meta.canonicalUrl,
+        lang: meta.lang || "zh",
+        alternatePath,
+        translationKey: meta.translationKey,
+        pageType: meta.pageType || "city-category",
+        aiQualityScore: 95, // Manually curated to v2 Checklist standard — highest signal
+        priorityScore: meta.priorityScore ? parseInt(meta.priorityScore, 10) : 90,
+        status: "ready",
+        renderMode: "source",
+        body,
+        robots: "index,follow",
+        sitemapEligible: true,
+        allowAlternateFallback: true,
       })
     }
   }

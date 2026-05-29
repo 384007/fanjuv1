@@ -27,6 +27,10 @@ const SECTIONS = [
   },
 ]
 
+export const metadata = {
+  robots: { index: false, follow: false },
+}
+
 export default function AdminIndex() {
   return (
     <div className="max-w-3xl">

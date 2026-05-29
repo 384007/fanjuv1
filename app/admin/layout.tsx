@@ -4,6 +4,12 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useEffect, useState } from "react"
 
+// Admin/lab tools must never appear in GSC/Bing results
+// (auth-protected but static export can still emit HTML)
+// NOTE: metadata export removed because this is a client component.
+// Robots can be handled via next.config or _document if needed.
+
+
 const NAV = [
   { href: "/admin/lab/seo",               en: "SEO",       zh: "SEO" },
   { href: "/admin/lab/content-lab",        en: "Content",   zh: "内容" },

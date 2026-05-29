@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Fanju vs Meetup | 饭局 vs Meetup — Which Is Better for Social Dining?",
   description: "Fanju vs Meetup: how do they compare for social dining, dinner gatherings, and offline social events? Fanju is the Meetup alternative built for Chinese communities and dinner-based social connection.",
   alternates: { canonical: "/fanju-vs-meetup" },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "Fanju vs Meetup | Dinner Gathering App Comparison",
     description: "Fanju vs Meetup — comparing social dining apps for offline events and real-world connections.",
