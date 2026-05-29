@@ -25,8 +25,8 @@ const geistMono = Geist_Mono({
 
 const SITE_URL = "https://fanju.app"
 const SITE_NAME = "饭局 Fanju"
-const BRAND_ICON = "/icon.svg?v=20260529-v0"
-const APPLE_ICON = "/apple-icon.png?v=20260529-v0"
+const BRAND_ICON = "/icon.svg?v=20260529-v1"
+const APPLE_ICON = "/apple-icon.png?v=20260529-v1"
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -141,7 +141,7 @@ export const metadata: Metadata = {
     shortcut: [BRAND_ICON],
     apple: [{ url: APPLE_ICON, sizes: "180x180", type: "image/png" }],
   },
-  manifest: "/manifest.webmanifest?v=20260529-v0",
+  manifest: "/manifest.webmanifest?v=20260529-v1",
   appleWebApp: {
     capable: true,
     title: SITE_NAME,

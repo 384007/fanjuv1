@@ -11,12 +11,9 @@ const rootDir = process.cwd()
 
 const nextConfig = {
   ...(disableExport ? {} : { output: "export" }),
-  turbopack: {
-    root: rootDir,
-    resolveAlias: {
-      "next/link": path.join(rootDir, "components/static-link.tsx"),
-    },
-  },
+  // Empty turbopack config to satisfy Next 16 when a custom webpack config is present.
+  // We still want standard webpack for production builds (more stable with Google fonts in this env).
+  turbopack: {},
   webpack(config) {
     config.resolve.alias["next/link"] = path.join(rootDir, "components/static-link.tsx")
     return config
