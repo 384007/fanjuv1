@@ -33,6 +33,3 @@ recoveredFromD1: true
 <p>Leaving Kinshasa after an Art Dinner doesn’t mean the connection ends. Some guests find they’ve met someone whose work they want to follow, or a host whose table they’d like to return to. Others simply carry the memory of a meal that felt different—slower, more attentive. The Fanju app doesn’t push for follow-up, but it does allow space for it. Hosts can share future dates, and guests can save events they’re interested in, creating a quiet thread between moments.</p>
 <p>The idea isn’t to turn every dinner into a network or a project. It’s about allowing small continuities to form naturally. Maybe you meet a ceramicist in Kasa-Vubu and later attend a workshop they announce. Or you share a recipe with someone from Kinshasa-Mont and exchange messages about cooking over time. These aren’t outcomes, but quiet possibilities—second tables, real but unhurried, waiting in the rhythm of the city.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

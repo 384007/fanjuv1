@@ -33,6 +33,3 @@ recoveredFromD1: true
 <p>Leaving a dinner on Fanju doesn’t mean the interaction ends—it means you’ve gained a reference point. Maybe the <em>pozole</em> in Cuauhtémoc was memorable, or the conversation about public art in Roma sparked an idea. These moments don’t require follow-up, but they create subtle threads. Some guests find themselves returning to the same host, while others use the experience to shape their own future dinners.</p>
 <p>Over time, participating becomes less about filling an evening and more about tuning into the city’s quieter rhythms. You start noticing which neighborhoods feel open, which hosts value stillness, and where you might one day extend an invitation yourself. In Mexico City, where social life can feel either overwhelming or isolating, Fanju offers a middle path—one table at a time.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

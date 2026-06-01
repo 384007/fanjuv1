@@ -33,6 +33,3 @@ recoveredFromD1: true
 <p>A successful Friday Dinner on Fanju doesn’t end when the dishes are cleared. It lingers in the possibility of meeting again—not as networking contacts, but as people who recognize each other’s rhythm. The app enables soft continuity: a message after the fact, a note about a shared book, an invitation to a future meal. These threads matter in a city where connections often evaporate with the morning light.</p>
 <p>Leaving Las Vegas with more than souvenirs means carrying forward a sense of belonging, even temporarily. A diner from Henderson might host next time. A visitor from Reno might return the gesture months later. Fanju doesn’t promise long-term bonds, but it creates conditions where they can form—quietly, without fanfare. In a city built on spectacle, that’s a different kind of souvenir: not something bought, but something shared.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

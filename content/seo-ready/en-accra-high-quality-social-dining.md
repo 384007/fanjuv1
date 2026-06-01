@@ -33,6 +33,3 @@ recoveredFromD1: true
 <p>With multiple dinners listed each week across Accra, deciding which one to join can feel overwhelming. But the Fanju app reduces decision fatigue by making comparisons meaningful. Instead of choosing between generic “dinner events,” you’re comparing a seafood-focused evening in Labadi, a storytelling brunch in Adabraka, and a plant-based tasting menu in Roman Ridge. Each has a distinct identity, so your choice becomes less about logistics and more about mood—what kind of connection you’re seeking.</p>
 <p>The best approach is to pick the table where the menu, host tone, and guest description resonate most, not the one that seems most impressive. A quiet dinner with four people might serve you better than a lively one with seven. The goal isn’t to attend the “best” dinner, but the one where you can be your most authentic self. In a city where social energy is rich but time is limited, that kind of fit is what makes a meal memorable—not the food alone, but the feeling it leaves behind.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

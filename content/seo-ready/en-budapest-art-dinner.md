@@ -33,6 +33,3 @@ recoveredFromD1: true
 <p>The next step isn’t booking the most popular dinner or chasing variety. It’s finding one that feels repeatable—one where the host, the space, and the rhythm align with your own. For a remote worker in Budapest, that consistency matters more than novelty. It’s not about collecting experiences, but building a ritual. The Fanju app makes this possible by allowing users to save hosts, track past dinners, and return to tables that felt right. Over time, this turns Art Dinner from an event into a habit—a weekly return to a space where you’re known, not just welcomed.</p>
 <p>That human continuity is what distinguishes these dinners from transactional meetups. It’s not about what you gain each time, but what grows between times. In Budapest, where seasons shift dramatically and winter nights stretch long, having one dependable table can make the difference between isolation and integration. The app doesn’t replace that connection—it simply helps you find it, and then keep it.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

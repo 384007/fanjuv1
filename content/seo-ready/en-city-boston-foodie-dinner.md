@@ -53,6 +53,3 @@ recoveredFromD1: true
 <ul><li>Cuisine: What type of cuisine are you in the mood for?</li><li>Neighborhood: Which neighborhood do you want to explore?</li><li>Host: What&#039;s the host&#039;s profile and reputation like?</li><li>Reviews: What do previous diners have to say about the experience?</li><li>Price: What&#039;s the budget for the dinner?</li></ul>
 <p>By considering these factors, you&#039;ll be able to find the perfect Foodie Dinner experience that suits your tastes and preferences. With Fanju, you can explore Boston&#039;s culinary scene in a unique and memorable way, connecting with like-minded individuals and creating unforgettable dining experiences.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

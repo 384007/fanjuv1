@@ -29,6 +29,3 @@ recoveredFromD1: true
 <p>As I left the dinner party that evening, I felt a sense of gratitude and connection with the people I had met. It was a reminder that, in a city as vast and complex as Cairo, sometimes the best experiences come from the simplest and most genuine interactions. So, if you&#039;re looking to experience the real Cairo, look no further than a Language Exchange Dinner facilitated by Fanju app. It&#039;s a journey that will leave you with memories, new friends, and a deeper understanding of this incredible city and its people.</p>
 <p>If you&#039;re interested in hosting or attending a Language Exchange Dinner in Cairo, join Fanju app today and start exploring the city&#039;s authentic local life. With its vast network of local hosts and users, Fanju app is the perfect platform for creating meaningful connections and unforgettable experiences in Cairo and beyond. So why wait? Join the community and start discovering the real Cairo, one dinner at a time.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

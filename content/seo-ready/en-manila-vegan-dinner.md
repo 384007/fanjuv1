@@ -53,13 +53,3 @@ In spaces like a repurposed Kapitolyo apartment or a quiet corner of a Makati ze
 These dinners don’t aim to convert or educate. They exist to hold space — for questions, for silence, for the relief of not having to explain yourself. In a city that never stops moving, that kind of stillness is its own form of connection.
 
 Whether you call it kainan, mesa, or dinner, the act of breaking bread together remains powerful. In Manila, where food carries memory and meaning, vegan dinners aren’t just about what’s on the plate — they’re about who finally feels welcome to sit down.
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
-
-
-## 在the city通过饭局建立真实连接
-Fanju brings together like-minded people through small, structured dining experiences. in the heart of en，不仅仅是找个饭搭子，更是为了在这座城市独特的饮食社交氛围中，通过Fanju建立高质量的线下社交闭环。
-
-## Experience the local dinner scene
-In en, 这座城市独特的社交氛围 寻找同城志同道合的饭友 在 Fanju，我们致力于为你筛选最地道的社交场景，每一次约饭都是对本地生活方式的一次深入体验，不仅是找饭搭子，更是为了在当地建立高质量的社交连接。

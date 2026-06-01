@@ -52,6 +52,3 @@ recoveredFromD1: true
 <h2>Soft CTA</h2>
 <p>So why not give Fanju a try? With its unique approach to social dining and real-world connections, you&#039;re sure to find a Cross Border Dinner that suits your tastes. Download the app, browse through the available dinner options, and choose the one that interests you the most. You can filter your search by location, theme, menu, and more, to find the perfect dinner for your tastes. Once you&#039;ve found a dinner that you like, simply click &quot;Join&quot; and you&#039;ll be added to the guest list. With Fanju, you can connect with others who share your interests and preferences, and enjoy a delicious meal together in a safe and welcoming environment.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
