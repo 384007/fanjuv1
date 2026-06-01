@@ -208,7 +208,7 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
   }
 if (provider === "cerebras") {
   const keys = getProviderKeys("CEREBRAS_API_KEY")
-  const models = ["zai-glm-4.7", "gpt-oss-120b", "qwen-3-235b-a22b-instruct-2507", "llama-3.3-70b", "qwen-3-32b"] 
+  const models = ["gpt-oss-120b", "zai-glm-4.7", "llama-3.3-70b", "qwen-3-32b"]
   for (const i of rotatingKeyIndexes("cerebras", keys.length)) {
     if ((keyCooldownUntil.get(`cerebras:${i}`) || 0) > Date.now()) continue
     for (const model of models) {
@@ -238,16 +238,24 @@ if (provider === "cerebras") {
     const mapKey = `cerebras:${keyIndex}`
     if ((keyCooldownUntil.get(mapKey) || 0) > Date.now())
       throw Object.assign(new Error(`${provider}: key on cooldown`), { status: 429 })
-    try {
-      return await callOpenAICompat({
-        label: `Cerebras[${keyIndex}]`, endpoint: "https://api.cerebras.ai/v1/chat/completions",
-        apiKey, model: process.env.CEREBRAS_MODEL || "qwen-3-235b-a22b-instruct-2507",
-        prompt, system, maxTokens, timeoutMs, tokenParam: "max_completion_tokens", useJsonFormat: false,
-      })
-    } catch (err) {
-      if (err?.status === 429) { cooldownKey("cerebras", keyIndex, retryDelayMs(err) || 86400000) }
-      throw err
+    const cerebras24Models = process.env.CEREBRAS_MODEL
+      ? [process.env.CEREBRAS_MODEL]
+      : ["gpt-oss-120b", "qwen-3-32b", "llama-3.3-70b"]
+    let lastErr
+    for (const model of cerebras24Models) {
+      try {
+        return await callOpenAICompat({
+          label: `Cerebras[${keyIndex}]-${model}`, endpoint: "https://api.cerebras.ai/v1/chat/completions",
+          apiKey, model,
+          prompt, system, maxTokens, timeoutMs, tokenParam: "max_completion_tokens", useJsonFormat: false,
+        })
+      } catch (err) {
+        if (err?.status === 429) { cooldownKey("cerebras", keyIndex, retryDelayMs(err) || 86400000); throw err }
+        if (err?.status === 404) { lastErr = err; continue }
+        throw err
+      }
     }
+    throw lastErr || Object.assign(new Error(`${provider}: all models failed`), { status: 503 })
   }
 
   if (provider === "cloudflare") {
