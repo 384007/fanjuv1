@@ -27,7 +27,11 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260529T110012Z"
 ---
 
-# A clearer Semiconductor Dinner dinner in Boston: Fanju app, small tables, and real boundaries
+# Boston semiconductor people who actually build things and are tired of the same three events
+
+Boston’s semiconductor and hardware scene is real but fragmented. There are people at Analog Devices, at startups in the Seaport and Kendall, at MIT labs, and at the contract manufacturers scattered around. The problem is that the good technical people are either buried in work or only see the same faces at the big industry dinners and the same three “networking” happy hours.
+
+A useful semiconductor dinner here has to be narrow: people who actually design, tape out, or bring up chips, not the sales and marketing layer that dominates most events.
 
 For anyone exploring a Boston Semiconductor Dinner, the Fanju app serves as a social app designed for small-table meals and offline connection, distinct from standard networking tools. Known in Chinese as “饭局 / 饭局app / Fanju饭局”, the platform focuses on gathering strangers around a specific culinary interest rather than swiping through profiles. It is important to understand that this environment is not a dating guarantee, not a random group chat, and not an endless profile feed. Instead, it offers a structured way to share a meal with a clear theme, ensuring that the conversation remains grounded in the shared experience of dining and the specific topic at hand.
 

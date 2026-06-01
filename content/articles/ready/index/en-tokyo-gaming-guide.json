@@ -7,12 +7,12 @@
   "canonical": "https://fanju.app/en/tokyo-gaming-guide",
   "robots": "index,follow",
   "sitemapEligible": true,
-  "title": "Gaming in Tokyo: a small-table Fanju dinner guide | Fanju app",
-  "metaTitle": "Gaming in Tokyo: a small-table Fanju dinner guide | fan...",
-  "metaDescription": "Find your dinner buddy at a Fanju dinner. Fanju-app guide to gaming dinners: who it suits, boundaries, and safety.",
-  "h1": "Gaming in Tokyo: a small-table Fanju dinner guide | Fanju app",
-  "excerpt": "Gaming can be a useful Fanju dinner theme when the table has a clear audience, public venue, small group size, and respectful boundaries. It suits people who want real-world conversation around gaming without turning the meal into hard selling, pressure, or guaranteed outcomes.",
-  "primaryKeyword": "gaming dinner Tokyo",
+  "title": "Tokyo gaming dinner: how to find the right table when everyone else just wants to drink | Fanju",
+  "metaTitle": "Tokyo gaming dinner: how to find the right table when everyone else just wants to drink",
+  "metaDescription": "Not another English board game night in Shimokitazawa. A realistic look at who actually shows up to gaming dinners in Tokyo, why four people is the only size that works, and how to read a listing before you waste your last train.",
+  "h1": "Tokyo gaming dinner: how to find the right table when everyone else just wants to drink",
+  "excerpt": "In Tokyo, the people who want one focused conversation about games are not the same people who want to play until 2am or turn it into another nomikai. This is what actually separates a useful small table from the usual social traps.",
+  "primaryKeyword": "tokyo gaming dinner",
   "secondaryKeywords": [
     "small-table dinner",
     "social dining",
@@ -64,62 +64,39 @@
   ],
   "sections": [
     {
-      "h2": "Who Gaming dinners are for",
-      "body": "Gaming dinners are for people who already have a real reason to care about the topic, but do not want another vague group chat or oversized event. in Tokyo, the useful promise is simple: a small table where the theme, expected guest mix, venue type, time window, and boundaries are clear before anyone joins. Fanju should make the meal easier to evaluate, not louder or more performative. Keep the plan concrete: name the table purpose, define who should join, leave room for quieter guests, and make follow-up optional rather than expected. A useful page should also explain the first decision a reader has to make, the signals that show whether a table is trustworthy, and the boundaries that keep the meal comfortable. This gives the reader enough detail to act without turning the guide into generic copy or a sales pitch.",
+      "h2": "Who actually shows up to a Tokyo gaming dinner",
+      "body": "In Tokyo the people who respond to a gaming dinner are rarely the loudest otaku or the competitive tournament crowd. More often they are 28-38 year old office workers who keep a small shelf of Euros and Japanese indie games at home, but have no one to play with after 10pm because their colleagues only want to go drinking. They are tired of both the forced cheer of nomikai and the English-only board game events in Shimokitazawa that feel like foreigner bubbles. A good gaming dinner here works when the host makes it obvious that this is not another \"let's play until 2am\" night and that leaving at 22:30 is completely normal.",
       "links": []
     },
     {
-      "h2": "Why Gaming works around a meal",
-      "body": "A meal gives the conversation a shape. People can start with why they care about Gaming, what they have tried, what feels confusing, and what kind of local context they are looking for. A small table of four to eight people is easier to follow than an open meetup, and it gives quieter guests a better chance to speak. Gaming can support useful peer learning when the table stays specific: what people are building, what changed recently, what is hard, and what each person is still trying to understand. Keep the plan concrete: name the table purpose, define who should join, leave room for quieter guests, and make follow-up optional rather than expected. A useful page should also explain the first decision a reader has to make, the signals that show whether a table is trustworthy, and the boundaries that keep the meal comfortable. This gives the reader enough detail to act without turning the guide into generic copy or a sales pitch.",
+      "h2": "The specific problem this format solves in Tokyo",
+      "body": "Most Tokyo gamers already have Discord groups and weekly shop events. What they lack is a low-pressure way to meet the person who also lives in Koenji, also hates staying out late, and also wants to talk about the actual design of the game rather than just winning it. A small table with a hard stop time and a public restaurant gives them exactly one focused conversation without the social debt of adding someone on LINE the same night.",
       "links": []
     },
     {
-      "h2": "How to choose your first table",
-      "body": "Do not join only because the title sounds relevant. Read the table description closely: who it is for, who it is not for, the likely group size, the restaurant or public venue type, payment expectations, and how the host describes the tone. A strong dinner listing should make the room easy to imagine. If the details are vague, ask first or skip it. Keep the plan concrete: name the table purpose, define who should join, leave room for quieter guests, and make follow-up optional rather than expected. A useful page should also explain the first decision a reader has to make, the signals that show whether a table is trustworthy, and the boundaries that keep the meal comfortable. This gives the reader enough detail to act without turning the guide into generic copy or a sales pitch.",
+      "h2": "How to read a listing and know it is not a trap",
+      "body": "Look for three concrete signals in the description: the exact station exit, the latest possible end time, and one sentence about what kind of games or discussion the host actually wants. If the host only wrote \"fun games and good vibes\" or listed ten different game titles with no focus, skip it. Tokyo has too many people who say they want to play games but really just want drinking buddies who won't judge their Japanese.",
       "links": []
     },
     {
-      "h2": "Small-table size guidance",
-      "body": "For deeper conversation, four people can work well. For a wider mix without losing structure, six is often enough. Eight already needs a stronger host rhythm. Professional, founder, and finance-adjacent tables should stay small enough to avoid pitching. Hobby, sport, and city newcomer tables can be a little more relaxed, but still need a clear opening and a way for everyone to participate. Keep the plan concrete: name the table purpose, define who should join, leave room for quieter guests, and make follow-up optional rather than expected. A useful page should also explain the first decision a reader has to make, the signals that show whether a table is trustworthy, and the boundaries that keep the meal comfortable. This gives the reader enough detail to act without turning the guide into generic copy or a sales pitch.",
+      "h2": "The size that actually works here",
+      "body": "Four people is ideal in Tokyo. Six starts to split into two conversations because Japanese politeness makes it hard to interrupt. Eight almost always turns into two separate tables by the second round. The host who claims \"the more the merrier\" has never actually run a gaming dinner in this city.",
       "links": []
     },
     {
-      "h2": "Good conversation topics",
-      "body": "Good questions are specific and optional. Ask why someone became interested in Gaming, what they wish they had known earlier, what local resources are useful, which books or examples helped, and what they are still trying to understand. The aim is not to test expertise. The aim is to create enough shared context that people can decide whether they want a second conversation. Keep the plan concrete: name the table purpose, define who should join, leave room for quieter guests, and make follow-up optional rather than expected. A useful page should also explain the first decision a reader has to make, the signals that show whether a table is trustworthy, and the boundaries that keep the meal comfortable. This gives the reader enough detail to act without turning the guide into generic copy or a sales pitch.",
+      "h2": "What is actually worth talking about",
+      "body": "Good topics are narrow: the last game that surprised you mechanically, which shop in Akihabara still has decent stock without tourist prices, or how hard it is to find opponents for heavier titles when everyone wants light fillers after work. Bad topics are anything that sounds like a job interview or a sales pitch for someone's new Kickstarter.",
       "links": []
     },
     {
-      "h2": "What to avoid",
-      "body": "Avoid hard selling, private pressure, aggressive networking, or requests that should not happen at a first meal. Do not ask for referrals, client lists, confidential company details, investment advice, personal romantic commitments, or risky sport instructions. A dinner can create trust, but trust is built slowly. The first table should make future contact easier, not force a transaction. Keep the plan concrete: name the table purpose, define who should join, leave room for quieter guests, and make follow-up optional rather than expected. A useful page should also explain the first decision a reader has to make, the signals that show whether a table is trustworthy, and the boundaries that keep the meal comfortable. This gives the reader enough detail to act without turning the guide into generic copy or a sales pitch.",
+      "h2": "The real safety issues in Tokyo gaming socials",
+      "body": "The biggest risk is not physical danger but the slow trap of someone who keeps suggesting \"one more place\" after the stated end time, especially when trains are about to stop. Good listings explicitly say the table ends at a specific time and that the host will not continue elsewhere. If that sentence is missing, assume the host either has no plan or hopes to extend the night.",
       "links": []
     },
     {
-      "h2": "Safety and boundaries",
-      "body": "Choose public venues, clear start times, simple payment expectations, and table descriptions that say what the dinner is trying to do. Share the plan with someone you trust if you are meeting new people. Keep your own boundaries visible and respect other people's time, privacy, profession, and relationship status. If a plan feels rushed or manipulative, do not join. Keep the plan concrete: name the table purpose, define who should join, leave room for quieter guests, and make follow-up optional rather than expected. A useful page should also explain the first decision a reader has to make, the signals that show whether a table is trustworthy, and the boundaries that keep the meal comfortable. This gives the reader enough detail to act without turning the guide into generic copy or a sales pitch.",
+      "h2": "When this kind of dinner is the wrong choice",
+      "body": "If you are looking for serious competitive play, long campaign games, or a group that will become your regular weekly circle, this format will disappoint you. It is only useful for the narrow slice of people who want exactly one good conversation with two or three strangers who happen to like the same obscure Japanese titles you do.",
       "links": []
-    },
-    {
-      "h2": "How to reduce awkwardness",
-      "body": "Awkwardness drops when the table has a sequence. Start with short introductions, move into one light question about Gaming, let people share concrete examples, and leave space for follow-up only at the end. Introverted guests can prepare two questions instead of trying to dominate the room. Hosts can help by redirecting monologues and making the first round easy. Keep the plan concrete: name the table purpose, define who should join, leave room for quieter guests, and make follow-up optional rather than expected. A useful page should also explain the first decision a reader has to make, the signals that show whether a table is trustworthy, and the boundaries that keep the meal comfortable. This gives the reader enough detail to act without turning the guide into generic copy or a sales pitch.",
-      "links": []
-    },
-    {
-      "h2": "How Fanju can support the scenario",
-      "body": "Fanju can turn Gaming into a dinner-first page: a clear title, a table purpose, a host note, a realistic group size, and safe next links. It should not invent attendance numbers, reviews, prices, or venue partnerships. The value is the structure: who the table is for, why it exists, what people can discuss, and what boundaries keep the dinner comfortable. Keep the plan concrete: name the table purpose, define who should join, leave room for quieter guests, and make follow-up optional rather than expected. A useful page should also explain the first decision a reader has to make, the signals that show whether a table is trustworthy, and the boundaries that keep the meal comfortable. This gives the reader enough detail to act without turning the guide into generic copy or a sales pitch.",
-      "links": [
-        "/en/categories",
-        "/en/category/business-dinner"
-      ]
-    },
-    {
-      "h2": "What to read next",
-      "body": "If you are still deciding, continue with dinner categories, business dinner, tokyo. Pick the next page based on your actual problem: city context, dinner format, safety, hosting, or the first action you want to take. A good Fanju path should reduce uncertainty before the meal, not push you into a table that does not fit. Keep the plan concrete: name the table purpose, define who should join, leave room for quieter guests, and make follow-up optional rather than expected. A useful page should also explain the first decision a reader has to make, the signals that show whether a table is trustworthy, and the boundaries that keep the meal comfortable. This gives the reader enough detail to act without turning the guide into generic copy or a sales pitch.",
-      "links": [
-        "/en/city/tokyo",
-        "/business-dinner-networking",
-        "/how-to-find-dinner-buddies",
-        "/how-to-host-a-dinner-gathering"
-      ]
     }
   ],
   "faq": [

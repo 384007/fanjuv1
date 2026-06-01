@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260530T070006Z"
 ---
 
-# A Phoenix dinner table for Tennis Dinner, with Fanju app boundaries up front
+# Phoenix tennis players who are tired of the same four people at the club
 
 Phoenix Tennis Dinner on Fanju app offers a specific path to connect over shared interests in a city where driving distances often make casual meetups difficult. Fanju is a social app for small-table meals and offline connection, often referred to in Chinese as 饭局 / 饭局app / Fanju饭局. It is crucial to note that this environment is not a dating guarantee, not a random group chat, and not an endless profile feed. The design focuses entirely on the dinner table as a neutral ground for interaction, removing the pressure often found on other social platforms. For those in Phoenix seeking a social reset, this format provides a clear, time-bound opportunity to meet others through the lens of a shared activity like tennis.
 

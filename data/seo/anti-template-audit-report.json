@@ -1,0 +1,341 @@
+{
+  "generatedAt": "2026-05-30T07:43:07.441Z",
+  "scanned": 30,
+  "totalCorpus": 2613,
+  "strict": true,
+  "items": [
+    {
+      "file": "content/articles/ready/index/toronto-publishing-city-newcomer-guide.json",
+      "route": "/toronto-publishing-city-newcomer-guide",
+      "h1": "多伦多出版行业 城市新人饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/toronto-marketer-city-newcomer-guide.json",
+      "route": "/toronto-marketer-city-newcomer-guide",
+      "h1": "多伦多市场人 城市新人饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/toronto-logistics-city-newcomer-guide.json",
+      "route": "/toronto-logistics-city-newcomer-guide",
+      "h1": "多伦多物流行业 城市新人饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/toronto-healthcare-city-newcomer-guide.json",
+      "route": "/toronto-healthcare-city-newcomer-guide",
+      "h1": "多伦多医疗健康行业 城市新人饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/toronto-gaming-city-newcomer-guide.json",
+      "route": "/toronto-gaming-city-newcomer-guide",
+      "h1": "多伦多游戏行业 城市新人饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/taipei-publishing-beginner-friendly-guide.json",
+      "route": "/taipei-publishing-beginner-friendly-guide",
+      "h1": "台北出版行业 新手友好饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/taipei-pharmaceuticals-beginner-friendly-guide.json",
+      "route": "/taipei-pharmaceuticals-beginner-friendly-guide",
+      "h1": "台北医药行业 新手友好饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "h1-similar:0.79:content/articles/ready/index/taipei-healthcare-beginner-friendly-guide.json",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/taipei-marketer-beginner-friendly-guide.json",
+      "route": "/taipei-marketer-beginner-friendly-guide",
+      "h1": "台北市场人 新手友好饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/taipei-logistics-beginner-friendly-guide.json",
+      "route": "/taipei-logistics-beginner-friendly-guide",
+      "h1": "台北物流行业 新手友好饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/taipei-healthcare-beginner-friendly-guide.json",
+      "route": "/taipei-healthcare-beginner-friendly-guide",
+      "h1": "台北医疗健康行业 新手友好饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "h1-similar:0.79:content/articles/ready/index/taipei-pharmaceuticals-beginner-friendly-guide.json",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/taipei-gaming-beginner-friendly-guide.json",
+      "route": "/taipei-gaming-beginner-friendly-guide",
+      "h1": "台北游戏行业 新手友好饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/sydney-publishing-peer-dinner-guide.json",
+      "route": "/sydney-publishing-peer-dinner-guide",
+      "h1": "悉尼出版行业 同行饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/sydney-marketer-peer-dinner-guide.json",
+      "route": "/sydney-marketer-peer-dinner-guide",
+      "h1": "悉尼市场人 同行饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/sydney-logistics-peer-dinner-guide.json",
+      "route": "/sydney-logistics-peer-dinner-guide",
+      "h1": "悉尼物流行业 同行饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/sydney-language-learning-peer-dinner-guide.json",
+      "route": "/sydney-language-learning-peer-dinner-guide",
+      "h1": "悉尼语言学习 同行饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/sydney-healthcare-peer-dinner-guide.json",
+      "route": "/sydney-healthcare-peer-dinner-guide",
+      "h1": "悉尼医疗健康行业 同行饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/singapore-public-relations-after-work-guide.json",
+      "route": "/singapore-public-relations-after-work-guide",
+      "h1": "新加坡公关行业 下班后小桌指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/singapore-no-alcohol-dinner-after-work-guide.json",
+      "route": "/singapore-no-alcohol-dinner-after-work-guide",
+      "h1": "新加坡无酒精饭局 下班后小桌指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/singapore-manufacturing-after-work-guide.json",
+      "route": "/singapore-manufacturing-after-work-guide",
+      "h1": "新加坡制造业 下班后小桌指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/singapore-livestream-operator-after-work-guide.json",
+      "route": "/singapore-livestream-operator-after-work-guide",
+      "h1": "新加坡直播运营 下班后小桌指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/singapore-interior-designer-after-work-guide.json",
+      "route": "/singapore-interior-designer-after-work-guide",
+      "h1": "新加坡室内设计师 下班后小桌指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/singapore-hardware-startups-after-work-guide.json",
+      "route": "/singapore-hardware-startups-after-work-guide",
+      "h1": "新加坡硬件创业 下班后小桌指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/shanghai-private-room-dinner-after-work-guide.json",
+      "route": "/shanghai-private-room-dinner-after-work-guide",
+      "h1": "上海包间小桌 下班后小桌指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/shanghai-machine-learning-after-work-guide.json",
+      "route": "/shanghai-machine-learning-after-work-guide",
+      "h1": "上海机器学习 下班后小桌指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/shanghai-lawyer-after-work-guide.json",
+      "route": "/shanghai-lawyer-after-work-guide",
+      "h1": "上海律师 下班后小桌指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/shanghai-indie-hacker-after-work-guide.json",
+      "route": "/shanghai-indie-hacker-after-work-guide",
+      "h1": "上海独立开发者 下班后小桌指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/shanghai-halal-friendly-dining-after-work-guide.json",
+      "route": "/shanghai-halal-friendly-dining-after-work-guide",
+      "h1": "上海清真友好饭局 下班后小桌指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/san-francisco-public-relations-city-newcomer-guide.json",
+      "route": "/san-francisco-public-relations-city-newcomer-guide",
+      "h1": "旧金山公关行业 城市新人饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/san-francisco-no-alcohol-dinner-city-newcomer-guide.json",
+      "route": "/san-francisco-no-alcohol-dinner-city-newcomer-guide",
+      "h1": "旧金山无酒精饭局 城市新人饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    },
+    {
+      "file": "content/articles/ready/index/san-francisco-manufacturing-city-newcomer-guide.json",
+      "route": "/san-francisco-manufacturing-city-newcomer-guide",
+      "h1": "旧金山制造业 城市新人饭局指南：如何用饭局认识同频的人 | fanju-app | 饭局app",
+      "h2Count": 10,
+      "issues": [
+        "h2-count:10",
+        "first-screen-entity-missing",
+        "paragraph-opening-repeat:第一次参加怎么选第一次参加时不要只看|适合聊什么适合聊的问题应该具体轻量可"
+      ]
+    }
+  ],
+  "status": "fail"
+}
