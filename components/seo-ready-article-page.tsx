@@ -811,7 +811,7 @@ function GeneratedSeoArticlePage({
             </div>
           )}
           <section id="direct-answer">
-            <h2 className="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">{keywords.primaryKeyword} overview</h2>
+            <h2 className="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">{isEn ? `${keywords.primaryKeyword} overview` : `${keywords.primaryKeyword}说明`}</h2>
             <p className="mb-4 text-sm leading-relaxed text-muted-foreground md:text-base">{description}</p>
           </section>
           {facts.length > 0 && (
@@ -949,7 +949,7 @@ function SourceMarkdownArticlePage({
             </div>
           )}
           <section id="direct-answer">
-            <h2 className="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">{keywords.primaryKeyword} overview</h2>
+            <h2 className="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">{isEn ? `${keywords.primaryKeyword} overview` : `${keywords.primaryKeyword}说明`}</h2>
             <p className="mb-4 text-sm leading-relaxed text-muted-foreground md:text-base">{description}</p>
           </section>
           <RenderBlocks blocks={blocks} skipFirstH1 skipParagraphIndexes={summaryDuplicateParagraphIndexes} />
@@ -1057,7 +1057,7 @@ export function SeoReadyArticlePage({ article, currentPath, hasAlternateArticle 
             <p className="text-sm leading-relaxed text-muted-foreground md:text-base m-0">{summary}</p>
           </div>
           <section id="direct-answer">
-            <h2 className="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">{keywords.primaryKeyword} overview</h2>
+            <h2 className="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">{isEn ? `${keywords.primaryKeyword} overview` : `${keywords.primaryKeyword}说明`}</h2>
             <p className="mb-4 text-sm leading-relaxed text-muted-foreground md:text-base">{description}</p>
           </section>
           <KeyPoints route={route} isEn={isEn} />

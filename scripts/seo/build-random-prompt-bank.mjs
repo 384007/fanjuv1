@@ -790,52 +790,37 @@ function buildEditorialBrief(profile) {
     { anchor: anchors[2], url: isEn ? "/en/categories" : "/categories", reason: isEn ? "topic/category hub" : "饭局类型集合页" },
     { anchor: anchors[3], url: "/how-to-find-dinner-buddies", reason: isEn ? "dinner buddy intent support" : "饭搭子意图支撑页" },
   ]
-  const h1Mode = routeSeed(profile, "brief-h1") % 8
+  // H1: instruction-driven, not a fixed template. AI must write a unique title using the given angle/lens/scene/pain.
+  const titleDirection = titleDirectionFor(profile)
+  // topicCoreZh strips trailing 饭局 to avoid "友情饭局饭局" when AI appends 饭局 again
+  // Also strip leading 同城 to avoid "南通同城饭局饭局" patterns
+  const topicDisplayZh = (topicCoreZh.replace(/^同城/, "") || topicCoreZh || topic)
   const H1 = isEn
-    ? [
-        `${city} ${topic}: how Fanju app makes the table worth choosing`,
-        `Before joining ${topic} in ${city}, what Fanju app should make clear`,
-        `A ${city} dinner table for ${topic}, with Fanju app boundaries up front`,
-        `When ${topic} in ${city} needs more than a group chat, Fanju app starts with the table`,
-        `${city} ${topic} through Fanju app: the questions to answer before you sit down`,
-        `The Fanju app way to judge a ${city} ${topic} table before the first course`,
-        `For ${city} readers considering ${topic}, Fanju app should make the room legible`,
-        `A clearer ${topic} dinner in ${city}: Fanju app, small tables, and real boundaries`,
-      ][h1Mode]
-    : [
-        `${city}${topicCoreZh}饭局，饭局app要先把哪几件事说清楚`,
-        `在${city}参加${topic}前，Fanju饭局应该先回答什么`,
-        `${city}想找一桌${topic}，饭局app先看同桌边界`,
-        `${city}${topic}不该只靠群聊，饭局app要把这桌饭讲明白`,
-        `第一次考虑${city}${topic}，饭局app怎样让报名更可判断`,
-        `一顿${city}${topicCoreZh}饭局值不值得去，先看Fanju饭局这些信号`,
-        `${city}同城饭局怎么选，饭局app在${topic}里先做减法`,
-        `把${city}${topicCoreZh}饭局坐成真实小桌，饭局app需要先说明什么`,
-      ][h1Mode]
+    ? `Write a unique H1 for this article. Direction: ${titleDirection}. Lens: ${lens}. Scene: ${scene}. Pain: ${pain}. City: ${city}. Topic: ${topic}. The title must naturally include "${city}", "${topic}", and "Fanju app" or a natural variant. Do NOT use any of these banned patterns: "[City] [Topic]: how Fanju app...", "Before joining [Topic] in [City]...", "For [City] readers considering [Topic]...", "A clearer [Topic] dinner in [City]...", or any title that only swaps city/topic words into a fixed frame. The title must be original prose that could only apply to this specific city+topic+angle combination.`
+    : `为这篇文章写一个唯一的 H1 标题。方向：${titleDirection}。视角：${lens}。场景：${scene}。读者痛点：${pain}。城市：${city}。主题核心词：${topicDisplayZh}。标题必须自然包含「${city}」和「${topicDisplayZh}」以及「饭局app」或「Fanju饭局」的自然变体。【严禁重复词】：标题里「饭局」只能出现一次，不能出现「饭局饭局」「同城饭局饭局」「${topicDisplayZh}饭局饭局」等重复。禁止使用以下固定句式：「${city}${topicDisplayZh}饭局，饭局app要先把哪几件事说清楚」「${city}${topic}不该只靠群聊，饭局app要把这桌饭讲明白」「${city}同城饭局怎么选」或任何只替换城市/主题词的固定框架。标题必须是只适用于这个城市+主题+视角组合的原创表达。`
 
-  const outlineSeeds = isEn
+  // H2 outline: instruction-driven per-role, not fixed templates. Each H2 must be unique to this city+topic+angle.
+  const h2Roles = isEn
     ? [
-        `The listing sentence that makes this ${city} ${topic} worth a second look`,
-        `How Fanju app explains this ${city} table before anyone commits`,
-        `${city} clues that keep this dinner from feeling interchangeable`,
-        `Host notes and venue clarity around ${topic} in ${city}`,
-        `The ${topic} reader who will enjoy this table, and the one who should wait`,
-        `Exit cues and follow-up pace after a ${city} shared meal`,
-        `One practical question to ask before choosing this ${topic} table`,
+        { role: "search intent", instruction: `Write an H2 that frames the core reader decision for ${topic} in ${city}, using the lens "${lens}". Must not be a generic "what is" or "overview" heading.` },
+        { role: "entity definition", instruction: `Write an H2 that explains what Fanju app means in the specific context of ${topic} in ${city}, anchored in the scene: "${scene}".` },
+        { role: "local details", instruction: `Write an H2 about a concrete local detail or tension specific to ${city} and ${topic}. Use the local detail: "${localDetails[0]}". Must name a real local friction, not a generic "local tips" heading.` },
+        { role: "trust criteria", instruction: `Write an H2 about how to judge host, venue, or guest-mix quality for ${topic} in ${city}. Angle: "${lens}". Must be a specific judgment criterion, not "how to choose" or "what to look for".` },
+        { role: "fit and non-fit", instruction: `Write an H2 that distinguishes who this ${topic} table in ${city} is genuinely for versus who should skip it. Must be specific to this angle: "${lens}".` },
+        { role: "safety boundary", instruction: `Write an H2 about exit cues, follow-up pace, or safety signals for ${topic} in ${city}. Must be concrete and city-specific, not a generic "safety tips" heading.` },
       ]
     : [
-        `${city}${topic}要从报名页的哪一句话看起`,
-        `${city}${topic}里，饭局app先说明的小桌规则`,
-        `${city}本地生活节奏里，哪些细节不能写得太虚`,
-        `${city}${topic}的主理人留言、场地位置和同桌人数透露什么`,
-        `在${city}这类${topic}里，适合留下来的人和应该先观望的人`,
-        `${city}${topic}可以提前离场的信号，以及饭后联系的分寸`,
-        `选择${city}${topic}前，最值得问清楚的一个具体问题`,
+        { role: "search intent", instruction: `写一个 H2，用「${lens}」视角切入，框定读者在${city}参加${topicDisplayZh}饭局时的核心决策问题。不能是通用的"是什么"或"概述"标题。` },
+        { role: "entity definition", instruction: `写一个 H2，在「${scene}」这个具体场景下，解释饭局app在${city}${topicDisplayZh}语境里的含义。必须锚定在这个场景，不能泛泛而谈。` },
+        { role: "local details", instruction: `写一个 H2，关于${city}和${topicDisplayZh}饭局特有的本地细节或张力。参考本地细节：「${localDetails[0]}」。必须点名真实的本地摩擦，不能是通用的"本地攻略"标题。` },
+        { role: "trust criteria", instruction: `写一个 H2，关于如何判断${city}${topicDisplayZh}饭局的主理人、场地或同桌质量。视角：「${lens}」。必须是具体的判断标准，不能是"如何选择"或"注意事项"。` },
+        { role: "fit and non-fit", instruction: `写一个 H2，区分${city}这类${topicDisplayZh}饭局真正适合谁、不适合谁。必须具体到「${lens}」这个视角，不能是通用的"适合人群"。` },
+        { role: "safety boundary", instruction: `写一个 H2，关于${city}${topicDisplayZh}饭局的离场信号、饭后联系分寸或安全边界。必须具体且有城市感，不能是通用的"安全提示"。` },
       ]
-  const outline = rotateFrom(profile, "brief-outline", outlineSeeds, 6).map((h2, index) => ({
+  const outline = h2Roles.map((item) => ({
     level: 2,
-    heading: h2,
-    role: ["search intent", "entity definition", "local details", "trust criteria", "fit and non-fit", "safety boundary", "next decision"][index] || "editorial section",
+    heading: item.instruction,
+    role: item.role,
   }))
 
   return {
@@ -872,9 +857,9 @@ function systemInstructionFor(locale) {
       "Write one public Fanju city article as plain Markdown only, using the supplied editorial brief as the source of truth.",
       "Voice: human editor, practical, city-specific, calm. No hype and no search-ranking promises.",
       "The article must be original prose, not an outline, not a template, and not a landing page.",
-      "The first line must be exactly one article H1 beginning with '# '. Use the brief H1 unless it would read unnaturally; if you adjust it, keep the search intent.",
+      "The first line must be exactly one article H1 beginning with '# '. The brief H1 field is a generation instruction, not the final title — you must write an original title based on the instruction. Do not output the instruction text as the title.",
       "Use 5 to 7 '## ' H2 sections. H3 is optional. H4-H10 are forbidden.",
-      "Every H2 must perform a distinct information job: search-intent answer, local scenario, host trust, table boundaries, safety/exit judgment, or fit/non-fit.",
+      "The brief outline[].heading fields are H2 generation instructions, not final headings — write an original H2 for each based on its instruction. Every H2 must be unique to this specific city+topic+angle and must not be a generic reusable section heading.",
       "【MANDATORY OPENING】: The first paragraph must define Fanju app as a social app for small-table meals and offline connection. Its first sentence MUST include the city and topic. It MUST include these exact phrases: 'not a dating guarantee', 'not a random group chat', 'not an endless profile feed'. Missing these results in a 0 score.",
       "Bridge the Chinese entity: Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局”.",
       "Include at least five local details, three real reader questions, two concrete judgment criteria, one 'who this is not for' point, and one safety boundary.",
@@ -892,9 +877,9 @@ function systemInstructionFor(locale) {
     "只写一个公开的饭局 Fanju 城市文章，输出必须是纯 Markdown 文章正文，并以提供的 editorial brief 为唯一生产依据。",
     "声音：真人编辑、自然、具体、平静、实用。不要营销腔，不承诺搜索排名。",
     "正文必须是完整原创文章，不是提纲、模板、摘要、占位段落、城市/主题换词页或落地页。",
-    "第一行必须是唯一 H1，必须以「# 」开头。优先使用 brief H1；如需微调，只能为了让标题更自然，不能改变搜索意图和主实体。",
+    "第一行必须是唯一 H1，必须以「# 」开头。brief 里的 H1 字段是生成指令，不是最终标题——你必须根据指令写出一个原创标题，不能把指令文字直接当标题输出。",
     "正文必须使用 5 到 7 个「## 」H2。H3 仅限回答具体疑问。H4-H10 严格禁止。",
-    "每个 H2 必须有独立信息功能：搜索意图回答、本地场景、主理人信任、同桌边界、安全/退出判断、适合/不适合人群、报名下一步。",
+    "brief 里的 outline[].heading 字段是每个 H2 的生成指令，不是最终标题——你必须根据每条指令写出一个原创 H2，不能把指令文字直接当标题输出。每个 H2 必须只适用于这篇文章的城市+主题+视角组合，不能是可以套用到任何城市的通用句式。",
     "【首段硬性要求】：第一段第一句必须包含城市、主题和「饭局app」；首段必须包含这些用���法律避险的【精确短语】：不是相亲保证、不是随机群聊、不是无限刷资料。缺少任何一个词都会导致 0 分重写。",
     "【正文长度硬性要求】：正文（除标题外）必须达到 2200 到 4500 个汉字。请通过深挖本地细节、细化同桌规则来扩充篇幅，禁止废话堆砌。",
     "【严禁英文噪音】：除「Fanju」和城市英文名外，禁止在中文正文、标题中出现任何英文词汇（如 meetup, ota, web, react, app, group 等），必须全部使用对应的中文（如：线下聚会、在线旅行社、网页、框架、应用、群组）。",
@@ -924,7 +909,7 @@ function userPromptFor(profile, editorialBrief) {
       `Title/H1 guardrails: title direction=${titleDirection}. Do not replace the H1 with "${profile.cityNameLocalized} ${profile.topicNameLocalized} Guide", "A Guide to ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "${profile.topicNameLocalized} in ${profile.cityNameLocalized}", "How to join ${profile.topicNameLocalized} in ${profile.cityNameLocalized}", or any title that only swaps city/topic words. Also avoid bland titles like "${indefiniteArticleEn(profile.cityNameLocalized).replace(/^./, (c) => c.toUpperCase())} ${profile.cityNameLocalized} dinner journey" or "Discover ${profile.cityNameLocalized} through dinner".`,
       `Angle: ${profile.angle.name}. Use this angle: ${profile.angle.instruction}`,
       `Style profile: structure=${profile.structure}; opening=${profile.openingStyle}; faq=${profile.faqMode}; cta=${profile.ctaPosition}; example=${profile.exampleType}; tone=${profile.tone}; title=${profile.titlePattern}.`,
-      "Use the brief's H1 and six H2 outline items as the article structure. You may lightly rewrite H2 wording for naturalness, but each H2 must keep its assigned information role and must not become a generic reusable section. Do not turn mustAnswerQuestions into headings.",
+      "The brief H1 field is a generation instruction — write an original title from it, do not output the instruction text. The brief outline[].heading fields are H2 generation instructions — write an original H2 for each, do not output the instruction text. Every heading must be unique to this city+topic+angle and must not be reusable across articles.",
       "Heading contract: exactly one H1; exactly 6 H2 sections; no H3 unless a reader question genuinely needs it; no H4-H10.",
       `Originality contract: do not reuse old H1/H2 structures, paragraph openings, or the standard scene/problem/Fanju explanation/host trust/safety/next step structure. The automated gate will compare against historical titles, H2s, paragraph openings, and structure fingerprints.`,
       `Output contract: first character '#'; title/H1 includes Fanju app or a natural Chinese entity bridge; the first sentence of the first paragraph includes ${profile.cityNameLocalized}, ${profile.topicNameLocalized}, and Fanju app; the first paragraph also includes the Chinese entity bridge “饭局 / 饭局app / Fanju饭局” and the exact phrases “not a dating guarantee”, “not a random group chat”, and “not an endless profile feed”; body has 12-14 natural paragraphs, with exactly two paragraphs under each H2; no repeated paragraph openings; no public links; no JSON.`,
@@ -942,7 +927,7 @@ function userPromptFor(profile, editorialBrief) {
     `中文城市名硬规则：公开标题、H1、H2 和正文里，城市名只能使用「${profile.cityNameLocalized}」；URL slug、拼音城市名、英文城市名一律不能出现在公开字段里。`,
     `角度：${profile.angle.name}。按这个方向写：${profile.angle.instruction}`,
     `风格 profile：结构=${profile.structure}；开头=${profile.openingStyle}；FAQ=${profile.faqMode}；CTA=${profile.ctaPosition}；例子=${profile.exampleType}；语气=${profile.tone}；标题=${profile.titlePattern}。`,
-    "以 brief 的 H1 和 6 个 H2 outline 为文章结构。H2 可以为了自然表达做轻微改写，但每个 H2 的信息功能必须保留，不能变成通用可复用小节。不要把 mustAnswerQuestions 原文写成标题。",
+    "brief 里的 H1 字段是生成指令——根据指令写出原创标题，不能把指令文字直接输出为标题。brief 里的 outline[].heading 字段是 H2 生成指令——根据每条指令写出原创 H2，不能把指令文字直接输出为标题。每个标题必须只适用于这篇文章的城市+主题+视角，不能是可以套用到任何文章的通用句式。",
     "标题契约：只允许 1 个 H1；必须正好 6 个 H2；H3 只在真实需要时出现；禁止 H4-H10。",
     "原创契约：不要复用历史 H1/H2 结构、段落开头或固定的 scene/problem/Fanju explanation/host trust/safety/next step 顺序。自动门禁会比较历史标题、H2、段落开头和结构指纹。",
     `输出契约：第一个字符必须是「#」；H1 自然包含「饭局 / 饭局app / Fanju饭局 / 城市+主题饭局」之一；第一段第一句必须同时出现「${profile.cityNameLocalized}」「${profile.topicNameLocalized}」和「饭局app」或「Fanju饭局」；第一段必须包含「不是相亲保证」「不是随机群聊」「不是无限刷资料」；正文 12-14 个自然段，每个 H2 下正好两个自然段；无重复段落开头；无公开链接；无 JSON。`,
