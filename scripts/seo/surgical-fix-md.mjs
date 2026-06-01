@@ -60,16 +60,10 @@ for (const file of FAILING_FILES) {
     content = content.replace(pattern, "")
   }
 
-  // 3. Unique, Context-Aware Content Expansion (NO TEMPLATES)
-  const citySlug = file.split('/').pop().split('-')[0]
-  const culture = CULTURE_DB[citySlug]?.culture || "这座城市独特的社交氛围"
-  const scene = CULTURE_DB[citySlug]?.scene || "寻找同城志同道合的饭友"
-  
-  const injection = `\n\n## ${isEn ? 'Experience the local dinner scene' : '在当地的饭局社交体验'}\n${isEn ? 'In ' + citySlug + ', ' : ''}${culture} ${scene} 在 ${brandKw}，我们致力于为你筛选最地道的社交场景，每一次约饭都是对本地生活方式的一次深入体验，不仅是找饭搭子，更是为了在当地建立高质量的社交连接。`
-  
-  if (!content.includes(injection)) {
-    content += injection
-  }
+  // 3. No boilerplate injection — removed.
+  // Previously this script appended "## 在当地的饭局社交体验 / Experience the local dinner scene"
+  // to every article. That created 671+ identical tail sections which Google treats as duplicate
+  // content. The article body must stand on its own; no CTA sections are appended here.
 
   writeFileSync(filePath, content, "utf8")
   console.log(`Repaired: ${file}`)

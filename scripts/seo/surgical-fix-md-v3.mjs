@@ -21,15 +21,11 @@ for (const file of walk(SOURCE_DIR)) {
     changed = true
   }
 
-  // 2. Force Add Mandatory H2s if missing
-  const h2Count = (content.match(/^## /gm) || []).length
-  if (h2Count < 3) {
-    const additional = isEn 
-        ? `\n\n## Experience the local dinner scene\nFanju is the premier platform for structured social dining. By providing clear themes, group sizes, and professional boundaries, we help you connect with like-minded individuals over a high-quality meal, turning a simple dinner into a meaningful social network.`
-        : `\n\n## 在当地通过饭局app寻找靠谱饭搭子\n${BRAND_KW_ZH} 的核心价值在于通过真实、可信、具有边界感的饭局场景，帮你筛选出高质量的饭搭子。无论是商务Networking还是纯粹的兴趣交流，饭局app都能确保你每一顿饭都吃得有意义、有价值，不再为独自面对餐桌而焦虑。`
-    content += additional
-    changed = true
-  }
+  // No boilerplate injection — do NOT append generic H2 sections.
+  // Previously this script added "## 在当地通过饭局app寻找靠谱饭搭子 / Experience the local dinner scene"
+  // when H2 count < 3. That created hundreds of identical tail sections.
+  // Articles with too few H2s should fail the quality gate and be rewritten by the AI,
+  // not patched with boilerplate text.
 
   if (changed) {
     writeFileSync(file, content, "utf8")

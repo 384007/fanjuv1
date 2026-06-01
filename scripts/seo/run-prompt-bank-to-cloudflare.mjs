@@ -142,6 +142,18 @@ const BANNED_PHRASES_FOR_BODY = [
   /后台管理/,
   /技术栈/,
   /自动化(脚本|部署|流水线|发布|生成)/,
+  // Boilerplate section headings that were injected by old surgical-fix scripts.
+  // Any article containing these exact headings is auto-rejected (score=0).
+  /##\s*在当地通过饭局连接更多同频伙伴/,
+  /##\s*在本地通过饭局建立真实连接/,
+  /##\s*在当地的饭局社交体验/,
+  /##\s*在当地通过饭局app寻找饭搭子/,
+  /##\s*在当地通过饭局app寻找靠谱饭搭子/,
+  /##\s*(Experience the local dinner scene|The Fanju Experience)/i,
+  // Boilerplate body sentences injected by old surgical-fix scripts.
+  /Fanju \/ 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人/,
+  /Fanju \/ 饭局 app 在本地，不仅仅是找个饭搭子/,
+  /致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹/,
 ]
 
 function detectLeaks(text, prompt = {}) {
