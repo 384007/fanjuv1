@@ -489,13 +489,14 @@ function keywordProfile(route: RouteContext, isEn: boolean, article?: SeoReadyAr
   }
 
   const topicBase = topicKeywordBaseZh(route)
-  const primaryKeyword = article?.primaryKeyword || `${route.city}${topicBase}饭局`
+  const dedup = (s: string) => s.replace(/同城同城/g, "同城").replace(/饭局饭局/g, "饭局")
+  const primaryKeyword = article?.primaryKeyword || dedup(`${route.city}${topicBase}饭局`)
   const secondaryKeywords = article?.secondaryKeywords?.length
     ? article.secondaryKeywords
     : [
         `${route.city}饭搭子`,
-        `${route.city}同城饭局`,
-        `${topicBase}饭局`,
+        dedup(`${route.city}同城饭局`),
+        dedup(`${topicBase}饭局`),
         "饭局app",
         "Fanju饭局",
       ]
@@ -516,7 +517,7 @@ function directAnswerSummary(route: RouteContext, isEn: boolean, article?: SeoRe
   const keywords = keywordProfile(route, isEn, article)
   return isEn
     ? `${keywords.primaryKeyword} is a Fanju app page for choosing a small-table dinner in ${route.city}: Fanju is a social dining app for clearly described meals, not a dating app or random group chat. Use this guide to compare the host note, venue rhythm, guest mix, and local fit before joining.`
-    : `${keywords.primaryKeyword}这页直接说明：饭局app / Fanju饭局是围绕小桌吃饭、清晰主题和线下见面的社交应用，不是婚恋 App，也不是随机群聊。你可以先看${route.city}饭搭子、${route.city}同城饭局、主理人说明和同桌预期，再判断这桌${keywords.topicBase}饭局是否适合参加。`
+    : `${keywords.primaryKeyword}这页直接说明：饭局app / Fanju饭局是围绕小桌吃饭、清晰主题和线下见面的社交应用，不是婚恋 App，也不是随机群聊。你可以先看${route.city}饭搭子、${(route.city + "同城饭局").replace(/同城同城/g, "同城")}、主理人说明和同桌预期，再判断这桌${keywords.topicBase}饭局是否适合参加。`
 }
 
 function routeMetaDescription(route: RouteContext, isEn: boolean, article?: SeoReadyArticle) {
