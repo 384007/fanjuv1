@@ -150,6 +150,8 @@ const BANNED_PHRASES_FOR_BODY = [
   /##\s*在当地通过饭局app寻找饭搭子/,
   /##\s*在当地通过饭局app寻找靠谱饭搭子/,
   /##\s*(Experience the local dinner scene|The Fanju Experience)/i,
+  // H2 headings with "，回到XXX饭局" suffix — AI navigation artifact, must never appear in output.
+  /##\s*.+，回到.{1,12}饭局$/m,
   // Boilerplate body sentences injected by old surgical-fix scripts.
   /Fanju \/ 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人/,
   /Fanju \/ 饭局 app 在本地，不仅仅是找个饭搭子/,

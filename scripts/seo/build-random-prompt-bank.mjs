@@ -929,6 +929,7 @@ function userPromptFor(profile, editorialBrief) {
     `风格 profile：结构=${profile.structure}；开头=${profile.openingStyle}；FAQ=${profile.faqMode}；CTA=${profile.ctaPosition}；例子=${profile.exampleType}；语气=${profile.tone}；标题=${profile.titlePattern}。`,
     "brief 里的 H1 字段是生成指令——根据指令写出原创标题，不能把指令文字直接输出为标题。brief 里的 outline[].heading 字段是 H2 生成指令——根据每条指令写出原创 H2，不能把指令文字直接输出为标题。每个标题必须只适用于这篇文章的城市+主题+视角，不能是可以套用到任何文章的通用句式。",
     "标题契约：只允许 1 个 H1；必须正好 6 个 H2；H3 只在真实需要时出现；禁止 H4-H10。",
+    "【H2 后缀硬规则】：每个 H2 标题必须在标题本身结束，严禁在标题末尾追加「，回到XXX饭局」「，返回XXX」「，回到主题」等任何导航性后缀。违反此规则将导致 0 分重写。",
     "原创契约：不要复用历史 H1/H2 结构、段落开头或固定的 scene/problem/Fanju explanation/host trust/safety/next step 顺序。自动门禁会比较历史标题、H2、段落开头和结构指纹。",
     `输出契约：第一个字符必须是「#」；H1 自然包含「饭局 / 饭局app / Fanju饭局 / 城市+主题饭局」之一；第一段第一句必须同时出现「${profile.cityNameLocalized}」「${profile.topicNameLocalized}」和「饭局app」或「Fanju饭局」；第一段必须逐字包含「不是相亲保证」「不是随机群聊」「不是无限刷资料」这三个精确短语（不能改写）；正文 12-14 个自然段，每个 H2 下正好两个自然段；无重复段落开头；无公开链接；无 JSON。`,
     "公开内容硬规则：不要出现本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售、停放域名、招商或站主联系方式。",
