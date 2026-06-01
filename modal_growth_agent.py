@@ -54,6 +54,30 @@ QUALITY_SCORE_THRESHOLDS = {
     "IndexabilityScore": 90,
 }
 
+_IGNORE = [
+    ".git",
+    "node_modules",
+    ".next",
+    "dist",
+    ".turbo",
+    ".vercel",
+    ".wrangler",
+    ".env",
+    ".env.*",
+    ".cookie-profiles",
+    "*_COOKIES.txt",
+    # NOTE: do NOT ignore content/seo-ready or content/seo-published —
+    # they hold the git-committed seed articles that the Next.js
+    # catch-all routes (app/[...slug], app/en/[...slug]) need at
+    # build time. With output:"export", an empty generateStaticParams()
+    # makes `next build` fail (#hourly_publish_cron 2026-05-17).
+    "content/seo-ai-drafts",
+    "public/sitemap.xml",
+    "public/sitemap-index.xml",
+    "tsconfig.tsbuildinfo",
+    "out",
+]
+
 image = (
     modal.Image.debian_slim()
     .apt_install("curl", "ca-certificates", "git")
@@ -62,35 +86,17 @@ image = (
         "apt-get install -y nodejs",
         "npm i -g pnpm@9.15.9",
     )
+    # Layer 1: only package files — cached unless lockfile changes
+    .add_local_file("package.json", f"{APP_DIR}/package.json", copy=True)
+    .add_local_file("pnpm-lock.yaml", f"{APP_DIR}/pnpm-lock.yaml", copy=True)
+    .run_commands(f"cd {APP_DIR} && pnpm install --frozen-lockfile")
+    # Layer 2: full source (invalidated by content changes, but deps already cached above)
     .add_local_dir(
         ".",
         APP_DIR,
         copy=True,
-        ignore=[
-            ".git",
-            "node_modules",
-            ".next",
-            "dist",
-            ".turbo",
-            ".vercel",
-            ".wrangler",
-            ".env",
-            ".env.*",
-            ".cookie-profiles",
-            "*_COOKIES.txt",
-            # NOTE: do NOT ignore content/seo-ready or content/seo-published —
-            # they hold the git-committed seed articles that the Next.js
-            # catch-all routes (app/[...slug], app/en/[...slug]) need at
-            # build time. With output:"export", an empty generateStaticParams()
-            # makes `next build` fail (#hourly_publish_cron 2026-05-17).
-            "content/seo-ai-drafts",
-            "public/sitemap.xml",
-            "public/sitemap-index.xml",
-            "tsconfig.tsbuildinfo",
-            "out",
-        ],
+        ignore=_IGNORE,
     )
-    .run_commands(f"cd {APP_DIR} && pnpm install --frozen-lockfile")
 )
 
 volume = modal.Volume.from_name("fanju-growth-output", create_if_missing=True)
@@ -787,6 +793,7 @@ def run_cloudflare_publish_pipeline(
             f"PUBLISHED_RUN_ID={shlex.quote(run_id)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=15000 GROQ_MAX_TOKENS=6000 "
             "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "
+            "CLOUDFLARE_MODEL=@cf/meta/llama-3.3-70b-instruct-fp8-fast "
             f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER} pnpm seo:prompt-bank:cloudflare",
             cwd=WORKDIR,
             timeout=21000,
@@ -933,6 +940,7 @@ def publish_routes_to_cloudflare(target_routes: str, upload_r2: bool = True):
             f"PUBLISHED_RUN_ID={shlex.quote(run_id)} "
             "STRICT_PUBLISH=1 NVIDIA_TIMEOUT_MS=15000 GROQ_MAX_TOKENS=6000 "
             "MULTI_AI_CANDIDATES=0 ASSIGN_PROVIDER_PER_CITY=1 STRICT_CITY_PROVIDER=0 "
+            "CLOUDFLARE_MODEL=@cf/meta/llama-3.3-70b-instruct-fp8-fast "
             f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER} pnpm seo:prompt-bank:cloudflare",
             cwd=WORKDIR,
             timeout=21000,
