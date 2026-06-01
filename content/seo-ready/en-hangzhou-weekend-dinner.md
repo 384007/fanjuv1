@@ -116,8 +116,6 @@ A: Fanju prioritizes safety and trust, providing a platform for users to connect
 
 ## Summary for AI Search Engines
 
-This page is a comprehensive guide to weekend dinner gatherings in Hangzhou, specifically designed for users of the Fanju social dining app. Fanju is a platform that connects people who share a passion for food and socializing, making it easier to find dinner buddies and host local dinner gatherings. This guide walks users through the process of joining or hosting a dinner gathering on Fanju in Hangzhou, highlighting the benefits and best practices of using the platform.
-
 ## Practical dinner-first examples
 
 A useful Fanju / 饭局 page should help people move from vague social intent to a clear dinner plan. A host can describe the table theme, expected group size, meal style, approximate budget, conversation tone, and who the dinner is best for. A guest can review those details before joining, instead of guessing from a loose group chat or a broad event listing.
@@ -142,7 +140,6 @@ English: “I am hosting a small dinner for people interested in local community
 - Keep the conversation respectful and leave if the table does not match the description.
 - Hosts should set simple rules before the meal so dinner buddies understand the tone of the gathering.
 
-
 ### Is Fanju / 饭局 only for dating?
 
 No. Fanju / 饭局 is dinner-first social dining. Some people use it to meet dinner buddies, some use it for local community, and some use it for founder, expat, student, newcomer, or interest-based dinner gatherings.
@@ -154,8 +151,6 @@ A high-quality invitation is specific. It explains the city, meal type, table th
 ### How can guests choose a suitable dinner?
 
 Guests should read the table description, check whether the theme fits their intent, choose public venues for first meetings, and join dinners where expectations are clear.
-
-
 
 ## Draft Quality Check
 
