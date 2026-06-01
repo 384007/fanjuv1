@@ -60,12 +60,19 @@ const manifest = { canonical: [], redirect: [], draft: [] }
 if (existsSync(READY_DIR)) {
   const files = readdirSync(READY_DIR).filter((f) => f.endsWith(".md"))
 
+  // Pre-build a Set of canonical paths that are ready+scored — O(n) instead of O(n²)
+  const readyCanonicalPaths = new Set()
+  const fileMetas = []
   for (const file of files) {
     const raw = readFileSync(join(READY_DIR, file), "utf8")
     const meta = parseFrontmatter(raw)
     const score = parseInt(meta.aiQualityScore || "0", 10)
     const cp = normalizePath(meta.canonicalPath || `/${meta.slug || file.replace(/\.md$/, "")}`)
+    fileMetas.push({ file, meta, score, cp })
+    if (meta.status === "ready" && score >= MIN_SCORE) readyCanonicalPaths.add(cp)
+  }
 
+  for (const { file, meta, score, cp } of fileMetas) {
     // Draft/unready
     if (meta.status !== "ready" || score < MIN_SCORE) {
       manifest.draft.push({ path: cp, file, reason: score < MIN_SCORE ? "low_score" : "not_ready" })
@@ -86,15 +93,8 @@ if (existsSync(READY_DIR)) {
     const alt = deriveAlternatePath(cp)
     const altLang = cp.startsWith("/en/") ? "zh" : "en"
 
-    // Check if a dedicated file exists for the alternate path
-    const hasOwnFile = files.some((f2) => {
-      if (f2 === file) return false
-      const raw2 = readFileSync(join(READY_DIR, f2), "utf8")
-      const meta2 = parseFrontmatter(raw2)
-      return normalizePath(meta2.canonicalPath) === alt && meta2.status === "ready" && parseInt(meta2.aiQualityScore || "0", 10) >= MIN_SCORE
-    })
-
-    if (!hasOwnFile) {
+    // O(1) lookup instead of O(n) file scan
+    if (!readyCanonicalPaths.has(alt)) {
       // Fallback render — still canonical for that language (200, self-referencing canonical)
       manifest.canonical.push({
         path: alt,
