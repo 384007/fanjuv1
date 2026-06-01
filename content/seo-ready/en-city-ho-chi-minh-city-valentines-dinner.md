@@ -42,6 +42,3 @@ recoveredFromD1: true
 <h3>What should I do after dinner to extend the weekend celebration?</h3>
 <p>After a delightful dinner, consider a leisurely stroll through a well-lit park like Tao Dan Park, or find a cozy cafe for a nightcap. If you&#039;re in District 1, a walk along the Saigon River offers pleasant views. For a more active post-dinner plan, explore a night market for some light shopping and street food snacks. The key is to choose an activity that complements the relaxed mood of your dinner and allows for continued conversation.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

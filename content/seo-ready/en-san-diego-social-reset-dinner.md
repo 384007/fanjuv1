@@ -33,6 +33,3 @@ recoveredFromD1: true
 <p>The real value of Social Reset Dinner in San Diego isn’t in how many people you meet, but in how it shifts your relationship to the city. It’s not a tool for networking or filling weekend hours. It’s a way to experience San Diego as a place where small, real interactions still matter. The Fanju app supports that by focusing on transparency, intimacy, and host intention—not scale or frequency. For someone who’s just arrived, the next step isn’t committing to a monthly ritual. It’s simply choosing one dinner that feels possible, not performative.</p>
 <p>Look for a host who shares something specific—not just “I love food,” but “I’m trying my grandma’s menudo recipe” or “We’ll eat under the pepper tree in the backyard.” That detail is an invitation, not a pitch. Click “Join” only if it resonates. And when you arrive, let yourself be guided by the moment, not the outcome. Connection in San Diego grows slowly, like the coast slowly shaping the cliff. It doesn’t need to happen all at once.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

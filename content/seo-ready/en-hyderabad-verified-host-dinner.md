@@ -33,6 +33,3 @@ recoveredFromD1: true
 <p>Leaving a Verified Host Dinner in Hyderabad doesn’t have to mean the connection ends. Some of the most lasting outcomes aren’t friendships, but the quiet confidence that you can find your table again—anywhere. Maybe you’ll host your own meal next time, sharing your version of Hyderabadi comfort food. Or you’ll return as a guest, now knowing what kind of room you need to feel present. The experience isn’t about one perfect night, but about refining your sense of where you belong.</p>
 <p>For people navigating Hyderabad’s evolving social landscape—remote workers, returnees, creatives—it offers a template for connection that doesn’t rely on status or proximity. You don’t need to live in the “right” neighbourhood or work at a particular company. You just need to show up with curiosity. And if, weeks later, you find yourself telling a colleague about a meal where you actually listened and were listened to, you’ll know the table did its job. That’s the quiet impact Fanju supports—not viral moments, but real ones.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

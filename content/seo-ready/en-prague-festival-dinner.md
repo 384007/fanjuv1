@@ -33,6 +33,3 @@ recoveredFromD1: true
 <p>The next move isn’t a signup form or a points system. It’s a decision: to open the Fanju app, browse one dinner that feels within reach, and send a message to the host. Maybe it’s just “Hi, I’d like to join,” or “I’ve never done this before—does that matter?” The exchange stays simple. There’s no algorithm ranking your profile or pressure to attend monthly. The human thread remains intact.</p>
 <p>Over time, some guests begin hosting their own dinners—returning the gesture in a way that feels natural, not obligated. A software developer in Dejvice might host a quiet Friday night with dumplings and talk about focus in distracted times. A student from Brno might invite others to try her grandmother’s bábovka recipe. These aren’t events. They’re offerings. And in a city like Prague, where centuries of history live in the walls but daily life moves quickly, they become small anchors—proof that connection doesn’t need spectacle to matter.</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。

@@ -66,4 +66,3 @@ In a city where even the busiest streets have hidden alleys of calm, the small-t
 Fanju brings together like-minded people through small, structured dining experiences. in the heart of en，不仅仅是找个饭搭子，更是为了在这座城市独特的饮食社交氛围中，通过Fanju建立高质量的线下社交闭环。
 
 ## Experience the local dinner scene
-In en, 这座城市独特的社交氛围 寻找同城志同道合的饭友 在 Fanju，我们致力于为你筛选最地道的社交场景，每一次约饭都是对本地生活方式的一次深入体验，不仅是找饭搭子，更是为了在当地建立高质量的社交连接。

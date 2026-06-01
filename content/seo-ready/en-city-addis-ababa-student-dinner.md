@@ -37,6 +37,3 @@ recoveredFromD1: true
 <p>&lt;p&gt;So, when is the best time to use the Fanju app for a student dinner in Addis Ababa? The answer is simple – whenever you&#039;re looking to connect with like-minded students and experience the city&#039;s local food scene in a new way.&lt;/p&gt;</p>
 <p>&lt;p&gt;Whether you&#039;re a newcomer to the city, or a seasoned resident looking to try something new, the Fanju app is the perfect way to discover the hidden gems of Addis Ababa&#039;s culinary scene. By joining a student dinner through this platform, you&#039;ll not only enjoy delicious, locally-sourced food but also gain a deeper understanding of the city&#039;s rhythms and traditions.&lt;/p&gt;</p>
 </article>
-
-## 在当地通过饭局连接更多同频伙伴
-Fanju / 饭局 app 的设计初衷，是让每一个不想独自面对餐桌的人，都能找到基于真实场景的社交连接。通过精准的兴趣标签和透明的小桌规则，饭局app 降低了第一次见面的心理门槛。无论你是想寻找更多同城饭搭子，还是希望扩建你的本地人脉网络，Fanju app 都能帮你跨过线上到线下的断层。我们不堆砌热闹的数字，只提供真实、可信、且具有边界感的饭局入口，让每一次约饭都成为一次高质量的本地连接。
