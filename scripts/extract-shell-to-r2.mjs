@@ -23,55 +23,38 @@ const WORKER_CONFIG = "workers/fanju-seo/wrangler.toml"
 const R2_BUCKET = "fanju-articles-prod"
 const DRY_RUN = process.argv.includes("--dry-run")
 
-// ── Find a city article HTML to use as template source ───────────────────────
+// ── Find the shell source HTML ────────────────────────────────────────────────
 
 function findCityArticleHtml() {
-  // prefer a city/[city]/[topic] style article that was built
-  const cityDir = join(OUT_DIR, "city")
-  try {
-    const cities = readdirSync(cityDir)
-    for (const city of cities) {
-      const cityPath = join(cityDir, city)
-      try {
-        const topics = readdirSync(cityPath)
-        for (const topic of topics) {
-          const htmlPath = join(cityPath, topic, "index.html")
-          try {
-            const stat = readdirSync(join(cityPath, topic))
-            if (stat.includes("index.html")) {
-              return join(cityPath, topic, "index.html")
-            }
-          } catch {}
-          // also try direct slug HTML at out/
-        }
-      } catch {}
-    }
-  } catch {}
-
-  // fallback: any city-slug article at top-level out/
-  const files = readdirSync(OUT_DIR).filter((f) => f.endsWith(".html") && f.includes("-guide"))
-  if (files.length) return join(OUT_DIR, files[0])
-
-  throw new Error("No city article HTML found in out/ — run `pnpm build` first")
+  // Use a fully-SSG page that has static header + footer baked into HTML
+  const preferred = [
+    join(OUT_DIR, "what-is-fanju.html"),
+    join(OUT_DIR, "social-dining.html"),
+    join(OUT_DIR, "what-is-social-dining.html"),
+  ]
+  for (const p of preferred) {
+    try {
+      readFileSync(p)
+      return p
+    } catch {}
+  }
+  throw new Error("No shell source HTML found in out/ — run `pnpm build` first")
 }
 
 // ── Split HTML into shell_head + shell_tail ───────────────────────────────────
 
 function splitShell(html) {
-  // The article <main> always has class="min-h-screen bg-background text-foreground"
   const MAIN_OPEN = /<main class="min-h-screen[^"]*"/
   const mainMatch = html.match(MAIN_OPEN)
   if (!mainMatch) throw new Error("Could not find article <main class='min-h-screen'> in HTML")
 
-  const mainStart = mainMatch.index
-  const mainTagEnd = html.indexOf(">", mainStart) + 1
-
-  // Find closing </main>
   const mainClose = html.lastIndexOf("</main>")
   if (mainClose === -1) throw new Error("Could not find </main> in HTML")
 
-  const shellHead = html.slice(0, mainStart)
-  const shellTail = html.slice(mainClose + 7) // after </main>
+  const shellHead = html.slice(0, mainMatch.index)
+  // Strip RSC payload — prevents source page's React tree from overwriting worker content
+  const shellTail = html.slice(mainClose + 7)
+    .replace(/<script>\s*self\.__next_f[\s\S]*?<\/script>/g, "")
 
   return { shellHead, shellTail }
 }
