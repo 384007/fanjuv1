@@ -55,6 +55,10 @@ QUALITY_SCORE_THRESHOLDS = {
 
 _IGNORE = [
     ".git",
+    ".venv",
+    "venv",
+    "__pycache__",
+    "*.pyc",
     "node_modules",
     ".next",
     "dist",
@@ -65,6 +69,10 @@ _IGNORE = [
     ".env.*",
     ".cookie-profiles",
     "*_COOKIES.txt",
+    "private",
+    "docs",
+    "modal",
+    "sub2api",
     # NOTE: do NOT ignore content/seo-ready or content/seo-published —
     # they hold the git-committed seed articles that the Next.js
     # catch-all routes (app/[...slug], app/en/[...slug]) need at
