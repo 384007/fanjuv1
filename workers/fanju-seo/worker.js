@@ -80,7 +80,7 @@ async function buildPageResponse(url, article, body, env, headOnly = false) {
     const zhUrl = `${origin}${isEn ? alternatePath : path}`
     const enUrl = `${origin}${isEn ? path : alternatePath}`
     const jsonLd = buildJsonLd({ origin, canonicalUrl, title, description, lang, route,
-      faqItems: buildFaqItems(route, isEn), article, zhUrl, enUrl })
+      faqItems: buildFaqItems(route, isEn, body), article, zhUrl, enUrl })
 
     const head = shellHead
       .replace(/<title>[^<]*<\/title>/, `<title>${escapeHtml(title)}</title>`)
@@ -119,11 +119,10 @@ function buildArticleInnerHtml(url, article, body, _env, isEn, route) {
   const title = article.title || ""
   const description = article.description || ""
   const summary = answerSummary(route, isEn)
-  const sourceParagraphs = extractBodyParagraphs(body)
 
   const breadcrumbItems = [
     { href: "/", label: "Fanju" },
-    { href: `${isEn ? "/en" : ""}/city/${route.citySlug}`, label: isEn ? route.city : `${route.city}` },
+    { href: `${isEn ? "/en" : ""}/city/${route.citySlug}`, label: route.city },
     { href: path, label: title },
   ]
   const breadcrumbHtml = breadcrumbItems.map((crumb, i) =>
@@ -134,12 +133,13 @@ function buildArticleInnerHtml(url, article, body, _env, isEn, route) {
     `</li>`,
   ).join("")
 
-  const paragraphsHtml = sourceParagraphs.slice(0, 12)
-    .map((p) => `<p>${escapeHtml(p)}</p>`).join("\n")
+  // Render the actual article body (H2/H3 + paragraphs) from body content
+  const bodyHtml = renderBodyContent(body)
 
-  const faqItems = buildFaqItems(route, isEn)
+  // FAQ from actual article content when available, else topic-based
+  const faqItems = buildFaqItems(route, isEn, body)
   const faqHtml = faqItems.map((item) =>
-    `<div><h3 class="font-serif text-xl mb-2">${escapeHtml(item.question)}</h3><p>${escapeHtml(item.answer)}</p></div>`,
+    `<div><h3>${escapeHtml(item.question)}</h3><p>${escapeHtml(item.answer)}</p></div>`,
   ).join("\n")
 
   const relatedLinks = defaultRelatedLinks(isEn)
@@ -158,21 +158,136 @@ function buildArticleInnerHtml(url, article, body, _env, isEn, route) {
     `</div></nav>` +
     `<div class="mx-auto max-w-[1100px] px-4 py-12 md:px-8 md:py-16 lg:grid lg:grid-cols-[1fr_280px] lg:gap-12">` +
     `<article class="prose-fanju">` +
-    `<h1 class="mt-0 mb-4 font-serif text-4xl text-foreground md:text-5xl">${escapeHtml(title)}</h1>` +
-    `<div class="answer-summary mb-5 border-l-4 border-accent bg-card/40 px-4 py-4">` +
-    `<p class="m-0 text-sm leading-relaxed text-muted-foreground md:text-base">${escapeHtml(summary)}</p></div>` +
-    `<section id="direct-answer">` +
-    `<h2 class="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">${escapeHtml(isEn ? `${route.topic.en} overview` : `${route.topic.joinZh}说明`)}</h2>` +
-    `<p class="mb-4 text-sm leading-relaxed text-muted-foreground md:text-base">${escapeHtml(description)}</p>` +
-    `</section>` +
-    paragraphsHtml +
-    `<section id="faq"><h2 class="font-serif text-2xl mt-8 mb-4">${isEn ? "FAQ" : "常见问题"}</h2>${faqHtml}</section>` +
+    `<h1>${escapeHtml(title)}</h1>` +
+    `<div class="answer-summary"><p>${escapeHtml(summary)}</p></div>` +
+    (description ? `<p>${escapeHtml(description)}</p>` : "") +
+    bodyHtml +
+    (faqItems.length ? `<section id="faq"><h2>${isEn ? "常见问题" : "常见问题"}</h2>${faqHtml}</section>` : "") +
     `</article>` +
     `<aside class="mt-12 space-y-6 lg:mt-0">` +
     relatedLinksHtml +
     `<a href="/" class="flex border border-border bg-secondary/40 px-4 py-3 font-mono text-[11px] tracking-[0.18em] text-foreground uppercase transition-colors hover:border-accent/70 hover:text-accent">${isEn ? "Back to Home" : "回到首页"}</a>` +
     `</aside></div>` +
     `</main>`
+}
+
+/**
+ * 将文章 body（Markdown 或 HTML）渲染为完整 HTML，保留 H2/H3 标题结构
+ * 去掉第一个 H1（已在 <h1> 标签中显示），跳过技术/AI 泄露文字
+ */
+function renderBodyContent(body = "") {
+  const text = String(body || "").trim()
+  if (!text) return ""
+
+  const isHtml = text.includes("<p") || text.includes("<h") || text.includes("<ul")
+
+  if (isHtml) {
+    // HTML body: sanitize and pass through, strip bad content
+    const cleaned = text
+      .replace(/<script\b[\s\S]*?<\/script>/gi, "")
+      .replace(/<style\b[\s\S]*?<\/style>/gi, "")
+      // Remove first <h1> (shown separately)
+      .replace(/<h1\b[^>]*>[\s\S]*?<\/h1>/i, "")
+      // Strip any lines containing leaked tech keywords
+      .split("\n")
+      .filter((line) => !BAD_PUBLIC_TEXT_RE.test(line))
+      .join("\n")
+    return cleaned
+  }
+
+  // Markdown body: convert to HTML, preserving H2/H3 structure
+  const lines = text.split("\n")
+  const parts = []
+  let skipFirst = true // skip first # heading (already in <h1>)
+  let i = 0
+
+  while (i < lines.length) {
+    const line = lines[i]
+    const trimmed = line.trim()
+
+    if (!trimmed) { i++; continue }
+    if (BAD_PUBLIC_TEXT_RE.test(trimmed)) { i++; continue }
+
+    // Skip code fences
+    if (trimmed.startsWith("```")) {
+      i++
+      while (i < lines.length && !lines[i].trim().startsWith("```")) i++
+      i++
+      continue
+    }
+
+    const h1 = trimmed.match(/^#\s+(.+)$/)
+    if (h1) {
+      if (skipFirst) { skipFirst = false; i++; continue }
+      // Treat secondary # as h2
+      parts.push(`<h2>${escapeHtml(h1[1].trim())}</h2>`)
+      i++; continue
+    }
+
+    const h2 = trimmed.match(/^##\s+(.+)$/)
+    if (h2) {
+      parts.push(`<h2>${escapeHtml(h2[1].trim())}</h2>`)
+      i++; continue
+    }
+
+    const h3 = trimmed.match(/^###\s+(.+)$/)
+    if (h3) {
+      parts.push(`<h3>${escapeHtml(h3[1].trim())}</h3>`)
+      i++; continue
+    }
+
+    // HR
+    if (trimmed === "---" || trimmed === "***") {
+      parts.push("<hr>")
+      i++; continue
+    }
+
+    // Unordered list
+    if (/^[-*] /.test(trimmed)) {
+      const items = []
+      while (i < lines.length && /^[-*] /.test(lines[i].trim())) {
+        const t = lines[i].trim().replace(/^[-*] /, "")
+        if (!BAD_PUBLIC_TEXT_RE.test(t)) items.push(`<li>${escapeHtml(t)}</li>`)
+        i++
+      }
+      if (items.length) parts.push(`<ul>${items.join("")}</ul>`)
+      continue
+    }
+
+    // Ordered list
+    if (/^\d+\.\s/.test(trimmed)) {
+      const items = []
+      while (i < lines.length && /^\d+\.\s/.test(lines[i].trim())) {
+        const t = lines[i].trim().replace(/^\d+\.\s/, "")
+        if (!BAD_PUBLIC_TEXT_RE.test(t)) items.push(`<li>${escapeHtml(t)}</li>`)
+        i++
+      }
+      if (items.length) parts.push(`<ol>${items.join("")}</ol>`)
+      continue
+    }
+
+    // Paragraph: collect consecutive non-blank, non-heading lines
+    const paraLines = []
+    while (
+      i < lines.length &&
+      lines[i].trim() !== "" &&
+      !lines[i].trim().startsWith("#") &&
+      !/^[-*] /.test(lines[i].trim()) &&
+      !/^\d+\.\s/.test(lines[i].trim()) &&
+      lines[i].trim() !== "---"
+    ) {
+      if (!BAD_PUBLIC_TEXT_RE.test(lines[i].trim())) paraLines.push(lines[i].trim())
+      i++
+    }
+    if (paraLines.length) {
+      const paraText = paraLines.join(" ")
+        .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+      if (paraText.trim()) parts.push(`<p>${paraText}</p>`)
+    }
+  }
+
+  return parts.join("\n")
 }
 
 function lang(isEn) { return isEn ? "en" : "zh-CN" }
@@ -281,11 +396,10 @@ async function buildHtml(url, article, body, env) {
   const enUrl = `${origin}${enPath}`
   const alternateUrl = isEn ? zhUrl : enUrl
   const route = routeContext(currentPath, article, isEn)
-  const title = isEn ? `${route.city} ${route.topic.en} Guide` : `${route.city}${route.topic.zh}指南`
-  const description = answerSummary(route, isEn)
-  const sourceParagraphs = extractBodyParagraphs(body)
-  const faqItems = buildFaqItems(route, isEn)
-  const articleSections = buildArticleSections(route, isEn, sourceParagraphs, faqItems)
+  const title = article.title || (isEn ? `${route.city} ${route.topic.en} Guide` : `${route.city}${route.topic.zh}指南`)
+  const description = article.description || answerSummary(route, isEn)
+  const faqItems = buildFaqItems(route, isEn, body)
+  const articleBodyHtml = renderBodyContent(body)
   const relatedLinks = await buildRelatedLinks(route, currentPath, isEn, env)
   const jsonLd = buildJsonLd({
     origin,
@@ -352,7 +466,7 @@ async function buildHtml(url, article, body, env) {
     ${renderKeyPoints(route, isEn)}
   </div></section>
   <main>
-    <article class="article">${articleSections}</article>
+    <article class="article">${articleBodyHtml}</article>
     ${renderRelatedLinks(relatedLinks, isEn)}
   </main>
   <footer><div class="foot-inner">© ${new Date().getFullYear()} Fanju · fanju.app</div></footer>
@@ -435,7 +549,40 @@ function inferZhCity(title, topicZh, citySlug) {
       if (city) return city
     }
   }
-  return titleCase(citySlug || "饭局")
+  const CITY_ZH = {
+    "shenzhen":"深圳","guangzhou":"广州","shanghai":"上海","beijing":"北京",
+    "hangzhou":"杭州","chengdu":"成都","xiamen":"厦门","changsha":"长沙",
+    "nanjing":"南京","suzhou":"苏州","wuhan":"武汉","chongqing":"重庆",
+    "xian":"西安","qingdao":"青岛","zhengzhou":"郑州","foshan":"佛山",
+    "dongguan":"东莞","zhuhai":"珠海","tianjin":"天津","ningbo":"宁波",
+    "kunming":"昆明","hefei":"合肥","fuzhou":"福州","changchun":"长春",
+    "harbin":"哈尔滨","shijiazhuang":"石家庄","jinan":"济南","taiyuan":"太原",
+    "nanchang":"南昌","nanning":"南宁","guiyang":"贵阳","urumqi":"乌鲁木齐",
+    "lanzhou":"兰州","xining":"西宁","hohhot":"呼和浩特","yinchuan":"银川",
+    "lhasa":"拉萨","haikou":"海口","sanya":"三亚","wenzhou":"温州",
+    "wuxi":"无锡","nantong":"南通","yangzhou":"扬州","hefei":"合肥",
+    "zibo":"淄博","jiaxing":"嘉兴","taizhou":"台州","jinhua":"金华",
+    "huzhou":"湖州","shaoxing":"绍兴","quanzhou":"泉州","zhangzhou":"漳州",
+    "xinxiang":"新乡","luoyang":"洛阳","kaifeng":"开封","anyang":"安阳",
+    "changzhou":"常州","xuzhou":"徐州","lianyungang":"连云港","huainan":"淮南",
+    "baoding":"保定","tangshan":"唐山","langfang":"廊坊","handan":"邯郸",
+    "yangquan":"阳泉","datong":"大同","linfen":"临汾","jinzhong":"晋中",
+    "hefei":"合肥","wuhu":"芜湖","bengbu":"蚌埠","huainan":"淮南",
+    "maanshan":"马鞍山","tongling":"铜陵","anqing":"安庆",
+    "new-york":"纽约","san-francisco":"旧金山","los-angeles":"洛杉矶",
+    "vancouver":"温哥华","toronto":"多伦多","london":"伦敦","tokyo":"东京",
+    "sydney":"悉尼","melbourne":"墨尔本","singapore":"新加坡",
+    "hong-kong":"香港","taipei":"台北","seoul":"首尔","bangkok":"曼谷",
+    "kuala-lumpur":"吉隆坡","jakarta":"雅加达","ho-chi-minh":"胡志明市",
+    "osaka":"大阪","nagoya":"名古屋","fukuoka":"福冈","kyoto":"京都",
+    "paris":"巴黎","berlin":"柏林","amsterdam":"阿姆斯特丹","dubai":"迪拜",
+    "chicago":"芝加哥","boston":"波士顿","seattle":"西雅图","houston":"休斯顿",
+    "auckland":"奥克兰","brisbane":"布里斯班","perth":"珀斯",
+    "lima":"利马","bogota":"波哥大","mexico-city":"墨西哥城",
+    "cairo":"开罗","nairobi":"内罗毕","accra":"阿克拉","lagos":"拉各斯",
+    "mumbai":"孟买","delhi":"德里","bangalore":"班加罗尔","chennai":"金奈",
+  }
+  return CITY_ZH[citySlug] || titleCase(citySlug || "饭局")
 }
 
 function titleCase(slug = "") {
@@ -584,7 +731,32 @@ function renderArticleSection(section) {
   ].join("\n")
 }
 
-function buildFaqItems(route, isEn) {
+/**
+ * Extract FAQ from article body HTML (h3 + following p pairs).
+ * Falls back to template FAQ if body has fewer than 2 real items.
+ */
+function extractFaqFromBody(body = "", route, isEn) {
+  const html = String(body || "")
+  if (!html.includes("<h3")) return buildTemplateFaqItems(route, isEn)
+
+  const items = []
+  const h3Re = /<h3[^>]*>([\s\S]*?)<\/h3>\s*<p[^>]*>([\s\S]*?)<\/p>/gi
+  let match
+  while ((match = h3Re.exec(html)) !== null && items.length < 5) {
+    const q = decodeEntities(stripTags(match[1])).trim()
+    const a = decodeEntities(stripTags(match[2])).trim()
+    if (q && a && q.length > 5 && a.length > 10 && !BAD_PUBLIC_TEXT_RE.test(q) && !BAD_PUBLIC_TEXT_RE.test(a)) {
+      items.push({ question: q, answer: a })
+    }
+  }
+  return items.length >= 2 ? items : buildTemplateFaqItems(route, isEn)
+}
+
+function buildFaqItems(route, isEn, body = "") {
+  return extractFaqFromBody(body, route, isEn)
+}
+
+function buildTemplateFaqItems(route, isEn) {
   if (isEn) {
     return [
       {

@@ -1704,22 +1704,50 @@ function escapeHtml(input = "") {
     .replaceAll("'", "&#039;")
 }
 
-function inlineMarkdown(text = "") {
-  return escapeHtml(stripPublicLinks(text))
+function inlineMarkdown(text = "", linkMap = null) {
+  let out = escapeHtml(stripPublicLinks(text))
     .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
     .replace(/\*([^*]+)\*/g, "<em>$1</em>")
+  // Inject internal links from internalLinkPlan (longest anchor first to avoid partial replacement)
+  if (linkMap && linkMap.length) {
+    for (const { anchor, url } of linkMap) {
+      if (!anchor || !url) continue
+      const escaped = anchor.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+      // Only replace first occurrence, not inside existing <a> tags
+      out = out.replace(
+        new RegExp(`(?<!<[^>]*)${escaped}(?![^<]*>)`),
+        `<a href="${url}">${anchor}</a>`,
+      )
+    }
+  }
+  return out
 }
 
 function bodyToArticleHtml(prompt, result) {
   const lines = String(result.body || "").replace(/\r\n/g, "\n").split("\n")
+  // Build link map: longest anchor first so "Fanju 饭局app" matches before "Fanju"
+  const rawLinks = prompt?.editorialBrief?.internalLinkPlan || []
+  const linkMap = [...rawLinks]
+    .filter((l) => l.anchor && l.url && l.url.startsWith("/"))
+    .sort((a, b) => b.anchor.length - a.anchor.length)
   const html = []
   let paragraph = []
   let list = []
   let listType = ""
 
+  // Track which anchors have been used (inject each link only once)
+  const usedAnchors = new Set()
+  const linkMapOnce = (usedSet) => linkMap.filter((l) => !usedSet.has(l.anchor))
+
   const flushParagraph = () => {
     if (!paragraph.length) return
-    html.push(`<p>${inlineMarkdown(paragraph.join(" ").trim())}</p>`)
+    const available = linkMapOnce(usedAnchors)
+    const rendered = inlineMarkdown(paragraph.join(" ").trim(), available)
+    // Mark any anchor that appeared in this paragraph as used
+    for (const { anchor } of available) {
+      if (rendered.includes(`href=`) && rendered.includes(anchor)) usedAnchors.add(anchor)
+    }
+    html.push(`<p>${rendered}</p>`)
     paragraph = []
   }
 
@@ -2405,6 +2433,31 @@ async function publishReadyEntries(entries, publishedState) {
     return publicEntry
   }))
   saveJsonState(PUBLISHED_FILE, publishedState)
+
+  // Auto-submit newly published URLs to IndexNow, Baidu, and external platforms
+  if (!DRY_RUN) {
+    const urls = entries
+      .map((e) => e.canonicalPath)
+      .filter(Boolean)
+      .map((p) => `https://fanju.app${p.startsWith("/") ? p : `/${p}`}`)
+      .join(",")
+    if (urls) {
+      try {
+        const { spawnSync } = await import("child_process")
+        spawnSync(
+          process.execPath,
+          [join(ROOT, "scripts/seo/submit-cloudflare-article-urls.mjs")],
+          {
+            cwd: ROOT,
+            stdio: "inherit",
+            env: { ...process.env, URLS: urls, PLATFORMS: "indexnow,baidu,gist,devto,bluesky" },
+          },
+        )
+      } catch (err) {
+        console.warn("[SUBMIT] External submit failed (non-fatal):", String(err?.message || err).slice(0, 200))
+      }
+    }
+  }
 }
 
 function writeSourceMarkdownEntries(entries) {
