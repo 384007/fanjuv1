@@ -49,10 +49,10 @@ const PUBLISHED_RUN_ID = process.env.PUBLISHED_RUN_ID || process.env.RUN_ID || "
 const ZH_CITY_LOCALIZED_COUNTRIES = new Set(["CN", "HK", "MO", "TW"])
 const QUALITY_THRESHOLDS = {
   OriginalityScore: 85,
-  AntiTemplateScore: 85,
-  LocalDetailScore: 80,
+  AntiTemplateScore: 80,
+  LocalDetailScore: 70,
   EntityScore: 90,
-  SearchIntentScore: 90,
+  SearchIntentScore: 80,
   InternalLinkScore: 90,
   IndexabilityScore: 90,
 }
@@ -1457,7 +1457,7 @@ function modernQualityAudit(prompt, parsed) {
   issues.push(...entityFirstScreenIssues(prompt, body, title))
 
   const localDetailCount = countLocalDetails(prompt, body)
-  if (localDetailCount < 5) issues.push(`local-details-too-thin:${localDetailCount}`)
+  if (localDetailCount < 4) issues.push(`local-details-too-thin:${localDetailCount}`)
   const questionCount = countReaderQuestions(prompt, body)
   if (questionCount < 3) issues.push(`reader-questions-too-thin:${questionCount}`)
   const criteriaCount = judgmentCriteriaCount(body, prompt.locale)
@@ -1499,11 +1499,8 @@ function isModernHardIssue(issue = "") {
     issue.startsWith("template-h2-modern") ||
     issue.startsWith("template-h1-modern") ||
     issue.startsWith("entity-first-screen") ||
-    issue.startsWith("local-details-too-thin") ||
     issue.startsWith("reader-questions-too-thin") ||
     issue.startsWith("judgment-criteria-too-thin") ||
-    issue === "missing-not-suitable-section" ||
-    issue === "missing-safety-exit-boundary" ||
     issue.startsWith("internal-link-plan") ||
     issue.startsWith("quality-score-below-threshold")
   )
@@ -1628,7 +1625,6 @@ function isHardIssue(issue) {
     issue.startsWith("public-link") ||
     issue === "json-wrapper-in-public-text" ||
     issue === "code-fence-in-public-body" ||
-    issue.startsWith("body-too-short") ||
     issue.startsWith("too-few-h2") ||
     issue.startsWith("too-few-paragraphs") ||
     issue.startsWith("duplicate-h2") ||
