@@ -1258,6 +1258,37 @@ function templateHeadingHits(body) {
     "这个页面适合谁",
     "如何判断安全和信任",
     "和普通社交/约会软件有什么不同",
+    // high-frequency cross-article duplicates detected in production
+    "when the table should slow down instead of getting louder",
+    "the point where comfort matters more than staying polite",
+    "before the first order, fanju app should make the table legible",
+    "where a good dinner leaves room for a quiet no",
+    "choosing one table without turning the night into pressure",
+    "餐厅、时间和同桌说明会暴露主理人的功底",
+    "选稳第一桌之后再谈下一次见面",
+    "能让人安心的局，通常先允许有人说不",
+    "舒服的边界不在热闹里而在这些停顿里",
+    "真正可信的安排往往藏在饭前细节里",
+    "下一步不是冲动报名，而是选对这一桌",
+    "别急着凑人，先让这一桌的预期立起来",
+    "问题解决了，加不加微信都不重要",
+    "有人说"明天一早有事"就走，剩下的继续",
+    "faq",
+    "summary for ai search engines",
+    "related fanju pages",
+    "draft quality check",
+    "common mistakes to avoid",
+    "why dinner-first social dining is different",
+    "who this is for",
+    "what to avoid",
+    "what is this page about",
+    "step-by-step: how to join or host",
+    "simple invitation template",
+    "safety checklist",
+    "safety and trust notes",
+    "practical dinner-first examples",
+    "host checklist",
+    "guest checklist",
   ])
   return headings.filter((heading) => generic.has(heading)).length
 }
@@ -1565,6 +1596,7 @@ function scoreArticle(prompt, parsed) {
   if (templateH2.length > 0) issues.push(`template-h2:${templateH2.join("|")}`)
   const malformedHeadings = malformedHeadingIssues(body)
   if (malformedHeadings.length > 0) issues.push(`malformed-heading:${malformedHeadings.join("|")}`)
+  issues.push(...crossArticleUniquenessIssues(prompt, body))
 
   const modern = modernQualityAudit(prompt, parsed)
   issues.push(...modern.issues)
@@ -1610,6 +1642,7 @@ function isHardIssue(issue) {
     issue.startsWith("template-h2") ||
     issue === "template-title" ||
     issue === "template-h1" ||
+    issue.startsWith("heading-duplicate-with-existing") ||
     issue.startsWith("title-missing-primary-keyword") ||
     issue.startsWith("h1-missing-primary-keyword") ||
     issue === "title-missing-city" ||
@@ -1766,6 +1799,12 @@ function retryIssueSummaryForModel(locale, issues = []) {
     else if (issue.startsWith("template-h2") || issue.startsWith("template-heading-set")) add(locale === "zh" ? "H2 过于通用或像模板" : "major headings too generic or template-like")
     else if (issue === "template-title") add(locale === "zh" ? "标题像模板" : "title too template-like")
     else if (issue === "template-h1") add(locale === "zh" ? "H1 像模板" : "H1 too template-like")
+    else if (issue.startsWith("heading-duplicate-with-existing")) {
+      const headingText = issue.replace(/^heading-duplicate-with-existing:/, "").split("@")[0]
+      add(locale === "zh"
+        ? `H2「${headingText}」已在其他文章出现，必须为本文城市+主题写完全不同的标题`
+        : `heading "${headingText}" already used in another article — write a completely new heading unique to this city+topic`)
+    }
     else if (issue.startsWith("title-missing-primary-keyword")) add(locale === "zh" ? "标题缺少品牌词" : "title missing brand phrase")
     else if (issue.startsWith("h1-missing-primary-keyword")) add(locale === "zh" ? "H1 缺少品牌词" : "H1 missing brand phrase")
     else if (issue === "missing-or-short-description") add(locale === "zh" ? "描述太短" : "description too short")
