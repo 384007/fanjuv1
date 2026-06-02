@@ -160,7 +160,6 @@ function buildArticleInnerHtml(url, article, body, _env, isEn, route) {
     `<article class="prose-fanju">` +
     `<h1>${escapeHtml(title)}</h1>` +
     `<div class="answer-summary"><p>${escapeHtml(summary)}</p></div>` +
-    (description ? `<p>${escapeHtml(description)}</p>` : "") +
     bodyHtml +
     (faqItems.length ? `<section id="faq"><h2>${isEn ? "常见问题" : "常见问题"}</h2>${faqHtml}</section>` : "") +
     `</article>` +
@@ -179,26 +178,37 @@ function renderBodyContent(body = "") {
   const text = String(body || "").trim()
   if (!text) return ""
 
-  const isHtml = text.includes("<p") || text.includes("<h") || text.includes("<ul")
+  // Detect if the body is already fully-converted HTML (has real block-level HTML tags)
+  // A body that only has <article> wrapper but contains Markdown lines is NOT html
+  const strippedOfWrapper = text.replace(/<\/?article[^>]*>/gi, "").trim()
+  const isHtml = (strippedOfWrapper.includes("<h2") || strippedOfWrapper.includes("<h3"))
+    && !strippedOfWrapper.match(/^#+\s/m)
 
   if (isHtml) {
-    // HTML body: sanitize and pass through, strip bad content
-    const cleaned = text
+    return strippedOfWrapper
       .replace(/<script\b[\s\S]*?<\/script>/gi, "")
       .replace(/<style\b[\s\S]*?<\/style>/gi, "")
-      // Remove first <h1> (shown separately)
-      .replace(/<h1\b[^>]*>[\s\S]*?<\/h1>/i, "")
-      // Strip any lines containing leaked tech keywords
+      .replace(/<h1\b[^>]*>[\s\S]*?<\/h1>/gi, "")
+      // Remove <p> tags whose text content starts with # (leaked markdown heading)
+      .replace(/<p[^>]*>\s*#[^<]*<\/p>/gi, "")
       .split("\n")
       .filter((line) => !BAD_PUBLIC_TEXT_RE.test(line))
       .join("\n")
-    return cleaned
   }
 
-  // Markdown body: convert to HTML, preserving H2/H3 structure
-  const lines = text.split("\n")
+  // Markdown body (possibly wrapped in <article><p>...</p></article>)
+  // Strip HTML wrapper tags and extract text content before parsing as Markdown
+  const md = strippedOfWrapper
+    .replace(/<p>/gi, "")
+    .replace(/<\/p>/gi, "\n\n")
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<[^>]+>/g, "")
+    .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"').replace(/&#039;/g, "'")
+
+  const lines = md.split("\n")
   const parts = []
-  let skipFirst = true // skip first # heading (already in <h1>)
+  let skipFirst = true
   let i = 0
 
   while (i < lines.length) {
@@ -207,42 +217,24 @@ function renderBodyContent(body = "") {
 
     if (!trimmed) { i++; continue }
     if (BAD_PUBLIC_TEXT_RE.test(trimmed)) { i++; continue }
-
-    // Skip code fences
     if (trimmed.startsWith("```")) {
       i++
       while (i < lines.length && !lines[i].trim().startsWith("```")) i++
-      i++
-      continue
+      i++; continue
     }
 
     const h1 = trimmed.match(/^#\s+(.+)$/)
     if (h1) {
       if (skipFirst) { skipFirst = false; i++; continue }
-      // Treat secondary # as h2
       parts.push(`<h2>${escapeHtml(h1[1].trim())}</h2>`)
       i++; continue
     }
-
     const h2 = trimmed.match(/^##\s+(.+)$/)
-    if (h2) {
-      parts.push(`<h2>${escapeHtml(h2[1].trim())}</h2>`)
-      i++; continue
-    }
-
+    if (h2) { parts.push(`<h2>${escapeHtml(h2[1].trim())}</h2>`); i++; continue }
     const h3 = trimmed.match(/^###\s+(.+)$/)
-    if (h3) {
-      parts.push(`<h3>${escapeHtml(h3[1].trim())}</h3>`)
-      i++; continue
-    }
+    if (h3) { parts.push(`<h3>${escapeHtml(h3[1].trim())}</h3>`); i++; continue }
+    if (trimmed === "---") { parts.push("<hr>"); i++; continue }
 
-    // HR
-    if (trimmed === "---" || trimmed === "***") {
-      parts.push("<hr>")
-      i++; continue
-    }
-
-    // Unordered list
     if (/^[-*] /.test(trimmed)) {
       const items = []
       while (i < lines.length && /^[-*] /.test(lines[i].trim())) {
@@ -253,8 +245,6 @@ function renderBodyContent(body = "") {
       if (items.length) parts.push(`<ul>${items.join("")}</ul>`)
       continue
     }
-
-    // Ordered list
     if (/^\d+\.\s/.test(trimmed)) {
       const items = []
       while (i < lines.length && /^\d+\.\s/.test(lines[i].trim())) {
@@ -266,7 +256,6 @@ function renderBodyContent(body = "") {
       continue
     }
 
-    // Paragraph: collect consecutive non-blank, non-heading lines
     const paraLines = []
     while (
       i < lines.length &&
