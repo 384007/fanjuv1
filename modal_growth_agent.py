@@ -33,7 +33,6 @@ OUTPUT_PATHS = [
 AI_PROVIDER_ORDER = "cerebras,cerebras2,cerebras3,cerebras4,groq,groq2,gemini,gemini2,openrouter,nvidia,nvidia2,cloudflare"
 
 RUNTIME_PIPELINE_FILES = [
-    "modal_article_audit.py",
     "components/seo-ready-article-page.tsx",
     "lib/seo-ready-articles.ts",
     "scripts/check-seo-ready-routes.mjs",
