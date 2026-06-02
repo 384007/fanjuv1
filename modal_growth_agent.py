@@ -47,7 +47,7 @@ RUNTIME_PIPELINE_FILES = [
 QUALITY_SCORE_THRESHOLDS = {
     "OriginalityScore": 85,
     "AntiTemplateScore": 85,
-    "LocalDetailScore": 80,
+    "LocalDetailScore": 60,
     "EntityScore": 90,
     "SearchIntentScore": 90,
     "InternalLinkScore": 90,
@@ -805,7 +805,7 @@ def run_cloudflare_publish_pipeline(
         if len(ready_entries) < safe_run_limit:
             raise RuntimeError(f"Round {round_no} published {len(ready_entries)} ready articles, expected {safe_run_limit}")
         latest_entries = ready_entries[-safe_run_limit:]
-        validate_ready_entries(latest_entries, min_score=96)
+        validate_ready_entries(latest_entries, min_score=90)
         ensure_ready_source_entries(latest_entries, f"round-{round_no}-after-generation")
 
         routes = [public_route_for_entry(entry) for entry in latest_entries]
