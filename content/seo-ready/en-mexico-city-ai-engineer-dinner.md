@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260529T060030Z"
 ---
 
-# Mexico City AI engineers do not have the same problems as the ones in San Francisco or London, and most dinner tables still pretend they do
+# Mexico City AI engineers do not have the same problems as the ones in San Francisco or London, and most dinner tables still pretend they do | Fanju app
 
 The people actually building and deploying AI systems in Mexico City are dealing with data sovereignty laws that change every six months, GPUs that cost three times as much after the peso moves, and clients who want GPT-level results on a 2019 budget. A dinner table that starts from the assumption that everyone in the room is optimizing the same transformer architecture as the people in the Mission or Shoreditch is not a serious table. The useful ones are the ones where the host has already filtered for people who have actually shipped something in this regulatory and economic environment.
 

@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260529T220010Z"
 ---
 
-# Chicago angel investors who actually write checks and are tired of the same three rooms
+# Chicago angel investors who actually write checks and are tired of the same three rooms | Fanju app
 
 Chicago’s early-stage scene is smaller and more relationship-driven than the coastal hype suggests. The people who actually deploy capital here already know each other from the same three funds, the same two accelerators, and the same West Loop dinners. Newer angels or operators who want to get better at diligence keep getting pulled into the same “let’s all meet the founders” events where the real conversations happen in the corners or after everyone has left.
 

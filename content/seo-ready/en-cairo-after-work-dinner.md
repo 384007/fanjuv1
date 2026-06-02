@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260530T050010Z"
 ---
 
-# Cairo after-work reality is not the same for everyone who crosses the Nile at 6pm
+# Cairo after-work reality is not the same for everyone who crosses the Nile at 6pm | Fanju app
 
 Cairo after-work dinners only make sense when the table actually understands that "after work" means completely different things depending on whether you live in Zamalek, Maadi, Heliopolis, or New Cairo, and whether you are a woman who has to get home before dark or a man whose family expects dinner on the table. The traffic across the Nile bridges at 7-9pm is not a minor inconvenience. It is a hard constraint that determines who can actually stay for a full meal and who is already calculating the fastest way out before they even sit down.
 

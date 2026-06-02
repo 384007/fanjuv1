@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260529T190011Z"
 ---
 
-# Boston baristas who actually want to talk about coffee instead of networking
+# Boston baristas who actually want to talk about coffee instead of networking | Fanju app
 
 Boston’s coffee scene is small, intense, and oddly lonely once you’re past the first year. The serious baristas and roasters in South End, Cambridge, and the North End already know each other from the same four cafes and the same three competitions. Newer people or those who just want to talk about actual roasting variables, water chemistry, or why the espresso machine at their shop keeps breaking get stuck in the same polite but shallow conversations at industry events.
 

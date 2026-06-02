@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260528T140017Z"
 ---
 
-# Chennai downtown after 7pm is not the same city the rest of the day
+# Chennai downtown after 7pm is not the same city the rest of the day | Fanju app
 
 Chennai downtown after seven in the evening is a completely different beast from the version that exists at 11am. The heat that was merely oppressive during the day becomes something that makes you question every life choice that brought you to this traffic signal. The people who actually work in Parry's Corner, or the older commercial buildings around Mount Road, or the IT corridors that spill into the center, have very different ideas about what "dinner" means and how much of their soul they are willing to spend crossing the city again after dark.
 

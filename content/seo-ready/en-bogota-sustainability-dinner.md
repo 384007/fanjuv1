@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260529T020012Z"
 ---
 
-# Bogota sustainability talk is cheap until you live above 2600 meters with real waste and water problems
+# Bogota sustainability talk is cheap until you live above 2600 meters with real waste and water problems | Fanju app
 
 Bogota talks a lot about sustainability on paper and at corporate events, but the actual daily reality for most residents is altitude headaches, diesel fumes that never fully clear in the valleys, and neighborhoods where trash collection is irregular and water pressure drops for days. A real Sustainability Dinner in this city is not about ESG slides or reusable straws. It is about people who actually deal with these constraints sitting down and saying what works and what is performative bullshit.
 

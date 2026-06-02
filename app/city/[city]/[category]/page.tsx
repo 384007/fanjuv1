@@ -12,16 +12,9 @@ type PageProps = { params: Promise<{ city: string; category: string }> }
 export const dynamicParams = false
 
 export function generateStaticParams() {
-  const seen = new Set<string>()
-  return [
-    ...cities.flatMap((city) => categories.map((category) => ({ city: city.slug, category: category.slug }))),
-    ...getSeoReadyCityCategoryParams("zh"),
-  ].filter((param) => {
-    const key = `${param.city}/${param.category}`
-    if (seen.has(key)) return false
-    seen.add(key)
-    return true
-  })
+  // City-category articles are served by the fanju-seo Worker (D1 + R2).
+  // Return a placeholder so output:export doesn't complain about missing params.
+  return [{ city: "__worker__", category: "__worker__" }]
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {

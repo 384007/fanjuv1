@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260528T200012Z"
 ---
 
-# Dubai hospitality workers do not have the same "after work" as the people they serve drinks to
+# Dubai hospitality workers do not have the same "after work" as the people they serve drinks to | Fanju app
 
 The people who actually work in Dubai's hotels, restaurants, and private clubs finish their shifts at completely different times from the people who sit at their tables. A hospitality dinner that pretends everyone in the room has the same freedom at 9pm is not a serious dinner. The ones who live in staff accommodation in Sonapur or Al Quoz and finish a split shift at 11pm have a completely different life from the ones who live in JLT or Business Bay and can actually plan an evening. Most "hospitality industry" events in this city are attended by the second group. The first group is too tired and too far away.
 

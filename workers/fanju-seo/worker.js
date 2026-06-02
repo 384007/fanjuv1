@@ -1,5 +1,28 @@
 export default {
   async fetch(request, env) {
+    const url = new URL(request.url)
+    const method = request.method
+
+    // Intercept GET/HEAD for city article paths: /city/[city]/[topic] and /en/city/[city]/[topic]
+    if ((method === "GET" || method === "HEAD") &&
+        /^\/(?:en\/)?city\/[^/]+\/[^/]+$/.test(normalizePath(url.pathname))) {
+      try {
+        const path = normalizePath(url.pathname)
+        const slug = path.replace(/^\//, "")
+        let article = await _findReadyArticle(slug, env)
+        if (!article) article = await _findAlternateReadyArticle(slug, env)
+        if (article) {
+          const body = await articleBody(article, env)
+          if (body && !isBadPublicArticle(article, body)) {
+            return buildPageResponse(url, article, body, env, method === "HEAD")
+          }
+        }
+      } catch (err) {
+        console.error("Worker article error:", err)
+        // fall through to Pages
+      }
+    }
+
     return fetchPages(request, env)
   },
 }
@@ -34,16 +57,132 @@ async function _findAlternateReadyArticle(slug, env) {
   return null
 }
 
+async function buildPageResponse(url, article, body, env, headOnly = false) {
+  const path = normalizePath(url.pathname)
+  const isEn = path.startsWith("/en/") || article.lang === "en"
+  const lang = isEn ? "en" : "zh-CN"
+  const alternatePath = alternatePathFor(path)
+  const origin = `${url.protocol}//${url.host}`
+  const canonicalUrl = `${origin}${path}`
+  const title = article.title || path.split("/").at(-1) || "Fanju"
+  const description = article.description || ""
+  const route = routeContext(path, article, isEn)
+
+  // Try R2 shell first (exact same CSS/fonts/JS as Pages static build)
+  const [shellHead, shellTail] = await Promise.all([
+    env.FANJU_ARTICLES?.get("shell/head.html").then((o) => o?.text()).catch(() => null),
+    env.FANJU_ARTICLES?.get("shell/tail.html").then((o) => o?.text()).catch(() => null),
+  ])
+
+  let html
+  if (shellHead && shellTail) {
+    // Inject per-page <title>, <meta>, canonical, hreflang into shell head
+    const zhUrl = `${origin}${isEn ? alternatePath : path}`
+    const enUrl = `${origin}${isEn ? path : alternatePath}`
+    const jsonLd = buildJsonLd({ origin, canonicalUrl, title, description, lang, route,
+      faqItems: buildFaqItems(route, isEn), article, zhUrl, enUrl })
+
+    const head = shellHead
+      .replace(/<title>[^<]*<\/title>/, `<title>${escapeHtml(title)}</title>`)
+      .replace(/<meta name="description"[^>]*>/, `<meta name="description" content="${escapeHtml(description)}">`)
+      .replace(/<link rel="canonical"[^>]*>/, `<link rel="canonical" href="${escapeHtml(canonicalUrl)}">`)
+      // inject hreflang + JSON-LD right before </head>
+      .replace(
+        /<\/head>/,
+        `<link rel="alternate" hreflang="${isEn ? "zh" : "en"}" href="${escapeHtml(isEn ? zhUrl : enUrl)}">` +
+        `<link rel="alternate" hreflang="x-default" href="${escapeHtml(enUrl)}">` +
+        `<script type="application/ld+json">${escapeJsonForHtml(jsonLd)}</script>` +
+        `</head>`,
+      )
+
+    const articleContent = buildArticleInnerHtml(url, article, body, env, isEn, route)
+    html = head + articleContent + shellTail
+  } else {
+    // Fallback: standalone HTML (no shell — happens before first deploy)
+    html = await buildHtml(url, article, body, env)
+  }
+
+  return new Response(headOnly ? null : html, {
+    headers: {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "public, max-age=3600, stale-while-revalidate=86400",
+      "x-fanju-served-by": "worker-r2",
+    },
+  })
+}
+
+/** Builds the inner HTML that replaces the static <main> in the shell */
+function buildArticleInnerHtml(url, article, body, _env, isEn, route) {
+  const path = normalizePath(url.pathname)
+  const alternatePath = alternatePathFor(path)
+  const origin = `${url.protocol}//${url.host}`
+  const title = article.title || ""
+  const description = article.description || ""
+  const summary = answerSummary(route, isEn)
+  const sourceParagraphs = extractBodyParagraphs(body)
+
+  const breadcrumbItems = [
+    { href: "/", label: "Fanju" },
+    { href: `${isEn ? "/en" : ""}/city/${route.citySlug}`, label: isEn ? route.city : `${route.city}` },
+    { href: path, label: title },
+  ]
+  const breadcrumbHtml = breadcrumbItems.map((crumb, i) =>
+    `<li class="flex items-center gap-1">${i > 0 ? '<span aria-hidden>/</span>' : ""}` +
+    (i < breadcrumbItems.length - 1
+      ? `<a href="${escapeHtml(crumb.href)}" class="transition-colors hover:text-accent">${escapeHtml(crumb.label)}</a>`
+      : `<span class="text-foreground">${escapeHtml(crumb.label)}</span>`) +
+    `</li>`,
+  ).join("")
+
+  const paragraphsHtml = sourceParagraphs.slice(0, 12)
+    .map((p) => `<p>${escapeHtml(p)}</p>`).join("\n")
+
+  const faqItems = buildFaqItems(route, isEn)
+  const faqHtml = faqItems.map((item) =>
+    `<div><h3 class="font-serif text-xl mb-2">${escapeHtml(item.question)}</h3><p>${escapeHtml(item.answer)}</p></div>`,
+  ).join("\n")
+
+  const relatedLinks = defaultRelatedLinks(isEn)
+  const relatedLinksHtml = relatedLinks.length
+    ? `<div><p class="mb-4 font-mono text-[10px] tracking-[0.24em] text-muted-foreground uppercase">${isEn ? "Related Pages" : "相关页面"}</p>` +
+      `<div class="grid grid-cols-1 gap-px border border-border/60 bg-border/60">` +
+      relatedLinks.map((l) => `<a href="${escapeHtml(l.href)}" class="bg-card/45 px-3 py-3 text-sm text-foreground transition-colors hover:text-accent">${escapeHtml(l.label)}</a>`).join("") +
+      `</div></div>`
+    : ""
+
+  return `<main class="min-h-screen bg-background text-foreground" lang="${lang(isEn)}">` +
+    `<nav aria-label="breadcrumb" class="border-b border-border/40 bg-card/20">` +
+    `<div class="mx-auto flex max-w-[1100px] items-center justify-between px-4 py-2 md:px-8">` +
+    `<ol class="flex flex-wrap items-center gap-1 font-mono text-[10px] tracking-[0.18em] text-muted-foreground uppercase">${breadcrumbHtml}</ol>` +
+    `<a href="${escapeHtml(alternatePath)}" class="font-mono text-[10px] tracking-[0.18em] text-muted-foreground uppercase transition-colors hover:text-accent">${isEn ? "中文" : "English"}</a>` +
+    `</div></nav>` +
+    `<div class="mx-auto max-w-[1100px] px-4 py-12 md:px-8 md:py-16 lg:grid lg:grid-cols-[1fr_280px] lg:gap-12">` +
+    `<article class="prose-fanju">` +
+    `<h1 class="mt-0 mb-4 font-serif text-4xl text-foreground md:text-5xl">${escapeHtml(title)}</h1>` +
+    `<div class="answer-summary mb-5 border-l-4 border-accent bg-card/40 px-4 py-4">` +
+    `<p class="m-0 text-sm leading-relaxed text-muted-foreground md:text-base">${escapeHtml(summary)}</p></div>` +
+    `<section id="direct-answer">` +
+    `<h2 class="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">${escapeHtml(isEn ? `${route.topic.en} overview` : `${route.topic.joinZh}说明`)}</h2>` +
+    `<p class="mb-4 text-sm leading-relaxed text-muted-foreground md:text-base">${escapeHtml(description)}</p>` +
+    `</section>` +
+    paragraphsHtml +
+    `<section id="faq"><h2 class="font-serif text-2xl mt-8 mb-4">${isEn ? "FAQ" : "常见问题"}</h2>${faqHtml}</section>` +
+    `</article>` +
+    `<aside class="mt-12 space-y-6 lg:mt-0">` +
+    relatedLinksHtml +
+    `<a href="/" class="flex border border-border bg-secondary/40 px-4 py-3 font-mono text-[11px] tracking-[0.18em] text-foreground uppercase transition-colors hover:border-accent/70 hover:text-accent">${isEn ? "Back to Home" : "回到首页"}</a>` +
+    `</aside></div>` +
+    `</main>`
+}
+
+function lang(isEn) { return isEn ? "en" : "zh-CN" }
+
 async function _articleResponse(url, article, env, headOnly) {
   if (!article) return null
   const body = await articleBody(article, env)
   if (!body || isBadPublicArticle(article, body)) return null
   return htmlResponse(url, article, body, env, headOnly)
 }
-
-void _findReadyArticle
-void _findAlternateReadyArticle
-void _articleResponse
 
 async function articleBody(article, env) {
   if (article.r2_key && env.FANJU_ARTICLES) {
@@ -685,19 +824,26 @@ function buildJsonLd({ origin, canonicalUrl, title, description, lang, route, fa
 }
 
 function extractBodyParagraphs(body = "") {
-  const html = String(body || "").replace(/<script\b[\s\S]*?<\/script>/gi, "").replace(/<style\b[\s\S]*?<\/style>/gi, "")
+  const text = String(body || "")
+  // Detect markdown vs HTML
+  if (!text.includes("<p") && !text.includes("<h")) {
+    // Markdown: extract non-heading, non-empty lines as paragraphs
+    const seen = new Set()
+    return text.split("\n")
+      .map((l) => l.trim())
+      .filter((l) => l && !l.startsWith("#") && !l.startsWith("-") && !l.startsWith("*") && !/^\d+\./.test(l) && !l.startsWith("|") && l !== "---")
+      .map((l) => decodeEntities(l).replace(/\s+/g, " ").trim())
+      .filter((l) => l.length > 30 && !BAD_PUBLIC_TEXT_RE.test(l))
+      .filter((l) => { const k = l.toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true })
+  }
+  const html = text.replace(/<script\b[\s\S]*?<\/script>/gi, "").replace(/<style\b[\s\S]*?<\/style>/gi, "")
   const paragraphs = []
   for (const match of html.matchAll(/<p\b(?![^>]*class=["'][^"']*\bdek\b[^"']*["'])[^>]*>([\s\S]*?)<\/p>/gi)) {
-    const text = decodeEntities(stripTags(match[1])).replace(/\s+/g, " ").trim()
-    if (text && !BAD_PUBLIC_TEXT_RE.test(text)) paragraphs.push(text)
+    const t = decodeEntities(stripTags(match[1])).replace(/\s+/g, " ").trim()
+    if (t && !BAD_PUBLIC_TEXT_RE.test(t)) paragraphs.push(t)
   }
   const seen = new Set()
-  return paragraphs.filter((paragraph) => {
-    const key = paragraph.replace(/\s+/g, "").toLowerCase()
-    if (seen.has(key)) return false
-    seen.add(key)
-    return true
-  })
+  return paragraphs.filter((p) => { const k = p.replace(/\s+/g, "").toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true })
 }
 
 function stripTags(input = "") {

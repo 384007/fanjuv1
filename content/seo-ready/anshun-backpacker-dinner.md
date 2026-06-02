@@ -10,7 +10,7 @@ description: "安顺背包客饭局通过 Fanju 小桌饭局提前说明主题�
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96
-status: "ready"
+status: "draft"
 renderMode: "source"
 recoveredFromD1: "true"
 ---

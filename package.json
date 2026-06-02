@@ -4,12 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/seo/pre-build-remediate.mjs && QUIET_SEO_READY_CHECK=1 node scripts/check-seo-ready-routes.mjs && node scripts/generate-sitemaps.mjs && node scripts/seo/validate-indexability.mjs && next build --webpack && node scripts/prune-cloudflare-static-export.mjs && node scripts/seo/check-city-topic-pages.mjs",
+    "build": "node scripts/seo/pre-build-remediate.mjs && QUIET_SEO_READY_CHECK=1 node scripts/check-seo-ready-routes.mjs && node scripts/generate-sitemaps.mjs && node scripts/seo/validate-indexability.mjs && next build --webpack && node scripts/prune-cloudflare-static-export.mjs",
     "build:static-og": "node scripts/generate-static-og-images.mjs",
     "start": "next start",
     "lint": "eslint .",
     "cf:build": "pnpm build",
-    "cf:deploy": "pnpm cf:build && npx wrangler pages deploy out --project-name fanjuv1 --commit-dirty=true",
+    "cf:deploy": "pnpm cf:build && node scripts/extract-shell-to-r2.mjs && npx wrangler pages deploy out --project-name fanjuv1 --commit-dirty=true && npx wrangler deploy --config workers/fanju-seo/wrangler.toml",
     "cf:deploy:pages": "pnpm cf:build && npx wrangler pages deploy out --project-name fanjuv1 --commit-dirty=true",
     "ship": "node scripts/ship.mjs",
     "generate:sitemaps": "node scripts/generate-sitemaps.mjs",
@@ -78,7 +78,10 @@
     "seo:audit:links": "node scripts/seo/audit-article-links.mjs",
     "seo:audit:quality": "node scripts/seo/audit-article-quality.mjs",
     "seo:audit:sitemap": "node scripts/seo/audit-sitemap-indexability.mjs",
-    "seo:content:all": "pnpm seo:taxonomy && pnpm seo:topics && pnpm seo:articles && pnpm seo:audit:links && pnpm seo:audit:quality && pnpm seo:audit:sitemap"
+    "seo:content:all": "pnpm seo:taxonomy && pnpm seo:topics && pnpm seo:articles && pnpm seo:audit:links && pnpm seo:audit:quality && pnpm seo:audit:sitemap",
+    "sync:articles": "node scripts/sync-articles-to-d1.mjs",
+    "sync:articles:dry": "node scripts/sync-articles-to-d1.mjs --dry-run",
+    "extract:shell": "node scripts/extract-shell-to-r2.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",

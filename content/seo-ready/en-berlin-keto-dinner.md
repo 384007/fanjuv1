@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260530T070006Z"
 ---
 
-# Berlin keto people who are sick of the same three restaurants and the same three conversations
+# Berlin keto people who are sick of the same three restaurants and the same three conversations | Fanju app
 
 Berlin has a strange split on food right now. On one side you have the old-school German heavy bread, beer, and late-night culture. On the other a growing group of people who are strict about what they put in their bodies but still want real social life instead of just another sad salad at home. The problem is that the healthy crowd often ends up in the same five places in Prenzlauer Berg or the same overpriced “clean” spots in Mitte, talking to the same faces about the same three topics. A useful keto dinner here has to be something narrower than “healthy people eat together.”
 

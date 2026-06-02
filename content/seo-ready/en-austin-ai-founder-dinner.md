@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260529T220010Z"
 ---
 
-# Austin AI founders who are tired of the same three bars and the same three conversations
+# Austin AI founders who are tired of the same three bars and the same three conversations | Fanju app
 
 Austin’s AI/startup scene has a very specific social problem. The people who are actually building (not just raising or selling) are often deep in code or fundraising cycles. When they do go out, they keep running into the same surface-level “what are you building?” conversations at the same three East Side bars or the same “founder happy hours.”
 

@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260529T000015Z"
 ---
 
-# Jakarta BBQ is not a rooftop hobby. It is what people do when the traffic and the rain have already stolen the rest of the day.
+# Jakarta BBQ is not a rooftop hobby. It is what people do when the traffic and the rain have already stolen the rest of the day. | Fanju app
 
 In Jakarta, the decision to sit around a grill for three hours is not a lifestyle choice. It is what remains after you have already lost two hours to traffic in each direction and the afternoon rain has made the roads into rivers. The people who actually organize and attend real BBQ dinners here are usually the ones who have accepted that the city will take most of their day anyway, so they might as well claim the evening with fire and meat and people who understand the same math.
 

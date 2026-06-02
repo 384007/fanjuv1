@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260530T040011Z"
 ---
 
-# Boston Downtown Dinner for people who actually work and live here
+# Boston Downtown Dinner for people who actually work and live here | Fanju app
 
 Downtown Boston (and the immediate Seaport/Financial District area) has a very specific social texture that most “dinner with strangers” formats completely miss. The people who are actually around after 6pm are often finance, tech, law, or healthcare workers who just got off long days and are either commuting back to Cambridge/Somerville/JP or are staying in the city because they have an early morning. Many of them are tired of the same three “networking” bars and the same surface-level conversations.
 

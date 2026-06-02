@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260529T220010Z"
 ---
 
-# Lima pop-up dinners are mostly a way for chefs to clear inventory before the next inspection or rent increase
+# Lima pop-up dinners are mostly a way for chefs to clear inventory before the next inspection or rent increase | Fanju app
 
 Lima's pop-up dinner scene is not a celebration of creativity. It is what happens when commercial rents are impossible, health inspections are unpredictable, and the only way to test a concept without signing a two-year lease is to borrow someone's kitchen for one night and hope the neighbors do not call the municipality. The people who actually run and attend real pop-ups here have already learned which ones are serious tests of a future restaurant and which ones are just a chef trying to move 40 kilos of fish before it turns.
 

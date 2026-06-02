@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260530T070006Z"
 ---
 
-# Boston media people who actually want to talk instead of network
+# Boston media people who actually want to talk instead of network | Fanju app
 
 Boston’s media scene is small, overworked, and oddly fragmented. People at the Globe, WBUR, local podcasts, and the tech-media crossover around MIT and Harvard spend their days chasing deadlines and their evenings either stuck on the T or trapped in “casual” happy hours in the Seaport that always turn into who-do-you-know contests. A real media dinner here is useful only when it solves the specific problem of “I want one focused conversation with two or three people who actually read the same stuff I do, and I need to be home before the last Red Line train stops running.”
 

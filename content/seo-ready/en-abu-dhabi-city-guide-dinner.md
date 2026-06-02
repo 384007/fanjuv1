@@ -13,7 +13,7 @@ status: "ready"
 renderMode: "source"
 ---
 
-# Abu Dhabi, new in town, and tired of scrolling for people who are also just figuring it out
+# Abu Dhabi, new in town, and tired of scrolling for people who are also just figuring it out | Fanju app
 
 Abu Dhabi is full of people who just arrived for a project, a posting, or a fresh start. The city has excellent restaurants, beautiful corniches, and plenty of events. What it doesn’t have is an obvious way for a 32-year-old engineer or designer or researcher to meet other people in the same situation without it turning into either a networking trap or a weirdly formal dinner.
 

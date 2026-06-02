@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260530T040011Z"
 ---
 
-# Kyoto vegetarian is not a lifestyle. It is what happens when you have already spent 45 minutes on a bus and the only place that actually respects shojin is 20 minutes in the wrong direction.
+# Kyoto vegetarian is not a lifestyle. It is what happens when you have already spent 45 minutes on a bus and the only place that actually respects shojin is 20 minutes in the wrong direction. | Fanju app
 
 Kyoto has more vegetarian and shojin-ryori places on paper than almost any city in Japan, and fewer places that will actually serve you a proper meal without fish stock or cross-contamination if you walk in after 7pm as a group of strangers. The people who actually maintain a real vegetarian or vegan life here have already learned the hard way which temples and restaurants are serious and which ones are just marketing to tourists. A vegetarian dinner table that does not start from this reality is not a useful table.
 

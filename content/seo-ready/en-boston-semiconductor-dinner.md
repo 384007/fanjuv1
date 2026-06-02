@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260529T110012Z"
 ---
 
-# Boston semiconductor people who actually build things and are tired of the same three events
+# Boston semiconductor people who actually build things and are tired of the same three events | Fanju app
 
 Boston’s semiconductor and hardware scene is real but fragmented. There are people at Analog Devices, at startups in the Seaport and Kendall, at MIT labs, and at the contract manufacturers scattered around. The problem is that the good technical people are either buried in work or only see the same faces at the big industry dinners and the same three “networking” happy hours.
 

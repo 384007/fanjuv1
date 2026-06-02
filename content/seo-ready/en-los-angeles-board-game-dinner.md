@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260529T130015Z"
 ---
 
-# Los Angeles board gamers who are tired of the same three stores and the same three people
+# Los Angeles board gamers who are tired of the same three stores and the same three people | Fanju app
 
 Los Angeles has a massive board game scene, but it is extremely fragmented by neighborhood, by game weight, and by social vibe. The serious eurogamers, the party game crowd, the wargamers, and the “just here to drink and roll dice” people rarely mix. Once you are past the casual stage, you keep seeing the same faces at the same three stores or the same apartment nights, and it becomes hard to meet new people who are actually at a similar level and also want to talk about strategy instead of just the latest Kickstarter.
 

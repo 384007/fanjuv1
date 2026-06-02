@@ -27,7 +27,7 @@ articleBriefVersion: "deterministic-brief-v1"
 publishedRunId: "production-cloudflare-20260530T040011Z"
 ---
 
-# Phoenix football people who are done with the same three sports bars and the same three conversations
+# Phoenix football people who are done with the same three sports bars and the same three conversations | Fanju app
 
 In the Valley, football is religion, but talking about it seriously with new people is surprisingly hard. The serious fans already have their groups at the same three bars or the same tailgates. Casual fans or people who actually want to talk schemes, injuries, or why their team’s offensive line is a disaster end up in the same loud, generic sports bar environments where real conversation is impossible.
 
