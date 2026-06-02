@@ -265,6 +265,14 @@ const TOPIC_LABELS: Record<string, { zh: string; en: string }> = {
   "designer-dinner": { zh: "设计师饭局", en: "Designer Dinner" },
   "industry-dinner": { zh: "行业饭局", en: "Industry Dinner" },
   "valentines-dinner": { zh: "情人节饭局", en: "Valentine's Dinner" },
+  "bbq-dinner": { zh: "烧烤饭局", en: "BBQ Dinner" },
+  "hotpot-dinner": { zh: "火锅饭局", en: "Hotpot Dinner" },
+  "halal-dinner": { zh: "清真饭局", en: "Halal Dinner" },
+  "vegetarian-dinner": { zh: "素食饭局", en: "Vegetarian Dinner" },
+  "no-alcohol-dinner": { zh: "无酒精饭局", en: "No Alcohol Dinner" },
+  "private-room-dinner": { zh: "包厢饭局", en: "Private Room Dinner" },
+  "outdoor-dinner": { zh: "户外饭局", en: "Outdoor Dinner" },
+  "after-work-dinner": { zh: "下班饭局", en: "After Work Dinner" },
   "dinner-buddy": { zh: "饭搭子饭局", en: "Dinner Buddy" },
   "social-dining": { zh: "饭局社交", en: "Social Dining" },
 }
@@ -310,7 +318,7 @@ function topicLabel(slug = "social-dining") {
 
 function inferZhCity(title: string, topicZh: string, citySlug: string) {
   const compact = title.split(/[：:|｜-]/)[0]?.replace(/\s+/g, "") || ""
-  const beforeGuide = compact.replace(/指南.*$/, "")
+  const beforeGuide = compact.replace(/(?:指南|指引).*$/, "")
   const forms = [
     topicZh,
     topicZh.replace(/饭局社交$/, "饭局"),

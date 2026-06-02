@@ -431,6 +431,18 @@ const CITY_NAME_OVERRIDES: Record<string, { zh: string; en: string }> = {
   "hotan": { zh: "和田", en: "Hotan" },
   "longyan": { zh: "龙岩", en: "Longyan" },
   "yushu-qinghai": { zh: "青海玉树", en: "Yushu, Qinghai" },
+  "linxia": { zh: "临夏", en: "Linxia" },
+  "tianshui": { zh: "天水", en: "Tianshui" },
+  "zhangye": { zh: "张掖", en: "Zhangye" },
+  "turpan": { zh: "吐鲁番", en: "Turpan" },
+  "kashgar": { zh: "喀什", en: "Kashgar" },
+  "xinganmeng": { zh: "兴安盟", en: "Xingan League" },
+  "ordos": { zh: "鄂尔多斯", en: "Ordos" },
+  "lijiang": { zh: "丽江", en: "Lijiang" },
+  "dali": { zh: "大理", en: "Dali" },
+  "xishuangbanna": { zh: "西双版纳", en: "Xishuangbanna" },
+  "zhangjiajie": { zh: "张家界", en: "Zhangjiajie" },
+  "sanya": { zh: "三亚", en: "Sanya" },
 }
 
 const TOPIC_NAME_OVERRIDES: Record<string, { zh: string; en: string }> = {
@@ -441,6 +453,12 @@ const TOPIC_NAME_OVERRIDES: Record<string, { zh: string; en: string }> = {
   "parenting-dinner": { zh: "亲子饭局", en: "Parenting Dinner" },
   "peer-learning-dinner": { zh: "同伴学习饭局", en: "Peer Learning Dinner" },
   "third-place-dinner": { zh: "第三空间饭局", en: "Third Place Dinner" },
+  "bbq-dinner": { zh: "烧烤饭局", en: "BBQ Dinner" },
+  "hotpot-dinner": { zh: "火锅饭局", en: "Hotpot Dinner" },
+  "halal-dinner": { zh: "清真饭局", en: "Halal Dinner" },
+  "no-alcohol-dinner": { zh: "无酒精饭局", en: "No Alcohol Dinner" },
+  "private-room-dinner": { zh: "包厢饭局", en: "Private Room Dinner" },
+  "after-work-dinner": { zh: "下班饭局", en: "After Work Dinner" },
 }
 
 function hasCjk(value = "") {

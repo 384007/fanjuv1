@@ -95,7 +95,7 @@ async function buildPageResponse(url, article, body, env, headOnly = false) {
         `</head>`,
       )
 
-    const articleContent = buildArticleInnerHtml(url, article, body, env, isEn, route)
+    const articleContent = await buildArticleInnerHtml(url, article, body, env, isEn, route)
     html = head + articleContent + shellTail
   } else {
     // Fallback: standalone HTML (no shell — happens before first deploy)
@@ -112,7 +112,7 @@ async function buildPageResponse(url, article, body, env, headOnly = false) {
 }
 
 /** Builds the inner HTML that replaces the static <main> in the shell */
-function buildArticleInnerHtml(url, article, body, _env, isEn, route) {
+async function buildArticleInnerHtml(url, article, body, env, isEn, route) {
   const path = normalizePath(url.pathname)
   const alternatePath = alternatePathFor(path)
   const origin = `${url.protocol}//${url.host}`
@@ -139,10 +139,11 @@ function buildArticleInnerHtml(url, article, body, _env, isEn, route) {
   // FAQ from actual article content when available, else topic-based
   const faqItems = buildFaqItems(route, isEn, body)
   const faqHtml = faqItems.map((item) =>
-    `<div><h3>${escapeHtml(item.question)}</h3><p>${escapeHtml(item.answer)}</p></div>`,
+    `<div><h3 class="mt-6 mb-2 font-serif text-xl text-foreground">${escapeHtml(item.question)}</h3><p class="mb-4 text-sm leading-relaxed text-muted-foreground md:text-base">${escapeHtml(item.answer)}</p></div>`,
   ).join("\n")
 
-  const relatedLinks = defaultRelatedLinks(isEn)
+  // Build related links with city-aware internal links from D1
+  const relatedLinks = await buildRelatedLinks(route, path, isEn, env)
   const relatedLinksHtml = relatedLinks.length
     ? `<div><p class="mb-4 font-mono text-[10px] tracking-[0.24em] text-muted-foreground uppercase">${isEn ? "Related Pages" : "相关页面"}</p>` +
       `<div class="grid grid-cols-1 gap-px border border-border/60 bg-border/60">` +
@@ -158,10 +159,10 @@ function buildArticleInnerHtml(url, article, body, _env, isEn, route) {
     `</div></nav>` +
     `<div class="mx-auto max-w-[1100px] px-4 py-12 md:px-8 md:py-16 lg:grid lg:grid-cols-[1fr_280px] lg:gap-12">` +
     `<article class="prose-fanju">` +
-    `<h1>${escapeHtml(title)}</h1>` +
-    `<div class="answer-summary"><p>${escapeHtml(summary)}</p></div>` +
+    `<h1 class="mt-0 mb-4 font-serif text-4xl text-foreground md:text-5xl">${escapeHtml(title)}</h1>` +
+    `<div class="answer-summary mb-5 border-l-4 border-accent bg-card/40 px-4 py-4"><p class="m-0 text-sm leading-relaxed text-muted-foreground md:text-base">${escapeHtml(summary)}</p></div>` +
     bodyHtml +
-    (faqItems.length ? `<section id="faq"><h2>${isEn ? "常见问题" : "常见问题"}</h2>${faqHtml}</section>` : "") +
+    (faqItems.length ? `<section id="faq"><h2 class="mt-8 mb-3 font-serif text-3xl text-foreground md:text-4xl">${isEn ? "FAQ" : "常见问题"}</h2>${faqHtml}</section>` : "") +
     `</article>` +
     `<aside class="mt-12 space-y-6 lg:mt-0">` +
     relatedLinksHtml +
@@ -354,6 +355,18 @@ const TOPIC_LABELS = {
   "valentines-dinner": { zh: "情人节饭局", en: "Valentine's Dinner" },
   "dinner-buddy": { zh: "饭搭子饭局", en: "Dinner Buddy" },
   "social-dining": { zh: "饭局社交", en: "Social Dining" },
+  "bbq-dinner": { zh: "烧烤饭局", en: "BBQ Dinner" },
+  "hotpot-dinner": { zh: "火锅饭局", en: "Hotpot Dinner" },
+  "halal-dinner": { zh: "清真饭局", en: "Halal Dinner" },
+  "vegetarian-dinner": { zh: "素食饭局", en: "Vegetarian Dinner" },
+  "no-alcohol-dinner": { zh: "无酒精饭局", en: "No Alcohol Dinner" },
+  "private-room-dinner": { zh: "包厢饭局", en: "Private Room Dinner" },
+  "outdoor-dinner": { zh: "户外饭局", en: "Outdoor Dinner" },
+  "after-work-dinner": { zh: "下班饭局", en: "After Work Dinner" },
+  "tech-dinner": { zh: "科技饭局", en: "Tech Dinner" },
+  "creative-dinner": { zh: "创意饭局", en: "Creative Dinner" },
+  "women-dinner": { zh: "女性饭局", en: "Women's Dinner" },
+  "expat-dinner": { zh: "外籍人士饭局", en: "Expat Dinner" },
 }
 
 const BAD_PUBLIC_TEXT_RE =
@@ -521,7 +534,7 @@ function inferZhCity(title, topicZh, citySlug) {
     .replace(/&[#a-z0-9]+;/gi, "")
     .split(/[：:|｜-]/)[0]
     .replace(/\s+/g, "")
-  const beforeGuide = compact.replace(/指南.*$/, "")
+  const beforeGuide = compact.replace(/(?:指南|指引).*$/, "")
   const topicForms = [
     topicZh,
     topicZh.replace(/饭局社交$/, "饭局"),
@@ -549,15 +562,65 @@ function inferZhCity(title, topicZh, citySlug) {
     "nanchang":"南昌","nanning":"南宁","guiyang":"贵阳","urumqi":"乌鲁木齐",
     "lanzhou":"兰州","xining":"西宁","hohhot":"呼和浩特","yinchuan":"银川",
     "lhasa":"拉萨","haikou":"海口","sanya":"三亚","wenzhou":"温州",
-    "wuxi":"无锡","nantong":"南通","yangzhou":"扬州","hefei":"合肥",
+    "wuxi":"无锡","nantong":"南通","yangzhou":"扬州",
     "zibo":"淄博","jiaxing":"嘉兴","taizhou":"台州","jinhua":"金华",
     "huzhou":"湖州","shaoxing":"绍兴","quanzhou":"泉州","zhangzhou":"漳州",
     "xinxiang":"新乡","luoyang":"洛阳","kaifeng":"开封","anyang":"安阳",
     "changzhou":"常州","xuzhou":"徐州","lianyungang":"连云港","huainan":"淮南",
     "baoding":"保定","tangshan":"唐山","langfang":"廊坊","handan":"邯郸",
     "yangquan":"阳泉","datong":"大同","linfen":"临汾","jinzhong":"晋中",
-    "hefei":"合肥","wuhu":"芜湖","bengbu":"蚌埠","huainan":"淮南",
-    "maanshan":"马鞍山","tongling":"铜陵","anqing":"安庆",
+    "wuhu":"芜湖","bengbu":"蚌埠","maanshan":"马鞍山","tongling":"铜陵","anqing":"安庆",
+    // 甘肃/宁夏/新疆/西藏/内蒙
+    "linxia":"临夏","tianshui":"天水","jiayuguan":"嘉峪关","zhangye":"张掖",
+    "wuwei":"武威","baiyin":"白银","dingxi":"定西","longnan":"陇南","pingliang":"平凉","qingyang":"庆阳",
+    "zhongwei":"中卫","guyuan":"固原","shizuishan":"石嘴山",
+    "turpan":"吐鲁番","hami":"哈密","kashgar":"喀什","hotan":"和田","aksu":"阿克苏",
+    "bayingolin":"巴音郭楞","yili":"伊犁","changji":"昌吉","bortala":"博尔塔拉",
+    "shigatse":"日喀则","nyingchi":"林芝","shannan":"山南","nagqu":"那曲","ngari":"阿里",
+    "baotou":"包头","ordos":"鄂尔多斯","chifeng":"赤峰","tongliao":"通辽",
+    "hulunbuir":"呼伦贝尔","bayannur":"巴彦淖尔","ulanqab":"乌兰察布","xilingol":"锡林郭勒",
+    "xinganmeng":"兴安盟","alxa":"阿拉善",
+    // 东北补充
+    "shenyang":"沈阳","dalian":"大连","anshan":"鞍山","fushun":"抚顺","benxi":"本溪",
+    "dandong":"丹东","jinzhou":"锦州","yingkou":"营口","fuxin":"阜新","liaoyang":"辽阳",
+    "panjin":"盘锦","tieling":"铁岭","chaoyang":"朝阳","huludao":"葫芦岛",
+    "jilin":"吉林","siping":"四平","liaoyuan":"辽源","tonghua":"通化","baishan":"白山",
+    "songyuan":"松原","baicheng":"白城","yanbian":"延边",
+    "qiqihar":"齐齐哈尔","jixi":"鸡西","hegang":"鹤岗","shuangyashan":"双鸭山",
+    "daqing":"大庆","yichun":"伊春","mudanjiang":"牡丹江","heihe":"黑河","suihua":"绥化",
+    "daxinganling":"大兴安岭",
+    // 四川/贵州/云南补充
+    "mianyang":"绵阳","deyang":"德阳","zigong":"自贡","panzhihua":"攀枝花",
+    "luzhou":"泸州","nanchong":"南充","meishan":"眉山","yibin":"宜宾","guangan":"广安",
+    "dazhou":"达州","yaan":"雅安","bazhong":"巴中","ziyang":"资阳","aba":"阿坝","ganzi":"甘孜","liangshan":"凉山",
+    "zunyi":"遵义","liupanshui":"六盘水","anshun":"安顺","bijie":"毕节","tongren":"铜仁",
+    "qianxinan":"黔西南","qiannan":"黔南","qiandongnan":"黔东南",
+    "zhaotong":"昭通","qujing":"曲靖","yuxi":"玉溪","baoshan":"保山","lijiang":"丽江",
+    "pu-er":"普洱","lincang":"临沧","dali":"大理","dehong":"德宏","nujiang":"怒江",
+    "diqing":"迪庆","honghe":"红河","wenshan":"文山","xishuangbanna":"西双版纳",
+    "chuxiong":"楚雄",
+    // 广西/海南补充
+    "liuzhou":"柳州","guilin":"桂林","wuzhou":"梧州","beihai":"北海",
+    "fangchenggang":"防城港","qinzhou":"钦州","guigang":"贵港","yulin":"玉林",
+    "baise":"百色","hezhou":"贺州","hechi":"河池","laibin":"来宾","chongzuo":"崇左",
+    "wanning":"万宁","wenchang":"文昌","qionghai":"琼海","dongfang":"东方","danzhou":"儋州",
+    // 湖南/湖北/江西补充
+    "zhuzhou":"株洲","xiangtan":"湘潭","hengyang":"衡阳","shaoyang":"邵阳","yueyang":"岳阳",
+    "zhangjiajie":"张家界","yiyang":"益阳","chenzhou":"郴州","yongzhou":"永州",
+    "huaihua":"怀化","loudi":"娄底","xiangxi":"湘西",
+    "huangshi":"黄石","shiyan":"十堰","yichang":"宜昌","jingzhou":"荆州","jingmen":"荆门",
+    "xiaogan":"孝感","huanggang":"黄冈","xianning":"咸宁","suizhou":"随州",
+    "enshi":"恩施","xiantao":"仙桃","tianmen":"天门","qianjiang":"潜江",
+    "jingdezhen":"景德镇","pingxiang":"萍乡","jiujiang":"九江","xinyu":"新余",
+    "yingtan":"鹰潭","ganzhou":"赣州","jian":"吉安","yichun-jiangxi":"宜春","fuzhou-jiangxi":"抚州","shangrao":"上饶",
+    // 山东/河南补充
+    "zibo":"淄博","dongying":"东营","yantai":"烟台","weifang":"潍坊","jining":"济宁",
+    "taian":"泰安","weihai":"威海","rizhao":"日照","linyi":"临沂","dezhou":"德州",
+    "liaocheng":"聊城","binzhou":"滨州","heze":"菏泽",
+    "xinyang":"信阳","nanyang":"南阳","sanmenxia":"三门峡","jiaozuo":"焦作",
+    "puyang":"濮阳","xuchang":"许昌","pingdingshan":"平顶山","zhoukou":"周口",
+    "zhumadian":"驻马店","hebi":"鹤壁","luohe":"漯河",
+    // 国际城市补充
     "new-york":"纽约","san-francisco":"旧金山","los-angeles":"洛杉矶",
     "vancouver":"温哥华","toronto":"多伦多","london":"伦敦","tokyo":"东京",
     "sydney":"悉尼","melbourne":"墨尔本","singapore":"新加坡",
@@ -571,7 +634,7 @@ function inferZhCity(title, topicZh, citySlug) {
     "cairo":"开罗","nairobi":"内罗毕","accra":"阿克拉","lagos":"拉各斯",
     "mumbai":"孟买","delhi":"德里","bangalore":"班加罗尔","chennai":"金奈",
   }
-  return CITY_ZH[citySlug] || titleCase(citySlug || "饭局")
+  return CITY_ZH[citySlug] || citySlug
 }
 
 function titleCase(slug = "") {
