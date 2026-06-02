@@ -806,8 +806,8 @@ function buildEditorialBrief(profile) {
         { role: "entity definition", instruction: `Write an H2 that explains what Fanju app means in the specific context of ${topic} in ${city}, anchored in the scene: "${scene}".` },
         { role: "local details", instruction: `Write an H2 about a concrete local detail or tension specific to ${city} and ${topic}. Use the local detail: "${localDetails[0]}". Must name a real local friction, not a generic "local tips" heading.` },
         { role: "trust criteria", instruction: `Write an H2 about how to judge host, venue, or guest-mix quality for ${topic} in ${city}. Angle: "${lens}". Must be a specific judgment criterion, not "how to choose" or "what to look for".` },
-        { role: "fit and non-fit", instruction: `Write an H2 that distinguishes who this ${topic} table in ${city} is genuinely for versus who should skip it. Must be specific to this angle: "${lens}".` },
-        { role: "safety boundary", instruction: `Write an H2 about exit cues, follow-up pace, or safety signals for ${topic} in ${city}. Must be concrete and city-specific, not a generic "safety tips" heading.` },
+        { role: "fit and non-fit", instruction: `Write an H2 that captures a concrete match or mismatch scenario for ${topic} in ${city}, using the angle "${lens}". FORBIDDEN openers: never start with "Who should", "Who is", "Who can", or any variant of "who should join/skip". The heading must open with a city-specific scene, tension, or observation — not a generic audience label.` },
+        { role: "safety boundary", instruction: `Write an H2 about a concrete post-table decision or exit moment for ${topic} in ${city}, using the angle "${lens}". FORBIDDEN openers: never start with "Safety", "Boundaries", "Safety boundaries", "Comfort boundaries", "Exit cues", "Safety cues", or any generic safety/boundary label. The heading must describe a specific local moment or judgment scenario.` },
       ]
     : [
         { role: "search intent", instruction: `写一个 H2，用「${lens}」视角切入，框定读者在${city}参加${topicDisplayZh}饭局时的核心决策问题。不能是通用的"是什么"或"概述"标题。` },
