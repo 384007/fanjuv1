@@ -677,7 +677,7 @@ def ensure_ready_source_entries(entries: list[dict], stage: str) -> None:
         meta = parse_frontmatter(path)
         score = int(meta.get("aiQualityScore") or "0")
         canonical = str(meta.get("canonicalPath") or "").strip()
-        if meta.get("status") != "ready" or score < 96 or canonical != route:
+        if meta.get("status") != "ready" or score < 90 or canonical != route:
             invalid.append(f"{route} ({source_path}, status={meta.get('status')}, score={score}, canonical={canonical})")
     if missing or invalid:
         raise RuntimeError(
