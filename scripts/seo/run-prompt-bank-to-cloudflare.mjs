@@ -1613,6 +1613,7 @@ function scoreArticle(prompt, parsed) {
   if (issues.find((x) => x.startsWith("duplicate-paragraphs"))) score -= 10
   if (issues.find((x) => x.startsWith("repeated-generic-phrases"))) score -= 8
   if (issues.includes("missing-description")) score -= 8
+  if (issues.includes("description-missing-city")) score -= 4
   if (issues.includes("missing-title")) score -= 30
   const modernComposite = Math.min(...Object.entries(QUALITY_THRESHOLDS).map(([key]) => Number(modern.scores[key]) || 0))
   return { score: Math.max(Math.min(score, modernComposite), 0), issues, qualityScores: modern.scores }
@@ -1643,7 +1644,6 @@ function isHardIssue(issue) {
     issue.startsWith("h1-missing-primary-keyword") ||
     issue === "title-missing-city" ||
     issue === "h1-missing-city" ||
-    issue === "description-missing-city" ||
     issue === "description-duplicates-intro-opening" ||
     issue.startsWith("pinyin-city-name-in-zh-public-text") ||
     issue.startsWith("latin-word-in-zh-title") ||
@@ -1792,7 +1792,12 @@ function retryIssueSummaryForModel(locale, issues = []) {
     else if (issue.startsWith("repeated-paragraph-opening")) add(locale === "zh" ? "段落开头重复" : "repeated paragraph openings")
     else if (issue.startsWith("near-duplicate-paragraph") || issue.startsWith("intro-repeated-in-body")) add(locale === "zh" ? "段落骨架重复" : "near-duplicate paragraph structure")
     else if (issue.startsWith("repeated-generic-phrases")) add(locale === "zh" ? "通用表达重复" : "repeated generic phrases")
-    else if (issue.startsWith("template-h2") || issue.startsWith("template-heading-set")) add(locale === "zh" ? "H2 过于通用或像模板" : "major headings too generic or template-like")
+    else if (issue.startsWith("template-h2") || issue.startsWith("template-heading-set")) {
+      const bannedH2 = issue.replace(/^template-h2:/, "").replace(/^template-heading-set:/, "")
+      add(locale === "zh"
+        ? `H2「${bannedH2.replace(/\|/g, "」「")}」是模板化标题，必须重写为城市+主题专属的具体场景标题`
+        : `banned template H2: "${bannedH2.replace(/\|/g, '", "')}" — rewrite every H2 as a specific local tension unique to this city+topic, never a generic category`)
+    }
     else if (issue === "template-title") add(locale === "zh" ? "标题像模板" : "title too template-like")
     else if (issue === "template-h1") add(locale === "zh" ? "H1 像模板" : "H1 too template-like")
     else if (issue.startsWith("heading-duplicate-with-existing")) {
