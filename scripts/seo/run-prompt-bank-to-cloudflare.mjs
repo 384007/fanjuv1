@@ -1272,7 +1272,7 @@ function templateHeadingHits(body) {
     "下一步不是冲动报名，而是选对这一桌",
     "别急着凑人，先让这一桌的预期立起来",
     "问题解决了，加不加微信都不重要",
-    "有人说"明天一早有事"就走，剩下的继续",
+    "有人说「明天一早有事」就走，剩下的继续",
     "faq",
     "summary for ai search engines",
     "related fanju pages",
