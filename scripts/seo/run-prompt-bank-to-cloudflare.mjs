@@ -1825,13 +1825,17 @@ function retryPrompt(basePrompt, attempt, issues) {
   const isEn = basePrompt.locale === "en"
   const issueSummary = retryIssueSummaryForModel(basePrompt.locale, issues)
   const bodyTooLong = issues.some((issue) => issue.startsWith("body-too-long"))
+  const tooFewParaIssue = issues.find((issue) => issue.startsWith("too-few-paragraphs"))
+  const tooFewParaCount = tooFewParaIssue ? tooFewParaIssue.split(":")[1] : null
+  const paraWarningEn = tooFewParaCount ? ` CRITICAL: the previous draft only had ${tooFewParaCount} paragraphs — you MUST write at least 12 separate paragraph blocks separated by blank lines.` : ""
+  const paraWarningZh = tooFewParaCount ? `【严重】：上一稿只有 ${tooFewParaCount} 个自然段——必须写满至少 12 个独立自然段，段落之间必须空行。` : ""
   const lengthGuidance = isEn
     ? bodyTooLong
-      ? "Keep the body compact: 3,600-7,200 total characters, exactly 12-14 public paragraphs, no repeated sections, and no expansion for its own sake."
-      : "Use exactly 12-14 separate public paragraphs with blank lines between paragraphs. Use exactly 6 distinct H2 sections, with exactly two paragraph blocks under each H2. Do not use bullet lists, numbered lists, or H4-H10 headings."
+      ? `Keep the body compact: 3,600-7,200 total characters, exactly 12-14 public paragraphs, no repeated sections, and no expansion for its own sake.${paraWarningEn}`
+      : `Use exactly 12-14 separate public paragraphs with blank lines between paragraphs. Use exactly 6 distinct H2 sections, with exactly two paragraph blocks under each H2. Do not use bullet lists, numbered lists, or H4-H10 headings.${paraWarningEn}`
     : bodyTooLong
-      ? "正文要收紧到 2,800-5,000 字符，正好 12-14 个公开自然段，不要重复小节，不要为了凑长扩写。"
-      : "使用正好 12-14 个公开自然段，段落之间空行；必须正好 6 个独立 H2，每个 H2 下正好两个自然段；不要项目符号、编号列表或 H4-H10 标题。"
+      ? `正文要收紧到 2,800-5,000 字符，正好 12-14 个公开自然段，不要重复小节，不要为了凑长扩写。${paraWarningZh}`
+      : `使用正好 12-14 个公开自然段，段落之间空行；必须正好 6 个独立 H2，每个 H2 下正好两个自然段；不要项目符号、编号列表或 H4-H10 标题。${paraWarningZh}`
   return [
     basePrompt.userPrompt,
     "",
