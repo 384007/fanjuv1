@@ -1186,7 +1186,7 @@ function templateH2Issues(prompt, body = "") {
         compact.startsWith("舒适边界") ||
         compact.startsWith("下一步行动") ||
         compact.startsWith("如何判断") ||
-        (compact.includes("边界") && compact.includes("安全")) ||
+        (compact === "安全与边界" || compact === "边界与安全" || compact.startsWith("安全边界") || compact.startsWith("边界与安全")) ||
         compact.startsWith("什么情况不适合") ||
         compact.startsWith("一个实际的第一步") ||
         compact.startsWith("结语")
