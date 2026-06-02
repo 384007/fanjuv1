@@ -1396,8 +1396,14 @@ function entityFirstScreenIssues(prompt, body = "", title = "") {
     }
   }
   if (!includesCity(prompt, screen)) issues.push("entity-first-screen-missing-city")
-  if (prompt.topicNameLocalized && !screen.toLowerCase().includes(String(prompt.topicNameLocalized).toLowerCase())) {
-    issues.push("entity-first-screen-missing-topic")
+  if (prompt.topicNameLocalized) {
+    const topicFull = String(prompt.topicNameLocalized).toLowerCase()
+    // Accept if full topic name OR topicSlug keyword is present (e.g. "羽毛球" matches "羽毛球饭局")
+    const topicSlugWord = String(prompt.topicSlug || "").replace(/-dinner$|-event$|-meetup$/, "").replace(/-/g, " ").toLowerCase()
+    const topicShort = prompt.locale === "zh" ? topicFull.replace(/饭局$/, "").replace(/活动$/, "") : topicSlugWord
+    if (!screen.toLowerCase().includes(topicFull) && !(topicShort && screen.toLowerCase().includes(topicShort))) {
+      issues.push("entity-first-screen-missing-topic")
+    }
   }
   return issues
 }
