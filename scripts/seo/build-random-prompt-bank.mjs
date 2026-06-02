@@ -814,8 +814,8 @@ function buildEditorialBrief(profile) {
         { role: "entity definition", instruction: `写一个 H2，在「${scene}」这个具体场景下，解释饭局app在${city}${topicDisplayZh}语境里的含义。必须锚定在这个场景，不能泛泛而谈。` },
         { role: "local details", instruction: `写一个 H2，关于${city}和${topicDisplayZh}饭局特有的本地细节或张力。参考本地细节：「${localDetails[0]}」。必须点名真实的本地摩擦，不能是通用的"本地攻略"标题。` },
         { role: "trust criteria", instruction: `写一个 H2，从「${lens}」视角出发，聚焦${city}${topicDisplayZh}饭局里一个具体的信任判断点（比如：主理人说明是否够清楚、场地选择是否合理、同桌预期是否透明）。标题必须锚定在「${city}」和「${topicDisplayZh}」，不能出现"如何判断""主理人/场地/同桌质量"等通用词组，必须是只适用于这篇文章的原创表达。` },
-        { role: "fit and non-fit", instruction: `写一个 H2，从「${lens}」视角出发，描述${city}${topicDisplayZh}饭局里一个具体的"适配"或"不适配"场景（比如：什么样的人坐下来会觉得对、什么情况下报名前应该先想清楚）。标题必须锚定在「${city}」和「${topicDisplayZh}」，不能出现"适合谁""排除谁""不适合人群"等通用词组，必须是只适用于这篇文章的原创表达。` },
-        { role: "safety boundary", instruction: `写一个 H2，从「${lens}」视角出发，写${city}${topicDisplayZh}饭局结束后读者会面临的一个具体判断场景（比如：是否继续联系、如何判断这桌值不值得再来、什么情况下应该提前离开）。标题必须锚定在「${city}」和「${topicDisplayZh}」，不能出现"离场信号""安全边界""退出指南"等通用词组，必须是只适用于这篇文章的原创表达。` },
+        { role: "fit and non-fit", instruction: `写一个 H2，从「${lens}」视角出发，描述${city}${topicDisplayZh}饭局里一个具体的匹配或不匹配场景。标题必须锚定在「${city}」和「${topicDisplayZh}」，禁止出现适合谁、排除谁、不适合人群、fit checklist等任何通用词组，必须是原创表达。` },
+        { role: "safety boundary", instruction: `写一个 H2，从「${lens}」视角出发，写${city}${topicDisplayZh}饭局结束后读者会面临的一个具体判断场景。标题必须锚定在「${city}」和「${topicDisplayZh}」，禁止出现安全边界、退出、离场信号、safety、boundary等任何通用词组，必须是原创表达。` },
       ]
   const outline = h2Roles.map((item) => ({
     level: 2,
