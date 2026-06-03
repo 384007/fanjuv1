@@ -1393,7 +1393,7 @@ function entityFirstScreenIssues(prompt, body = "", title = "") {
     if (!/small[- ]table|small table|meal|dinner|offline|real-world|connection/i.test(screen)) issues.push("entity-first-screen-missing-definition")
     if (!/(not|isn't|is not)[^.?!]*(dating|date)|dating guarantee/i.test(screen)) issues.push("entity-first-screen-missing-dating-clarifier")
     if (!/(not|isn't|is not)[^.?!]*(random group chat|group chat)|not a chat/i.test(screen)) issues.push("entity-first-screen-missing-chat-clarifier")
-    if (!/(not|isn't|is not)[^.?!]*(profile feed|swipe|endless)|not a feed/i.test(screen)) {
+    if (!/(not|isn't|is not)[^.?!]*(profile feed|swipe|endless|scroll through|browsing profiles)|not a feed|not an endless/i.test(screen)) {
       issues.push("entity-first-screen-missing-not-this-clarifier")
     }
   } else {
@@ -1558,7 +1558,7 @@ function scoreArticle(prompt, parsed) {
   if (prompt.locale === "en" && !/Fanju app/i.test(`${title}\n${description}\n${body.slice(0, 600)}`)) {
     issues.push("missing-primary-keyword:fanju-app")
   }
-  if (prompt.locale === "zh" && !`${title}\n${description}\n${body.slice(0, 600)}`.includes("饭局app")) {
+  if (prompt.locale === "zh" && !/饭局\s*app/i.test(`${title}\n${description}\n${body.slice(0, 600)}`)) {
     issues.push("missing-primary-keyword:饭局app")
   }
   if (prompt.locale === "en" && !/(Fanju app|饭局|饭局app|Fanju饭局)/i.test(title)) issues.push("title-missing-primary-keyword:fanju-app")
