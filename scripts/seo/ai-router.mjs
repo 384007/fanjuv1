@@ -217,10 +217,10 @@ if (provider === "cerebras") {
           label: `Cerebras[${i}]-${model}`, endpoint: "https://api.cerebras.ai/v1/chat/completions",
           apiKey: keys[i], model,
           prompt, system, maxTokens,
-          timeoutMs: Number.parseInt(process.env.CEREBRAS_TIMEOUT_MS || "30000", 10), tokenParam: "max_tokens",
+          timeoutMs: Number.parseInt(process.env.CEREBRAS_TIMEOUT_MS || "30000", 10), tokenParam: "max_completion_tokens",
         })
       } catch (err) {
-        if (err?.status === 429) { cooldownKey("cerebras", i, retryDelayMs(err) || 60000); break } // Break model loop, retry key later
+        if (err?.status === 429) { cooldownKey("cerebras", i, retryDelayMs(err) || 60000); break }
         if (err?.status === 404) { console.log(`Model ${model} not found, trying next model...`); continue }
         throw err
       }
