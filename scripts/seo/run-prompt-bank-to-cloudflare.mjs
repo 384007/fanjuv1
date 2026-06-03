@@ -539,7 +539,8 @@ function extractMarkdownArticle(prompt, text) {
   const cleaned = repairHeadings(prompt, normalizeMarkdownHeadingSpacing(stripMarkdownFence(text)))
   if (!cleaned || looksLikeJsonWrapper(cleaned)) return null
   if (!/^#\s+.+$/m.test(cleaned)) return null
-  if (countMarkdownHeadings(cleaned, 2) < 6) return null
+  const h2Count = countMarkdownHeadings(cleaned, 2)
+  if (h2Count < 6) return { _tooFewH2: h2Count, body: cleaned }
 
   const h1 = cleaned.match(/^#\s+(.+)$/m)
   const firstParagraph = cleaned
@@ -1524,6 +1525,7 @@ function isModernHardIssue(issue = "") {
 function scoreArticle(prompt, parsed) {
   const issues = []
   if (!parsed) return { score: 0, issues: ["json-parse-failed"] }
+  if (parsed._tooFewH2) return { score: 0, issues: [`too-few-h2:${parsed._tooFewH2}`, "too-few-paragraphs:0"] }
   if (!parsed.title) issues.push("missing-title")
   if (!parsed.body) issues.push("missing-body")
   if (!parsed.description) issues.push("missing-description")
