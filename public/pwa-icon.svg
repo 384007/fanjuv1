@@ -1,14 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1280" viewBox="0 0 1280 1280" role="img" aria-label="Fanju PWA icon">
-  <defs>
-    <filter id="s" x="0" y="0" width="1280" height="1280" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="22" stdDeviation="30" flood-color="#000" flood-opacity="0.18"/></filter>
-  </defs>
-  <g filter="url(#s)" fill="#000">
-    <path d="M287 566C307 812 456 974 640 974C824 974 973 812 993 566H287Z"/>
-    <path d="M348 565C348 357 479 193 640 193V565H348Z"/>
-    <path d="M640 193C801 193 936 357 936 565H640V193Z"/>
-    <circle cx="525" cy="322" r="36" opacity="0.28"/>
-    <circle cx="760" cy="322" r="36" opacity="0.28"/>
-    <path d="M260 568C334 641 946 641 1020 568" fill="none" stroke="#000" stroke-width="52" stroke-linecap="round"/>
-    <path d="M504 454C570 532 710 532 776 454" fill="none" stroke="#000" stroke-width="30" stroke-linecap="round"/>
-  </g>
+<svg aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="400" width="400">
+  <title>飯 Logo</title>
+  <desc id="desc">深紫色方形背景，金色单边框，金色繁体汉字「飯」</desc>
+
+  <rect fill="#2C0A4D" ry="38" rx="38" height="356" width="356" y="22" x="22"/>
+  <rect stroke-width="16" stroke="#E8B923" fill="none" ry="38" rx="38" height="356" width="356" y="22" x="22"/>
+
+  <foreignObject x="22" y="5" width="356" height="356">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width:356px;height:356px;display:flex;align-items:center;justify-content:center;">
+      <span style="font-size:252px;font-weight:900;font-family:'Noto Serif TC','MingLiU','STSong',serif;color:#E8B923;line-height:1;display:block;">飯</span>
+    </div>
+  </foreignObject>
 </svg>
