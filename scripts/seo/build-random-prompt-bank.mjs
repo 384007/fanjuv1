@@ -926,6 +926,8 @@ function userPromptFor(profile, editorialBrief) {
       "Hard linking rule: do not include [text](/path), https://fanju.app paths, raw URLs, <a href=\"...\">, the words markdown link, or any href. All real links are added by the page template.",
       `Body requirements: 3,600-7,200 total characters (NOT words); a body under 3,200 characters will score 0. Do not use bullet lists or numbered lists. Use blank lines between paragraphs. Start with one answer-summary paragraph in 120-220 words. Each H2 must be followed by exactly two paragraph blocks of 70-120 words each before the next heading. Write at least 12 and at most 14 separate paragraph blocks total. Across the article, naturally resolve the reader's decision points before joining: local fit, table rhythm, host and venue quality, guest mix, comfort boundaries, skip signals, and a concrete next move.`,
       "H1 keyword rule: the title/H1 MUST include 'Fanju app' or 'Fanju' as a recognizable brand word AND must include the city name. A title missing 'Fanju app'/'Fanju' OR missing the city name scores 0.",
+      "【SEO TITLE GATE】: The H1/title MUST be ≤70 characters. Do NOT append '| fanju-app | 饭局app' or any pipe-separated keyword list to the title. Pipe-stuffed titles score 0.",
+      "【SEO DESCRIPTION GATE】: The article's first paragraph (used as meta description) MUST be 80-155 characters. Do not exceed 155 characters in the opening summary sentence.",
       "Return only the finished Markdown article text. The first character of the response must be '#'. Do not wrap it in JSON, YAML frontmatter, or a code fence.",
     ].join("\n")
   }
@@ -947,6 +949,8 @@ function userPromptFor(profile, editorialBrief) {
     "链接硬规则：不要出现 [文字](/path)、https://fanju.app 路径、��� URL、<a href=\"...\">、markdown link 或任何 href。所有真实链接由页面模板统一添加。",
     `正文结构硬规则：2,800-5,000 字符；正文低于 2,200 字符得 0 分；段落之间必须空行；不要写项目符号列表、编号列表或结语。全文必须有至少 12 个、至多 14 个公开自然段。第一段必须是 answer-summary 式自然段，在 120-220 字内解释饭局app / Fanju饭局实体，并明确落到「${profile.cityNameLocalized}」。每个 H2 后面到下一个标题前必须正好两个自然段，每段 120-220 个中文字符。全文要自然回答读者报名前会想清楚的决定点：本地适配、这一桌的节奏、主理人/餐厅/同桌质量、舒适边界、哪些信号说明不该去、下一步怎么做。不要反复用「饭局app可以帮助」「通过饭局app」开头。`,
     "只返回最终 Markdown 文章正文，第一个字符必须是「#」。不要 JSON，不要 YAML frontmatter，不要代码块。",
+    "【SEO 标题硬规则】：H1/标题必须 ≤70 个字符。严禁在标题末尾追加「| fanju-app | 饭局app」「| Fanju |」等管道符分隔的关键词串。违反则 0 分。",
+    "【SEO 描述硬规则】：文章第一段（用作 meta description）必须控制在 80-155 个字符内，不要超过 155 字符。",
   ].join("\n")
 }
 

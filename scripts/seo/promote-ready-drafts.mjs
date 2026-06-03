@@ -8,6 +8,20 @@ const GENERATED_DRAFTS_FILE = process.env.GENERATED_DRAFTS_FILE || "dist/seo/gen
 
 const dangerRe = /(Modal|NVIDIA|Gemini|Groq|Cerebras|Cloudflare|Next\.js|API|backend|后端|技术栈|Below is|Here is|markdown draft|Verified Profiles|Rating System|Secure Communication|Emergency Contact|ID verification|background checks|payment protection|已认证|评分系统|安全通信|紧急联系人|身份认证|背景调查|支付保护|本站|联系QQ|本地联系|站长|广告合作|域名出售|QQ|model|prompt|generator)/i
 
+// SEO title/description quality gates
+function titleOk(title) {
+  if (!title) return false
+  if (title.length > 70) return false
+  if ((title.match(/\|/g) || []).length >= 2) return false // keyword stuffing
+  return true
+}
+function descOk(desc) {
+  if (!desc) return false
+  if (desc.length < 50) return false
+  if (desc.length > 160) return false
+  return true
+}
+
 if (!existsSync(DRAFT_DIR)) {
   console.error(`Missing ${DRAFT_DIR}`)
   process.exit(1)
@@ -88,6 +102,18 @@ for (const file of readdirSync(DRAFT_DIR).filter((x) => x.endsWith(".md") && (!a
   if (!alternatePath) { console.log(`SKIP: ${file} — missing alternatePath (pair not ready, keep in seo-ai-drafts)`); skipped++; continue }
 
   if (score >= MIN_SCORE && !hasDanger) {
+    const title = getField(md, "title")
+    const desc = getField(md, "description")
+    if (!titleOk(title)) {
+      console.log(`SKIP: ${file} — title fails SEO gate (len=${title.length}, pipes=${(title.match(/\|/g)||[]).length}): ${title.slice(0,80)}`)
+      skipped++
+      continue
+    }
+    if (!descOk(desc)) {
+      console.log(`SKIP: ${file} — description fails SEO gate (len=${desc.length})`)
+      skipped++
+      continue
+    }
     const readyMd = setStatus(md, "ready")
     writeFileSync(join(READY_DIR, file), readyMd, "utf8")
     console.log(`READY: ${file} score=${score} lang=${lang} canonicalPath=${canonicalPath}`)
