@@ -1,4 +1,4 @@
-import { existsSync, rmSync, statSync } from "node:fs"
+import { existsSync, rmSync, statSync, mkdirSync, copyFileSync } from "node:fs"
 import { readdir, rm } from "node:fs/promises"
 import { join } from "node:path"
 
@@ -55,4 +55,15 @@ console.log(`[cloudflare-prune] removed ${removed} files/dirs; ${remaining} file
 if (remaining > 20000) {
   console.error(`[cloudflare-prune] ERROR: ${remaining} files exceed CF Pages 20k limit!`)
   process.exit(1)
+}
+
+// 4. Ensure public/icons/ is copied to out/icons/ (Next.js static export can miss subdirectories)
+const PUBLIC_ICONS = join(ROOT, "public", "icons")
+const OUT_ICONS = join(OUT_DIR, "icons")
+if (existsSync(PUBLIC_ICONS)) {
+  mkdirSync(OUT_ICONS, { recursive: true })
+  for (const entry of await readdir(PUBLIC_ICONS, { withFileTypes: true })) {
+    if (entry.isFile()) copyFileSync(join(PUBLIC_ICONS, entry.name), join(OUT_ICONS, entry.name))
+  }
+  console.log(`[cloudflare-prune] copied public/icons/ → out/icons/`)
 }
