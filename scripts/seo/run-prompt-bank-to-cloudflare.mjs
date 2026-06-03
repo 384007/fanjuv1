@@ -1947,8 +1947,16 @@ function providerOrderForPrompt(prompt) {
   return [...lanes.slice(start), ...lanes.slice(0, start)].join(",")
 }
 
-async function generateProviderCandidates(prompt, attempt, previousIssues) {
-  const providerOrder = rotateProviderOrder(providerOrderForPrompt(prompt), attempt)
+async function generateProviderCandidates(prompt, attempt, previousIssues, skipProviders = new Set()) {
+  let rawOrder = rotateProviderOrder(providerOrderForPrompt(prompt), attempt)
+  if (skipProviders.size) {
+    const parts = rawOrder.split(",").map((x) => x.trim()).filter(Boolean)
+    const preferred = parts.filter((p) => !skipProviders.has(p))
+    const fallback = parts.filter((p) => skipProviders.has(p))
+    rawOrder = [...preferred, ...fallback].join(",")
+    if (preferred.length) console.log(`[SKIP-PROVIDER] ${prompt.promptId} weak providers deprioritized: ${[...skipProviders].join(",")} -> trying ${preferred[0]} first`)
+  }
+  const providerOrder = rawOrder
   const promptText = retryPrompt(prompt, attempt, previousIssues)
 
   if (!MULTI_AI_CANDIDATES) {
@@ -1991,9 +1999,9 @@ async function generateProviderCandidates(prompt, attempt, previousIssues) {
   return candidates
 }
 
-async function runOneAttempt(prompt, attempt, previousIssues = []) {
+async function runOneAttempt(prompt, attempt, previousIssues = [], skipProviders = new Set()) {
   const started = Date.now()
-  const generations = await generateProviderCandidates(prompt, attempt, previousIssues)
+  const generations = await generateProviderCandidates(prompt, attempt, previousIssues, skipProviders)
   if (!generations.length) throw new Error("all providers failed or returned no candidate")
   const elapsed = Date.now() - started
 
@@ -2061,11 +2069,15 @@ async function runOneAttempt(prompt, attempt, previousIssues = []) {
 async function runOne(prompt) {
   let lastResult = null
   let previousIssues = []
+  const weakProviders = new Set()
   for (let attempt = 1; attempt <= DUPLICATE_HEADING_ATTEMPTS; attempt++) {
-    const result = await runOneAttempt(prompt, attempt, previousIssues)
+    const result = await runOneAttempt(prompt, attempt, previousIssues, weakProviders)
     if (result.status === "ready") return result
     lastResult = result
     previousIssues = result.issues
+    // If truncated output (too-few-paragraphs/body-too-short), deprioritize this provider next attempt
+    const isTruncated = result.issues.some((x) => x.startsWith("too-few-paragraphs") || x.startsWith("body-too-short"))
+    if (isTruncated && result.generation?.provider) weakProviders.add(result.generation.provider)
     const maxAttempts = hasDuplicateHeadingIssue(result.issues) ? DUPLICATE_HEADING_ATTEMPTS : QUALITY_ATTEMPTS
     if (attempt >= maxAttempts) break
     console.log(`[RETRY] ${prompt.promptId} attempt=${attempt}/${maxAttempts} issues=${result.issues.join(",")}`)
