@@ -21,13 +21,23 @@ if (!existsSync(OUT_DIR) || !statSync(OUT_DIR).isDirectory()) {
 
 let removed = 0
 
-// 1. Remove city/* and en/city/* entirely — served by Workers, not Pages
-for (const dir of [join(OUT_DIR, "city"), join(OUT_DIR, "en", "city")]) {
-  if (existsSync(dir)) {
-    await rm(dir, { recursive: true, force: true })
-    console.log(`[cloudflare-prune] removed worker-served: ${dir.replace(ROOT + "/", "")}`)
-    removed++
+// 1. Remove city/[city]/[topic]/* and en/city/[city]/[topic]/* — served by Workers, not Pages
+// Keep city/[city]/index.html (single-city hub pages, NOT handled by Worker)
+for (const base of [join(OUT_DIR, "city"), join(OUT_DIR, "en", "city")]) {
+  if (!existsSync(base)) continue
+  // Remove subdirectories (topic-level pages like /city/dongguan/singles-dinner)
+  for (const entry of await readdir(base, { withFileTypes: true })) {
+    if (!entry.isDirectory()) continue
+    const cityDir = join(base, entry.name)
+    // Remove topic subdirs inside each city dir, keep index.html
+    for (const sub of await readdir(cityDir, { withFileTypes: true })) {
+      if (sub.isDirectory()) {
+        await rm(join(cityDir, sub.name), { recursive: true, force: true })
+        removed++
+      }
+    }
   }
+  console.log(`[cloudflare-prune] pruned worker-served topic subdirs from: ${base.replace(ROOT + "/", "")}`)
 }
 
 // 2. Remove all __next*.txt RSC payload files (never needed for static serving)
