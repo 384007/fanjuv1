@@ -107,7 +107,7 @@ export const metadata: Metadata = {
       "一顿饭，认识同频的同频的人。中国大陆与全球城市（纽约、旧金山、伦敦、东京、悉尼、新加坡、温哥华、多伦多）同步招募主办方。",
     images: [
       {
-        url: "/og.jpg?v=20260530-b1",
+        url: "/og.jpg?v=20260603",
         width: 1200,
         height: 630,
         alt: "饭局 Fanju · 全球同频饭局网络",
@@ -119,7 +119,7 @@ export const metadata: Metadata = {
     title: "饭局 Fanju｜全球同频饭局网络",
     description:
       "一顿饭，认识同频的同频的人。全球城市 · 主办方招募中 · 不展示虚假报名人数。",
-    images: ["/og.jpg?v=20260530-b1"],
+    images: ["/og.jpg?v=20260603"],
     creator: "@fanju_app",
     site: "@fanju_app",
   },
