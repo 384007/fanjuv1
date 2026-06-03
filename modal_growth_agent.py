@@ -1251,3 +1251,164 @@ def test_keys():
     ensure_dependencies()
     result = subprocess.run(["node", "scripts/seo/test-all-keys.mjs"], cwd=WORKDIR, capture_output=False)
     print(f"Exit code: {result.returncode}", flush=True)
+
+
+@app.function(
+    image=image,
+    secrets=[legacy_secret],
+    volumes={OUTPUT_ROOT: volume},
+    timeout=86400,
+)
+def repair_broken_articles(batch_size: int = 200, dry_run: bool = False):
+    """Scan content/seo-ready for broken articles (empty body, no H2, HTML-wrapped,
+    latin words in headings, template patterns) and regenerate them via the
+    router-drafts pipeline. Safe to re-run: already-healthy files are skipped.
+
+    Usage:
+        modal run modal_growth_agent.py::repair_broken_articles
+        modal run modal_growth_agent.py::repair_broken_articles --batch-size 50
+        modal run modal_growth_agent.py::repair_broken_articles --dry-run  # scan only
+    """
+    import re as _re
+
+    prepare_workdir(use_github=True)
+    ensure_dependencies()
+
+    ready_dir = Path(WORKDIR, "content/seo-ready")
+
+    def parse_fm(text: str) -> dict:
+        m = text.match(r"^---\r?\n([\s\S]*?)\r?\n---") if hasattr(text, "match") else None
+        if not m:
+            m = _re.match(r"^---\r?\n([\s\S]*?)\r?\n---", text)
+        if not m:
+            return {}
+        meta: dict = {}
+        for line in m.group(1).split("\n"):
+            lm = _re.match(r"^(\w+):\s*(.*)\s*$", line)
+            if not lm:
+                continue
+            val = lm.group(2).strip().strip('"').strip("'")
+            meta[lm.group(1)] = val
+        return meta
+
+    def is_broken(body: str) -> bool:
+        if len(body) < 100:
+            return True
+        if "<article>" in body or "<p>" in body or "<h2>" in body:
+            return True
+        h2s = _re.findall(r"^##\s+(.+)", body, _re.MULTILINE)
+        paras = [p for p in body.split("\n\n") if p.strip() and not p.strip().startswith("#")]
+        if len(h2s) == 0 or len(paras) < 2:
+            return True
+        # latin words in zh H2 (not acronyms like KPI, API kept for EN articles)
+        for h in h2s:
+            if _re.search(r"\b[a-z]{4,}\b", h):
+                return True
+        # template patterns
+        if _re.search(r"（城市）|{city}|\[城市\]|XXX城市", body):
+            return True
+        return False
+
+    # Collect broken files and their routes
+    broken_zh: list[str] = []
+    broken_en: list[str] = []
+    skipped = 0
+
+    for f in sorted(ready_dir.glob("*.md")):
+        text = f.read_text(encoding="utf-8")
+        if not text.startswith("---"):
+            continue
+        end = text.find("---", 3)
+        if end < 0:
+            continue
+        meta = parse_fm(text)
+        body = text[end + 3:].strip()
+        if not is_broken(body):
+            skipped += 1
+            continue
+        canonical = meta.get("canonicalPath", "")
+        lang = meta.get("lang", "zh")
+        if not canonical:
+            continue
+        if lang == "en":
+            broken_en.append(canonical)
+        else:
+            broken_zh.append(canonical)
+
+    total = len(broken_zh) + len(broken_en)
+    print(f"Repair scan: {total} broken ({len(broken_zh)} zh + {len(broken_en)} en), {skipped} healthy", flush=True)
+
+    if dry_run or total == 0:
+        print("DRY_RUN or nothing to fix — done.", flush=True)
+        return {"broken_zh": len(broken_zh), "broken_en": len(broken_en), "skipped": skipped, "repaired": 0}
+
+    safe_batch = max(10, min(500, int(batch_size)))
+    started = utc_now()
+    run_id = f"repair-broken-{make_run_id(started)}"
+
+    def repair_batch(lang: str, routes: list[str], batch_no: int) -> None:
+        if not routes:
+            return
+        routes_csv = ",".join(routes)
+        drafts_file = f"dist/seo/{run_id}-{lang}-batch{batch_no}.json"
+        cmd = "pnpm seo:drafts:router:en" if lang == "en" else "pnpm seo:drafts:router"
+        max_tokens = "5200" if lang == "en" else "4200"
+        # Delete existing broken files so they get regenerated
+        for route in routes:
+            slug = route.lstrip("/").replace("/", "-")
+            for rel in ["content/seo-ready", "content/seo-ai-drafts"]:
+                p = Path(WORKDIR, rel, f"{slug}.md")
+                if p.exists():
+                    p.unlink()
+        run(
+            " ".join([
+                f"LANG={lang}",
+                f"LIMIT={len(routes)}",
+                "MIN_SCORE=90",
+                f"MAX_TOKENS={max_tokens}",
+                "TIMEOUT_MS=90000",
+                "RATE_DELAY_MS=8000",
+                "MAX_PER_CITY_PER_RUN=50",
+                "RANDOMIZE_OPPORTUNITIES=0",
+                "QUALITY_ATTEMPTS=5",
+                "QUALITY_RETRY_DELAY_MS=180000",
+                "AI_COOLDOWN_WAIT_PASSES=30",
+                f"AI_PROVIDER_ORDER={AI_PROVIDER_ORDER}",
+                f"TARGET_ROUTES={shlex.quote(routes_csv)}",
+                f"GENERATED_DRAFTS_FILE={shlex.quote(drafts_file)}",
+                'PUBLISHED_FILE="data/seo/published-ready-drafts.json"',
+                cmd,
+            ]),
+            cwd=WORKDIR,
+            timeout=21000,
+        )
+        run(f"GENERATED_DRAFTS_FILE={shlex.quote(drafts_file)} pnpm seo:fix-drafts", cwd=WORKDIR, timeout=600)
+        run(f"GENERATED_DRAFTS_FILE={shlex.quote(drafts_file)} MIN_SCORE=90 pnpm seo:promote-ready", cwd=WORKDIR, timeout=600)
+
+    repaired = 0
+    batch_no = 0
+
+    # Process in batches, commit after each batch
+    for i in range(0, len(broken_zh), safe_batch):
+        batch_no += 1
+        batch = broken_zh[i: i + safe_batch]
+        print(f"ZH batch {batch_no}: repairing {len(batch)} routes", flush=True)
+        repair_batch("zh", batch, batch_no)
+        repaired += len(batch)
+        git_commit_and_push(batch, run_id, batch_no)
+
+    for i in range(0, len(broken_en), safe_batch):
+        batch_no += 1
+        batch = broken_en[i: i + safe_batch]
+        print(f"EN batch {batch_no}: repairing {len(batch)} routes", flush=True)
+        repair_batch("en", batch, batch_no)
+        repaired += len(batch)
+        git_commit_and_push(batch, run_id, batch_no)
+
+    # Rebuild sitemap and submit to IndexNow
+    run("node scripts/generate-sitemaps.mjs", cwd=WORKDIR, timeout=120)
+    run("node scripts/seo/push-indexnow.mjs", cwd=WORKDIR, timeout=120)
+    git_commit_and_push(["public/sitemap.xml", "public/sitemap-index.xml"], run_id, batch_no + 1)
+
+    print(f"repair_broken_articles done: repaired={repaired}, run_id={run_id}", flush=True)
+    return {"ok": True, "runId": run_id, "broken_zh": len(broken_zh), "broken_en": len(broken_en), "repaired": repaired}
