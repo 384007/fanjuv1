@@ -433,14 +433,14 @@ async function publishBluesky(entries) {
     body: JSON.stringify({ identifier: handle, password }),
   })
   const session = await sessionRes.json().catch(async () => ({ raw: await sessionRes.text() }))
-  if (!sessionRes.ok) return { platform: "Bluesky", status: sessionRes.status, ok: false, body: session }
+  if (!sessionRes.ok) return { platform: "Bluesky", status: sessionRes.status, ok: false, nonFatal: true, body: session }
 
   const posted = []
   for (const text of texts) {
     posted.push(await publishBlueskyPost({ service, session, text }))
   }
 
-  return { platform: "Bluesky", ok: posted.every((item) => item.ok), posted }
+  return { platform: "Bluesky", ok: posted.every((item) => item.ok), nonFatal: true, posted }
 }
 
 async function publishBlueskyPost({ service, session, text }) {
