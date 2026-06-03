@@ -230,8 +230,8 @@ if (provider === "cerebras") {
 }
 
   // cerebras2/cerebras3/cerebras4 — each pinned to a specific key index for independent parallel use
-  if (provider === "cerebras2" || provider === "cerebras3" || provider === "cerebras4") {
-    const keyIndex = provider === "cerebras2" ? 1 : provider === "cerebras3" ? 2 : 3
+  if (provider === "cerebras2" || provider === "cerebras3" || provider === "cerebras4" || provider === "cerebras5" || provider === "cerebras6") {
+    const keyIndex = provider === "cerebras2" ? 1 : provider === "cerebras3" ? 2 : provider === "cerebras4" ? 3 : provider === "cerebras5" ? 4 : 5
     const keys = getProviderKeys("CEREBRAS_API_KEY")
     const apiKey = keys[keyIndex]
     if (!apiKey) throw Object.assign(new Error(`${provider}: key not configured`), { status: 503 })
@@ -269,7 +269,7 @@ if (provider === "cerebras") {
       try {
         return await callOpenAICompat({
           label: `Gemini[${i}]`, endpoint: "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
-          apiKey: keys[i], model: process.env.GEMINI_MODEL || "gemini-2.5-flash-lite",
+          apiKey: keys[i], model: process.env.GEMINI_MODEL || "gemini-2.5-flash",
           prompt, system, maxTokens, timeoutMs, tokenParam: "max_tokens",
         })
       } catch (err) {
@@ -280,16 +280,17 @@ if (provider === "cerebras") {
     throw Object.assign(new Error("Gemini: all keys on cooldown"), { status: 429 })
   }
 
-  // gemini2 — pinned to key index 1
-  if (provider === "gemini2") {
+  // gemini2/gemini3/gemini4 — each pinned to a specific key index
+  if (provider === "gemini2" || provider === "gemini3" || provider === "gemini4") {
     const keys = getProviderKeys("GEMINI_API_KEY")
-    const i = 1; const apiKey = keys[i]
-    if (!apiKey) throw Object.assign(new Error("gemini2: key not configured"), { status: 503 })
-    if ((keyCooldownUntil.get(`gemini:${i}`) || 0) > Date.now()) throw Object.assign(new Error("gemini2: key on cooldown"), { status: 429 })
+    const i = provider === "gemini2" ? 1 : provider === "gemini3" ? 2 : 3
+    const apiKey = keys[i]
+    if (!apiKey) throw Object.assign(new Error(`${provider}: key not configured`), { status: 503 })
+    if ((keyCooldownUntil.get(`gemini:${i}`) || 0) > Date.now()) throw Object.assign(new Error(`${provider}: key on cooldown`), { status: 429 })
     try {
       return await callOpenAICompat({
         label: `Gemini[${i}]`, endpoint: "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
-        apiKey, model: process.env.GEMINI_MODEL || "gemini-2.5-flash-lite",
+        apiKey, model: process.env.GEMINI_MODEL || "gemini-2.5-flash",
         prompt, system, maxTokens, timeoutMs, tokenParam: "max_tokens",
       })
     } catch (err) {

@@ -30,7 +30,7 @@ OUTPUT_PATHS = [
     "public/sitemap-index.xml",
 ]
 
-AI_PROVIDER_ORDER = "cerebras,cerebras2,cerebras3,cerebras4,groq,groq2,gemini,gemini2,openrouter,nvidia,nvidia2,cloudflare"
+AI_PROVIDER_ORDER = "cerebras,cerebras2,cerebras3,cerebras4,cerebras5,cerebras6,groq,groq2,gemini,gemini2,gemini3,gemini4,openrouter,nvidia,nvidia2,cloudflare"
 
 RUNTIME_PIPELINE_FILES = [
     "components/seo-ready-article-page.tsx",
