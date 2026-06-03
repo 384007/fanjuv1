@@ -584,7 +584,7 @@ function articleSchemaGraph(article: SeoReadyArticle, route: RouteContext, curre
         name: "Fanju",
         alternateName: ["饭局", "饭局app", "Fanju app"],
         url: SITE_URL,
-        logo: `${SITE_URL}/icon-512.png`,
+        logo: `${SITE_URL}/icons/icon-512.png`,
       },
       {
         "@type": "WebSite",
