@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lahore/city-community-dinner"
 alternatePath: "/city/lahore/city-community-dinner"
 translationKey: "lahore-city-community-dinner"
 lang: "en"
-title: "After‑hours reset in Lahore: deciding on a City Community Dinner through the Fanju app"
-description: "When the weekend buzz in Lahore starts to feel like a digital marathon, the question becomes whether a small‑table dinner can serve as a tangible offline‑social reset. The prospect of gathering around a modest spread in"
+title: "After‑hours reset in Lahore: deciding on a City Community Dinner..."
+description: "When the weekend buzz in Lahore starts to feel like a digital marathon, the question becomes whether a small‑table dinner can serve as a tangible offlin…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

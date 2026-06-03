@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vienna/ramen-dinner"
 alternatePath: "/city/vienna/ramen-dinner"
 translationKey: "vienna-ramen-dinner"
 lang: "en"
-title: "A Vienna dinner table for Ramen Dinner, with Fanju app boundaries up front"
-description: "A shared meal in Vienna relies on an unspoken agreement about when the night ends, and a Ramen Dinner is no exception. The best tables are those where the host signals an exit time clearly, allowing guests to plan their"
+title: "A Vienna dinner table for Ramen Dinner, with Fanju app boundaries..."
+description: "A shared meal in Vienna relies on an unspoken agreement about when the night ends, and a Ramen Dinner is no exception."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

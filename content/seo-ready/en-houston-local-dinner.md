@@ -4,8 +4,8 @@ canonicalPath: "/en/city/houston/local-dinner"
 alternatePath: "/city/houston/local-dinner"
 translationKey: "houston-local-dinner"
 lang: "en"
-title: "Houston has plenty of Local Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "Houston’s dinner culture thrives on variety, but that same abundance can make group gatherings feel unfocused. When an invite says only “dinner with locals,” it leaves room for misunderstanding—especially in a city"
+title: "Houston has plenty of Local Dinner options; Fanju app is the one..."
+description: "Houston’s dinner culture thrives on variety, but that same abundance can make group gatherings feel unfocused."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

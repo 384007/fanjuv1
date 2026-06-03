@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/chennai/ai-founder-dinner"
 alternatePath: "/city/chennai/ai-founder-dinner"
-title: "Chennai after work: how Fanju app makes AI Founder Dinner feel like a real room | fanju-app | 饭局app"
-description: "Chennai's social dining scene has a new addition with the Fanju app, a platform that brings people together for small, clearly described meals and real-world connections. This app is perfect for those looking to break th"
+title: "Chennai after work: how Fanju app makes AI Founder Dinner feel..."
+description: "Chennai's social dining scene has a new addition with the Fanju app, a platform that brings people together for small, clearly described meals and real-…"
 recoveredFromD1: true
 ---
 # Chennai after work: how Fanju app makes AI Founder Dinner feel like a real room

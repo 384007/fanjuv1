@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vienna/safe-social-dinner"
 alternatePath: "/city/vienna/safe-social-dinner"
 translationKey: "vienna-safe-social-dinner"
 lang: "en"
-title: "When Safe Social Dinner in Vienna needs more than a group chat, Fanju app starts with the table"
-description: "In a city where work and social circles often remain distinct, the transition from a shared meal back to daily life requires clear signals. A Safe Social Dinner in Vienna should provide a natural end point, allowing"
+title: "When Safe Social Dinner in Vienna needs more than a group chat,..."
+description: "In a city where work and social circles often remain distinct, the transition from a shared meal back to daily life requires clear signals."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

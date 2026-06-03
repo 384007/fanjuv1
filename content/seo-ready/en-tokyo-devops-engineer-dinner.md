@@ -5,7 +5,7 @@ alternatePath: "/city/tokyo/devops-engineer-dinner"
 translationKey: "tokyo-devops-engineer-dinner"
 lang: "en"
 title: "Tokyo DevOps Engineer Dinner finds community through the Fanju app"
-description: "On the Fanju app, each dinner appears as a single card that includes the venue, time slot, and a brief description of the theme. For a DevOps Engineer Dinner in Tokyo, the description will often mention current"
+description: "On the Fanju app, each dinner appears as a single card that includes the venue, time slot, and a brief description of the theme."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

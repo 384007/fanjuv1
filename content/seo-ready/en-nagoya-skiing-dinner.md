@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nagoya/skiing-dinner"
 alternatePath: "/city/nagoya/skiing-dinner"
 translationKey: "nagoya-skiing-dinner"
 lang: "en"
-title: "How Fanju app turns a Nagoya Skiing Dinner night into something worth showing up for | fanju-app"
-description: "Deciding on a spontaneous Skiing Dinner in Nagoya can feel like a gamble. Will it be a good time, or just another awkward gathering? The Fanju app aims to bridge that gap, making it easier to find and organize enjoyable"
+title: "How Fanju app turns a Nagoya Skiing Dinner night into something..."
+description: "Deciding on a spontaneous Skiing Dinner in Nagoya can feel like a gamble. Will it be a good time, or just another awkward gathering?"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

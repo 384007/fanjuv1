@@ -4,8 +4,8 @@ canonicalPath: "/en/city/los-angeles/psychologist-dinner"
 alternatePath: "/city/los-angeles/psychologist-dinner"
 translationKey: "los-angeles-psychologist-dinner"
 lang: "en"
-title: "Los Angeles does not need another vague invite; Fanju app makes Psychologist Dinner specific | fanju-app"
-description: "Before anyone arrives in Los Angeles, the concept of Psychologist Dinner needs a framework that holds its meaning and purpose. This framework is essential in creating a sense of community and understanding among the"
+title: "Los Angeles does not need another vague invite; Fanju app makes..."
+description: "Before anyone arrives in Los Angeles, the concept of Psychologist Dinner needs a framework that holds its meaning and purpose."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

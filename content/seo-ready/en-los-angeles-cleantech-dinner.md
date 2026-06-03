@@ -4,8 +4,8 @@ canonicalPath: "/en/city/los-angeles/cleantech-dinner"
 alternatePath: "/city/los-angeles/cleantech-dinner"
 translationKey: "los-angeles-cleantech-dinner"
 lang: "en"
-title: "Los Angeles Cleantech Dinner: how Fanju app makes the table worth choosing"
-description: "This guide helps Los Angeles residents decide if a Cleantech Dinner listed on Fanju is the right fit. We’ll explore what makes a specific table stand out in a city as diverse as Los Angeles, look at how hosts present"
+title: "Los Angeles Cleantech Dinner: how Fanju app makes the table worth..."
+description: "This guide helps Los Angeles residents decide if a Cleantech Dinner listed on Fanju is the right fit."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

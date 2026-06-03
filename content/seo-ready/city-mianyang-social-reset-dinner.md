@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/mianyang/social-reset-dinner"
 alternatePath: "/en/city/mianyang/social-reset-dinner"
-title: "绵阳社交重启饭局指南 | fanju-app | 饭局app"
+title: "绵阳社交重启饭局指南"
 description: "在绵阳的街区探索中，社交重启饭局是如何让人感受到城市节奏的？"
 recoveredFromD1: true
 ---

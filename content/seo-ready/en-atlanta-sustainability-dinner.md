@@ -4,8 +4,8 @@ canonicalPath: "/en/city/atlanta/sustainability-dinner"
 alternatePath: "/city/atlanta/sustainability-dinner"
 translationKey: "atlanta-sustainability-dinner"
 lang: "en"
-title: "For Atlanta readers considering Sustainability Dinner, Fanju app should make the room legible"
-description: "When you look at a listing for a Sustainability Dinner in Atlanta, the description serves as the primary filter for your time and comfort. A good listing does not just list a time and place; it frames the evening so you"
+title: "For Atlanta readers considering Sustainability Dinner, Fanju app..."
+description: "When you look at a listing for a Sustainability Dinner in Atlanta, the description serves as the primary filter for your time and comfort."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

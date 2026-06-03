@@ -4,7 +4,7 @@ canonicalPath: "/en/city/helsinki/researcher-dinner"
 alternatePath: "/city/helsinki/researcher-dinner"
 translationKey: "helsinki-researcher-dinner"
 lang: "en"
-title: "Helsinki Researcher Dinner: how Fanju app makes the table worth choosing"
+title: "Helsinki Researcher Dinner: how Fanju app makes the table worth..."
 description: "A listing that stands out for a researcher dinner in Helsinki usually specifies a clear theme rather than a generic \"smart people\" label. When you scan the description, look for a sentence that names the specific field,"
 pageType: "city_article"
 priorityScore: 70

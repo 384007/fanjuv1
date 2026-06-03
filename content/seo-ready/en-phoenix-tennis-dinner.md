@@ -4,8 +4,8 @@ canonicalPath: "/en/city/phoenix/tennis-dinner"
 alternatePath: "/city/phoenix/tennis-dinner"
 translationKey: "phoenix-tennis-dinner"
 lang: "en"
-title: "A Phoenix dinner table for Tennis Dinner, with Fanju app boundaries up front"
-description: "Before you commit to a reservation, ask yourself if the host has clearly defined the common ground beyond just the sport. In Phoenix, tennis is a major lifestyle, but the gap between a casual hitter and a competitive"
+title: "A Phoenix dinner table for Tennis Dinner, with Fanju app..."
+description: "Before you commit to a reservation, ask yourself if the host has clearly defined the common ground beyond just the sport."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

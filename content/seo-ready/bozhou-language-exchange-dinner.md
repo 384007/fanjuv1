@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/bozhou/language-exchange-dinner"
 alternatePath: "/en/city/bozhou/language-exchange-dinner"
-title: "亳州的一顿语言交换饭局，饭局app为什么先看人再看热闹 | fanju-app"
+title: "亳州的一顿语言交换饭局，饭局app为什么先看人再看热闹"
 description: "在亳州，下班后的时间常常被拉长成一段模糊的过渡。走出药都路的办公楼，街灯刚亮，公交站前人影稀疏，回家的念头被风一吹就散了。这时打开饭局app，不是为了立刻赴约，而是想看看今晚有没有哪一桌人，正说着你恰好听得懂、又想参与进去的话。饭局app不"
 recoveredFromD1: true
 ---

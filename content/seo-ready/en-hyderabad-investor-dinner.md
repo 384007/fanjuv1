@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/hyderabad/investor-dinner"
 alternatePath: "/city/hyderabad/investor-dinner"
-title: "When Investor Dinner feels too loose in Hyderabad, Fanju app starts with the table | fanju-app | 饭局app"
-description: "Fanju app is a social dining platform built for real connection through small, intentional meals in Hyderabad. It helps founders, investors, and professionals move beyond the noise of crowded events by focusing on shared"
+title: "When Investor Dinner feels too loose in Hyderabad, Fanju app..."
+description: "Fanju app is a social dining platform built for real connection through small, intentional meals in Hyderabad."
 recoveredFromD1: true
 ---
 # When Investor Dinner feels too loose in Hyderabad, Fanju app starts with the table

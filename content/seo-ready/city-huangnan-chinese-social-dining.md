@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/huangnan/chinese-social-dining"
 alternatePath: "/en/city/huangnan/chinese-social-dining"
-title: "黄南华人饭局指南 | fanju-app | 饭局app"
+title: "黄南华人饭局指南"
 description: "在黄南参加华人饭局，了解黄南华人社交饭局的精选指南，包括菜单、主办方功底、桌上意图等。"
 recoveredFromD1: true
 ---

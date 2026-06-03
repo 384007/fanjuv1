@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/johannesburg/alumni-dinner"
 alternatePath: "/city/johannesburg/alumni-dinner"
-title: "Johannesburg Alumni Dinner Guide | Fanju app"
-description: "Plan a memorable Alumni Dinner in Johannesburg with Fanju app, a social dining app that connects people over small, clearly described meals and real-world connections."
+title: "Johannesburg Alumni Dinner Guide"
+description: "Plan a memorable Alumni Dinner in Johannesburg with Fanju app, a social dining app that connects people over small, clearly described meals and real-wor…"
 recoveredFromD1: true
 ---
 Johannesburg, a city of vibrant neighborhoods and rich cultural heritage, is a perfect setting for an Alumni Dinner. The city&#039;s rhythm is characterized by its diverse neighborhoods, each with its unique character and charm. From the trendy Braamfontein to the historic Yeoville, Johannesburg&#039;s neighborhoods offer a wide range of options for hosting an Alumni Dinner.

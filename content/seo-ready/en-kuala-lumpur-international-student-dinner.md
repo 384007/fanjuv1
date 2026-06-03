@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kuala-lumpur/international-student-dinner"
 alternatePath: "/city/kuala-lumpur/international-student-dinner"
 translationKey: "kuala-lumpur-international-student-dinner"
 lang: "en"
-title: "When International Student Dinner feels too loose in Kuala Lumpur, Fanju app starts with the table | fanju-app"
+title: "When International Student Dinner feels too loose in Kuala Lumpur,..."
 description: "Navigating the social landscape as an international student in Kuala Lumpur can feel both exciting and a little daunting. When the idea of an \"International Student Dinner\" comes up, the intention is usually good, but th"
 pageType: "city_article"
 priorityScore: 70

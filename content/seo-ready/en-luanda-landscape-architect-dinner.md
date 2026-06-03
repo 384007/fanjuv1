@@ -4,8 +4,8 @@ canonicalPath: "/en/city/luanda/landscape-architect-dinner"
 alternatePath: "/city/luanda/landscape-architect-dinner"
 translationKey: "luanda-landscape-architect-dinner"
 lang: "en"
-title: "A calmer way to approach Landscape Architect Dinner in Luanda through Fanju app | fanju-app"
-description: "For those in Luanda looking to connect with fellow landscape architects outside of the usual busy workday, the Fanju app offers a refined approach to organizing intimate dinners. It’s about transforming the potential cha"
+title: "A calmer way to approach Landscape Architect Dinner in Luanda..."
+description: "For those in Luanda looking to connect with fellow landscape architects outside of the usual busy workday, the Fanju app offers a refined approach to or…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

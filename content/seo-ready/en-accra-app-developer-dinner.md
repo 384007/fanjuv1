@@ -4,7 +4,7 @@ canonicalPath: "/en/city/accra/app-developer-dinner"
 alternatePath: "/city/accra/app-developer-dinner"
 translationKey: "accra-app-developer-dinner"
 lang: "en"
-title: "Accra strangers sit down easier when Fanju app frames the App Developer Dinner table first | fanju-app"
+title: "Accra strangers sit down easier when Fanju app frames the App..."
 description: "Walking into a new dinner in Accra can feel like stepping into a conversation already in motion."
 pageType: "city_article"
 priorityScore: 70

@@ -5,7 +5,7 @@ alternatePath: "/city/denver/creative-writing-dinner"
 translationKey: "denver-creative-writing-dinner"
 lang: "en"
 title: "Denver Creative Writing Dinner Finds Comfort Through the Fanju app"
-description: "When you scan a listing that mentions a Capitol Hill loft, the first question is whether the space can accommodate a modest group without feeling crowded. In Denver, the arrival into a Capitol Hill loft can feel cramped"
+description: "When you scan a listing that mentions a Capitol Hill loft, the first question is whether the space can accommodate a modest group without feeling crowde…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

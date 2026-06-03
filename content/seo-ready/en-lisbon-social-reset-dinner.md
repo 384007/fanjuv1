@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lisbon/social-reset-dinner"
 alternatePath: "/city/lisbon/social-reset-dinner"
 translationKey: "lisbon-social-reset-dinner"
 lang: "en"
-title: "How Fanju app turns a Lisbon Social Reset Dinner night into something worth showing up for | fanju-app"
-description: "It’s not the first dinner that matters most, but the second. The moment someone considers returning to another Social Reset Dinner in Lisbon reveals whether the experience created real ease or just polite interaction."
+title: "How Fanju app turns a Lisbon Social Reset Dinner night into..."
+description: "It’s not the first dinner that matters most, but the second. The moment someone considers returning to another Social Reset Dinner in Lisbon reveals whe…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

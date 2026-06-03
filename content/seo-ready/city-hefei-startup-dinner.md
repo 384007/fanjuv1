@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/hefei/startup-dinner"
 alternatePath: "/en/city/hefei/startup-dinner"
-title: "合肥创业饭局指南 | fanju-app | 饭局app"
+title: "合肥创业饭局指南"
 description: "在合肥，饭局app成为创业者之间连接的桥梁，通过美食连接人的视角，了解合肥创业饭局的指南。"
 recoveredFromD1: true
 ---

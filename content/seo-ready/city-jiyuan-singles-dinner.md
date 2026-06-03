@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/jiyuan/singles-dinner"
 alternatePath: "/en/city/jiyuan/singles-dinner"
-title: "济源单身饭局指南 | fanju-app | 饭局app"
+title: "济源单身饭局指南"
 description: "在济源的单身人士，想通过饭局app/Fanju找到新的朋友和社交圈？本指南将带你了解如何在济源找到适合你的单身饭局，如何安全地参与社交活动，和普通社交软件的不同之处。"
 recoveredFromD1: true
 ---

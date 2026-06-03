@@ -4,8 +4,8 @@ canonicalPath: "/en/city/new-york/robotics-dinner"
 alternatePath: "/city/new-york/robotics-dinner"
 translationKey: "new-york-robotics-dinner"
 lang: "en"
-title: "A New York dinner table for Robotics Dinner, with Fanju app boundaries up front"
-description: "This guide helps you understand what to expect from a Robotics Dinner listing on Fanju in New York. We’ll look at the practicalities of choosing a table, assessing the host’s intent, and understanding the venue’s role"
+title: "A New York dinner table for Robotics Dinner, with Fanju app..."
+description: "This guide helps you understand what to expect from a Robotics Dinner listing on Fanju in New York."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

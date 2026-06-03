@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mexico-city/civil-engineer-dinner"
 alternatePath: "/city/mexico-city/civil-engineer-dinner"
 translationKey: "mexico-city-civil-engineer-dinner"
 lang: "en"
-title: "Mexico City after work: how Fanju app makes Civil Engineer Dinner feel like a real room | fanju-app"
-description: "The success of any informal gathering, especially one designed for professional networking like a Civil Engineer Dinner in Mexico City, hinges on the deliberate curation of its attendees."
+title: "Mexico City after work: how Fanju app makes Civil Engineer Dinner..."
+description: "The success of any informal gathering, especially one designed for professional networking like a Civil Engineer Dinner in Mexico City, hinges on the de…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

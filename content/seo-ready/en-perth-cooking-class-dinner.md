@@ -4,8 +4,8 @@ canonicalPath: "/en/city/perth/cooking-class-dinner"
 alternatePath: "/city/perth/cooking-class-dinner"
 translationKey: "perth-cooking-class-dinner"
 lang: "en"
-title: "Perth Cooking Class Dinner through Fanju app: the questions to answer before you sit down"
-description: "A public venue type matters in Perth because strangers need to picture the room before joining. When reviewing a listing, look for specifics on whether you will be entering a professional teaching kitchen, a private"
+title: "Perth Cooking Class Dinner through Fanju app: the questions to..."
+description: "A public venue type matters in Perth because strangers need to picture the room before joining."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/yokohama/craft-beer-dinner"
 alternatePath: "/city/yokohama/craft-beer-dinner"
 translationKey: "yokohama-craft-beer-dinner"
 lang: "en"
-title: "Before joining Craft Beer Dinner in Yokohama, what Fanju app should make clear"
-description: "When considering a Craft Beer Dinner in Yokohama via Fanju, the initial listing aims to paint a clear picture. It should detail the specific breweries or beer styles featured, and perhaps the neighbourhood where the"
+title: "Before joining Craft Beer Dinner in Yokohama, what Fanju app..."
+description: "When considering a Craft Beer Dinner in Yokohama via Fanju, the initial listing aims to paint a clear picture."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/cape-town/weeknight-dinner"
 alternatePath: "/city/cape-town/weeknight-dinner"
 translationKey: "cape-town-weeknight-dinner"
 lang: "en"
-title: "When Weeknight Dinner feels too loose in Cape Town, Fanju app starts with the table | fanju-app"
-description: "Walking into a dinner with strangers in Cape Town can feel like stepping onto a moving train. You don’t know the route, the stops, or whether you’re expected to stay until the end."
+title: "When Weeknight Dinner feels too loose in Cape Town, Fanju app..."
+description: "Walking into a dinner with strangers in Cape Town can feel like stepping onto a moving train."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

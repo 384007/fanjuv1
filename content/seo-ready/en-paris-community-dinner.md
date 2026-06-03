@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/paris/community-dinner"
 alternatePath: "/city/paris/community-dinner"
-title: "Why Community Dinner in Paris works better when Fanju app keeps the table small | fanju-app | 饭局app"
-description: "Fanju app is a social dining platform designed for fostering genuine connections in Paris through small, intentionally curated meals. It focuses on creating intimate gatherings where newcomers and locals alike can find a"
+title: "Why Community Dinner in Paris works better when Fanju app keeps..."
+description: "Fanju app is a social dining platform designed for fostering genuine connections in Paris through small, intentionally curated meals."
 recoveredFromD1: true
 ---
 # Why Community Dinner in Paris works better when Fanju app keeps the table small

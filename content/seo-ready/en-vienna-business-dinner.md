@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vienna/business-dinner"
 alternatePath: "/city/vienna/business-dinner"
 translationKey: "vienna-business-dinner"
 lang: "en"
-title: "Before the first message in Vienna, Fanju app makes Business Dinner feel like a real decision | fanju-app"
-description: "Fanju app aims to transform the ephemeral encounter of a business dinner in Vienna into a tangible building block for community. It's about recognizing that the smallest unit of social connection isn't a large event, but"
+title: "Before the first message in Vienna, Fanju app makes Business..."
+description: "Fanju app aims to transform the ephemeral encounter of a business dinner in Vienna into a tangible building block for community."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

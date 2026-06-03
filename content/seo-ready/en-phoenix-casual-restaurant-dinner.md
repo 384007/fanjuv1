@@ -4,8 +4,8 @@ canonicalPath: "/en/city/phoenix/casual-restaurant-dinner"
 alternatePath: "/city/phoenix/casual-restaurant-dinner"
 translationKey: "phoenix-casual-restaurant-dinner"
 lang: "en"
-title: "Can Phoenix’s Casual Restaurant Dinner on the Fanju app ease your evening loneliness?"
-description: "The first thing to consider is whether the table size and vibe match the kind of low‑pressure interaction you need after a long day in downtown Phoenix. A four‑person dinner in a cozy patio can feel intimate without"
+title: "Can Phoenix’s Casual Restaurant Dinner on the Fanju app ease your..."
+description: "The first thing to consider is whether the table size and vibe match the kind of low‑pressure interaction you need after a long day in downtown Phoenix.…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

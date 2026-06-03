@@ -4,8 +4,8 @@ canonicalPath: "/en/city/austin/hotpot-dinner"
 alternatePath: "/city/austin/hotpot-dinner"
 translationKey: "austin-hotpot-dinner"
 lang: "en"
-title: "Austin Hotpot Dinner through Fanju app: the questions to answer before you sit down"
-description: "When considering a Hotpot Dinner in Austin through Fanju, the host’s intention is key. A good listing will articulate why this particular theme resonates within the city’s vibrant culture right now. It’s about more than"
+title: "Austin Hotpot Dinner through Fanju app: the questions to answer..."
+description: "When considering a Hotpot Dinner in Austin through Fanju, the host’s intention is key."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

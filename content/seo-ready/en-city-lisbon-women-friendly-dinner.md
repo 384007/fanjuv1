@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/lisbon/women-friendly-dinner"
 alternatePath: "/city/lisbon/women-friendly-dinner"
-title: "Lisbon Women-Friendly Dinner with Fanju app | fanju-app | 饭局app"
+title: "Lisbon Women-Friendly Dinner with Fanju app"
 description: "Discover the best way to host a women-friendly dinner in Lisbon with Fanju app, exploring the city's rhythm, neighbourhoods, and dining culture."
 recoveredFromD1: true
 ---

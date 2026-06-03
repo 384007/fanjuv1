@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/london/vc-dinner"
 alternatePath: "/city/london/vc-dinner"
-title: "London VC Dinner Guide | Fanju app"
+title: "London VC Dinner Guide"
 description: "Discover the world of VC Dinners in London with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

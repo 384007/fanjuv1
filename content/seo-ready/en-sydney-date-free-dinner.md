@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sydney/date-free-dinner"
 alternatePath: "/city/sydney/date-free-dinner"
 translationKey: "sydney-date-free-dinner"
 lang: "en"
-title: "Sydney does not need another vague invite; Fanju app makes Date Free Dinner specific | fanju-app"
-description: "After another long day navigating Sydney’s sprawl—from the morning commute across the Harbour Bridge to the late emails answered under city lights—many residents find themselves facing not fatigue, but a quieter kind of"
+title: "Sydney does not need another vague invite; Fanju app makes Date..."
+description: "After another long day navigating Sydney’s sprawl—from the morning commute across the Harbour Bridge to the late emails answered under city lights—many…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

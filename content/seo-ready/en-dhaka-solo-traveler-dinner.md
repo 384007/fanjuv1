@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dhaka/solo-traveler-dinner"
 alternatePath: "/city/dhaka/solo-traveler-dinner"
 translationKey: "dhaka-solo-traveler-dinner"
 lang: "en"
-title: "A clearer Solo Traveler Dinner dinner in Dhaka: Fanju app, small tables, and real boundaries"
-description: "When scanning through options, the specific sentence that outlines payment, time windows, and dietary expectations is the one that deserves your closest attention. A practical Dhaka listing will make these logistical"
+title: "A clearer Solo Traveler Dinner dinner in Dhaka: Fanju app, small..."
+description: "When scanning through options, the specific sentence that outlines payment, time windows, and dietary expectations is the one that deserves your closest…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

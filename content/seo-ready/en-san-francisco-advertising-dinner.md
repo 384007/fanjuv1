@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-francisco/advertising-dinner"
 alternatePath: "/city/san-francisco/advertising-dinner"
 translationKey: "san-francisco-advertising-dinner"
 lang: "en"
-title: "When Advertising Dinner in San Francisco needs more than a group chat, Fanju app starts with the table"
-description: "San Francisco dinner plans often need clear arrival and exit timing, especially when guests are crossing neighborhoods like from the Mission to downtown. The practical reality of the city means that a vague ending time"
+title: "When Advertising Dinner in San Francisco needs more than a group..."
+description: "San Francisco dinner plans often need clear arrival and exit timing, especially when guests are crossing neighborhoods like from the Mission to downtown…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

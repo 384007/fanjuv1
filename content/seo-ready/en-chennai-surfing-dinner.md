@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chennai/surfing-dinner"
 alternatePath: "/city/chennai/surfing-dinner"
 translationKey: "chennai-surfing-dinner"
 lang: "en"
-title: "Finding the right Chennai Surfing Dinner through the Fanju app: a newcomer’s guide to clear venues and real connections"
-description: "In Chennai, one of the first decisions a newcomer faces is whether the T. Nagar neighbourhood feels accessible for a first offline dinner social. Chennai’s traffic can turn a short drive into a long commute, so the"
+title: "Finding the right Chennai Surfing Dinner through the Fanju app: a..."
+description: "In Chennai, one of the first decisions a newcomer faces is whether the T. Nagar neighbourhood feels accessible for a first offline dinner social."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

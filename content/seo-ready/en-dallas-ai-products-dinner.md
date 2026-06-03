@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dallas/ai-products-dinner"
 alternatePath: "/city/dallas/ai-products-dinner"
 translationKey: "dallas-ai-products-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Dallas AI Products Dinner table before the first course"
-description: "In Dallas, the tech scene is distinct, so the listing must reflect local nuance. A generic template about AI is less convincing than a note tying the discussion to local industries. The host should explain why this"
+title: "The Fanju app way to judge a Dallas AI Products Dinner table..."
+description: "In Dallas, the tech scene is distinct, so the listing must reflect local nuance. A generic template about AI is less convincing than a note tying the di…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

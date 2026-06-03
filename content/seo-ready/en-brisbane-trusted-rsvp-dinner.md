@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brisbane/trusted-rsvp-dinner"
 alternatePath: "/city/brisbane/trusted-rsvp-dinner"
 translationKey: "brisbane-trusted-rsvp-dinner"
 lang: "en"
-title: "A clearer Trusted RSVP Dinner dinner in Brisbane: Fanju app, small tables, and real boundaries"
-description: "A practical Brisbane listing should make payment, time window, and dietary expectations easy to ask about. The platform allows hosts to clarify these logistics upfront, which is crucial for planning your evening across"
+title: "A clearer Trusted RSVP Dinner dinner in Brisbane: Fanju app, small..."
+description: "A practical Brisbane listing should make payment, time window, and dietary expectations easy to ask about."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

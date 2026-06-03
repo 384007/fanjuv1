@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/huaian/waitlist-dinner"
 alternatePath: "/en/city/huaian/waitlist-dinner"
-title: "淮安候补饭局指南 | fanju-app | 饭局app"
+title: "淮安候补饭局指南"
 description: "在淮安结束工作日的低成本方式"
 recoveredFromD1: true
 ---

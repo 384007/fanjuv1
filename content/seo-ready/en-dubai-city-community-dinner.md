@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dubai/city-community-dinner"
 alternatePath: "/city/dubai/city-community-dinner"
 translationKey: "dubai-city-community-dinner"
 lang: "en"
-title: "When City Community Dinner feels too loose in Dubai, Fanju app starts with the table | fanju-app"
-description: "In Dubai, where social scenes often move fast and feel transactional, the Fanju app offers a quieter alternative: the private-table City Community Dinner. It’s not about filling seats or networking under chandeliers. Ins"
+title: "When City Community Dinner feels too loose in Dubai, Fanju app..."
+description: "In Dubai, where social scenes often move fast and feel transactional, the Fanju app offers a quieter alternative: the private-table City Community Dinne…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

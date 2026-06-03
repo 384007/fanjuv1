@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kuala-lumpur/table-tennis-dinner"
 alternatePath: "/city/kuala-lumpur/table-tennis-dinner"
 translationKey: "kuala-lumpur-table-tennis-dinner"
 lang: "en"
-title: "A calmer way to approach Table Tennis Dinner in Kuala Lumpur through Fanju app | fanju-app"
-description: "In Kuala Lumpur, the city's vibrant nightlife and bustling streets can make it challenging to find a genuine social connection. However, with the rise of apps like Fanju, residents are rediscovering the joy of meeting ne"
+title: "A calmer way to approach Table Tennis Dinner in Kuala Lumpur..."
+description: "In Kuala Lumpur, the city's vibrant nightlife and bustling streets can make it challenging to find a genuine social connection."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

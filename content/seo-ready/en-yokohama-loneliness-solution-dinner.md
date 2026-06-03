@@ -4,8 +4,8 @@ canonicalPath: "/en/city/yokohama/loneliness-solution-dinner"
 alternatePath: "/city/yokohama/loneliness-solution-dinner"
 translationKey: "yokohama-loneliness-solution-dinner"
 lang: "en"
-title: "When Yokohama’s Waterfront Neighbourhood Hides the Right Loneliness Solution Dinner Spot – How Fanju app Can Light the Way"
-description: "The core decision for a newcomer is whether the table feels like a safe first step into Yokohama’s social fabric. In Naka Ward, many listings hide behind vague phrases like “cozy spot near the bay”; you need to ask if"
+title: "When Yokohama’s Waterfront Neighbourhood Hides the Right..."
+description: "The core decision for a newcomer is whether the table feels like a safe first step into Yokohama’s social fabric."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

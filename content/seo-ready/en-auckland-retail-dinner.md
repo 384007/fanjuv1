@@ -4,8 +4,8 @@ canonicalPath: "/en/city/auckland/retail-dinner"
 alternatePath: "/city/auckland/retail-dinner"
 translationKey: "auckland-retail-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Auckland Retail Dinner table before the first course"
-description: "The most compelling listings for a Retail Dinner in Auckland do not simply repeat the category name but explain the specific professional context of the evening. A strong listing will immediately state if the table is"
+title: "The Fanju app way to judge a Auckland Retail Dinner table before..."
+description: "The most compelling listings for a Retail Dinner in Auckland do not simply repeat the category name but explain the specific professional context of the…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

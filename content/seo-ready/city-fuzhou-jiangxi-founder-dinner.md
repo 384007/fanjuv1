@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/fuzhou-jiangxi/founder-dinner"
 alternatePath: "/en/city/fuzhou-jiangxi/founder-dinner"
-title: "抚州创业者饭局指南：如何利用饭局app打造周末核心节目 | fanju-app"
+title: "抚州创业者饭局指南：如何利用饭局app打造周末核心节目"
 description: "抚州创业者饭局指南：如何利用饭局app打造周末核心节目"
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ canonicalPath: "/city/sydney/founder-dinner"
 alternatePath: "/en/city/sydney/founder-dinner"
 translationKey: "gsc-repair-sydney-founder-dinner"
 lang: "zh"
-title: "悉尼创业者饭局指南 | fanju-app | 饭局app"
+title: "悉尼创业者饭局指南"
 description: "悉尼创业者饭局帮助创始人、出海团队、留学生创业者和科技从业者通过公开小桌晚餐交流项目、市场和本地经验。"
 pageType: "city_topic"
 priorityScore: 80

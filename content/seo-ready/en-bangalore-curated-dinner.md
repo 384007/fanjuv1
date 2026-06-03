@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangalore/curated-dinner"
 alternatePath: "/city/bangalore/curated-dinner"
 translationKey: "bangalore-curated-dinner"
 lang: "en"
-title: "A clearer Curated Dinner dinner in Bangalore: Fanju app, small tables, and real boundaries"
+title: "A clearer Curated Dinner dinner in Bangalore: Fanju app, small..."
 description: "A compelling listing for a Curated Dinner in Bangalore usually starts with a specific neighbourhood anchor, like a quiet corner in Indiranagar, rather than a vague \"city center\" label. When the host describes the table"
 pageType: "city_article"
 priorityScore: 70

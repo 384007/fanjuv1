@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/las-vegas/cross-border-dinner"
 alternatePath: "/city/las-vegas/cross-border-dinner"
-title: "Las Vegas Cross Border Dinner Guide | Fanju app"
+title: "Las Vegas Cross Border Dinner Guide"
 description: "Discover the world of Cross Border Dinners in Las Vegas with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

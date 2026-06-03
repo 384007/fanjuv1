@@ -4,8 +4,8 @@ canonicalPath: "/en/city/houston/weekend-dinner"
 alternatePath: "/city/houston/weekend-dinner"
 translationKey: "houston-weekend-dinner"
 lang: "en"
-title: "In Houston, Fanju app turns Weekend Dinner into a table people can actually trust | fanju-app"
-description: "In Houston, where weekend plans often drift between last-minute Tex-Mex runs and scrolling through delivery apps, the Fanju app offers a different rhythm: sharing dinner with people you’ve never met. It’s not a party, no"
+title: "In Houston, Fanju app turns Weekend Dinner into a table people can..."
+description: "In Houston, where weekend plans often drift between last-minute Tex-Mex runs and scrolling through delivery apps, the Fanju app offers a different rhyth…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

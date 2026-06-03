@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mumbai/hiking-dinner"
 alternatePath: "/city/mumbai/hiking-dinner"
 translationKey: "mumbai-hiking-dinner"
 lang: "en"
-title: "Before joining Hiking Dinner in Mumbai, what Fanju app should make clear"
-description: "A vague invitation feels risky when you have just arrived in the city. A host for a Hiking Dinner in Mumbai must clearly explain why this specific table exists now, perhaps because the monsoon season is ending and"
+title: "Before joining Hiking Dinner in Mumbai, what Fanju app should make..."
+description: "A vague invitation feels risky when you have just arrived in the city. A host for a Hiking Dinner in Mumbai must clearly explain why this specific table…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

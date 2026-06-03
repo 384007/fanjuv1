@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/warsaw/local-food-dinner"
 alternatePath: "/city/warsaw/local-food-dinner"
-title: "Discovering Warsaw's Flavors with Fanju app | fanju-app | 饭局app"
+title: "Discovering Warsaw's Flavors with Fanju app"
 description: "Join a local dinner in Warsaw with Fanju app and experience the city's authentic food culture as a solo traveler."
 recoveredFromD1: true
 ---

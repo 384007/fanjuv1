@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/sao-paulo/friendship-dinner"
 alternatePath: "/city/sao-paulo/friendship-dinner"
-title: "Sao Paulo does not need another vague invite; Fanju app makes Friendship Dinner specific | fanju-app | 饭局app"
-description: "In Sao Paulo, where evenings unfold at a rhythm all their own—between metro delays, last-minute cancellations, and the lingering fatigue of long commutes—Fanju app offers something rare: a clear, low-pressure way to join"
+title: "Sao Paulo does not need another vague invite; Fanju app makes..."
+description: "In Sao Paulo, where evenings unfold at a rhythm all their own—between metro delays, last-minute cancellations, and the lingering fatigue of long commute…"
 recoveredFromD1: true
 ---
 # Sao Paulo does not need another vague invite; Fanju app makes Friendship Dinner specific

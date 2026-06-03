@@ -4,7 +4,7 @@ canonicalPath: "/en/city/cairo/bilingual-dinner"
 alternatePath: "/city/cairo/bilingual-dinner"
 translationKey: "cairo-bilingual-dinner"
 lang: "en"
-title: "In Cairo, Fanju app turns Bilingual Dinner into a table people can actually trust | fanju-app"
+title: "In Cairo, Fanju app turns Bilingual Dinner into a table people can..."
 description: "For newcomers to Cairo, or even long-time residents looking to expand their social circles beyond the usual spots, the idea of a \"Bilingual Dinner\" can sound appealing, yet also a little daunting. The Fanju app aims to d"
 pageType: "city_article"
 priorityScore: 70

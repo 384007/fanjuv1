@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/binzhou/after-work-dinner"
 alternatePath: "/en/city/binzhou/after-work-dinner"
-title: "滨州下班后饭局指南 | fanju-app | 饭局app"
+title: "滨州下班后饭局指南"
 description: "在滨州，下班后的时光如何安排？如果你厌倦了独自用餐或千篇一律的聚会，不妨试试饭局app。这个平台专注于小桌、有明确主题的线下聚会，让你在轻松的氛围中认识新朋友，拓展社交圈。本文将带你探索滨州街区，发现那些适合下班后小聚的宝藏地点，并提供实用的参与指南。"
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sao-paulo/designer-dinner"
 alternatePath: "/city/sao-paulo/designer-dinner"
 translationKey: "sao-paulo-designer-dinner"
 lang: "en"
-title: "In Sao Paulo, Fanju app turns Designer Dinner into a table people can actually trust | fanju-app"
-description: "Fanju app is a social dining platform designed for small, intentionally hosted meals in Sao Paulo, where shared meals are less about spectacle and more about meaningful connection. As someone who’s hosted weekly dinners"
+title: "In Sao Paulo, Fanju app turns Designer Dinner into a table people..."
+description: "Fanju app is a social dining platform designed for small, intentionally hosted meals in Sao Paulo, where shared meals are less about spectacle and more…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

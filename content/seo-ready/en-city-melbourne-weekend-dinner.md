@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/melbourne/weekend-dinner"
 alternatePath: "/city/melbourne/weekend-dinner"
-title: "Melbourne Weekend Dinner Guide | Fanju app"
-description: "Discover the art of social dining in Melbourne with Fanju app, where you can enjoy curated meals and meaningful connections in a safe and welcoming environment."
+title: "Melbourne Weekend Dinner Guide"
+description: "Discover the art of social dining in Melbourne with Fanju app, where you can enjoy curated meals and meaningful connections in a safe and welcoming envi…"
 recoveredFromD1: true
 ---
 Are you looking for a unique and enriching way to spend your weekend evenings in Melbourne? Look no further than Fanju app, a social dining platform that brings people together for small, carefully crafted meals and real-world connections.

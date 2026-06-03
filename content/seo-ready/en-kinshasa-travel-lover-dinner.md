@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kinshasa/travel-lover-dinner"
 alternatePath: "/city/kinshasa/travel-lover-dinner"
 translationKey: "kinshasa-travel-lover-dinner"
 lang: "en"
-title: "Kinshasa has plenty of Travel Lover Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "Kinshasa, the vibrant capital of the Democratic Republic of Congo, has a thriving expat community and a growing number of locals who are eager to connect with like-minded individuals. For those who love to travel and exp"
+title: "Kinshasa has plenty of Travel Lover Dinner options; Fanju app is..."
+description: "Kinshasa, the vibrant capital of the Democratic Republic of Congo, has a thriving expat community and a growing number of locals who are eager to connec…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

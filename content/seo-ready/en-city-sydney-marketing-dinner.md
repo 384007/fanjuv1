@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/sydney/marketing-dinner"
 alternatePath: "/city/sydney/marketing-dinner"
-title: "A Solo Traveller's Guide to Marketing Dinners in Sydney with Fanju app | fanju-app | 饭局app"
+title: "A Solo Traveller's Guide to Marketing Dinners in Sydney with Fanju app"
 description: "Join a table of like-minded professionals in Sydney and make the most of your evening with Fanju app"
 recoveredFromD1: true
 ---

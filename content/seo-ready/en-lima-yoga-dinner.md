@@ -5,7 +5,7 @@ alternatePath: "/city/lima/yoga-dinner"
 translationKey: "lima-yoga-dinner"
 lang: "en"
 title: "Before joining Yoga Dinner in Lima, what Fanju app should make clear"
-description: "Before you reserve a seat, ask yourself if the effort to cross town matches the value of the proposed menu and conversation. Lima traffic is unpredictable, so committing to a Yoga Dinner requires a concrete reason that"
+description: "Before you reserve a seat, ask yourself if the effort to cross town matches the value of the proposed menu and conversation."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

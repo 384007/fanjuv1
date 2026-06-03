@@ -4,7 +4,7 @@ canonicalPath: "/en/city/accra/new-year-dinner"
 alternatePath: "/city/accra/new-year-dinner"
 translationKey: "accra-new-year-dinner"
 lang: "en"
-title: "An Accra dinner table for New Year Dinner, with Fanju app boundaries up front"
+title: "An Accra dinner table for New Year Dinner, with Fanju app..."
 description: "When you look at a listing, the specific neighborhood matters more than a generic city tag. A public venue type matters in Accra because strangers need to picture the room before joining, so a listing that only says \"a"
 pageType: "city_article"
 priorityScore: 70

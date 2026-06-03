@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/taipei/new-friends-dinner"
 alternatePath: "/city/taipei/new-friends-dinner"
-title: "A Night Out with New Friends in Taipei: How Fanju App Makes Hosting a Breeze | fanju-app | 饭局app"
+title: "A Night Out with New Friends in Taipei: How Fanju App Makes..."
 description: "Join us for a night of laughter and connection in Taipei, where Fanju app brings people together for unforgettable dinners."
 recoveredFromD1: true
 ---

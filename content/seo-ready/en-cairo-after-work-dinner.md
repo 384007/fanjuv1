@@ -4,8 +4,8 @@ canonicalPath: "/en/city/cairo/after-work-dinner"
 alternatePath: "/city/cairo/after-work-dinner"
 translationKey: "cairo-after-work-dinner"
 lang: "en"
-title: "A clearer After Work Dinner dinner in Cairo: Fanju app, small tables, and real boundaries"
-description: "Cairo traffic is a serious consideration, so a successful After Work Dinner table respects the need for a clear end time. When you join a table, the implicit agreement is that the conversation flows naturally but wraps"
+title: "A clearer After Work Dinner dinner in Cairo: Fanju app, small..."
+description: "Cairo traffic is a serious consideration, so a successful After Work Dinner table respects the need for a clear end time."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

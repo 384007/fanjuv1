@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vancouver/journalist-dinner"
 alternatePath: "/city/vancouver/journalist-dinner"
 translationKey: "vancouver-journalist-dinner"
 lang: "en"
-title: "Before the first message in Vancouver, Fanju app makes Journalist Dinner feel like a real decision | fanju-app"
-description: "Selecting a neighbourhood in Vancouver isn’t just about transit access or ambiance—it’s about alignment. A Journalist Dinner hosted in Commercial Drive carries a different texture than one in Yaletown. The former"
+title: "Before the first message in Vancouver, Fanju app makes Journalist..."
+description: "Selecting a neighbourhood in Vancouver isn’t just about transit access or ambiance—it’s about alignment."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/tel-aviv/doctor-dinner"
 alternatePath: "/city/tel-aviv/doctor-dinner"
-title: "A Low-Key Dinner with Fanju app in Tel Aviv: Doctor Dinner Perspective | fanju-app | 饭局app"
+title: "A Low-Key Dinner with Fanju app in Tel Aviv: Doctor Dinner Perspective"
 description: "Experience the city's vibrant atmosphere with a relaxed dinner through the Fanju app, a perfect way to unwind after a long day in Tel Aviv."
 recoveredFromD1: true
 ---

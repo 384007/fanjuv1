@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lahore/street-food-dinner"
 alternatePath: "/city/lahore/street-food-dinner"
 translationKey: "lahore-street-food-dinner"
 lang: "en"
-title: "Before joining Street Food Dinner in Lahore, what Fanju app should make clear"
-description: "When you first land in Lahore, the biggest hesitation is often not knowing the atmosphere of a gathering before you arrive. A well-formed listing on the app should immediately ground you in the specific reality of the"
+title: "Before joining Street Food Dinner in Lahore, what Fanju app should..."
+description: "When you first land in Lahore, the biggest hesitation is often not knowing the atmosphere of a gathering before you arrive."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

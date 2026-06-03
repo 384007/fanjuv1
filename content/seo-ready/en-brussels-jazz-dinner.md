@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/jazz-dinner"
 alternatePath: "/city/brussels/jazz-dinner"
 translationKey: "brussels-jazz-dinner"
 lang: "en"
-title: "What makes Jazz Dinner in Brussels worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "Jazz Dinner in Brussels isn’t about romance, nor is it a networking event disguised as dinner. It’s a quiet experiment in relearning how to talk — really talk — after work hours, without the weight of expectation. The Fa"
+title: "What makes Jazz Dinner in Brussels worth the risk; Fanju app..."
+description: "Jazz Dinner in Brussels isn’t about romance, nor is it a networking event disguised as dinner."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

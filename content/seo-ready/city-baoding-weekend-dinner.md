@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/baoding/weekend-dinner"
 alternatePath: "/en/city/baoding/weekend-dinner"
-title: "保定周末去哪儿吃？饭局app能帮你找到靠谱的线下聚会 | fanju-app"
+title: "保定周末去哪儿吃？饭局app能帮你找到靠谱的线下聚会"
 description: "作为一名远程工作者，在保定如何打破独处，找到一个有温度的周末饭局？本文将从远程工作者的视角出发，介绍如何利用饭局app，在保定找到一个靠谱的线下聚会，告别孤单，享受真实的社交体验。"
 recoveredFromD1: true
 ---

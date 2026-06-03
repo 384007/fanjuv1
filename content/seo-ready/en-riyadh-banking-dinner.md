@@ -4,8 +4,8 @@ canonicalPath: "/en/city/riyadh/banking-dinner"
 alternatePath: "/city/riyadh/banking-dinner"
 translationKey: "riyadh-banking-dinner"
 lang: "en"
-title: "Bridging Riyadh's After-Work Scene: Finding Your Banking Dinner Niche with Fanju app"
-description: "For newcomers to Riyadh, the prospect of after-work networking can feel daunting. The city's professional circles can appear insular, and understanding where to find genuine connections, especially in specialized fields"
+title: "Bridging Riyadh's After-Work Scene: Finding Your Banking Dinner..."
+description: "For newcomers to Riyadh, the prospect of after-work networking can feel daunting. The city's professional circles can appear insular, and understanding…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

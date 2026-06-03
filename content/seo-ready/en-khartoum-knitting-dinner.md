@@ -4,8 +4,8 @@ canonicalPath: "/en/city/khartoum/knitting-dinner"
 alternatePath: "/city/khartoum/knitting-dinner"
 translationKey: "khartoum-knitting-dinner"
 lang: "en"
-title: "Khartoum Knitting Dinner through Fanju app: the questions to answer before you sit down"
-description: "When browsing for a Knitting Dinner in Khartoum, you need to look for specific details that ground the event in the local reality rather than a generic template. A listing that feels interchangeable with one in London"
+title: "Khartoum Knitting Dinner through Fanju app: the questions to..."
+description: "When browsing for a Knitting Dinner in Khartoum, you need to look for specific details that ground the event in the local reality rather than a generic…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

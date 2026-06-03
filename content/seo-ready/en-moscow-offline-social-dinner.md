@@ -4,8 +4,8 @@ canonicalPath: "/en/city/moscow/offline-social-dinner"
 alternatePath: "/city/moscow/offline-social-dinner"
 translationKey: "moscow-offline-social-dinner"
 lang: "en"
-title: "Moscow Offline Social Dinner through the Fanju app: a solo traveler’s trust‑filled evening"
-description: "The Fanju app translates a vague idea of “social dining” into a concrete invitation by attaching a specific date, time window, and venue description to each listing. For a Moscow weekend dinner, the app will show a"
+title: "Moscow Offline Social Dinner through the Fanju app: a solo..."
+description: "The Fanju app translates a vague idea of “social dining” into a concrete invitation by attaching a specific date, time window, and venue description to…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/addis-ababa/karaoke-dinner"
 alternatePath: "/city/addis-ababa/karaoke-dinner"
 translationKey: "addis-ababa-karaoke-dinner"
 lang: "en"
-title: "For Addis Ababa readers considering Karaoke Dinner, Fanju app should make the room legible"
-description: "Does the meal precede the microphone, or does the singing overshadow the food? In Addis Ababa, dinner is a serious cultural ritual, and the balance between eating and entertainment is crucial. If a listing focuses"
+title: "For Addis Ababa readers considering Karaoke Dinner, Fanju app..."
+description: "Does the meal precede the microphone, or does the singing overshadow the food? In Addis Ababa, dinner is a serious cultural ritual, and the balance betw…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/xiangtan/premium-restaurant-dinner"
 alternatePath: "/en/city/xiangtan/premium-restaurant-dinner"
-title: "湘潭高端餐厅饭局指南 | fanju-app | 饭局app"
+title: "湘潭高端餐厅饭局指南"
 description: "想在湘潭体验一场别致的高端餐厅饭局？饭局app / Fanju 专注于打造小桌、有明确主题的线下社交体验，让您在轻松的氛围中结识新朋友。本文将为您详细介绍如何在湘潭参与一场令人难忘的饭局，从选择餐厅到饭局的流程，再到如何确保安全，让您对这种新兴的社交方式有更深入的了解。"
 recoveredFromD1: true
 ---

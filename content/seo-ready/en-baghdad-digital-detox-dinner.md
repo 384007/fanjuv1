@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/baghdad/digital-detox-dinner"
 alternatePath: "/city/baghdad/digital-detox-dinner"
-title: "For people trying Digital Detox Dinner in Baghdad, Fanju app puts the guest mix first | fanju-app | 饭局app"
-description: "Fanju app is designed for people in Baghdad who want to share small, intentional meals without digital distractions or social ambiguity. It focuses on real names, public venues, and clearly described dinners hosted by ve"
+title: "For people trying Digital Detox Dinner in Baghdad, Fanju app puts..."
+description: "Fanju app is designed for people in Baghdad who want to share small, intentional meals without digital distractions or social ambiguity."
 recoveredFromD1: true
 ---
 # For people trying Digital Detox Dinner in Baghdad, Fanju app puts the guest mix first

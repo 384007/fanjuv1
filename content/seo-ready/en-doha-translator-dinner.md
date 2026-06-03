@@ -4,8 +4,8 @@ canonicalPath: "/en/city/doha/translator-dinner"
 alternatePath: "/city/doha/translator-dinner"
 translationKey: "doha-translator-dinner"
 lang: "en"
-title: "Doha after work: how Fanju app makes Translator Dinner feel like a real room | fanju-app"
-description: "After a long week at the office in Doha, the idea of socializing can feel like more work than rest—especially if you’re someone who needs calm to connect. The Fanju app offers a quiet alternative: the Translator Dinner,"
+title: "Doha after work: how Fanju app makes Translator Dinner feel like a..."
+description: "After a long week at the office in Doha, the idea of socializing can feel like more work than rest—especially if you’re someone who needs calm to connec…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

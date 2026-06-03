@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dhaka/healthcare-dinner"
 alternatePath: "/city/dhaka/healthcare-dinner"
 translationKey: "dhaka-healthcare-dinner"
 lang: "en"
-title: "For people trying Healthcare Dinner in Dhaka, Fanju app puts the guest mix first | fanju-app"
-description: "In Dhaka, where social invitations often blur into unstructured gatherings, the Healthcare Dinner events organized through the Fanju app stand apart by focusing on intentional guest composition. For women navigating publ"
+title: "For people trying Healthcare Dinner in Dhaka, Fanju app puts the..."
+description: "In Dhaka, where social invitations often blur into unstructured gatherings, the Healthcare Dinner events organized through the Fanju app stand apart by…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

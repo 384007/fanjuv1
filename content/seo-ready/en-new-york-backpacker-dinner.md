@@ -4,8 +4,8 @@ canonicalPath: "/en/city/new-york/backpacker-dinner"
 alternatePath: "/city/new-york/backpacker-dinner"
 translationKey: "new-york-backpacker-dinner"
 lang: "en"
-title: "New York Backpacker Dinner through Fanju app: the questions to answer before you sit down"
-description: "In a city as vast as New York, the specific venue type matters because strangers need to picture the room before joining. A listing that simply names a borough is often insufficient; the best listings describe the"
+title: "New York Backpacker Dinner through Fanju app: the questions to..."
+description: "In a city as vast as New York, the specific venue type matters because strangers need to picture the room before joining."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

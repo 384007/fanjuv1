@@ -4,8 +4,8 @@ canonicalPath: "/en/city/toronto/after-work-dinner"
 alternatePath: "/city/toronto/after-work-dinner"
 translationKey: "toronto-after-work-dinner"
 lang: "en"
-title: "Toronto After Work Dinners: Finding Your Small-Table Community with Fanju app"
-description: "When considering an After Work Dinner in Toronto, the fundamental question often revolves around the desired atmosphere and the predictability of the social dynamic. Are you seeking a quiet, intimate setting where"
+title: "Toronto After Work Dinners: Finding Your Small-Table Community..."
+description: "When considering an After Work Dinner in Toronto, the fundamental question often revolves around the desired atmosphere and the predictability of the so…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/hanzhong/offline-social-dinner"
 alternatePath: "/en/city/hanzhong/offline-social-dinner"
-title: "汉中线下社交饭局指南 | fanju-app | 饭局app"
+title: "汉中线下社交饭局指南"
 description: "第一次参加饭局的人应该知道的"
 recoveredFromD1: true
 ---

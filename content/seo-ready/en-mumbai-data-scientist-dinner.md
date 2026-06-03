@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mumbai/data-scientist-dinner"
 alternatePath: "/city/mumbai/data-scientist-dinner"
 translationKey: "mumbai-data-scientist-dinner"
 lang: "en"
-title: "Data Scientist Dinner in Mumbai should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "A Data Scientist Dinner in Mumbai shouldn’t involve blind luck. The Fanju app shifts that balance, offering a space where small, intentional dinners connect people through food, not algorithms."
+title: "Data Scientist Dinner in Mumbai should not feel like a gamble;..."
+description: "A Data Scientist Dinner in Mumbai shouldn’t involve blind luck. The Fanju app shifts that balance, offering a space where small, intentional dinners con…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

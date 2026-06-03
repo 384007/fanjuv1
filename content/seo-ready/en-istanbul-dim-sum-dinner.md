@@ -4,8 +4,8 @@ canonicalPath: "/en/city/istanbul/dim-sum-dinner"
 alternatePath: "/city/istanbul/dim-sum-dinner"
 translationKey: "istanbul-dim-sum-dinner"
 lang: "en"
-title: "Istanbul after work: how Fanju app makes Dim Sum Dinner feel like a real room | fanju-app"
-description: "In Istanbul, where evenings often dissolve into last-minute messages and half-committed plans, the Fanju app has quietly reshaped how people reconnect over food. One of its most grounded uses is organizing Dim Sum Dinner"
+title: "Istanbul after work: how Fanju app makes Dim Sum Dinner feel like..."
+description: "In Istanbul, where evenings often dissolve into last-minute messages and half-committed plans, the Fanju app has quietly reshaped how people reconnect o…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

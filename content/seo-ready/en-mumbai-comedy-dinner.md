@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mumbai/comedy-dinner"
 alternatePath: "/city/mumbai/comedy-dinner"
 translationKey: "mumbai-comedy-dinner"
 lang: "en"
-title: "Mumbai strangers sit down easier when Fanju app frames the Comedy Dinner table first | fanju-app"
-description: "In Mumbai, a city known for its vibrant energy and sometimes overwhelming social currents, the idea of a shared Comedy Dinner table can be both exciting and daunting. When you're seated with a group of strangers, the ini"
+title: "Mumbai strangers sit down easier when Fanju app frames the Comedy..."
+description: "In Mumbai, a city known for its vibrant energy and sometimes overwhelming social currents, the idea of a shared Comedy Dinner table can be both exciting…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

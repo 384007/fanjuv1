@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kinshasa/private-equity-dinner"
 alternatePath: "/city/kinshasa/private-equity-dinner"
 translationKey: "kinshasa-private-equity-dinner"
 lang: "en"
-title: "For Kinshasa readers considering Private Equity Dinner, Fanju app should make the room legible"
-description: "When evaluating a Private Equity Dinner in Kinshasa, the host’s note must go beyond repeating the category name. A strong listing explains why this specific conversation matters in the current local economic climate,"
+title: "For Kinshasa readers considering Private Equity Dinner, Fanju app..."
+description: "When evaluating a Private Equity Dinner in Kinshasa, the host’s note must go beyond repeating the category name."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/hong-kong/dinner-buddy"
 alternatePath: "/city/hong-kong/dinner-buddy"
 translationKey: "hong-kong-dinner-buddy"
 lang: "en"
-title: "Hong Kong Dinner Buddy Guide | Fanju app"
+title: "Hong Kong Dinner Buddy Guide"
 titleZh: "Hong Kong Dinner Buddy Guide"
 pageType: "city_landing"
 priorityScore: 50

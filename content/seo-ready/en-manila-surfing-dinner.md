@@ -4,7 +4,7 @@ canonicalPath: "/en/city/manila/surfing-dinner"
 alternatePath: "/city/manila/surfing-dinner"
 translationKey: "manila-surfing-dinner"
 lang: "en"
-title: "Manila does not need another vague invite; Fanju app makes Surfing Dinner specific | fanju-app"
+title: "Manila does not need another vague invite; Fanju app makes Surfing..."
 description: "Navigating social invitations in Manila can sometimes feel like a game of chance, especially when a \"Surfing Dinner\" is proposed. The term itself, while evocative, often lacks the specificity needed for someone"
 pageType: "city_article"
 priorityScore: 70

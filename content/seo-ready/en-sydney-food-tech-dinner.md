@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sydney/food-tech-dinner"
 alternatePath: "/city/sydney/food-tech-dinner"
 translationKey: "sydney-food-tech-dinner"
 lang: "en"
-title: "How Fanju app turns a Sydney Food Tech Dinner night into something worth showing up for | fanju-app"
-description: "Sydney moves fast, and so do its social rhythms. A poorly defined dinner—one that feels like a vague “food and tech chat”—won’t cut through the noise of after-work drinks, gallery openings, or weekend markets. What"
+title: "How Fanju app turns a Sydney Food Tech Dinner night into something..."
+description: "Sydney moves fast, and so do its social rhythms. A poorly defined dinner—one that feels like a vague “food and tech chat”—won’t cut through the noise of…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

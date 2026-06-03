@@ -4,8 +4,8 @@ canonicalPath: "/en/city/buenos-aires/dinner-buddy"
 alternatePath: "/city/buenos-aires/dinner-buddy"
 translationKey: "buenos-aires-dinner-buddy"
 lang: "en"
-title: "Why Dinner Buddy in Buenos Aires works better when Fanju app keeps the table small | fanju-app"
-description: "The Fanju app helps newcomers in Buenos Aires find real connections through dinner by focusing on small, clearly framed meals with specific hosts and intentions. Instead of large, open-ended gatherings, it structures Din"
+title: "Why Dinner Buddy in Buenos Aires works better when Fanju app keeps..."
+description: "The Fanju app helps newcomers in Buenos Aires find real connections through dinner by focusing on small, clearly framed meals with specific hosts and in…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

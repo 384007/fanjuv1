@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bangalore/yoga-instructor-dinner"
 alternatePath: "/city/bangalore/yoga-instructor-dinner"
 translationKey: "bangalore-yoga-instructor-dinner"
 lang: "en"
-title: "What makes Yoga Instructor Dinner in Bangalore worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "Dining in Bangalore with strangers is common, but sitting down at a Yoga Instructor Dinner table carries a different set of expectations—one that blends wellness culture, quiet intensity, and the city’s evolving social g"
+title: "What makes Yoga Instructor Dinner in Bangalore worth the risk;..."
+description: "Dining in Bangalore with strangers is common, but sitting down at a Yoga Instructor Dinner table carries a different set of expectations—one that blends…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

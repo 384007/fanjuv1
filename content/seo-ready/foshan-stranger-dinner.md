@@ -4,7 +4,7 @@ canonicalPath: "/city/foshan/stranger-dinner"
 alternatePath: "/en/city/foshan/stranger-dinner"
 translationKey: "foshan-stranger-dinner"
 lang: "zh"
-title: "佛山 stranger dinner Guide | fanju-app | 饭局app"
+title: "佛山 stranger dinner Guide"
 titleZh: "佛山stranger-dinner指南"
 pageType: "city_landing"
 priorityScore: 68

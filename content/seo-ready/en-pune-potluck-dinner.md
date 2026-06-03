@@ -4,8 +4,8 @@ canonicalPath: "/en/city/pune/potluck-dinner"
 alternatePath: "/city/pune/potluck-dinner"
 translationKey: "pune-potluck-dinner"
 lang: "en"
-title: "How Fanju app turns a Pune Potluck Dinner night into something worth showing up for | fanju-app"
-description: "Choosing the right part of Pune can make or break the experience of attending a potluck dinner. For most residents, crossing town after a long workday in Hinjewadi or Kalyani Nagar feels like an ask too far, even for a"
+title: "How Fanju app turns a Pune Potluck Dinner night into something..."
+description: "Choosing the right part of Pune can make or break the experience of attending a potluck dinner."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

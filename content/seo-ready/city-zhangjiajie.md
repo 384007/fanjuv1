@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/zhangjiajie"
 alternatePath: "/en/city/zhangjiajie"
-title: "张家界城市饭局指南 | fanju-app | 饭局app"
+title: "张家界城市饭局指南"
 description: "在张家界，下班后不再独自回家，饭局app让您找到同行的朋友，享受低成本的结束工作日方式。"
 recoveredFromD1: true
 ---

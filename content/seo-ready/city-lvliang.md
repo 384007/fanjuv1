@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/lvliang"
 alternatePath: "/en/city/lvliang"
-title: "吕梁城市饭局指南：独自旅行者的温暖一晚 | fanju-app | 饭局app"
+title: "吕梁城市饭局指南：独自旅行者的温暖一晚"
 description: "独自旅行在吕梁，如何找到当地人的餐桌？饭局app / Fanju 致力于打造围绕小桌吃饭、清晰主题和线下连接的社交体验。它不是一个简单的约会平台，而是让你在陌生的城市，有机会与当地人围坐一桌，分享食物与故事，感受真实的城市脉搏。对于初来乍到的你，这或许是认识吕梁最直接的方式。"
 recoveredFromD1: true
 ---

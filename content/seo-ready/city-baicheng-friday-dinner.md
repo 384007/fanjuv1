@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/baicheng/friday-dinner"
 alternatePath: "/en/city/baicheng/friday-dinner"
-title: "白城周五饭局指南 | fanju-app | 饭局app"
+title: "白城周五饭局指南"
 description: "在白城，如何找到一个让你感到舒适和安全的周五晚间社交体验？饭局app / Fanju 专注于小桌、有明确主题的线下聚会，为都市人提供真实连接的平台。本文将从女性友好的视角出发，探讨如何在白城利用饭局app / Fanju 享受一个安心又愉快的周五晚餐。"
 recoveredFromD1: true
 ---

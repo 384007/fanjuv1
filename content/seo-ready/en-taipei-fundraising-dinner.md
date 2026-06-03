@@ -4,8 +4,8 @@ canonicalPath: "/en/city/taipei/fundraising-dinner"
 alternatePath: "/city/taipei/fundraising-dinner"
 translationKey: "taipei-fundraising-dinner"
 lang: "en"
-title: "Should you trust a Fanju app Fundraising Dinner in Taipei’s Daan neighbourhood?"
-description: "When a listing advertises a Fundraising Dinner in a quiet corner of Da’an, the first thing to check is whether the description respects the curated‑table standard rather than promising a large, unstructured gathering."
+title: "Should you trust a Fanju app Fundraising Dinner in Taipei’s Daan..."
+description: "When a listing advertises a Fundraising Dinner in a quiet corner of Da’an, the first thing to check is whether the description respects the curated‑tabl…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96

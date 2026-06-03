@@ -5,7 +5,7 @@ alternatePath: "/city/doha/anime-dinner"
 translationKey: "doha-anime-dinner"
 lang: "en"
 title: "Doha’s Anime Dinner Scene Finds Clarity with the Fanju app"
-description: "Choosing an Anime Dinner in Doha is less about the latest episode buzz and more about how food can instantly connect strangers. A well‑chosen venue—whether a quiet café in Al Safa or a rooftop lounge in The"
+description: "Choosing an Anime Dinner in Doha is less about the latest episode buzz and more about how food can instantly connect strangers."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

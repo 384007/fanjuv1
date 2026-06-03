@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/singapore/designer-dinner"
 alternatePath: "/city/singapore/designer-dinner"
-title: "Singapore Designer Dinner Guide | Fanju app"
-description: "Discover the world of social dining with Fanju app, a platform that connects like-minded individuals for intimate, small-table meals in the heart of Singapore."
+title: "Singapore Designer Dinner Guide"
+description: "Discover the world of social dining with Fanju app, a platform that connects like-minded individuals for intimate, small-table meals in the heart of Sin…"
 recoveredFromD1: true
 ---
 If you&#039;re looking for a unique dining experience that combines good food, meaningful conversations, and a sense of community, you&#039;re in the right place. This guide is designed to help you navigate the world of Designer Dinners in Singapore, with a focus on the needs and concerns of women.

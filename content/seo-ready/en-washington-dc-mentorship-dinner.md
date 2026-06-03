@@ -4,8 +4,8 @@ canonicalPath: "/en/city/washington-dc/mentorship-dinner"
 alternatePath: "/city/washington-dc/mentorship-dinner"
 translationKey: "washington-dc-mentorship-dinner"
 lang: "en"
-title: "Washington DC does not need another vague invite; Fanju app makes Mentorship Dinner specific | fanju-app"
-description: "Mentorship Dinner in Washington DC isn’t about showing up to a network mixer or trading business cards over lukewarm appetizers. It’s a deliberate exchange over a shared meal, designed for depth, not volume. The Fanju ap"
+title: "Washington DC does not need another vague invite; Fanju app makes..."
+description: "Mentorship Dinner in Washington DC isn’t about showing up to a network mixer or trading business cards over lukewarm appetizers."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

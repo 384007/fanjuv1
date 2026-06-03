@@ -4,7 +4,7 @@ canonicalPath: "/en/city/denver/offline-social-dinner"
 alternatePath: "/city/denver/offline-social-dinner"
 translationKey: "denver-offline-social-dinner"
 lang: "en"
-title: "Before joining Offline Social Dinner in Denver, what Fanju app should make clear"
+title: "Before joining Offline Social Dinner in Denver, what Fanju app..."
 description: "When you look for an offline dinner social in Denver, the host note should explain why this specific table exists now. A vague title like \"Dinner in Denver\" is a red flag; instead, look for context like \"remote workers"
 pageType: "city_article"
 priorityScore: 70

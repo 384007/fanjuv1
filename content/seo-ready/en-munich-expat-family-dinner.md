@@ -4,8 +4,8 @@ canonicalPath: "/en/city/munich/expat-family-dinner"
 alternatePath: "/city/munich/expat-family-dinner"
 translationKey: "munich-expat-family-dinner"
 lang: "en"
-title: "Munich after work: how Fanju app makes Expat Family Dinner feel like a real room | fanju-app"
-description: "After a day of remote meetings and solitary screen time in Munich, logging off doesn’t always mean rejoining the world. For many expat professionals working from home, the silence after work can stretch into isolation. T"
+title: "Munich after work: how Fanju app makes Expat Family Dinner feel..."
+description: "After a day of remote meetings and solitary screen time in Munich, logging off doesn’t always mean rejoining the world."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

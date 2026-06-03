@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tokyo/whisky-dinner"
 alternatePath: "/city/tokyo/whisky-dinner"
 translationKey: "tokyo-whisky-dinner"
 lang: "en"
-title: "Tokyo after work: how Fanju app makes Whisky Dinner feel like a real room | fanju-app"
-description: "After work in Tokyo, the city’s rhythm shifts—salarymen loosen their ties, neon signs flicker on, and tucked-away bars start filling with quiet conversations. I’ve hosted over fifty Whisky Dinners through the Fanju app,"
+title: "Tokyo after work: how Fanju app makes Whisky Dinner feel like a..."
+description: "After work in Tokyo, the city’s rhythm shifts—salarymen loosen their ties, neon signs flicker on, and tucked-away bars start filling with quiet conversa…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

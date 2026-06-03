@@ -4,8 +4,8 @@ canonicalPath: "/en/city/helsinki/basketball-dinner"
 alternatePath: "/city/helsinki/basketball-dinner"
 translationKey: "helsinki-basketball-dinner"
 lang: "en"
-title: "Helsinki after work: how Fanju app makes Basketball Dinner feel like a real room | fanju-app"
-description: "In Helsinki, where evenings often blur into quiet routines of tram rides and grocery runs, the Fanju app quietly reshapes how people gather after work. It doesn’t promise big events or curated meetups—instead, it turns d"
+title: "Helsinki after work: how Fanju app makes Basketball Dinner feel..."
+description: "In Helsinki, where evenings often blur into quiet routines of tram rides and grocery runs, the Fanju app quietly reshapes how people gather after work."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/delhi/japanese-learner-dinner"
 alternatePath: "/city/delhi/japanese-learner-dinner"
 translationKey: "delhi-japanese-learner-dinner"
 lang: "en"
-title: "When Delhi’s Evening Traffic Clears, Fanju app Helps You Find a Trustworthy Japanese Learner Dinner Table"
-description: "The first decision point is whether the described table feels safe enough to attend. Delhi diners often ask themselves if the host’s note mentions a clear “you may leave after ten minutes if you’re uncomfortable,”"
+title: "When Delhi’s Evening Traffic Clears, Fanju app Helps You Find a..."
+description: "The first decision point is whether the described table feels safe enough to attend."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

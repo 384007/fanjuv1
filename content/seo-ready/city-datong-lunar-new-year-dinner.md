@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/datong/lunar-new-year-dinner"
 alternatePath: "/en/city/datong/lunar-new-year-dinner"
-title: "大同春节饭局指南 | fanju-app | 饭局app"
+title: "大同春节饭局指南"
 description: "在大同的春节饭局中，Fanju / 饭局app 成为了一种必不可少的社交工具。它让你可以轻松地找到同城的朋友或新人，围绕小桌吃饭、清晰主题和线下连接。"
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/budapest/pop-up-dinner"
 alternatePath: "/city/budapest/pop-up-dinner"
 translationKey: "budapest-pop-up-dinner"
 lang: "en"
-title: "Before the first message in Budapest, Fanju app makes Pop Up Dinner feel like a real decision | fanju-app"
-description: "Deciding to join a Pop Up Dinner in Budapest through the Fanju app begins not with excitement, but with stillness. You're standing in your apartment near Széchenyi István tér, scrolling through a profile of strangers who"
+title: "Before the first message in Budapest, Fanju app makes Pop Up..."
+description: "Deciding to join a Pop Up Dinner in Budapest through the Fanju app begins not with excitement, but with stillness."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

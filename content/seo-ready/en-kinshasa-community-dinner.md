@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kinshasa/community-dinner"
 alternatePath: "/city/kinshasa/community-dinner"
 translationKey: "kinshasa-community-dinner"
 lang: "en"
-title: "How Fanju app turns a Kinshasa Community Dinner night into something worth showing up for | fanju-app"
+title: "How Fanju app turns a Kinshasa Community Dinner night into..."
 description: "The concept of Community Dinner in Kinshasa, when approached with a focus on genuine connection, thrives on clarity from the outset."
 pageType: "city_article"
 priorityScore: 70

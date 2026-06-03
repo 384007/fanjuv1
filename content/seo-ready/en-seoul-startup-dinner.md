@@ -5,7 +5,7 @@ alternatePath: "/city/seoul/startup-dinner"
 translationKey: "seoul-startup-dinner"
 lang: "en"
 title: "When Seoul Startup Dinner Meets the Fanju app: A First‑Arrival Dilemma"
-description: "You stand on the sidewalk outside a modest bistro in Gangnam, the venue listed for the Seoul Startup Dinner, and the clock on your phone reads 6:45 pm. In Seoul dinner plans, clear arrival and exit timing is essential,"
+description: "You stand on the sidewalk outside a modest bistro in Gangnam, the venue listed for the Seoul Startup Dinner, and the clock on your phone reads 6:45 pm."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

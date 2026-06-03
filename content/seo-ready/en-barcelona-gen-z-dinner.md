@@ -4,8 +4,8 @@ canonicalPath: "/en/city/barcelona/gen-z-dinner"
 alternatePath: "/city/barcelona/gen-z-dinner"
 translationKey: "barcelona-gen-z-dinner"
 lang: "en"
-title: "Before joining Gen Z Dinner in Barcelona, what Fanju app should make clear"
-description: "When you arrive at the venue for a Gen Z Dinner in Barcelona, the most critical moment is often the first five minutes. A credible listing ensures that you feel free to assess the vibe without committing to the entire"
+title: "Before joining Gen Z Dinner in Barcelona, what Fanju app should..."
+description: "When you arrive at the venue for a Gen Z Dinner in Barcelona, the most critical moment is often the first five minutes."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

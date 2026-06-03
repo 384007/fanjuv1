@@ -4,8 +4,8 @@ canonicalPath: "/en/city/toronto/jazz-dinner"
 alternatePath: "/city/toronto/jazz-dinner"
 translationKey: "toronto-jazz-dinner"
 lang: "en"
-title: "A clearer Jazz Dinner dinner in Toronto: Fanju app, small tables, and real boundaries"
-description: "A major concern for anyone joining a Toronto Jazz Dinner is understanding when the evening actually ends and what happens afterward. Unlike a loose meetup where people drift away at different times, a Fanju dinner"
+title: "A clearer Jazz Dinner dinner in Toronto: Fanju app, small tables,..."
+description: "A major concern for anyone joining a Toronto Jazz Dinner is understanding when the evening actually ends and what happens afterward."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

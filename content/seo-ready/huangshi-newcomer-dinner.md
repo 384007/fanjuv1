@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/huangshi/newcomer-dinner"
 alternatePath: "/en/city/huangshi/newcomer-dinner"
-title: "在黄石把新移民饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
+title: "在黄石把新移民饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "饭局app在黄石的日常，不是饭馆名录，也不是速配社交工具，而是让新移民把下班后的空档接住的一张小桌。一张四到六人的饭桌，在饭局app上被重新定义为“结束工作日的替代路线”——不回家做饭，也不独自点外卖，而是用一顿普通晚饭，把陌生城市里的时间"
 recoveredFromD1: true
 ---

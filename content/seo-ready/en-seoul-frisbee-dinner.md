@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seoul/frisbee-dinner"
 alternatePath: "/city/seoul/frisbee-dinner"
 translationKey: "seoul-frisbee-dinner"
 lang: "en"
-title: "A clearer Frisbee Dinner dinner in Seoul: Fanju app, small tables, and real boundaries"
-description: "Consider the solo traveler arriving in Seoul after work, hesitant to face a restaurant counter alone. A listing for a Frisbee Dinner captures attention not by promising a wild night out, but by offering a specific"
+title: "A clearer Frisbee Dinner dinner in Seoul: Fanju app, small tables,..."
+description: "Consider the solo traveler arriving in Seoul after work, hesitant to face a restaurant counter alone."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

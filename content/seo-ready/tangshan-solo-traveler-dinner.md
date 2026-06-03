@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/tangshan/solo-traveler-dinner"
 alternatePath: "/en/city/tangshan/solo-traveler-dinner"
-title: "唐山新生活：饭局app 帮你找到味蕾与心灵的归属 | fanju-app"
+title: "唐山新生活：饭局app 帮你找到味蕾与心灵的归属"
 description: "刚来到唐山，还没来得及认识新朋友？饭局app 致力于通过精心策划的小桌聚餐，为新唐山人提供一个温暖的线下连接平台。在这里，你可以品尝地道美食，结识志同道合的伙伴，让这座城市的生活不再孤单。"
 recoveredFromD1: true
 ---

@@ -5,7 +5,7 @@ alternatePath: "/city/abu-dhabi/luxury-dinner"
 translationKey: "abu-dhabi-luxury-dinner"
 lang: "en"
 title: "Abu Dhabi Luxury Dinner: how Fanju app makes the table worth choosing"
-description: "When you look for a Luxury Dinner in Abu Dhabi through Fanju app, the listing should provide a clear narrative about the evening before you ever arrive. The app is designed to answer the search intent by detailing the"
+description: "When you look for a Luxury Dinner in Abu Dhabi through Fanju app, the listing should provide a clear narrative about the evening before you ever arrive.…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

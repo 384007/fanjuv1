@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/nairobi/mandarin-dinner"
 alternatePath: "/city/nairobi/mandarin-dinner"
-title: "Nairobi Mandarin Dinner Guide | Fanju app"
-description: "Discover the authentic taste of Mandarin dinner in Nairobi with Fanju app, a social dining app that connects you with like-minded individuals for small, clearly described meals and real-world connections."
+title: "Nairobi Mandarin Dinner Guide"
+description: "Discover the authentic taste of Mandarin dinner in Nairobi with Fanju app, a social dining app that connects you with like-minded individuals for small,…"
 recoveredFromD1: true
 ---
 In a city like Nairobi, where people from diverse backgrounds come together, food becomes a universal language that bridges cultural gaps. It&#039;s a way to connect with others, to share stories, and to create meaningful relationships. But, have you ever wondered how to experience this connection in a more authentic way? That&#039;s where Mandarin dinner comes in – a culinary journey that brings people together over a shared love of food.

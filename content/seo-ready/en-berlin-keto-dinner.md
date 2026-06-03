@@ -4,8 +4,8 @@ canonicalPath: "/en/city/berlin/keto-dinner"
 alternatePath: "/city/berlin/keto-dinner"
 translationKey: "berlin-keto-dinner"
 lang: "en"
-title: "A Berlin dinner table for Keto Dinner, with Fanju app boundaries up front"
-description: "The timing details also reveal whether the host understands the local rhythm. Berliners value their weekends, and a dinner that respects a clear start time and a reasonable end time is more appealing. Look for clues"
+title: "A Berlin dinner table for Keto Dinner, with Fanju app boundaries..."
+description: "The timing details also reveal whether the host understands the local rhythm. Berliners value their weekends, and a dinner that respects a clear start t…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/abu-dhabi/private-dinner"
 alternatePath: "/city/abu-dhabi/private-dinner"
-title: "When Private Dinner feels too loose in Abu Dhabi, Fanju app starts with the table | fanju-app | 饭局app"
-description: "Private dinner in Abu Dhabi can seem like a promising idea after a long workday—especially when you’ve just arrived in the city and need real connection without the noise of networking events. But without clear structure"
+title: "When Private Dinner feels too loose in Abu Dhabi, Fanju app starts..."
+description: "Private dinner in Abu Dhabi can seem like a promising idea after a long workday—especially when you’ve just arrived in the city and need real connection…"
 recoveredFromD1: true
 ---
 # When Private Dinner feels too loose in Abu Dhabi, Fanju app starts with the table

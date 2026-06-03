@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nagoya/book-lover-dinner"
 alternatePath: "/city/nagoya/book-lover-dinner"
 translationKey: "nagoya-book-lover-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Nagoya Book Lover Dinner table before the first course | fanju-app"
-description: "Nagoya Book Lover Dinner through the Fanju app offers a quiet chance to meet readers face-to-face over local dishes, not a dating guarantee, not a random group chat, not an endless profile feed."
+title: "The Fanju app way to judge a Nagoya Book Lover Dinner table before..."
+description: "Nagoya Book Lover Dinner through the Fanju app offers a quiet chance to meet readers face-to-face over local dishes, not a dating guarantee, not a rando…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

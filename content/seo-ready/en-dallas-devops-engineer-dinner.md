@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dallas/devops-engineer-dinner"
 alternatePath: "/city/dallas/devops-engineer-dinner"
 translationKey: "dallas-devops-engineer-dinner"
 lang: "en"
-title: "Dallas after work: how Fanju app makes DevOps Engineer Dinner feel like a real room | fanju-app"
-description: "In Dallas, where Friday afternoons often dissolve into open-ended group chats about “maybe grabbing something,” DevOps engineers who want real connection are turning to the Fanju app to organize intentional dinners that"
+title: "Dallas after work: how Fanju app makes DevOps Engineer Dinner feel..."
+description: "In Dallas, where Friday afternoons often dissolve into open-ended group chats about “maybe grabbing something,” DevOps engineers who want real connectio…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

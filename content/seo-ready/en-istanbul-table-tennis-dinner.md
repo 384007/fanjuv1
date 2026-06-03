@@ -5,7 +5,7 @@ alternatePath: "/city/istanbul/table-tennis-dinner"
 translationKey: "istanbul-table-tennis-dinner"
 lang: "en"
 title: "Curated‑Table Comfort: Istanbul Table Tennis Dinner via the Fanju app"
-description: "In the context of Istanbul’s Table Tennis Dinner, the Fanju app functions as a matchmaking hub that pairs people around a shared dinner‑and‑play experience, rather than a swipe‑driven dating platform. The app requires"
+description: "In the context of Istanbul’s Table Tennis Dinner, the Fanju app functions as a matchmaking hub that pairs people around a shared dinner‑and‑play experie…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

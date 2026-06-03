@@ -4,8 +4,8 @@ canonicalPath: "/en/city/jakarta/writer-dinner"
 alternatePath: "/city/jakarta/writer-dinner"
 translationKey: "jakarta-writer-dinner"
 lang: "en"
-title: "How Fanju app turns a Jakarta Writer Dinner night into something worth showing up for | fanju-app"
-description: "Jakarta’s sprawl isn’t just geographic—it’s social. Crossing from Kelapa Gading to Cipete means shifting not just in traffic patterns but in tone, language, and unspoken codes of belonging. A Writer Dinner in Menteng"
+title: "How Fanju app turns a Jakarta Writer Dinner night into something..."
+description: "Jakarta’s sprawl isn’t just geographic—it’s social. Crossing from Kelapa Gading to Cipete means shifting not just in traffic patterns but in tone, langu…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/xianyang/third-place-dinner"
 alternatePath: "/en/city/xianyang/third-place-dinner"
-title: "咸阳街巷里的信任温度：饭局app如何构建安全小桌 | fanju-app"
+title: "咸阳街巷里的信任温度：饭局app如何构建安全小桌"
 description: "在咸阳，饭局app不仅仅是一个线上平台，更是连接人与人之间信任的桥梁。我们探讨如何通过公开的餐厅选择、真实的身份核验以及精巧的小桌设计，让每一次在咸阳的饭局都充满安全感和温度，尤其适合那些希望在工作之余，以一种更具人情味的方式拓展社交圈的朋友。"
 recoveredFromD1: true
 ---

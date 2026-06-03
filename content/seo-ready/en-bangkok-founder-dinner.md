@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bangkok/founder-dinner"
 alternatePath: "/city/bangkok/founder-dinner"
 translationKey: "bangkok-founder-dinner"
 lang: "en"
-title: "Before joining Founder Dinner in Bangkok, what Fanju app should make clear"
-description: "The right reader for a Bangkok Founder Dinner is someone who has just finished a long day in the Silom or Sukhumvit business districts and wants a low-effort way to socialize without the noise of a large mixer. This"
+title: "Before joining Founder Dinner in Bangkok, what Fanju app should..."
+description: "The right reader for a Bangkok Founder Dinner is someone who has just finished a long day in the Silom or Sukhumvit business districts and wants a low-e…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -5,7 +5,7 @@ alternatePath: "/city/nagoya/bilingual-dinner"
 translationKey: "nagoya-bilingual-dinner"
 lang: "en"
 title: "Finding a Trustworthy Bilingual Dinner in Nagoya through the Fanju app"
-description: "A newcomer often wonders if the table will feel like a welcoming circle or an awkward language lab. In Nagoya’s Sakae neighbourhood, many listings describe a “casual chat over ramen” but leave the cost vague; that"
+description: "A newcomer often wonders if the table will feel like a welcoming circle or an awkward language lab."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

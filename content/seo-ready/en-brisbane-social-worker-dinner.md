@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brisbane/social-worker-dinner"
 alternatePath: "/city/brisbane/social-worker-dinner"
 translationKey: "brisbane-social-worker-dinner"
 lang: "en"
-title: "For people trying Social Worker Dinner in Brisbane, Fanju app puts the guest mix first | fanju-app"
-description: "If you’ve ever sat through a group dinner in Brisbane where the conversation never quite caught fire, you’re not alone. Social Worker Dinner events, as they appear on the Fanju app, aim to fix that—not by adding more gue"
+title: "For people trying Social Worker Dinner in Brisbane, Fanju app puts..."
+description: "If you’ve ever sat through a group dinner in Brisbane where the conversation never quite caught fire, you’re not alone."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

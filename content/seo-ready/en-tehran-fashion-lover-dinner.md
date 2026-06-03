@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tehran/fashion-lover-dinner"
 alternatePath: "/city/tehran/fashion-lover-dinner"
 translationKey: "tehran-fashion-lover-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Tehran Fashion Lover Dinner table before the first course"
-description: "A generic listing often feels like a copy-paste job, but a solid Fashion Lover Dinner in Tehran should explain expected group size before the table fills. When you see a host explicitly stating whether this is an"
+title: "The Fanju app way to judge a Tehran Fashion Lover Dinner table..."
+description: "A generic listing often feels like a copy-paste job, but a solid Fashion Lover Dinner in Tehran should explain expected group size before the table fill…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/barcelona/city-community-dinner"
 alternatePath: "/city/barcelona/city-community-dinner"
-title: "Barcelona City Community Dinner Guide | Fanju app"
-description: "Discover the heart of Barcelona's community through a shared meal, facilitated by the Fanju app, a social dining platform for small, intimate gatherings and genuine connections."
+title: "Barcelona City Community Dinner Guide"
+description: "Discover the heart of Barcelona's community through a shared meal, facilitated by the Fanju app, a social dining platform for small, intimate gatherings…"
 recoveredFromD1: true
 ---
 Barcelona is a city that pulsates with life, where every neighborhood has its unique rhythm and charm. As you wander through the narrow streets, you&#039;ll stumble upon hidden gems, from quaint cafes to bustling markets. But what truly makes this city special is its people – warm, welcoming, and eager to connect. And what better way to experience this community spirit than over a delicious meal?

@@ -4,9 +4,9 @@ canonicalPath: "/city/wulumuqi/friday-dinner"
 alternatePath: "/en/city/wulumuqi/friday-dinner"
 translationKey: "wulumuqi-friday-dinner"
 lang: "zh"
-title: "乌鲁木齐周五饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
+title: "乌鲁木齐周五饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 titleZh: "乌鲁木齐周五饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
-description: "饭局app不是在乌鲁木齐新开了一种吃饭方式，而是重新定义了饭局的起点。 这座城市从来不缺饭局——老友相约在二道桥的巷子里吃抓饭，同事下班后在铁路局附近拼一桌拌面，周末家庭聚在红山脚下的大盘鸡馆子谈天说地。 但真正让人愿意坐下来的饭局，往往不是靠热闹堆出来的。 饭局app在这里做的，是让每一次组局从“有没有人一起吃”变成“这顿饭值不值得去”。"
+description: "饭局app不是在乌鲁木齐新开了一种吃饭方式，而是重新定义了饭局的起点。 这座城市从来不缺饭局——老友相约在二道桥的巷子里吃抓饭，同事下班后在铁路局附近拼一桌拌面，周末家庭聚在红山脚下的大盘鸡馆子谈天说地。 但真正让人愿意坐下来的饭局，往往不是靠热闹堆出来的。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

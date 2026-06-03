@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-diego/concert-goer-dinner"
 alternatePath: "/city/san-diego/concert-goer-dinner"
 translationKey: "san-diego-concert-goer-dinner"
 lang: "en"
-title: "Weekend Choices in San Diego: How a Fanju app Concert Goer Dinner Can Fill the Newcomer Gap"
-description: "When you browse a Fanju listing, look for a clear neighbourhood reference; a mention of “near Seaport Village” or “in North Park” signals that the host has considered the walk‑back distance. A precise address helps you"
+title: "Weekend Choices in San Diego: How a Fanju app Concert Goer Dinner..."
+description: "When you browse a Fanju listing, look for a clear neighbourhood reference; a mention of “near Seaport Village” or “in North Park” signals that the host…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96

@@ -5,7 +5,7 @@ alternatePath: "/city/riyadh/golf-dinner"
 translationKey: "riyadh-golf-dinner"
 lang: "en"
 title: "Riyadh Golf Dinner: Finding Your Table Through Fanju app"
-description: "When you’re new to Riyadh, or simply looking to expand your social circle beyond familiar routines, the idea of joining an organized dinner can be appealing, yet also uncertain. You might be wondering if this particular"
+description: "When you’re new to Riyadh, or simply looking to expand your social circle beyond familiar routines, the idea of joining an organized dinner can be appea…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

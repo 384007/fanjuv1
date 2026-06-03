@@ -4,8 +4,8 @@ canonicalPath: "/en/city/manila/classical-music-dinner"
 alternatePath: "/city/manila/classical-music-dinner"
 translationKey: "manila-classical-music-dinner"
 lang: "en"
-title: "Manila has plenty of Classical Music Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "Manila’s workdays often stretch late, especially in corporate zones where traffic delays the return home. That in-between space—when you’re neither at the office nor settled for the night—creates a unique window for"
+title: "Manila has plenty of Classical Music Dinner options; Fanju app is..."
+description: "Manila’s workdays often stretch late, especially in corporate zones where traffic delays the return home."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

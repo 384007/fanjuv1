@@ -4,8 +4,8 @@ canonicalPath: "/en/city/austin/translator-dinner"
 alternatePath: "/city/austin/translator-dinner"
 translationKey: "austin-translator-dinner"
 lang: "en"
-title: "Translator Dinner in Austin should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "For those in Austin looking for a more curated social experience, the Fanju app offers a way to transform the Translator Dinner concept from a hopeful experiment into a reliably rewarding evening. Too often, the idea of"
+title: "Translator Dinner in Austin should not feel like a gamble; Fanju..."
+description: "For those in Austin looking for a more curated social experience, the Fanju app offers a way to transform the Translator Dinner concept from a hopeful e…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

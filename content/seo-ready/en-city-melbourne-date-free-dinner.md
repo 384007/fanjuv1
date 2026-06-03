@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/melbourne/date-free-dinner"
 alternatePath: "/city/melbourne/date-free-dinner"
-title: "Date Free Dinners in Melbourne with Fanju app | fanju-app | 饭局app"
+title: "Date Free Dinners in Melbourne with Fanju app"
 description: "Discover the power of community-building through date-free dinners in Melbourne with Fanju app"
 recoveredFromD1: true
 ---

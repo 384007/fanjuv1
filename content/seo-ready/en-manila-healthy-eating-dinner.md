@@ -4,8 +4,8 @@ canonicalPath: "/en/city/manila/healthy-eating-dinner"
 alternatePath: "/city/manila/healthy-eating-dinner"
 translationKey: "manila-healthy-eating-dinner"
 lang: "en"
-title: "Manila Healthy Eating Dinner: how Fanju app makes the table worth choosing"
-description: "For a Manila reader, the clarity in the app description is crucial because committing to a dinner often means crossing major traffic arteries. The Fanju app interface allows hosts to detail the theme, which acts as a"
+title: "Manila Healthy Eating Dinner: how Fanju app makes the table worth..."
+description: "For a Manila reader, the clarity in the app description is crucial because committing to a dinner often means crossing major traffic arteries."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

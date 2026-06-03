@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lahore/offline-social-dinner"
 alternatePath: "/city/lahore/offline-social-dinner"
 translationKey: "lahore-offline-social-dinner"
 lang: "en"
-title: "Why Offline Social Dinner in Lahore works better when Fanju app keeps the table small | fanju-app"
-description: "Weekends in Lahore often begin with a string of half-formed messages: “Let’s meet up?” or “Maybe dinner sometime?” But those rarely turn into anything concrete. The city thrives on spontaneity, yet that same spontaneity"
+title: "Why Offline Social Dinner in Lahore works better when Fanju app..."
+description: "Weekends in Lahore often begin with a string of half-formed messages: “Let’s meet up?” or “Maybe dinner sometime?” But those rarely turn into anything c…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

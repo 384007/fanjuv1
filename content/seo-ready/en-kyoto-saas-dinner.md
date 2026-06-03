@@ -5,7 +5,7 @@ alternatePath: "/city/kyoto/saas-dinner"
 translationKey: "kyoto-saas-dinner"
 lang: "en"
 title: "Before joining SaaS Dinner in Kyoto, what Fanju app should make clear"
-description: "You arrive in a quiet corner of Kyoto, perhaps near the Kamo River, looking for a focused conversation rather than a loud networking mixer. The ideal reader for this SaaS Dinner is a professional who values depth over"
+description: "You arrive in a quiet corner of Kyoto, perhaps near the Kamo River, looking for a focused conversation rather than a loud networking mixer."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

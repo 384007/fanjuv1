@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chicago/jazz-dinner"
 alternatePath: "/city/chicago/jazz-dinner"
 translationKey: "chicago-jazz-dinner"
 lang: "en"
-title: "Chicago Jazz Dinner through Fanju app: the questions to answer before you sit down"
-description: "This approach is particularly relevant for Chicago, a city with a rich tapestry of cultural events and a deep appreciation for live music. The Fanju app seeks to replicate the intimacy of a well-hosted dinner party,"
+title: "Chicago Jazz Dinner through Fanju app: the questions to answer..."
+description: "This approach is particularly relevant for Chicago, a city with a rich tapestry of cultural events and a deep appreciation for live music."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

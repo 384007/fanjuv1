@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-francisco/board-game-dinner"
 alternatePath: "/city/san-francisco/board-game-dinner"
 translationKey: "san-francisco-board-game-dinner"
 lang: "en"
-title: "How Fanju app turns a San Francisco Board Game Dinner night into something worth showing up for | fanju-app"
-description: "Navigating San Francisco's social scene can feel like a complex game itself. For those looking to connect over more than just small talk, a board game dinner offers a unique blend of interaction and fun. The Fanju app is"
+title: "How Fanju app turns a San Francisco Board Game Dinner night into..."
+description: "Navigating San Francisco's social scene can feel like a complex game itself. For those looking to connect over more than just small talk, a board game d…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

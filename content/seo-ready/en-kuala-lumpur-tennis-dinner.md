@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kuala-lumpur/tennis-dinner"
 alternatePath: "/city/kuala-lumpur/tennis-dinner"
 translationKey: "kuala-lumpur-tennis-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Kuala Lumpur Tennis Dinner table before the first course"
-description: "When you arrive at the restaurant entrance in Kuala Lumpur, the difference between a generic meetup and a curated Tennis Dinner becomes obvious immediately. A true themed gathering often has a host waiting near the"
+title: "The Fanju app way to judge a Kuala Lumpur Tennis Dinner table..."
+description: "When you arrive at the restaurant entrance in Kuala Lumpur, the difference between a generic meetup and a curated Tennis Dinner becomes obvious immediat…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/washington-dc/nonprofit-dinner"
 alternatePath: "/city/washington-dc/nonprofit-dinner"
 translationKey: "washington-dc-nonprofit-dinner"
 lang: "en"
-title: "Washington DC after work: how Fanju app makes Nonprofit Dinner feel like a real room | fanju-app"
-description: "After work in Washington DC, the city’s rhythm shifts—commuters peel off Metro platforms, shoulders relax, and the evening’s quieter conversations begin. For those drawn to meaningful connections beyond policy briefings"
+title: "Washington DC after work: how Fanju app makes Nonprofit Dinner..."
+description: "After work in Washington DC, the city’s rhythm shifts—commuters peel off Metro platforms, shoulders relax, and the evening’s quieter conversations begin…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

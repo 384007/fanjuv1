@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/alexandria/angel-investor-dinner"
 alternatePath: "/city/alexandria/angel-investor-dinner"
-title: "Alexandria Angel Investor Dinner Guide | Fanju app"
+title: "Alexandria Angel Investor Dinner Guide"
 description: "Join a unique social dining experience in Alexandria with Fanju app, a platform for small, meaningful meals and real-world connections."
 recoveredFromD1: true
 ---

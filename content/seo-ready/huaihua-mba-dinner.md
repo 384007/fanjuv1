@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/huaihua/mba-dinner"
 alternatePath: "/en/city/huaihua/mba-dinner"
-title: "在怀化把MBA 饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
+title: "在怀化把MBA 饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "在怀化，一场以MBA为主题的饭局，不只是简单的聚餐，更是城市社交网络中一个微小的节点。饭局app致力于围绕小桌吃饭、清晰主题和线下连接，帮助人们建立更具实质性的社交关系。对于初次接触这类饭局的朋友来说，如何避免尴尬、如何判断一场饭局的质量，"
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/zurich/productivity-dinner"
 alternatePath: "/city/zurich/productivity-dinner"
 translationKey: "zurich-productivity-dinner"
 lang: "en"
-title: "Zurich has plenty of Productivity Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "In Zurich, finding people to share a meaningful dinner with can feel like searching for a quiet corner in a busy Bahnhofstrasse café. The city thrives on precision and privacy, but beneath the polished surface, there’s a"
+title: "Zurich has plenty of Productivity Dinner options; Fanju app is the..."
+description: "In Zurich, finding people to share a meaningful dinner with can feel like searching for a quiet corner in a busy Bahnhofstrasse café."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

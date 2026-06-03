@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/phoenix/operator-dinner"
 alternatePath: "/city/phoenix/operator-dinner"
-title: "Phoenix Operator Dinner Guide | Fanju app"
+title: "Phoenix Operator Dinner Guide"
 description: "Discover authentic local connections through dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

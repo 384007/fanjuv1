@@ -5,7 +5,7 @@ alternatePath: "/city/lima/poetry-dinner"
 translationKey: "lima-poetry-dinner"
 lang: "en"
 title: "Does a Lima Poetry Dinner on Fanju App Offer Genuine Local Connection?"
-description: "When seeking a Poetry Dinner in Lima, the intention is often to engage with a specific theme in a relaxed, intimate setting, distinct from the bustling energy of larger meetups or the impersonal nature of broad online"
+description: "When seeking a Poetry Dinner in Lima, the intention is often to engage with a specific theme in a relaxed, intimate setting, distinct from the bustling…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

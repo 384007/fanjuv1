@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tel-aviv/six-person-dinner"
 alternatePath: "/city/tel-aviv/six-person-dinner"
 translationKey: "tel-aviv-six-person-dinner"
 lang: "en"
-title: "How Fanju app turns a Tel Aviv Six Person Dinner night into something worth showing up for | fanju-app"
-description: "In Tel Aviv, where networking often means crowded rooftop mixers with half-hearted business cards and overpriced cocktails, the Fanju app quietly enables something different: intimate, six-person dinners that feel less l"
+title: "How Fanju app turns a Tel Aviv Six Person Dinner night into..."
+description: "In Tel Aviv, where networking often means crowded rooftop mixers with half-hearted business cards and overpriced cocktails, the Fanju app quietly enable…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

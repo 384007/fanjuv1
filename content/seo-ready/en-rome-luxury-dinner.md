@@ -5,7 +5,7 @@ alternatePath: "/city/rome/luxury-dinner"
 translationKey: "rome-luxury-dinner"
 lang: "en"
 title: "Before joining Luxury Dinner in Rome, what Fanju app should make clear"
-description: "This guide will help you assess if a specific Luxury Dinner listing on Fanju aligns with your expectations for a calm, engaging evening in Rome. We’ll cover how to identify suitable tables, understand the venue and"
+description: "This guide will help you assess if a specific Luxury Dinner listing on Fanju aligns with your expectations for a calm, engaging evening in Rome."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

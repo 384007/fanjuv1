@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/anshan/local-guide-dinner"
 alternatePath: "/en/city/anshan/local-guide-dinner"
-title: "鞍山本地向导饭局指南 | fanju-app | 饭局app"
+title: "鞍山本地向导饭局指南"
 description: "鞍山本地向导饭局指南，了解鞍山小桌饭局的真实动态，了解如何参加本地向导饭局，如何判断安全和信任，和普通社交/约会软件有什么不同"
 recoveredFromD1: true
 ---

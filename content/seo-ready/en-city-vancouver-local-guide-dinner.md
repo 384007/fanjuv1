@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/vancouver/local-guide-dinner"
 alternatePath: "/city/vancouver/local-guide-dinner"
-title: "Vancouver Local Guide Dinner Guide | Fanju app"
-description: "Discover the authentic side of Vancouver through our Local Guide Dinners, where strangers become friends over delicious meals and meaningful conversations. With Fanju app, you can join intimate gatherings and forge real connections in the heart of the city."
+title: "Vancouver Local Guide Dinner Guide"
+description: "Discover the authentic side of Vancouver through our Local Guide Dinners, where strangers become friends over delicious meals and meaningful conversatio…"
 recoveredFromD1: true
 ---
 Vancouver Local Guide Dinner Guide is a social dining app for small, clearly described meals and real-world connections. It suits individuals looking for a more authentic way to experience the city, its culture, and its people. The core scenario is a small group of strangers coming together over a meal, sharing stories, and building relationships. Safety is our top priority, with a focus on creating a secure and respectful environment for all attendees.

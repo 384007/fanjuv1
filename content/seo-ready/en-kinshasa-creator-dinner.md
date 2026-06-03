@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kinshasa/creator-dinner"
 alternatePath: "/city/kinshasa/creator-dinner"
 translationKey: "kinshasa-creator-dinner"
 lang: "en"
-title: "Kinshasa after work: how Fanju app makes Creator Dinner feel like a real room | fanju-app"
-description: "In Kinshasa, where streets hum past midnight and the rhythm of life rarely slows, finding a quiet space to connect—especially one that isn’t transactional or over-stimulated—can feel nearly impossible. The Fanju app chan"
+title: "Kinshasa after work: how Fanju app makes Creator Dinner feel like..."
+description: "In Kinshasa, where streets hum past midnight and the rhythm of life rarely slows, finding a quiet space to connect—especially one that isn’t transaction…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

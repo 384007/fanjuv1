@@ -4,8 +4,8 @@ canonicalPath: "/en/city/delhi/dinner-buddy"
 alternatePath: "/city/delhi/dinner-buddy"
 translationKey: "delhi-dinner-buddy"
 lang: "en"
-title: "In Delhi, Fanju app turns Dinner Buddy into a table people can actually trust | fanju-app"
-description: "For someone arriving alone in Delhi and wondering where the evening might lead, the Fanju app offers a practical alternative to impersonal restaurants or scrolling through vague social plans. It connects solo travelers w"
+title: "In Delhi, Fanju app turns Dinner Buddy into a table people can..."
+description: "For someone arriving alone in Delhi and wondering where the evening might lead, the Fanju app offers a practical alternative to impersonal restaurants o…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

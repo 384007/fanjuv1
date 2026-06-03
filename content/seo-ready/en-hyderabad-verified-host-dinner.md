@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/hyderabad/verified-host-dinner"
 alternatePath: "/city/hyderabad/verified-host-dinner"
-title: "For people trying Verified Host Dinner in Hyderabad, Fanju app puts the guest mix first | fanju-app | 饭局app"
-description: "In Hyderabad, where the pace of life stretches from bustling IT corridors in Gachibowli to the quiet lanes of Banjara Hills, the Fanju app offers a different rhythm: small, intentional dinners hosted in homes, not restau"
+title: "For people trying Verified Host Dinner in Hyderabad, Fanju app..."
+description: "In Hyderabad, where the pace of life stretches from bustling IT corridors in Gachibowli to the quiet lanes of Banjara Hills, the Fanju app offers a diff…"
 recoveredFromD1: true
 ---
 # For people trying Verified Host Dinner in Hyderabad, Fanju app puts the guest mix first

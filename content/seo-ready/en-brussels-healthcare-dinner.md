@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/healthcare-dinner"
 alternatePath: "/city/brussels/healthcare-dinner"
 translationKey: "brussels-healthcare-dinner"
 lang: "en"
-title: "Before joining Healthcare Dinner in Brussels, what Fanju app should make clear"
-description: "For many in Brussels, the appeal of a Healthcare Dinner lies in the opportunity for focused discussion away from the usual professional networking circuits. This kind of gathering is best suited for individuals"
+title: "Before joining Healthcare Dinner in Brussels, what Fanju app..."
+description: "For many in Brussels, the appeal of a Healthcare Dinner lies in the opportunity for focused discussion away from the usual professional networking circu…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

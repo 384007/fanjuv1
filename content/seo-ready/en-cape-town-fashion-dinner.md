@@ -5,7 +5,7 @@ alternatePath: "/city/cape-town/fashion-dinner"
 translationKey: "cape-town-fashion-dinner"
 lang: "en"
 title: "Cape Town Fashion Dinner: how Fanju app makes the table worth choosing"
-description: "A critical aspect of joining a Fashion Dinner in Cape Town is understanding the rhythm of arrival and departure, especially when guests are traveling from different neighborhoods like the City Bowl to the Atlantic"
+description: "A critical aspect of joining a Fashion Dinner in Cape Town is understanding the rhythm of arrival and departure, especially when guests are traveling fr…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/jakarta/fencing-dinner"
 alternatePath: "/city/jakarta/fencing-dinner"
 translationKey: "jakarta-fencing-dinner"
 lang: "en"
-title: "A Jakarta dinner table for Fencing Dinner, with Fanju app boundaries up front"
-description: "Before you commit to a seat, ask yourself if this table is for active practitioners of the sport or simply those who enjoy watching it. In a sprawling city like Jakarta, the motivation behind attending matters as much"
+title: "A Jakarta dinner table for Fencing Dinner, with Fanju app..."
+description: "Before you commit to a seat, ask yourself if this table is for active practitioners of the sport or simply those who enjoy watching it."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/xiangyang/twelve-person-dinner"
 alternatePath: "/en/city/xiangyang/twelve-person-dinner"
-title: "襄阳十二人饭局指南 | fanju-app | 饭局app"
+title: "襄阳十二人饭局指南"
 description: "襄阳十二人饭局指南，帮助您找到襄阳的朋友圈，解决孤独和社交断层问题，推荐适合襄阳人参加的饭局活动。"
 recoveredFromD1: true
 ---

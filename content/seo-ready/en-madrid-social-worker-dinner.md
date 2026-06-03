@@ -4,8 +4,8 @@ canonicalPath: "/en/city/madrid/social-worker-dinner"
 alternatePath: "/city/madrid/social-worker-dinner"
 translationKey: "madrid-social-worker-dinner"
 lang: "en"
-title: "Madrid Social Worker Dinner: how Fanju app makes the table worth choosing"
-description: "You are likely the right fit for this table if you are seeking a conversation that moves beyond case notes and administrative burdens into a more human space. In Madrid, the professional pace can be relentless, and"
+title: "Madrid Social Worker Dinner: how Fanju app makes the table worth..."
+description: "You are likely the right fit for this table if you are seeking a conversation that moves beyond case notes and administrative burdens into a more human…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

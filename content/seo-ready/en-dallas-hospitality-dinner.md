@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dallas/hospitality-dinner"
 alternatePath: "/city/dallas/hospitality-dinner"
 translationKey: "dallas-hospitality-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Dallas Hospitality Dinner table before the first course"
-description: "Founders and operators in Dallas often struggle with big, loud networking events where meaningful connection is lost in the crowd. A small-table dinner is perfect for those who prefer a structured environment where they"
+title: "The Fanju app way to judge a Dallas Hospitality Dinner table..."
+description: "Founders and operators in Dallas often struggle with big, loud networking events where meaningful connection is lost in the crowd."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

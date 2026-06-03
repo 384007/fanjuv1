@@ -4,8 +4,8 @@ canonicalPath: "/en/city/prague/sneaker-dinner"
 alternatePath: "/city/prague/sneaker-dinner"
 translationKey: "prague-sneaker-dinner"
 lang: "en"
-title: "Prague has plenty of Sneaker Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "In Prague, where weekend evenings often drift between tram stops, riverside strolls, and last-minute dinner plans, the Fanju app quietly reshapes how women meet new people over meals. Sneaker Dinner—dining with strangers"
+title: "Prague has plenty of Sneaker Dinner options; Fanju app is the one..."
+description: "In Prague, where weekend evenings often drift between tram stops, riverside strolls, and last-minute dinner plans, the Fanju app quietly reshapes how wo…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

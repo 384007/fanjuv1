@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/mexico-city/post-pandemic-social-dinner"
 alternatePath: "/city/mexico-city/post-pandemic-social-dinner"
-title: "Mexico City Post Pandemic Social Dinner Guide | Fanju app"
+title: "Mexico City Post Pandemic Social Dinner Guide"
 description: "Plan your weekend around a social dinner with Fanju app, a platform for small, meaningful meals and real-world connections."
 recoveredFromD1: true
 ---

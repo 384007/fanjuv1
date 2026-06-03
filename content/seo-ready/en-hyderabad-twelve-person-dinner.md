@@ -4,7 +4,7 @@ canonicalPath: "/en/city/hyderabad/twelve-person-dinner"
 alternatePath: "/city/hyderabad/twelve-person-dinner"
 translationKey: "hyderabad-twelve-person-dinner"
 lang: "en"
-title: "Hyderabad Twelve Person Dinner: how Fanju app makes the table worth choosing"
+title: "Hyderabad Twelve Person Dinner: how Fanju app makes the table..."
 description: "In a city as vast as Hyderabad, a Twelve Person Dinner needs specific local anchors to feel worth the commute across town. A vague listing that simply states \"city center\" often fails because the neighborhood dictates"
 pageType: "city_article"
 priorityScore: 70

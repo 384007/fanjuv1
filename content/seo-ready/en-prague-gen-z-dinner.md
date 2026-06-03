@@ -4,8 +4,8 @@ canonicalPath: "/en/city/prague/gen-z-dinner"
 alternatePath: "/city/prague/gen-z-dinner"
 translationKey: "prague-gen-z-dinner"
 lang: "en"
-title: "A clearer Gen Z Dinner dinner in Prague: Fanju app, small tables, and real boundaries"
-description: "Imagine standing on a cobblestone street in Vinohrady, checking your phone one last time before opening the door. A good Prague listing gives you specific cues that separate a structured dinner from a noisy pub crawl or"
+title: "A clearer Gen Z Dinner dinner in Prague: Fanju app, small tables,..."
+description: "Imagine standing on a cobblestone street in Vinohrady, checking your phone one last time before opening the door."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

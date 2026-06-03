@@ -4,8 +4,8 @@ canonicalPath: "/en/city/casablanca/industry-dinner"
 alternatePath: "/city/casablanca/industry-dinner"
 translationKey: "casablanca-industry-dinner"
 lang: "en"
-title: "Before the first message in Casablanca, Fanju app makes Industry Dinner feel like a real decision | fanju-app"
-description: "In Casablanca, where after-hours socializing often drifts between last-minute group chats and vague invitations that never materialize, the Fanju app offers a different rhythm. It doesn’t amplify noise—it creates space f"
+title: "Before the first message in Casablanca, Fanju app makes Industry..."
+description: "In Casablanca, where after-hours socializing often drifts between last-minute group chats and vague invitations that never materialize, the Fanju app of…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

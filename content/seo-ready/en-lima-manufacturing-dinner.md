@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lima/manufacturing-dinner"
 alternatePath: "/city/lima/manufacturing-dinner"
 translationKey: "lima-manufacturing-dinner"
 lang: "en"
-title: "Before the first message in Lima, Fanju app makes Manufacturing Dinner feel like a real decision | fanju-app"
-description: "In Lima, where dinner rhythms shift between the hillside calm of Miraflores and the late-night hum of Barranco, choosing who to share a meal with can feel less like hospitality and more like negotiation. The Fanju app do"
+title: "Before the first message in Lima, Fanju app makes Manufacturing..."
+description: "In Lima, where dinner rhythms shift between the hillside calm of Miraflores and the late-night hum of Barranco, choosing who to share a meal with can fe…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

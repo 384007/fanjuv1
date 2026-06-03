@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/singapore/newcomer-dinner"
 alternatePath: "/city/singapore/newcomer-dinner"
-title: "In Singapore, Fanju app turns Newcomer Dinner into a table people can actually trust | fanju-app | 饭局app"
+title: "In Singapore, Fanju app turns Newcomer Dinner into a table people..."
 description: "For newcomers to Singapore, the idea of a \"Newcomer Dinner\" can evoke a mix of excitement and apprehension. It promises a chance to connect with others who are also finding their footing in this dynamic city, but the exe"
 recoveredFromD1: true
 ---

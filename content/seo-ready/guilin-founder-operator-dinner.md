@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/guilin/founder-operator-dinner"
 alternatePath: "/en/city/guilin/founder-operator-dinner"
-title: "桂林不想只靠群聊时，饭局app怎样把创始人和运营者饭局坐成一桌 | fanju-app"
+title: "桂林不想只靠群聊时，饭局app怎样把创始人和运营者饭局坐成一桌"
 description: "在桂林这样一座以山水闻名、生活节奏相对舒缓的城市，人们对于线下真实连接的需求，有时会被线上群聊的便捷所掩盖。饭局app的出现，正是为了弥合这种潜在的社交断层，它提供了一种低压力、高效率的方式，让对创业和运营感兴趣的本地人能够回到线下，围坐一"
 recoveredFromD1: true
 ---

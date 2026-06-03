@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kolkata/mindfulness-dinner"
 alternatePath: "/city/kolkata/mindfulness-dinner"
 translationKey: "kolkata-mindfulness-dinner"
 lang: "en"
-title: "Stepping into a Kolkata Mindfulness Dinner: How Fanju app Cultivates Trust at the Small Table"
-description: "The moment of arrival at a Fanju app dinner in Kolkata can bring a mix of anticipation and uncertainty. You've seen the listing, perhaps exchanged a few messages, but the true nature of the small-table dinner only"
+title: "Stepping into a Kolkata Mindfulness Dinner: How Fanju app..."
+description: "The moment of arrival at a Fanju app dinner in Kolkata can bring a mix of anticipation and uncertainty."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

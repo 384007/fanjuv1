@@ -4,8 +4,8 @@ canonicalPath: "/en/city/jakarta/chinese-social-dining"
 alternatePath: "/city/jakarta/chinese-social-dining"
 translationKey: "jakarta-chinese-social-dining"
 lang: "en"
-title: "Jakarta strangers sit down easier when Fanju app frames the Chinese Social Dining table first | fanju-app"
-description: "Selecting the right area in Jakarta shapes the entire tone of the evening. I avoid locations that require an hour-long commute through flooded side streets or sudden downpours that trap people in offices. Instead, I"
+title: "Jakarta strangers sit down easier when Fanju app frames the..."
+description: "Selecting the right area in Jakarta shapes the entire tone of the evening. I avoid locations that require an hour-long commute through flooded side stre…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

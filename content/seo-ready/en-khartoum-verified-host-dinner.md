@@ -4,8 +4,8 @@ canonicalPath: "/en/city/khartoum/verified-host-dinner"
 alternatePath: "/city/khartoum/verified-host-dinner"
 translationKey: "khartoum-verified-host-dinner"
 lang: "en"
-title: "How Fanju app turns a Khartoum Verified Host Dinner night into something worth showing up for | fanju-app"
-description: "For anyone living in Khartoum, the idea of a Verified Host Dinner through the Fanju app might spark a mix of curiosity and a touch of apprehension. It’s a novel way to connect, moving beyond the usual social circles, but"
+title: "How Fanju app turns a Khartoum Verified Host Dinner night into..."
+description: "For anyone living in Khartoum, the idea of a Verified Host Dinner through the Fanju app might spark a mix of curiosity and a touch of apprehension."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

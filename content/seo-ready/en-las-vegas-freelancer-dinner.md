@@ -4,8 +4,8 @@ canonicalPath: "/en/city/las-vegas/freelancer-dinner"
 alternatePath: "/city/las-vegas/freelancer-dinner"
 translationKey: "las-vegas-freelancer-dinner"
 lang: "en"
-title: "Las Vegas Freelancer Dinner through Fanju app: the questions to answer before you sit down"
-description: "In Las Vegas, a public venue description is not just about the food; it is about visualizing the environment before you commit to a table with strangers. A reliable listing for a Freelancer Dinner should explicitly"
+title: "Las Vegas Freelancer Dinner through Fanju app: the questions to..."
+description: "In Las Vegas, a public venue description is not just about the food; it is about visualizing the environment before you commit to a table with strangers…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

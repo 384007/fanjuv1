@@ -4,8 +4,8 @@ canonicalPath: "/en/city/luanda/hiking-dinner"
 alternatePath: "/city/luanda/hiking-dinner"
 translationKey: "luanda-hiking-dinner"
 lang: "en"
-title: "Finding Comfort in Luanda’s After‑Work Hiking Dinner with the Fanju app"
-description: "In Luanda, dinner plans often need clear arrival and exit timing, especially when guests cross neighbourhoods that are busy after sunset. A typical after‑work table might start at 19:00 and finish by 21:30, giving"
+title: "Finding Comfort in Luanda’s After‑Work Hiking Dinner with the..."
+description: "In Luanda, dinner plans often need clear arrival and exit timing, especially when guests cross neighbourhoods that are busy after sunset."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

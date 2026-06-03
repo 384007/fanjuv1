@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/addis-ababa/christmas-dinner"
 alternatePath: "/city/addis-ababa/christmas-dinner"
-title: "Finding Comfort in the Unconventional: A Fanju App Guide to Christmas Dinner in Addis Ababa | fanju-app | 饭局app"
-description: "As a social dining app that connects people through small, clearly described meals, Fanju has become a go-to platform for those seeking real-world connections in Addis Ababa. The app's focus on intimate gatherings and ho"
+title: "Finding Comfort in the Unconventional: A Fanju App Guide to..."
+description: "As a social dining app that connects people through small, clearly described meals, Fanju has become a go-to platform for those seeking real-world conne…"
 recoveredFromD1: true
 ---
 # Finding Comfort in the Unconventional: A Fanju App Guide to Christmas Dinner in Addis Ababa

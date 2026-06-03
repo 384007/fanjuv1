@@ -4,8 +4,8 @@ canonicalPath: "/en/city/paris/vc-dinner"
 alternatePath: "/city/paris/vc-dinner"
 translationKey: "paris-vc-dinner"
 lang: "en"
-title: "Paris strangers sit down easier when Fanju app frames the VC Dinner table first | fanju-app"
-description: "Choosing where to hold a VC Dinner in Paris should ideally reflect the city's diverse character, but the selection itself shouldn't add to the complexity for attendees, especially those new to the city. A dinner that"
+title: "Paris strangers sit down easier when Fanju app frames the VC..."
+description: "Choosing where to hold a VC Dinner in Paris should ideally reflect the city's diverse character, but the selection itself shouldn't add to the complexit…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

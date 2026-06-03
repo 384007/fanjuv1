@@ -5,7 +5,7 @@ alternatePath: "/city/budapest/saturday-dinner"
 translationKey: "budapest-saturday-dinner"
 lang: "en"
 title: "Finding a Second‑Table Saturday Dinner in Budapest with the Fanju app"
-description: "A Saturday dinner invitation that arrives just hours before the event can spark excitement, but it also raises practical concerns. In Budapest, many listings omit the exact neighbourhood, leaving you to guess whether"
+description: "A Saturday dinner invitation that arrives just hours before the event can spark excitement, but it also raises practical concerns."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

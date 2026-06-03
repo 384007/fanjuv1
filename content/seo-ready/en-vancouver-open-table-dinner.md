@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vancouver/open-table-dinner"
 alternatePath: "/city/vancouver/open-table-dinner"
 translationKey: "vancouver-open-table-dinner"
 lang: "en"
-title: "A clearer Open Table Dinner in Vancouver: Fanju app, small tables, and real boundaries"
-description: "In Vancouver, a good listing goes beyond just the name of a restaurant; it sets the stage for the entire evening. When a host specifies whether the table is in a quiet corner of a Gastown bistro or a lively spot in"
+title: "A clearer Open Table Dinner in Vancouver: Fanju app, small tables,..."
+description: "In Vancouver, a good listing goes beyond just the name of a restaurant; it sets the stage for the entire evening."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

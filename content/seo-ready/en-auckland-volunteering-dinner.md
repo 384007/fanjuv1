@@ -4,8 +4,8 @@ canonicalPath: "/en/city/auckland/volunteering-dinner"
 alternatePath: "/city/auckland/volunteering-dinner"
 translationKey: "auckland-volunteering-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Auckland Volunteering Dinner table before the first course"
-description: "When evaluating a Volunteering Dinner in Auckland, the host note should explicitly state why this topic fits the current local context rather than simply repeating the category name. A vague description that lacks"
+title: "The Fanju app way to judge a Auckland Volunteering Dinner table..."
+description: "When evaluating a Volunteering Dinner in Auckland, the host note should explicitly state why this topic fits the current local context rather than simpl…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

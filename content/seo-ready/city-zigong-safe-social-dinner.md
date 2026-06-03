@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/zigong/safe-social-dinner"
 alternatePath: "/en/city/zigong/safe-social-dinner"
-title: "自贡安全社交饭局指南 | fanju-app | 饭局app"
+title: "自贡安全社交饭局指南"
 description: "在自贡，一场精心策划的小桌饭局，通过饭局app，能比大型的商务酒会或线上社交更有效地建立深度连接。它提供了一个在轻松氛围中进行商务交流、拓展人脉的平台，让创业者、经营者和专业人士在品味美食的同时，也能收获宝贵的人脉资源。"
 recoveredFromD1: true
 ---

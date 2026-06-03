@@ -4,8 +4,8 @@ canonicalPath: "/en/city/cairo/product-manager-dinner"
 alternatePath: "/city/cairo/product-manager-dinner"
 translationKey: "cairo-product-manager-dinner"
 lang: "en"
-title: "Before joining Product Manager Dinner in Cairo, what Fanju app should make clear"
-description: "In Cairo, an evening out is a significant investment of time due to congestion, so a clear end time is a form of respect that the host should establish upfront. A good listing on Fanju app will implicitly acknowledge"
+title: "Before joining Product Manager Dinner in Cairo, what Fanju app..."
+description: "In Cairo, an evening out is a significant investment of time due to congestion, so a clear end time is a form of respect that the host should establish…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

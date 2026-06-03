@@ -4,8 +4,8 @@ canonicalPath: "/en/city/auckland/digital-nomad-dinner"
 alternatePath: "/city/auckland/digital-nomad-dinner"
 translationKey: "auckland-digital-nomad-dinner"
 lang: "en"
-title: "A Auckland dinner table for Digital Nomad Dinner, with Fanju app boundaries up front"
-description: "The appeal grows when the listing acknowledges the reality of Auckland geography, mentioning how the chosen spot works for people coming from different parts of the city. A vague invitation creates hesitation, but a"
+title: "A Auckland dinner table for Digital Nomad Dinner, with Fanju app..."
+description: "The appeal grows when the listing acknowledges the reality of Auckland geography, mentioning how the chosen spot works for people coming from different…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

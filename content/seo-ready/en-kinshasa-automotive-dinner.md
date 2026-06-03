@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kinshasa/automotive-dinner"
 alternatePath: "/city/kinshasa/automotive-dinner"
 translationKey: "kinshasa-automotive-dinner"
 lang: "en"
-title: "The Automotive Dinner table Kinshasa actually needs is the one Fanju app describes up front | fanju-app"
-description: "Stepping into a restaurant in Kinshasa alone, especially for the first time, carries a quiet tension. The city hums with connections, but they aren’t easily accessed."
+title: "The Automotive Dinner table Kinshasa actually needs is the one..."
+description: "Stepping into a restaurant in Kinshasa alone, especially for the first time, carries a quiet tension."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

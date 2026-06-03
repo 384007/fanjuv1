@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/changdu/urban-lifestyle-dinner"
 alternatePath: "/en/city/changdu/urban-lifestyle-dinner"
-title: "昌都城市生活方式饭局指南 | fanju-app | 饭局app"
+title: "昌都城市生活方式饭局指南"
 description: "在昌都体验城市生活方式的饭局，通过饭局app与其他人建立信任和联系。"
 recoveredFromD1: true
 ---

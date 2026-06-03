@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/amsterdam/casual-restaurant-dinner"
 alternatePath: "/city/amsterdam/casual-restaurant-dinner"
-title: "Amsterdam's Founders' Secret: How the Fanju App Replaces Awkward Networking Dinners | fanju-app | 饭局app"
-description: "Discover how the Fanju app facilitates more meaningful business connections in Amsterdam through intimate, casual restaurant dinners, offering a refined alternative to crowded networking events for founders, operators, and professionals."
+title: "Amsterdam's Founders' Secret: How the Fanju App Replaces Awkward..."
+description: "Discover how the Fanju app facilitates more meaningful business connections in Amsterdam through intimate, casual restaurant dinners, offering a refined…"
 recoveredFromD1: true
 ---
 # Amsterdam&#039;s Founders&#039; Secret: How the Fanju App Replaces Awkward Networking Dinners

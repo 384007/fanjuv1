@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/zigong/private-dinner"
 alternatePath: "/en/city/zigong/private-dinner"
-title: "在自贡把私密饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
+title: "在自贡把私密饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "在自贡，饭局app不是为了凑一桌人吃饭，而是为了让一桌人能真正坐得住。它不主打热闹，也不追求人数，而是围绕小桌吃饭这件事，把主题、节奏和人与人之间的连接做清楚。在这样一个节奏缓慢、人情味浓的城市里，饭局的真正价值不在于吃了什么，而在于谁坐在"
 recoveredFromD1: true
 ---

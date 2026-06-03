@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/sydney/product-manager-dinner"
 alternatePath: "/city/sydney/product-manager-dinner"
-title: "Sydney Product Manager Dinner Guide | Fanju app"
+title: "Sydney Product Manager Dinner Guide"
 description: "Discover the power of food in connecting strangers at Fanju app's Product Manager Dinner in Sydney."
 recoveredFromD1: true
 ---

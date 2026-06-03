@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vancouver/archery-dinner"
 alternatePath: "/city/vancouver/archery-dinner"
 translationKey: "vancouver-archery-dinner"
 lang: "en"
-title: "Why Archery Dinner in Vancouver works better when Fanju app keeps the table small | fanju-app"
-description: "Archery Dinner in Vancouver has found a quiet rhythm, not through spectacle but through precision—like an arrow finding its mark not by force, but by alignment. The city’s dining culture thrives on understated moments: s"
+title: "Why Archery Dinner in Vancouver works better when Fanju app keeps..."
+description: "Archery Dinner in Vancouver has found a quiet rhythm, not through spectacle but through precision—like an arrow finding its mark not by force, but by al…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

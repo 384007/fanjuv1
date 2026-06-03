@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dar-es-salaam/singles-dinner"
 alternatePath: "/city/dar-es-salaam/singles-dinner"
 translationKey: "dar-es-salaam-singles-dinner"
 lang: "en"
-title: "Why Singles Dinner in Dar es Salaam works better when Fanju app keeps the table small | fanju-app"
-description: "Singles Dinner in Dar es Salaam works best when intimacy and intentionality replace spectacle. Unlike crowded mixers in fast-paced cities, Dar es Salaam’s evening rhythm favors quiet corners, unhurried conversation, and"
+title: "Why Singles Dinner in Dar es Salaam works better when Fanju app..."
+description: "Singles Dinner in Dar es Salaam works best when intimacy and intentionality replace spectacle."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

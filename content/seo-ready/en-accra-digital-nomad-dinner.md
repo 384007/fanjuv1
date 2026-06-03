@@ -4,8 +4,8 @@ canonicalPath: "/en/city/accra/digital-nomad-dinner"
 alternatePath: "/city/accra/digital-nomad-dinner"
 translationKey: "accra-digital-nomad-dinner"
 lang: "en"
-title: "When the second table at an Accra Digital Nomad Dinner feels like a safety net, not a pressure point – navigating Fanju app"
-description: "You may wonder whether the timing of the invitation aligns with your own schedule: “Will I have enough time to explore the city before the dinner, or will I be rushed straight from the airport?” In Accra, traffic can"
+title: "When the second table at an Accra Digital Nomad Dinner feels like..."
+description: "You may wonder whether the timing of the invitation aligns with your own schedule: “Will I have enough time to explore the city before the dinner, or wi…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

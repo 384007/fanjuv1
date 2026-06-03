@@ -4,9 +4,9 @@ canonicalPath: "/city/benxi/improv-dinner"
 alternatePath: "/en/city/benxi/improv-dinner"
 translationKey: "benxi-improv-dinner"
 lang: "zh"
-title: "把本溪即兴表演饭局坐成真实小桌，饭局app需要先说明什么 | fanju-app"
+title: "把本溪即兴表演饭局坐成真实小桌，饭局app需要先说明什么"
 titleZh: "把本溪即兴表演饭局坐成真实小桌，饭局app需要先说明什么"
-description: "本溪的即兴表演饭局，不是相亲保证、不是随机群聊、不是无限刷资料。 它通过饭局app / Fanju饭局，把陌生人围绕一张小桌连接起来，用清晰主题和有限人数构建真实对话空间。 在本溪，一场饭局可能发生在平山的社区咖啡馆，也可能是明山下班后顺路的晚餐档。 关键是，它不靠算法匹配，而是靠主理人设定节奏、场地提供安全感、同桌彼此尊重边界。"
+description: "本溪的即兴表演饭局，不是相亲保证、不是随机群聊、不是无限刷资料。 它通过饭局app / Fanju饭局，把陌生人围绕一张小桌连接起来，用清晰主题和有限人数构建真实对话空间。 在本溪，一场饭局可能发生在平山的社区咖啡馆，也可能是明山下班后顺路的晚餐档。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

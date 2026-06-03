@@ -4,9 +4,9 @@ canonicalPath: "/city/xiamen/night-owl-dinner"
 alternatePath: "/en/city/xiamen/night-owl-dinner"
 translationKey: "xiamen-night-owl-dinner"
 lang: "zh"
-title: "在厦门把夜猫子饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
+title: "在厦门把夜猫子饭局坐稳，饭局app需要筛掉哪些尴尬"
 titleZh: "在厦门把夜猫子饭局坐稳，饭局app需要筛掉哪些尴尬"
-description: "饭局app不是为了凑热闹，而是在城市缝隙里找一张能坐下来的饭桌。 在厦门，这座白天被游客填满、夜晚却容易陷入安静的城市，很多人发现下班后的时间反而更空。 便利店灯光太冷，外卖吃得麻木，朋友圈刷着刷着就停在一个小时前。 饭局app的价值，是让人重新用一顿饭的长度，试一次真实的对话——不是群聊里的表情包接力，也不是酒局上的客套话循环。"
+description: "饭局app不是为了凑热闹，而是在城市缝隙里找一张能坐下来的饭桌。 在厦门，这座白天被游客填满、夜晚却容易陷入安静的城市，很多人发现下班后的时间反而更空。 便利店灯光太冷，外卖吃得麻木，朋友圈刷着刷着就停在一个小时前。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

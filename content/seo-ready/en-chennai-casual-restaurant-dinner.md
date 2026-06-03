@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chennai/casual-restaurant-dinner"
 alternatePath: "/city/chennai/casual-restaurant-dinner"
 translationKey: "chennai-casual-restaurant-dinner"
 lang: "en"
-title: "Chennai does not need another vague invite; Fanju app makes Casual Restaurant Dinner specific | fanju-app"
-description: "The Fanju app redefines casual restaurant dinners in Chennai by replacing vague social plans with intentional, small-group meals that emphasize connection and clarity. It’s not about finding just any dinner—it’s about jo"
+title: "Chennai does not need another vague invite; Fanju app makes Casual..."
+description: "The Fanju app redefines casual restaurant dinners in Chennai by replacing vague social plans with intentional, small-group meals that emphasize connecti…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

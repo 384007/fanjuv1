@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cairo/quality-friends-dinner"
 alternatePath: "/city/cairo/quality-friends-dinner"
-title: "A Quality Friends Dinner in Cairo with Fanju app | fanju-app | 饭局app"
+title: "A Quality Friends Dinner in Cairo with Fanju app"
 description: "Experience a night of genuine connections and meaningful conversations in Cairo, facilitated by the trusted Fanju app."
 recoveredFromD1: true
 ---

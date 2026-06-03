@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/ningbo/premium-restaurant-dinner"
 alternatePath: "/en/city/ningbo/premium-restaurant-dinner"
-title: "在宁波把高端餐厅饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
+title: "在宁波把高端餐厅饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "在宁波，周末的节奏不是靠临时起意推门进哪家餐厅决定的，而是从你决定“这一桌饭值不值得赴”开始。饭局app不是群聊里那句“有人出来吃饭吗”的延伸，也不是相亲局或百人市集的社交副产品。它专为小桌而生——通常4到8人，围绕一家具体餐厅、一个明确主"
 recoveredFromD1: true
 ---

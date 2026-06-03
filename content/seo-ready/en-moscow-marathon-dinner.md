@@ -4,8 +4,8 @@ canonicalPath: "/en/city/moscow/marathon-dinner"
 alternatePath: "/city/moscow/marathon-dinner"
 translationKey: "moscow-marathon-dinner"
 lang: "en"
-title: "Moscow does not need another vague invite; Fanju app makes Marathon Dinner specific | fanju-app"
-description: "Moscow’s vibrant social scene can sometimes feel a little opaque, especially when it comes to spontaneous gatherings. The Fanju app is changing that, offering a more grounded approach to connecting people for shared expe"
+title: "Moscow does not need another vague invite; Fanju app makes..."
+description: "Moscow’s vibrant social scene can sometimes feel a little opaque, especially when it comes to spontaneous gatherings."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

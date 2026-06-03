@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dubai/hedge-fund-dinner"
 alternatePath: "/city/dubai/hedge-fund-dinner"
 translationKey: "dubai-hedge-fund-dinner"
 lang: "en"
-title: "For Dubai readers considering Hedge Fund Dinner, Fanju app should make the room legible"
-description: "A credible listing for a Hedge Fund Dinner in Dubai must explicitly state why this topic matters in the current local market. The host note should go beyond repeating the category name and explain the specific angle,"
+title: "For Dubai readers considering Hedge Fund Dinner, Fanju app should..."
+description: "A credible listing for a Hedge Fund Dinner in Dubai must explicitly state why this topic matters in the current local market."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

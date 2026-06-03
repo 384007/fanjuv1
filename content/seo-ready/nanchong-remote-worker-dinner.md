@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/nanchong/remote-worker-dinner"
 alternatePath: "/en/city/nanchong/remote-worker-dinner"
-title: "南充的一顿远程工作者饭局，饭局app为什么先看人再看热闹 | fanju-app"
+title: "南充的一顿远程工作者饭局，饭局app为什么先看人再看热闹"
 description: "在南充，饭局app不是为了凑热闹而存在的工具，它更像是一张安静的饭桌邀请函——专为那些习惯远程工作、在嘉陵江边找咖啡馆安顿一天的人准备。它不主打相亲，也不强调社交曝光，而是围绕“一桌六人、有主题、能聊深”的饭局结构，把人从泛泛之交的循环里拉"
 recoveredFromD1: true
 ---

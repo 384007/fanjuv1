@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kyoto/psychologist-dinner"
 alternatePath: "/city/kyoto/psychologist-dinner"
 translationKey: "kyoto-psychologist-dinner"
 lang: "en"
-title: "Kyoto after work: how Fanju app makes Psychologist Dinner feel like a real room | fanju-app"
-description: "In Kyoto, where quiet streets and layered traditions shape daily rhythms, finding space for honest conversation can be rare—especially for those trained to listen more than speak. Psychologist Dinner, a small-group gathe"
+title: "Kyoto after work: how Fanju app makes Psychologist Dinner feel..."
+description: "In Kyoto, where quiet streets and layered traditions shape daily rhythms, finding space for honest conversation can be rare—especially for those trained…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/jiamusi/media-dinner"
 alternatePath: "/en/city/jiamusi/media-dinner"
-title: "在佳木斯找一桌不尴尬的媒体饭局，饭局app先解决什么 | fanju-app"
+title: "在佳木斯找一桌不尴尬的媒体饭局，饭局app先解决什么"
 description: "在佳木斯，一场媒体相关的饭局不该是临时拉人、硬聊话题的消耗。饭局app存在的意义，是让本地小桌吃饭回归具体的人和真实的交流节奏。它不主打大聚会或速配社交，而是支持6到12人的主题饭局，尤其适合媒体从业者、内容创作者或关注城市叙事的人。在佳木"
 recoveredFromD1: true
 ---

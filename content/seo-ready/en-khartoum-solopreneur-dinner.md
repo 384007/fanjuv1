@@ -4,8 +4,8 @@ canonicalPath: "/en/city/khartoum/solopreneur-dinner"
 alternatePath: "/city/khartoum/solopreneur-dinner"
 translationKey: "khartoum-solopreneur-dinner"
 lang: "en"
-title: "A Khartoum dinner table for Solopreneur Dinner, with Fanju app boundaries up front | fanju-app"
-description: "This is not a dating guarantee, not a random group chat, not an endless profile feed. In Khartoum, that means choosing a table not just by interest, but by how clearly the host describes the venue, timing, and guest mix."
+title: "A Khartoum dinner table for Solopreneur Dinner, with Fanju app..."
+description: "This is not a dating guarantee, not a random group chat, not an endless profile feed."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96

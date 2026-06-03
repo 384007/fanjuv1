@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/nujiang/twelve-person-dinner"
 alternatePath: "/en/city/nujiang/twelve-person-dinner"
-title: "怒江十二人饭局指南 | fanju-app | 饭局app"
+title: "怒江十二人饭局指南"
 description: "在怒江的商务饭局人脉视角下，了解如何通过一桌小饭局替代尴尬的networking活动"
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/kolkata/english-speaking-dinner"
 alternatePath: "/city/kolkata/english-speaking-dinner"
-title: "Kolkata English Speaking Dinner Guide: Authentic Local Experiences | Fanju app"
-description: "Discover authentic Kolkata through English speaking dinners with local hosts. The Fanju app connects you with small, curated dining experiences for genuine cultural exchange, moving beyond typical tourist paths. This guide helps you find meaningful connections and understand the city's rhythm, one meal at a time. It's about experiencing Kolkata's heart, not just seeing its sights."
+title: "Kolkata English Speaking Dinner Guide: Authentic Local Experiences"
+description: "Discover authentic Kolkata through English speaking dinners with local hosts. The Fanju app connects you with small, curated dining experiences for genu…"
 recoveredFromD1: true
 ---
 For newcomers and curious travelers alike, the true essence of Kolkata often lies not in its famous landmarks, but in the intimate conversations shared over a home-cooked meal. The Fanju app offers a unique avenue for this, facilitating small, clearly described dining experiences designed for real-world connections. It&#039;s a platform for those seeking to understand the city&#039;s pulse through direct interaction with its residents, moving beyond curated itineraries to embrace spontaneous, authentic encounters. This approach prioritizes genuine human connection and cultural immersion, making every dinner a potential gateway to understanding Kolkata&#039;s vibrant local life.

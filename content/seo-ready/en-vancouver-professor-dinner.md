@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vancouver/professor-dinner"
 alternatePath: "/city/vancouver/professor-dinner"
 translationKey: "vancouver-professor-dinner"
 lang: "en"
-title: "Vancouver strangers sit down easier when Fanju app frames the Professor Dinner table first | fanju-app"
-description: "A solo traveler arriving in Vancouver might scroll through group chats, dating apps, or local meetup boards hoping for a real conversation—only to find curated profiles, vague plans, or no replies. The Fanju app changes"
+title: "Vancouver strangers sit down easier when Fanju app frames the..."
+description: "A solo traveler arriving in Vancouver might scroll through group chats, dating apps, or local meetup boards hoping for a real conversation—only to find…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

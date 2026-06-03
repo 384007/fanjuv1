@@ -4,8 +4,8 @@ canonicalPath: "/en/city/cape-town/mindfulness-dinner"
 alternatePath: "/city/cape-town/mindfulness-dinner"
 translationKey: "cape-town-mindfulness-dinner"
 lang: "en"
-title: "Finding Introvert Calm in Cape Town Mindfulness Dinner Through the Fanju app"
-description: "Even the most scenic spots in Cape Town can become noisy when crowds gather for happy hour. For someone who prefers a measured pace, the decision to join a Mindfulness Dinner hinges on whether the environment promises a"
+title: "Finding Introvert Calm in Cape Town Mindfulness Dinner Through the..."
+description: "Even the most scenic spots in Cape Town can become noisy when crowds gather for happy hour."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/suining/founder-operator-dinner"
 alternatePath: "/en/city/suining/founder-operator-dinner"
-title: "遂宁创始人和运营者饭局指南 | fanju-app | 饭局app"
+title: "遂宁创始人和运营者饭局指南"
 description: "通过饭局app连接遂宁的创始人和运营者,体验城市的美食和社区"
 recoveredFromD1: true
 ---

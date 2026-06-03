@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/longyan/sunday-dinner"
 alternatePath: "/en/city/longyan/sunday-dinner"
-title: "龙岩周日饭局指南 | fanju-app | 饭局app"
+title: "龙岩周日饭局指南"
 description: "在龙岩重新打开线下生活的方式 - 周日饭局"
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dhaka/documentary-dinner"
 alternatePath: "/city/dhaka/documentary-dinner"
 translationKey: "dhaka-documentary-dinner"
 lang: "en"
-title: "Stumbling through a weekend dilemma: Dhaka Documentary Dinner and the Fanju app"
-description: "A weekend decision in Dhaka hinges on how the event fits around your existing plans. If you have a family dinner at 7 pm, you need a clear arrival window that respects traffic from Dhanmondi to Banani. The listing"
+title: "Stumbling through a weekend dilemma: Dhaka Documentary Dinner and..."
+description: "A weekend decision in Dhaka hinges on how the event fits around your existing plans."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

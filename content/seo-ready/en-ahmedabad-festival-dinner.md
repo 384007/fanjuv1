@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ahmedabad/festival-dinner"
 alternatePath: "/city/ahmedabad/festival-dinner"
 translationKey: "ahmedabad-festival-dinner"
 lang: "en"
-title: "When Festival Dinner in Ahmedabad needs more than a group chat, Fanju app starts with the table | fanju-app"
-description: "In Ahmedabad, Festival Dinner hosted through the Fanju app offers a grounded way to share a meal with new people around a meaningful theme—no swiping, no pressure."
+title: "When Festival Dinner in Ahmedabad needs more than a group chat,..."
+description: "In Ahmedabad, Festival Dinner hosted through the Fanju app offers a grounded way to share a meal with new people around a meaningful theme—no swiping, n…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

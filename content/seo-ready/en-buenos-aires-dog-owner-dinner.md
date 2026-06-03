@@ -4,8 +4,8 @@ canonicalPath: "/en/city/buenos-aires/dog-owner-dinner"
 alternatePath: "/city/buenos-aires/dog-owner-dinner"
 translationKey: "buenos-aires-dog-owner-dinner"
 lang: "en"
-title: "When Dog Owner Dinner feels too loose in Buenos Aires, Fanju app starts with the table | fanju-app"
-description: "Friday at 7:30 PM in Buenos Aires, you’re standing outside a trattoria in Villa Crespo, dog leash in hand, checking your phone one last time. The street is warm, cicadas hum under the trees, and the thought of walking"
+title: "When Dog Owner Dinner feels too loose in Buenos Aires, Fanju app..."
+description: "Friday at 7:30 PM in Buenos Aires, you’re standing outside a trattoria in Villa Crespo, dog leash in hand, checking your phone one last time."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

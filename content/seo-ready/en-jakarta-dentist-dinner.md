@@ -4,8 +4,8 @@ canonicalPath: "/en/city/jakarta/dentist-dinner"
 alternatePath: "/city/jakarta/dentist-dinner"
 translationKey: "jakarta-dentist-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Jakarta Dentist Dinner table before the first course"
-description: "Jakarta traffic turns a simple dinner into a logistical project, making the end time as critical as the start time for any remote worker venturing out. A well-organized Dentist Dinner listing will explicitly state the"
+title: "The Fanju app way to judge a Jakarta Dentist Dinner table before..."
+description: "Jakarta traffic turns a simple dinner into a logistical project, making the end time as critical as the start time for any remote worker venturing out."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

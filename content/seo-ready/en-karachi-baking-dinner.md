@@ -4,8 +4,8 @@ canonicalPath: "/en/city/karachi/baking-dinner"
 alternatePath: "/city/karachi/baking-dinner"
 translationKey: "karachi-baking-dinner"
 lang: "en"
-title: "Karachi after work: how Fanju app makes Baking Dinner feel like a real room | fanju-app"
-description: "In Karachi, the workday ends with a slow fade—office lights dim, traffic thickens, and the city’s rhythm shifts from urgency to possibility. For many, dinner is more than a meal; it’s a chance to reconnect, to step out o"
+title: "Karachi after work: how Fanju app makes Baking Dinner feel like a..."
+description: "In Karachi, the workday ends with a slow fade—office lights dim, traffic thickens, and the city’s rhythm shifts from urgency to possibility."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

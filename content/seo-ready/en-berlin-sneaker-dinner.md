@@ -4,8 +4,8 @@ canonicalPath: "/en/city/berlin/sneaker-dinner"
 alternatePath: "/city/berlin/sneaker-dinner"
 translationKey: "berlin-sneaker-dinner"
 lang: "en"
-title: "A clearer Sneaker Dinner dinner in Berlin: Fanju app, small tables, and real boundaries"
-description: "Berlin is a city of distinct neighborhoods, and a good listing recognizes that crossing town requires a concrete reason. When you look at a Sneaker Dinner, you want to see specific details that justify the commute, like"
+title: "A clearer Sneaker Dinner dinner in Berlin: Fanju app, small..."
+description: "Berlin is a city of distinct neighborhoods, and a good listing recognizes that crossing town requires a concrete reason."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

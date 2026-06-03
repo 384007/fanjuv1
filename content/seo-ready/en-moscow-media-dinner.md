@@ -5,7 +5,7 @@ alternatePath: "/city/moscow/media-dinner"
 translationKey: "moscow-media-dinner"
 lang: "en"
 title: "Moscow Media Dinner: how Fanju app makes the table worth choosing"
-description: "When scanning for a weekend plan, the specific phrasing in a listing often determines whether a table feels like a real opportunity or just another obligation. A strong listing for a Media Dinner in Moscow should"
+description: "When scanning for a weekend plan, the specific phrasing in a listing often determines whether a table feels like a real opportunity or just another obli…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

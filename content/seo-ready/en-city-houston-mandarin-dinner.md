@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/houston/mandarin-dinner"
 alternatePath: "/city/houston/mandarin-dinner"
-title: "Finding Connection in Houston with Fanju App: A Guide to Mandarin Dinner | fanju-app | 饭局app"
+title: "Finding Connection in Houston with Fanju App: A Guide to Mandarin..."
 description: "Experience the authentic taste of Mandarin dinner in Houston with Fanju app, a low-pressure way to reconnect with others in the city."
 recoveredFromD1: true
 ---

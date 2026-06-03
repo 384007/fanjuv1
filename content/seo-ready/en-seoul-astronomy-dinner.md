@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seoul/astronomy-dinner"
 alternatePath: "/city/seoul/astronomy-dinner"
 translationKey: "seoul-astronomy-dinner"
 lang: "en"
-title: "When the Night Sky Calls: Deciding on a Seoul Astronomy Dinner Through the Fanju app"
-description: "At the moment the host opens the door, the room feels like a micro‑conference: a handful of engineers, a data analyst, and a university professor all clutching notebooks. The professional‑table pressure comes from the"
+title: "When the Night Sky Calls: Deciding on a Seoul Astronomy Dinner..."
+description: "At the moment the host opens the door, the room feels like a micro‑conference: a handful of engineers, a data analyst, and a university professor all cl…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96

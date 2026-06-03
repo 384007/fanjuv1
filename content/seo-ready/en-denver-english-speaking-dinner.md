@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/denver/english-speaking-dinner"
 alternatePath: "/city/denver/english-speaking-dinner"
-title: "When English Speaking Dinner feels too loose in Denver, Fanju app starts with the table | fanju-app | 饭局app"
-description: "In Denver, where mountain air meets city rhythm, finding a meaningful conversation over dinner can be harder than catching the sunset behind the Rockies. For newcomers, English-speaking dinners often promise connection b"
+title: "When English Speaking Dinner feels too loose in Denver, Fanju app..."
+description: "In Denver, where mountain air meets city rhythm, finding a meaningful conversation over dinner can be harder than catching the sunset behind the Rockies…"
 recoveredFromD1: true
 ---
 # When English Speaking Dinner feels too loose in Denver, Fanju app starts with the table

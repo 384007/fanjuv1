@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/nanping/six-person-dinner"
 alternatePath: "/en/city/nanping/six-person-dinner"
-title: "南平六人饭局指南 | fanju-app | 饭局app"
+title: "南平六人饭局指南"
 description: "在南平，随着线下社交的逐渐复苏，人们渴望重新建立真实的情感连接。饭局app / Fanju 正是为此而生，它围绕着小桌吃饭、清晰的主题和面对面的交流，帮助你在南平找到志同道合的伙伴，开启一段段难忘的线下时光。告别碎片化的线上互动，重新感受围炉夜话的温暖与真实。"
 recoveredFromD1: true
 ---

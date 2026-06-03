@@ -4,8 +4,8 @@ canonicalPath: "/en/city/fukuoka/triathlon-dinner"
 alternatePath: "/city/fukuoka/triathlon-dinner"
 translationKey: "fukuoka-triathlon-dinner"
 lang: "en"
-title: "For people trying Triathlon Dinner in Fukuoka, Fanju app puts the guest mix first | fanju-app"
-description: "Arriving at a Triathlon Dinner in Fukuoka often means pausing outside a narrow wooden door in a low-rise building near Nakasu, scanning the street for signs of the right table. The first ten minutes—those initial"
+title: "For people trying Triathlon Dinner in Fukuoka, Fanju app puts the..."
+description: "Arriving at a Triathlon Dinner in Fukuoka often means pausing outside a narrow wooden door in a low-rise building near Nakasu, scanning the street for s…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

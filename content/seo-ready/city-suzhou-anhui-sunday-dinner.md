@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/suzhou-anhui/sunday-dinner"
 alternatePath: "/en/city/suzhou-anhui/sunday-dinner"
-title: "宿州周日饭局指南：通过饭局app找到真实的连接 | fanju-app"
+title: "宿州周日饭局指南：通过饭局app找到真实的连接"
 description: "新来宿州的人，想通过一顿饭获得真实连接的人，这篇文章给你最实用的周日饭局指南"
 recoveredFromD1: true
 ---

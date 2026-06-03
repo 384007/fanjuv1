@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dhaka/salsa-dinner"
 alternatePath: "/city/dhaka/salsa-dinner"
 translationKey: "dhaka-salsa-dinner"
 lang: "en"
-title: "The Salsa Dinner table Dhaka actually needs is the one Fanju app describes up front | fanju-app"
-description: "Dhaka doesn’t make first connections easy. The city moves fast, the streets pulse with urgency, and social circles often form around family or long-standing colleagues. For someone new—whether arriving for work, study, o"
+title: "The Salsa Dinner table Dhaka actually needs is the one Fanju app..."
+description: "Dhaka doesn’t make first connections easy. The city moves fast, the streets pulse with urgency, and social circles often form around family or long-stan…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

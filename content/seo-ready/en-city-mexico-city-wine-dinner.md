@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/mexico-city/wine-dinner"
 alternatePath: "/city/mexico-city/wine-dinner"
-title: "Experience Authentic Mexico City through Wine Dinner with Fanju app | fanju-app | 饭局app"
+title: "Experience Authentic Mexico City through Wine Dinner with Fanju app"
 description: "Discover the city's hidden gems and connect with locals through a wine dinner, facilitated by the Fanju app."
 recoveredFromD1: true
 ---

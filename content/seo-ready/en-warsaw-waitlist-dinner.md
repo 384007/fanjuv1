@@ -4,8 +4,8 @@ canonicalPath: "/en/city/warsaw/waitlist-dinner"
 alternatePath: "/city/warsaw/waitlist-dinner"
 translationKey: "warsaw-waitlist-dinner"
 lang: "en"
-title: "Warsaw does not need another vague invite; Fanju app makes Waitlist Dinner specific | fanju-app"
-description: "In Warsaw’s professional circles, evenings often blur into a cycle of half-committed plans—meetups that never materialize, networking events with too many people and too little substance. The Fanju app changes that by an"
+title: "Warsaw does not need another vague invite; Fanju app makes..."
+description: "In Warsaw’s professional circles, evenings often blur into a cycle of half-committed plans—meetups that never materialize, networking events with too ma…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

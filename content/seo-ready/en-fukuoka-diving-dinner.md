@@ -4,8 +4,8 @@ canonicalPath: "/en/city/fukuoka/diving-dinner"
 alternatePath: "/city/fukuoka/diving-dinner"
 translationKey: "fukuoka-diving-dinner"
 lang: "en"
-title: "Diving Dinner in Fukuoka should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "The moment arrives after the first round of drinks, when the initial greetings have faded and conversation could go quiet. This is the hinge point at a Diving Dinner in Fukuoka—when the table either settles into rhythm"
+title: "Diving Dinner in Fukuoka should not feel like a gamble; Fanju app..."
+description: "The moment arrives after the first round of drinks, when the initial greetings have faded and conversation could go quiet."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

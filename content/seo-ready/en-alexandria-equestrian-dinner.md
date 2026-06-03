@@ -4,8 +4,8 @@ canonicalPath: "/en/city/alexandria/equestrian-dinner"
 alternatePath: "/city/alexandria/equestrian-dinner"
 translationKey: "alexandria-equestrian-dinner"
 lang: "en"
-title: "The Fanju app way to judge an Alexandria Equestrian Dinner table before the first course"
-description: "When you open the listing for an Alexandria Equestrian Dinner, you are looking for intent rather than a menu. The Fanju app functions as a small-table dinner tool where the host explains why this specific gathering"
+title: "The Fanju app way to judge an Alexandria Equestrian Dinner table..."
+description: "When you open the listing for an Alexandria Equestrian Dinner, you are looking for intent rather than a menu."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

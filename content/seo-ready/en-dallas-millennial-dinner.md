@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dallas/millennial-dinner"
 alternatePath: "/city/dallas/millennial-dinner"
 translationKey: "dallas-millennial-dinner"
 lang: "en"
-title: "For people trying Millennial Dinner in Dallas, Fanju app puts the guest mix first | fanju-app"
-description: "Spending a weeknight in Dallas with no local plans used to mean takeout in a hotel room or scrolling through apps while sitting at the bar of a chain restaurant. For remote workers and solo travelers, the city’s energy o"
+title: "For people trying Millennial Dinner in Dallas, Fanju app puts the..."
+description: "Spending a weeknight in Dallas with no local plans used to mean takeout in a hotel room or scrolling through apps while sitting at the bar of a chain re…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

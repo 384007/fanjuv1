@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lahore/restaurant-discovery-dinner"
 alternatePath: "/city/lahore/restaurant-discovery-dinner"
 translationKey: "lahore-restaurant-discovery-dinner"
 lang: "en"
-title: "Lahore after work: how Fanju app makes Restaurant Discovery Dinner feel like a real room | fanju-app"
+title: "Lahore after work: how Fanju app makes Restaurant Discovery Dinner..."
 description: "Lahore after work often feels like a city in transition, with the day's demands giving way to the evening's possibilities. For those looking to connect over a shared meal, the concept of a \"Restaurant Discovery Dinner\" c"
 pageType: "city_article"
 priorityScore: 70

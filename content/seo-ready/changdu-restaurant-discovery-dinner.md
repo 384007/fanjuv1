@@ -4,9 +4,9 @@ canonicalPath: "/city/changdu/restaurant-discovery-dinner"
 alternatePath: "/en/city/changdu/restaurant-discovery-dinner"
 translationKey: "changdu-restaurant-discovery-dinner"
 lang: "zh"
-title: "昌都想参加餐厅探索饭局，饭局app把信任感放在饭前 | fanju-app"
+title: "昌都想参加餐厅探索饭局，饭局app把信任感放在饭前"
 titleZh: "昌都想参加餐厅探索饭局，饭局app把信任感放在饭前"
-description: "在昌都，一场小桌饭局的起点往往不是餐厅，而是一个人下班后坐在车里，盯着手机屏幕犹豫要不要报名。 饭局app在这里不是用来刷存在感的工具，而是连接陌生人之间真实对话的通道。 它不推送热闹的派对，也不制造虚假的亲密，而是把一桌饭的结构拆开讲清楚：谁在组织、为什么选这家店、同桌的人大概是什么状态。 在高原城市的节奏里，人们习惯慢热，也更在意第一面是否踏实。"
+description: "在昌都，一场小桌饭局的起点往往不是餐厅，而是一个人下班后坐在车里，盯着手机屏幕犹豫要不要报名。 饭局app在这里不是用来刷存在感的工具，而是连接陌生人之间真实对话的通道。 它不推送热闹的派对，也不制造虚假的亲密，而是把一桌饭的结构拆开讲清楚：谁在组织、为什么选这家店、同桌的人大概是什么状态。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/delhi/spanish-learner-dinner"
 alternatePath: "/city/delhi/spanish-learner-dinner"
 translationKey: "delhi-spanish-learner-dinner"
 lang: "en"
-title: "Saturday Spanish Learner Dinner in Delhi with the Fanju app: a calm, women‑friendly table"
-description: "When the evening rolls around, many Delhi professionals wonder whether a language‑focused dinner will fit into a busy schedule. The Fanju listing highlights that the gathering starts at 7 pm and ends by 9 pm, giving a"
+title: "Saturday Spanish Learner Dinner in Delhi with the Fanju app: a..."
+description: "When the evening rolls around, many Delhi professionals wonder whether a language‑focused dinner will fit into a busy schedule."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

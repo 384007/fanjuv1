@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/senior-dinner"
 alternatePath: "/city/brussels/senior-dinner"
 translationKey: "brussels-senior-dinner"
 lang: "en"
-title: "Brussels has plenty of Senior Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "Finding a genuine connection after a long day in Brussels can feel like searching for a quiet corner in a bustling Grand Place. For those looking to move beyond the usual post-work routines, the Fanju app offers a unique"
+title: "Brussels has plenty of Senior Dinner options; Fanju app is the one..."
+description: "Finding a genuine connection after a long day in Brussels can feel like searching for a quiet corner in a bustling Grand Place."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

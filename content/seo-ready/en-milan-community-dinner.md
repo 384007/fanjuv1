@@ -4,8 +4,8 @@ canonicalPath: "/en/city/milan/community-dinner"
 alternatePath: "/city/milan/community-dinner"
 translationKey: "milan-community-dinner"
 lang: "en"
-title: "A calmer way to approach Community Dinner in Milan through Fanju app | fanju-app"
-description: "The Fanju app helps people in Milan find small, well-described dinners shared among locals and visitors who value quiet connection over spectacle. It’s not about curated experiences or influencer gatherings, but real mea"
+title: "A calmer way to approach Community Dinner in Milan through Fanju app"
+description: "The Fanju app helps people in Milan find small, well-described dinners shared among locals and visitors who value quiet connection over spectacle."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

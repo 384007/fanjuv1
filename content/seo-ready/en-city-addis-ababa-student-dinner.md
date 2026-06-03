@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/addis-ababa/student-dinner"
 alternatePath: "/city/addis-ababa/student-dinner"
-title: "Discovering Local Flavors with Fanju app in Addis Ababa: A Student Dinner Guide | fanju-app | 饭局app"
+title: "Discovering Local Flavors with Fanju app in Addis Ababa: A Student..."
 description: "Join us on a culinary journey through Addis Ababa, where the Fanju app connects students for a unique dinner experience."
 recoveredFromD1: true
 ---

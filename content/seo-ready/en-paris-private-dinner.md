@@ -5,7 +5,7 @@ alternatePath: "/city/paris/private-dinner"
 translationKey: "paris-private-dinner"
 lang: "en"
 title: "Paris Private Dinner: how Fanju app makes the table worth choosing"
-description: "When you first encounter a Paris Private Dinner listing, the primary question is whether the evening will be worth your time. The app addresses this by forcing the host to articulate the purpose of the gathering,"
+description: "When you first encounter a Paris Private Dinner listing, the primary question is whether the evening will be worth your time."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

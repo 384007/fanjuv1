@@ -4,8 +4,8 @@ canonicalPath: "/en/city/baghdad/after-work-dinner"
 alternatePath: "/city/baghdad/after-work-dinner"
 translationKey: "baghdad-after-work-dinner"
 lang: "en"
-title: "How Fanju app turns a Baghdad After Work Dinner night into something worth showing up for | fanju-app"
-description: "In Baghdad, where evenings unfold slowly and conversation often begins only after the second glass of karawan tea, the idea of joining strangers for dinner used to feel foreign. But with the Fanju app, After Work Dinner"
+title: "How Fanju app turns a Baghdad After Work Dinner night into..."
+description: "In Baghdad, where evenings unfold slowly and conversation often begins only after the second glass of karawan tea, the idea of joining strangers for din…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

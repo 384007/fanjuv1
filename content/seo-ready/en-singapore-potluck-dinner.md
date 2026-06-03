@@ -4,8 +4,8 @@ canonicalPath: "/en/city/singapore/potluck-dinner"
 alternatePath: "/city/singapore/potluck-dinner"
 translationKey: "singapore-potluck-dinner"
 lang: "en"
-title: "A clearer Potluck Dinner in Singapore: Fanju app, small tables, and real boundaries"
-description: "After the meal concludes, the most appreciated gesture in Singapore is often a clear signal that the evening has officially ended. Many guests travel across different neighborhoods, so knowing when to catch the last"
+title: "A clearer Potluck Dinner in Singapore: Fanju app, small tables,..."
+description: "After the meal concludes, the most appreciated gesture in Singapore is often a clear signal that the evening has officially ended."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

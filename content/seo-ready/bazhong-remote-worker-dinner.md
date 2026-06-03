@@ -4,9 +4,9 @@ canonicalPath: "/city/bazhong/remote-worker-dinner"
 alternatePath: "/en/city/bazhong/remote-worker-dinner"
 translationKey: "bazhong-remote-worker-dinner"
 lang: "zh"
-title: "不想在巴中随便拼桌，饭局app怎样让远程工作者饭局变成一个真实决定 | fanju-app"
+title: "不想在巴中随便拼桌，饭局app怎样让远程工作者饭局变成一个真实决定"
 titleZh: "不想在巴中随便拼桌，饭局app怎样让远程工作者饭局变成一个真实决定"
-description: "清晨七点，巴中老城的米仓路上已有几家包子铺亮着灯。 蒸汽从门缝里溢出，混着巷口早点摊的油香，在微凉的空气里飘得不远。 一位穿着冲锋衣的年轻人大口吃完一碗酸辣粉，掏出手机在饭局app上确认今晚的座位——不是约客户，也不是见朋友，而是一场五人规模的远程工作者饭局，地点在回风片区的一家小馆子，主题是“在三四线城市做自由职业的第三年”。"
+description: "清晨七点，巴中老城的米仓路上已有几家包子铺亮着灯。 蒸汽从门缝里溢出，混着巷口早点摊的油香，在微凉的空气里飘得不远。 一位穿着冲锋衣的年轻人大口吃完一碗酸辣粉，掏出手机在饭局app上确认今晚的座位——不是约客户，也不是见朋友，而是一场五人规模的远程工作者饭局，地点在回风片区的一家小馆子，主题是“在三四线…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

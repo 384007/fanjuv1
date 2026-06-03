@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/manila/product-manager-dinner"
 alternatePath: "/city/manila/product-manager-dinner"
-title: "Manila Product Manager Dinner Guide | Fanju app"
+title: "Manila Product Manager Dinner Guide"
 description: "Plan a meaningful Product Manager Dinner in Manila with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

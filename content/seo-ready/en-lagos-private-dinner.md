@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lagos/private-dinner"
 alternatePath: "/city/lagos/private-dinner"
 translationKey: "lagos-private-dinner"
 lang: "en"
-title: "Before joining Private Dinner in Lagos, what Fanju app should make clear"
-description: "A host in Lagos needs to do more than just pick a cuisine; they must describe the atmosphere of the restaurant to distinguish a calm dinner table from a noisy meetup. Readers should look for specifics about the noise"
+title: "Before joining Private Dinner in Lagos, what Fanju app should make..."
+description: "A host in Lagos needs to do more than just pick a cuisine; they must describe the atmosphere of the restaurant to distinguish a calm dinner table from a…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

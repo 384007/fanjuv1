@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/suizhou/restaurant-discovery-dinner"
 alternatePath: "/en/city/suizhou/restaurant-discovery-dinner"
-title: "随州餐厅探索饭局指南 | fanju-app | 饭局app"
+title: "随州餐厅探索饭局指南"
 description: "随州餐厅探索饭局指南，了解随州最好的餐厅和最好的饭局体验。"
 recoveredFromD1: true
 ---

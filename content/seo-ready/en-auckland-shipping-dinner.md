@@ -4,8 +4,8 @@ canonicalPath: "/en/city/auckland/shipping-dinner"
 alternatePath: "/city/auckland/shipping-dinner"
 translationKey: "auckland-shipping-dinner"
 lang: "en"
-title: "Why Shipping Dinner in Auckland works better when Fanju app keeps the table small | fanju-app"
-description: "Weekend plans in Auckland often dissolve into half-texted group chats or last-minute cancellations. The city’s sprawl—drives from Pakuranga to Ponsonby, ferry delays from Half Moon Bay, the eternal battle with Southern"
+title: "Why Shipping Dinner in Auckland works better when Fanju app keeps..."
+description: "Weekend plans in Auckland often dissolve into half-texted group chats or last-minute cancellations."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

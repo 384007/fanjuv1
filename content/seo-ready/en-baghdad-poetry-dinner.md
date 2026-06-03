@@ -4,8 +4,8 @@ canonicalPath: "/en/city/baghdad/poetry-dinner"
 alternatePath: "/city/baghdad/poetry-dinner"
 translationKey: "baghdad-poetry-dinner"
 lang: "en"
-title: "Baghdad has plenty of Poetry Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "In Baghdad, weekend plans often begin with a quiet question: where can you sit, listen, and speak without performance? The Fanju app doesn’t promise loud gatherings or curated photo moments. Instead, it surfaces tables w"
+title: "Baghdad has plenty of Poetry Dinner options; Fanju app is the one..."
+description: "In Baghdad, weekend plans often begin with a quiet question: where can you sit, listen, and speak without performance?"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

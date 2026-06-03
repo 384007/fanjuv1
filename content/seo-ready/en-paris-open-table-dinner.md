@@ -4,8 +4,8 @@ canonicalPath: "/en/city/paris/open-table-dinner"
 alternatePath: "/city/paris/open-table-dinner"
 translationKey: "paris-open-table-dinner"
 lang: "en"
-title: "When Open Table Dinner feels too loose in Paris, Fanju app starts with the table | fanju-app"
-description: "If you’ve ever hosted a dinner in Paris where the conversation stalled before dessert, or watched a table grow awkward under the weight of good intentions but poor framing, you’re not alone. Open Table Dinner in this cit"
+title: "When Open Table Dinner feels too loose in Paris, Fanju app starts..."
+description: "If you’ve ever hosted a dinner in Paris where the conversation stalled before dessert, or watched a table grow awkward under the weight of good intentio…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

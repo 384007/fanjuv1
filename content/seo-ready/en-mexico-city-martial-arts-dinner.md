@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mexico-city/martial-arts-dinner"
 alternatePath: "/city/mexico-city/martial-arts-dinner"
 translationKey: "mexico-city-martial-arts-dinner"
 lang: "en"
-title: "How Fanju app turns a Mexico City Martial Arts Dinner night into something worth showing up for | fanju-app"
-description: "In Mexico City, Fanju app turns a martial arts dinner into a focused small-table plan with training context, host standards, venue tone, and clear expectations before anyone arrives."
+title: "How Fanju app turns a Mexico City Martial Arts Dinner night into..."
+description: "In Mexico City, Fanju app turns a martial arts dinner into a focused small-table plan with training context, host standards, venue tone, and clear expec…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

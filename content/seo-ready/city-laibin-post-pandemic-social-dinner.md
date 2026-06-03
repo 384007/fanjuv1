@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/laibin/post-pandemic-social-dinner"
 alternatePath: "/en/city/laibin/post-pandemic-social-dinner"
-title: "来宾后疫情线下饭局指南 | fanju-app | 饭局app"
+title: "来宾后疫情线下饭局指南"
 description: "在来宾的后疫情时代，线下饭局成为人们重聚的热门选择。Fanju / 饭局app 是围绕小桌吃饭、清晰主题和线下连接的社交应用，帮助你找到同样有兴趣的人，共享美好的时光。"
 recoveredFromD1: true
 ---

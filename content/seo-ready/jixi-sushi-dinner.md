@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/jixi/sushi-dinner"
 alternatePath: "/en/city/jixi/sushi-dinner"
-title: "鸡西寿司饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
+title: "鸡西寿司饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "晚饭前的六点半，鸡西的街灯刚刚亮起。街角便利店的热饮柜冒着微光，写字楼里的人陆续走出电梯，有人拎着公文包，有人耳机还连着未挂断的会议。这个时刻，很少有人急着回家。饭局app上的一个提醒弹出：「今晚，鸡西，寿司店小桌，4人已确认。」这不是饭局"
 recoveredFromD1: true
 ---

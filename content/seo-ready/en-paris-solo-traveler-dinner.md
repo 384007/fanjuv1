@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/paris/solo-traveler-dinner"
 alternatePath: "/city/paris/solo-traveler-dinner"
-title: "Why Solo Traveler Dinner in Paris works better when Fanju app keeps the table small | fanju-app | 饭局app"
-description: "Fanju app helps solo travelers in Paris find real dinners with small groups of locals and visitors who want meaningful conversation, not performance. Instead of joining a loud group tour or dining alone at a tourist trap"
+title: "Why Solo Traveler Dinner in Paris works better when Fanju app..."
+description: "Fanju app helps solo travelers in Paris find real dinners with small groups of locals and visitors who want meaningful conversation, not performance."
 recoveredFromD1: true
 ---
 # Why Solo Traveler Dinner in Paris works better when Fanju app keeps the table small

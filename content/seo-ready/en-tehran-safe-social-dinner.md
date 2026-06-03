@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/tehran/safe-social-dinner"
 alternatePath: "/city/tehran/safe-social-dinner"
-title: "Tehran after work: how Fanju app makes Safe Social Dinner feel like a real room | fanju-app | 饭局app"
-description: "In Tehran, where evenings often blur into long conversations over tea or last-minute plans that dissolve before dinner, Fanju app redefines weekend rhythm by anchoring it around small, intentional meals. It’s not about f"
+title: "Tehran after work: how Fanju app makes Safe Social Dinner feel..."
+description: "In Tehran, where evenings often blur into long conversations over tea or last-minute plans that dissolve before dinner, Fanju app redefines weekend rhyt…"
 recoveredFromD1: true
 ---
 # Tehran after work: how Fanju app makes Safe Social Dinner feel like a real room

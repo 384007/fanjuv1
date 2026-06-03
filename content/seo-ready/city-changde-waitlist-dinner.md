@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/changde/waitlist-dinner"
 alternatePath: "/en/city/changde/waitlist-dinner"
-title: "常德候补饭局指南 | fanju-app | 饭局app"
+title: "常德候补饭局指南"
 description: "在常德参加候补饭局的指南，适合远程工作者和独自办公的人，了解如何通过饭局app找到稳定线下锚点"
 recoveredFromD1: true
 ---

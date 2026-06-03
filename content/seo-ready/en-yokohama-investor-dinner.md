@@ -4,8 +4,8 @@ canonicalPath: "/en/city/yokohama/investor-dinner"
 alternatePath: "/city/yokohama/investor-dinner"
 translationKey: "yokohama-investor-dinner"
 lang: "en"
-title: "Navigating Yokohama Investor Dinner with Fanju app: Trust, Timing, and a Clear Exit"
-description: "When the decision hinges on whether the after‑work commute is justified, most readers first ask if the venue sits within a reasonable travel window. Yokohama’s waterfront districts can add twenty minutes of train time,"
+title: "Navigating Yokohama Investor Dinner with Fanju app: Trust, Timing,..."
+description: "When the decision hinges on whether the after‑work commute is justified, most readers first ask if the venue sits within a reasonable travel window."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/johannesburg/chinese-social-dining"
 alternatePath: "/city/johannesburg/chinese-social-dining"
 translationKey: "johannesburg-chinese-social-dining"
 lang: "en"
-title: "In Johannesburg, Fanju app turns Chinese Social Dining into a table people can actually trust | fanju-app"
-description: "In Johannesburg, where shared meals often cross cultural borders, Chinese Social Dining has quietly grown beyond restaurant banquets and private homes into a network of curated gatherings — and the Fanju app is becoming"
+title: "In Johannesburg, Fanju app turns Chinese Social Dining into a..."
+description: "In Johannesburg, where shared meals often cross cultural borders, Chinese Social Dining has quietly grown beyond restaurant banquets and private homes i…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

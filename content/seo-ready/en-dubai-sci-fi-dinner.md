@@ -5,7 +5,7 @@ alternatePath: "/city/dubai/sci-fi-dinner"
 translationKey: "dubai-sci-fi-dinner"
 lang: "en"
 title: "Dubai Sci-Fi Dinner: how Fanju app makes the table worth choosing"
-description: "A good listing for a Sci-Fi Dinner in Dubai starts with the host explaining why this specific theme matters to them. You are looking for a narrative that goes beyond just eating food; the host should describe the kind"
+description: "A good listing for a Sci-Fi Dinner in Dubai starts with the host explaining why this specific theme matters to them."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

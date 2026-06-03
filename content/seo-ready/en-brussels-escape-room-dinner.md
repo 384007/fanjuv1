@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/escape-room-dinner"
 alternatePath: "/city/brussels/escape-room-dinner"
 translationKey: "brussels-escape-room-dinner"
 lang: "en"
-title: "A clearer Escape Room Dinner dinner in Brussels: Fanju app, small tables, and real boundaries"
-description: "Standing outside a venue in Brussels, checking your phone, you face a moment of hesitation that every solo arrival knows. The most practical question to ask is whether the evening is structured around the activity or if"
+title: "A clearer Escape Room Dinner dinner in Brussels: Fanju app, small..."
+description: "Standing outside a venue in Brussels, checking your phone, you face a moment of hesitation that every solo arrival knows."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/moscow/martial-arts-dinner"
 alternatePath: "/city/moscow/martial-arts-dinner"
 translationKey: "moscow-martial-arts-dinner"
 lang: "en"
-title: "A clearer Martial Arts Dinner dinner in Moscow: Fanju app, small tables, and real boundaries"
-description: "When looking at a Martial Arts Dinner listing in Moscow, the host's description of the venue acts as the first real test of reliability. You should look for specific neighborhood names or restaurant types rather than"
+title: "A clearer Martial Arts Dinner dinner in Moscow: Fanju app, small..."
+description: "When looking at a Martial Arts Dinner listing in Moscow, the host's description of the venue acts as the first real test of reliability."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

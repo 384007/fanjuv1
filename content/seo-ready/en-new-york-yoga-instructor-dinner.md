@@ -4,8 +4,8 @@ canonicalPath: "/en/city/new-york/yoga-instructor-dinner"
 alternatePath: "/city/new-york/yoga-instructor-dinner"
 translationKey: "new-york-yoga-instructor-dinner"
 lang: "en"
-title: "New York Yoga Instructor Dinner: how Fanju app makes the table worth choosing"
-description: "Food acts as the fastest connector between strangers, yet New York offers endless dining options that lack a specific focal point. A Yoga Instructor Dinner stands apart because the menu and the mood are expected to"
+title: "New York Yoga Instructor Dinner: how Fanju app makes the table..."
+description: "Food acts as the fastest connector between strangers, yet New York offers endless dining options that lack a specific focal point."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

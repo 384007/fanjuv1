@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/dhaka/book-club-dinner"
 alternatePath: "/city/dhaka/book-club-dinner"
-title: "Dhaka after work: how Fanju app makes Book Club Dinner feel like a real room | fanju-app | 饭局app"
-description: "Fanju app connects people in Dhaka through small, intentional dinners centered on books, conversation, and shared meals. For someone new, it offers a way to step into city life without the pressure of big social events."
+title: "Dhaka after work: how Fanju app makes Book Club Dinner feel like a..."
+description: "Fanju app connects people in Dhaka through small, intentional dinners centered on books, conversation, and shared meals."
 recoveredFromD1: true
 ---
 # Dhaka after work: how Fanju app makes Book Club Dinner feel like a real room

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dubai/tea-ceremony-dinner"
 alternatePath: "/city/dubai/tea-ceremony-dinner"
 translationKey: "dubai-tea-ceremony-dinner"
 lang: "en"
-title: "How Fanju app turns a Dubai Tea Ceremony Dinner night into something worth showing up for | fanju-app"
-description: "In Dubai, where social events often blur into polished but impersonal gatherings, the Fanju app quietly supports a different kind of evening: a Tea Ceremony Dinner that feels both deliberate and safe. Unlike large meetup"
+title: "How Fanju app turns a Dubai Tea Ceremony Dinner night into..."
+description: "In Dubai, where social events often blur into polished but impersonal gatherings, the Fanju app quietly supports a different kind of evening: a Tea Cere…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

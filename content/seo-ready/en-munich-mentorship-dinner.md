@@ -4,8 +4,8 @@ canonicalPath: "/en/city/munich/mentorship-dinner"
 alternatePath: "/city/munich/mentorship-dinner"
 translationKey: "munich-mentorship-dinner"
 lang: "en"
-title: "When the After‑Work Clock Strikes, a Munich Mentorship Dinner Hosted on Fanju App Becomes the Reason to Cross Town"
-description: "On Fanju, the listing appears as a concise card: date, time, venue type, cost split, and a brief note on the mentor’s background. The app’s design forces hosts to declare the meal’s purpose, which helps Munich users"
+title: "When the After‑Work Clock Strikes, a Munich Mentorship Dinner..."
+description: "On Fanju, the listing appears as a concise card: date, time, venue type, cost split, and a brief note on the mentor’s background."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

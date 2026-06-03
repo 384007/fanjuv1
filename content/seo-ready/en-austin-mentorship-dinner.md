@@ -4,8 +4,8 @@ canonicalPath: "/en/city/austin/mentorship-dinner"
 alternatePath: "/city/austin/mentorship-dinner"
 translationKey: "austin-mentorship-dinner"
 lang: "en"
-title: "A clearer Mentorship Dinner dinner in Austin: Fanju app, small tables, and real boundaries"
-description: "A credible listing for a Mentorship Dinner in Austin should immediately state the purpose of the gathering, such as career guidance or industry-specific advice, rather than leaving the theme ambiguous. Readers need to"
+title: "A clearer Mentorship Dinner dinner in Austin: Fanju app, small..."
+description: "A credible listing for a Mentorship Dinner in Austin should immediately state the purpose of the gathering, such as career guidance or industry-specific…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

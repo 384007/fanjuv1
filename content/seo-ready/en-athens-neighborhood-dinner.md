@@ -4,8 +4,8 @@ canonicalPath: "/en/city/athens/neighborhood-dinner"
 alternatePath: "/city/athens/neighborhood-dinner"
 translationKey: "athens-neighborhood-dinner"
 lang: "en"
-title: "Athens Neighborhood Dinner through Fanju app: the questions to answer before you sit down"
-description: "When looking for a Neighborhood Dinner in Athens, the specific venue description is the first clue that separates a thoughtful gathering from a generic meetup. Readers should look for listings that clearly state the"
+title: "Athens Neighborhood Dinner through Fanju app: the questions to..."
+description: "When looking for a Neighborhood Dinner in Athens, the specific venue description is the first clue that separates a thoughtful gathering from a generic…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

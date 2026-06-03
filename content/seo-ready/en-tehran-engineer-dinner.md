@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tehran/engineer-dinner"
 alternatePath: "/city/tehran/engineer-dinner"
 translationKey: "tehran-engineer-dinner"
 lang: "en"
-title: "Tehran after work: how Fanju app makes Engineer Dinner feel like a real room | fanju-app"
-description: "In Tehran, the rhythm of an engineer’s day often outlasts the office lights. Long commutes, overlapping projects, and the quiet exhaustion of problem-solving in high-stakes environments make unwinding not just desirable,"
+title: "Tehran after work: how Fanju app makes Engineer Dinner feel like a..."
+description: "In Tehran, the rhythm of an engineer’s day often outlasts the office lights. Long commutes, overlapping projects, and the quiet exhaustion of problem-so…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

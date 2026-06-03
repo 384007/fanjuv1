@@ -4,8 +4,8 @@ canonicalPath: "/en/city/boston/no-pressure-dinner"
 alternatePath: "/city/boston/no-pressure-dinner"
 translationKey: "boston-no-pressure-dinner"
 lang: "en"
-title: "Boston after work: how Fanju app makes No Pressure Dinner feel like a real room | fanju-app"
-description: "For newcomers in Boston, the rhythm of after-work hours often feels more confusing than freeing. You want to eat, yes, but not alone, and not with the pressure of performance that comes with dinner plans. The Fanju app c"
+title: "Boston after work: how Fanju app makes No Pressure Dinner feel..."
+description: "For newcomers in Boston, the rhythm of after-work hours often feels more confusing than freeing."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

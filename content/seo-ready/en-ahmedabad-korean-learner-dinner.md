@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ahmedabad/korean-learner-dinner"
 alternatePath: "/city/ahmedabad/korean-learner-dinner"
 translationKey: "ahmedabad-korean-learner-dinner"
 lang: "en"
-title: "Before joining Korean Learner Dinner in Ahmedabad, what Fanju app should make clear"
-description: "Arriving at a venue in a quiet corner of Ahmedabad, perhaps near the university campuses or a quieter lane in Prahlad Nagar, sets a distinct tone for a Korean Learner Dinner. Unlike the buzz of a large networking event"
+title: "Before joining Korean Learner Dinner in Ahmedabad, what Fanju app..."
+description: "Arriving at a venue in a quiet corner of Ahmedabad, perhaps near the university campuses or a quieter lane in Prahlad Nagar, sets a distinct tone for a…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

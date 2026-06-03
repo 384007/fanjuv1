@@ -5,7 +5,7 @@ alternatePath: "/city/baghdad/banking-dinner"
 translationKey: "baghdad-banking-dinner"
 lang: "en"
 title: "Baghdad Banking Dinner: how Fanju app makes the table worth choosing"
-description: "The initial moments at any new gathering, especially in a city like Baghdad, can feel uncertain. For first-timers here, having a simple conversation frame ready can ease the transition. Fanju app's premise, centered on"
+description: "The initial moments at any new gathering, especially in a city like Baghdad, can feel uncertain."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/alexandria/operator-dinner"
 alternatePath: "/city/alexandria/operator-dinner"
 translationKey: "alexandria-operator-dinner"
 lang: "en"
-title: "Alexandria does not need another vague invite; Fanju app makes Operator Dinner specific | fanju-app"
-description: "In Alexandria, a city where dinner plans often dissolve into group chat limbo, the Fanju app gives Operator Dinner a fixed address, a real menu, and a reason to show up. Instead of another open-ended “maybe we’ll meet up"
+title: "Alexandria does not need another vague invite; Fanju app makes..."
+description: "In Alexandria, a city where dinner plans often dissolve into group chat limbo, the Fanju app gives Operator Dinner a fixed address, a real menu, and a r…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

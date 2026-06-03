@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vancouver/improv-dinner"
 alternatePath: "/city/vancouver/improv-dinner"
 translationKey: "vancouver-improv-dinner"
 lang: "en"
-title: "For people trying Improv Dinner in Vancouver, Fanju app puts the guest mix first | fanju-app"
-description: "If you’re in Vancouver and looking for a way to connect with other founders, operators, and professionals without the awkwardness of startup mixers or forced networking events, the Fanju app offers something different: I"
+title: "For people trying Improv Dinner in Vancouver, Fanju app puts the..."
+description: "If you’re in Vancouver and looking for a way to connect with other founders, operators, and professionals without the awkwardness of startup mixers or f…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

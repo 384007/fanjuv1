@@ -4,8 +4,8 @@ canonicalPath: "/en/city/luanda/twelve-person-dinner"
 alternatePath: "/city/luanda/twelve-person-dinner"
 translationKey: "luanda-twelve-person-dinner"
 lang: "en"
-title: "Quiet Connections: Luanda Twelve Person Dinner Finds Trust on the Fanju app"
-description: "Remote employees in Luanda often find their social life fragmented across neighbourhoods, with long commutes and unpredictable schedules. A twelve‑person dinner gives a predictable slot—usually early evening—where you"
+title: "Quiet Connections: Luanda Twelve Person Dinner Finds Trust on the..."
+description: "Remote employees in Luanda often find their social life fragmented across neighbourhoods, with long commutes and unpredictable schedules."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

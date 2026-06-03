@@ -4,8 +4,8 @@ canonicalPath: "/en/city/addis-ababa/digital-detox-dinner"
 alternatePath: "/city/addis-ababa/digital-detox-dinner"
 translationKey: "addis-ababa-digital-detox-dinner"
 lang: "en"
-title: "A calmer way to approach Digital Detox Dinner in Addis Ababa through Fanju app | fanju-app"
-description: "Fanju app offers a structured approach to social dining in Addis Ababa, focusing on small, intentionally curated gatherings designed for genuine real-world connection. It's for those seeking to step away from the constan"
+title: "A calmer way to approach Digital Detox Dinner in Addis Ababa..."
+description: "Fanju app offers a structured approach to social dining in Addis Ababa, focusing on small, intentionally curated gatherings designed for genuine real-wo…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/brisbane/city-community-dinner"
 alternatePath: "/city/brisbane/city-community-dinner"
-title: "Brisbane City Community Dinner Guide | Fanju app"
-description: "Discover the joy of social dining with Fanju app, a platform that connects you with like-minded individuals for small, intimate meals and meaningful connections."
+title: "Brisbane City Community Dinner Guide"
+description: "Discover the joy of social dining with Fanju app, a platform that connects you with like-minded individuals for small, intimate meals and meaningful con…"
 recoveredFromD1: true
 ---
 Brisbane, a city known for its vibrant culture and stunning natural beauty, can sometimes feel overwhelming and lonely. As the city&#039;s population continues to grow, it&#039;s easy to get caught up in the hustle and bustle and lose touch with the people around us. But what if there was a way to break free from the isolation and connect with others in a meaningful way? Enter Fanju app, a social dining app that brings people together for small, clearly described meals and real-world connections.

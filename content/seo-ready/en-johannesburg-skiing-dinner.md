@@ -4,8 +4,8 @@ canonicalPath: "/en/city/johannesburg/skiing-dinner"
 alternatePath: "/city/johannesburg/skiing-dinner"
 translationKey: "johannesburg-skiing-dinner"
 lang: "en"
-title: "Snow‑lit Evenings in Braamfontein: How the Fanju app Shapes a Johannesburg Skiing Dinner"
-description: "When you arrive at the venue, the Fanju app’s interface transforms into a simple card that shows the host’s name, the exact address, and a brief description of the evening’s theme. In Johannesburg, the host note often"
+title: "Snow‑lit Evenings in Braamfontein: How the Fanju app Shapes a..."
+description: "When you arrive at the venue, the Fanju app’s interface transforms into a simple card that shows the host’s name, the exact address, and a brief descrip…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

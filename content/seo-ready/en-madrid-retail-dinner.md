@@ -5,7 +5,7 @@ alternatePath: "/city/madrid/retail-dinner"
 translationKey: "madrid-retail-dinner"
 lang: "en"
 title: "Madrid Retail Dinner: how Fanju app makes the table worth choosing"
-description: "In Madrid, where dinners often stretch late into the night, understanding the exit cues is essential for personal comfort. A well-organized Retail Dinner will have a natural conclusion point, often signaled by coffee or"
+description: "In Madrid, where dinners often stretch late into the night, understanding the exit cues is essential for personal comfort."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

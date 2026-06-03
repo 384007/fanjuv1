@@ -4,8 +4,8 @@ canonicalPath: "/en/city/houston/mba-dinner"
 alternatePath: "/city/houston/mba-dinner"
 translationKey: "houston-mba-dinner"
 lang: "en"
-title: "A Houston dinner table for MBA Dinner, with Fanju app boundaries up front | fanju-app"
-description: "Houston’s MBA Dinner on Fanju app offers a quiet alternative to networking events that feel like performance reviews—here, a shared table replaces the conference room."
+title: "A Houston dinner table for MBA Dinner, with Fanju app boundaries..."
+description: "Houston’s MBA Dinner on Fanju app offers a quiet alternative to networking events that feel like performance reviews—here, a shared table replaces the c…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

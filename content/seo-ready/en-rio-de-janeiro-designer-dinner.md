@@ -4,8 +4,8 @@ canonicalPath: "/en/city/rio-de-janeiro/designer-dinner"
 alternatePath: "/city/rio-de-janeiro/designer-dinner"
 translationKey: "rio-de-janeiro-designer-dinner"
 lang: "en"
-title: "Why Designer Dinner in Rio de Janeiro works better when Fanju app keeps the table small | fanju-app"
-description: "In Rio de Janeiro, where social rhythms move with the tides of Copacabana and the pulse of Santa Teresa’s alleyways, the Fanju app reshapes how curated dinners unfold. It doesn’t scale up; it scales down. By design, the"
+title: "Why Designer Dinner in Rio de Janeiro works better when Fanju app..."
+description: "In Rio de Janeiro, where social rhythms move with the tides of Copacabana and the pulse of Santa Teresa’s alleyways, the Fanju app reshapes how curated…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nagoya/climate-tech-dinner"
 alternatePath: "/city/nagoya/climate-tech-dinner"
 translationKey: "nagoya-climate-tech-dinner"
 lang: "en"
-title: "For people trying Climate Tech Dinner in Nagoya, Fanju app puts the guest mix first | fanju-app"
-description: "Nagoya’s urban layout makes a difference in how these dinners land. When you live or work in Sakae or Fushimi, heading to a dinner in Nakamura or Meieki after work doesn’t feel like a detour—it feels like part of the"
+title: "For people trying Climate Tech Dinner in Nagoya, Fanju app puts..."
+description: "Nagoya’s urban layout makes a difference in how these dinners land. When you live or work in Sakae or Fushimi, heading to a dinner in Nakamura or Meieki…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

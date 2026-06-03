@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vienna/supply-chain-dinner"
 alternatePath: "/city/vienna/supply-chain-dinner"
 translationKey: "vienna-supply-chain-dinner"
 lang: "en"
-title: "A clearer Supply Chain Dinner dinner in Vienna: Fanju app, small tables, and real boundaries"
-description: "A trustworthy host will include a short biography that explains why they care about supply chains—perhaps a logistics manager at a local firm or a professor at the University of Vienna. This context reassures newcomers"
+title: "A clearer Supply Chain Dinner dinner in Vienna: Fanju app, small..."
+description: "A trustworthy host will include a short biography that explains why they care about supply chains—perhaps a logistics manager at a local firm or a profe…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

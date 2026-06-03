@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/night-owl-dinner"
 alternatePath: "/city/brussels/night-owl-dinner"
 translationKey: "brussels-night-owl-dinner"
 lang: "en"
-title: "A Brussels dinner table for Night Owl Dinner, with Fanju app boundaries up front"
-description: "The idea of a Night Owl Dinner in Brussels sounds appealing, but how do you know if this table is the right fit for you? Before joining, consider the group size, expected chemistry, and the host's context. A public"
+title: "A Brussels dinner table for Night Owl Dinner, with Fanju app..."
+description: "The idea of a Night Owl Dinner in Brussels sounds appealing, but how do you know if this table is the right fit for you?"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

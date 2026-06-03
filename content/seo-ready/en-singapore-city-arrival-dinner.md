@@ -4,8 +4,8 @@ canonicalPath: "/en/city/singapore/city-arrival-dinner"
 alternatePath: "/city/singapore/city-arrival-dinner"
 translationKey: "singapore-city-arrival-dinner"
 lang: "en"
-title: "A Singapore dinner table for City Arrival Dinner, with Fanju app boundaries up front"
-description: "The search for City Arrival Dinner in Singapore often begins with a need for structure after a long flight or a busy work week. When reading a host note, look for specific details about the neighborhood rather than"
+title: "A Singapore dinner table for City Arrival Dinner, with Fanju app..."
+description: "The search for City Arrival Dinner in Singapore often begins with a need for structure after a long flight or a busy work week."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/milan/philosophy-dinner"
 alternatePath: "/city/milan/philosophy-dinner"
 translationKey: "milan-philosophy-dinner"
 lang: "en"
-title: "For Milan readers considering Philosophy Dinner, Fanju app should make the room legible"
-description: "A Philosophy Dinner in Milan is best suited for those who value structured dialogue over casual mingling. If you enjoy dissecting ideas like ethics or aesthetics while enjoying a quiet meal in a neighbourhood like Brera"
+title: "For Milan readers considering Philosophy Dinner, Fanju app should..."
+description: "A Philosophy Dinner in Milan is best suited for those who value structured dialogue over casual mingling."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

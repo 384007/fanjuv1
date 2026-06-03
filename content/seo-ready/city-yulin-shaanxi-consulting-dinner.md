@@ -4,8 +4,8 @@ score: 100
 lang: zh
 canonicalPath: "/city/yulin-shaanxi/consulting-dinner"
 alternatePath: "/en/city/yulin-shaanxi/consulting-dinner"
-title: "榆林咨询饭局指南 | fanju-app | 饭局app"
-description: "在经历了漫长的线上互动后，榆林正悄然重启线下社交的活力。饭局app / Fanju，一个专注于小桌、有明确主题和深度线下连接的社交应用，为渴望真实交流的榆林人提供了一个全新的平台。它不仅仅是关于吃饭，更是关于在轻松的氛围中，通过共同的兴趣或职业话题，建立有意义的连接。如果你在榆林，渴望打破线上社交的隔阂，重新感受人与人之间面对面的温度，那么一场精心策划的咨询饭局或许正是你需要的。"
+title: "榆林咨询饭局指南"
+description: "在经历了漫长的线上互动后，榆林正悄然重启线下社交的活力。饭局app / Fanju，一个专注于小桌、有明确主题和深度线下连接的社交应用，为渴望真实交流的榆林人提供了一个全新的平台。它不仅仅是关于吃饭，更是关于在轻松的氛围中，通过共同的兴趣或职业话题，建立有意义的连接。"
 recoveredFromD1: true
 ---
 ## Fanju / 饭局app 是什么

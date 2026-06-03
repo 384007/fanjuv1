@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/heyuan/local-guide-dinner"
 alternatePath: "/en/city/heyuan/local-guide-dinner"
-title: "河源本地向导饭局指南 | fanju-app | 饭局app"
+title: "河源本地向导饭局指南"
 description: "在河源，Fanju 是一个围绕小桌吃饭、清晰主题和线下连接的社交应用，帮助您发现和参与本地的饭局活动。"
 recoveredFromD1: true
 ---

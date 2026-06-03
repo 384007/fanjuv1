@@ -4,7 +4,7 @@ canonicalPath: "/en/city/phoenix/doctor-dinner"
 alternatePath: "/city/phoenix/doctor-dinner"
 translationKey: "phoenix-doctor-dinner"
 lang: "en"
-title: "When Doctor Dinner feels too loose in Phoenix, Fanju app starts with the table | fanju-app"
+title: "When Doctor Dinner feels too loose in Phoenix, Fanju app starts..."
 description: "Phoenix hosts who organize Doctor Dinner through the Fanju app often start by defining the table’s purpose clearly: a space for reflection, not networking."
 pageType: "city_article"
 priorityScore: 70

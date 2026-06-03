@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/lagos/urban-lifestyle-dinner"
 alternatePath: "/city/lagos/urban-lifestyle-dinner"
-title: "Lagos Urban Lifestyle Dinner Guide | Fanju app"
-description: "Discover the authentic side of Lagos through private, small-scale dinners with the Fanju app, a social dining platform that fosters meaningful connections and real-world relationships. Join a curated selection of like-minded individuals for an immersive culinary experience that goes beyond mere dining. Explore the city's vibrant neighborhoods, engage in thought-provoking conversations, and savor the flavors of local cuisine in an intimate setting. Whether you're a local or a visitor, this guide will help you navigate the world of Urban Lifestyle Dinners in Lagos and make the most of your experience."
+title: "Lagos Urban Lifestyle Dinner Guide"
+description: "Discover the authentic side of Lagos through private, small-scale dinners with the Fanju app, a social dining platform that fosters meaningful connectio…"
 recoveredFromD1: true
 ---
 Lagos, a city of contrasts, where the rhythms of traditional markets and the hum of modern skyscrapers blend in a vibrant tapestry. It&#039;s a place where the air is thick with the scent of jollof rice and suya, where the sounds of Afrobeat and Fuji music fill the air, and where the warmth of its people is palpable. It&#039;s a city that&#039;s always on the move, yet somehow, it feels like home. And it&#039;s here, in this bustling metropolis, that the Fanju app brings people together for a unique and unforgettable experience – the Urban Lifestyle Dinner.

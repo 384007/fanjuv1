@@ -4,8 +4,8 @@ canonicalPath: "/en/city/berlin/ai-products-dinner"
 alternatePath: "/city/berlin/ai-products-dinner"
 translationKey: "berlin-ai-products-dinner"
 lang: "en"
-title: "How Fanju app turns a Berlin AI Products Dinner night into something worth showing up for | fanju-app"
-description: "Berlin’s creative density means ideas circulate constantly, but meaningful discussion around AI products rarely sticks. Conferences fill rooms with slides and slogans, yet few create conditions for genuine"
+title: "How Fanju app turns a Berlin AI Products Dinner night into..."
+description: "Berlin’s creative density means ideas circulate constantly, but meaningful discussion around AI products rarely sticks."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

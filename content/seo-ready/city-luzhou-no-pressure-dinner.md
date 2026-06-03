@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/luzhou/no-pressure-dinner"
 alternatePath: "/en/city/luzhou/no-pressure-dinner"
-title: "泸州低压力饭局指南 | fanju-app | 饭局app"
+title: "泸州低压力饭局指南"
 description: "在泸州，Fanju 是一个围绕小桌吃饭、清晰主题和线下连接的社交应用，帮助你找到适合你的低压力饭局。"
 recoveredFromD1: true
 ---

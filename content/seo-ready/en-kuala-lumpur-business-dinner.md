@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kuala-lumpur/business-dinner"
 alternatePath: "/city/kuala-lumpur/business-dinner"
 translationKey: "kuala-lumpur-business-dinner"
 lang: "en"
-title: "Kuala Lumpur Business Dinner through Fanju app: the questions to answer before you sit down"
-description: "When you have just arrived in Kuala Lumpur, the prospect of a Business Dinner can feel like a high-stakes gamble with your free time. You want to use the Fanju app to find a table, but you need to know exactly what you"
+title: "Kuala Lumpur Business Dinner through Fanju app: the questions to..."
+description: "When you have just arrived in Kuala Lumpur, the prospect of a Business Dinner can feel like a high-stakes gamble with your free time."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

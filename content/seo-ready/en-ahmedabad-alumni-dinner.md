@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ahmedabad/alumni-dinner"
 alternatePath: "/city/ahmedabad/alumni-dinner"
 translationKey: "ahmedabad-alumni-dinner"
 lang: "en"
-title: "The Alumni Dinner table Ahmedabad actually needs is the one Fanju app describes up front | fanju-app"
-description: "What sets a meaningful Alumni Dinner apart in Ahmedabad isn’t the menu or the venue—it’s the intention behind the table. I’ve hosted dozens of these gatherings, and I’ve learned that the ones that last aren’t the loudest"
+title: "The Alumni Dinner table Ahmedabad actually needs is the one Fanju..."
+description: "What sets a meaningful Alumni Dinner apart in Ahmedabad isn’t the menu or the venue—it’s the intention behind the table."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

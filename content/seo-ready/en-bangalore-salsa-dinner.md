@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bangalore/salsa-dinner"
 alternatePath: "/city/bangalore/salsa-dinner"
 translationKey: "bangalore-salsa-dinner"
 lang: "en"
-title: "Salsa Dinner in Bangalore should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "Salsa Dinner in Bangalore often carries the weight of uncertainty—will the conversation spark, or stall? Will the host have thought through the evening, or is this just another casual meetup with mismatched expectations?"
+title: "Salsa Dinner in Bangalore should not feel like a gamble; Fanju app..."
+description: "Salsa Dinner in Bangalore often carries the weight of uncertainty—will the conversation spark, or stall?"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

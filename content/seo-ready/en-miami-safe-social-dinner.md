@@ -4,8 +4,8 @@ canonicalPath: "/en/city/miami/safe-social-dinner"
 alternatePath: "/city/miami/safe-social-dinner"
 translationKey: "miami-safe-social-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Miami Safe Social Dinner table before the first course"
-description: "When you look at a listing for a Safe Social Dinner in Miami, the app description should act as a clear filter rather than a teaser. You need to see the stated purpose of the meal immediately, whether it is about"
+title: "The Fanju app way to judge a Miami Safe Social Dinner table before..."
+description: "When you look at a listing for a Safe Social Dinner in Miami, the app description should act as a clear filter rather than a teaser."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/melbourne/poetry-dinner"
 alternatePath: "/city/melbourne/poetry-dinner"
 translationKey: "melbourne-poetry-dinner"
 lang: "en"
-title: "How Fanju app turns a Melbourne Poetry Dinner night into something worth showing up for | fanju-app"
-description: "The best Poetry Dinner in Melbourne wasn’t planned in a venue or over email—it started on the Fanju app, where someone asked whether the night would include food from Seddon’s long-standing Lebanese bakery or something f"
+title: "How Fanju app turns a Melbourne Poetry Dinner night into something..."
+description: "The best Poetry Dinner in Melbourne wasn’t planned in a venue or over email—it started on the Fanju app, where someone asked whether the night would inc…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/perth/indie-music-dinner"
 alternatePath: "/city/perth/indie-music-dinner"
 translationKey: "perth-indie-music-dinner"
 lang: "en"
-title: "Perth Indie Music Dinner through Fanju app: the questions to answer before you sit down"
-description: "A clear safety boundary in Perth’s Indie Music Dinner is the host’s signal that the evening is winding down, typically after two hours or when the final course is served. When the host says, “Let’s wrap up and grab a"
+title: "Perth Indie Music Dinner through Fanju app: the questions to..."
+description: "A clear safety boundary in Perth’s Indie Music Dinner is the host’s signal that the evening is winding down, typically after two hours or when the final…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

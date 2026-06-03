@@ -4,8 +4,8 @@ canonicalPath: "/en/city/baghdad/dog-owner-dinner"
 alternatePath: "/city/baghdad/dog-owner-dinner"
 translationKey: "baghdad-dog-owner-dinner"
 lang: "en"
-title: "A calmer way to approach Dog Owner Dinner in Baghdad through Fanju app | fanju-app"
-description: "Hosting dinners in Baghdad has taught me that shared interests don’t automatically make for good conversation. Just because someone owns a dog doesn’t mean they’ll open up over grilled kofta and rice. On the Fanju app, w"
+title: "A calmer way to approach Dog Owner Dinner in Baghdad through Fanju app"
+description: "Hosting dinners in Baghdad has taught me that shared interests don’t automatically make for good conversation."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

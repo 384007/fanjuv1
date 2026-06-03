@@ -4,8 +4,8 @@ canonicalPath: "/en/city/athens/side-hustle-dinner"
 alternatePath: "/city/athens/side-hustle-dinner"
 translationKey: "athens-side-hustle-dinner"
 lang: "en"
-title: "When Side Hustle Dinner in Athens needs more than a group chat, Fanju app starts with the table"
-description: "When you scan the options for a Side Hustle Dinner in Athens, the deciding factor often isn't the menu but the specific constraint of the gathering. A compelling listing will immediately state the type of conversation"
+title: "When Side Hustle Dinner in Athens needs more than a group chat,..."
+description: "When you scan the options for a Side Hustle Dinner in Athens, the deciding factor often isn't the menu but the specific constraint of the gathering."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

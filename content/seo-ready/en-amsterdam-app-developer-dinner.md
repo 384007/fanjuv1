@@ -4,8 +4,8 @@ canonicalPath: "/en/city/amsterdam/app-developer-dinner"
 alternatePath: "/city/amsterdam/app-developer-dinner"
 translationKey: "amsterdam-app-developer-dinner"
 lang: "en"
-title: "Amsterdam has plenty of App Developer Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "For app developers in Amsterdam, the search for meaningful connections often leads to the dinner table. After a long day of coding, debugging, and client calls, the prospect of a shared meal can be incredibly appealing."
+title: "Amsterdam has plenty of App Developer Dinner options; Fanju app is..."
+description: "For app developers in Amsterdam, the search for meaningful connections often leads to the dinner table."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

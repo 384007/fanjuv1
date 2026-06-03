@@ -4,8 +4,8 @@ canonicalPath: "/en/city/milan/editor-dinner"
 alternatePath: "/city/milan/editor-dinner"
 translationKey: "milan-editor-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Milan Editor Dinner table before the first course"
-description: "A well-hosted table in Milan understands that the transition from dinner to the rest of the evening should be smooth but never pressurized. The host should make it clear when the official table time ends, allowing"
+title: "The Fanju app way to judge a Milan Editor Dinner table before the..."
+description: "A well-hosted table in Milan understands that the transition from dinner to the rest of the evening should be smooth but never pressurized."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

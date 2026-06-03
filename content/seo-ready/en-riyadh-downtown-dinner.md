@@ -4,8 +4,8 @@ canonicalPath: "/en/city/riyadh/downtown-dinner"
 alternatePath: "/city/riyadh/downtown-dinner"
 translationKey: "riyadh-downtown-dinner"
 lang: "en"
-title: "A calmer way to approach Downtown Dinner in Riyadh through Fanju app | fanju-app"
-description: "Downtown Riyadh is not a single place but a collection of shifting textures—Al Olayya’s glass towers, Al Murabba’s older streets, the quieter edges near King Saud University. Each shape the way people live, move, and"
+title: "A calmer way to approach Downtown Dinner in Riyadh through Fanju app"
+description: "Downtown Riyadh is not a single place but a collection of shifting textures—Al Olayya’s glass towers, Al Murabba’s older streets, the quieter edges near…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

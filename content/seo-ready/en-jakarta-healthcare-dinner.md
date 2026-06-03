@@ -4,8 +4,8 @@ canonicalPath: "/en/city/jakarta/healthcare-dinner"
 alternatePath: "/city/jakarta/healthcare-dinner"
 translationKey: "jakarta-healthcare-dinner"
 lang: "en"
-title: "Jakarta Healthcare Dinner through Fanju app: the questions to answer before you sit down"
-description: "The listing for a Jakarta Healthcare Dinner should immediately clarify the scope of conversation so you know what you are walking into. A vague title often leads to a disjointed evening, whereas a focused description"
+title: "Jakarta Healthcare Dinner through Fanju app: the questions to..."
+description: "The listing for a Jakarta Healthcare Dinner should immediately clarify the scope of conversation so you know what you are walking into."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

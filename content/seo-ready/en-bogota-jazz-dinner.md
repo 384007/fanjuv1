@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bogota/jazz-dinner"
 alternatePath: "/city/bogota/jazz-dinner"
 translationKey: "bogota-jazz-dinner"
 lang: "en"
-title: "Before the first message in Bogota, Fanju app makes Jazz Dinner feel like a real decision | fanju-app"
-description: "Fanju app is a platform for curated social dining experiences in Bogota, focusing on small, intimate gatherings centered around shared interests like Jazz Dinner. It aims to move beyond casual meetups by emphasizing clea"
+title: "Before the first message in Bogota, Fanju app makes Jazz Dinner..."
+description: "Fanju app is a platform for curated social dining experiences in Bogota, focusing on small, intimate gatherings centered around shared interests like Ja…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

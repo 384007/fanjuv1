@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dallas/outdoor-adventure-dinner"
 alternatePath: "/city/dallas/outdoor-adventure-dinner"
 translationKey: "dallas-outdoor-adventure-dinner"
 lang: "en"
-title: "Dallas Remote‑Worker Night: An Outdoor Adventure Dinner Found on the Fanju app"
-description: "Remote workers value predictable evenings that let them recharge without sacrificing the next day’s productivity. An Outdoor Adventure Dinner in Dallas can serve that purpose if the host provides a clear time window,"
+title: "Dallas Remote‑Worker Night: An Outdoor Adventure Dinner Found on..."
+description: "Remote workers value predictable evenings that let them recharge without sacrificing the next day’s productivity."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

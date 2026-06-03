@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cape-town/friendship-dinner"
 alternatePath: "/city/cape-town/friendship-dinner"
-title: "Cape Town after work: how Fanju app makes Friendship Dinner feel like a real room | fanju-app | 饭局app"
-description: "Fanju app is a social dining platform designed to foster genuine, small-group connections over shared meals in Cape Town. It focuses on creating intimate gatherings where conversation flows naturally, moving beyond the s"
+title: "Cape Town after work: how Fanju app makes Friendship Dinner feel..."
+description: "Fanju app is a social dining platform designed to foster genuine, small-group connections over shared meals in Cape Town."
 recoveredFromD1: true
 ---
 # Cape Town after work: how Fanju app makes Friendship Dinner feel like a real room

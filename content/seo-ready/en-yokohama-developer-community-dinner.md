@@ -4,8 +4,8 @@ canonicalPath: "/en/city/yokohama/developer-community-dinner"
 alternatePath: "/city/yokohama/developer-community-dinner"
 translationKey: "yokohama-developer-community-dinner"
 lang: "en"
-title: "Yokohama Developer Community Dinner through Fanju app: the questions to answer before you sit down"
-description: "When you are browsing for a Developer Community Dinner in Yokohama, the listing on the app provides a structured summary that outlines the theme and host expectations immediately, allowing you to assess the vibe before"
+title: "Yokohama Developer Community Dinner through Fanju app: the..."
+description: "When you are browsing for a Developer Community Dinner in Yokohama, the listing on the app provides a structured summary that outlines the theme and hos…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

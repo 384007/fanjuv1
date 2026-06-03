@@ -4,8 +4,8 @@ canonicalPath: "/en/city/miami/hiking-dinner"
 alternatePath: "/city/miami/hiking-dinner"
 translationKey: "miami-hiking-dinner"
 lang: "en"
-title: "For people trying Hiking Dinner in Miami, Fanju app puts the guest mix first | fanju-app"
-description: "What happens when the workday ends in Miami, but you’re still standing at the edge of the city’s social life, unsure how to step in? For many, the rhythm of beachside cafés, late-afternoon kayak trips, and outdoor yoga d"
+title: "For people trying Hiking Dinner in Miami, Fanju app puts the guest..."
+description: "What happens when the workday ends in Miami, but you’re still standing at the edge of the city’s social life, unsure how to step in?"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

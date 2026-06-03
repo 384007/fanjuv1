@@ -5,7 +5,7 @@ alternatePath: "/city/baghdad/picnic-dinner"
 translationKey: "baghdad-picnic-dinner"
 lang: "en"
 title: "Baghdad Picnic Dinner: does Fanju app make the table worth choosing?"
-description: "In a city as layered as Baghdad, a picnic dinner succeeds when the specific neighborhood context is visible in the description rather than hiding behind generic food photography. Readers should look for mentions of"
+description: "In a city as layered as Baghdad, a picnic dinner succeeds when the specific neighborhood context is visible in the description rather than hiding behind…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

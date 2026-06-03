@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/hengshui/book-club-dinner"
 alternatePath: "/en/city/hengshui/book-club-dinner"
-title: "衡水读书饭局指南 | fanju-app | 饭局app"
+title: "衡水读书饭局指南"
 description: "在衡水的读书饭局指南，了解如何通过饭局app找到适合你的读书小组，享受衡水的城市生活。"
 recoveredFromD1: true
 ---

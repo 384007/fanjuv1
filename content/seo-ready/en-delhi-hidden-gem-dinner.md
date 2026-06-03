@@ -4,8 +4,8 @@ canonicalPath: "/en/city/delhi/hidden-gem-dinner"
 alternatePath: "/city/delhi/hidden-gem-dinner"
 translationKey: "delhi-hidden-gem-dinner"
 lang: "en"
-title: "In Delhi, Fanju app turns Hidden Gem Dinner into a table people can actually trust | fanju-app"
-description: "Delhi hums with plans that never land. You’ve been there—Friday evening, the metro rattles past INA, your phone buzzes with a group chat about dinner, and nothing sticks. Someone suggests a place, no one confirms, and by"
+title: "In Delhi, Fanju app turns Hidden Gem Dinner into a table people..."
+description: "Delhi hums with plans that never land. You’ve been there—Friday evening, the metro rattles past INA, your phone buzzes with a group chat about dinner, a…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

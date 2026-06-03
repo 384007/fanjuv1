@@ -4,8 +4,8 @@ canonicalPath: "/en/city/phoenix/yoga-instructor-dinner"
 alternatePath: "/city/phoenix/yoga-instructor-dinner"
 translationKey: "phoenix-yoga-instructor-dinner"
 lang: "en"
-title: "A Phoenix dinner table for Yoga Instructor Dinner, with Fanju app boundaries up front"
-description: "The aim here is to build a small, focused community, not to create an overwhelming social network. Think of each listed dinner as a potential building block for a more connected Phoenix social fabric, where shared"
+title: "A Phoenix dinner table for Yoga Instructor Dinner, with Fanju app..."
+description: "The aim here is to build a small, focused community, not to create an overwhelming social network."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

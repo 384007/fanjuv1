@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tehran/healthy-eating-dinner"
 alternatePath: "/city/tehran/healthy-eating-dinner"
 translationKey: "tehran-healthy-eating-dinner"
 lang: "en"
-title: "Before joining Healthy Eating Dinner in Tehran, what Fanju app should make clear"
-description: "A compelling listing for Healthy Eating Dinner in Tehran does not simply repeat the category name but explains why the topic matters right now. You should look for a host note that connects the menu to the city’s"
+title: "Before joining Healthy Eating Dinner in Tehran, what Fanju app..."
+description: "A compelling listing for Healthy Eating Dinner in Tehran does not simply repeat the category name but explains why the topic matters right now."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

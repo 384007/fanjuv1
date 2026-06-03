@@ -4,8 +4,8 @@ canonicalPath: "/en/city/yokohama/pet-owner-dinner"
 alternatePath: "/city/yokohama/pet-owner-dinner"
 translationKey: "yokohama-pet-owner-dinner"
 lang: "en"
-title: "After a long commute, Yokohama pet owners find a calming dinner reset through the Fanju app"
-description: "Commuters also worry about timing; a vague “meet up sometime after work” can clash with family duties. In Yokohama the host usually sets an arrival window of 6:30 pm to 7:00 pm, letting guests plan their exit to the"
+title: "After a long commute, Yokohama pet owners find a calming dinner..."
+description: "Commuters also worry about timing; a vague “meet up sometime after work” can clash with family duties."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

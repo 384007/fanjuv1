@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-diego/farm-to-table-dinner"
 alternatePath: "/city/san-diego/farm-to-table-dinner"
 translationKey: "san-diego-farm-to-table-dinner"
 lang: "en"
-title: "How Fanju app turns a San Diego Farm To Table Dinner night into something worth showing up for | fanju-app"
-description: "San Diego’s Farm To Table Dinner scene thrives not on grand gestures, but on small, consistent decisions made before the first course arrives. The Fanju app quietly reshapes how these gatherings unfold by shifting focus"
+title: "How Fanju app turns a San Diego Farm To Table Dinner night into..."
+description: "San Diego’s Farm To Table Dinner scene thrives not on grand gestures, but on small, consistent decisions made before the first course arrives."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

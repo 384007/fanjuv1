@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/chenzhou/solo-traveler-dinner"
 alternatePath: "/en/city/chenzhou/solo-traveler-dinner"
-title: "郴州独自旅行者饭局指南 | fanju-app | 饭局app"
+title: "郴州独自旅行者饭局指南"
 description: "在郴州，独自旅行者可以通过饭局app找到低压力地回到线下生活的方式。"
 recoveredFromD1: true
 ---

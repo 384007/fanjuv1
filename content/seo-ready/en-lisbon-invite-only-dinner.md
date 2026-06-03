@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lisbon/invite-only-dinner"
 alternatePath: "/city/lisbon/invite-only-dinner"
 translationKey: "lisbon-invite-only-dinner"
 lang: "en"
-title: "Lisbon does not need another vague invite; Fanju app makes Invite Only Dinner specific | fanju-app"
-description: "The Fanju app redefines how people in Lisbon connect after work hours—by shifting from broad social events to intimate, clearly described dinners hosted by real locals. Instead of joining overcrowded group outings or aim"
+title: "Lisbon does not need another vague invite; Fanju app makes Invite..."
+description: "The Fanju app redefines how people in Lisbon connect after work hours—by shifting from broad social events to intimate, clearly described dinners hosted…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

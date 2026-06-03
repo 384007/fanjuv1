@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/chengdu/film-dinner"
 alternatePath: "/en/city/chengdu/film-dinner"
-title: "下班后的成都，饭局app怎样让影视饭局有真实同桌 | fanju-app"
+title: "下班后的成都，饭局app怎样让影视饭局有真实同桌"
 description: "在成都，很多人都喜欢通过饭局app来参加影视饭局。然而，很多人都忽略了一个非常重要的环节，那就是同桌的预期。同桌的预期是指大家在一起吃饭时的期待和要求。要让影视饭局有真实的同桌感，就需要先把同桌的预期讲清楚。这样才能让大家在一起吃饭时感到舒"
 recoveredFromD1: true
 ---

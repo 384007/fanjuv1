@@ -4,8 +4,8 @@ canonicalPath: "/en/city/osaka/accountant-dinner"
 alternatePath: "/city/osaka/accountant-dinner"
 translationKey: "osaka-accountant-dinner"
 lang: "en"
-title: "Osaka Accountant Dinner on the Fanju app: navigating a weekend invite without the usual swipe‑feed pressure"
-description: "A newcomer’s first question is whether the event fits their schedule and comfort level. Osaka’s business culture values punctuality, so a listing that states “Saturday, 7 pm – 9 pm, Namba Bar A” gives you a concrete"
+title: "Osaka Accountant Dinner on the Fanju app: navigating a weekend..."
+description: "A newcomer’s first question is whether the event fits their schedule and comfort level."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

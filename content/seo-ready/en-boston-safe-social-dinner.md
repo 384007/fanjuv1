@@ -4,8 +4,8 @@ canonicalPath: "/en/city/boston/safe-social-dinner"
 alternatePath: "/city/boston/safe-social-dinner"
 translationKey: "boston-safe-social-dinner"
 lang: "en"
-title: "Why Safe Social Dinner in Boston works better when Fanju app keeps the table small | fanju-app"
-description: "Boston's vibrant social scene often means a flurry of invitations, from casual meetups in the Back Bay to larger gatherings in Southie. However, navigating these can feel like stepping into the unknown, especially when"
+title: "Why Safe Social Dinner in Boston works better when Fanju app keeps..."
+description: "Boston's vibrant social scene often means a flurry of invitations, from casual meetups in the Back Bay to larger gatherings in Southie."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

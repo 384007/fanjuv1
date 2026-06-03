@@ -4,8 +4,8 @@ canonicalPath: "/en/city/fukuoka/cross-border-ecommerce-dinner"
 alternatePath: "/city/fukuoka/cross-border-ecommerce-dinner"
 translationKey: "fukuoka-cross-border-ecommerce-dinner"
 lang: "en"
-title: "Is the Fanju app the right way to experience a Cross Border Ecommerce Dinner in Fukuoka’s Hakata neighbourhood?"
-description: "A compelling host note in Fukuoka will reference the city’s recent rise in cross‑border shipments from the Hakata port, tying the dinner theme to a tangible market trend. Simply stating “Cross Border Ecommerce Dinner”"
+title: "Is the Fanju app the right way to experience a Cross Border..."
+description: "A compelling host note in Fukuoka will reference the city’s recent rise in cross‑border shipments from the Hakata port, tying the dinner theme to a tang…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

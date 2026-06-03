@@ -4,8 +4,8 @@ canonicalPath: "/en/city/athens/frisbee-dinner"
 alternatePath: "/city/athens/frisbee-dinner"
 translationKey: "athens-frisbee-dinner"
 lang: "en"
-title: "Before the first message in Athens, Fanju app makes Frisbee Dinner feel like a real decision | fanju-app"
-description: "In Athens, a city shaped by conversation, the idea of joining strangers for dinner often brings up images of awkward group chats or forced icebreakers. But Frisbee Dinner, coordinated through the Fanju app, operates diff"
+title: "Before the first message in Athens, Fanju app makes Frisbee Dinner..."
+description: "In Athens, a city shaped by conversation, the idea of joining strangers for dinner often brings up images of awkward group chats or forced icebreakers."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

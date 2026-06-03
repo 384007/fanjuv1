@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dubai/potluck-dinner"
 alternatePath: "/city/dubai/potluck-dinner"
 translationKey: "dubai-potluck-dinner"
 lang: "en"
-title: "Dubai Potluck Dinner through Fanju app: the questions to answer before you sit down"
-description: "The app functions as a digital reservation list for social intent, specifically framing a weekend dinner as a planned event rather than a casual meetup. In a city like Dubai, where schedules are tight and traffic is"
+title: "Dubai Potluck Dinner through Fanju app: the questions to answer..."
+description: "The app functions as a digital reservation list for social intent, specifically framing a weekend dinner as a planned event rather than a casual meetup.…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

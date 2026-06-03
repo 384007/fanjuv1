@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mexico-city/basketball-dinner"
 alternatePath: "/city/mexico-city/basketball-dinner"
 translationKey: "mexico-city-basketball-dinner"
 lang: "en"
-title: "For Mexico City readers considering Basketball Dinner, Fanju app should make the room legible | fanju-app"
-description: "In Mexico City, a Basketball Dinner on Fanju app isn’t about stats or jerseys—it’s a small-table dinner where the game is a conversation starter, not the sole agenda."
+title: "For Mexico City readers considering Basketball Dinner, Fanju app..."
+description: "In Mexico City, a Basketball Dinner on Fanju app isn’t about stats or jerseys—it’s a small-table dinner where the game is a conversation starter, not th…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/cangzhou/family-style-dinner"
 alternatePath: "/en/city/cangzhou/family-style-dinner"
-title: "沧州家庭式饭局指南 | fanju-app | 饭局app"
+title: "沧州家庭式饭局指南"
 description: "在沧州体验最真实的家庭式饭局，了解本地美食和餐厅地图"
 recoveredFromD1: true
 ---

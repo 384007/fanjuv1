@@ -4,9 +4,9 @@ canonicalPath: "/city/rikaze/comedy-dinner"
 alternatePath: "/en/city/rikaze/comedy-dinner"
 translationKey: "rikaze-comedy-dinner"
 lang: "zh"
-title: "第一次在日喀则参加喜剧饭局，饭局app怎样让陌生人坐得下来 | fanju-app"
+title: "第一次在日喀则参加喜剧饭局，饭局app怎样让陌生人坐得下来"
 titleZh: "第一次在日喀则参加喜剧饭局，饭局app怎样让陌生人坐得下来"
-description: "高原的傍晚来得慢，太阳斜照在扎什伦布寺的金顶上时，日喀则的街巷才开始泛起暖意。 我拖着行李箱在桑珠孜区安顿下来，手机屏幕上跳出饭局app的推送：今晚八点，藏餐厅“雪域食光”有一场主题为“笑是另一种氧气”的喜剧饭局，四人桌，还剩一个空位。 点进去看详情，主理人写得很清楚：不讲段子比赛，不搞即兴表演，只是吃饭时聊些荒诞日常，谁先笑出声谁赢。"
+description: "高原的傍晚来得慢，太阳斜照在扎什伦布寺的金顶上时，日喀则的街巷才开始泛起暖意。 我拖着行李箱在桑珠孜区安顿下来，手机屏幕上跳出饭局app的推送：今晚八点，藏餐厅“雪域食光”有一场主题为“笑是另一种氧气”的喜剧饭局，四人桌，还剩一个空位。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

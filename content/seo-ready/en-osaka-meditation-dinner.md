@@ -4,8 +4,8 @@ canonicalPath: "/en/city/osaka/meditation-dinner"
 alternatePath: "/city/osaka/meditation-dinner"
 translationKey: "osaka-meditation-dinner"
 lang: "en"
-title: "Osaka has plenty of Meditation Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "In Osaka, where evening light settles quietly into alleyways and street carts begin their nightly hum, finding a dinner that feels intentional isn't always easy. I host Meditation Dinners regularly in the city—small, sea"
+title: "Osaka has plenty of Meditation Dinner options; Fanju app is the..."
+description: "In Osaka, where evening light settles quietly into alleyways and street carts begin their nightly hum, finding a dinner that feels intentional isn't alw…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

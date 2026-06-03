@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/xishuangbanna/tasting-menu-dinner"
 alternatePath: "/en/city/xishuangbanna/tasting-menu-dinner"
-title: "西双版纳品鉴菜单饭局指南 | fanju-app | 饭局app"
+title: "西双版纳品鉴菜单饭局指南"
 description: "刚来到西双版纳，想快速融入当地生活？饭局app / Fanju 专注于小桌、有明确主题的线下聚会，帮助你认识新朋友，体验城市独特魅力。如果你正在寻找一种更深入、更有温度的社交方式，那么品鉴菜单饭局或许是你的不二之选。在这里，你可以放下陌生感，围坐一桌，在美食的香气中开启一段新的连接。"
 recoveredFromD1: true
 ---

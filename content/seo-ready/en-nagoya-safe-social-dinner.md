@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nagoya/safe-social-dinner"
 alternatePath: "/city/nagoya/safe-social-dinner"
 translationKey: "nagoya-safe-social-dinner"
 lang: "en"
-title: "When Safe Social Dinner feels too loose in Nagoya, Fanju app starts with the table | fanju-app"
-description: "In Nagoya, where evening routines often settle into predictable patterns of solo izakaya visits or quiet meals at home, the idea of a social dinner without pressure can feel appealing—but only if it’s genuinely safe. The"
+title: "When Safe Social Dinner feels too loose in Nagoya, Fanju app..."
+description: "In Nagoya, where evening routines often settle into predictable patterns of solo izakaya visits or quiet meals at home, the idea of a social dinner with…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

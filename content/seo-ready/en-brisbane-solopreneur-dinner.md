@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brisbane/solopreneur-dinner"
 alternatePath: "/city/brisbane/solopreneur-dinner"
 translationKey: "brisbane-solopreneur-dinner"
 lang: "en"
-title: "Brisbane strangers sit down easier when Fanju app frames the Solopreneur Dinner table first | fanju-app"
-description: "Weekend dinners in Brisbane often come with loose framing: “Come by if you’re free,” or “Maybe we’ll see some people there.” That kind of open-endedness can feel inviting at first, but it often leaves"
+title: "Brisbane strangers sit down easier when Fanju app frames the..."
+description: "Weekend dinners in Brisbane often come with loose framing: “Come by if you’re free,” or “Maybe we’ll see some people there.” That kind of open-endedness…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

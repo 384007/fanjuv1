@@ -4,8 +4,8 @@ canonicalPath: "/en/city/johannesburg/app-developer-dinner"
 alternatePath: "/city/johannesburg/app-developer-dinner"
 translationKey: "johannesburg-app-developer-dinner"
 lang: "en"
-title: "Before the first message in Johannesburg, Fanju app makes App Developer Dinner feel like a real decision | fanju-app"
-description: "The challenge of curating a guest list for an App Developer Dinner in Johannesburg often stems from a lack of clarity around who is actually invited. When invitations feel more like a general announcement, it can deter"
+title: "Before the first message in Johannesburg, Fanju app makes App..."
+description: "The challenge of curating a guest list for an App Developer Dinner in Johannesburg often stems from a lack of clarity around who is actually invited."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

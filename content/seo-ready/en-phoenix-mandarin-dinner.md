@@ -4,8 +4,8 @@ canonicalPath: "/en/city/phoenix/mandarin-dinner"
 alternatePath: "/city/phoenix/mandarin-dinner"
 translationKey: "phoenix-mandarin-dinner"
 lang: "en"
-title: "What makes Mandarin Dinner in Phoenix worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "In Phoenix, where the heat lingers into evening and the sprawl makes spontaneous plans feel inefficient, the idea of joining strangers for Mandarin Dinner can seem more like a gamble than a relief. But for professionals"
+title: "What makes Mandarin Dinner in Phoenix worth the risk; Fanju app..."
+description: "In Phoenix, where the heat lingers into evening and the sprawl makes spontaneous plans feel inefficient, the idea of joining strangers for Mandarin Dinn…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

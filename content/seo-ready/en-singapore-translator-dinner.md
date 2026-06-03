@@ -4,8 +4,8 @@ canonicalPath: "/en/city/singapore/translator-dinner"
 alternatePath: "/city/singapore/translator-dinner"
 translationKey: "singapore-translator-dinner"
 lang: "en"
-title: "Before joining Translator Dinner in Singapore, what Fanju app should make clear | fanju-app"
-description: "This is not a dating guarantee, not a random group chat, not an endless profile feed. If the listing feels open-ended or overly casual, it may not deliver the grounded exchange many Singapore readers are seeking."
+title: "Before joining Translator Dinner in Singapore, what Fanju app..."
+description: "This is not a dating guarantee, not a random group chat, not an endless profile feed."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

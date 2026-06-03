@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/pingliang/valentines-dinner"
 alternatePath: "/en/city/pingliang/valentines-dinner"
-title: "平凉情人节饭局指南 | fanju-app | 饭局app"
+title: "平凉情人节饭局指南"
 description: "在平凉的饭局app上，找到你的另一半，享受情人节的浪漫夜晚。"
 recoveredFromD1: true
 ---

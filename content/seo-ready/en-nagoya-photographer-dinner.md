@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nagoya/photographer-dinner"
 alternatePath: "/city/nagoya/photographer-dinner"
 translationKey: "nagoya-photographer-dinner"
 lang: "en"
-title: "A Second‑Table Evening in Nagoya: Photographer Dinner Through the Fanju app Lens"
-description: "When you step off the subway at Nagoya Station and head toward the venue, the first ten minutes can set the tone for the whole night. In Nagoya’s Sakae neighbourhood many photographer dinners take place in small"
+title: "A Second‑Table Evening in Nagoya: Photographer Dinner Through the..."
+description: "When you step off the subway at Nagoya Station and head toward the venue, the first ten minutes can set the tone for the whole night."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

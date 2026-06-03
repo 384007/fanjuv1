@@ -4,8 +4,8 @@ canonicalPath: "/en/city/surat/neighborhood-dinner"
 alternatePath: "/city/surat/neighborhood-dinner"
 translationKey: "surat-neighborhood-dinner"
 lang: "en"
-title: "Surat has plenty of Neighborhood Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "In Surat, where evenings unfold with the scent of street kebabs and the quiet hum of textile workshops winding down, finding connection among professionals can feel fragmented. Networking events often lean formal, loud,"
+title: "Surat has plenty of Neighborhood Dinner options; Fanju app is the..."
+description: "In Surat, where evenings unfold with the scent of street kebabs and the quiet hum of textile workshops winding down, finding connection among profession…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

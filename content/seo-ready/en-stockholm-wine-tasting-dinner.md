@@ -5,7 +5,7 @@ alternatePath: "/city/stockholm/wine-tasting-dinner"
 translationKey: "stockholm-wine-tasting-dinner"
 lang: "en"
 title: "Stockholm Wine Tasting Dinner with Fanju app: a quiet table after work"
-description: "The host’s note often reveals why the tasting aligns with Stockholm’s seasonal calendar – perhaps a focus on crisp white Burgundies to match the lingering spring chill. Look for a brief explanation that ties the wine"
+description: "The host’s note often reveals why the tasting aligns with Stockholm’s seasonal calendar – perhaps a focus on crisp white Burgundies to match the lingeri…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

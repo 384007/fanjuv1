@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chicago/food-tech-dinner"
 alternatePath: "/city/chicago/food-tech-dinner"
 translationKey: "chicago-food-tech-dinner"
 lang: "en"
-title: "Should I trust a solo‑arrival Food Tech Dinner in Chicago when the Fanju app promises a planned evening?"
-description: "When the Saturday night train pulls into the West Loop, the first thing a solo guest notices is whether the host has described the space beyond “a loft”. In Chicago, a venue in the West Loop that is only labeled “a"
+title: "Should I trust a solo‑arrival Food Tech Dinner in Chicago when the..."
+description: "When the Saturday night train pulls into the West Loop, the first thing a solo guest notices is whether the host has described the space beyond “a loft”…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

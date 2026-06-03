@@ -4,8 +4,8 @@ canonicalPath: "/en/city/las-vegas/serious-dating-dinner"
 alternatePath: "/city/las-vegas/serious-dating-dinner"
 translationKey: "las-vegas-serious-dating-dinner"
 lang: "en"
-title: "Las Vegas after work: how Fanju app makes Serious Dating Dinner feel like a real room | fanju-app"
-description: "Las Vegas thrives on spectacle, but for those seeking meaningful connection after work hours, the city’s rhythm often feels mismatched to quiet intimacy. The Fanju app reshapes that reality by anchoring Serious Dating Di"
+title: "Las Vegas after work: how Fanju app makes Serious Dating Dinner..."
+description: "Las Vegas thrives on spectacle, but for those seeking meaningful connection after work hours, the city’s rhythm often feels mismatched to quiet intimacy…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

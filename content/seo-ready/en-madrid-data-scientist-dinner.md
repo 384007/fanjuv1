@@ -4,8 +4,8 @@ canonicalPath: "/en/city/madrid/data-scientist-dinner"
 alternatePath: "/city/madrid/data-scientist-dinner"
 translationKey: "madrid-data-scientist-dinner"
 lang: "en"
-title: "When Data Scientist Dinner feels too loose in Madrid, Fanju app starts with the table | fanju-app"
-description: "Most social dining attempts in Madrid fail not because of bad food or poor hosts, but because the guest list lacks coherence. When someone receives an invite to a Data Scientist Dinner without knowing who else is"
+title: "When Data Scientist Dinner feels too loose in Madrid, Fanju app..."
+description: "Most social dining attempts in Madrid fail not because of bad food or poor hosts, but because the guest list lacks coherence."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/casablanca/retail-dinner"
 alternatePath: "/city/casablanca/retail-dinner"
 translationKey: "casablanca-retail-dinner"
 lang: "en"
-title: "Casablanca after work: how Fanju app makes Retail Dinner feel like a real room | fanju-app"
-description: "In Casablanca, where the pace of life shifts subtly after the call to prayer echoes over the medina, a new kind of evening is quietly gaining shape — the Retail Dinner, hosted through the Fanju app. It’s not a restaurant"
+title: "Casablanca after work: how Fanju app makes Retail Dinner feel like..."
+description: "In Casablanca, where the pace of life shifts subtly after the call to prayer echoes over the medina, a new kind of evening is quietly gaining shape — th…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

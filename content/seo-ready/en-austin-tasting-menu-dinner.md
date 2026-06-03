@@ -5,7 +5,7 @@ alternatePath: "/city/austin/tasting-menu-dinner"
 translationKey: "austin-tasting-menu-dinner"
 lang: "en"
 title: "After‑Work Reset: Austin Tasting Menu Dinner on the Fanju app"
-description: "Evening life in Austin can feel like a nonstop stream of digital invites, so many readers look for a tangible way to unwind after the workday. A tasting‑menu dinner organized through Fanju promises a focused,"
+description: "Evening life in Austin can feel like a nonstop stream of digital invites, so many readers look for a tangible way to unwind after the workday."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

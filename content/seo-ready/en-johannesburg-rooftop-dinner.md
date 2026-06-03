@@ -4,8 +4,8 @@ canonicalPath: "/en/city/johannesburg/rooftop-dinner"
 alternatePath: "/city/johannesburg/rooftop-dinner"
 translationKey: "johannesburg-rooftop-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Johannesburg Rooftop Dinner table before the first course"
-description: "A well-organized meal in Johannesburg concludes naturally, often with coffee or a shared dessert, signaling that the official event is winding down. The host typically facilitates a smooth transition, ensuring that"
+title: "The Fanju app way to judge a Johannesburg Rooftop Dinner table..."
+description: "A well-organized meal in Johannesburg concludes naturally, often with coffee or a shared dessert, signaling that the official event is winding down."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/haikou/chinese-social-dining"
 alternatePath: "/en/city/haikou/chinese-social-dining"
-title: "海口华人饭局指南 | fanju-app | 饭局app"
+title: "海口华人饭局指南"
 description: "在海口加入华人饭局的指南，了解如何通过饭局app找到同行，体验海口独特的华人社交风格。"
 recoveredFromD1: true
 ---

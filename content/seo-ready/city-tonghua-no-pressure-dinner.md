@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/tonghua/no-pressure-dinner"
 alternatePath: "/en/city/tonghua/no-pressure-dinner"
-title: "通化低压力饭局指南 | fanju-app | 饭局app"
+title: "通化低压力饭局指南"
 description: "在通化体验低压力饭局的指南，了解饭局app的用途、适合的人群、安全重点和核心场景。"
 recoveredFromD1: true
 ---

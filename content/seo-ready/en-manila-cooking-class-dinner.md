@@ -4,8 +4,8 @@ canonicalPath: "/en/city/manila/cooking-class-dinner"
 alternatePath: "/city/manila/cooking-class-dinner"
 translationKey: "manila-cooking-class-dinner"
 lang: "en"
-title: "After‑Hours Decision: Manila Cooking Class Dinner through the Fanju app"
-description: "When the kitchen lights flicker on, you’ll notice the room’s layout before the first stir. Manila venues range from boutique hotel demo kitchens to community centers in Makati, each with a distinct atmosphere. A clear"
+title: "After‑Hours Decision: Manila Cooking Class Dinner through the..."
+description: "When the kitchen lights flicker on, you’ll notice the room’s layout before the first stir."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

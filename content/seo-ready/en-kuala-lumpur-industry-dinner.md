@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kuala-lumpur/industry-dinner"
 alternatePath: "/city/kuala-lumpur/industry-dinner"
 translationKey: "kuala-lumpur-industry-dinner"
 lang: "en"
-title: "Kuala Lumpur does not need another vague invite; Fanju app makes Industry Dinner specific | fanju-app"
-description: "A dinner in Kuala Lumpur with people who work in your field doesn’t have to begin with “Maybe we’ll meet someone interesting.” On the Fanju app, Industry Dinner isn’t a loose networking idea—it’s a named table at a worki"
+title: "Kuala Lumpur does not need another vague invite; Fanju app makes..."
+description: "A dinner in Kuala Lumpur with people who work in your field doesn’t have to begin with “Maybe we’ll meet someone interesting.” On the Fanju app, Industr…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/alexandria/sports-fan-dinner"
 alternatePath: "/city/alexandria/sports-fan-dinner"
 translationKey: "alexandria-sports-fan-dinner"
 lang: "en"
-title: "Alexandria after work: how Fanju app makes Sports Fan Dinner feel like a real room | fanju-app"
-description: "Work ends at different times across Alexandria, whether you’re logging off from a home office in Eisenhower Valley or stepping out of a courthouse shift near King Street. That hour between five and six often feels like"
+title: "Alexandria after work: how Fanju app makes Sports Fan Dinner feel..."
+description: "Work ends at different times across Alexandria, whether you’re logging off from a home office in Eisenhower Valley or stepping out of a courthouse shift…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

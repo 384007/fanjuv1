@@ -4,8 +4,8 @@ canonicalPath: "/en/city/baghdad/angel-investor-dinner"
 alternatePath: "/city/baghdad/angel-investor-dinner"
 translationKey: "baghdad-angel-investor-dinner"
 lang: "en"
-title: "A calmer way to approach Angel Investor Dinner in Baghdad through Fanju app | fanju-app"
-description: "In Baghdad, where economic potential hums beneath layers of disruption and social trust moves slowly, finding real conversation among professionals can feel like searching for quiet in a souk at noon. The Fanju app offer"
+title: "A calmer way to approach Angel Investor Dinner in Baghdad through..."
+description: "In Baghdad, where economic potential hums beneath layers of disruption and social trust moves slowly, finding real conversation among professionals can…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/nagoya/remote-worker-dinner"
 alternatePath: "/city/nagoya/remote-worker-dinner"
-title: "Nagoya after work: how Fanju app makes Remote Worker Dinner feel like a real room | fanju-app | 饭局app"
-description: "The Fanju app connects remote workers in Nagoya through small, intentional dinners that prioritize real conversation over digital convenience. These gatherings are not networking events or open meetups—they’re hosted mea"
+title: "Nagoya after work: how Fanju app makes Remote Worker Dinner feel..."
+description: "The Fanju app connects remote workers in Nagoya through small, intentional dinners that prioritize real conversation over digital convenience."
 recoveredFromD1: true
 ---
 # Nagoya after work: how Fanju app makes Remote Worker Dinner feel like a real room

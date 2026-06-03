@@ -4,8 +4,8 @@ canonicalPath: "/en/city/montreal/pr-dinner"
 alternatePath: "/city/montreal/pr-dinner"
 translationKey: "montreal-pr-dinner"
 lang: "en"
-title: "Montreal strangers sit down easier when Fanju app frames the PR Dinner table first | fanju-app"
-description: "Weekends in Montreal often start with good intentions—plans to reconnect, explore new neighbourhoods, or simply break the cycle of solo meals. But too many of those plans float in the limbo of group texts that never"
+title: "Montreal strangers sit down easier when Fanju app frames the PR..."
+description: "Weekends in Montreal often start with good intentions—plans to reconnect, explore new neighbourhoods, or simply break the cycle of solo meals."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

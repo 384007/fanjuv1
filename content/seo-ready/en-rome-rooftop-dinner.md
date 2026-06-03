@@ -4,8 +4,8 @@ canonicalPath: "/en/city/rome/rooftop-dinner"
 alternatePath: "/city/rome/rooftop-dinner"
 translationKey: "rome-rooftop-dinner"
 lang: "en"
-title: "For people trying Rooftop Dinner in Rome, Fanju app puts the guest mix first | fanju-app"
-description: "Rooftop Dinner in Rome isn’t just about the view over the Tiber or the scent of rosemary grilling on the terrace—it’s about who shares the table. For remote workers in the city, evenings can blur into silence after loggi"
+title: "For people trying Rooftop Dinner in Rome, Fanju app puts the guest..."
+description: "Rooftop Dinner in Rome isn’t just about the view over the Tiber or the scent of rosemary grilling on the terrace—it’s about who shares the table."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

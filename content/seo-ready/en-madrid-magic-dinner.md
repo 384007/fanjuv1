@@ -4,8 +4,8 @@ canonicalPath: "/en/city/madrid/magic-dinner"
 alternatePath: "/city/madrid/magic-dinner"
 translationKey: "madrid-magic-dinner"
 lang: "en"
-title: "When Magic Dinner feels too loose in Madrid, Fanju app starts with the table | fanju-app"
-description: "In Madrid, where evenings stretch long after work and social plans often dissolve into solo tapas or late metro rides, the Fanju app offers a different rhythm: small dinners with meaning. Magic Dinner, as hosted through"
+title: "When Magic Dinner feels too loose in Madrid, Fanju app starts with..."
+description: "In Madrid, where evenings stretch long after work and social plans often dissolve into solo tapas or late metro rides, the Fanju app offers a different…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

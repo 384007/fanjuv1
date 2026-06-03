@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vancouver/sci-fi-dinner"
 alternatePath: "/city/vancouver/sci-fi-dinner"
 translationKey: "vancouver-sci-fi-dinner"
 lang: "en"
-title: "Before joining Sci-Fi Dinner in Vancouver, what Fanju app should make clear"
-description: "A compelling listing for a Sci-Fi Dinner in Vancouver often starts with a specific neighbourhood anchor, such as Mount Pleasant, rather than a generic downtown tag. The text should explicitly state why this location"
+title: "Before joining Sci-Fi Dinner in Vancouver, what Fanju app should..."
+description: "A compelling listing for a Sci-Fi Dinner in Vancouver often starts with a specific neighbourhood anchor, such as Mount Pleasant, rather than a generic d…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

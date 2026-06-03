@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/bayingolin/sunday-dinner"
 alternatePath: "/en/city/bayingolin/sunday-dinner"
-title: "在巴音郭楞找一桌不尴尬的周日饭局，饭局app先解决什么 | fanju-app"
+title: "在巴音郭楞找一桌不尴尬的周日饭局，饭局app先解决什么"
 description: "在巴音郭楞，一个悠闲的周日午后，你可能正想着找点什么来填补傍晚的时光。与其漫无目的地在朋友圈里发一句“有人吗？”，不如试试饭局app（Fanju app）。它不仅仅是一个简单的邀约工具，更是一个围绕着小桌吃饭、清晰主题和线下真实连接的社交平"
 recoveredFromD1: true
 ---

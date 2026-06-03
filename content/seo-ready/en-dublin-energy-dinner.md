@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dublin/energy-dinner"
 alternatePath: "/city/dublin/energy-dinner"
 translationKey: "dublin-energy-dinner"
 lang: "en"
-title: "Dublin has plenty of Energy Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "Dublin offers dozens of shared dinner experiences each week, but most blur into the same pattern: meetups with vague themes, group chats that never quite click, or apps that feel like dating in disguise. The Fanju app st"
+title: "Dublin has plenty of Energy Dinner options; Fanju app is the one..."
+description: "Dublin offers dozens of shared dinner experiences each week, but most blur into the same pattern: meetups with vague themes, group chats that never quit…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/prague/k-pop-dinner"
 alternatePath: "/city/prague/k-pop-dinner"
 translationKey: "prague-k-pop-dinner"
 lang: "en"
-title: "What makes K-Pop Dinner in Prague worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "K-Pop Dinner in Prague isn’t a themed restaurant or a flash-mob concert dinner. It’s a quiet, intentional social practice: small tables, shared meals, fans of Korean pop culture gathering in apartments and tucked-away sp"
+title: "What makes K-Pop Dinner in Prague worth the risk; Fanju app..."
+description: "K-Pop Dinner in Prague isn’t a themed restaurant or a flash-mob concert dinner. It’s a quiet, intentional social practice: small tables, shared meals, f…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

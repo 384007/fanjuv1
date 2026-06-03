@@ -4,8 +4,8 @@ canonicalPath: "/en/city/atlanta/manga-dinner"
 alternatePath: "/city/atlanta/manga-dinner"
 translationKey: "atlanta-manga-dinner"
 lang: "en"
-title: "In Atlanta, Fanju app turns Manga Dinner into a table people can actually trust | fanju-app"
-description: "When attending a manga dinner in Atlanta, it's essential to consider the guest mix and the overall atmosphere of the event. A well-curated table with a diverse group of people can lead to engaging conversations and a"
+title: "In Atlanta, Fanju app turns Manga Dinner into a table people can..."
+description: "When attending a manga dinner in Atlanta, it's essential to consider the guest mix and the overall atmosphere of the event."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

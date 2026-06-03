@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/tongling/teacher-dinner"
 alternatePath: "/en/city/tongling/teacher-dinner"
-title: "铜陵教师饭局指南 | fanju-app | 饭局app"
+title: "铜陵教师饭局指南"
 description: "在铜陵的教师饭局指南，了解如何通过饭局app组织小桌吃饭、清晰主题和线下连接的社交应用，适合铜陵教师、了解饭局app的核心场景、安全重点和常见问题"
 recoveredFromD1: true
 ---

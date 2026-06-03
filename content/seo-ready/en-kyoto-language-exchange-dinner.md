@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kyoto/language-exchange-dinner"
 alternatePath: "/city/kyoto/language-exchange-dinner"
 translationKey: "kyoto-language-exchange-dinner"
 lang: "en"
-title: "In Kyoto, Fanju app turns Language Exchange Dinner into a table people can actually trust | fanju-app"
-description: "The Fanju app helps people in Kyoto find small, intentional dinners focused on real conversation and language practice, not performance or tourist routines. Instead of large group meetups or vague “international mix” eve"
+title: "In Kyoto, Fanju app turns Language Exchange Dinner into a table..."
+description: "The Fanju app helps people in Kyoto find small, intentional dinners focused on real conversation and language practice, not performance or tourist routi…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

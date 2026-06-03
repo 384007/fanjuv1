@@ -4,8 +4,8 @@ canonicalPath: "/en/city/singapore/coffee-lover-dinner"
 alternatePath: "/city/singapore/coffee-lover-dinner"
 translationKey: "singapore-coffee-lover-dinner"
 lang: "en"
-title: "A clearer Coffee Lover Dinner dinner in Singapore: Fanju app, small tables, and real boundaries"
-description: "A compelling listing for a Coffee Lover Dinner in Singapore does not simply list a time and place; it captures the anticipation of the first ten minutes when you decide whether to walk in. The best descriptions paint a"
+title: "A clearer Coffee Lover Dinner dinner in Singapore: Fanju app,..."
+description: "A compelling listing for a Coffee Lover Dinner in Singapore does not simply list a time and place; it captures the anticipation of the first ten minutes…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

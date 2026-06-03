@@ -4,7 +4,7 @@ canonicalPath: "/en/city/rome/language-learner-dinner"
 alternatePath: "/city/rome/language-learner-dinner"
 translationKey: "rome-language-learner-dinner"
 lang: "en"
-title: "For Rome readers considering Language Learner Dinner, Fanju app should make the room legible | fanju-app"
+title: "For Rome readers considering Language Learner Dinner, Fanju app..."
 description: "Rome’s Language Learner Dinner through the Fanju app isn’t a dating guarantee, not a random group chat, not an endless profile feed."
 pageType: "city_article"
 priorityScore: 70

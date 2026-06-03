@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-francisco/lgbtq-dinner"
 alternatePath: "/city/san-francisco/lgbtq-dinner"
 translationKey: "san-francisco-lgbtq-dinner"
 lang: "en"
-title: "The LGBTQ Friendly Dinner table San Francisco actually needs is the one Fanju app describes up front | fanju-app"
-description: "San Francisco has long been a city where connection and community shape the rhythm of daily life, especially within its LGBTQ neighborhoods. Yet, even here, finding a dinner table that feels truly welcoming—where you’re"
+title: "The LGBTQ Friendly Dinner table San Francisco actually needs is..."
+description: "San Francisco has long been a city where connection and community shape the rhythm of daily life, especially within its LGBTQ neighborhoods."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

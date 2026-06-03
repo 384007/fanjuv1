@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/board-game-dinner"
 alternatePath: "/city/brussels/board-game-dinner"
 translationKey: "brussels-board-game-dinner"
 lang: "en"
-title: "Brussels Board Game Dinner: how Fanju app makes the table worth choosing"
-description: "When considering a Board Game Dinner in Brussels, it's essential to understand how Fanju app works. The app provides a platform for people to come together and share a meal, with a focus on small-table dinners. This"
+title: "Brussels Board Game Dinner: how Fanju app makes the table worth..."
+description: "When considering a Board Game Dinner in Brussels, it's essential to understand how Fanju app works."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

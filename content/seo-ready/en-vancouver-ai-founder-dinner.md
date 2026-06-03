@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vancouver/ai-founder-dinner"
 alternatePath: "/city/vancouver/ai-founder-dinner"
 translationKey: "vancouver-ai-founder-dinner"
 lang: "en"
-title: "Why AI Founder Dinner in Vancouver works better when Fanju app keeps the table small | fanju-app"
-description: "In Vancouver, where tech energy often gets diluted across sprawling meetups and loosely themed networking events, the AI Founder Dinner stands out by doing one thing quietly but well: it gathers the right people at the r"
+title: "Why AI Founder Dinner in Vancouver works better when Fanju app..."
+description: "In Vancouver, where tech energy often gets diluted across sprawling meetups and loosely themed networking events, the AI Founder Dinner stands out by do…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

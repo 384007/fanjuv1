@@ -5,7 +5,7 @@ alternatePath: "/city/tehran/zero-waste-dinner"
 translationKey: "tehran-zero-waste-dinner"
 lang: "en"
 title: "Tehran Zero Waste Dinner: Finding Your Table with Fanju App"
-description: "The decision to cross town for an after-work dinner in Tehran hinges on more than just the topic. For a Zero Waste Dinner, it’s about understanding the rhythm of the evening and how it aligns with your own schedule."
+description: "The decision to cross town for an after-work dinner in Tehran hinges on more than just the topic."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

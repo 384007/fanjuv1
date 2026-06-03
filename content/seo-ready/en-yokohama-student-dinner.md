@@ -4,8 +4,8 @@ canonicalPath: "/en/city/yokohama/student-dinner"
 alternatePath: "/city/yokohama/student-dinner"
 translationKey: "yokohama-student-dinner"
 lang: "en"
-title: "Yokohama does not need another vague invite; Fanju app makes Student Dinner specific | fanju-app"
-description: "The Fanju app redefines how students in Yokohama connect over dinner by turning open-ended socializing into structured, intimate meals with clear expectations. Instead of crowded bars or surface-level meetups, it offers"
+title: "Yokohama does not need another vague invite; Fanju app makes..."
+description: "The Fanju app redefines how students in Yokohama connect over dinner by turning open-ended socializing into structured, intimate meals with clear expect…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

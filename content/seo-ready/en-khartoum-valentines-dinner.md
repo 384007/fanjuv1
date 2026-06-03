@@ -4,8 +4,8 @@ canonicalPath: "/en/city/khartoum/valentines-dinner"
 alternatePath: "/city/khartoum/valentines-dinner"
 translationKey: "khartoum-valentines-dinner"
 lang: "en"
-title: "When Valentines Dinner feels too loose in Khartoum, Fanju app starts with the table | fanju-app"
-description: "For a solo traveler in Khartoum, the evening of February 14th can drift into quiet corners — a hotel meal, a walk along the Nile, or scrolling through photos of past celebrations. But when the idea of Valentines Dinner s"
+title: "When Valentines Dinner feels too loose in Khartoum, Fanju app..."
+description: "For a solo traveler in Khartoum, the evening of February 14th can drift into quiet corners — a hotel meal, a walk along the Nile, or scrolling through p…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

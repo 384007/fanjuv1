@@ -4,8 +4,8 @@ canonicalPath: "/en/city/athens/boxing-dinner"
 alternatePath: "/city/athens/boxing-dinner"
 translationKey: "athens-boxing-dinner"
 lang: "en"
-title: "Athens Boxing Dinner on the Fanju app: an after‑work table with a clear exit line"
-description: "The Fanju app acts as a middleman that connects strangers looking for a focused, theme‑driven dinner without the swipe‑feed noise of typical dating apps. In the context of an Athens Boxing Dinner, the app curates a"
+title: "Athens Boxing Dinner on the Fanju app: an after‑work table with a..."
+description: "The Fanju app acts as a middleman that connects strangers looking for a focused, theme‑driven dinner without the swipe‑feed noise of typical dating apps…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

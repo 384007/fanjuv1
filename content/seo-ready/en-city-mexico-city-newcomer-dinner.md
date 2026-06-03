@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/mexico-city/newcomer-dinner"
 alternatePath: "/city/mexico-city/newcomer-dinner"
-title: "Mexico City Newcomer Dinner Guide | Fanju app"
-description: "Discover the authentic taste of Mexico City with Fanju app, a social dining app that connects you with like-minded people for small, clearly described meals and real-world connections."
+title: "Mexico City Newcomer Dinner Guide"
+description: "Discover the authentic taste of Mexico City with Fanju app, a social dining app that connects you with like-minded people for small, clearly described m…"
 recoveredFromD1: true
 ---
 Mexico City is a vibrant metropolis that never sleeps. Its rich cultural heritage, delicious cuisine, and warm hospitality make it an ideal destination for foodies and travelers alike. If you&#039;re new to the city, navigating its culinary scene can be overwhelming, especially when it comes to finding authentic, local experiences. This is where Fanju app comes in – a social dining app that connects you with like-minded people for small, clearly described meals and real-world connections.

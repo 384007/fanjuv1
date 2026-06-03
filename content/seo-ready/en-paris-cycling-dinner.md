@@ -4,8 +4,8 @@ canonicalPath: "/en/city/paris/cycling-dinner"
 alternatePath: "/city/paris/cycling-dinner"
 translationKey: "paris-cycling-dinner"
 lang: "en"
-title: "Before joining Cycling Dinner in Paris, what Fanju app should make clear"
-description: "A genuine Cycling Dinner in Paris should feel like a natural extension of a ride along the Seine or a quiet street in the Marais, rather than a forced networking event. When you arrive, the atmosphere should reflect a"
+title: "Before joining Cycling Dinner in Paris, what Fanju app should make..."
+description: "A genuine Cycling Dinner in Paris should feel like a natural extension of a ride along the Seine or a quiet street in the Marais, rather than a forced n…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

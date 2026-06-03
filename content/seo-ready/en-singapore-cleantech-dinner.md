@@ -4,8 +4,8 @@ canonicalPath: "/en/city/singapore/cleantech-dinner"
 alternatePath: "/city/singapore/cleantech-dinner"
 translationKey: "singapore-cleantech-dinner"
 lang: "en"
-title: "Why Cleantech Dinner in Singapore works better when Fanju app keeps the table small | fanju-app"
-description: "Fanju app is a social dining platform designed to connect neighbours in Singapore through small, intentional meals centred around shared interests—like cleantech innovation. Unlike large networking events or open-house d"
+title: "Why Cleantech Dinner in Singapore works better when Fanju app..."
+description: "Fanju app is a social dining platform designed to connect neighbours in Singapore through small, intentional meals centred around shared interests—like…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

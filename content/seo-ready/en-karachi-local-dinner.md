@@ -4,8 +4,8 @@ canonicalPath: "/en/city/karachi/local-dinner"
 alternatePath: "/city/karachi/local-dinner"
 translationKey: "karachi-local-dinner"
 lang: "en"
-title: "Is a Karachi Local Dinner with Fanju App the Right Social Reset for You?"
-description: "The past few years have shifted how we connect, often leaning heavily into digital interactions. For many in Karachi, there's a growing desire to reclaim the nuances of face-to-face conversations and shared experiences."
+title: "Is a Karachi Local Dinner with Fanju App the Right Social Reset..."
+description: "The past few years have shifted how we connect, often leaning heavily into digital interactions."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

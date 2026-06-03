@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/amsterdam/sushi-dinner"
 alternatePath: "/city/amsterdam/sushi-dinner"
-title: "Amsterdam does not need another vague invite; Fanju app makes Sushi Dinner specific | fanju-app | 饭局app"
-description: "The Fanju app redefines casual dining in Amsterdam by turning open-ended plans into clearly framed, small-group meals where the setting, guest mix, and expectations are transparent from the start. Instead of relying on l"
+title: "Amsterdam does not need another vague invite; Fanju app makes..."
+description: "The Fanju app redefines casual dining in Amsterdam by turning open-ended plans into clearly framed, small-group meals where the setting, guest mix, and…"
 recoveredFromD1: true
 ---
 # Amsterdam does not need another vague invite; Fanju app makes Sushi Dinner specific

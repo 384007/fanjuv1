@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/jiamusi/private-dinner"
 alternatePath: "/en/city/jiamusi/private-dinner"
-title: "佳木斯私密饭局指南 | fanju-app | 饭局app"
+title: "佳木斯私密饭局指南"
 description: "在佳木斯体验私密饭局的独特魅力，了解如何在这座城市找到适合自己的社交圈。"
 recoveredFromD1: true
 ---

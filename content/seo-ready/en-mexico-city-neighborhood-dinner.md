@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mexico-city/neighborhood-dinner"
 alternatePath: "/city/mexico-city/neighborhood-dinner"
 translationKey: "mexico-city-neighborhood-dinner"
 lang: "en"
-title: "Mexico City after work: how Fanju app makes Neighborhood Dinner feel like a real room | fanju-app"
-description: "On a solo evening in Mexico City, the Fanju app connects people to small, host-led dinners in neighborhood homes or tucked-away local spaces—not tourist setups, but real-life tables where conversation begins before the f"
+title: "Mexico City after work: how Fanju app makes Neighborhood Dinner..."
+description: "On a solo evening in Mexico City, the Fanju app connects people to small, host-led dinners in neighborhood homes or tucked-away local spaces—not tourist…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

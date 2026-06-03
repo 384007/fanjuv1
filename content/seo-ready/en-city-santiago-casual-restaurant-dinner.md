@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/santiago/casual-restaurant-dinner"
 alternatePath: "/city/santiago/casual-restaurant-dinner"
-title: "Santiago Casual Restaurant Dinner Guide | Fanju app"
-description: "Discover the best casual restaurants for dinner in Santiago with Fanju app, a social dining app for small, clearly described meals and real-world connections."
+title: "Santiago Casual Restaurant Dinner Guide"
+description: "Discover the best casual restaurants for dinner in Santiago with Fanju app, a social dining app for small, clearly described meals and real-world connec…"
 recoveredFromD1: true
 ---
 Santiago is a city that comes alive at night, with its vibrant streets and bustling restaurants. As the sun sets, the city&#039;s energy shifts, and the focus turns to food. For those looking for a casual dinner experience, Santiago has plenty to offer. With its rich culinary scene, the city is home to a wide range of restaurants serving everything from traditional Chilean cuisine to international flavors.

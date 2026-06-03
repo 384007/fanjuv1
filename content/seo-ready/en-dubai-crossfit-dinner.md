@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dubai/crossfit-dinner"
 alternatePath: "/city/dubai/crossfit-dinner"
 translationKey: "dubai-crossfit-dinner"
 lang: "en"
-title: "When CrossFit Dinner feels too loose in Dubai, Fanju app starts with the table | fanju-app"
-description: "Fanju app in Dubai connects people through small, intentional dinners where the focus is on shared rhythms, not just shared plates. It’s not about finding the trendiest CrossFit box or the loudest post-workout crowd."
+title: "When CrossFit Dinner feels too loose in Dubai, Fanju app starts..."
+description: "Fanju app in Dubai connects people through small, intentional dinners where the focus is on shared rhythms, not just shared plates."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

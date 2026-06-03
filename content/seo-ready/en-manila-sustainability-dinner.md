@@ -4,8 +4,8 @@ canonicalPath: "/en/city/manila/sustainability-dinner"
 alternatePath: "/city/manila/sustainability-dinner"
 translationKey: "manila-sustainability-dinner"
 lang: "en"
-title: "Manila’s First Sustainability Dinner Through the Fanju app: Finding a Reason to Cross Town"
-description: "The first question most newcomers ask is whether the effort of crossing town after a long shift is worth the experience. Manila traffic peaks between 5 pm and 7 pm, and a dinner that starts at 7 pm in a neighborhood"
+title: "Manila’s First Sustainability Dinner Through the Fanju app:..."
+description: "The first question most newcomers ask is whether the effort of crossing town after a long shift is worth the experience."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

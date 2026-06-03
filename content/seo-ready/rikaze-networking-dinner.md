@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/rikaze/networking-dinner"
 alternatePath: "/en/city/rikaze/networking-dinner"
-title: "在日喀则的街巷里，饭局app如何串起一席地道风味 | fanju-app"
+title: "在日喀则的街巷里，饭局app如何串起一席地道风味"
 description: "在日喀则，周末的节奏常常从一次精心安排的饭局开始。饭局app，作为一个专注于小桌、清晰主题和线下连接的社交应用，为这座古老城市注入了新的活力。它不仅仅是一个报名平台，更像是一张由美食和人脉交织而成的地图，帮助人们在陌生的城市里找到属于自己的"
 recoveredFromD1: true
 ---

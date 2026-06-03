@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/dublin/operator-dinner"
 alternatePath: "/city/dublin/operator-dinner"
-title: "Dublin does not need another vague invite; Fanju app makes Operator Dinner specific | fanju-app | 饭局app"
-description: "Dublin’s after-work rhythm often means one of two things: a long commute home or another solitary meal in front of a screen. Fanju app changes that by offering small, clearly described dinners hosted by real people acros"
+title: "Dublin does not need another vague invite; Fanju app makes..."
+description: "Dublin’s after-work rhythm often means one of two things: a long commute home or another solitary meal in front of a screen."
 recoveredFromD1: true
 ---
 # Dublin does not need another vague invite; Fanju app makes Operator Dinner specific

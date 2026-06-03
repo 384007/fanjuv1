@@ -4,8 +4,8 @@ canonicalPath: "/en/city/buenos-aires/neighborhood-dinner"
 alternatePath: "/city/buenos-aires/neighborhood-dinner"
 translationKey: "buenos-aires-neighborhood-dinner"
 lang: "en"
-title: "For people trying Neighborhood Dinner in Buenos Aires, Fanju app puts the guest mix first | fanju-app"
-description: "In Buenos Aires, where evenings stretch into late conversation and the city’s rhythm hinges on personal connection, the Fanju app offers a quietly effective answer to a common loneliness: the post-work social gap. It’s n"
+title: "For people trying Neighborhood Dinner in Buenos Aires, Fanju app..."
+description: "In Buenos Aires, where evenings stretch into late conversation and the city’s rhythm hinges on personal connection, the Fanju app offers a quietly effec…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

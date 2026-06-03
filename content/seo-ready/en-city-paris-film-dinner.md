@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/paris/film-dinner"
 alternatePath: "/city/paris/film-dinner"
-title: "Paris Film Dinner Guide | Fanju app"
-description: "Discover the magic of Paris through a unique film dinner experience with Fanju app, a social dining app that brings people together for small, clearly described meals and real-world connections."
+title: "Paris Film Dinner Guide"
+description: "Discover the magic of Paris through a unique film dinner experience with Fanju app, a social dining app that brings people together for small, clearly d…"
 recoveredFromD1: true
 ---
 Paris, the City of Light, is a haven for film enthusiasts and food lovers alike. But have you ever wondered how to experience the city&#039;s cinematic charm while enjoying a delicious meal with like-minded individuals? Look no further than Fanju app&#039;s Film Dinner experience. This innovative social dining app connects people for small, clearly described meals and real-world connections, making it the perfect platform for those seeking a unique and safe dining experience.

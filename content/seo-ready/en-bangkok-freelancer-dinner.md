@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bangkok/freelancer-dinner"
 alternatePath: "/city/bangkok/freelancer-dinner"
 translationKey: "bangkok-freelancer-dinner"
 lang: "en"
-title: "A Bangkok dinner table for Freelancer Dinner, with Fanju app boundaries up front"
-description: "When you view a listing for Freelancer Dinner in Bangkok on Fanju app, the platform serves as a filter that separates meaningful social opportunities from the noise of the city. It provides a structured snapshot of the"
+title: "A Bangkok dinner table for Freelancer Dinner, with Fanju app..."
+description: "When you view a listing for Freelancer Dinner in Bangkok on Fanju app, the platform serves as a filter that separates meaningful social opportunities fr…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

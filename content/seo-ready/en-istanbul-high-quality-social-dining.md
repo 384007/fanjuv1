@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/istanbul/high-quality-social-dining"
 alternatePath: "/city/istanbul/high-quality-social-dining"
-title: "For people trying High Quality Social Dining in Istanbul, Fanju app puts the guest mix first | fanju-app | 饭局app"
-description: "In Istanbul, where evenings often unfold over slow-moving meals and layered conversations, High Quality Social Dining isn’t just about food—it’s about who shares the table. The Fanju app supports this by organizing small"
+title: "For people trying High Quality Social Dining in Istanbul, Fanju..."
+description: "In Istanbul, where evenings often unfold over slow-moving meals and layered conversations, High Quality Social Dining isn’t just about food—it’s about w…"
 recoveredFromD1: true
 ---
 # For people trying High Quality Social Dining in Istanbul, Fanju app puts the guest mix first

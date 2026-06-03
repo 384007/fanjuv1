@@ -4,8 +4,8 @@ canonicalPath: "/en/city/atlanta/hardware-engineer-dinner"
 alternatePath: "/city/atlanta/hardware-engineer-dinner"
 translationKey: "atlanta-hardware-engineer-dinner"
 lang: "en"
-title: "Finding Calm in the Crowd: Atlanta Hardware Engineer Dinner Through the Fanju app"
-description: "Loneliness in a bustling city like Atlanta often feels like a silent echo in a large office hallway. A hardware engineer who spends evenings debugging code may crave a face‑to‑face connection that feels low‑key rather"
+title: "Finding Calm in the Crowd: Atlanta Hardware Engineer Dinner..."
+description: "Loneliness in a bustling city like Atlanta often feels like a silent echo in a large office hallway."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

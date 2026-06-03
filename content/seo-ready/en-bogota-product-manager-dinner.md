@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bogota/product-manager-dinner"
 alternatePath: "/city/bogota/product-manager-dinner"
 translationKey: "bogota-product-manager-dinner"
 lang: "en"
-title: "In Bogota, Fanju app turns Product Manager Dinner into a table people can actually trust | fanju-app"
-description: "The Fanju app in Bogota connects solo professionals to intimate, host-led dinners where conversation flows more naturally than at typical networking events. For visiting product managers looking to unwind after long days"
+title: "In Bogota, Fanju app turns Product Manager Dinner into a table..."
+description: "The Fanju app in Bogota connects solo professionals to intimate, host-led dinners where conversation flows more naturally than at typical networking eve…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

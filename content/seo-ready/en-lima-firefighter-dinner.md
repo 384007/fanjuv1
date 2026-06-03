@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lima/firefighter-dinner"
 alternatePath: "/city/lima/firefighter-dinner"
 translationKey: "lima-firefighter-dinner"
 lang: "en"
-title: "Lima's Firefighter Dinner: Finding Connection at the Table with Fanju app"
-description: "The concept of a Firefighter Dinner in Lima, as facilitated by Fanju app, hinges on the belief that shared culinary experiences can swiftly bridge gaps between individuals. It’s about more than just eating; it’s about"
+title: "Lima's Firefighter Dinner: Finding Connection at the Table with..."
+description: "The concept of a Firefighter Dinner in Lima, as facilitated by Fanju app, hinges on the belief that shared culinary experiences can swiftly bridge gaps…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/houston/saas-dinner"
 alternatePath: "/city/houston/saas-dinner"
 translationKey: "houston-saas-dinner"
 lang: "en"
-title: "For Houston readers considering SaaS Dinner, Fanju app should make the room legible"
-description: "A well-run SaaS dinner in Houston relies on a clear ending time that respects everyone's schedule. When the host signals the wrap-up, it allows guests to plan their exit without feeling awkward or rude. This is crucial"
+title: "For Houston readers considering SaaS Dinner, Fanju app should make..."
+description: "A well-run SaaS dinner in Houston relies on a clear ending time that respects everyone's schedule."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

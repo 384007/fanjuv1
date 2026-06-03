@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/xinganmeng/media-dinner"
 alternatePath: "/en/city/xinganmeng/media-dinner"
-title: "兴安盟媒体饭局指南 | fanju-app | 饭局app"
+title: "兴安盟媒体饭局指南"
 description: "在兴安盟的饭局app中，媒体饭局是一种特殊的社交体验，聚集了来自各行各业的媒体人和行业专业人士。"
 recoveredFromD1: true
 ---

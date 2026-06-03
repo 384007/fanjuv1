@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/budapest/art-dinner"
 alternatePath: "/city/budapest/art-dinner"
-title: "A calmer way to approach Art Dinner in Budapest through Fanju app | fanju-app | 饭局app"
-description: "The Fanju app offers a quiet but meaningful alternative for remote workers in Budapest seeking real conversation over dinner—no networking pressure, no curated experiences. It connects individuals with hosts who open the"
+title: "A calmer way to approach Art Dinner in Budapest through Fanju app"
+description: "The Fanju app offers a quiet but meaningful alternative for remote workers in Budapest seeking real conversation over dinner—no networking pressure, no…"
 recoveredFromD1: true
 ---
 # A calmer way to approach Art Dinner in Budapest through Fanju app

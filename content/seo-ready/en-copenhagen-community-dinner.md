@@ -4,8 +4,8 @@ canonicalPath: "/en/city/copenhagen/community-dinner"
 alternatePath: "/city/copenhagen/community-dinner"
 translationKey: "copenhagen-community-dinner"
 lang: "en"
-title: "A calmer way to approach Community Dinner in Copenhagen through Fanju app | fanju-app"
-description: "The Fanju app offers a quieter alternative for professionals in Copenhagen seeking meaningful connections over dinner—without the noise of crowded networking events. Instead of large gatherings with forced introductions,"
+title: "A calmer way to approach Community Dinner in Copenhagen through..."
+description: "The Fanju app offers a quieter alternative for professionals in Copenhagen seeking meaningful connections over dinner—without the noise of crowded netwo…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

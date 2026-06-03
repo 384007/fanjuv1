@@ -4,9 +4,9 @@ canonicalPath: "/city/ankang/career-change-dinner"
 alternatePath: "/en/city/ankang/career-change-dinner"
 translationKey: "ankang-career-change-dinner"
 lang: "zh"
-title: "在安康把转行饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
+title: "在安康把转行饭局坐稳，饭局app需要筛掉哪些尴尬"
 titleZh: "在安康把转行饭局坐稳，饭局app需要筛掉哪些尴尬"
-description: "在安康，饭局app不是用来打卡网红餐厅的工具，而是为那些真正想在饭桌上建立连接的人准备的。 这里的饭局，尤其是围绕“转行”这一主题组织的聚会，往往发生在周末傍晚的某个巷口小馆。 报名前，你会看到一桌六到八人的设定，主理人写明自己从教培转行做社区运营的经历，还列出了菜单里的两道招牌菜。 这不是一场即兴饭局，而是一次有准备的对话。"
+description: "在安康，饭局app不是用来打卡网红餐厅的工具，而是为那些真正想在饭桌上建立连接的人准备的。 这里的饭局，尤其是围绕“转行”这一主题组织的聚会，往往发生在周末傍晚的某个巷口小馆。 报名前，你会看到一桌六到八人的设定，主理人写明自己从教培转行做社区运营的经历，还列出了菜单里的两道招牌菜。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

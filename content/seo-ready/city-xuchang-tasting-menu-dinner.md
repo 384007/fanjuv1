@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/xuchang/tasting-menu-dinner"
 alternatePath: "/en/city/xuchang/tasting-menu-dinner"
-title: "许昌品鉴菜单饭局指南 | fanju-app | 饭局app"
+title: "许昌品鉴菜单饭局指南"
 description: "在许昌品鉴菜单饭局的指南，了解如何在饭局app上安全地参加品鉴菜单饭局，了解饭局app的特点和安全重点，了解如何判断安全和信任，了解如何参加品鉴菜单饭局，了解和普通社交/约会软件的不同，了解常见问题"
 recoveredFromD1: true
 ---

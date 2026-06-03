@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/hulunbuir/new-friends-dinner"
 alternatePath: "/en/city/hulunbuir/new-friends-dinner"
-title: "呼伦贝尔新朋友饭局指南 | fanju-app | 饭局app"
+title: "呼伦贝尔新朋友饭局指南"
 description: "呼伦贝尔新朋友饭局指南，了解呼伦贝尔的饭局文化和如何通过饭局app找到新朋友"
 recoveredFromD1: true
 ---

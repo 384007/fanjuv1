@@ -4,7 +4,7 @@ canonicalPath: "/en/city/singapore/weekend-dinner"
 alternatePath: "/city/singapore/weekend-dinner"
 translationKey: "singapore-weekend-dinner"
 lang: "en"
-title: "Singapore Weekend Dinner Guide | Fanju app"
+title: "Singapore Weekend Dinner Guide"
 titleZh: "Singapore Weekend Dinner Guide"
 pageType: "city_landing"
 priorityScore: 50

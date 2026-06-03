@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cairo/vc-dinner"
 alternatePath: "/city/cairo/vc-dinner"
-title: "A Weekend in Cairo: Hosting the Perfect VC Dinner with Fanju app | fanju-app | 饭局app"
-description: "Experience the vibrant city of Cairo with Fanju app's unique approach to VC dinners, where connections and conversations flow effortlessly. Join us for a weekend of networking and discovery, as we explore the city's hidden gems and uncover the secrets of hosting the perfect dinner party."
+title: "A Weekend in Cairo: Hosting the Perfect VC Dinner with Fanju app"
+description: "Experience the vibrant city of Cairo with Fanju app's unique approach to VC dinners, where connections and conversations flow effortlessly."
 recoveredFromD1: true
 ---
 # A Weekend in Cairo: Hosting the Perfect VC Dinner with Fanju app

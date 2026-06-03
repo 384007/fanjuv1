@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kuala-lumpur/weeknight-dinner"
 alternatePath: "/city/kuala-lumpur/weeknight-dinner"
 translationKey: "kuala-lumpur-weeknight-dinner"
 lang: "en"
-title: "A clearer Weeknight Dinner dinner in Kuala Lumpur: Fanju app, small tables, and real boundaries"
-description: "The core difference in using the Fanju app for a Kuala Lumpur Weeknight Dinner lies in the upfront description of the table. Instead of matching based on a photo, the system presents a scenario: a specific cuisine, a"
+title: "A clearer Weeknight Dinner dinner in Kuala Lumpur: Fanju app,..."
+description: "The core difference in using the Fanju app for a Kuala Lumpur Weeknight Dinner lies in the upfront description of the table."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

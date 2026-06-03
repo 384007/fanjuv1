@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lagos/open-table-dinner"
 alternatePath: "/city/lagos/open-table-dinner"
 translationKey: "lagos-open-table-dinner"
 lang: "en"
-title: "Lagos Open Table Dinner: Connect Through Food with Clear Boundaries | Fanju app"
-description: "Discover how small-table social dining in Lagos helps returnees, creatives, and expatriates navigate informal trust networks through structured, local dinner experiences on the Fanju app."
+title: "Lagos Open Table Dinner: Connect Through Food with Clear Boundaries"
+description: "Discover how small-table social dining in Lagos helps returnees, creatives, and expatriates navigate informal trust networks through structured, local d…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96

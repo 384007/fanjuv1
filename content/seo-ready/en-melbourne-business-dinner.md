@@ -4,8 +4,8 @@ canonicalPath: "/en/city/melbourne/business-dinner"
 alternatePath: "/city/melbourne/business-dinner"
 translationKey: "melbourne-business-dinner"
 lang: "en"
-title: "A calmer way to approach Business Dinner in Melbourne through Fanju app | fanju-app"
-description: "Choosing where a Business Dinner takes place in Melbourne isn’t just about convenience—it shapes the tone. A host in Richmond might pick a quiet Vietnamese spot tucked behind Bridge Road, where the rhythm of the kitchen"
+title: "A calmer way to approach Business Dinner in Melbourne through..."
+description: "Choosing where a Business Dinner takes place in Melbourne isn’t just about convenience—it shapes the tone."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kuala-lumpur/potluck-dinner"
 alternatePath: "/city/kuala-lumpur/potluck-dinner"
 translationKey: "kuala-lumpur-potluck-dinner"
 lang: "en"
-title: "In Kuala Lumpur, Fanju app turns Potluck Dinner into a table people can actually trust | fanju-app"
-description: "In Kuala Lumpur, after long commutes and office shifts that stretch past six, the decision of what to do with the evening often defaults to eating alone or fading into silence. The Fanju app changes that by offering smal"
+title: "In Kuala Lumpur, Fanju app turns Potluck Dinner into a table..."
+description: "In Kuala Lumpur, after long commutes and office shifts that stretch past six, the decision of what to do with the evening often defaults to eating alone…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

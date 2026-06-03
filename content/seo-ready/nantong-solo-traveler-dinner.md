@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/nantong/solo-traveler-dinner"
 alternatePath: "/en/city/nantong/solo-traveler-dinner"
-title: "在南通找一桌不尴尬的独自旅行者饭局，饭局app先解决什么 | fanju-app"
+title: "在南通找一桌不尴尬的独自旅行者饭局，饭局app先解决什么"
 description: "饭局app不是旅行攻略，也不是拼饭群，它是围绕小桌吃饭这件事，把陌生人之间的连接做具体。在南通，这座江海交汇、节奏舒缓却少有喧嚣的城市，独自旅行者最容易陷入“看得见风景，进不去生活”的状态。白天走完濠河，傍晚站在五水商圈看江风拂过建筑立面，"
 recoveredFromD1: true
 ---

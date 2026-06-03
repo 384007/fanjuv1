@@ -4,8 +4,8 @@ canonicalPath: "/en/city/surat/senior-dinner"
 alternatePath: "/city/surat/senior-dinner"
 translationKey: "surat-senior-dinner"
 lang: "en"
-title: "A clearer Senior Dinner dinner in Surat: Fanju app, small tables, and real boundaries"
-description: "Before you commit to a seat, ask yourself if the table has a specific purpose beyond just eating. In Surat, where traffic and time are real factors, crossing town for a generic meal can feel like a wasted evening. You"
+title: "A clearer Senior Dinner dinner in Surat: Fanju app, small tables,..."
+description: "Before you commit to a seat, ask yourself if the table has a specific purpose beyond just eating."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

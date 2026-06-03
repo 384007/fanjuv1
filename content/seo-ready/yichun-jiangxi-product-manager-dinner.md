@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/yichun-jiangxi/product-manager-dinner"
 alternatePath: "/en/city/yichun-jiangxi/product-manager-dinner"
-title: "宜春想参加产品经理饭局，饭局app把信任感放在饭前 | fanju-app"
+title: "宜春想参加产品经理饭局，饭局app把信任感放在饭前"
 description: "对于身在宜春，又想通过线下小桌连接的都市人来说，饭局app提供了一种不同于走马观花的旅行体验，它将重点放在“吃一顿饭”这件事本身，通过清晰的主题和对同桌人的初步了解，让每一次线下相聚都充满期待，而非一场随意的凑热闹。这是一种更贴近真实本地生"
 recoveredFromD1: true
 ---

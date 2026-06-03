@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/munich/small-table-dinner"
 alternatePath: "/city/munich/small-table-dinner"
-title: "Munich Small Table Dinner Guide | Fanju app"
+title: "Munich Small Table Dinner Guide"
 description: "Discover the art of small table dinner in Munich with Fanju app, a social dining app for meaningful connections and delicious meals."
 recoveredFromD1: true
 ---

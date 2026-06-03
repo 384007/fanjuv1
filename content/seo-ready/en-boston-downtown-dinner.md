@@ -4,8 +4,8 @@ canonicalPath: "/en/city/boston/downtown-dinner"
 alternatePath: "/city/boston/downtown-dinner"
 translationKey: "boston-downtown-dinner"
 lang: "en"
-title: "For Boston readers considering Downtown Dinner, Fanju app should make the room legible"
-description: "A common question arises regarding what exactly Fanju app provides in the context of Boston Downtown Dinner. It acts as a bridge between the desire for good food and the need for predictable company, filtering out the"
+title: "For Boston readers considering Downtown Dinner, Fanju app should..."
+description: "A common question arises regarding what exactly Fanju app provides in the context of Boston Downtown Dinner."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

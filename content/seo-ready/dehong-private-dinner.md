@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/dehong/private-dinner"
 alternatePath: "/en/city/dehong/private-dinner"
-title: "德宏想参加私密饭局，饭局app把信任感放在饭前 | fanju-app"
+title: "德宏想参加私密饭局，饭局app把信任感放在饭前"
 description: "在德宏，周末的节奏不靠喧闹的打卡点推动，而是从一次饭桌的邀约开始。饭局app不是那种发个群消息“有人来吃饭吗”的工具，它更像一张安静但清晰的餐单：每一场饭局都有主理人、有主题、有明确的人数限制和餐厅选择，它把社交的重心从“能不能约到人”转向"
 recoveredFromD1: true
 ---

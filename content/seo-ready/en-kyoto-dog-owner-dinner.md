@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kyoto/dog-owner-dinner"
 alternatePath: "/city/kyoto/dog-owner-dinner"
 translationKey: "kyoto-dog-owner-dinner"
 lang: "en"
-title: "For people trying Dog Owner Dinner in Kyoto, Fanju app puts the guest mix first | fanju-app"
-description: "Joining a Dog Owner Dinner in Kyoto through the Fanju app means stepping into a shared evening where safety isn’t assumed—it’s built. The app doesn’t promise instant friendship, but it does structure the small things: re"
+title: "For people trying Dog Owner Dinner in Kyoto, Fanju app puts the..."
+description: "Joining a Dog Owner Dinner in Kyoto through the Fanju app means stepping into a shared evening where safety isn’t assumed—it’s built."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/phoenix/social-worker-dinner"
 alternatePath: "/city/phoenix/social-worker-dinner"
 translationKey: "phoenix-social-worker-dinner"
 lang: "en"
-title: "Should I trust the Fanju app for a Phoenix Social Worker Dinner that feels safe?"
-description: "A second‑table dinner in Phoenix often means sharing space with a small, curated group while the main room buzzes with larger events. This setting can give you a sense of intimacy without the expectation to network with"
+title: "Should I trust the Fanju app for a Phoenix Social Worker Dinner..."
+description: "A second‑table dinner in Phoenix often means sharing space with a small, curated group while the main room buzzes with larger events."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

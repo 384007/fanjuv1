@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nairobi/open-table-dinner"
 alternatePath: "/city/nairobi/open-table-dinner"
 translationKey: "nairobi-open-table-dinner"
 lang: "en"
-title: "Nairobi after work: how Fanju app makes Open Table Dinner feel like a real room | fanju-app"
-description: "Fanju app transforms Open Table Dinner in Nairobi from a vague social experiment into a predictable, grounded experience—especially for newcomers. Instead of relying on the hit-or-miss energy of group chats or dating app"
+title: "Nairobi after work: how Fanju app makes Open Table Dinner feel..."
+description: "Fanju app transforms Open Table Dinner in Nairobi from a vague social experiment into a predictable, grounded experience—especially for newcomers."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

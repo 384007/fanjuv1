@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tel-aviv/web-developer-dinner"
 alternatePath: "/city/tel-aviv/web-developer-dinner"
 translationKey: "tel-aviv-web-developer-dinner"
 lang: "en"
-title: "A Tel Aviv dinner table for Web Developer Dinner, with Fanju app boundaries up front"
-description: "When considering a Web Developer Dinner in Tel Aviv, the devil is often in the details that make the event feel unique to this vibrant city. A listing that mentions a specific, perhaps slightly off-the-beaten-path café"
+title: "A Tel Aviv dinner table for Web Developer Dinner, with Fanju app..."
+description: "When considering a Web Developer Dinner in Tel Aviv, the devil is often in the details that make the event feel unique to this vibrant city."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

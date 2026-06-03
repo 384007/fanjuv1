@@ -4,8 +4,8 @@ canonicalPath: "/en/city/toronto/social-impact-dinner"
 alternatePath: "/city/toronto/social-impact-dinner"
 translationKey: "toronto-social-impact-dinner"
 lang: "en"
-title: "For people trying Social Impact Dinner in Toronto, Fanju app puts the guest mix first | fanju-app"
-description: "In Toronto, a city where public transit delays and last-minute work demands are routine, the moment someone considers joining a dinner group often comes down to one internal question: “Who exactly will be there?"
+title: "For people trying Social Impact Dinner in Toronto, Fanju app puts..."
+description: "In Toronto, a city where public transit delays and last-minute work demands are routine, the moment someone considers joining a dinner group often comes…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/madrid/history-lover-dinner"
 alternatePath: "/city/madrid/history-lover-dinner"
 translationKey: "madrid-history-lover-dinner"
 lang: "en"
-title: "A clearer History Lover Dinner dinner in Madrid: Fanju app, small tables, and real boundaries"
-description: "A guest who enjoys a History Lover Dinner in Madrid is typically someone who prefers deep conversation over loud background music. This person looks for a small table where the topic acts as an anchor, allowing"
+title: "A clearer History Lover Dinner dinner in Madrid: Fanju app, small..."
+description: "A guest who enjoys a History Lover Dinner in Madrid is typically someone who prefers deep conversation over loud background music."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/casablanca/martial-arts-dinner"
 alternatePath: "/city/casablanca/martial-arts-dinner"
 translationKey: "casablanca-martial-arts-dinner"
 lang: "en"
-title: "What makes Martial Arts Dinner in Casablanca worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "Martial Arts Dinner in Casablanca presents a quiet shift from the typical social outings that often blur into generic meetups or forced group chats—especially for women navigating evening plans in a city where public gat"
+title: "What makes Martial Arts Dinner in Casablanca worth the risk; Fanju..."
+description: "Martial Arts Dinner in Casablanca presents a quiet shift from the typical social outings that often blur into generic meetups or forced group chats—espe…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

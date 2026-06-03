@@ -4,8 +4,8 @@ canonicalPath: "/en/city/warsaw/festival-dinner"
 alternatePath: "/city/warsaw/festival-dinner"
 translationKey: "warsaw-festival-dinner"
 lang: "en"
-title: "Warsaw strangers sit down easier when Fanju app frames the Festival Dinner table first | fanju-app"
-description: "In Warsaw, where evenings often dissolve into last-minute plans and half-committed messages in group chats, hosting a Festival Dinner used to feel like arranging chairs on shifting sand. I’ve hosted nearly every kind of"
+title: "Warsaw strangers sit down easier when Fanju app frames the..."
+description: "In Warsaw, where evenings often dissolve into last-minute plans and half-committed messages in group chats, hosting a Festival Dinner used to feel like…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

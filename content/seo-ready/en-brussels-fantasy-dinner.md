@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/fantasy-dinner"
 alternatePath: "/city/brussels/fantasy-dinner"
 translationKey: "brussels-fantasy-dinner"
 lang: "en"
-title: "A Brussels dinner table for Fantasy Dinner, with Fanju app boundaries up front"
-description: "If you have recently moved to Brussels and are tired of generic expat meetups, this table fits you if you want a specific theme like Fantasy Dinner to anchor the conversation. You likely enjoy the idea of using a social"
+title: "A Brussels dinner table for Fantasy Dinner, with Fanju app..."
+description: "If you have recently moved to Brussels and are tired of generic expat meetups, this table fits you if you want a specific theme like Fantasy Dinner to a…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

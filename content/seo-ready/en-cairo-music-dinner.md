@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cairo/music-dinner"
 alternatePath: "/city/cairo/music-dinner"
-title: "Cairo after work: how Fanju app makes Music Dinner feel like a real room | fanju-app | 饭局app"
-description: "Fanju app connects people in Cairo through small, host-led dinners where music sets the mood and conversation flows without performance. These aren’t performances or networking events—they’re intimate meals where a playl"
+title: "Cairo after work: how Fanju app makes Music Dinner feel like a..."
+description: "Fanju app connects people in Cairo through small, host-led dinners where music sets the mood and conversation flows without performance."
 recoveredFromD1: true
 ---
 # Cairo after work: how Fanju app makes Music Dinner feel like a real room

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/austin/after-work-dinner"
 alternatePath: "/city/austin/after-work-dinner"
 translationKey: "austin-after-work-dinner"
 lang: "en"
-title: "A calmer way to approach After Work Dinner in Austin through Fanju app | fanju-app"
-description: "The default after-work dinner in Austin leans toward noise—crowded bars on Rainey Street, long waits at South Congress hotspots, or the isolating glow of a phone screen over takeout. These options don’t reset the mind;"
+title: "A calmer way to approach After Work Dinner in Austin through Fanju app"
+description: "The default after-work dinner in Austin leans toward noise—crowded bars on Rainey Street, long waits at South Congress hotspots, or the isolating glow o…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

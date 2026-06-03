@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/taizhou-zhejiang/waitlist-dinner"
 alternatePath: "/en/city/taizhou-zhejiang/waitlist-dinner"
-title: "台州候补饭局指南：安全和信任的选择 | fanju-app | 饭局app"
+title: "台州候补饭局指南：安全和信任的选择"
 description: "台州候补饭局指南：安全和信任的选择"
 recoveredFromD1: true
 ---

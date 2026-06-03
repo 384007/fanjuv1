@@ -4,8 +4,8 @@ canonicalPath: "/en/city/montreal/creative-writing-dinner"
 alternatePath: "/city/montreal/creative-writing-dinner"
 translationKey: "montreal-creative-writing-dinner"
 lang: "en"
-title: "Montreal Creative Writing Dinner through Fanju app: the questions to answer before you sit down"
-description: "The ideal participant for a Montreal Creative Writing Dinner is someone who values intentionality over volume. This reader is likely looking for a small-table dinner where the conversation flows naturally around shared"
+title: "Montreal Creative Writing Dinner through Fanju app: the questions..."
+description: "The ideal participant for a Montreal Creative Writing Dinner is someone who values intentionality over volume."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

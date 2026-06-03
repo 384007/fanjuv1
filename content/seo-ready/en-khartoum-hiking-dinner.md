@@ -4,8 +4,8 @@ canonicalPath: "/en/city/khartoum/hiking-dinner"
 alternatePath: "/city/khartoum/hiking-dinner"
 translationKey: "khartoum-hiking-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Khartoum Hiking Dinner table before the first course"
-description: "A strong listing for a Hiking Dinner in Khartoum does not rely on generic phrases about meeting new people; it immediately answers why this specific gathering matters in the current city context. You should look for a"
+title: "The Fanju app way to judge a Khartoum Hiking Dinner table before..."
+description: "A strong listing for a Hiking Dinner in Khartoum does not rely on generic phrases about meeting new people; it immediately answers why this specific gat…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/warsaw/meditation-dinner"
 alternatePath: "/city/warsaw/meditation-dinner"
 translationKey: "warsaw-meditation-dinner"
 lang: "en"
-title: "Before the first message in Warsaw, Fanju app makes Meditation Dinner feel like a real decision | fanju-app"
-description: "Reaching out to join a Meditation Dinner in Warsaw shouldn’t echo the vague plans that dissolve before meetup. On Fanju, the message isn’t left to chance — it’s framed by what’s already written about the table. When a"
+title: "Before the first message in Warsaw, Fanju app makes Meditation..."
+description: "Reaching out to join a Meditation Dinner in Warsaw shouldn’t echo the vague plans that dissolve before meetup."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

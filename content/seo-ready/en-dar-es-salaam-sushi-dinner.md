@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dar-es-salaam/sushi-dinner"
 alternatePath: "/city/dar-es-salaam/sushi-dinner"
 translationKey: "dar-es-salaam-sushi-dinner"
 lang: "en"
-title: "In Dar es Salaam, Fanju app turns Sushi Dinner into a table people can actually trust | fanju-app"
+title: "In Dar es Salaam, Fanju app turns Sushi Dinner into a table people..."
 description: "The idea of a \"second dinner\" or an informal follow-up gathering after a main event can be appealing, but in Dar es Salaam, these often devolve into vague arrangements. A Sushi Dinner, for instance, might be proposed"
 pageType: "city_article"
 priorityScore: 70

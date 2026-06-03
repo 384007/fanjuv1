@@ -4,8 +4,8 @@ canonicalPath: "/en/city/zurich/millennial-dinner"
 alternatePath: "/city/zurich/millennial-dinner"
 translationKey: "zurich-millennial-dinner"
 lang: "en"
-title: "In Zurich, Fanju app turns Millennial Dinner into a table people can actually trust | fanju-app"
-description: "What if the real luxury of dining in Zurich isn’t the menu, but the company? For years, the idea of Millennial Dinner—informal, pop-up meals hosted in homes or borrowed spaces—struggled under a quiet burden: inconsistenc"
+title: "In Zurich, Fanju app turns Millennial Dinner into a table people..."
+description: "What if the real luxury of dining in Zurich isn’t the menu, but the company? For years, the idea of Millennial Dinner—informal, pop-up meals hosted in h…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

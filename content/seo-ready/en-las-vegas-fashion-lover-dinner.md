@@ -4,8 +4,8 @@ canonicalPath: "/en/city/las-vegas/fashion-lover-dinner"
 alternatePath: "/city/las-vegas/fashion-lover-dinner"
 translationKey: "las-vegas-fashion-lover-dinner"
 lang: "en"
-title: "Las Vegas Fashion Lover Dinner through Fanju app: the questions to answer before you sit down"
-description: "This guide is designed to help you decide if this specific Fashion Lover Dinner on Fanju app in Las Vegas is the right fit for you, particularly if you're new to the city and seeking your first authentic local"
+title: "Las Vegas Fashion Lover Dinner through Fanju app: the questions to..."
+description: "This guide is designed to help you decide if this specific Fashion Lover Dinner on Fanju app in Las Vegas is the right fit for you, particularly if you'…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

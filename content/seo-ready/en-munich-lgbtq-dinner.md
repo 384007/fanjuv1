@@ -4,8 +4,8 @@ canonicalPath: "/en/city/munich/lgbtq-dinner"
 alternatePath: "/city/munich/lgbtq-dinner"
 translationKey: "munich-lgbtq-dinner"
 lang: "en"
-title: "Munich LGBTQ Friendly Dinner through Fanju app: the questions to answer before you sit down"
-description: "A public venue type matters in Munich because strangers need to picture the room before joining. When reading a description, you should be able to visualize whether you are stepping into a loud, crowded beer hall or a"
+title: "Munich LGBTQ Friendly Dinner through Fanju app: the questions to..."
+description: "A public venue type matters in Munich because strangers need to picture the room before joining."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

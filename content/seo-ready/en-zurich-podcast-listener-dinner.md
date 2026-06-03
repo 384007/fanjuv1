@@ -4,7 +4,7 @@ canonicalPath: "/en/city/zurich/podcast-listener-dinner"
 alternatePath: "/city/zurich/podcast-listener-dinner"
 translationKey: "zurich-podcast-listener-dinner"
 lang: "en"
-title: "Before joining Podcast Listener Dinner in Zurich, what Fanju app should make clear"
+title: "Before joining Podcast Listener Dinner in Zurich, what Fanju app..."
 description: "In Zurich, where crossing neighborhoods after work can feel like a significant commitment, the listing must provide a compelling reason to make the trek. A generic invitation to \"talk about podcasts\" will likely"
 pageType: "city_article"
 priorityScore: 70

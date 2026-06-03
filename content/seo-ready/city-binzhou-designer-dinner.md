@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/binzhou/designer-dinner"
 alternatePath: "/en/city/binzhou/designer-dinner"
-title: "滨州设计师饭局指南 | fanju-app | 饭局app"
+title: "滨州设计师饭局指南"
 description: "在滨州，如何通过饭局app / Fanju 参与一场高质量的设计师小桌饭局？饭局app 专注于围绕清晰主题和线下真实连接的小型聚会，为滨州的设计师们提供了一个深度交流的平台。本文将从城市节奏、街区选择、报名顾虑等多个维度，为您提供一份详尽的滨州设计师饭局参与指南。"
 recoveredFromD1: true
 ---

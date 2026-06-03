@@ -4,8 +4,8 @@ canonicalPath: "/en/city/madrid/gaming-dinner"
 alternatePath: "/city/madrid/gaming-dinner"
 translationKey: "madrid-gaming-dinner"
 lang: "en"
-title: "For Madrid readers considering Gaming Dinner, Fanju app should make the room legible"
-description: "Before you commit to a reservation, ask yourself if the gaming element is the primary anchor of the evening or merely a background theme. In Madrid, where social dining can often drift into general networking or loud"
+title: "For Madrid readers considering Gaming Dinner, Fanju app should..."
+description: "Before you commit to a reservation, ask yourself if the gaming element is the primary anchor of the evening or merely a background theme."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

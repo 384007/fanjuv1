@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dar-es-salaam/shipping-dinner"
 alternatePath: "/city/dar-es-salaam/shipping-dinner"
 translationKey: "dar-es-salaam-shipping-dinner"
 lang: "en"
-title: "How Fanju app turns a Dar es Salaam Shipping Dinner night into something worth showing up for | fanju-app"
-description: "In Dar es Salaam, where the rhythm of the city slows just enough after sunset to allow space for conversation, the Fanju app has quietly reshaped how people meet over food. It doesn’t promise instant friendships or curat"
+title: "How Fanju app turns a Dar es Salaam Shipping Dinner night into..."
+description: "In Dar es Salaam, where the rhythm of the city slows just enough after sunset to allow space for conversation, the Fanju app has quietly reshaped how pe…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

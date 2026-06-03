@@ -4,8 +4,8 @@ canonicalPath: "/en/city/toronto/stoic-dinner"
 alternatePath: "/city/toronto/stoic-dinner"
 translationKey: "toronto-stoic-dinner"
 lang: "en"
-title: "How Fanju app turns a Toronto Stoic Dinner night into something worth showing up for | fanju-app"
-description: "In Toronto, a city of transplants, high-rise routines, and quiet isolation, it’s easy to go days without a real conversation. The Fanju app changes that for Stoic Dinner nights—structured, intimate gatherings where peopl"
+title: "How Fanju app turns a Toronto Stoic Dinner night into something..."
+description: "In Toronto, a city of transplants, high-rise routines, and quiet isolation, it’s easy to go days without a real conversation."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

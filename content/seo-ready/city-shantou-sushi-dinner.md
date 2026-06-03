@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/shantou/sushi-dinner"
 alternatePath: "/en/city/shantou/sushi-dinner"
-title: "汕头寿司饭局指南：跟着本地人吃懂潮汕味道 | fanju-app | 饭局app"
+title: "汕头寿司饭局指南：跟着本地人吃懂潮汕味道"
 description: "想在汕头体验地道的寿司饭局？饭局app / Fanju 专注于小桌、有明确主题的线下聚会，让你通过共享美食与真实的人建立连接。这篇指南将带你深入了解如何在汕头，特别是通过饭局app / Fanju，找到一场真正触及城市脉搏的寿司盛宴，远比任何泛泛的旅游攻略更能让你感受到这座城市的温度与人情味。"
 recoveredFromD1: true
 ---

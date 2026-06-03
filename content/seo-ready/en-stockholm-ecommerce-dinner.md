@@ -4,8 +4,8 @@ canonicalPath: "/en/city/stockholm/ecommerce-dinner"
 alternatePath: "/city/stockholm/ecommerce-dinner"
 translationKey: "stockholm-ecommerce-dinner"
 lang: "en"
-title: "When Ecommerce Dinner in Stockholm needs more than a group chat, Fanju app starts with the table"
-description: "When you arrive in a new city, stepping into a room with strangers requires mental preparation, and vague descriptions only increase hesitation. For a Stockholm Ecommerce Dinner, the listing must clearly state the type"
+title: "When Ecommerce Dinner in Stockholm needs more than a group chat,..."
+description: "When you arrive in a new city, stepping into a room with strangers requires mental preparation, and vague descriptions only increase hesitation."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

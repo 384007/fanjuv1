@@ -4,8 +4,8 @@ canonicalPath: "/en/city/new-york/korean-learner-dinner"
 alternatePath: "/city/new-york/korean-learner-dinner"
 translationKey: "new-york-korean-learner-dinner"
 lang: "en"
-title: "When the after‑work rush in New York meets a Korean Learner Dinner, the Fanju app can be your quiet networking table"
-description: "The first tension many New York readers encounter is the commute from Midtown offices to a dinner venue in the Lower East Side. A typical after‑work table starts at 7 p.m., and the subway can add 30 minutes of travel"
+title: "When the after‑work rush in New York meets a Korean Learner..."
+description: "The first tension many New York readers encounter is the commute from Midtown offices to a dinner venue in the Lower East Side."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

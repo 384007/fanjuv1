@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dallas/tasting-menu-dinner"
 alternatePath: "/city/dallas/tasting-menu-dinner"
 translationKey: "dallas-tasting-menu-dinner"
 lang: "en"
-title: "Dallas Tasting Menu Dinner through Fanju app: the questions to answer before you sit down"
-description: "The gap between leaving the office and the weekend often feels like wasted time, but a Tasting Menu Dinner in Dallas fills that space with intention. You are likely looking for a reason to stay out, a narrative that"
+title: "Dallas Tasting Menu Dinner through Fanju app: the questions to..."
+description: "The gap between leaving the office and the weekend often feels like wasted time, but a Tasting Menu Dinner in Dallas fills that space with intention."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

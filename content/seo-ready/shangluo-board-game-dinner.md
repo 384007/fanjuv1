@@ -4,9 +4,9 @@ canonicalPath: "/city/shangluo/board-game-dinner"
 alternatePath: "/en/city/shangluo/board-game-dinner"
 translationKey: "shangluo-board-game-dinner"
 lang: "zh"
-title: "商洛桌游饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
+title: "商洛桌游饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 titleZh: "商洛桌游饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
-description: "你刚到商洛，行李还在出租屋的地板上摊着，窗外是秦岭山脚下一排排缓坡上的居民楼，远处偶尔传来火车经过的汽笛。 你打开手机，发现同城社交群聊里总有人发“周末组局桌游，来人！ ”——但没人说明几点开始、玩什么、在哪、谁在组织。 你犹豫着要不要报名，又怕到了现场才发现是八个人挤在火锅店角落玩狼人杀，或者全是熟人圈子，你只是凑数。"
+description: "你刚到商洛，行李还在出租屋的地板上摊着，窗外是秦岭山脚下一排排缓坡上的居民楼，远处偶尔传来火车经过的汽笛。 你打开手机，发现同城社交群聊里总有人发“周末组局桌游，来人！ ”——但没人说明几点开始、玩什么、在哪、谁在组织。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

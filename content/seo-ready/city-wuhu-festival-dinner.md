@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/wuhu/festival-dinner"
 alternatePath: "/en/city/wuhu/festival-dinner"
-title: "芜湖节日饭局指南 | fanju-app | 饭局app"
+title: "芜湖节日饭局指南"
 description: "在芜湖，节日意味着团聚与分享，而饭局app（Fanju）正是为此而生。它专注于小桌、有明确主题的线下聚会，帮助你在喧嚣的城市中找到志同道合的食伴，共同度过有意义的时光。从选择合适的饭局到确保安全，这份指南将带你了解如何在芜湖享受一场别开生面的节日饭局。"
 recoveredFromD1: true
 ---

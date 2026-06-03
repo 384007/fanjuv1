@@ -4,8 +4,8 @@ canonicalPath: "/en/city/las-vegas/automotive-dinner"
 alternatePath: "/city/las-vegas/automotive-dinner"
 translationKey: "las-vegas-automotive-dinner"
 lang: "en"
-title: "Las Vegas Automotive Dinner: how Fanju app makes the table worth choosing"
-description: "In a city built on spectacle, a small-table dinner needs specific local markers to feel worth the drive. A generic listing might mention food, but a credible Las Vegas Automotive Dinner will reference a neighborhood"
+title: "Las Vegas Automotive Dinner: how Fanju app makes the table worth..."
+description: "In a city built on spectacle, a small-table dinner needs specific local markers to feel worth the drive."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

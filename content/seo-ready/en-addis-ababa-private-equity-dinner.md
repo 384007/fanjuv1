@@ -4,8 +4,8 @@ canonicalPath: "/en/city/addis-ababa/private-equity-dinner"
 alternatePath: "/city/addis-ababa/private-equity-dinner"
 translationKey: "addis-ababa-private-equity-dinner"
 lang: "en"
-title: "Before joining Private Equity Dinner in Addis Ababa, what Fanju app should make clear"
-description: "The host’s note should explain why a private‑equity discussion matters now in Addis Ababa—perhaps because of recent fund launches or new regulatory changes—rather than merely repeating the category name. A clear"
+title: "Before joining Private Equity Dinner in Addis Ababa, what Fanju..."
+description: "The host’s note should explain why a private‑equity discussion matters now in Addis Ababa—perhaps because of recent fund launches or new regulatory chan…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

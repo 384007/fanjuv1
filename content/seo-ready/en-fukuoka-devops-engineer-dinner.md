@@ -4,8 +4,8 @@ canonicalPath: "/en/city/fukuoka/devops-engineer-dinner"
 alternatePath: "/city/fukuoka/devops-engineer-dinner"
 translationKey: "fukuoka-devops-engineer-dinner"
 lang: "en"
-title: "Fukuoka DevOps Engineer Dinner through Fanju app: the questions to answer before you sit down"
-description: "Fukuoka’s growing tech scene makes a DevOps Engineer Dinner more than just another meal; it becomes a targeted exchange for professionals navigating containerization and continuous integration in a regional hub. When"
+title: "Fukuoka DevOps Engineer Dinner through Fanju app: the questions to..."
+description: "Fukuoka’s growing tech scene makes a DevOps Engineer Dinner more than just another meal; it becomes a targeted exchange for professionals navigating con…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

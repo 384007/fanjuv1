@@ -4,8 +4,8 @@ canonicalPath: "/en/city/prague/restaurant-discovery-dinner"
 alternatePath: "/city/prague/restaurant-discovery-dinner"
 translationKey: "prague-restaurant-discovery-dinner"
 lang: "en"
-title: "Prague after work: how Fanju app makes Restaurant Discovery Dinner feel like a real room | fanju-app"
-description: "In Prague, where cobblestone streets meet café culture and the workweek dissolves into long evenings of conversation, Fanju app has quietly reshaped how people find their way to shared meals. It’s not a dating app, nor a"
+title: "Prague after work: how Fanju app makes Restaurant Discovery Dinner..."
+description: "In Prague, where cobblestone streets meet café culture and the workweek dissolves into long evenings of conversation, Fanju app has quietly reshaped how…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/auckland/potluck-dinner"
 alternatePath: "/city/auckland/potluck-dinner"
 translationKey: "auckland-potluck-dinner"
 lang: "en"
-title: "When the Door Opens: Hosting a Potluck Dinner in Auckland through the Fanju app"
-description: "The moment you pause at the doorstep, the host’s invitation already tells a story about the night’s rhythm. A well‑written note will explain why a potluck fits Auckland’s current vibe—perhaps a summer harvest of local"
+title: "When the Door Opens: Hosting a Potluck Dinner in Auckland through..."
+description: "The moment you pause at the doorstep, the host’s invitation already tells a story about the night’s rhythm."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

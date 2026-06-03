@@ -4,7 +4,7 @@ canonicalPath: "/en/city/london/blockchain-dinner"
 alternatePath: "/city/london/blockchain-dinner"
 translationKey: "london-blockchain-dinner"
 lang: "en"
-title: "Why Blockchain Dinner in London works better when Fanju app keeps the table small | fanju-app"
+title: "Why Blockchain Dinner in London works better when Fanju app keeps..."
 description: "Fanju app creates small, real-world meals in London where attendees know each other’s names and intentions."
 pageType: "city_article"
 priorityScore: 70

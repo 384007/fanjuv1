@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vienna/lunar-new-year-dinner"
 alternatePath: "/city/vienna/lunar-new-year-dinner"
 translationKey: "vienna-lunar-new-year-dinner"
 lang: "en"
-title: "Vienna after work: how Fanju app makes Lunar New Year Dinner feel like a real room | fanju-app"
-description: "In Vienna, where evenings often drift into quiet coffeehouse corners or quick supermarket meals after long workdays, finding a meaningful Lunar New Year Dinner can feel like searching for a private language in public spa"
+title: "Vienna after work: how Fanju app makes Lunar New Year Dinner feel..."
+description: "In Vienna, where evenings often drift into quiet coffeehouse corners or quick supermarket meals after long workdays, finding a meaningful Lunar New Year…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

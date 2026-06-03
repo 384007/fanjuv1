@@ -4,8 +4,8 @@ canonicalPath: "/en/city/denver/biotech-dinner"
 alternatePath: "/city/denver/biotech-dinner"
 translationKey: "denver-biotech-dinner"
 lang: "en"
-title: "For Denver readers considering Biotech Dinner, Fanju app should make the room legible"
-description: "When you arrive alone in Denver, the specific nature of a Biotech Dinner should feel distinct from a generic networking mixer. A credible listing on Fanju 饭局app will ground the event in the local scientific or"
+title: "For Denver readers considering Biotech Dinner, Fanju app should..."
+description: "When you arrive alone in Denver, the specific nature of a Biotech Dinner should feel distinct from a generic networking mixer."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

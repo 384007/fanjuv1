@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/lisbon/local-dinner"
 alternatePath: "/city/lisbon/local-dinner"
-title: "In Lisbon, Fanju app turns Local Dinner into a table people can actually trust | fanju-app | 饭局app"
-description: "The Fanju app helps residents and visitors in Lisbon find small, intentional dinners hosted by locals who care about shared meals and real conversation. These aren’t large events or generic meetups, but modest gatherings"
+title: "In Lisbon, Fanju app turns Local Dinner into a table people can..."
+description: "The Fanju app helps residents and visitors in Lisbon find small, intentional dinners hosted by locals who care about shared meals and real conversation.…"
 recoveredFromD1: true
 ---
 # In Lisbon, Fanju app turns Local Dinner into a table people can actually trust

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/karachi/peer-learning-dinner"
 alternatePath: "/city/karachi/peer-learning-dinner"
 translationKey: "karachi-peer-learning-dinner"
 lang: "en"
-title: "For Karachi readers considering Peer Learning Dinner, Fanju app should make the room legible"
-description: "Karachi traffic often dictates the rhythm of an evening, so a well-organized Peer Learning Dinner should have a clear end time stated upfront. When guests are traveling from neighborhoods like Clifton or Gulshan,"
+title: "For Karachi readers considering Peer Learning Dinner, Fanju app..."
+description: "Karachi traffic often dictates the rhythm of an evening, so a well-organized Peer Learning Dinner should have a clear end time stated upfront."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

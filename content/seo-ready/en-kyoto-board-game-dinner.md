@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kyoto/board-game-dinner"
 alternatePath: "/city/kyoto/board-game-dinner"
 translationKey: "kyoto-board-game-dinner"
 lang: "en"
-title: "How Fanju app turns a Kyoto Board Game Dinner night into something worth showing up for | fanju-app"
-description: "For those in Kyoto looking to elevate their social dining experience beyond the usual, the Fanju app offers a unique pathway to curated Board Game Dinners. It’s about transforming a simple dinner gathering into an occasi"
+title: "How Fanju app turns a Kyoto Board Game Dinner night into something..."
+description: "For those in Kyoto looking to elevate their social dining experience beyond the usual, the Fanju app offers a unique pathway to curated Board Game Dinne…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

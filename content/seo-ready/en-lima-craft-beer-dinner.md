@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lima/craft-beer-dinner"
 alternatePath: "/city/lima/craft-beer-dinner"
 translationKey: "lima-craft-beer-dinner"
 lang: "en"
-title: "For Lima readers considering Craft Beer Dinner, Fanju app should make the room legible"
-description: "In a city where traffic can extend a short trip across districts like Miraflores or Barranco into an hour-long ordeal, the end time of a dinner is as critical as the start. A responsible host understands that Lima"
+title: "For Lima readers considering Craft Beer Dinner, Fanju app should..."
+description: "In a city where traffic can extend a short trip across districts like Miraflores or Barranco into an hour-long ordeal, the end time of a dinner is as cr…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

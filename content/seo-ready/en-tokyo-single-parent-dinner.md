@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tokyo/single-parent-dinner"
 alternatePath: "/city/tokyo/single-parent-dinner"
 translationKey: "tokyo-single-parent-dinner"
 lang: "en"
-title: "A clearer Single Parent Dinner dinner in Tokyo: Fanju app, small tables, and real boundaries"
-description: "Tokyo professionals often worry about the obligation to stay late or continue the interaction after a dinner ends, fearing a breach of social etiquette. A well-organized Single Parent Dinner on Fanju app respects the"
+title: "A clearer Single Parent Dinner dinner in Tokyo: Fanju app, small..."
+description: "Tokyo professionals often worry about the obligation to stay late or continue the interaction after a dinner ends, fearing a breach of social etiquette.…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

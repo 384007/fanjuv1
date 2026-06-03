@@ -4,8 +4,8 @@ canonicalPath: "/en/city/karachi/volleyball-dinner"
 alternatePath: "/city/karachi/volleyball-dinner"
 translationKey: "karachi-volleyball-dinner"
 lang: "en"
-title: "Karachi after work: how Fanju app makes Volleyball Dinner feel like a real room | fanju-app"
-description: "In Karachi, the gap between finishing work and actually connecting with someone can stretch long and quiet. The Fanju app quietly fills that space—not with noise, but with shape. It turns the vague idea of “maybe dinner"
+title: "Karachi after work: how Fanju app makes Volleyball Dinner feel..."
+description: "In Karachi, the gap between finishing work and actually connecting with someone can stretch long and quiet."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

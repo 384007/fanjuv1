@@ -4,8 +4,8 @@ canonicalPath: "/en/city/yokohama/writer-dinner"
 alternatePath: "/city/yokohama/writer-dinner"
 translationKey: "yokohama-writer-dinner"
 lang: "en"
-title: "Before the first message in Yokohama, Fanju app makes Writer Dinner feel like a real decision | fanju-app"
-description: "In Yokohama, after long days spent drafting, editing, or staring at blinking cursors, the idea of meeting other writers for dinner often stalls before it begins. The hesitation isn’t about interest—it’s about coordinatio"
+title: "Before the first message in Yokohama, Fanju app makes Writer..."
+description: "In Yokohama, after long days spent drafting, editing, or staring at blinking cursors, the idea of meeting other writers for dinner often stalls before i…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kuala-lumpur/designer-dinner"
 alternatePath: "/city/kuala-lumpur/designer-dinner"
 translationKey: "kuala-lumpur-designer-dinner"
 lang: "en"
-title: "When the fear of a disguised date meets Kuala Lumpur Designer Dinner: a calm guide with the Fanju app"
-description: "A quiet table of six to eight designers in a boutique hotel lounge can feel intimate without being pressure‑filled, provided the host sets clear expectations from the start. In Kuala Lumpur, many participants worry that"
+title: "When the fear of a disguised date meets Kuala Lumpur Designer..."
+description: "A quiet table of six to eight designers in a boutique hotel lounge can feel intimate without being pressure‑filled, provided the host sets clear expecta…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

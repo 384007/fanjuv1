@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/buenos-aires/no-pressure-dinner"
 alternatePath: "/city/buenos-aires/no-pressure-dinner"
-title: "Buenos Aires does not need another vague invite; Fanju app makes No Pressure Dinner specific | fanju-app | 饭局app"
-description: "Fanju app supports small, clearly described meals in Buenos Aires where real-world connection comes before performance. These are not dinner parties with expectations, but intentional gatherings where the focus is on eas"
+title: "Buenos Aires does not need another vague invite; Fanju app makes..."
+description: "Fanju app supports small, clearly described meals in Buenos Aires where real-world connection comes before performance."
 recoveredFromD1: true
 ---
 # Buenos Aires does not need another vague invite; Fanju app makes No Pressure Dinner specific

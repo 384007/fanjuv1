@@ -4,8 +4,8 @@ canonicalPath: "/en/city/istanbul/tea-ceremony-dinner"
 alternatePath: "/city/istanbul/tea-ceremony-dinner"
 translationKey: "istanbul-tea-ceremony-dinner"
 lang: "en"
-title: "Should I step into the Istanbul Tea Ceremony Dinner that Fanju app advertises?"
-description: "The moment you stand on the threshold of the listed table, the community promise should feel tangible. A good listing will mention why the tea ceremony matters now in Istanbul—perhaps tying it to the city’s spring"
+title: "Should I step into the Istanbul Tea Ceremony Dinner that Fanju app..."
+description: "The moment you stand on the threshold of the listed table, the community promise should feel tangible."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

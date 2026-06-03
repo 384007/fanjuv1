@@ -4,9 +4,9 @@ canonicalPath: "/city/aksu/morning-routine-dinner"
 alternatePath: "/en/city/aksu/morning-routine-dinner"
 translationKey: "aksu-morning-routine-dinner"
 lang: "zh"
-title: "一顿阿克苏晨间习惯饭局值不值得去，先看饭局app这些信号 | fanju-app"
+title: "一顿阿克苏晨间习惯饭局值不值得去，先看饭局app这些信号"
 titleZh: "一顿阿克苏晨间习惯饭局值不值得去，先看饭局app这些信号"
-description: "阿克苏的晨间习惯饭局，是饭局app / Fanju饭局里一种安静却持续发生的小型连接。 它不是相亲保证、不是随机群聊、不是无限刷资料，而是由一位本地主理人发起，围绕“早晨如何开启一天”这一具体主题，在固定时间、固定人数的小桌上展开的真实对话。 你在App里看到的这场饭局，可能是某人在库车路边早餐摊吃完拌面后想到的，也可能是温宿教师晨跑三年总结出的习惯清单。"
+description: "阿克苏的晨间习惯饭局，是饭局app / Fanju饭局里一种安静却持续发生的小型连接。 它不是相亲保证、不是随机群聊、不是无限刷资料，而是由一位本地主理人发起，围绕“早晨如何开启一天”这一具体主题，在固定时间、固定人数的小桌上展开的真实对话。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

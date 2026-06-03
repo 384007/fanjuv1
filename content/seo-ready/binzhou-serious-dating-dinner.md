@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/binzhou/serious-dating-dinner"
 alternatePath: "/en/city/binzhou/serious-dating-dinner"
-title: "滨州想参加认真交友饭局，饭局app把信任感放在饭前 | fanju-app"
+title: "滨州想参加认真交友饭局，饭局app把信任感放在饭前"
 description: "下班后七点，滨州的路灯刚亮起来，渤海五路的风从黄河岸边吹过来，带着一点湿气。很多人在车里多坐一会儿，不急着回家，也不确定要去哪。这时候打开饭局app，看到一桌五个人的晚餐约在老城区的巷子里，主题是“在滨州，聊聊你最近读的一本书”，你会不会多"
 recoveredFromD1: true
 ---

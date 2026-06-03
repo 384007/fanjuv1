@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bangkok/scientist-dinner"
 alternatePath: "/city/bangkok/scientist-dinner"
 translationKey: "bangkok-scientist-dinner"
 lang: "en"
-title: "Bangkok Scientist Dinner on the Fanju app: navigating the after‑work rhythm"
-description: "Bangkok commuters know the sting of rush‑hour trains, so a dinner that starts just after the BTS line stops at Siam can feel like a natural extension of the day. Ask yourself whether the listed start time allows you to"
+title: "Bangkok Scientist Dinner on the Fanju app: navigating the..."
+description: "Bangkok commuters know the sting of rush‑hour trains, so a dinner that starts just after the BTS line stops at Siam can feel like a natural extension of…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

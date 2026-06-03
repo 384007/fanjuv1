@@ -4,8 +4,8 @@ canonicalPath: "/en/city/los-angeles/board-game-dinner"
 alternatePath: "/city/los-angeles/board-game-dinner"
 translationKey: "los-angeles-board-game-dinner"
 lang: "en"
-title: "A Los Angeles dinner table for Board Game Dinner, with Fanju app boundaries up front"
-description: "When evaluating a Board Game Dinner in Los Angeles, the first thing to check is the specificity of the venue description. A public venue type matters in Los Angeles because strangers need to picture the room before"
+title: "A Los Angeles dinner table for Board Game Dinner, with Fanju app..."
+description: "When evaluating a Board Game Dinner in Los Angeles, the first thing to check is the specificity of the venue description."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/shiyan/cross-border-dinner"
 alternatePath: "/en/city/shiyan/cross-border-dinner"
-title: "十堰跨境饭局指南 | fanju-app | 饭局app"
+title: "十堰跨境饭局指南"
 description: "十堰跨境饭局指南，了解十堰跨境饭局的基本信息，包括适合谁、核心场景、安全重点等。"
 recoveredFromD1: true
 ---

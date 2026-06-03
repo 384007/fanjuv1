@@ -4,8 +4,8 @@ canonicalPath: "/en/city/prague/social-worker-dinner"
 alternatePath: "/city/prague/social-worker-dinner"
 translationKey: "prague-social-worker-dinner"
 lang: "en"
-title: "Prague Social Worker Dinner on the Fanju app: a trusted table for mindful professionals"
-description: "Choosing a seat at a Social Worker Dinner in Prague means weighing the subtle balance between professional exchange and personal comfort. The city’s compact layout means most gatherings are within walking distance of"
+title: "Prague Social Worker Dinner on the Fanju app: a trusted table for..."
+description: "Choosing a seat at a Social Worker Dinner in Prague means weighing the subtle balance between professional exchange and personal comfort."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

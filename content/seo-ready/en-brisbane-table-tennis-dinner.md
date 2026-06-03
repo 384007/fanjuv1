@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brisbane/table-tennis-dinner"
 alternatePath: "/city/brisbane/table-tennis-dinner"
 translationKey: "brisbane-table-tennis-dinner"
 lang: "en"
-title: "Brisbane after work: how Fanju app makes Table Tennis Dinner feel like a real room | fanju-app"
-description: "Many weekend plans in Brisbane dissolve into vague group texts or last-minute cancellations, especially when the goal is simply “to meet people.” A casual dinner invite often carries unspoken pressure — where to go, who"
+title: "Brisbane after work: how Fanju app makes Table Tennis Dinner feel..."
+description: "Many weekend plans in Brisbane dissolve into vague group texts or last-minute cancellations, especially when the goal is simply “to meet people.” A casu…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sydney/english-speaking-dinner"
 alternatePath: "/city/sydney/english-speaking-dinner"
 translationKey: "sydney-english-speaking-dinner"
 lang: "en"
-title: "Sydney English Speaking Dinner through Fanju app: the questions to answer before you sit down"
-description: "When considering an English Speaking Dinner in Sydney, the details provided by the host are crucial. A good listing will go beyond simply stating the category. It should offer a glimpse into the host’s motivation for"
+title: "Sydney English Speaking Dinner through Fanju app: the questions to..."
+description: "When considering an English Speaking Dinner in Sydney, the details provided by the host are crucial."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

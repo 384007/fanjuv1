@@ -4,8 +4,8 @@ canonicalPath: "/en/city/accra/esports-dinner"
 alternatePath: "/city/accra/esports-dinner"
 translationKey: "accra-esports-dinner"
 lang: "en"
-title: "Before the first message in Accra, Fanju app makes Esports Dinner feel like a real decision | fanju-app"
-description: "You land in Accra this month, phone charged, SIM active, and a loose network of online contacts from gaming forums and Discord servers. You’ve heard about Esports Dinner—how it started as a niche idea but now quietly gat"
+title: "Before the first message in Accra, Fanju app makes Esports Dinner..."
+description: "You land in Accra this month, phone charged, SIM active, and a loose network of online contacts from gaming forums and Discord servers."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

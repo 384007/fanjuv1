@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/huhehaote/third-place-dinner"
 alternatePath: "/en/city/huhehaote/third-place-dinner"
-title: "呼和浩特第三空间饭局指南 | fanju-app | 饭局app"
+title: "呼和浩特第三空间饭局指南"
 description: "呼和浩特第三空间饭局指南，帮助您找到适合的第三空间饭局，结束工作日的低成本方式。"
 recoveredFromD1: true
 ---

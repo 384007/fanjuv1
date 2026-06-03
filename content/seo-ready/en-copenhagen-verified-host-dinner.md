@@ -4,8 +4,8 @@ canonicalPath: "/en/city/copenhagen/verified-host-dinner"
 alternatePath: "/city/copenhagen/verified-host-dinner"
 translationKey: "copenhagen-verified-host-dinner"
 lang: "en"
-title: "Copenhagen strangers sit down easier when Fanju app frames the Verified Host Dinner table first | fanju-app"
-description: "In Copenhagen, where evenings often begin with hesitant glances over coffee cups at Nørrebro cafés or awkward small talk in Østerbro elevators, the Fanju app redefines how locals connect over dinner. Verified Host Dinner"
+title: "Copenhagen strangers sit down easier when Fanju app frames the..."
+description: "In Copenhagen, where evenings often begin with hesitant glances over coffee cups at Nørrebro cafés or awkward small talk in Østerbro elevators, the Fanj…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

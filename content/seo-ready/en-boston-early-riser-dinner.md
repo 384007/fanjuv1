@@ -4,8 +4,8 @@ canonicalPath: "/en/city/boston/early-riser-dinner"
 alternatePath: "/city/boston/early-riser-dinner"
 translationKey: "boston-early-riser-dinner"
 lang: "en"
-title: "Why Early Riser Dinner in Boston works better when Fanju app keeps the table small | fanju-app"
-description: "Early Riser Dinner in Boston is less about the food and more about who shows up—and how soon you stop feeling like strangers. If you’re considering your first dinner through the Fanju app, you might wonder: will this fee"
+title: "Why Early Riser Dinner in Boston works better when Fanju app keeps..."
+description: "Early Riser Dinner in Boston is less about the food and more about who shows up—and how soon you stop feeling like strangers."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

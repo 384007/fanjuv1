@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dublin/christmas-dinner"
 alternatePath: "/city/dublin/christmas-dinner"
 translationKey: "dublin-christmas-dinner"
 lang: "en"
-title: "Dublin Christmas Dinner on the Fanju app: an after‑work table with a clear exit"
-description: "Commuting from the north side of the River Liffey to a St. Stephen’s Green venue can feel like a chore after a full day, but the promise of a curated Christmas Dinner table can outweigh the extra travel. In Dublin, the"
+title: "Dublin Christmas Dinner on the Fanju app: an after‑work table with..."
+description: "Commuting from the north side of the River Liffey to a St. Stephen’s Green venue can feel like a chore after a full day, but the promise of a curated Ch…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

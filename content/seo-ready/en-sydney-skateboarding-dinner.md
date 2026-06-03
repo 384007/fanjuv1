@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sydney/skateboarding-dinner"
 alternatePath: "/city/sydney/skateboarding-dinner"
 translationKey: "sydney-skateboarding-dinner"
 lang: "en"
-title: "A Sydney dinner table for Skateboarding Dinner, with Fanju app boundaries up front"
-description: "Before you commit your evening, ask yourself if this event is intended as a recurring social anchor or a one-off gathering. For remote workers in Sydney, the value of a Skateboarding Dinner often lies in the consistency"
+title: "A Sydney dinner table for Skateboarding Dinner, with Fanju app..."
+description: "Before you commit your evening, ask yourself if this event is intended as a recurring social anchor or a one-off gathering."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

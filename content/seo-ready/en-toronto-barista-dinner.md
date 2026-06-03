@@ -4,8 +4,8 @@ canonicalPath: "/en/city/toronto/barista-dinner"
 alternatePath: "/city/toronto/barista-dinner"
 translationKey: "toronto-barista-dinner"
 lang: "en"
-title: "A calmer way to approach Barista Dinner in Toronto through Fanju app | fanju-app"
-description: "Dinner in Toronto doesn’t have to mean navigating crowded restaurants or curated tasting menus to feel like you’ve experienced something real. Through the Fanju app, Barista Dinner offers a quieter alternative: shared me"
+title: "A calmer way to approach Barista Dinner in Toronto through Fanju app"
+description: "Dinner in Toronto doesn’t have to mean navigating crowded restaurants or curated tasting menus to feel like you’ve experienced something real."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/xiangxi/restaurant-discovery-dinner"
 alternatePath: "/en/city/xiangxi/restaurant-discovery-dinner"
-title: "在湘西找一桌不尴尬的餐厅探索饭局，饭局app先解决什么 | fanju-app"
+title: "在湘西找一桌不尴尬的餐厅探索饭局，饭局app先解决什么"
 description: "在湘西，饭局app不是帮你抢热门餐厅的工具，也不是打卡式的社交任务清单。它更像一个安静的入口，让刚搬来这座城市、还没建立起熟人网络的人，能以一顿饭为起点，进入真实的生活缝隙。湘西的节奏不快，但也不轻易对外人敞开心扉。饭局app在这里的作用，"
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-francisco/investor-dinner"
 alternatePath: "/city/san-francisco/investor-dinner"
 translationKey: "san-francisco-investor-dinner"
 lang: "en"
-title: "San Francisco Investor Dinner on the Fanju app: a calm, date‑free table in the Mission"
-description: "The Mission neighbourhood is known for its intimate eateries, which makes it a natural backdrop for a low‑key investor dinner. In San Francisco, the venue’s ambience matters because a noisy bar can drown thoughtful"
+title: "San Francisco Investor Dinner on the Fanju app: a calm, date‑free..."
+description: "The Mission neighbourhood is known for its intimate eateries, which makes it a natural backdrop for a low‑key investor dinner."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

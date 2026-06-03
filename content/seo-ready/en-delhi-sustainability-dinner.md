@@ -4,7 +4,7 @@ canonicalPath: "/en/city/delhi/sustainability-dinner"
 alternatePath: "/city/delhi/sustainability-dinner"
 translationKey: "delhi-sustainability-dinner"
 lang: "en"
-title: "How Fanju app turns a Delhi Sustainability Dinner night into something worth showing up for | fanju-app"
+title: "How Fanju app turns a Delhi Sustainability Dinner night into..."
 description: "Arriving in Delhi this month, figuring out where to start with social events can feel overwhelming. For someone new to the city, the idea of a \"Sustainability Dinner\" might sound appealing but also a bit abstract. This i"
 pageType: "city_article"
 priorityScore: 70

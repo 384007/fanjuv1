@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chennai/downtown-dinner"
 alternatePath: "/city/chennai/downtown-dinner"
 translationKey: "chennai-downtown-dinner"
 lang: "en"
-title: "For Chennai readers considering Downtown Dinner, Fanju app should make the room legible"
-description: "A good listing on Fanju app functions like a clear invitation rather than a vague shout into the void. When you look at a Downtown Dinner option in Chennai, the description should immediately tell you why this specific"
+title: "For Chennai readers considering Downtown Dinner, Fanju app should..."
+description: "A good listing on Fanju app functions like a clear invitation rather than a vague shout into the void."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

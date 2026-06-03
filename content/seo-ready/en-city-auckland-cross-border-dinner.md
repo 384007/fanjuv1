@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/auckland/cross-border-dinner"
 alternatePath: "/city/auckland/cross-border-dinner"
-title: "Auckland Cross Border Dinner Guide | Fanju app"
-description: "Plan your weekend around a delicious and meaningful Cross Border Dinner experience with Fanju app, a social dining app that connects people for small, clearly described meals and real-world connections."
+title: "Auckland Cross Border Dinner Guide"
+description: "Plan your weekend around a delicious and meaningful Cross Border Dinner experience with Fanju app, a social dining app that connects people for small, c…"
 recoveredFromD1: true
 ---
 Auckland Cross Border Dinner Guide

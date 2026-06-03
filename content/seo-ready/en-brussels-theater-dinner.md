@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/theater-dinner"
 alternatePath: "/city/brussels/theater-dinner"
 translationKey: "brussels-theater-dinner"
 lang: "en"
-title: "How Fanju app turns a Brussels Theater Dinner night into something worth showing up for | fanju-app"
-description: "In Brussels, a Theater Dinner event promises a blend of culture and cuisine, but the success often hinges on the group dynamics. Without a clear sense of who you'll be sharing the table with, the experience can feel"
+title: "How Fanju app turns a Brussels Theater Dinner night into something..."
+description: "In Brussels, a Theater Dinner event promises a blend of culture and cuisine, but the success often hinges on the group dynamics."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

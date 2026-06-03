@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/heihe/valentines-dinner"
 alternatePath: "/en/city/heihe/valentines-dinner"
-title: "黑河的一顿情人节饭局，饭局app为什么先看人再看热闹 | fanju-app"
+title: "黑河的一顿情人节饭局，饭局app为什么先看人再看热闹"
 description: "在黑河，饭局app不是为热闹而存在的。它更像是一种筛选机制，把那些真正想安静吃顿饭、听几句真话的人，从节日喧嚣里轻轻拉出来。每年情人节，城市照例被灯光和促销填满，可真正让人记住的，往往是一桌有温度的晚饭——几道本地人常点的菜，几句不绕弯的对"
 recoveredFromD1: true
 ---

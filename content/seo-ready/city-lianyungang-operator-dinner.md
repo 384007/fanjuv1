@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/lianyungang/operator-dinner"
 alternatePath: "/en/city/lianyungang/operator-dinner"
-title: "连云港运营者饭局指南 | fanju-app | 饭局app"
+title: "连云港运营者饭局指南"
 description: "在连云港，跟本地主办方吃一顿饭远比任何旅游攻略更接近真实生活。通过饭局app，了解本地运营者的生活和故事，体验连云港的城市节奏和街区选择。"
 recoveredFromD1: true
 ---

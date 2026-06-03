@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/hainan-qinghai/doctor-dinner"
 alternatePath: "/en/city/hainan-qinghai/doctor-dinner"
-title: "海南州医生饭局指南 | fanju-app | 饭局app"
+title: "海南州医生饭局指南"
 description: "在海南州，医生饭局是一种特殊的社交活动，通过美食连接陌生人之间的关系。Fanju 是一个围绕小桌吃饭、清晰主题和线下连接的社交应用，适合海南州的医生和其他专业人士。"
 recoveredFromD1: true
 ---

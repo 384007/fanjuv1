@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tehran/pop-up-dinner"
 alternatePath: "/city/tehran/pop-up-dinner"
 translationKey: "tehran-pop-up-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Tehran Pop Up Dinner table before the first course"
-description: "The reader who will enjoy a Pop Up Dinner in Tehran using the small-table dinner concept is someone looking for a meaningful offline interaction without the pressure of a formal networking event. This person values the"
+title: "The Fanju app way to judge a Tehran Pop Up Dinner table before the..."
+description: "The reader who will enjoy a Pop Up Dinner in Tehran using the small-table dinner concept is someone looking for a meaningful offline interaction without…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

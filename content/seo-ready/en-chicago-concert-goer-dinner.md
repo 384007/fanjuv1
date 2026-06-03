@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chicago/concert-goer-dinner"
 alternatePath: "/city/chicago/concert-goer-dinner"
 translationKey: "chicago-concert-goer-dinner"
 lang: "en"
-title: "Before the first message in Chicago, Fanju app makes Concert Goer Dinner feel like a real decision | fanju-app"
-description: "Chicago’s concert calendar moves fast. A Friday might bring indie rock to Lincoln Hall, opera to the Lyric, or jazz to the Green Mill. But beneath the rhythm of set times and opening acts, there’s a quieter need: a"
+title: "Before the first message in Chicago, Fanju app makes Concert Goer..."
+description: "Chicago’s concert calendar moves fast. A Friday might bring indie rock to Lincoln Hall, opera to the Lyric, or jazz to the Green Mill."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

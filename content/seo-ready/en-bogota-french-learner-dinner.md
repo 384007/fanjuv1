@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bogota/french-learner-dinner"
 alternatePath: "/city/bogota/french-learner-dinner"
 translationKey: "bogota-french-learner-dinner"
 lang: "en"
-title: "Bogota has plenty of French Learner Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "In Bogota, where weekend plans often dissolve into indecision or last-minute cancellations, the French Learner Dinner scene has quietly become a reliable anchor. It’s not just about practicing verbs or pronunciation—it’s"
+title: "Bogota has plenty of French Learner Dinner options; Fanju app is..."
+description: "In Bogota, where weekend plans often dissolve into indecision or last-minute cancellations, the French Learner Dinner scene has quietly become a reliabl…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/perth/escape-room-dinner"
 alternatePath: "/city/perth/escape-room-dinner"
 translationKey: "perth-escape-room-dinner"
 lang: "en"
-title: "The Escape Room Dinner table Perth actually needs is the one Fanju app describes up front | fanju-app"
-description: "The Fanju app is not a dating platform, a group chat, or an event listing site. It’s a social dining tool built for people in Perth who want real connection without performance. Escape Room Dinner on Fanju isn’t about ro"
+title: "The Escape Room Dinner table Perth actually needs is the one Fanju..."
+description: "The Fanju app is not a dating platform, a group chat, or an event listing site. It’s a social dining tool built for people in Perth who want real connec…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

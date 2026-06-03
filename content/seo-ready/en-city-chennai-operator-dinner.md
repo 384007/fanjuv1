@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/chennai/operator-dinner"
 alternatePath: "/city/chennai/operator-dinner"
-title: "Chennai Operator Dinner Guide | Fanju app"
-description: "Discover the world of Operator Dinners in Chennai with Fanju app, a social dining app that connects people for small, clearly described meals and real-world connections."
+title: "Chennai Operator Dinner Guide"
+description: "Discover the world of Operator Dinners in Chennai with Fanju app, a social dining app that connects people for small, clearly described meals and real-w…"
 recoveredFromD1: true
 ---
 Chennai, a city that never sleeps, is a melting pot of cultures, cuisines, and experiences. As the sun sets over the Marina Beach, the city transforms into a vibrant hub of activity, with people from all walks of life coming together to share meals, stories, and laughter. In this bustling metropolis, Operator Dinners have become a popular way for like-minded individuals to connect over a shared love of food and good company.

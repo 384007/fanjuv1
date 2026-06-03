@@ -4,8 +4,8 @@ canonicalPath: "/en/city/osaka/designer-dinner"
 alternatePath: "/city/osaka/designer-dinner"
 translationKey: "osaka-designer-dinner"
 lang: "en"
-title: "Is a small-table Designer Dinner in Osaka actually worth the risk? Fanju app and the real boundaries you need"
-description: "The first concern for many Osaka locals is not the food itself, but what happens when the plates are cleared. A good listing sets expectations for the evening’s end, allowing you to plan your train ride home across the"
+title: "Is a small-table Designer Dinner in Osaka actually worth the risk?..."
+description: "The first concern for many Osaka locals is not the food itself, but what happens when the plates are cleared."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

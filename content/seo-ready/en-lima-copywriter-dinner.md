@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lima/copywriter-dinner"
 alternatePath: "/city/lima/copywriter-dinner"
 translationKey: "lima-copywriter-dinner"
 lang: "en"
-title: "Lima Copywriter Dinner on Fanju app: a curated table that beats noisy meetups"
-description: "The host’s description should highlight why the copywriter theme matters now in Lima, not just repeat the category name. A useful cue is a sentence that mentions the city’s recent advertising boom, such as “Lima’s"
+title: "Lima Copywriter Dinner on Fanju app: a curated table that beats..."
+description: "The host’s description should highlight why the copywriter theme matters now in Lima, not just repeat the category name."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

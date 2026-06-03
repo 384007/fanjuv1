@@ -4,8 +4,8 @@ canonicalPath: "/en/city/fukuoka/electrical-engineer-dinner"
 alternatePath: "/city/fukuoka/electrical-engineer-dinner"
 translationKey: "fukuoka-electrical-engineer-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Fukuoka Electrical Engineer Dinner table before the first course"
-description: "This table is designed for the engineer who values substantive discussion over networking noise, specifically those looking to bridge technical gaps in the Fukuoka tech scene. If you are someone who prefers a"
+title: "The Fanju app way to judge a Fukuoka Electrical Engineer Dinner..."
+description: "This table is designed for the engineer who values substantive discussion over networking noise, specifically those looking to bridge technical gaps in…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

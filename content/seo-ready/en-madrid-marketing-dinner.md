@@ -4,8 +4,8 @@ canonicalPath: "/en/city/madrid/marketing-dinner"
 alternatePath: "/city/madrid/marketing-dinner"
 translationKey: "madrid-marketing-dinner"
 lang: "en"
-title: "A calmer way to approach Marketing Dinner in Madrid through Fanju app | fanju-app"
-description: "If you’ve ever stood outside a Madrid metro station at 8 p.m., debating whether to go home to an empty kitchen or force a conversation at a bar you don’t like, you’re not alone. The Fanju app was designed for those momen"
+title: "A calmer way to approach Marketing Dinner in Madrid through Fanju app"
+description: "If you’ve ever stood outside a Madrid metro station at 8 p.m., debating whether to go home to an empty kitchen or force a conversation at a bar you don’…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

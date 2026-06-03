@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/vancouver/saturday-dinner"
 alternatePath: "/city/vancouver/saturday-dinner"
-title: "Vancouver does not need another vague invite; Fanju app makes Saturday Dinner specific | fanju-app | 饭局app"
-description: "Vancouver, a city where evenings can feel both vibrant and strangely isolating, presents a unique challenge for newcomers looking to connect. Arriving this month, the prospect of finding a genuine social circle beyond th"
+title: "Vancouver does not need another vague invite; Fanju app makes..."
+description: "Vancouver, a city where evenings can feel both vibrant and strangely isolating, presents a unique challenge for newcomers looking to connect."
 recoveredFromD1: true
 ---
 # Vancouver does not need another vague invite; Fanju app makes Saturday Dinner specific

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/naqu/international-student-dinner"
 alternatePath: "/en/city/naqu/international-student-dinner"
-title: "那曲国际学生饭局指南 | fanju-app | 饭局app"
+title: "那曲国际学生饭局指南"
 description: "在藏北高原，那曲的国际学生们如何通过饭局app（Fanju）找到安全、真实的线下连接？这篇指南将深入探讨，从公开餐厅到真实身份，再到小桌的温暖，解析一桌小饭局如何建立信任，让远道而来的学子们感受到家的温暖。"
 recoveredFromD1: true
 ---

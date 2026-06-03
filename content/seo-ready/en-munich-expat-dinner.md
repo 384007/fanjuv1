@@ -4,8 +4,8 @@ canonicalPath: "/en/city/munich/expat-dinner"
 alternatePath: "/city/munich/expat-dinner"
 translationKey: "munich-expat-dinner"
 lang: "en"
-title: "Munich strangers sit down easier when Fanju app frames the Expat Dinner table first | fanju-app"
-description: "In Munich, meeting locals through a dinner hosted by the Fanju app often reveals more about everyday life than any walking tour or guidebook. Newcomers quickly learn that finding a meal with real conversation—where Bavar"
+title: "Munich strangers sit down easier when Fanju app frames the Expat..."
+description: "In Munich, meeting locals through a dinner hosted by the Fanju app often reveals more about everyday life than any walking tour or guidebook."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

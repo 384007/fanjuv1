@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/ho-chi-minh-city/valentines-dinner"
 alternatePath: "/city/ho-chi-minh-city/valentines-dinner"
-title: "Ho Chi Minh City Valentines Dinner Guide | Fanju app"
-description: "Planning a memorable Valentine's weekend in Ho Chi Minh City? This guide positions your dinner as the centerpiece of your celebrations, offering practical advice for making the most of the occasion. Discover how to weave pre- and post-dinner activities into a cohesive experience, ensuring a delightful weekend. For those seeking intimate, real-world connections, the Fanju app offers a unique platform to discover and host small, curated dining experiences. It's designed for individuals looking to share a meal and conversation in a safe, welcoming environment, fostering genuine interactions beyond the usual social media noise. Explore how Fanju can enhance your Ho Chi Minh City Valentine's weekend."
+title: "Ho Chi Minh City Valentines Dinner Guide"
+description: "Planning a memorable Valentine's weekend in Ho Chi Minh City? This guide positions your dinner as the centerpiece of your celebrations, offering practic…"
 recoveredFromD1: true
 ---
 Ho Chi Minh City pulses with a unique energy, especially as Valentine&#039;s Day approaches. This guide is crafted to help you plan your Valentine&#039;s dinner not as an isolated event, but as the heart of a well-rounded weekend. Think of it as the anchor around which your entire celebration will revolve, from thoughtful preparations beforehand to enjoyable post-dinner moments. By centering your weekend around a carefully chosen dining experience, you create opportunities for deeper connection and lasting memories, whether you&#039;re a long-time resident or new to the city&#039;s vibrant scene.

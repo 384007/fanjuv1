@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ahmedabad/philosophy-dinner"
 alternatePath: "/city/ahmedabad/philosophy-dinner"
 translationKey: "ahmedabad-philosophy-dinner"
 lang: "en"
-title: "A clearer Philosophy Dinner dinner in Ahmedabad: Fanju app, small tables, and real boundaries"
-description: "You have finished a long week in Ahmedabad and the last thing you want is a vague meetup that wastes your evening. A Philosophy Dinner listing should explicitly state why this specific table is worth the commute across"
+title: "A clearer Philosophy Dinner dinner in Ahmedabad: Fanju app, small..."
+description: "You have finished a long week in Ahmedabad and the last thing you want is a vague meetup that wastes your evening."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

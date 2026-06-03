@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kolkata/teacher-dinner"
 alternatePath: "/city/kolkata/teacher-dinner"
 translationKey: "kolkata-teacher-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Kolkata Teacher Dinner table before the first course"
-description: "A strong listing immediately answers why this specific gathering matters right now. In Kolkata, where professional circles can feel insular, the right invitation offers a clear premise that resonates with an educator's"
+title: "The Fanju app way to judge a Kolkata Teacher Dinner table before..."
+description: "A strong listing immediately answers why this specific gathering matters right now."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

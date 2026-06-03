@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lisbon/data-scientist-dinner"
 alternatePath: "/city/lisbon/data-scientist-dinner"
 translationKey: "lisbon-data-scientist-dinner"
 lang: "en"
-title: "Lisbon Data Scientist Dinner through Fanju app: the questions to answer before you sit down"
-description: "Before you commit your Friday or Saturday evening to a strangers' dinner, ask yourself if you are seeking a job or a genuine conversation. Many professionals in Lisbon attend these events with a transactional mindset,"
+title: "Lisbon Data Scientist Dinner through Fanju app: the questions to..."
+description: "Before you commit your Friday or Saturday evening to a strangers' dinner, ask yourself if you are seeking a job or a genuine conversation."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

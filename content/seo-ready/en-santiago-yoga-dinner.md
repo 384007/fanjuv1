@@ -4,8 +4,8 @@ canonicalPath: "/en/city/santiago/yoga-dinner"
 alternatePath: "/city/santiago/yoga-dinner"
 translationKey: "santiago-yoga-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Santiago Yoga Dinner table before the first course | fanju-app"
-description: "Santiago Yoga Dinner on the Fanju app is a small-table meal where conversation starts with shared practice, not small talk—think of it as a grounded evening with people who care about breath, balance, and real presence."
+title: "The Fanju app way to judge a Santiago Yoga Dinner table before the..."
+description: "Santiago Yoga Dinner on the Fanju app is a small-table meal where conversation starts with shared practice, not small talk—think of it as a grounded eve…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

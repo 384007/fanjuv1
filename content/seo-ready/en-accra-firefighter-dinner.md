@@ -4,8 +4,8 @@ canonicalPath: "/en/city/accra/firefighter-dinner"
 alternatePath: "/city/accra/firefighter-dinner"
 translationKey: "accra-firefighter-dinner"
 lang: "en"
-title: "Before the first message in Accra, Fanju app makes Firefighter Dinner feel like a real decision | fanju-app"
-description: "Arriving in Accra for the first time, the city hums with possibility—taxis weaving through Jamestown’s narrow lanes, the scent of grilled corn at dusk, and pockets of conversation in both English and Ga. But even with a"
+title: "Before the first message in Accra, Fanju app makes Firefighter..."
+description: "Arriving in Accra for the first time, the city hums with possibility—taxis weaving through Jamestown’s narrow lanes, the scent of grilled corn at dusk,…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

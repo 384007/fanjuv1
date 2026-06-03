@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bangkok/sustainability-dinner"
 alternatePath: "/city/bangkok/sustainability-dinner"
 translationKey: "bangkok-sustainability-dinner"
 lang: "en"
-title: "For Bangkok readers considering Sustainability Dinner, Fanju app should make the room legible"
-description: "Before you commit to a chair, ask yourself if the host has clearly defined why this specific dinner matters in Bangkok right now. A vague invitation often leads to a vague experience, where the conversation drifts into"
+title: "For Bangkok readers considering Sustainability Dinner, Fanju app..."
+description: "Before you commit to a chair, ask yourself if the host has clearly defined why this specific dinner matters in Bangkok right now."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

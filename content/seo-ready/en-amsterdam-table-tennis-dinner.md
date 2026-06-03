@@ -5,7 +5,7 @@ alternatePath: "/city/amsterdam/table-tennis-dinner"
 translationKey: "amsterdam-table-tennis-dinner"
 lang: "en"
 title: "After‑Work Comfort: Amsterdam Table Tennis Dinner via the Fanju app"
-description: "The first decision point is whether the promised calm atmosphere matches your own comfort level. Amsterdam’s dining culture varies from bustling canal‑side terraces to intimate rooms hidden behind boutique cafés. A"
+description: "The first decision point is whether the promised calm atmosphere matches your own comfort level."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

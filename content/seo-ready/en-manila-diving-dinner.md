@@ -4,8 +4,8 @@ canonicalPath: "/en/city/manila/diving-dinner"
 alternatePath: "/city/manila/diving-dinner"
 translationKey: "manila-diving-dinner"
 lang: "en"
-title: "Manila does not need another vague invite; Fanju app makes Diving Dinner specific | fanju-app"
-description: "In Manila, where evenings unfold in layers—traffic easing after seven, jeepneys still packed near Ayala, and dinner plans forming over crackling Viber calls—plans often begin with “Maybe, later?” That vagueness is famili"
+title: "Manila does not need another vague invite; Fanju app makes Diving..."
+description: "In Manila, where evenings unfold in layers—traffic easing after seven, jeepneys still packed near Ayala, and dinner plans forming over crackling Viber c…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

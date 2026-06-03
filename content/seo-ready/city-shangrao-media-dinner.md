@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/shangrao/media-dinner"
 alternatePath: "/en/city/shangrao/media-dinner"
-title: "上饶媒体饭局指南 | fanju-app | 饭局app"
+title: "上饶媒体饭局指南"
 description: "在上饶体验媒体饭局的独特魅力，了解Fanju饭局app的运作机制和安全保障。"
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vienna/marathon-dinner"
 alternatePath: "/city/vienna/marathon-dinner"
 translationKey: "vienna-marathon-dinner"
 lang: "en"
-title: "A Vienna dinner table for Marathon Dinner, with Fanju app boundaries up front"
-description: "A listing for Marathon Dinner in Vienna must go beyond a catchy title to truly serve its purpose. The host note should articulate why this specific topic resonates within the city right now, rather than simply repeating"
+title: "A Vienna dinner table for Marathon Dinner, with Fanju app..."
+description: "A listing for Marathon Dinner in Vienna must go beyond a catchy title to truly serve its purpose."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

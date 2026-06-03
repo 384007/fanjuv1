@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tel-aviv/translator-dinner"
 alternatePath: "/city/tel-aviv/translator-dinner"
 translationKey: "tel-aviv-translator-dinner"
 lang: "en"
-title: "Before the first message in Tel Aviv, Fanju app makes Translator Dinner feel like a real decision | fanju-app"
-description: "In Tel Aviv, where evenings often dissolve into indecision—another rooftop drink that never becomes dinner, another group chat thread trailing off into silence—the Translator Dinner hosted through the Fanju app stands ap"
+title: "Before the first message in Tel Aviv, Fanju app makes Translator..."
+description: "In Tel Aviv, where evenings often dissolve into indecision—another rooftop drink that never becomes dinner, another group chat thread trailing off into…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

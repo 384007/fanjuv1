@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mexico-city/expat-dinner"
 alternatePath: "/city/mexico-city/expat-dinner"
 translationKey: "mexico-city-expat-dinner"
 lang: "en"
-title: "Mexico City does not need another vague invite; Fanju app makes Expat Dinner specific | fanju-app"
-description: "In Mexico City, where the workday stretches late and shared apartments blur into co-working spaces, the gap between finishing a screen and actually connecting with someone can feel wide. The Fanju app narrows that gap no"
+title: "Mexico City does not need another vague invite; Fanju app makes..."
+description: "In Mexico City, where the workday stretches late and shared apartments blur into co-working spaces, the gap between finishing a screen and actually conn…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

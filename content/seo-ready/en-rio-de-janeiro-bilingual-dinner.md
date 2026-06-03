@@ -4,8 +4,8 @@ canonicalPath: "/en/city/rio-de-janeiro/bilingual-dinner"
 alternatePath: "/city/rio-de-janeiro/bilingual-dinner"
 translationKey: "rio-de-janeiro-bilingual-dinner"
 lang: "en"
-title: "In Rio de Janeiro, Fanju app turns Bilingual Dinner into a table people can actually trust | fanju-app"
-description: "Rio de Janeiro: In a city where plans often emerge over caipirinhas at 9 p. m. , a Bilingual Dinner through the Fanju app stands out because it has a name, a time, and a real table. That specificity matters."
+title: "In Rio de Janeiro, Fanju app turns Bilingual Dinner into a table..."
+description: "Rio de Janeiro: In a city where plans often emerge over caipirinhas at 9 p. m. , a Bilingual Dinner through the Fanju app stands out because it has a na…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

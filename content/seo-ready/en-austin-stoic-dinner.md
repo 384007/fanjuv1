@@ -4,8 +4,8 @@ canonicalPath: "/en/city/austin/stoic-dinner"
 alternatePath: "/city/austin/stoic-dinner"
 translationKey: "austin-stoic-dinner"
 lang: "en"
-title: "When Stoic Dinner feels too loose in Austin, Fanju app starts with the table | fanju-app"
-description: "When dinner plans in Austin drift into vague social gatherings with no clear rhythm, the Fanju app offers a grounded alternative: the table as anchor. It’s not about packed venues or loud group chats, but about selecting"
+title: "When Stoic Dinner feels too loose in Austin, Fanju app starts with..."
+description: "When dinner plans in Austin drift into vague social gatherings with no clear rhythm, the Fanju app offers a grounded alternative: the table as anchor."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

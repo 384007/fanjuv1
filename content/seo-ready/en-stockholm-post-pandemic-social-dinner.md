@@ -4,8 +4,8 @@ canonicalPath: "/en/city/stockholm/post-pandemic-social-dinner"
 alternatePath: "/city/stockholm/post-pandemic-social-dinner"
 translationKey: "stockholm-post-pandemic-social-dinner"
 lang: "en"
-title: "Before joining Post Pandemic Social Dinner in Stockholm, what Fanju app should make clear"
-description: "Readers in Stockholm often prioritize knowing exactly when a dinner concludes, especially when traveling between neighborhoods like Södermalm and Östermalm on a dark evening. A good listing for Post Pandemic Social"
+title: "Before joining Post Pandemic Social Dinner in Stockholm, what..."
+description: "Readers in Stockholm often prioritize knowing exactly when a dinner concludes, especially when traveling between neighborhoods like Södermalm and Österm…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

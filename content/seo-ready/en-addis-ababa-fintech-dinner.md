@@ -4,8 +4,8 @@ canonicalPath: "/en/city/addis-ababa/fintech-dinner"
 alternatePath: "/city/addis-ababa/fintech-dinner"
 translationKey: "addis-ababa-fintech-dinner"
 lang: "en"
-title: "For people trying Fintech Dinner in Addis Ababa, Fanju app puts the guest mix first | fanju-app"
-description: "If you're considering a Fintech Dinner in Addis Ababa through the Fanju app, what you're really asking is not just who you’ll meet—but whether the setting will feel safe, predictable, and worth your time. In a city where"
+title: "For people trying Fintech Dinner in Addis Ababa, Fanju app puts..."
+description: "If you're considering a Fintech Dinner in Addis Ababa through the Fanju app, what you're really asking is not just who you’ll meet—but whether the setti…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

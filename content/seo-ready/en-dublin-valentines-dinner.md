@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dublin/valentines-dinner"
 alternatePath: "/city/dublin/valentines-dinner"
 translationKey: "dublin-valentines-dinner"
 lang: "en"
-title: "What makes Valentines Dinner in Dublin worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "Dublin’s Valentines Dinner scene isn’t about crowded wine bars or predictable three-course set menus. It’s about intention: who’s invited, where they sit, and what’s left unsaid. The Fanju app surfaces these dinners befo"
+title: "What makes Valentines Dinner in Dublin worth the risk; Fanju app..."
+description: "Dublin’s Valentines Dinner scene isn’t about crowded wine bars or predictable three-course set menus."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

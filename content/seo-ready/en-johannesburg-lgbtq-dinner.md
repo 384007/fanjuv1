@@ -4,8 +4,8 @@ canonicalPath: "/en/city/johannesburg/lgbtq-dinner"
 alternatePath: "/city/johannesburg/lgbtq-dinner"
 translationKey: "johannesburg-lgbtq-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Johannesburg LGBTQ Friendly Dinner table before the first course"
-description: "When you arrive at a Johannesburg venue for a small-table dinner, the first ten minutes often set the tone for the entire evening. You stand at the entrance, scanning the room, deciding whether the energy matches the"
+title: "The Fanju app way to judge a Johannesburg LGBTQ Friendly Dinner..."
+description: "When you arrive at a Johannesburg venue for a small-table dinner, the first ten minutes often set the tone for the entire evening."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

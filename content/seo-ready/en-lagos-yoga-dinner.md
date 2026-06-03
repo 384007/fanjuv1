@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lagos/yoga-dinner"
 alternatePath: "/city/lagos/yoga-dinner"
 translationKey: "lagos-yoga-dinner"
 lang: "en"
-title: "Finding a Lagos Yoga Dinner through the Fanju app: a remote‑worker’s weekend anchor"
-description: "Remote‑workers need a social anchor that fits into a Saturday evening without derailing the next workday. A well‑planned Yoga Dinner should list a start time, a realistic finish window, and clear instructions for"
+title: "Finding a Lagos Yoga Dinner through the Fanju app: a..."
+description: "Remote‑workers need a social anchor that fits into a Saturday evening without derailing the next workday."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/amsterdam/local-guide-dinner"
 alternatePath: "/city/amsterdam/local-guide-dinner"
 translationKey: "amsterdam-local-guide-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Amsterdam Local Guide Dinner table before the first course | fanju-app"
-description: "Amsterdam Local Guide Dinner through the Fanju app begins not with a bold promise, but with a quiet decision: whether to step into a brown café doorway when the host is already seated by the window."
+title: "The Fanju app way to judge a Amsterdam Local Guide Dinner table..."
+description: "Amsterdam Local Guide Dinner through the Fanju app begins not with a bold promise, but with a quiet decision: whether to step into a brown café doorway…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

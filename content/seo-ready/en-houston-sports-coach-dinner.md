@@ -4,8 +4,8 @@ canonicalPath: "/en/city/houston/sports-coach-dinner"
 alternatePath: "/city/houston/sports-coach-dinner"
 translationKey: "houston-sports-coach-dinner"
 lang: "en"
-title: "Houston has plenty of Sports Coach Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "Weekends in Houston stretch with possibility, but also with a quiet kind of isolation, especially if your workweek happens in silence. The city’s sprawl makes spontaneous meetups difficult, and many group events lean"
+title: "Houston has plenty of Sports Coach Dinner options; Fanju app is..."
+description: "Weekends in Houston stretch with possibility, but also with a quiet kind of isolation, especially if your workweek happens in silence."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

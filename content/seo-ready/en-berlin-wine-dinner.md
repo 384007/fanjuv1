@@ -4,8 +4,8 @@ canonicalPath: "/en/city/berlin/wine-dinner"
 alternatePath: "/city/berlin/wine-dinner"
 translationKey: "berlin-wine-dinner"
 lang: "en"
-title: "Berlin Wine Dinner on a Friday night: can the Fanju app make the table trustworthy?"
-description: "Berliners value a sense of certainty before they say “yes” to a weekend dinner, especially when the invitation arrives just after work. The trust question starts with the host’s communication style: do they provide a"
+title: "Berlin Wine Dinner on a Friday night: can the Fanju app make the..."
+description: "Berliners value a sense of certainty before they say “yes” to a weekend dinner, especially when the invitation arrives just after work."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

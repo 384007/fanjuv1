@@ -5,7 +5,7 @@ alternatePath: "/city/perth/k-pop-dinner"
 translationKey: "perth-k-pop-dinner"
 lang: "en"
 title: "Perth's K-Pop Dinner Scene: A Small-Table Community Guide on Fanju app"
-description: "When you're exploring Perth's social offerings, a K-Pop Dinner presents a specific kind of neighbourhood exploration. It’s about finding a pocket of shared enthusiasm within the broader city landscape. Imagine walking"
+description: "When you're exploring Perth's social offerings, a K-Pop Dinner presents a specific kind of neighbourhood exploration."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

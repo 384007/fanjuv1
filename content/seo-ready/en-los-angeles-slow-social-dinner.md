@@ -4,7 +4,7 @@ canonicalPath: "/en/city/los-angeles/slow-social-dinner"
 alternatePath: "/city/los-angeles/slow-social-dinner"
 translationKey: "los-angeles-slow-social-dinner"
 lang: "en"
-title: "How Fanju app turns a Los Angeles Slow Social Dinner night into something worth showing up for | fanju-app"
+title: "How Fanju app turns a Los Angeles Slow Social Dinner night into..."
 description: "The initial moments of entering a new social setting in Los Angeles, especially a restaurant where you recognize no one, can be a defining experience."
 pageType: "city_article"
 priorityScore: 70

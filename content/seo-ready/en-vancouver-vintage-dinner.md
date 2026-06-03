@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vancouver/vintage-dinner"
 alternatePath: "/city/vancouver/vintage-dinner"
 translationKey: "vancouver-vintage-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Vancouver Vintage Dinner table before the first course"
-description: "The core idea behind Fanju is that food, particularly a well-chosen meal with a specific theme, acts as a natural icebreaker and connector. In Vancouver, a city with a diverse culinary landscape and a strong"
+title: "The Fanju app way to judge a Vancouver Vintage Dinner table before..."
+description: "The core idea behind Fanju is that food, particularly a well-chosen meal with a specific theme, acts as a natural icebreaker and connector."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -5,7 +5,7 @@ alternatePath: "/city/accra/gaming-dinner"
 translationKey: "accra-gaming-dinner"
 lang: "en"
 title: "Accra Gaming Dinner: how Fanju app makes the table worth choosing"
-description: "A strong listing immediately captures the specific atmosphere of the evening, distinguishing a strategic board game night from a casual console session. For a newcomer in Accra looking at a weekend plan, the first few"
+description: "A strong listing immediately captures the specific atmosphere of the evening, distinguishing a strategic board game night from a casual console session.…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

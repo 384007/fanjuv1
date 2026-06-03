@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/haibei/women-friendly-dinner"
 alternatePath: "/en/city/haibei/women-friendly-dinner"
-title: "海北女性友好饭局指南 | fanju-app | 饭局app"
+title: "海北女性友好饭局指南"
 description: "在海北的女性友好饭局指南，帮助您找到最适合您的饭局场所，连接人脉，体验美食。"
 recoveredFromD1: true
 ---

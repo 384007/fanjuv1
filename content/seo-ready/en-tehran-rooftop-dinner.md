@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tehran/rooftop-dinner"
 alternatePath: "/city/tehran/rooftop-dinner"
 translationKey: "tehran-rooftop-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Tehran Rooftop Dinner table before the first course"
-description: "This table is designed for the Tehran resident who values a curated-table standard and prefers knowing exactly who will be sitting across from them. You will enjoy this evening if you appreciate a small-table dinner"
+title: "The Fanju app way to judge a Tehran Rooftop Dinner table before..."
+description: "This table is designed for the Tehran resident who values a curated-table standard and prefers knowing exactly who will be sitting across from them."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

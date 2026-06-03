@@ -4,8 +4,8 @@ canonicalPath: "/en/city/helsinki/pottery-dinner"
 alternatePath: "/city/helsinki/pottery-dinner"
 translationKey: "helsinki-pottery-dinner"
 lang: "en"
-title: "Before joining Pottery Dinner in Helsinki, what Fanju app should make clear"
-description: "In Helsinki, the distance between neighbourhoods often dictates whether people are willing to attend an evening event, so a Pottery Dinner listing must provide a compelling reason to cross town. A generic invitation to"
+title: "Before joining Pottery Dinner in Helsinki, what Fanju app should..."
+description: "In Helsinki, the distance between neighbourhoods often dictates whether people are willing to attend an evening event, so a Pottery Dinner listing must…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

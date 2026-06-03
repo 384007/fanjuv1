@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vienna/biotech-dinner"
 alternatePath: "/city/vienna/biotech-dinner"
 translationKey: "vienna-biotech-dinner"
 lang: "en"
-title: "Vienna Biotech Dinner Reset: How the Fanju app Curates a Small Table Evening"
-description: "The Museumsquartier’s quiet side streets host many low‑key gatherings, but a biotech dinner here feels different. The venue’s glass‑fronted lounge lets natural light spill over the table, making it easy to picture the"
+title: "Vienna Biotech Dinner Reset: How the Fanju app Curates a Small..."
+description: "The Museumsquartier’s quiet side streets host many low‑key gatherings, but a biotech dinner here feels different."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96

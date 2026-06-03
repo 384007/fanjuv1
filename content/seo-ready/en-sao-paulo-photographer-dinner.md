@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sao-paulo/photographer-dinner"
 alternatePath: "/city/sao-paulo/photographer-dinner"
 translationKey: "sao-paulo-photographer-dinner"
 lang: "en"
-title: "When Photographer Dinner feels too loose in Sao Paulo, Fanju app starts with the table | fanju-app"
-description: "In Sao Paulo, where dinner plans often dissolve into last-minute cancellations or vague meetups at barraquinhas along Paulista, the Fanju app offers a different rhythm for creative gatherings—starting with Photographer D"
+title: "When Photographer Dinner feels too loose in Sao Paulo, Fanju app..."
+description: "In Sao Paulo, where dinner plans often dissolve into last-minute cancellations or vague meetups at barraquinhas along Paulista, the Fanju app offers a d…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

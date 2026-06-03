@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dar-es-salaam/coffee-lover-dinner"
 alternatePath: "/city/dar-es-salaam/coffee-lover-dinner"
 translationKey: "dar-es-salaam-coffee-lover-dinner"
 lang: "en"
-title: "Dar es Salaam Coffee Lover Dinner: how Fanju app makes the table worth choosing"
-description: "The description of the venue must go beyond a generic name if you want to feel comfortable arriving alone. In Dar es Salaam, a public venue type matters because strangers need to picture the room before joining, so you"
+title: "Dar es Salaam Coffee Lover Dinner: how Fanju app makes the table..."
+description: "The description of the venue must go beyond a generic name if you want to feel comfortable arriving alone."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

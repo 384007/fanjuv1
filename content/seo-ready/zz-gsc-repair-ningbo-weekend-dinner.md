@@ -4,7 +4,7 @@ canonicalPath: "/city/ningbo/weekend-dinner"
 alternatePath: "/en/city/ningbo/weekend-dinner"
 translationKey: "gsc-repair-ningbo-weekend-dinner"
 lang: "zh"
-title: "宁波周末饭局指南 | fanju-app | 饭局app"
+title: "宁波周末饭局指南"
 description: "宁波周末饭局适合本地用户和新朋友通过公开小桌晚餐建立轻松同城连接。"
 pageType: "city_topic"
 priorityScore: 78

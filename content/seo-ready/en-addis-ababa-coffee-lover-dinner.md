@@ -5,7 +5,7 @@ alternatePath: "/city/addis-ababa/coffee-lover-dinner"
 translationKey: "addis-ababa-coffee-lover-dinner"
 lang: "en"
 title: "Finding the Right Coffee Lover Dinner in Addis Ababa with Fanju app"
-description: "The first decision many newcomers face is whether the timing of the dinner aligns with the city’s rhythm. Addis Ababa’s traffic peaks between 5 pm and 7 pm, so a table that starts at 6 pm in the Bole neighbourhood may"
+description: "The first decision many newcomers face is whether the timing of the dinner aligns with the city’s rhythm."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

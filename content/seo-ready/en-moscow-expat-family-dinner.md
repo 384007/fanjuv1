@@ -4,8 +4,8 @@ canonicalPath: "/en/city/moscow/expat-family-dinner"
 alternatePath: "/city/moscow/expat-family-dinner"
 translationKey: "moscow-expat-family-dinner"
 lang: "en"
-title: "Moscow Expat Family Dinner: how Fanju app makes the table worth choosing"
-description: "The core value of using this platform for a Moscow Expat Family Dinner lies in the transparency provided before the event. Unlike generic meetups where attendees often arrive blind to the guest list, Fanju 饭局app"
+title: "Moscow Expat Family Dinner: how Fanju app makes the table worth..."
+description: "The core value of using this platform for a Moscow Expat Family Dinner lies in the transparency provided before the event."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

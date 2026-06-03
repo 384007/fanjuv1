@@ -4,8 +4,8 @@ canonicalPath: "/en/city/cape-town/tasting-menu-dinner"
 alternatePath: "/city/cape-town/tasting-menu-dinner"
 translationKey: "cape-town-tasting-menu-dinner"
 lang: "en"
-title: "When Tasting Menu Dinner in Cape Town needs more than a group chat, Fanju app starts with the table"
-description: "Before committing to an evening, ask yourself if the specific timing and location justify the effort of crossing Cape Town after a long workday. The city’s geography is unique, with the mountain and the sea creating"
+title: "When Tasting Menu Dinner in Cape Town needs more than a group..."
+description: "Before committing to an evening, ask yourself if the specific timing and location justify the effort of crossing Cape Town after a long workday."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

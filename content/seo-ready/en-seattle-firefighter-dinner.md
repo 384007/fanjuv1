@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seattle/firefighter-dinner"
 alternatePath: "/city/seattle/firefighter-dinner"
 translationKey: "seattle-firefighter-dinner"
 lang: "en"
-title: "Seattle Firefighter Dinner: how Fanju app makes the table worth choosing"
-description: "Understanding how the evening winds down is essential for busy Seattle professionals who juggle multiple commitments. After the dinner, most hosts suggest a natural exit point—typically when the dessert plate is"
+title: "Seattle Firefighter Dinner: how Fanju app makes the table worth..."
+description: "Understanding how the evening winds down is essential for busy Seattle professionals who juggle multiple commitments."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

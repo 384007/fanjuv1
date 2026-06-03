@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brisbane/bilingual-dinner"
 alternatePath: "/city/brisbane/bilingual-dinner"
 translationKey: "brisbane-bilingual-dinner"
 lang: "en"
-title: "Brisbane Bilingual Dinner: how Fanju app makes the table worth choosing"
-description: "A compelling listing for a Brisbane Bilingual Dinner does not start with a checklist of demographics, but with a specific promise of the atmosphere that food creates. When you read a description that emphasizes the"
+title: "Brisbane Bilingual Dinner: how Fanju app makes the table worth..."
+description: "A compelling listing for a Brisbane Bilingual Dinner does not start with a checklist of demographics, but with a specific promise of the atmosphere that…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

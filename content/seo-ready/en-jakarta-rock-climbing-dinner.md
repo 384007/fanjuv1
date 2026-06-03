@@ -4,8 +4,8 @@ canonicalPath: "/en/city/jakarta/rock-climbing-dinner"
 alternatePath: "/city/jakarta/rock-climbing-dinner"
 translationKey: "jakarta-rock-climbing-dinner"
 lang: "en"
-title: "For Jakarta readers considering Rock Climbing Dinner, Fanju app should make the room legible"
-description: "A well-written host note should explicitly explain why a Rock Climbing Dinner fits the current Jakarta social calendar, rather than simply repeating the category name. The city's density means that a generic invite gets"
+title: "For Jakarta readers considering Rock Climbing Dinner, Fanju app..."
+description: "A well-written host note should explicitly explain why a Rock Climbing Dinner fits the current Jakarta social calendar, rather than simply repeating the…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

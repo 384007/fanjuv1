@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chicago/data-scientist-dinner"
 alternatePath: "/city/chicago/data-scientist-dinner"
 translationKey: "chicago-data-scientist-dinner"
 lang: "en"
-title: "Before joining Data Scientist Dinner in Chicago, what Fanju app should make clear"
-description: "This particular Data Scientist Dinner event in Chicago is designed for those who appreciate a more intimate setting than a large, noisy meetup. It’s for professionals who, after a day’s work, might need a concrete"
+title: "Before joining Data Scientist Dinner in Chicago, what Fanju app..."
+description: "This particular Data Scientist Dinner event in Chicago is designed for those who appreciate a more intimate setting than a large, noisy meetup."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

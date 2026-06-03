@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dubai/lunar-new-year-dinner"
 alternatePath: "/city/dubai/lunar-new-year-dinner"
 translationKey: "dubai-lunar-new-year-dinner"
 lang: "en"
-title: "When Lunar New Year Dinner feels too loose in Dubai, Fanju app starts with the table | fanju-app"
-description: "Joining a Lunar New Year dinner in Dubai can be overwhelming, especially if you're traveling alone. The city's vibrant expat community and diverse dining options make it easy to get swept up in a random group dinner or m"
+title: "When Lunar New Year Dinner feels too loose in Dubai, Fanju app..."
+description: "Joining a Lunar New Year dinner in Dubai can be overwhelming, especially if you're traveling alone."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

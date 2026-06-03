@@ -4,8 +4,8 @@ canonicalPath: "/en/city/copenhagen/new-year-dinner"
 alternatePath: "/city/copenhagen/new-year-dinner"
 translationKey: "copenhagen-new-year-dinner"
 lang: "en"
-title: "Copenhagen New Year Dinner: how Fanju app makes the table worth choosing"
-description: "When you arrive in Copenhagen this month, you might worry about getting stuck in an awkward situation that drags on too long. A reliable listing will usually state a clear end time or at least a rough expectation for"
+title: "Copenhagen New Year Dinner: how Fanju app makes the table worth..."
+description: "When you arrive in Copenhagen this month, you might worry about getting stuck in an awkward situation that drags on too long."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

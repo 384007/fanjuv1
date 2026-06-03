@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dubai/no-pressure-dinner"
 alternatePath: "/city/dubai/no-pressure-dinner"
 translationKey: "dubai-no-pressure-dinner"
 lang: "en"
-title: "How Fanju app turns a Dubai No Pressure Dinner night into something worth showing up for | fanju-app"
-description: "In Dubai, where dinner plans often dissolve into last-minute cancellations or overly loud restaurant reservations, the idea of a No Pressure Dinner sounds like a relief—until you've sat through one that didn’t deliver. T"
+title: "How Fanju app turns a Dubai No Pressure Dinner night into..."
+description: "In Dubai, where dinner plans often dissolve into last-minute cancellations or overly loud restaurant reservations, the idea of a No Pressure Dinner soun…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

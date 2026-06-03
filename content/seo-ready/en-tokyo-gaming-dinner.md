@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tokyo/gaming-dinner"
 alternatePath: "/city/tokyo/gaming-dinner"
 translationKey: "tokyo-gaming-dinner"
 lang: "en"
-title: "When Gaming Dinner feels too loose in Tokyo, Fanju app starts with the table | fanju-app"
-description: "For newcomers in Tokyo, the idea of joining strangers for a gaming dinner can feel either exciting or unnerving — often both. The Fanju app reduces that uncertainty by anchoring social dining in real-world context: small"
+title: "When Gaming Dinner feels too loose in Tokyo, Fanju app starts with..."
+description: "For newcomers in Tokyo, the idea of joining strangers for a gaming dinner can feel either exciting or unnerving — often both."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

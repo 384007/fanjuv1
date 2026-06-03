@@ -4,8 +4,8 @@ canonicalPath: "/en/city/auckland/swimming-dinner"
 alternatePath: "/city/auckland/swimming-dinner"
 translationKey: "auckland-swimming-dinner"
 lang: "en"
-title: "Before joining Swimming Dinner in Auckland, what Fanju app should make clear"
-description: "When a host sets up a table for Swimming Dinner in Auckland, the description needs to ground you in the specific reality of the evening, not just the abstract idea of swimming or dining. You should look for details that"
+title: "Before joining Swimming Dinner in Auckland, what Fanju app should..."
+description: "When a host sets up a table for Swimming Dinner in Auckland, the description needs to ground you in the specific reality of the evening, not just the ab…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

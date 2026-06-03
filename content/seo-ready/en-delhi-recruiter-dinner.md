@@ -4,8 +4,8 @@ canonicalPath: "/en/city/delhi/recruiter-dinner"
 alternatePath: "/city/delhi/recruiter-dinner"
 translationKey: "delhi-recruiter-dinner"
 lang: "en"
-title: "Delhi’s Recruiter Dinner Finds a Home at Fanju app’s Small‑Table Gatherings"
-description: "Deciding whether a Recruiter Dinner fits your schedule in Delhi starts with a simple contrast: the city’s sprawling commuter corridors versus the intimacy of a six‑seat table. If you value a setting where you can hear"
+title: "Delhi’s Recruiter Dinner Finds a Home at Fanju app’s Small‑Table..."
+description: "Deciding whether a Recruiter Dinner fits your schedule in Delhi starts with a simple contrast: the city’s sprawling commuter corridors versus the intima…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

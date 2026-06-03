@@ -4,8 +4,8 @@ canonicalPath: "/en/city/prague/hr-dinner"
 alternatePath: "/city/prague/hr-dinner"
 translationKey: "prague-hr-dinner"
 lang: "en"
-title: "What makes HR Dinner in Prague worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "Prague’s social rhythm moves in layers—tourist bustle on the riverbanks, quiet evenings in Vinohrady, late-night conversations in Holešovice flats. In that context, a dinner that feels thrown together can fall flat,"
+title: "What makes HR Dinner in Prague worth the risk; Fanju app answers..."
+description: "Prague’s social rhythm moves in layers—tourist bustle on the riverbanks, quiet evenings in Vinohrady, late-night conversations in Holešovice flats."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kolkata/craft-beer-dinner"
 alternatePath: "/city/kolkata/craft-beer-dinner"
 translationKey: "kolkata-craft-beer-dinner"
 lang: "en"
-title: "When Craft Beer Dinner in Kolkata needs more than a group chat, Fanju app starts with the table"
-description: "The hesitation to join a Craft Beer Dinner in Kolkata often stems from the uncertainty of who else will be there and what the vibe will actually be like. Fanju app addresses this by presenting the table as a complete"
+title: "When Craft Beer Dinner in Kolkata needs more than a group chat,..."
+description: "The hesitation to join a Craft Beer Dinner in Kolkata often stems from the uncertainty of who else will be there and what the vibe will actually be like…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

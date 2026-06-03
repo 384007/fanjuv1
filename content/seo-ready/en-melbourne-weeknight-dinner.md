@@ -4,8 +4,8 @@ canonicalPath: "/en/city/melbourne/weeknight-dinner"
 alternatePath: "/city/melbourne/weeknight-dinner"
 translationKey: "melbourne-weeknight-dinner"
 lang: "en"
-title: "When Weeknight Dinner feels too loose in Melbourne, Fanju app starts with the table | fanju-app"
-description: "When weeknight dinners in Melbourne begin to feel scattered—like another solo meal in front of the stove or an awkward text chain that never lands—Fanju app helps hosts shape something more grounded. As someone who’s hos"
+title: "When Weeknight Dinner feels too loose in Melbourne, Fanju app..."
+description: "When weeknight dinners in Melbourne begin to feel scattered—like another solo meal in front of the stove or an awkward text chain that never lands—Fanju…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

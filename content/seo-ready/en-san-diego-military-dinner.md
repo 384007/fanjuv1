@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-diego/military-dinner"
 alternatePath: "/city/san-diego/military-dinner"
 translationKey: "san-diego-military-dinner"
 lang: "en"
-title: "San Diego does not need another vague invite; Fanju app makes Military Dinner specific | fanju-app"
-description: "San Diego’s evenings often unfold under a soft coastal light, the kind that lingers past sunset near the water. For military families, service members on leave, or veterans adjusting to civilian rhythm, dinner can be mor"
+title: "San Diego does not need another vague invite; Fanju app makes..."
+description: "San Diego’s evenings often unfold under a soft coastal light, the kind that lingers past sunset near the water."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

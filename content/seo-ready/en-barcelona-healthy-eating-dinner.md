@@ -4,8 +4,8 @@ canonicalPath: "/en/city/barcelona/healthy-eating-dinner"
 alternatePath: "/city/barcelona/healthy-eating-dinner"
 translationKey: "barcelona-healthy-eating-dinner"
 lang: "en"
-title: "In Barcelona, Fanju app turns Healthy Eating Dinner into a table people can actually trust | fanju-app"
-description: "The weekend table in Barcelona is often a coveted spot, but it should not become another loose invite for Healthy Eating Dinner. With the Fanju app, users can find structured and intimate dining experiences that"
+title: "In Barcelona, Fanju app turns Healthy Eating Dinner into a table..."
+description: "The weekend table in Barcelona is often a coveted spot, but it should not become another loose invite for Healthy Eating Dinner."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

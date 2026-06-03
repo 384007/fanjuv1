@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/ganzhou/family-style-dinner"
 alternatePath: "/en/city/ganzhou/family-style-dinner"
-title: "在赣州找一桌不尴尬的家庭式饭局，饭局app先解决什么 | fanju-app"
+title: "在赣州找一桌不尴尬的家庭式饭局，饭局app先解决什么"
 description: "在赣州，想约一桌不尴尬的饭局，不是发个朋友圈“有人吃饭吗”就能成的。饭局app不是万能的，但它提供了一种更具体的可能：把模糊的“一起吃个饭”变成真正能坐下来、聊得进细节的一顿饭。它不主打热闹，也不强调人数，而是围绕小桌、清晰主题和线下真实连"
 recoveredFromD1: true
 ---

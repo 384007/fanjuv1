@@ -4,9 +4,9 @@ canonicalPath: "/city/xiangtan/early-riser-dinner"
 alternatePath: "/en/city/xiangtan/early-riser-dinner"
 translationKey: "xiangtan-early-riser-dinner"
 lang: "zh"
-title: "在湘潭把早起者饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
+title: "在湘潭把早起者饭局坐稳，饭局app需要筛掉哪些尴尬"
 titleZh: "在湘潭把早起者饭局坐稳，饭局app需要筛掉哪些尴尬"
-description: "清晨六点半，湘江边的雾还没散尽，板塘铺的街面已经响起了油锅声。 在湘潭，饭局app不是那种一拉几十人的群聊接龙，也不是相亲角式的信息轰炸，它更像是一张安静铺开的早餐桌——几个人围坐，话题从一碗肉丝粉的汤底咸淡开始，慢慢滑进工作节奏、生活喘息，甚至对这座城市的某种默契。 饭局app在这里的用法，不是找热闹，而是找对那一小撮愿意在早晨清醒对话的人。"
+description: "清晨六点半，湘江边的雾还没散尽，板塘铺的街面已经响起了油锅声。 在湘潭，饭局app不是那种一拉几十人的群聊接龙，也不是相亲角式的信息轰炸，它更像是一张安静铺开的早餐桌——几个人围坐，话题从一碗肉丝粉的汤底咸淡开始，慢慢滑进工作节奏、生活喘息，甚至对这座城市的某种默契。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

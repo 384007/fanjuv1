@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nairobi/accountability-dinner"
 alternatePath: "/city/nairobi/accountability-dinner"
 translationKey: "nairobi-accountability-dinner"
 lang: "en"
-title: "Nairobi Accountability Dinner through Fanju app: the questions to answer before you sit down"
-description: "The intention behind joining an Accountability Dinner in Nairobi via Fanju is to engage in a structured, purpose-driven conversation within a small group setting. It’s about finding a table where the host has curated an"
+title: "Nairobi Accountability Dinner through Fanju app: the questions to..."
+description: "The intention behind joining an Accountability Dinner in Nairobi via Fanju is to engage in a structured, purpose-driven conversation within a small grou…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

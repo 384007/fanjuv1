@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lima/side-hustle-dinner"
 alternatePath: "/city/lima/side-hustle-dinner"
 translationKey: "lima-side-hustle-dinner"
 lang: "en"
-title: "Lima’s weekend hustle meets a curated Side Hustle Dinner through the Fanju app"
-description: "The core decision for a Lima Side Hustle Dinner is whether the table feels deliberately assembled or simply a catch‑all gathering. Readers should look for a host note that explains why the side‑hustle theme fits Lima’s"
+title: "Lima’s weekend hustle meets a curated Side Hustle Dinner through..."
+description: "The core decision for a Lima Side Hustle Dinner is whether the table feels deliberately assembled or simply a catch‑all gathering."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

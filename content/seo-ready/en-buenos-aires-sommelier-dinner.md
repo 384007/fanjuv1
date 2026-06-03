@@ -4,8 +4,8 @@ canonicalPath: "/en/city/buenos-aires/sommelier-dinner"
 alternatePath: "/city/buenos-aires/sommelier-dinner"
 translationKey: "buenos-aires-sommelier-dinner"
 lang: "en"
-title: "Buenos Aires strangers sit down easier when Fanju app frames the Sommelier Dinner table first | fanju-app"
-description: "The idea of joining strangers for dinner in Buenos Aires can feel uncertain, especially if you’re new to the city or returning after years away. But the hesitation isn’t just about not knowing people—it’s about not"
+title: "Buenos Aires strangers sit down easier when Fanju app frames the..."
+description: "The idea of joining strangers for dinner in Buenos Aires can feel uncertain, especially if you’re new to the city or returning after years away."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

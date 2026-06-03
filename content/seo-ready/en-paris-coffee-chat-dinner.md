@@ -4,8 +4,8 @@ canonicalPath: "/en/city/paris/coffee-chat-dinner"
 alternatePath: "/city/paris/coffee-chat-dinner"
 translationKey: "paris-coffee-chat-dinner"
 lang: "en"
-title: "For Paris readers considering Coffee Chat Dinner, Fanju app should make the room legible"
-description: "When scrolling through options in Paris, a generic title about coffee or dinner is insufficient for busy professionals who value their time. You need to see a specific angle or a unique hook in the first line of the"
+title: "For Paris readers considering Coffee Chat Dinner, Fanju app should..."
+description: "When scrolling through options in Paris, a generic title about coffee or dinner is insufficient for busy professionals who value their time."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dubai/sunday-dinner"
 alternatePath: "/city/dubai/sunday-dinner"
 translationKey: "dubai-sunday-dinner"
 lang: "en"
-title: "When Sunday Dinner in Dubai needs more than a group chat, Fanju app starts with the table | fanju-app"
+title: "When Sunday Dinner in Dubai needs more than a group chat, Fanju..."
 description: "Dubai Sunday Dinner on the Fanju app isn’t another swipe-based promise or a vague “let’s connect” invite."
 pageType: "city_article"
 priorityScore: 70

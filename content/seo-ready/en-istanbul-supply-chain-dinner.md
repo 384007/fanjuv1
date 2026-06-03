@@ -4,8 +4,8 @@ canonicalPath: "/en/city/istanbul/supply-chain-dinner"
 alternatePath: "/city/istanbul/supply-chain-dinner"
 translationKey: "istanbul-supply-chain-dinner"
 lang: "en"
-title: "Istanbul does not need another vague invite; Fanju app makes Supply Chain Dinner specific | fanju-app"
-description: "In Istanbul, where the Bosphorus divides continents and cuisines blend at every corner market, the idea of gathering strangers over food isn’t novel—it’s daily life. But what Fanju app brings to the city isn’t just anoth"
+title: "Istanbul does not need another vague invite; Fanju app makes..."
+description: "In Istanbul, where the Bosphorus divides continents and cuisines blend at every corner market, the idea of gathering strangers over food isn’t novel—it’…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

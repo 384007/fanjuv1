@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/siping/marketing-dinner"
 alternatePath: "/en/city/siping/marketing-dinner"
-title: "下班后的四平，饭局app怎样让市场饭局有真实同桌 | fanju-app"
+title: "下班后的四平，饭局app怎样让市场饭局有真实同桌"
 description: "饭局app在四平的用法，不是找人拼饭，而是让刚来的人能坐进一桌有来龙去脉的饭局。它不主打热闹，而是用小桌、主题和主理人机制，把吃饭变成一次可预期的见面。在四平，这座节奏沉稳、人情讲究分寸的城市里，饭局app的作用是帮人避开“有人来吗”的空喊"
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/zurich/social-reset-dinner"
 alternatePath: "/city/zurich/social-reset-dinner"
-title: "Why Social Reset Dinner in Zurich works better when Fanju app keeps the table small | fanju-app | 饭局app"
-description: "In Zurich, Fanju app has made it easier for people to connect over small, clearly described meals. The app's focus on real-world connections and small tables has created a unique space for people to come together and sha"
+title: "Why Social Reset Dinner in Zurich works better when Fanju app..."
+description: "In Zurich, Fanju app has made it easier for people to connect over small, clearly described meals."
 recoveredFromD1: true
 ---
 # Why Social Reset Dinner in Zurich works better when Fanju app keeps the table small

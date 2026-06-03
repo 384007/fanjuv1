@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/shanghai/media-dinner"
 alternatePath: "/en/city/shanghai/media-dinner"
-title: "下班后的上海，饭局app怎样让媒体饭局有真实同桌 | fanju-app"
+title: "下班后的上海，饭局app怎样让媒体饭局有真实同桌"
 description: "在上海，周末的节奏不是突然开始的。周五傍晚，地铁站口的人流变得绵长，写字楼的灯一盏盏熄灭，有人拎着电脑包往家赶，也有人调转方向，往衡山路、安福路或巨鹿路的小餐馆走去。他们中的一些人打开饭局app，不是为了随便吃顿饭，而是确认今晚是否有一桌人"
 recoveredFromD1: true
 ---

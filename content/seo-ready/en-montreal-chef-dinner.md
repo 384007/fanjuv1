@@ -4,8 +4,8 @@ canonicalPath: "/en/city/montreal/chef-dinner"
 alternatePath: "/city/montreal/chef-dinner"
 translationKey: "montreal-chef-dinner"
 lang: "en"
-title: "A clearer Chef Dinner dinner in Montreal: Fanju app, small tables, and real boundaries"
-description: "You are the right fit for this table if you are willing to cross town for a specific culinary theme rather than just generic socializing. A local Montreal Chef Dinner works best when guests arrive ready to engage with"
+title: "A clearer Chef Dinner dinner in Montreal: Fanju app, small tables,..."
+description: "You are the right fit for this table if you are willing to cross town for a specific culinary theme rather than just generic socializing."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

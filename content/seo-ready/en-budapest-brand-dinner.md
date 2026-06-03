@@ -5,7 +5,7 @@ alternatePath: "/city/budapest/brand-dinner"
 translationKey: "budapest-brand-dinner"
 lang: "en"
 title: "Finding Calm in a Budapest Brand Dinner with the Fanju app"
-description: "A calm dinner in Budapest often hinges on how the host frames the evening. Does the description mention a clear arrival time, such as “7:30 pm sharp, with a 30‑minute window for latecomers,” and does it note whether the"
+description: "A calm dinner in Budapest often hinges on how the host frames the evening. Does the description mention a clear arrival time, such as “7:30 pm sharp, wi…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

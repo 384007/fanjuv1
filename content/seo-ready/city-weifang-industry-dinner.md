@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/weifang/industry-dinner"
 alternatePath: "/en/city/weifang/industry-dinner"
-title: "潍坊行业饭局指南 | fanju-app | 饭局app"
+title: "潍坊行业饭局指南"
 description: "在潍坊重新打开线下生活的方式 - Fanju / 饭局app"
 recoveredFromD1: true
 ---

@@ -5,7 +5,7 @@ alternatePath: "/city/osaka/karaoke-dinner"
 translationKey: "osaka-karaoke-dinner"
 lang: "en"
 title: "Finding Calm in Osaka Karaoke Dinner with the Fanju app"
-description: "The first thing to consider is how the table size aligns with your desire for a low‑key atmosphere. Osaka karaoke venues often have rooms that seat eight to twelve, but Fanju listings usually aim for four to six"
+description: "The first thing to consider is how the table size aligns with your desire for a low‑key atmosphere."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

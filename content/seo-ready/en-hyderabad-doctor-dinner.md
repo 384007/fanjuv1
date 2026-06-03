@@ -4,8 +4,8 @@ canonicalPath: "/en/city/hyderabad/doctor-dinner"
 alternatePath: "/city/hyderabad/doctor-dinner"
 translationKey: "hyderabad-doctor-dinner"
 lang: "en"
-title: "Hyderabad does not need another vague invite; Fanju app makes Doctor Dinner specific | fanju-app"
-description: "In Hyderabad, Fanju app helps professionals move past endless WhatsApp forwards and group chat indecision by creating small, intentional dinners with clear purpose and real identities. Doctor Dinner, as it’s known on the"
+title: "Hyderabad does not need another vague invite; Fanju app makes..."
+description: "In Hyderabad, Fanju app helps professionals move past endless WhatsApp forwards and group chat indecision by creating small, intentional dinners with cl…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

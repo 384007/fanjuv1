@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/altay/local-community-dinner"
 alternatePath: "/en/city/altay/local-community-dinner"
-title: "阿勒泰本地社区饭局指南 | fanju-app | 饭局app"
+title: "阿勒泰本地社区饭局指南"
 description: "在阿勒泰的远程工作者如何找到稳定的线下锚点？本指南将带你了解阿勒泰的本地社区饭局，帮助你找到适合自己的社交圈。"
 recoveredFromD1: true
 ---

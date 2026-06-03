@@ -5,7 +5,7 @@ alternatePath: "/city/karachi/sushi-dinner"
 translationKey: "karachi-sushi-dinner"
 lang: "en"
 title: "Karachi's Weekend Sushi Dinner: Finding Your Table with Fanju app"
-description: "The core appeal of Fanju lies in its emphasis on pre-planned, themed events, moving away from the spontaneity of open-ended social platforms. For a Sushi Dinner in Karachi, this means you can expect a listing that"
+description: "The core appeal of Fanju lies in its emphasis on pre-planned, themed events, moving away from the spontaneity of open-ended social platforms."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

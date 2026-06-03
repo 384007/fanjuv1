@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/lahore/local-food-dinner"
 alternatePath: "/city/lahore/local-food-dinner"
-title: "Lahore Local Food Dinner Guide | Fanju app"
-description: "Discover the authentic flavors of Lahore with Fanju app, a social dining app that connects you with like-minded individuals for small, structured meals and real-world connections."
+title: "Lahore Local Food Dinner Guide"
+description: "Discover the authentic flavors of Lahore with Fanju app, a social dining app that connects you with like-minded individuals for small, structured meals…"
 recoveredFromD1: true
 ---
 Lahore, a city known for its rich history, vibrant culture, and mouth-watering cuisine, is a food lover&#039;s paradise. However, for introverts, navigating the city&#039;s bustling streets and crowded restaurants can be overwhelming. That&#039;s where Fanju app comes in – a social dining app designed for small, clearly described meals and real-world connections.

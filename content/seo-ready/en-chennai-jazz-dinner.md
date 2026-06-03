@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chennai/jazz-dinner"
 alternatePath: "/city/chennai/jazz-dinner"
 translationKey: "chennai-jazz-dinner"
 lang: "en"
-title: "Jazz Dinner in Chennai should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "In the heart of Chennai, a city known for its rich cultural heritage and vibrant nightlife, Jazz Dinner has become a popular weekend activity for those looking to unwind and socialize. However, for many, the prospect of"
+title: "Jazz Dinner in Chennai should not feel like a gamble; Fanju app..."
+description: "In the heart of Chennai, a city known for its rich cultural heritage and vibrant nightlife, Jazz Dinner has become a popular weekend activity for those…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

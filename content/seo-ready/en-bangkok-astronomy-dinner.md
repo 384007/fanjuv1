@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bangkok/astronomy-dinner"
 alternatePath: "/city/bangkok/astronomy-dinner"
 translationKey: "bangkok-astronomy-dinner"
 lang: "en"
-title: "Before joining Astronomy Dinner in Bangkok, what Fanju app should make clear"
-description: "Bangkok traffic is notoriously unforgiving, so committing to an evening requires a tangible return on the time invested. When considering an Astronomy Dinner, the primary question is not just who will be there, but what"
+title: "Before joining Astronomy Dinner in Bangkok, what Fanju app should..."
+description: "Bangkok traffic is notoriously unforgiving, so committing to an evening requires a tangible return on the time invested."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

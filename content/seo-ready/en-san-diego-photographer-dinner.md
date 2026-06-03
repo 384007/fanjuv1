@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-diego/photographer-dinner"
 alternatePath: "/city/san-diego/photographer-dinner"
 translationKey: "san-diego-photographer-dinner"
 lang: "en"
-title: "How Fanju app turns a San Diego Photographer Dinner night into something worth showing up for | fanju-app"
-description: "In San Diego, after long days navigating coastal light and editing marathons, many photographers find themselves craving conversation that doesn’t revolve around gear specs or client feedback loops. The Fanju app has qui"
+title: "How Fanju app turns a San Diego Photographer Dinner night into..."
+description: "In San Diego, after long days navigating coastal light and editing marathons, many photographers find themselves craving conversation that doesn’t revol…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

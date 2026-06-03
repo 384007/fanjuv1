@@ -4,7 +4,7 @@ canonicalPath: "/city/new-york/newcomer-dinner"
 alternatePath: "/en/city/new-york/newcomer-dinner"
 translationKey: "new-york-newcomer-dinner"
 lang: "zh"
-title: "纽约 newcomer dinner Guide | fanju-app | 饭局app"
+title: "纽约 newcomer dinner Guide"
 titleZh: "纽约newcomer-dinner指南"
 pageType: "city_landing"
 priorityScore: 50

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kinshasa/fashion-dinner"
 alternatePath: "/city/kinshasa/fashion-dinner"
 translationKey: "kinshasa-fashion-dinner"
 lang: "en"
-title: "A Kinshasa dinner table for Fashion Dinner, with Fanju app boundaries up front"
-description: "A reliable Kinshasa Fashion Dinner listing will spell out the exact neighbourhood—whether it’s a rooftop bar in Gombe or a boutique café in Kasa‑Vubu—so you can picture the room before committing. Vague venue"
+title: "A Kinshasa dinner table for Fashion Dinner, with Fanju app..."
+description: "A reliable Kinshasa Fashion Dinner listing will spell out the exact neighbourhood—whether it’s a rooftop bar in Gombe or a boutique café in Kasa‑Vubu—so…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/addis-ababa/plant-lover-dinner"
 alternatePath: "/city/addis-ababa/plant-lover-dinner"
 translationKey: "addis-ababa-plant-lover-dinner"
 lang: "en"
-title: "Addis Ababa after work: how Fanju app makes Plant Lover Dinner feel like a real room | fanju-app"
-description: "In Addis Ababa, evenings often blur into one long cycle of coffee invitations, casual meetups that never quite materialize, and group chats full of vague plans. For those who care about plants—not just as decor but as li"
+title: "Addis Ababa after work: how Fanju app makes Plant Lover Dinner..."
+description: "In Addis Ababa, evenings often blur into one long cycle of coffee invitations, casual meetups that never quite materialize, and group chats full of vagu…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

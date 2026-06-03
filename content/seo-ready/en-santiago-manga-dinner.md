@@ -4,7 +4,7 @@ canonicalPath: "/en/city/santiago/manga-dinner"
 alternatePath: "/city/santiago/manga-dinner"
 translationKey: "santiago-manga-dinner"
 lang: "en"
-title: "A clearer Manga Dinner dinner in Santiago: Fanju app, small tables, and real boundaries"
+title: "A clearer Manga Dinner dinner in Santiago: Fanju app, small..."
 description: "Standing outside the venue or looking at the listing, the most practical question to ask yourself is whether the host has defined a specific theme beyond just eating. In Santiago, a generic \"let's meet up\" invitation"
 pageType: "city_article"
 priorityScore: 70

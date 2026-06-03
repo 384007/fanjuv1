@@ -5,7 +5,7 @@ alternatePath: "/city/washington-dc/minimalist-dinner"
 translationKey: "washington-dc-minimalist-dinner"
 lang: "en"
 title: "Washington DC's Minimalist Dinner: Finding Your Table with Fanju App"
-description: "When considering a Minimalist Dinner in Washington DC, the underlying question isn't just about the food, but about the human dynamics at play. This app aims to facilitate what we might call 'small-group chemistry,'"
+description: "When considering a Minimalist Dinner in Washington DC, the underlying question isn't just about the food, but about the human dynamics at play."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

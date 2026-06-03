@@ -5,7 +5,7 @@ alternatePath: "/city/melbourne/fashion-dinner"
 translationKey: "melbourne-fashion-dinner"
 lang: "en"
 title: "Melbourne Fashion Dinner: how Fanju app makes the table worth choosing"
-description: "In Melbourne, the logistics of getting home across different suburbs mean that a good shared meal respects time as much as the menu. A credible Fashion Dinner listing on what Fanju means for a social dining app usually"
+description: "In Melbourne, the logistics of getting home across different suburbs mean that a good shared meal respects time as much as the menu."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

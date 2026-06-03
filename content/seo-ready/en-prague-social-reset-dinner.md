@@ -4,8 +4,8 @@ canonicalPath: "/en/city/prague/social-reset-dinner"
 alternatePath: "/city/prague/social-reset-dinner"
 translationKey: "prague-social-reset-dinner"
 lang: "en"
-title: "A Prague dinner table for Social Reset Dinner, with Fanju app boundaries up front"
-description: "A compelling listing for a Social Reset Dinner in Prague does not simply announce a time and place; it articulates a specific need for disconnection from the city’s digital noise. When you read the description, look for"
+title: "A Prague dinner table for Social Reset Dinner, with Fanju app..."
+description: "A compelling listing for a Social Reset Dinner in Prague does not simply announce a time and place; it articulates a specific need for disconnection fro…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

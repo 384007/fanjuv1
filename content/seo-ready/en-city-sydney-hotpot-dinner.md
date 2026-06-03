@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/sydney/hotpot-dinner"
 alternatePath: "/city/sydney/hotpot-dinner"
-title: "Sydney Hotpot Dinner Guide | Fanju app"
-description: "Discover the authentic Sydney experience with Fanju app, a social dining app that connects you with like-minded individuals for small, clearly described meals and real-world connections."
+title: "Sydney Hotpot Dinner Guide"
+description: "Discover the authentic Sydney experience with Fanju app, a social dining app that connects you with like-minded individuals for small, clearly described…"
 recoveredFromD1: true
 ---
 Sydney is a vibrant city that never sleeps, and its culinary scene is no exception. From trendy restaurants to cozy cafes, there&#039;s always something new to try. But for those who crave a more intimate dining experience, hotpot dinners are the way to go. Imagine gathering around a steaming pot of broth, surrounded by new friends and the warm glow of a Sydney evening. It&#039;s a moment that&#039;s both nourishing for the body and soul.

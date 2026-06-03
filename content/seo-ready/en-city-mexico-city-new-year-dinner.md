@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/mexico-city/new-year-dinner"
 alternatePath: "/city/mexico-city/new-year-dinner"
-title: "Mexico City New Year Dinner Guide | Fanju app"
-description: "Welcome to Mexico City! If you're looking for a special way to ring in the New Year, consider a curated dinner experience. The Fanju app connects you with hosts offering small, intimate dining events designed for genuine connection.  This guide focuses on finding a premium, high-craft New Year's Eve dinner, emphasizing the intent behind the gathering, the quality of the menu, and the overall hosting style.  Whether you're a newcomer to the city or a long-time resident seeking a more meaningful celebration, we'll explore how to find and enjoy a memorable evening."
+title: "Mexico City New Year Dinner Guide"
+description: "Welcome to Mexico City! If you're looking for a special way to ring in the New Year, consider a curated dinner experience."
 recoveredFromD1: true
 ---
 Mexico City pulses with a unique energy as the year draws to a close. For those seeking a New Year&#039;s Eve dinner that goes beyond the usual crowded restaurant scene, there&#039;s a growing appreciation for more intimate, thoughtfully prepared gatherings. The Fanju app offers a platform for discovering these kinds of social dining experiences, where hosts curate not just a meal, but an atmosphere designed for connection. Think of it as finding a dinner party where the host has put genuine care into every detail, from the menu&#039;s inspiration to the conversation starters. This approach prioritizes quality over quantity, aiming for memorable evenings that foster real-world relationships.

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/rio-de-janeiro/vc-dinner"
 alternatePath: "/city/rio-de-janeiro/vc-dinner"
 translationKey: "rio-de-janeiro-vc-dinner"
 lang: "en"
-title: "Rio de Janeiro VC Dinner through Fanju app: the questions to answer before you sit down"
-description: "A public venue type matters in Rio de Janeiro because strangers need to picture the room before joining, so look for mentions of private dining areas or quieter restaurants in Leblon rather than loud, open-air bars. The"
+title: "Rio de Janeiro VC Dinner through Fanju app: the questions to..."
+description: "A public venue type matters in Rio de Janeiro because strangers need to picture the room before joining, so look for mentions of private dining areas or…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/auckland/music-dinner"
 alternatePath: "/city/auckland/music-dinner"
-title: "Auckland Music Dinner Guide | Fanju app"
-description: "Discover the rhythm of Auckland's music scene through dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections."
+title: "Auckland Music Dinner Guide"
+description: "Discover the rhythm of Auckland's music scene through dinner with Fanju app, a social dining app for small, clearly described meals and real-world conne…"
 recoveredFromD1: true
 ---
 Auckland is a city that thrives on its music scene, with a plethora of venues and events that showcase local talent. But what happens when music meets dinner? In this guide, we&#039;ll take you on a journey through the city&#039;s neighbourhoods to discover the unique flavour of music dinner in Auckland. From the vibrant streets of Ponsonby to the trendy bars of K Road, we&#039;ll explore the best spots to experience the city&#039;s music scene through dinner.

@@ -4,9 +4,9 @@ canonicalPath: "/city/meishan/foodie-dinner"
 alternatePath: "/en/city/meishan/foodie-dinner"
 translationKey: "meishan-foodie-dinner"
 lang: "zh"
-title: "眉山美食爱好者饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
+title: "眉山美食爱好者饭局的同桌质量，饭局app在第一条信息里就开始筛"
 titleZh: "眉山美食爱好者饭局的同桌质量，饭局app在第一条信息里就开始筛"
-description: "晚饭七点，东坡湖边一家小馆子亮起灯。 六个人围坐，一盘东坡肘子刚上桌，香气浮在空气里。 没人急着动筷，有人先问：“你是因为哪道菜报名的？ ”另一个人笑说：“冲着这家的泡菜蒸鱼来的，听说腌了三天。 ”这样的饭局，在眉山不算稀奇，但能自然开场的，往往早就在饭局app上筛过两轮。 不是随便找个饭搭子，而是从报名那一刻起，就知道今晚坐的是什么人。"
+description: "晚饭七点，东坡湖边一家小馆子亮起灯。 六个人围坐，一盘东坡肘子刚上桌，香气浮在空气里。 没人急着动筷，有人先问：“你是因为哪道菜报名的？ ”另一个人笑说：“冲着这家的泡菜蒸鱼来的，听说腌了三天。 ”这样的饭局，在眉山不算稀奇，但能自然开场的，往往早就在饭局app上筛过两轮。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

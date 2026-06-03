@@ -4,8 +4,8 @@ canonicalPath: "/en/city/buenos-aires/book-club-dinner"
 alternatePath: "/city/buenos-aires/book-club-dinner"
 translationKey: "buenos-aires-book-club-dinner"
 lang: "en"
-title: "When Book Club Dinner in Buenos Aires needs more than a group chat, Fanju app starts with the table | fanju-app"
-description: "Buenos Aires Book Club Dinner through the Fanju app is a small-table social meal where the evening’s theme and guest list are shared before you say yes—no swipes, no pressure."
+title: "When Book Club Dinner in Buenos Aires needs more than a group..."
+description: "Buenos Aires Book Club Dinner through the Fanju app is a small-table social meal where the evening’s theme and guest list are shared before you say yes—…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

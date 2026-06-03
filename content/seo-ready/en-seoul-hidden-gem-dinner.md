@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seoul/hidden-gem-dinner"
 alternatePath: "/city/seoul/hidden-gem-dinner"
 translationKey: "seoul-hidden-gem-dinner"
 lang: "en"
-title: "In Seoul, Fanju app turns Hidden Gem Dinner into a table people can actually trust | fanju-app"
-description: "For newcomers in Seoul, finding real connection over dinner often means navigating between overly polished expat meetups and tightly knit local circles that feel just out of reach. The Fanju app changes that by framing H"
+title: "In Seoul, Fanju app turns Hidden Gem Dinner into a table people..."
+description: "For newcomers in Seoul, finding real connection over dinner often means navigating between overly polished expat meetups and tightly knit local circles…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

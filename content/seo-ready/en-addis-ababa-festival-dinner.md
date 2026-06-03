@@ -4,8 +4,8 @@ canonicalPath: "/en/city/addis-ababa/festival-dinner"
 alternatePath: "/city/addis-ababa/festival-dinner"
 translationKey: "addis-ababa-festival-dinner"
 lang: "en"
-title: "Addis Ababa strangers sit down easier when Fanju app frames the Festival Dinner table first | fanju-app"
-description: "The transition from a busy workday in Addis Ababa to an evening of socializing can often feel like a sudden shift. Many find themselves looking for a way to decompress and connect, but the default often leans towards"
+title: "Addis Ababa strangers sit down easier when Fanju app frames the..."
+description: "The transition from a busy workday in Addis Ababa to an evening of socializing can often feel like a sudden shift."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

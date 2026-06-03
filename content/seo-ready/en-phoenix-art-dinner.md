@@ -4,8 +4,8 @@ canonicalPath: "/en/city/phoenix/art-dinner"
 alternatePath: "/city/phoenix/art-dinner"
 translationKey: "phoenix-art-dinner"
 lang: "en"
-title: "Phoenix strangers sit down easier when Fanju app frames the Art Dinner table first | fanju-app"
-description: "Fanju app helps Phoenix residents turn an ordinary evening into a shared meal with strangers who become conversation partners, not performances. It’s not about networking or curated experiences; it’s about small, intenti"
+title: "Phoenix strangers sit down easier when Fanju app frames the Art..."
+description: "Fanju app helps Phoenix residents turn an ordinary evening into a shared meal with strangers who become conversation partners, not performances."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

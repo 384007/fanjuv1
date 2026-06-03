@@ -4,8 +4,8 @@ canonicalPath: "/en/city/munich/improv-dinner"
 alternatePath: "/city/munich/improv-dinner"
 translationKey: "munich-improv-dinner"
 lang: "en"
-title: "For Munich readers considering Improv Dinner, Fanju app should make the room legible"
-description: "When you scan the available tables for a weekend meal, the description needs to ground you in a specific part of Munich rather than offering a generic promise of fun. A strong listing will mention a specific"
+title: "For Munich readers considering Improv Dinner, Fanju app should..."
+description: "When you scan the available tables for a weekend meal, the description needs to ground you in a specific part of Munich rather than offering a generic p…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

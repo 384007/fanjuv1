@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seattle/3d-printing-dinner"
 alternatePath: "/city/seattle/3d-printing-dinner"
 translationKey: "seattle-3d-printing-dinner"
 lang: "en"
-title: "For Seattle readers considering 3D Printing Dinner, Fanju app should make the room legible"
-description: "When you scroll through options in Seattle, the right listing for a 3D Printing Dinner will immediately signal that it understands the local tech and maker culture without turning into a sales pitch. You are looking for"
+title: "For Seattle readers considering 3D Printing Dinner, Fanju app..."
+description: "When you scroll through options in Seattle, the right listing for a 3D Printing Dinner will immediately signal that it understands the local tech and ma…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

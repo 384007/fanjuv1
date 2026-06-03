@@ -4,9 +4,9 @@ canonicalPath: "/city/suining/videographer-dinner"
 alternatePath: "/en/city/suining/videographer-dinner"
 translationKey: "suining-videographer-dinner"
 lang: "zh"
-title: "遂宁的一顿摄像师饭局，饭局app为什么先看人再看热闹 | fanju-app"
+title: "遂宁的一顿摄像师饭局，饭局app为什么先看人再看热闹"
 titleZh: "遂宁的一顿摄像师饭局，饭局app为什么先看人再看热闹"
-description: "傍晚六点半，遂宁的气温还悬在三十度边缘，空气里浮着涪江水汽和巷口烤苕皮的焦香。 我站在和平中路一家老茶馆对面的台阶上，手机亮着饭局app的界面，确认今晚的桌位信息。 这是一场由本地独立摄像师发起的饭局，主题是“拍过的夜晚，没说出口的话”。 同桌六人，主理人是一位常在城北拍婚礼跟拍的从业者，最近在筹备自己的短片项目。"
+description: "傍晚六点半，遂宁的气温还悬在三十度边缘，空气里浮着涪江水汽和巷口烤苕皮的焦香。 我站在和平中路一家老茶馆对面的台阶上，手机亮着饭局app的界面，确认今晚的桌位信息。 这是一场由本地独立摄像师发起的饭局，主题是“拍过的夜晚，没说出口的话”。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

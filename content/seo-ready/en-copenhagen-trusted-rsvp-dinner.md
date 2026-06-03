@@ -4,8 +4,8 @@ canonicalPath: "/en/city/copenhagen/trusted-rsvp-dinner"
 alternatePath: "/city/copenhagen/trusted-rsvp-dinner"
 translationKey: "copenhagen-trusted-rsvp-dinner"
 lang: "en"
-title: "Copenhagen Trusted RSVP Dinner: how Fanju app makes the table worth choosing"
-description: "You might be the right fit if you finish your workday in Copenhagen and find yourself scrolling through your phone, looking for a reason to leave the house but dreading the noise of a bar. This table suits someone who"
+title: "Copenhagen Trusted RSVP Dinner: how Fanju app makes the table..."
+description: "You might be the right fit if you finish your workday in Copenhagen and find yourself scrolling through your phone, looking for a reason to leave the ho…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

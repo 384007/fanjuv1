@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kinshasa/marketing-dinner"
 alternatePath: "/city/kinshasa/marketing-dinner"
 translationKey: "kinshasa-marketing-dinner"
 lang: "en"
-title: "In Kinshasa, Fanju app turns Marketing Dinner into a table people can actually trust | fanju-app"
-description: "Choosing where to go in Kinshasa after work shouldn’t mean weighing vague WhatsApp messages with no real details. Too often, an evening invite turns into a last-minute change of venue, a crowded bar where no one speaks"
+title: "In Kinshasa, Fanju app turns Marketing Dinner into a table people..."
+description: "Choosing where to go in Kinshasa after work shouldn’t mean weighing vague WhatsApp messages with no real details."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

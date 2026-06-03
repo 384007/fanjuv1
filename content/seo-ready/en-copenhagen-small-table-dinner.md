@@ -4,8 +4,8 @@ canonicalPath: "/en/city/copenhagen/small-table-dinner"
 alternatePath: "/city/copenhagen/small-table-dinner"
 translationKey: "copenhagen-small-table-dinner"
 lang: "en"
-title: "How Fanju app turns a Copenhagen Small Table Dinner night into something worth showing up for | fanju-app"
-description: "In Copenhagen, where professional connections often form over shared dinners rather than conferences or co-working spaces, the Fanju app has quietly redefined what networking looks like. Instead of crowded meetups or for"
+title: "How Fanju app turns a Copenhagen Small Table Dinner night into..."
+description: "In Copenhagen, where professional connections often form over shared dinners rather than conferences or co-working spaces, the Fanju app has quietly red…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

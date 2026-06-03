@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-francisco/night-owl-dinner"
 alternatePath: "/city/san-francisco/night-owl-dinner"
 translationKey: "san-francisco-night-owl-dinner"
 lang: "en"
-title: "San Francisco Night Owl Dinner through Fanju app: the questions to answer before you sit down"
-description: "When considering a Night Owl Dinner in San Francisco, the specific venue type listed is a crucial detail. Strangers need to be able to picture the room, understand the general ambiance, and feel a sense of place before"
+title: "San Francisco Night Owl Dinner through Fanju app: the questions to..."
+description: "When considering a Night Owl Dinner in San Francisco, the specific venue type listed is a crucial detail."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

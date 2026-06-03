@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lahore/ai-engineer-dinner"
 alternatePath: "/city/lahore/ai-engineer-dinner"
 translationKey: "lahore-ai-engineer-dinner"
 lang: "en"
-title: "When AI Engineer Dinner feels too loose in Lahore, Fanju app starts with the table | fanju-app"
+title: "When AI Engineer Dinner feels too loose in Lahore, Fanju app..."
 description: "Fanju app helps people in Lahore form small, intentional dinners where real connection is the goal, not just conversation."
 pageType: "city_article"
 priorityScore: 70

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/milan/mba-dinner"
 alternatePath: "/city/milan/mba-dinner"
 translationKey: "milan-mba-dinner"
 lang: "en"
-title: "MBA Dinner in Milan should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "A good MBA Dinner in Milan shouldn’t begin with crossed fingers or a last-minute venue change. It begins quietly, with intent—before the first message is sent. Too often, these gatherings blur into networking noise: over"
+title: "MBA Dinner in Milan should not feel like a gamble; Fanju app..."
+description: "A good MBA Dinner in Milan shouldn’t begin with crossed fingers or a last-minute venue change."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

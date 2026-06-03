@@ -4,8 +4,8 @@ canonicalPath: "/en/city/athens/morning-routine-dinner"
 alternatePath: "/city/athens/morning-routine-dinner"
 translationKey: "athens-morning-routine-dinner"
 lang: "en"
-title: "Before joining Morning Routine Dinner in Athens, what Fanju app should make clear"
-description: "A compelling listing for a Morning Routine Dinner in Athens does not just state a time and place; it explains the paradox of discussing morning habits while the sun sets over the Acropolis. The text needs to articulate"
+title: "Before joining Morning Routine Dinner in Athens, what Fanju app..."
+description: "A compelling listing for a Morning Routine Dinner in Athens does not just state a time and place; it explains the paradox of discussing morning habits w…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

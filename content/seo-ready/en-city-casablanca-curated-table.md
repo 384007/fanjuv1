@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/casablanca/curated-table"
 alternatePath: "/city/casablanca/curated-table"
-title: "Casablanca Curated Table Guide | Fanju app"
-description: "Discover the charm of Casablanca through intimate, small-group dining experiences curated by Fanju app, where you can connect with like-minded individuals over delicious meals in a vibrant, cosmopolitan city."
+title: "Casablanca Curated Table Guide"
+description: "Discover the charm of Casablanca through intimate, small-group dining experiences curated by Fanju app, where you can connect with like-minded individua…"
 recoveredFromD1: true
 ---
 Casablanca, a city of grand architecture and bustling streets, is a place where contrasts abound. Amidst the towering skyscrapers and ancient medina, you&#039;ll find a rich tapestry of cultures, cuisines, and experiences waiting to be explored. And yet, in the midst of this urban bustle, there&#039;s a desire for connection, for community, and for the simple pleasures of sharing a meal with others.

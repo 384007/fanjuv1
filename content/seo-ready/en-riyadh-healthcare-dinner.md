@@ -4,8 +4,8 @@ canonicalPath: "/en/city/riyadh/healthcare-dinner"
 alternatePath: "/city/riyadh/healthcare-dinner"
 translationKey: "riyadh-healthcare-dinner"
 lang: "en"
-title: "Before joining Healthcare Dinner in Riyadh, what Fanju app should make clear"
-description: "When evaluating a listing in the city, the specific atmosphere of Riyadh should be evident in the description. A calm dinner table feels distinctly different from a noisy meetup or a random chat, and the text should"
+title: "Before joining Healthcare Dinner in Riyadh, what Fanju app should..."
+description: "When evaluating a listing in the city, the specific atmosphere of Riyadh should be evident in the description."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

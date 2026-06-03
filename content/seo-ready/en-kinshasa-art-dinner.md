@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/kinshasa/art-dinner"
 alternatePath: "/city/kinshasa/art-dinner"
-title: "In Kinshasa, Fanju app turns Art Dinner into a table people can actually trust | fanju-app | 饭局app"
-description: "In Kinshasa, where city life pulses with movement and connections often feel fleeting, the Fanju app offers a grounded way to experience Art Dinner—a small, intentional gathering centred on food, conversation, and local"
+title: "In Kinshasa, Fanju app turns Art Dinner into a table people can..."
+description: "In Kinshasa, where city life pulses with movement and connections often feel fleeting, the Fanju app offers a grounded way to experience Art Dinner—a sm…"
 recoveredFromD1: true
 ---
 # In Kinshasa, Fanju app turns Art Dinner into a table people can actually trust

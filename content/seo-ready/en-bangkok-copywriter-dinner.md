@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bangkok/copywriter-dinner"
 alternatePath: "/city/bangkok/copywriter-dinner"
 translationKey: "bangkok-copywriter-dinner"
 lang: "en"
-title: "After‑Work Uncertainty: Navigating a Bangkok Copywriter Dinner with the Fanju app"
-description: "Most Bangkok copywriter meet‑ups list a vague address like ‘central Bangkok’ and a price range that could mean anything from a street‑food stall to a five‑star hotel. When the listing lacks a precise location, it"
+title: "After‑Work Uncertainty: Navigating a Bangkok Copywriter Dinner..."
+description: "Most Bangkok copywriter meet‑ups list a vague address like ‘central Bangkok’ and a price range that could mean anything from a street‑food stall to a fi…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

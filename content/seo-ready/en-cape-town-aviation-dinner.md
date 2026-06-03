@@ -4,8 +4,8 @@ canonicalPath: "/en/city/cape-town/aviation-dinner"
 alternatePath: "/city/cape-town/aviation-dinner"
 translationKey: "cape-town-aviation-dinner"
 lang: "en"
-title: "Before joining Aviation Dinner in Cape Town, what Fanju app should make clear"
-description: "This approach to social dining in Cape Town prioritizes a relaxed, focused atmosphere. It’s about the quality of the company and the depth of the conversation, rather than the quantity of attendees or the pressure to"
+title: "Before joining Aviation Dinner in Cape Town, what Fanju app should..."
+description: "This approach to social dining in Cape Town prioritizes a relaxed, focused atmosphere."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

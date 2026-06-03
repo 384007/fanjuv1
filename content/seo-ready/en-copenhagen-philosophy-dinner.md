@@ -4,8 +4,8 @@ canonicalPath: "/en/city/copenhagen/philosophy-dinner"
 alternatePath: "/city/copenhagen/philosophy-dinner"
 translationKey: "copenhagen-philosophy-dinner"
 lang: "en"
-title: "A clearer Philosophy Dinner dinner in Copenhagen: Fanju app, small tables, and real boundaries"
-description: "A Philosophy Dinner in Copenhagen is distinct from a noisy meetup because it requires a deliberate decision to cross town, often moving from quiet residential areas to the bustling city center, for a specific"
+title: "A clearer Philosophy Dinner dinner in Copenhagen: Fanju app, small..."
+description: "A Philosophy Dinner in Copenhagen is distinct from a noisy meetup because it requires a deliberate decision to cross town, often moving from quiet resid…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

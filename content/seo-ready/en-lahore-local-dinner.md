@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lahore/local-dinner"
 alternatePath: "/city/lahore/local-dinner"
 translationKey: "lahore-local-dinner"
 lang: "en"
-title: "A clearer Local Dinner dinner in Lahore: Fanju app, small tables, and real boundaries"
-description: "The solo traveller arriving in Lahore often seeks connection without the unpredictability of a bar scene or the pressure of a formal networking event. If you prefer a small-table dinner where the conversation has a"
+title: "A clearer Local Dinner dinner in Lahore: Fanju app, small tables,..."
+description: "The solo traveller arriving in Lahore often seeks connection without the unpredictability of a bar scene or the pressure of a formal networking event."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -5,7 +5,7 @@ alternatePath: "/city/rome/minimalist-dinner"
 translationKey: "rome-minimalist-dinner"
 lang: "en"
 title: "Rome Minimalist Dinner: how Fanju app makes the table worth choosing"
-description: "In Rome, the concept of minimalism often clashes with the visual noise of the city center, so a host must clearly define the venue type to manage expectations. A listing should explicitly state if the table is in a"
+description: "In Rome, the concept of minimalism often clashes with the visual noise of the city center, so a host must clearly define the venue type to manage expect…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

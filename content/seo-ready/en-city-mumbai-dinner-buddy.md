@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/mumbai/dinner-buddy"
 alternatePath: "/city/mumbai/dinner-buddy"
-title: "Mumbai Dinner Buddy Guide: Finding Connection Over a Meal | Fanju app"
-description: "Mumbai, a city that pulses with life, can sometimes feel overwhelmingly vast, leaving many feeling adrift. The Fanju app offers a refreshing approach to combating urban loneliness by facilitating small, low-pressure dinner gatherings. It's designed for individuals seeking genuine, in-person connections in a relaxed setting, turning a simple meal into an opportunity to build community. This guide explores how Fanju can help you find your dinner buddy in Mumbai, fostering real-world interactions in our bustling metropolis."
+title: "Mumbai Dinner Buddy Guide: Finding Connection Over a Meal"
+description: "Mumbai, a city that pulses with life, can sometimes feel overwhelmingly vast, leaving many feeling adrift."
 recoveredFromD1: true
 ---
 Mumbai, a city that pulses with life, can sometimes feel overwhelmingly vast, leaving many feeling adrift. The Fanju app offers a refreshing approach to combating urban loneliness by facilitating small, low-pressure dinner gatherings. It&#039;s designed for individuals seeking genuine, in-person connections in a relaxed setting, turning a simple meal into an opportunity to build community. This guide explores how Fanju can help you find your dinner buddy in Mumbai, fostering real-world interactions in our bustling metropolis.

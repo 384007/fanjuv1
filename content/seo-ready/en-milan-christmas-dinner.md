@@ -4,8 +4,8 @@ canonicalPath: "/en/city/milan/christmas-dinner"
 alternatePath: "/city/milan/christmas-dinner"
 translationKey: "milan-christmas-dinner"
 lang: "en"
-title: "Before joining Christmas Dinner in Milan, what Fanju app should make clear"
-description: "A compelling listing for a festive meal in Milan does not simply announce a time and place; it establishes a mood that resonates with the city's rhythm. You want to read a first sentence that articulates why this"
+title: "Before joining Christmas Dinner in Milan, what Fanju app should..."
+description: "A compelling listing for a festive meal in Milan does not simply announce a time and place; it establishes a mood that resonates with the city's rhythm.…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

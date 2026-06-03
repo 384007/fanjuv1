@@ -4,8 +4,8 @@ canonicalPath: "/en/city/berlin/editor-dinner"
 alternatePath: "/city/berlin/editor-dinner"
 translationKey: "berlin-editor-dinner"
 lang: "en"
-title: "A calmer way to approach Editor Dinner in Berlin through Fanju app | fanju-app"
-description: "Trying Editor Dinner in Berlin for the first time through the Fanju app can feel like standing at the edge of a crowded U-Bahn platform—curious, a little uncertain, and wondering if you’re about to step into something th"
+title: "A calmer way to approach Editor Dinner in Berlin through Fanju app"
+description: "Trying Editor Dinner in Berlin for the first time through the Fanju app can feel like standing at the edge of a crowded U-Bahn platform—curious, a littl…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

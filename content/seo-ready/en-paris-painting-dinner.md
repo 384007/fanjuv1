@@ -4,8 +4,8 @@ canonicalPath: "/en/city/paris/painting-dinner"
 alternatePath: "/city/paris/painting-dinner"
 translationKey: "paris-painting-dinner"
 lang: "en"
-title: "A calmer way to approach Painting Dinner in Paris through Fanju app | fanju-app"
-description: "After a long day navigating the Métro, meetings in glass-walled offices near La Défense, or walking the uneven stones of Montmartre, the thought of another loud bar or crowded art opening in Paris can feel exhausting. Fo"
+title: "A calmer way to approach Painting Dinner in Paris through Fanju app"
+description: "After a long day navigating the Métro, meetings in glass-walled offices near La Défense, or walking the uneven stones of Montmartre, the thought of anot…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

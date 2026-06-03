@@ -4,9 +4,9 @@ canonicalPath: "/city/shenyang/productivity-dinner"
 alternatePath: "/en/city/shenyang/productivity-dinner"
 translationKey: "shenyang-productivity-dinner"
 lang: "zh"
-title: "在沈阳找一桌不尴尬的效率饭局，饭局app先解决什么 | fanju-app"
+title: "在沈阳找一桌不尴尬的效率饭局，饭局app先解决什么"
 titleZh: "在沈阳找一桌不尴尬的效率饭局，饭局app先解决什么"
-description: "你在沈阳下班后的选择，是挤进地铁赶回家，还是打开饭局app，看一眼今晚有没有人正在组织一场3到6人的小饭局？ 这座城市太大，大到从铁西到浑南要穿过整座城，可一张饭桌却很小，小到六个人围坐，连谁先夹菜都藏不住情绪。 饭局app在这里做的，不是拉人凑局，而是让每一次饭局的起点更清晰——在沈阳，我们更需要的不是热闹，而是一桌能真正对话的饭。"
+description: "你在沈阳下班后的选择，是挤进地铁赶回家，还是打开饭局app，看一眼今晚有没有人正在组织一场3到6人的小饭局？ 这座城市太大，大到从铁西到浑南要穿过整座城，可一张饭桌却很小，小到六个人围坐，连谁先夹菜都藏不住情绪。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

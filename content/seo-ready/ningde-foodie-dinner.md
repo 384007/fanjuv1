@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/ningde/foodie-dinner"
 alternatePath: "/en/city/ningde/foodie-dinner"
-title: "在宁德把美食爱好者饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
+title: "在宁德把美食爱好者饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "在宁德，一场精心策划的美食爱好者饭局，远不止是找个地方吃顿饭那么简单。饭局app的出现，为我们提供了一个更聚焦、更具意图的平台，让那些渴望深度交流、品味美食的同好们，能够找到彼此。它不仅仅是一个工具，更是连接宁德本地美食文化与热爱生活的人们"
 recoveredFromD1: true
 ---

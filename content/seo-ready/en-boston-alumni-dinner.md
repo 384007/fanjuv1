@@ -5,7 +5,7 @@ alternatePath: "/city/boston/alumni-dinner"
 translationKey: "boston-alumni-dinner"
 lang: "en"
 title: "Boston After‑Work Alumni Dinner: Finding a Quiet Fanju app Table"
-description: "When the office lights dim at five, the question becomes whether to head straight home or linger over a modest dinner with fellow graduates. A Boston alumni table that caps attendance at eight people lets you see the"
+description: "When the office lights dim at five, the question becomes whether to head straight home or linger over a modest dinner with fellow graduates."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

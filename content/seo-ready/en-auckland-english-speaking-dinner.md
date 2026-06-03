@@ -4,8 +4,8 @@ canonicalPath: "/en/city/auckland/english-speaking-dinner"
 alternatePath: "/city/auckland/english-speaking-dinner"
 translationKey: "auckland-english-speaking-dinner"
 lang: "en"
-title: "Auckland English Speaking Dinner: how Fanju app makes the table worth choosing"
-description: "In Auckland, the logistics of getting home often dictate the comfort level of an evening, especially when guests are travelling from different neighbourhoods like the North Shore or the central suburbs. A well-organized"
+title: "Auckland English Speaking Dinner: how Fanju app makes the table..."
+description: "In Auckland, the logistics of getting home often dictate the comfort level of an evening, especially when guests are travelling from different neighbour…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

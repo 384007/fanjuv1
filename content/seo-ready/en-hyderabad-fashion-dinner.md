@@ -4,8 +4,8 @@ canonicalPath: "/en/city/hyderabad/fashion-dinner"
 alternatePath: "/city/hyderabad/fashion-dinner"
 translationKey: "hyderabad-fashion-dinner"
 lang: "en"
-title: "Before joining Fashion Dinner in Hyderabad, what Fanju app should make clear"
-description: "In Hyderabad, where traffic and location logistics are crucial, knowing the specific type of venue helps guests decide if they can commit to a Fashion Dinner. A vague description like a nice place in Banjara Hills is"
+title: "Before joining Fashion Dinner in Hyderabad, what Fanju app should..."
+description: "In Hyderabad, where traffic and location logistics are crucial, knowing the specific type of venue helps guests decide if they can commit to a Fashion D…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

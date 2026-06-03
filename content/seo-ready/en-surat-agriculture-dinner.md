@@ -4,8 +4,8 @@ canonicalPath: "/en/city/surat/agriculture-dinner"
 alternatePath: "/city/surat/agriculture-dinner"
 translationKey: "surat-agriculture-dinner"
 lang: "en"
-title: "Surat does not need another vague invite; Fanju app makes Agriculture Dinner specific | fanju-app"
-description: "Surat hosts many gatherings, but most never reach the table. They stall at the idea stage—vague messages in group chats, invitations with no clear purpose, events that dissolve before arrival. I’ve hosted agriculture-the"
+title: "Surat does not need another vague invite; Fanju app makes..."
+description: "Surat hosts many gatherings, but most never reach the table. They stall at the idea stage—vague messages in group chats, invitations with no clear purpo…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

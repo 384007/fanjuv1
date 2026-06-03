@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/offline-social-dinner"
 alternatePath: "/city/brussels/offline-social-dinner"
 translationKey: "brussels-offline-social-dinner"
 lang: "en"
-title: "Before joining Offline Social Dinner in Brussels, what Fanju app should make clear"
-description: "When using a social dining app in Brussels, the first thing to check is whether the host clearly describes the venue type, such as a quiet restaurant in the European Quarter or a casual bistro in Ixelles. A vague"
+title: "Before joining Offline Social Dinner in Brussels, what Fanju app..."
+description: "When using a social dining app in Brussels, the first thing to check is whether the host clearly describes the venue type, such as a quiet restaurant in…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

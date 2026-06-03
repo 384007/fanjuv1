@@ -4,8 +4,8 @@ canonicalPath: "/en/city/paris/spanish-learner-dinner"
 alternatePath: "/city/paris/spanish-learner-dinner"
 translationKey: "paris-spanish-learner-dinner"
 lang: "en"
-title: "Why Spanish Learner Dinner in Paris works better when Fanju app keeps the table small | fanju-app"
-description: "Hosting a Spanish Learner Dinner in Paris has taught me that intimacy isn’t just a side benefit—it’s the foundation. When I first started organizing these gatherings, I thought more people meant more energy. But I quickl"
+title: "Why Spanish Learner Dinner in Paris works better when Fanju app..."
+description: "Hosting a Spanish Learner Dinner in Paris has taught me that intimacy isn’t just a side benefit—it’s the foundation."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

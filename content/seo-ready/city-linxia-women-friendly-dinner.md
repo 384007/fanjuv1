@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/linxia/women-friendly-dinner"
 alternatePath: "/en/city/linxia/women-friendly-dinner"
-title: "临夏女性友好饭局指南 | fanju-app | 饭局app"
+title: "临夏女性友好饭局指南"
 description: "临夏女性友好饭局指南，帮助您在临夏找到适合您的女性友好饭局。"
 recoveredFromD1: true
 ---

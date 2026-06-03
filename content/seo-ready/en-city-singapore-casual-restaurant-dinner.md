@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/singapore/casual-restaurant-dinner"
 alternatePath: "/city/singapore/casual-restaurant-dinner"
-title: "Singapore Casual Restaurant Dinner Guide | Fanju app"
-description: "Discover the best casual restaurants in Singapore for a memorable dinner experience with strangers through Fanju app, a social dining app that connects people over small, clearly described meals and real-world connections."
+title: "Singapore Casual Restaurant Dinner Guide"
+description: "Discover the best casual restaurants in Singapore for a memorable dinner experience with strangers through Fanju app, a social dining app that connects…"
 recoveredFromD1: true
 ---
 Singapore is a melting pot of cultures, and its culinary scene reflects this diversity. From traditional hawker centers to high-end restaurants, the city-state offers a wide range of dining options. However, for those looking for a more intimate and authentic experience, casual restaurant dinners can be a great way to connect with others.

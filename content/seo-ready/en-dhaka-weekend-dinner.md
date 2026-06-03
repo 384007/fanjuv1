@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/dhaka/weekend-dinner"
 alternatePath: "/city/dhaka/weekend-dinner"
-title: "Dhaka does not need another vague invite; Fanju app makes Weekend Dinner specific | fanju-app | 饭局app"
-description: "The Fanju app is changing how people in Dhaka connect over food by focusing on small, intentional dinner gatherings where the experience is clearly described and the social pressure is low. Instead of broad event listing"
+title: "Dhaka does not need another vague invite; Fanju app makes Weekend..."
+description: "The Fanju app is changing how people in Dhaka connect over food by focusing on small, intentional dinner gatherings where the experience is clearly desc…"
 recoveredFromD1: true
 ---
 # Dhaka does not need another vague invite; Fanju app makes Weekend Dinner specific

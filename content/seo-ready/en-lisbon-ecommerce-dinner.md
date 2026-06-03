@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/lisbon/ecommerce-dinner"
 alternatePath: "/city/lisbon/ecommerce-dinner"
-title: "In Lisbon, Fanju app turns Ecommerce Dinner into a table people can actually trust | fanju-app | 饭局app"
-description: "The Fanju app in Lisbon connects professionals from the ecommerce sector through small, intentionally hosted dinners where conversation flows more easily than at a conference mixer. It’s not a networking event disguised"
+title: "In Lisbon, Fanju app turns Ecommerce Dinner into a table people..."
+description: "The Fanju app in Lisbon connects professionals from the ecommerce sector through small, intentionally hosted dinners where conversation flows more easil…"
 recoveredFromD1: true
 ---
 # In Lisbon, Fanju app turns Ecommerce Dinner into a table people can actually trust

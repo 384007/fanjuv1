@@ -4,9 +4,9 @@ canonicalPath: "/city/xiamen/lunar-new-year-dinner"
 alternatePath: "/en/city/xiamen/lunar-new-year-dinner"
 translationKey: "xiamen-lunar-new-year-dinner"
 lang: "zh"
-title: "第一次在厦门参加春节饭局，饭局app怎样让陌生人坐得下来 | fanju-app"
+title: "第一次在厦门参加春节饭局，饭局app怎样让陌生人坐得下来"
 titleZh: "第一次在厦门参加春节饭局，饭局app怎样让陌生人坐得下来"
-description: "春节前的厦门，空气里开始飘着淡淡的海腥味和腊味混合的气息。 街边小店陆续挂上红灯笼，老城区的骑楼下，阿公阿嬷坐在藤椅里晒太阳，年轻人却大多在刷手机，等一个“有人来吗”的回应。 这座城市不大不小，熟悉中带着疏离，热闹里藏着安静。 你可能在鼓浪屿看过日出，在沙坡尾的咖啡馆坐了一下午，但真要找人一起吃顿年饭，却总觉得张不开口。"
+description: "春节前的厦门，空气里开始飘着淡淡的海腥味和腊味混合的气息。 街边小店陆续挂上红灯笼，老城区的骑楼下，阿公阿嬷坐在藤椅里晒太阳，年轻人却大多在刷手机，等一个“有人来吗”的回应。 这座城市不大不小，熟悉中带着疏离，热闹里藏着安静。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

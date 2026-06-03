@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/santiago/new-year-dinner"
 alternatePath: "/city/santiago/new-year-dinner"
-title: "Santiago New Year Dinner Guide | Fanju app"
+title: "Santiago New Year Dinner Guide"
 description: "Join a New Year Dinner in Santiago with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

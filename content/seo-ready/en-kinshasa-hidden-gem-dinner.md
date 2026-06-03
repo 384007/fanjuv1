@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kinshasa/hidden-gem-dinner"
 alternatePath: "/city/kinshasa/hidden-gem-dinner"
 translationKey: "kinshasa-hidden-gem-dinner"
 lang: "en"
-title: "Why Hidden Gem Dinner in Kinshasa works better when Fanju app keeps the table small | fanju-app"
+title: "Why Hidden Gem Dinner in Kinshasa works better when Fanju app..."
 description: "This clarity is crucial. When I'm traveling alone in a city like Kinshasa, I'm looking for experiences that feel welcoming and manageable. A \"hidden gem dinner\" advertised through Fanju means I know the number of people"
 pageType: "city_article"
 priorityScore: 70

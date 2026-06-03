@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/accra/high-quality-social-dining"
 alternatePath: "/city/accra/high-quality-social-dining"
-title: "Accra does not need another vague invite; Fanju app makes High Quality Social Dining specific | fanju-app | 饭局app"
-description: "The Fanju app is changing how people in Accra connect over meals by replacing loose dinner plans with intentional, small-group gatherings centered on real conversation and well-crafted food. Instead of endless back-and-f"
+title: "Accra does not need another vague invite; Fanju app makes High..."
+description: "The Fanju app is changing how people in Accra connect over meals by replacing loose dinner plans with intentional, small-group gatherings centered on re…"
 recoveredFromD1: true
 ---
 # Accra does not need another vague invite; Fanju app makes High Quality Social Dining specific

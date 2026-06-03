@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nagoya/startup-dinner"
 alternatePath: "/city/nagoya/startup-dinner"
 translationKey: "nagoya-startup-dinner"
 lang: "en"
-title: "Startup Dinner in Nagoya should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "Choosing to meet in Nishiki instead of Osu isn’t just about convenience—it’s a signal. Startup Dinner in Nagoya often leans toward Nagonaka or Fushimi, areas where professionals live or work, and where the noise level"
+title: "Startup Dinner in Nagoya should not feel like a gamble; Fanju app..."
+description: "Choosing to meet in Nishiki instead of Osu isn’t just about convenience—it’s a signal."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

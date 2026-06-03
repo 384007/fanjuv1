@@ -4,9 +4,9 @@ canonicalPath: "/city/xuchang/startup-dinner"
 alternatePath: "/en/city/xuchang/startup-dinner"
 translationKey: "xuchang-startup-dinner"
 lang: "zh"
-title: "许昌不想只靠群聊时，饭局app怎样把创业饭局坐成一桌 | fanju-app"
+title: "许昌不想只靠群聊时，饭局app怎样把创业饭局坐成一桌"
 titleZh: "许昌不想只靠群聊时，饭局app怎样把创业饭局坐成一桌"
-description: "在许昌，创业不是一个人的冲刺，而是一群人的节奏调整。 刚搬来这座城市的人，常会发现线上群聊热闹却难有交集，信息刷得快，信任建立得慢。 饭局app的存在，正是为了把这种漂浮的连接落地——它不主打快速撮合或资源交换，而是用一张小桌、一场限定主题的晚餐，让陌生人之间能有真实对话的空间。 在许昌，饭局app像一根细线，串起那些刚落地、想找同频伙伴的人。"
+description: "在许昌，创业不是一个人的冲刺，而是一群人的节奏调整。 刚搬来这座城市的人，常会发现线上群聊热闹却难有交集，信息刷得快，信任建立得慢。 饭局app的存在，正是为了把这种漂浮的连接落地——它不主打快速撮合或资源交换，而是用一张小桌、一场限定主题的晚餐，让陌生人之间能有真实对话的空间。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dubai/badminton-dinner"
 alternatePath: "/city/dubai/badminton-dinner"
 translationKey: "dubai-badminton-dinner"
 lang: "en"
-title: "Before the first message in Dubai, Fanju app makes Badminton Dinner feel like a real decision | fanju-app"
-description: "In Dubai, where plans often dissolve before they begin, the Fanju app helps turn uncertain meetups into real social moments. One evening near Jumeirah Beach, a group gathers after a casual badminton game. They’re not cow"
+title: "Before the first message in Dubai, Fanju app makes Badminton..."
+description: "In Dubai, where plans often dissolve before they begin, the Fanju app helps turn uncertain meetups into real social moments."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

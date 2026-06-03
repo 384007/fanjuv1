@@ -4,8 +4,8 @@ canonicalPath: "/en/city/copenhagen/after-work-dinner"
 alternatePath: "/city/copenhagen/after-work-dinner"
 translationKey: "copenhagen-after-work-dinner"
 lang: "en"
-title: "A clearer After Work Dinner dinner in Copenhagen: Fanju app, small tables, and real boundaries"
-description: "Before you commit to any evening plan, ask yourself if the host has described the entry moment clearly. In a city like Copenhagen, where winter nights are dark and streets can be quiet, knowing exactly how to find the"
+title: "A clearer After Work Dinner dinner in Copenhagen: Fanju app, small..."
+description: "Before you commit to any evening plan, ask yourself if the host has described the entry moment clearly."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

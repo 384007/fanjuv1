@@ -4,8 +4,8 @@ canonicalPath: "/en/city/miami/shared-table"
 alternatePath: "/city/miami/shared-table"
 translationKey: "miami-shared-table"
 lang: "en"
-title: "Miami Shared Table through Fanju app: the questions to answer before you sit down"
-description: "In Miami, a public venue type matters significantly because strangers need to picture the room before they commit to joining. A listing for a Shared Table should clearly state if the setting is a quiet corner of a cozy"
+title: "Miami Shared Table through Fanju app: the questions to answer..."
+description: "In Miami, a public venue type matters significantly because strangers need to picture the room before they commit to joining."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

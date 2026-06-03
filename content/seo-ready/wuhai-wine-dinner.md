@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/wuhai/wine-dinner"
 alternatePath: "/en/city/wuhai/wine-dinner"
-title: "下班后的乌海，饭局app怎样让葡萄酒饭局有真实同桌 | fanju-app"
+title: "下班后的乌海，饭局app怎样让葡萄酒饭局有真实同桌"
 description: "在乌海，下班后的傍晚常带着贺兰山北麓的风，凉意从黄河边吹过来，天色沉得早。这时候，有人会打开饭局app，翻看今晚有没有一桌愿意慢慢喝一杯的同桌饭局。饭局app不是餐厅预订工具，也不是泛泛的社交平台，它是围绕小桌吃饭、清晰主题和真实线下连接设"
 recoveredFromD1: true
 ---

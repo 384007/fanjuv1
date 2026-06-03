@@ -4,8 +4,8 @@ canonicalPath: "/en/city/copenhagen/vegan-dinner"
 alternatePath: "/city/copenhagen/vegan-dinner"
 translationKey: "copenhagen-vegan-dinner"
 lang: "en"
-title: "Copenhagen after work: how Fanju app makes Vegan Dinner feel like a real room | fanju-app"
-description: "After a workday cycling through the gray light of late afternoon Copenhagen, the idea of dinner often dissolves into delivery apps or supermarket wraps. But on certain evenings, a small table is set in a borrowed kitchen"
+title: "Copenhagen after work: how Fanju app makes Vegan Dinner feel like..."
+description: "After a workday cycling through the gray light of late afternoon Copenhagen, the idea of dinner often dissolves into delivery apps or supermarket wraps.…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

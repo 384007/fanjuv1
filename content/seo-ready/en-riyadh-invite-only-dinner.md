@@ -4,8 +4,8 @@ canonicalPath: "/en/city/riyadh/invite-only-dinner"
 alternatePath: "/city/riyadh/invite-only-dinner"
 translationKey: "riyadh-invite-only-dinner"
 lang: "en"
-title: "Small‑Table Warmth in the Riyadh Night: How the Fanju app Shapes an Invite‑Only Dinner"
-description: "The moment you stand on the sidewalk, watching a modest doorway glow against the city’s neon, you’re weighing more than just a menu. You wonder if the table will stay small enough to foster conversation, or if the host"
+title: "Small‑Table Warmth in the Riyadh Night: How the Fanju app Shapes..."
+description: "The moment you stand on the sidewalk, watching a modest doorway glow against the city’s neon, you’re weighing more than just a menu."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chennai/golf-dinner"
 alternatePath: "/city/chennai/golf-dinner"
 translationKey: "chennai-golf-dinner"
 lang: "en"
-title: "Why Golf Dinner in Chennai works better when Fanju app keeps the table small | fanju-app"
-description: "After work, when the last email is sent and the AC of your Marina apartment kicks in, Chennai still hums — not just with traffic or temple bells, but with the quiet ache of not quite connecting. You might have moved here"
+title: "Why Golf Dinner in Chennai works better when Fanju app keeps the..."
+description: "After work, when the last email is sent and the AC of your Marina apartment kicks in, Chennai still hums — not just with traffic or temple bells, but wi…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

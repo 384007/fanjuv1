@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lahore/vc-dinner"
 alternatePath: "/city/lahore/vc-dinner"
 translationKey: "lahore-vc-dinner"
 lang: "en"
-title: "For people trying VC Dinner in Lahore, Fanju app puts the guest mix first | fanju-app"
-description: "Trying VC Dinner in Lahore means stepping into a quiet kind of intimacy that’s rare in the city’s usual social rhythm. It’s not another restaurant pop-up or networking mixer—it’s a table in someone’s home, set for six to"
+title: "For people trying VC Dinner in Lahore, Fanju app puts the guest..."
+description: "Trying VC Dinner in Lahore means stepping into a quiet kind of intimacy that’s rare in the city’s usual social rhythm."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

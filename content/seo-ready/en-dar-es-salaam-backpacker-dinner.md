@@ -5,7 +5,7 @@ alternatePath: "/city/dar-es-salaam/backpacker-dinner"
 translationKey: "dar-es-salaam-backpacker-dinner"
 lang: "en"
 title: "Backpacker Dinner in Dar es Salaam Finds Its Flavor on the Fanju app"
-description: "When you scroll through a Fanju listing, the first thing to verify is whether the venue description lets you imagine the space before you arrive. In Dar es Salaam, a public venue such as a rooftop bar in Oysterbay or a"
+description: "When you scroll through a Fanju listing, the first thing to verify is whether the venue description lets you imagine the space before you arrive."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

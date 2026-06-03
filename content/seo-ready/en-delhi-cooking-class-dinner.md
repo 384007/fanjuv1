@@ -4,8 +4,8 @@ canonicalPath: "/en/city/delhi/cooking-class-dinner"
 alternatePath: "/city/delhi/cooking-class-dinner"
 translationKey: "delhi-cooking-class-dinner"
 lang: "en"
-title: "Why Cooking Class Dinner in Delhi works better when Fanju app keeps the table small | fanju-app"
-description: "Fanju app is designed around small, intentional gatherings where meals become a way to connect with local life in Delhi—not just as visitors, but as temporary locals. Unlike mass dining events or commercial cooking class"
+title: "Why Cooking Class Dinner in Delhi works better when Fanju app..."
+description: "Fanju app is designed around small, intentional gatherings where meals become a way to connect with local life in Delhi—not just as visitors, but as tem…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

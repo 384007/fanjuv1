@@ -4,8 +4,8 @@ canonicalPath: "/en/city/alexandria/ai-products-dinner"
 alternatePath: "/city/alexandria/ai-products-dinner"
 translationKey: "alexandria-ai-products-dinner"
 lang: "en"
-title: "When the Aroma of AI Meets Alexandria: Deciding at the Door with Fanju app"
-description: "The core dilemma for many Alexandrians is whether the dinner’s theme aligns with their curiosity and schedule. If you crave a concise, topic‑centric chat—say, ten minutes of introductions followed by a demo of a new"
+title: "When the Aroma of AI Meets Alexandria: Deciding at the Door with..."
+description: "The core dilemma for many Alexandrians is whether the dinner’s theme aligns with their curiosity and schedule."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

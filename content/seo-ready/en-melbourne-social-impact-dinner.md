@@ -4,8 +4,8 @@ canonicalPath: "/en/city/melbourne/social-impact-dinner"
 alternatePath: "/city/melbourne/social-impact-dinner"
 translationKey: "melbourne-social-impact-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Melbourne Social Impact Dinner table before the first course"
-description: "When you arrive in a new city, the ambiguity of a dining invitation can cause hesitation, especially when standing outside a venue you have never visited. A reliable listing for a Social Impact Dinner in Melbourne"
+title: "The Fanju app way to judge a Melbourne Social Impact Dinner table..."
+description: "When you arrive in a new city, the ambiguity of a dining invitation can cause hesitation, especially when standing outside a venue you have never visite…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

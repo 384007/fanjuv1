@@ -4,8 +4,8 @@ canonicalPath: "/en/city/accra/fantasy-dinner"
 alternatePath: "/city/accra/fantasy-dinner"
 translationKey: "accra-fantasy-dinner"
 lang: "en"
-title: "For people trying Fantasy Dinner in Accra, Fanju app puts the guest mix first | fanju-app"
-description: "When the workday ends in Accra, the city’s energy doesn’t fade—it shifts. Office workers leave the corridors of Airport City and Tudu, creatives pack up from studios in Jamestown, and remote freelancers close laptops in"
+title: "For people trying Fantasy Dinner in Accra, Fanju app puts the..."
+description: "When the workday ends in Accra, the city’s energy doesn’t fade—it shifts. Office workers leave the corridors of Airport City and Tudu, creatives pack up…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

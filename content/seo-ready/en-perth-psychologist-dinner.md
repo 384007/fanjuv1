@@ -4,7 +4,7 @@ canonicalPath: "/en/city/perth/psychologist-dinner"
 alternatePath: "/city/perth/psychologist-dinner"
 translationKey: "perth-psychologist-dinner"
 lang: "en"
-title: "Before joining Psychologist Dinner in Perth, what Fanju app should make clear"
+title: "Before joining Psychologist Dinner in Perth, what Fanju app should..."
 description: "In a sprawling city like Perth, a generic invitation to meet \"somewhere in the CBD\" often signals a lack of care, so the best listings specify a neighbourhood that matches the vibe, such as a quiet spot in Northbridge"
 pageType: "city_article"
 priorityScore: 70

@@ -5,7 +5,7 @@ alternatePath: "/city/baghdad/painting-dinner"
 translationKey: "baghdad-painting-dinner"
 lang: "en"
 title: "Finding Trust in Baghdad’s Painting Dinner Scene through the Fanju app"
-description: "The first uncertainty is whether the listing gives enough context to picture the evening before committing. Ask yourself: *Will I know the size of the group and the layout of the room?* In Baghdad, where many gatherings"
+description: "The first uncertainty is whether the listing gives enough context to picture the evening before committing."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

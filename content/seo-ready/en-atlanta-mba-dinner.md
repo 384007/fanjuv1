@@ -4,8 +4,8 @@ canonicalPath: "/en/city/atlanta/mba-dinner"
 alternatePath: "/city/atlanta/mba-dinner"
 translationKey: "atlanta-mba-dinner"
 lang: "en"
-title: "Atlanta after work: how Fanju app makes MBA Dinner feel like a real room | fanju-app"
-description: "When considering an MBA Dinner invite in Atlanta, it's essential to distinguish between a casual gathering and a more structured event. The Fanju app helps to facilitate the latter, providing a platform for hosts to"
+title: "Atlanta after work: how Fanju app makes MBA Dinner feel like a..."
+description: "When considering an MBA Dinner invite in Atlanta, it's essential to distinguish between a casual gathering and a more structured event."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

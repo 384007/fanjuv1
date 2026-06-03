@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/hulunbuir/friendship-dinner"
 alternatePath: "/en/city/hulunbuir/friendship-dinner"
-title: "呼伦贝尔友情饭局指南：如何组织一桌自然的饭局 | fanju-app | 饭局app"
+title: "呼伦贝尔友情饭局指南：如何组织一桌自然的饭局"
 description: "呼伦贝尔友情饭局指南：如何组织一桌自然的饭局"
 recoveredFromD1: true
 ---

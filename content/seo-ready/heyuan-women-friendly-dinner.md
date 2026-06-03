@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/heyuan/women-friendly-dinner"
 alternatePath: "/en/city/heyuan/women-friendly-dinner"
-title: "下班后的河源，饭局app怎样让女性友好饭局有真实同桌 | fanju-app"
+title: "下班后的河源，饭局app怎样让女性友好饭局有真实同桌"
 description: "饭局app在河源不是一场热闹的线上邀约，而是一张张小桌的真实拼图。它围绕“一起吃饭”这个最朴素的动作，把城市里独自路过的人，安顿在有主题、有边界、有主理人信号的饭桌上。在河源，一座节奏缓慢、生活气息浓重的城市，饭局app让女性友好饭局不再是"
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/luanda/creative-writing-dinner"
 alternatePath: "/city/luanda/creative-writing-dinner"
 translationKey: "luanda-creative-writing-dinner"
 lang: "en"
-title: "A clearer Creative Writing Dinner dinner in Luanda: Fanju app, small tables, and real boundaries"
-description: "When you scan for a Creative Writing Dinner in Luanda, the difference between a wasted evening and a memorable one often hides in a single sentence of the host's description. A strong listing does not just announce a"
+title: "A clearer Creative Writing Dinner dinner in Luanda: Fanju app,..."
+description: "When you scan for a Creative Writing Dinner in Luanda, the difference between a wasted evening and a memorable one often hides in a single sentence of t…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

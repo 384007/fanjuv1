@@ -4,8 +4,8 @@ canonicalPath: "/en/city/riyadh/tourism-dinner"
 alternatePath: "/city/riyadh/tourism-dinner"
 translationKey: "riyadh-tourism-dinner"
 lang: "en"
-title: "Riyadh Tourism Dinner through the Fanju app: an after‑work neighborhood test"
-description: "The first question many Riyadh readers ask is whether the dinner feels like an extension of their after‑work routine or a forced tourist activity. A local‑life test starts with the neighbourhood description: is the"
+title: "Riyadh Tourism Dinner through the Fanju app: an after‑work..."
+description: "The first question many Riyadh readers ask is whether the dinner feels like an extension of their after‑work routine or a forced tourist activity."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

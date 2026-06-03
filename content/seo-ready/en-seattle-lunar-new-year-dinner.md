@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seattle/lunar-new-year-dinner"
 alternatePath: "/city/seattle/lunar-new-year-dinner"
 translationKey: "seattle-lunar-new-year-dinner"
 lang: "en"
-title: "What makes Lunar New Year Dinner in Seattle worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "Seattle’s pace after 5 p.m. shifts quickly from transit congestion to quiet neighborhoods. If you’re commuting from South Lake Union or downtown, that pause between work and evening plans is when hesitation sets in."
+title: "What makes Lunar New Year Dinner in Seattle worth the risk; Fanju..."
+description: "Seattle’s pace after 5 p.m. shifts quickly from transit congestion to quiet neighborhoods."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

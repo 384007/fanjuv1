@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/lagos/alumni-dinner"
 alternatePath: "/city/lagos/alumni-dinner"
-title: "Lagos Alumni Dinner Guide | Fanju app"
-description: "Plan your Alumni Dinner in Lagos with Fanju app, a social dining app for small, clearly described meals and real-world connections. Connect with fellow alumni and make meaningful relationships in a relaxed atmosphere, free from romantic pressure."
+title: "Lagos Alumni Dinner Guide"
+description: "Plan your Alumni Dinner in Lagos with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---
 Lagos Alumni Dinner Guide

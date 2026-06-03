@@ -5,7 +5,7 @@ alternatePath: "/city/paris/christmas-dinner"
 translationKey: "paris-christmas-dinner"
 lang: "en"
 title: "Connecting for Christmas Dinner in Paris: The Fanju app Approach"
-description: "The holiday season in Paris, while enchanting, can amplify feelings of solitude for those without immediate family or a pre-established social circle. The traditional Christmas dinner, often a cornerstone of festive"
+description: "The holiday season in Paris, while enchanting, can amplify feelings of solitude for those without immediate family or a pre-established social circle."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

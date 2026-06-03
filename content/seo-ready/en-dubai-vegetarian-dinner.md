@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dubai/vegetarian-dinner"
 alternatePath: "/city/dubai/vegetarian-dinner"
 translationKey: "dubai-vegetarian-dinner"
 lang: "en"
-title: "Dubai Evenings: Finding Your Quiet Vegetarian Dinner Table with Fanju app"
-description: "The Fanju app presents a curated way to discover and join small-table dinners in Dubai, specifically designed for those seeking a calm, thematic experience. It’s a platform where the focus is on the shared meal and"
+title: "Dubai Evenings: Finding Your Quiet Vegetarian Dinner Table with..."
+description: "The Fanju app presents a curated way to discover and join small-table dinners in Dubai, specifically designed for those seeking a calm, thematic experie…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

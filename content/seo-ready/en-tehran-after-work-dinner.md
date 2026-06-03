@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tehran/after-work-dinner"
 alternatePath: "/city/tehran/after-work-dinner"
 translationKey: "tehran-after-work-dinner"
 lang: "en"
-title: "When the Tehran evening light catches the table and you wonder whether to step in: an After Work Dinner scene through the Fanju app"
-description: "The first thing you notice is the subtle tension between curiosity and caution as you linger on the curb, checking whether the table’s vibe matches your mood after a long day at the office. In Tehran, many after‑work"
+title: "When the Tehran evening light catches the table and you wonder..."
+description: "The first thing you notice is the subtle tension between curiosity and caution as you linger on the curb, checking whether the table’s vibe matches your…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

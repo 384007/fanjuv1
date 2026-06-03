@@ -4,8 +4,8 @@ canonicalPath: "/en/city/rome/sales-dinner"
 alternatePath: "/city/rome/sales-dinner"
 translationKey: "rome-sales-dinner"
 lang: "en"
-title: "A calmer way to approach Sales Dinner in Rome through Fanju app | fanju-app"
-description: "Rome's weekend table is a place where people come together to share stories, ideas, and experiences. However, without a clear frame, these gatherings can quickly become vague social plans. Sales Dinner, in particular,"
+title: "A calmer way to approach Sales Dinner in Rome through Fanju app"
+description: "Rome's weekend table is a place where people come together to share stories, ideas, and experiences."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

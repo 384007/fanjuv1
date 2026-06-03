@@ -4,7 +4,7 @@ canonicalPath: "/en/city/auckland/vegetarian-dinner"
 alternatePath: "/city/auckland/vegetarian-dinner"
 translationKey: "auckland-vegetarian-dinner"
 lang: "en"
-title: "Before the first message in Auckland, Fanju app makes Vegetarian Dinner feel like a real decision | fanju-app"
+title: "Before the first message in Auckland, Fanju app makes Vegetarian..."
 description: "The city of Auckland, with its sprawling suburbs and busy professional landscape, often leaves people feeling disconnected despite the abundance of social opportunities. Many evenings begin with a casual \"let's grab"
 pageType: "city_article"
 priorityScore: 70

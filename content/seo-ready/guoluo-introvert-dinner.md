@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/guoluo/introvert-dinner"
 alternatePath: "/en/city/guoluo/introvert-dinner"
-title: "果洛内向者饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
+title: "果洛内向者饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "饭局app在果洛的尝试，不是把人塞进饭桌，而是重新理解一餐饭的边界。在多数城市，社交被简化成“有人在场”就等于“不孤独”，但在果洛，这种逻辑行不通。这里的节奏慢，山地地貌切割了人群的流动，人与人之间的距离不是靠频率拉近，而是靠信任。饭局ap"
 recoveredFromD1: true
 ---

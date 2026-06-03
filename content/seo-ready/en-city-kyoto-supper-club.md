@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/kyoto/supper-club"
 alternatePath: "/city/kyoto/supper-club"
-title: "Kyoto Supper Club Guide | Fanju app"
-description: "Discover the world of Supper Clubs in Kyoto with Fanju app, a social dining app that connects you with like-minded people for small, clearly described meals and real-world connections."
+title: "Kyoto Supper Club Guide"
+description: "Discover the world of Supper Clubs in Kyoto with Fanju app, a social dining app that connects you with like-minded people for small, clearly described m…"
 recoveredFromD1: true
 ---
 Kyoto, a city known for its rich cultural heritage and vibrant food scene, is the perfect place to experience the magic of Supper Clubs. Imagine gathering around a table with strangers, sharing a delicious meal, and forming lasting connections. This is what Supper Clubs are all about, and with Fanju app, you can be a part of it.

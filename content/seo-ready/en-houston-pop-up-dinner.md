@@ -4,8 +4,8 @@ canonicalPath: "/en/city/houston/pop-up-dinner"
 alternatePath: "/city/houston/pop-up-dinner"
 translationKey: "houston-pop-up-dinner"
 lang: "en"
-title: "Houston after work: how Fanju app makes Pop Up Dinner feel like a real room | fanju-app"
-description: "After work in Houston, the city stretches quiet between office towers and bungalow neighborhoods, and for someone new, the silence can feel large. You’ve unpacked boxes, signed up for gym trials, maybe even tried a happy"
+title: "Houston after work: how Fanju app makes Pop Up Dinner feel like a..."
+description: "After work in Houston, the city stretches quiet between office towers and bungalow neighborhoods, and for someone new, the silence can feel large."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

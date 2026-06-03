@@ -4,8 +4,8 @@ canonicalPath: "/en/city/doha/restaurant-discovery-dinner"
 alternatePath: "/city/doha/restaurant-discovery-dinner"
 translationKey: "doha-restaurant-discovery-dinner"
 lang: "en"
-title: "Restaurant Discovery Dinner in Doha should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "Walking into a crowded Doha restaurant with strangers might sound like a risk, but for many newcomers and even long-term residents, it’s becoming a dependable way to settle into the city’s rhythm. The uncertainty that on"
+title: "Restaurant Discovery Dinner in Doha should not feel like a gamble;..."
+description: "Walking into a crowded Doha restaurant with strangers might sound like a risk, but for many newcomers and even long-term residents, it’s becoming a depe…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

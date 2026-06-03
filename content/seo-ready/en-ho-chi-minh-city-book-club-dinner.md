@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ho-chi-minh-city/book-club-dinner"
 alternatePath: "/city/ho-chi-minh-city/book-club-dinner"
 translationKey: "ho-chi-minh-city-book-club-dinner"
 lang: "en"
-title: "Ho Chi Minh City after work: how Fanju app makes Book Club Dinner feel like a real room | fanju-app"
-description: "In Ho Chi Minh City, where evenings often dissolve into last-minute coffee meetups or solo pho at a street stall, the idea of joining a structured social event can feel unnatural. The Fanju app changes that by anchoring"
+title: "Ho Chi Minh City after work: how Fanju app makes Book Club Dinner..."
+description: "In Ho Chi Minh City, where evenings often dissolve into last-minute coffee meetups or solo pho at a street stall, the idea of joining a structured socia…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

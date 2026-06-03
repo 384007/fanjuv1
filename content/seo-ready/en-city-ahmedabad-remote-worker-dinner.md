@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/ahmedabad/remote-worker-dinner"
 alternatePath: "/city/ahmedabad/remote-worker-dinner"
-title: "Ahmedabad Remote Worker Dinner Guide | Fanju app"
-description: "Join a Fanju table for a unique dining experience in Ahmedabad, connecting with like-minded remote workers from around the world. Fanju app is a social dining app that brings people together for small, clearly described meals and real-world connections. Whether you're a solo traveller or a remote worker looking to expand your professional network, Fanju's dinner gatherings are the perfect opportunity to meet new people and make meaningful connections in a relaxed atmosphere."
+title: "Ahmedabad Remote Worker Dinner Guide"
+description: "Join a Fanju table for a unique dining experience in Ahmedabad, connecting with like-minded remote workers from around the world."
 recoveredFromD1: true
 ---
 For someone passing through Ahmedabad alone, an evening with Fanju is a chance to break free from the monotony of solo travel and experience the city&#039;s vibrant culture. Imagine joining a table of like-minded individuals, all united by their passion for work and exploration. As you share a meal together, you&#039;ll discover the unique stories and experiences that bring each person to this beautiful city.

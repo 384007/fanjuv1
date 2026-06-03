@@ -4,8 +4,8 @@ canonicalPath: "/en/city/santiago/cleantech-dinner"
 alternatePath: "/city/santiago/cleantech-dinner"
 translationKey: "santiago-cleantech-dinner"
 lang: "en"
-title: "Santiago Cleantech Dinner: how Fanju app makes the table worth choosing"
-description: "The core idea behind Fanju is that food serves as the quickest bridge between strangers. When you’re gathered around a table, sharing a meal in Santiago, the act of eating and drinking together naturally breaks down"
+title: "Santiago Cleantech Dinner: how Fanju app makes the table worth..."
+description: "The core idea behind Fanju is that food serves as the quickest bridge between strangers."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

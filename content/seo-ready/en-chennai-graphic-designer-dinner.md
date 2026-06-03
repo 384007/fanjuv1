@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chennai/graphic-designer-dinner"
 alternatePath: "/city/chennai/graphic-designer-dinner"
 translationKey: "chennai-graphic-designer-dinner"
 lang: "en"
-title: "Before the first message in Chennai, Fanju app makes Graphic Designer Dinner feel like a real decision | fanju-app"
-description: "In Chennai, the prospect of a Graphic Designer Dinner, facilitated by the Fanju app, transforms a casual thought into a considered plan. It’s less about a spontaneous ‘yes’ and more about a thoughtful ‘this is the right"
+title: "Before the first message in Chennai, Fanju app makes Graphic..."
+description: "In Chennai, the prospect of a Graphic Designer Dinner, facilitated by the Fanju app, transforms a casual thought into a considered plan."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

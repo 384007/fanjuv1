@@ -4,8 +4,8 @@ canonicalPath: "/en/city/houston/curated-dinner"
 alternatePath: "/city/houston/curated-dinner"
 translationKey: "houston-curated-dinner"
 lang: "en"
-title: "For Houston readers considering Curated Dinner, Fanju app should make the room legible"
-description: "When you look at a listing for a Curated Dinner in Houston, the core value of Fanju 饭局app lies in how clearly the host defines the evening before you ever leave your neighborhood. Unlike open-ended meetups that might"
+title: "For Houston readers considering Curated Dinner, Fanju app should..."
+description: "When you look at a listing for a Curated Dinner in Houston, the core value of Fanju 饭局app lies in how clearly the host defines the evening before you ev…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

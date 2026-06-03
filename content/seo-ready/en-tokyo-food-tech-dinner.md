@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tokyo/food-tech-dinner"
 alternatePath: "/city/tokyo/food-tech-dinner"
 translationKey: "tokyo-food-tech-dinner"
 lang: "en"
-title: "When Tokyo’s Neon Streets Meet a Quiet Food‑Tech Dinner Table on Fanju app"
-description: "The first question many Tokyo readers ask is whether the limited seats at a Food Tech Dinner justify the time and money spent. A typical table caps at six participants, which means the conversation stays focused but"
+title: "When Tokyo’s Neon Streets Meet a Quiet Food‑Tech Dinner Table on..."
+description: "The first question many Tokyo readers ask is whether the limited seats at a Food Tech Dinner justify the time and money spent."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/melbourne/archery-dinner"
 alternatePath: "/city/melbourne/archery-dinner"
 translationKey: "melbourne-archery-dinner"
 lang: "en"
-title: "Before the first message in Melbourne, Fanju app makes Archery Dinner feel like a real decision | fanju-app"
-description: "In Melbourne, an Archery Dinner isn’t something you stumble into by accident. It’s not advertised on street corners or tucked into weekend festival lineups. It happens quietly, often in back alleys of converted warehouse"
+title: "Before the first message in Melbourne, Fanju app makes Archery..."
+description: "In Melbourne, an Archery Dinner isn’t something you stumble into by accident. It’s not advertised on street corners or tucked into weekend festival line…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vancouver/mindfulness-dinner"
 alternatePath: "/city/vancouver/mindfulness-dinner"
 translationKey: "vancouver-mindfulness-dinner"
 lang: "en"
-title: "Finding Calm After the Clock: Vancouver Mindfulness Dinner Through the Fanju app"
-description: "After a day of meetings, many professionals in Vancouver look for a low‑effort way to extend their evening without heading straight home. A Mindfulness Dinner that starts after work and continues into the weekend can"
+title: "Finding Calm After the Clock: Vancouver Mindfulness Dinner Through..."
+description: "After a day of meetings, many professionals in Vancouver look for a low‑effort way to extend their evening without heading straight home."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

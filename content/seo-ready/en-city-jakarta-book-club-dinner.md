@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/jakarta/book-club-dinner"
 alternatePath: "/city/jakarta/book-club-dinner"
-title: "Jakarta Book Club Dinner Guide | Fanju app"
+title: "Jakarta Book Club Dinner Guide"
 description: "Discover the joy of social dining with Fanju app, a platform that connects like-minded individuals for small, meaningful meals and real-world connections."
 recoveredFromD1: true
 ---

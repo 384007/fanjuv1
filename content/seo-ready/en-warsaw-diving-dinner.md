@@ -4,8 +4,8 @@ canonicalPath: "/en/city/warsaw/diving-dinner"
 alternatePath: "/city/warsaw/diving-dinner"
 translationKey: "warsaw-diving-dinner"
 lang: "en"
-title: "Warsaw Diving Dinner through Fanju app: the questions to answer before you sit down"
-description: "In Warsaw, a public venue type matters significantly because strangers need to picture the room before they commit to joining. A vague description of a restaurant or a generic location can create unnecessary anxiety for"
+title: "Warsaw Diving Dinner through Fanju app: the questions to answer..."
+description: "In Warsaw, a public venue type matters significantly because strangers need to picture the room before they commit to joining."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

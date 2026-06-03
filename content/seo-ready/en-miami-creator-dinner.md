@@ -4,8 +4,8 @@ canonicalPath: "/en/city/miami/creator-dinner"
 alternatePath: "/city/miami/creator-dinner"
 translationKey: "miami-creator-dinner"
 lang: "en"
-title: "For people trying Creator Dinner in Miami, Fanju app puts the guest mix first | fanju-app"
-description: "If you’ve just moved to Miami and are looking to build real connections over dinner, the Fanju app offers a thoughtful way to experience Creator Dinner—one where the guest mix is prioritized over spectacle. Unlike generi"
+title: "For people trying Creator Dinner in Miami, Fanju app puts the..."
+description: "If you’ve just moved to Miami and are looking to build real connections over dinner, the Fanju app offers a thoughtful way to experience Creator Dinner—…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

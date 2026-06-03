@@ -4,8 +4,8 @@ canonicalPath: "/en/city/perth/language-learner-dinner"
 alternatePath: "/city/perth/language-learner-dinner"
 translationKey: "perth-language-learner-dinner"
 lang: "en"
-title: "Should you trust Perth’s Language Learner Dinner on the Fanju app for a low‑key after‑work table?"
-description: "A curated‑table standard means the host deliberately limits seats, often to eight or fewer, to keep conversation intimate and manageable. In Perth’s sprawling suburbs, that small size matters because travel time can be"
+title: "Should you trust Perth’s Language Learner Dinner on the Fanju app..."
+description: "A curated‑table standard means the host deliberately limits seats, often to eight or fewer, to keep conversation intimate and manageable."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

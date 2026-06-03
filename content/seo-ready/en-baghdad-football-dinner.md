@@ -4,8 +4,8 @@ canonicalPath: "/en/city/baghdad/football-dinner"
 alternatePath: "/city/baghdad/football-dinner"
 translationKey: "baghdad-football-dinner"
 lang: "en"
-title: "A Baghdad dinner table for Football Dinner, with Fanju app boundaries up front"
-description: "In a city like Baghdad, where social gatherings often rely on established circles, a listing for Football Dinner needs to stand out with specific local signals. You should look for details that mention the specific"
+title: "A Baghdad dinner table for Football Dinner, with Fanju app..."
+description: "In a city like Baghdad, where social gatherings often rely on established circles, a listing for Football Dinner needs to stand out with specific local…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

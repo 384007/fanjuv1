@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chennai/running-dinner"
 alternatePath: "/city/chennai/running-dinner"
 translationKey: "chennai-running-dinner"
 lang: "en"
-title: "Running Dinner in Chennai should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "Running Dinner in Chennai can be more than dinner at a stranger’s home—it can be a quiet moment of belonging in a city that unfolds slowly. But for first-timers, the idea of joining a Fanju-hosted dinner often feels unce"
+title: "Running Dinner in Chennai should not feel like a gamble; Fanju app..."
+description: "Running Dinner in Chennai can be more than dinner at a stranger’s home—it can be a quiet moment of belonging in a city that unfolds slowly."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

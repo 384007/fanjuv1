@@ -4,8 +4,8 @@ canonicalPath: "/en/city/london/cooking-class-dinner"
 alternatePath: "/city/london/cooking-class-dinner"
 translationKey: "london-cooking-class-dinner"
 lang: "en"
-title: "London does not need another vague invite; Fanju app makes Cooking Class Dinner specific | fanju-app"
-description: "London has too many dinner plans that never land. A text says “we should get dinner,” and nothing follows. The city hums with half-invitations, but Fanju app turns them into real tables. Cooking Class Dinner on Fanju isn"
+title: "London does not need another vague invite; Fanju app makes Cooking..."
+description: "London has too many dinner plans that never land. A text says “we should get dinner,” and nothing follows."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

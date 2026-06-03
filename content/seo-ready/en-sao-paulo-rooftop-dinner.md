@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sao-paulo/rooftop-dinner"
 alternatePath: "/city/sao-paulo/rooftop-dinner"
 translationKey: "sao-paulo-rooftop-dinner"
 lang: "en"
-title: "Before joining Rooftop Dinner in Sao Paulo, what Fanju app should make clear"
-description: "A listing for a small-table dinner in Sao Paulo needs to ground the reader in the specific atmosphere of the venue, distinguishing a curated evening from a generic happy hour. The city’s rooftop culture varies wildly"
+title: "Before joining Rooftop Dinner in Sao Paulo, what Fanju app should..."
+description: "A listing for a small-table dinner in Sao Paulo needs to ground the reader in the specific atmosphere of the venue, distinguishing a curated evening fro…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

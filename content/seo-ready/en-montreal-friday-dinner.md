@@ -4,8 +4,8 @@ canonicalPath: "/en/city/montreal/friday-dinner"
 alternatePath: "/city/montreal/friday-dinner"
 translationKey: "montreal-friday-dinner"
 lang: "en"
-title: "Montreal Friday Dinner on the Fanju app: navigating professional pressure after work"
-description: "The first decision many Montreal readers face is whether the invitation aligns with their after‑work rhythm. A typical Friday night in the Mile End sees commuters juggling metro schedules, so a dinner that starts too"
+title: "Montreal Friday Dinner on the Fanju app: navigating professional..."
+description: "The first decision many Montreal readers face is whether the invitation aligns with their after‑work rhythm."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

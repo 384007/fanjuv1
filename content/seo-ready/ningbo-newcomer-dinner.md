@@ -4,7 +4,7 @@ canonicalPath: "/city/ningbo/newcomer-dinner"
 alternatePath: "/en/city/ningbo/newcomer-dinner"
 translationKey: "ningbo-newcomer-dinner"
 lang: "zh"
-title: "宁波新人饭局指南 | fanju-app | 饭局app"
+title: "宁波新人饭局指南"
 titleZh: "宁波新人饭局指南"
 pageType: "city_landing"
 priorityScore: 80

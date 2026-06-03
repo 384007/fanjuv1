@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/xiamen/singles-dinner"
 alternatePath: "/en/city/xiamen/singles-dinner"
-title: "厦门单身饭局指南 | fanju-app | 饭局app"
+title: "厦门单身饭局指南"
 description: "厦门单身饭局指南"
 recoveredFromD1: true
 ---

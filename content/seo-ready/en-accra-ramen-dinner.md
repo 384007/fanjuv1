@@ -4,8 +4,8 @@ canonicalPath: "/en/city/accra/ramen-dinner"
 alternatePath: "/city/accra/ramen-dinner"
 translationKey: "accra-ramen-dinner"
 lang: "en"
-title: "When Ramen Dinner in Accra needs more than a group chat, Fanju app starts with the table"
-description: "Before you reserve a seat for Ramen Dinner in Accra, ask yourself if the stated time frame realistically accounts for your commute, especially when crossing neighborhoods during the week. A listing that respects your"
+title: "When Ramen Dinner in Accra needs more than a group chat, Fanju app..."
+description: "Before you reserve a seat for Ramen Dinner in Accra, ask yourself if the stated time frame realistically accounts for your commute, especially when cros…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

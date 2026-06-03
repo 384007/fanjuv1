@@ -4,8 +4,8 @@ canonicalPath: "/en/city/amsterdam/business-dinner"
 alternatePath: "/city/amsterdam/business-dinner"
 translationKey: "amsterdam-business-dinner"
 lang: "en"
-title: "Before the first message in Amsterdam, Fanju app makes Business Dinner feel like a real decision | fanju-app"
-description: "Receiving a generic group invite in Amsterdam often feels like being swept into a current — you nod along, but no real decision was made. With Fanju, the first message isn’t a mass blast; it’s a deliberate reach, based"
+title: "Before the first message in Amsterdam, Fanju app makes Business..."
+description: "Receiving a generic group invite in Amsterdam often feels like being swept into a current — you nod along, but no real decision was made."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

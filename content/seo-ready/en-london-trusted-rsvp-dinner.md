@@ -4,8 +4,8 @@ canonicalPath: "/en/city/london/trusted-rsvp-dinner"
 alternatePath: "/city/london/trusted-rsvp-dinner"
 translationKey: "london-trusted-rsvp-dinner"
 lang: "en"
-title: "After‑Work Hours in Shoreditch: A London Trusted RSVP Dinner on Fanju app"
-description: "Deciding whether to join a Trusted RSVP Dinner in London hinges on how much structure you need from the evening. If you prefer a table that announces its theme, guest mix, and timing up front, the curated‑table standard"
+title: "After‑Work Hours in Shoreditch: A London Trusted RSVP Dinner on..."
+description: "Deciding whether to join a Trusted RSVP Dinner in London hinges on how much structure you need from the evening."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

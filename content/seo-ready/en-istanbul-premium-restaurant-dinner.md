@@ -4,8 +4,8 @@ canonicalPath: "/en/city/istanbul/premium-restaurant-dinner"
 alternatePath: "/city/istanbul/premium-restaurant-dinner"
 translationKey: "istanbul-premium-restaurant-dinner"
 lang: "en"
-title: "Istanbul after work: how Fanju app makes Premium Restaurant Dinner feel like a real room | fanju-app"
-description: "It’s easy for plans in Istanbul to dissolve into ambiguity. A message in a group chat might say “maybe dinner later? ” with no time, no place, and no real commitment. By Saturday afternoon, nothing has materialized."
+title: "Istanbul after work: how Fanju app makes Premium Restaurant Dinner..."
+description: "It’s easy for plans in Istanbul to dissolve into ambiguity. A message in a group chat might say “maybe dinner later?"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

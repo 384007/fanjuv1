@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lagos/chef-dinner"
 alternatePath: "/city/lagos/chef-dinner"
 translationKey: "lagos-chef-dinner"
 lang: "en"
-title: "A Lagos dinner table for Chef Dinner, with Fanju app boundaries up front"
-description: "When you look for a Chef Dinner in Lagos on Fanju, the listing prioritizes context over quick matches. You see the host's reason for the table, the expected group size, and the specific cuisine focus immediately. This"
+title: "A Lagos dinner table for Chef Dinner, with Fanju app boundaries up..."
+description: "When you look for a Chef Dinner in Lagos on Fanju, the listing prioritizes context over quick matches."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

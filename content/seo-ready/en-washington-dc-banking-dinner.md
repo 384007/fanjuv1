@@ -4,8 +4,8 @@ canonicalPath: "/en/city/washington-dc/banking-dinner"
 alternatePath: "/city/washington-dc/banking-dinner"
 translationKey: "washington-dc-banking-dinner"
 lang: "en"
-title: "Should Washington DC banking professionals join a Fanju app dinner that feels safe and planned?"
-description: "A host who explains why a banking dinner is timely—perhaps referencing recent Federal Reserve announcements or a new regulatory proposal—adds credibility to the gathering. In Washington DC, where policy shifts can"
+title: "Should Washington DC banking professionals join a Fanju app dinner..."
+description: "A host who explains why a banking dinner is timely—perhaps referencing recent Federal Reserve announcements or a new regulatory proposal—adds credibilit…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

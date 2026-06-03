@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/phoenix/wine-dinner"
 alternatePath: "/city/phoenix/wine-dinner"
-title: "Phoenix Wine Dinner Guide | Fanju app"
-description: "Discover the authentic taste of Phoenix with Fanju app, a social dining app that connects you with like-minded individuals for a unique wine dinner experience."
+title: "Phoenix Wine Dinner Guide"
+description: "Discover the authentic taste of Phoenix with Fanju app, a social dining app that connects you with like-minded individuals for a unique wine dinner expe…"
 recoveredFromD1: true
 ---
 \ Phoenix, a city known for its vibrant desert landscape and rich cultural heritage, is a melting pot of flavors and cuisines. As a first-timer, you might be hesitant to join a wine dinner, wondering what to expect and whether it&#039;s the right fit for you. In this guide, we&#039;ll walk you through the world of Phoenix wine dinners, highlighting the benefits of using Fanju app to connect with fellow foodies and wine enthusiasts.

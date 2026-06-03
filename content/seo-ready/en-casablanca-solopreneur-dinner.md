@@ -4,7 +4,7 @@ canonicalPath: "/en/city/casablanca/solopreneur-dinner"
 alternatePath: "/city/casablanca/solopreneur-dinner"
 translationKey: "casablanca-solopreneur-dinner"
 lang: "en"
-title: "For people trying Solopreneur Dinner in Casablanca, Fanju app puts the guest mix first | fanju-app"
+title: "For people trying Solopreneur Dinner in Casablanca, Fanju app puts..."
 description: "The Fanju app in Casablanca is designed for people who want real conversation over dinner, not just another networking event."
 pageType: "city_article"
 priorityScore: 70

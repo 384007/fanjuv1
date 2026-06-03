@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dallas/pharma-dinner"
 alternatePath: "/city/dallas/pharma-dinner"
 translationKey: "dallas-pharma-dinner"
 lang: "en"
-title: "When Pharma Dinner in Dallas needs more than a group chat, Fanju app starts with the table"
-description: "Fanju app aims to provide clarity before you even arrive, which is a significant relief when planning dinner in Dallas. Listings typically detail the specific theme, like Pharma Dinner, and often hint at the host's"
+title: "When Pharma Dinner in Dallas needs more than a group chat, Fanju..."
+description: "Fanju app aims to provide clarity before you even arrive, which is a significant relief when planning dinner in Dallas."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

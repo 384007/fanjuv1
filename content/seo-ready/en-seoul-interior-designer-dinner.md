@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seoul/interior-designer-dinner"
 alternatePath: "/city/seoul/interior-designer-dinner"
 translationKey: "seoul-interior-designer-dinner"
 lang: "en"
-title: "When Solo Arrives in Seoul, the Interior Designer Dinner on Fanju app Turns the Weekend Into a Curated Conversation"
-description: "When you step off the subway at Gangnam Station in Seoul, the first thing to assess is whether the table feels like a natural extension of your weekend plans. A solo arrival should not feel forced; the host usually"
+title: "When Solo Arrives in Seoul, the Interior Designer Dinner on Fanju..."
+description: "When you step off the subway at Gangnam Station in Seoul, the first thing to assess is whether the table feels like a natural extension of your weekend…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

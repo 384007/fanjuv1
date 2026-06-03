@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/xishuangbanna/quality-friends-dinner"
 alternatePath: "/en/city/xishuangbanna/quality-friends-dinner"
-title: "西双版纳想参加高质量朋友饭局，饭局app把信任感放在饭前 | fanju-app"
+title: "西双版纳想参加高质量朋友饭局，饭局app把信任感放在饭前"
 description: "在西双版纳，一场饭局的意义从来不只是一顿饭。热带的晚风裹着香茅草的气味穿过告庄的巷子，人们习惯慢下来，用一锅喃咪、一盘菠萝饭的时间交换故事。但对许多新来者或独自生活的本地人来说，找到愿意坐下来认真吃饭、聊得进心里的朋友，并不容易。饭局app"
 recoveredFromD1: true
 ---

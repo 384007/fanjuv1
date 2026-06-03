@@ -4,8 +4,8 @@ canonicalPath: "/en/city/fukuoka/after-work-dinner"
 alternatePath: "/city/fukuoka/after-work-dinner"
 translationKey: "fukuoka-after-work-dinner"
 lang: "en"
-title: "Fukuoka has plenty of After Work Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "When the workday winds down in Fukuoka, the city offers a myriad of ways to decompress. For many, this means finding a comfortable spot for an after-work dinner, a chance to connect, reflect, or simply enjoy good food an"
+title: "Fukuoka has plenty of After Work Dinner options; Fanju app is the..."
+description: "When the workday winds down in Fukuoka, the city offers a myriad of ways to decompress."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

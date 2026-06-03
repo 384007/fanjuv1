@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cairo/language-exchange-dinner"
 alternatePath: "/city/cairo/language-exchange-dinner"
-title: "Discover Authentic Cairo with Fanju app: A Language Exchange Dinner Guide | fanju-app | 饭局app"
+title: "Discover Authentic Cairo with Fanju app: A Language Exchange..."
 description: "Immerse yourself in Cairo's vibrant culture through a Language Exchange Dinner with local hosts, facilitated by Fanju app."
 recoveredFromD1: true
 ---

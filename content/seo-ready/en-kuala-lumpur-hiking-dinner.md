@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kuala-lumpur/hiking-dinner"
 alternatePath: "/city/kuala-lumpur/hiking-dinner"
 translationKey: "kuala-lumpur-hiking-dinner"
 lang: "en"
-title: "Hiking Dinner in Kuala Lumpur should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "Trying Hiking Dinner in Kuala Lumpur for the first time through the Fanju app felt less like an invitation and more like stepping into a quiet unknown. I wasn’t sure if I’d end up sitting across from someone who’d lived"
+title: "Hiking Dinner in Kuala Lumpur should not feel like a gamble; Fanju..."
+description: "Trying Hiking Dinner in Kuala Lumpur for the first time through the Fanju app felt less like an invitation and more like stepping into a quiet unknown."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

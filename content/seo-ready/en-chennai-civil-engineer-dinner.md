@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chennai/civil-engineer-dinner"
 alternatePath: "/city/chennai/civil-engineer-dinner"
 translationKey: "chennai-civil-engineer-dinner"
 lang: "en"
-title: "A clearer Civil Engineer Dinner dinner in Chennai: Fanju app, small tables, and real boundaries"
-description: "When a reader in Chennai evaluates a Civil Engineer Dinner, the first thing to look for is how the host describes the physical space. A practical listing should explicitly state whether the venue is a quiet,"
+title: "A clearer Civil Engineer Dinner dinner in Chennai: Fanju app,..."
+description: "When a reader in Chennai evaluates a Civil Engineer Dinner, the first thing to look for is how the host describes the physical space."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

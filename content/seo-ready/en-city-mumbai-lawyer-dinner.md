@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/mumbai/lawyer-dinner"
 alternatePath: "/city/mumbai/lawyer-dinner"
-title: "Mumbai Lawyer Dinner Guide | Fanju app"
-description: "Discover the unique social dining experience of Fanju app, where you can connect with like-minded professionals over delicious meals in a relaxed atmosphere."
+title: "Mumbai Lawyer Dinner Guide"
+description: "Discover the unique social dining experience of Fanju app, where you can connect with like-minded professionals over delicious meals in a relaxed atmosp…"
 recoveredFromD1: true
 ---
 Mumbai, a city that never sleeps, is a melting pot of cultures, cuisines, and professions. As a lawyer, you&#039;re no stranger to the city&#039;s fast-paced rhythm. But when it comes to socializing, you might find yourself stuck in a rut. That&#039;s where Fanju app comes in – a social dining app that&#039;s perfect for small, clearly described meals and real-world connections.

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dublin/music-dinner"
 alternatePath: "/city/dublin/music-dinner"
 translationKey: "dublin-music-dinner"
 lang: "en"
-title: "Why Music Dinner in Dublin works better when Fanju app keeps the table small | fanju-app"
-description: "Dublin’s evenings often blur for remote workers—laptop light fading into pub chatter that never quite lands. You could attend any number of events, but few offer a repeatable rhythm that feels both light and meaningful."
+title: "Why Music Dinner in Dublin works better when Fanju app keeps the..."
+description: "Dublin’s evenings often blur for remote workers—laptop light fading into pub chatter that never quite lands."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

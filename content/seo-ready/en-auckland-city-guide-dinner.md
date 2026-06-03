@@ -4,8 +4,8 @@ canonicalPath: "/en/city/auckland/city-guide-dinner"
 alternatePath: "/city/auckland/city-guide-dinner"
 translationKey: "auckland-city-guide-dinner"
 lang: "en"
-title: "Why City Guide Dinner in Auckland works better when Fanju app keeps the table small | fanju-app"
-description: "Auckland’s sprawl can make dinner plans feel like a commute decision first, a social one second. When a City Guide Dinner invite lands in a group chat with a vague “central location,” it often means someone’s living"
+title: "Why City Guide Dinner in Auckland works better when Fanju app..."
+description: "Auckland’s sprawl can make dinner plans feel like a commute decision first, a social one second."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

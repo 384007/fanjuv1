@@ -4,8 +4,8 @@ canonicalPath: "/en/city/auckland/holiday-dinner"
 alternatePath: "/city/auckland/holiday-dinner"
 translationKey: "auckland-holiday-dinner"
 lang: "en"
-title: "Why Holiday Dinner in Auckland works better when Fanju app keeps the table small | fanju-app"
-description: "Holiday dinner in Auckland doesn’t have to mean a crowded restaurant booking or an overstretched home kitchen. With the Fanju app, small-group dinners are becoming the steady rhythm of long weekends, especially when the"
+title: "Why Holiday Dinner in Auckland works better when Fanju app keeps..."
+description: "Holiday dinner in Auckland doesn’t have to mean a crowded restaurant booking or an overstretched home kitchen."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/kinshasa/city-guide-dinner"
 alternatePath: "/city/kinshasa/city-guide-dinner"
-title: "Kinshasa City Guide Dinner Guide | Fanju app"
-description: "Discover the authentic taste of Kinshasa with Fanju app, a social dining app that connects strangers over small, clearly described meals and real-world connections."
+title: "Kinshasa City Guide Dinner Guide"
+description: "Discover the authentic taste of Kinshasa with Fanju app, a social dining app that connects strangers over small, clearly described meals and real-world…"
 recoveredFromD1: true
 ---
 Kinshasa, the vibrant capital of the Democratic Republic of Congo, is a city that beats to its own rhythm. From the lively streets of Matonge to the tranquil banks of the Congo River, Kinshasa is a melting pot of cultures, cuisines, and experiences. And at the heart of it all is the city&#039;s passion for food – a universal language that transcends borders and brings people together.

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/quanzhou/third-place-dinner"
 alternatePath: "/en/city/quanzhou/third-place-dinner"
-title: "泉州第三空间饭局指南 | fanju-app | 饭局app"
+title: "泉州第三空间饭局指南"
 description: "在泉州的第三空间饭局指南，了解如何通过 Fanju 饭局app 参加第三空间饭局，认识新朋友，体验泉州的文化和美食。"
 recoveredFromD1: true
 ---

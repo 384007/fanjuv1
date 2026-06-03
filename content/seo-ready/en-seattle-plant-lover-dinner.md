@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seattle/plant-lover-dinner"
 alternatePath: "/city/seattle/plant-lover-dinner"
 translationKey: "seattle-plant-lover-dinner"
 lang: "en"
-title: "Seattle does not need another vague invite; Fanju app makes Plant Lover Dinner specific | fanju-app"
-description: "In a city where fog rolls in as predictably as weekend plans fall through, Seattle residents know how isolating urban life can become—even in a place celebrated for coffee shop greetings and farmers market waves. The Fan"
+title: "Seattle does not need another vague invite; Fanju app makes Plant..."
+description: "In a city where fog rolls in as predictably as weekend plans fall through, Seattle residents know how isolating urban life can become—even in a place ce…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/ganzhou/private-dinner"
 alternatePath: "/en/city/ganzhou/private-dinner"
-title: "赣州私密饭局指南：如何选择靠谱的饭局app | fanju-app"
+title: "赣州私密饭局指南：如何选择靠谱的饭局app"
 description: "赣州私密饭局指南：如何选择靠谱的饭局app"
 recoveredFromD1: true
 ---

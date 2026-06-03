@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tehran/potluck-dinner"
 alternatePath: "/city/tehran/potluck-dinner"
 translationKey: "tehran-potluck-dinner"
 lang: "en"
-title: "Tehran after work: how Fanju app makes Potluck Dinner feel like a real room | fanju-app"
-description: "In Tehran, the transition from a busy workday to a fulfilling evening can feel like a gap, especially after years where online interactions often took precedence. Fanju app aims to bridge this with its Potluck Dinner fea"
+title: "Tehran after work: how Fanju app makes Potluck Dinner feel like a..."
+description: "In Tehran, the transition from a busy workday to a fulfilling evening can feel like a gap, especially after years where online interactions often took p…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

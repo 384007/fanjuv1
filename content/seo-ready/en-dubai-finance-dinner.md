@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dubai/finance-dinner"
 alternatePath: "/city/dubai/finance-dinner"
 translationKey: "dubai-finance-dinner"
 lang: "en"
-title: "Dubai has plenty of Finance Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "The success of a Finance Dinner in Dubai often hinges on that initial choice – the decision to join a specific table, in a particular neighbourhood, with a stated purpose. It’s a moment that requires a clear"
+title: "Dubai has plenty of Finance Dinner options; Fanju app is the one..."
+description: "The success of a Finance Dinner in Dubai often hinges on that initial choice – the decision to join a specific table, in a particular neighbourhood, wit…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

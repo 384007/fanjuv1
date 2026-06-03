@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ahmedabad/skateboarding-dinner"
 alternatePath: "/city/ahmedabad/skateboarding-dinner"
 translationKey: "ahmedabad-skateboarding-dinner"
 lang: "en"
-title: "When Skateboarding Dinner in Ahmedabad needs more than a group chat, Fanju app starts with the table"
-description: "The listing for a Skateboarding Dinner in Ahmedabad should immediately clarify the format, moving beyond a simple category tag. On Fanju app, the description focuses on the specific dynamic of the meal, whether it is a"
+title: "When Skateboarding Dinner in Ahmedabad needs more than a group..."
+description: "The listing for a Skateboarding Dinner in Ahmedabad should immediately clarify the format, moving beyond a simple category tag."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

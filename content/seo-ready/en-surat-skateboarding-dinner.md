@@ -4,8 +4,8 @@ canonicalPath: "/en/city/surat/skateboarding-dinner"
 alternatePath: "/city/surat/skateboarding-dinner"
 translationKey: "surat-skateboarding-dinner"
 lang: "en"
-title: "When Surat’s Skateboarding Scene Meets the Fanju app: An After‑Work Dinner That Keeps the Pressure Professional"
-description: "The first decision point hinges on whether the dinner aligns with your professional networking goals without feeling like a forced social obligation. Surat’s after‑work culture values efficiency, so a table that"
+title: "When Surat’s Skateboarding Scene Meets the Fanju app: An..."
+description: "The first decision point hinges on whether the dinner aligns with your professional networking goals without feeling like a forced social obligation."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/addis-ababa/local-community-dinner"
 alternatePath: "/city/addis-ababa/local-community-dinner"
 translationKey: "addis-ababa-local-community-dinner"
 lang: "en"
-title: "A clearer Local Community Dinner in Addis Ababa: Fanju app, small tables, and real boundaries"
-description: "For founders and operators in Addis Ababa tired of loud networking halls, this small-table format offers a pragmatic alternative. You are likely the right fit if you value specific conversations over exchanging business"
+title: "A clearer Local Community Dinner in Addis Ababa: Fanju app, small..."
+description: "For founders and operators in Addis Ababa tired of loud networking halls, this small-table format offers a pragmatic alternative."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

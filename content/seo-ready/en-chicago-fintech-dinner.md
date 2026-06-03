@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chicago/fintech-dinner"
 alternatePath: "/city/chicago/fintech-dinner"
 translationKey: "chicago-fintech-dinner"
 lang: "en"
-title: "When Fintech Dinner in Chicago needs more than a group chat, Fanju app starts with the table"
-description: "When you scan a listing for a Fintech Dinner in Chicago, the most critical element is the host's ability to describe the venue clearly so you can picture the room before you arrive. In a city defined by its distinct"
+title: "When Fintech Dinner in Chicago needs more than a group chat, Fanju..."
+description: "When you scan a listing for a Fintech Dinner in Chicago, the most critical element is the host's ability to describe the venue clearly so you can pictur…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

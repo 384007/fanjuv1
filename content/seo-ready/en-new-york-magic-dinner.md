@@ -4,7 +4,7 @@ canonicalPath: "/en/city/new-york/magic-dinner"
 alternatePath: "/city/new-york/magic-dinner"
 translationKey: "new-york-magic-dinner"
 lang: "en"
-title: "For New York readers considering Magic Dinner, Fanju app should make the room legible"
+title: "For New York readers considering Magic Dinner, Fanju app should..."
 description: "This table is right for someone who values conversation over spectacle and wants a structured evening in New York without the chaos of a bar crawl. If you are looking for a small-table dinner where the \"magic\" theme"
 pageType: "city_article"
 priorityScore: 70

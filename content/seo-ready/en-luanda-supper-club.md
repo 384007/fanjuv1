@@ -4,8 +4,8 @@ canonicalPath: "/en/city/luanda/supper-club"
 alternatePath: "/city/luanda/supper-club"
 translationKey: "luanda-supper-club"
 lang: "en"
-title: "What makes Supper Club in Luanda worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "A Luanda supper club works only when the host, neighbourhood, guest mix, timing, and exit boundaries are visible before dinner. Fanju app helps turn that uncertainty into a table people can judge before they cross town."
+title: "What makes Supper Club in Luanda worth the risk; Fanju app answers..."
+description: "A Luanda supper club works only when the host, neighbourhood, guest mix, timing, and exit boundaries are visible before dinner."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

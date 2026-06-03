@@ -4,8 +4,8 @@ canonicalPath: "/en/city/santiago/cloud-computing-dinner"
 alternatePath: "/city/santiago/cloud-computing-dinner"
 translationKey: "santiago-cloud-computing-dinner"
 lang: "en"
-title: "First‑time uncertainty in Santiago: navigating a Cloud Computing Dinner with the Fanju app"
-description: "In the context of a Santiago Cloud Computing Dinner, the Fanju app functions as a matchmaking space for professionals who share a niche interest, not a generic social network. It curates small groups based on a single"
+title: "First‑time uncertainty in Santiago: navigating a Cloud Computing..."
+description: "In the context of a Santiago Cloud Computing Dinner, the Fanju app functions as a matchmaking space for professionals who share a niche interest, not a…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

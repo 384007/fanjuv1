@@ -4,8 +4,8 @@ canonicalPath: "/en/city/addis-ababa/supply-chain-dinner"
 alternatePath: "/city/addis-ababa/supply-chain-dinner"
 translationKey: "addis-ababa-supply-chain-dinner"
 lang: "en"
-title: "Addis Ababa Supply Chain Dinner meets Fanju app: a quiet table for food‑focused networking"
-description: "A Supply Chain Dinner in Addis Ababa offers a chance to hear about Ethiopia’s growing coffee export routes, the new rail link to Djibouti, and warehouse innovations in the Bole neighbourhood. The setting is deliberately"
+title: "Addis Ababa Supply Chain Dinner meets Fanju app: a quiet table for..."
+description: "A Supply Chain Dinner in Addis Ababa offers a chance to hear about Ethiopia’s growing coffee export routes, the new rail link to Djibouti, and warehouse…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

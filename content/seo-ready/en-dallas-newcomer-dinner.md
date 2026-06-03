@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dallas/newcomer-dinner"
 alternatePath: "/city/dallas/newcomer-dinner"
 translationKey: "dallas-newcomer-dinner"
 lang: "en"
-title: "After‑Work Hours in Dallas: Why a Fanju app Newcomer Dinner Might Be Your Real‑Life Test"
-description: "The first decision point is whether the listed venue makes sense for a post‑work commute. Dallas traffic can turn a ten‑minute drive into a half‑hour ordeal, so a clear address and a reasonable arrival window are"
+title: "After‑Work Hours in Dallas: Why a Fanju app Newcomer Dinner Might..."
+description: "The first decision point is whether the listed venue makes sense for a post‑work commute."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

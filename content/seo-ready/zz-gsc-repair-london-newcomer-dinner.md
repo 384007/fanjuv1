@@ -4,7 +4,7 @@ canonicalPath: "/city/london/newcomer-dinner"
 alternatePath: "/en/city/london/newcomer-dinner"
 translationKey: "gsc-repair-london-newcomer-dinner"
 lang: "zh"
-title: "伦敦新朋友饭局指南 | fanju-app | 饭局app"
+title: "伦敦新朋友饭局指南"
 description: "伦敦新朋友饭局帮助刚到伦敦或想拓展本地社交圈的人，通过 Fanju 选择主题清楚、公开餐厅的小桌晚餐。"
 pageType: "city_topic"
 priorityScore: 78

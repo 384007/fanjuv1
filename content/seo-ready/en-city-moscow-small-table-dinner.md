@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/moscow/small-table-dinner"
 alternatePath: "/city/moscow/small-table-dinner"
-title: "Moscow Small Table Dinner Guide | Fanju app"
-description: "A social dining experience in Moscow, where you can connect with like-minded people over a small table dinner, without the pressure of a romantic relationship. Download the Fanju app to find and join small table dinners in Moscow, and start making meaningful connections with others."
+title: "Moscow Small Table Dinner Guide"
+description: "A social dining experience in Moscow, where you can connect with like-minded people over a small table dinner, without the pressure of a romantic relati…"
 recoveredFromD1: true
 ---
 Moscow is a city that never sleeps, and its vibrant social scene is always buzzing with energy. But in the midst of all the hustle and bustle, it can be hard to find meaningful connections with others. That&#039;s where Fanju comes in - a social dining app that brings people together over small, clearly described meals in a real-world setting.

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/zurich/police-dinner"
 alternatePath: "/city/zurich/police-dinner"
 translationKey: "zurich-police-dinner"
 lang: "en"
-title: "Zurich after work: how Fanju app makes Police Dinner feel like a real room | fanju-app"
-description: "In Zurich, where punctuality and privacy shape daily rhythms, finding space for unplanned human connection can feel like an afterthought. The Fanju app changes that quietly but meaningfully, especially around one recurri"
+title: "Zurich after work: how Fanju app makes Police Dinner feel like a..."
+description: "In Zurich, where punctuality and privacy shape daily rhythms, finding space for unplanned human connection can feel like an afterthought."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

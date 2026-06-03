@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/sanya/brand-dinner"
 alternatePath: "/en/city/sanya/brand-dinner"
-title: "三亚品牌饭局指南：告别社交压力，享受纯粹连接 | fanju-app | 饭局app"
+title: "三亚品牌饭局指南：告别社交压力，享受纯粹连接"
 description: "在三亚，饭局app / Fanju 正在悄然改变着人们的线下社交方式。它并非传统的约会平台，而是专注于小桌、有明确主题的线下聚会。当没有了恋爱或功利性的社交压力，一场品牌饭局的氛围会变得多么不同？我们在这里探讨，如何在三亚找到并享受这种纯粹的连接。"
 recoveredFromD1: true
 ---

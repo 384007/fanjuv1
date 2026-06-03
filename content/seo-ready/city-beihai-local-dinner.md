@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/beihai/local-dinner"
 alternatePath: "/en/city/beihai/local-dinner"
-title: "北海同城饭局指南 | fanju-app | 饭局app"
+title: "北海同城饭局指南"
 description: "北海同城饭局指南，了解北海的饭局app Fanju 是什么，适合谁，如何参加，如何判断安全和信任，和普通社交/约会软件有什么不同，常见问题等"
 recoveredFromD1: true
 ---

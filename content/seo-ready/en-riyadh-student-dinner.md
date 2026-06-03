@@ -4,8 +4,8 @@ canonicalPath: "/en/city/riyadh/student-dinner"
 alternatePath: "/city/riyadh/student-dinner"
 translationKey: "riyadh-student-dinner"
 lang: "en"
-title: "After‑Work Relief: Navigating a Riyadh Student Dinner with the Fanju app"
-description: "The first question most readers ask is whether the travel time is worth the social payoff. Riyadh’s traffic can turn a ten‑minute drive into a thirty‑minute delay, so listings that state exact arrival windows are"
+title: "After‑Work Relief: Navigating a Riyadh Student Dinner with the..."
+description: "The first question most readers ask is whether the travel time is worth the social payoff."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

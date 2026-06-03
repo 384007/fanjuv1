@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/baghdad/coffee-chat-dinner"
 alternatePath: "/city/baghdad/coffee-chat-dinner"
-title: "Baghdad Coffee Chat Dinner Guide | Fanju app"
+title: "Baghdad Coffee Chat Dinner Guide"
 description: "Discover local food and connections in Baghdad with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/berlin/plant-lover-dinner"
 alternatePath: "/city/berlin/plant-lover-dinner"
 translationKey: "berlin-plant-lover-dinner"
 lang: "en"
-title: "For people trying Plant Lover Dinner in Berlin, Fanju app puts the guest mix first | fanju-app"
-description: "Big cities like Berlin thrive on transience, but that same fluidity can make intimacy feel unattainable. People arrive for new jobs, language courses, or fresh starts, only to find their social circles shrinking to"
+title: "For people trying Plant Lover Dinner in Berlin, Fanju app puts the..."
+description: "Big cities like Berlin thrive on transience, but that same fluidity can make intimacy feel unattainable."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

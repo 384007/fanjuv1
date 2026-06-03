@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/shangqiu/festival-dinner"
 alternatePath: "/en/city/shangqiu/festival-dinner"
-title: "商丘节日饭局指南 | fanju-app | 饭局app"
+title: "商丘节日饭局指南"
 description: "在商丘体验最真实的节日饭局，了解本地美食和街区选择。"
 recoveredFromD1: true
 ---

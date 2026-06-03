@@ -4,9 +4,9 @@ canonicalPath: "/city/binzhou/cat-owner-dinner"
 alternatePath: "/en/city/binzhou/cat-owner-dinner"
 translationKey: "binzhou-cat-owner-dinner"
 lang: "zh"
-title: "在滨州找到对的猫主人饭局，饭局app先把这一桌说清楚 | fanju-app"
+title: "在滨州找到对的猫主人饭局，饭局app先把这一桌说清楚"
 titleZh: "在滨州找到对的猫主人饭局，饭局app先把这一桌说清楚"
-description: "那天傍晚我拖着行李箱走进滨州老城区，天色正从灰蓝沉向暗紫，街边的梧桐树影拉得很长。 刚下火车，手机电量只剩37%，我坐在一家便利店门口的台阶上，打开饭局app，手指滑过几页活动——不是聚餐就是酒局，直到刷到那一栏写着“欢迎独行猫主人”的饭局。 时间是当晚七点，地点在渤海六路附近的一家小馆子，六人桌，还剩两个位子。 我犹豫了几秒，点了报名。"
+description: "那天傍晚我拖着行李箱走进滨州老城区，天色正从灰蓝沉向暗紫，街边的梧桐树影拉得很长。 刚下火车，手机电量只剩37%，我坐在一家便利店门口的台阶上，打开饭局app，手指滑过几页活动——不是聚餐就是酒局，直到刷到那一栏写着“欢迎独行猫主人”的饭局。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

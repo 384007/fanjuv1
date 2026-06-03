@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/suining/teacher-dinner"
 alternatePath: "/en/city/suining/teacher-dinner"
-title: "遂宁的一顿教师饭局，饭局app为什么先看人再看热闹 | fanju-app"
+title: "遂宁的一顿教师饭局，饭局app为什么先看人再看热闹"
 description: "尤其对于远程工作者而言，他们需要的并非简单的“有人一起吃饭”，而是能够带来思想碰撞、情感共鸣的深度交流。在遂宁这座城市，教师群体本身就代表着一种对知识、教育和思考的共同关注。一场精心组织的教师饭局，应该能够将那些真正对教育话题有见解、有热情"
 recoveredFromD1: true
 ---

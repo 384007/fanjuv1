@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/newcomer-dinner"
 alternatePath: "/city/brussels/newcomer-dinner"
 translationKey: "brussels-newcomer-dinner"
 lang: "en"
-title: "When Newcomer Dinner in Brussels needs more than a group chat, Fanju app starts with the table"
-description: "You have just unpacked your boxes in Brussels and realized that true connection happens face-to-face, not through endless scrolling. If you are looking for a social dining app experience that puts a specific meal at the"
+title: "When Newcomer Dinner in Brussels needs more than a group chat,..."
+description: "You have just unpacked your boxes in Brussels and realized that true connection happens face-to-face, not through endless scrolling."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

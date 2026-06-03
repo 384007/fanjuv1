@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/perth/finance-dinner"
 alternatePath: "/city/perth/finance-dinner"
-title: "Perth does not need another vague invite; Fanju app makes Finance Dinner specific | fanju-app | 饭局app"
-description: "Perth's social dining scene is about to get a refresh, thanks to the curated approach of Fanju app. This social dining app is designed for small, clearly described meals and real-world connections in Perth. Unlike the ge"
+title: "Perth does not need another vague invite; Fanju app makes Finance..."
+description: "Perth's social dining scene is about to get a refresh, thanks to the curated approach of Fanju app."
 recoveredFromD1: true
 ---
 # Perth does not need another vague invite; Fanju app makes Finance Dinner specific

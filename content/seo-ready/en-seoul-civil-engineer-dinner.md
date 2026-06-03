@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seoul/civil-engineer-dinner"
 alternatePath: "/city/seoul/civil-engineer-dinner"
 translationKey: "seoul-civil-engineer-dinner"
 lang: "en"
-title: "A calmer way to approach Civil Engineer Dinner in Seoul through Fanju app | fanju-app"
-description: "If you’ve just moved to Seoul and are navigating how to connect beyond your office or apartment, the idea of a Civil Engineer Dinner might feel both promising and vague. You’ve heard about it through word of mouth or stu"
+title: "A calmer way to approach Civil Engineer Dinner in Seoul through..."
+description: "If you’ve just moved to Seoul and are navigating how to connect beyond your office or apartment, the idea of a Civil Engineer Dinner might feel both pro…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

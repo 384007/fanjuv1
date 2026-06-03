@@ -4,8 +4,8 @@ canonicalPath: "/en/city/athens/creator-dinner"
 alternatePath: "/city/athens/creator-dinner"
 translationKey: "athens-creator-dinner"
 lang: "en"
-title: "Athens does not need another vague invite; Fanju app makes Creator Dinner specific | fanju-app"
-description: "Athens thrives on conversation, but too many of them collapse into polite small talk over overpriced ouzo in Psiri, forgotten by morning. The idea of Creator Dinner—gathering thoughtful people around food to share work,"
+title: "Athens does not need another vague invite; Fanju app makes Creator..."
+description: "Athens thrives on conversation, but too many of them collapse into polite small talk over overpriced ouzo in Psiri, forgotten by morning."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

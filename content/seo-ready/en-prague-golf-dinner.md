@@ -4,8 +4,8 @@ canonicalPath: "/en/city/prague/golf-dinner"
 alternatePath: "/city/prague/golf-dinner"
 translationKey: "prague-golf-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Prague Golf Dinner table before the first course"
-description: "In Prague, the dining culture often leans towards long, lingering evenings, but a Golf Dinner via a social dining app needs clear boundaries. You want to know if the table expects a quick coffee or a three-hour"
+title: "The Fanju app way to judge a Prague Golf Dinner table before the..."
+description: "In Prague, the dining culture often leans towards long, lingering evenings, but a Golf Dinner via a social dining app needs clear boundaries."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

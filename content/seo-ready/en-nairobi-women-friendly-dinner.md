@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nairobi/women-friendly-dinner"
 alternatePath: "/city/nairobi/women-friendly-dinner"
 translationKey: "nairobi-women-friendly-dinner"
 lang: "en"
-title: "Nairobi has plenty of Women Friendly Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "Nairobi offers a growing number of intimate, women-centered dinner gatherings, and the Fanju app helps locate the ones that feel authentic and well-structured."
+title: "Nairobi has plenty of Women Friendly Dinner options; Fanju app is..."
+description: "Nairobi offers a growing number of intimate, women-centered dinner gatherings, and the Fanju app helps locate the ones that feel authentic and well-stru…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

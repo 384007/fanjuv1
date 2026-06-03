@@ -4,8 +4,8 @@ canonicalPath: "/en/city/fukuoka/engineer-dinner"
 alternatePath: "/city/fukuoka/engineer-dinner"
 translationKey: "fukuoka-engineer-dinner"
 lang: "en"
-title: "Fukuoka strangers sit down easier when Fanju app frames the Engineer Dinner table first | fanju-app"
-description: "In Fukuoka, where post-work drinks often blur into unstructured catch-ups, the Fanju app has quietly reshaped how engineers gather after hours. It doesn’t replace the spontaneity of ramen runs or casual izakaya hops, but"
+title: "Fukuoka strangers sit down easier when Fanju app frames the..."
+description: "In Fukuoka, where post-work drinks often blur into unstructured catch-ups, the Fanju app has quietly reshaped how engineers gather after hours."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

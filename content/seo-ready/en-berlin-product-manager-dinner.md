@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/berlin/product-manager-dinner"
 alternatePath: "/city/berlin/product-manager-dinner"
-title: "Why Product Manager Dinner in Berlin works better when Fanju app keeps the table small | fanju-app | 饭局app"
-description: "The Fanju app facilitates focused, real-world connections through small-group dinners in Berlin, prioritizing genuine interaction over large, anonymous gatherings. This approach is particularly effective for professional"
+title: "Why Product Manager Dinner in Berlin works better when Fanju app..."
+description: "The Fanju app facilitates focused, real-world connections through small-group dinners in Berlin, prioritizing genuine interaction over large, anonymous…"
 recoveredFromD1: true
 ---
 # Why Product Manager Dinner in Berlin works better when Fanju app keeps the table small

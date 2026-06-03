@@ -4,8 +4,8 @@ canonicalPath: "/en/city/phoenix/brand-dinner"
 alternatePath: "/city/phoenix/brand-dinner"
 translationKey: "phoenix-brand-dinner"
 lang: "en"
-title: "When Brand Dinner feels too loose in Phoenix, Fanju app starts with the table | fanju-app"
-description: "Phoenix moves at its own pace—slow under the sun, quick in bursts during sunset commutes. That rhythm can make spontaneous plans fall apart, especially when dinner invitations are vague or overly casual. A loosely"
+title: "When Brand Dinner feels too loose in Phoenix, Fanju app starts..."
+description: "Phoenix moves at its own pace—slow under the sun, quick in bursts during sunset commutes."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

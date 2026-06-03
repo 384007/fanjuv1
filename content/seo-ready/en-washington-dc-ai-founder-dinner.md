@@ -4,8 +4,8 @@ canonicalPath: "/en/city/washington-dc/ai-founder-dinner"
 alternatePath: "/city/washington-dc/ai-founder-dinner"
 translationKey: "washington-dc-ai-founder-dinner"
 lang: "en"
-title: "A Washington DC dinner table for AI Founder Dinner, with Fanju app boundaries up front"
-description: "In Washington DC, the credibility of an AI Founder Dinner often hinges on how well the host explains the venue and the agenda. A listing that simply names a generic neighborhood without describing the atmosphere—a quiet"
+title: "A Washington DC dinner table for AI Founder Dinner, with Fanju app..."
+description: "In Washington DC, the credibility of an AI Founder Dinner often hinges on how well the host explains the venue and the agenda."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

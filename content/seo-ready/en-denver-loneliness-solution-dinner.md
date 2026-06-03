@@ -4,7 +4,7 @@ canonicalPath: "/en/city/denver/loneliness-solution-dinner"
 alternatePath: "/city/denver/loneliness-solution-dinner"
 translationKey: "denver-loneliness-solution-dinner"
 lang: "en"
-title: "Denver Loneliness Solution Dinner: how Fanju app makes the table worth choosing"
+title: "Denver Loneliness Solution Dinner: how Fanju app makes the table..."
 description: "When you look at a listing for a Loneliness Solution Dinner in Denver, the first thing to check is the specificity of the location. A vague description like \"a restaurant downtown\" is a red flag because Denver's"
 pageType: "city_article"
 priorityScore: 70

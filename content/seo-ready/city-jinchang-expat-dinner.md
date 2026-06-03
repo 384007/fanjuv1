@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/jinchang/expat-dinner"
 alternatePath: "/en/city/jinchang/expat-dinner"
-title: "金昌外籍和海归饭局指南 | fanju-app | 饭局app"
+title: "金昌外籍和海归饭局指南"
 description: "在金昌的外籍和海归饭局指南，了解如何通过饭局app找到真实的连接"
 recoveredFromD1: true
 ---

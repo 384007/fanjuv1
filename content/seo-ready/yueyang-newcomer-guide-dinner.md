@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/yueyang/newcomer-guide-dinner"
 alternatePath: "/en/city/yueyang/newcomer-guide-dinner"
-title: "下班后的岳阳，饭局app怎样让新来者指南饭局有真实同桌 | fanju-app"
+title: "下班后的岳阳，饭局app怎样让新来者指南饭局有真实同桌"
 description: "独自一人来到岳阳，这座临湘江而建的城市，总有那么点陌生的疏离感。当夜幕降临，华灯初上，一个人吃饭的场景总显得有些孤单。这个时候，饭局app（Fanju）提供了一种别样的可能：它围绕着小桌吃饭、清晰主题和线下真实连接，为像我这样的新来者，提供"
 recoveredFromD1: true
 ---

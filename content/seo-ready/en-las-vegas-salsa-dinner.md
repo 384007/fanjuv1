@@ -4,8 +4,8 @@ canonicalPath: "/en/city/las-vegas/salsa-dinner"
 alternatePath: "/city/las-vegas/salsa-dinner"
 translationKey: "las-vegas-salsa-dinner"
 lang: "en"
-title: "Las Vegas Salsa Dinner on the Fanju app: a remote‑worker’s first‑step decision"
-description: "Remote‑workers in Las Vegas often structure their day around a flexible lunch break and an evening that can stretch into the night. A Salsa Dinner that starts at 7 p.m. and ends by 9 p.m. offers a predictable window"
+title: "Las Vegas Salsa Dinner on the Fanju app: a remote‑worker’s..."
+description: "Remote‑workers in Las Vegas often structure their day around a flexible lunch break and an evening that can stretch into the night."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

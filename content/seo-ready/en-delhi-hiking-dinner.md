@@ -4,7 +4,7 @@ canonicalPath: "/en/city/delhi/hiking-dinner"
 alternatePath: "/city/delhi/hiking-dinner"
 translationKey: "delhi-hiking-dinner"
 lang: "en"
-title: "Before the first message in Delhi, Fanju app makes Hiking Dinner feel like a real decision | fanju-app"
+title: "Before the first message in Delhi, Fanju app makes Hiking Dinner..."
 description: "Fanju app connects people in Delhi through small, clearly described meals where the focus is on real-world presence, not performance."
 pageType: "city_article"
 priorityScore: 70

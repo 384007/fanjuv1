@@ -4,9 +4,9 @@ canonicalPath: "/city/anshan/mindfulness-dinner"
 alternatePath: "/en/city/anshan/mindfulness-dinner"
 translationKey: "anshan-mindfulness-dinner"
 lang: "zh"
-title: "在鞍山找到对的正念饭局，饭局app先把这一桌说清楚 | fanju-app"
+title: "在鞍山找到对的正念饭局，饭局app先把这一桌说清楚"
 titleZh: "在鞍山找到对的正念饭局，饭局app先把这一桌说清楚"
-description: "鞍山的周末，常常从一顿饭开始。 不是随便找家店坐下，而是先想清楚：今天我是想安静吃顿饭，还是想见几个能聊得上的人？ 饭局app在这座城市做的，不是把人塞进饭局，而是先把这一桌的节奏说清楚——谁在组织，去哪吃，聊什么，甚至饭后有没有散步安排。 在鞍山，饭局的节奏和城市的呼吸有关：铁东的街巷安静，铁西的烟火气重，千山脚下适合饭后走一段。"
+description: "鞍山的周末，常常从一顿饭开始。 不是随便找家店坐下，而是先想清楚：今天我是想安静吃顿饭，还是想见几个能聊得上的人？ 饭局app在这座城市做的，不是把人塞进饭局，而是先把这一桌的节奏说清楚——谁在组织，去哪吃，聊什么，甚至饭后有没有散步安排。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

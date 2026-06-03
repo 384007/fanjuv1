@@ -4,8 +4,8 @@ canonicalPath: "/en/city/karachi/family-style-dinner"
 alternatePath: "/city/karachi/family-style-dinner"
 translationKey: "karachi-family-style-dinner"
 lang: "en"
-title: "After‑Work Plates Meet Karachi Streets: A Family Style Dinner Journey with the Fanju app"
-description: "Choosing to sit at a Karachi Family Style Dinner means weighing a simple question: does the promise of shared food outweigh the effort of crossing town after a long shift? Food, in this context, acts as the fastest"
+title: "After‑Work Plates Meet Karachi Streets: A Family Style Dinner..."
+description: "Choosing to sit at a Karachi Family Style Dinner means weighing a simple question: does the promise of shared food outweigh the effort of crossing town…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

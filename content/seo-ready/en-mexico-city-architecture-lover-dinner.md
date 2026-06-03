@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mexico-city/architecture-lover-dinner"
 alternatePath: "/city/mexico-city/architecture-lover-dinner"
 translationKey: "mexico-city-architecture-lover-dinner"
 lang: "en"
-title: "Mexico City Architecture Lover Dinners: Finding Your Table with Fanju App"
-description: "The fundamental question for anyone exploring an Architecture Lover Dinner in Mexico City via Fanju app is whether the intimate setting truly fosters the kind of thoughtful exchange desired. The appeal lies in escaping"
+title: "Mexico City Architecture Lover Dinners: Finding Your Table with..."
+description: "The fundamental question for anyone exploring an Architecture Lover Dinner in Mexico City via Fanju app is whether the intimate setting truly fosters th…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

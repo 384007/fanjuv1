@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kuala-lumpur/craft-beer-dinner"
 alternatePath: "/city/kuala-lumpur/craft-beer-dinner"
 translationKey: "kuala-lumpur-craft-beer-dinner"
 lang: "en"
-title: "How Fanju app turns a Kuala Lumpur Craft Beer Dinner night into something worth showing up for | fanju-app"
-description: "In Kuala Lumpur, where the city's vibrant nightlife and culinary scene come together, a well-organized Craft Beer Dinner can be a game-changer for professionals looking to expand their network. But, let's face it – not a"
+title: "How Fanju app turns a Kuala Lumpur Craft Beer Dinner night into..."
+description: "In Kuala Lumpur, where the city's vibrant nightlife and culinary scene come together, a well-organized Craft Beer Dinner can be a game-changer for profe…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/alexandria/cross-border-ecommerce-dinner"
 alternatePath: "/city/alexandria/cross-border-ecommerce-dinner"
 translationKey: "alexandria-cross-border-ecommerce-dinner"
 lang: "en"
-title: "Alexandria Cross‑Border Ecommerce Dinner: Finding the Right Spot with Fanju app"
-description: "A newcomer often wonders whether the dinner will feel like a workshop or a casual chat. In Alexandria, the event description usually mentions a “small‑table” format, which means no more than six participants sharing one"
+title: "Alexandria Cross‑Border Ecommerce Dinner: Finding the Right Spot..."
+description: "A newcomer often wonders whether the dinner will feel like a workshop or a casual chat."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/qinhuangdao/digital-detox-dinner"
 alternatePath: "/en/city/qinhuangdao/digital-detox-dinner"
-title: "在秦皇岛找一桌不尴尬的数字排毒饭局，饭局app先解决什么 | fanju-app"
+title: "在秦皇岛找一桌不尴尬的数字排毒饭局，饭局app先解决什么"
 description: "在秦皇岛，周末傍晚的海风已经带上了点微凉，你站在海阳路和文化路交叉口，手指划着手机屏幕，却不知道该去哪里吃晚饭。不是没地方吃，而是不想一个人对着菜单干坐，也不愿再被泛泛的饭局裹挟着寒暄。这时候你在饭局app上看到一场「数字排毒饭局」：六个人"
 recoveredFromD1: true
 ---

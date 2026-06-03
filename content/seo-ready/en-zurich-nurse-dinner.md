@@ -5,7 +5,7 @@ alternatePath: "/city/zurich/nurse-dinner"
 translationKey: "zurich-nurse-dinner"
 lang: "en"
 title: "Zurich Nurse Dinner after work: a low‑key table with the Fanju app"
-description: "After a shift at the University Hospital, many nurses crave a brief pause before heading home. A small‑table dinner in Zurich offers exactly that: a chance to unwind, share a meal, and keep the conversation focused on"
+description: "After a shift at the University Hospital, many nurses crave a brief pause before heading home."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

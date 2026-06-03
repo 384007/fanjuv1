@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kyoto/theater-dinner"
 alternatePath: "/city/kyoto/theater-dinner"
 translationKey: "kyoto-theater-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Kyoto Theater Dinner table before the first course"
-description: "The ideal reader for this table is someone who appreciates the nuance of Kyoto's dining culture and wants to discuss theater without the noise of a large bar. They are looking for a small-table dinner where the"
+title: "The Fanju app way to judge a Kyoto Theater Dinner table before the..."
+description: "The ideal reader for this table is someone who appreciates the nuance of Kyoto's dining culture and wants to discuss theater without the noise of a larg…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

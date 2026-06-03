@@ -5,7 +5,7 @@ alternatePath: "/city/kinshasa/expat-family-dinner"
 translationKey: "kinshasa-expat-family-dinner"
 lang: "en"
 title: "Kinshasa Expat Family Dinner Finds Connection Through the Fanju app"
-description: "In Kinshasa, the neighbourhood of Gombe offers a quiet venue that lets families hear each other over the clatter of plates. When a listing simply says “restaurant near the river” without an address, the uncertainty can"
+description: "In Kinshasa, the neighbourhood of Gombe offers a quiet venue that lets families hear each other over the clatter of plates."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

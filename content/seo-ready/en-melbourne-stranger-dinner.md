@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/melbourne/stranger-dinner"
 alternatePath: "/city/melbourne/stranger-dinner"
-title: "When Stranger Dinner feels too loose in Melbourne, Fanju app starts with the table | fanju-app | 饭局app"
-description: "In Melbourne, the city's vibrant social scene is often dominated by online connections. However, with the rise of social dining apps like Fanju, there's a growing interest in offline socializing. Fanju app is a platform"
+title: "When Stranger Dinner feels too loose in Melbourne, Fanju app..."
+description: "In Melbourne, the city's vibrant social scene is often dominated by online connections."
 recoveredFromD1: true
 ---
 # When Stranger Dinner feels too loose in Melbourne, Fanju app starts with the table

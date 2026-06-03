@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/washington-dc/consulting-dinner"
 alternatePath: "/city/washington-dc/consulting-dinner"
-title: "Washington DC Consulting Dinner Guide | Fanju app"
-description: "Navigating Washington DC's professional landscape can feel like a whirlwind, especially when you've just arrived. If you're looking for a more intimate way to connect than a large networking event, consider a consulting dinner. The Fanju app is designed for these kinds of small, focused social dining experiences, helping you build real-world connections in the city. It's a platform for curated meals where meaningful conversations can unfold naturally, moving beyond superficial introductions. For newcomers to DC this month, understanding these options is key to settling in and expanding your network effectively. Fanju app offers a structured yet relaxed approach to meeting people with shared professional interests."
+title: "Washington DC Consulting Dinner Guide"
+description: "Navigating Washington DC's professional landscape can feel like a whirlwind, especially when you've just arrived."
 recoveredFromD1: true
 ---
 The weekend has just wrapped up, and the familiar hum of a new week in Washington DC is starting to set in. For someone who&#039;s only been here a month, the sheer scale of the city, with its iconic landmarks and bustling corridors of power, can be a little overwhelming. You&#039;ve unpacked, found your bearings in your neighborhood, and now the real work begins: building connections. Large-scale networking events are plentiful, but sometimes you crave something more focused, more personal. That&#039;s where the concept of a consulting dinner comes in, offering a more intimate setting to engage with peers and potential collaborators.

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seoul/shared-table"
 alternatePath: "/city/seoul/shared-table"
 translationKey: "seoul-shared-table"
 lang: "en"
-title: "A clearer Shared Table dinner in Seoul: Fanju app, small tables, and real boundaries"
-description: "In Seoul, the time between work and home is often a narrow gap that needs to be filled with meaning rather than noise. A shared table here should respect the fact that guests have crossed town after a long day, perhaps"
+title: "A clearer Shared Table dinner in Seoul: Fanju app, small tables,..."
+description: "In Seoul, the time between work and home is often a narrow gap that needs to be filled with meaning rather than noise."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/amsterdam/retail-dinner"
 alternatePath: "/city/amsterdam/retail-dinner"
 translationKey: "amsterdam-retail-dinner"
 lang: "en"
-title: "Amsterdam Retail Dinner through Fanju app: the questions to answer before you sit down"
-description: "Before you book a seat for Retail Dinner in Amsterdam, you need to ask yourself if you are looking for a structured conversation or an open-ended mixer. The distinction matters because a retail-themed dinner often"
+title: "Amsterdam Retail Dinner through Fanju app: the questions to answer..."
+description: "Before you book a seat for Retail Dinner in Amsterdam, you need to ask yourself if you are looking for a structured conversation or an open-ended mixer.…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -5,7 +5,7 @@ alternatePath: "/city/luanda/fashion-lover-dinner"
 translationKey: "luanda-fashion-lover-dinner"
 lang: "en"
 title: "Private‑Table Confidence: Luanda Fashion Lover Dinner on the Fanju app"
-description: "A reader’s core decision hinges on whether the listed dinner feels intimate enough to justify the time investment. In Luanda, the expectation is a table of six to eight fashion‑enthusiasts, not a bustling bar crowd. If"
+description: "A reader’s core decision hinges on whether the listed dinner feels intimate enough to justify the time investment."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

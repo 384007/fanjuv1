@@ -4,8 +4,8 @@ canonicalPath: "/en/city/phoenix/football-dinner"
 alternatePath: "/city/phoenix/football-dinner"
 translationKey: "phoenix-football-dinner"
 lang: "en"
-title: "Phoenix Football Dinner through Fanju app: the questions to answer before you sit down"
-description: "In Phoenix, the physical setting of a restaurant dictates the vibe of a Football Dinner far more than the topic itself. A public venue type matters in Phoenix because strangers need to picture the room before committing"
+title: "Phoenix Football Dinner through Fanju app: the questions to answer..."
+description: "In Phoenix, the physical setting of a restaurant dictates the vibe of a Football Dinner far more than the topic itself."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

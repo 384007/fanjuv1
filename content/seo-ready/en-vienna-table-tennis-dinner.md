@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vienna/table-tennis-dinner"
 alternatePath: "/city/vienna/table-tennis-dinner"
 translationKey: "vienna-table-tennis-dinner"
 lang: "en"
-title: "Vienna has plenty of Table Tennis Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "After a long day walking Vienna’s wide boulevards or standing through a gallery talk in the MuseumsQuartier, the idea of a relaxed dinner with conversation and a few rallies on a table tennis setup starts to feel less li"
+title: "Vienna has plenty of Table Tennis Dinner options; Fanju app is the..."
+description: "After a long day walking Vienna’s wide boulevards or standing through a gallery talk in the MuseumsQuartier, the idea of a relaxed dinner with conversat…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

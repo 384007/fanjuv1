@@ -5,7 +5,7 @@ alternatePath: "/city/paris/luxury-dinner"
 translationKey: "paris-luxury-dinner"
 lang: "en"
 title: "A Paris Weekend Evening: Deciding on a Luxury Dinner with Fanju app"
-description: "The grand scale of Paris, with its sprawling boulevards and iconic landmarks, often prompts a desire for experiences that offer a more personal connection. When it comes to Luxury Dinner, the appeal lies not just in the"
+description: "The grand scale of Paris, with its sprawling boulevards and iconic landmarks, often prompts a desire for experiences that offer a more personal connecti…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

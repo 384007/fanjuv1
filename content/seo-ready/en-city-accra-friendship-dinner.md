@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/accra/friendship-dinner"
 alternatePath: "/city/accra/friendship-dinner"
-title: "Accra Friendship Dinner Guide | Fanju app"
-description: "Discover the power of community building through small, intimate dinners with Fanju app, a social dining app that fosters real-world connections and meaningful relationships."
+title: "Accra Friendship Dinner Guide"
+description: "Discover the power of community building through small, intimate dinners with Fanju app, a social dining app that fosters real-world connections and mea…"
 recoveredFromD1: true
 ---
 Accra, a vibrant city with a rich cultural heritage, is a melting pot of diverse communities. As a newcomer to the city, you may find it challenging to break into the social scene, but with Fanju, you can easily connect with like-minded individuals who share similar interests. Fanju is a social dining app that brings people together for small, clearly described meals, allowing you to build meaningful relationships in a relaxed and intimate setting.

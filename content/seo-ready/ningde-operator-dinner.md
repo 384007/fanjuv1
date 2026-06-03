@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/ningde/operator-dinner"
 alternatePath: "/en/city/ningde/operator-dinner"
-title: "下班后的宁德，饭局app怎样让运营者饭局有真实同桌 | fanju-app"
+title: "下班后的宁德，饭局app怎样让运营者饭局有真实同桌"
 description: "在宁德，城市节奏并不催促人。山海之间的日常舒缓而具体，人们习惯在傍晚沿着南漈公园的步道走一走，或是在街角的鱼丸摊前等一碗热腾腾的汤。但对许多白天处理流程、盯数据、写方案的运营者来说，下班后的空档反而容易陷入一种“无处落脚”的状态。饭局app"
 recoveredFromD1: true
 ---

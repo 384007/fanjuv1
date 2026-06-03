@@ -4,8 +4,8 @@ canonicalPath: "/en/city/alexandria/swimming-club-dinner"
 alternatePath: "/city/alexandria/swimming-club-dinner"
 translationKey: "alexandria-swimming-club-dinner"
 lang: "en"
-title: "A clearer Swimming Club Dinner dinner in Alexandria: Fanju app, small tables, and real boundaries"
-description: "For those new to Alexandria or simply seeking a more curated social experience, understanding what Fanju offers is key. It bridges the gap between an informal meetup and a formal event, providing a structured yet"
+title: "A clearer Swimming Club Dinner dinner in Alexandria: Fanju app,..."
+description: "For those new to Alexandria or simply seeking a more curated social experience, understanding what Fanju offers is key."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/yulin-guangxi/newcomer-guide-dinner"
 alternatePath: "/en/city/yulin-guangxi/newcomer-guide-dinner"
-title: "玉林新来者指南饭局指南 | fanju-app | 饭局app"
+title: "玉林新来者指南饭局指南"
 description: "玉林新来者指南饭局指南，帮助您在玉林建立稳定的城市社交骨架。"
 recoveredFromD1: true
 ---

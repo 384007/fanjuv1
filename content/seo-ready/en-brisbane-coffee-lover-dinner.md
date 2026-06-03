@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brisbane/coffee-lover-dinner"
 alternatePath: "/city/brisbane/coffee-lover-dinner"
 translationKey: "brisbane-coffee-lover-dinner"
 lang: "en"
-title: "Brisbane does not need another vague invite; Fanju app makes Coffee Lover Dinner specific | fanju-app"
-description: "For remote workers in Brisbane, the weekend drift can feel inevitable—Friday evening arrives, and the usual messages pop up: “Maybe catch up?” or “We should do coffee sometime.” Nothing firm. Nothing anchored. The Fanju"
+title: "Brisbane does not need another vague invite; Fanju app makes..."
+description: "For remote workers in Brisbane, the weekend drift can feel inevitable—Friday evening arrives, and the usual messages pop up: “Maybe catch up?” or “We sh…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

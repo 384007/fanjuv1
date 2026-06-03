@@ -4,8 +4,8 @@ canonicalPath: "/en/city/copenhagen/sommelier-dinner"
 alternatePath: "/city/copenhagen/sommelier-dinner"
 translationKey: "copenhagen-sommelier-dinner"
 lang: "en"
-title: "When Sommelier Dinner in Copenhagen needs more than a group chat, Fanju app starts with the table"
-description: "Copenhagen dinner plans often require clear logistics because guests travel across different neighbourhoods like Vesterbro or Nørrebro. When scanning a Sommelier Dinner listing, the host note must explicitly state the"
+title: "When Sommelier Dinner in Copenhagen needs more than a group chat,..."
+description: "Copenhagen dinner plans often require clear logistics because guests travel across different neighbourhoods like Vesterbro or Nørrebro."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/buenos-aires/creator-dinner"
 alternatePath: "/city/buenos-aires/creator-dinner"
 translationKey: "buenos-aires-creator-dinner"
 lang: "en"
-title: "When Creator Dinner feels too loose in Buenos Aires, Fanju app starts with the table | fanju-app"
-description: "Fanju app brings a quiet structure to dinner in Buenos Aires, where evenings often drift into long conversations over wine and shared plates. In a city known for its spontaneous social rhythm, the app offers small, inten"
+title: "When Creator Dinner feels too loose in Buenos Aires, Fanju app..."
+description: "Fanju app brings a quiet structure to dinner in Buenos Aires, where evenings often drift into long conversations over wine and shared plates."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

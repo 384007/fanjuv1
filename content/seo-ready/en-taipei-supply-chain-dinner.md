@@ -4,8 +4,8 @@ canonicalPath: "/en/city/taipei/supply-chain-dinner"
 alternatePath: "/city/taipei/supply-chain-dinner"
 translationKey: "taipei-supply-chain-dinner"
 lang: "en"
-title: "A Taipei dinner table for Supply Chain Dinner, with Fanju app boundaries up front"
-description: "Readers often worry about the awkwardness of leaving a table or the unspoken pressure to exchange contacts immediately after a meal. In Taipei, social cues are frequently subtle, and a good listing will explicitly state"
+title: "A Taipei dinner table for Supply Chain Dinner, with Fanju app..."
+description: "Readers often worry about the awkwardness of leaving a table or the unspoken pressure to exchange contacts immediately after a meal."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

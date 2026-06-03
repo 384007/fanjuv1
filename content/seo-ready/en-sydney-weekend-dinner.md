@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sydney/weekend-dinner"
 alternatePath: "/city/sydney/weekend-dinner"
 translationKey: "sydney-weekend-dinner"
 lang: "en"
-title: "In Sydney, Fanju app turns Weekend Dinner into a table people can actually trust | fanju-app"
-description: "In Sydney, where weekend plans drift in and out of focus like the haze off the harbour, the Fanju app has quietly changed how people gather after work. I’ve hosted more weekend dinners than I can count—some at my place i"
+title: "In Sydney, Fanju app turns Weekend Dinner into a table people can..."
+description: "In Sydney, where weekend plans drift in and out of focus like the haze off the harbour, the Fanju app has quietly changed how people gather after work."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/manila/architecture-lover-dinner"
 alternatePath: "/city/manila/architecture-lover-dinner"
 translationKey: "manila-architecture-lover-dinner"
 lang: "en"
-title: "Manila has plenty of Architecture Lover Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "In Manila, the idea of an Architecture Lover Dinner isn’t just about food—it’s about finding people who notice cornices, appreciate colonial-era ironwork, and debate the merits of brutalism over bahay kubo revival. With"
+title: "Manila has plenty of Architecture Lover Dinner options; Fanju app..."
+description: "In Manila, the idea of an Architecture Lover Dinner isn’t just about food—it’s about finding people who notice cornices, appreciate colonial-era ironwor…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

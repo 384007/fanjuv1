@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/longnan/alumni-dinner"
 alternatePath: "/en/city/longnan/alumni-dinner"
-title: "陇南校友饭局指南 | fanju-app | 饭局app"
+title: "陇南校友饭局指南"
 description: "陇南校友饭局指南，陇南饭局app，陇南校友聚会"
 recoveredFromD1: true
 ---

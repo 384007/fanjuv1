@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/dublin/language-exchange-dinner"
 alternatePath: "/city/dublin/language-exchange-dinner"
-title: "Why Language Exchange Dinner in Dublin works better when Fanju app keeps the table small | fanju-app | 饭局app"
-description: "Dublin, a city where strangers become friends over a pint, yet Language Exchange Dinners often risk becoming overly touristy or impersonal. This is where Fanju app steps in, offering a unique approach to social dining by"
+title: "Why Language Exchange Dinner in Dublin works better when Fanju app..."
+description: "Dublin, a city where strangers become friends over a pint, yet Language Exchange Dinners often risk becoming overly touristy or impersonal."
 recoveredFromD1: true
 ---
 # Why Language Exchange Dinner in Dublin works better when Fanju app keeps the table small

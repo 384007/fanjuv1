@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/zhongwei/downtown-dinner"
 alternatePath: "/en/city/zhongwei/downtown-dinner"
-title: "中卫市中心饭局指南 | fanju-app | 饭局app"
+title: "中卫市中心饭局指南"
 description: "在繁华的中卫市中心，饭局app / Fanju 正在悄然改变人们的社交方式。它并非传统的约会平台，而是专注于小桌、有明确主题的线下聚会，旨在促进真实、有意义的连接。告别无效社交，在中卫，你可以通过饭局app找到志同道合的朋友，享受一场没有恋爱压力的美食体验。"
 recoveredFromD1: true
 ---

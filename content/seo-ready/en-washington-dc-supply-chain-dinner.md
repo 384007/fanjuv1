@@ -4,8 +4,8 @@ canonicalPath: "/en/city/washington-dc/supply-chain-dinner"
 alternatePath: "/city/washington-dc/supply-chain-dinner"
 translationKey: "washington-dc-supply-chain-dinner"
 lang: "en"
-title: "For people trying Supply Chain Dinner in Washington DC, Fanju app puts the guest mix first | fanju-app"
-description: "After a long day navigating the federal corridors and policy briefings around downtown Washington DC, a quiet dinner with thoughtful people can feel like the only real recharge. But finding that kind of gathering isn’t e"
+title: "For people trying Supply Chain Dinner in Washington DC, Fanju app..."
+description: "After a long day navigating the federal corridors and policy briefings around downtown Washington DC, a quiet dinner with thoughtful people can feel lik…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

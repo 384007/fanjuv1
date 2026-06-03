@@ -4,8 +4,8 @@ canonicalPath: "/en/city/riyadh/pet-owner-dinner"
 alternatePath: "/city/riyadh/pet-owner-dinner"
 translationKey: "riyadh-pet-owner-dinner"
 lang: "en"
-title: "Before the first message in Riyadh, Fanju app makes Pet Owner Dinner feel like a real decision | fanju-app"
-description: "In Riyadh, where social evenings often depend on who calls first or who’s free last-minute, the Pet Owner Dinner group on the Fanju app stands out by turning casual interest into a shared plan with intention. One message"
+title: "Before the first message in Riyadh, Fanju app makes Pet Owner..."
+description: "In Riyadh, where social evenings often depend on who calls first or who’s free last-minute, the Pet Owner Dinner group on the Fanju app stands out by tu…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

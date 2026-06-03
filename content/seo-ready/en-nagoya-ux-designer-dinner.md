@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nagoya/ux-designer-dinner"
 alternatePath: "/city/nagoya/ux-designer-dinner"
 translationKey: "nagoya-ux-designer-dinner"
 lang: "en"
-title: "A clearer UX Designer Dinner dinner in Nagoya: Fanju app, small tables, and real boundaries"
-description: "This table is designed for Nagoya professionals who value depth over breadth, particularly UX designers, product founders, and operators seeking substantive conversation. If you prefer a setting where you can actually"
+title: "A clearer UX Designer Dinner dinner in Nagoya: Fanju app, small..."
+description: "This table is designed for Nagoya professionals who value depth over breadth, particularly UX designers, product founders, and operators seeking substan…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

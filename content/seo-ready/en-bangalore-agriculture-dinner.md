@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bangalore/agriculture-dinner"
 alternatePath: "/city/bangalore/agriculture-dinner"
 translationKey: "bangalore-agriculture-dinner"
 lang: "en"
-title: "Why Agriculture Dinner in Bangalore works better when Fanju app keeps the table small | fanju-app"
-description: "When considering an Agriculture Dinner in Bangalore, the choice of neighbourhood plays a more significant role than many might initially assume. Areas like Indiranagar or Koramangala, with their vibrant culinary scenes"
+title: "Why Agriculture Dinner in Bangalore works better when Fanju app..."
+description: "When considering an Agriculture Dinner in Bangalore, the choice of neighbourhood plays a more significant role than many might initially assume."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

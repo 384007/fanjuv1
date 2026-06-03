@@ -4,8 +4,8 @@ canonicalPath: "/en/city/houston/productivity-dinner"
 alternatePath: "/city/houston/productivity-dinner"
 translationKey: "houston-productivity-dinner"
 lang: "en"
-title: "A calmer way to approach Productivity Dinner in Houston through Fanju app | fanju-app"
-description: "Houston’s sprawl means every dinner choice carries weight—time in the car, parking logistics, and what kind of energy you’ll need afterward. A Productivity Dinner that’s loosely defined can feel like just another"
+title: "A calmer way to approach Productivity Dinner in Houston through..."
+description: "Houston’s sprawl means every dinner choice carries weight—time in the car, parking logistics, and what kind of energy you’ll need afterward."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

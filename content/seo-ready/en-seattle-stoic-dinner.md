@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seattle/stoic-dinner"
 alternatePath: "/city/seattle/stoic-dinner"
 translationKey: "seattle-stoic-dinner"
 lang: "en"
-title: "Seattle does not need another vague invite; Fanju app makes Stoic Dinner specific | fanju-app"
-description: "Moving to Seattle is a big step, and finding genuine local connections can feel like navigating Puget Sound on a foggy morning. The Fanju app understands this, offering a practical way to move beyond superficial meetups."
+title: "Seattle does not need another vague invite; Fanju app makes Stoic..."
+description: "Moving to Seattle is a big step, and finding genuine local connections can feel like navigating Puget Sound on a foggy morning."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

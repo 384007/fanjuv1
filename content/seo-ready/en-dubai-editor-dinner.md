@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dubai/editor-dinner"
 alternatePath: "/city/dubai/editor-dinner"
 translationKey: "dubai-editor-dinner"
 lang: "en"
-title: "A Dubai dinner table for Editor Dinner, with Fanju app boundaries up front"
-description: "The platform frames an Editor Dinner as a curated event rather than a casual meetup, which helps manage expectations in a fast-paced environment. Users looking for offline dinner social options in Dubai can see the"
+title: "A Dubai dinner table for Editor Dinner, with Fanju app boundaries..."
+description: "The platform frames an Editor Dinner as a curated event rather than a casual meetup, which helps manage expectations in a fast-paced environment."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

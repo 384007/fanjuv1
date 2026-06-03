@@ -4,7 +4,7 @@ canonicalPath: "/city/fuzhou/stranger-dinner"
 alternatePath: "/en/city/fuzhou/stranger-dinner"
 translationKey: "fuzhou-stranger-dinner"
 lang: "zh"
-title: "福州陌生人饭局指南 | fanju-app | 饭局app"
+title: "福州陌生人饭局指南"
 titleZh: "福州陌生人饭局指南"
 pageType: "city_landing"
 priorityScore: 62

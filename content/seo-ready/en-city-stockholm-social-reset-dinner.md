@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/stockholm/social-reset-dinner"
 alternatePath: "/city/stockholm/social-reset-dinner"
-title: "Why should I use Fanju app for a Social Reset Dinner in Stockholm? | fanju-app | 饭局app"
+title: "Why should I use Fanju app for a Social Reset Dinner in Stockholm?"
 description: "Discover the benefits of hosting a Social Reset Dinner in Stockholm with Fanju app."
 recoveredFromD1: true
 ---

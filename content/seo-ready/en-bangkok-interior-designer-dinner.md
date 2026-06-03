@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bangkok/interior-designer-dinner"
 alternatePath: "/city/bangkok/interior-designer-dinner"
 translationKey: "bangkok-interior-designer-dinner"
 lang: "en"
-title: "For people trying Interior Designer Dinner in Bangkok, Fanju app puts the guest mix first | fanju-app"
-description: "When an Interior Designer Dinner begins in Bangkok, the first thing people notice isn’t the table setting or the host’s apartment view—it’s the tone. On the Fanju app, where these dinners form quietly among strangers who"
+title: "For people trying Interior Designer Dinner in Bangkok, Fanju app..."
+description: "When an Interior Designer Dinner begins in Bangkok, the first thing people notice isn’t the table setting or the host’s apartment view—it’s the tone."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

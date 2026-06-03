@@ -4,8 +4,8 @@ canonicalPath: "/en/city/addis-ababa/theater-dinner"
 alternatePath: "/city/addis-ababa/theater-dinner"
 translationKey: "addis-ababa-theater-dinner"
 lang: "en"
-title: "Is the Fanju app trustworthy for a Theater Dinner in Addis Ababa’s Kolfe Keranyo neighborhood?"
-description: "In the context of Addis Ababa, the Fanju app acts as a matchmaking service for small‑group dining experiences that revolve around a shared cultural activity. It connects you with a host who has curated a table near a"
+title: "Is the Fanju app trustworthy for a Theater Dinner in Addis Ababa’s..."
+description: "In the context of Addis Ababa, the Fanju app acts as a matchmaking service for small‑group dining experiences that revolve around a shared cultural acti…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

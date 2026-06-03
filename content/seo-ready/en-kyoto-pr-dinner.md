@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kyoto/pr-dinner"
 alternatePath: "/city/kyoto/pr-dinner"
 translationKey: "kyoto-pr-dinner"
 lang: "en"
-title: "For Kyoto readers considering PR Dinner, Fanju app should make the room legible"
-description: "In a city as historically layered and sometimes socially closed as Kyoto, the decision to join a PR Dinner often stems from a quiet desire to break the routine of solitary dining without the pressure of forced"
+title: "For Kyoto readers considering PR Dinner, Fanju app should make the..."
+description: "In a city as historically layered and sometimes socially closed as Kyoto, the decision to join a PR Dinner often stems from a quiet desire to break the…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

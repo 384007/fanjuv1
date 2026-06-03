@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/houston/product-manager-dinner"
 alternatePath: "/city/houston/product-manager-dinner"
-title: "Houston Product Manager Dinner Guide | Fanju app"
-description: "Discover the curated world of social dining in Houston with Fanju app, a platform that brings people together for meaningful connections over delicious meals."
+title: "Houston Product Manager Dinner Guide"
+description: "Discover the curated world of social dining in Houston with Fanju app, a platform that brings people together for meaningful connections over delicious…"
 recoveredFromD1: true
 ---
 In a city as vibrant as Houston, where the energy of the oil industry meets the warmth of Southern hospitality, it&#039;s no wonder that professionals like product managers are drawn to the idea of social dining. Fanju app is a social dining app that offers a unique way for individuals to connect with like-minded people over carefully crafted meals. The app&#039;s focus on small, intimate gatherings creates a safe and welcoming space for meaningful conversations to unfold.

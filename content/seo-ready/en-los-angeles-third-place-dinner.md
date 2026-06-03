@@ -4,8 +4,8 @@ canonicalPath: "/en/city/los-angeles/third-place-dinner"
 alternatePath: "/city/los-angeles/third-place-dinner"
 translationKey: "los-angeles-third-place-dinner"
 lang: "en"
-title: "Los Angeles after work: how Fanju app makes Third Place Dinner feel like a real room | fanju-app"
-description: "Los Angeles sprawls in every direction, but its social gravity doesn’t always pull people together. Highways connect districts, but not necessarily people. Third Place Dinner, as it appears through Fanju app, begins not"
+title: "Los Angeles after work: how Fanju app makes Third Place Dinner..."
+description: "Los Angeles sprawls in every direction, but its social gravity doesn’t always pull people together."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

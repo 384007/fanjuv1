@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/panzhihua/verified-host-dinner"
 alternatePath: "/en/city/panzhihua/verified-host-dinner"
-title: "攀枝花认证主理人饭局指南 | fanju-app | 饭局app"
+title: "攀枝花认证主理人饭局指南"
 description: "在攀枝花，Fanju 是一个围绕小桌吃饭、清晰主题和线下连接的社交应用。它让你可以与同事、朋友或同行业人士在攀枝花的街区探索、共享餐饮体验。"
 recoveredFromD1: true
 ---

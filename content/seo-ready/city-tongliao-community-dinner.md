@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/tongliao/community-dinner"
 alternatePath: "/en/city/tongliao/community-dinner"
-title: "下班后，在通辽找到你的第一顿饭局 | fanju-app | 饭局app"
+title: "下班后，在通辽找到你的第一顿饭局"
 description: "刚搬到通辽，还没来得及认识新朋友？试试饭局app，它能帮你找到一场真实的社区饭局，让你快速融入这座城市。"
 recoveredFromD1: true
 ---

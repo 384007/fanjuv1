@@ -4,8 +4,8 @@ canonicalPath: "/en/city/miami/marketing-dinner"
 alternatePath: "/city/miami/marketing-dinner"
 translationKey: "miami-marketing-dinner"
 lang: "en"
-title: "For people trying Marketing Dinner in Miami, Fanju app puts the guest mix first | fanju-app"
-description: "For people exploring Marketing Dinner in Miami, the Fanju app is becoming a quietly essential tool—not for selling, but for setting the conditions where trust can grow. In a city where networking often means crowded roof"
+title: "For people trying Marketing Dinner in Miami, Fanju app puts the..."
+description: "For people exploring Marketing Dinner in Miami, the Fanju app is becoming a quietly essential tool—not for selling, but for setting the conditions where…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

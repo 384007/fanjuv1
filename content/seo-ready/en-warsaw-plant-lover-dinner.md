@@ -4,8 +4,8 @@ canonicalPath: "/en/city/warsaw/plant-lover-dinner"
 alternatePath: "/city/warsaw/plant-lover-dinner"
 translationKey: "warsaw-plant-lover-dinner"
 lang: "en"
-title: "A clearer Plant Lover Dinner dinner in Warsaw: Fanju app, small tables, and real boundaries"
-description: "For busy professionals in Warsaw, deciding to cross the Vistula for a meal requires more than a vague promise of food; the listing must articulate a concrete reason to attend. A strong description for a Plant Lover"
+title: "A clearer Plant Lover Dinner dinner in Warsaw: Fanju app, small..."
+description: "For busy professionals in Warsaw, deciding to cross the Vistula for a meal requires more than a vague promise of food; the listing must articulate a con…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

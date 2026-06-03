@@ -4,8 +4,8 @@ canonicalPath: "/en/city/buenos-aires/semiconductor-dinner"
 alternatePath: "/city/buenos-aires/semiconductor-dinner"
 translationKey: "buenos-aires-semiconductor-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Buenos Aires Semiconductor Dinner table before the first course"
-description: "When you look for a Semiconductor Dinner in Buenos Aires, you want to know why this specific topic is resonating in a city driven by software and agriculture. A strong listing will not just repeat the category name but"
+title: "The Fanju app way to judge a Buenos Aires Semiconductor Dinner..."
+description: "When you look for a Semiconductor Dinner in Buenos Aires, you want to know why this specific topic is resonating in a city driven by software and agricu…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

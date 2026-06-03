@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/karachi/lunar-new-year-dinner"
 alternatePath: "/city/karachi/lunar-new-year-dinner"
-title: "For people trying Lunar New Year Dinner in Karachi, Fanju app puts the guest mix first | fanju-app | 饭局app"
-description: "In Karachi, where evenings often stretch between shifting work hours, ferrying kids, and navigating unpredictable commutes, finding real connection after work can feel like an afterthought. The Fanju app changes that by"
+title: "For people trying Lunar New Year Dinner in Karachi, Fanju app puts..."
+description: "In Karachi, where evenings often stretch between shifting work hours, ferrying kids, and navigating unpredictable commutes, finding real connection afte…"
 recoveredFromD1: true
 ---
 # For people trying Lunar New Year Dinner in Karachi, Fanju app puts the guest mix first

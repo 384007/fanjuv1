@@ -4,8 +4,8 @@ canonicalPath: "/en/city/khartoum/parenting-dinner"
 alternatePath: "/city/khartoum/parenting-dinner"
 translationKey: "khartoum-parenting-dinner"
 lang: "en"
-title: "Before the first message in Khartoum, Fanju app makes Parenting Dinner feel like a real decision | fanju-app"
-description: "Parenting in Khartoum often means balancing long commutes, fluctuating routines, and shifting neighbourhood dynamics — all while trying to keep family life grounded. The idea of meeting other parents might start as a vag"
+title: "Before the first message in Khartoum, Fanju app makes Parenting..."
+description: "Parenting in Khartoum often means balancing long commutes, fluctuating routines, and shifting neighbourhood dynamics — all while trying to keep family l…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

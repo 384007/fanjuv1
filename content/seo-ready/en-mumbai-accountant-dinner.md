@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mumbai/accountant-dinner"
 alternatePath: "/city/mumbai/accountant-dinner"
 translationKey: "mumbai-accountant-dinner"
 lang: "en"
-title: "Mumbai after work: how Fanju app makes Accountant Dinner feel like a real room | fanju-app"
-description: "In Mumbai, where the pace of life often leaves little room for spontaneous connection, the Fanju app is changing how we approach after-work social gatherings. Accountant Dinner, once a potentially awkward affair, is now"
+title: "Mumbai after work: how Fanju app makes Accountant Dinner feel like..."
+description: "In Mumbai, where the pace of life often leaves little room for spontaneous connection, the Fanju app is changing how we approach after-work social gathe…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

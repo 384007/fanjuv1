@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ahmedabad/nonprofit-dinner"
 alternatePath: "/city/ahmedabad/nonprofit-dinner"
 translationKey: "ahmedabad-nonprofit-dinner"
 lang: "en"
-title: "An Ahmedabad dinner table for Nonprofit Dinner, with Fanju app boundaries up front"
-description: "In Ahmedabad, a generic invitation to discuss charity is often ignored because residents encounter many vague solicitations daily. A credible Nonprofit Dinner listing will immediately ground the event in a specific"
+title: "An Ahmedabad dinner table for Nonprofit Dinner, with Fanju app..."
+description: "In Ahmedabad, a generic invitation to discuss charity is often ignored because residents encounter many vague solicitations daily."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

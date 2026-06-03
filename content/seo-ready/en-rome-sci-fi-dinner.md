@@ -5,7 +5,7 @@ alternatePath: "/city/rome/sci-fi-dinner"
 translationKey: "rome-sci-fi-dinner"
 lang: "en"
 title: "Before joining Sci-Fi Dinner in Rome, what Fanju app should make clear"
-description: "Finding a specific Sci-Fi Dinner in Rome requires looking past the generic tourist traps and identifying listings that emphasize a specific conversation topic over just eating. A genuine listing will explicitly describe"
+description: "Finding a specific Sci-Fi Dinner in Rome requires looking past the generic tourist traps and identifying listings that emphasize a specific conversation…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

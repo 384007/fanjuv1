@@ -4,9 +4,9 @@ canonicalPath: "/city/ganzi/senior-dinner"
 alternatePath: "/en/city/ganzi/senior-dinner"
 translationKey: "ganzi-senior-dinner"
 lang: "zh"
-title: "甘孜中老年饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
+title: "甘孜中老年饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 titleZh: "甘孜中老年饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
-description: "甘孜的饭局从来不缺，街角藏餐馆的炉火边，亲戚家的长桌旁，总有人围坐吃饭。 但真正让人坐得安心、聊得自在的那一桌，却越来越难遇到。 饭局app不是为填补空座而生的，它存在的理由，是让吃饭这件事重新变得有前提、有选择、有温度。 在甘孜，一场值得赴的中老年饭局，往往在开饭前就已经被想清楚了——谁在组织，主题是什么，能不能中途离开而不尴尬。"
+description: "甘孜的饭局从来不缺，街角藏餐馆的炉火边，亲戚家的长桌旁，总有人围坐吃饭。 但真正让人坐得安心、聊得自在的那一桌，却越来越难遇到。 饭局app不是为填补空座而生的，它存在的理由，是让吃饭这件事重新变得有前提、有选择、有温度。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

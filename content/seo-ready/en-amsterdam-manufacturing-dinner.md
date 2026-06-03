@@ -4,8 +4,8 @@ canonicalPath: "/en/city/amsterdam/manufacturing-dinner"
 alternatePath: "/city/amsterdam/manufacturing-dinner"
 translationKey: "amsterdam-manufacturing-dinner"
 lang: "en"
-title: "Solo Arrival in Amsterdam: A Manufacturing Dinner Shaped by the Fanju app"
-description: "When the train rolls into Amsterdam Central and you spot the dinner table across the canal, the first question is whether the venue feels right for a manufacturing‑focused conversation. The location is often a public"
+title: "Solo Arrival in Amsterdam: A Manufacturing Dinner Shaped by the..."
+description: "When the train rolls into Amsterdam Central and you spot the dinner table across the canal, the first question is whether the venue feels right for a ma…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

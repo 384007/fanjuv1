@@ -4,8 +4,8 @@ canonicalPath: "/en/city/barcelona/local-food-dinner"
 alternatePath: "/city/barcelona/local-food-dinner"
 translationKey: "barcelona-local-food-dinner"
 lang: "en"
-title: "Barcelona after work: how Fanju app makes Local Food Dinner feel like a real room | fanju-app"
-description: "Fanju app helps professionals in Barcelona find small, intentionally hosted dinners that replace the usual networking fatigue with real conversation. Instead of crowded after-work mixers or forced pitch sessions, it conn"
+title: "Barcelona after work: how Fanju app makes Local Food Dinner feel..."
+description: "Fanju app helps professionals in Barcelona find small, intentionally hosted dinners that replace the usual networking fatigue with real conversation."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

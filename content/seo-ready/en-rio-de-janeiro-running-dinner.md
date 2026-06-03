@@ -4,8 +4,8 @@ canonicalPath: "/en/city/rio-de-janeiro/running-dinner"
 alternatePath: "/city/rio-de-janeiro/running-dinner"
 translationKey: "rio-de-janeiro-running-dinner"
 lang: "en"
-title: "Is this Rio de Janeiro Running Dinner table on Fanju app the right solo move for tonight?"
-description: "In Rio de Janeiro, dinner plans often need clear arrival and exit timing, especially when guests cross neighbourhoods like Leblon or Centro late at night. A good Running Dinner listing will explicitly state when the"
+title: "Is this Rio de Janeiro Running Dinner table on Fanju app the right..."
+description: "In Rio de Janeiro, dinner plans often need clear arrival and exit timing, especially when guests cross neighbourhoods like Leblon or Centro late at nigh…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

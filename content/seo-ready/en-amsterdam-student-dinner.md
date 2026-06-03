@@ -4,8 +4,8 @@ canonicalPath: "/en/city/amsterdam/student-dinner"
 alternatePath: "/city/amsterdam/student-dinner"
 translationKey: "amsterdam-student-dinner"
 lang: "en"
-title: "A clearer Student Dinner dinner in Amsterdam: Fanju app, small tables, and real boundaries"
-description: "A newcomer arriving in Amsterdam often faces a quiet gap between leaving work or class and starting the weekend, looking for a reason to cross town without committing to a loud event. This table suits someone who wants"
+title: "A clearer Student Dinner dinner in Amsterdam: Fanju app, small..."
+description: "A newcomer arriving in Amsterdam often faces a quiet gap between leaving work or class and starting the weekend, looking for a reason to cross town with…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

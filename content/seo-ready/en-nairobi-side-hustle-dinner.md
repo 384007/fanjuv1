@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nairobi/side-hustle-dinner"
 alternatePath: "/city/nairobi/side-hustle-dinner"
 translationKey: "nairobi-side-hustle-dinner"
 lang: "en"
-title: "Before joining Side Hustle Dinner in Nairobi, what Fanju app should make clear"
-description: "A compelling listing for a Side Hustle Dinner in Nairobi does not merely announce a topic; it articulates the specific friction this meal intends to solve for its attendees. The description must immediately tell a"
+title: "Before joining Side Hustle Dinner in Nairobi, what Fanju app..."
+description: "A compelling listing for a Side Hustle Dinner in Nairobi does not merely announce a topic; it articulates the specific friction this meal intends to sol…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

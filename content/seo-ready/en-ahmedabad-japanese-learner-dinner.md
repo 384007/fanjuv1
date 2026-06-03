@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ahmedabad/japanese-learner-dinner"
 alternatePath: "/city/ahmedabad/japanese-learner-dinner"
 translationKey: "ahmedabad-japanese-learner-dinner"
 lang: "en"
-title: "Tired of vague group chats? Find a calm Japanese Learner Dinner in Ahmedabad through the Fanju app"
-description: "Choosing a private‑table experience means weighing how the dinner aligns with your daily schedule. Ahmedabad traffic peaks around 6 pm, so a listing that specifies a start time of 7 pm and an expected finish by 9 pm"
+title: "Tired of vague group chats? Find a calm Japanese Learner Dinner in..."
+description: "Choosing a private‑table experience means weighing how the dinner aligns with your daily schedule."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

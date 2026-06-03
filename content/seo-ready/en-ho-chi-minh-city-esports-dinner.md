@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ho-chi-minh-city/esports-dinner"
 alternatePath: "/city/ho-chi-minh-city/esports-dinner"
 translationKey: "ho-chi-minh-city-esports-dinner"
 lang: "en"
-title: "Beyond the Screen: Finding Your Esports Dinner Circle in Ho Chi Minh City with Fanju app"
-description: "When considering an Esports Dinner in Ho Chi Minh City, the initial question isn't just about the game, but about the underlying connection. Food, in its simplest form, acts as a powerful connector, breaking down"
+title: "Beyond the Screen: Finding Your Esports Dinner Circle in Ho Chi..."
+description: "When considering an Esports Dinner in Ho Chi Minh City, the initial question isn't just about the game, but about the underlying connection."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

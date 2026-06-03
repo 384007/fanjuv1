@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ho-chi-minh-city/investor-dinner"
 alternatePath: "/city/ho-chi-minh-city/investor-dinner"
 translationKey: "ho-chi-minh-city-investor-dinner"
 lang: "en"
-title: "Why Investor Dinner in Ho Chi Minh City works better when Fanju app keeps the table small | fanju-app"
-description: "In Ho Chi Minh City, where business moves fast and first impressions often dictate long-term trust, the Investor Dinner can feel like a minefield for newcomers. The Fanju app helps by limiting table size to six—enough fo"
+title: "Why Investor Dinner in Ho Chi Minh City works better when Fanju..."
+description: "In Ho Chi Minh City, where business moves fast and first impressions often dictate long-term trust, the Investor Dinner can feel like a minefield for ne…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

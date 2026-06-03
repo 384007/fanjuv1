@@ -4,8 +4,8 @@ canonicalPath: "/en/city/fukuoka/dentist-dinner"
 alternatePath: "/city/fukuoka/dentist-dinner"
 translationKey: "fukuoka-dentist-dinner"
 lang: "en"
-title: "For people trying Dentist Dinner in Fukuoka, Fanju app puts the guest mix first | fanju-app"
-description: "When you arrive at a Dentist Dinner in Fukuoka, you can feel the atmosphere. If the table is too big or too small, or if the guests are not the right mix, it can be a disaster. A good Dentist Dinner needs a balance of"
+title: "For people trying Dentist Dinner in Fukuoka, Fanju app puts the..."
+description: "When you arrive at a Dentist Dinner in Fukuoka, you can feel the atmosphere. If the table is too big or too small, or if the guests are not the right mi…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

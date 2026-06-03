@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tokyo/photography-dinner"
 alternatePath: "/city/tokyo/photography-dinner"
 translationKey: "tokyo-photography-dinner"
 lang: "en"
-title: "A clearer Photography Dinner dinner in Tokyo: Fanju app, small tables, and real boundaries"
-description: "The ideal participant for a Tokyo Photography Dinner is someone seeking focused conversation rather than loud networking. They appreciate the small-table dinner format because it allows them to actually hear the person"
+title: "A clearer Photography Dinner dinner in Tokyo: Fanju app, small..."
+description: "The ideal participant for a Tokyo Photography Dinner is someone seeking focused conversation rather than loud networking."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

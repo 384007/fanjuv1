@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mumbai/developer-community-dinner"
 alternatePath: "/city/mumbai/developer-community-dinner"
 translationKey: "mumbai-developer-community-dinner"
 lang: "en"
-title: "In Mumbai, Fanju app turns Developer Community Dinner into a table people can actually trust | fanju-app"
-description: "Most developer meetups in Mumbai end with a group drifting toward a crowded bar or an impromptu delivery order in a co-working lounge. The energy is familiar—good intentions, loud spaces, half-kept plans to meet again."
+title: "In Mumbai, Fanju app turns Developer Community Dinner into a table..."
+description: "Most developer meetups in Mumbai end with a group drifting toward a crowded bar or an impromptu delivery order in a co-working lounge."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,9 +4,9 @@ canonicalPath: "/city/weifang/tennis-dinner"
 alternatePath: "/en/city/weifang/tennis-dinner"
 translationKey: "weifang-tennis-dinner"
 lang: "zh"
-title: "在潍坊找到对的网球饭局，饭局app先把这一桌说清楚 | fanju-app"
+title: "在潍坊找到对的网球饭局，饭局app先把这一桌说清楚"
 titleZh: "在潍坊找到对的网球饭局，饭局app先把这一桌说清楚"
-description: "饭局app不是旅行打卡工具，也不是临时组局的社交软件，而是一个围绕小桌吃饭、清晰主题和真实线下连接的社交入口。 在潍坊，它不解决“有没有人一起打网球”的问题，而是解决“和谁在打完球后坐下来吃饭才不尴尬”的问题。 这座城市有足够多的网球场，也有不少坚持每周训练的业余球手，但真正让人留下来的，往往不是那一场胜负，而是赛后围坐的一顿饭。"
+description: "饭局app不是旅行打卡工具，也不是临时组局的社交软件，而是一个围绕小桌吃饭、清晰主题和真实线下连接的社交入口。 在潍坊，它不解决“有没有人一起打网球”的问题，而是解决“和谁在打完球后坐下来吃饭才不尴尬”的问题。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

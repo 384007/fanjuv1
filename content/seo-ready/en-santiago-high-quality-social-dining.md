@@ -4,8 +4,8 @@ canonicalPath: "/en/city/santiago/high-quality-social-dining"
 alternatePath: "/city/santiago/high-quality-social-dining"
 translationKey: "santiago-high-quality-social-dining"
 lang: "en"
-title: "A calmer way to approach High Quality Social Dining in Santiago through Fanju app | fanju-app"
-description: "High Quality Social Dining in Santiago isn’t about polished restaurants or influencer gatherings. It’s quieter, more deliberate—hosted in homes across neighbourhoods like Providencia, where a dinner table becomes a momen"
+title: "A calmer way to approach High Quality Social Dining in Santiago..."
+description: "High Quality Social Dining in Santiago isn’t about polished restaurants or influencer gatherings."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

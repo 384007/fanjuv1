@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/hezhou/business-dinner"
 alternatePath: "/en/city/hezhou/business-dinner"
-title: "贺州商务饭局指南 | fanju-app | 饭局app"
+title: "贺州商务饭局指南"
 description: "贺州商务饭局指南，了解贺州商务饭局的最佳方式，包括如何参加商务饭局、判断安全和信任、和普通社交/约会软件有什么不同等。"
 recoveredFromD1: true
 ---

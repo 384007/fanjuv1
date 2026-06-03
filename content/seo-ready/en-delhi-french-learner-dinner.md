@@ -4,8 +4,8 @@ canonicalPath: "/en/city/delhi/french-learner-dinner"
 alternatePath: "/city/delhi/french-learner-dinner"
 translationKey: "delhi-french-learner-dinner"
 lang: "en"
-title: "What makes French Learner Dinner in Delhi worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "For many Delhi residents dipping into French conversation over shared meals, the French Learner Dinner experience can feel like a gamble—will it be a thoughtful exchange or a chaotic language scramble? The Fanju app is c"
+title: "What makes French Learner Dinner in Delhi worth the risk; Fanju..."
+description: "For many Delhi residents dipping into French conversation over shared meals, the French Learner Dinner experience can feel like a gamble—will it be a th…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

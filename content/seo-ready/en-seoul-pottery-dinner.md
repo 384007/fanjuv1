@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seoul/pottery-dinner"
 alternatePath: "/city/seoul/pottery-dinner"
 translationKey: "seoul-pottery-dinner"
 lang: "en"
-title: "Seoul after work: how Fanju app makes Pottery Dinner feel like a real room | fanju-app"
-description: "In Seoul, where evenings often blur into late-night soju rounds or quiet subway rides home, the idea of a dinner that feels intentional—where strangers share food, conversation, and a moment of stillness—can seem rare. T"
+title: "Seoul after work: how Fanju app makes Pottery Dinner feel like a..."
+description: "In Seoul, where evenings often blur into late-night soju rounds or quiet subway rides home, the idea of a dinner that feels intentional—where strangers…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

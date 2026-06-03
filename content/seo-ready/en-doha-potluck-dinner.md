@@ -4,8 +4,8 @@ canonicalPath: "/en/city/doha/potluck-dinner"
 alternatePath: "/city/doha/potluck-dinner"
 translationKey: "doha-potluck-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Doha Potluck Dinner table before the first course"
-description: "When a host in Doha sets up a Potluck Dinner, the listing must go beyond just naming a time and place; it needs to explain why this specific gathering fits the city's current rhythm. A vague description often leads to a"
+title: "The Fanju app way to judge a Doha Potluck Dinner table before the..."
+description: "When a host in Doha sets up a Potluck Dinner, the listing must go beyond just naming a time and place; it needs to explain why this specific gathering f…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

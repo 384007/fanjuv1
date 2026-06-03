@@ -4,8 +4,8 @@ canonicalPath: "/en/city/johannesburg/podcast-listener-dinner"
 alternatePath: "/city/johannesburg/podcast-listener-dinner"
 translationKey: "johannesburg-podcast-listener-dinner"
 lang: "en"
-title: "Johannesburg Podcast Listener Dinner: how Fanju app makes the table worth choosing"
-description: "A Johannesburg resident who spends hours commuting while listening to long-form audio will find a natural rhythm here. The appeal lies in the specific focus on spoken word topics, where the conversation can move from a"
+title: "Johannesburg Podcast Listener Dinner: how Fanju app makes the..."
+description: "A Johannesburg resident who spends hours commuting while listening to long-form audio will find a natural rhythm here."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

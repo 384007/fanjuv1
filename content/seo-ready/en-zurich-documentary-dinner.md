@@ -4,8 +4,8 @@ canonicalPath: "/en/city/zurich/documentary-dinner"
 alternatePath: "/city/zurich/documentary-dinner"
 translationKey: "zurich-documentary-dinner"
 lang: "en"
-title: "Zurich Documentary Dinner: how Fanju app makes the table worth choosing"
-description: "In Zurich, social gatherings often respect strict boundaries, meaning a shared meal should have a clear ending time rather than fading into awkward ambiguity. When you join a Documentary Dinner, you are looking for an"
+title: "Zurich Documentary Dinner: how Fanju app makes the table worth..."
+description: "In Zurich, social gatherings often respect strict boundaries, meaning a shared meal should have a clear ending time rather than fading into awkward ambi…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

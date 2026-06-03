@@ -5,7 +5,7 @@ alternatePath: "/city/delhi/six-person-dinner"
 translationKey: "delhi-six-person-dinner"
 lang: "en"
 title: "Navigating a First‑Time Six Person Dinner in Delhi with the Fanju app"
-description: "The first hesitation often comes from not knowing which part of the city the table will occupy. A neighbourhood like Hauz Khas may feel vibrant, while a corner in Lajpat Nagar could feel cramped, and that perception"
+description: "The first hesitation often comes from not knowing which part of the city the table will occupy."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96

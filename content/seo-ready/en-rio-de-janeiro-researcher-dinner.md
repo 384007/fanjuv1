@@ -4,8 +4,8 @@ canonicalPath: "/en/city/rio-de-janeiro/researcher-dinner"
 alternatePath: "/city/rio-de-janeiro/researcher-dinner"
 translationKey: "rio-de-janeiro-researcher-dinner"
 lang: "en"
-title: "Researcher Dinner in Rio de Janeiro should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "Rio de Janeiro: Arriving in Rio with a research agenda means you’re not just adjusting to humidity and Portuguese pronunciation — you’re mapping invisible hierarchies. Who speaks with authority at academic gatherings?"
+title: "Researcher Dinner in Rio de Janeiro should not feel like a gamble;..."
+description: "Rio de Janeiro: Arriving in Rio with a research agenda means you’re not just adjusting to humidity and Portuguese pronunciation — you’re mapping invisib…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

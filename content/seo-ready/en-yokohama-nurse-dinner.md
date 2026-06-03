@@ -4,8 +4,8 @@ canonicalPath: "/en/city/yokohama/nurse-dinner"
 alternatePath: "/city/yokohama/nurse-dinner"
 translationKey: "yokohama-nurse-dinner"
 lang: "en"
-title: "Yokohama Nurse Dinner through Fanju app: the questions to answer before you sit down"
-description: "In Yokohama, the physical space where a Nurse Dinner takes place sets the tone for the entire evening. A public venue type matters in Yokohama because strangers need to picture the room before joining, ensuring the"
+title: "Yokohama Nurse Dinner through Fanju app: the questions to answer..."
+description: "In Yokohama, the physical space where a Nurse Dinner takes place sets the tone for the entire evening."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

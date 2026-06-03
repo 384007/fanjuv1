@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/datong/family-style-dinner"
 alternatePath: "/en/city/datong/family-style-dinner"
-title: "大同家庭式饭局指南 | fanju-app | 饭局app"
+title: "大同家庭式饭局指南"
 description: "在大同的饭局app上，如何组织一个完美的家庭式饭局？"
 recoveredFromD1: true
 ---

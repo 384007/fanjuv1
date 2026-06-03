@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/tehran/city-community-dinner"
 alternatePath: "/city/tehran/city-community-dinner"
-title: "For people trying City Community Dinner in Tehran, Fanju app puts the guest mix first | fanju-app | 饭局app"
-description: "Fanju app is a social dining platform designed for intimate, thoughtfully arranged meals in Tehran, where conversation flows more naturally than at a bar and feels less pressured than a group meetup. It focuses on small"
+title: "For people trying City Community Dinner in Tehran, Fanju app puts..."
+description: "Fanju app is a social dining platform designed for intimate, thoughtfully arranged meals in Tehran, where conversation flows more naturally than at a ba…"
 recoveredFromD1: true
 ---
 # For people trying City Community Dinner in Tehran, Fanju app puts the guest mix first

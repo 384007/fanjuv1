@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/new-york/sunday-dinner"
 alternatePath: "/city/new-york/sunday-dinner"
-title: "New York Sunday Dinner Guide | Fanju app"
-description: "The Fanju app offers a unique approach to combating urban loneliness in New York City.  It facilitates small, intimate dinner gatherings, providing a low-pressure pathway to reconnect with people in real life.  Discover how a simple Sunday dinner can be your first step back into the vibrant social fabric of NYC."
+title: "New York Sunday Dinner Guide"
+description: "The Fanju app offers a unique approach to combating urban loneliness in New York City."
 recoveredFromD1: true
 ---
 The city hums with a relentless energy, especially as the work week winds down. For many in New York, the quiet that follows the rush can feel amplified, a stark contrast to the bustling streets outside. Fanju app is designed to bridge this gap, offering a platform for small, clearly described meals and fostering genuine, in-person connections. It&#039;s about creating opportunities for meaningful interactions, one shared plate at a time, making the vastness of New York feel a little more manageable and a lot more welcoming.

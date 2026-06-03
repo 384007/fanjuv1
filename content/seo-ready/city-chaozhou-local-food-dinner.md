@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/chaozhou/local-food-dinner"
 alternatePath: "/en/city/chaozhou/local-food-dinner"
-title: "潮州本地美食饭局指南 | fanju-app | 饭局app"
+title: "潮州本地美食饭局指南"
 description: "在潮州，一场精心策划的本地美食饭局，是体验这座城市深厚文化底蕴的绝佳方式。饭局app / Fanju 致力于打造小而美的线下聚会，让参与者在宁静的氛围中，围绕清晰的主题，进行有意义的深度交流。这不仅仅是一次用餐，更是一场关于味蕾与心灵的双重探索。"
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/cangzhou/marketing-dinner"
 alternatePath: "/en/city/cangzhou/marketing-dinner"
-title: "周末去哪儿？沧州市场饭局指南：用饭局app认识新朋友 | fanju-app"
+title: "周末去哪儿？沧州市场饭局指南：用饭局app认识新朋友"
 description: "厌倦了千篇一律的社交？想在沧州拓展人脉，体验地道的本地文化？本文将带你了解如何通过饭局app，参与一场有温度的市场饭局，从街区选择到同桌交流，全方位解析沧州人的饭局社交新方式。"
 recoveredFromD1: true
 ---

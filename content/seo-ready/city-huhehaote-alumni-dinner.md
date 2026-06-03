@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/huhehaote/alumni-dinner"
 alternatePath: "/en/city/huhehaote/alumni-dinner"
-title: "呼和浩特校友饭局指南 | fanju-app | 饭局app"
+title: "呼和浩特校友饭局指南"
 description: "呼和浩特校友饭局指南，帮助新来城市的人通过一顿饭获得真实连接"
 recoveredFromD1: true
 ---

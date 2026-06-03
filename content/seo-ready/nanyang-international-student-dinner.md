@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/nanyang/international-student-dinner"
 alternatePath: "/en/city/nanyang/international-student-dinner"
-title: "南阳不想只靠群聊时，饭局app怎样把国际学生饭局坐成一桌 | fanju-app"
+title: "南阳不想只靠群聊时，饭局app怎样把国际学生饭局坐成一桌"
 description: "在南阳，当国际学生结束一天课程或兼职工作，走在白河岸边或穿过师院东街的小巷时，常会面临一个无声的选择：是带回一碗泡面，还是走进一家小店，试着和陌生人共进一顿饭？饭局app不是群聊的替代品，也不是活动平台的翻版，它更像是一张缓慢铺开的饭桌地图"
 recoveredFromD1: true
 ---

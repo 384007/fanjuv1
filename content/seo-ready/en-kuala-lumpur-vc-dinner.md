@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kuala-lumpur/vc-dinner"
 alternatePath: "/city/kuala-lumpur/vc-dinner"
 translationKey: "kuala-lumpur-vc-dinner"
 lang: "en"
-title: "A Kuala Lumpur dinner table for VC Dinner, with Fanju app boundaries up front"
-description: "The decision to join a table often happens after a long day in Kuala Lumpur's heat, looking for something substantial but not draining. A credible listing for a VC Dinner here will explicitly state that the goal is"
+title: "A Kuala Lumpur dinner table for VC Dinner, with Fanju app..."
+description: "The decision to join a table often happens after a long day in Kuala Lumpur's heat, looking for something substantial but not draining."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

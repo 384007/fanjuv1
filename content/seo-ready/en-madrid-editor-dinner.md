@@ -5,7 +5,7 @@ alternatePath: "/city/madrid/editor-dinner"
 translationKey: "madrid-editor-dinner"
 lang: "en"
 title: "Madrid Editor Dinner: how Fanju app makes the table worth choosing"
-description: "In a sprawling city like Madrid, where options for nightlife and dining are overwhelming, the most practical question to ask is whether this specific table offers a distinct purpose that justifies the commitment. You"
+description: "In a sprawling city like Madrid, where options for nightlife and dining are overwhelming, the most practical question to ask is whether this specific ta…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

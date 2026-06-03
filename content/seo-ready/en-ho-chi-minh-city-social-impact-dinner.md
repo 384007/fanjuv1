@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ho-chi-minh-city/social-impact-dinner"
 alternatePath: "/city/ho-chi-minh-city/social-impact-dinner"
 translationKey: "ho-chi-minh-city-social-impact-dinner"
 lang: "en"
-title: "Ho Chi Minh City Social Impact Dinner: how Fanju app makes the table worth choosing"
-description: "In a city as energetic as Ho Chi Minh City, social events can often blur into a loud mix of expatriate meetups or generic networking nights. A true Social Impact Dinner stands apart by offering a quiet, seated"
+title: "Ho Chi Minh City Social Impact Dinner: how Fanju app makes the..."
+description: "In a city as energetic as Ho Chi Minh City, social events can often blur into a loud mix of expatriate meetups or generic networking nights."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

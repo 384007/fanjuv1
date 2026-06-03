@@ -4,9 +4,9 @@ canonicalPath: "/city/nanping/casual-restaurant-dinner"
 alternatePath: "/en/city/nanping/casual-restaurant-dinner"
 translationKey: "nanping-casual-restaurant-dinner"
 lang: "zh"
-title: "南平不想只靠群聊时，饭局app怎样把轻松餐厅饭局坐成一桌 | fanju-app"
+title: "南平不想只靠群聊时，饭局app怎样把轻松餐厅饭局坐成一桌"
 titleZh: "南平不想只靠群聊时，饭局app怎样把轻松餐厅饭局坐成一桌"
-description: "当一场饭局不再只是“约个饭”，而是成为南平人重新认识城市关系的入口时，饭局app的作用就显现出来了。 它不是一个发消息的工具，也不是一个吃饭打卡的记录器，而是围绕真实身份、小桌规模、公开餐厅和可追溯主理人，建立起的一种线下连接方式。 在南平，这种连接尤其需要节奏和边界——武夷山脚下的生活节奏偏缓，人与人之间的距离看似近，实则需要更清晰的信号才能真正坐下来。"
+description: "当一场饭局不再只是“约个饭”，而是成为南平人重新认识城市关系的入口时，饭局app的作用就显现出来了。 它不是一个发消息的工具，也不是一个吃饭打卡的记录器，而是围绕真实身份、小桌规模、公开餐厅和可追溯主理人，建立起的一种线下连接方式。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

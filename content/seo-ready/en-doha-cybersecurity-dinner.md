@@ -4,8 +4,8 @@ canonicalPath: "/en/city/doha/cybersecurity-dinner"
 alternatePath: "/city/doha/cybersecurity-dinner"
 translationKey: "doha-cybersecurity-dinner"
 lang: "en"
-title: "Cybersecurity Dinner in Doha should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "Walking into a Cybersecurity Dinner in Doha for the first time can feel like stepping into a dimly lit lounge in West Bay after work, unsure if you’ve been invited or just wandered in by mistake. The chatter is in Englis"
+title: "Cybersecurity Dinner in Doha should not feel like a gamble; Fanju..."
+description: "Walking into a Cybersecurity Dinner in Doha for the first time can feel like stepping into a dimly lit lounge in West Bay after work, unsure if you’ve b…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

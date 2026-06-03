@@ -4,8 +4,8 @@ canonicalPath: "/en/city/boston/friday-dinner"
 alternatePath: "/city/boston/friday-dinner"
 translationKey: "boston-friday-dinner"
 lang: "en"
-title: "Before joining Friday Dinner in Boston, what Fanju app should make clear"
-description: "A listing needs to answer why a Boston professional should cross the river or navigate downtown traffic on a Friday evening. The description must move beyond generic language to state a concrete reason for the"
+title: "Before joining Friday Dinner in Boston, what Fanju app should make..."
+description: "A listing needs to answer why a Boston professional should cross the river or navigate downtown traffic on a Friday evening."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

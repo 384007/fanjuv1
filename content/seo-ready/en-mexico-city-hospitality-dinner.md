@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mexico-city/hospitality-dinner"
 alternatePath: "/city/mexico-city/hospitality-dinner"
 translationKey: "mexico-city-hospitality-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Mexico City Hospitality Dinner table before the first course"
-description: "Living in a sprawling metropolis like Mexico City often creates a paradox where you are surrounded by millions of people yet feel a profound sense of isolation. The sheer scale of the city can make genuine social"
+title: "The Fanju app way to judge a Mexico City Hospitality Dinner table..."
+description: "Living in a sprawling metropolis like Mexico City often creates a paradox where you are surrounded by millions of people yet feel a profound sense of is…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

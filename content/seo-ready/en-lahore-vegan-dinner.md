@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lahore/vegan-dinner"
 alternatePath: "/city/lahore/vegan-dinner"
 translationKey: "lahore-vegan-dinner"
 lang: "en"
-title: "A clearer Vegan Dinner dinner in Lahore: Fanju app, small tables, and real boundaries"
-description: "When you arrive at the location, the first-arrival moment often dictates the entire evening's comfort. A reliable listing for Vegan Dinner in Lahore will explicitly state the type of venue, whether it is a quiet cafe in"
+title: "A clearer Vegan Dinner dinner in Lahore: Fanju app, small tables,..."
+description: "When you arrive at the location, the first-arrival moment often dictates the entire evening's comfort."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

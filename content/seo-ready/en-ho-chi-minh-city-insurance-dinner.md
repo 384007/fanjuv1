@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ho-chi-minh-city/insurance-dinner"
 alternatePath: "/city/ho-chi-minh-city/insurance-dinner"
 translationKey: "ho-chi-minh-city-insurance-dinner"
 lang: "en"
-title: "The Insurance Dinner table Ho Chi Minh City actually needs is the one Fanju app describes up front | fanju-app"
-description: "In Ho Chi Minh City, where business introductions often happen over loud coffee shop chatter or last-minute WhatsApp messages, the idea of a focused, intentional dinner for insurance professionals feels overdue. The Fanj"
+title: "The Insurance Dinner table Ho Chi Minh City actually needs is the..."
+description: "In Ho Chi Minh City, where business introductions often happen over loud coffee shop chatter or last-minute WhatsApp messages, the idea of a focused, in…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

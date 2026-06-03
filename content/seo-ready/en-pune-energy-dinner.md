@@ -4,8 +4,8 @@ canonicalPath: "/en/city/pune/energy-dinner"
 alternatePath: "/city/pune/energy-dinner"
 translationKey: "pune-energy-dinner"
 lang: "en"
-title: "For Pune readers considering Energy Dinner, Fanju app should make the room legible"
-description: "The true value of a listing on Fanju 饭局app lies in how well the host captures the specific mood of the city, rather than relying on generic category labels. A strong listing for an Energy Dinner in Pune should"
+title: "For Pune readers considering Energy Dinner, Fanju app should make..."
+description: "The true value of a listing on Fanju 饭局app lies in how well the host captures the specific mood of the city, rather than relying on generic category lab…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-diego/hedge-fund-dinner"
 alternatePath: "/city/san-diego/hedge-fund-dinner"
 translationKey: "san-diego-hedge-fund-dinner"
 lang: "en"
-title: "Why Hedge Fund Dinner in San Diego works better when Fanju app keeps the table small | fanju-app"
-description: "Establishing a clear framework is crucial for any successful Hedge Fund Dinner, especially for those new to San Diego's social landscape. This means defining the purpose and expected atmosphere of the gathering well in"
+title: "Why Hedge Fund Dinner in San Diego works better when Fanju app..."
+description: "Establishing a clear framework is crucial for any successful Hedge Fund Dinner, especially for those new to San Diego's social landscape."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

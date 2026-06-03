@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/huaibei/local-guide-dinner"
 alternatePath: "/en/city/huaibei/local-guide-dinner"
-title: "淮北本地向导饭局指南 | fanju-app | 饭局app"
+title: "淮北本地向导饭局指南"
 description: "在淮北体验私密饭局的乐趣，通过饭局app与本地向导一起共享美食和故事。"
 recoveredFromD1: true
 ---

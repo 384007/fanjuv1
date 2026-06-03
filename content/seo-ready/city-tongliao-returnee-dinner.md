@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/tongliao/returnee-dinner"
 alternatePath: "/en/city/tongliao/returnee-dinner"
-title: "通辽海归饭局指南 | fanju-app | 饭局app"
+title: "通辽海归饭局指南"
 description: "在通辽体验海归饭局的独特魅力，了解城市的大与饭桌的小之间的反差。"
 recoveredFromD1: true
 ---

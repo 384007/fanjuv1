@@ -4,8 +4,8 @@ canonicalPath: "/en/city/miami/chess-dinner"
 alternatePath: "/city/miami/chess-dinner"
 translationKey: "miami-chess-dinner"
 lang: "en"
-title: "A calmer way to approach Chess Dinner in Miami through Fanju app | fanju-app"
-description: "Miami's vibrant dining scene often overshadows its quieter, more intimate alternatives. Chess Dinner, a unique concept that combines socializing with a leisurely meal, often gets lost in the noise. However, it's"
+title: "A calmer way to approach Chess Dinner in Miami through Fanju app"
+description: "Miami's vibrant dining scene often overshadows its quieter, more intimate alternatives."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

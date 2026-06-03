@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/new-york/newcomer-dinner"
 alternatePath: "/city/new-york/newcomer-dinner"
-title: "When Newcomer Dinner feels too loose in New York, Fanju app starts with the table | fanju-app | 饭局app"
-description: "The Fanju app helps newcomers in New York find small, intentional dinners where the table size, host clarity, and neighbourhood context matter as much as the meal. Instead of open-ended mixers or crowded events, it suppo"
+title: "When Newcomer Dinner feels too loose in New York, Fanju app starts..."
+description: "The Fanju app helps newcomers in New York find small, intentional dinners where the table size, host clarity, and neighbourhood context matter as much a…"
 recoveredFromD1: true
 ---
 # When Newcomer Dinner feels too loose in New York, Fanju app starts with the table

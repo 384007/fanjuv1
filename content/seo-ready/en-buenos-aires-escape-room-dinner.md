@@ -4,8 +4,8 @@ canonicalPath: "/en/city/buenos-aires/escape-room-dinner"
 alternatePath: "/city/buenos-aires/escape-room-dinner"
 translationKey: "buenos-aires-escape-room-dinner"
 lang: "en"
-title: "For Buenos Aires readers considering Escape Room Dinner, Fanju app should make the room legible"
-description: "A well-hosted Buenos Aires dinner provides clear exit cues, especially when guests are crossing neighborhoods like Palermo to Recoleta late at night. The expectation should be that the event ends when the bill is"
+title: "For Buenos Aires readers considering Escape Room Dinner, Fanju app..."
+description: "A well-hosted Buenos Aires dinner provides clear exit cues, especially when guests are crossing neighborhoods like Palermo to Recoleta late at night."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

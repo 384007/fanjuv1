@@ -4,7 +4,7 @@ canonicalPath: "/en/city/taipei/singles-dinner"
 alternatePath: "/city/taipei/singles-dinner"
 translationKey: "taipei-singles-dinner"
 lang: "en"
-title: "Taipei Singles Dinner Guide | Fanju app"
+title: "Taipei Singles Dinner Guide"
 titleZh: "Taipei Singles Dinner Guide"
 pageType: "city_landing"
 priorityScore: 50

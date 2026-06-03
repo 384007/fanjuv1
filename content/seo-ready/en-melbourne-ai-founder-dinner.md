@@ -4,8 +4,8 @@ canonicalPath: "/en/city/melbourne/ai-founder-dinner"
 alternatePath: "/city/melbourne/ai-founder-dinner"
 translationKey: "melbourne-ai-founder-dinner"
 lang: "en"
-title: "For people trying AI Founder Dinner in Melbourne, Fanju app puts the guest mix first | fanju-app"
-description: "In Melbourne, the end of a workday often means one of two things: heading straight home to a quiet apartment or scrolling through messages while waiting for a reply that never comes. The Fanju app changes that pattern by"
+title: "For people trying AI Founder Dinner in Melbourne, Fanju app puts..."
+description: "In Melbourne, the end of a workday often means one of two things: heading straight home to a quiet apartment or scrolling through messages while waiting…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

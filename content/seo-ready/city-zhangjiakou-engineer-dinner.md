@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/zhangjiakou/engineer-dinner"
 alternatePath: "/en/city/zhangjiakou/engineer-dinner"
-title: "张家口工程师饭局指南 | fanju-app | 饭局app"
+title: "张家口工程师饭局指南"
 description: "在张家口组织工程师饭局的指南，了解如何选择合适的桌位、让聊天自然延展、Fanju 饭局在主办方一侧是什么样子"
 recoveredFromD1: true
 ---

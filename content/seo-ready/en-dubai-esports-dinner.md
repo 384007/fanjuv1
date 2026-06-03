@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dubai/esports-dinner"
 alternatePath: "/city/dubai/esports-dinner"
 translationKey: "dubai-esports-dinner"
 lang: "en"
-title: "What makes Esports Dinner in Dubai worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "Dubai, with its dynamic social scene, offers a multitude of opportunities for people to connect. However, when it comes to niche interests like esports, the quality of these connections can vary significantly. A well-org"
+title: "What makes Esports Dinner in Dubai worth the risk; Fanju app..."
+description: "Dubai, with its dynamic social scene, offers a multitude of opportunities for people to connect."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/ningbo/sushi-dinner"
 alternatePath: "/en/city/ningbo/sushi-dinner"
-title: "宁波饭局app：小桌长成城市社交骨架 | fanju-app"
+title: "宁波饭局app：小桌长成城市社交骨架"
 description: "宁波饭局app让您围绕小桌吃饭、清晰主题和线下连接。"
 recoveredFromD1: true
 ---

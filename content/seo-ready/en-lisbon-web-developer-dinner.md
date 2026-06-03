@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lisbon/web-developer-dinner"
 alternatePath: "/city/lisbon/web-developer-dinner"
 translationKey: "lisbon-web-developer-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Lisbon Web Developer Dinner table before the first course"
+title: "The Fanju app way to judge a Lisbon Web Developer Dinner table..."
 description: "Fanju app’s structure encourages hosts to provide context that goes beyond a simple category name like \"Web Developer Dinner.\" For a listing in Lisbon, this means a description should articulate *why* this topic"
 pageType: "city_article"
 priorityScore: 70

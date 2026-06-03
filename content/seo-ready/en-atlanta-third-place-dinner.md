@@ -4,8 +4,8 @@ canonicalPath: "/en/city/atlanta/third-place-dinner"
 alternatePath: "/city/atlanta/third-place-dinner"
 translationKey: "atlanta-third-place-dinner"
 lang: "en"
-title: "In Atlanta, Fanju app turns Third Place Dinner into a table people can actually trust | fanju-app"
-description: "Most social invitations in Atlanta dissolve before they take shape. “Maybe we’ll run into each other at a festival,” or “We should do dinner when things calm down”—phrases that go nowhere. What Fanju introduces is"
+title: "In Atlanta, Fanju app turns Third Place Dinner into a table people..."
+description: "Most social invitations in Atlanta dissolve before they take shape. “Maybe we’ll run into each other at a festival,” or “We should do dinner when things…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

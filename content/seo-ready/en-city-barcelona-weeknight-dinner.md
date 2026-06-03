@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/barcelona/weeknight-dinner"
 alternatePath: "/city/barcelona/weeknight-dinner"
-title: "Barcelona Weeknight Dinner: Your Guide to Cozy Gatherings | Fanju app"
-description: "Discover the charm of weeknight dinners in Barcelona with the Fanju app. This guide, tailored for women seeking comfortable social dining, highlights how Fanju's intimate format and focus on small, curated meals foster genuine connections. Explore the city's vibrant neighborhoods and find your perfect evening out, all within a safe and welcoming environment. The Fanju app is a social dining platform designed for small, clearly described meals and fostering real-world connections. It's about shared experiences, not just food. Whether you're new to Barcelona or looking to expand your social circle, Fanju offers a unique way to connect with like-minded individuals over a shared meal in a relaxed setting.  It's a refreshing alternative to larger, more impersonal events, emphasizing quality interactions and comfortable atmospheres.  The app is particularly well-suited for women seeking a secure and enjoyable way to meet new people and explore the city's culinary scene.  Key points include: who it suits, core scenario, and safety focus."
+title: "Barcelona Weeknight Dinner: Your Guide to Cozy Gatherings"
+description: "Discover the charm of weeknight dinners in Barcelona with the Fanju app. This guide, tailored for women seeking comfortable social dining, highlights ho…"
 recoveredFromD1: true
 ---
 Barcelona&#039;s weeknights hum with a different energy than its bustling weekends. It&#039;s a time for winding down, for thoughtful connections, and for enjoying the city&#039;s quieter charms. For women navigating this rhythm, finding a comfortable and engaging way to dine out or host can sometimes feel like a challenge. This guide explores how intimate, small-group dining experiences, facilitated by platforms like the Fanju app, offer a particularly welcoming approach to weeknight socialising in Barcelona.

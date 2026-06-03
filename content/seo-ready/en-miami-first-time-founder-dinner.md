@@ -4,8 +4,8 @@ canonicalPath: "/en/city/miami/first-time-founder-dinner"
 alternatePath: "/city/miami/first-time-founder-dinner"
 translationKey: "miami-first-time-founder-dinner"
 lang: "en"
-title: "A clearer First Time Founder Dinner dinner in Miami: Fanju app, small tables, and real boundaries"
-description: "When a Miami dinner ends, the best hosts clearly signal when the table is closing so you can plan your exit without feeling awkward. In a city where traffic can turn a short drive across town into a long commute,"
+title: "A clearer First Time Founder Dinner dinner in Miami: Fanju app,..."
+description: "When a Miami dinner ends, the best hosts clearly signal when the table is closing so you can plan your exit without feeling awkward."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

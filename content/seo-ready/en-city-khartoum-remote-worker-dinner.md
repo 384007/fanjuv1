@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/khartoum/remote-worker-dinner"
 alternatePath: "/city/khartoum/remote-worker-dinner"
-title: "Khartoum Remote Worker Dinner Guide | Fanju app"
-description: "Discover the authentic flavors of Khartoum with Fanju app, a social dining app that connects you with like-minded individuals for small, home-cooked meals and meaningful conversations."
+title: "Khartoum Remote Worker Dinner Guide"
+description: "Discover the authentic flavors of Khartoum with Fanju app, a social dining app that connects you with like-minded individuals for small, home-cooked mea…"
 recoveredFromD1: true
 ---
 Khartoum, the vibrant capital city of Sudan, is a melting pot of cultures and cuisines. From the bustling streets of Omdurman to the tranquil gardens of Khartoum North, this city has a unique rhythm that is waiting to be explored. As a remote worker, you&#039;re likely no stranger to the joys of discovering new flavors and making connections with fellow travelers. In this guide, we&#039;ll take you on a culinary journey through Khartoum&#039;s hidden gems, highlighting the best places to dine, the neighborhoods to explore, and the safety tips to keep in mind.

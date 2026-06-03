@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lahore/accountability-dinner"
 alternatePath: "/city/lahore/accountability-dinner"
 translationKey: "lahore-accountability-dinner"
 lang: "en"
-title: "Should I trust the Fanju app to host a calm Lahore Accountability Dinner for introverts?"
-description: "The first question many readers ask is whether the format reduces the social overload that a noisy bar meetup can create. In Lahore, the promise of a second‑table arrangement means you will join a group that is already"
+title: "Should I trust the Fanju app to host a calm Lahore Accountability..."
+description: "The first question many readers ask is whether the format reduces the social overload that a noisy bar meetup can create."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

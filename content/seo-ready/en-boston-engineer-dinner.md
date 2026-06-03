@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/boston/engineer-dinner"
 alternatePath: "/city/boston/engineer-dinner"
-title: "Boston after work: how Fanju app makes Engineer Dinner feel like a real room | fanju-app | 饭局app"
-description: "The Fanju app in Boston offers a quiet but meaningful shift for professionals, especially engineers, seeking connection after work: small, intentional dinners with thoughtfully curated guests and hosts. Rather than defau"
+title: "Boston after work: how Fanju app makes Engineer Dinner feel like a..."
+description: "The Fanju app in Boston offers a quiet but meaningful shift for professionals, especially engineers, seeking connection after work: small, intentional d…"
 recoveredFromD1: true
 ---
 # Boston after work: how Fanju app makes Engineer Dinner feel like a real room

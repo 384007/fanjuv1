@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vancouver/anime-dinner"
 alternatePath: "/city/vancouver/anime-dinner"
 translationKey: "vancouver-anime-dinner"
 lang: "en"
-title: "Vancouver Anime Dinner through Fanju app: the questions to answer before you sit down"
-description: "You need to know how the dinner ends before it begins. A good Anime Dinner listing in Vancouver will clearly state whether the plan is to disperse after dessert or if the group intends to move elsewhere, like a nearby"
+title: "Vancouver Anime Dinner through Fanju app: the questions to answer..."
+description: "You need to know how the dinner ends before it begins. A good Anime Dinner listing in Vancouver will clearly state whether the plan is to disperse after…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

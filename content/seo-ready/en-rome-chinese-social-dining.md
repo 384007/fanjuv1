@@ -4,8 +4,8 @@ canonicalPath: "/en/city/rome/chinese-social-dining"
 alternatePath: "/city/rome/chinese-social-dining"
 translationKey: "rome-chinese-social-dining"
 lang: "en"
-title: "For Rome readers considering Chinese Social Dining, Fanju app should make the room legible"
-description: "When you scroll through options, the first sentence of the host’s note must justify why this specific dinner fits Rome right now. A generic invitation to eat Chinese food is not enough because the city is full of"
+title: "For Rome readers considering Chinese Social Dining, Fanju app..."
+description: "When you scroll through options, the first sentence of the host’s note must justify why this specific dinner fits Rome right now."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

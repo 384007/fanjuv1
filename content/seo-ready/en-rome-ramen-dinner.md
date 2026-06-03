@@ -4,8 +4,8 @@ canonicalPath: "/en/city/rome/ramen-dinner"
 alternatePath: "/city/rome/ramen-dinner"
 translationKey: "rome-ramen-dinner"
 lang: "en"
-title: "A calmer way to approach Ramen Dinner in Rome through Fanju app | fanju-app"
-description: "For many women in Rome, the idea of joining a casual group dinner—especially one themed around ramen, often associated with casual or crowded settings—can stir quiet hesitation. It’s not the food, but the unknowns: Who w"
+title: "A calmer way to approach Ramen Dinner in Rome through Fanju app"
+description: "For many women in Rome, the idea of joining a casual group dinner—especially one themed around ramen, often associated with casual or crowded settings—c…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

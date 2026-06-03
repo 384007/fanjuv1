@@ -4,8 +4,8 @@ canonicalPath: "/en/city/luanda/senior-dinner"
 alternatePath: "/city/luanda/senior-dinner"
 translationKey: "luanda-senior-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Luanda Senior Dinner table before the first course"
-description: "Before you commit to a seat, ask yourself if the table is designed for structured exchange or merely casual eating. In Luanda’s professional circles, the value of a Senior Dinner often lies in replacing the chaotic"
+title: "The Fanju app way to judge a Luanda Senior Dinner table before the..."
+description: "Before you commit to a seat, ask yourself if the table is designed for structured exchange or merely casual eating."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

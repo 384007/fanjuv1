@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/baise/solo-traveler-dinner"
 alternatePath: "/en/city/baise/solo-traveler-dinner"
-title: "百色独自旅行者饭局指南 | fanju-app | 饭局app"
+title: "百色独自旅行者饭局指南"
 description: "作为一名资深的饭局组织者，我深知在百色这座充满魅力的城市，如何通过饭局app（Fanju）为独自旅行的朋友们搭建起温暖的社交桥梁。饭局app的核心在于围绕一桌人吃饭，设定清晰的主题，促进真实的线下连接。它不是简单的聚会，而是基于共同兴趣或旅行状态的深度交流。"
 recoveredFromD1: true
 ---

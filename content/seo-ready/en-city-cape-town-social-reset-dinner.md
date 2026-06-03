@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cape-town/social-reset-dinner"
 alternatePath: "/city/cape-town/social-reset-dinner"
-title: "Cape Town Social Reset Dinner Guide | Fanju app"
-description: "Discover the magic of Social Reset Dinners in Cape Town with Fanju app, a platform that connects like-minded individuals for small, meaningful meals and real-world connections."
+title: "Cape Town Social Reset Dinner Guide"
+description: "Discover the magic of Social Reset Dinners in Cape Town with Fanju app, a platform that connects like-minded individuals for small, meaningful meals and…"
 recoveredFromD1: true
 ---
 Cape Town, a city known for its vibrant cultural scene and stunning natural beauty, is the perfect backdrop for a Social Reset Dinner. Imagine gathering around a table with 6-12 like-minded individuals, sharing stories, laughter, and delicious food. This is what Social Reset Dinners are all about – creating a space for meaningful connections and community building.

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vienna/family-style-dinner"
 alternatePath: "/city/vienna/family-style-dinner"
 translationKey: "vienna-family-style-dinner"
 lang: "en"
-title: "For people trying Family Style Dinner in Vienna, Fanju app puts the guest mix first | fanju-app"
-description: "The Fanju app helps people in Vienna join small, intentionally hosted dinners where the focus is on real conversation, not curated experiences. These are not group tours disguised as meals, but private dinners opened to"
+title: "For people trying Family Style Dinner in Vienna, Fanju app puts..."
+description: "The Fanju app helps people in Vienna join small, intentionally hosted dinners where the focus is on real conversation, not curated experiences."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

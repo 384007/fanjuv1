@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/ali/expat-dinner"
 alternatePath: "/en/city/ali/expat-dinner"
-title: "阿里外籍和海归饭局指南 | fanju-app | 饭局app"
+title: "阿里外籍和海归饭局指南"
 description: "想在阿里找到地道的社交体验？饭局app / Fanju 专注于小桌、有明确主题的线下聚会，让你轻松认识新朋友。这篇指南将带你了解如何在阿里参加一场有意义的外籍和海归饭局，体验真实本地生活。告别走马观花的旅游，通过一场饭局，深入了解这座城市。"
 recoveredFromD1: true
 ---

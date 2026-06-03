@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dublin/intercultural-dinner"
 alternatePath: "/city/dublin/intercultural-dinner"
 translationKey: "dublin-intercultural-dinner"
 lang: "en"
-title: "A clearer Intercultural Dinner dinner in Dublin: Fanju app, small tables, and real boundaries"
-description: "A common anxiety for anyone joining a new social circle in Dublin is the uncertainty of when the evening actually ends. Unlike a traditional meetup that might drift on indefinitely, a well-organized Fanju app dinner"
+title: "A clearer Intercultural Dinner dinner in Dublin: Fanju app, small..."
+description: "A common anxiety for anyone joining a new social circle in Dublin is the uncertainty of when the evening actually ends."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

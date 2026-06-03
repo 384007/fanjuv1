@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/tongliao/music-dinner"
 alternatePath: "/en/city/tongliao/music-dinner"
-title: "通辽音乐饭局指南 | fanju-app | 饭局app"
+title: "通辽音乐饭局指南"
 description: "在通辽体验音乐饭局的乐趣，了解饭局app的使用指南"
 recoveredFromD1: true
 ---

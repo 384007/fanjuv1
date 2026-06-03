@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/beihai/startup-dinner"
 alternatePath: "/en/city/beihai/startup-dinner"
-title: "在北海把创业饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
+title: "在北海把创业饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "在北海的创业圈里，很多人都在寻找一个合适的饭局平台。饭局app Fanju 就是其中一个这样的平台，它让人们可以围绕小桌吃饭、清晰主题和线下连接。北海的创业者们都在使用这个平台，来寻找同行的支持和交流。然而，在报名参加饭局之前，人们都有一个"
 recoveredFromD1: true
 ---

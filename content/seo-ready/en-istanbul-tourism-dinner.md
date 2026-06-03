@@ -4,8 +4,8 @@ canonicalPath: "/en/city/istanbul/tourism-dinner"
 alternatePath: "/city/istanbul/tourism-dinner"
 translationKey: "istanbul-tourism-dinner"
 lang: "en"
-title: "Istanbul Tourism Dinner on Fanju app: When a weekend host’s craft matters before you say yes"
-description: "The first thing a reader asks is whether the host has already laid out a clear plan. In Istanbul, a weekend dinner that needs to feel planned before anyone commits often includes a brief description of the meal style, a"
+title: "Istanbul Tourism Dinner on Fanju app: When a weekend host’s craft..."
+description: "The first thing a reader asks is whether the host has already laid out a clear plan."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

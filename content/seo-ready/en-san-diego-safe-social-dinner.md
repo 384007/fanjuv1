@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-diego/safe-social-dinner"
 alternatePath: "/city/san-diego/safe-social-dinner"
 translationKey: "san-diego-safe-social-dinner"
 lang: "en"
-title: "When Safe Social Dinner in San Diego needs more than a group chat, Fanju app starts with the table"
-description: "When planning a weekend in San Diego, the geography of the meal matters almost as much as the menu. Because the city is spread out, a good listing will specify how arrival and exit timing fit into the local flow,"
+title: "When Safe Social Dinner in San Diego needs more than a group chat,..."
+description: "When planning a weekend in San Diego, the geography of the meal matters almost as much as the menu."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

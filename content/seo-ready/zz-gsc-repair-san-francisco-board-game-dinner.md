@@ -4,7 +4,7 @@ canonicalPath: "/city/san-francisco/board-game-dinner"
 alternatePath: "/en/city/san-francisco/board-game-dinner"
 translationKey: "gsc-repair-san-francisco-board-game-dinner"
 lang: "zh"
-title: "旧金山桌游饭局指南 | fanju-app | 饭局app"
+title: "旧金山桌游饭局指南"
 description: "旧金山桌游饭局适合湾区用户通过公开小桌晚餐和轻量桌游认识新朋友，提前确认规则、人数和安全边界。"
 pageType: "city_topic"
 priorityScore: 76

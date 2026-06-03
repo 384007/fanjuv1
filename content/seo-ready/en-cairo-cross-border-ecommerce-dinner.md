@@ -4,8 +4,8 @@ canonicalPath: "/en/city/cairo/cross-border-ecommerce-dinner"
 alternatePath: "/city/cairo/cross-border-ecommerce-dinner"
 translationKey: "cairo-cross-border-ecommerce-dinner"
 lang: "en"
-title: "For Cairo readers considering Cross Border Ecommerce Dinner, Fanju app should make the room legible"
-description: "In Cairo, a generic business dinner often dissolves into loud networking chaos, but a well-organized Cross Border Ecommerce Dinner should feel like a quiet laboratory for ideas. You want to look for specific local"
+title: "For Cairo readers considering Cross Border Ecommerce Dinner, Fanju..."
+description: "In Cairo, a generic business dinner often dissolves into loud networking chaos, but a well-organized Cross Border Ecommerce Dinner should feel like a qu…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/delhi/new-year-dinner"
 alternatePath: "/city/delhi/new-year-dinner"
 translationKey: "delhi-new-year-dinner"
 lang: "en"
-title: "When New Year Dinner in Delhi needs more than a group chat, Fanju app starts with the table"
-description: "A compelling listing for New Year Dinner in Delhi immediately addresses the friction of leaving home after a long work week. The sentence that grabs attention is not about the menu, but about why this specific table is"
+title: "When New Year Dinner in Delhi needs more than a group chat, Fanju..."
+description: "A compelling listing for New Year Dinner in Delhi immediately addresses the friction of leaving home after a long work week."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

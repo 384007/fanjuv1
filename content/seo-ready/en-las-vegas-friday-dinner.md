@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/las-vegas/friday-dinner"
 alternatePath: "/city/las-vegas/friday-dinner"
-title: "For people trying Friday Dinner in Las Vegas, Fanju app puts the guest mix first | fanju-app | 饭局app"
-description: "Fanju app is designed for Las Vegas locals and visitors who want more from Friday night than noise and motion. It’s a social dining platform that connects people for small, intentional meals—not large meetups or open-net"
+title: "For people trying Friday Dinner in Las Vegas, Fanju app puts the..."
+description: "Fanju app is designed for Las Vegas locals and visitors who want more from Friday night than noise and motion."
 recoveredFromD1: true
 ---
 # For people trying Friday Dinner in Las Vegas, Fanju app puts the guest mix first

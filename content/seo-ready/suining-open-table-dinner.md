@@ -4,9 +4,9 @@ canonicalPath: "/city/suining/open-table-dinner"
 alternatePath: "/en/city/suining/open-table-dinner"
 translationKey: "suining-open-table-dinner"
 lang: "zh"
-title: "遂宁的开放餐桌饭局为什么值得去，饭局app在报名前就给了答案 | fanju-app"
+title: "遂宁的开放餐桌饭局为什么值得去，饭局app在报名前就给了答案"
 titleZh: "遂宁的开放餐桌饭局为什么值得去，饭局app在报名前就给了答案"
-description: "在遂宁，当一个人习惯于远程工作，生活节奏不再被通勤和会议室切割，反而容易陷入一种模糊的日常——早上睁眼就坐到书桌前，晚上关掉屏幕，才意识到一整天没有和谁真正说过话。 饭局app不是为热闹而生的工具，它更像一张城市生活的情绪地图，标记着那些愿意开放餐桌、接纳陌生饭友的晚餐时刻。 在遂宁，这样一张桌子的存在，不是为了填补空腹，而是为了校准一个人在城市里的坐标。"
+description: "在遂宁，当一个人习惯于远程工作，生活节奏不再被通勤和会议室切割，反而容易陷入一种模糊的日常——早上睁眼就坐到书桌前，晚上关掉屏幕，才意识到一整天没有和谁真正说过话。 饭局app不是为热闹而生的工具，它更像一张城市生活的情绪地图，标记着那些愿意开放餐桌、接纳陌生饭友的晚餐时刻。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

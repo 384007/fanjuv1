@@ -4,9 +4,9 @@ canonicalPath: "/city/wuhu/professor-dinner"
 alternatePath: "/en/city/wuhu/professor-dinner"
 translationKey: "wuhu-professor-dinner"
 lang: "zh"
-title: "芜湖的一顿教授饭局，饭局app为什么先看人再看热闹 | fanju-app"
+title: "芜湖的一顿教授饭局，饭局app为什么先看人再看热闹"
 titleZh: "芜湖的一顿教授饭局，饭局app为什么先看人再看热闹"
-description: "周五傍晚，芜湖刚下过一场小雨，赭山路的人行道还泛着微光。 张伟站在轻轨站出口，手机里打开饭局app，手指在几桌“教授饭局”之间滑动。 他是上个月从成都调来的高校讲师，专业是城市社会学，但在这里，他连一个能一起吃饭的人都没有。 他点进一桌“关于城市记忆与菜市场变迁”的饭局，主理人是安师大一位研究民俗的副教授，同桌还有两名研究生和一位本地摄影师。"
+description: "周五傍晚，芜湖刚下过一场小雨，赭山路的人行道还泛着微光。 张伟站在轻轨站出口，手机里打开饭局app，手指在几桌“教授饭局”之间滑动。 他是上个月从成都调来的高校讲师，专业是城市社会学，但在这里，他连一个能一起吃饭的人都没有。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

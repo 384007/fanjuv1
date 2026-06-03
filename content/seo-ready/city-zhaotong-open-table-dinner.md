@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/zhaotong/open-table-dinner"
 alternatePath: "/en/city/zhaotong/open-table-dinner"
-title: "昭通开放餐桌饭局指南 | fanju-app | 饭局app"
+title: "昭通开放餐桌饭局指南"
 description: "在昭通，饭局app成为城市社区建设的重要组成部分，帮助人们建立稳定的社交骨架。"
 recoveredFromD1: true
 ---

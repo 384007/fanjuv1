@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brisbane/painting-dinner"
 alternatePath: "/city/brisbane/painting-dinner"
 translationKey: "brisbane-painting-dinner"
 lang: "en"
-title: "A Brisbane dinner table for Painting Dinner, with Fanju app boundaries up front"
-description: "A compelling listing for a Painting Dinner in Brisbane does not just announce a time and place; it sets a tone that explicitly removes romantic expectations from the table. When a host writes that the evening is about"
+title: "A Brisbane dinner table for Painting Dinner, with Fanju app..."
+description: "A compelling listing for a Painting Dinner in Brisbane does not just announce a time and place; it sets a tone that explicitly removes romantic expectat…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

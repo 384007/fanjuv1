@@ -4,8 +4,8 @@ canonicalPath: "/en/city/boston/semiconductor-dinner"
 alternatePath: "/city/boston/semiconductor-dinner"
 translationKey: "boston-semiconductor-dinner"
 lang: "en"
-title: "A clearer Semiconductor Dinner dinner in Boston: Fanju app, small tables, and real boundaries"
-description: "A credible listing for a Boston dinner should explicitly state the neighborhood and the type of venue, whether it is a quiet corner in the Seaport or a bustling spot in Cambridge near the universities. Because public"
+title: "A clearer Semiconductor Dinner dinner in Boston: Fanju app, small..."
+description: "A credible listing for a Boston dinner should explicitly state the neighborhood and the type of venue, whether it is a quiet corner in the Seaport or a…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

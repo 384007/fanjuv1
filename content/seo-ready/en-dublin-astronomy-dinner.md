@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dublin/astronomy-dinner"
 alternatePath: "/city/dublin/astronomy-dinner"
 translationKey: "dublin-astronomy-dinner"
 lang: "en"
-title: "Dublin's Stars Align: Finding Your Small Table with Fanju app for Astronomy Dinner"
-description: "As you stand on the threshold, the Dublin night air cool against your face, the decision to walk in or turn away hinges on the promise of intimacy versus the anonymity of a large city. Astronomy Dinner, as a concept,"
+title: "Dublin's Stars Align: Finding Your Small Table with Fanju app for..."
+description: "As you stand on the threshold, the Dublin night air cool against your face, the decision to walk in or turn away hinges on the promise of intimacy versu…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

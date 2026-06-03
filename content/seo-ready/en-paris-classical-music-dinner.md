@@ -4,8 +4,8 @@ canonicalPath: "/en/city/paris/classical-music-dinner"
 alternatePath: "/city/paris/classical-music-dinner"
 translationKey: "paris-classical-music-dinner"
 lang: "en"
-title: "Paris Classical Music Dinner through Fanju app: the questions to answer before you sit down"
-description: "When you look at a listing for a Classical Music Dinner in Paris, the most critical piece of information is the specific venue description. A public venue type matters in Paris because strangers need to picture the room"
+title: "Paris Classical Music Dinner through Fanju app: the questions to..."
+description: "When you look at a listing for a Classical Music Dinner in Paris, the most critical piece of information is the specific venue description."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

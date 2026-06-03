@@ -4,9 +4,9 @@ canonicalPath: "/city/changchun/poetry-dinner"
 alternatePath: "/en/city/changchun/poetry-dinner"
 translationKey: "changchun-poetry-dinner"
 lang: "zh"
-title: "长春诗歌饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
+title: "长春诗歌饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 titleZh: "长春诗歌饭局不是凑人吃饭，饭局app更看重这一桌的边界"
-description: "在长春，周末或下班后的选择常常是沉默的：刷手机、回家、再看一眼工作群。 饭局app试图改变这种惯性——它不是相亲局，也不是酒局，而是一桌围绕诗歌的小型饭局，每场限定6到8人，在某个安静街区的独立包间里，用一顿饭的时间交换真实的话。 诗歌在这里不是表演，而是引子。 饭局app的设计逻辑很具体：先明确这一桌的边界，再决定谁来。"
+description: "在长春，周末或下班后的选择常常是沉默的：刷手机、回家、再看一眼工作群。 饭局app试图改变这种惯性——它不是相亲局，也不是酒局，而是一桌围绕诗歌的小型饭局，每场限定6到8人，在某个安静街区的独立包间里，用一顿饭的时间交换真实的话。 诗歌在这里不是表演，而是引子。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

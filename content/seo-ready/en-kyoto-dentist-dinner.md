@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kyoto/dentist-dinner"
 alternatePath: "/city/kyoto/dentist-dinner"
 translationKey: "kyoto-dentist-dinner"
 lang: "en"
-title: "What makes Dentist Dinner in Kyoto worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "In Kyoto, where quiet alleys and centuries-old tea houses set the rhythm of daily life, the idea of joining a shared dinner with strangers might feel out of step. Yet Dentist Dinner—a social dining concept where small gr"
+title: "What makes Dentist Dinner in Kyoto worth the risk; Fanju app..."
+description: "In Kyoto, where quiet alleys and centuries-old tea houses set the rhythm of daily life, the idea of joining a shared dinner with strangers might feel ou…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tehran/single-parent-dinner"
 alternatePath: "/city/tehran/single-parent-dinner"
 translationKey: "tehran-single-parent-dinner"
 lang: "en"
-title: "For Tehran readers considering Single Parent Dinner, Fanju app should make the room legible"
-description: "When you scan a potential dinner in Tehran, the first thing you need is a sentence that explains *why* this specific Single Parent Dinner exists right now. A generic title often hides a lack of planning, but a"
+title: "For Tehran readers considering Single Parent Dinner, Fanju app..."
+description: "When you scan a potential dinner in Tehran, the first thing you need is a sentence that explains *why* this specific Single Parent Dinner exists right n…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/boston/potluck-dinner"
 alternatePath: "/city/boston/potluck-dinner"
 translationKey: "boston-potluck-dinner"
 lang: "en"
-title: "For people trying Potluck Dinner in Boston, Fanju app puts the guest mix first | fanju-app"
-description: "In Boston, where the commute from downtown offices to neighborhoods like Jamaica Plain or Cambridge can feel longer than the workday itself, the idea of heading straight home to an empty kitchen isn’t appealing. For many"
+title: "For people trying Potluck Dinner in Boston, Fanju app puts the..."
+description: "In Boston, where the commute from downtown offices to neighborhoods like Jamaica Plain or Cambridge can feel longer than the workday itself, the idea of…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

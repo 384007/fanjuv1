@@ -4,8 +4,8 @@ canonicalPath: "/en/city/montreal/after-work-dinner"
 alternatePath: "/city/montreal/after-work-dinner"
 translationKey: "montreal-after-work-dinner"
 lang: "en"
-title: "Before joining After Work Dinner in Montreal, what Fanju app should make clear"
-description: "Before you commit to a reservation, ask yourself if the listing clearly defines the end time and the specific discussion theme. In Montreal, where commutes vary significantly between the Plateau, the West Island, and"
+title: "Before joining After Work Dinner in Montreal, what Fanju app..."
+description: "Before you commit to a reservation, ask yourself if the listing clearly defines the end time and the specific discussion theme."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

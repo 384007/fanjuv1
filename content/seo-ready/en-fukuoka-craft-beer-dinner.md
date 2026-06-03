@@ -5,7 +5,7 @@ alternatePath: "/city/fukuoka/craft-beer-dinner"
 translationKey: "fukuoka-craft-beer-dinner"
 lang: "en"
 title: "Finding Comfort in Fukuoka’s Craft Beer Dinner with the Fanju app"
-description: "The first decision point is whether the travel time matches the reward of a curated beer tasting. In Fukuoka, the most appealing tables are often located near Hakata Station or the Tenjin area, where a short subway ride"
+description: "The first decision point is whether the travel time matches the reward of a curated beer tasting."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

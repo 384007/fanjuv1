@@ -4,8 +4,8 @@ canonicalPath: "/en/city/jakarta/boxing-dinner"
 alternatePath: "/city/jakarta/boxing-dinner"
 translationKey: "jakarta-boxing-dinner"
 lang: "en"
-title: "How Fanju app turns a Jakarta Boxing Dinner night into something worth showing up for | fanju-app"
-description: "As I scrolled through my phone, I stumbled upon an invitation to a Boxing Dinner in Jakarta. I had never been to one of these events before, and the idea of a dinner party with strangers sounded a bit daunting. What if I"
+title: "How Fanju app turns a Jakarta Boxing Dinner night into something..."
+description: "As I scrolled through my phone, I stumbled upon an invitation to a Boxing Dinner in Jakarta."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ahmedabad/singles-dinner"
 alternatePath: "/city/ahmedabad/singles-dinner"
 translationKey: "ahmedabad-singles-dinner"
 lang: "en"
-title: "A clearer Singles Dinner dinner in Ahmedabad: Fanju app, small tables, and real boundaries"
-description: "Imagine you have just finished a long day of remote work in a quiet apartment. The door feels heavy, and the idea of navigating a loud, chaotic event in Ahmedabad is exhausting. Before you commit to any listing, ask"
+title: "A clearer Singles Dinner dinner in Ahmedabad: Fanju app, small..."
+description: "Imagine you have just finished a long day of remote work in a quiet apartment. The door feels heavy, and the idea of navigating a loud, chaotic event in…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

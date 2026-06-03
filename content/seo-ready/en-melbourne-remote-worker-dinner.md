@@ -4,8 +4,8 @@ canonicalPath: "/en/city/melbourne/remote-worker-dinner"
 alternatePath: "/city/melbourne/remote-worker-dinner"
 translationKey: "melbourne-remote-worker-dinner"
 lang: "en"
-title: "Melbourne Solo Arrival: How a Fanju app Remote Worker Dinner Unfolds on a Weekend"
-description: "The moment you see a table with one empty seat, you start weighing the risk of joining strangers. In Melbourne, the arrival time matters because many diners travel across neighbourhoods; a vague “around 7 pm” can clash"
+title: "Melbourne Solo Arrival: How a Fanju app Remote Worker Dinner..."
+description: "The moment you see a table with one empty seat, you start weighing the risk of joining strangers."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/accra/hiking-dinner"
 alternatePath: "/city/accra/hiking-dinner"
 translationKey: "accra-hiking-dinner"
 lang: "en"
-title: "In Accra, Fanju app turns Hiking Dinner into a table people can actually trust | fanju-app"
-description: "In Accra, where evening plans often dissolve into last-minute cancellations or overcrowded restaurant meetups, the Fanju app offers a different rhythm for shared meals. It’s not about grand gatherings but small, intentio"
+title: "In Accra, Fanju app turns Hiking Dinner into a table people can..."
+description: "In Accra, where evening plans often dissolve into last-minute cancellations or overcrowded restaurant meetups, the Fanju app offers a different rhythm f…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

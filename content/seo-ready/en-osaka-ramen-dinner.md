@@ -4,8 +4,8 @@ canonicalPath: "/en/city/osaka/ramen-dinner"
 alternatePath: "/city/osaka/ramen-dinner"
 translationKey: "osaka-ramen-dinner"
 lang: "en"
-title: "Osaka Ramen Dinner through Fanju app: the questions to answer before you sit down"
-description: "This table is best suited for the Osaka professional or traveler who wants a structured end to the workday without the noise of a large izakaya outing. You are looking for a small-table dinner where the focus remains on"
+title: "Osaka Ramen Dinner through Fanju app: the questions to answer..."
+description: "This table is best suited for the Osaka professional or traveler who wants a structured end to the workday without the noise of a large izakaya outing."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

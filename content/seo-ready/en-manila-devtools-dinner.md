@@ -4,8 +4,8 @@ canonicalPath: "/en/city/manila/devtools-dinner"
 alternatePath: "/city/manila/devtools-dinner"
 translationKey: "manila-devtools-dinner"
 lang: "en"
-title: "Manila Devtools Dinner through the Fanju app: a host’s invitation you can feel"
-description: "The first thing a first‑timer notices is the host’s note that explains why a Devtools Dinner fits Manila now—usually a reference to a recent tech conference or a new startup hub opening in Makati. This context tells you"
+title: "Manila Devtools Dinner through the Fanju app: a host’s invitation..."
+description: "The first thing a first‑timer notices is the host’s note that explains why a Devtools Dinner fits Manila now—usually a reference to a recent tech confer…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

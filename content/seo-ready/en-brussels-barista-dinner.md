@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/barista-dinner"
 alternatePath: "/city/brussels/barista-dinner"
 translationKey: "brussels-barista-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Brussels Barista Dinner table before the first course"
-description: "You enjoy a Brussels Barista Dinner if you prefer sitting down at a small-table dinner where the conversation flows as naturally as the espresso. The ideal participant wants a quiet evening discussing roast profiles and"
+title: "The Fanju app way to judge a Brussels Barista Dinner table before..."
+description: "You enjoy a Brussels Barista Dinner if you prefer sitting down at a small-table dinner where the conversation flows as naturally as the espresso."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

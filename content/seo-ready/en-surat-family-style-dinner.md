@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/surat/family-style-dinner"
 alternatePath: "/city/surat/family-style-dinner"
-title: "Why Family Style Dinner in Surat works better when Fanju app keeps the table small | fanju-app | 饭局app"
-description: "In Surat, where home-cooked meals carry the warmth of shared history and close-knit families, the idea of opening that circle to others feels natural—yet rarely happens beyond blood or long-standing friendships. The Fanj"
+title: "Why Family Style Dinner in Surat works better when Fanju app keeps..."
+description: "In Surat, where home-cooked meals carry the warmth of shared history and close-knit families, the idea of opening that circle to others feels natural—ye…"
 recoveredFromD1: true
 ---
 # Why Family Style Dinner in Surat works better when Fanju app keeps the table small

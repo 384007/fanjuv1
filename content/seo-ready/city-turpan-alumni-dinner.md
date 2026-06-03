@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/turpan/alumni-dinner"
 alternatePath: "/en/city/turpan/alumni-dinner"
-title: "吐鲁番校友饭局指南 | fanju-app | 饭局app"
+title: "吐鲁番校友饭局指南"
 description: "吐鲁番校友饭局指南，了解吐鲁番校友饭局的真实面貌，了解如何在吐鲁番参加校友饭局，如何判断安全和信任，和普通社交/约会软件有什么不同"
 recoveredFromD1: true
 ---

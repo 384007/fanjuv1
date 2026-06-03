@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vancouver/brand-collaboration-dinner"
 alternatePath: "/city/vancouver/brand-collaboration-dinner"
 translationKey: "vancouver-brand-collaboration-dinner"
 lang: "en"
-title: "For Vancouver readers considering Brand Collaboration Dinner, Fanju app should make the room legible"
-description: "A Vancouver listing for a Brand Collaboration Dinner needs to explain why this specific topic fits the local business climate right now, rather than merely repeating a generic category title. You should look for details"
+title: "For Vancouver readers considering Brand Collaboration Dinner,..."
+description: "A Vancouver listing for a Brand Collaboration Dinner needs to explain why this specific topic fits the local business climate right now, rather than mer…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

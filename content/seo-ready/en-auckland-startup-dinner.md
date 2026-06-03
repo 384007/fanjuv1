@@ -4,8 +4,8 @@ canonicalPath: "/en/city/auckland/startup-dinner"
 alternatePath: "/city/auckland/startup-dinner"
 translationKey: "auckland-startup-dinner"
 lang: "en"
-title: "Before joining Startup Dinner in Auckland, what Fanju app should make clear"
-description: "The Startup Dinner table in Auckland is designed for those seeking a more intimate setting to discuss business ideas, challenges, and opportunities. It’s about carving out a dedicated time and space for meaningful"
+title: "Before joining Startup Dinner in Auckland, what Fanju app should..."
+description: "The Startup Dinner table in Auckland is designed for those seeking a more intimate setting to discuss business ideas, challenges, and opportunities."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

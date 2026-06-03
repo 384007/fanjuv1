@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tehran/travel-lover-dinner"
 alternatePath: "/city/tehran/travel-lover-dinner"
 translationKey: "tehran-travel-lover-dinner"
 lang: "en"
-title: "Before joining Travel Lover Dinner in Tehran, what Fanju app should make clear"
-description: "Fanju's core concept in Tehran is to bridge the gap between online discovery and real-world connection. It encourages users to find and join small gatherings focused on specific themes, like Travel Lover Dinner,"
+title: "Before joining Travel Lover Dinner in Tehran, what Fanju app..."
+description: "Fanju's core concept in Tehran is to bridge the gap between online discovery and real-world connection."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

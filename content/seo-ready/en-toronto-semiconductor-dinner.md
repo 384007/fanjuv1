@@ -4,8 +4,8 @@ canonicalPath: "/en/city/toronto/semiconductor-dinner"
 alternatePath: "/city/toronto/semiconductor-dinner"
 translationKey: "toronto-semiconductor-dinner"
 lang: "en"
-title: "What makes Semiconductor Dinner in Toronto worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "The Fanju app redefines small-group dining in Toronto by focusing on intention over algorithm, connecting people through meals that prioritize clarity and comfort."
+title: "What makes Semiconductor Dinner in Toronto worth the risk; Fanju..."
+description: "The Fanju app redefines small-group dining in Toronto by focusing on intention over algorithm, connecting people through meals that prioritize clarity a…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sydney/retail-dinner"
 alternatePath: "/city/sydney/retail-dinner"
 translationKey: "sydney-retail-dinner"
 lang: "en"
-title: "For Sydney readers considering Retail Dinner, Fanju app should make the room legible"
-description: "A Retail Dinner in Sydney works best when the end time is as clear as the start. Because guests often travel across different neighbourhoods like Surry Hills or the CBD, a vague ending creates unnecessary tension. A"
+title: "For Sydney readers considering Retail Dinner, Fanju app should..."
+description: "A Retail Dinner in Sydney works best when the end time is as clear as the start. Because guests often travel across different neighbourhoods like Surry…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/austin/chess-dinner"
 alternatePath: "/city/austin/chess-dinner"
 translationKey: "austin-chess-dinner"
 lang: "en"
-title: "An Austin dinner table for Chess Dinner, with Fanju app boundaries up front"
-description: "In Austin, the end of a shared meal often dictates whether a connection feels genuine or forced. When you join a Chess Dinner, the best hosts will signal clear exit cues, allowing the evening to conclude without an"
+title: "An Austin dinner table for Chess Dinner, with Fanju app boundaries..."
+description: "In Austin, the end of a shared meal often dictates whether a connection feels genuine or forced."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

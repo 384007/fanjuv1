@@ -4,8 +4,8 @@ canonicalPath: "/en/city/milan/korean-learner-dinner"
 alternatePath: "/city/milan/korean-learner-dinner"
 translationKey: "milan-korean-learner-dinner"
 lang: "en"
-title: "Milan strangers sit down easier when Fanju app frames the Korean Learner Dinner table first | fanju-app"
-description: "In Milan, where evening plans often dissolve into last-minute cancellations or crowded aperitivo stands with no real conversation, the Fanju app offers a different rhythm. It gathers small groups—four to six people—aroun"
+title: "Milan strangers sit down easier when Fanju app frames the Korean..."
+description: "In Milan, where evening plans often dissolve into last-minute cancellations or crowded aperitivo stands with no real conversation, the Fanju app offers…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

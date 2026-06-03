@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/auckland/supper-club"
 alternatePath: "/city/auckland/supper-club"
-title: "Auckland after work: how Fanju app makes Supper Club feel like a real room | fanju-app | 饭局app"
-description: "Auckland's sprawling metropolis can be a lonely place, especially after a long day at work. The city's vibrant atmosphere and stunning natural beauty can sometimes feel like a facade, hiding the isolation that many peopl"
+title: "Auckland after work: how Fanju app makes Supper Club feel like a..."
+description: "Auckland's sprawling metropolis can be a lonely place, especially after a long day at work."
 recoveredFromD1: true
 ---
 # Auckland after work: how Fanju app makes Supper Club feel like a real room

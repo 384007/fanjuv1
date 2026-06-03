@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tel-aviv/swimming-dinner"
 alternatePath: "/city/tel-aviv/swimming-dinner"
 translationKey: "tel-aviv-swimming-dinner"
 lang: "en"
-title: "When Swimming Dinner in Tel Aviv needs more than a group chat, Fanju app starts with the table"
-description: "A strong listing for Swimming Dinner in Tel Aviv captures the hesitation of standing outside a restaurant, phone in hand, deciding if the group inside matches your energy. The best descriptions do not just list a menu;"
+title: "When Swimming Dinner in Tel Aviv needs more than a group chat,..."
+description: "A strong listing for Swimming Dinner in Tel Aviv captures the hesitation of standing outside a restaurant, phone in hand, deciding if the group inside m…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

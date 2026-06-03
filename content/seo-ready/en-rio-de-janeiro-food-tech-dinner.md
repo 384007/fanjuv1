@@ -4,8 +4,8 @@ canonicalPath: "/en/city/rio-de-janeiro/food-tech-dinner"
 alternatePath: "/city/rio-de-janeiro/food-tech-dinner"
 translationKey: "rio-de-janeiro-food-tech-dinner"
 lang: "en"
-title: "Before joining Food Tech Dinner in Rio de Janeiro, what Fanju app should make clear"
-description: "When you look for a Food Tech Dinner in Rio de Janeiro, the listing should provide a clear overview of the evening's structure so you know exactly what you are walking into. A good host will describe the theme not just"
+title: "Before joining Food Tech Dinner in Rio de Janeiro, what Fanju app..."
+description: "When you look for a Food Tech Dinner in Rio de Janeiro, the listing should provide a clear overview of the evening's structure so you know exactly what…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

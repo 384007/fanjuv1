@@ -4,8 +4,8 @@ canonicalPath: "/en/city/montreal/biotech-dinner"
 alternatePath: "/city/montreal/biotech-dinner"
 translationKey: "montreal-biotech-dinner"
 lang: "en"
-title: "Montreal Biotech Dinner through Fanju app: the questions to answer before you sit down"
-description: "When you finish a meal focused on biotechnology or industry trends, the way the evening ends tells you a lot about the group's intent. A good host in Montreal will usually set a clear end time or a natural pause point,"
+title: "Montreal Biotech Dinner through Fanju app: the questions to answer..."
+description: "When you finish a meal focused on biotechnology or industry trends, the way the evening ends tells you a lot about the group's intent."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

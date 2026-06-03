@@ -4,9 +4,9 @@ canonicalPath: "/city/liaocheng/productivity-dinner"
 alternatePath: "/en/city/liaocheng/productivity-dinner"
 translationKey: "liaocheng-productivity-dinner"
 lang: "zh"
-title: "聊城不想只靠群聊时，饭局app怎样把效率饭局坐成一桌 | fanju-app"
+title: "聊城不想只靠群聊时，饭局app怎样把效率饭局坐成一桌"
 titleZh: "聊城不想只靠群聊时，饭局app怎样把效率饭局坐成一桌"
-description: "在聊城，饭局的节奏往往藏在细节里。 不是谁说话声音最大，而是谁先看懂了饭局的结构。 饭局app不是为了把人拉进更多热闹的群，而是让每一次线下吃饭都能有明确的主题、可控的节奏和真实的连接。 尤其对女性参与者来说，一桌饭是否值得赴约，往往不取决于话题多吸引人，而在于从报名那一刻起，能不能清晰判断这顿饭的安全感从哪里来。"
+description: "在聊城，饭局的节奏往往藏在细节里。 不是谁说话声音最大，而是谁先看懂了饭局的结构。 饭局app不是为了把人拉进更多热闹的群，而是让每一次线下吃饭都能有明确的主题、可控的节奏和真实的连接。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

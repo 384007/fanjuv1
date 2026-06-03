@@ -4,8 +4,8 @@ canonicalPath: "/en/city/london/morning-routine-dinner"
 alternatePath: "/city/london/morning-routine-dinner"
 translationKey: "london-morning-routine-dinner"
 lang: "en"
-title: "Before the first message in London, Fanju app makes Morning Routine Dinner feel like a real decision | fanju-app"
-description: "Arriving in London this month, you’ve likely already felt the quiet pressure of starting over—finding where people actually eat breakfast, which neighbours say hello, and how conversations begin without an obvious reason"
+title: "Before the first message in London, Fanju app makes Morning..."
+description: "Arriving in London this month, you’ve likely already felt the quiet pressure of starting over—finding where people actually eat breakfast, which neighbo…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

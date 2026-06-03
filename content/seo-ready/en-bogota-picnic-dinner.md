@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bogota/picnic-dinner"
 alternatePath: "/city/bogota/picnic-dinner"
 translationKey: "bogota-picnic-dinner"
 lang: "en"
-title: "Bogota after work: how Fanju app makes Picnic Dinner feel like a real room | fanju-app"
-description: "In Bogota, where workdays stretch into uncertain evenings and social plans often dissolve into last-minute cancellations or crowded bars with no space to talk, the Picnic Dinner format on the Fanju app offers something r"
+title: "Bogota after work: how Fanju app makes Picnic Dinner feel like a..."
+description: "In Bogota, where workdays stretch into uncertain evenings and social plans often dissolve into last-minute cancellations or crowded bars with no space t…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

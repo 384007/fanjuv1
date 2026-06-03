@@ -4,7 +4,7 @@ canonicalPath: "/city/hefei"
 alternatePath: "/en/city/hefei"
 translationKey: "gsc-repair-city-hefei"
 lang: "zh"
-title: "合肥饭局指南 | fanju-app | 饭局app"
+title: "合肥饭局指南"
 description: "合肥饭局页面帮助新来合肥、科技产业和高校周边用户通过 Fanju 找到主题清楚、公开餐厅的小桌饭局。"
 pageType: "city_landing"
 priorityScore: 82

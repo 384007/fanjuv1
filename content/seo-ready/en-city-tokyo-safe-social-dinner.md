@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/tokyo/safe-social-dinner"
 alternatePath: "/city/tokyo/safe-social-dinner"
-title: "Tokyo Safe Social Dinner Guide | Fanju app"
-description: "Navigating Tokyo solo can be an incredible adventure, and finding genuine connections over a meal is part of the experience. The Fanju app offers a unique way for solo travellers and locals alike to discover small, curated dining experiences. Imagine stepping away from the usual tourist paths and into a welcoming setting, where shared food fosters easy conversation. This guide explores how Fanju tables in Tokyo provide a safe and enriching way to spend an evening, connecting with others who appreciate good company and local flavours."
+title: "Tokyo Safe Social Dinner Guide"
+description: "Navigating Tokyo solo can be an incredible adventure, and finding genuine connections over a meal is part of the experience."
 recoveredFromD1: true
 ---
 Tokyo&#039;s vibrant energy often peaks as the workday concludes, with countless individuals seeking a pleasant way to unwind. For the solo traveller, this can present a unique opportunity to experience the city&#039;s social fabric beyond the well-trodden tourist trails. The Fanju app facilitates these encounters by organizing small, intimate dining gatherings, often referred to as &#039;Fanju tables&#039;. These are not large events, but rather carefully planned meals designed for genuine interaction and shared enjoyment, offering a comfortable alternative to dining alone or navigating potentially overwhelming nightlife.

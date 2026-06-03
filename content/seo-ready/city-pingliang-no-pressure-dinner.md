@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/pingliang/no-pressure-dinner"
 alternatePath: "/en/city/pingliang/no-pressure-dinner"
-title: "平凉低压力饭局指南 | fanju-app | 饭局app"
+title: "平凉低压力饭局指南"
 description: "平凉的低压力饭局指南，告诉你如何在平凉找到适合你的饭局app饭局"
 recoveredFromD1: true
 ---

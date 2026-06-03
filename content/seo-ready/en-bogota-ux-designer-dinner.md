@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bogota/ux-designer-dinner"
 alternatePath: "/city/bogota/ux-designer-dinner"
 translationKey: "bogota-ux-designer-dinner"
 lang: "en"
-title: "Before joining UX Designer Dinner in Bogota, what Fanju app should make clear"
+title: "Before joining UX Designer Dinner in Bogota, what Fanju app should..."
 description: "The concept of a small-table dinner, or a \"small-table dinner\" as it's understood on the platform, is about fostering deeper engagement than a large, noisy meetup. In Bogota, where the pace of life can be vibrant yet"
 pageType: "city_article"
 priorityScore: 70

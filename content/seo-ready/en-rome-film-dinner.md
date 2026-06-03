@@ -4,8 +4,8 @@ canonicalPath: "/en/city/rome/film-dinner"
 alternatePath: "/city/rome/film-dinner"
 translationKey: "rome-film-dinner"
 lang: "en"
-title: "For people trying Film Dinner in Rome, Fanju app puts the guest mix first | fanju-app"
-description: "The Fanju app is designed for people in Rome who want more than a dinner—they want a real, small-group experience built around conversation and film. Unlike open social events or restaurant promotions, Fanju supports int"
+title: "For people trying Film Dinner in Rome, Fanju app puts the guest..."
+description: "The Fanju app is designed for people in Rome who want more than a dinner—they want a real, small-group experience built around conversation and film."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

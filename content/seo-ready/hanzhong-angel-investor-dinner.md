@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/hanzhong/angel-investor-dinner"
 alternatePath: "/en/city/hanzhong/angel-investor-dinner"
-title: "汉中的一顿天使投资人饭局，饭局app为什么先看人再看热闹 | fanju-app"
+title: "汉中的一顿天使投资人饭局，饭局app为什么先看人再看热闹"
 description: "在汉中，一场安静的饭局可能比一场喧闹的路演更接近真实的投资起点。饭局app不是为了把人塞进大厅听演讲，而是让人在晚饭前就看清对面坐的是谁。这座城市节奏不急，但山城巷口的茶馆、老街边的私房菜馆里，常有低声交谈的创业者和本地有资源的人。饭局ap"
 recoveredFromD1: true
 ---

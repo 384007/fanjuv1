@@ -4,8 +4,8 @@ canonicalPath: "/en/city/london/six-person-dinner"
 alternatePath: "/city/london/six-person-dinner"
 translationKey: "london-six-person-dinner"
 lang: "en"
-title: "London has plenty of Six Person Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "Yes, you can find dinner invitations across London—group chats buzzing, event platforms stacking up, dating apps suggesting dinner as a first move. But how often does any of that feel like it’s actually about dinner? The"
+title: "London has plenty of Six Person Dinner options; Fanju app is the..."
+description: "Yes, you can find dinner invitations across London—group chats buzzing, event platforms stacking up, dating apps suggesting dinner as a first move."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

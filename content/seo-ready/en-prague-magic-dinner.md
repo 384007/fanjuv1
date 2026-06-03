@@ -4,8 +4,8 @@ canonicalPath: "/en/city/prague/magic-dinner"
 alternatePath: "/city/prague/magic-dinner"
 translationKey: "prague-magic-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Prague Magic Dinner table before the first course"
-description: "The primary challenge for a remote worker arriving in Prague is the uncertainty of walking into a room alone. Fanju app addresses this by acting as a preview mechanism that clarifies the evening’s structure before you"
+title: "The Fanju app way to judge a Prague Magic Dinner table before the..."
+description: "The primary challenge for a remote worker arriving in Prague is the uncertainty of walking into a room alone."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

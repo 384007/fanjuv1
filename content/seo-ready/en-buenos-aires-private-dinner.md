@@ -4,8 +4,8 @@ canonicalPath: "/en/city/buenos-aires/private-dinner"
 alternatePath: "/city/buenos-aires/private-dinner"
 translationKey: "buenos-aires-private-dinner"
 lang: "en"
-title: "Buenos Aires Private Dinner through Fanju app: the questions to answer before you sit down"
-description: "This table is best suited for professionals who are tired of generic mixers and want a focused conversation with peers in Buenos Aires. If you are a founder or operator looking to swap insights without the pressure of a"
+title: "Buenos Aires Private Dinner through Fanju app: the questions to..."
+description: "This table is best suited for professionals who are tired of generic mixers and want a focused conversation with peers in Buenos Aires."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

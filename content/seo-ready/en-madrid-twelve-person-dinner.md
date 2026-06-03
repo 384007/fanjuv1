@@ -4,8 +4,8 @@ canonicalPath: "/en/city/madrid/twelve-person-dinner"
 alternatePath: "/city/madrid/twelve-person-dinner"
 translationKey: "madrid-twelve-person-dinner"
 lang: "en"
-title: "Madrid has plenty of Twelve Person Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "Navigating a new city like Madrid can feel daunting, especially when seeking genuine local connections. If you're looking for a way to experience the city's vibrant social scene and find a table that feels truly welcomin"
+title: "Madrid has plenty of Twelve Person Dinner options; Fanju app is..."
+description: "Navigating a new city like Madrid can feel daunting, especially when seeking genuine local connections."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

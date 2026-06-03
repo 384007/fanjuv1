@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/nanjing/product-manager-dinner"
 alternatePath: "/en/city/nanjing/product-manager-dinner"
-title: "南京产品经理饭局指南 | fanju-app | 饭局app"
+title: "南京产品经理饭局指南"
 description: "在南京跟产品经理吃一顿饭，了解他们的工作和生活，体验城市的真实生活。"
 recoveredFromD1: true
 ---

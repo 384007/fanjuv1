@@ -4,8 +4,8 @@ canonicalPath: "/en/city/toronto/saas-dinner"
 alternatePath: "/city/toronto/saas-dinner"
 translationKey: "toronto-saas-dinner"
 lang: "en"
-title: "For Toronto readers considering SaaS Dinner, Fanju app should make the room legible"
-description: "In a city like Toronto, where tech meetups often happen in loud breweries or expansive co-working spaces, a SaaS Dinner stands out by prioritizing the quality of conversation over volume. The first clue that a listing"
+title: "For Toronto readers considering SaaS Dinner, Fanju app should make..."
+description: "In a city like Toronto, where tech meetups often happen in loud breweries or expansive co-working spaces, a SaaS Dinner stands out by prioritizing the q…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

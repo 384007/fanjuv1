@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nairobi/hr-dinner"
 alternatePath: "/city/nairobi/hr-dinner"
 translationKey: "nairobi-hr-dinner"
 lang: "en"
-title: "How Fanju app turns a Nairobi HR Dinner night into something worth showing up for | fanju-app"
-description: "For remote workers in Nairobi, the quiet of a home office can stretch into days without real conversation. The Fanju app changes that by making HR Dinner nights predictable, low-pressure, and reliably human. Instead of v"
+title: "How Fanju app turns a Nairobi HR Dinner night into something worth..."
+description: "For remote workers in Nairobi, the quiet of a home office can stretch into days without real conversation."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

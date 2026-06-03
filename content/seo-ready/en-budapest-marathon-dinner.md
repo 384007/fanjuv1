@@ -5,7 +5,7 @@ alternatePath: "/city/budapest/marathon-dinner"
 translationKey: "budapest-marathon-dinner"
 lang: "en"
 title: "Budapest Marathon Dinner: Finding Your Table with Fanju app"
-description: "The core decision for anyone considering a Marathon Dinner in Budapest through Fanju revolves around whether the listed event truly offers the specific, curated experience advertised. A first-timer might hesitate,"
+description: "The core decision for anyone considering a Marathon Dinner in Budapest through Fanju revolves around whether the listed event truly offers the specific,…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

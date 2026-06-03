@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tokyo/keto-dinner"
 alternatePath: "/city/tokyo/keto-dinner"
 translationKey: "tokyo-keto-dinner"
 lang: "en"
-title: "Tokyo Keto Dinner on Fanju app: The first‑arrival moment that decides your small‑table chemistry"
-description: "The moment the host’s message pops up, you’ll notice a six‑person table waiting near the back of a quiet izakaya in Shibuya. The description mentions that the dinner starts at 7 p.m., the cost is ¥3,500 per person, and"
+title: "Tokyo Keto Dinner on Fanju app: The first‑arrival moment that..."
+description: "The moment the host’s message pops up, you’ll notice a six‑person table waiting near the back of a quiet izakaya in Shibuya."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96

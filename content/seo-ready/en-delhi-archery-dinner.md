@@ -4,8 +4,8 @@ canonicalPath: "/en/city/delhi/archery-dinner"
 alternatePath: "/city/delhi/archery-dinner"
 translationKey: "delhi-archery-dinner"
 lang: "en"
-title: "Before the first message in Delhi, Fanju app makes Archery Dinner feel like a real decision | fanju-app"
-description: "The idea of meeting strangers for dinner in Delhi can feel either refreshing or risky, depending on the unwritten rules of the table. That’s why the structure of Archery Dinner matters more than the activity itself."
+title: "Before the first message in Delhi, Fanju app makes Archery Dinner..."
+description: "The idea of meeting strangers for dinner in Delhi can feel either refreshing or risky, depending on the unwritten rules of the table."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

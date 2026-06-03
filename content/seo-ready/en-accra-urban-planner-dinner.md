@@ -4,8 +4,8 @@ canonicalPath: "/en/city/accra/urban-planner-dinner"
 alternatePath: "/city/accra/urban-planner-dinner"
 translationKey: "accra-urban-planner-dinner"
 lang: "en"
-title: "Why Urban Planner Dinner in Accra works better when Fanju app keeps the table small | fanju-app"
-description: "Accra moves fast, but not always forward. New developments rise in Osu while drainage issues persist in Nima. Traffic patterns shift with informal transit routes, and zoning often feels like an afterthought. In this"
+title: "Why Urban Planner Dinner in Accra works better when Fanju app..."
+description: "Accra moves fast, but not always forward. New developments rise in Osu while drainage issues persist in Nima."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

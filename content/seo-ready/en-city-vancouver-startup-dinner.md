@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/vancouver/startup-dinner"
 alternatePath: "/city/vancouver/startup-dinner"
-title: "Vancouver Startup Dinner Guide | Fanju app"
+title: "Vancouver Startup Dinner Guide"
 description: "Discover the power of food as a connection tool with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

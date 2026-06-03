@@ -4,8 +4,8 @@ canonicalPath: "/en/city/new-york/plant-lover-dinner"
 alternatePath: "/city/new-york/plant-lover-dinner"
 translationKey: "new-york-plant-lover-dinner"
 lang: "en"
-title: "New York does not need another vague invite; Fanju app makes Plant Lover Dinner specific | fanju-app"
-description: "A Plant Lover Dinner in New York, like any curated social event, benefits immensely from clear expectations set long before the first dish is served. It’s about establishing a framework that signals the kind of"
+title: "New York does not need another vague invite; Fanju app makes Plant..."
+description: "A Plant Lover Dinner in New York, like any curated social event, benefits immensely from clear expectations set long before the first dish is served."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

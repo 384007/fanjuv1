@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dublin/painting-dinner"
 alternatePath: "/city/dublin/painting-dinner"
 translationKey: "dublin-painting-dinner"
 lang: "en"
-title: "Dublin strangers sit down easier when Fanju app frames the Painting Dinner table first | fanju-app"
-description: "In Dublin, where the workday often ends with a slow walk along the Liffey or a quiet bus ride through Ranelagh, the idea of going straight home to an empty flat can feel heavier than the office itself. The Fanju app resh"
+title: "Dublin strangers sit down easier when Fanju app frames the..."
+description: "In Dublin, where the workday often ends with a slow walk along the Liffey or a quiet bus ride through Ranelagh, the idea of going straight home to an em…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

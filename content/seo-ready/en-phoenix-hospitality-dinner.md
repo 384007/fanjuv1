@@ -4,7 +4,7 @@ canonicalPath: "/en/city/phoenix/hospitality-dinner"
 alternatePath: "/city/phoenix/hospitality-dinner"
 translationKey: "phoenix-hospitality-dinner"
 lang: "en"
-title: "When Hospitality Dinner feels too loose in Phoenix, Fanju app starts with the table | fanju-app"
+title: "When Hospitality Dinner feels too loose in Phoenix, Fanju app..."
 description: "The concept of a \"Hospitality Dinner\" in a city as diverse and spread out as Phoenix can, without careful framing, feel a bit nebulous. It's easy to imagine a gathering that’s more about polite mingling than substantive"
 pageType: "city_article"
 priorityScore: 70

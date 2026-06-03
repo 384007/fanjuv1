@@ -4,8 +4,8 @@ canonicalPath: "/en/city/helsinki/pharmacist-dinner"
 alternatePath: "/city/helsinki/pharmacist-dinner"
 translationKey: "helsinki-pharmacist-dinner"
 lang: "en"
-title: "Before the first message in Helsinki, Fanju app makes Pharmacist Dinner feel like a real decision | fanju-app"
-description: "Deciding to join a Pharmacist Dinner in Helsinki through the Fanju app means choosing presence over performance. It’s not about impressing anyone or filling silence with small talk that leads nowhere. Instead, it’s a del"
+title: "Before the first message in Helsinki, Fanju app makes Pharmacist..."
+description: "Deciding to join a Pharmacist Dinner in Helsinki through the Fanju app means choosing presence over performance."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

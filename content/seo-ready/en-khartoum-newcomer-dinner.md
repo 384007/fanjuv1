@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/khartoum/newcomer-dinner"
 alternatePath: "/city/khartoum/newcomer-dinner"
-title: "A calmer way to approach Newcomer Dinner in Khartoum through Fanju app | fanju-app | 饭局app"
-description: "Fanju app offers a quiet but meaningful shift in how people meet over dinner in Khartoum, particularly for women stepping into new social settings. It’s not another open-invite event platform or a crowded networking nigh"
+title: "A calmer way to approach Newcomer Dinner in Khartoum through Fanju app"
+description: "Fanju app offers a quiet but meaningful shift in how people meet over dinner in Khartoum, particularly for women stepping into new social settings."
 recoveredFromD1: true
 ---
 # A calmer way to approach Newcomer Dinner in Khartoum through Fanju app

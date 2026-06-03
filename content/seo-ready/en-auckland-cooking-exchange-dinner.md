@@ -4,8 +4,8 @@ canonicalPath: "/en/city/auckland/cooking-exchange-dinner"
 alternatePath: "/city/auckland/cooking-exchange-dinner"
 translationKey: "auckland-cooking-exchange-dinner"
 lang: "en"
-title: "Navigating Auckland’s Cooking Exchange Dinner with the Fanju app: A first‑timer’s guide to trustworthy tables"
-description: "One of the first red flags many Auckland diners spot is an invitation that omits the name of the restaurant or the exact address. A listing that merely says “a cosy kitchen in the city” leaves you guessing whether the"
+title: "Navigating Auckland’s Cooking Exchange Dinner with the Fanju app:..."
+description: "One of the first red flags many Auckland diners spot is an invitation that omits the name of the restaurant or the exact address."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

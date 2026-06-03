@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/qiqihar/new-year-dinner"
 alternatePath: "/en/city/qiqihar/new-year-dinner"
-title: "齐齐哈尔新年饭局指南 | fanju-app | 饭局app"
+title: "齐齐哈尔新年饭局指南"
 description: "齐齐哈尔新年饭局指南，帮助你在齐齐哈尔找到最好的饭局活动，享受美味佳肴和热闹的氛围。"
 recoveredFromD1: true
 ---

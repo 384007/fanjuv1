@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/yulin-shaanxi/language-exchange-dinner"
 alternatePath: "/en/city/yulin-shaanxi/language-exchange-dinner"
-title: "榆林语言交换饭局指南 | fanju-app | 饭局app"
+title: "榆林语言交换饭局指南"
 description: "想在榆林体验地道的陕北风味，同时结识新朋友，学习新语言？饭局app / Fanju 专注于小桌、有明确主题的线下聚会，让每一次相遇都充满意义。这篇指南将带你深入了解如何在榆林参加一场别开生面的语言交换饭局，从美食探索到社交安全，全方位为你解析。"
 recoveredFromD1: true
 ---

@@ -4,9 +4,9 @@ canonicalPath: "/city/baoji/wine-dinner"
 alternatePath: "/en/city/baoji/wine-dinner"
 translationKey: "baoji-wine-dinner"
 lang: "zh"
-title: "下班后的宝鸡，饭局app怎样让葡萄酒饭局有真实同桌 | fanju-app"
+title: "下班后的宝鸡，饭局app怎样让葡萄酒饭局有真实同桌"
 titleZh: "下班后的宝鸡，饭局app怎样让葡萄酒饭局有真实同桌"
-description: "在宝鸡，下班后的节奏并不总是喧闹的。 夜幕降临时，西府老街的灯笼渐次亮起，渭滨路的车流放缓，许多人脱下工装，却没急着回家。 他们站在街角犹豫：是走进熟悉的面馆，还是打开饭局app看看今晚有没有人也在等一张安静的饭桌？ 饭局app不是用来刷活动列表的工具，而是一个让人能真正坐下来、面对面、喝一杯葡萄酒、说几句不飘在空中的对话的入口。"
+description: "在宝鸡，下班后的节奏并不总是喧闹的。 夜幕降临时，西府老街的灯笼渐次亮起，渭滨路的车流放缓，许多人脱下工装，却没急着回家。 他们站在街角犹豫：是走进熟悉的面馆，还是打开饭局app看看今晚有没有人也在等一张安静的饭桌？"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

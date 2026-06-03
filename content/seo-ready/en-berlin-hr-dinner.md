@@ -4,8 +4,8 @@ canonicalPath: "/en/city/berlin/hr-dinner"
 alternatePath: "/city/berlin/hr-dinner"
 translationKey: "berlin-hr-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Berlin HR Dinner table before the first course"
-description: "When you scroll through options for an evening out, the initial description determines whether you hesitate or keep moving. A strong listing for an HR Dinner in Berlin does not simply state the topic; it captures a"
+title: "The Fanju app way to judge a Berlin HR Dinner table before the..."
+description: "When you scroll through options for an evening out, the initial description determines whether you hesitate or keep moving."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

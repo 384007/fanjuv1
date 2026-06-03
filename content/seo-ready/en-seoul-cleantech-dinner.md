@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seoul/cleantech-dinner"
 alternatePath: "/city/seoul/cleantech-dinner"
 translationKey: "seoul-cleantech-dinner"
 lang: "en"
-title: "Seoul Cleantech Dinner through Fanju app: the questions to answer before you sit down | fanju-app"
-description: "Seoul Cleantech Dinner on Fanju app gathers small groups around a shared curiosity about sustainable technology, not for speed-dating or networking performances."
+title: "Seoul Cleantech Dinner through Fanju app: the questions to answer..."
+description: "Seoul Cleantech Dinner on Fanju app gathers small groups around a shared curiosity about sustainable technology, not for speed-dating or networking perf…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

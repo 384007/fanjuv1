@@ -4,8 +4,8 @@ canonicalPath: "/en/city/atlanta/private-equity-dinner"
 alternatePath: "/city/atlanta/private-equity-dinner"
 translationKey: "atlanta-private-equity-dinner"
 lang: "en"
-title: "After the market closes, an Atlanta Private Equity Dinner on Fanju app invites you to a quiet table where the guest list is clear"
-description: "A local‑life test asks whether the dinner fits naturally into the rhythm of an Atlanta evening. If the listing mentions a specific neighborhood—say, a Buckhead lounge with a view of the skyline—and provides a clear"
+title: "After the market closes, an Atlanta Private Equity Dinner on Fanju..."
+description: "A local‑life test asks whether the dinner fits naturally into the rhythm of an Atlanta evening."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

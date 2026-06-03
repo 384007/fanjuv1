@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/kolkata/city-guide-dinner"
 alternatePath: "/city/kolkata/city-guide-dinner"
-title: "A More Curated Dinner Experience in Kolkata with Fanju app | fanju-app | 饭局app"
+title: "A More Curated Dinner Experience in Kolkata with Fanju app"
 description: "Discover the art of premium social dining in Kolkata with Fanju app, where every detail matters."
 recoveredFromD1: true
 ---

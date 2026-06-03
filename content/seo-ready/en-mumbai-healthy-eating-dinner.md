@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mumbai/healthy-eating-dinner"
 alternatePath: "/city/mumbai/healthy-eating-dinner"
 translationKey: "mumbai-healthy-eating-dinner"
 lang: "en"
-title: "How Fanju app turns a Mumbai Healthy Eating Dinner night into something worth showing up for | fanju-app"
-description: "Mumbai’s dining culture thrives on excess—butter-laden pav bhaji, sugary chai at odd hours, late-night kebabs after a night out in Lower Parel. Even when people want to eat healthier, the city’s rhythm often works"
+title: "How Fanju app turns a Mumbai Healthy Eating Dinner night into..."
+description: "Mumbai’s dining culture thrives on excess—butter-laden pav bhaji, sugary chai at odd hours, late-night kebabs after a night out in Lower Parel."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/addis-ababa/women-friendly-dinner"
 alternatePath: "/city/addis-ababa/women-friendly-dinner"
 translationKey: "addis-ababa-women-friendly-dinner"
 lang: "en"
-title: "When Women Friendly Dinner feels too loose in Addis Ababa, Fanju app starts with the table | fanju-app"
-description: "That first note from a host—short, warm, grounded in a specific reason for gathering—tells you whether this table will feel like a refuge or just another social obligation. In Addis Ababa, where evenings can blur"
+title: "When Women Friendly Dinner feels too loose in Addis Ababa, Fanju..."
+description: "That first note from a host—short, warm, grounded in a specific reason for gathering—tells you whether this table will feel like a refuge or just anothe…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -5,7 +5,7 @@ alternatePath: "/city/chicago/serious-dating-dinner"
 translationKey: "chicago-serious-dating-dinner"
 lang: "en"
 title: "Quiet Connections: Chicago Serious Dating Dinner via the Fanju app"
-description: "Another common concern is timing: “How long will the dinner run?” In Chicago, most serious‑dating tables allocate a two‑hour window, from 7 pm to 9 pm, giving enough time for appetizers, main courses, and a brief"
+description: "Another common concern is timing: “How long will the dinner run?” In Chicago, most serious‑dating tables allocate a two‑hour window, from 7 pm to 9 pm,…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

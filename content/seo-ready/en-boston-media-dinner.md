@@ -5,7 +5,7 @@ alternatePath: "/city/boston/media-dinner"
 translationKey: "boston-media-dinner"
 lang: "en"
 title: "Boston Media Dinner: how Fanju app makes the table worth choosing"
-description: "The most practical concern for a solo diner in Boston is knowing exactly when the evening concludes, especially when guests are crossing neighborhoods like Back Bay or Cambridge to get home. A well-organized Media"
+description: "The most practical concern for a solo diner in Boston is knowing exactly when the evening concludes, especially when guests are crossing neighborhoods l…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

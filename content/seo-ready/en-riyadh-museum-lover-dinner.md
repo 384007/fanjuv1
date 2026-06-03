@@ -4,8 +4,8 @@ canonicalPath: "/en/city/riyadh/museum-lover-dinner"
 alternatePath: "/city/riyadh/museum-lover-dinner"
 translationKey: "riyadh-museum-lover-dinner"
 lang: "en"
-title: "Before the first message in Riyadh, Fanju app makes Museum Lover Dinner feel like a real decision | fanju-app"
-description: "In Riyadh, where evenings often blur between late work hours and private family time, the Fanju app quietly reshapes how remote workers reconnect with the city’s cultural rhythm. For those who spend days in home offices"
+title: "Before the first message in Riyadh, Fanju app makes Museum Lover..."
+description: "In Riyadh, where evenings often blur between late work hours and private family time, the Fanju app quietly reshapes how remote workers reconnect with t…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

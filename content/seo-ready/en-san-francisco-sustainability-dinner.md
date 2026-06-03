@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-francisco/sustainability-dinner"
 alternatePath: "/city/san-francisco/sustainability-dinner"
 translationKey: "san-francisco-sustainability-dinner"
 lang: "en"
-title: "Before joining Sustainability Dinner in San Francisco, what Fanju app should make clear | fanju-app"
-description: "San Francisco’s Sustainability Dinner on Fanju app brings together people who want to eat thoughtfully, not perform for feeds. This is not a dating guarantee, not a random group chat, not an endless profile feed."
+title: "Before joining Sustainability Dinner in San Francisco, what Fanju..."
+description: "San Francisco’s Sustainability Dinner on Fanju app brings together people who want to eat thoughtfully, not perform for feeds."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

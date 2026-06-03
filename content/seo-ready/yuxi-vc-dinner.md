@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/yuxi/vc-dinner"
 alternatePath: "/en/city/yuxi/vc-dinner"
-title: "在玉溪把VC 饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
+title: "在玉溪把VC 饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "在玉溪，一场真正能坐得住的VC饭局，不靠热闹开场，也不靠群发邀约堆人。饭局app在这里的意义，是让独自路过的旅行者，能在抵达当晚就走进一间有灯光、有人声、有具体话题的小桌饭局。它不是活动平台，也不是相亲匹配工具，而是围绕真实吃饭这件事，把陌"
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/budapest/street-food-dinner"
 alternatePath: "/city/budapest/street-food-dinner"
 translationKey: "budapest-street-food-dinner"
 lang: "en"
-title: "In Budapest, Fanju app turns Street Food Dinner into a table people can actually trust | fanju-app"
-description: "Most social attempts in Budapest start with a group message: “Maybe we meet up for street food?” Then silence, or a chain of indecision that fades by midnight. That kind of ambiguity leaves people waiting, unsure if"
+title: "In Budapest, Fanju app turns Street Food Dinner into a table..."
+description: "Most social attempts in Budapest start with a group message: “Maybe we meet up for street food?” Then silence, or a chain of indecision that fades by mi…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

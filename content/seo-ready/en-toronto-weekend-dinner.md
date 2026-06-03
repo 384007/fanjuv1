@@ -4,7 +4,7 @@ canonicalPath: "/en/city/toronto/weekend-dinner"
 alternatePath: "/city/toronto/weekend-dinner"
 translationKey: "toronto-weekend-dinner"
 lang: "en"
-title: "Toronto Weekend Dinner Guide | Fanju app"
+title: "Toronto Weekend Dinner Guide"
 titleZh: "Toronto Weekend Dinner Guide"
 pageType: "city_landing"
 priorityScore: 50

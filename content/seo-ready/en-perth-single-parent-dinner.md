@@ -4,8 +4,8 @@ canonicalPath: "/en/city/perth/single-parent-dinner"
 alternatePath: "/city/perth/single-parent-dinner"
 translationKey: "perth-single-parent-dinner"
 lang: "en"
-title: "For Perth readers considering Single Parent Dinner, Fanju app should make the room legible"
-description: "The loneliness experienced in a sprawling city like Perth often stems not from a lack of people, but from a lack of structured, low-stakes opportunities to sit across from them. A generic listing for a meal might fill"
+title: "For Perth readers considering Single Parent Dinner, Fanju app..."
+description: "The loneliness experienced in a sprawling city like Perth often stems not from a lack of people, but from a lack of structured, low-stakes opportunities…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

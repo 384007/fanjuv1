@@ -4,8 +4,8 @@ canonicalPath: "/en/city/berlin/holiday-dinner"
 alternatePath: "/city/berlin/holiday-dinner"
 translationKey: "berlin-holiday-dinner"
 lang: "en"
-title: "Berlin Holiday Dinners: Discovering Neighborhood Flavors with Fanju app"
-description: "When considering a Holiday Dinner in Berlin, the decision often hinges on finding a table that resonates with your personal rhythm and interests. The Fanju app frames these gatherings as a food-discovery thread, where"
+title: "Berlin Holiday Dinners: Discovering Neighborhood Flavors with..."
+description: "When considering a Holiday Dinner in Berlin, the decision often hinges on finding a table that resonates with your personal rhythm and interests."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/los-angeles/esports-dinner"
 alternatePath: "/city/los-angeles/esports-dinner"
 translationKey: "los-angeles-esports-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Los Angeles Esports Dinner table before the first course"
-description: "When you have just arrived in Los Angeles, the hardest part of any social event is knowing how it ends without feeling awkward or trapped. A good Esports Dinner listing on Fanju app sets clear expectations about the"
+title: "The Fanju app way to judge a Los Angeles Esports Dinner table..."
+description: "When you have just arrived in Los Angeles, the hardest part of any social event is knowing how it ends without feeling awkward or trapped."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

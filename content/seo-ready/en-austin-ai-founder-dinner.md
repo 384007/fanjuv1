@@ -4,8 +4,8 @@ canonicalPath: "/en/city/austin/ai-founder-dinner"
 alternatePath: "/city/austin/ai-founder-dinner"
 translationKey: "austin-ai-founder-dinner"
 lang: "en"
-title: "When AI Founder Dinner in Austin needs more than a group chat, Fanju app starts with the table"
-description: "In Austin, where crossing neighborhoods during rush hour can turn a simple dinner into a logistical challenge, understanding the arrival and exit timing is crucial for a comfortable evening. A well-organized AI Founder"
+title: "When AI Founder Dinner in Austin needs more than a group chat,..."
+description: "In Austin, where crossing neighborhoods during rush hour can turn a simple dinner into a logistical challenge, understanding the arrival and exit timing…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

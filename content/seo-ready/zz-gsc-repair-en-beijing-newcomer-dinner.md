@@ -4,7 +4,7 @@ canonicalPath: "/en/city/beijing/newcomer-dinner"
 alternatePath: "/city/beijing/newcomer-dinner"
 translationKey: "gsc-repair-beijing-newcomer-dinner"
 lang: "en"
-title: "Beijing Newcomer Dinner Guide | Fanju app"
+title: "Beijing Newcomer Dinner Guide"
 description: "Beijing newcomer dinner on Fanju helps new arrivals compare a public small-table dinner, host note, guest mix, cost, and expectations before joining."
 pageType: "city_topic"
 priorityScore: 80

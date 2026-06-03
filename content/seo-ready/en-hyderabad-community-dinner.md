@@ -4,8 +4,8 @@ canonicalPath: "/en/city/hyderabad/community-dinner"
 alternatePath: "/city/hyderabad/community-dinner"
 translationKey: "hyderabad-community-dinner"
 lang: "en"
-title: "Hyderabad after work: how Fanju app makes Community Dinner feel like a real room | fanju-app"
-description: "In Hyderabad, where evening rhythms shift between office closures in Gachibowli and the first calls to prayer echoing from Charminar, finding real company over dinner can be harder than locating a quiet booth in a crowde"
+title: "Hyderabad after work: how Fanju app makes Community Dinner feel..."
+description: "In Hyderabad, where evening rhythms shift between office closures in Gachibowli and the first calls to prayer echoing from Charminar, finding real compa…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/milan/bbq-dinner"
 alternatePath: "/city/milan/bbq-dinner"
 translationKey: "milan-bbq-dinner"
 lang: "en"
-title: "When a Solo Traveler Lands in Milan and Spots a Second-Table BBQ Dinner on the Fanju app"
-description: "When you step off the tram onto Corso Como, the first thing to check is the listed start time. A reliable Milan BBQ Dinner will state exactly when the grill is lit, often between 19:00 and 20:00, and when the informal"
+title: "When a Solo Traveler Lands in Milan and Spots a Second-Table BBQ..."
+description: "When you step off the tram onto Corso Como, the first thing to check is the listed start time."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

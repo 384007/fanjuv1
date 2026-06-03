@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lagos/ai-products-dinner"
 alternatePath: "/city/lagos/ai-products-dinner"
 translationKey: "lagos-ai-products-dinner"
 lang: "en"
-title: "Lagos AI Products Dinner finds its footing on Fanju app, where neighborhood clarity beats hype"
-description: "The decision to join an AI Products Dinner in Lagos hinges on the desire to step away from the digital noise and re‑engage with people face‑to‑face. In a city where tech meetups often turn into large, noisy sessions, a"
+title: "Lagos AI Products Dinner finds its footing on Fanju app, where..."
+description: "The decision to join an AI Products Dinner in Lagos hinges on the desire to step away from the digital noise and re‑engage with people face‑to‑face."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

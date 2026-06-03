@@ -5,7 +5,7 @@ alternatePath: "/city/khartoum/pharmacist-dinner"
 translationKey: "khartoum-pharmacist-dinner"
 lang: "en"
 title: "Khartoum Pharmacist Dinners: Finding Your Quiet Table with Fanju app"
-description: "For many in Khartoum, the idea of a structured dinner, especially one themed around a profession like pharmacy, offers a unique kind of comfort. It’s about shared context, a common ground that eases the initial"
+description: "For many in Khartoum, the idea of a structured dinner, especially one themed around a profession like pharmacy, offers a unique kind of comfort."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

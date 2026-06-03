@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ahmedabad/shipping-dinner"
 alternatePath: "/city/ahmedabad/shipping-dinner"
 translationKey: "ahmedabad-shipping-dinner"
 lang: "en"
-title: "Ahmedabad's Weekend Dinner Decision: A Fanju App Guide to Shipping Dinner"
-description: "As the weekend approaches in Ahmedabad, the decision of how to spend your evening often hinges on finding an experience that feels both engaging and comfortable. Shipping Dinner, when presented through Fanju app, offers"
+title: "Ahmedabad's Weekend Dinner Decision: A Fanju App Guide to Shipping..."
+description: "As the weekend approaches in Ahmedabad, the decision of how to spend your evening often hinges on finding an experience that feels both engaging and com…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -5,7 +5,7 @@ alternatePath: "/city/riyadh/pop-up-dinner"
 translationKey: "riyadh-pop-up-dinner"
 lang: "en"
 title: "Riyadh Pop Up Dinner: how Fanju app makes the table worth choosing"
-description: "When you scroll through options in Riyadh, the difference between a generic gathering and a memorable evening often comes down to one specific line in the description. A credible listing will state the purpose clearly,"
+description: "When you scroll through options in Riyadh, the difference between a generic gathering and a memorable evening often comes down to one specific line in t…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

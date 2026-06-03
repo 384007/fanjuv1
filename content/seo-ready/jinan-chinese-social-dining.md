@@ -4,7 +4,7 @@ canonicalPath: "/city/jinan/chinese-social-dining"
 alternatePath: "/en/city/jinan/chinese-social-dining"
 translationKey: "jinan-chinese-social-dining"
 lang: "zh"
-title: "济南华人饭局社交指南 | fanju-app | 饭局app"
+title: "济南华人饭局社交指南"
 titleZh: "济南华人饭局社交指南"
 pageType: "city_landing"
 priorityScore: 50

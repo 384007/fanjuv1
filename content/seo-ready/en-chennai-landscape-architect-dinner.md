@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chennai/landscape-architect-dinner"
 alternatePath: "/city/chennai/landscape-architect-dinner"
 translationKey: "chennai-landscape-architect-dinner"
 lang: "en"
-title: "Chennai Landscape Architect Dinner through Fanju app: the questions to answer before you sit down"
-description: "Chennai has a specific rhythm that shapes how a design-focused dinner should feel. The listing should tell you why this topic matters in the city's climate, perhaps touching on coastal greenery or urban density. You"
+title: "Chennai Landscape Architect Dinner through Fanju app: the..."
+description: "Chennai has a specific rhythm that shapes how a design-focused dinner should feel."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/london/astronomy-dinner"
 alternatePath: "/city/london/astronomy-dinner"
 translationKey: "london-astronomy-dinner"
 lang: "en"
-title: "What makes Astronomy Dinner in London worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "The quiet appeal of Astronomy Dinner in London isn’t in its name, but in the way it quietly reshapes how people eat together—especially women who often weigh social risk more carefully when trying something unfamiliar. O"
+title: "What makes Astronomy Dinner in London worth the risk; Fanju app..."
+description: "The quiet appeal of Astronomy Dinner in London isn’t in its name, but in the way it quietly reshapes how people eat together—especially women who often…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

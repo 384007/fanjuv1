@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vancouver/graphic-designer-dinner"
 alternatePath: "/city/vancouver/graphic-designer-dinner"
 translationKey: "vancouver-graphic-designer-dinner"
 lang: "en"
-title: "When Graphic Designer Dinner feels too loose in Vancouver, Fanju app starts with the table | fanju-app"
-description: "There’s a moment after work in Vancouver when the light slants low over False Creek, and the studio screens go dark. That’s when the idea of gathering feels possible—but also fragile. I’ve hosted enough Graphic Designer"
+title: "When Graphic Designer Dinner feels too loose in Vancouver, Fanju..."
+description: "There’s a moment after work in Vancouver when the light slants low over False Creek, and the studio screens go dark."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

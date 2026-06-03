@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/wuwei/industry-dinner"
 alternatePath: "/en/city/wuwei/industry-dinner"
-title: "武威行业饭局指南 | fanju-app | 饭局app"
+title: "武威行业饭局指南"
 description: "武威行业饭局指南，了解武威行业饭局的最佳选择，适合内向者，了解饭局app的核心场景和安全重点，了解如何参加武威行业饭局，了解如何判断安全和信任，了解饭局app和普通社交/约会软件的区别，了解常见问题。"
 recoveredFromD1: true
 ---

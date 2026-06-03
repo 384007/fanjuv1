@@ -4,8 +4,8 @@ canonicalPath: "/en/city/rio-de-janeiro/book-lover-dinner"
 alternatePath: "/city/rio-de-janeiro/book-lover-dinner"
 translationKey: "rio-de-janeiro-book-lover-dinner"
 lang: "en"
-title: "Before joining Book Lover Dinner in Rio de Janeiro, what Fanju app should make clear"
-description: "A Book Lover Dinner in Rio de Janeiro should feel distinct from the noisy events often found in large meetup halls. The ideal setting is a quieter restaurant where voices do not compete with loud music, allowing for"
+title: "Before joining Book Lover Dinner in Rio de Janeiro, what Fanju app..."
+description: "A Book Lover Dinner in Rio de Janeiro should feel distinct from the noisy events often found in large meetup halls."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

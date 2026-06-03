@@ -4,8 +4,8 @@ canonicalPath: "/en/city/pune/fashion-lover-dinner"
 alternatePath: "/city/pune/fashion-lover-dinner"
 translationKey: "pune-fashion-lover-dinner"
 lang: "en"
-title: "Before joining Fashion Lover Dinner in Pune, what Fanju app should make clear | fanju-app"
-description: "Pune Fashion Lover Dinner on Fanju app is a small-table social event centered on style, fabric, and the stories behind what we wear—hosted offline in real venues across the city."
+title: "Before joining Fashion Lover Dinner in Pune, what Fanju app should..."
+description: "Pune Fashion Lover Dinner on Fanju app is a small-table social event centered on style, fabric, and the stories behind what we wear—hosted offline in re…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

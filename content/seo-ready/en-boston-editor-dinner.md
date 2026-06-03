@@ -4,8 +4,8 @@ canonicalPath: "/en/city/boston/editor-dinner"
 alternatePath: "/city/boston/editor-dinner"
 translationKey: "boston-editor-dinner"
 lang: "en"
-title: "Trusting the Table: Finding Your Editor Dinner Spot with Fanju app in Boston"
-description: "Imagine you're standing outside a Boston restaurant, perhaps in the historic North End or a quieter Beacon Hill side street, holding your phone with the Fanju app open. The listing for an Editor Dinner table is"
+title: "Trusting the Table: Finding Your Editor Dinner Spot with Fanju app..."
+description: "Imagine you're standing outside a Boston restaurant, perhaps in the historic North End or a quieter Beacon Hill side street, holding your phone with the…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

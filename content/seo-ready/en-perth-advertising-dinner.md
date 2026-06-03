@@ -4,8 +4,8 @@ canonicalPath: "/en/city/perth/advertising-dinner"
 alternatePath: "/city/perth/advertising-dinner"
 translationKey: "perth-advertising-dinner"
 lang: "en"
-title: "What makes Advertising Dinner in Perth worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "I’ve hosted more than a few Advertising Dinner gatherings in Perth, and each one starts with the same quiet tension: Will this table feel like a real conversation, or just another networking event in disguise? The differ"
+title: "What makes Advertising Dinner in Perth worth the risk; Fanju app..."
+description: "I’ve hosted more than a few Advertising Dinner gatherings in Perth, and each one starts with the same quiet tension: Will this table feel like a real co…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

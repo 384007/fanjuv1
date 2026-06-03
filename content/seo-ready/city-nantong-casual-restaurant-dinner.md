@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/nantong/casual-restaurant-dinner"
 alternatePath: "/en/city/nantong/casual-restaurant-dinner"
-title: "南通轻松餐厅饭局指南 | fanju-app | 饭局app"
+title: "南通轻松餐厅饭局指南"
 description: "在南通轻松餐厅饭局，体验南通美食的另一面，通过饭局app与本地人一起探索南通的美食世界。"
 recoveredFromD1: true
 ---

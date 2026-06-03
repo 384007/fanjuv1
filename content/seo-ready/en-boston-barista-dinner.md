@@ -5,7 +5,7 @@ alternatePath: "/city/boston/barista-dinner"
 translationKey: "boston-barista-dinner"
 lang: "en"
 title: "Boston Barista Dinner: how Fanju app makes the table worth choosing"
-description: "When evaluating a listing, the description must ground you in the physical reality of the evening. A public venue type matters in Boston because strangers need to picture the room before joining, so look for mentions of"
+description: "When evaluating a listing, the description must ground you in the physical reality of the evening."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

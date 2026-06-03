@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/women-friendly-dinner"
 alternatePath: "/city/brussels/women-friendly-dinner"
 translationKey: "brussels-women-friendly-dinner"
 lang: "en"
-title: "A Brussels dinner table for Women Friendly Dinner, with Fanju app boundaries up front"
-description: "In Brussels, a good dinner relies on clear ending times, especially when guests travel from distinct neighborhoods like Ixelles or the European Quarter. A well-organized table provides distinct exit cues, ensuring no"
+title: "A Brussels dinner table for Women Friendly Dinner, with Fanju app..."
+description: "In Brussels, a good dinner relies on clear ending times, especially when guests travel from distinct neighborhoods like Ixelles or the European Quarter.…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

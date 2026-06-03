@@ -4,8 +4,8 @@ canonicalPath: "/en/city/melbourne/museum-lover-dinner"
 alternatePath: "/city/melbourne/museum-lover-dinner"
 translationKey: "melbourne-museum-lover-dinner"
 lang: "en"
-title: "For people trying Museum Lover Dinner in Melbourne, Fanju app puts the guest mix first | fanju-app"
-description: "If you’ve just moved to Melbourne and are searching for a way to meet people who care about culture and conversation, the idea of a dinner built around museum lovers might sound appealing—until you end up at a table wher"
+title: "For people trying Museum Lover Dinner in Melbourne, Fanju app puts..."
+description: "If you’ve just moved to Melbourne and are searching for a way to meet people who care about culture and conversation, the idea of a dinner built around…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

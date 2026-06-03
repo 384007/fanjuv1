@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nairobi/fashion-lover-dinner"
 alternatePath: "/city/nairobi/fashion-lover-dinner"
 translationKey: "nairobi-fashion-lover-dinner"
 lang: "en"
-title: "For people trying Fashion Lover Dinner in Nairobi, Fanju app puts the guest mix first | fanju-app"
-description: "In Nairobi, where the pace of work and traffic can stretch days into something impersonal, finding genuine connection often feels like a secondary task. The Fanju app is changing that for a growing number of locals by ce"
+title: "For people trying Fashion Lover Dinner in Nairobi, Fanju app puts..."
+description: "In Nairobi, where the pace of work and traffic can stretch days into something impersonal, finding genuine connection often feels like a secondary task.…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

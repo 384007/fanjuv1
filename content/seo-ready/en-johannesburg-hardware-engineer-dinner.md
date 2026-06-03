@@ -4,8 +4,8 @@ canonicalPath: "/en/city/johannesburg/hardware-engineer-dinner"
 alternatePath: "/city/johannesburg/hardware-engineer-dinner"
 translationKey: "johannesburg-hardware-engineer-dinner"
 lang: "en"
-title: "Why Hardware Engineer Dinner in Johannesburg works better when Fanju app keeps the table small | fanju-app"
-description: "In Johannesburg, where after-work routines often dissolve into traffic or silent commutes, the Hardware Engineer Dinner has quietly become a ritual worth protecting. It’s not a networking event, nor a pitch night—it’s a"
+title: "Why Hardware Engineer Dinner in Johannesburg works better when..."
+description: "In Johannesburg, where after-work routines often dissolve into traffic or silent commutes, the Hardware Engineer Dinner has quietly become a ritual wort…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/surat/waitlist-dinner"
 alternatePath: "/city/surat/waitlist-dinner"
-title: "Can Fanju App Help Surat's Social Dinners Overcome the Loneliness of Large Tables? | fanju-app | 饭局app"
-description: "A guide to navigating the complexities of group dinners in Surat, using Fanju app as a social dining platform for meaningful connections and small, real-world meals."
+title: "Can Fanju App Help Surat's Social Dinners Overcome the Loneliness..."
+description: "A guide to navigating the complexities of group dinners in Surat, using Fanju app as a social dining platform for meaningful connections and small, real…"
 recoveredFromD1: true
 ---
 # Finding Meaning in Surat&#039;s Group Dinners with Fanju App

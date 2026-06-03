@@ -4,8 +4,8 @@ canonicalPath: "/en/city/washington-dc/knitting-dinner"
 alternatePath: "/city/washington-dc/knitting-dinner"
 translationKey: "washington-dc-knitting-dinner"
 lang: "en"
-title: "Washington DC Knitting Dinner through Fanju app: the questions to answer before you sit down"
-description: "This particular Knitting Dinner listing on Fanju is best suited for individuals in Washington DC who are actively seeking a calm, structured evening centered around a specific craft and conversation. If you appreciate a"
+title: "Washington DC Knitting Dinner through Fanju app: the questions to..."
+description: "This particular Knitting Dinner listing on Fanju is best suited for individuals in Washington DC who are actively seeking a calm, structured evening cen…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

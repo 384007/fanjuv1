@@ -4,8 +4,8 @@ canonicalPath: "/en/city/budapest/newcomer-guide-dinner"
 alternatePath: "/city/budapest/newcomer-guide-dinner"
 translationKey: "budapest-newcomer-guide-dinner"
 lang: "en"
-title: "For Budapest readers considering Newcomer Guide Dinner, Fanju app should make the room legible"
-description: "The most practical question to ask yourself before selecting a Newcomer Guide Dinner in Budapest is whether the host has defined a clear purpose for the meal beyond simply eating. You want to find a listing that"
+title: "For Budapest readers considering Newcomer Guide Dinner, Fanju app..."
+description: "The most practical question to ask yourself before selecting a Newcomer Guide Dinner in Budapest is whether the host has defined a clear purpose for the…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

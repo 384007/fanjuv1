@@ -4,8 +4,8 @@ canonicalPath: "/en/city/riyadh/government-dinner"
 alternatePath: "/city/riyadh/government-dinner"
 translationKey: "riyadh-government-dinner"
 lang: "en"
-title: "Riyadh Government Dinner through Fanju app: the questions to answer before you sit down"
-description: "Fanju app is designed for individuals seeking more than just a fleeting social interaction. It focuses on curated small-table dinners where conversation and shared interests are paramount. In Riyadh, this means"
+title: "Riyadh Government Dinner through Fanju app: the questions to..."
+description: "Fanju app is designed for individuals seeking more than just a fleeting social interaction."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

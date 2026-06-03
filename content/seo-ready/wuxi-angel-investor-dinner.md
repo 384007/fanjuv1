@@ -4,9 +4,9 @@ canonicalPath: "/city/wuxi/angel-investor-dinner"
 alternatePath: "/en/city/wuxi/angel-investor-dinner"
 translationKey: "wuxi-angel-investor-dinner"
 lang: "zh"
-title: "无锡天使投资人饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌 | fanju-app"
+title: "无锡天使投资人饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
 titleZh: "无锡天使投资人饭局不缺饭局，缺的是饭局app这样先说清楚的那一桌"
-description: "在无锡，一场饭局的成色，往往不看餐厅的门面大小，也不看菜单上的标价，而是在饭局开始前十五分钟，人到没到齐，话有没有提前讲明白。 饭局app不是用来拉群、发广告或攒酒局的工具，它更像是一张提前写好菜单、定好座位、确认过彼此时间的饭桌邀请——尤其对天使投资人来说，在这座节奏温和但产业扎实的城市里，真正有价值的连接，常常就藏在一次具体、安静、有准备的晚饭中。"
+description: "在无锡，一场饭局的成色，往往不看餐厅的门面大小，也不看菜单上的标价，而是在饭局开始前十五分钟，人到没到齐，话有没有提前讲明白。 饭局app不是用来拉群、发广告或攒酒局的工具，它更像是一张提前写好菜单、定好座位、确认过彼此时间的饭桌邀请——尤其对天使投资人来说，在这座节奏温和但产业扎实的城市里，真正有价值…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

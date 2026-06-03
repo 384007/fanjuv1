@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/haerbin/premium-restaurant-dinner"
 alternatePath: "/en/city/haerbin/premium-restaurant-dinner"
-title: "哈尔滨高端餐厅饭局指南 | fanju-app | 饭局app"
+title: "哈尔滨高端餐厅饭局指南"
 description: "在哈尔滨，一场精心策划的小饭局，如何让你感到安心与自在？饭局app（Fanju）专注于提供小桌、有明确主题的线下聚会，帮助人们在真实身份和公开场合建立连接。本文将从安全和信任的视角出发，为你解析在哈尔滨参与高端餐厅饭局的方方面面，让你在享受美食与交流的同时，也能感受到一份踏实的温暖。"
 recoveredFromD1: true
 ---

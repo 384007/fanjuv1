@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kyoto/vegetarian-dinner"
 alternatePath: "/city/kyoto/vegetarian-dinner"
 translationKey: "kyoto-vegetarian-dinner"
 lang: "en"
-title: "A Kyoto dinner table for Vegetarian Dinner, with Fanju app boundaries up front"
-description: "When I host a Vegetarian Dinner in Kyoto, I know that the venue description is the first signal of trust. Kyoto readers need skip signals like a vague location or an unclear cost structure before they even consider"
+title: "A Kyoto dinner table for Vegetarian Dinner, with Fanju app..."
+description: "When I host a Vegetarian Dinner in Kyoto, I know that the venue description is the first signal of trust."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

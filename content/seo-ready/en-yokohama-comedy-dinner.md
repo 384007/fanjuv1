@@ -4,8 +4,8 @@ canonicalPath: "/en/city/yokohama/comedy-dinner"
 alternatePath: "/city/yokohama/comedy-dinner"
 translationKey: "yokohama-comedy-dinner"
 lang: "en"
-title: "Yokohama strangers sit down easier when Fanju app frames the Comedy Dinner table first | fanju-app"
-description: "In a city where expat groups and language exchange meetups often blur into interchangeable evenings of small talk, a Comedy Dinner in Yokohama stands apart when it resists the default of vague invitations."
+title: "Yokohama strangers sit down easier when Fanju app frames the..."
+description: "In a city where expat groups and language exchange meetups often blur into interchangeable evenings of small talk, a Comedy Dinner in Yokohama stands ap…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

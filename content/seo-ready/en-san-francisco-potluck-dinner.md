@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-francisco/potluck-dinner"
 alternatePath: "/city/san-francisco/potluck-dinner"
 translationKey: "san-francisco-potluck-dinner"
 lang: "en"
-title: "Before joining Potluck Dinner in San Francisco, what Fanju app should make clear"
-description: "A host in San Francisco needs to articulate why a Potluck Dinner is relevant right now, specifically for the city's demographic of isolated professionals. A generic invitation to eat is insufficient when residents are"
+title: "Before joining Potluck Dinner in San Francisco, what Fanju app..."
+description: "A host in San Francisco needs to articulate why a Potluck Dinner is relevant right now, specifically for the city's demographic of isolated professional…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

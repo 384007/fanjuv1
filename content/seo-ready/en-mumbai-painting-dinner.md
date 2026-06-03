@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mumbai/painting-dinner"
 alternatePath: "/city/mumbai/painting-dinner"
 translationKey: "mumbai-painting-dinner"
 lang: "en"
-title: "Mumbai strangers sit down easier when Fanju app frames the Painting Dinner table first | fanju-app"
-description: "In Mumbai, where streets hum with chai vendors, monsoon drizzle, and the quiet rustle of newspaper readers on suburban trains, the Fanju app quietly reshapes how strangers meet. It doesn’t promise sightseeing or curated"
+title: "Mumbai strangers sit down easier when Fanju app frames the..."
+description: "In Mumbai, where streets hum with chai vendors, monsoon drizzle, and the quiet rustle of newspaper readers on suburban trains, the Fanju app quietly res…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

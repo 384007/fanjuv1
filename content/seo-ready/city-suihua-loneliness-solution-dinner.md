@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/suihua/loneliness-solution-dinner"
 alternatePath: "/en/city/suihua/loneliness-solution-dinner"
-title: "绥化解决孤独饭局指南 | fanju-app | 饭局app"
+title: "绥化解决孤独饭局指南"
 description: "在绥化体验 Fanju 饭局app 的独特社交体验，解决孤独饭局的困扰。"
 recoveredFromD1: true
 ---

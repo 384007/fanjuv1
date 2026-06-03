@@ -4,8 +4,8 @@ canonicalPath: "/en/city/moscow/police-dinner"
 alternatePath: "/city/moscow/police-dinner"
 translationKey: "moscow-police-dinner"
 lang: "en"
-title: "In Moscow, Fanju app turns Police Dinner into a table people can actually trust | fanju-app"
-description: "Moscow’s social rhythm often swings between isolation and overstimulation—either you’re on the metro heading home after a long week, or you’re in a crowded bar where shouting across the table becomes the norm. The"
+title: "In Moscow, Fanju app turns Police Dinner into a table people can..."
+description: "Moscow’s social rhythm often swings between isolation and overstimulation—either you’re on the metro heading home after a long week, or you’re in a crow…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

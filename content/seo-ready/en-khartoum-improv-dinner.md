@@ -4,8 +4,8 @@ canonicalPath: "/en/city/khartoum/improv-dinner"
 alternatePath: "/city/khartoum/improv-dinner"
 translationKey: "khartoum-improv-dinner"
 lang: "en"
-title: "Khartoum does not need another vague invite; Fanju app makes Improv Dinner specific | fanju-app"
-description: "In Khartoum, where the Nile splits and city life often moves in parallel lines rather than intersections, it's easy to feel isolated even in a crowd. The Fanju app changes that quietly but effectively by turning the idea"
+title: "Khartoum does not need another vague invite; Fanju app makes..."
+description: "In Khartoum, where the Nile splits and city life often moves in parallel lines rather than intersections, it's easy to feel isolated even in a crowd."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

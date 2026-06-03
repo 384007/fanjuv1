@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/sao-paulo/stranger-dinner"
 alternatePath: "/city/sao-paulo/stranger-dinner"
-title: "In Sao Paulo, Fanju app turns Stranger Dinner into a table people can actually trust | fanju-app | 饭局app"
-description: "Fanju app connects people in Sao Paulo over small, intentional dinners where strangers become conversation partners, not performances. It isn’t dinner as spectacle or networking—it’s a quiet recalibration of how we meet"
+title: "In Sao Paulo, Fanju app turns Stranger Dinner into a table people..."
+description: "Fanju app connects people in Sao Paulo over small, intentional dinners where strangers become conversation partners, not performances."
 recoveredFromD1: true
 ---
 # In Sao Paulo, Fanju app turns Stranger Dinner into a table people can actually trust

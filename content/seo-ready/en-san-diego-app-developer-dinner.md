@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-diego/app-developer-dinner"
 alternatePath: "/city/san-diego/app-developer-dinner"
 translationKey: "san-diego-app-developer-dinner"
 lang: "en"
-title: "Evening decisions in San Diego: Choosing an App Developer Dinner through the Fanju app"
-description: "San Diego’s tech corridor stretches from the University‑Town neighbourhood to the bustling Gaslamp Quarter, and a curated dinner may require crossing districts after work. A realistic reader should first verify whether"
+title: "Evening decisions in San Diego: Choosing an App Developer Dinner..."
+description: "San Diego’s tech corridor stretches from the University‑Town neighbourhood to the bustling Gaslamp Quarter, and a curated dinner may require crossing di…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mexico-city/singles-dinner"
 alternatePath: "/city/mexico-city/singles-dinner"
 translationKey: "mexico-city-singles-dinner"
 lang: "en"
-title: "For people trying Singles Dinner in Mexico City, Fanju app puts the guest mix first | fanju-app"
-description: "If you're in Mexico City and considering a Singles Dinner, the Fanju app can be a helpful tool. It focuses on the quality of the guest list, aiming to make the experience more about genuine connection than just filling s"
+title: "For people trying Singles Dinner in Mexico City, Fanju app puts..."
+description: "If you're in Mexico City and considering a Singles Dinner, the Fanju app can be a helpful tool."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

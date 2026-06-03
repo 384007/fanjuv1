@@ -4,8 +4,8 @@ canonicalPath: "/en/city/alexandria/podcast-listener-dinner"
 alternatePath: "/city/alexandria/podcast-listener-dinner"
 translationKey: "alexandria-podcast-listener-dinner"
 lang: "en"
-title: "A quiet evening on King Street: joining an Alexandria Podcast Listener Dinner through Fanju app"
-description: "Alexandria’s neighborhoods pulse at different tempos—from the bustling waterfront to the quieter streets of Old Town. A good podcast dinner respects that rhythm, offering a clear start‑time that aligns with public"
+title: "A quiet evening on King Street: joining an Alexandria Podcast..."
+description: "Alexandria’s neighborhoods pulse at different tempos—from the bustling waterfront to the quieter streets of Old Town."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

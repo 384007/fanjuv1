@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kinshasa/brunch-dinner"
 alternatePath: "/city/kinshasa/brunch-dinner"
 translationKey: "kinshasa-brunch-dinner"
 lang: "en"
-title: "Kinshasa after work: how Fanju app makes Brunch Social feel like a real room | fanju-app"
-description: "In many group chats in Kinshasa, the idea of gathering over brunch or dinner starts with a ping—no host named, no time set, just a flurry of “maybe” and “depends.” These messages often trail off, or worse, solidify into"
+title: "Kinshasa after work: how Fanju app makes Brunch Social feel like a..."
+description: "In many group chats in Kinshasa, the idea of gathering over brunch or dinner starts with a ping—no host named, no time set, just a flurry of “maybe” and…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

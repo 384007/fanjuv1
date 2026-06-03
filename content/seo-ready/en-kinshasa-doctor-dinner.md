@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kinshasa/doctor-dinner"
 alternatePath: "/city/kinshasa/doctor-dinner"
 translationKey: "kinshasa-doctor-dinner"
 lang: "en"
-title: "Doctor Dinner in Kinshasa should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "Dinner among doctors in Kinshasa has long operated on word-of-mouth and chance—where you end up, who you meet, and whether the evening feels meaningful often depends on who texted last or which hospital corridor rumour h"
+title: "Doctor Dinner in Kinshasa should not feel like a gamble; Fanju app..."
+description: "Dinner among doctors in Kinshasa has long operated on word-of-mouth and chance—where you end up, who you meet, and whether the evening feels meaningful…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

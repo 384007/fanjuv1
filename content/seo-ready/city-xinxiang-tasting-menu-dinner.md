@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/xinxiang/tasting-menu-dinner"
 alternatePath: "/en/city/xinxiang/tasting-menu-dinner"
-title: "新乡品鉴菜单饭局指南 | fanju-app | 饭局app"
+title: "新乡品鉴菜单饭局指南"
 description: "新乡品鉴菜单饭局，让陌生人之间的连接变得更加容易。"
 recoveredFromD1: true
 ---

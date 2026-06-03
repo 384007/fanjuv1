@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bangkok/picnic-dinner"
 alternatePath: "/city/bangkok/picnic-dinner"
 translationKey: "bangkok-picnic-dinner"
 lang: "en"
-title: "A Bangkok dinner table for Picnic Dinner, with Fanju app boundaries up front"
-description: "Fanju app functions as the bridge between a vague idea of dining out and a confirmed reservation. For a Picnic Dinner in Bangkok, the platform ensures that the logistics are handled transparently, showing who the host"
+title: "A Bangkok dinner table for Picnic Dinner, with Fanju app..."
+description: "Fanju app functions as the bridge between a vague idea of dining out and a confirmed reservation."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

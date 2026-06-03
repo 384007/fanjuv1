@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/jinzhou/angel-investor-dinner"
 alternatePath: "/en/city/jinzhou/angel-investor-dinner"
-title: "锦州天使投资人饭局指南 | fanju-app | 饭局app"
+title: "锦州天使投资人饭局指南"
 description: "在锦州参加天使投资人饭局，了解本地创业生态，建立新关系。"
 recoveredFromD1: true
 ---

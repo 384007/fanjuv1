@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/rikaze/sales-dinner"
 alternatePath: "/en/city/rikaze/sales-dinner"
-title: "日喀则的销售饭局：如何用饭局app找到对的人？ | fanju-app"
+title: "日喀则的销售饭局：如何用饭局app找到对的人？"
 description: "作为一名在日喀则经常组织销售饭局的主办方，我深知一场成功的饭局app饭局需要精心策划。本文将从主办方视角出发，探讨如何组织一场有价值的日喀则销售饭局，以及如何通过饭局app找到合适的参与者和场地。"
 recoveredFromD1: true
 ---

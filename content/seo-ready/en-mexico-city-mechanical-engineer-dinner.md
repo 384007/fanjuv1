@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mexico-city/mechanical-engineer-dinner"
 alternatePath: "/city/mexico-city/mechanical-engineer-dinner"
 translationKey: "mexico-city-mechanical-engineer-dinner"
 lang: "en"
-title: "Mexico City Mechanical Engineer Dinner: how Fanju app makes the table worth choosing"
-description: "When considering a Mechanical Engineer Dinner via Fanju app in Mexico City, the initial impression of the listing is crucial. The app’s philosophy centers on clarity and intention, aiming to distinguish a calm,"
+title: "Mexico City Mechanical Engineer Dinner: how Fanju app makes the..."
+description: "When considering a Mechanical Engineer Dinner via Fanju app in Mexico City, the initial impression of the listing is crucial."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/barcelona/hotpot-dinner"
 alternatePath: "/city/barcelona/hotpot-dinner"
 translationKey: "barcelona-hotpot-dinner"
 lang: "en"
-title: "When Hotpot Dinner feels too loose in Barcelona, Fanju app starts with the table | fanju-app"
-description: "In Barcelona, professional connections often form not in conference rooms but over shared plates, where conversation flows as steadily as local vermouth. The Fanju app has quietly reshaped how founders, freelancers, and"
+title: "When Hotpot Dinner feels too loose in Barcelona, Fanju app starts..."
+description: "In Barcelona, professional connections often form not in conference rooms but over shared plates, where conversation flows as steadily as local vermouth…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

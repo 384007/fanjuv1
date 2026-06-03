@@ -4,8 +4,8 @@ canonicalPath: "/en/city/surat/museum-lover-dinner"
 alternatePath: "/city/surat/museum-lover-dinner"
 translationKey: "surat-museum-lover-dinner"
 lang: "en"
-title: "In Surat, Fanju app turns Museum Lover Dinner into a table people can actually trust | fanju-app"
-description: "In Surat, where evening plans often dissolve into last-minute cancellations or awkward group dynamics, the Fanju app offers a different rhythm for cultural connection. Museum Lover Dinner, a gathering built for those who"
+title: "In Surat, Fanju app turns Museum Lover Dinner into a table people..."
+description: "In Surat, where evening plans often dissolve into last-minute cancellations or awkward group dynamics, the Fanju app offers a different rhythm for cultu…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

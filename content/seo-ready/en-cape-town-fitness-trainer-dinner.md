@@ -4,8 +4,8 @@ canonicalPath: "/en/city/cape-town/fitness-trainer-dinner"
 alternatePath: "/city/cape-town/fitness-trainer-dinner"
 translationKey: "cape-town-fitness-trainer-dinner"
 lang: "en"
-title: "Cape Town has plenty of Fitness Trainer Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "Cape Town’s after-work rhythm often ends in solitude — a takeaway at home, a quick gym session, or scrolling through options that never quite land. But on certain evenings, a different kind of gathering takes shape: a ta"
+title: "Cape Town has plenty of Fitness Trainer Dinner options; Fanju app..."
+description: "Cape Town’s after-work rhythm often ends in solitude — a takeaway at home, a quick gym session, or scrolling through options that never quite land."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

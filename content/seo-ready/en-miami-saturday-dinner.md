@@ -4,8 +4,8 @@ canonicalPath: "/en/city/miami/saturday-dinner"
 alternatePath: "/city/miami/saturday-dinner"
 translationKey: "miami-saturday-dinner"
 lang: "en"
-title: "A Miami dinner table for Saturday Dinner, with Fanju app boundaries up front"
-description: "When considering a weekend meal in Miami, the end time is often as important as the start time because logistics across neighborhoods like Brickell or South Beach can be unpredictable. A solid dinner listing should"
+title: "A Miami dinner table for Saturday Dinner, with Fanju app..."
+description: "When considering a weekend meal in Miami, the end time is often as important as the start time because logistics across neighborhoods like Brickell or S…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

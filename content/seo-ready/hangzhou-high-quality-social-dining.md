@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/hangzhou/high-quality-social-dining"
 alternatePath: "/en/city/hangzhou/high-quality-social-dining"
-title: "下班后的杭州，饭局app怎样让高质量社交饭局有真实同桌 | fanju-app"
+title: "下班后的杭州，饭局app怎样让高质量社交饭局有真实同桌"
 description: "在杭州，忙碌的工作节奏常把人框进写字楼与通勤之间，而真正能打开心的时刻，往往藏在一场有准备的饭局里。饭局app就是为这样的时刻存在的——它不主打热闹拼桌，也不追求人数规模，而是专注于小桌、主题明确、主办方有判断力的线下饭局。在杭州，越来越多"
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/paris/vintage-dinner"
 alternatePath: "/city/paris/vintage-dinner"
 translationKey: "paris-vintage-dinner"
 lang: "en"
-title: "Vintage Dinner in Paris should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "After a week of crowded métro lines and back-to-back meetings in Paris, the idea of meeting someone new over dinner can feel equal parts appealing and exhausting. It’s easy to assume such gatherings lean toward loud grou"
+title: "Vintage Dinner in Paris should not feel like a gamble; Fanju app..."
+description: "After a week of crowded métro lines and back-to-back meetings in Paris, the idea of meeting someone new over dinner can feel equal parts appealing and e…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

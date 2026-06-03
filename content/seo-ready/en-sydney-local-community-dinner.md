@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sydney/local-community-dinner"
 alternatePath: "/city/sydney/local-community-dinner"
 translationKey: "sydney-local-community-dinner"
 lang: "en"
-title: "Sydney does not need another vague invite; Fanju app makes Local Community Dinner specific | fanju-app"
-description: "Sydney residents know the rhythm: a casual mention at a café, a loose “we should catch up,” or a group chat that fizzles. What seems like connection often dissolves into ambiguity. The Fanju app changes that by anchoring"
+title: "Sydney does not need another vague invite; Fanju app makes Local..."
+description: "Sydney residents know the rhythm: a casual mention at a café, a loose “we should catch up,” or a group chat that fizzles."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

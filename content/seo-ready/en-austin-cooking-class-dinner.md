@@ -4,8 +4,8 @@ canonicalPath: "/en/city/austin/cooking-class-dinner"
 alternatePath: "/city/austin/cooking-class-dinner"
 translationKey: "austin-cooking-class-dinner"
 lang: "en"
-title: "Austin Cooking Class Dinner: how Fanju app makes the table worth choosing"
-description: "When you see a listing for a Cooking Class Dinner in Austin, what truly makes it stand out? It's not just the promise of food or learning a new recipe. It’s the subtle details that signal a thoughtful gathering, one"
+title: "Austin Cooking Class Dinner: how Fanju app makes the table worth..."
+description: "When you see a listing for a Cooking Class Dinner in Austin, what truly makes it stand out? It's not just the promise of food or learning a new recipe."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

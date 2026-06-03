@@ -4,8 +4,8 @@ canonicalPath: "/en/city/paris/concert-goer-dinner"
 alternatePath: "/city/paris/concert-goer-dinner"
 translationKey: "paris-concert-goer-dinner"
 lang: "en"
-title: "Paris has plenty of Concert Goer Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "For those looking to reconnect offline in Paris, the Fanju app offers a distinct approach to shared dining experiences, particularly for concert-goers. Instead of a vague invitation, Fanju aims to clarify the intention b"
+title: "Paris has plenty of Concert Goer Dinner options; Fanju app is the..."
+description: "For those looking to reconnect offline in Paris, the Fanju app offers a distinct approach to shared dining experiences, particularly for concert-goers."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

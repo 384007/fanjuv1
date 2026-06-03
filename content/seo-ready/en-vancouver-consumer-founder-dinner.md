@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vancouver/consumer-founder-dinner"
 alternatePath: "/city/vancouver/consumer-founder-dinner"
 translationKey: "vancouver-consumer-founder-dinner"
 lang: "en"
-title: "Finding the Right Vancouver Consumer Founder Dinner Table with Fanju app"
-description: "The core decision for any Vancouver professional considering a Consumer Founder Dinner is whether the table’s composition will actually boost meaningful dialogue rather than dilute focus. A quieter small table in a"
+title: "Finding the Right Vancouver Consumer Founder Dinner Table with..."
+description: "The core decision for any Vancouver professional considering a Consumer Founder Dinner is whether the table’s composition will actually boost meaningful…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

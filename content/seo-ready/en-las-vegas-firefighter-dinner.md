@@ -4,8 +4,8 @@ canonicalPath: "/en/city/las-vegas/firefighter-dinner"
 alternatePath: "/city/las-vegas/firefighter-dinner"
 translationKey: "las-vegas-firefighter-dinner"
 lang: "en"
-title: "Las Vegas strangers sit down easier when Fanju app frames the Firefighter Dinner table first | fanju-app"
-description: "Planning a weekend in Las Vegas often revolves around the big-ticket items: shows, casinos, and sprawling buffets. But sometimes, the most memorable experiences are found in the smaller, more intimate settings. The Firef"
+title: "Las Vegas strangers sit down easier when Fanju app frames the..."
+description: "Planning a weekend in Las Vegas often revolves around the big-ticket items: shows, casinos, and sprawling buffets."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

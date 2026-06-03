@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vancouver/mba-dinner"
 alternatePath: "/city/vancouver/mba-dinner"
 translationKey: "vancouver-mba-dinner"
 lang: "en"
-title: "A Vancouver dinner table for MBA Dinner, with Fanju app boundaries up front"
-description: "Before committing, ask if the host has clearly defined why this specific MBA Dinner is happening in Vancouver right now. A vague invitation that simply lists a degree title without a theme often leads to mismatched"
+title: "A Vancouver dinner table for MBA Dinner, with Fanju app boundaries..."
+description: "Before committing, ask if the host has clearly defined why this specific MBA Dinner is happening in Vancouver right now."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

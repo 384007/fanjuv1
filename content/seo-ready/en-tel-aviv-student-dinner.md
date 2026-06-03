@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tel-aviv/student-dinner"
 alternatePath: "/city/tel-aviv/student-dinner"
 translationKey: "tel-aviv-student-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Tel Aviv Student Dinner table before the first course"
-description: "When evaluating a Student Dinner listing in Tel Aviv, the single most practical question to ask is whether the host has explicitly stated the expected group composition. A vague invitation often leads to an awkward"
+title: "The Fanju app way to judge a Tel Aviv Student Dinner table before..."
+description: "When evaluating a Student Dinner listing in Tel Aviv, the single most practical question to ask is whether the host has explicitly stated the expected g…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

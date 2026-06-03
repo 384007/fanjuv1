@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/lisbon/weeknight-dinner"
 alternatePath: "/city/lisbon/weeknight-dinner"
-title: "Lisbon Weeknight Dinner Guide | Fanju app"
-description: "Discover the best weeknight dinner experiences in Lisbon with Fanju app, a social dining app for small, clearly described meals and real-world connections. Join a community of like-minded individuals and enjoy a unique culinary experience in the heart of Lisbon."
+title: "Lisbon Weeknight Dinner Guide"
+description: "Discover the best weeknight dinner experiences in Lisbon with Fanju app, a social dining app for small, clearly described meals and real-world connectio…"
 recoveredFromD1: true
 ---
 Lisbon Weeknight Dinner Guide

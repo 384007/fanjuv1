@@ -4,8 +4,8 @@ canonicalPath: "/en/city/budapest/rowing-dinner"
 alternatePath: "/city/budapest/rowing-dinner"
 translationKey: "budapest-rowing-dinner"
 lang: "en"
-title: "Should I trust a Budapest Rowing Dinner arranged through the Fanju app?"
-description: "The main decision point is whether you prefer a purpose‑driven dinner over a vague meetup. A Rowing Dinner in Budapest is framed around a shared hobby—whether you’ve taken a lesson on the Danube, follow a local rowing"
+title: "Should I trust a Budapest Rowing Dinner arranged through the Fanju..."
+description: "The main decision point is whether you prefer a purpose‑driven dinner over a vague meetup."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

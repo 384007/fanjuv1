@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lima/private-dinner"
 alternatePath: "/city/lima/private-dinner"
 translationKey: "lima-private-dinner"
 lang: "en"
-title: "When Private Dinner feels too loose in Lima, Fanju app starts with the table | fanju-app"
+title: "When Private Dinner feels too loose in Lima, Fanju app starts with..."
 description: "In Lima, the first Private Dinner often feels like an experiment—polite, a little cautious, but open. The real test comes when someone considers returning."
 pageType: "city_article"
 priorityScore: 70

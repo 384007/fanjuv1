@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dallas/fundraising-dinner"
 alternatePath: "/city/dallas/fundraising-dinner"
 translationKey: "dallas-fundraising-dinner"
 lang: "en"
-title: "Why Fundraising Dinner in Dallas works better when Fanju app keeps the table small | fanju-app"
-description: "In Dallas, a fundraising dinner hosted through the Fanju app tends to succeed not because of grand gestures or high-volume networking, but because the app deliberately limits group size and structures the evening around"
+title: "Why Fundraising Dinner in Dallas works better when Fanju app keeps..."
+description: "In Dallas, a fundraising dinner hosted through the Fanju app tends to succeed not because of grand gestures or high-volume networking, but because the a…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/barcelona/neighborhood-dinner"
 alternatePath: "/city/barcelona/neighborhood-dinner"
 translationKey: "barcelona-neighborhood-dinner"
 lang: "en"
-title: "Barcelona strangers sit down easier when Fanju app frames the Neighborhood Dinner table first | fanju-app"
-description: "Barcelona moves at its own pace—lunch starts late, conversations meander, and social circles often form around long-standing neighbourhood ties. For someone new, or even a local looking to expand beyond familiar"
+title: "Barcelona strangers sit down easier when Fanju app frames the..."
+description: "Barcelona moves at its own pace—lunch starts late, conversations meander, and social circles often form around long-standing neighbourhood ties."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

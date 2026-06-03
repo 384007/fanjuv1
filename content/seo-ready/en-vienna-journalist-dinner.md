@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vienna/journalist-dinner"
 alternatePath: "/city/vienna/journalist-dinner"
 translationKey: "vienna-journalist-dinner"
 lang: "en"
-title: "Why Journalist Dinner in Vienna works better when Fanju app keeps the table small | fanju-app"
-description: "Vienna runs on formality masked as ease—the precise pour of a Einspänner, the numbered tram routes, the way a dinner invitation might arrive weeks in advance yet still feel provisional. For visiting or local"
+title: "Why Journalist Dinner in Vienna works better when Fanju app keeps..."
+description: "Vienna runs on formality masked as ease—the precise pour of a Einspänner, the numbered tram routes, the way a dinner invitation might arrive weeks in ad…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

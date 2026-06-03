@@ -4,7 +4,7 @@ canonicalPath: "/en/city/hangzhou/curated-dinner"
 alternatePath: "/city/hangzhou/curated-dinner"
 translationKey: "hangzhou-curated-dinner"
 lang: "en"
-title: "Hangzhou Curated Dinner Guide | Fanju app"
+title: "Hangzhou Curated Dinner Guide"
 titleZh: "Hangzhou Curated Dinner Guide"
 pageType: "city_landing"
 priorityScore: 50

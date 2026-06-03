@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dhaka/japanese-learner-dinner"
 alternatePath: "/city/dhaka/japanese-learner-dinner"
 translationKey: "dhaka-japanese-learner-dinner"
 lang: "en"
-title: "When Japanese Learner Dinner feels too loose in Dhaka, Fanju app starts with the table | fanju-app"
-description: "In Dhaka, where social rhythms are shaped by traffic, humidity, and the quiet urgency of people trying to connect across languages and routines, hosting a Japanese Learner Dinner is never just about food. I’ve hosted eno"
+title: "When Japanese Learner Dinner feels too loose in Dhaka, Fanju app..."
+description: "In Dhaka, where social rhythms are shaped by traffic, humidity, and the quiet urgency of people trying to connect across languages and routines, hosting…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

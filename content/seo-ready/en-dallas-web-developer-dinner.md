@@ -5,7 +5,7 @@ alternatePath: "/city/dallas/web-developer-dinner"
 translationKey: "dallas-web-developer-dinner"
 lang: "en"
 title: "Finding the Right Dallas Web Developer Dinner Through the Fanju app"
-description: "The opening moments of a Dallas Web Developer Dinner often set the tone for the entire night. In a modest restaurant near the Uptown neighbourhood, the host usually opens with a brief round of introductions that lasts"
+description: "The opening moments of a Dallas Web Developer Dinner often set the tone for the entire night."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/las-vegas/interior-designer-dinner"
 alternatePath: "/city/las-vegas/interior-designer-dinner"
 translationKey: "las-vegas-interior-designer-dinner"
 lang: "en"
-title: "Las Vegas Interior Designer Dinner: Fanju app, small tables, and real boundaries"
-description: "This table is ideal for professionals or serious enthusiasts in Las Vegas who want to discuss aesthetics, materials, or local projects over a quiet meal. If you value conversation that moves beyond small talk into"
+title: "Las Vegas Interior Designer Dinner: Fanju app, small tables, and..."
+description: "This table is ideal for professionals or serious enthusiasts in Las Vegas who want to discuss aesthetics, materials, or local projects over a quiet meal…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

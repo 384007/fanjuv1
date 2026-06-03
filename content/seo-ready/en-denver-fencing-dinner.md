@@ -4,8 +4,8 @@ canonicalPath: "/en/city/denver/fencing-dinner"
 alternatePath: "/city/denver/fencing-dinner"
 translationKey: "denver-fencing-dinner"
 lang: "en"
-title: "Denver does not need another vague invite; Fanju app makes Fencing Dinner specific | fanju-app"
-description: "In Denver, weekend plans often dissolve into half-texted messages and group chats that never settle on a time, let alone a place. The Fanju app changes that by turning uncertain hangouts into intentional gatherings—start"
+title: "Denver does not need another vague invite; Fanju app makes Fencing..."
+description: "In Denver, weekend plans often dissolve into half-texted messages and group chats that never settle on a time, let alone a place."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

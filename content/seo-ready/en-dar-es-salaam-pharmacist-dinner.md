@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dar-es-salaam/pharmacist-dinner"
 alternatePath: "/city/dar-es-salaam/pharmacist-dinner"
 translationKey: "dar-es-salaam-pharmacist-dinner"
 lang: "en"
-title: "When Pharmacist Dinner in Dar es Salaam needs more than a group chat, Fanju app starts with the table"
-description: "When searching for a Pharmacist Dinner in Dar es Salaam, the first thing a local reader should evaluate is the specificity of the host's note regarding the venue. A public venue type matters in Dar es Salaam because"
+title: "When Pharmacist Dinner in Dar es Salaam needs more than a group..."
+description: "When searching for a Pharmacist Dinner in Dar es Salaam, the first thing a local reader should evaluate is the specificity of the host's note regarding…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

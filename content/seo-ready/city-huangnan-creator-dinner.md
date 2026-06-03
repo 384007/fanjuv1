@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/huangnan/creator-dinner"
 alternatePath: "/en/city/huangnan/creator-dinner"
-title: "黄南创作者饭局指南 | fanju-app | 饭局app"
+title: "黄南创作者饭局指南"
 description: "在黄南的创作者饭局中，女性朋友可以放心地与同行交流、分享经验和建立友谊。通过饭局app，女性创作者可以找到同样热爱创作的朋友，共同探索黄南的美丽和文化。"
 recoveredFromD1: true
 ---

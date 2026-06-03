@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/baotou/industry-dinner"
 alternatePath: "/en/city/baotou/industry-dinner"
-title: "包头行业饭局指南 | fanju-app | 饭局app"
+title: "包头行业饭局指南"
 description: "在包头，一场精心策划的行业饭局，往往是建立深度连接的绝佳契机。饭局app / Fanju 致力于围绕小桌吃饭、清晰主题和线下连接，为用户提供一个真实、高效的社交平台。在这里，你可以找到志同道合的同行者，在轻松的氛围中交流思想，拓展人脉。本文将从包头小桌饭局的视角出发，为你解析其中的门道与乐趣。"
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/toronto/potluck-dinner"
 alternatePath: "/city/toronto/potluck-dinner"
 translationKey: "toronto-potluck-dinner"
 lang: "en"
-title: "After‑Work Stretch: Finding a Low‑Key Toronto Potluck Dinner with the Fanju app"
-description: "After the 5 p.m. rush, you may be tempted to head straight home, but a well‑matched potluck can turn the commute into a pleasant pause. Toronto’s diverse neighbourhoods mean that a dinner in the Annex feels different"
+title: "After‑Work Stretch: Finding a Low‑Key Toronto Potluck Dinner with..."
+description: "After the 5 p.m. rush, you may be tempted to head straight home, but a well‑matched potluck can turn the commute into a pleasant pause."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

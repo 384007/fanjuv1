@@ -4,8 +4,8 @@ canonicalPath: "/en/city/stockholm/coffee-lover-dinner"
 alternatePath: "/city/stockholm/coffee-lover-dinner"
 translationKey: "stockholm-coffee-lover-dinner"
 lang: "en"
-title: "Stockholm Coffee Lover Dinner: how Fanju app makes the table worth choosing | fanju-app"
-description: "Stockholm Coffee Lover Dinner through the Fanju app offers a small-table experience built around shared appreciation for brewing methods, bean origins, and quiet conversation—never forced bonding."
+title: "Stockholm Coffee Lover Dinner: how Fanju app makes the table worth..."
+description: "Stockholm Coffee Lover Dinner through the Fanju app offers a small-table experience built around shared appreciation for brewing methods, bean origins,…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

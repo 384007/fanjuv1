@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ho-chi-minh-city/equestrian-dinner"
 alternatePath: "/city/ho-chi-minh-city/equestrian-dinner"
 translationKey: "ho-chi-minh-city-equestrian-dinner"
 lang: "en"
-title: "For people trying Equestrian Dinner in Ho Chi Minh City, Fanju app puts the guest mix first | fanju-app"
-description: "If you're alone in Ho Chi Minh City after work and tired of scrolling through your phone at a corner café, the Fanju app offers a different rhythm—specifically for evenings like this. It doesn’t promise instant friendshi"
+title: "For people trying Equestrian Dinner in Ho Chi Minh City, Fanju app..."
+description: "If you're alone in Ho Chi Minh City after work and tired of scrolling through your phone at a corner café, the Fanju app offers a different rhythm—speci…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

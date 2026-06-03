@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/nagoya/third-place-dinner"
 alternatePath: "/city/nagoya/third-place-dinner"
-title: "Finding Community in Nagoya's Bustling Streets: How Fanju App's Small Dinners Can Help You Reconnect | fanju-app | 饭局app"
+title: "Finding Community in Nagoya's Bustling Streets: How Fanju App's..."
 description: "Discover the benefits of third place dinner in Nagoya, a city where social connections can be hard to come by."
 recoveredFromD1: true
 ---

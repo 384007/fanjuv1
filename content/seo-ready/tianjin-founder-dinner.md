@@ -4,7 +4,7 @@ canonicalPath: "/city/tianjin/founder-dinner"
 alternatePath: "/en/city/tianjin/founder-dinner"
 translationKey: "tianjin-founder-dinner"
 lang: "zh"
-title: "天津 founder dinner Guide | fanju-app | 饭局app"
+title: "天津 founder dinner Guide"
 titleZh: "天津founder-dinner指南"
 pageType: "city_landing"
 priorityScore: 68

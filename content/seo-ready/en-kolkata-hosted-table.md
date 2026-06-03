@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kolkata/hosted-table"
 alternatePath: "/city/kolkata/hosted-table"
 translationKey: "kolkata-hosted-table"
 lang: "en"
-title: "In Kolkata, Fanju app turns Hosted Table into a table people can actually trust | fanju-app"
-description: "The Fanju app in Kolkata connects people through small, thoughtfully hosted dinners where the food is specific, the setting is real, and the conversation isn’t forced. It’s not about large meetups or vague “cultural exch"
+title: "In Kolkata, Fanju app turns Hosted Table into a table people can..."
+description: "The Fanju app in Kolkata connects people through small, thoughtfully hosted dinners where the food is specific, the setting is real, and the conversatio…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

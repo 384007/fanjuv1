@@ -4,8 +4,8 @@ canonicalPath: "/en/city/copenhagen/electrical-engineer-dinner"
 alternatePath: "/city/copenhagen/electrical-engineer-dinner"
 translationKey: "copenhagen-electrical-engineer-dinner"
 lang: "en"
-title: "Copenhagen Electrical Engineer Dinner on the Fanju app: a private‑table after‑work plan"
-description: "The first decision point is whether the promise of a quiet table in Østerbro aligns with your schedule. After a long day at the office, many engineers need a simple, low‑key environment, and Østerbro’s residential cafés"
+title: "Copenhagen Electrical Engineer Dinner on the Fanju app: a..."
+description: "The first decision point is whether the promise of a quiet table in Østerbro aligns with your schedule."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96

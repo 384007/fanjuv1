@@ -5,7 +5,7 @@ alternatePath: "/city/seoul/supply-chain-dinner"
 translationKey: "seoul-supply-chain-dinner"
 lang: "en"
 title: "After‑Work Cross‑Town Pull: Seoul Supply Chain Dinner via Fanju app"
-description: "First‑timer hesitation often starts with the question of distance: “Will I have to cross town just to sit at a table I’ve never seen?” In Seoul, the city’s sprawling geography means a dinner in Gangnam might require a"
+description: "First‑timer hesitation often starts with the question of distance: “Will I have to cross town just to sit at a table I’ve never seen?” In Seoul, the cit…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vancouver/potluck-dinner"
 alternatePath: "/city/vancouver/potluck-dinner"
 translationKey: "vancouver-potluck-dinner"
 lang: "en"
-title: "Vancouver does not need another vague invite; Fanju app makes Potluck Dinner specific | fanju-app"
-description: "Vancouver’s evenings often dissolve into half-formed plans—someone says “maybe grab dinner sometime,” and it never lands. The Fanju app changes that. It turns “sometime” into a specific dinner, scheduled, named, and host"
+title: "Vancouver does not need another vague invite; Fanju app makes..."
+description: "Vancouver’s evenings often dissolve into half-formed plans—someone says “maybe grab dinner sometime,” and it never lands. The Fanju app changes that."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

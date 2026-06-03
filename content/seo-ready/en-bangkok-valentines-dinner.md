@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangkok/valentines-dinner"
 alternatePath: "/city/bangkok/valentines-dinner"
 translationKey: "bangkok-valentines-dinner"
 lang: "en"
-title: "What makes Valentines Dinner in Bangkok worth the risk; Fanju app answers before you arrive | fanju-app"
+title: "What makes Valentines Dinner in Bangkok worth the risk; Fanju app..."
 description: "Often, the decision to try something new in Bangkok hinges on that moment of hesitation. You might receive an invitation that sounds intriguing, perhaps a \"Valentines Dinner\" event. But the vagueness can be a barrier."
 pageType: "city_article"
 priorityScore: 70

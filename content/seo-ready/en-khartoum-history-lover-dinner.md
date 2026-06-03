@@ -4,8 +4,8 @@ canonicalPath: "/en/city/khartoum/history-lover-dinner"
 alternatePath: "/city/khartoum/history-lover-dinner"
 translationKey: "khartoum-history-lover-dinner"
 lang: "en"
-title: "For people trying History Lover Dinner in Khartoum, Fanju app puts the guest mix first | fanju-app"
-description: "A quiet dinner discussing the Ottoman administration of Sudan, held in a courtyard near the Blue Nile, is not a typical night out in Khartoum. But for women who value thoughtful conversation and a safe social rhythm, it’"
+title: "For people trying History Lover Dinner in Khartoum, Fanju app puts..."
+description: "A quiet dinner discussing the Ottoman administration of Sudan, held in a courtyard near the Blue Nile, is not a typical night out in Khartoum."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bogota/cooking-class-dinner"
 alternatePath: "/city/bogota/cooking-class-dinner"
 translationKey: "bogota-cooking-class-dinner"
 lang: "en"
-title: "A calmer way to approach Cooking Class Dinner in Bogota through Fanju app | fanju-app"
-description: "For founders, operators, and professionals in Bogota, the Fanju app offers a quieter alternative to forced networking events: a cooking class dinner that unfolds in someone’s home in Chapinero or Usaquén, where conversat"
+title: "A calmer way to approach Cooking Class Dinner in Bogota through..."
+description: "For founders, operators, and professionals in Bogota, the Fanju app offers a quieter alternative to forced networking events: a cooking class dinner tha…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

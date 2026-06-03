@@ -4,8 +4,8 @@ canonicalPath: "/en/city/cairo/side-hustle-dinner"
 alternatePath: "/city/cairo/side-hustle-dinner"
 translationKey: "cairo-side-hustle-dinner"
 lang: "en"
-title: "A clearer Side Hustle Dinner dinner in Cairo: Fanju app, small tables, and real boundaries"
-description: "In a city as vast and layered as Cairo, a generic invitation to meet often lacks the specific context needed to justify the effort of travel. When you look at a listing for a Side Hustle Dinner, the specific"
+title: "A clearer Side Hustle Dinner dinner in Cairo: Fanju app, small..."
+description: "In a city as vast and layered as Cairo, a generic invitation to meet often lacks the specific context needed to justify the effort of travel."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

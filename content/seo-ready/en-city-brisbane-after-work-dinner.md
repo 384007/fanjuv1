@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/brisbane/after-work-dinner"
 alternatePath: "/city/brisbane/after-work-dinner"
-title: "Discovering Brisbane's Vibrant After Work Dinner Scene with Fanju app | fanju-app | 饭局app"
+title: "Discovering Brisbane's Vibrant After Work Dinner Scene with Fanju app"
 description: "Join the city's professionals for a night of connection and community at an after work dinner in Brisbane, facilitated by Fanju app."
 recoveredFromD1: true
 ---

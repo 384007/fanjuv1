@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chicago/peer-learning-dinner"
 alternatePath: "/city/chicago/peer-learning-dinner"
 translationKey: "chicago-peer-learning-dinner"
 lang: "en"
-title: "Crossing the Chicago After‑Work Rush with a Fanju app Peer Learning Dinner"
-description: "The first thing to consider is how the dinner’s location aligns with your daily commute. If you finish work in the Loop and the table is set in a Lincoln Park restaurant, you’ll need to factor in the CTA’s evening"
+title: "Crossing the Chicago After‑Work Rush with a Fanju app Peer..."
+description: "The first thing to consider is how the dinner’s location aligns with your daily commute."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tokyo/curated-dinner"
 alternatePath: "/city/tokyo/curated-dinner"
 translationKey: "tokyo-curated-dinner"
 lang: "en"
-title: "Tokyo Curated Dinner Guide | Fanju app"
+title: "Tokyo Curated Dinner Guide"
 titleZh: "Tokyo Curated Dinner Guide"
 pageType: "city_landing"
 priorityScore: 50

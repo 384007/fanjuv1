@@ -4,8 +4,8 @@ canonicalPath: "/en/city/cairo/doctor-dinner"
 alternatePath: "/city/cairo/doctor-dinner"
 translationKey: "cairo-doctor-dinner"
 lang: "en"
-title: "In Cairo, Fanju app turns Doctor Dinner into a table people can actually trust | fanju-app"
-description: "In Cairo, where social rhythms blend formality with deep personal connection, the Fanju app has quietly reshaped how professionals gather over dinner. Doctor Dinner, once an informal idea passed through whispers in hospi"
+title: "In Cairo, Fanju app turns Doctor Dinner into a table people can..."
+description: "In Cairo, where social rhythms blend formality with deep personal connection, the Fanju app has quietly reshaped how professionals gather over dinner."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

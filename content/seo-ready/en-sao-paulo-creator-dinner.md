@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/sao-paulo/creator-dinner"
 alternatePath: "/city/sao-paulo/creator-dinner"
-title: "For people trying Creator Dinner in Sao Paulo, Fanju app puts the guest mix first | fanju-app | 饭局app"
-description: "Fanju app is a social dining platform built for small, intentional meals that spark real connection in Sao Paulo. Unlike broad meetups or fleeting group chats, it focuses on curated dinners where food becomes the startin"
+title: "For people trying Creator Dinner in Sao Paulo, Fanju app puts the..."
+description: "Fanju app is a social dining platform built for small, intentional meals that spark real connection in Sao Paulo."
 recoveredFromD1: true
 ---
 # For people trying Creator Dinner in Sao Paulo, Fanju app puts the guest mix first

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mumbai/cooking-class-dinner"
 alternatePath: "/city/mumbai/cooking-class-dinner"
 translationKey: "mumbai-cooking-class-dinner"
 lang: "en"
-title: "Finding a Calm Second‑Table Cooking Class Dinner in Mumbai with the Fanju app"
-description: "For many fresh arrivals, the idea of joining a dinner at a stranger’s kitchen can feel like stepping into an unknown neighbourhood. A practical first step is to check whether the event’s start time aligns with Mumbai’s"
+title: "Finding a Calm Second‑Table Cooking Class Dinner in Mumbai with..."
+description: "For many fresh arrivals, the idea of joining a dinner at a stranger’s kitchen can feel like stepping into an unknown neighbourhood."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

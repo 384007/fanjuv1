@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lisbon/media-dinner"
 alternatePath: "/city/lisbon/media-dinner"
 translationKey: "lisbon-media-dinner"
 lang: "en"
-title: "How Fanju app turns a Lisbon Media Dinner night into something worth showing up for | fanju-app"
-description: "Can a weeknight dinner in Lisbon feel less like networking and more like stepping into a conversation that was already waiting for you? For professionals winding down near Cais do Sodré or Alvalade, the Fanju app is quie"
+title: "How Fanju app turns a Lisbon Media Dinner night into something..."
+description: "Can a weeknight dinner in Lisbon feel less like networking and more like stepping into a conversation that was already waiting for you?"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

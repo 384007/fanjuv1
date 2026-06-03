@@ -4,8 +4,8 @@ canonicalPath: "/en/city/helsinki/luxury-dinner"
 alternatePath: "/city/helsinki/luxury-dinner"
 translationKey: "helsinki-luxury-dinner"
 lang: "en"
-title: "For Helsinki readers considering Luxury Dinner, Fanju app should make the room legible"
-description: "Fanju app functions as a social dining app that requires hosts to articulate the purpose of a gathering before guests apply. For a Luxury Dinner in Helsinki, this means the listing should explicitly state what makes the"
+title: "For Helsinki readers considering Luxury Dinner, Fanju app should..."
+description: "Fanju app functions as a social dining app that requires hosts to articulate the purpose of a gathering before guests apply."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

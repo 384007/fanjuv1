@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dhaka/badminton-dinner"
 alternatePath: "/city/dhaka/badminton-dinner"
 translationKey: "dhaka-badminton-dinner"
 lang: "en"
-title: "What makes Badminton Dinner in Dhaka worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "In Dhaka, a casual group dinner can easily become overwhelming—multiple conversations, unclear timing, and a sense that no one is quite leading the rhythm. Badminton Dinner works differently because it starts with"
+title: "What makes Badminton Dinner in Dhaka worth the risk; Fanju app..."
+description: "In Dhaka, a casual group dinner can easily become overwhelming—multiple conversations, unclear timing, and a sense that no one is quite leading the rhyt…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

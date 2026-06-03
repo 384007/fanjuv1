@@ -4,8 +4,8 @@ canonicalPath: "/en/city/toronto/advertising-dinner"
 alternatePath: "/city/toronto/advertising-dinner"
 translationKey: "toronto-advertising-dinner"
 lang: "en"
-title: "A Toronto dinner table for Advertising Dinner, with Fanju app boundaries up front"
-description: "Toronto is a city where professional circles often feel closed off to newcomers, making an Advertising Dinner feel like a potential entry point rather than just another meal. When you look at a listing, you want to see"
+title: "A Toronto dinner table for Advertising Dinner, with Fanju app..."
+description: "Toronto is a city where professional circles often feel closed off to newcomers, making an Advertising Dinner feel like a potential entry point rather t…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

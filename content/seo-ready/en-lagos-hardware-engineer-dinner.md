@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lagos/hardware-engineer-dinner"
 alternatePath: "/city/lagos/hardware-engineer-dinner"
 translationKey: "lagos-hardware-engineer-dinner"
 lang: "en"
-title: "Lagos Hardware Engineer Dinner through Fanju app: the questions to answer before you sit down"
-description: "A strong listing for a Hardware Engineer Dinner in Lagos does not simply announce a topic; it frames a specific problem that the meal will solve. You are looking for a description that moves beyond generic networking"
+title: "Lagos Hardware Engineer Dinner through Fanju app: the questions to..."
+description: "A strong listing for a Hardware Engineer Dinner in Lagos does not simply announce a topic; it frames a specific problem that the meal will solve."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

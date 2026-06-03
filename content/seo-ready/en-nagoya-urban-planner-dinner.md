@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nagoya/urban-planner-dinner"
 alternatePath: "/city/nagoya/urban-planner-dinner"
 translationKey: "nagoya-urban-planner-dinner"
 lang: "en"
-title: "Nagoya has plenty of Urban Planner Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "In Nagoya, finding a dinner group for urban planners or design professionals doesn’t have to mean awkward networking or half-filled event pages. The real challenge isn’t access—it’s clarity. When you’re new to the city o"
+title: "Nagoya has plenty of Urban Planner Dinner options; Fanju app is..."
+description: "In Nagoya, finding a dinner group for urban planners or design professionals doesn’t have to mean awkward networking or half-filled event pages."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

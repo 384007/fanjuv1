@@ -4,8 +4,8 @@ canonicalPath: "/en/city/santiago/international-student-dinner"
 alternatePath: "/city/santiago/international-student-dinner"
 translationKey: "santiago-international-student-dinner"
 lang: "en"
-title: "Santiago International Student Dinner: how Fanju app makes the table worth choosing"
-description: "The initial ten minutes in a new city like Santiago can feel overwhelming, especially when meeting strangers for dinner. Fanju app's focus on pre-defined tables and hosts offers a structure that can ease this"
+title: "Santiago International Student Dinner: how Fanju app makes the..."
+description: "The initial ten minutes in a new city like Santiago can feel overwhelming, especially when meeting strangers for dinner."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

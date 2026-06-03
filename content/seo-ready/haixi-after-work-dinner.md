@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/haixi/after-work-dinner"
 alternatePath: "/en/city/haixi/after-work-dinner"
-title: "海西的私密饭局之旅：用饭局app找到你的小桌 | fanju-app"
+title: "海西的私密饭局之旅：用饭局app找到你的小桌"
 description: "海西的夜晚，城市的灯火通明，人们都在忙着自己的生活。然而，在这个繁华的城市里，有一群人在寻找一种更加私密、更加有意图的社交方式。他们想要在小桌上共享美食，建立深度的联系。饭局app正是为这些人而生的，它让你可以轻松找到适合你的小桌，享受私密"
 recoveredFromD1: true
 ---

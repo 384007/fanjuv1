@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kyoto/digital-detox-dinner"
 alternatePath: "/city/kyoto/digital-detox-dinner"
 translationKey: "kyoto-digital-detox-dinner"
 lang: "en"
-title: "Kyoto Digital Detox Dinner: Reconnect Without Screens in a City of Stillness | Fanju app"
-description: "Discover how small-table, screen-free dinners in Kyoto offer a meaningful way to meet people over dinner through quiet presence, not performance—hosted via the Fanju app with clear boundaries and cultural ease."
+title: "Kyoto Digital Detox Dinner: Reconnect Without Screens in a City of..."
+description: "Discover how small-table, screen-free dinners in Kyoto offer a meaningful way to meet people over dinner through quiet presence, not performance—hosted…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96

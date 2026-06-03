@@ -4,8 +4,8 @@ canonicalPath: "/en/city/doha/electrical-engineer-dinner"
 alternatePath: "/city/doha/electrical-engineer-dinner"
 translationKey: "doha-electrical-engineer-dinner"
 lang: "en"
-title: "Trusting the First Step: Doha Electrical Engineer Dinner on the Fanju app"
-description: "The first thing a guest notices is whether the venue matches the description. In Doha, public venues matter because strangers need to picture the room before joining; a hotel conference lounge feels different from a"
+title: "Trusting the First Step: Doha Electrical Engineer Dinner on the..."
+description: "The first thing a guest notices is whether the venue matches the description. In Doha, public venues matter because strangers need to picture the room b…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

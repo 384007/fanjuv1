@@ -4,8 +4,8 @@ canonicalPath: "/en/city/athens/verified-host-dinner"
 alternatePath: "/city/athens/verified-host-dinner"
 translationKey: "athens-verified-host-dinner"
 lang: "en"
-title: "Stepping Towards a Curated Athens Dinner: Is This Fanju app Verified Host Table Your Private Evening?"
-description: "The moment you approach a Fanju app Verified Host Dinner in Athens, a natural assessment begins: does this feel like the intimate, focused gathering you anticipated, or something else entirely? Many coming to these"
+title: "Stepping Towards a Curated Athens Dinner: Is This Fanju app..."
+description: "The moment you approach a Fanju app Verified Host Dinner in Athens, a natural assessment begins: does this feel like the intimate, focused gathering you…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/rio-de-janeiro/lunar-new-year-dinner"
 alternatePath: "/city/rio-de-janeiro/lunar-new-year-dinner"
 translationKey: "rio-de-janeiro-lunar-new-year-dinner"
 lang: "en"
-title: "Rio de Janeiro after work: how Fanju app makes Lunar New Year Dinner feel like a real room | fanju-app"
-description: "For many of us in Rio de Janeiro, the end of a demanding workday often brings a quiet apartment and the thought of another solitary meal. This year, however, the Lunar New Year season offers a different possibility. The"
+title: "Rio de Janeiro after work: how Fanju app makes Lunar New Year..."
+description: "For many of us in Rio de Janeiro, the end of a demanding workday often brings a quiet apartment and the thought of another solitary meal."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

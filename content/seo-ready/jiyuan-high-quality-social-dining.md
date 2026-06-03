@@ -4,9 +4,9 @@ canonicalPath: "/city/jiyuan/high-quality-social-dining"
 alternatePath: "/en/city/jiyuan/high-quality-social-dining"
 translationKey: "jiyuan-high-quality-social-dining"
 lang: "zh"
-title: "把济源高质量社交饭局坐成真实小桌，饭局app需要先说明什么 | fanju-app"
+title: "把济源高质量社交饭局坐成真实小桌，饭局app需要先说明什么"
 titleZh: "把济源高质量社交饭局坐成真实小桌，饭局app需要先说明什么"
-description: "在济源参加一场高质量社交饭局，饭局app不是相亲保证、不是随机群聊、不是无限刷资料。 它是一种围绕小桌吃饭、清晰主题和线下连接的社交方式，主理人设定具体话题，参与者提前报名，人数控制在6到8人之间，每个人都有机会表达，也保有退出空间。 济源的生活节奏偏稳，熟人社会痕迹明显，陌生饭局要成立，前提是信息足够透明——谁组织、在哪吃、为什么聚，这些不能靠猜。"
+description: "在济源参加一场高质量社交饭局，饭局app不是相亲保证、不是随机群聊、不是无限刷资料。 它是一种围绕小桌吃饭、清晰主题和线下连接的社交方式，主理人设定具体话题，参与者提前报名，人数控制在6到8人之间，每个人都有机会表达，也保有退出空间。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

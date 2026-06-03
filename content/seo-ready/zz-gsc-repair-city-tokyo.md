@@ -4,7 +4,7 @@ canonicalPath: "/city/tokyo"
 alternatePath: "/en/city/tokyo"
 translationKey: "gsc-repair-city-tokyo"
 lang: "zh"
-title: "东京饭局指南 | fanju-app | 饭局app"
+title: "东京饭局指南"
 description: "东京饭局页面帮助华人、留学生、职场人和新来东京的人通过 Fanju 了解同城小桌饭局的主题、报名和安全边界。"
 pageType: "city_landing"
 priorityScore: 82

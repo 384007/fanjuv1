@@ -4,8 +4,8 @@ canonicalPath: "/en/city/atlanta/community-dinner"
 alternatePath: "/city/atlanta/community-dinner"
 translationKey: "atlanta-community-dinner"
 lang: "en"
-title: "Community Dinner in Atlanta should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "In Atlanta, where neighborhoods stretch from historic in-town bungalows to high-rise condos echoing with new transplants, finding authentic connection can feel like searching for a single porch light in a sprawling skyli"
+title: "Community Dinner in Atlanta should not feel like a gamble; Fanju..."
+description: "In Atlanta, where neighborhoods stretch from historic in-town bungalows to high-rise condos echoing with new transplants, finding authentic connection c…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

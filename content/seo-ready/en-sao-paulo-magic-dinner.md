@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sao-paulo/magic-dinner"
 alternatePath: "/city/sao-paulo/magic-dinner"
 translationKey: "sao-paulo-magic-dinner"
 lang: "en"
-title: "Before the first message in Sao Paulo, Fanju app makes Magic Dinner feel like a real decision | fanju-app"
-description: "In Sao Paulo, where the city’s pulse often feels faster than any individual’s rhythm, the Fanju app quietly redefines how people connect—starting with dinner. It’s not about grand events or loud meetups, but a seated tab"
+title: "Before the first message in Sao Paulo, Fanju app makes Magic..."
+description: "In Sao Paulo, where the city’s pulse often feels faster than any individual’s rhythm, the Fanju app quietly redefines how people connect—starting with d…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

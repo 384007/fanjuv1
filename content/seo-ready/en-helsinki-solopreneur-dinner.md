@@ -4,8 +4,8 @@ canonicalPath: "/en/city/helsinki/solopreneur-dinner"
 alternatePath: "/city/helsinki/solopreneur-dinner"
 translationKey: "helsinki-solopreneur-dinner"
 lang: "en"
-title: "The Solopreneur Dinner table Helsinki actually needs is the one Fanju app describes up front | fanju-app"
-description: "Helsinki’s solopreneur scene thrives in quiet intensity—few grand gestures, but many late-night product tweaks, solo founder meetups that fizzle, and dinner invitations that never quite land with purpose. The Fanju app c"
+title: "The Solopreneur Dinner table Helsinki actually needs is the one..."
+description: "Helsinki’s solopreneur scene thrives in quiet intensity—few grand gestures, but many late-night product tweaks, solo founder meetups that fizzle, and di…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

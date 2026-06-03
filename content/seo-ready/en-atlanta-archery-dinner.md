@@ -4,8 +4,8 @@ canonicalPath: "/en/city/atlanta/archery-dinner"
 alternatePath: "/city/atlanta/archery-dinner"
 translationKey: "atlanta-archery-dinner"
 lang: "en"
-title: "Atlanta does not need another vague invite; Fanju app makes Archery Dinner specific | fanju-app"
-description: "Atlanta’s sprawl of highways, neighborhoods, and shifting routines can make connection feel like a game of chance. It’s easy to live here for years and still eat dinner alone in your apartment, scrolling past photos of p"
+title: "Atlanta does not need another vague invite; Fanju app makes..."
+description: "Atlanta’s sprawl of highways, neighborhoods, and shifting routines can make connection feel like a game of chance."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

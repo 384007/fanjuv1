@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lisbon/outdoor-adventure-dinner"
 alternatePath: "/city/lisbon/outdoor-adventure-dinner"
 translationKey: "lisbon-outdoor-adventure-dinner"
 lang: "en"
-title: "Bridging the Post-Work Silence: Finding Your Table for Outdoor Adventure Dinner in Lisbon with Fanju app"
-description: "Lisbon, with its stunning vistas and burgeoning digital nomad scene, presents a unique paradox: a city brimming with people, yet one where forging meaningful, consistent connections can still be a challenge,"
+title: "Bridging the Post-Work Silence: Finding Your Table for Outdoor..."
+description: "Lisbon, with its stunning vistas and burgeoning digital nomad scene, presents a unique paradox: a city brimming with people, yet one where forging meani…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 99

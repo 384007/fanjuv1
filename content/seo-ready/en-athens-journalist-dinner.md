@@ -4,8 +4,8 @@ canonicalPath: "/en/city/athens/journalist-dinner"
 alternatePath: "/city/athens/journalist-dinner"
 translationKey: "athens-journalist-dinner"
 lang: "en"
-title: "How Fanju app turns a Athens Journalist Dinner night into something worth showing up for | fanju-app"
-description: "In Athens, where late-afternoon light spills across quiet courtyards and the rhythm of post-work life leans toward solitary coffee or a quick bite at a corner kafeneio, the idea of gathering with fellow journalists—espec"
+title: "How Fanju app turns a Athens Journalist Dinner night into..."
+description: "In Athens, where late-afternoon light spills across quiet courtyards and the rhythm of post-work life leans toward solitary coffee or a quick bite at a…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

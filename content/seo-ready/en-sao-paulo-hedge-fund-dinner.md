@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sao-paulo/hedge-fund-dinner"
 alternatePath: "/city/sao-paulo/hedge-fund-dinner"
 translationKey: "sao-paulo-hedge-fund-dinner"
 lang: "en"
-title: "Why Hedge Fund Dinner in Sao Paulo works better when Fanju app keeps the table small | fanju-app"
-description: "In Sao Paulo, where weekend plans often dissolve into last-minute bar hops or silent group chats with no follow-through, a Hedge Fund Dinner organized through the Fanju app stands out by design. It’s not another networki"
+title: "Why Hedge Fund Dinner in Sao Paulo works better when Fanju app..."
+description: "In Sao Paulo, where weekend plans often dissolve into last-minute bar hops or silent group chats with no follow-through, a Hedge Fund Dinner organized t…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

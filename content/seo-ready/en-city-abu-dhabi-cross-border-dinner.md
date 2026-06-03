@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/abu-dhabi/cross-border-dinner"
 alternatePath: "/city/abu-dhabi/cross-border-dinner"
-title: "Embracing Cross Border Dinner in Abu Dhabi with Fanju app | fanju-app | 饭局app"
-description: "Join the movement to combat loneliness in Abu Dhabi with Fanju app's unique cross border dinner experience, where locals and expats come together to share stories and build connections over a delicious meal."
+title: "Embracing Cross Border Dinner in Abu Dhabi with Fanju app"
+description: "Join the movement to combat loneliness in Abu Dhabi with Fanju app's unique cross border dinner experience, where locals and expats come together to sha…"
 recoveredFromD1: true
 ---
 # Embracing Cross Border Dinner in Abu Dhabi with Fanju app

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/casablanca/language-exchange-dinner"
 alternatePath: "/city/casablanca/language-exchange-dinner"
 translationKey: "casablanca-language-exchange-dinner"
 lang: "en"
-title: "Casablanca has plenty of Language Exchange Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "In a city as layered as Casablanca, where French and Arabic swirl through the same afternoon breeze and Darija carries the rhythm of both markets and university courtyards, finding meaningful conversation can still feel"
+title: "Casablanca has plenty of Language Exchange Dinner options; Fanju..."
+description: "In a city as layered as Casablanca, where French and Arabic swirl through the same afternoon breeze and Darija carries the rhythm of both markets and un…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/surat/remote-worker-dinner"
 alternatePath: "/city/surat/remote-worker-dinner"
 translationKey: "surat-remote-worker-dinner"
 lang: "en"
-title: "A calmer way to approach Remote Worker Dinner in Surat through Fanju app | fanju-app"
-description: "Navigating the social landscape as a remote worker in Surat can sometimes feel isolating, but finding genuine connections doesn't have to be an ordeal. The Fanju app offers a streamlined approach to organizing and discov"
+title: "A calmer way to approach Remote Worker Dinner in Surat through..."
+description: "Navigating the social landscape as a remote worker in Surat can sometimes feel isolating, but finding genuine connections doesn't have to be an ordeal."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

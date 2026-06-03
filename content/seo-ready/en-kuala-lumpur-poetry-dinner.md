@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kuala-lumpur/poetry-dinner"
 alternatePath: "/city/kuala-lumpur/poetry-dinner"
 translationKey: "kuala-lumpur-poetry-dinner"
 lang: "en"
-title: "Kuala Lumpur Poetry Dinner on the Fanju app: Finding the right small‑table vibe"
-description: "When a table seats six to twelve people, each voice can shape the rhythm of the night. In Kuala Lumpur, the choice of neighbourhood—whether the venue sits in Bukit Bintang’s bustling lanes or the quieter streets of"
+title: "Kuala Lumpur Poetry Dinner on the Fanju app: Finding the right..."
+description: "When a table seats six to twelve people, each voice can shape the rhythm of the night."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

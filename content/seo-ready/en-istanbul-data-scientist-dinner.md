@@ -4,8 +4,8 @@ canonicalPath: "/en/city/istanbul/data-scientist-dinner"
 alternatePath: "/city/istanbul/data-scientist-dinner"
 translationKey: "istanbul-data-scientist-dinner"
 lang: "en"
-title: "When Data Scientist Dinner in Istanbul needs more than a group chat, Fanju app starts with the table"
-description: "A critical question to ask involves the specific sub-field of data science being discussed, whether it is machine learning engineering, data visualization, or academic research. Istanbul has a growing tech scene, but a"
+title: "When Data Scientist Dinner in Istanbul needs more than a group..."
+description: "A critical question to ask involves the specific sub-field of data science being discussed, whether it is machine learning engineering, data visualizati…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,9 +4,9 @@ canonicalPath: "/city/nyingchi/holiday-dinner"
 alternatePath: "/en/city/nyingchi/holiday-dinner"
 translationKey: "nyingchi-holiday-dinner"
 lang: "zh"
-title: "林芝的节假日饭局不该靠运气，饭局app把主理人和同桌放在最前面 | fanju-app"
+title: "林芝的节假日饭局不该靠运气，饭局app把主理人和同桌放在最前面"
 titleZh: "林芝的节假日饭局不该靠运气，饭局app把主理人和同桌放在最前面"
-description: "天刚擦黑，八仙桌上已经摆好四副碗筷，窗外是林芝河谷的晚风，屋檐下挂着半干的腊肉。 我站在门边犹豫了一下，背包还没放下，就有人笑着递来一双干净的木筷：“来得正好，汤刚煨开。 ”这不是民宿的家常饭，也不是景区边的流水席，而是一场通过饭局app报名的节假日饭局——六个人的小桌，主理人是本地做藏香手工艺的达瓦，主题是“用一顿晚饭讲讲林芝人过望果节的习惯”。"
+description: "天刚擦黑，八仙桌上已经摆好四副碗筷，窗外是林芝河谷的晚风，屋檐下挂着半干的腊肉。 我站在门边犹豫了一下，背包还没放下，就有人笑着递来一双干净的木筷：“来得正好，汤刚煨开。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96

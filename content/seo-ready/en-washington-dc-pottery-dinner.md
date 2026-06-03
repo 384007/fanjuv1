@@ -4,8 +4,8 @@ canonicalPath: "/en/city/washington-dc/pottery-dinner"
 alternatePath: "/city/washington-dc/pottery-dinner"
 translationKey: "washington-dc-pottery-dinner"
 lang: "en"
-title: "Washington DC strangers sit down easier when Fanju app frames the Pottery Dinner table first | fanju-app"
-description: "When you arrive in Washington DC with a suitcase and a new lease, it’s easy to feel surrounded by people and still eat dinner alone. Group chats buzz with event announcements, dating apps suggest matches based on proximi"
+title: "Washington DC strangers sit down easier when Fanju app frames the..."
+description: "When you arrive in Washington DC with a suitcase and a new lease, it’s easy to feel surrounded by people and still eat dinner alone."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

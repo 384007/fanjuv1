@@ -4,9 +4,9 @@ canonicalPath: "/city/nanyang/sports-coach-dinner"
 alternatePath: "/en/city/nanyang/sports-coach-dinner"
 translationKey: "nanyang-sports-coach-dinner"
 lang: "zh"
-title: "在南阳找一桌不尴尬的体育教练饭局，饭局app先解决什么 | fanju-app"
+title: "在南阳找一桌不尴尬的体育教练饭局，饭局app先解决什么"
 titleZh: "在南阳找一桌不尴尬的体育教练饭局，饭局app先解决什么"
-description: "在南阳，饭局app不是用来刷存在感的社交工具，而是试图把人真正带回饭桌的应用。 它不主打热闹的聚餐，而是聚焦在小桌、有主题、能对话的饭局上——比如一场体育教练之间的晚饭。 这座城市节奏舒缓，但人与人的连接并不松散。 体育教练们常在体校、场馆、社区中心活动，彼此有交集却少有深度交流。 饭局app在这里的作用，是让一次晚饭变成可预期、可信任的相遇。"
+description: "在南阳，饭局app不是用来刷存在感的社交工具，而是试图把人真正带回饭桌的应用。 它不主打热闹的聚餐，而是聚焦在小桌、有主题、能对话的饭局上——比如一场体育教练之间的晚饭。 这座城市节奏舒缓，但人与人的连接并不松散。 体育教练们常在体校、场馆、社区中心活动，彼此有交集却少有深度交流。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kuala-lumpur/ai-products-dinner"
 alternatePath: "/city/kuala-lumpur/ai-products-dinner"
 translationKey: "kuala-lumpur-ai-products-dinner"
 lang: "en"
-title: "Planning a Kuala Lumpur AI Products Dinner with Fanju app: Trust the Table Before the Weekend Starts"
-description: "A weekend decision in Kuala Lumpur often starts on Friday evening, when you compare a handful of social options against the inevitable traffic and the desire for a relaxed Saturday night. The AI Products Dinner promises"
+title: "Planning a Kuala Lumpur AI Products Dinner with Fanju app: Trust..."
+description: "A weekend decision in Kuala Lumpur often starts on Friday evening, when you compare a handful of social options against the inevitable traffic and the d…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/munich/curated-dinner"
 alternatePath: "/city/munich/curated-dinner"
 translationKey: "munich-curated-dinner"
 lang: "en"
-title: "Munich Curated Dinner through the Fanju app: a second‑table invitation after work"
-description: "The first thing to notice is how the curated dinner aligns with Munich’s vibrant food culture, especially after the workday ends. In the Viktualienmarkt neighbourhood, many hosts choose a small table near the market"
+title: "Munich Curated Dinner through the Fanju app: a second‑table..."
+description: "The first thing to notice is how the curated dinner aligns with Munich’s vibrant food culture, especially after the workday ends."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

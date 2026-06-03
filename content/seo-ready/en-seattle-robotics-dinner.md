@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seattle/robotics-dinner"
 alternatePath: "/city/seattle/robotics-dinner"
 translationKey: "seattle-robotics-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Seattle Robotics Dinner table before the first course"
-description: "When you look at a listing for a Robotics Dinner in Seattle, the host note needs to do more than just state the obvious category name. A credible host will explain why this specific topic resonates with the local tech"
+title: "The Fanju app way to judge a Seattle Robotics Dinner table before..."
+description: "When you look at a listing for a Robotics Dinner in Seattle, the host note needs to do more than just state the obvious category name."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

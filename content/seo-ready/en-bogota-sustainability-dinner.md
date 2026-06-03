@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bogota/sustainability-dinner"
 alternatePath: "/city/bogota/sustainability-dinner"
 translationKey: "bogota-sustainability-dinner"
 lang: "en"
-title: "Bogota Sustainability Dinner through Fanju app: the questions to answer before you sit down"
-description: "In a sprawling metropolis like Bogota, the specific choice of venue transforms a generic category into a distinct event. A Sustainability Dinner held in a quiet, established restaurant in the Zona G feels vastly"
+title: "Bogota Sustainability Dinner through Fanju app: the questions to..."
+description: "In a sprawling metropolis like Bogota, the specific choice of venue transforms a generic category into a distinct event."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

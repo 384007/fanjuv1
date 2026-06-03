@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/dar-es-salaam/downtown-dinner"
 alternatePath: "/city/dar-es-salaam/downtown-dinner"
-title: "Dar es Salaam Downtown Dinner Guide | Fanju app"
-description: "Discover the best of Dar es Salaam's downtown dining scene with Fanju app, a social dining app for small, clearly described meals and real-world connections."
+title: "Dar es Salaam Downtown Dinner Guide"
+description: "Discover the best of Dar es Salaam's downtown dining scene with Fanju app, a social dining app for small, clearly described meals and real-world connect…"
 recoveredFromD1: true
 ---
 Dar es Salaam, the largest city in Tanzania, is a bustling metropolis with a rich cultural heritage. Its downtown area is a hub of activity, with a diverse range of restaurants, cafes, and bars serving everything from traditional Tanzanian cuisine to international flavors. But with so many options to choose from, it can be hard to know where to start. That&#039;s where Fanju app comes in - a social dining app that connects people who share a passion for good food and meaningful connections.

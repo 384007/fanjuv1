@@ -4,8 +4,8 @@ canonicalPath: "/en/city/khartoum/side-hustle-dinner"
 alternatePath: "/city/khartoum/side-hustle-dinner"
 translationKey: "khartoum-side-hustle-dinner"
 lang: "en"
-title: "Khartoum Side Hustle Dinner through Fanju app: the questions to answer before you sit down"
-description: "When you look for what Fanju means in the context of a Side Hustle Dinner in Khartoum, the primary task is determining if the table matches your specific goals for the evening. Fanju app functions as a bridge that"
+title: "Khartoum Side Hustle Dinner through Fanju app: the questions to..."
+description: "When you look for what Fanju means in the context of a Side Hustle Dinner in Khartoum, the primary task is determining if the table matches your specifi…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

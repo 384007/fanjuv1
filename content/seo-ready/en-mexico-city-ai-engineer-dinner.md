@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mexico-city/ai-engineer-dinner"
 alternatePath: "/city/mexico-city/ai-engineer-dinner"
 translationKey: "mexico-city-ai-engineer-dinner"
 lang: "en"
-title: "When AI Engineer Dinner in Mexico City needs more than a group chat, Fanju app starts with the table"
-description: "Standing outside a restaurant in Roma Norte or Condesa, checking your phone one last time, you need more than just an address to feel comfortable walking in. A credible listing for an AI Engineer Dinner in Mexico City"
+title: "When AI Engineer Dinner in Mexico City needs more than a group..."
+description: "Standing outside a restaurant in Roma Norte or Condesa, checking your phone one last time, you need more than just an address to feel comfortable walkin…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

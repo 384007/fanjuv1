@@ -4,8 +4,8 @@ canonicalPath: "/en/city/jakarta/fashion-lover-dinner"
 alternatePath: "/city/jakarta/fashion-lover-dinner"
 translationKey: "jakarta-fashion-lover-dinner"
 lang: "en"
-title: "When the weekend dinner feels risky, Jakarta’s Fanju app brings a fashion‑focused table you can trust"
-description: "Comfort starts with knowing how long the evening will run. Jakarta traffic can turn a short outing into a marathon if the host leaves the exit time vague. A reliable listing will state the start window, the expected"
+title: "When the weekend dinner feels risky, Jakarta’s Fanju app brings a..."
+description: "Comfort starts with knowing how long the evening will run. Jakarta traffic can turn a short outing into a marathon if the host leaves the exit time vagu…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

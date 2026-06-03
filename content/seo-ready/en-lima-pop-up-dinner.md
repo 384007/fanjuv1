@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lima/pop-up-dinner"
 alternatePath: "/city/lima/pop-up-dinner"
 translationKey: "lima-pop-up-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Lima Pop Up Dinner table before the first course"
-description: "Understanding the Fanju app's purpose is key to navigating its Pop Up Dinner offerings in Lima. It positions itself as a platform for those seeking more structured social gatherings than typical online meetups. The"
+title: "The Fanju app way to judge a Lima Pop Up Dinner table before the..."
+description: "Understanding the Fanju app's purpose is key to navigating its Pop Up Dinner offerings in Lima."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

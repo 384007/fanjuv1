@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/riyadh/after-work-dinner"
 alternatePath: "/city/riyadh/after-work-dinner"
-title: "Finding Comfort in Riyadh's Dinner Scene with Fanju App | fanju-app | 饭局app"
+title: "Finding Comfort in Riyadh's Dinner Scene with Fanju App"
 description: "Discover the women-friendly world of social dining in Riyadh, where small tables and real connections await."
 recoveredFromD1: true
 ---

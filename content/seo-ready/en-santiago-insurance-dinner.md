@@ -4,8 +4,8 @@ canonicalPath: "/en/city/santiago/insurance-dinner"
 alternatePath: "/city/santiago/insurance-dinner"
 translationKey: "santiago-insurance-dinner"
 lang: "en"
-title: "Santiago after work: how Fanju app makes Insurance Dinner feel like a real room | fanju-app"
-description: "Santiago’s rhythm after work is uneven. Some dash from offices in Providencia to catch the metro before the rush deepens. Others linger in cafés near Bellavista, waiting for the evening to settle. In that in-between"
+title: "Santiago after work: how Fanju app makes Insurance Dinner feel..."
+description: "Santiago’s rhythm after work is uneven. Some dash from offices in Providencia to catch the metro before the rush deepens."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

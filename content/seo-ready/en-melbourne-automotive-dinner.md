@@ -4,8 +4,8 @@ canonicalPath: "/en/city/melbourne/automotive-dinner"
 alternatePath: "/city/melbourne/automotive-dinner"
 translationKey: "melbourne-automotive-dinner"
 lang: "en"
-title: "A Thursday night in Fitzroy: navigating a Melbourne Automotive Dinner with Fanju app for a calm, safe table"
-description: "When you consider a dinner of gearheads in Melbourne, the first question is whether the setting feels safe enough to sit down with strangers. A clear venue type, a disclosed group size, and a host who explains why the"
+title: "A Thursday night in Fitzroy: navigating a Melbourne Automotive..."
+description: "When you consider a dinner of gearheads in Melbourne, the first question is whether the setting feels safe enough to sit down with strangers."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

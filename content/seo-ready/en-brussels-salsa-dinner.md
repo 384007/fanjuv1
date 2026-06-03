@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/salsa-dinner"
 alternatePath: "/city/brussels/salsa-dinner"
 translationKey: "brussels-salsa-dinner"
 lang: "en"
-title: "Before joining Salsa Dinner in Brussels, what Fanju app should make clear | fanju-app"
-description: "Salsa Dinner in Brussels through the Fanju app offers a small-table dinner with a clear rhythm—conversation over empanadas, a shared interest in salsa music or dance, and a host who sets tone and timing."
+title: "Before joining Salsa Dinner in Brussels, what Fanju app should..."
+description: "Salsa Dinner in Brussels through the Fanju app offers a small-table dinner with a clear rhythm—conversation over empanadas, a shared interest in salsa m…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

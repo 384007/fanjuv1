@@ -4,8 +4,8 @@ canonicalPath: "/en/city/luanda/rowing-dinner"
 alternatePath: "/city/luanda/rowing-dinner"
 translationKey: "luanda-rowing-dinner"
 lang: "en"
-title: "For Luanda readers considering Rowing Dinner, Fanju app should make the room legible"
-description: "When you look at a Rowing Dinner listing in Luanda, the description should immediately ground you in a specific part of the city, perhaps near the Ilha do Cabo or Talatona, rather than floating in a generic digital"
+title: "For Luanda readers considering Rowing Dinner, Fanju app should..."
+description: "When you look at a Rowing Dinner listing in Luanda, the description should immediately ground you in a specific part of the city, perhaps near the Ilha…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

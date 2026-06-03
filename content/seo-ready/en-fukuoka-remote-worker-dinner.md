@@ -4,8 +4,8 @@ canonicalPath: "/en/city/fukuoka/remote-worker-dinner"
 alternatePath: "/city/fukuoka/remote-worker-dinner"
 translationKey: "fukuoka-remote-worker-dinner"
 lang: "en"
-title: "Fukuoka strangers sit down easier when Fanju app frames the Remote Worker Dinner table first | fanju-app"
-description: "In a city where food plays such a big role in the culture, it's no surprise that dinner is the perfect setting for socializing. From the famous tonkotsu ramen to the freshest sushi, Fukuoka's culinary scene is the perfec"
+title: "Fukuoka strangers sit down easier when Fanju app frames the Remote..."
+description: "In a city where food plays such a big role in the culture, it's no surprise that dinner is the perfect setting for socializing."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

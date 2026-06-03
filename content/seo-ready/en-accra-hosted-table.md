@@ -4,8 +4,8 @@ canonicalPath: "/en/city/accra/hosted-table"
 alternatePath: "/city/accra/hosted-table"
 translationKey: "accra-hosted-table"
 lang: "en"
-title: "Accra has plenty of Hosted Table options; Fanju app is the one that names the table first | fanju-app"
-description: "Arriving in Accra this month, you’re likely balancing excitement with the quiet pressure to connect. The city pulses with rhythm—tropical light, market energy, the ease of shared laughter in open-air spots like Chale Wot"
+title: "Accra has plenty of Hosted Table options; Fanju app is the one..."
+description: "Arriving in Accra this month, you’re likely balancing excitement with the quiet pressure to connect."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

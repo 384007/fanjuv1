@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nagoya/post-pandemic-social-dinner"
 alternatePath: "/city/nagoya/post-pandemic-social-dinner"
 translationKey: "nagoya-post-pandemic-social-dinner"
 lang: "en"
-title: "Why Post Pandemic Social Dinner in Nagoya works better when Fanju app keeps the table small | fanju-app"
-description: "In Nagoya, where social rhythms have shifted quietly but deeply since the pandemic, the return to shared meals has been cautious—especially for women reevaluating comfort, safety, and the meaning of casual connection. Th"
+title: "Why Post Pandemic Social Dinner in Nagoya works better when Fanju..."
+description: "In Nagoya, where social rhythms have shifted quietly but deeply since the pandemic, the return to shared meals has been cautious—especially for women re…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

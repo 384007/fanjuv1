@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vancouver/fashion-lover-dinner"
 alternatePath: "/city/vancouver/fashion-lover-dinner"
 translationKey: "vancouver-fashion-lover-dinner"
 lang: "en"
-title: "Fashion Lover Dinner in Vancouver should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "Dining in Vancouver as a fashion enthusiast shouldn’t mean taking a social risk every time you accept an invite. The city’s creative energy draws people who care about aesthetics, self-expression, and thoughtful gatherin"
+title: "Fashion Lover Dinner in Vancouver should not feel like a gamble;..."
+description: "Dining in Vancouver as a fashion enthusiast shouldn’t mean taking a social risk every time you accept an invite."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

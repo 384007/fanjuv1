@@ -4,8 +4,8 @@ canonicalPath: "/en/city/houston/interior-designer-dinner"
 alternatePath: "/city/houston/interior-designer-dinner"
 translationKey: "houston-interior-designer-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Houston Interior Designer Dinner table before the first course"
-description: "You have just arrived in Houston, perhaps for a project or a new life chapter, and the meal is winding down. The anxiety for many newcomers is not the food, but what happens after the check arrives. A high-quality"
+title: "The Fanju app way to judge a Houston Interior Designer Dinner..."
+description: "You have just arrived in Houston, perhaps for a project or a new life chapter, and the meal is winding down."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

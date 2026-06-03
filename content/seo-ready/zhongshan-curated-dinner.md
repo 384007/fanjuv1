@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/zhongshan/curated-dinner"
 alternatePath: "/en/city/zhongshan/curated-dinner"
-title: "在中山找一桌不尴尬的高端饭局，饭局app先解决什么 | fanju-app"
+title: "在中山找一桌不尴尬的高端饭局，饭局app先解决什么"
 description: "在中山，一场真正算得上“高端”的饭局，不只是换个贵的餐厅、上几道少见的菜。有些人坐在桌边，明明环境安静、服务周到，却还是觉得拘谨、话讲不出口，像在等别人开场。饭局app在这座城市做的，不是拉人拼饭，而是让每一次晚饭都成为可预期、有节奏、讲默"
 recoveredFromD1: true
 ---

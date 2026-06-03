@@ -4,7 +4,7 @@ canonicalPath: "/en/city/pune/loneliness-solution-dinner"
 alternatePath: "/city/pune/loneliness-solution-dinner"
 translationKey: "pune-loneliness-solution-dinner"
 lang: "en"
-title: "A clearer Loneliness Solution Dinner dinner in Pune: Fanju app, small tables, and real boundaries"
+title: "A clearer Loneliness Solution Dinner dinner in Pune: Fanju app,..."
 description: "You need to know if the effort to cross town is worth the reward. Pune traffic can be unforgiving, so the \"why\" must be compelling enough to justify the commute. If the host cannot articulate what makes this specific"
 pageType: "city_article"
 priorityScore: 70

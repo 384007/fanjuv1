@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/manila/film-dinner"
 alternatePath: "/city/manila/film-dinner"
-title: "Manila Film Dinner Guide | Fanju app"
-description: "Plan a unique and memorable film dinner experience in Manila with Fanju app, a social dining app that connects people for small, clearly described meals and real-world connections."
+title: "Manila Film Dinner Guide"
+description: "Plan a unique and memorable film dinner experience in Manila with Fanju app, a social dining app that connects people for small, clearly described meals…"
 recoveredFromD1: true
 ---
 Manila, a vibrant and bustling metropolis, is a city that seamlessly blends tradition and modernity. Its rich cultural heritage, stunning architecture, and warm hospitality make it an ideal destination for travelers and locals alike. When it comes to social dining, Manila offers a unique and exciting experience that combines good food, great company, and a touch of adventure. In this guide, we will explore the world of film dinners in Manila, a concept that has gained popularity in recent years.

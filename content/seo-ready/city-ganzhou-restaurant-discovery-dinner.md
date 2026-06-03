@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/ganzhou/restaurant-discovery-dinner"
 alternatePath: "/en/city/ganzhou/restaurant-discovery-dinner"
-title: "赣州餐厅探索饭局指南 | fanju-app | 饭局app"
+title: "赣州餐厅探索饭局指南"
 description: "在赣州的饭局探索中，Fanju 是一个不错的选择。通过它，能够与同事、朋友或新认识的人共享美食和话题。"
 recoveredFromD1: true
 ---

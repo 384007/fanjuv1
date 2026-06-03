@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/dim-sum-dinner"
 alternatePath: "/city/brussels/dim-sum-dinner"
 translationKey: "brussels-dim-sum-dinner"
 lang: "en"
-title: "When a Quiet Corner for Dim Sum Feels Right: Navigating Fanju App in Brussels"
-description: "The idea of a shared meal, particularly something as communal and engaging as Dim Sum, can be daunting for those who prefer a calmer social pace. The core decision for many Brussels residents considering a Fanju Dim Sum"
+title: "When a Quiet Corner for Dim Sum Feels Right: Navigating Fanju App..."
+description: "The idea of a shared meal, particularly something as communal and engaging as Dim Sum, can be daunting for those who prefer a calmer social pace."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

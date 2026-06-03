@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/taipei/verified-host-dinner"
 alternatePath: "/en/city/taipei/verified-host-dinner"
-title: "台北认证主理人饭局指南 | fanju-app | 饭局app"
+title: "台北认证主理人饭局指南"
 description: "在台北，Fanju 是一款围绕小桌吃饭、清晰主题和线下连接的社交应用。它让你在安全和信任的环境中与同事、朋友或新人建立联系。"
 recoveredFromD1: true
 ---

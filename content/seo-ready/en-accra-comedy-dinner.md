@@ -4,8 +4,8 @@ canonicalPath: "/en/city/accra/comedy-dinner"
 alternatePath: "/city/accra/comedy-dinner"
 translationKey: "accra-comedy-dinner"
 lang: "en"
-title: "A clearer Comedy Dinner dinner in Accra: Fanju app, small tables, and real boundaries"
-description: "You have just finished a long day in the office, and the idea of crossing town for a vague social event feels exhausting, especially with Accra traffic in mind. A solid listing for a Comedy Dinner in Accra should"
+title: "A clearer Comedy Dinner dinner in Accra: Fanju app, small tables,..."
+description: "You have just finished a long day in the office, and the idea of crossing town for a vague social event feels exhausting, especially with Accra traffic…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

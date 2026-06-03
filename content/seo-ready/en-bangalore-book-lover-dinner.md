@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bangalore/book-lover-dinner"
 alternatePath: "/city/bangalore/book-lover-dinner"
 translationKey: "bangalore-book-lover-dinner"
 lang: "en"
-title: "For people trying Book Lover Dinner in Bangalore, Fanju app puts the guest mix first | fanju-app"
-description: "The after-work pause moment is critical in Bangalore. By 7:30 PM, after a day that likely included Koramangala traffic or Whitefield commutes, deciding whether to go to a dinner with strangers feels less like"
+title: "For people trying Book Lover Dinner in Bangalore, Fanju app puts..."
+description: "The after-work pause moment is critical in Bangalore. By 7:30 PM, after a day that likely included Koramangala traffic or Whitefield commutes, deciding…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

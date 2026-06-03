@@ -4,8 +4,8 @@ canonicalPath: "/en/city/athens/researcher-dinner"
 alternatePath: "/city/athens/researcher-dinner"
 translationKey: "athens-researcher-dinner"
 lang: "en"
-title: "In Athens, Fanju app turns Researcher Dinner into a table people can actually trust | fanju-app"
-description: "In Athens, where conversations about food often circle back to authenticity, the Researcher Dinner has quietly become a way for people to explore what’s genuinely local—not just what’s promoted. But with informal dinners"
+title: "In Athens, Fanju app turns Researcher Dinner into a table people..."
+description: "In Athens, where conversations about food often circle back to authenticity, the Researcher Dinner has quietly become a way for people to explore what’s…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

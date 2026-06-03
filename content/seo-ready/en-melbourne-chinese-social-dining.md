@@ -4,8 +4,8 @@ canonicalPath: "/en/city/melbourne/chinese-social-dining"
 alternatePath: "/city/melbourne/chinese-social-dining"
 translationKey: "melbourne-chinese-social-dining"
 lang: "en"
-title: "Melbourne does not need another vague invite; Fanju app makes Chinese Social Dining specific | fanju-app"
-description: "Fanju app helps people in Melbourne find and join small, intentional Chinese social dining gatherings where the purpose, guest mix, and setting are clearly described before the night begins. In a city where dinner plans"
+title: "Melbourne does not need another vague invite; Fanju app makes..."
+description: "Fanju app helps people in Melbourne find and join small, intentional Chinese social dining gatherings where the purpose, guest mix, and setting are clea…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

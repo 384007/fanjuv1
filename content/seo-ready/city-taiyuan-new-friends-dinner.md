@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/taiyuan/new-friends-dinner"
 alternatePath: "/en/city/taiyuan/new-friends-dinner"
-title: "太原新朋友饭局指南：重启线下社交的温暖邀约 | fanju-app | 饭局app"
+title: "太原新朋友饭局指南：重启线下社交的温暖邀约"
 description: "在经历了漫长的线上互动后，太原的线下社交正悄然复苏。饭局app / Fanju 致力于通过小桌、清晰主题和真实连接，帮助大家重新找回面对面的温暖。如果你想在太原结识新朋友，探索这座城市的烟火气，那么一场精心策划的新朋友饭局或许是你的理想选择。它不仅仅是一顿饭，更是重新打开生活、建立真实连接的契机。"
 recoveredFromD1: true
 ---

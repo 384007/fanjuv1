@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/vc-dinner"
 alternatePath: "/city/brussels/vc-dinner"
 translationKey: "brussels-vc-dinner"
 lang: "en"
-title: "In Brussels, Fanju app turns VC Dinner into a table people can actually trust | fanju-app"
-description: "In Brussels, Fanju app makes a VC dinner feel specific by showing host intent, guest mix, venue signals, timing, and the trust details newcomers need before joining a small table."
+title: "In Brussels, Fanju app turns VC Dinner into a table people can..."
+description: "In Brussels, Fanju app makes a VC dinner feel specific by showing host intent, guest mix, venue signals, timing, and the trust details newcomers need be…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

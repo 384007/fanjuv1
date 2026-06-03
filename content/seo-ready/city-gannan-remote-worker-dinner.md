@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/gannan/remote-worker-dinner"
 alternatePath: "/en/city/gannan/remote-worker-dinner"
-title: "甘南远程工作者饭局指南 | fanju-app | 饭局app"
+title: "甘南远程工作者饭局指南"
 description: "在甘南重新打开线下生活的方式，适合远程工作者的饭局app"
 recoveredFromD1: true
 ---

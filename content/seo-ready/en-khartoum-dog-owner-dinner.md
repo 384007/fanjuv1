@@ -4,8 +4,8 @@ canonicalPath: "/en/city/khartoum/dog-owner-dinner"
 alternatePath: "/city/khartoum/dog-owner-dinner"
 translationKey: "khartoum-dog-owner-dinner"
 lang: "en"
-title: "A calmer way to approach Dog Owner Dinner in Khartoum through Fanju app | fanju-app"
-description: "Meeting people after work in Khartoum doesn’t have to mean crowded bars or long commutes home. For dog owners, the end of the workday often brings the same routine: walk the dog, eat alone, scroll through messages that n"
+title: "A calmer way to approach Dog Owner Dinner in Khartoum through..."
+description: "Meeting people after work in Khartoum doesn’t have to mean crowded bars or long commutes home."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

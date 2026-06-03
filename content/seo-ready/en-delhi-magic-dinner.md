@@ -5,7 +5,7 @@ alternatePath: "/city/delhi/magic-dinner"
 translationKey: "delhi-magic-dinner"
 lang: "en"
 title: "Delhi Magic Dinner decisions guided by the Fanju app"
-description: "Weekend diners in Delhi often face a split between a late‑night street food crawl and a quieter sit‑down experience. A Magic Dinner that starts at 8 pm fits neatly between rush‑hour traffic and the midnight lull, giving"
+description: "Weekend diners in Delhi often face a split between a late‑night street food crawl and a quieter sit‑down experience."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

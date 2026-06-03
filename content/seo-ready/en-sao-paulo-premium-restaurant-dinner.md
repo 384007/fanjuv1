@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sao-paulo/premium-restaurant-dinner"
 alternatePath: "/city/sao-paulo/premium-restaurant-dinner"
 translationKey: "sao-paulo-premium-restaurant-dinner"
 lang: "en"
-title: "In Sao Paulo, Fanju app turns Premium Restaurant Dinner into a table people can actually trust | fanju-app"
-description: "Arriving in a city like Sao Paulo, it’s easy to feel pulled in every direction. One message suggests a rooftop in Itaim Bibi, another promises a “hidden gem” in Liberdade with no address. The lack of specificity isn’t"
+title: "In Sao Paulo, Fanju app turns Premium Restaurant Dinner into a..."
+description: "Arriving in a city like Sao Paulo, it’s easy to feel pulled in every direction. One message suggests a rooftop in Itaim Bibi, another promises a “hidden…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

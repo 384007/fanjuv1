@@ -4,8 +4,8 @@ canonicalPath: "/en/city/madrid/copywriter-dinner"
 alternatePath: "/city/madrid/copywriter-dinner"
 translationKey: "madrid-copywriter-dinner"
 lang: "en"
-title: "The Copywriter Dinner table Madrid actually needs is the one Fanju app describes up front | fanju-app"
-description: "You’ve just landed in Madrid, unpacked near Malasaña, and opened Fanju app for the first time—looking not for a landmark or tapas queue, but for a table where words matter more than small talk. The city is loud with crea"
+title: "The Copywriter Dinner table Madrid actually needs is the one Fanju..."
+description: "You’ve just landed in Madrid, unpacked near Malasaña, and opened Fanju app for the first time—looking not for a landmark or tapas queue, but for a table…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

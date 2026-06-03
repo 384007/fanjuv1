@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/jinan/founder-dinner"
 alternatePath: "/en/city/jinan/founder-dinner"
-title: "济南下班后：用饭局app，告别独自回家的夜晚 | fanju-app"
+title: "济南下班后：用饭局app，告别独自回家的夜晚"
 description: "在济南，下班后不再是独自一人。饭局app为你连接一场场有温度的创业者饭局，让工作日的结束充满交流与可能。"
 recoveredFromD1: true
 ---

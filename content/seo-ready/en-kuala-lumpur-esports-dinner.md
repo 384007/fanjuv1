@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kuala-lumpur/esports-dinner"
 alternatePath: "/city/kuala-lumpur/esports-dinner"
 translationKey: "kuala-lumpur-esports-dinner"
 lang: "en"
-title: "When Esports Dinner feels too loose in Kuala Lumpur, Fanju app starts with the table | fanju-app"
-description: "Kuala Lumpur’s dining geography is layered. Bangsar and Mont’Kiara draw expat-heavy crowds where coworking spaces and digital agencies cluster, while Petaling Street and Chinatown host more ground-level commerce and"
+title: "When Esports Dinner feels too loose in Kuala Lumpur, Fanju app..."
+description: "Kuala Lumpur’s dining geography is layered. Bangsar and Mont’Kiara draw expat-heavy crowds where coworking spaces and digital agencies cluster, while Pe…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

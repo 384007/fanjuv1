@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seattle/saturday-dinner"
 alternatePath: "/city/seattle/saturday-dinner"
 translationKey: "seattle-saturday-dinner"
 lang: "en"
-title: "Before the first message in Seattle, Fanju app makes Saturday Dinner feel like a real decision | fanju-app"
-description: "For newcomers in Seattle, Saturday Dinner isn’t just about food. It’s the first chance to fill the quiet that follows long workweeks in a city where rain and routine can blur together. The Fanju app doesn’t promise insta"
+title: "Before the first message in Seattle, Fanju app makes Saturday..."
+description: "For newcomers in Seattle, Saturday Dinner isn’t just about food. It’s the first chance to fill the quiet that follows long workweeks in a city where rai…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

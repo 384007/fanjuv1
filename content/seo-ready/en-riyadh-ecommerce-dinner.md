@@ -4,8 +4,8 @@ canonicalPath: "/en/city/riyadh/ecommerce-dinner"
 alternatePath: "/city/riyadh/ecommerce-dinner"
 translationKey: "riyadh-ecommerce-dinner"
 lang: "en"
-title: "How Fanju app turns a Riyadh Ecommerce Dinner night into something worth showing up for | fanju-app"
-description: "Most social events in Riyadh start with a vague theme and a loose crowd, leaving newcomers guessing whether they’ll fit in or even recognize anyone. Ecommerce Dinner on Fanju app avoids that by requiring hosts to define"
+title: "How Fanju app turns a Riyadh Ecommerce Dinner night into something..."
+description: "Most social events in Riyadh start with a vague theme and a loose crowd, leaving newcomers guessing whether they’ll fit in or even recognize anyone."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

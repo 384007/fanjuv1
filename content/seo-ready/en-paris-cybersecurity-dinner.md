@@ -4,8 +4,8 @@ canonicalPath: "/en/city/paris/cybersecurity-dinner"
 alternatePath: "/city/paris/cybersecurity-dinner"
 translationKey: "paris-cybersecurity-dinner"
 lang: "en"
-title: "A clearer Cybersecurity Dinner dinner in Paris: Fanju app, small tables, and real boundaries"
-description: "For the solo traveler arriving in Paris, this level of detail is the difference between anxiety and being prepared. It allows you to visualize the conversation before you even book. When the description explicitly"
+title: "A clearer Cybersecurity Dinner dinner in Paris: Fanju app, small..."
+description: "For the solo traveler arriving in Paris, this level of detail is the difference between anxiety and being prepared."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

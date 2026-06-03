@@ -4,8 +4,8 @@ canonicalPath: "/en/city/new-york/book-lover-dinner"
 alternatePath: "/city/new-york/book-lover-dinner"
 translationKey: "new-york-book-lover-dinner"
 lang: "en"
-title: "A New York dinner table for Book Lover Dinner, with Fanju app boundaries up front"
-description: "In a city as vast as New York, a generic invitation to discuss literature often fails because it ignores the logistical reality of crossing boroughs. A strong listing for a Book Lover Dinner will anchor itself in a"
+title: "A New York dinner table for Book Lover Dinner, with Fanju app..."
+description: "In a city as vast as New York, a generic invitation to discuss literature often fails because it ignores the logistical reality of crossing boroughs."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

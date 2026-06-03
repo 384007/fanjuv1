@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lahore/english-speaking-dinner"
 alternatePath: "/city/lahore/english-speaking-dinner"
 translationKey: "lahore-english-speaking-dinner"
 lang: "en"
-title: "For people trying English Speaking Dinner in Lahore, Fanju app puts the guest mix first | fanju-app"
-description: "The Fanju app offers a simple way to join small, intentionally hosted dinners in Lahore where conversation—especially in English—is the main event. These are not large meetups or open parties, but intimate tables of five"
+title: "For people trying English Speaking Dinner in Lahore, Fanju app..."
+description: "The Fanju app offers a simple way to join small, intentionally hosted dinners in Lahore where conversation—especially in English—is the main event."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tehran/private-dinner"
 alternatePath: "/city/tehran/private-dinner"
 translationKey: "tehran-private-dinner"
 lang: "en"
-title: "Private Dinner in Tehran should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "In Tehran, a city where hospitality runs deep but social codes can feel opaque to newcomers, finding a genuine private dinner invitation used to mean relying on luck or long-standing connections. For expats and recent ar"
+title: "Private Dinner in Tehran should not feel like a gamble; Fanju app..."
+description: "In Tehran, a city where hospitality runs deep but social codes can feel opaque to newcomers, finding a genuine private dinner invitation used to mean re…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

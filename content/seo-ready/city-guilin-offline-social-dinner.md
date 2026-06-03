@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/guilin/offline-social-dinner"
 alternatePath: "/en/city/guilin/offline-social-dinner"
-title: "桂林线下社交饭局指南 | fanju-app | 饭局app"
+title: "桂林线下社交饭局指南"
 description: "桂林线下社交饭局指南，帮助你在下班后不再独自回家，通过饭局app发现新朋友和新体验。"
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/phoenix/badminton-dinner"
 alternatePath: "/city/phoenix/badminton-dinner"
 translationKey: "phoenix-badminton-dinner"
 lang: "en"
-title: "A Phoenix dinner table for Badminton Dinner, with Fanju app boundaries up front"
-description: "This Phoenix Badminton Dinner listing on Fanju aims to bring together individuals who appreciate the sport and enjoy a relaxed evening meal afterward. It's designed for those who prefer a structured social experience"
+title: "A Phoenix dinner table for Badminton Dinner, with Fanju app..."
+description: "This Phoenix Badminton Dinner listing on Fanju aims to bring together individuals who appreciate the sport and enjoy a relaxed evening meal afterward."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

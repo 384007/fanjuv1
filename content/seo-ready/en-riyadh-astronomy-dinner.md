@@ -5,7 +5,7 @@ alternatePath: "/city/riyadh/astronomy-dinner"
 translationKey: "riyadh-astronomy-dinner"
 lang: "en"
 title: "Should I trust the Riyadh Astronomy Dinner I found on Fanju app?"
-description: "Walking into a dimly lit restaurant in Riyadh with a telescope set on the table can feel like stepping onto a stage without a script. The host usually greets the group with a brief overview of the night’s sky, but the"
+description: "Walking into a dimly lit restaurant in Riyadh with a telescope set on the table can feel like stepping onto a stage without a script."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

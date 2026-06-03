@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mumbai/minimalist-dinner"
 alternatePath: "/city/mumbai/minimalist-dinner"
 translationKey: "mumbai-minimalist-dinner"
 lang: "en"
-title: "A clearer Minimalist Dinner dinner in Mumbai: Fanju app, small tables, and real boundaries"
-description: "The decision to leave the office and cross town in Mumbai traffic requires a compelling reason, and Fanju app provides this context upfront. Before anyone commits, the listing should articulate why this specific"
+title: "A clearer Minimalist Dinner dinner in Mumbai: Fanju app, small..."
+description: "The decision to leave the office and cross town in Mumbai traffic requires a compelling reason, and Fanju app provides this context upfront."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

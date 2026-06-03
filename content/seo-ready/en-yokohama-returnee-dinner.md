@@ -4,8 +4,8 @@ canonicalPath: "/en/city/yokohama/returnee-dinner"
 alternatePath: "/city/yokohama/returnee-dinner"
 translationKey: "yokohama-returnee-dinner"
 lang: "en"
-title: "Why Returnee Dinner in Yokohama works better when Fanju app keeps the table small | fanju-app"
-description: "It’s a Saturday evening in Yokohama, and Mina has just returned from five years in Melbourne. She scrolls through the Fanju app, not looking for a party or a bar crawl, but a dinner where she won’t have to perform. The a"
+title: "Why Returnee Dinner in Yokohama works better when Fanju app keeps..."
+description: "It’s a Saturday evening in Yokohama, and Mina has just returned from five years in Melbourne."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

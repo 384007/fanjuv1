@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kyoto/surfing-dinner"
 alternatePath: "/city/kyoto/surfing-dinner"
 translationKey: "kyoto-surfing-dinner"
 lang: "en"
-title: "A Kyoto dinner table for Surfing Dinner, with Fanju app boundaries up front"
-description: "A weekend in Kyoto deserves a dinner that feels intentional, not just a seat filler at a tourist spot. When looking at a Surfing Dinner listing, the first thing to check is how the host frames the evening within the"
+title: "A Kyoto dinner table for Surfing Dinner, with Fanju app boundaries..."
+description: "A weekend in Kyoto deserves a dinner that feels intentional, not just a seat filler at a tourist spot."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

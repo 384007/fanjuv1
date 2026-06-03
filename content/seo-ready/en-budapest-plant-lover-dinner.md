@@ -4,8 +4,8 @@ canonicalPath: "/en/city/budapest/plant-lover-dinner"
 alternatePath: "/city/budapest/plant-lover-dinner"
 translationKey: "budapest-plant-lover-dinner"
 lang: "en"
-title: "Budapest Plant Lover Dinner on Fanju app: Trusting the curated‑table standard"
-description: "Fanju app’s strength lies in its ability to surface small‑group tables that would otherwise stay hidden in a city as layered as Budapest. In Újlipótváros, where boutique restaurants often lack visible signage, the app"
+title: "Budapest Plant Lover Dinner on Fanju app: Trusting the..."
+description: "Fanju app’s strength lies in its ability to surface small‑group tables that would otherwise stay hidden in a city as layered as Budapest."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

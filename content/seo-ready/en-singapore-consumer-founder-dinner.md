@@ -4,8 +4,8 @@ canonicalPath: "/en/city/singapore/consumer-founder-dinner"
 alternatePath: "/city/singapore/consumer-founder-dinner"
 translationKey: "singapore-consumer-founder-dinner"
 lang: "en"
-title: "How Fanju app turns a Singapore Consumer Founder Dinner night into something worth showing up for | fanju-app"
-description: "The first time you see a Consumer Founder Dinner pop up on the Fanju app in Singapore, it looks quiet—no flashy promotion, no crowd shots, just a table of eight, a host name, and a neighborhood. You’re invited not becaus"
+title: "How Fanju app turns a Singapore Consumer Founder Dinner night into..."
+description: "The first time you see a Consumer Founder Dinner pop up on the Fanju app in Singapore, it looks quiet—no flashy promotion, no crowd shots, just a table…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

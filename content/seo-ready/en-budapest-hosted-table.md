@@ -4,8 +4,8 @@ canonicalPath: "/en/city/budapest/hosted-table"
 alternatePath: "/city/budapest/hosted-table"
 translationKey: "budapest-hosted-table"
 lang: "en"
-title: "For Budapest readers considering Hosted Table, Fanju app should make the room legible"
-description: "A weekend dinner in District VII or along the Danube bend often carries a specific rhythm that a generic listing misses. When you look for a Hosted Table in Budapest, the first signal is whether the description"
+title: "For Budapest readers considering Hosted Table, Fanju app should..."
+description: "A weekend dinner in District VII or along the Danube bend often carries a specific rhythm that a generic listing misses."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

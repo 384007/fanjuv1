@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nagoya/boxing-dinner"
 alternatePath: "/city/nagoya/boxing-dinner"
 translationKey: "nagoya-boxing-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Nagoya Boxing Dinner table before the first course"
-description: "When you are standing outside a restaurant in Nagoya, deciding whether to step inside, the specific wording of a listing often determines your confidence. A Boxing Dinner description that captures a specific"
+title: "The Fanju app way to judge a Nagoya Boxing Dinner table before the..."
+description: "When you are standing outside a restaurant in Nagoya, deciding whether to step inside, the specific wording of a listing often determines your confidenc…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

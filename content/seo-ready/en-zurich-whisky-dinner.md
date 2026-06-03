@@ -4,8 +4,8 @@ canonicalPath: "/en/city/zurich/whisky-dinner"
 alternatePath: "/city/zurich/whisky-dinner"
 translationKey: "zurich-whisky-dinner"
 lang: "en"
-title: "A Zurich dinner table for Whisky Dinner, with Fanju app boundaries up front"
-description: "Many people in Zurich hesitate to join a Whisky Dinner because they fear being trapped in a conversation that drags on too long. A good listing on Fanju app or offline dinner social platforms will explicitly state the"
+title: "A Zurich dinner table for Whisky Dinner, with Fanju app boundaries..."
+description: "Many people in Zurich hesitate to join a Whisky Dinner because they fear being trapped in a conversation that drags on too long."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

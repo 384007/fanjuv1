@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cape-town/local-food-dinner"
 alternatePath: "/city/cape-town/local-food-dinner"
-title: "Cape Town does not need another vague invite; Fanju app makes Local Food Dinner specific | fanju-app | 饭局app"
-description: "Fanju app connects people in Cape Town through small, intentional dinners hosted in homes, not restaurants, where the meal is a starting point for real conversation and neighbourhood familiarity. Unlike broad social apps"
+title: "Cape Town does not need another vague invite; Fanju app makes..."
+description: "Fanju app connects people in Cape Town through small, intentional dinners hosted in homes, not restaurants, where the meal is a starting point for real…"
 recoveredFromD1: true
 ---
 # Cape Town does not need another vague invite; Fanju app makes Local Food Dinner specific

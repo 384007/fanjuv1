@@ -4,8 +4,8 @@ canonicalPath: "/en/city/abu-dhabi/mindfulness-dinner"
 alternatePath: "/city/abu-dhabi/mindfulness-dinner"
 translationKey: "abu-dhabi-mindfulness-dinner"
 lang: "en"
-title: "An Abu Dhabi dinner table for Mindfulness Dinner, with Fanju app boundaries up front"
-description: "In a sprawling city like Abu Dhabi, it is easy for social events to feel like generic transactions, but a meaningful Mindfulness Dinner requires specific local grounding to combat the loneliness of urban life. You want"
+title: "An Abu Dhabi dinner table for Mindfulness Dinner, with Fanju app..."
+description: "In a sprawling city like Abu Dhabi, it is easy for social events to feel like generic transactions, but a meaningful Mindfulness Dinner requires specifi…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

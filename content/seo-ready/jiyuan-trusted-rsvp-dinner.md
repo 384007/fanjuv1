@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/jiyuan/trusted-rsvp-dinner"
 alternatePath: "/en/city/jiyuan/trusted-rsvp-dinner"
-title: "济源的一顿可信报名饭局，饭局app为什么先看人再看热闹 | fanju-app"
+title: "济源的一顿可信报名饭局，饭局app为什么先看人再看热闹"
 description: "在济源，一场饭局的开始，往往比热闹本身更值得关注。饭局app的出现，让人们有机会围绕着清晰的主题和线下连接，组建起一个个小桌，这不仅仅是简单的聚会，更是城市社区肌理的微观体现。它强调的是参与者之间的真实互动和对饭局边界的尊重，而非仅仅追求场"
 recoveredFromD1: true
 ---

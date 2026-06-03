@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/warsaw/curated-dinner"
 alternatePath: "/city/warsaw/curated-dinner"
-title: "Discovering Warsaw's Community through Curated Dinners with Fanju app | fanju-app | 饭局app"
+title: "Discovering Warsaw's Community through Curated Dinners with Fanju app"
 description: "Join Warsaw's vibrant community and make meaningful connections over a curated dinner experience, facilitated by Fanju app."
 recoveredFromD1: true
 ---

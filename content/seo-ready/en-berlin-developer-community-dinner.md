@@ -5,7 +5,7 @@ alternatePath: "/city/berlin/developer-community-dinner"
 translationKey: "berlin-developer-community-dinner"
 lang: "en"
 title: "Berlin Developer Community Dinner: Finding Your Table with Fanju App"
-description: "Fanju app aims to foster a specific kind of offline connection, moving beyond the digital realm to create real-world interactions. In the context of a Developer Community Dinner in Berlin, this means an emphasis on"
+description: "Fanju app aims to foster a specific kind of offline connection, moving beyond the digital realm to create real-world interactions."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

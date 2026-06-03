@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/liaoyang/chinese-social-dining"
 alternatePath: "/en/city/liaoyang/chinese-social-dining"
-title: "辽阳华人饭局指南 | fanju-app | 饭局app"
+title: "辽阳华人饭局指南"
 description: "在辽阳，一场精心策划的华人饭局，往往比喧嚣的聚会更能触及人心。饭局app / Fanju 致力于为追求深度交流和真实连接的用户提供一个平台，让每一次线下聚会都围绕着清晰的主题和高质量的小桌社交展开。如果你厌倦了泛泛之交，渴望在辽阳的街巷中寻觅志同道合的伙伴，那么，一场有温度的饭局或许正是你所期待的。"
 recoveredFromD1: true
 ---

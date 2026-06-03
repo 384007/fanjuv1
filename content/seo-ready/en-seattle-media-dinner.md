@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seattle/media-dinner"
 alternatePath: "/city/seattle/media-dinner"
 translationKey: "seattle-media-dinner"
 lang: "en"
-title: "Seattle has plenty of Media Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "Most social apps bury intention under layers of filters and vague event titles. In Seattle, where weather and neighborhood rhythm shape how people gather, that vagueness kills momentum. A table described as “fun night"
+title: "Seattle has plenty of Media Dinner options; Fanju app is the one..."
+description: "Most social apps bury intention under layers of filters and vague event titles. In Seattle, where weather and neighborhood rhythm shape how people gathe…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sydney/ecommerce-dinner"
 alternatePath: "/city/sydney/ecommerce-dinner"
 translationKey: "sydney-ecommerce-dinner"
 lang: "en"
-title: "What makes Ecommerce Dinner in Sydney worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "That pause before confirming your seat—when you scroll through the list of names already accepted—is when the tension rises. In Sydney, where professional circles can feel both insular and oddly disconnected, seeing who"
+title: "What makes Ecommerce Dinner in Sydney worth the risk; Fanju app..."
+description: "That pause before confirming your seat—when you scroll through the list of names already accepted—is when the tension rises."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

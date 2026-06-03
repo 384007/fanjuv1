@@ -4,9 +4,9 @@ canonicalPath: "/city/taiyuan/cooking-class-dinner"
 alternatePath: "/en/city/taiyuan/cooking-class-dinner"
 translationKey: "taiyuan-cooking-class-dinner"
 lang: "zh"
-title: "太原烹饪课饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
+title: "太原烹饪课饭局的同桌质量，饭局app在第一条信息里就开始筛"
 titleZh: "太原烹饪课饭局的同桌质量，饭局app在第一条信息里就开始筛"
-description: "在太原，一场饭局能不能吃得踏实，往往不取决于菜上得快不快，而在于坐下来之前，你是否已经知道这顿饭的节奏长什么样。 饭局app不是为了把人塞进饭桌而存在的工具，它更像是一张提前递到手里的菜单，上面写清楚了主理人是谁、这顿饭的主题是不是认真准备的、同桌的人大概会怎么说话。 尤其是在太原这样一座城市，人与人之间的距离感微妙——不冷漠，但也不轻易打开。"
+description: "在太原，一场饭局能不能吃得踏实，往往不取决于菜上得快不快，而在于坐下来之前，你是否已经知道这顿饭的节奏长什么样。 饭局app不是为了把人塞进饭桌而存在的工具，它更像是一张提前递到手里的菜单，上面写清楚了主理人是谁、这顿饭的主题是不是认真准备的、同桌的人大概会怎么说话。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

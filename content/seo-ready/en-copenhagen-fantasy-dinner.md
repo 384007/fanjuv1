@@ -4,8 +4,8 @@ canonicalPath: "/en/city/copenhagen/fantasy-dinner"
 alternatePath: "/city/copenhagen/fantasy-dinner"
 translationKey: "copenhagen-fantasy-dinner"
 lang: "en"
-title: "Copenhagen does not need another vague invite; Fanju app makes Fantasy Dinner specific | fanju-app"
-description: "In Copenhagen, where evenings often blur into quiet routines of hygge and solitude, the Fanju app quietly redefines how people gather. It doesn’t promise a revolution—just a table, a time, and a real conversation. Fantas"
+title: "Copenhagen does not need another vague invite; Fanju app makes..."
+description: "In Copenhagen, where evenings often blur into quiet routines of hygge and solitude, the Fanju app quietly redefines how people gather."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

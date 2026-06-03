@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/honghe/holiday-dinner"
 alternatePath: "/en/city/honghe/holiday-dinner"
-title: "红河节假日饭局指南 | fanju-app | 饭局app"
+title: "红河节假日饭局指南"
 description: "在红河发现真实的连接"
 recoveredFromD1: true
 ---

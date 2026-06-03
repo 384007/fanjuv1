@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/denver/founder-operator-dinner"
 alternatePath: "/city/denver/founder-operator-dinner"
-title: "For people trying Founder Operator Dinner in Denver, Fanju app puts the guest mix first | fanju-app | 饭局app"
-description: "Fanju app is a social dining platform designed for small, intentional meals where real-world connections form naturally in Denver. Unlike large networking mixers or impersonal events, it curates dinners that prioritize t"
+title: "For people trying Founder Operator Dinner in Denver, Fanju app..."
+description: "Fanju app is a social dining platform designed for small, intentional meals where real-world connections form naturally in Denver."
 recoveredFromD1: true
 ---
 # For people trying Founder Operator Dinner in Denver, Fanju app puts the guest mix first

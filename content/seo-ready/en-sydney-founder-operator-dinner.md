@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sydney/founder-operator-dinner"
 alternatePath: "/city/sydney/founder-operator-dinner"
 translationKey: "sydney-founder-operator-dinner"
 lang: "en"
-title: "A clearer Founder Operator Dinner dinner in Sydney: Fanju app, small tables, and real boundaries"
-description: "When evaluating a Founder Operator Dinner listing, the first thing to look for is the specificity of the host's notes, which act as a cure for the anxiety of walking into a room alone. A credible host in Sydney will not"
+title: "A clearer Founder Operator Dinner dinner in Sydney: Fanju app,..."
+description: "When evaluating a Founder Operator Dinner listing, the first thing to look for is the specificity of the host's notes, which act as a cure for the anxie…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

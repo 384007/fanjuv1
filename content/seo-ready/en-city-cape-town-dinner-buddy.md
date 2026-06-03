@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cape-town/dinner-buddy"
 alternatePath: "/city/cape-town/dinner-buddy"
-title: "Cape Town's Dinner Buddy: Finding Connection with the Fanju App | fanju-app | 饭局app"
-description: "Discover how the Fanju app offers a gentle solution to urban loneliness in Cape Town, facilitating small, low-pressure dinners to reconnect with in-person social life."
+title: "Cape Town's Dinner Buddy: Finding Connection with the Fanju App"
+description: "Discover how the Fanju app offers a gentle solution to urban loneliness in Cape Town, facilitating small, low-pressure dinners to reconnect with in-pers…"
 recoveredFromD1: true
 ---
 # Cape Town&#039;s Dinner Buddy: Finding Connection with the Fanju App

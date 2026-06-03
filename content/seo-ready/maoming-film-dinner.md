@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/maoming/film-dinner"
 alternatePath: "/en/city/maoming/film-dinner"
-title: "茂名不想只靠群聊时，饭局app怎样把影视饭局坐成一桌 | fanju-app"
+title: "茂名不想只靠群聊时，饭局app怎样把影视饭局坐成一桌"
 description: "在茂名，一场饭局的开始往往不是从“约饭”开始的。饭局app把人带到餐桌前的方式，是先让食物和话题成为陌生人之间的共同语言。这座城市的节奏不快不慢，街边大排档的油烟味和傍晚公园的散步人群一样真实。饭局app不是用来刷存在感的社交工具，它更像是"
 recoveredFromD1: true
 ---

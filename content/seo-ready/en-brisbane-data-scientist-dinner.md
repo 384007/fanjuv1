@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brisbane/data-scientist-dinner"
 alternatePath: "/city/brisbane/data-scientist-dinner"
 translationKey: "brisbane-data-scientist-dinner"
 lang: "en"
-title: "How Fanju app turns a Brisbane Data Scientist Dinner night into something worth showing up for | fanju-app"
-description: "Brisbane doesn’t operate on a single pulse. The city’s charm lies in its distinct pockets—each with its own flow, from the riverfront calm of Carina to the creative buzz of Fortitude Valley."
+title: "How Fanju app turns a Brisbane Data Scientist Dinner night into..."
+description: "Brisbane doesn’t operate on a single pulse. The city’s charm lies in its distinct pockets—each with its own flow, from the riverfront calm of Carina to…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

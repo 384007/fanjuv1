@@ -4,8 +4,8 @@ canonicalPath: "/en/city/delhi/semiconductor-dinner"
 alternatePath: "/city/delhi/semiconductor-dinner"
 translationKey: "delhi-semiconductor-dinner"
 lang: "en"
-title: "A Delhi dinner table for Semiconductor Dinner, with Fanju app boundaries up front"
-description: "When browsing for a Semiconductor Dinner in Delhi, the host note must immediately establish a concrete sense of place and purpose. A vague description often signals a lack of preparation, whereas a specific mention of"
+title: "A Delhi dinner table for Semiconductor Dinner, with Fanju app..."
+description: "When browsing for a Semiconductor Dinner in Delhi, the host note must immediately establish a concrete sense of place and purpose."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

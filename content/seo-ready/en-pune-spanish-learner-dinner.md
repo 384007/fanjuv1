@@ -4,8 +4,8 @@ canonicalPath: "/en/city/pune/spanish-learner-dinner"
 alternatePath: "/city/pune/spanish-learner-dinner"
 translationKey: "pune-spanish-learner-dinner"
 lang: "en"
-title: "Pune after work: how Fanju app makes Spanish Learner Dinner feel like a real room | fanju-app"
-description: "In Pune, where evening plans often dissolve into last-minute coffee meetups or silent scrolling on the way home, the idea of joining a Spanish Learner Dinner might sound like another fleeting concept. But through the Fan"
+title: "Pune after work: how Fanju app makes Spanish Learner Dinner feel..."
+description: "In Pune, where evening plans often dissolve into last-minute coffee meetups or silent scrolling on the way home, the idea of joining a Spanish Learner D…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

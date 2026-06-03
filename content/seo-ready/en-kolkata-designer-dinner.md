@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kolkata/designer-dinner"
 alternatePath: "/city/kolkata/designer-dinner"
 translationKey: "kolkata-designer-dinner"
 lang: "en"
-title: "How Fanju app turns a Kolkata Designer Dinner night into something worth showing up for | fanju-app"
-description: "For many women in Kolkata, the gap between finishing work and deciding what comes next—especially socially—can stretch into silence. That’s where Fanju app steps in, not with loud promises, but with small, intentional ga"
+title: "How Fanju app turns a Kolkata Designer Dinner night into something..."
+description: "For many women in Kolkata, the gap between finishing work and deciding what comes next—especially socially—can stretch into silence."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

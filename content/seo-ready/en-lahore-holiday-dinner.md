@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lahore/holiday-dinner"
 alternatePath: "/city/lahore/holiday-dinner"
 translationKey: "lahore-holiday-dinner"
 lang: "en"
-title: "Lahore does not need another vague invite; Fanju app makes Holiday Dinner specific | fanju-app"
-description: "A Holiday Dinner, especially when you’re new to Lahore and attending alone, requires a certain structure to feel welcoming. It’s not just about the food, but about the atmosphere and the intention behind the gathering."
+title: "Lahore does not need another vague invite; Fanju app makes Holiday..."
+description: "A Holiday Dinner, especially when you’re new to Lahore and attending alone, requires a certain structure to feel welcoming."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -5,7 +5,7 @@ alternatePath: "/city/atlanta/architect-dinner"
 translationKey: "atlanta-architect-dinner"
 lang: "en"
 title: "Atlanta Architect Dinner: how Fanju app makes the table worth choosing"
-description: "The listing for an Atlanta Architect Dinner on Fanju app should strip away the ambiguity often found in other social platforms. Instead of a generic invitation, the app provides details about the theme, the guest mix,"
+description: "The listing for an Atlanta Architect Dinner on Fanju app should strip away the ambiguity often found in other social platforms."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

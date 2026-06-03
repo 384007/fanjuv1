@@ -4,8 +4,8 @@ canonicalPath: "/en/city/khartoum/crossfit-dinner"
 alternatePath: "/city/khartoum/crossfit-dinner"
 translationKey: "khartoum-crossfit-dinner"
 lang: "en"
-title: "Before joining CrossFit Dinner in Khartoum, what Fanju app should make clear"
-description: "The description should also clarify how this specific event fits into the rhythm of life in Khartoum, perhaps mentioning the neighborhood or the time of day to help guests visualize the setting. A generic invitation"
+title: "Before joining CrossFit Dinner in Khartoum, what Fanju app should..."
+description: "The description should also clarify how this specific event fits into the rhythm of life in Khartoum, perhaps mentioning the neighborhood or the time of…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/madrid/neighborhood-dinner"
 alternatePath: "/city/madrid/neighborhood-dinner"
 translationKey: "madrid-neighborhood-dinner"
 lang: "en"
-title: "Madrid’s Neighborhood Dinner Dilemma and the Fanju app: Small‑Table Intimacy in a Big City"
-description: "A small‑table dinner in Madrid offers a rare pause amid the city’s constant motion. If the host mentions a specific neighbourhood like Chueca or Lavapiés, it signals that the gathering is anchored in a walkable area,"
+title: "Madrid’s Neighborhood Dinner Dilemma and the Fanju app:..."
+description: "A small‑table dinner in Madrid offers a rare pause amid the city’s constant motion."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

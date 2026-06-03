@@ -4,8 +4,8 @@ canonicalPath: "/en/city/austin/supper-club"
 alternatePath: "/city/austin/supper-club"
 translationKey: "austin-supper-club"
 lang: "en"
-title: "Before joining Supper Club in Austin, what Fanju app should make clear | fanju-app"
-description: "Austin Supper Club through the Fanju app offers a space for small-group dinners with intentional themes, clear hosts, and real-world conversation—no swiping, no expectations."
+title: "Before joining Supper Club in Austin, what Fanju app should make clear"
+description: "Austin Supper Club through the Fanju app offers a space for small-group dinners with intentional themes, clear hosts, and real-world conversation—no swi…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

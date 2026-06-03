@@ -4,8 +4,8 @@ canonicalPath: "/en/city/vienna/serious-dating-dinner"
 alternatePath: "/city/vienna/serious-dating-dinner"
 translationKey: "vienna-serious-dating-dinner"
 lang: "en"
-title: "What makes Serious Dating Dinner in Vienna worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "Vienna moves at a measured pace, and its social culture reflects that—graceful, but not always accessible to newcomers or those re-entering group dynamics. A vague “dinner gathering” can feel like an obstacle course of"
+title: "What makes Serious Dating Dinner in Vienna worth the risk; Fanju..."
+description: "Vienna moves at a measured pace, and its social culture reflects that—graceful, but not always accessible to newcomers or those re-entering group dynami…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

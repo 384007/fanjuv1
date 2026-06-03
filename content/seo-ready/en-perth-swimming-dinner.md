@@ -4,8 +4,8 @@ canonicalPath: "/en/city/perth/swimming-dinner"
 alternatePath: "/city/perth/swimming-dinner"
 translationKey: "perth-swimming-dinner"
 lang: "en"
-title: "When the invitation feels heavy: navigating a Perth Swimming Dinner through the Fanju app"
-description: "A host who crafts a clear note about why a swimming‑themed dinner matters in Perth can turn a casual meet‑up into a memorable night. Look for a brief explanation that ties the event to local summer habits—perhaps a"
+title: "When the invitation feels heavy: navigating a Perth Swimming..."
+description: "A host who crafts a clear note about why a swimming‑themed dinner matters in Perth can turn a casual meet‑up into a memorable night."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

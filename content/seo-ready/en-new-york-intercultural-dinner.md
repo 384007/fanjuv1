@@ -4,8 +4,8 @@ canonicalPath: "/en/city/new-york/intercultural-dinner"
 alternatePath: "/city/new-york/intercultural-dinner"
 translationKey: "new-york-intercultural-dinner"
 lang: "en"
-title: "How Fanju app turns a New York Intercultural Dinner night into something worth showing up for | fanju-app"
-description: "In New York, where social calendars fill with events that blur into one long rotation of networking and performative gatherings, Fanju app carves out space for something quieter but deeper: small, intentional meals where"
+title: "How Fanju app turns a New York Intercultural Dinner night into..."
+description: "In New York, where social calendars fill with events that blur into one long rotation of networking and performative gatherings, Fanju app carves out sp…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

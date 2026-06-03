@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/abu-dhabi/film-dinner"
 alternatePath: "/city/abu-dhabi/film-dinner"
-title: "Abu Dhabi Film Dinner Guide for Fanju app | fanju-app | 饭局app"
+title: "Abu Dhabi Film Dinner Guide for Fanju app"
 description: "{ \"title\": \"Film Dinner with Fanju app in Abu Dhabi: A Date-Free Social Experience\", \"description\": \"Join a Film Dinner in Abu Dhabi with Fanju app, a unique social experience that's not a dating event. Meet new people,"
 recoveredFromD1: true
 ---

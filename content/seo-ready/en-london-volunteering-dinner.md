@@ -5,7 +5,7 @@ alternatePath: "/city/london/volunteering-dinner"
 translationKey: "london-volunteering-dinner"
 lang: "en"
 title: "After‑Work Calm: London Volunteering Dinner with the Fanju app"
-description: "For many London professionals, the commute home after a typical 6 p.m. shift can be a solitary stretch on the tube. A Volunteering Dinner that starts at 7 p.m. gives you a concrete reason to step out of that routine and"
+description: "For many London professionals, the commute home after a typical 6 p.m. shift can be a solitary stretch on the tube."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

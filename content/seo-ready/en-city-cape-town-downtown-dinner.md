@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cape-town/downtown-dinner"
 alternatePath: "/city/cape-town/downtown-dinner"
-title: "Cape Town Downtown Dinner Guide | Fanju app"
-description: "Discover authentic local connections through dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections. Fanju app is a platform that allows you to join or host intimate dinner gatherings in the heart of Cape Town, fostering meaningful relationships and a deeper understanding of the local culture."
+title: "Cape Town Downtown Dinner Guide"
+description: "Discover authentic local connections through dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---
 Cape Town, a vibrant and eclectic city nestled between the majestic Table Mountain and the Atlantic Ocean, is a melting pot of cultures, cuisines, and lifestyles. As an expat or newcomer, navigating the city&#039;s rhythm and finding authentic local connections can be a daunting task. One of the best ways to break the ice and experience the city&#039;s warmth is through a Downtown Dinner, a unique and intimate dining experience that brings people together.

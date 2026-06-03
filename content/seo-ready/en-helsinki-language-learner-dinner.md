@@ -4,8 +4,8 @@ canonicalPath: "/en/city/helsinki/language-learner-dinner"
 alternatePath: "/city/helsinki/language-learner-dinner"
 translationKey: "helsinki-language-learner-dinner"
 lang: "en"
-title: "An introvert’s hesitation at the Helsinki Language Learner Dinner, eased by the Fanju app"
-description: "The second factor is the ambient noise level. Helsinki cafés vary from hushed libraries to bustling bars; a language dinner that takes place in a quiet bistro with soft lighting will feel far less overwhelming for"
+title: "An introvert’s hesitation at the Helsinki Language Learner Dinner,..."
+description: "The second factor is the ambient noise level. Helsinki cafés vary from hushed libraries to bustling bars; a language dinner that takes place in a quiet…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

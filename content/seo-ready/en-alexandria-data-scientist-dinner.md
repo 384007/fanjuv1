@@ -4,8 +4,8 @@ canonicalPath: "/en/city/alexandria/data-scientist-dinner"
 alternatePath: "/city/alexandria/data-scientist-dinner"
 translationKey: "alexandria-data-scientist-dinner"
 lang: "en"
-title: "A clearer Data Scientist Dinner dinner in Alexandria: Fanju app, small tables, and real boundaries"
-description: "For professionals in Alexandria, this clarity transforms the decision-making process from a gamble into a calculated choice. The app strips away the ambiguity of generic meetups by showing you the guest capacity and the"
+title: "A clearer Data Scientist Dinner dinner in Alexandria: Fanju app,..."
+description: "For professionals in Alexandria, this clarity transforms the decision-making process from a gamble into a calculated choice."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

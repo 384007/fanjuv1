@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/kaohsiung/sushi-dinner"
 alternatePath: "/en/city/kaohsiung/sushi-dinner"
-title: "高雄初体验：第一次用饭局app参加寿司之约 | fanju-app"
+title: "高雄初体验：第一次用饭局app参加寿司之约"
 description: "第一次使用饭局app，在高雄参加一场寿司饭局，从犹豫到惊喜，分享我的真实体验和报名建议。"
 recoveredFromD1: true
 ---

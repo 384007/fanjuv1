@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seattle/lawyer-dinner"
 alternatePath: "/city/seattle/lawyer-dinner"
 translationKey: "seattle-lawyer-dinner"
 lang: "en"
-title: "Seattle has plenty of Lawyer Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "Seattle’s legal community is dispersed but connected, often gathering in quiet corners of Capitol Hill, South Lake Union, or West Seattle over shared plates rather than boardrooms. In a city where professional relationsh"
+title: "Seattle has plenty of Lawyer Dinner options; Fanju app is the one..."
+description: "Seattle’s legal community is dispersed but connected, often gathering in quiet corners of Capitol Hill, South Lake Union, or West Seattle over shared pl…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

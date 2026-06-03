@@ -5,7 +5,7 @@ alternatePath: "/city/milan/urban-planner-dinner"
 translationKey: "milan-urban-planner-dinner"
 lang: "en"
 title: "Milan Urban Planner Dinner on Fanju app: a trusted after‑work table"
-description: "Even after the bell rings, many Milan designers feel the pull between heading home and staying in a noisy bar. A table that limits the guest count to six or eight creates a quieter space where project talk can flow"
+description: "Even after the bell rings, many Milan designers feel the pull between heading home and staying in a noisy bar."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

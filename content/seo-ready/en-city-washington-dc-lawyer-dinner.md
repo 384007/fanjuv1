@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/washington-dc/lawyer-dinner"
 alternatePath: "/city/washington-dc/lawyer-dinner"
-title: "Washington DC Lawyer Dinner Guide | Fanju app"
+title: "Washington DC Lawyer Dinner Guide"
 description: "Plan a memorable Lawyer Dinner in Washington DC with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/montreal/logistics-dinner"
 alternatePath: "/city/montreal/logistics-dinner"
 translationKey: "montreal-logistics-dinner"
 lang: "en"
-title: "Montreal Logistics Dinner through Fanju app: the questions to answer before you sit down"
-description: "A compelling listing for a Montreal Logistics Dinner does not merely announce a topic; it frames a specific problem or moment that is relevant right now. From a host’s perspective, the difference between a generic"
+title: "Montreal Logistics Dinner through Fanju app: the questions to..."
+description: "A compelling listing for a Montreal Logistics Dinner does not merely announce a topic; it frames a specific problem or moment that is relevant right now…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

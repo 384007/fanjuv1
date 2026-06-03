@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/bogota/safe-social-dinner"
 alternatePath: "/city/bogota/safe-social-dinner"
-title: "Why Safe Social Dinner in Bogota works better when Fanju app keeps the table small | fanju-app | 饭局app"
-description: "The Fanju app helps remote workers in Bogota find small, intentional dinners that fit the city’s social rhythm and their need for recurring connection. Instead of large, unpredictable gatherings, it focuses on meals with"
+title: "Why Safe Social Dinner in Bogota works better when Fanju app keeps..."
+description: "The Fanju app helps remote workers in Bogota find small, intentional dinners that fit the city’s social rhythm and their need for recurring connection."
 recoveredFromD1: true
 ---
 # Why Safe Social Dinner in Bogota works better when Fanju app keeps the table small

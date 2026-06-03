@@ -4,8 +4,8 @@ canonicalPath: "/en/city/khartoum/military-dinner"
 alternatePath: "/city/khartoum/military-dinner"
 translationKey: "khartoum-military-dinner"
 lang: "en"
-title: "Khartoum strangers sit down easier when Fanju app frames the Military Dinner table first | fanju-app"
-description: "In Khartoum, where social rhythms often move with the slow heat of midday sun, the Fanju app has quietly reshaped how people gather across differences. Military Dinner, a format meant to bring small groups of strangers t"
+title: "Khartoum strangers sit down easier when Fanju app frames the..."
+description: "In Khartoum, where social rhythms often move with the slow heat of midday sun, the Fanju app has quietly reshaped how people gather across differences."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

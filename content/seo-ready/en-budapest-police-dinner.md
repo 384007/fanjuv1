@@ -4,8 +4,8 @@ canonicalPath: "/en/city/budapest/police-dinner"
 alternatePath: "/city/budapest/police-dinner"
 translationKey: "budapest-police-dinner"
 lang: "en"
-title: "Solo Arrival in Budapest: Finding the Right Police Dinner Through the Fanju app"
-description: "Another practical question is about timing: does the event specify a clear start time and an estimated finish, especially if guests are traveling across Budapest’s districts? A precise schedule helps you plan your"
+title: "Solo Arrival in Budapest: Finding the Right Police Dinner Through..."
+description: "Another practical question is about timing: does the event specify a clear start time and an estimated finish, especially if guests are traveling across…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

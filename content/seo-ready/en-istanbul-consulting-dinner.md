@@ -4,8 +4,8 @@ canonicalPath: "/en/city/istanbul/consulting-dinner"
 alternatePath: "/city/istanbul/consulting-dinner"
 translationKey: "istanbul-consulting-dinner"
 lang: "en"
-title: "For people trying Consulting Dinner in Istanbul, Fanju app puts the guest mix first | fanju-app"
-description: "You’ve heard about Consulting Dinner in Istanbul through the Fanju app, but you’re not sure what it actually means to show up. It’s not a restaurant. It’s not a networking event. It’s a dinner hosted in someone’s home, u"
+title: "For people trying Consulting Dinner in Istanbul, Fanju app puts..."
+description: "You’ve heard about Consulting Dinner in Istanbul through the Fanju app, but you’re not sure what it actually means to show up. It’s not a restaurant."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/surat/casual-restaurant-dinner"
 alternatePath: "/city/surat/casual-restaurant-dinner"
-title: "For people trying Casual Restaurant Dinner in Surat, Fanju app puts the guest mix first | fanju-app | 饭局app"
-description: "The Fanju app is changing how people in Surat experience weekend dinners—not by chasing trends, but by treating each meal as the social anchor of the weekend. In a city where work rhythms often stretch into the evening a"
+title: "For people trying Casual Restaurant Dinner in Surat, Fanju app..."
+description: "The Fanju app is changing how people in Surat experience weekend dinners—not by chasing trends, but by treating each meal as the social anchor of the we…"
 recoveredFromD1: true
 ---
 # For people trying Casual Restaurant Dinner in Surat, Fanju app puts the guest mix first

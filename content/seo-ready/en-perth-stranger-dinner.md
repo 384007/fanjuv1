@@ -4,8 +4,8 @@ canonicalPath: "/en/city/perth/stranger-dinner"
 alternatePath: "/city/perth/stranger-dinner"
 translationKey: "perth-stranger-dinner"
 lang: "en"
-title: "For people trying Stranger Dinner in Perth, Fanju app puts the guest mix first | fanju-app"
-description: "The Fanju app is a social dining platform that connects people in Perth through small, intentionally hosted dinners where conversation and comfort matter as much as the meal. Unlike large group meetups or impersonal even"
+title: "For people trying Stranger Dinner in Perth, Fanju app puts the..."
+description: "The Fanju app is a social dining platform that connects people in Perth through small, intentionally hosted dinners where conversation and comfort matte…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

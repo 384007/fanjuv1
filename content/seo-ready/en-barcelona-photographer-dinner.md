@@ -4,8 +4,8 @@ canonicalPath: "/en/city/barcelona/photographer-dinner"
 alternatePath: "/city/barcelona/photographer-dinner"
 translationKey: "barcelona-photographer-dinner"
 lang: "en"
-title: "Barcelona Photographer Dinner on Fanju app: a calm weekend table you can trust"
-description: "Another local friction point is the travel between neighborhoods. Barcelona’s districts are distinct, and a dinner in Gràcia may require a short metro ride after a day in the Gothic Quarter. Look for explicit arrival"
+title: "Barcelona Photographer Dinner on Fanju app: a calm weekend table..."
+description: "Another local friction point is the travel between neighborhoods. Barcelona’s districts are distinct, and a dinner in Gràcia may require a short metro r…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

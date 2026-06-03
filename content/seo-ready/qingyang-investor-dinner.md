@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/qingyang/investor-dinner"
 alternatePath: "/en/city/qingyang/investor-dinner"
-title: "庆阳的一顿投资人饭局，饭局app为什么先看人再看热闹 | fanju-app"
+title: "庆阳的一顿投资人饭局，饭局app为什么先看人再看热闹"
 description: "在庆阳，投资人饭局的热闹程度往往取决于主理人的功底。一个好的主理人会先考虑到每个参与者的舒适度和边界，确保每个人都能放心地参与到饭局中。饭局app就是这样一个平台，让投资人可以先了解彼此的背景和需求，然后再决定是否要参加饭局。这样一来，投资"
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/xining/consulting-dinner"
 alternatePath: "/en/city/xining/consulting-dinner"
-title: "西宁咨询饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
+title: "西宁咨询饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "在西宁，饭局app不是用来约饭的工具，而是为下班后不想独自回家的人准备的。当傍晚的风从湟水河谷吹来，写字楼的灯光渐次亮起，很多人其实并不急着回空荡的出租屋或小区房。他们点开饭局app，在“咨询饭局”分类里滑动，寻找的不是一顿饭，而是一张能坐"
 recoveredFromD1: true
 ---

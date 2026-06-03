@@ -4,8 +4,8 @@ canonicalPath: "/en/city/hyderabad/loneliness-solution-dinner"
 alternatePath: "/city/hyderabad/loneliness-solution-dinner"
 translationKey: "hyderabad-loneliness-solution-dinner"
 lang: "en"
-title: "Finding Quiet Connection in Hyderabad: A Loneliness Solution Dinner Through the Fanju app"
-description: "When the Charminar’s evening shadows stretch across the street, an introvert in Hyderabad faces a simple decision: join a dinner table that feels structured or walk past a noisy meetup. The core question becomes whether"
+title: "Finding Quiet Connection in Hyderabad: A Loneliness Solution..."
+description: "When the Charminar’s evening shadows stretch across the street, an introvert in Hyderabad faces a simple decision: join a dinner table that feels struct…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

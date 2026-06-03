@@ -4,8 +4,8 @@ canonicalPath: "/en/city/copenhagen/government-dinner"
 alternatePath: "/city/copenhagen/government-dinner"
 translationKey: "copenhagen-government-dinner"
 lang: "en"
-title: "Copenhagen Government Dinner through the Fanju app: a neighbourhood‑first decision"
-description: "In Copenhagen, the Vesterbro neighbourhood pulses with cafés that double as informal policy hubs, and the idea of a government‑focused dinner can feel both exciting and uneasy. As you stand on the edge of the street,"
+title: "Copenhagen Government Dinner through the Fanju app: a..."
+description: "In Copenhagen, the Vesterbro neighbourhood pulses with cafés that double as informal policy hubs, and the idea of a government‑focused dinner can feel b…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

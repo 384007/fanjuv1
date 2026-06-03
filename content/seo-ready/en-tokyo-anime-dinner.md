@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tokyo/anime-dinner"
 alternatePath: "/city/tokyo/anime-dinner"
 translationKey: "tokyo-anime-dinner"
 lang: "en"
-title: "For Tokyo readers considering Anime Dinner, Fanju app should make the room legible"
-description: "When looking at an Anime Dinner listing in Tokyo, the clarity of the event description determines whether it is worth the weekend commitment. The platform serves as a bridge, but the host must provide the specific"
+title: "For Tokyo readers considering Anime Dinner, Fanju app should make..."
+description: "When looking at an Anime Dinner listing in Tokyo, the clarity of the event description determines whether it is worth the weekend commitment."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

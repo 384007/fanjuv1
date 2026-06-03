@@ -4,8 +4,8 @@ canonicalPath: "/en/city/toronto/remote-worker-dinner"
 alternatePath: "/city/toronto/remote-worker-dinner"
 translationKey: "toronto-remote-worker-dinner"
 lang: "en"
-title: "Toronto Evenings: Finding Your Table with Fanju app for Remote Worker Dinners"
-description: "The urban sprawl of Toronto, from the bustling core of the Financial District to the neighbourhood pockets of the Annex or Leslieville, can sometimes amplify a remote worker's sense of being adrift. Evenings, when the"
+title: "Toronto Evenings: Finding Your Table with Fanju app for Remote..."
+description: "The urban sprawl of Toronto, from the bustling core of the Financial District to the neighbourhood pockets of the Annex or Leslieville, can sometimes am…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

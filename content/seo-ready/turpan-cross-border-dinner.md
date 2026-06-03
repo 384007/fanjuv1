@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/turpan/cross-border-dinner"
 alternatePath: "/en/city/turpan/cross-border-dinner"
-title: "下班后的吐鲁番，饭局app怎样让跨境饭局有真实同桌 | fanju-app"
+title: "下班后的吐鲁番，饭局app怎样让跨境饭局有真实同桌"
 description: "在吐鲁番，下班后的时光总带着一丝独特的韵味，而饭局app的出现，正为这座城市注入新的社交活力。它不仅仅是一个简单的邀约平台，更是一个致力于将线上意向转化为线下真实连接的工具，尤其是在“跨境饭局”这个概念下，饭局app通过清晰的规则和对同桌质"
 recoveredFromD1: true
 ---

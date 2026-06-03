@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/guangzhou/friday-dinner"
 alternatePath: "/en/city/guangzhou/friday-dinner"
-title: "在广州找一桌不尴尬的周五饭局，饭局app先解决什么 | fanju-app"
+title: "在广州找一桌不尴尬的周五饭局，饭局app先解决什么"
 description: "在快节奏的广州，周五下班后的选择往往不是“要不要出门”，而是“去哪、跟谁、吃什么才不累”。饭局app不是另一个拼饭工具，它更像一个城市饭桌的筛选器，用清晰的主题、明确的人数和真实的主理人信息，帮你在广州这座讲究“识食也识人”的城市里，找到一"
 recoveredFromD1: true
 ---

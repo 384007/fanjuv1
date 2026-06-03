@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/riyadh/expat-dinner"
 alternatePath: "/city/riyadh/expat-dinner"
-title: "Why Expat Dinner in Riyadh works better when Fanju app keeps the table small | fanju-app | 饭局app"
-description: "Fanju app is a social dining platform designed to help people in Riyadh connect through small, intentional meals rather than large, impersonal gatherings. It works by curating dinners limited to six to eight guests, host"
+title: "Why Expat Dinner in Riyadh works better when Fanju app keeps the..."
+description: "Fanju app is a social dining platform designed to help people in Riyadh connect through small, intentional meals rather than large, impersonal gathering…"
 recoveredFromD1: true
 ---
 # Why Expat Dinner in Riyadh works better when Fanju app keeps the table small

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dubai/karaoke-dinner"
 alternatePath: "/city/dubai/karaoke-dinner"
 translationKey: "dubai-karaoke-dinner"
 lang: "en"
-title: "Dubai does not need another vague invite; Fanju app makes Karaoke Dinner specific | fanju-app"
+title: "Dubai does not need another vague invite; Fanju app makes Karaoke..."
 description: "Dubai is a city shaped by movement—expats arriving for short stays, tourists drifting between attractions, locals navigating shifting neighbourhoods."
 pageType: "city_article"
 priorityScore: 70

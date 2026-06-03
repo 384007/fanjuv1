@@ -4,8 +4,8 @@ canonicalPath: "/en/city/phoenix/semiconductor-dinner"
 alternatePath: "/city/phoenix/semiconductor-dinner"
 translationKey: "phoenix-semiconductor-dinner"
 lang: "en"
-title: "Why Semiconductor Dinner in Phoenix works better when Fanju app keeps the table small | fanju-app"
-description: "Moving to Phoenix this month, you’ve likely seen the usual suggestions: happy hours in downtown, desert hikes before sunrise, or co-working spaces that promise community but rarely deliver it. These are fine, but they"
+title: "Why Semiconductor Dinner in Phoenix works better when Fanju app..."
+description: "Moving to Phoenix this month, you’ve likely seen the usual suggestions: happy hours in downtown, desert hikes before sunrise, or co-working spaces that…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

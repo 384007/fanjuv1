@@ -4,8 +4,8 @@ canonicalPath: "/en/city/milan/shipping-dinner"
 alternatePath: "/city/milan/shipping-dinner"
 translationKey: "milan-shipping-dinner"
 lang: "en"
-title: "Milan Shipping Dinner through Fanju app: the questions to answer before you sit down"
-description: "When searching for a Shipping Dinner in Milan, the specific description of the venue becomes the first real signal of trust. A listing that mentions a quiet, well-lit restaurant in the Brera or Navigli districts, rather"
+title: "Milan Shipping Dinner through Fanju app: the questions to answer..."
+description: "When searching for a Shipping Dinner in Milan, the specific description of the venue becomes the first real signal of trust."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

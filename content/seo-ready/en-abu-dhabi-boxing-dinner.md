@@ -4,8 +4,8 @@ canonicalPath: "/en/city/abu-dhabi/boxing-dinner"
 alternatePath: "/city/abu-dhabi/boxing-dinner"
 translationKey: "abu-dhabi-boxing-dinner"
 lang: "en"
-title: "A hesitant evening in Abu Dhabi: stepping into a Boxing Dinner with the Fanju app"
-description: "The hesitation many newcomers feel often stems from not knowing what to expect at the table. In Abu Dhabi, the opening ten minutes benefit from a simple conversation frame—perhaps a brief chat about favorite boxers or"
+title: "A hesitant evening in Abu Dhabi: stepping into a Boxing Dinner..."
+description: "The hesitation many newcomers feel often stems from not knowing what to expect at the table."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

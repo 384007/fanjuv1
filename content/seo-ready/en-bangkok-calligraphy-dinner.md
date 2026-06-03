@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bangkok/calligraphy-dinner"
 alternatePath: "/city/bangkok/calligraphy-dinner"
 translationKey: "bangkok-calligraphy-dinner"
 lang: "en"
-title: "Bangkok Calligraphy Dinner through Fanju app: the questions to answer before you sit down"
-description: "In Bangkok, the physical setting defines the mood of a gathering more than the theme itself. A public venue description should help you visualize the room before you decide to leave your neighborhood. If a listing"
+title: "Bangkok Calligraphy Dinner through Fanju app: the questions to..."
+description: "In Bangkok, the physical setting defines the mood of a gathering more than the theme itself."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

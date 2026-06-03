@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dallas/night-owl-dinner"
 alternatePath: "/city/dallas/night-owl-dinner"
 translationKey: "dallas-night-owl-dinner"
 lang: "en"
-title: "How Fanju app turns a Dallas Night Owl Dinner night into something worth showing up for | fanju-app"
-description: "For founders, operators, and professionals in Dallas, the real work often starts after hours—when meetings end and the city lights stay on. The Fanju app quietly reshapes how those late-night conversations unfold, turnin"
+title: "How Fanju app turns a Dallas Night Owl Dinner night into something..."
+description: "For founders, operators, and professionals in Dallas, the real work often starts after hours—when meetings end and the city lights stay on."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dallas/sports-coach-dinner"
 alternatePath: "/city/dallas/sports-coach-dinner"
 translationKey: "dallas-sports-coach-dinner"
 lang: "en"
-title: "In Dallas, Fanju app turns Sports Coach Dinner into a table people can actually trust | fanju-app"
-description: "If you're new to the Dallas social scene, you might be thinking that the idea of a dinner with a group of strangers sounds daunting, especially if you're an introvert. However, with the help of the Fanju app, you can now"
+title: "In Dallas, Fanju app turns Sports Coach Dinner into a table people..."
+description: "If you're new to the Dallas social scene, you might be thinking that the idea of a dinner with a group of strangers sounds daunting, especially if you'r…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

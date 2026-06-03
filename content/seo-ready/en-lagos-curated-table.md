@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/lagos/curated-table"
 alternatePath: "/city/lagos/curated-table"
-title: "When Curated Table feels too loose in Lagos, Fanju app starts with the table | fanju-app | 饭局app"
-description: "Fanju app is a social dining platform designed for Lagosians seeking intimate, curated meal experiences. It focuses on fostering genuine connections through small, well-defined gatherings, moving beyond the often overwhe"
+title: "When Curated Table feels too loose in Lagos, Fanju app starts with..."
+description: "Fanju app is a social dining platform designed for Lagosians seeking intimate, curated meal experiences."
 recoveredFromD1: true
 ---
 # When Curated Table feels too loose in Lagos, Fanju app starts with the table

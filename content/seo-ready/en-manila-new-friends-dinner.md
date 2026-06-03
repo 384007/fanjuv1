@@ -4,8 +4,8 @@ canonicalPath: "/en/city/manila/new-friends-dinner"
 alternatePath: "/city/manila/new-friends-dinner"
 translationKey: "manila-new-friends-dinner"
 lang: "en"
-title: "Before the first message in Manila, Fanju app makes New Friends Dinner feel like a real decision | fanju-app"
-description: "The after-work pause in Manila is a crucial time for unwinding and socializing, and it shouldn't be taken up by vague or unfulfilling social engagements. New Friends Dinner, as facilitated by Fanju app, offers a"
+title: "Before the first message in Manila, Fanju app makes New Friends..."
+description: "The after-work pause in Manila is a crucial time for unwinding and socializing, and it shouldn't be taken up by vague or unfulfilling social engagements…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

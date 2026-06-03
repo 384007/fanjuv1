@@ -4,8 +4,8 @@ canonicalPath: "/en/city/washington-dc/newcomer-dinner"
 alternatePath: "/city/washington-dc/newcomer-dinner"
 translationKey: "washington-dc-newcomer-dinner"
 lang: "en"
-title: "What makes Newcomer Dinner in Washington DC worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "Washington DC slows down differently than other major cities. After the federal offices close and the policy briefings end, there’s a pause—not quite quiet, but introspective. Many newcomers find themselves with time in"
+title: "What makes Newcomer Dinner in Washington DC worth the risk; Fanju..."
+description: "Washington DC slows down differently than other major cities. After the federal offices close and the policy briefings end, there’s a pause—not quite qu…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

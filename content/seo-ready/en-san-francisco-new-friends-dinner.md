@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-francisco/new-friends-dinner"
 alternatePath: "/city/san-francisco/new-friends-dinner"
 translationKey: "san-francisco-new-friends-dinner"
 lang: "en"
-title: "San Francisco New Friends Dinner through Fanju app: the questions to answer before you sit down"
-description: "A compelling listing for a San Francisco New Friends Dinner does not simply announce a time and place; it immediately identifies the specific chemistry expected at the table. In a city where social circles often overlap"
+title: "San Francisco New Friends Dinner through Fanju app: the questions..."
+description: "A compelling listing for a San Francisco New Friends Dinner does not simply announce a time and place; it immediately identifies the specific chemistry…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

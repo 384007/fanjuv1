@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sydney/small-table-dinner"
 alternatePath: "/city/sydney/small-table-dinner"
 translationKey: "sydney-small-table-dinner"
 lang: "en"
-title: "Sydney Small Table Dinner through Fanju app: the questions to answer before you sit down"
-description: "Before committing to a seat, you should ask about the specific venue configuration and the expected noise level. A public venue type matters in Sydney because strangers need to picture the room before joining. A listing"
+title: "Sydney Small Table Dinner through Fanju app: the questions to..."
+description: "Before committing to a seat, you should ask about the specific venue configuration and the expected noise level."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

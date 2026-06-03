@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mexico-city/robotics-dinner"
 alternatePath: "/city/mexico-city/robotics-dinner"
 translationKey: "mexico-city-robotics-dinner"
 lang: "en"
-title: "Before joining Robotics Dinner in Mexico City, what Fanju app should make clear"
-description: "Mexico City traffic dictates the flow of any evening, so a Robotics Dinner listing needs to state the expected end time clearly. When guests cross neighbourhoods like Roma Norte to Polanco, they need to know if the"
+title: "Before joining Robotics Dinner in Mexico City, what Fanju app..."
+description: "Mexico City traffic dictates the flow of any evening, so a Robotics Dinner listing needs to state the expected end time clearly."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

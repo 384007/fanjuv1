@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/shuangyashan/new-friends-dinner"
 alternatePath: "/en/city/shuangyashan/new-friends-dinner"
-title: "双鸭山新朋友饭局不是凑人吃饭，饭局app更看重这一桌的边界 | fanju-app"
+title: "双鸭山新朋友饭局不是凑人吃饭，饭局app更看重这一桌的边界"
 description: "在双鸭山，晚上下班后走在安邦河畔，路灯亮得不急不缓，街边小馆的蒸汽从门缝里漏出来，总有人站在门口犹豫要不要一个人坐下。饭局app在这里不是解决“吃饭没人陪”的工具，而是给那些想认真认识新朋友的人，提供一桌有边界、有节奏的饭局。它不追求热闹，"
 recoveredFromD1: true
 ---

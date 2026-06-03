@@ -4,9 +4,9 @@ canonicalPath: "/city/nanning/mental-health-dinner"
 alternatePath: "/en/city/nanning/mental-health-dinner"
 translationKey: "nanning-mental-health-dinner"
 lang: "zh"
-title: "南宁心理健康饭局，饭局app要先把哪几件事说清楚 | fanju-app"
+title: "南宁心理健康饭局，饭局app要先把哪几件事说清楚"
 titleZh: "南宁心理健康饭局，饭局app要先把哪几件事说清楚"
-description: "在南宁报名一场心理健康饭局前，许多人会问：饭局app到底能带来什么？ 它不是相亲保证、不是随机群聊、不是无限刷资料，而是一个围绕小桌吃饭、清晰主题和真实连接的线下饭局社交平台。 在南宁，这类活动通常安排在傍晚，地点多选在青秀区或西乡塘安静的社区咖啡馆或小餐馆包间，每桌6-8人，由一位有心理话题经验的主理人引导。"
+description: "在南宁报名一场心理健康饭局前，许多人会问：饭局app到底能带来什么？ 它不是相亲保证、不是随机群聊、不是无限刷资料，而是一个围绕小桌吃饭、清晰主题和真实连接的线下饭局社交平台。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

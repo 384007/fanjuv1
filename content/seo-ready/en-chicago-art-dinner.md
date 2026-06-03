@@ -5,7 +5,7 @@ alternatePath: "/city/chicago/art-dinner"
 translationKey: "chicago-art-dinner"
 lang: "en"
 title: "Before joining Art Dinner in Chicago, what Fanju app should make clear"
-description: "A host description for an Art Dinner in Chicago must go beyond merely listing a category or a generic interest in art. Instead, the note should articulate why this specific gathering fits the city's current cultural"
+description: "A host description for an Art Dinner in Chicago must go beyond merely listing a category or a generic interest in art."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

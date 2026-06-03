@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ahmedabad/hr-dinner"
 alternatePath: "/city/ahmedabad/hr-dinner"
 translationKey: "ahmedabad-hr-dinner"
 lang: "en"
-title: "For Ahmedabad readers considering HR Dinner, Fanju app should make the room legible"
-description: "When a professional searches for HR Dinner in Ahmedabad, the specific wording of a host listing determines whether the evening feels like a genuine opportunity or just another obligation. A compelling listing does not"
+title: "For Ahmedabad readers considering HR Dinner, Fanju app should make..."
+description: "When a professional searches for HR Dinner in Ahmedabad, the specific wording of a host listing determines whether the evening feels like a genuine oppo…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

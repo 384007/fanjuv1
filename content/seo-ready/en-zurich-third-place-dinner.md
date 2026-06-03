@@ -4,8 +4,8 @@ canonicalPath: "/en/city/zurich/third-place-dinner"
 alternatePath: "/city/zurich/third-place-dinner"
 translationKey: "zurich-third-place-dinner"
 lang: "en"
-title: "For people trying Third Place Dinner in Zurich, Fanju app puts the guest mix first | fanju-app"
-description: "The Fanju app offers a quieter kind of social rhythm in Zurich: small, intentional dinners where the guest mix matters more than the menu. Unlike meetups that gather people around themes or dating apps built for romantic"
+title: "For people trying Third Place Dinner in Zurich, Fanju app puts the..."
+description: "The Fanju app offers a quieter kind of social rhythm in Zurich: small, intentional dinners where the guest mix matters more than the menu."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

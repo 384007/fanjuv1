@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/benxi/networking-dinner"
 alternatePath: "/en/city/benxi/networking-dinner"
-title: "本溪想参加人脉饭局，饭局app把信任感放在饭前 | fanju-app"
+title: "本溪想参加人脉饭局，饭局app把信任感放在饭前"
 description: "在人脉的构建中，一场精心组织的小型饭局往往比漫无目的的社交活动更有效。饭局app，作为围绕小桌吃饭、清晰主题和线下连接的社交应用，正是为了解决这一痛点而生。它帮助人们在本溪这样的城市里，找到志同道合的伙伴，通过一顿饭建立起更深层次的信任。对"
 recoveredFromD1: true
 ---

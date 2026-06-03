@@ -5,7 +5,7 @@ alternatePath: "/city/luanda/firefighter-dinner"
 translationKey: "luanda-firefighter-dinner"
 lang: "en"
 title: "Firefighter Dinner in Luanda Finds Trust on the Fanju app"
-description: "The first decision point is whether the proposed time and location align with your post‑shift routine. In Luanda, traffic can surge around the Miramar district, so a dinner that starts at 19:30 and is located in a"
+description: "The first decision point is whether the proposed time and location align with your post‑shift routine."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

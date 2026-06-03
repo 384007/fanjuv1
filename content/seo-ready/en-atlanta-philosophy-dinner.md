@@ -4,8 +4,8 @@ canonicalPath: "/en/city/atlanta/philosophy-dinner"
 alternatePath: "/city/atlanta/philosophy-dinner"
 translationKey: "atlanta-philosophy-dinner"
 lang: "en"
-title: "Atlanta after work: how Fanju app makes Philosophy Dinner feel like a real room | fanju-app"
-description: "It’s 6:42 p.m. on a Thursday in Midtown, and you’re standing outside a quiet café near 10th and Piedmont, phone in hand, second-guessing whether you should walk in. You’ve never been to a Philosophy Dinner in Atlanta bef"
+title: "Atlanta after work: how Fanju app makes Philosophy Dinner feel..."
+description: "It’s 6:42 p.m. on a Thursday in Midtown, and you’re standing outside a quiet café near 10th and Piedmont, phone in hand, second-guessing whether you sho…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

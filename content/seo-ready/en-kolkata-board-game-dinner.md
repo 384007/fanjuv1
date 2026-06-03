@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kolkata/board-game-dinner"
 alternatePath: "/city/kolkata/board-game-dinner"
 translationKey: "kolkata-board-game-dinner"
 lang: "en"
-title: "A Kolkata dinner table for Board Game Dinner, with Fanju app boundaries up front"
-description: "Kolkata dinner plans require precision regarding arrival and exit timing, especially when guests are travelling across different neighbourhoods. A Board Game Dinner has a variable duration because the pace of play"
+title: "A Kolkata dinner table for Board Game Dinner, with Fanju app..."
+description: "Kolkata dinner plans require precision regarding arrival and exit timing, especially when guests are travelling across different neighbourhoods."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

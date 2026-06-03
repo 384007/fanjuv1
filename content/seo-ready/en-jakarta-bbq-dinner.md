@@ -5,7 +5,7 @@ alternatePath: "/city/jakarta/bbq-dinner"
 translationKey: "jakarta-bbq-dinner"
 lang: "en"
 title: "Jakarta BBQ Dinner: how Fanju app makes the table worth choosing"
-description: "A Jakarta BBQ Dinner suits someone who appreciates the slow pace of grilling meat and prefers conversation over loud music. If you enjoy the ritual of cooking at the table and sharing plates, you will find the rhythm"
+description: "A Jakarta BBQ Dinner suits someone who appreciates the slow pace of grilling meat and prefers conversation over loud music."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/zhaoqing/business-dinner"
 alternatePath: "/en/city/zhaoqing/business-dinner"
-title: "肇庆商务饭局指南：告别孤独，重拾线下连接 | fanju-app | 饭局app"
+title: "肇庆商务饭局指南：告别孤独，重拾线下连接"
 description: "在肇庆，结束一天的工作，你是否感到一丝疲惫和疏离？饭局app（Fanju）致力于通过小桌、有主题的线下聚会，帮助都市人打破社交壁垒，重拾真实连接。这篇指南将带你了解如何在肇庆，通过一场精心策划的商务饭局，缓解大城市的孤独感，找到志同道合的伙伴。"
 recoveredFromD1: true
 ---

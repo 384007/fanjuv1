@@ -4,8 +4,8 @@ canonicalPath: "/en/city/toronto/pharma-dinner"
 alternatePath: "/city/toronto/pharma-dinner"
 translationKey: "toronto-pharma-dinner"
 lang: "en"
-title: "What makes Pharma Dinner in Toronto worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "That fleeting moment after the workday, when the city's hum begins to shift from hurried commutes to evening possibilities, is critical for a Pharma Dinner in Toronto. It’s the pause where anticipation meets reality. Wil"
+title: "What makes Pharma Dinner in Toronto worth the risk; Fanju app..."
+description: "That fleeting moment after the workday, when the city's hum begins to shift from hurried commutes to evening possibilities, is critical for a Pharma Din…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

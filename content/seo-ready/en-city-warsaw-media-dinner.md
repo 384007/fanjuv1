@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/warsaw/media-dinner"
 alternatePath: "/city/warsaw/media-dinner"
-title: "Warsaw Media Dinner Guide | Fanju app"
+title: "Warsaw Media Dinner Guide"
 description: "Discover authentic local connections through dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kyoto/accountant-dinner"
 alternatePath: "/city/kyoto/accountant-dinner"
 translationKey: "kyoto-accountant-dinner"
 lang: "en"
-title: "Kyoto has plenty of Accountant Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "Kyoto's charm often lies in its subtle nuances, a characteristic that can sometimes make spontaneous social gatherings feel a bit adrift. For an Accountant Dinner, this quiet atmosphere means that clarity from the"
+title: "Kyoto has plenty of Accountant Dinner options; Fanju app is the..."
+description: "Kyoto's charm often lies in its subtle nuances, a characteristic that can sometimes make spontaneous social gatherings feel a bit adrift."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

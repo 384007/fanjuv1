@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/quanzhou/consulting-dinner"
 alternatePath: "/en/city/quanzhou/consulting-dinner"
-title: "泉州咨询饭局指南 | fanju-app | 饭局app"
+title: "泉州咨询饭局指南"
 description: "在泉州，下班后不再独自回家，咨询饭局是低成本结束工作日的方式。"
 recoveredFromD1: true
 ---

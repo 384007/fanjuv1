@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/mental-health-dinner"
 alternatePath: "/city/brussels/mental-health-dinner"
 translationKey: "brussels-mental-health-dinner"
 lang: "en"
-title: "Brussels does not need another vague invite; Fanju app makes Mental Health Dinner specific | fanju-app"
-description: "Brussels, a city often characterized by its intricate network of councils and committees, can sometimes feel like a place where good intentions get lost in the bureaucracy of planning. This is particularly true for socia"
+title: "Brussels does not need another vague invite; Fanju app makes..."
+description: "Brussels, a city often characterized by its intricate network of councils and committees, can sometimes feel like a place where good intentions get lost…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

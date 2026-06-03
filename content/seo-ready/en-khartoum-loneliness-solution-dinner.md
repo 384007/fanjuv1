@@ -4,8 +4,8 @@ canonicalPath: "/en/city/khartoum/loneliness-solution-dinner"
 alternatePath: "/city/khartoum/loneliness-solution-dinner"
 translationKey: "khartoum-loneliness-solution-dinner"
 lang: "en"
-title: "Khartoum Loneliness Solution Dinner through Fanju app: the questions to answer before you sit down"
-description: "When you see a Khartoum Loneliness Solution Dinner listing, the description must immediately clarify why this gathering exists today. A generic invite is easy to ignore, but a thoughtful host will explain how this meal"
+title: "Khartoum Loneliness Solution Dinner through Fanju app: the..."
+description: "When you see a Khartoum Loneliness Solution Dinner listing, the description must immediately clarify why this gathering exists today."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

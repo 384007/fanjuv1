@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bogota/fencing-dinner"
 alternatePath: "/city/bogota/fencing-dinner"
 translationKey: "bogota-fencing-dinner"
 lang: "en"
-title: "Bogota does not need another vague invite; Fanju app makes Fencing Dinner specific | fanju-app"
+title: "Bogota does not need another vague invite; Fanju app makes Fencing..."
 description: "Bogota's social calendar can feel like a constant stream of \"let's grab a drink sometime\" or \"we should do dinner soon.\" These invitations, while well-intentioned, often lack the specificity needed to feel truly"
 pageType: "city_article"
 priorityScore: 70

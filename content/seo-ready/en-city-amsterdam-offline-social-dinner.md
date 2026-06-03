@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/amsterdam/offline-social-dinner"
 alternatePath: "/city/amsterdam/offline-social-dinner"
-title: "Amsterdam Offline Social Dinner Guide | Fanju app"
-description: "Discover the authentic side of Amsterdam through a unique social dining experience with Fanju app, where you can connect with locals over delicious meals and make unforgettable memories."
+title: "Amsterdam Offline Social Dinner Guide"
+description: "Discover the authentic side of Amsterdam through a unique social dining experience with Fanju app, where you can connect with locals over delicious meal…"
 recoveredFromD1: true
 ---
 Amsterdam Offline Social Dinner Guide

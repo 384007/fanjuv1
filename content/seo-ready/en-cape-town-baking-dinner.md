@@ -4,8 +4,8 @@ canonicalPath: "/en/city/cape-town/baking-dinner"
 alternatePath: "/city/cape-town/baking-dinner"
 translationKey: "cape-town-baking-dinner"
 lang: "en"
-title: "Why Baking Dinner in Cape Town works better when Fanju app keeps the table small | fanju-app"
-description: "Baking Dinner in Cape Town isn’t about grand gestures or crowded kitchens. It’s the quiet moment when someone pulls a loaf from the oven at a shared table in Woodstock, and someone else, new to the city, finally feels se"
+title: "Why Baking Dinner in Cape Town works better when Fanju app keeps..."
+description: "Baking Dinner in Cape Town isn’t about grand gestures or crowded kitchens. It’s the quiet moment when someone pulls a loaf from the oven at a shared tab…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

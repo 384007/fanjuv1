@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seattle/ai-founder-dinner"
 alternatePath: "/city/seattle/ai-founder-dinner"
 translationKey: "seattle-ai-founder-dinner"
 lang: "en"
-title: "A calmer way to approach AI Founder Dinner in Seattle through Fanju app | fanju-app"
-description: "Fanju app offers a grounded way to experience AI Founder Dinner in Seattle by focusing on small, intentionally hosted meals that prioritize real conversation over networking noise."
+title: "A calmer way to approach AI Founder Dinner in Seattle through..."
+description: "Fanju app offers a grounded way to experience AI Founder Dinner in Seattle by focusing on small, intentionally hosted meals that prioritize real convers…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

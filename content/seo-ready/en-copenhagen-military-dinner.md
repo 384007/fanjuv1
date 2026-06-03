@@ -4,7 +4,7 @@ canonicalPath: "/en/city/copenhagen/military-dinner"
 alternatePath: "/city/copenhagen/military-dinner"
 translationKey: "copenhagen-military-dinner"
 lang: "en"
-title: "When Military Dinner feels too loose in Copenhagen, Fanju app starts with the table | fanju-app"
+title: "When Military Dinner feels too loose in Copenhagen, Fanju app..."
 description: "The concept of a Military Dinner in Copenhagen, as presented through platforms like Fanju app, often represents a second chance at social ease."
 pageType: "city_article"
 priorityScore: 70

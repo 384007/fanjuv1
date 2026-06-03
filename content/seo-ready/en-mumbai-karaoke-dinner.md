@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mumbai/karaoke-dinner"
 alternatePath: "/city/mumbai/karaoke-dinner"
 translationKey: "mumbai-karaoke-dinner"
 lang: "en"
-title: "For people trying Karaoke Dinner in Mumbai, Fanju app puts the guest mix first | fanju-app"
-description: "In Mumbai, where the work-from-home rhythm often blurs into long evenings of silence, the Fanju app has quietly become a tool for reclaiming social balance. It’s not about filling time with noise, but about choosing one"
+title: "For people trying Karaoke Dinner in Mumbai, Fanju app puts the..."
+description: "In Mumbai, where the work-from-home rhythm often blurs into long evenings of silence, the Fanju app has quietly become a tool for reclaiming social bala…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

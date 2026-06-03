@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/ho-chi-minh-city/coffee-chat-dinner"
 alternatePath: "/city/ho-chi-minh-city/coffee-chat-dinner"
-title: "Ho Chi Minh City Coffee Chat Dinner Guide | Fanju app"
-description: "Discover the unique social dining experience of Coffee Chat Dinners in Ho Chi Minh City with the Fanju app. This guide explores how small, curated meals foster genuine connections, moving beyond superficial online interactions to build real-world relationships. Fanju app is designed for those seeking meaningful encounters in a relaxed, group setting, perfect for exploring the vibrant culinary landscape of this dynamic city."
+title: "Ho Chi Minh City Coffee Chat Dinner Guide"
+description: "Discover the unique social dining experience of Coffee Chat Dinners in Ho Chi Minh City with the Fanju app."
 recoveredFromD1: true
 ---
 Navigating the social scene in a bustling metropolis like Ho Chi Minh City can be a delightful challenge. For those looking to forge genuine connections beyond the usual digital interactions, the concept of a &#039;Coffee Chat Dinner&#039; offers a refreshing approach. These are not just meals; they are carefully curated gatherings designed for meaningful conversation and shared experiences. The Fanju app facilitates these events, focusing on small, intimate groups where authentic dialogue can flourish. It&#039;s about creating a comfortable environment where individuals can connect over good food and engaging discussions, fostering a sense of community within the city&#039;s energetic rhythm.

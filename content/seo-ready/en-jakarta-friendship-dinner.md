@@ -4,8 +4,8 @@ canonicalPath: "/en/city/jakarta/friendship-dinner"
 alternatePath: "/city/jakarta/friendship-dinner"
 translationKey: "jakarta-friendship-dinner"
 lang: "en"
-title: "When Friendship Dinner feels too loose in Jakarta, Fanju app starts with the table | fanju-app"
-description: "In Jakarta, where the city’s rhythm pulses through crowded markets, late-night warungs, and sudden rain showers that send commuters scrambling, the idea of a Friendship Dinner can easily blur into polite small talk and s"
+title: "When Friendship Dinner feels too loose in Jakarta, Fanju app..."
+description: "In Jakarta, where the city’s rhythm pulses through crowded markets, late-night warungs, and sudden rain showers that send commuters scrambling, the idea…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

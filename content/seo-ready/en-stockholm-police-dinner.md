@@ -4,8 +4,8 @@ canonicalPath: "/en/city/stockholm/police-dinner"
 alternatePath: "/city/stockholm/police-dinner"
 translationKey: "stockholm-police-dinner"
 lang: "en"
-title: "For people trying Police Dinner in Stockholm, Fanju app puts the guest mix first | fanju-app"
-description: "In Stockholm, where quiet evenings often stretch into long conversations over candlelight and aquavit, the idea of a Police Dinner might spark curiosity or concern. But on the Fanju app, it’s neither a law enforcement ev"
+title: "For people trying Police Dinner in Stockholm, Fanju app puts the..."
+description: "In Stockholm, where quiet evenings often stretch into long conversations over candlelight and aquavit, the idea of a Police Dinner might spark curiosity…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

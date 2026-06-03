@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sao-paulo/history-lover-dinner"
 alternatePath: "/city/sao-paulo/history-lover-dinner"
 translationKey: "sao-paulo-history-lover-dinner"
 lang: "en"
-title: "For people trying History Lover Dinner in Sao Paulo, Fanju app puts the guest mix first | fanju-app"
-description: "In Sao Paulo, where the pace after work often means retreating into routines or scrolling through options that never quite land, the Fanju app quietly shifts the balance. I’ve hosted enough History Lover Dinners now to k"
+title: "For people trying History Lover Dinner in Sao Paulo, Fanju app..."
+description: "In Sao Paulo, where the pace after work often means retreating into routines or scrolling through options that never quite land, the Fanju app quietly s…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

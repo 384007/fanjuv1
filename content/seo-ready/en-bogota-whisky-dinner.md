@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bogota/whisky-dinner"
 alternatePath: "/city/bogota/whisky-dinner"
 translationKey: "bogota-whisky-dinner"
 lang: "en"
-title: "For Bogota readers considering Whisky Dinner, Fanju app should make the room legible"
-description: "When you scan a listing for a whisky evening in the city, the specific details about the local context matter more than the category name. A strong host note will explain why this particular theme resonates in Bogota"
+title: "For Bogota readers considering Whisky Dinner, Fanju app should..."
+description: "When you scan a listing for a whisky evening in the city, the specific details about the local context matter more than the category name."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

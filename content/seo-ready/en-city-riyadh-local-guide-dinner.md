@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/riyadh/local-guide-dinner"
 alternatePath: "/city/riyadh/local-guide-dinner"
-title: "Dinner with Riyadh Neighbours: How Fanju app Fosters Community | fanju-app | 饭局app"
+title: "Dinner with Riyadh Neighbours: How Fanju app Fosters Community"
 description: "Discover the essence of Riyadh's local dinner scene with Fanju app, where strangers become friends over shared meals."
 recoveredFromD1: true
 ---

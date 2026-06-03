@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bangkok/aviation-dinner"
 alternatePath: "/city/bangkok/aviation-dinner"
 translationKey: "bangkok-aviation-dinner"
 lang: "en"
-title: "For people trying Aviation Dinner in Bangkok, Fanju app puts the guest mix first | fanju-app"
-description: "Arriving in Bangkok this month, you’re past the jet lag but not yet settled—your evenings are still open, your network is thin, and dinner with strangers feels like both a risk and a relief. The city hums with late-night"
+title: "For people trying Aviation Dinner in Bangkok, Fanju app puts the..."
+description: "Arriving in Bangkok this month, you’re past the jet lag but not yet settled—your evenings are still open, your network is thin, and dinner with stranger…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

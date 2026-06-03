@@ -4,8 +4,8 @@ canonicalPath: "/en/city/london/new-friends-dinner"
 alternatePath: "/city/london/new-friends-dinner"
 translationKey: "london-new-friends-dinner"
 lang: "en"
-title: "London has plenty of New Friends Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "Fanju app helps people in London meet over dinner at small tables of six to twelve strangers who become, briefly, a temporary household. It’s not about networking or events with a theme—it’s about sharing a meal with a g"
+title: "London has plenty of New Friends Dinner options; Fanju app is the..."
+description: "Fanju app helps people in London meet over dinner at small tables of six to twelve strangers who become, briefly, a temporary household."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

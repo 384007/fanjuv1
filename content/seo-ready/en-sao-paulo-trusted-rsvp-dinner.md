@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sao-paulo/trusted-rsvp-dinner"
 alternatePath: "/city/sao-paulo/trusted-rsvp-dinner"
 translationKey: "sao-paulo-trusted-rsvp-dinner"
 lang: "en"
-title: "For Sao Paulo readers considering Trusted RSVP Dinner, Fanju app should make the room legible"
-description: "In a city as vast as Sao Paulo, a generic invitation to eat rarely works because the logistics of travel are too heavy for a vague plan. A compelling listing for a Trusted RSVP Dinner should immediately ground the event"
+title: "For Sao Paulo readers considering Trusted RSVP Dinner, Fanju app..."
+description: "In a city as vast as Sao Paulo, a generic invitation to eat rarely works because the logistics of travel are too heavy for a vague plan."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

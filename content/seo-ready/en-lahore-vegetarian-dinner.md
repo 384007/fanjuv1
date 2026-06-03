@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lahore/vegetarian-dinner"
 alternatePath: "/city/lahore/vegetarian-dinner"
 translationKey: "lahore-vegetarian-dinner"
 lang: "en"
-title: "Saturday Night in Lahore: A Vegetarian Dinner that Shows How Fanju app Can Build a Small‑Table Community"
-description: "The first question many Lahore readers ask is whether the dinner feels organized enough to justify the commute across neighbourhoods. A well‑planned table will list an arrival time, a suggested exit point, and a brief"
+title: "Saturday Night in Lahore: A Vegetarian Dinner that Shows How Fanju..."
+description: "The first question many Lahore readers ask is whether the dinner feels organized enough to justify the commute across neighbourhoods."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

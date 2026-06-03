@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dubai/picnic-dinner"
 alternatePath: "/city/dubai/picnic-dinner"
 translationKey: "dubai-picnic-dinner"
 lang: "en"
-title: "Dubai has plenty of Picnic Dinner options; Fanju app is the one that names the table first | fanju-app"
+title: "Dubai has plenty of Picnic Dinner options; Fanju app is the one..."
 description: "In Dubai, where social rhythms shift between private villas and open-air terraces, connecting beyond surface-level gatherings can feel elusive."
 pageType: "city_article"
 priorityScore: 70

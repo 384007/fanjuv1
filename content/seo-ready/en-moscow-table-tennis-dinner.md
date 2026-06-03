@@ -4,8 +4,8 @@ canonicalPath: "/en/city/moscow/table-tennis-dinner"
 alternatePath: "/city/moscow/table-tennis-dinner"
 translationKey: "moscow-table-tennis-dinner"
 lang: "en"
-title: "In Moscow, Fanju app turns Table Tennis Dinner into a table people can actually trust | fanju-app"
-description: "In Moscow, where city rhythms often move too fast for conversation and apartment doors stay shut behind heavy entry codes, the Fanju app quietly offers a different kind of connection: a dinner table built around table te"
+title: "In Moscow, Fanju app turns Table Tennis Dinner into a table people..."
+description: "In Moscow, where city rhythms often move too fast for conversation and apartment doors stay shut behind heavy entry codes, the Fanju app quietly offers…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

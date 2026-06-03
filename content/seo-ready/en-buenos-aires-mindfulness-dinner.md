@@ -4,8 +4,8 @@ canonicalPath: "/en/city/buenos-aires/mindfulness-dinner"
 alternatePath: "/city/buenos-aires/mindfulness-dinner"
 translationKey: "buenos-aires-mindfulness-dinner"
 lang: "en"
-title: "Buenos Aires has plenty of Mindfulness Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "Hosting a Mindfulness Dinner in Buenos Aires means more than setting out cutlery and lighting a candle. It’s about curating a space where people can arrive as strangers and leave feeling grounded. I’ve hosted over sevent"
+title: "Buenos Aires has plenty of Mindfulness Dinner options; Fanju app..."
+description: "Hosting a Mindfulness Dinner in Buenos Aires means more than setting out cutlery and lighting a candle."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

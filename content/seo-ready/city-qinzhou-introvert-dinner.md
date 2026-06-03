@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/qinzhou/introvert-dinner"
 alternatePath: "/en/city/qinzhou/introvert-dinner"
-title: "钦州内向者饭局指南 | fanju-app | 饭局app"
+title: "钦州内向者饭局指南"
 description: "在钦州，内向者如何找到适合自己的饭局？饭局app可以帮助你找到同样有兴趣的人，享受轻松愉快的饭局体验。"
 recoveredFromD1: true
 ---

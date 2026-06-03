@@ -4,8 +4,8 @@ canonicalPath: "/en/city/buenos-aires/sustainability-dinner"
 alternatePath: "/city/buenos-aires/sustainability-dinner"
 translationKey: "buenos-aires-sustainability-dinner"
 lang: "en"
-title: "Small‑Table Sustainability Dinner in Buenos Aires, Powered by the Fanju app"
-description: "When you arrive, the Fanju app notification shows a small map of the restaurant, a photo of the dining room, and the host’s brief bio. In Buenos Aires, the venue is often a converted bodega in Palermo that offers a"
+title: "Small‑Table Sustainability Dinner in Buenos Aires, Powered by the..."
+description: "When you arrive, the Fanju app notification shows a small map of the restaurant, a photo of the dining room, and the host’s brief bio."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

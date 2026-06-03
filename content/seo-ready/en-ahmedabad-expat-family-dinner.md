@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ahmedabad/expat-family-dinner"
 alternatePath: "/city/ahmedabad/expat-family-dinner"
 translationKey: "ahmedabad-expat-family-dinner"
 lang: "en"
-title: "Before the first message in Ahmedabad, Fanju app makes Expat Family Dinner feel like a real decision | fanju-app"
-description: "In Ahmedabad, where cultural rhythms blend tradition with global influence, expat families often find themselves navigating social invitations that blur the line between casual and committed. The Fanju app changes that b"
+title: "Before the first message in Ahmedabad, Fanju app makes Expat..."
+description: "In Ahmedabad, where cultural rhythms blend tradition with global influence, expat families often find themselves navigating social invitations that blur…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

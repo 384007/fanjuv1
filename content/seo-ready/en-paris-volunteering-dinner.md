@@ -4,8 +4,8 @@ canonicalPath: "/en/city/paris/volunteering-dinner"
 alternatePath: "/city/paris/volunteering-dinner"
 translationKey: "paris-volunteering-dinner"
 lang: "en"
-title: "A clearer Volunteering Dinner dinner in Paris: Fanju app, small tables, and real boundaries"
-description: "A genuine Paris dinner listing should immediately distinguish itself from a generic meetup by describing the atmosphere. You want to see specific details about the venue type, such as a quiet bistro in the 11th"
+title: "A clearer Volunteering Dinner dinner in Paris: Fanju app, small..."
+description: "A genuine Paris dinner listing should immediately distinguish itself from a generic meetup by describing the atmosphere."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

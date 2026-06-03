@@ -4,8 +4,8 @@ canonicalPath: "/en/city/berlin/sports-coach-dinner"
 alternatePath: "/city/berlin/sports-coach-dinner"
 translationKey: "berlin-sports-coach-dinner"
 lang: "en"
-title: "Berlin after work: how Fanju app makes Sports Coach Dinner feel like a real room | fanju-app"
-description: "In Berlin, where the city’s pulse runs through train platforms, shared workspaces, and late-night bike lanes, finding a quiet table for six that feels like home is rare. The Fanju app doesn’t promise to fix the city, but"
+title: "Berlin after work: how Fanju app makes Sports Coach Dinner feel..."
+description: "In Berlin, where the city’s pulse runs through train platforms, shared workspaces, and late-night bike lanes, finding a quiet table for six that feels l…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

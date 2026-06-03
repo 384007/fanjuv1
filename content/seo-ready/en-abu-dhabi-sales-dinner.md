@@ -4,8 +4,8 @@ canonicalPath: "/en/city/abu-dhabi/sales-dinner"
 alternatePath: "/city/abu-dhabi/sales-dinner"
 translationKey: "abu-dhabi-sales-dinner"
 lang: "en"
-title: "Before the first message in Abu Dhabi, Fanju app makes Sales Dinner feel like a real decision | fanju-app"
-description: "When you’re looking for a Sales Dinner experience in Abu Dhabi, the idea of just showing up to a large, undefined event can feel a bit daunting, especially if you’re aiming for genuine connection rather than just"
+title: "Before the first message in Abu Dhabi, Fanju app makes Sales..."
+description: "When you’re looking for a Sales Dinner experience in Abu Dhabi, the idea of just showing up to a large, undefined event can feel a bit daunting, especia…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/addis-ababa/weeknight-dinner"
 alternatePath: "/city/addis-ababa/weeknight-dinner"
-title: "Addis Ababa Weeknight Dinner Guide | Fanju app"
-description: "Discover the authentic taste of Addis Ababa with Fanju app, a social dining platform that connects you with like-minded individuals for small, carefully crafted meals and meaningful connections."
+title: "Addis Ababa Weeknight Dinner Guide"
+description: "Discover the authentic taste of Addis Ababa with Fanju app, a social dining platform that connects you with like-minded individuals for small, carefully…"
 recoveredFromD1: true
 ---
 Are you looking for a unique way to experience the local culture of Addis Ababa? Do you want to connect with fellow food enthusiasts and make new friends? Look no further than Fanju app&#039;s Weeknight Dinner guide.

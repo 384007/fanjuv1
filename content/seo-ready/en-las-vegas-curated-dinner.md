@@ -5,7 +5,7 @@ alternatePath: "/city/las-vegas/curated-dinner"
 translationKey: "las-vegas-curated-dinner"
 lang: "en"
 title: "Unpacking Curated Dinners in Las Vegas: A Fanju App Exploration"
-description: "When the evening calls for more than just a meal, Las Vegas offers opportunities for a food-discovery thread, and Fanju app’s Curated Dinners can be a part of that. Imagine an after-work table where the conversation"
+description: "When the evening calls for more than just a meal, Las Vegas offers opportunities for a food-discovery thread, and Fanju app’s Curated Dinners can be a p…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

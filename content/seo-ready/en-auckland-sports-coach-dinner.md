@@ -4,8 +4,8 @@ canonicalPath: "/en/city/auckland/sports-coach-dinner"
 alternatePath: "/city/auckland/sports-coach-dinner"
 translationKey: "auckland-sports-coach-dinner"
 lang: "en"
-title: "An Auckland dinner table for Sports Coach Dinner, with Fanju app boundaries up front"
-description: "When you view a listing on the Fanju 饭局app, the platform functions as a detailed preview rather than a blind RSVP button. For a Sports Coach Dinner in Auckland, the description should immediately clarify if the evening"
+title: "An Auckland dinner table for Sports Coach Dinner, with Fanju app..."
+description: "When you view a listing on the Fanju 饭局app, the platform functions as a detailed preview rather than a blind RSVP button."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

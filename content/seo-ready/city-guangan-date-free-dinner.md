@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/guangan/date-free-dinner"
 alternatePath: "/en/city/guangan/date-free-dinner"
-title: "广安非相亲饭局指南 | fanju-app | 饭局app"
+title: "广安非相亲饭局指南"
 description: "在广安尝试非相亲饭局的指南，适合刚搬来这座城市的人"
 recoveredFromD1: true
 ---

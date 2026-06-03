@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/mexico-city/sunday-dinner"
 alternatePath: "/city/mexico-city/sunday-dinner"
-title: "Mexico City Sunday Dinner Guide | Fanju app"
-description: "Discover the art of hosting a Sunday dinner in Mexico City with the help of Fanju app, a social dining app for small, clearly described meals and real-world connections."
+title: "Mexico City Sunday Dinner Guide"
+description: "Discover the art of hosting a Sunday dinner in Mexico City with the help of Fanju app, a social dining app for small, clearly described meals and real-w…"
 recoveredFromD1: true
 ---
 Mexico City is a vibrant metropolis with a rich cultural heritage, and its Sunday dinners are a testament to the city&#039;s warm and welcoming spirit. As a host who regularly invites friends and acquaintances to share a meal, I&#039;ve learned a thing or two about what makes a table feel right. In this guide, I&#039;ll share my insights on how to create a memorable Sunday dinner experience in Mexico City, with the help of Fanju app.

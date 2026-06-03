@@ -5,7 +5,7 @@ alternatePath: "/city/athens/city-guide-dinner"
 translationKey: "athens-city-guide-dinner"
 lang: "en"
 title: "Athens City Guide Dinner: how Fanju app makes the table worth choosing"
-description: "A strong listing for a shared meal in Athens immediately tells you what is on the table and why it matters to the local food scene. Whether the focus is on a specific variety of grilled octopus in Koukaki or a deep dive"
+description: "A strong listing for a shared meal in Athens immediately tells you what is on the table and why it matters to the local food scene."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

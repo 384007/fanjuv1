@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ho-chi-minh-city/barista-dinner"
 alternatePath: "/city/ho-chi-minh-city/barista-dinner"
 translationKey: "ho-chi-minh-city-barista-dinner"
 lang: "en"
-title: "Ho Chi Minh City Barista Dinner through Fanju app: the questions to answer before you sit down"
-description: "A public venue type matters in Ho Chi Minh City because strangers need to picture the room before joining. When you look for a Barista Dinner, check if the listing specifies whether it is in a quiet specialty cafe in"
+title: "Ho Chi Minh City Barista Dinner through Fanju app: the questions..."
+description: "A public venue type matters in Ho Chi Minh City because strangers need to picture the room before joining."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

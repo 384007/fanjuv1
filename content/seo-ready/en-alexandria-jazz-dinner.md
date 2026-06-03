@@ -4,8 +4,8 @@ canonicalPath: "/en/city/alexandria/jazz-dinner"
 alternatePath: "/city/alexandria/jazz-dinner"
 translationKey: "alexandria-jazz-dinner"
 lang: "en"
-title: "Alexandria strangers sit down easier when Fanju app frames the Jazz Dinner table first | fanju-app"
-description: "In Alexandria, where old brick rowhouses meet riverfront walks and a quiet cultural pulse hums beneath the surface, the Fanju app helps turn hesitant curiosity into shared evenings. One such evening is the Jazz Dinner—a"
+title: "Alexandria strangers sit down easier when Fanju app frames the..."
+description: "In Alexandria, where old brick rowhouses meet riverfront walks and a quiet cultural pulse hums beneath the surface, the Fanju app helps turn hesitant cu…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

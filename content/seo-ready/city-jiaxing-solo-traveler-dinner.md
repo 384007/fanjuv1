@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/jiaxing/solo-traveler-dinner"
 alternatePath: "/en/city/jiaxing/solo-traveler-dinner"
-title: "嘉兴独自旅行者饭局指南 | fanju-app | 饭局app"
+title: "嘉兴独自旅行者饭局指南"
 description: "嘉兴独自旅行者饭局指南，了解嘉兴独自旅行者饭局的最佳方式，包括适合谁、核心场景、安全重点等信息。"
 recoveredFromD1: true
 ---

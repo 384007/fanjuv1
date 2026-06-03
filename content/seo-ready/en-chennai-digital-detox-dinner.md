@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chennai/digital-detox-dinner"
 alternatePath: "/city/chennai/digital-detox-dinner"
 translationKey: "chennai-digital-detox-dinner"
 lang: "en"
-title: "When Digital Detox Dinner in Chennai needs more than a group chat, Fanju app starts with the table"
-description: "When you are considering a Digital Detox Dinner in Chennai, the most practical question to ask yourself is whether the host has defined a clear time window for the event. Chennai traffic is notoriously unpredictable,"
+title: "When Digital Detox Dinner in Chennai needs more than a group chat,..."
+description: "When you are considering a Digital Detox Dinner in Chennai, the most practical question to ask yourself is whether the host has defined a clear time win…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

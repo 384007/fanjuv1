@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/yibin/language-exchange-dinner"
 alternatePath: "/city/yibin/language-exchange-dinner"
-title: "Language Exchange Dinner with Fanju app in Yibin | fanju-app | 饭局app"
+title: "Language Exchange Dinner with Fanju app in Yibin"
 description: "Join a Language Exchange Dinner in Yibin with Fanju app and connect with locals, practice languages, and build community."
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/baoding/festival-dinner"
 alternatePath: "/en/city/baoding/festival-dinner"
-title: "保定节日饭局指南 | fanju-app | 饭局app"
+title: "保定节日饭局指南"
 description: "在保定体验节日饭局的真实面貌，了解小桌的力量和社区的魅力。"
 recoveredFromD1: true
 ---

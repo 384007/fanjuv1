@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nairobi/interior-designer-dinner"
 alternatePath: "/city/nairobi/interior-designer-dinner"
 translationKey: "nairobi-interior-designer-dinner"
 lang: "en"
-title: "Before joining Interior Designer Dinner in Nairobi, what Fanju app should make clear"
-description: "A guest who thrives at this table is someone who values deep conversation about aesthetics, space, and functionality over loud networking. If you are an interior designer or an enthusiast in Nairobi who wants to discuss"
+title: "Before joining Interior Designer Dinner in Nairobi, what Fanju app..."
+description: "A guest who thrives at this table is someone who values deep conversation about aesthetics, space, and functionality over loud networking."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

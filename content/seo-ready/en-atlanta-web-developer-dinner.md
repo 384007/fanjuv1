@@ -4,8 +4,8 @@ canonicalPath: "/en/city/atlanta/web-developer-dinner"
 alternatePath: "/city/atlanta/web-developer-dinner"
 translationKey: "atlanta-web-developer-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Atlanta Web Developer Dinner table before the first course"
-description: "When you see a listing for a Web Developer Dinner in Atlanta, the first sentence of the description should tell you immediately why this specific night requires your physical presence. A strong listing does not just"
+title: "The Fanju app way to judge a Atlanta Web Developer Dinner table..."
+description: "When you see a listing for a Web Developer Dinner in Atlanta, the first sentence of the description should tell you immediately why this specific night…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

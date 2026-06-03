@@ -4,8 +4,8 @@ canonicalPath: "/en/city/houston/researcher-dinner"
 alternatePath: "/city/houston/researcher-dinner"
 translationKey: "houston-researcher-dinner"
 lang: "en"
-title: "Houston Researcher Dinner through Fanju app: the questions to answer before you sit down"
-description: "A truly compelling Fanju listing for a Researcher Dinner in Houston goes beyond just stating the category. It should offer a specific hook, a local relevance that resonates with the city's current intellectual or"
+title: "Houston Researcher Dinner through Fanju app: the questions to..."
+description: "A truly compelling Fanju listing for a Researcher Dinner in Houston goes beyond just stating the category."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mumbai/holiday-dinner"
 alternatePath: "/city/mumbai/holiday-dinner"
 translationKey: "mumbai-holiday-dinner"
 lang: "en"
-title: "For Mumbai readers considering Holiday Dinner, Fanju app should make the room legible"
-description: "When you evaluate a Holiday Dinner listing in this city, the description needs to explain why this specific gathering makes sense for Mumbai right now, rather than just repeating the generic category name. A strong host"
+title: "For Mumbai readers considering Holiday Dinner, Fanju app should..."
+description: "When you evaluate a Holiday Dinner listing in this city, the description needs to explain why this specific gathering makes sense for Mumbai right now,…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/tel-aviv/designer-dinner"
 alternatePath: "/city/tel-aviv/designer-dinner"
-title: "Tel Aviv Designer Dinner Guide | Fanju app"
-description: "Discover the unique experience of Designer Dinner in Tel Aviv with Fanju app, a social dining app that connects people for small, clearly described meals and real-world connections."
+title: "Tel Aviv Designer Dinner Guide"
+description: "Discover the unique experience of Designer Dinner in Tel Aviv with Fanju app, a social dining app that connects people for small, clearly described meal…"
 recoveredFromD1: true
 ---
 ## What is Fanju?

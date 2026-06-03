@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dubai/newcomer-guide-dinner"
 alternatePath: "/city/dubai/newcomer-guide-dinner"
 translationKey: "dubai-newcomer-guide-dinner"
 lang: "en"
-title: "Dubai after work: how Fanju app makes Newcomer Guide Dinner feel like a real room | fanju-app"
+title: "Dubai after work: how Fanju app makes Newcomer Guide Dinner feel..."
 description: "Dubai’s geography can complicate social plans. When someone says “let’s meet up,” the unspoken question is always: where?"
 pageType: "city_article"
 priorityScore: 70

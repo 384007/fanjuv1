@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mumbai/poetry-dinner"
 alternatePath: "/city/mumbai/poetry-dinner"
 translationKey: "mumbai-poetry-dinner"
 lang: "en"
-title: "What makes Poetry Dinner in Mumbai worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "The right location doesn’t mean the most central one. In Mumbai, a Poetry Dinner in Lower Parel might feel like an extension of the office if it’s too close to commercial towers, while one in Juhu could demand a"
+title: "What makes Poetry Dinner in Mumbai worth the risk; Fanju app..."
+description: "The right location doesn’t mean the most central one. In Mumbai, a Poetry Dinner in Lower Parel might feel like an extension of the office if it’s too c…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

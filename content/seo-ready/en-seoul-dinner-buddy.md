@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seoul/dinner-buddy"
 alternatePath: "/city/seoul/dinner-buddy"
 translationKey: "seoul-dinner-buddy"
 lang: "en"
-title: "Seoul does not need another vague invite; Fanju app makes Dinner Buddy specific | fanju-app"
-description: "It’s Friday evening in Seoul, and the city hums with the usual rhythm—groups spilling out of Gangnam subway exits, couples lining up at dessert cafes, coworkers laughing over soju in basement restaurants. But for others,"
+title: "Seoul does not need another vague invite; Fanju app makes Dinner..."
+description: "It’s Friday evening in Seoul, and the city hums with the usual rhythm—groups spilling out of Gangnam subway exits, couples lining up at dessert cafes, c…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

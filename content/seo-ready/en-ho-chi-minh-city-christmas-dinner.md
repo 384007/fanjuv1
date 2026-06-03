@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ho-chi-minh-city/christmas-dinner"
 alternatePath: "/city/ho-chi-minh-city/christmas-dinner"
 translationKey: "ho-chi-minh-city-christmas-dinner"
 lang: "en"
-title: "Ho Chi Minh City does not need another vague invite; Fanju app makes Christmas Dinner specific | fanju-app"
-description: "In Ho Chi Minh City, where street life hums late into the night and neighbourhoods pulse with distinct rhythms, finding real connection during the holidays can feel like searching for quiet in District 1 at rush hour. Th"
+title: "Ho Chi Minh City does not need another vague invite; Fanju app..."
+description: "In Ho Chi Minh City, where street life hums late into the night and neighbourhoods pulse with distinct rhythms, finding real connection during the holid…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

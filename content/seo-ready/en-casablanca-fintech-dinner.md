@@ -4,8 +4,8 @@ canonicalPath: "/en/city/casablanca/fintech-dinner"
 alternatePath: "/city/casablanca/fintech-dinner"
 translationKey: "casablanca-fintech-dinner"
 lang: "en"
-title: "A Casablanca dinner table for Fintech Dinner, with Fanju app boundaries up front"
-description: "The listing on Fanju typically starts with a concise description of the dinner’s theme—here, Fintech—and a short note about why the topic matters in Casablanca right now, such as the recent launch of a local fintech hub"
+title: "A Casablanca dinner table for Fintech Dinner, with Fanju app..."
+description: "The listing on Fanju typically starts with a concise description of the dinner’s theme—here, Fintech—and a short note about why the topic matters in Cas…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -5,7 +5,7 @@ alternatePath: "/city/alexandria/frisbee-dinner"
 translationKey: "alexandria-frisbee-dinner"
 lang: "en"
 title: "Finding a Spot at an Alexandria Frisbee Dinner Through the Fanju app"
-description: "On the Fanju app, the event appears as a concise card with the title “Frisbee Dinner – Alexandria” and a brief host note. The note explains why the frisbee theme fits the local community now, rather than just repeating"
+description: "On the Fanju app, the event appears as a concise card with the title “Frisbee Dinner – Alexandria” and a brief host note."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/wuzhou/hosted-table"
 alternatePath: "/en/city/wuzhou/hosted-table"
-title: "梧州老街的烟火气与饭局app：一场关于味道与人情的约会 | fanju-app"
+title: "梧州老街的烟火气与饭局app：一场关于味道与人情的约会"
 description: "在梧州，饭局app不仅仅是一个社交工具，它更像是一扇窗，让我们得以窥见这座城市深藏的烟火气和人情味。通过饭局app，你可以参与到由本地主理人精心策划的“主理人餐桌”活动中，体验一场围绕着梧州特色美食和真诚交流的独特饭局。"
 recoveredFromD1: true
 ---

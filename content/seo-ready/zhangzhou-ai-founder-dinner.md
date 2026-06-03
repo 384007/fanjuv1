@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/zhangzhou/ai-founder-dinner"
 alternatePath: "/en/city/zhangzhou/ai-founder-dinner"
-title: "漳州的一顿AI 创业者饭局，饭局app为什么先看人再看热闹 | fanju-app"
+title: "漳州的一顿AI 创业者饭局，饭局app为什么先看人再看热闹"
 description: "在漳州，一场关于AI创业的线下聚会，通过饭局app的精心组织，正变得越来越注重“人”的质感而非单纯的热闹氛围。饭局app的核心在于构建一个让人们能够围绕一张小桌，以清晰的主题进行深度交流的线下连接平台。它不仅仅是简单的邀约工具，更是一种对社"
 recoveredFromD1: true
 ---

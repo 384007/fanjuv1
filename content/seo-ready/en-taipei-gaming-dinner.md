@@ -4,8 +4,8 @@ canonicalPath: "/en/city/taipei/gaming-dinner"
 alternatePath: "/city/taipei/gaming-dinner"
 translationKey: "taipei-gaming-dinner"
 lang: "en"
-title: "Taipei has plenty of Gaming Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "In Taipei, deciding how to spend a weekend evening can feel less like leisure and more like negotiation—especially if you’re someone who values quiet clarity over noise and spontaneity. For introverts who enjoy gaming an"
+title: "Taipei has plenty of Gaming Dinner options; Fanju app is the one..."
+description: "In Taipei, deciding how to spend a weekend evening can feel less like leisure and more like negotiation—especially if you’re someone who values quiet cl…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

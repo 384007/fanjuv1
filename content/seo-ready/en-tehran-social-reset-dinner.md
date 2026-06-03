@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tehran/social-reset-dinner"
 alternatePath: "/city/tehran/social-reset-dinner"
 translationKey: "tehran-social-reset-dinner"
 lang: "en"
-title: "Tehran after work: how Fanju app makes Social Reset Dinner feel like a real room | fanju-app"
-description: "Fanju app offers a unique way to find small, focused dining gatherings in Tehran, designed for genuine connection rather than a large, impersonal event. For those navigating the city solo, especially after a workday, it"
+title: "Tehran after work: how Fanju app makes Social Reset Dinner feel..."
+description: "Fanju app offers a unique way to find small, focused dining gatherings in Tehran, designed for genuine connection rather than a large, impersonal event.…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

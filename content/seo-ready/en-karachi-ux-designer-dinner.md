@@ -4,8 +4,8 @@ canonicalPath: "/en/city/karachi/ux-designer-dinner"
 alternatePath: "/city/karachi/ux-designer-dinner"
 translationKey: "karachi-ux-designer-dinner"
 lang: "en"
-title: "For people trying UX Designer Dinner in Karachi, Fanju app puts the guest mix first | fanju-app"
-description: "When you land in Karachi this month and scroll through weekend plans, Fanju app shows up not as a dining guide but as a filter for real connection—especially around niche interests like UX design. It’s not about the food"
+title: "For people trying UX Designer Dinner in Karachi, Fanju app puts..."
+description: "When you land in Karachi this month and scroll through weekend plans, Fanju app shows up not as a dining guide but as a filter for real connection—espec…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

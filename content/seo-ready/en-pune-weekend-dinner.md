@@ -5,7 +5,7 @@ alternatePath: "/city/pune/weekend-dinner"
 translationKey: "pune-weekend-dinner"
 lang: "en"
 title: "Pune Weekend Dinner Through the Fanju app: A First‑Arrival Decision"
-description: "The first thing you notice in Koregaon Park is the subtle scent of street‑side grills mingling with the aroma of freshly brewed chai, a cue that the gathering is informal yet intentional. In Pune, the host usually"
+description: "The first thing you notice in Koregaon Park is the subtle scent of street‑side grills mingling with the aroma of freshly brewed chai, a cue that the gat…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

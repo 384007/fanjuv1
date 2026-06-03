@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lisbon/supper-club"
 alternatePath: "/city/lisbon/supper-club"
 translationKey: "lisbon-supper-club"
 lang: "en"
-title: "What makes Supper Club in Lisbon worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "Fanju app helps people in Lisbon find small, intentional dinners built around real conversation, not performance. These aren’t bustling group events or networking showcases."
+title: "What makes Supper Club in Lisbon worth the risk; Fanju app answers..."
+description: "Fanju app helps people in Lisbon find small, intentional dinners built around real conversation, not performance."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/qiannan/art-dinner"
 alternatePath: "/en/city/qiannan/art-dinner"
-title: "在黔南把艺术饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
+title: "在黔南把艺术饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "饭局app作为一个围绕小桌吃饭、清晰主题和线下连接的社交应用，在黔南这样的地方，如何让一场艺术饭局既有本地特色又不失格调，是不少报名者会仔细考量的。它不仅仅是提供一个平台，更在于如何通过平台上的信息，帮助用户在黔南这座城市里，找到真正契合自"
 recoveredFromD1: true
 ---

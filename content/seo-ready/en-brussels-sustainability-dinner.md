@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/sustainability-dinner"
 alternatePath: "/city/brussels/sustainability-dinner"
 translationKey: "brussels-sustainability-dinner"
 lang: "en"
-title: "A quiet Brussels evening: the Sustainability Dinner you can walk away from with the Fanju app"
-description: "For Brussels readers, the app also flags “skip signals” such as vague venue descriptions, unclear cost, or pressured follow‑up messages. If a listing mentions a “cozy venue in the city centre” without naming the"
+title: "A quiet Brussels evening: the Sustainability Dinner you can walk..."
+description: "For Brussels readers, the app also flags “skip signals” such as vague venue descriptions, unclear cost, or pressured follow‑up messages."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

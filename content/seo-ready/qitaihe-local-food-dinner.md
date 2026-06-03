@@ -4,9 +4,9 @@ canonicalPath: "/city/qitaihe/local-food-dinner"
 alternatePath: "/en/city/qitaihe/local-food-dinner"
 translationKey: "qitaihe-local-food-dinner"
 lang: "zh"
-title: "把七台河本地美食饭局坐成真实小桌，饭局app需要先说明什么 | fanju-app"
+title: "把七台河本地美食饭局坐成真实小桌，饭局app需要先说明什么"
 titleZh: "把七台河本地美食饭局坐成真实小桌，饭局app需要先说明什么"
-description: "七台河本地美食饭局，对刚来的人不只是吃一顿饭的事。 你打开饭局app，滑过几条“铁锅炖大鹅局”“冷面探店小聚”，点进去看，发现主理人写了半页话，但还是不确定这桌饭到底能不能接得住你下班后的那点期待。 Fanju饭局不是相亲保证，不是随机群聊，不是无限刷资料，它是一群人在七台河某个具体的小饭馆里，按主题围坐一桌，用吃饭的时间交换一点真实的对话。"
+description: "七台河本地美食饭局，对刚来的人不只是吃一顿饭的事。 你打开饭局app，滑过几条“铁锅炖大鹅局”“冷面探店小聚”，点进去看，发现主理人写了半页话，但还是不确定这桌饭到底能不能接得住你下班后的那点期待。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

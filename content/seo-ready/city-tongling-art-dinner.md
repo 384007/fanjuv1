@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/tongling/art-dinner"
 alternatePath: "/en/city/tongling/art-dinner"
-title: "铜陵艺术饭局指南：通过饭局app找到真实连接 | fanju-app"
+title: "铜陵艺术饭局指南：通过饭局app找到真实连接"
 description: "新来铜陵的人，想通过一顿饭获得真实连接的人，来看看艺术饭局指南"
 recoveredFromD1: true
 ---

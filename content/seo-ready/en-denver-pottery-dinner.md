@@ -4,8 +4,8 @@ canonicalPath: "/en/city/denver/pottery-dinner"
 alternatePath: "/city/denver/pottery-dinner"
 translationKey: "denver-pottery-dinner"
 lang: "en"
-title: "How Fanju app turns a Denver Pottery Dinner night into something worth showing up for | fanju-app"
-description: "The concept of Pottery Dinner in Denver, while appealing on the surface, often struggles with a lack of clear intention and predictable group dynamics when organized haphazardly. Without a structured approach, a group"
+title: "How Fanju app turns a Denver Pottery Dinner night into something..."
+description: "The concept of Pottery Dinner in Denver, while appealing on the surface, often struggles with a lack of clear intention and predictable group dynamics w…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

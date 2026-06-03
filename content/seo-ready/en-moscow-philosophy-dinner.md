@@ -4,8 +4,8 @@ canonicalPath: "/en/city/moscow/philosophy-dinner"
 alternatePath: "/city/moscow/philosophy-dinner"
 translationKey: "moscow-philosophy-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Moscow Philosophy Dinner table before the first course"
-description: "A Philosophy Dinner in Moscow must rise above the level of a generic meetup to justify the time of a busy professional. The first signal of quality is a clear explanation of the expected group size before the table"
+title: "The Fanju app way to judge a Moscow Philosophy Dinner table before..."
+description: "A Philosophy Dinner in Moscow must rise above the level of a generic meetup to justify the time of a busy professional."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

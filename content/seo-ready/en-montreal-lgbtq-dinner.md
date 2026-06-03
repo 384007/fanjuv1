@@ -4,8 +4,8 @@ canonicalPath: "/en/city/montreal/lgbtq-dinner"
 alternatePath: "/city/montreal/lgbtq-dinner"
 translationKey: "montreal-lgbtq-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Montreal LGBTQ Friendly Dinner table before the first course"
-description: "Before you reserve a seat for a LGBTQ Friendly Dinner, ask yourself if the host has clearly stated the guest limit and the intended vibe. A genuine small-table dinner in Montreal thrives on intimacy, which means a group"
+title: "The Fanju app way to judge a Montreal LGBTQ Friendly Dinner table..."
+description: "Before you reserve a seat for a LGBTQ Friendly Dinner, ask yourself if the host has clearly stated the guest limit and the intended vibe."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

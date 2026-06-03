@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/abu-dhabi/teacher-dinner"
 alternatePath: "/city/abu-dhabi/teacher-dinner"
-title: "For people trying Teacher Dinner in Abu Dhabi, Fanju app puts the guest mix first | fanju-app | 饭局app"
-description: "Fanju app helps residents in Abu Dhabi discover small, intentional dinners hosted by thoughtful locals, where the focus is on real connection over reheated social obligations. Teacher Dinner, a format gaining quiet tract"
+title: "For people trying Teacher Dinner in Abu Dhabi, Fanju app puts the..."
+description: "Fanju app helps residents in Abu Dhabi discover small, intentional dinners hosted by thoughtful locals, where the focus is on real connection over rehea…"
 recoveredFromD1: true
 ---
 # For people trying Teacher Dinner in Abu Dhabi, Fanju app puts the guest mix first

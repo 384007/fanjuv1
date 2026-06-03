@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/jixi/business-dinner"
 alternatePath: "/en/city/jixi/business-dinner"
-title: "在鸡西把商务饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
+title: "在鸡西把商务饭局坐稳，饭局app需要筛掉哪些尴尬"
 description: "饭局app在鸡西的用处，不是找餐厅，而是帮刚来的人找到第一张可信任的饭桌。它围绕小桌吃饭、清晰主题和真实连接，把城市里那些看似松散的社交机会变成可以参与的具体场景。在鸡西，节奏不快不慢，人与人之间的距离既不会太近也不会太远，适合用一顿饭的时"
 recoveredFromD1: true
 ---

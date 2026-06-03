@@ -4,8 +4,8 @@ canonicalPath: "/en/city/budapest/baking-dinner"
 alternatePath: "/city/budapest/baking-dinner"
 translationKey: "budapest-baking-dinner"
 lang: "en"
-title: "When Baking Dinner in Budapest needs more than a group chat, Fanju app starts with the table"
-description: "Budapest dinner plans often require clear arrival and exit timing, especially when guests are traveling from different neighborhoods. The city's public transportation system and traffic patterns can be unpredictable,"
+title: "When Baking Dinner in Budapest needs more than a group chat, Fanju..."
+description: "Budapest dinner plans often require clear arrival and exit timing, especially when guests are traveling from different neighborhoods."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lisbon/cleantech-dinner"
 alternatePath: "/city/lisbon/cleantech-dinner"
 translationKey: "lisbon-cleantech-dinner"
 lang: "en"
-title: "A clearer Cleantech Dinner dinner in Lisbon: Fanju app, small tables, and real boundaries"
-description: "When you are scrolling through options in Lisbon, a vague invitation to network usually feels like a risk you would rather not take after a long day at work. You want to see a sentence that tells you exactly why this"
+title: "A clearer Cleantech Dinner dinner in Lisbon: Fanju app, small..."
+description: "When you are scrolling through options in Lisbon, a vague invitation to network usually feels like a risk you would rather not take after a long day at…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

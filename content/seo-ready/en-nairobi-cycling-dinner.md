@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nairobi/cycling-dinner"
 alternatePath: "/city/nairobi/cycling-dinner"
 translationKey: "nairobi-cycling-dinner"
 lang: "en"
-title: "What makes Cycling Dinner in Nairobi worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "That unspoken question—“Should I come again?”—rarely gets addressed in Nairobi’s casual dining circles. Most group events don’t invite return visits by design, relying instead on novelty. But Cycling Dinner’s rhythm"
+title: "What makes Cycling Dinner in Nairobi worth the risk; Fanju app..."
+description: "That unspoken question—“Should I come again?”—rarely gets addressed in Nairobi’s casual dining circles."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

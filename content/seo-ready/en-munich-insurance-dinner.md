@@ -4,8 +4,8 @@ canonicalPath: "/en/city/munich/insurance-dinner"
 alternatePath: "/city/munich/insurance-dinner"
 translationKey: "munich-insurance-dinner"
 lang: "en"
-title: "Munich after work: how Fanju app makes Insurance Dinner feel like a real room | fanju-app"
-description: "Can you find your table in Munich without already knowing someone at it? That’s the quiet question behind the rise of Insurance Dinner gatherings on the Fanju app. In a city where workplace cafeterias close by 6 p.m. and"
+title: "Munich after work: how Fanju app makes Insurance Dinner feel like..."
+description: "Can you find your table in Munich without already knowing someone at it? That’s the quiet question behind the rise of Insurance Dinner gatherings on the…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

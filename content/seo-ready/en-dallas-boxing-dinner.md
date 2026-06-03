@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dallas/boxing-dinner"
 alternatePath: "/city/dallas/boxing-dinner"
 translationKey: "dallas-boxing-dinner"
 lang: "en"
-title: "What makes Boxing Dinner in Dallas worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "Dallas moves in pulses. The late afternoon rush through Oak Lawn or along Central Expressway is more than traffic—it’s a city exhaling, shifting from work focus to personal time. That pause creates a narrow window where"
+title: "What makes Boxing Dinner in Dallas worth the risk; Fanju app..."
+description: "Dallas moves in pulses. The late afternoon rush through Oak Lawn or along Central Expressway is more than traffic—it’s a city exhaling, shifting from wo…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

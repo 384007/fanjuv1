@@ -4,8 +4,8 @@ canonicalPath: "/en/city/cape-town/magic-dinner"
 alternatePath: "/city/cape-town/magic-dinner"
 translationKey: "cape-town-magic-dinner"
 lang: "en"
-title: "How Fanju app turns a Cape Town Magic Dinner night into something worth showing up for | fanju-app"
-description: "Magic Dinner in Cape Town isn’t about spectacle or stage tricks. It’s the quiet shift that happens when strangers share a small table in a city of nearly four million. Through the Fanju app, residents and newcomers find"
+title: "How Fanju app turns a Cape Town Magic Dinner night into something..."
+description: "Magic Dinner in Cape Town isn’t about spectacle or stage tricks. It’s the quiet shift that happens when strangers share a small table in a city of nearl…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

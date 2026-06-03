@@ -4,8 +4,8 @@ canonicalPath: "/en/city/perth/manga-dinner"
 alternatePath: "/city/perth/manga-dinner"
 translationKey: "perth-manga-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Perth Manga Dinner table before the first course"
-description: "When you look for a Manga Dinner in Perth, the app functions primarily as a social dining app that curates specific themes rather than offering a broad marketplace. The listing focuses on a single evening, usually on a"
+title: "The Fanju app way to judge a Perth Manga Dinner table before the..."
+description: "When you look for a Manga Dinner in Perth, the app functions primarily as a social dining app that curates specific themes rather than offering a broad…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

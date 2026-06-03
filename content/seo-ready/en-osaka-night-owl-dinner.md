@@ -4,8 +4,8 @@ canonicalPath: "/en/city/osaka/night-owl-dinner"
 alternatePath: "/city/osaka/night-owl-dinner"
 translationKey: "osaka-night-owl-dinner"
 lang: "en"
-title: "Osaka strangers sit down easier when Fanju app frames the Night Owl Dinner table first | fanju-app"
-description: "In Osaka, where the city pulses with late-night energy but personal connections can feel thin, the Fanju app quietly reshapes how people share meals after dark. The Night Owl Dinner initiative doesn't promise instant fri"
+title: "Osaka strangers sit down easier when Fanju app frames the Night..."
+description: "In Osaka, where the city pulses with late-night energy but personal connections can feel thin, the Fanju app quietly reshapes how people share meals aft…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

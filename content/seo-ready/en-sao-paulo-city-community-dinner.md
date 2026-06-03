@@ -4,7 +4,7 @@ canonicalPath: "/en/city/sao-paulo/city-community-dinner"
 alternatePath: "/city/sao-paulo/city-community-dinner"
 translationKey: "sao-paulo-city-community-dinner"
 lang: "en"
-title: "Before joining City Community Dinner in Sao Paulo, what Fanju app should make clear"
+title: "Before joining City Community Dinner in Sao Paulo, what Fanju app..."
 description: "In a sprawling city like Sao Paulo, a generic invitation to \"meet people\" often leads to loud bars or impersonal networking events where conversation is an afterthought. A City Community Dinner listed on Fanju app"
 pageType: "city_article"
 priorityScore: 70

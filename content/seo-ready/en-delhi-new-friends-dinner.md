@@ -4,8 +4,8 @@ canonicalPath: "/en/city/delhi/new-friends-dinner"
 alternatePath: "/city/delhi/new-friends-dinner"
 translationKey: "delhi-new-friends-dinner"
 lang: "en"
-title: "A calmer way to approach New Friends Dinner in Delhi through Fanju app | fanju-app"
-description: "The Fanju app offers a practical path into the social rhythms of Delhi by connecting people for small, intentional dinners where conversation unfolds naturally over food. Unlike large meetups or formal events, these gath"
+title: "A calmer way to approach New Friends Dinner in Delhi through Fanju app"
+description: "The Fanju app offers a practical path into the social rhythms of Delhi by connecting people for small, intentional dinners where conversation unfolds na…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

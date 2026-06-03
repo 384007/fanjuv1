@@ -5,7 +5,7 @@ alternatePath: "/city/lahore/new-year-dinner"
 translationKey: "lahore-new-year-dinner"
 lang: "en"
 title: "Lahore New Year Dinner: how Fanju app makes the table worth choosing"
-description: "The first thing anyone in Lahore should determine is whether the host has defined a clear theme for the evening. A vague invitation often leads to a disjointed experience where guests do not know what to expect from the"
+description: "The first thing anyone in Lahore should determine is whether the host has defined a clear theme for the evening."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

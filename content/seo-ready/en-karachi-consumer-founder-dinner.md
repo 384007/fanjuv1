@@ -4,8 +4,8 @@ canonicalPath: "/en/city/karachi/consumer-founder-dinner"
 alternatePath: "/city/karachi/consumer-founder-dinner"
 translationKey: "karachi-consumer-founder-dinner"
 lang: "en"
-title: "Karachi does not need another vague invite; Fanju app makes Consumer Founder Dinner specific | fanju-app"
-description: "The Fanju app is a social dining platform built for small, intentional meals where what’s on the plate matters as much as who’s across the table. In Karachi, where food moves fast and connections often blur into noise, F"
+title: "Karachi does not need another vague invite; Fanju app makes..."
+description: "The Fanju app is a social dining platform built for small, intentional meals where what’s on the plate matters as much as who’s across the table."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

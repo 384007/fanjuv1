@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/fukuoka/safe-social-dinner"
 alternatePath: "/city/fukuoka/safe-social-dinner"
-title: "Fukuoka Safe Social Dinner Guide | Fanju app"
-description: "Discover the authentic Fukuoka experience with Fanju app, a social dining platform for small, clearly described meals and real-world connections. Join like-minded individuals for a unique and enriching experience, free from the pressures of dating or romantic expectations."
+title: "Fukuoka Safe Social Dinner Guide"
+description: "Discover the authentic Fukuoka experience with Fanju app, a social dining platform for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---
 Fukuoka, a city known for its vibrant atmosphere and rich cultural heritage, is the perfect setting for a safe social dinner. The city&#039;s rhythm is characterized by a blend of traditional and modern elements, making it an ideal place to explore and connect with others.

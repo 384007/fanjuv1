@@ -4,8 +4,8 @@ canonicalPath: "/en/city/khartoum/game-developer-dinner"
 alternatePath: "/city/khartoum/game-developer-dinner"
 translationKey: "khartoum-game-developer-dinner"
 lang: "en"
-title: "For Khartoum readers considering Game Developer Dinner, Fanju app should make the room legible"
-description: "When you look for a Game Developer Dinner in Khartoum, the distinction lies in the specific texture of the evening. This is not a loud networking event where business cards are exchanged like commodities. Instead, it is"
+title: "For Khartoum readers considering Game Developer Dinner, Fanju app..."
+description: "When you look for a Game Developer Dinner in Khartoum, the distinction lies in the specific texture of the evening."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

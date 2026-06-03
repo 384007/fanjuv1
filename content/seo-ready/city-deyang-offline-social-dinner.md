@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/deyang/offline-social-dinner"
 alternatePath: "/en/city/deyang/offline-social-dinner"
-title: "德阳线下社交饭局指南 | fanju-app | 饭局app"
+title: "德阳线下社交饭局指南"
 description: "在德阳体验线下社交饭局的乐趣，释放自我，建立新友谊。"
 recoveredFromD1: true
 ---

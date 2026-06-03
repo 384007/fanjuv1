@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/rio-de-janeiro/wine-dinner"
 alternatePath: "/city/rio-de-janeiro/wine-dinner"
-title: "Rio de Janeiro Wine Dinner Guide | Fanju app"
-description: "Discover the best wine dinner experiences in Rio de Janeiro with Fanju app, a social dining app for small, clearly described meals and real-world connections."
+title: "Rio de Janeiro Wine Dinner Guide"
+description: "Discover the best wine dinner experiences in Rio de Janeiro with Fanju app, a social dining app for small, clearly described meals and real-world connec…"
 recoveredFromD1: true
 ---
 Rio de Janeiro, a city known for its vibrant nightlife, stunning beaches, and rich cultural heritage, is also a haven for wine enthusiasts. The city&#039;s wine scene is thriving, with numerous wine bars, restaurants, and wine shops offering an impressive selection of wines from around the world. If you&#039;re looking to experience the best of Rio&#039;s wine culture, a wine dinner is an excellent way to do so.

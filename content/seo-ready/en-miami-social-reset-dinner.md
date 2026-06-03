@@ -4,8 +4,8 @@ canonicalPath: "/en/city/miami/social-reset-dinner"
 alternatePath: "/city/miami/social-reset-dinner"
 translationKey: "miami-social-reset-dinner"
 lang: "en"
-title: "In Miami, Fanju app turns Social Reset Dinner into a table people can actually trust | fanju-app"
-description: "When you arrive at a Social Reset Dinner in Miami and see six to twelve chairs pulled around a long table, the real question isn’t whether the food will be good. It’s whether the people will be. That’s where the Fanju ap"
+title: "In Miami, Fanju app turns Social Reset Dinner into a table people..."
+description: "When you arrive at a Social Reset Dinner in Miami and see six to twelve chairs pulled around a long table, the real question isn’t whether the food will…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

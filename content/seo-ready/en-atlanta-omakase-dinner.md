@@ -4,8 +4,8 @@ canonicalPath: "/en/city/atlanta/omakase-dinner"
 alternatePath: "/city/atlanta/omakase-dinner"
 translationKey: "atlanta-omakase-dinner"
 lang: "en"
-title: "Before joining Omakase Dinner in Atlanta, what Fanju app should make clear"
-description: "When you land in a new city, the last thing you want is ambiguity about where you are spending your evening. A listing for an Omakase Dinner in Atlanta needs to do more than just state the time and place; it must"
+title: "Before joining Omakase Dinner in Atlanta, what Fanju app should..."
+description: "When you land in a new city, the last thing you want is ambiguity about where you are spending your evening."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

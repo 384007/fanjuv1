@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/miami/international-student-dinner"
 alternatePath: "/city/miami/international-student-dinner"
-title: "A Taste of Home: How Fanju app Can Help You Navigate International Student Dinner in Miami | fanju-app | 饭局app"
+title: "A Taste of Home: How Fanju app Can Help You Navigate International..."
 description: "Discover the best way to connect with fellow international students in Miami through Fanju app's international student dinner experience."
 recoveredFromD1: true
 ---

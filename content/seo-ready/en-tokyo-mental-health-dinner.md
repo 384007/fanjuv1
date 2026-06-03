@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tokyo/mental-health-dinner"
 alternatePath: "/city/tokyo/mental-health-dinner"
 translationKey: "tokyo-mental-health-dinner"
 lang: "en"
-title: "Tokyo Mental Health Dinner through Fanju app: the questions to answer before you sit down"
-description: "When you scan the options for a Mental Health Dinner in Tokyo, look for specific neighborhood anchors that ground the event in reality. A listing that mentions a quiet corner in Shibuya or a tucked-away café in"
+title: "Tokyo Mental Health Dinner through Fanju app: the questions to..."
+description: "When you scan the options for a Mental Health Dinner in Tokyo, look for specific neighborhood anchors that ground the event in reality."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

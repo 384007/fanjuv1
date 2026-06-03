@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/warsaw/vc-dinner"
 alternatePath: "/city/warsaw/vc-dinner"
-title: "When VC Dinner feels too loose in Warsaw, Fanju app starts with the table | fanju-app | 饭局app"
-description: "The Fanju app helps people in Warsaw find small, clearly described dinners with local hosts who open their homes or favorite neighborhood spots to real conversation. Unlike broad event listings or curated tours, Fanju fo"
+title: "When VC Dinner feels too loose in Warsaw, Fanju app starts with..."
+description: "The Fanju app helps people in Warsaw find small, clearly described dinners with local hosts who open their homes or favorite neighborhood spots to real…"
 recoveredFromD1: true
 ---
 # When VC Dinner feels too loose in Warsaw, Fanju app starts with the table

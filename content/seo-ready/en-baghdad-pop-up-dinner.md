@@ -4,8 +4,8 @@ canonicalPath: "/en/city/baghdad/pop-up-dinner"
 alternatePath: "/city/baghdad/pop-up-dinner"
 translationKey: "baghdad-pop-up-dinner"
 lang: "en"
-title: "Before joining Pop Up Dinner in Baghdad, what Fanju app should make clear"
-description: "The ideal reader for this table is someone in Baghdad seeking a quiet, intentional evening where conversation flows naturally without the pressure of a large crowd. This person values a curated guest list over a chaotic"
+title: "Before joining Pop Up Dinner in Baghdad, what Fanju app should..."
+description: "The ideal reader for this table is someone in Baghdad seeking a quiet, intentional evening where conversation flows naturally without the pressure of a…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

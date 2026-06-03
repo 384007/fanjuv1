@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/jakarta/ecommerce-dinner"
 alternatePath: "/city/jakarta/ecommerce-dinner"
-title: "Jakarta Ecommerce Dinner Guide | Fanju app"
-description: "Discover the authentic side of Jakarta through Ecommerce Dinners with Fanju app, a social dining app that connects you with local hosts for small, clearly described meals and real-world connections."
+title: "Jakarta Ecommerce Dinner Guide"
+description: "Discover the authentic side of Jakarta through Ecommerce Dinners with Fanju app, a social dining app that connects you with local hosts for small, clear…"
 recoveredFromD1: true
 ---
 Jakarta, a city of vibrant markets, bustling streets, and rich cultural heritage, is a melting pot of experiences waiting to be discovered. Yet, for many visitors, the city&#039;s authentic side remains elusive, hidden behind the glitz of tourist attractions and commercialized dining experiences. This is where Ecommerce Dinners come in – a unique way to connect with locals, immerse yourself in the city&#039;s rhythm, and savor the flavors of Jakarta&#039;s culinary scene.

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kinshasa/friday-dinner"
 alternatePath: "/city/kinshasa/friday-dinner"
 translationKey: "kinshasa-friday-dinner"
 lang: "en"
-title: "Considering Kinshasa Friday Dinner: Does Fanju App Fit Your First Few Weeks?"
-description: "When you're new to Kinshasa, the thought of a Friday dinner across town can feel like a significant commitment. You're assessing if the effort to navigate neighborhoods like Gombe or Ngaliema for an evening meal is"
+title: "Considering Kinshasa Friday Dinner: Does Fanju App Fit Your First..."
+description: "When you're new to Kinshasa, the thought of a Friday dinner across town can feel like a significant commitment."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

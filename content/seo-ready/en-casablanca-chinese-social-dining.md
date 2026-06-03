@@ -4,8 +4,8 @@ canonicalPath: "/en/city/casablanca/chinese-social-dining"
 alternatePath: "/city/casablanca/chinese-social-dining"
 translationKey: "casablanca-chinese-social-dining"
 lang: "en"
-title: "The Fanju app way to judge a Casablanca Chinese Social Dining table before the first course"
-description: "A clear sign of a healthy Fanju table is how the host manages the end of the evening, signaling when the check is settled without forcing a prolonged afterparty. In Casablanca, where business and social lines can blur,"
+title: "The Fanju app way to judge a Casablanca Chinese Social Dining..."
+description: "A clear sign of a healthy Fanju table is how the host manages the end of the evening, signaling when the check is settled without forcing a prolonged af…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

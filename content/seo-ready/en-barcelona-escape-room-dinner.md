@@ -4,8 +4,8 @@ canonicalPath: "/en/city/barcelona/escape-room-dinner"
 alternatePath: "/city/barcelona/escape-room-dinner"
 translationKey: "barcelona-escape-room-dinner"
 lang: "en"
-title: "How Fanju app turns a Barcelona Escape Room Dinner night into something worth showing up for | fanju-app"
-description: "In Barcelona, Fanju app turns an escape room dinner into a clear small-table plan with host context, venue details, group size, timing, and a low-pressure way to leave when the night is done."
+title: "How Fanju app turns a Barcelona Escape Room Dinner night into..."
+description: "In Barcelona, Fanju app turns an escape room dinner into a clear small-table plan with host context, venue details, group size, timing, and a low-pressu…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

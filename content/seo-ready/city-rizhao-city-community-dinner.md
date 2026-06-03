@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/rizhao/city-community-dinner"
 alternatePath: "/en/city/rizhao/city-community-dinner"
-title: "日照城市社区饭局指南 | fanju-app | 饭局app"
+title: "日照城市社区饭局指南"
 description: "在日照的城市社区饭局中，通过饭局app与其他热爱社区生活的人们共享美食和故事，体验城市的另一面。"
 recoveredFromD1: true
 ---

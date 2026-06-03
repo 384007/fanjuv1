@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/houston/local-community-dinner"
 alternatePath: "/city/houston/local-community-dinner"
-title: "Why Local Community Dinner in Houston works better when Fanju app keeps the table small | fanju-app | 饭局app"
-description: "When passing through Houston alone, finding a place to connect with locals can be a daunting task. This is where Fanju app comes in – a social dining app that offers small, clearly described meals and real-world connecti"
+title: "Why Local Community Dinner in Houston works better when Fanju app..."
+description: "When passing through Houston alone, finding a place to connect with locals can be a daunting task."
 recoveredFromD1: true
 ---
 # Why Local Community Dinner in Houston works better when Fanju app keeps the table small

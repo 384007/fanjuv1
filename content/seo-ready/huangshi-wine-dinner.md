@@ -4,9 +4,9 @@ canonicalPath: "/city/huangshi/wine-dinner"
 alternatePath: "/en/city/huangshi/wine-dinner"
 translationKey: "huangshi-wine-dinner"
 lang: "zh"
-title: "黄石葡萄酒饭局的同桌质量，饭局app在第一条信息里就开始筛 | fanju-app"
+title: "黄石葡萄酒饭局的同桌质量，饭局app在第一条信息里就开始筛"
 titleZh: "黄石葡萄酒饭局的同桌质量，饭局app在第一条信息里就开始筛"
-description: "我在饭局app上点开今晚在黄石的葡萄酒饭局时，第一眼看到的不是餐厅名，也不是酒单，而是一句：“这桌人会聊到10点半，但如果你9点想走，完全没问题。 ”这句话让我点了报名。 饭局app在黄石的筛选逻辑很特别——它不优先展示有多少人报名，而是先把这桌饭的节奏和边界讲清楚。 我一个人路过这座城市，行李还放在酒店的椅子上，对街道不熟，也不打算认识一堆人。"
+description: "我在饭局app上点开今晚在黄石的葡萄酒饭局时，第一眼看到的不是餐厅名，也不是酒单，而是一句：“这桌人会聊到10点半，但如果你9点想走，完全没问题。 ”这句话让我点了报名。 饭局app在黄石的筛选逻辑很特别——它不优先展示有多少人报名，而是先把这桌饭的节奏和边界讲清楚。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/aba/offline-social-dinner"
 alternatePath: "/en/city/aba/offline-social-dinner"
-title: "阿坝线下社交饭局指南 | fanju-app | 饭局app"
+title: "阿坝线下社交饭局指南"
 description: "在阿坝体验独特的线下社交饭局，通过饭局app与当地人相遇"
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/budapest/digital-detox-dinner"
 alternatePath: "/city/budapest/digital-detox-dinner"
 translationKey: "budapest-digital-detox-dinner"
 lang: "en"
-title: "Before the first message in Budapest, Fanju app makes Digital Detox Dinner feel like a real decision | fanju-app"
-description: "Most social plans in Budapest start with “maybe” and end with silence. A text floats in a group chat, someone suggests Kispest or District VIII, and then nothing solidifies. The city’s rhythm encourages spontaneity, but"
+title: "Before the first message in Budapest, Fanju app makes Digital..."
+description: "Most social plans in Budapest start with “maybe” and end with silence. A text floats in a group chat, someone suggests Kispest or District VIII, and the…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

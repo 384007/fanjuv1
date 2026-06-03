@@ -4,8 +4,8 @@ canonicalPath: "/en/city/austin/open-table-dinner"
 alternatePath: "/city/austin/open-table-dinner"
 translationKey: "austin-open-table-dinner"
 lang: "en"
-title: "A calmer way to approach Open Table Dinner in Austin through Fanju app | fanju-app"
-description: "Dinner in Austin isn’t just about food—it’s about where, how, and with whom you eat. The Fanju app offers a way to join small, intentional meals hosted in homes and backyards across the city, where the focus is on real c"
+title: "A calmer way to approach Open Table Dinner in Austin through Fanju app"
+description: "Dinner in Austin isn’t just about food—it’s about where, how, and with whom you eat."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

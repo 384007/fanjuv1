@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seoul/product-manager-dinner"
 alternatePath: "/city/seoul/product-manager-dinner"
 translationKey: "seoul-product-manager-dinner"
 lang: "en"
-title: "For Seoul readers considering Product Manager Dinner, Fanju app should make the room legible"
-description: "This approach is particularly relevant for professionals in a city like Seoul, where networking and knowledge sharing are highly valued. The app's emphasis on thematic dinners, like a Product Manager Dinner, allows"
+title: "For Seoul readers considering Product Manager Dinner, Fanju app..."
+description: "This approach is particularly relevant for professionals in a city like Seoul, where networking and knowledge sharing are highly valued."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

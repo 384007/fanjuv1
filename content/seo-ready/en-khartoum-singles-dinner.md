@@ -4,8 +4,8 @@ canonicalPath: "/en/city/khartoum/singles-dinner"
 alternatePath: "/city/khartoum/singles-dinner"
 translationKey: "khartoum-singles-dinner"
 lang: "en"
-title: "Before joining Singles Dinner in Khartoum, what Fanju app should make clear"
-description: "You should ask yourself whether the stated purpose of the dinner aligns with your current professional goals or social needs. In Khartoum, where traffic and time are valuable resources, committing to a table requires a"
+title: "Before joining Singles Dinner in Khartoum, what Fanju app should..."
+description: "You should ask yourself whether the stated purpose of the dinner aligns with your current professional goals or social needs."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

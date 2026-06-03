@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mumbai/healthcare-dinner"
 alternatePath: "/city/mumbai/healthcare-dinner"
 translationKey: "mumbai-healthcare-dinner"
 lang: "en"
-title: "A clearer Healthcare Dinner dinner in Mumbai: Fanju app, small tables, and real boundaries"
-description: "In a city where traffic dictates the evening rhythm, the first ten minutes of any gathering set the tone. A useful listing in Mumbai will explicitly state how the conversation starts, perhaps with a specific icebreaker"
+title: "A clearer Healthcare Dinner dinner in Mumbai: Fanju app, small..."
+description: "In a city where traffic dictates the evening rhythm, the first ten minutes of any gathering set the tone."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

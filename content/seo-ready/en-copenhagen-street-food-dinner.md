@@ -4,8 +4,8 @@ canonicalPath: "/en/city/copenhagen/street-food-dinner"
 alternatePath: "/city/copenhagen/street-food-dinner"
 translationKey: "copenhagen-street-food-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Copenhagen Street Food Dinner table before the first course"
-description: "If the listing does not mention a specific theme or a reason to gather, treat it as a yellow flag. Copenhageners value their time and often cross the bridges only for a compelling experience. A good listing will"
+title: "The Fanju app way to judge a Copenhagen Street Food Dinner table..."
+description: "If the listing does not mention a specific theme or a reason to gather, treat it as a yellow flag."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

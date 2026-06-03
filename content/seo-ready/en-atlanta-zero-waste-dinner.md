@@ -4,8 +4,8 @@ canonicalPath: "/en/city/atlanta/zero-waste-dinner"
 alternatePath: "/city/atlanta/zero-waste-dinner"
 translationKey: "atlanta-zero-waste-dinner"
 lang: "en"
-title: "Atlanta Zero Waste Dinner: how Fanju app makes the table worth choosing"
-description: "Walking into a Zero Waste Dinner in Atlanta feels different from a standard networking event because the focus shifts immediately from business cards to the food on the table. When you arrive solo, the local context"
+title: "Atlanta Zero Waste Dinner: how Fanju app makes the table worth..."
+description: "Walking into a Zero Waste Dinner in Atlanta feels different from a standard networking event because the focus shifts immediately from business cards to…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

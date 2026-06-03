@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seattle/pharma-dinner"
 alternatePath: "/city/seattle/pharma-dinner"
 translationKey: "seattle-pharma-dinner"
 lang: "en"
-title: "For Seattle readers considering Pharma Dinner, Fanju app should make the room legible"
-description: "When you encounter a Pharma Dinner listing in Seattle, the description that earns your attention will explain why this topic resonates locally right now, rather than just repeating a generic category name. A compelling"
+title: "For Seattle readers considering Pharma Dinner, Fanju app should..."
+description: "When you encounter a Pharma Dinner listing in Seattle, the description that earns your attention will explain why this topic resonates locally right now…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

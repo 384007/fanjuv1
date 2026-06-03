@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kyoto/fundraising-dinner"
 alternatePath: "/city/kyoto/fundraising-dinner"
 translationKey: "kyoto-fundraising-dinner"
 lang: "en"
-title: "Why Fundraising Dinner in Kyoto works better when Fanju app keeps the table small | fanju-app"
-description: "A successful Fundraising Dinner, especially for those new to Kyoto, relies heavily on the host's ability to set a clear and welcoming tone from the outset. This isn't just about booking a restaurant; it's about"
+title: "Why Fundraising Dinner in Kyoto works better when Fanju app keeps..."
+description: "A successful Fundraising Dinner, especially for those new to Kyoto, relies heavily on the host's ability to set a clear and welcoming tone from the outs…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

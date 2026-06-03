@@ -4,8 +4,8 @@ canonicalPath: "/en/city/buenos-aires/social-reset-dinner"
 alternatePath: "/city/buenos-aires/social-reset-dinner"
 translationKey: "buenos-aires-social-reset-dinner"
 lang: "en"
-title: "For people trying Social Reset Dinner in Buenos Aires, Fanju app puts the guest mix first | fanju-app"
-description: "Choosing the right barrio for a Social Reset Dinner matters more than it might seem. In Buenos Aires, the shift from Palermo to Almagro, or from Caballito to Colegiales, isn’t just geographic—it’s cultural. A dinner"
+title: "For people trying Social Reset Dinner in Buenos Aires, Fanju app..."
+description: "Choosing the right barrio for a Social Reset Dinner matters more than it might seem."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

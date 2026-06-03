@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/guyuan/english-speaking-dinner"
 alternatePath: "/en/city/guyuan/english-speaking-dinner"
-title: "固原英语饭局指南 | fanju-app | 饭局app"
+title: "固原英语饭局指南"
 description: "在固原如何参加英语饭局，如何判断安全和信任，和普通社交/约会软件有什么不同"
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dhaka/potluck-dinner"
 alternatePath: "/city/dhaka/potluck-dinner"
 translationKey: "dhaka-potluck-dinner"
 lang: "en"
-title: "When Potluck Dinner in Dhaka needs more than a group chat, Fanju app starts with the table"
-description: "Before you confirm your seat, ask yourself if the host has clearly stated the purpose of the gathering beyond just eating. In Dhaka, where traffic and timing are significant factors, a vague invitation often leads to"
+title: "When Potluck Dinner in Dhaka needs more than a group chat, Fanju..."
+description: "Before you confirm your seat, ask yourself if the host has clearly stated the purpose of the gathering beyond just eating."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

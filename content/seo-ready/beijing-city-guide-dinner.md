@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/beijing/city-guide-dinner"
 alternatePath: "/en/city/beijing/city-guide-dinner"
-title: "在北京找一桌不尴尬的城市指南饭局，饭局app先解决什么 | fanju-app"
+title: "在北京找一桌不尴尬的城市指南饭局，饭局app先解决什么"
 description: "饭局app在北京的存在，不是为了解决“吃饭”这件事，而是为了解决“怎么和陌生人坐下来不别扭”这件事。在北京，一个刚搬来的人可能住在回龙观，工作在国贸，周末走遍鼓楼、亮马桥和大山子，却依然觉得城市太大，声音太杂，饭桌太冷。饭局app试图用一张"
 recoveredFromD1: true
 ---

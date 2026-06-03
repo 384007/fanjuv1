@@ -4,9 +4,9 @@ canonicalPath: "/city/huaian/serious-dating-dinner"
 alternatePath: "/en/city/huaian/serious-dating-dinner"
 translationKey: "huaian-serious-dating-dinner"
 lang: "zh"
-title: "第一次在淮安参加认真交友饭局，饭局app怎样让陌生人坐得下来 | fanju-app"
+title: "第一次在淮安参加认真交友饭局，饭局app怎样让陌生人坐得下来"
 titleZh: "第一次在淮安参加认真交友饭局，饭局app怎样让陌生人坐得下来"
-description: "你站在淮安里运河边的咖啡馆门口，手机屏幕上还停在饭局app的那个页面——「今晚7点，西长西街小馆，6人桌，主题：在淮安，聊聊你最近读的一本书」。 手指悬在报名键上方，迟迟没点下去。 这不像约朋友吃饭，也不像相亲，甚至不像普通的社交活动。 你认识这些人吗？ 他们来这儿干嘛？ 万一冷场怎么办？ 饭局app上写的“认真交友”到底是什么意思？"
+description: "你站在淮安里运河边的咖啡馆门口，手机屏幕上还停在饭局app的那个页面——「今晚7点，西长西街小馆，6人桌，主题：在淮安，聊聊你最近读的一本书」。 手指悬在报名键上方，迟迟没点下去。 这不像约朋友吃饭，也不像相亲，甚至不像普通的社交活动。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

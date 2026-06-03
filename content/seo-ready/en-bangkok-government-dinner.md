@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bangkok/government-dinner"
 alternatePath: "/city/bangkok/government-dinner"
 translationKey: "bangkok-government-dinner"
 lang: "en"
-title: "Bangkok has plenty of Government Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "In Bangkok, the idea of a Government Dinner—shared meals hosted by locals open to newcomers—often sounds more inviting than it feels in practice. Many expats arrive expecting instant community, only to find gatherings th"
+title: "Bangkok has plenty of Government Dinner options; Fanju app is the..."
+description: "In Bangkok, the idea of a Government Dinner—shared meals hosted by locals open to newcomers—often sounds more inviting than it feels in practice."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

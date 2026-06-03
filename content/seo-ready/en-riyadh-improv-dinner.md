@@ -4,8 +4,8 @@ canonicalPath: "/en/city/riyadh/improv-dinner"
 alternatePath: "/city/riyadh/improv-dinner"
 translationKey: "riyadh-improv-dinner"
 lang: "en"
-title: "The Improv Dinner table Riyadh actually needs is the one Fanju app describes up front | fanju-app"
-description: "You won’t find rigid scripts or rehearsed introductions at an Improv Dinner in Riyadh—just the quiet possibility of connection, shaped in real time. What makes these gatherings different, especially for women navigating"
+title: "The Improv Dinner table Riyadh actually needs is the one Fanju app..."
+description: "You won’t find rigid scripts or rehearsed introductions at an Improv Dinner in Riyadh—just the quiet possibility of connection, shaped in real time."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

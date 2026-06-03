@@ -4,8 +4,8 @@ canonicalPath: "/en/city/prague/vegan-dinner"
 alternatePath: "/city/prague/vegan-dinner"
 translationKey: "prague-vegan-dinner"
 lang: "en"
-title: "What makes Vegan Dinner in Prague worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "Prague’s social rhythm outside tourist zones runs on subtlety. Weekends here often include long lunches that drift into evening, or quiet gatherings in Vinohrady apartments where conversation matters more than who’s"
+title: "What makes Vegan Dinner in Prague worth the risk; Fanju app..."
+description: "Prague’s social rhythm outside tourist zones runs on subtlety. Weekends here often include long lunches that drift into evening, or quiet gatherings in…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

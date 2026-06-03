@@ -4,8 +4,8 @@ canonicalPath: "/en/city/mumbai/badminton-dinner"
 alternatePath: "/city/mumbai/badminton-dinner"
 translationKey: "mumbai-badminton-dinner"
 lang: "en"
-title: "For people trying Badminton Dinner in Mumbai, Fanju app puts the guest mix first | fanju-app"
-description: "In Mumbai, where weekend plans often collapse into last-minute WhatsApp forwards or silent scrolling, the idea of meeting strangers for dinner after a game of badminton sounds like either desperation or a startup pitch."
+title: "For people trying Badminton Dinner in Mumbai, Fanju app puts the..."
+description: "In Mumbai, where weekend plans often collapse into last-minute WhatsApp forwards or silent scrolling, the idea of meeting strangers for dinner after a g…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

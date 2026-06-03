@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/fencing-dinner"
 alternatePath: "/city/brussels/fencing-dinner"
 translationKey: "brussels-fencing-dinner"
 lang: "en"
-title: "Brussels after work: how Fanju app makes Fencing Dinner feel like a real room | fanju-app"
-description: "Sending a message to join a Fencing Dinner on Fanju is different from RSVPing to an event or accepting a Facebook invite. In Brussels, where social circles often form around language, workplace, or expat enclaves, the"
+title: "Brussels after work: how Fanju app makes Fencing Dinner feel like..."
+description: "Sending a message to join a Fencing Dinner on Fanju is different from RSVPing to an event or accepting a Facebook invite."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

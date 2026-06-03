@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lima/magic-dinner"
 alternatePath: "/city/lima/magic-dinner"
 translationKey: "lima-magic-dinner"
 lang: "en"
-title: "The Magic Dinner table Lima actually needs is the one Fanju app describes up front | fanju-app"
-description: "The best group dinners in Lima don’t start with a reservation—they start with a decision. Not just about where to eat, but who to eat with, and how much of yourself you’re willing to share over shared plates. At a recent"
+title: "The Magic Dinner table Lima actually needs is the one Fanju app..."
+description: "The best group dinners in Lima don’t start with a reservation—they start with a decision."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

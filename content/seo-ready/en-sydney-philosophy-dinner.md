@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sydney/philosophy-dinner"
 alternatePath: "/city/sydney/philosophy-dinner"
 translationKey: "sydney-philosophy-dinner"
 lang: "en"
-title: "Sydney strangers sit down easier when Fanju app frames the Philosophy Dinner table first | fanju-app"
-description: "In Sydney, where dinner plans often pivot on casual drinks or last-minute rooftop reservations, the idea of sitting down with strangers to talk about ethics, time, or meaning can feel like a misstep. But through the Fanj"
+title: "Sydney strangers sit down easier when Fanju app frames the..."
+description: "In Sydney, where dinner plans often pivot on casual drinks or last-minute rooftop reservations, the idea of sitting down with strangers to talk about et…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/surat/industry-dinner"
 alternatePath: "/city/surat/industry-dinner"
 translationKey: "surat-industry-dinner"
 lang: "en"
-title: "When the evening lights dim over Surat’s West‑end neighbourhood, an Industry Dinner on Fanju app unfolds at a quiet table"
-description: "The first thing to ask yourself is whether the ambience of a residential lane in Surat West matches the professional tone you expect from an industry gathering. A quiet coffee‑house or community hall that serves simple"
+title: "When the evening lights dim over Surat’s West‑end neighbourhood,..."
+description: "The first thing to ask yourself is whether the ambience of a residential lane in Surat West matches the professional tone you expect from an industry ga…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

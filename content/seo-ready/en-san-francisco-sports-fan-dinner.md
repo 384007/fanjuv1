@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-francisco/sports-fan-dinner"
 alternatePath: "/city/san-francisco/sports-fan-dinner"
 translationKey: "san-francisco-sports-fan-dinner"
 lang: "en"
-title: "For people trying Sports Fan Dinner in San Francisco, Fanju app puts the guest mix first | fanju-app"
-description: "If you’re new to San Francisco and sitting alone after work near the Embarcadero, scrolling through your phone with no dinner plan, the Fanju app offers a different path. Instead of another solo takeout meal, you could b"
+title: "For people trying Sports Fan Dinner in San Francisco, Fanju app..."
+description: "If you’re new to San Francisco and sitting alone after work near the Embarcadero, scrolling through your phone with no dinner plan, the Fanju app offers…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

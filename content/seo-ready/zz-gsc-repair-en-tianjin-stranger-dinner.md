@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tianjin/stranger-dinner"
 alternatePath: "/city/tianjin/stranger-dinner"
 translationKey: "gsc-repair-tianjin-stranger-dinner"
 lang: "en"
-title: "Tianjin Social Dinner Guide | fanju-app"
+title: "Tianjin Social Dinner Guide"
 description: "Tianjin social dinner on Fanju helps people compare a public small-table dinner with clear topic, venue, group size, cost, and host expectations."
 pageType: "city_topic"
 priorityScore: 76

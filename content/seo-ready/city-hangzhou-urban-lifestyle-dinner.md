@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/hangzhou/urban-lifestyle-dinner"
 alternatePath: "/en/city/hangzhou/urban-lifestyle-dinner"
-title: "杭州生活方式饭局指南 | fanju-app | 饭局app"
+title: "杭州生活方式饭局指南"
 description: "杭州最全面的城市生活方式饭局指南，帮助您找到最靠谱的饭局app和城市社交社区"
 recoveredFromD1: true
 ---

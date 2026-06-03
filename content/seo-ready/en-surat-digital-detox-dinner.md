@@ -4,8 +4,8 @@ canonicalPath: "/en/city/surat/digital-detox-dinner"
 alternatePath: "/city/surat/digital-detox-dinner"
 translationKey: "surat-digital-detox-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Surat Digital Detox Dinner table before the first course"
-description: "In Surat's bustling professional circles, the pressure to network can often turn a meal into a transactional exchange, leaving guests feeling trapped rather than refreshed. A well-organized Digital Detox Dinner on Fanju"
+title: "The Fanju app way to judge a Surat Digital Detox Dinner table..."
+description: "In Surat's bustling professional circles, the pressure to network can often turn a meal into a transactional exchange, leaving guests feeling trapped ra…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

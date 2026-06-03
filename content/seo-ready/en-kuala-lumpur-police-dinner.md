@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kuala-lumpur/police-dinner"
 alternatePath: "/city/kuala-lumpur/police-dinner"
 translationKey: "kuala-lumpur-police-dinner"
 lang: "en"
-title: "When Kuala Lumpur’s Friday rush meets the Police Dinner: Finding the right Fanju app table"
-description: "Kuala Lumpur’s weekend evenings often shift from office‑hour traffic to lively night markets, and a Police Dinner must slot into that transition without feeling rushed. Ask yourself: does the listed time allow you to"
+title: "When Kuala Lumpur’s Friday rush meets the Police Dinner: Finding..."
+description: "Kuala Lumpur’s weekend evenings often shift from office‑hour traffic to lively night markets, and a Police Dinner must slot into that transition without…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

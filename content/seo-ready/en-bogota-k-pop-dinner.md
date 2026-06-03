@@ -4,8 +4,8 @@ canonicalPath: "/en/city/bogota/k-pop-dinner"
 alternatePath: "/city/bogota/k-pop-dinner"
 translationKey: "bogota-k-pop-dinner"
 lang: "en"
-title: "K-Pop Dinner in Bogota should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "K-Pop Dinner in Bogota doesn’t have to be a roll of the dice, but without structure, it often feels that way. With the Fanju app, dinner plans centered around shared K-Pop fandom gain clarity and consistency, turning unc"
+title: "K-Pop Dinner in Bogota should not feel like a gamble; Fanju app..."
+description: "K-Pop Dinner in Bogota doesn’t have to be a roll of the dice, but without structure, it often feels that way."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

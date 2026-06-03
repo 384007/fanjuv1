@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tokyo/millennial-dinner"
 alternatePath: "/city/tokyo/millennial-dinner"
 translationKey: "tokyo-millennial-dinner"
 lang: "en"
-title: "When Millennial Dinner feels too loose in Tokyo, Fanju app starts with the table | fanju-app"
-description: "In Tokyo, weekends often mean a shift from structured work life to something less defined—time that can stretch quietly or fill up fast. That’s when the idea of a Millennial Dinner gains weight. It’s not just about"
+title: "When Millennial Dinner feels too loose in Tokyo, Fanju app starts..."
+description: "In Tokyo, weekends often mean a shift from structured work life to something less defined—time that can stretch quietly or fill up fast."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

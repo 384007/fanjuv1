@@ -4,8 +4,8 @@ canonicalPath: "/en/city/amsterdam/boxing-dinner"
 alternatePath: "/city/amsterdam/boxing-dinner"
 translationKey: "amsterdam-boxing-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Amsterdam Boxing Dinner table before the first course"
-description: "A clear sign of a good Amsterdam Boxing Dinner table is how the host handles the end of the evening. You should look for explicit information about whether the group is expected to move to a bar afterward or if the"
+title: "The Fanju app way to judge a Amsterdam Boxing Dinner table before..."
+description: "A clear sign of a good Amsterdam Boxing Dinner table is how the host handles the end of the evening."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

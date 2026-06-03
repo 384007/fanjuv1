@@ -4,8 +4,8 @@ canonicalPath: "/en/city/rome/safe-social-dinner"
 alternatePath: "/city/rome/safe-social-dinner"
 translationKey: "rome-safe-social-dinner"
 lang: "en"
-title: "A clearer Safe Social Dinner dinner in Rome: Fanju app, small tables, and real boundaries"
-description: "When scanning for a Safe Social Dinner in Rome, the first thing to look for is how the host describes the venue and the purpose of the gathering. A credible listing will specify whether the location is a quiet trattoria"
+title: "A clearer Safe Social Dinner dinner in Rome: Fanju app, small..."
+description: "When scanning for a Safe Social Dinner in Rome, the first thing to look for is how the host describes the venue and the purpose of the gathering."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

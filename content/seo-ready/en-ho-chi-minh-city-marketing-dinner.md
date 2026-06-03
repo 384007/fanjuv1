@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ho-chi-minh-city/marketing-dinner"
 alternatePath: "/city/ho-chi-minh-city/marketing-dinner"
 translationKey: "ho-chi-minh-city-marketing-dinner"
 lang: "en"
-title: "Is this Ho Chi Minh City Marketing Dinner on Fanju app worth your evening?"
-description: "In Ho Chi Minh City, where traffic and rain can make commitment costly, this preview is essential. The platform is designed to show you the guest mix and the topic focus so you can judge fit. It removes the anxiety of"
+title: "Is this Ho Chi Minh City Marketing Dinner on Fanju app worth your..."
+description: "In Ho Chi Minh City, where traffic and rain can make commitment costly, this preview is essential."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

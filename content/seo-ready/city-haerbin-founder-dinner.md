@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/haerbin/founder-dinner"
 alternatePath: "/en/city/haerbin/founder-dinner"
-title: "哈尔滨创业者饭局指南 | fanju-app | 饭局app"
+title: "哈尔滨创业者饭局指南"
 description: "在哈尔滨的创业者们，想和同行们共享经验、建立联系、找到支持？Fanju 是一个围绕小桌吃饭、清晰主题和线下连接的社交应用。"
 recoveredFromD1: true
 ---

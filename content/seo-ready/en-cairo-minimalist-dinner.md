@@ -4,8 +4,8 @@ canonicalPath: "/en/city/cairo/minimalist-dinner"
 alternatePath: "/city/cairo/minimalist-dinner"
 translationKey: "cairo-minimalist-dinner"
 lang: "en"
-title: "For Cairo readers considering Minimalist Dinner, Fanju app should make the room legible"
-description: "Before committing to a reservation, the single most practical question to ask is what specific elements define the minimalist theme for this specific table. In Cairo, the term minimalism can be interpreted in various"
+title: "For Cairo readers considering Minimalist Dinner, Fanju app should..."
+description: "Before committing to a reservation, the single most practical question to ask is what specific elements define the minimalist theme for this specific ta…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

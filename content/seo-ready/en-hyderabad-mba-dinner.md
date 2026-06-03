@@ -4,8 +4,8 @@ canonicalPath: "/en/city/hyderabad/mba-dinner"
 alternatePath: "/city/hyderabad/mba-dinner"
 translationKey: "hyderabad-mba-dinner"
 lang: "en"
-title: "How Fanju app turns a Hyderabad MBA Dinner night into something worth showing up for | fanju-app"
-description: "The Fanju app isn’t a restaurant guide or a food delivery platform—it’s how small, intentional dinners find their rhythm in Hyderabad. As someone who’s hosted more than a few MBA Dinner nights here, I’ve learned that the"
+title: "How Fanju app turns a Hyderabad MBA Dinner night into something..."
+description: "The Fanju app isn’t a restaurant guide or a food delivery platform—it’s how small, intentional dinners find their rhythm in Hyderabad."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

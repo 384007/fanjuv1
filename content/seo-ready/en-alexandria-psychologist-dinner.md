@@ -5,7 +5,7 @@ alternatePath: "/city/alexandria/psychologist-dinner"
 translationKey: "alexandria-psychologist-dinner"
 lang: "en"
 title: "Could Your Next Psychologist Dinner in Alexandria Be with Fanju app?"
-description: "The essence of a Psychologist Dinner in Alexandria, when approached through the lens of Fanju app, is about the journey from anticipation to the actual shared meal. It’s not just about the conversation that happens at"
+description: "The essence of a Psychologist Dinner in Alexandria, when approached through the lens of Fanju app, is about the journey from anticipation to the actual…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

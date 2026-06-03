@@ -4,7 +4,7 @@ canonicalPath: "/city/fuzhou"
 alternatePath: "/en/city/fuzhou"
 translationKey: "gsc-repair-city-fuzhou"
 lang: "zh"
-title: "福州饭局指南 | fanju-app | 饭局app"
+title: "福州饭局指南"
 description: "福州饭局页面帮助用户了解如何通过 Fanju 在公开餐厅参加同城小桌社交，先看主题、主理人、费用和安全边界。"
 pageType: "city_landing"
 priorityScore: 82

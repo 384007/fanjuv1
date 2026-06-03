@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/surat/weeknight-dinner"
 alternatePath: "/city/surat/weeknight-dinner"
-title: "Surat Weeknight Dinner Guide | Fanju app"
-description: "Discover the authentic taste of Surat's weeknight dinner scene with Fanju app, a social dining app that connects you with like-minded individuals for small, home-cooked meals and real-world connections."
+title: "Surat Weeknight Dinner Guide"
+description: "Discover the authentic taste of Surat's weeknight dinner scene with Fanju app, a social dining app that connects you with like-minded individuals for sm…"
 recoveredFromD1: true
 ---
 ## What is Fanju?

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/liaoyang/weeknight-dinner"
 alternatePath: "/en/city/liaoyang/weeknight-dinner"
-title: "辽阳工作日晚餐饭局指南 | fanju-app | 饭局app"
+title: "辽阳工作日晚餐饭局指南"
 description: "刚来到辽阳？想在工作日晚上找点不一样的生活节奏？饭局app / Fanju 是一款专注于小桌、有明确主题的线下社交应用，旨在帮助你在陌生的城市里，通过一顿饭认识新朋友，感受当地的烟火气。无论你是想拓展人脉，还是仅仅想在忙碌的工作日后，找到一个温暖的交流空间，这里都有适合你的选择。"
 recoveredFromD1: true
 ---

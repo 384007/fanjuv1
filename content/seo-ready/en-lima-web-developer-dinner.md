@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lima/web-developer-dinner"
 alternatePath: "/city/lima/web-developer-dinner"
 translationKey: "lima-web-developer-dinner"
 lang: "en"
-title: "When Web Developer Dinner feels too loose in Lima, Fanju app starts with the table | fanju-app"
-description: "You’re standing near Larcomar, scrolling through your phone, wondering if tonight’s Web Developer Dinner in Lima is worth the metro ride. You’ve been to events where the conversation stalls, where people talk shop like i"
+title: "When Web Developer Dinner feels too loose in Lima, Fanju app..."
+description: "You’re standing near Larcomar, scrolling through your phone, wondering if tonight’s Web Developer Dinner in Lima is worth the metro ride."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

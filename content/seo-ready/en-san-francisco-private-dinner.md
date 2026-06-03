@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-francisco/private-dinner"
 alternatePath: "/city/san-francisco/private-dinner"
 translationKey: "san-francisco-private-dinner"
 lang: "en"
-title: "After‑Work Intimacy: San Francisco Private Dinner Finds Through the Fanju app"
-description: "The first decision point is whether a small‑table setting can coexist with San Francisco’s fast‑paced professional rhythm. A dinner that starts at 7 p.m. and ends by 9 p.m. respects the city’s commuting patterns,"
+title: "After‑Work Intimacy: San Francisco Private Dinner Finds Through..."
+description: "The first decision point is whether a small‑table setting can coexist with San Francisco’s fast‑paced professional rhythm."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

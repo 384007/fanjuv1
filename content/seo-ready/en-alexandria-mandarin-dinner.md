@@ -4,8 +4,8 @@ canonicalPath: "/en/city/alexandria/mandarin-dinner"
 alternatePath: "/city/alexandria/mandarin-dinner"
 translationKey: "alexandria-mandarin-dinner"
 lang: "en"
-title: "For people trying Mandarin Dinner in Alexandria, Fanju app puts the guest mix first | fanju-app"
-description: "In Alexandria, where historic row houses line streets that slope gently toward the Potomac, evenings often unfold in quiet routines—commuters unwinding at corner cafes, neighbors exchanging brief hellos on shaded porches"
+title: "For people trying Mandarin Dinner in Alexandria, Fanju app puts..."
+description: "In Alexandria, where historic row houses line streets that slope gently toward the Potomac, evenings often unfold in quiet routines—commuters unwinding…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

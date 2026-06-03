@@ -4,9 +4,9 @@ canonicalPath: "/city/bengbu/vc-dinner"
 alternatePath: "/en/city/bengbu/vc-dinner"
 translationKey: "bengbu-vc-dinner"
 lang: "zh"
-title: "在蚌埠把VC 饭局坐稳，饭局app需要筛掉哪些尴尬 | fanju-app"
+title: "在蚌埠把VC 饭局坐稳，饭局app需要筛掉哪些尴尬"
 titleZh: "在蚌埠把VC 饭局坐稳，饭局app需要筛掉哪些尴尬"
-description: "刚来蚌埠那会儿，我带着项目找资源，在饭局app上点开一场标注“早期项目交流”的晚餐，地点在张公山附近一家安静的徽菜馆。 到的时候才发觉，同桌五人里有两位是本地孵化器的运营，一位高校技术转化办的老师，还有一位做智能制造的老前辈。 没人举着名片满场递，也没人一坐下就问估值和BP，第一句话是“这道臭鳜鱼他们家火候刚好”。"
+description: "刚来蚌埠那会儿，我带着项目找资源，在饭局app上点开一场标注“早期项目交流”的晚餐，地点在张公山附近一家安静的徽菜馆。 到的时候才发觉，同桌五人里有两位是本地孵化器的运营，一位高校技术转化办的老师，还有一位做智能制造的老前辈。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

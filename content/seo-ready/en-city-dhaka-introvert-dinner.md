@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/dhaka/introvert-dinner"
 alternatePath: "/city/dhaka/introvert-dinner"
-title: "Dhaka Introvert Dinner Guide | Fanju app"
+title: "Dhaka Introvert Dinner Guide"
 description: "Discover the smallest unit of city community with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

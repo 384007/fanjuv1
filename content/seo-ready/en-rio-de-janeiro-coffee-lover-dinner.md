@@ -4,8 +4,8 @@ canonicalPath: "/en/city/rio-de-janeiro/coffee-lover-dinner"
 alternatePath: "/city/rio-de-janeiro/coffee-lover-dinner"
 translationKey: "rio-de-janeiro-coffee-lover-dinner"
 lang: "en"
-title: "Savoring Rio de Janeiro’s Coffee Lover Dinner with the Fanju app: Small‑Table Trust and Chemistry"
-description: "Rio de Janeiro: Choosing a Coffee Lover Dinner in Rio hinges on whether the table’s size and vibe align with your own social rhythm. A six‑person setting allows each voice to be heard, while a twelve‑person spread risks"
+title: "Savoring Rio de Janeiro’s Coffee Lover Dinner with the Fanju app:..."
+description: "Rio de Janeiro: Choosing a Coffee Lover Dinner in Rio hinges on whether the table’s size and vibe align with your own social rhythm."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

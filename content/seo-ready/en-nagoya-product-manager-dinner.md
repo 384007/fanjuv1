@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nagoya/product-manager-dinner"
 alternatePath: "/city/nagoya/product-manager-dinner"
 translationKey: "nagoya-product-manager-dinner"
 lang: "en"
-title: "Nagoya after work: how Fanju app makes Product Manager Dinner feel like a real room | fanju-app"
-description: "In Nagoya, where evening plans often dissolve into last-minute karaoke cancellations or silent izakaya reservations made alone, the idea of joining a Product Manager Dinner can feel uncertain. What if no one shows? What"
+title: "Nagoya after work: how Fanju app makes Product Manager Dinner feel..."
+description: "In Nagoya, where evening plans often dissolve into last-minute karaoke cancellations or silent izakaya reservations made alone, the idea of joining a Pr…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

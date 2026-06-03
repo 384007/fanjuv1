@@ -5,7 +5,7 @@ alternatePath: "/city/chicago/volleyball-dinner"
 translationKey: "chicago-volleyball-dinner"
 lang: "en"
 title: "Chicago’s Weekend Volleyball Dinner Experience on Fanju app"
-description: "A Chicago reader will first ask whether the dinner fits into a typical after‑work schedule that often stretches from the Loop to the West Loop or Hyde Park. The answer hinges on the listing’s time window: a clear start"
+description: "A Chicago reader will first ask whether the dinner fits into a typical after‑work schedule that often stretches from the Loop to the West Loop or Hyde P…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kuala-lumpur/cybersecurity-dinner"
 alternatePath: "/city/kuala-lumpur/cybersecurity-dinner"
 translationKey: "kuala-lumpur-cybersecurity-dinner"
 lang: "en"
-title: "How Fanju app turns a Kuala Lumpur Cybersecurity Dinner night into something worth showing up for | fanju-app"
-description: "The Fanju app connects people in Kuala Lumpur through small, intentional dinners where conversation matters more than the menu. In a city where networking events blur into noise and social obligations pile up, Fanju offe"
+title: "How Fanju app turns a Kuala Lumpur Cybersecurity Dinner night into..."
+description: "The Fanju app connects people in Kuala Lumpur through small, intentional dinners where conversation matters more than the menu."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

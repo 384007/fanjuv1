@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/milan/teacher-dinner"
 alternatePath: "/city/milan/teacher-dinner"
-title: "Milan after work: how Fanju app makes Teacher Dinner feel like a real room | fanju-app | 饭局app"
-description: "Fanju app is a social dining platform designed for intimate, curated meals in Milan, fostering genuine connections among attendees. It moves beyond the casual meetup by focusing on shared experiences around food, making"
+title: "Milan after work: how Fanju app makes Teacher Dinner feel like a..."
+description: "Fanju app is a social dining platform designed for intimate, curated meals in Milan, fostering genuine connections among attendees."
 recoveredFromD1: true
 ---
 # Milan after work: how Fanju app makes Teacher Dinner feel like a real room

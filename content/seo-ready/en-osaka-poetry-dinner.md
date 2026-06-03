@@ -4,7 +4,7 @@ canonicalPath: "/en/city/osaka/poetry-dinner"
 alternatePath: "/city/osaka/poetry-dinner"
 translationKey: "osaka-poetry-dinner"
 lang: "en"
-title: "Osaka does not need another vague invite; Fanju app makes Poetry Dinner specific | fanju-app"
+title: "Osaka does not need another vague invite; Fanju app makes Poetry..."
 description: "Accepting a second Poetry Dinner invite in Osaka can feel like a step toward belonging, but only if the first night didn’t blur into polite small talk."
 pageType: "city_article"
 priorityScore: 70

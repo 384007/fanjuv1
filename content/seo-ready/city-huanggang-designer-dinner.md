@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/huanggang/designer-dinner"
 alternatePath: "/en/city/huanggang/designer-dinner"
-title: "黄冈设计师饭局指南 | fanju-app | 饭局app"
+title: "黄冈设计师饭局指南"
 description: "刚到黄冈的设计师，如何找到靠谱的饭局？"
 recoveredFromD1: true
 ---

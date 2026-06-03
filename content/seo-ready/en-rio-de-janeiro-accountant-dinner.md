@@ -4,8 +4,8 @@ canonicalPath: "/en/city/rio-de-janeiro/accountant-dinner"
 alternatePath: "/city/rio-de-janeiro/accountant-dinner"
 translationKey: "rio-de-janeiro-accountant-dinner"
 lang: "en"
-title: "Navigating Rio de Janeiro Accountant Dinner with the Fanju app: When the professional table feels too tight"
-description: "Reader question: **What is Fanju app in the context of Rio de Janeiro Accountant Dinner?** In practice, the app acts as a matchmaking service for professionals, presenting you with a curated list of upcoming accountant"
+title: "Navigating Rio de Janeiro Accountant Dinner with the Fanju app:..."
+description: "Reader question: **What is Fanju app in the context of Rio de Janeiro Accountant Dinner?** In practice, the app acts as a matchmaking service for profes…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

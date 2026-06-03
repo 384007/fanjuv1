@@ -4,8 +4,8 @@ canonicalPath: "/en/city/santiago/landscape-architect-dinner"
 alternatePath: "/city/santiago/landscape-architect-dinner"
 translationKey: "santiago-landscape-architect-dinner"
 lang: "en"
-title: "Santiago Landscape Architect Dinner through Fanju app: the questions to answer before you sit down"
-description: "This table is designed for professionals in Santiago who genuinely want to discuss urban ecology and design without the pressure of a formal conference. If you are looking for a quiet evening where you can exchange"
+title: "Santiago Landscape Architect Dinner through Fanju app: the..."
+description: "This table is designed for professionals in Santiago who genuinely want to discuss urban ecology and design without the pressure of a formal conference.…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

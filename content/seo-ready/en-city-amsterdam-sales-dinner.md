@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/amsterdam/sales-dinner"
 alternatePath: "/city/amsterdam/sales-dinner"
-title: "A Sales Dinner in Amsterdam with Fanju app: Separating Myth from Reality | fanju-app | 饭局app"
+title: "A Sales Dinner in Amsterdam with Fanju app: Separating Myth from..."
 description: "Discover the authentic Amsterdam experience through a sales dinner with the right host, venue, and guest mix, leveraging the power of Fanju app."
 recoveredFromD1: true
 ---

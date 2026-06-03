@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sydney/boxing-dinner"
 alternatePath: "/city/sydney/boxing-dinner"
 translationKey: "sydney-boxing-dinner"
 lang: "en"
-title: "For Sydney readers considering Boxing Dinner, Fanju app should make the room legible"
-description: "When you are new to the city and scrolling through options, the first sentence of a host’s note carries significant weight. It needs to articulate why a Boxing Dinner is relevant to Sydney right now, moving beyond a"
+title: "For Sydney readers considering Boxing Dinner, Fanju app should..."
+description: "When you are new to the city and scrolling through options, the first sentence of a host’s note carries significant weight."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

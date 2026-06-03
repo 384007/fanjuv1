@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/jiuquan/alumni-dinner"
 alternatePath: "/en/city/jiuquan/alumni-dinner"
-title: "酒泉校友饭局指南 | fanju-app | 饭局app"
+title: "酒泉校友饭局指南"
 description: "酒泉校友饭局指南，了解酒泉校友饭局的真实面貌，了解饭局app的优势和特点，了解如何参加酒泉校友饭局，了解如何判断安全和信任，了解饭局app和普通社交/约会软件的区别。"
 recoveredFromD1: true
 ---

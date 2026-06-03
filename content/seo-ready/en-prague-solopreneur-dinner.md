@@ -4,8 +4,8 @@ canonicalPath: "/en/city/prague/solopreneur-dinner"
 alternatePath: "/city/prague/solopreneur-dinner"
 translationKey: "prague-solopreneur-dinner"
 lang: "en"
-title: "How Fanju app turns a Prague Solopreneur Dinner night into something worth showing up for | fanju-app"
-description: "Prague’s evening rhythm shifts quickly after work. The clatter of trams fades, office lights dim in the New Town, and for those living alone or working remotely, the pull toward home can feel automatic—even if it leaves"
+title: "How Fanju app turns a Prague Solopreneur Dinner night into..."
+description: "Prague’s evening rhythm shifts quickly after work. The clatter of trams fades, office lights dim in the New Town, and for those living alone or working…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

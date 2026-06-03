@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-diego/plant-lover-dinner"
 alternatePath: "/city/san-diego/plant-lover-dinner"
 translationKey: "san-diego-plant-lover-dinner"
 lang: "en"
-title: "A calmer way to approach Plant Lover Dinner in San Diego through Fanju app | fanju-app"
-description: "Fanju app offers a curated alternative to the usual social dining noise in San Diego, focusing on intimate, intentionally hosted dinners that center plant-based eating as a shared value, not just a dietary choice."
+title: "A calmer way to approach Plant Lover Dinner in San Diego through..."
+description: "Fanju app offers a curated alternative to the usual social dining noise in San Diego, focusing on intimate, intentionally hosted dinners that center pla…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

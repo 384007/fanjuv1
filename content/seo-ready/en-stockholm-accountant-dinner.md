@@ -4,8 +4,8 @@ canonicalPath: "/en/city/stockholm/accountant-dinner"
 alternatePath: "/city/stockholm/accountant-dinner"
 translationKey: "stockholm-accountant-dinner"
 lang: "en"
-title: "A Stockholm dinner table for Accountant Dinner, with Fanju app boundaries up front"
-description: "The listing sentence for this Accountant Dinner in Stockholm is crucial in determining whether the event is worth attending. A clear and concise description of the dinner, including the venue, time, and expected"
+title: "A Stockholm dinner table for Accountant Dinner, with Fanju app..."
+description: "The listing sentence for this Accountant Dinner in Stockholm is crucial in determining whether the event is worth attending."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

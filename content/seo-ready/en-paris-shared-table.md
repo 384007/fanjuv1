@@ -4,8 +4,8 @@ canonicalPath: "/en/city/paris/shared-table"
 alternatePath: "/city/paris/shared-table"
 translationKey: "paris-shared-table"
 lang: "en"
-title: "Why Shared Table in Paris works better when Fanju app keeps the table small | fanju-app"
-description: "In Paris, the Fanju app offers a refreshing approach to social dining, focusing on shared table experiences that are intentionally kept small and well-defined. This isn't about a general invitation to a large, potentiall"
+title: "Why Shared Table in Paris works better when Fanju app keeps the..."
+description: "In Paris, the Fanju app offers a refreshing approach to social dining, focusing on shared table experiences that are intentionally kept small and well-d…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

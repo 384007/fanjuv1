@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/berlin/tasting-menu-dinner"
 alternatePath: "/city/berlin/tasting-menu-dinner"
-title: "Discovering Berlin's Culinary Scene with Fanju app: A Tasting Menu Dinner Guide | fanju-app | 饭局app"
+title: "Discovering Berlin's Culinary Scene with Fanju app: A Tasting Menu..."
 description: "Join us for an intimate evening of fine dining in Berlin, where the Fanju app brings women together for a unique and memorable experience."
 recoveredFromD1: true
 ---

@@ -4,9 +4,9 @@ canonicalPath: "/city/xishuangbanna/picnic-dinner"
 alternatePath: "/en/city/xishuangbanna/picnic-dinner"
 translationKey: "xishuangbanna-picnic-dinner"
 lang: "zh"
-title: "西双版纳的一顿野餐饭局，饭局app为什么先看人再看热闹 | fanju-app"
+title: "西双版纳的一顿野餐饭局，饭局app为什么先看人再看热闹"
 titleZh: "西双版纳的一顿野餐饭局，饭局app为什么先看人再看热闹"
-description: "在西双版纳，一场精心策划的野餐饭局，不仅仅是关于食物和风景，更是一场关于人和人之间连接的体验。 饭局app（Fanju app）之所以能在本地生活场景中脱颖而出，正是因为它强调的是“人”与“人”的直接互动，以及围绕着清晰的聚会主题来构建小桌社交。 它不是一个泛泛的社交平台，而是致力于让每一次线下的相聚都更有针对性、更有温度。"
+description: "在西双版纳，一场精心策划的野餐饭局，不仅仅是关于食物和风景，更是一场关于人和人之间连接的体验。 饭局app（Fanju app）之所以能在本地生活场景中脱颖而出，正是因为它强调的是“人”与“人”的直接互动，以及围绕着清晰的聚会主题来构建小桌社交。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

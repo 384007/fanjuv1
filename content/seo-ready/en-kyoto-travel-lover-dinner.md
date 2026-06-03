@@ -5,7 +5,7 @@ alternatePath: "/city/kyoto/travel-lover-dinner"
 translationKey: "kyoto-travel-lover-dinner"
 lang: "en"
 title: "Kyoto Remote‑Worker Anchor: Travel Lover Dinner on the Fanju app"
-description: "Remote‑working life in Kyoto often revolves around a quiet home office, but the need for a tangible social anchor can surface on Friday afternoons. A planned dinner provides a concrete reason to shut down the laptop"
+description: "Remote‑working life in Kyoto often revolves around a quiet home office, but the need for a tangible social anchor can surface on Friday afternoons."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

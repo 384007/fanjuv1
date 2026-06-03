@@ -4,8 +4,8 @@ canonicalPath: "/en/city/addis-ababa/friday-dinner"
 alternatePath: "/city/addis-ababa/friday-dinner"
 translationKey: "addis-ababa-friday-dinner"
 lang: "en"
-title: "Addis Ababa Friday Dinner: how Fanju app makes the table worth choosing"
-description: "In Addis Ababa, the rhythm of a Friday night often extends late, but a good shared meal respects personal boundaries regarding when the evening actually ends. When a host outlines a clear finish time or suggests a"
+title: "Addis Ababa Friday Dinner: how Fanju app makes the table worth..."
+description: "In Addis Ababa, the rhythm of a Friday night often extends late, but a good shared meal respects personal boundaries regarding when the evening actually…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

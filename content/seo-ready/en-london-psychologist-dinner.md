@@ -4,7 +4,7 @@ canonicalPath: "/en/city/london/psychologist-dinner"
 alternatePath: "/city/london/psychologist-dinner"
 translationKey: "london-psychologist-dinner"
 lang: "en"
-title: "London after work: how Fanju app makes Psychologist Dinner feel like a real room | fanju-app"
+title: "London after work: how Fanju app makes Psychologist Dinner feel..."
 description: "Choosing where in London to attend a Psychologist Dinner matters more than the time of week."
 pageType: "city_article"
 priorityScore: 70

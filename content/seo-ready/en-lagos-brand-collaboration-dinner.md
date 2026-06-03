@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lagos/brand-collaboration-dinner"
 alternatePath: "/city/lagos/brand-collaboration-dinner"
 translationKey: "lagos-brand-collaboration-dinner"
 lang: "en"
-title: "For people trying Brand Collaboration Dinner in Lagos, Fanju app puts the guest mix first | fanju-app"
-description: "For those in Lagos curious about Brand Collaboration Dinners, the Fanju app offers a way to approach these unique gatherings with a focus on the quality of the company. Unlike many social events that can feel ambiguous i"
+title: "For people trying Brand Collaboration Dinner in Lagos, Fanju app..."
+description: "For those in Lagos curious about Brand Collaboration Dinners, the Fanju app offers a way to approach these unique gatherings with a focus on the quality…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

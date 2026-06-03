@@ -4,7 +4,7 @@ canonicalPath: "/en/city/hyderabad/pilates-dinner"
 alternatePath: "/city/hyderabad/pilates-dinner"
 translationKey: "hyderabad-pilates-dinner"
 lang: "en"
-title: "Before joining Pilates Dinner in Hyderabad, what Fanju app should make clear"
+title: "Before joining Pilates Dinner in Hyderabad, what Fanju app should..."
 description: "When you arrive in Hyderabad this month, you might notice that many social events feel generic, but a Pilates Dinner should stand out by offering specific local context. A vague invitation to \"eat and chat\" is a red"
 pageType: "city_article"
 priorityScore: 70

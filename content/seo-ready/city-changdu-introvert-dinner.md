@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/changdu/introvert-dinner"
 alternatePath: "/en/city/changdu/introvert-dinner"
-title: "昌都内向者饭局指南 | fanju-app | 饭局app"
+title: "昌都内向者饭局指南"
 description: "在广袤的昌都，寻找一份属于内向者的宁静与连接。饭局app / Fanju 致力于打造小桌、有主题的线下聚会，让每一次相遇都真诚而有意义。如果你在昌都，渴望在不被打扰的空间里与同频之人交流，那么内向者饭局或许是你期待的答案。"
 recoveredFromD1: true
 ---

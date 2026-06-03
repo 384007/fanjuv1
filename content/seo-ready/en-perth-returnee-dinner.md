@@ -5,7 +5,7 @@ alternatePath: "/city/perth/returnee-dinner"
 translationKey: "perth-returnee-dinner"
 lang: "en"
 title: "Finding Comfort in Perth Returnee Dinner with the Fanju app"
-description: "Perth diners value a setting where conversation can flow without the roar of a large bar. A Returnee Dinner hosted in the leafy suburb of Subiaco often reserves a single table for eight, allowing each guest to be seen"
+description: "Perth diners value a setting where conversation can flow without the roar of a large bar."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

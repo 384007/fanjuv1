@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/suining/lunar-new-year-dinner"
 alternatePath: "/en/city/suining/lunar-new-year-dinner"
-title: "遂宁春节饭局指南 | fanju-app | 饭局app"
+title: "遂宁春节饭局指南"
 description: "在遂宁的春节饭局中，城市的大与饭桌的小之间的反差是最吸引人的地方。遂宁的饭局app Fanju 是围绕小桌吃饭、清晰主题和线下连接的社交应用，帮助你找到适合自己的饭局。"
 recoveredFromD1: true
 ---

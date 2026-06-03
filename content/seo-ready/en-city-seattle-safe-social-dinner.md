@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/seattle/safe-social-dinner"
 alternatePath: "/city/seattle/safe-social-dinner"
-title: "Seattle Safe Social Dinner Guide | Fanju app"
-description: "Discover the authentic Seattle dinner experience with Fanju app, a social dining app that connects you with like-minded individuals for small, clearly described meals and real-world connections."
+title: "Seattle Safe Social Dinner Guide"
+description: "Discover the authentic Seattle dinner experience with Fanju app, a social dining app that connects you with like-minded individuals for small, clearly d…"
 recoveredFromD1: true
 ---
 Seattle Safe Social Dinner Guide

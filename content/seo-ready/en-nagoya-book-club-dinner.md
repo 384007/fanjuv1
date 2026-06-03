@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nagoya/book-club-dinner"
 alternatePath: "/city/nagoya/book-club-dinner"
 translationKey: "nagoya-book-club-dinner"
 lang: "en"
-title: "In Nagoya, Fanju app turns Book Club Dinner into a table people can actually trust | fanju-app"
-description: "The Fanju app helps newcomers in Nagoya find small, clearly described dinners where conversation flows naturally and the host’s intentions are transparent. Unlike larger meetups or language exchanges that often feel tran"
+title: "In Nagoya, Fanju app turns Book Club Dinner into a table people..."
+description: "The Fanju app helps newcomers in Nagoya find small, clearly described dinners where conversation flows naturally and the host’s intentions are transpare…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

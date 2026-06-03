@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tehran/graphic-designer-dinner"
 alternatePath: "/city/tehran/graphic-designer-dinner"
 translationKey: "tehran-graphic-designer-dinner"
 lang: "en"
-title: "For people trying Graphic Designer Dinner in Tehran, Fanju app puts the guest mix first | fanju-app"
-description: "Starting with dinner as the focal point of the weekend in Tehran reshapes everything that follows. Most people assume a dinner for graphic designers is just about food and design talk, but on Fanju app, it’s structured a"
+title: "For people trying Graphic Designer Dinner in Tehran, Fanju app..."
+description: "Starting with dinner as the focal point of the weekend in Tehran reshapes everything that follows."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

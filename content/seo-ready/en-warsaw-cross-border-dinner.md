@@ -4,8 +4,8 @@ canonicalPath: "/en/city/warsaw/cross-border-dinner"
 alternatePath: "/city/warsaw/cross-border-dinner"
 translationKey: "warsaw-cross-border-dinner"
 lang: "en"
-title: "Is Warsaw’s Cross Border Dinner on the Fanju app the right community table for you?"
-description: "The first decision point is whether the listed venue sits in a neighbourhood you recognise and can picture. Warsaw’s Praga‑Północ, for example, offers historic brick walls that immediately signal a cozy atmosphere; a"
+title: "Is Warsaw’s Cross Border Dinner on the Fanju app the right..."
+description: "The first decision point is whether the listed venue sits in a neighbourhood you recognise and can picture."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

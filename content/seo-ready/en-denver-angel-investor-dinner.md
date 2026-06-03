@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/denver/angel-investor-dinner"
 alternatePath: "/city/denver/angel-investor-dinner"
-title: "Denver does not need another vague invite; Fanju app makes Angel Investor Dinner specific | fanju-app | 饭局app"
+title: "Denver does not need another vague invite; Fanju app makes Angel..."
 description: "Denver's vibrant tech and startup scene thrives on connection, yet the promise of a valuable \"Angel Investor Dinner\" can often feel like a diluted experience. The Fanju app aims to redefine these exclusive gatherings, mo"
 recoveredFromD1: true
 ---

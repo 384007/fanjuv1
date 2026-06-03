@@ -4,8 +4,8 @@ canonicalPath: "/en/city/taipei/film-dinner"
 alternatePath: "/city/taipei/film-dinner"
 translationKey: "taipei-film-dinner"
 lang: "en"
-title: "When Film Dinner feels too loose in Taipei, Fanju app starts with the table | fanju-app"
-description: "When Film Dinner in Taipei starts to feel more like a vague idea than a real evening, the Fanju app brings it back to something simple: a set table, a few chairs, and a host who’s already thought about the wine. It’s not"
+title: "When Film Dinner feels too loose in Taipei, Fanju app starts with..."
+description: "When Film Dinner in Taipei starts to feel more like a vague idea than a real evening, the Fanju app brings it back to something simple: a set table, a f…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

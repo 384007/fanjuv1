@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/handan/new-year-dinner"
 alternatePath: "/en/city/handan/new-year-dinner"
-title: "邯郸新年饭局指南 | fanju-app | 饭局app"
+title: "邯郸新年饭局指南"
 description: "当邯郸这座历史悠久的城市在新年钟声敲响之际，人们渴望的不仅仅是团圆，更是一种温暖而有意义的连接。饭局app / Fanju 正是为此而生，它围绕着小桌吃饭、清晰的主题和真实的线下连接，为市民提供了一个发现和参与高质量社交饭局的平台。在这里，你可以找到那些精心策划、氛围融洽的新年饭局，让这个冬天不再孤单。"
 recoveredFromD1: true
 ---

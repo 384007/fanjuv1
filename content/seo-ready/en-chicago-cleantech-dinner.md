@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chicago/cleantech-dinner"
 alternatePath: "/city/chicago/cleantech-dinner"
 translationKey: "chicago-cleantech-dinner"
 lang: "en"
-title: "Chicago after work: how Fanju app makes Cleantech Dinner feel like a real room | fanju-app"
-description: "For professionals in Chicago’s cleantech and sustainability sectors, the challenge isn’t finding events—it’s finding connection. Too often, after-work gatherings blur into networking with no follow-through. The Fanju app"
+title: "Chicago after work: how Fanju app makes Cleantech Dinner feel like..."
+description: "For professionals in Chicago’s cleantech and sustainability sectors, the challenge isn’t finding events—it’s finding connection."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

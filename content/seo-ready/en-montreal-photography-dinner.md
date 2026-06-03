@@ -4,8 +4,8 @@ canonicalPath: "/en/city/montreal/photography-dinner"
 alternatePath: "/city/montreal/photography-dinner"
 translationKey: "montreal-photography-dinner"
 lang: "en"
-title: "A clearer Photography Dinner dinner in Montreal: Fanju app, small tables, and real boundaries"
-description: "The primary appeal of using this platform for a Montreal Photography Dinner lies in the specificity of the listing details. Unlike general event boards where a theme might get lost in a sea of options, here the table is"
+title: "A clearer Photography Dinner dinner in Montreal: Fanju app, small..."
+description: "The primary appeal of using this platform for a Montreal Photography Dinner lies in the specificity of the listing details."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

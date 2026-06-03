@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sao-paulo/astronomy-dinner"
 alternatePath: "/city/sao-paulo/astronomy-dinner"
 translationKey: "sao-paulo-astronomy-dinner"
 lang: "en"
-title: "How Fanju app turns a Sao Paulo Astronomy Dinner night into something worth showing up for | fanju-app"
-description: "Sao Paulo moves fast, and social fatigue sets in quickly when every outing feels like a performance. The usual weekend plans—crowded bars in Itaim Bibi, loud dinners in Liberdade—often leave newcomers drained rather"
+title: "How Fanju app turns a Sao Paulo Astronomy Dinner night into..."
+description: "Sao Paulo moves fast, and social fatigue sets in quickly when every outing feels like a performance."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

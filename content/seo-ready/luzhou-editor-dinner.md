@@ -4,9 +4,9 @@ canonicalPath: "/city/luzhou/editor-dinner"
 alternatePath: "/en/city/luzhou/editor-dinner"
 translationKey: "luzhou-editor-dinner"
 lang: "zh"
-title: "泸州不想只靠群聊时，饭局app怎样把编辑饭局坐成一桌 | fanju-app"
+title: "泸州不想只靠群聊时，饭局app怎样把编辑饭局坐成一桌"
 titleZh: "泸州不想只靠群聊时，饭局app怎样把编辑饭局坐成一桌"
-description: "傍晚六点半，泸州的江边刚褪去白日的燥热，路灯在沱江水面拉出细长的光带。 你从办公室走出来，手机震动——群聊里又有人甩出一句“今晚聚不聚？ ”没人接话，三分钟后话题沉底。 这种模糊的邀约你已习惯，但饭局app不一样。 它不靠群聊接龙，也不靠随机拉人凑桌，而是把“一起吃饭”这件事重新拉回有主题、有节奏、有边界的现实场景。"
+description: "傍晚六点半，泸州的江边刚褪去白日的燥热，路灯在沱江水面拉出细长的光带。 你从办公室走出来，手机震动——群聊里又有人甩出一句“今晚聚不聚？ ”没人接话，三分钟后话题沉底。 这种模糊的邀约你已习惯，但饭局app不一样。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/baghdad/basketball-dinner"
 alternatePath: "/city/baghdad/basketball-dinner"
 translationKey: "baghdad-basketball-dinner"
 lang: "en"
-title: "Before joining Basketball Dinner in Baghdad, what Fanju app should make clear"
-description: "The initial impression of a Fanju listing for Basketball Dinner in Baghdad can be a pivotal moment for a potential guest. Imagine stepping into a slightly unfamiliar setting after work, the hum of conversation a"
+title: "Before joining Basketball Dinner in Baghdad, what Fanju app should..."
+description: "The initial impression of a Fanju listing for Basketball Dinner in Baghdad can be a pivotal moment for a potential guest."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tel-aviv/tasting-menu-dinner"
 alternatePath: "/city/tel-aviv/tasting-menu-dinner"
 translationKey: "tel-aviv-tasting-menu-dinner"
 lang: "en"
-title: "For people trying Tasting Menu Dinner in Tel Aviv, Fanju app puts the guest mix first | fanju-app"
-description: "Newcomers to Tel Aviv often find themselves in a quiet paradox: surrounded by energy, yet missing connection. Cafes buzz, beaches teem, and street corners pulse with Hebrew and Russian, Amharic and English, but breaking"
+title: "For people trying Tasting Menu Dinner in Tel Aviv, Fanju app puts..."
+description: "Newcomers to Tel Aviv often find themselves in a quiet paradox: surrounded by energy, yet missing connection."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

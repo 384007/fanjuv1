@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lima/omakase-dinner"
 alternatePath: "/city/lima/omakase-dinner"
 translationKey: "lima-omakase-dinner"
 lang: "en"
-title: "Before joining Omakase Dinner in Lima, what Fanju app should make clear | fanju-app"
+title: "Before joining Omakase Dinner in Lima, what Fanju app should make..."
 description: "For those in Lima looking to experience Omakase Dinner beyond a typical restaurant booking, Fanju app offers a different approach to connecting over food."
 pageType: "city_article"
 priorityScore: 70

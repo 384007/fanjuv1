@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seoul/city-arrival-dinner"
 alternatePath: "/city/seoul/city-arrival-dinner"
 translationKey: "seoul-city-arrival-dinner"
 lang: "en"
-title: "Seoul does not need another vague invite; Fanju app makes City Arrival Dinner specific | fanju-app"
+title: "Seoul does not need another vague invite; Fanju app makes City..."
 description: "A small dinner in Seoul can settle the uncertainty of a new arrival better than any networking event."
 pageType: "city_article"
 priorityScore: 70

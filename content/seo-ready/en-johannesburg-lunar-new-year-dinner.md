@@ -4,8 +4,8 @@ canonicalPath: "/en/city/johannesburg/lunar-new-year-dinner"
 alternatePath: "/city/johannesburg/lunar-new-year-dinner"
 translationKey: "johannesburg-lunar-new-year-dinner"
 lang: "en"
-title: "A calmer way to approach Lunar New Year Dinner in Johannesburg through Fanju app | fanju-app"
-description: "Choosing the right part of Johannesburg matters more than the menu. A dinner in Melville feels different from one in Sandton or Rosebank — not because of the food, but because of how people move through the night. In"
+title: "A calmer way to approach Lunar New Year Dinner in Johannesburg..."
+description: "Choosing the right part of Johannesburg matters more than the menu. A dinner in Melville feels different from one in Sandton or Rosebank — not because o…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

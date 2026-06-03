@@ -4,8 +4,8 @@ canonicalPath: "/en/city/santiago/community-builder-dinner"
 alternatePath: "/city/santiago/community-builder-dinner"
 translationKey: "santiago-community-builder-dinner"
 lang: "en"
-title: "How Fanju app turns a Santiago Community Builder Dinner night into something worth showing up for | fanju-app"
-description: "The Fanju app has quietly become the go-to tool for people in Santiago who are trying to find their footing through small, intentional gatherings—especially Community Builder Dinners. If you’ve just arrived in the city a"
+title: "How Fanju app turns a Santiago Community Builder Dinner night into..."
+description: "The Fanju app has quietly become the go-to tool for people in Santiago who are trying to find their footing through small, intentional gatherings—especi…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

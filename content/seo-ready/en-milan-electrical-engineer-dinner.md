@@ -4,8 +4,8 @@ canonicalPath: "/en/city/milan/electrical-engineer-dinner"
 alternatePath: "/city/milan/electrical-engineer-dinner"
 translationKey: "milan-electrical-engineer-dinner"
 lang: "en"
-title: "Before joining Electrical Engineer Dinner in Milan, what Fanju app should make clear"
-description: "The app’s premise is to bring people together around shared interests for a meal, fostering a more relaxed and authentic interaction than a large, noisy meetup or a purely digital exchange. For a Milanese electrical"
+title: "Before joining Electrical Engineer Dinner in Milan, what Fanju app..."
+description: "The app’s premise is to bring people together around shared interests for a meal, fostering a more relaxed and authentic interaction than a large, noisy…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

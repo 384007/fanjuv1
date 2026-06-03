@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/buenos-aires/friendship-dinner"
 alternatePath: "/city/buenos-aires/friendship-dinner"
-title: "A Safe and Trustworthy Friendship Dinner in Buenos Aires with Fanju app | fanju-app | 饭局app"
+title: "A Safe and Trustworthy Friendship Dinner in Buenos Aires with..."
 description: "Experience the authentic rhythm of Buenos Aires with Fanju app's unique approach to hosting a small, intimate dinner with friends."
 recoveredFromD1: true
 ---

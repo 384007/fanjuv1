@@ -4,9 +4,9 @@ canonicalPath: "/city/danzhou/book-club-dinner"
 alternatePath: "/en/city/danzhou/book-club-dinner"
 translationKey: "danzhou-book-club-dinner"
 lang: "zh"
-title: "在儋州参加读书饭局前，饭局app应该先回答什么 | fanju-app"
+title: "在儋州参加读书饭局前，饭局app应该先回答什么"
 titleZh: "在儋州参加读书饭局前，饭局app应该先回答什么"
-description: "儋州的傍晚，晚风从白马井吹过来，街边的椰树影子拉得老长。 你刚加完班，手里还捏着那本读了一半的《海边的房间》，不想立刻回家，又不想一个人对着屏幕刷资料。 这时候看到一条“儋州读书饭局”的邀请，点开饭局app，发现是六个人的小桌，主理人说今晚聊“南方小城与书里的寂静”。 这正是Fanju饭局想促成的连接：围绕小桌吃饭、有清晰主题、能真实对话的线下饭局。"
+description: "儋州的傍晚，晚风从白马井吹过来，街边的椰树影子拉得老长。 你刚加完班，手里还捏着那本读了一半的《海边的房间》，不想立刻回家，又不想一个人对着屏幕刷资料。 这时候看到一条“儋州读书饭局”的邀请，点开饭局app，发现是六个人的小桌，主理人说今晚聊“南方小城与书里的寂静”。"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

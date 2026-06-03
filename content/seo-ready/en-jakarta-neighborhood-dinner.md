@@ -4,8 +4,8 @@ canonicalPath: "/en/city/jakarta/neighborhood-dinner"
 alternatePath: "/city/jakarta/neighborhood-dinner"
 translationKey: "jakarta-neighborhood-dinner"
 lang: "en"
-title: "A calmer way to approach Neighborhood Dinner in Jakarta through Fanju app | fanju-app"
-description: "Finding dinner in Jakarta often means choosing between crowded malls with predictable menus or navigating narrow alleys in search of hidden warungs that may or may not live up to word-of-mouth praise. The idea of joining"
+title: "A calmer way to approach Neighborhood Dinner in Jakarta through..."
+description: "Finding dinner in Jakarta often means choosing between crowded malls with predictable menus or navigating narrow alleys in search of hidden warungs that…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

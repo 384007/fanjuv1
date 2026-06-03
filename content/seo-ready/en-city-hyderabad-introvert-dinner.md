@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/hyderabad/introvert-dinner"
 alternatePath: "/city/hyderabad/introvert-dinner"
-title: "A More Comfortable Dinner Experience in Hyderabad with Fanju app | fanju-app | 饭局app"
-description: "Discover the benefits of a small, structured dinner for introverts in Hyderabad, and learn how to host a successful and enjoyable event with the help of Fanju app."
+title: "A More Comfortable Dinner Experience in Hyderabad with Fanju app"
+description: "Discover the benefits of a small, structured dinner for introverts in Hyderabad, and learn how to host a successful and enjoyable event with the help of…"
 recoveredFromD1: true
 ---
 # A More Comfortable Dinner Experience in Hyderabad with Fanju app

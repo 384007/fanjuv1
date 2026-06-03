@@ -4,8 +4,8 @@ canonicalPath: "/en/city/buenos-aires/supply-chain-dinner"
 alternatePath: "/city/buenos-aires/supply-chain-dinner"
 translationKey: "buenos-aires-supply-chain-dinner"
 lang: "en"
-title: "Buenos Aires has plenty of Supply Chain Dinner options; Fanju app is the one that names the table first | fanju-app"
-description: "Dinner in Buenos Aires isn’t just what you eat—it’s how you move through the city’s rhythm, especially on weekends. The Fanju app cuts through the noise by showing not just where people are gathering, but who’s behind th"
+title: "Buenos Aires has plenty of Supply Chain Dinner options; Fanju app..."
+description: "Dinner in Buenos Aires isn’t just what you eat—it’s how you move through the city’s rhythm, especially on weekends."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

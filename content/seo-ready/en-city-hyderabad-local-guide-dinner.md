@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/hyderabad/local-guide-dinner"
 alternatePath: "/city/hyderabad/local-guide-dinner"
-title: "A Calmer Fanju App Dinner in Hyderabad: A Local Guide | fanju-app | 饭局app"
+title: "A Calmer Fanju App Dinner in Hyderabad: A Local Guide"
 description: "Discover the essence of a considered, private dinner in Hyderabad with the help of the Fanju app."
 recoveredFromD1: true
 ---

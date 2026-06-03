@@ -4,8 +4,8 @@ canonicalPath: "/en/city/cape-town/3d-printing-dinner"
 alternatePath: "/city/cape-town/3d-printing-dinner"
 translationKey: "cape-town-3d-printing-dinner"
 lang: "en"
-title: "Cape Town’s 3D Printing Dinner Meets Fanju app: A Low‑Pressure Second‑Table for Comfort‑Seeking Diners"
-description: "The first question many readers ask is whether the event feels like a genuine gathering or an implicit sales pitch. In Cape Town, the distance between the city centre and suburbs such as Woodstock or Sea Point can add"
+title: "Cape Town’s 3D Printing Dinner Meets Fanju app: A Low‑Pressure..."
+description: "The first question many readers ask is whether the event feels like a genuine gathering or an implicit sales pitch."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

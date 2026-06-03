@@ -4,8 +4,8 @@ canonicalPath: "/en/city/seoul/quality-friends-dinner"
 alternatePath: "/city/seoul/quality-friends-dinner"
 translationKey: "seoul-quality-friends-dinner"
 lang: "en"
-title: "Seoul Quality Friends Dinner: how Fanju app makes the table worth choosing"
-description: "When considering an offline dinner social in Seoul, the host’s description of the venue is the first filter for a quality experience. A reliable listing will specify whether the table is at a quiet Hanok-style"
+title: "Seoul Quality Friends Dinner: how Fanju app makes the table worth..."
+description: "When considering an offline dinner social in Seoul, the host’s description of the venue is the first filter for a quality experience."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

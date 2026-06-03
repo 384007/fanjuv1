@@ -4,8 +4,8 @@ canonicalPath: "/en/city/chennai/escape-room-dinner"
 alternatePath: "/city/chennai/escape-room-dinner"
 translationKey: "chennai-escape-room-dinner"
 lang: "en"
-title: "Chennai Escape Room Dinner: how Fanju app makes the table worth choosing"
-description: "The main question for anyone in Chennai is whether the time spent matches the description provided. Fanju app addresses this by requiring hosts to list specific details about the escape room venue and the subsequent"
+title: "Chennai Escape Room Dinner: how Fanju app makes the table worth..."
+description: "The main question for anyone in Chennai is whether the time spent matches the description provided."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/perth/premium-restaurant-dinner"
 alternatePath: "/city/perth/premium-restaurant-dinner"
 translationKey: "perth-premium-restaurant-dinner"
 lang: "en"
-title: "Perth’s First‑Timer Hesitation: Premium Restaurant Dinner Through the Fanju app"
-description: "Northbridge’s reputation for vibrant dining means the venue can range from sleek modern spaces to historic wine bars. A first‑timer should ask whether the restaurant’s dining room is publicly accessible or tucked behind"
+title: "Perth’s First‑Timer Hesitation: Premium Restaurant Dinner Through..."
+description: "Northbridge’s reputation for vibrant dining means the venue can range from sleek modern spaces to historic wine bars."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96

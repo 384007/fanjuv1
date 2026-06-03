@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nagoya/nonprofit-dinner"
 alternatePath: "/city/nagoya/nonprofit-dinner"
 translationKey: "nagoya-nonprofit-dinner"
 lang: "en"
-title: "Before joining Nonprofit Dinner in Nagoya, what Fanju app should make clear"
-description: "If you have just arrived in Nagoya and are looking for a quiet way to understand local social issues while eating, this table format fits well. The ideal guest is someone who prefers structured conversation over chaotic"
+title: "Before joining Nonprofit Dinner in Nagoya, what Fanju app should..."
+description: "If you have just arrived in Nagoya and are looking for a quiet way to understand local social issues while eating, this table format fits well."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

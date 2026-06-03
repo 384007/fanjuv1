@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/yaan/no-pressure-dinner"
 alternatePath: "/en/city/yaan/no-pressure-dinner"
-title: "雅安不想只靠群聊时，饭局app怎样把低压力饭局坐成一桌 | fanju-app"
+title: "雅安不想只靠群聊时，饭局app怎样把低压力饭局坐成一桌"
 description: "在雅安，饭局app不是另一个热闹的线上群组，而是一张张具体的小桌：六个人，晚餐时间，提前说好主题和节奏。它把“一起吃饭”从模糊的社交义务变成可预期的放松时刻。在这样一个节奏缓慢、街巷安静的城市里，饭局app的存在不是为了制造热闹，而是为了在"
 recoveredFromD1: true
 ---

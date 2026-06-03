@@ -4,7 +4,7 @@ canonicalPath: "/city/jinan"
 alternatePath: "/en/city/jinan"
 translationKey: "gsc-repair-city-jinan"
 lang: "zh"
-title: "济南饭局指南 | fanju-app | 饭局app"
+title: "济南饭局指南"
 description: "济南饭局页面帮助本地用户、新来济南的人和商务科技圈层通过 Fanju 了解同城小桌饭局的报名、安全和主理人筛选。"
 pageType: "city_landing"
 priorityScore: 82

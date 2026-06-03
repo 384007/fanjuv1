@@ -4,8 +4,8 @@ canonicalPath: "/en/city/singapore/freelancer-dinner"
 alternatePath: "/city/singapore/freelancer-dinner"
 translationKey: "singapore-freelancer-dinner"
 lang: "en"
-title: "When the after‑work crowd worries about hidden dates, the Singapore Freelancer Dinner on Fanju app becomes a weekend decision"
-description: "After a long day of client calls, the thought of driving from the Central Business District to a suburban eatery can feel like a weekend chore. The Fanju listing gives you a concrete reason to make that trip: a table of"
+title: "When the after‑work crowd worries about hidden dates, the..."
+description: "After a long day of client calls, the thought of driving from the Central Business District to a suburban eatery can feel like a weekend chore."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96

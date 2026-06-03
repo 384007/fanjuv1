@@ -4,8 +4,8 @@ canonicalPath: "/en/city/ahmedabad/career-change-dinner"
 alternatePath: "/city/ahmedabad/career-change-dinner"
 translationKey: "ahmedabad-career-change-dinner"
 lang: "en"
-title: "A Ahmedabad dinner table for Career Change Dinner, with Fanju app boundaries up front"
-description: "Ahmedabad is a city of distinct neighborhoods, from the old city charm to the corporate hubs of Sindhu Bhavan Road, and a dinner listing that ignores these local rhythms feels instantly detached. When you see a Career"
+title: "A Ahmedabad dinner table for Career Change Dinner, with Fanju app..."
+description: "Ahmedabad is a city of distinct neighborhoods, from the old city charm to the corporate hubs of Sindhu Bhavan Road, and a dinner listing that ignores th…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

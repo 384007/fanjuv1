@@ -4,8 +4,8 @@ canonicalPath: "/en/city/perth/urban-planner-dinner"
 alternatePath: "/city/perth/urban-planner-dinner"
 translationKey: "perth-urban-planner-dinner"
 lang: "en"
-title: "Perth does not need another vague invite; Fanju app makes Urban Planner Dinner specific | fanju-app"
-description: "Perth’s evenings used to blur into quiet commutes and takeaway containers eaten alone. That changed when the Urban Planner Dinner began appearing on the Fanju app—not as a loud announcement, but as a quiet opening at a s"
+title: "Perth does not need another vague invite; Fanju app makes Urban..."
+description: "Perth’s evenings used to blur into quiet commutes and takeaway containers eaten alone."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/karachi/returnee-dinner"
 alternatePath: "/city/karachi/returnee-dinner"
 translationKey: "karachi-returnee-dinner"
 lang: "en"
-title: "The Returnee Dinner table Karachi actually needs is the one Fanju app describes up front | fanju-app"
-description: "In Karachi, where social circles often form through family or long-standing work ties, being invited to a vague gathering can create more anxiety than excitement."
+title: "The Returnee Dinner table Karachi actually needs is the one Fanju..."
+description: "In Karachi, where social circles often form through family or long-standing work ties, being invited to a vague gathering can create more anxiety than e…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

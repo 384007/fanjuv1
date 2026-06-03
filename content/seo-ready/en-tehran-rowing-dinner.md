@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tehran/rowing-dinner"
 alternatePath: "/city/tehran/rowing-dinner"
 translationKey: "tehran-rowing-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Tehran Rowing Dinner table before the first course"
-description: "The primary function of the platform here is to provide enough context so you feel comfortable walking into a room of strangers. When you look at a listing for a Rowing Dinner in Tehran, the description should answer"
+title: "The Fanju app way to judge a Tehran Rowing Dinner table before the..."
+description: "The primary function of the platform here is to provide enough context so you feel comfortable walking into a room of strangers."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

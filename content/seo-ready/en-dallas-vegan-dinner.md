@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dallas/vegan-dinner"
 alternatePath: "/city/dallas/vegan-dinner"
 translationKey: "dallas-vegan-dinner"
 lang: "en"
-title: "Dallas Vegan Dinner through Fanju app: the questions to answer before you sit down"
-description: "In a sprawling city like Dallas, the neighborhood choice is as important as the menu itself. A vegan dinner in the Design District feels entirely different from one in the suburbs, and the listing should reflect that"
+title: "Dallas Vegan Dinner through Fanju app: the questions to answer..."
+description: "In a sprawling city like Dallas, the neighborhood choice is as important as the menu itself."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

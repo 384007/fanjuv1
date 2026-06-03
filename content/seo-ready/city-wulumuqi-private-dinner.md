@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/wulumuqi/private-dinner"
 alternatePath: "/en/city/wulumuqi/private-dinner"
-title: "乌鲁木齐私密饭局指南：内向者的选择 | fanju-app | 饭局app"
+title: "乌鲁木齐私密饭局指南：内向者的选择"
 description: "在乌鲁木齐，私密饭局是内向者放松自我的绝佳选择。了解饭局app如何帮助你找到合适的饭局，主理人信号、安全判断以及报名建议。"
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/hami/vc-dinner"
 alternatePath: "/en/city/hami/vc-dinner"
-title: "哈密VC 饭局指南 | fanju-app | 饭局app"
+title: "哈密VC 饭局指南"
 description: "了解哈密VC 饭局的最佳方式,包括适合谁,核心场景,安全重点,和普通社交/约会软件的不同。"
 recoveredFromD1: true
 ---

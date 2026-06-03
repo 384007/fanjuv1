@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-diego/vegetarian-dinner"
 alternatePath: "/city/san-diego/vegetarian-dinner"
 translationKey: "san-diego-vegetarian-dinner"
 lang: "en"
-title: "Vegetarian Dinner in San Diego should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "Walking into a San Diego kitchen as a solo traveler, unsure if the vegetarian meal will be warm or just the rice, has happened more times than I’d like. Last month, it was a shared house near North Park—great tortilla ch"
+title: "Vegetarian Dinner in San Diego should not feel like a gamble;..."
+description: "Walking into a San Diego kitchen as a solo traveler, unsure if the vegetarian meal will be warm or just the rice, has happened more times than I’d like.…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

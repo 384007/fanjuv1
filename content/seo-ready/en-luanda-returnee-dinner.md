@@ -4,8 +4,8 @@ canonicalPath: "/en/city/luanda/returnee-dinner"
 alternatePath: "/city/luanda/returnee-dinner"
 translationKey: "luanda-returnee-dinner"
 lang: "en"
-title: "Fanju App in Luanda: Returnee Dinners for People Rebuilding a Social Circle After Coming Home | fanju-app"
-description: "For Luanda returnees, Fanju app can make a first dinner feel clearer: a public venue, a small table, a readable host, and enough context to decide whether the night fits."
+title: "Fanju App in Luanda: Returnee Dinners for People Rebuilding a..."
+description: "For Luanda returnees, Fanju app can make a first dinner feel clearer: a public venue, a small table, a readable host, and enough context to decide wheth…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

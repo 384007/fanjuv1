@@ -4,8 +4,8 @@ canonicalPath: "/en/city/copenhagen/photography-dinner"
 alternatePath: "/city/copenhagen/photography-dinner"
 translationKey: "copenhagen-photography-dinner"
 lang: "en"
-title: "Before the first message in Copenhagen, Fanju app makes Photography Dinner feel like a real decision | fanju-app"
-description: "In Copenhagen, the Fanju app supports small, intentional dinners where people gather around specific themes—not just food, but shared curiosity. One such gathering is Photography Dinner, where guests bring visual stories"
+title: "Before the first message in Copenhagen, Fanju app makes..."
+description: "In Copenhagen, the Fanju app supports small, intentional dinners where people gather around specific themes—not just food, but shared curiosity."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

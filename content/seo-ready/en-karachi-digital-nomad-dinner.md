@@ -4,8 +4,8 @@ canonicalPath: "/en/city/karachi/digital-nomad-dinner"
 alternatePath: "/city/karachi/digital-nomad-dinner"
 translationKey: "karachi-digital-nomad-dinner"
 lang: "en"
-title: "Why Digital Nomad Dinner in Karachi works better when Fanju app keeps the table small | fanju-app"
-description: "In Karachi, where weekend plans often dissolve into last-minute changes or overcrowded cafes, the idea of a second dinner with the same group carries real appeal—but only if the first experience felt grounded."
+title: "Why Digital Nomad Dinner in Karachi works better when Fanju app..."
+description: "In Karachi, where weekend plans often dissolve into last-minute changes or overcrowded cafes, the idea of a second dinner with the same group carries re…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

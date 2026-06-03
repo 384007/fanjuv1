@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kyoto/outdoor-adventure-dinner"
 alternatePath: "/city/kyoto/outdoor-adventure-dinner"
 translationKey: "kyoto-outdoor-adventure-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Kyoto Outdoor Adventure Dinner table before the first course"
-description: "Fanju app positions the social dining app as a tool for meaningful offline dinner social interactions, specifically tailored to the context of Outdoor Adventure Dinner in Kyoto. Unlike generic meetup platforms, this"
+title: "The Fanju app way to judge a Kyoto Outdoor Adventure Dinner table..."
+description: "Fanju app positions the social dining app as a tool for meaningful offline dinner social interactions, specifically tailored to the context of Outdoor A…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

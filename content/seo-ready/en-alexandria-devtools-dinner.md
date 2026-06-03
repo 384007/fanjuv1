@@ -4,8 +4,8 @@ canonicalPath: "/en/city/alexandria/devtools-dinner"
 alternatePath: "/city/alexandria/devtools-dinner"
 translationKey: "alexandria-devtools-dinner"
 lang: "en"
-title: "A calmer way to approach Devtools Dinner in Alexandria through Fanju app | fanju-app"
-description: "It’s easy to assume that dinner in Alexandria with developers means another loud meetup in a buzzing co-working space, full of pitch decks and job swaps. But through the Fanju app, Devtools Dinner takes a different path—"
+title: "A calmer way to approach Devtools Dinner in Alexandria through..."
+description: "It’s easy to assume that dinner in Alexandria with developers means another loud meetup in a buzzing co-working space, full of pitch decks and job swaps…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

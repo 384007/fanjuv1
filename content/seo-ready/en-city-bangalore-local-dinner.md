@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/bangalore/local-dinner"
 alternatePath: "/city/bangalore/local-dinner"
-title: "Bangalore Local Dinner Guide: Experience Authentic City Life | Fanju app"
-description: "Discover authentic Bangalore dining experiences with the Fanju app. This guide explores how connecting with local hosts for small, intimate dinners offers a genuine taste of the city's culture, far beyond typical tourist trails. Fanju app facilitates these unique encounters, prioritizing real-world connections and shared meals."
+title: "Bangalore Local Dinner Guide: Experience Authentic City Life"
+description: "Discover authentic Bangalore dining experiences with the Fanju app. This guide explores how connecting with local hosts for small, intimate dinners offe…"
 recoveredFromD1: true
 ---
 Many visitors to Bangalore arrive with a pre-set itinerary, ticking off landmarks and popular eateries. However, the true pulse of this dynamic city, especially its culinary heart, is best experienced through its people. A local dinner, hosted by residents, offers an unparalleled glimpse into everyday life, traditions, and the subtle rhythms that define Bangalore. The Fanju app is designed to facilitate these intimate, small-group dining experiences, connecting curious travelers with welcoming locals for authentic meals and genuine conversations. It&#039;s about more than just food; it&#039;s about shared moments and understanding the city from the inside out.

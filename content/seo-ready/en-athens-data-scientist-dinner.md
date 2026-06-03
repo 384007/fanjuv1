@@ -4,8 +4,8 @@ canonicalPath: "/en/city/athens/data-scientist-dinner"
 alternatePath: "/city/athens/data-scientist-dinner"
 translationKey: "athens-data-scientist-dinner"
 lang: "en"
-title: "Why Data Scientist Dinner in Athens works better when Fanju app keeps the table small | fanju-app"
-description: "In a city as layered as Athens—where ancient stone meets startup energy, where conversations spill from open-air courtyards into late-night analytics debates—the value of a quiet, focused dinner for data scientists is no"
+title: "Why Data Scientist Dinner in Athens works better when Fanju app..."
+description: "In a city as layered as Athens—where ancient stone meets startup energy, where conversations spill from open-air courtyards into late-night analytics de…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

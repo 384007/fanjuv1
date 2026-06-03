@@ -4,8 +4,8 @@ canonicalPath: "/en/city/denver/accountant-dinner"
 alternatePath: "/city/denver/accountant-dinner"
 translationKey: "denver-accountant-dinner"
 lang: "en"
-title: "For Denver readers considering Accountant Dinner, Fanju app should make the room legible"
-description: "Before you commit to a seat, you need to determine if the host has articulated why this specific theme fits the Denver professional scene right now. A generic invitation to discuss accounting is insufficient; the"
+title: "For Denver readers considering Accountant Dinner, Fanju app should..."
+description: "Before you commit to a seat, you need to determine if the host has articulated why this specific theme fits the Denver professional scene right now."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

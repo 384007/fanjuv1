@@ -4,8 +4,8 @@ canonicalPath: "/en/city/warsaw/salsa-dinner"
 alternatePath: "/city/warsaw/salsa-dinner"
 translationKey: "warsaw-salsa-dinner"
 lang: "en"
-title: "What makes Salsa Dinner in Warsaw worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "Warriors of the weekend social grind in Warsaw know the quiet dread of showing up to a gathering where no one speaks your language—professionally or otherwise. For founders, consultants, and independent professionals, ne"
+title: "What makes Salsa Dinner in Warsaw worth the risk; Fanju app..."
+description: "Warriors of the weekend social grind in Warsaw know the quiet dread of showing up to a gathering where no one speaks your language—professionally or oth…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

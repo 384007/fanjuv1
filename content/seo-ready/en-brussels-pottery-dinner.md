@@ -4,8 +4,8 @@ canonicalPath: "/en/city/brussels/pottery-dinner"
 alternatePath: "/city/brussels/pottery-dinner"
 translationKey: "brussels-pottery-dinner"
 lang: "en"
-title: "When Pottery Dinner feels too loose in Brussels, Fanju app starts with the table | fanju-app"
-description: "Fanju app in Brussels reimagines how small dinners connect people, especially women, by anchoring the experience in intention rather than chance. Instead of open-ended gatherings where dynamics can drift, the app hosts c"
+title: "When Pottery Dinner feels too loose in Brussels, Fanju app starts..."
+description: "Fanju app in Brussels reimagines how small dinners connect people, especially women, by anchoring the experience in intention rather than chance."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

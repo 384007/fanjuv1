@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/rizhao/valentines-dinner"
 alternatePath: "/en/city/rizhao/valentines-dinner"
-title: "日照情人节饭局指南 | fanju-app | 饭局app"
+title: "日照情人节饭局指南"
 description: "日照情人节饭局指南，帮助你在日照找到最好的情人节饭局地点和活动。"
 recoveredFromD1: true
 ---

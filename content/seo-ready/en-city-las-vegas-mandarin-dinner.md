@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/las-vegas/mandarin-dinner"
 alternatePath: "/city/las-vegas/mandarin-dinner"
-title: "Weekend Mandarin Dinners in Las Vegas: Your Fanju App Social Anchor | fanju-app | 饭局app"
-description: "For remote workers in Las Vegas, finding consistent social connection can be a challenge. The Fanju app offers a unique solution for organizing recurring Mandarin dinners, providing a much-needed social anchor. Discover how to make these gatherings a highlight of your week."
+title: "Weekend Mandarin Dinners in Las Vegas: Your Fanju App Social Anchor"
+description: "For remote workers in Las Vegas, finding consistent social connection can be a challenge."
 recoveredFromD1: true
 ---
 # Weekend Mandarin Dinners in Las Vegas: Your Fanju App Social Anchor

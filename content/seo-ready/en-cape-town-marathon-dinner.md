@@ -4,8 +4,8 @@ canonicalPath: "/en/city/cape-town/marathon-dinner"
 alternatePath: "/city/cape-town/marathon-dinner"
 translationKey: "cape-town-marathon-dinner"
 lang: "en"
-title: "Marathon Dinner in Cape Town should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "In Cape Town, weekend plans often unfold with last-minute uncertainty—especially when it comes to dinner. What should feel like the anchor of the evening too often becomes an afterthought, shaped by convenience rather th"
+title: "Marathon Dinner in Cape Town should not feel like a gamble; Fanju..."
+description: "In Cape Town, weekend plans often unfold with last-minute uncertainty—especially when it comes to dinner."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

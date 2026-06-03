@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dublin/journalist-dinner"
 alternatePath: "/city/dublin/journalist-dinner"
 translationKey: "dublin-journalist-dinner"
 lang: "en"
-title: "Is Fanju app the right way to find a credible Journalist Dinner in Dublin with real boundaries?"
-description: "When searching for a table in Dublin, the host's description must go beyond a generic invitation to eat and provide a concrete reason for the gathering. A credible listing for this type of dinner will specify why the"
+title: "Is Fanju app the right way to find a credible Journalist Dinner in..."
+description: "When searching for a table in Dublin, the host's description must go beyond a generic invitation to eat and provide a concrete reason for the gathering.…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

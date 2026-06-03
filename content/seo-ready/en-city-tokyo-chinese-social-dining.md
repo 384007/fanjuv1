@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/tokyo/chinese-social-dining"
 alternatePath: "/city/tokyo/chinese-social-dining"
-title: "Discovering Authentic Chinese Social Dining in Tokyo with Fanju app | fanju-app | 饭局app"
+title: "Discovering Authentic Chinese Social Dining in Tokyo with Fanju app"
 description: "Join the local Chinese community in Tokyo for an unforgettable social dining experience with Fanju app"
 recoveredFromD1: true
 ---

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-diego/date-free-dinner"
 alternatePath: "/city/san-diego/date-free-dinner"
 translationKey: "san-diego-date-free-dinner"
 lang: "en"
-title: "San Diego Date Free Dinner through Fanju app: the questions to answer before you sit down"
-description: "For founders and operators in San Diego, the first screen of a listing needs to clarify the professional intent without sounding like a LinkedIn event. The description should explicitly state that this Date Free Dinner"
+title: "San Diego Date Free Dinner through Fanju app: the questions to..."
+description: "For founders and operators in San Diego, the first screen of a listing needs to clarify the professional intent without sounding like a LinkedIn event."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

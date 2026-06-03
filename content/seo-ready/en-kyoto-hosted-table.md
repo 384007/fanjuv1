@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kyoto/hosted-table"
 alternatePath: "/city/kyoto/hosted-table"
 translationKey: "kyoto-hosted-table"
 lang: "en"
-title: "Kyoto has plenty of Hosted Table options; Fanju app is the one that names the table first | fanju-app"
-description: "In Kyoto, starting professional conversations often begins not with a pitch, but with a quiet moment over miso soup. The city’s rhythm resists forced interactions, and that’s why the Fanju app has become a trusted tool f"
+title: "Kyoto has plenty of Hosted Table options; Fanju app is the one..."
+description: "In Kyoto, starting professional conversations often begins not with a pitch, but with a quiet moment over miso soup."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

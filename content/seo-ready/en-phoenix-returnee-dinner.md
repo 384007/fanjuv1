@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/phoenix/returnee-dinner"
 alternatePath: "/city/phoenix/returnee-dinner"
-title: "Why Phoenix Introverts Prefer Fanju App's Structured Dinners Over Bars and Meetups | fanju-app | 饭局app"
-description: "A guide for Phoenix returnees and locals on how Fanju app's small, structured dinners can be a more comfortable and meaningful experience for introverts compared to traditional social gatherings."
+title: "Why Phoenix Introverts Prefer Fanju App's Structured Dinners Over..."
+description: "A guide for Phoenix returnees and locals on how Fanju app's small, structured dinners can be a more comfortable and meaningful experience for introverts…"
 recoveredFromD1: true
 ---
 # Phoenix Introverts Find Meaningful Connections with Fanju App&#039;s Structured Dinners

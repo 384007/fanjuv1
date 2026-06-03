@@ -4,8 +4,8 @@ canonicalPath: "/en/city/lisbon/rooftop-dinner"
 alternatePath: "/city/lisbon/rooftop-dinner"
 translationKey: "lisbon-rooftop-dinner"
 lang: "en"
-title: "For people trying Rooftop Dinner in Lisbon, Fanju app puts the guest mix first | fanju-app"
-description: "A Rooftop Dinner in Lisbon can start with expectations misaligned—someone thinking it’s a casual drink with strangers, another hoping for deep conversation over slow food."
+title: "For people trying Rooftop Dinner in Lisbon, Fanju app puts the..."
+description: "A Rooftop Dinner in Lisbon can start with expectations misaligned—someone thinking it’s a casual drink with strangers, another hoping for deep conversat…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

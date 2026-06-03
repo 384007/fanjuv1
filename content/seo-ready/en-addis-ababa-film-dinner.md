@@ -5,7 +5,7 @@ alternatePath: "/city/addis-ababa/film-dinner"
 translationKey: "addis-ababa-film-dinner"
 lang: "en"
 title: "Addis Ababa Film Dinner Reset with the Fanju app"
-description: "In Addis Ababa’s Bole neighbourhood, the venue is often a small café that can accommodate ten guests, providing the intimacy needed for a film‑centered discussion. The city’s traffic can turn a short walk into a long"
+description: "In Addis Ababa’s Bole neighbourhood, the venue is often a small café that can accommodate ten guests, providing the intimacy needed for a film‑centered…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

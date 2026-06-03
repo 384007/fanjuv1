@@ -4,7 +4,7 @@ canonicalPath: "/city/san-francisco/sports-fan-dinner"
 alternatePath: "/en/city/san-francisco/sports-fan-dinner"
 translationKey: "gsc-repair-san-francisco-sports-fan-dinner"
 lang: "zh"
-title: "旧金山体育球迷饭局指南 | fanju-app | 饭局app"
+title: "旧金山体育球迷饭局指南"
 description: "旧金山体育球迷饭局适合湾区球迷通过公开小桌晚餐聊比赛、球队和城市生活，提前确认主题、地点和边界。"
 pageType: "city_topic"
 priorityScore: 76

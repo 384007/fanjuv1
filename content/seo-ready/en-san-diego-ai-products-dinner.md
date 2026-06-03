@@ -4,8 +4,8 @@ canonicalPath: "/en/city/san-diego/ai-products-dinner"
 alternatePath: "/city/san-diego/ai-products-dinner"
 translationKey: "san-diego-ai-products-dinner"
 lang: "en"
-title: "What makes AI Products Dinner in San Diego worth the risk; Fanju app answers before you arrive | fanju-app"
-description: "In San Diego, where the evening light lingers over Mission Bay and the tech corridor hums with quiet ambition, the idea of gathering around a table to talk about AI products isn’t just networking—it’s a test of intent. T"
+title: "What makes AI Products Dinner in San Diego worth the risk; Fanju..."
+description: "In San Diego, where the evening light lingers over Mission Bay and the tech corridor hums with quiet ambition, the idea of gathering around a table to t…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

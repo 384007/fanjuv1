@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tel-aviv/serious-dating-dinner"
 alternatePath: "/city/tel-aviv/serious-dating-dinner"
 translationKey: "tel-aviv-serious-dating-dinner"
 lang: "en"
-title: "Why Serious Dating Dinner in Tel Aviv works better when Fanju app keeps the table small | fanju-app"
-description: "In Tel Aviv, where weekend plans often start with a last-minute text or a swipe on a screen, the Fanju app redefines how people connect over dinner by focusing on small, intentional gatherings. It’s not another broad soc"
+title: "Why Serious Dating Dinner in Tel Aviv works better when Fanju app..."
+description: "In Tel Aviv, where weekend plans often start with a last-minute text or a swipe on a screen, the Fanju app redefines how people connect over dinner by f…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

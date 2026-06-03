@@ -4,8 +4,8 @@ canonicalPath: "/en/city/barcelona/waitlist-dinner"
 alternatePath: "/city/barcelona/waitlist-dinner"
 translationKey: "barcelona-waitlist-dinner"
 lang: "en"
-title: "In Barcelona, Fanju app turns Waitlist Dinner into a table people can actually trust | fanju-app"
-description: "In Barcelona, where dinner often stretches past midnight and conversations spill into the street, the Fanju app offers a quieter alternative: the Waitlist Dinner. Unlike crowded tapas bars or last-minute group chats that"
+title: "In Barcelona, Fanju app turns Waitlist Dinner into a table people..."
+description: "In Barcelona, where dinner often stretches past midnight and conversations spill into the street, the Fanju app offers a quieter alternative: the Waitli…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

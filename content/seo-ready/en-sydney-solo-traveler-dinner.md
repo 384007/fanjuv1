@@ -4,8 +4,8 @@ canonicalPath: "/en/city/sydney/solo-traveler-dinner"
 alternatePath: "/city/sydney/solo-traveler-dinner"
 translationKey: "sydney-solo-traveler-dinner"
 lang: "en"
-title: "How Fanju app turns a Sydney Solo Traveler Dinner night into something worth showing up for | fanju-app"
-description: "The real test of a Solo Traveler Dinner in Sydney isn’t the first bite or the welcome toast. It’s the quiet moment midway through the meal when conversation dips and no one rushes to fill it. In a city where small talk"
+title: "How Fanju app turns a Sydney Solo Traveler Dinner night into..."
+description: "The real test of a Solo Traveler Dinner in Sydney isn’t the first bite or the welcome toast."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

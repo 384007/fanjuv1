@@ -4,8 +4,8 @@ canonicalPath: "/en/city/los-angeles/fundraising-dinner"
 alternatePath: "/city/los-angeles/fundraising-dinner"
 translationKey: "los-angeles-fundraising-dinner"
 lang: "en"
-title: "Los Angeles Fundraising Dinner through Fanju app: the questions to answer before you sit down"
-description: "In Los Angeles, a public venue type matters because strangers need to picture the room before they commit to an evening. When you look at a listing for a Fundraising Dinner, the host should specify whether you are"
+title: "Los Angeles Fundraising Dinner through Fanju app: the questions to..."
+description: "In Los Angeles, a public venue type matters because strangers need to picture the room before they commit to an evening."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

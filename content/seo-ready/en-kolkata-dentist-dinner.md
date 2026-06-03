@@ -4,8 +4,8 @@ canonicalPath: "/en/city/kolkata/dentist-dinner"
 alternatePath: "/city/kolkata/dentist-dinner"
 translationKey: "kolkata-dentist-dinner"
 lang: "en"
-title: "Kolkata strangers sit down easier when Fanju app frames the Dentist Dinner table first | fanju-app"
-description: "Fanju app helps newcomers in Kolkata find small, intentional dinners with people they don’t know, turning the city’s quiet edges into shared tables. Unlike large meetups or impersonal events, it’s built around meals with"
+title: "Kolkata strangers sit down easier when Fanju app frames the..."
+description: "Fanju app helps newcomers in Kolkata find small, intentional dinners with people they don’t know, turning the city’s quiet edges into shared tables."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

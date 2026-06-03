@@ -4,8 +4,8 @@ canonicalPath: "/en/city/tokyo/pharmacist-dinner"
 alternatePath: "/city/tokyo/pharmacist-dinner"
 translationKey: "tokyo-pharmacist-dinner"
 lang: "en"
-title: "A clearer Pharmacist Dinner dinner in Tokyo: Fanju app, small tables, and real boundaries"
-description: "The most practical question to ask before choosing this table is whether the host allows a clear exit strategy. In Tokyo, where crossing neighborhoods can take an hour, a rigid commitment without a defined end time can"
+title: "A clearer Pharmacist Dinner dinner in Tokyo: Fanju app, small..."
+description: "The most practical question to ask before choosing this table is whether the host allows a clear exit strategy."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

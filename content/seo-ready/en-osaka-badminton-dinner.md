@@ -4,8 +4,8 @@ canonicalPath: "/en/city/osaka/badminton-dinner"
 alternatePath: "/city/osaka/badminton-dinner"
 translationKey: "osaka-badminton-dinner"
 lang: "en"
-title: "Osaka strangers sit down easier when Fanju app frames the Badminton Dinner table first | fanju-app"
-description: "For newcomers to Osaka, the sheer scale of the city can be overwhelming. Navigating its vibrant neighborhoods and countless social opportunities often starts with a simple question: where to begin? This is where the Fanj"
+title: "Osaka strangers sit down easier when Fanju app frames the..."
+description: "For newcomers to Osaka, the sheer scale of the city can be overwhelming. Navigating its vibrant neighborhoods and countless social opportunities often s…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/madrid/brand-dinner"
 alternatePath: "/city/madrid/brand-dinner"
 translationKey: "madrid-brand-dinner"
 lang: "en"
-title: "In Madrid, Fanju app turns Brand Dinner into a table people can actually trust | fanju-app"
-description: "The Fanju app has quietly reshaped how Madrid residents approach social dining, moving beyond casual meetups to curated, small-group meals that feel intentional rather than improvised. In a city where dinner begins late"
+title: "In Madrid, Fanju app turns Brand Dinner into a table people can..."
+description: "The Fanju app has quietly reshaped how Madrid residents approach social dining, moving beyond casual meetups to curated, small-group meals that feel int…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

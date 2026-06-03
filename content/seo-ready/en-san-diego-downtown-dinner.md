@@ -4,7 +4,7 @@ canonicalPath: "/en/city/san-diego/downtown-dinner"
 alternatePath: "/city/san-diego/downtown-dinner"
 translationKey: "san-diego-downtown-dinner"
 lang: "en"
-title: "When Downtown Dinner feels too loose in San Diego, Fanju app starts with the table | fanju-app"
+title: "When Downtown Dinner feels too loose in San Diego, Fanju app..."
 description: "Stepping into a restaurant for a Downtown Dinner in San Diego, especially when you don't know many faces, is a critical moment."
 pageType: "city_article"
 priorityScore: 70

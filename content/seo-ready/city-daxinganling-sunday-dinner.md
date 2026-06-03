@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/daxinganling/sunday-dinner"
 alternatePath: "/en/city/daxinganling/sunday-dinner"
-title: "大兴安岭周日饭局指南：一场纯粹的味蕾与心灵之约 | fanju-app | 饭局app"
+title: "大兴安岭周日饭局指南：一场纯粹的味蕾与心灵之约"
 description: "厌倦了周末的孤单？想在大兴安岭体验一场别样的周日午后？饭局app（Fanju）为你带来全新的线下社交体验，专注于小桌、主题明确的聚会，让每一次线下连接都充满温度。这不仅仅是吃饭，更是一次在大兴安岭深度体验当地风土人情的机会，没有约会压力，只有纯粹的交流与分享。"
 recoveredFromD1: true
 ---

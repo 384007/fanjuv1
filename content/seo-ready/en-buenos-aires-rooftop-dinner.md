@@ -4,8 +4,8 @@ canonicalPath: "/en/city/buenos-aires/rooftop-dinner"
 alternatePath: "/city/buenos-aires/rooftop-dinner"
 translationKey: "buenos-aires-rooftop-dinner"
 lang: "en"
-title: "Rooftop Dinner in Buenos Aires should not feel like a gamble; Fanju app changes the odds | fanju-app"
-description: "Hosting rooftop dinners in Buenos Aires used to feel like rolling dice—great location, good wine, but the human chemistry? Unpredictable. That changed when I started using the Fanju app to shape the guest list, not just"
+title: "Rooftop Dinner in Buenos Aires should not feel like a gamble;..."
+description: "Hosting rooftop dinners in Buenos Aires used to feel like rolling dice—great location, good wine, but the human chemistry? Unpredictable."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

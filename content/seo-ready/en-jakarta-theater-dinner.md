@@ -4,8 +4,8 @@ canonicalPath: "/en/city/jakarta/theater-dinner"
 alternatePath: "/city/jakarta/theater-dinner"
 translationKey: "jakarta-theater-dinner"
 lang: "en"
-title: "For Jakarta readers considering Theater Dinner, Fanju app should make the room legible"
-description: "For a remote worker in Jakarta, the decision to leave the house for an evening requires a high degree of certainty about what awaits. The app serves this need by presenting the Theater Dinner not merely as a meal, but"
+title: "For Jakarta readers considering Theater Dinner, Fanju app should..."
+description: "For a remote worker in Jakarta, the decision to leave the house for an evening requires a high degree of certainty about what awaits."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

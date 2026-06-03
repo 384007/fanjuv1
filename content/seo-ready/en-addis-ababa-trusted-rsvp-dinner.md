@@ -4,8 +4,8 @@ canonicalPath: "/en/city/addis-ababa/trusted-rsvp-dinner"
 alternatePath: "/city/addis-ababa/trusted-rsvp-dinner"
 translationKey: "addis-ababa-trusted-rsvp-dinner"
 lang: "en"
-title: "For Addis Ababa readers considering Trusted RSVP Dinner, Fanju app should make the room legible"
-description: "When you view a listing for a Trusted RSVP Dinner in Addis Ababa, the app should immediately clarify why this specific gathering exists. It is not just a category label; the description needs to ground the event in the"
+title: "For Addis Ababa readers considering Trusted RSVP Dinner, Fanju app..."
+description: "When you view a listing for a Trusted RSVP Dinner in Addis Ababa, the app should immediately clarify why this specific gathering exists."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

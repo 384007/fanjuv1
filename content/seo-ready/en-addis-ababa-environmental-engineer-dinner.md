@@ -4,7 +4,7 @@ canonicalPath: "/en/city/addis-ababa/environmental-engineer-dinner"
 alternatePath: "/city/addis-ababa/environmental-engineer-dinner"
 translationKey: "addis-ababa-environmental-engineer-dinner"
 lang: "en"
-title: "Addis Ababa Environmental Engineer Dinner through Fanju app: the questions to answer before you sit down"
+title: "Addis Ababa Environmental Engineer Dinner through Fanju app: the..."
 description: "You need to determine if the host has defined a scope that goes beyond just a job title. A strong listing in Addis Ababa will not just say \"engineers meet\" but will specify a sub-topic, such as urban water management or"
 pageType: "city_article"
 priorityScore: 70

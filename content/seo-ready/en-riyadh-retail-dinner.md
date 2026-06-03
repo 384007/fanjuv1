@@ -4,8 +4,8 @@ canonicalPath: "/en/city/riyadh/retail-dinner"
 alternatePath: "/city/riyadh/retail-dinner"
 translationKey: "riyadh-retail-dinner"
 lang: "en"
-title: "Stepping Into Riyadh’s Retail Dinner Circle: A First‑Timer’s View of the Fanju app"
-description: "The biggest hesitation for a Riyadh newcomer is the fear that the dinner will morph into a covert dating scenario instead of a focused retail discussion. One common question is, *“Will I be pressured to exchange numbers"
+title: "Stepping Into Riyadh’s Retail Dinner Circle: A First‑Timer’s View..."
+description: "The biggest hesitation for a Riyadh newcomer is the fear that the dinner will morph into a covert dating scenario instead of a focused retail discussion…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kolkata/running-dinner"
 alternatePath: "/city/kolkata/running-dinner"
 translationKey: "kolkata-running-dinner"
 lang: "en"
-title: "The Fanju app way to judge a Kolkata Running Dinner table before the first course"
+title: "The Fanju app way to judge a Kolkata Running Dinner table before..."
 description: "The quality of a host note often determines whether a table feels like a planned event or a gamble. In Kolkata, where traffic and distance are real factors, a vague invitation to \"somewhere central\" is a red flag. The"
 pageType: "city_article"
 priorityScore: 70

@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nagoya/fitness-trainer-dinner"
 alternatePath: "/city/nagoya/fitness-trainer-dinner"
 translationKey: "nagoya-fitness-trainer-dinner"
 lang: "en"
-title: "For Nagoya readers considering Fitness Trainer Dinner, Fanju app should make the room legible"
-description: "The core idea is to move beyond superficial online interactions and into genuine, small-group experiences. For a Fitness Trainer Dinner in Nagoya, this means understanding the host's intention – perhaps to discuss local"
+title: "For Nagoya readers considering Fitness Trainer Dinner, Fanju app..."
+description: "The core idea is to move beyond superficial online interactions and into genuine, small-group experiences."
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

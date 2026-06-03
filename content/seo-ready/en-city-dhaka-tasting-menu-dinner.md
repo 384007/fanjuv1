@@ -4,8 +4,8 @@ score: 100
 lang: en
 canonicalPath: "/en/city/dhaka/tasting-menu-dinner"
 alternatePath: "/city/dhaka/tasting-menu-dinner"
-title: "Dhaka Tasting Menu Dinner Guide | Fanju app"
-description: "Discover the best tasting menu dinner experiences in Dhaka with Fanju app, a social dining app for small, clearly described meals and real-world connections."
+title: "Dhaka Tasting Menu Dinner Guide"
+description: "Discover the best tasting menu dinner experiences in Dhaka with Fanju app, a social dining app for small, clearly described meals and real-world connect…"
 recoveredFromD1: true
 ---
 Dhaka, a city of vibrant culture and rich history, has long been a melting pot of traditions and influences. For years, the city has been adapting to the changing times, and one of the most significant shifts has been the way people connect with each other. With the rise of online platforms, many have found themselves spending more time interacting with screens than with real people. However, there&#039;s a growing desire to reboot our social habits and reconnect with others in a more meaningful way. That&#039;s where the tasting menu dinner comes in – a unique opportunity to break bread with like-minded individuals and forge new connections in a relaxed and intimate setting.

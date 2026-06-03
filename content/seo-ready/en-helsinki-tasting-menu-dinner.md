@@ -4,8 +4,8 @@ canonicalPath: "/en/city/helsinki/tasting-menu-dinner"
 alternatePath: "/city/helsinki/tasting-menu-dinner"
 translationKey: "helsinki-tasting-menu-dinner"
 lang: "en"
-title: "Helsinki Tasting Menu Dinner through Fanju app: the questions to answer before you sit down"
-description: "Before you even consider joining, the most crucial question for any first-timer in Helsinki contemplating a tasting menu dinner is about the intended group size. A specific number, or even a tight range, provides"
+title: "Helsinki Tasting Menu Dinner through Fanju app: the questions to..."
+description: "Before you even consider joining, the most crucial question for any first-timer in Helsinki contemplating a tasting menu dinner is about the intended gr…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

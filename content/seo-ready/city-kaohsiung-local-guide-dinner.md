@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/kaohsiung/local-guide-dinner"
 alternatePath: "/en/city/kaohsiung/local-guide-dinner"
-title: "高雄本地向导饭局指南 | fanju-app | 饭局app"
+title: "高雄本地向导饭局指南"
 description: "在高雄体验独特的本地向导饭局，通过 Fanju 社交应用与新朋友相遇，分享美食和城市故事。"
 recoveredFromD1: true
 ---

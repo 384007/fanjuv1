@@ -4,8 +4,8 @@ canonicalPath: "/en/city/dallas/mental-health-dinner"
 alternatePath: "/city/dallas/mental-health-dinner"
 translationKey: "dallas-mental-health-dinner"
 lang: "en"
-title: "A Dallas dinner table for Mental Health Dinner, with Fanju app boundaries up front"
-description: "When you open the listing for a Mental Health Dinner in Dallas, the description should immediately clarify the nature of the gathering without requiring you to guess. Look for a host who specifies whether the evening is"
+title: "A Dallas dinner table for Mental Health Dinner, with Fanju app..."
+description: "When you open the listing for a Mental Health Dinner in Dallas, the description should immediately clarify the nature of the gathering without requiring…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

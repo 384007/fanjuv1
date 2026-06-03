@@ -4,8 +4,8 @@ canonicalPath: "/en/city/paris/singles-dinner"
 alternatePath: "/city/paris/singles-dinner"
 translationKey: "paris-singles-dinner"
 lang: "en"
-title: "Paris Singles Dinner through Fanju app: the questions to answer before you sit down"
-description: "Does this table require a specific professional background or a general interest in Parisian culture? For founders and operators, the distinction matters because a vague theme often attracts a mixed crowd that may not"
+title: "Paris Singles Dinner through Fanju app: the questions to answer..."
+description: "Does this table require a specific professional background or a general interest in Parisian culture?"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

@@ -4,8 +4,8 @@ score: 100
 lang: zh
 canonicalPath: "/city/liaoyuan/cross-border-dinner"
 alternatePath: "/en/city/liaoyuan/cross-border-dinner"
-title: "辽源跨境饭局指南 | fanju-app | 饭局app"
-description: "在辽源，饭局app（Fanju）正悄然构建着一种新的社区连接方式。它围绕着小桌吃饭、清晰的主题和真实的线下互动，让人们在共享美食的同时，也分享彼此的故事与见闻。这种模式尤其适合那些渴望打破日常隔阂，探索更深层次社交关系的用户。辽源的街头巷尾，正因这些精心策划的“跨境饭局”而变得更加生动有趣，为城市社区的多元化发展注入了新的活力。"
+title: "辽源跨境饭局指南"
+description: "在辽源，饭局app（Fanju）正悄然构建着一种新的社区连接方式。它围绕着小桌吃饭、清晰的主题和真实的线下互动，让人们在共享美食的同时，也分享彼此的故事与见闻。这种模式尤其适合那些渴望打破日常隔阂，探索更深层次社交关系的用户。"
 recoveredFromD1: true
 ---
 辽源跨境饭局指南

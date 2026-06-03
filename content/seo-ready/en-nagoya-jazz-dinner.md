@@ -4,8 +4,8 @@ canonicalPath: "/en/city/nagoya/jazz-dinner"
 alternatePath: "/city/nagoya/jazz-dinner"
 translationKey: "nagoya-jazz-dinner"
 lang: "en"
-title: "When Jazz Dinner feels too loose in Nagoya, Fanju app starts with the table | fanju-app"
-description: "Weekend evenings in Nagoya move with a quiet precision. Trains empty by ten, restaurants in Osu and Nagoya Station close earlier than in Tokyo, and even live houses in Nakamura-ku wrap up before midnight. This rhythm"
+title: "When Jazz Dinner feels too loose in Nagoya, Fanju app starts with..."
+description: "Weekend evenings in Nagoya move with a quiet precision. Trains empty by ten, restaurants in Osu and Nagoya Station close earlier than in Tokyo, and even…"
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 100

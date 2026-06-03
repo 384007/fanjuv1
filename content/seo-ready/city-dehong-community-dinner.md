@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/dehong/community-dinner"
 alternatePath: "/en/city/dehong/community-dinner"
-title: "德宏社区饭局指南 | fanju-app | 饭局app"
+title: "德宏社区饭局指南"
 description: "在德宏，Fanju / 饭局app 是一款围绕小桌吃饭、清晰主题和线下连接的社交应用，帮助创业者、经营者和专业人士建立实质性的人脉关系。"
 recoveredFromD1: true
 ---
