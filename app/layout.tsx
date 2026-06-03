@@ -25,8 +25,8 @@ const geistMono = Geist_Mono({
 
 const SITE_URL = "https://fanju.app"
 const SITE_NAME = "饭局 Fanju"
-const BRAND_ICON = "/icon.svg?v=20260529-v1"
-const APPLE_ICON = "/apple-icon.png?v=20260530-b1"
+const BRAND_ICON = "/favicon.svg"
+const APPLE_ICON = "/icons/apple-touch-icon.png"
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -149,15 +149,15 @@ export const metadata: Metadata = {
   },
   other: {
     "apple-touch-icon": APPLE_ICON,
-    "msapplication-TileImage": APPLE_ICON,
-    "msapplication-TileColor": "#000000",
+    "msapplication-TileImage": "/icons/ms-tile-150.png",
+    "msapplication-TileColor": "#2C0A4D",
   },
 }
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: dark)", color: "#000000" },
-    { media: "(prefers-color-scheme: light)", color: "#000000" },
+    { media: "(prefers-color-scheme: dark)", color: "#2C0A4D" },
+    { media: "(prefers-color-scheme: light)", color: "#2C0A4D" },
   ],
   colorScheme: "dark",
   width: "device-width",
@@ -175,7 +175,7 @@ const jsonLd = {
       name: "饭局 Fanju",
       alternateName: ["Fanju", "FANJU", "饭局"],
       url: SITE_URL,
-      logo: `${SITE_URL}/icon.svg`,
+      logo: `${SITE_URL}/favicon.svg`,
       description:
         "面向全球年轻人的同频饭局网络。中国大陆城市优先，海外城市城市（纽约、旧金山、伦敦、东京、悉尼、新加坡、温哥华、多伦多等）同步展开。",
       sameAs: [

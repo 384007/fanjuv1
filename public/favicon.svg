@@ -1,0 +1,13 @@
+<svg aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="400" width="400">
+  <title>飯 Logo</title>
+  <desc id="desc">深紫色方形背景，金色单边框，金色繁体汉字「飯」</desc>
+
+  <rect fill="#2C0A4D" ry="38" rx="38" height="356" width="356" y="22" x="22"/>
+  <rect stroke-width="16" stroke="#E8B923" fill="none" ry="38" rx="38" height="356" width="356" y="22" x="22"/>
+
+  <foreignObject x="22" y="5" width="356" height="356">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width:356px;height:356px;display:flex;align-items:center;justify-content:center;">
+      <span style="font-size:252px;font-weight:900;font-family:'Noto Serif TC','MingLiU','STSong',serif;color:#E8B923;line-height:1;display:block;">飯</span>
+    </div>
+  </foreignObject>
+</svg>
