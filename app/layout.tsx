@@ -137,11 +137,16 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: [{ url: BRAND_ICON, sizes: "any", type: "image/svg+xml" }],
-    shortcut: [BRAND_ICON],
-    apple: [{ url: APPLE_ICON, sizes: "180x180", type: "image/png" }],
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icons/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    shortcut: ["/favicon.ico"],
+    apple: [{ url: "/icons/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
   },
-  manifest: "/manifest.webmanifest?v=20260530-v4",
+  manifest: "/manifest.webmanifest?v=20260603",
   appleWebApp: {
     capable: true,
     title: SITE_NAME,
@@ -268,9 +273,11 @@ export default function RootLayout({
         <link rel="alternate" hrefLang="zh-Hans" href={SITE_URL} />
         <link rel="alternate" hrefLang="en" href={`${SITE_URL}/?lang=en`} />
         <link rel="alternate" hrefLang="x-default" href={SITE_URL} />
-        <link rel="icon" href={BRAND_ICON} type="image/svg+xml" />
-        <link rel="shortcut icon" href={BRAND_ICON} type="image/svg+xml" />
-        <link rel="apple-touch-icon" href={APPLE_ICON} />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <script
