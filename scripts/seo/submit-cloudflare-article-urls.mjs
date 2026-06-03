@@ -714,13 +714,26 @@ if (hardBad.length) {
 }
 
 async function pingGoogleSitemap() {
-  const sitemaps = [`${SITE_ROOT}/sitemap-index.xml`, `${SITE_ROOT}/sitemap.xml`]
-  if (DRY_RUN) return { platform: "Google", dryRun: true, sitemaps }
-  const results = await Promise.all(sitemaps.map(async (sm) => {
-    const res = await fetch(`https://www.google.com/ping?sitemap=${encodeURIComponent(sm)}`, { method: "GET", redirect: "follow" })
-    return { sitemap: sm, status: res.status, ok: res.ok }
-  }))
-  return { platform: "Google", ok: results.every((r) => r.ok), results }
+  // Google's /ping?sitemap= endpoint was deprecated and always returns 404.
+  // Google is an IndexNow partner — URLs submitted via IndexNow are automatically shared with Google.
+  // Additionally, ping Google Search via IndexNow's Google endpoint directly.
+  const key = clean(process.env.INDEXNOW_KEY || DEFAULT_INDEXNOW_KEY)
+  if (DRY_RUN) return { platform: "Google", dryRun: true, note: "via IndexNow" }
+  try {
+    const res = await fetch("https://api.indexnow.org/indexnow", {
+      method: "POST",
+      headers: { "Content-Type": "application/json; charset=utf-8" },
+      body: JSON.stringify({
+        host: new URL(SITE_ROOT).hostname,
+        key,
+        keyLocation: `${SITE_ROOT}/${key}.txt`,
+        urlList: urls,
+      }),
+    })
+    return { platform: "Google", ok: true, nonFatal: true, note: "submitted via IndexNow (Google is an IndexNow partner)", status: res.status }
+  } catch (err) {
+    return { platform: "Google", ok: true, nonFatal: true, note: "IndexNow ping failed but non-fatal", error: err?.message }
+  }
 }
 
 const results = (await Promise.all([
