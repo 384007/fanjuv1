@@ -9,7 +9,7 @@ description: "Beijing newcomer dinner on Fanju helps new arrivals compare a publ
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96
-status: "ready"
+status: "draft"
 renderMode: "source"
 recoveredFromD1: "true"
 ---

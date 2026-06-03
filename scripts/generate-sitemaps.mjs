@@ -18,13 +18,32 @@ const TODAY = new Date().toISOString().slice(0, 10)
 // ─── Data (mirrors lib/seo-data.ts) ──────────────────────────────────────────
 // We duplicate slugs here so the script has zero TS/Next.js dependencies.
 
-const cities = [
-  "shenzhen","guangzhou","shanghai","beijing","hangzhou","chengdu",
-  "xiamen","changsha","nanjing","suzhou","wuhan","chongqing",
-  "xian","qingdao","zhengzhou","foshan","dongguan","zhuhai","tianjin","ningbo",
-  "new-york","san-francisco","los-angeles","vancouver","toronto",
-  "london","tokyo","sydney","melbourne","singapore","hong-kong","taipei",
-]
+// Dynamically extract all city slugs from seo-ready content (zh + en)
+const _READY_DIR_CITIES = join(ROOT, "content/seo-ready")
+const _citiesZh = new Set()
+const _citiesEn = new Set()
+if (existsSync(_READY_DIR_CITIES)) {
+  for (const f of readdirSync(_READY_DIR_CITIES)) {
+    if (!f.endsWith(".md")) continue
+    const raw = readFileSync(join(_READY_DIR_CITIES, f), "utf8")
+    const cpMatch = raw.match(/^canonicalPath:\s*"?([^"\n]+)"?/m)
+    const langMatch = raw.match(/^lang:\s*"?([^"\n]+)"?/m)
+    if (!cpMatch) continue
+    const cp = cpMatch[1].trim()
+    const lang = langMatch ? langMatch[1].trim() : "zh"
+    // match /city/CITY/ or /en/city/CITY/
+    const m = cp.match(/^\/(?:en\/)?city\/([^/]+)/)
+    if (m) {
+      if (lang === "en") _citiesEn.add(m[1])
+      else _citiesZh.add(m[1])
+    }
+  }
+}
+const citiesZh = [..._citiesZh].sort()
+const citiesEn = [..._citiesEn].sort()
+// Combined for /city/ and /en/city/ (union of both language sets)
+const cities = [...new Set([...citiesZh, ...citiesEn])].sort()
+console.log(`✓ Loaded cities: ${citiesZh.length} zh + ${citiesEn.length} en = ${cities.length} total`)
 
 const categories = [
   "singles-dinner","curated-dinner","business-dinner","founder-dinner",

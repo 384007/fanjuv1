@@ -1,0 +1,154 @@
+{
+  "runId": "2026-06-03T07-45-47-820Z",
+  "generatedAt": "2026-06-03T07:45:58.308Z",
+  "siteRoot": "https://fanju.app",
+  "dryRun": false,
+  "sitemap": {
+    "ok": true,
+    "status": 200,
+    "error": ""
+  },
+  "fullyDistributed": false,
+  "status": "partial",
+  "articles": [
+    {
+      "articleUrl": "https://fanju.app/city/changsha/electronics-hobbyist-dinner",
+      "title": "长沙电子爱好者下班跨区首选的饭局app体验",
+      "liveHttp": {
+        "status": 200,
+        "headStatus": 200,
+        "ok": true,
+        "contentType": "text/html; charset=utf-8"
+      },
+      "canonical": {
+        "href": "https://fanju.app/city/changsha/electronics-hobbyist-dinner",
+        "ok": true
+      },
+      "sitemapIncluded": true,
+      "indexnow": {
+        "status": "success",
+        "statusCode": 200,
+        "url": ""
+      },
+      "baidu": {
+        "status": "skipped",
+        "reason": "BAIDU_API, BAIDU_TOKEN, or BAIDU_PUSH_TOKEN is not configured",
+        "url": ""
+      },
+      "gist": {
+        "status": "skipped",
+        "reason": "GIST_TOKEN is not configured",
+        "url": ""
+      },
+      "devto": {
+        "status": "skipped",
+        "reason": "DEVTO_API_KEY is not configured",
+        "url": ""
+      },
+      "bluesky": {
+        "status": "skipped",
+        "reason": "BLUESKY_HANDLE and BLUESKY_APP_PASSWORD/BLUESKY_APP are not configured",
+        "url": ""
+      },
+      "wordpress": {
+        "status": "skipped",
+        "reason": "WordPress credentials are incomplete",
+        "url": ""
+      },
+      "skipped": {
+        "baidu": "BAIDU_API, BAIDU_TOKEN, or BAIDU_PUSH_TOKEN is not configured",
+        "gist": "GIST_TOKEN is not configured",
+        "devto": "DEVTO_API_KEY is not configured",
+        "bluesky": "BLUESKY_HANDLE and BLUESKY_APP_PASSWORD/BLUESKY_APP are not configured",
+        "wordpress": "WordPress credentials are incomplete"
+      },
+      "errors": {}
+    }
+  ],
+  "platformResults": [
+    {
+      "platform": "IndexNow",
+      "status": 200,
+      "ok": true,
+      "body": ""
+    },
+    {
+      "platform": "Google",
+      "ok": false,
+      "results": [
+        {
+          "sitemap": "https://fanju.app/sitemap-index.xml",
+          "status": 404,
+          "ok": false
+        },
+        {
+          "sitemap": "https://fanju.app/sitemap.xml",
+          "status": 404,
+          "ok": false
+        }
+      ]
+    },
+    {
+      "platform": "Baidu",
+      "skipped": "BAIDU_API, BAIDU_TOKEN, or BAIDU_PUSH_TOKEN is not configured"
+    },
+    {
+      "platform": "GitHub Gist",
+      "skipped": "GIST_TOKEN is not configured"
+    },
+    {
+      "platform": "DEV.to",
+      "skipped": "DEVTO_API_KEY is not configured"
+    },
+    {
+      "platform": "Bluesky",
+      "skipped": "BLUESKY_HANDLE and BLUESKY_APP_PASSWORD/BLUESKY_APP are not configured"
+    },
+    {
+      "platform": "WordPress",
+      "skipped": "WordPress credentials are incomplete",
+      "detected": {
+        "accessToken": false,
+        "siteId": false,
+        "base": false,
+        "username": false,
+        "password": false
+      },
+      "acceptedNames": {
+        "wordpressCom": [
+          "WORDPRESS_ACCESS_TOKEN",
+          "WORDPRESS_SITE_ID",
+          "WORDPRESS_SITE_URL"
+        ],
+        "base": [
+          "WORDPRESS_SITE_URL",
+          "WORDPRESS_URL",
+          "WORDPRESS_SITE",
+          "WORDPRESS_BASE_URL",
+          "WP_URL",
+          "WP_SITE_URL",
+          "WP_SITE"
+        ],
+        "username": [
+          "WORDPRESS_USERNAME",
+          "WORDPRESS_USER",
+          "WORDPRESS_LOGIN",
+          "WORDPRESS_EMAIL",
+          "WP_USERNAME",
+          "WP_USER",
+          "WP_LOGIN",
+          "WP_EMAIL"
+        ],
+        "password": [
+          "WORDPRESS_APP_PASSWORD",
+          "WORDPRESS_APPLICATION_PASSWORD",
+          "WORDPRESS_PASSWORD",
+          "WP_APP_PASSWORD",
+          "WP_APPLICATION_PASSWORD",
+          "WP_PASSWORD",
+          "WORDPRESS"
+        ]
+      }
+    }
+  ]
+}

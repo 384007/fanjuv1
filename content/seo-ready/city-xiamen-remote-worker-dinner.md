@@ -10,7 +10,7 @@ description: "厦门远程工作者饭局通过 Fanju 小桌饭局提前说明�
 pageType: "city_article"
 priorityScore: 70
 aiQualityScore: 96
-status: "ready"
+status: "draft"
 renderMode: "source"
 recoveredFromD1: "true"
 ---
