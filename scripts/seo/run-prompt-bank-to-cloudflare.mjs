@@ -539,7 +539,7 @@ function extractMarkdownArticle(prompt, text) {
   const cleaned = repairHeadings(prompt, normalizeMarkdownHeadingSpacing(stripMarkdownFence(text)))
   if (!cleaned || looksLikeJsonWrapper(cleaned)) return null
   if (!/^#\s+.+$/m.test(cleaned)) return null
-  if (countMarkdownHeadings(cleaned, 2) < 5) return null
+  if (countMarkdownHeadings(cleaned, 2) < 6) return null
 
   const h1 = cleaned.match(/^#\s+(.+)$/m)
   const firstParagraph = cleaned
@@ -836,7 +836,7 @@ function structureFingerprint(body = "") {
   const h2s = [...String(body || "").matchAll(/^##\s+(.+)$/gm)]
     .map((m) => structureRoleFor(m[1]))
     .filter(Boolean)
-  if (h2s.length < 5) return ""
+  if (h2s.length < 6) return ""
   return h2s.join(">")
 }
 
@@ -1463,7 +1463,7 @@ function modernQualityAudit(prompt, parsed) {
   const structureSource = structure ? index.structureFingerprints.get(structure) : ""
   if (structureSource) issues.push(`structure-fingerprint-duplicate:${structure}@${structureSource}`)
 
-  if (h2s.length < 5 || h2s.length > 7) issues.push(`h2-count-out-of-range:${h2s.length}`)
+  if (h2s.length < 6) issues.push(`h2-count-out-of-range:${h2s.length}`)
   if (deepHeadings.length) issues.push(`meaningless-deep-headings:${deepHeadings.slice(0, 3).join("|")}`)
   if (h3s.length > 4) issues.push(`too-many-h3:${h3s.length}`)
   if (templateH2Issues(prompt, body).length) issues.push("template-h2-modern")
@@ -1483,7 +1483,7 @@ function modernQualityAudit(prompt, parsed) {
 
   const scores = {
     OriginalityScore: Math.max(0, 100 - (h1Similarity.score >= 0.78 ? 30 : Math.round(h1Similarity.score * 18)) - (issues.some((x) => x.startsWith("h2-too-similar")) ? 30 : 0) - (repeatedHistoricalOpenings.length * 8)),
-    AntiTemplateScore: Math.max(0, 100 - (issues.some((x) => x.includes("template")) ? 35 : 0) - (issues.some((x) => x.startsWith("structure-fingerprint")) ? 25 : 0) - (deepHeadings.length ? 25 : 0) - (h2s.length < 5 || h2s.length > 7 ? 20 : 0)),
+    AntiTemplateScore: Math.max(0, 100 - (issues.some((x) => x.includes("template")) ? 35 : 0) - (issues.some((x) => x.startsWith("structure-fingerprint")) ? 25 : 0) - (deepHeadings.length ? 25 : 0) - (h2s.length < 6 ? 20 : 0)),
     LocalDetailScore: Math.min(100, Math.round((localDetailCount / 5) * 100)),
     EntityScore: Math.max(0, 100 - entityFirstScreenIssues(prompt, body, title).length * 22),
     SearchIntentScore: Math.max(0, 100 - (questionCount < 3 ? 25 : 0) - (criteriaCount < 2 ? 20 : 0) - (!hasNonFit(body, prompt.locale) ? 20 : 0)),
@@ -1589,7 +1589,7 @@ function scoreArticle(prompt, parsed) {
   }
   if (isTemplateTitle(prompt, title)) issues.push("template-title")
   if (isTemplateTitle(prompt, h1)) issues.push("template-h1")
-  if (countMarkdownHeadings(body, 2) < 5) issues.push(`too-few-h2:${countMarkdownHeadings(body, 2)}`)
+  if (countMarkdownHeadings(body, 2) < 6) issues.push(`too-few-h2:${countMarkdownHeadings(body, 2)}`)
   const minParagraphs = prompt.locale === "en" ? 10 : 10
   if (countParagraphs(body) < minParagraphs) issues.push(`too-few-paragraphs:${countParagraphs(body)}`)
   const duplicateH2 = duplicateMarkdownHeadings(body, 2)
@@ -1888,16 +1888,16 @@ function retryPrompt(basePrompt, attempt, issues) {
   const lengthGuidance = isEn
     ? bodyTooLong
       ? `Keep the body compact: 3,600-7,200 total characters, exactly 12-14 public paragraphs, no repeated sections, and no expansion for its own sake.${paraWarningEn}`
-      : `Use exactly 12-14 separate public paragraphs with blank lines between paragraphs. Use exactly 6 distinct H2 sections, with exactly two paragraph blocks under each H2. Do not use bullet lists, numbered lists, or H4-H10 headings.${paraWarningEn}`
+      : `Use exactly 12-14 separate public paragraphs with blank lines between paragraphs. Use AT LEAST 6 H2 sections (no upper limit). Each H2 must have at least two paragraph blocks. Do not use bullet lists, numbered lists, or H4-H10 headings.${paraWarningEn}`
     : bodyTooLong
       ? `正文要收紧到 2,800-5,000 字符，正好 12-14 个公开自然段，不要重复小节，不要为了凑长扩写。${paraWarningZh}`
-      : `使用正好 12-14 个公开自然段，段落之间空行；必须正好 6 个独立 H2，每个 H2 下正好两个自然段；不要项目符号、编号列表或 H4-H10 标题。${paraWarningZh}`
+      : `使用正好 12-14 个公开自然段，段落之间空行；至少 6 个 H2（无上限，内容需要则多写），每个 H2 下至少两个自然段；不要项目符号、编号列表或 H4-H10 标题。${paraWarningZh}`
   return [
     basePrompt.userPrompt,
     "",
     isEn
-      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch from the editorial brief and satisfy the automated gate in one pass. Return only the article text, starting with \"# \". The H1/title must include the city and Fanju app or the Chinese entity bridge. FIRST PARAGRAPH GATE — all 7 must appear within the first 220 words: (1) city name, (2) topic name, (3) \"Fanju app\", (4) Chinese bridge \"饭局 / 饭局app / Fanju饭局\", (5) exact phrase \"not a dating guarantee\", (6) exact phrase \"not a random group chat\", (7) exact phrase \"not an endless profile feed\". Any missing = 0 score. Use exactly 6 \"## \" headings. H3 is optional only for a real reader question; do not use H4-H10. Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension; do not use the brief questions as headings. BANNED H2 PATTERNS (any H2 matching these will cause an automatic 0): headings starting with "Who should", "Who is this", "Safety", "Boundaries", "Safety boundaries", "Comfort boundaries", "Judging the host", "Judging host", "Decision criteria", "Practical questions", "What to expect", "How the table works", "How a Fanju dinner works", "Next steps", "Conclusion", "Building lasting connections", "Embracing the unknown", or any heading that reads as a generic checklist/safety/fit category reusable across articles. Every H2 must name a specific local tension unique to this city+topic combination. Include at least five local details — each must be a full sentence that mentions the city name AND includes a local cue word (neighbourhood, venue, arrival, exit, cost, host, guest, cross-district, or table). Include body sentences containing \"not suitable for\", \"should skip\", \"not for\", or \"who should not\" to satisfy the not-suitable gate. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
-      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请根据 editorial brief 从头重写，并一次满足自动质量门。只返回文章正文，第一行必须以「# 」开头。标题/H1 必须自然包含中文城市名和「饭局 / 饭局app / Fanju饭局 / 城市+主题饭局」之一。【首段220字内必须同时出现以下全部内容，缺一得0分】：城市名、主题名（完整词）、「饭局app」或「Fanju饭局」、精确短语「不是相亲保证」「不是随机群聊」「不是无限刷资料」（不能改写为近义词）。首段控制在 120-220 字内。必须正好写 6 个独立「## 」标题；H3 只在真实需要时使用；禁止 H4-H10。每个 H2 都要为这个城市、主题、角度、人群和一个具体本地张力重写，不要把 brief 问题原文当标题。【禁用 H2 模式】以下任何形式的 H2 都会导致 0 分重写，必须完全避免：以「适合谁」「不适合谁」「核心饭局场景」「安全边界」「退出」「安全重点」「边界」「一桌饭」「主理人信号」「舒适边界」「下一步行动」「如何判断」「结语」开头的标题，或任何可以套用到其他城市的通用句式；H2 标题末尾禁止追加「，回到XXX饭局」等导航后缀。每个 H2 必须锚定在「城市名+主题词」的具体场景，且只适用于这篇文章。【不适合谁硬性要求】正文中必须包含「不适合」「先别报名」「不该报名」「最好不要」「不建议」之一，缺少则 0 分。【本地细节硬性要求】至少 5 个完整句子同时包含「城市名」和以下任意一个词：街区、跨区、到场、离场、费用、主理人、同桌、公共场所、本地、同城；缺少则扣分。【英文噪音硬规则】正文、标题、H2 中禁止出现任何英文词汇（如 faq、meetup、lgbtq、lgbt、brt 等），必须全部替换为对应中文。${lengthGuidance} 严禁重复：每个自然段的开头句必须与其他所有段落的开头句完全不同；正文中不得出现与首段内容相同或高度相似的段落；每个 H2 下的内容必须覆盖全新角度，不得重述已有段落的核心句。不要摘要，要更具体、更本地、更完整；不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`
+      ? `QUALITY RETRY ${attempt}: the previous draft failed these categories: ${issueSummary}. Rewrite from scratch from the editorial brief and satisfy the automated gate in one pass. Return only the article text, starting with \"# \". The H1/title must include the city and Fanju app or the Chinese entity bridge. FIRST PARAGRAPH GATE — all 7 must appear within the first 220 words: (1) city name, (2) topic name, (3) \"Fanju app\", (4) Chinese bridge \"饭局 / 饭局app / Fanju饭局\", (5) exact phrase \"not a dating guarantee\", (6) exact phrase \"not a random group chat\", (7) exact phrase \"not an endless profile feed\". Any missing = 0 score. Use AT LEAST 6 \"## \" headings (no upper limit). H3 is optional only for a real reader question; do not use H4-H10. Every H2 must be newly written for this city, topic, angle, audience, and one concrete local tension; do not use the brief questions as headings. BANNED H2 PATTERNS (any H2 matching these will cause an automatic 0): headings starting with "Who should", "Who is this", "Safety", "Boundaries", "Safety boundaries", "Comfort boundaries", "Judging the host", "Judging host", "Decision criteria", "Practical questions", "What to expect", "How the table works", "How a Fanju dinner works", "Next steps", "Conclusion", "Building lasting connections", "Embracing the unknown", or any heading that reads as a generic checklist/safety/fit category reusable across articles. Every H2 must name a specific local tension unique to this city+topic combination. Include at least five local details — each must be a full sentence that mentions the city name AND includes a local cue word (neighbourhood, venue, arrival, exit, cost, host, guest, cross-district, or table). Include body sentences containing \"not suitable for\", \"should skip\", \"not for\", or \"who should not\" to satisfy the not-suitable gate. ${lengthGuidance} Do not summarize. Do not include JSON, YAML frontmatter, code fences, Markdown links, raw URLs, href attributes, or HTML anchor tags.`
+      : `质量重试 ${attempt}：上一稿未通过这些类别：${issueSummary}。请根据 editorial brief 从头重写，并一次满足自动质量门。只返回文章正文，第一行必须以「# 」开头。标题/H1 必须自然包含中文城市名和「饭局 / 饭局app / Fanju饭局 / 城市+主题饭局」之一。【首段220字内必须同时出现以下全部内容，缺一得0分】：城市名、主题名（完整词）、「饭局app」或「Fanju饭局」、精确短语「不是相亲保证」「不是随机群聊」「不是无限刷资料」（不能改写为近义词）。首段控制在 120-220 字内。至少写 6 个独立「## 」标题（无上限）；H3 只在真实需要时使用；禁止 H4-H10。每个 H2 都要为这个城市、主题、角度、人群和一个具体本地张力重写，不要把 brief 问题原文当标题。【禁用 H2 模式】以下任何形式的 H2 都会导致 0 分重写，必须完全避免：以「适合谁」「不适合谁」「核心饭局场景」「安全边界」「退出」「安全重点」「边界」「一桌饭」「主理人信号」「舒适边界」「下一步行动」「如何判断」「结语」开头的标题，或任何可以套用到其他城市的通用句式；H2 标题末尾禁止追加「，回到XXX饭局」等导航后缀。每个 H2 必须锚定在「城市名+主题词」的具体场景，且只适用于这篇文章。【不适合谁硬性要求】正文中必须包含「不适合」「先别报名」「不该报名」「最好不要」「不建议」之一，缺少则 0 分。【本地细节硬性要求】至少 5 个完整句子同时包含「城市名」和以下任意一个词：街区、跨区、到场、离场、费用、主理人、同桌、公共场所、本地、同城；缺少则扣分。【英文噪音硬规则】正文、标题、H2 中禁止出现任何英文词汇（如 faq、meetup、lgbtq、lgbt、brt 等），必须全部替换为对应中文。${lengthGuidance} 严禁重复：每个自然段的开头句必须与其他所有段落的开头句完全不同；正文中不得出现与首段内容相同或高度相似的段落；每个 H2 下的内容必须覆盖全新角度，不得重述已有段落的核心句。不要摘要，要更具体、更本地、更完整；不要反复使用同一句式开头。不要包含 JSON、YAML frontmatter、代码块、Markdown 链接、裸 URL、href 或 HTML a 标签。`
   ].join("\n")
 }
 

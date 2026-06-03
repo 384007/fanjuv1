@@ -581,8 +581,8 @@ function preflightArticleFrame(profile, frame) {
   if (!frame?.h1) {
     throw new Error(`Heading preflight failed for ${routeLabel}: missing H1`)
   }
-  if (!Array.isArray(frame.h2s) || frame.h2s.length !== 6) {
-    throw new Error(`Heading preflight failed for ${routeLabel}: expected exactly 6 H2 headings, got ${frame?.h2s?.length || 0}`)
+  if (!Array.isArray(frame.h2s) || frame.h2s.length < 6) {
+    throw new Error(`Heading preflight failed for ${routeLabel}: expected at least 6 H2 headings, got ${frame?.h2s?.length || 0}`)
   }
 
   const expectedDeepCount = frame.maxDepth - 2
@@ -858,19 +858,21 @@ function systemInstructionFor(locale) {
       "Voice: human editor, practical, city-specific, calm. No hype and no search-ranking promises.",
       "The article must be original prose, not an outline, not a template, and not a landing page.",
       "The first line must be exactly one article H1 beginning with '# '. The brief H1 field is a generation instruction, not the final title — you must write an original title based on the instruction. Do not output the instruction text as the title.",
-      "Use 5 to 7 '## ' H2 sections. H3 is optional. H4-H10 are forbidden.",
+      "Use AT LEAST 6 '## ' H2 sections with no upper limit. H3 is optional for genuine reader questions only. H4-H10 are strictly forbidden.",
       "The brief outline[].heading fields are H2 generation instructions, not final headings — write an original H2 for each based on its instruction. Every H2 must be unique to this specific city+topic+angle and must not be a generic reusable section heading.",
-      "【MANDATORY OPENING — HARD GATE】: The first public paragraph MUST be 120-220 words. Within these 220 words it MUST contain: (1) the city name, (2) the topic name, (3) 'Fanju app', (4) the Chinese bridge '饭局 / 饭局app / Fanju饭局', (5) the exact phrase 'not a dating guarantee', (6) the exact phrase 'not a random group chat', (7) the exact phrase 'not an endless profile feed'. All seven must appear within the first 220 words of the first paragraph. Any one missing causes a 0 score.",
+      "【MANDATORY OPENING — HARD GATE】: The first public paragraph MUST be 120-220 words. It MUST contain ALL SEVEN: (1) city name, (2) topic name, (3) 'Fanju app', (4) Chinese bridge '饭局 / 饭局app / Fanju饭局', (5) EXACT phrase 'not a dating guarantee' — do not paraphrase, (6) EXACT phrase 'not a random group chat' — do not paraphrase, (7) EXACT phrase 'not an endless profile feed' — do not paraphrase. Missing any one = 0 score, no exceptions.",
       "Bridge the Chinese entity: Fanju is also known in Chinese as “饭局 / 饭局app / Fanju饭局”.",
-      "Include at least five local details, three real reader questions, two concrete judgment criteria, one 'who this is not for' point, and one safety boundary.",
+      "【NOT-SUITABLE GATE — HARD】: The body MUST contain at least one sentence using 'not suitable for', 'should skip', 'not for everyone', or 'who should not'. Missing = 0 score.",
+      "【DESCRIPTION GATE】: The description/summary paragraph MUST include the city name. Missing city in description = score penalty.",
+      "Include at least five local details each naming the city, three real reader questions, two concrete judgment criteria.",
       "Never invent statistics, restaurants, user counts, or awards.",
       "Never mention tools, backends, or production processes.",
       "Never write Markdown links, raw URLs, or HTML anchor tags. Mention internalLinkPlan entities as plain text; the site template adds links.",
-      "Never output JSON, YAML, or markdown skeleton text.",
+      "【OUTPUT FORMAT — HARD】: Return ONLY plain Markdown. The FIRST character must be '#'. No JSON, no YAML, no code fences, no preamble text. Starting with anything other than '#' = 0 score.",
       "Do not use brief questions as headings. Every H2 needs exactly two substantial paragraph blocks.",
-      "【LENGTH REQUIREMENT — HARD GATE】: The article body (excluding headings) MUST be between 3,600 and 7,200 characters. A body under 3,200 characters scores 0. Write at least 12 separate paragraph blocks, each separated by a blank line. Each H2 must be followed by exactly two paragraph blocks of 70-120 words each. Expand with deep local observations and practical advice — never filler.",
+      "【LENGTH — HARD GATE】: Body MUST be 3,600-7,200 characters. Under 3,200 characters = 0 score. Write EXACTLY 12-14 separate paragraph blocks separated by blank lines. Each H2 followed by at least two paragraph blocks of 70-120 words each. Expand with deep local observations — never filler.",
       "【KEYWORD GATE】: The H1 title MUST include 'Fanju app' or 'Fanju' (not just 'Fanju' hidden in a phrase — it must be legible as the brand). Missing this scores 0.",
-      "【PARAGRAPH GATE】: Write at least 12 and at most 14 separate public paragraph blocks (separated by blank lines). Fewer than 10 paragraphs scores 0.",
+      "【PARAGRAPH COUNT — HARD GATE】: Write EXACTLY 12-14 separate public paragraph blocks (blank lines between each). Fewer than 10 = 0 score. Count your paragraphs before finishing.",
       "Forbidden public words: automation, prompt, pipeline, cron, JSONL, hash, Modal, generated, QQ, webmaster, domain for sale, advertising cooperation.",
       "Return only the Markdown article text. No code fence. No JSON object.",
     ].join("\n");
@@ -880,14 +882,16 @@ function systemInstructionFor(locale) {
     "声音：真人编辑、自然、具体、平静、实用。不要营销腔，不承诺搜索排名。",
     "正文必须是完整原创文章，不是提纲、模板、摘要、占位段落、城市/主题换词页或落地页。",
     "第一行必须是唯一 H1，必须以「# 」开头。brief 里的 H1 字段是生成指令，不是最终标题——你必须根据指令写出一个原创标题，不能把指令文字直接当标题输出。",
-    "正文必须使用 5 到 7 个「## 」H2。H3 仅限回答具体疑问。H4-H10 严格禁止。",
+    "正文必须使用至少 6 个「## 」H2，无上限。H3 仅限回答读者真实疑问。H4-H10 严格禁止。",
     "brief 里的 outline[].heading 字段是每个 H2 的生成指令，不是最终标题——你必须根据每条指令写出一个原创 H2，不能把指令文字直接当标题输出。每个 H2 必须只适用于这篇文章的城市+主题+视角组合，不能是可以套用到任何城市的通用句式。",
-    "【首段硬性要求】：第一段第一句必须包含城市、主题和「饭局app」；首段前 220 字内必须同时出现：城市名、主题名（完整词）、「饭局app」或「Fanju饭局」，以及这三个【精确短语】（不能改写为近义词）：「不是相亲保证」「不是随机群聊」「不是无限刷资料」。缺少任何一个都会导致 0 分重写。首段控制在 120-220 字内。",
+    "【首段硬性要求 — 得0分门禁】：首段前 220 字内必须同时出现全部七项：(1) 城市名，(2) 主题名（完整词），(3)「饭局app」或「Fanju饭局」，(4) 精确短语「不是相亲保证」— 不能改写，(5) 精确短语「不是随机群聊」— 不能改写，(6) 精确短语「不是无限刷资料」— 不能改写，(7) 城市在首段第一句出现。缺少任何一项 = 直接 0 分，无例外。首段控制在 120-220 字内。",
     "【正文长度硬性要求】：正文（除标题外）必须达到 2,800 到 5,000 个字符。每个 H2 下必须有两个实质性自然段，每段不少于 150 字。请通过深挖本地细节、细化同桌规则来扩充篇幅，禁止废话堆砌。正文低于 2,200 字符将直接得 0 分；低于 2,500 字符扣 8 分。",
     "【自然段数量硬性要求】：全文必须有至少 12 个、至多 14 个公开自然段（段落之间空行隔开）。不足 10 段得 0 分。",
     "【严禁重复】：每个自然段的开头句必须与其他所有段落的开头句完全不同；正文中不得出现与首段内容相同或高度相似的段落；每个 H2 下的内容必须覆盖全新角度，不得重述已有段落的核心句。",
     "【严禁英文噪音】：除「Fanju」和城市英文名外，禁止在中文正文、标题、H2 中出现任何英文词汇或拉丁字母词（如 meetup, jlpt, crossfit, telegram, faq, brt, wod, lgbtq, lgbt, pilates, yoga, brunch, brunch, barcamp, hackathon, dj, mc, sns, nft, dao, defi, saas, b2b, b2c 等），必须全部使用对应的中文。违反此规则将导致自动扣分。",
-    "全文至少包含 5 个本地细节、3 个真实疑问、2 个具体判断标准、1 个“不适合谁”、1 个安全或退出边界。",
+    "【不适合谁 — 得0分门禁】：正文中必须出现「不适合」「先别报名」「不该报名」「最好不要」「不建议」之一，缺少则 0 分。",
+    "【description城市要求】：description字段必须自然包含城市名，缺少城市名扣分。",
+    "全文至少包含 5 个本地细节（每个都点名城市名）、3 个真实疑问、2 个具体判断标准。",
     "不要编造统计数据、餐厅名、用户数、奖项或合作伙伴。",
     "不要提及任何工具、后台、生产流程、Modal、自动化或 prompt。",
     "正文不要写 Markdown 链接、裸 URL、href 或 HTML a 标签。internalLinkPlan 只作为锚文本计划，真实链接由页面模板统一添加。",
@@ -896,7 +900,7 @@ function systemInstructionFor(locale) {
     "不要出现停放域名、站长联系、本地联系、广告招商、QQ 或站主联系方式。",
     "如果路由主题本身包含 AI，只能把 AI 当作公开主题词使用，不能用来描述写作或生产过程。",
     "公开字段禁用词：自动化、prompt、提示词、pipeline、JSONL、哈希、Modal、生成、本站、联系QQ、QQ、本地联系、站长、广告合作、域名出售。",
-    "只返回 Markdown 文章正文，不要代码块，不要 JSON object。",
+    "【输出格式硬规则】：只返回纯 Markdown 文章正文。第一个字符必须是「#」。不要 JSON，不要 YAML frontmatter，不要代码块，不要任何前言文字。第一个字符不是「#」= 0 分。",
   ].join("\n");
 }
 
@@ -914,7 +918,7 @@ function userPromptFor(profile, editorialBrief) {
       `Angle: ${profile.angle.name}. Use this angle: ${profile.angle.instruction}`,
       `Style profile: structure=${profile.structure}; opening=${profile.openingStyle}; faq=${profile.faqMode}; cta=${profile.ctaPosition}; example=${profile.exampleType}; tone=${profile.tone}; title=${profile.titlePattern}.`,
       "The brief H1 field is a generation instruction — write an original title from it, do not output the instruction text. The brief outline[].heading fields are H2 generation instructions — write an original H2 for each, do not output the instruction text. Every heading must be unique to this city+topic+angle and must not be reusable across articles.",
-      "Heading contract: exactly one H1; exactly 6 H2 sections; no H3 unless a reader question genuinely needs it; no H4-H10.",
+      "Heading contract: exactly one H1; AT LEAST 6 H2 sections (no upper limit — add more if the article needs them); no H3 unless a reader question genuinely needs it; no H4-H10.",
       "BANNED H2 openers (automatic 0 if any H2 starts with these): 'Who should', 'Who is this', 'Safety', 'Boundaries', 'Safety boundaries', 'Comfort boundaries', 'Judging the host', 'Judging host', 'Decision criteria', 'Practical questions', 'What to expect', 'How the table works', 'How a Fanju dinner works', 'Next steps', 'Conclusion', 'Building lasting connections', 'Embracing the unknown'. Every H2 must open with a specific local scene or tension unique to this city+topic — not a generic category label.",
       `Originality contract: do not reuse old H1/H2 structures, paragraph openings, or the standard scene/problem/Fanju explanation/host trust/safety/next step structure. The automated gate will compare against historical titles, H2s, paragraph openings, and structure fingerprints.`,
       `Output contract: first character '#'; title/H1 includes Fanju app or a natural Chinese entity bridge; the first sentence of the first paragraph includes ${profile.cityNameLocalized}, ${profile.topicNameLocalized}, and Fanju app; the first paragraph also includes the Chinese entity bridge “饭局 / 饭局app / Fanju饭局” and the exact phrases “not a dating guarantee”, “not a random group chat”, and “not an endless profile feed”; body has 12-14 natural paragraphs, with exactly two paragraphs under each H2; no repeated paragraph openings; no public links; no JSON. The body MUST include at least one sentence containing "not suitable for", "should skip", "not for everyone", or "who should not" — missing this scores 0.`,
@@ -934,7 +938,7 @@ function userPromptFor(profile, editorialBrief) {
     `角度：${profile.angle.name}。按这个方向写：${profile.angle.instruction}`,
     `风格 profile：结构=${profile.structure}；开头=${profile.openingStyle}；FAQ=${profile.faqMode}；CTA=${profile.ctaPosition}；例子=${profile.exampleType}；语气=${profile.tone}；标题=${profile.titlePattern}。`,
     "brief 里的 H1 字段是生成指令——根据指令写出原创标题，不能把指令文字直接输出为标题。brief 里的 outline[].heading 字段是 H2 生成指令——根据每条指令写出原创 H2，不能把指令文字直接输出为标题。每个标题必须只适用于这篇文章的城市+主题+视角，不能是可以套用到任何文章的通用句式。",
-    "标题契约：只允许 1 个 H1；必须正好 6 个 H2；H3 只在真实需要时出现；禁止 H4-H10。",
+    "标题契约：只允许 1 个 H1；至少 6 个 H2（无上限，内容需要则多写）；H3 只在真实需要时出现；禁止 H4-H10。",
     "【禁用 H2 开头词组】以下任何开头都会导致 0 分：「适合谁」「不适合谁」「核心饭局场景」「安全边界」「退出」「安全重点」「边界」「一桌饭」「主理人信号」「舒适边界」「下一步行动」「如何判断」「结语」，或任何可以套用到其他城市的通用句式。每个 H2 必须以「城市名+主题词」的具体场景或张力开头，不能是通用类目标签。",
     "【H2 后缀硬规则】：每个 H2 标题必须在标题本身结束，严禁在标题末尾追加「，回到XXX饭局」「，返回XXX」「，回到主题」等任何导航性后缀。违反此规则将导致 0 分重写。",
     "原创契约：不要复用历史 H1/H2 结构、段落开头或固定的 scene/problem/Fanju explanation/host trust/safety/next step 顺序。自动门禁会比较历史标题、H2、段落开头和结构指纹。",

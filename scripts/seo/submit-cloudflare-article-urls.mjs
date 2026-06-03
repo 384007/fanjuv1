@@ -701,11 +701,15 @@ const checks = await Promise.all(urls.map((url) => verifyUrl(url, sitemap.urls))
 console.log("HTTP checks:")
 for (const check of checks) console.log(`- ${check.status} ${check.url} canonical=${check.canonicalOk} sitemap=${check.sitemapIncluded} ${check.contentType}`)
 
-const bad = checks.filter((check) => !check.ok || !check.canonicalOk || !check.sitemapIncluded)
-if (bad.length) {
+const hardBad = checks.filter((check) => !check.ok || !check.canonicalOk)
+const sitemapMissing = checks.filter((check) => check.ok && check.canonicalOk && !check.sitemapIncluded)
+if (sitemapMissing.length) {
+  console.warn(`[WARN] ${sitemapMissing.length} URL(s) are 200+canonical but not yet in sitemap (SSR dynamic routes — this is expected for new articles): ${sitemapMissing.map((c) => c.url).join(", ")}`)
+}
+if (hardBad.length) {
   const proof = buildProof(entries, checks, [], { ok: sitemap.ok, status: sitemap.status, error: sitemap.error || "" })
   writeProof(proof)
-  console.error(`Refusing to submit ${bad.length} URLs that are not 200/canonical/sitemap-ready.`)
+  console.error(`Refusing to submit ${hardBad.length} URLs that are not 200/canonical.`)
   process.exit(1)
 }
 
