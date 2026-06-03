@@ -92,7 +92,7 @@ export function SiteHeader() {
         <div className="mx-auto flex h-16 max-w-[1400px] items-center justify-between px-4 md:px-8">
           <a href="/" className="flex items-center gap-3">
             <div className="relative flex h-8 w-8 items-center justify-center">
-              <img src="/favicon.svg?v=20260603" alt={copy.brandAlt} className="h-8 w-8 object-contain" />
+              <img src="/favicon.svg?v=20260603b" alt={copy.brandAlt} className="h-8 w-8 object-contain" />
             </div>
             <div className="flex flex-col leading-none">
               <span className="font-serif text-base font-medium tracking-wide text-foreground">FANJU</span>
