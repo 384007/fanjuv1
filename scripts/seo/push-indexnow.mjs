@@ -73,40 +73,41 @@ const allUrls = await collectUrls(SITEMAP_URL)
 const urls = allUrls
   .filter((url) => url.startsWith(`https://${HOST}/`))
   .filter((url, i, arr) => arr.indexOf(url) === i)
-  .slice(0, MAX_URLS)
 
 if (urls.length === 0) {
   console.error(`No URLs for https://${HOST}/ found in ${SITEMAP_URL}`)
   process.exit(1)
 }
 
-const payload = {
-  host: HOST,
-  key: INDEXNOW_KEY,
-  keyLocation: KEY_LOCATION,
-  urlList: urls,
+// Split into batches of 10000 (IndexNow API limit)
+const BATCH_SIZE = 10000
+const batches = []
+for (let i = 0; i < urls.length; i += BATCH_SIZE) {
+  batches.push(urls.slice(i, i + BATCH_SIZE))
 }
 
-console.log(`Submitting ${urls.length} URLs to IndexNow`)
+console.log(`Total URLs: ${urls.length} → ${batches.length} batch(es)`)
 console.log(`Host: ${HOST}`)
 console.log(`Key location: ${KEY_LOCATION}`)
 console.log(`Sitemap: ${SITEMAP_URL}`)
-console.log("First submitted URLs:")
-for (const url of urls.slice(0, 10)) console.log(`- ${url}`)
 
 if (DRY_RUN) {
   console.log("DRY_RUN=1: not submitting to IndexNow")
   process.exit(0)
 }
 
-const res = await fetch(INDEXNOW_ENDPOINT, {
-  method: "POST",
-  headers: { "Content-Type": "application/json; charset=utf-8" },
-  body: JSON.stringify(payload),
-})
-
-const body = await res.text()
-console.log("Status:", res.status)
-if (body) console.log(body)
-
-if (!res.ok) process.exit(1)
+for (let i = 0; i < batches.length; i++) {
+  const batch = batches[i]
+  console.log(`\nBatch ${i + 1}/${batches.length}: submitting ${batch.length} URLs`)
+  const res = await fetch(INDEXNOW_ENDPOINT, {
+    method: "POST",
+    headers: { "Content-Type": "application/json; charset=utf-8" },
+    body: JSON.stringify({ host: HOST, key: INDEXNOW_KEY, keyLocation: KEY_LOCATION, urlList: batch }),
+  })
+  const body = await res.text()
+  console.log("Status:", res.status)
+  if (body) console.log(body)
+  if (!res.ok) process.exit(1)
+  // Small delay between batches to be polite
+  if (i < batches.length - 1) await new Promise((r) => setTimeout(r, 1000))
+}
