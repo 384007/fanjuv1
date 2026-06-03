@@ -342,13 +342,23 @@ for (const op of opportunities) {
     ? op.canonicalPath.replace(/^\/en\//, "/")
     : `/en${op.canonicalPath}`
 
+  // Auto-fix title before writing frontmatter
+  let safeTitle = op.title || ""
+  safeTitle = safeTitle.replace(/\s*\|[^|]{0,30}(fanju[-\s]?app|饭局app|Fanju)[^|]*(\|.*)?$/i, "").trim()
+  safeTitle = safeTitle.replace(/\s*\|\s*$/, "").trim()
+  if (safeTitle.length > 70) {
+    const cut = safeTitle.slice(0, 67)
+    const last = Math.max(cut.lastIndexOf(" "), cut.lastIndexOf("，"), cut.lastIndexOf("："))
+    safeTitle = (last > 40 ? safeTitle.slice(0, last) : cut) + "..."
+  }
+
   const frontmatter = `---
 slug: "${safeYaml(op.slug)}"
 canonicalPath: "${safeYaml(op.canonicalPath)}"
 alternatePath: "${safeYaml(alternatePath)}"
 translationKey: "${safeYaml(translationKey)}"
 lang: "${lang}"
-title: "${safeYaml(op.title)}"
+title: "${safeYaml(safeTitle)}"
 titleZh: "${safeYaml(op.titleZh)}"
 pageType: "${safeYaml(op.pageType)}"
 priorityScore: ${op.priorityScore}

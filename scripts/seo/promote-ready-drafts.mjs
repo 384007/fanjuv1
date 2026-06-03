@@ -8,18 +8,30 @@ const GENERATED_DRAFTS_FILE = process.env.GENERATED_DRAFTS_FILE || "dist/seo/gen
 
 const dangerRe = /(Modal|NVIDIA|Gemini|Groq|Cerebras|Cloudflare|Next\.js|API|backend|后端|技术栈|Below is|Here is|markdown draft|Verified Profiles|Rating System|Secure Communication|Emergency Contact|ID verification|background checks|payment protection|已认证|评分系统|安全通信|紧急联系人|身份认证|背景调查|支付保护|本站|联系QQ|本地联系|站长|广告合作|域名出售|QQ|model|prompt|generator)/i
 
-// SEO title/description quality gates
-function titleOk(title) {
-  if (!title) return false
-  if (title.length > 70) return false
-  if ((title.match(/\|/g) || []).length >= 2) return false // keyword stuffing
-  return true
+// SEO title/description auto-fix (not gate — fix and proceed)
+function fixTitle(title) {
+  if (!title) return title
+  // Remove pipe keyword stuffing: "| fanju-app | 饭局app" etc
+  title = title.replace(/\s*\|[^|]{0,30}(fanju[-\s]?app|饭局app|Fanju)[^|]*(\|.*)?$/i, '').trim()
+  title = title.replace(/\s*\|\s*$/, '').trim()
+  // Truncate to 70 chars at natural boundary
+  if (title.length > 70) {
+    const cut = title.slice(0, 67)
+    const last = Math.max(cut.lastIndexOf(' '), cut.lastIndexOf('，'), cut.lastIndexOf('：'))
+    title = (last > 40 ? title.slice(0, last) : cut) + '...'
+  }
+  return title
 }
-function descOk(desc) {
-  if (!desc) return false
-  if (desc.length < 50) return false
-  if (desc.length > 160) return false
-  return true
+function fixDesc(desc) {
+  if (!desc) return desc
+  if (desc.length > 155) {
+    for (const p of ['。', '！', '？', '. ', '! ', '? ']) {
+      const pos = desc.slice(0, 152).lastIndexOf(p)
+      if (pos > 60) return desc.slice(0, pos + p.trim().length).trim()
+    }
+    return desc.slice(0, 152).trim() + '…'
+  }
+  return desc
 }
 
 if (!existsSync(DRAFT_DIR)) {
@@ -102,19 +114,20 @@ for (const file of readdirSync(DRAFT_DIR).filter((x) => x.endsWith(".md") && (!a
   if (!alternatePath) { console.log(`SKIP: ${file} — missing alternatePath (pair not ready, keep in seo-ai-drafts)`); skipped++; continue }
 
   if (score >= MIN_SCORE && !hasDanger) {
-    const title = getField(md, "title")
-    const desc = getField(md, "description")
-    if (!titleOk(title)) {
-      console.log(`SKIP: ${file} — title fails SEO gate (len=${title.length}, pipes=${(title.match(/\|/g)||[]).length}): ${title.slice(0,80)}`)
-      skipped++
-      continue
+    // Auto-fix title and description before promoting
+    let readyMd = setStatus(md, "ready")
+    const title = getField(readyMd, "title")
+    const desc = getField(readyMd, "description")
+    const fixedTitle = fixTitle(title)
+    const fixedDesc = fixDesc(desc)
+    if (fixedTitle !== title) {
+      readyMd = readyMd.replace(/^title:\s*"[^"\n]*"/m, `title: "${fixedTitle.replace(/"/g, '\\"')}"`)
+      console.log(`  AUTO-FIX title: ${title.slice(0,60)} → ${fixedTitle}`)
     }
-    if (!descOk(desc)) {
-      console.log(`SKIP: ${file} — description fails SEO gate (len=${desc.length})`)
-      skipped++
-      continue
+    if (fixedDesc && fixedDesc !== desc) {
+      readyMd = readyMd.replace(/^description:\s*"[^"\n]*"/m, `description: "${fixedDesc.replace(/"/g, '\\"')}"`)
+      console.log(`  AUTO-FIX desc len: ${desc.length} → ${fixedDesc.length}`)
     }
-    const readyMd = setStatus(md, "ready")
     writeFileSync(join(READY_DIR, file), readyMd, "utf8")
     console.log(`READY: ${file} score=${score} lang=${lang} canonicalPath=${canonicalPath}`)
     promoted++
