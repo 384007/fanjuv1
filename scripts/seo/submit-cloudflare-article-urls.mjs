@@ -133,8 +133,8 @@ function d1QueryWithWrangler(sql, params = []) {
 
   const output = execFileSync(
     "wrangler",
-    ["d1", "execute", "fanju-seo-prod", "--remote", "--command", sql],
-    { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] },
+    ["d1", "execute", "fanju-seo-prod", "--remote", "--command", sql, "--json"],
+    { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"], env: { ...process.env, NO_COLOR: "1", FORCE_COLOR: "0" } },
   )
   const start = output.indexOf("[")
   const end = output.lastIndexOf("]")
