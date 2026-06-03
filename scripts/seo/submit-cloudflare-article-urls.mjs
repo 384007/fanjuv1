@@ -15,7 +15,7 @@ const CLOUDFLARE_API_TOKEN = cleanToken(process.env.CLOUDFLARE_API_TOKEN || proc
 const CLOUDFLARE_D1_DATABASE_ID = clean(process.env.CLOUDFLARE_D1_DATABASE_ID || "58d63133-adeb-4efd-b9eb-a9b056271ca5")
 const LIMIT = Math.max(1, Number.parseInt(process.env.URL_LIMIT || "20", 10))
 const DRY_RUN = process.env.DRY_RUN === "1"
-const REQUESTED_URLS = parseRequestedUrls(process.env.URLS || process.env.SUBMIT_URLS || \"\")
+const REQUESTED_URLS = parseRequestedUrls(process.env.URLS || process.env.SUBMIT_URLS || "")
 const RUN_ID = clean(process.env.RUN_ID || new Date().toISOString().replace(/[:.]/g, "-"))
 const PROOF_FILE = join(ROOT, process.env.PROOF_FILE || `data/seo/external-publish-proof-${RUN_ID}.json`)
 
@@ -70,6 +70,7 @@ function titleFromSlug(slug = "") {
     .join(" ")
     .replace(/-/g, " ")
     .replace(/\b\w/g, (ch) => ch.toUpperCase())
+}
 function normalizePath(path = "") {
   let value = String(path || "").trim()
   if (!value) return ""
@@ -191,9 +192,6 @@ async function fetchRequestedEntries() {
   return entries
 }
 
-async function verifyUrl(url) {
-  const res = await fetch(url, { method: "HEAD", redirect: "follow" })
-  return { url, status: res.status, ok: res.ok, contentType: res.headers.get("content-type") || "" }
 async function loadSitemapUrls() {
   const sitemapUrl = `${SITE_ROOT}/sitemap.xml`
   try {
@@ -711,8 +709,19 @@ if (bad.length) {
   process.exit(1)
 }
 
+async function pingGoogleSitemap() {
+  const sitemaps = [`${SITE_ROOT}/sitemap-index.xml`, `${SITE_ROOT}/sitemap.xml`]
+  if (DRY_RUN) return { platform: "Google", dryRun: true, sitemaps }
+  const results = await Promise.all(sitemaps.map(async (sm) => {
+    const res = await fetch(`https://www.google.com/ping?sitemap=${encodeURIComponent(sm)}`, { method: "GET", redirect: "follow" })
+    return { sitemap: sm, status: res.status, ok: res.ok }
+  }))
+  return { platform: "Google", ok: results.every((r) => r.ok), results }
+}
+
 const results = (await Promise.all([
   runPlatform("indexnow", () => submitIndexNow(urls)),
+  runPlatform("google", () => pingGoogleSitemap()),
   runPlatform("baidu", () => submitBaidu(urls)),
   runPlatform("gist", () => publishGist(entries)),
   runPlatform("devto", () => publishDevto(entries)),
@@ -727,3 +736,4 @@ const proof = buildProof(entries, checks, results, { ok: sitemap.ok, status: sit
 writeProof(proof)
 
 if (process.env.STRICT_PUBLISH === "1" && results.some((result) => result.ok === false && !result.nonFatal)) process.exit(1)
+

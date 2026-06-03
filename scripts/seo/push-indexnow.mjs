@@ -5,7 +5,7 @@ const INDEXNOW_KEY = clean(process.env.INDEXNOW_KEY || DEFAULT_INDEXNOW_KEY)
 const HOST = clean(process.env.HOST || process.env.INDEXNOW_HOST || "fanju.app").replace(/^https?:\/\//, "").replace(/\/$/, "")
 const KEY_LOCATION =
   clean(process.env.KEY_LOCATION || process.env.INDEXNOW_KEY_LOCATION) || `https://${HOST}/${INDEXNOW_KEY}.txt`
-const SITEMAP_URL = clean(process.env.SITEMAP_URL) || `https://${HOST}/sitemap.xml`
+const SITEMAP_URL = clean(process.env.SITEMAP_URL) || `https://${HOST}/sitemap-index.xml`
 const MAX_URLS = Number.parseInt(process.env.MAX_URLS || process.env.INDEXNOW_MAX_URLS || "10000", 10)
 const DRY_RUN = process.env.DRY_RUN === "1"
 
@@ -31,7 +31,7 @@ async function fetchSitemapXml(sitemapUrl) {
   if (DRY_RUN) {
     try {
       const url = new URL(sitemapUrl)
-      const localPath = url.pathname === "/sitemap.xml" ? "../../public/sitemap.xml" : `../../public${url.pathname}`
+      const localPath = `../../public${url.pathname}`
       const { existsSync, readFileSync } = await import("fs")
       const localUrl = new URL(localPath, import.meta.url)
       if (existsSync(localUrl)) return readFileSync(localUrl, "utf8")
@@ -53,9 +53,26 @@ async function fetchSitemapXml(sitemapUrl) {
   return res.text()
 }
 
-const xml = await fetchSitemapXml(SITEMAP_URL)
-const urls = extractLocUrls(xml)
+function isSitemapIndex(xml) {
+  return /<sitemapindex[\s>]/i.test(xml)
+}
+
+async function collectUrls(sitemapUrl, seen = new Set()) {
+  if (seen.has(sitemapUrl)) return []
+  seen.add(sitemapUrl)
+  const xml = await fetchSitemapXml(sitemapUrl)
+  const locs = extractLocUrls(xml)
+  if (isSitemapIndex(xml)) {
+    const nested = await Promise.all(locs.map((loc) => collectUrls(loc, seen)))
+    return nested.flat()
+  }
+  return locs
+}
+
+const allUrls = await collectUrls(SITEMAP_URL)
+const urls = allUrls
   .filter((url) => url.startsWith(`https://${HOST}/`))
+  .filter((url, i, arr) => arr.indexOf(url) === i)
   .slice(0, MAX_URLS)
 
 if (urls.length === 0) {

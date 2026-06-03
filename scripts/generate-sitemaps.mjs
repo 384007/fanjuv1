@@ -12,11 +12,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, "..")
 const PUBLIC = join(ROOT, "public")
 const SITE = "https://fanju.app"
-// Use a fixed default lastmod instead of today's date to avoid
-// telling Google every URL was "updated" on every build.
-// Update this date only when content actually changes.
-const DEFAULT_LASTMOD = "2026-05-11"
-const TODAY = DEFAULT_LASTMOD
+// Use today's date so Google/Bing knows the sitemap was freshly updated.
+const TODAY = new Date().toISOString().slice(0, 10)
 
 // ─── Data (mirrors lib/seo-data.ts) ──────────────────────────────────────────
 // We duplicate slugs here so the script has zero TS/Next.js dependencies.

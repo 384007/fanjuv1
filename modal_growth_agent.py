@@ -820,6 +820,14 @@ def run_cloudflare_publish_pipeline(
         run_seo_ready_files_check(latest_entries, f"round-{round_no}-before-git-push")
         commit_sha = git_commit_and_push(routes, run_id, round_no)
 
+        # Submit new article URLs to indexing + external link platforms
+        routes_csv = ",".join(routes)
+        run(
+            f"URLS={shlex.quote(routes_csv)} URL_LIMIT={safe_run_limit} PLATFORMS={shlex.quote(safe_platforms)} STRICT_PUBLISH=1 pnpm seo:cloudflare:submit",
+            cwd=WORKDIR,
+            timeout=600,
+        )
+
         round_summary = {
             "round": round_no,
             "seed": round_seed,
@@ -830,7 +838,7 @@ def run_cloudflare_publish_pipeline(
             "latest": latest_entries,
             "routes": routes,
             "commitSha": commit_sha,
-            "siteAndExternalSubmit": "deferred-until-live",
+            "siteAndExternalSubmit": "submitted",
         }
         round_summaries.append(round_summary)
         print(f"PRODUCTION_ROUND_OK {round_no}/{safe_rounds} routes={','.join(routes)}", flush=True)
