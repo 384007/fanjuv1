@@ -158,11 +158,20 @@ const BANNED_PHRASES_FOR_BODY = [
   /致力于通过真实的小桌社交，帮你建立高质量的同城弱关系网络，拒绝虚假热闹/,
 ]
 
+const TECH_TOPIC_SLUGS = ["devops", "software-engineer", "ai-engineer", "electronics-hobbyist", "diy-maker", "developer", "programmer", "coder", "mechanical-engineer", "electrical-engineer", "civil-engineer"]
+
+function isTechTopic(topicSlug = "") {
+  return TECH_TOPIC_SLUGS.some((t) => topicSlug.includes(t))
+}
+
 function detectLeaks(text, prompt = {}) {
   if (!text) return []
+  const slug = String(prompt.topicSlug || "")
   const hits = []
   for (const pattern of BANNED_PHRASES_FOR_BODY) {
-    if (String(prompt.topicSlug || "").includes("devops") && String(pattern) === "/自动化(脚本|部署|流水线|发布|生成)/") continue
+    if (slug.includes("devops") && String(pattern) === "/自动化(脚本|部署|流水线|发布|生成)/") continue
+    // 技术栈 is a legitimate public term when the article topic is tech/engineering
+    if (isTechTopic(slug) && String(pattern) === "/技术栈/") continue
     if (pattern.test(text)) hits.push(String(pattern))
   }
   return hits
