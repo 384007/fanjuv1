@@ -4,7 +4,7 @@ canonicalPath: "/en/city/san-francisco/equestrian-dinner"
 alternatePath: "/city/san-francisco/equestrian-dinner"
 translationKey: "san-francisco-equestrian-dinner"
 lang: "en"
-title: "A calmer way to approach Equestrian Dinner in San Francisco..."
+title: "A calmer way to approach Equestrian Dinner in San Francisco... | Fanju app"
 description: "That moment when you’re about to confirm your seat—when you pause and wonder who else will be there—is the make-or-break point for any small dinner in t…"
 pageType: "city_article"
 priorityScore: 70

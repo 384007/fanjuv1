@@ -4,7 +4,7 @@ canonicalPath: "/en/city/johannesburg/cross-border-ecommerce-dinner"
 alternatePath: "/city/johannesburg/cross-border-ecommerce-dinner"
 translationKey: "johannesburg-cross-border-ecommerce-dinner"
 lang: "en"
-title: "Before joining Cross Border Ecommerce Dinner in Johannesburg, what..."
+title: "Before joining Cross Border Ecommerce Dinner in Johannesburg, what... | Fanju app"
 description: "In Johannesburg, traffic and travel times between suburbs like Sandton and Rosebank often dictate the rhythm of an evening."
 pageType: "city_article"
 priorityScore: 70

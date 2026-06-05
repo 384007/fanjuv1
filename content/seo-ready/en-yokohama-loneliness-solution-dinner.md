@@ -4,7 +4,7 @@ canonicalPath: "/en/city/yokohama/loneliness-solution-dinner"
 alternatePath: "/city/yokohama/loneliness-solution-dinner"
 translationKey: "yokohama-loneliness-solution-dinner"
 lang: "en"
-title: "When Yokohama’s Waterfront Neighbourhood Hides the Right..."
+title: "When Yokohama’s Waterfront Neighbourhood Hides the Right... | Fanju app"
 description: "The core decision for a newcomer is whether the table feels like a safe first step into Yokohama’s social fabric."
 pageType: "city_article"
 priorityScore: 70

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/madrid/food-tech-dinner"
 alternatePath: "/city/madrid/food-tech-dinner"
 translationKey: "madrid-food-tech-dinner"
 lang: "en"
-title: "Evening choices in Madrid: a Food Tech Dinner you can trust with..."
+title: "Evening choices in Madrid: a Food Tech Dinner you can trust with... | Fanju app"
 description: "A core decision for any Madrid reader is whether the dinner aligns with the desire for a calm, focused conversation rather than a noisy bar‑room buzz."
 pageType: "city_article"
 priorityScore: 70

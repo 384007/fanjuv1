@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/lahore/local-food-dinner"
 alternatePath: "/city/lahore/local-food-dinner"
-title: "Lahore Local Food Dinner Guide"
+title: "Lahore Local Food Dinner Guide | Fanju app"
 description: "Discover the authentic flavors of Lahore with Fanju app, a social dining app that connects you with like-minded individuals for small, structured meals…"
 recoveredFromD1: true
 ---

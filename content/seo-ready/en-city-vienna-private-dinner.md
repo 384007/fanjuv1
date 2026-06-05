@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/vienna/private-dinner"
 alternatePath: "/city/vienna/private-dinner"
-title: "Vienna Private Dinner Guide"
+title: "Vienna Private Dinner Guide | Fanju app"
 description: "Discover the authentic side of Vienna with Fanju app, a social dining app that connects like-minded individuals for small, clearly described meals and r…"
 recoveredFromD1: true
 ---

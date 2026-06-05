@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dar-es-salaam/korean-learner-dinner"
 alternatePath: "/city/dar-es-salaam/korean-learner-dinner"
 translationKey: "dar-es-salaam-korean-learner-dinner"
 lang: "en"
-title: "Before joining Korean Learner Dinner in Dar es Salaam, what Fanju..."
+title: "Before joining Korean Learner Dinner in Dar es Salaam, what Fanju... | Fanju app"
 description: "This table fits a Dar es Salaam resident who wants a quiet environment to practice Korean phrases without the pressure of a classroom setting."
 pageType: "city_article"
 priorityScore: 70

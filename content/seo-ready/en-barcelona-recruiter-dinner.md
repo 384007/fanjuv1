@@ -4,7 +4,7 @@ canonicalPath: "/en/city/barcelona/recruiter-dinner"
 alternatePath: "/city/barcelona/recruiter-dinner"
 translationKey: "barcelona-recruiter-dinner"
 lang: "en"
-title: "When Recruiter Dinner in Barcelona needs more than a group chat,..."
+title: "When Recruiter Dinner in Barcelona needs more than a group chat,... | Fanju app"
 description: "This platform aims to cut through the noise of broader social networking, focusing instead on curated, real-world meetups."
 pageType: "city_article"
 priorityScore: 70

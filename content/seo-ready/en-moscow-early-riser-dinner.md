@@ -4,7 +4,7 @@ canonicalPath: "/en/city/moscow/early-riser-dinner"
 alternatePath: "/city/moscow/early-riser-dinner"
 translationKey: "moscow-early-riser-dinner"
 lang: "en"
-title: "Moscow's Weekend Evening Gap: Finding Your Early Riser Dinner..."
+title: "Moscow's Weekend Evening Gap: Finding Your Early Riser Dinner... | Fanju app"
 description: "The end of the workday in Moscow often presents a choice: head straight home to an empty apartment or brave the city's vibrant, sometimes overwhelming,…"
 pageType: "city_article"
 priorityScore: 70

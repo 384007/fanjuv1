@@ -4,7 +4,7 @@ canonicalPath: "/en/city/berlin/city-community-dinner"
 alternatePath: "/city/berlin/city-community-dinner"
 translationKey: "berlin-city-community-dinner"
 lang: "en"
-title: "The City Community Dinner table Berlin actually needs is the one..."
+title: "The City Community Dinner table Berlin actually needs is the one... | Fanju app"
 description: "In Berlin, where dinner meetups often blur into networking or awkward group chats, the Fanju app offers a different kind of promise: a table built on cl…"
 pageType: "city_article"
 priorityScore: 70

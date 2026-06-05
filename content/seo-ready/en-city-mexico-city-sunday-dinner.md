@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/mexico-city/sunday-dinner"
 alternatePath: "/city/mexico-city/sunday-dinner"
-title: "Mexico City Sunday Dinner Guide"
+title: "Mexico City Sunday Dinner Guide | Fanju app"
 description: "Discover the art of hosting a Sunday dinner in Mexico City with the help of Fanju app, a social dining app for small, clearly described meals and real-w…"
 recoveredFromD1: true
 ---

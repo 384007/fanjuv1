@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/ahmedabad/friendship-dinner"
 alternatePath: "/city/ahmedabad/friendship-dinner"
-title: "Ahmedabad Friendship Dinner Guide"
+title: "Ahmedabad Friendship Dinner Guide | Fanju app"
 description: "A guide to hosting and attending a Friendship Dinner in Ahmedabad, using the Fanju app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

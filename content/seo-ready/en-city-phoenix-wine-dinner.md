@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/phoenix/wine-dinner"
 alternatePath: "/city/phoenix/wine-dinner"
-title: "Phoenix Wine Dinner Guide"
+title: "Phoenix Wine Dinner Guide | Fanju app"
 description: "Discover the authentic taste of Phoenix with Fanju app, a social dining app that connects you with like-minded individuals for a unique wine dinner expe…"
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/bangkok/brunch-dinner"
 alternatePath: "/city/bangkok/brunch-dinner"
-title: "Bangkok Brunch Social Guide"
+title: "Bangkok Brunch Social Guide | Fanju app"
 description: "Discover the authentic Bangkok Brunch Social experience with Fanju app, a social dining platform that fosters meaningful connections over delicious meal…"
 recoveredFromD1: true
 ---

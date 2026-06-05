@@ -4,7 +4,7 @@ canonicalPath: "/en/city/istanbul/intercultural-dinner"
 alternatePath: "/city/istanbul/intercultural-dinner"
 translationKey: "istanbul-intercultural-dinner"
 lang: "en"
-title: "Intercultural Dinner in Istanbul should not feel like a gamble;..."
+title: "Intercultural Dinner in Istanbul should not feel like a gamble;... | Fanju app"
 description: "In Istanbul, where social layers run deep and unspoken codes shape interactions, showing up to a dinner without context can feel like stepping into some…"
 pageType: "city_article"
 priorityScore: 70

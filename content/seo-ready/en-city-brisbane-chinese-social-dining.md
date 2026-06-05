@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/brisbane/chinese-social-dining"
 alternatePath: "/city/brisbane/chinese-social-dining"
-title: "Brisbane Chinese Social Dining Guide"
+title: "Brisbane Chinese Social Dining Guide | Fanju app"
 description: "Discover the best of Brisbane's Chinese social dining scene with Fanju app, a platform that connects you with like-minded individuals for small, meaning…"
 recoveredFromD1: true
 ---

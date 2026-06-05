@@ -4,7 +4,7 @@ canonicalPath: "/en/city/karachi/high-quality-social-dining"
 alternatePath: "/city/karachi/high-quality-social-dining"
 translationKey: "karachi-high-quality-social-dining"
 lang: "en"
-title: "Why High Quality Social Dining in Karachi works better when Fanju..."
+title: "Why High Quality Social Dining in Karachi works better when Fanju... | Fanju app"
 description: "High quality social dining in Karachi thrives not because of big group energy, but because of restraint."
 pageType: "city_article"
 priorityScore: 70

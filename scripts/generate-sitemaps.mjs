@@ -146,6 +146,23 @@ const staticPages = [
   ["/en/features",     "weekly",  "0.82"],
 ]
 
+// Build set of city/category paths that have actual article content (canonical or alternate)
+const _coveredCityPaths = new Set()
+for (const dir of [_READY_DIR_CITIES, join(ROOT, "content/seo-remediated")]) {
+  if (!existsSync(dir)) continue
+  for (const f of readdirSync(dir)) {
+    if (!f.endsWith(".md")) continue
+    const raw = readFileSync(join(dir, f), "utf8")
+    const statusMatch = raw.match(/^status:\s*"?([^"\n]+)"?/m)
+    if (!statusMatch || statusMatch[1].trim() !== "ready") continue
+    for (const key of ["canonicalPath", "alternatePath"]) {
+      const m = raw.match(new RegExp(`^${key}:\\s*"?([^"\\n]+)"?`, "m"))
+      if (m) _coveredCityPaths.add(m[1].trim())
+    }
+  }
+}
+function hasCityCategoryArticle(path) { return _coveredCityPaths.has(path) }
+
 const seoUrls = [
   ...staticPages.map(([path, freq, pri]) => url(`${SITE}${path}`, freq, pri)),
 
@@ -153,15 +170,19 @@ const seoUrls = [
   ...cities.map((c) => url(`${SITE}/city/${c}`, "weekly", "0.85")),
   // /category/{category}
   ...categories.map((c) => url(`${SITE}/category/${c}`, "weekly", "0.85")),
-  // /city/{city}/{category}
-  ...cities.flatMap((c) => categories.map((cat) => url(`${SITE}/city/${c}/${cat}`, "monthly", "0.70"))),
+  // /city/{city}/{category} — only include paths that have actual article content
+  ...cities.flatMap((c) => categories
+    .filter((cat) => hasCityCategoryArticle(`/city/${c}/${cat}`) || hasCityCategoryArticle(`/en/city/${c}/${cat}`))
+    .map((cat) => url(`${SITE}/city/${c}/${cat}`, "monthly", "0.70"))),
 
   // /en/city/{city}
   ...cities.map((c) => url(`${SITE}/en/city/${c}`, "weekly", "0.82")),
   // /en/category/{category}
   ...categories.map((c) => url(`${SITE}/en/category/${c}`, "weekly", "0.82")),
-  // /en/city/{city}/{category}
-  ...cities.flatMap((c) => categories.map((cat) => url(`${SITE}/en/city/${c}/${cat}`, "monthly", "0.68"))),
+  // /en/city/{city}/{category} — only include paths that have actual article content
+  ...cities.flatMap((c) => categories
+    .filter((cat) => hasCityCategoryArticle(`/en/city/${c}/${cat}`) || hasCityCategoryArticle(`/city/${c}/${cat}`))
+    .map((cat) => url(`${SITE}/en/city/${c}/${cat}`, "monthly", "0.68"))),
 
   // /q/{question}
   ...questions.map((q) => url(`${SITE}/q/${q}`, "monthly", "0.80")),

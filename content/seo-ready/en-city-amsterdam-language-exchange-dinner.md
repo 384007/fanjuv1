@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/amsterdam/language-exchange-dinner"
 alternatePath: "/city/amsterdam/language-exchange-dinner"
-title: "Amsterdam Language Exchange Dinner Guide"
+title: "Amsterdam Language Exchange Dinner Guide | Fanju app"
 description: "Connect with fellow remote workers and locals through Fanju app's social dining experience, where you can enjoy small, home-cooked meals and build real-…"
 recoveredFromD1: true
 ---

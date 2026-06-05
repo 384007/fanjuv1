@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dallas/plant-lover-dinner"
 alternatePath: "/city/dallas/plant-lover-dinner"
 translationKey: "dallas-plant-lover-dinner"
 lang: "en"
-title: "When Plant Lover Dinner in Dallas needs more than a group chat,..."
+title: "When Plant Lover Dinner in Dallas needs more than a group chat,... | Fanju app"
 description: "In a city as spread out as Dallas, the rhythm of a dinner often depends on how far people have traveled to get there."
 pageType: "city_article"
 priorityScore: 70

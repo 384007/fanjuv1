@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/montreal/new-friends-dinner"
 alternatePath: "/city/montreal/new-friends-dinner"
-title: "Montreal New Friends Dinner Guide"
+title: "Montreal New Friends Dinner Guide | Fanju app"
 description: "Discover the art of small, considered, private dining with Fanju app, a social dining app that fosters real-world connections and meaningful meals."
 recoveredFromD1: true
 ---

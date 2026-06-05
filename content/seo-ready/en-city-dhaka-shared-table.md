@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/dhaka/shared-table"
 alternatePath: "/city/dhaka/shared-table"
-title: "Dhaka Shared Table Guide: Connecting Over Food"
+title: "Dhaka Shared Table Guide: Connecting Over Food | Fanju app"
 description: "Discover the joy of shared dining in Dhaka with the Fanju app. Fanju is a social dining app designed for small, intimate gatherings focused on genuine c…"
 recoveredFromD1: true
 ---

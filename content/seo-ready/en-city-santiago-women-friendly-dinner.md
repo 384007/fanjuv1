@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/santiago/women-friendly-dinner"
 alternatePath: "/city/santiago/women-friendly-dinner"
-title: "Santiago Women Friendly Dinner Guide"
+title: "Santiago Women Friendly Dinner Guide | Fanju app"
 description: "Discover the best women-friendly dinner experiences in Santiago with Fanju app, a social dining app that connects professionals and entrepreneurs for sm…"
 recoveredFromD1: true
 ---

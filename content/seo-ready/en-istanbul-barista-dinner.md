@@ -4,7 +4,7 @@ canonicalPath: "/en/city/istanbul/barista-dinner"
 alternatePath: "/city/istanbul/barista-dinner"
 translationKey: "istanbul-barista-dinner"
 lang: "en"
-title: "Barista Dinner in Istanbul should not feel like a gamble; Fanju..."
+title: "Barista Dinner in Istanbul should not feel like a gamble; Fanju... | Fanju app"
 description: "Barista Dinner in Istanbul doesn’t have to be a roll of the dice. With the Fanju app, deciding to attend becomes less about guessing who’s coming and mo…"
 pageType: "city_article"
 priorityScore: 70

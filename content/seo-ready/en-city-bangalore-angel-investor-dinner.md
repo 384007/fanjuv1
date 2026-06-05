@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/bangalore/angel-investor-dinner"
 alternatePath: "/city/bangalore/angel-investor-dinner"
-title: "Bangalore Angel Investor Dinner Guide"
+title: "Bangalore Angel Investor Dinner Guide | Fanju app"
 description: "Discover the curated world of social dining with Fanju app, where meaningful connections and exquisite meals come together in the heart of Bangalore."
 recoveredFromD1: true
 ---

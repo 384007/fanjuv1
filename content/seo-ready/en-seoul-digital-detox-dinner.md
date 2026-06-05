@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seoul/digital-detox-dinner"
 alternatePath: "/city/seoul/digital-detox-dinner"
 translationKey: "seoul-digital-detox-dinner"
 lang: "en"
-title: "When Digital Detox Dinner in Seoul needs more than a group chat,..."
+title: "When Digital Detox Dinner in Seoul needs more than a group chat,... | Fanju app"
 description: "When you finish work and want to disconnect, the last thing you need is a vague description of where you are going."
 pageType: "city_article"
 priorityScore: 70

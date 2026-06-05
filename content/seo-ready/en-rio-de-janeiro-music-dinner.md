@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/rio-de-janeiro/music-dinner"
 alternatePath: "/city/rio-de-janeiro/music-dinner"
-title: "A calmer way to approach Music Dinner in Rio de Janeiro through..."
+title: "A calmer way to approach Music Dinner in Rio de Janeiro through... | Fanju app"
 description: "The Fanju app offers a space for small-group dinners in Rio de Janeiro where conversation matters more than volume, and connection forms without perform…"
 recoveredFromD1: true
 ---

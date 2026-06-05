@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/hyderabad/local-community-dinner"
 alternatePath: "/city/hyderabad/local-community-dinner"
-title: "Hyderabad Local Community Dinner Guide"
+title: "Hyderabad Local Community Dinner Guide | Fanju app"
 description: "Discover the authentic taste of Hyderabad through Fanju app, a social dining app that connects you with like-minded individuals for small, home-cooked m…"
 recoveredFromD1: true
 ---

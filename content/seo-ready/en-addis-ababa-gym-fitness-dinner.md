@@ -4,7 +4,7 @@ canonicalPath: "/en/city/addis-ababa/gym-fitness-dinner"
 alternatePath: "/city/addis-ababa/gym-fitness-dinner"
 translationKey: "addis-ababa-gym-fitness-dinner"
 lang: "en"
-title: "After‑Work Muscles Meet Meals: An Addis Ababa Gym Fitness Dinner..."
+title: "After‑Work Muscles Meet Meals: An Addis Ababa Gym Fitness Dinner... | Fanju app"
 description: "Many readers worry about vague listings that hide cost or venue details, which can turn an appealing idea into an unwanted commitment."
 pageType: "city_article"
 priorityScore: 70

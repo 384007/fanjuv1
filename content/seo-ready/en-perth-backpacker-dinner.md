@@ -4,7 +4,7 @@ canonicalPath: "/en/city/perth/backpacker-dinner"
 alternatePath: "/city/perth/backpacker-dinner"
 translationKey: "perth-backpacker-dinner"
 lang: "en"
-title: "When Backpacker Dinner in Perth needs more than a group chat,..."
+title: "When Backpacker Dinner in Perth needs more than a group chat,... | Fanju app"
 description: "The app bridges the gap between online discovery and real-world interaction, and for a topic like \"Backpacker Dinner\" in Perth, it means finding a gathering that feels intentional. This can be particularly appealing"
 pageType: "city_article"
 priorityScore: 70

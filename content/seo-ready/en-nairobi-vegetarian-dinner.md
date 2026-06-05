@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nairobi/vegetarian-dinner"
 alternatePath: "/city/nairobi/vegetarian-dinner"
 translationKey: "nairobi-vegetarian-dinner"
 lang: "en"
-title: "Vegetarian Dinner in Nairobi should not feel like a gamble; Fanju..."
+title: "Vegetarian Dinner in Nairobi should not feel like a gamble; Fanju... | Fanju app"
 description: "A solo evening in Nairobi can turn on a single decision—what to do for dinner. For a visitor unfamiliar with the city, wandering into a restaurant alone…"
 pageType: "city_article"
 priorityScore: 70

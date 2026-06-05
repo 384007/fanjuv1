@@ -4,7 +4,7 @@ canonicalPath: "/en/city/cape-town/urban-planner-dinner"
 alternatePath: "/city/cape-town/urban-planner-dinner"
 translationKey: "cape-town-urban-planner-dinner"
 lang: "en"
-title: "Cape Town Urban Planner Dinner feels like a fresh reset with the..."
+title: "Cape Town Urban Planner Dinner feels like a fresh reset with the... | Fanju app"
 description: "The moment you stand on the promenade, the scent of sea‑salt mixes with the curiosity about the table ahead."
 pageType: "city_article"
 priorityScore: 70

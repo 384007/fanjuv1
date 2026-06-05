@@ -4,7 +4,7 @@ canonicalPath: "/en/city/milan/open-table-dinner"
 alternatePath: "/city/milan/open-table-dinner"
 translationKey: "milan-open-table-dinner"
 lang: "en"
-title: "When Milan’s Remote Workers Need a Weekend Open Table Dinner, the..."
+title: "When Milan’s Remote Workers Need a Weekend Open Table Dinner, the... | Fanju app"
 description: "In Milan’s bustling office‑free culture, the decision to join an Open Table Dinner hinges on whether the gathering feels pre‑planned enough to justify l…"
 pageType: "city_article"
 priorityScore: 70

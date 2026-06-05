@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ho-chi-minh-city/philosophy-dinner"
 alternatePath: "/city/ho-chi-minh-city/philosophy-dinner"
 translationKey: "ho-chi-minh-city-philosophy-dinner"
 lang: "en"
-title: "The Philosophy Dinner table Ho Chi Minh City actually needs is the..."
+title: "The Philosophy Dinner table Ho Chi Minh City actually needs is the... | Fanju app"
 description: "The initial hesitation to join a new social event, especially one involving strangers and a meal, is entirely natural."
 pageType: "city_article"
 priorityScore: 70

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/dar-es-salaam/curated-table"
 alternatePath: "/city/dar-es-salaam/curated-table"
-title: "Dar es Salaam Curated Table Guide"
+title: "Dar es Salaam Curated Table Guide | Fanju app"
 description: "Discover the authentic taste of Dar es Salaam with Fanju app, a social dining platform that connects you with like-minded individuals for a unique culin…"
 recoveredFromD1: true
 ---

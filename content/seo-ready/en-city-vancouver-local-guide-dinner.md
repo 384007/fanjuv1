@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/vancouver/local-guide-dinner"
 alternatePath: "/city/vancouver/local-guide-dinner"
-title: "Vancouver Local Guide Dinner Guide"
+title: "Vancouver Local Guide Dinner Guide | Fanju app"
 description: "Discover the authentic side of Vancouver through our Local Guide Dinners, where strangers become friends over delicious meals and meaningful conversatio…"
 recoveredFromD1: true
 ---

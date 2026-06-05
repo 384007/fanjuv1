@@ -4,7 +4,7 @@ canonicalPath: "/en/city/hyderabad/quality-friends-dinner"
 alternatePath: "/city/hyderabad/quality-friends-dinner"
 translationKey: "hyderabad-quality-friends-dinner"
 lang: "en"
-title: "A calmer way to approach Quality Friends Dinner in Hyderabad..."
+title: "A calmer way to approach Quality Friends Dinner in Hyderabad... | Fanju app"
 description: "For many in Hyderabad, the end of the workday brings not relief, but a quiet hesitation."
 pageType: "city_article"
 priorityScore: 70

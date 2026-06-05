@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/toronto/festival-dinner"
 alternatePath: "/city/toronto/festival-dinner"
-title: "Navigating Toronto's Festival Dinners: Your First Month with the..."
+title: "Navigating Toronto's Festival Dinners: Your First Month with the... | Fanju app"
 description: "Just arrived in Toronto this month? Discover how the Fanju app can guide you through the city's vibrant festival dinner scene, offering unique culinary…"
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/warsaw/remote-worker-dinner"
 alternatePath: "/city/warsaw/remote-worker-dinner"
-title: "Warsaw Remote Worker Dinner Guide"
+title: "Warsaw Remote Worker Dinner Guide | Fanju app"
 description: "Discover the comfort and community of Fanju app's social dining experience, tailored for remote workers in Warsaw."
 recoveredFromD1: true
 ---

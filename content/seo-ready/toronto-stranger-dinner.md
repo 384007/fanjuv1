@@ -4,7 +4,7 @@ canonicalPath: "/city/toronto/stranger-dinner"
 alternatePath: "/en/city/toronto/stranger-dinner"
 translationKey: "toronto-stranger-dinner"
 lang: "zh"
-title: "多伦多 stranger dinner Guide"
+title: "多伦多 stranger dinner Guide | 饭局app"
 titleZh: "多伦多stranger-dinner指南"
 pageType: "city_landing"
 priorityScore: 50

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/kuala-lumpur/holiday-dinner"
 alternatePath: "/city/kuala-lumpur/holiday-dinner"
-title: "What's the Best Way to Experience Kuala Lumpur's Holiday Spirit..."
+title: "What's the Best Way to Experience Kuala Lumpur's Holiday Spirit... | Fanju app"
 description: "A guide for expats and newcomers to connect with locals through authentic holiday dinners in Kuala Lumpur."
 recoveredFromD1: true
 ---

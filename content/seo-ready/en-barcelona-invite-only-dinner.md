@@ -4,7 +4,7 @@ canonicalPath: "/en/city/barcelona/invite-only-dinner"
 alternatePath: "/city/barcelona/invite-only-dinner"
 translationKey: "barcelona-invite-only-dinner"
 lang: "en"
-title: "Should you accept a private‑table Invite Only Dinner in Barcelona..."
+title: "Should you accept a private‑table Invite Only Dinner in Barcelona... | Fanju app"
 description: "A compelling host note will tie the dinner to a current Barcelona context—perhaps the arrival of the Primavera Sound festival, the harvest of local oliv…"
 pageType: "city_article"
 priorityScore: 70

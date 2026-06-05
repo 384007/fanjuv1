@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/fukuoka/safe-social-dinner"
 alternatePath: "/city/fukuoka/safe-social-dinner"
-title: "Fukuoka Safe Social Dinner Guide"
+title: "Fukuoka Safe Social Dinner Guide | Fanju app"
 description: "Discover the authentic Fukuoka experience with Fanju app, a social dining platform for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

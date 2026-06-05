@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/melbourne/investor-dinner"
 alternatePath: "/city/melbourne/investor-dinner"
-title: "Melbourne Investor Dinner Guide"
+title: "Melbourne Investor Dinner Guide | Fanju app"
 description: "Discover the social side of Melbourne with Fanju app, a platform for small, intimate meals and meaningful connections."
 recoveredFromD1: true
 ---

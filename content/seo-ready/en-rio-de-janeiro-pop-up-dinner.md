@@ -4,7 +4,7 @@ canonicalPath: "/en/city/rio-de-janeiro/pop-up-dinner"
 alternatePath: "/city/rio-de-janeiro/pop-up-dinner"
 translationKey: "rio-de-janeiro-pop-up-dinner"
 lang: "en"
-title: "What makes Pop Up Dinner in Rio de Janeiro worth the risk; Fanju..."
+title: "What makes Pop Up Dinner in Rio de Janeiro worth the risk; Fanju... | Fanju app"
 description: "In Rio de Janeiro, where the noise of the city often drowns out quiet attempts at connection, the idea of joining strangers for dinner can feel like too…"
 pageType: "city_article"
 priorityScore: 70

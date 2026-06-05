@@ -4,7 +4,7 @@ canonicalPath: "/en/city/nagoya/brand-collaboration-dinner"
 alternatePath: "/city/nagoya/brand-collaboration-dinner"
 translationKey: "nagoya-brand-collaboration-dinner"
 lang: "en"
-title: "Nagoya's After-Work Buzz: Navigating Brand Collaboration Dinners..."
+title: "Nagoya's After-Work Buzz: Navigating Brand Collaboration Dinners... | Fanju app"
 description: "This platform aims to address the specific needs of Nagoya residents who value their time and prefer quality over quantity in their social and professio…"
 pageType: "city_article"
 priorityScore: 70

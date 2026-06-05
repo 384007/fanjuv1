@@ -4,7 +4,7 @@ canonicalPath: "/en/city/cairo/cooking-exchange-dinner"
 alternatePath: "/city/cairo/cooking-exchange-dinner"
 translationKey: "cairo-cooking-exchange-dinner"
 lang: "en"
-title: "The Cooking Exchange Dinner table Cairo actually needs is the one..."
+title: "The Cooking Exchange Dinner table Cairo actually needs is the one... | Fanju app"
 description: "For anyone in Cairo looking to connect with others over a shared meal, the concept of a Cooking Exchange Dinner, as outlined by the Fanju app, offers a…"
 pageType: "city_article"
 priorityScore: 70

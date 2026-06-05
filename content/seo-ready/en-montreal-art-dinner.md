@@ -4,7 +4,7 @@ canonicalPath: "/en/city/montreal/art-dinner"
 alternatePath: "/city/montreal/art-dinner"
 translationKey: "montreal-art-dinner"
 lang: "en"
-title: "When the weekend whispers: choosing a Montreal Art Dinner through..."
+title: "When the weekend whispers: choosing a Montreal Art Dinner through... | Fanju app"
 description: "Montrealers know that a Saturday night in the Plateau can shift from bustling cafés to quiet galleries as the evening deepens, so the first question is…"
 pageType: "city_article"
 priorityScore: 70

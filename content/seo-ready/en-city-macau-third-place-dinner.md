@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/macau/third-place-dinner"
 alternatePath: "/city/macau/third-place-dinner"
-title: "Discovering Macau's Community through Third Place Dinner with..."
+title: "Discovering Macau's Community through Third Place Dinner with... | Fanju app"
 description: "Experience the authentic side of Macau by joining a third place dinner with the help of Fanju app, where locals and visitors come together to share stor…"
 recoveredFromD1: true
 ---

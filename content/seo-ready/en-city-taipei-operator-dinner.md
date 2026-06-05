@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/taipei/operator-dinner"
 alternatePath: "/city/taipei/operator-dinner"
-title: "Taipei Operator Dinner Guide"
+title: "Taipei Operator Dinner Guide | Fanju app"
 description: "Find social dining events in Taipei with Fanju app, a platform for remote workers and solo professionals to connect over meals."
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/miami/skateboarding-dinner"
 alternatePath: "/city/miami/skateboarding-dinner"
 translationKey: "miami-skateboarding-dinner"
 lang: "en"
-title: "Skateboarding Dinner in Miami should not feel like a gamble; Fanju..."
+title: "Skateboarding Dinner in Miami should not feel like a gamble; Fanju... | Fanju app"
 description: "Deciding on dinner in Miami after a long day of work shouldn’t mean guessing whether the night will land or fall flat."
 pageType: "city_article"
 priorityScore: 70

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/warsaw/consulting-dinner"
 alternatePath: "/city/warsaw/consulting-dinner"
 translationKey: "warsaw-consulting-dinner"
 lang: "en"
-title: "The Consulting Dinner table Warsaw actually needs is the one Fanju..."
+title: "The Consulting Dinner table Warsaw actually needs is the one Fanju... | Fanju app"
 description: "The Fanju app offers a vision for consulting dinners in Warsaw that goes beyond a casual get-together."
 pageType: "city_article"
 priorityScore: 70

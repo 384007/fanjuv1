@@ -4,7 +4,7 @@ canonicalPath: "/en/city/toronto/potluck-dinner"
 alternatePath: "/city/toronto/potluck-dinner"
 translationKey: "toronto-potluck-dinner"
 lang: "en"
-title: "After‑Work Stretch: Finding a Low‑Key Toronto Potluck Dinner with..."
+title: "After‑Work Stretch: Finding a Low‑Key Toronto Potluck Dinner with... | Fanju app"
 description: "After the 5 p.m. rush, you may be tempted to head straight home, but a well‑matched potluck can turn the commute into a pleasant pause."
 pageType: "city_article"
 priorityScore: 70

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ahmedabad/third-place-dinner"
 alternatePath: "/city/ahmedabad/third-place-dinner"
 translationKey: "ahmedabad-third-place-dinner"
 lang: "en"
-title: "When Third Place Dinner in Ahmedabad needs more than a group chat,..."
+title: "When Third Place Dinner in Ahmedabad needs more than a group chat,... | Fanju app"
 description: "A reader scanning for a Third Place Dinner in Ahmedabad is usually looking for a specific sentence that moves beyond a generic food meetup and promises…"
 pageType: "city_article"
 priorityScore: 70

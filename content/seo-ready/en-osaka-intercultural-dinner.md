@@ -4,7 +4,7 @@ canonicalPath: "/en/city/osaka/intercultural-dinner"
 alternatePath: "/city/osaka/intercultural-dinner"
 translationKey: "osaka-intercultural-dinner"
 lang: "en"
-title: "When Intercultural Dinner in Osaka needs more than a group chat,..."
+title: "When Intercultural Dinner in Osaka needs more than a group chat,... | Fanju app"
 description: "Fanju app operates on the principle of intention. When you're considering an Intercultural Dinner in Osaka, you're not just looking for any meal; you're…"
 pageType: "city_article"
 priorityScore: 70

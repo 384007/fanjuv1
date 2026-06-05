@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dubai/after-work-dinner"
 alternatePath: "/city/dubai/after-work-dinner"
 translationKey: "dubai-after-work-dinner"
 lang: "en"
-title: "When After Work Dinner in Dubai needs more than a group chat,..."
+title: "When After Work Dinner in Dubai needs more than a group chat,... | Fanju app"
 description: "In Dubai, crossing neighborhoods for dinner requires a clear understanding of arrival and exit timing, as the city's traffic and sprawling layout can tu…"
 pageType: "city_article"
 priorityScore: 70

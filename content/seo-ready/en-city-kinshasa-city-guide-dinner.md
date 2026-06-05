@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/kinshasa/city-guide-dinner"
 alternatePath: "/city/kinshasa/city-guide-dinner"
-title: "Kinshasa City Guide Dinner Guide"
+title: "Kinshasa City Guide Dinner Guide | Fanju app"
 description: "Discover the authentic taste of Kinshasa with Fanju app, a social dining app that connects strangers over small, clearly described meals and real-world…"
 recoveredFromD1: true
 ---

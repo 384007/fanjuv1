@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/osaka/quality-friends-dinner"
 alternatePath: "/city/osaka/quality-friends-dinner"
-title: "A calmer way to approach Quality Friends Dinner in Osaka through..."
+title: "A calmer way to approach Quality Friends Dinner in Osaka through... | Fanju app"
 description: "Fanju app offers a thoughtful approach to social dining in Osaka, focusing on curated, small-group meals designed for genuine connection."
 recoveredFromD1: true
 ---

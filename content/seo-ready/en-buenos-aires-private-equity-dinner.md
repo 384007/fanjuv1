@@ -4,7 +4,7 @@ canonicalPath: "/en/city/buenos-aires/private-equity-dinner"
 alternatePath: "/city/buenos-aires/private-equity-dinner"
 translationKey: "buenos-aires-private-equity-dinner"
 lang: "en"
-title: "When Private Equity Dinner in Buenos Aires needs more than a group..."
+title: "When Private Equity Dinner in Buenos Aires needs more than a group... | Fanju app"
 description: "Buenos Aires Private Equity Dinner hosted through Fanju app offers a focused offline dinner experience for finance professionals who want to connect bey…"
 pageType: "city_article"
 priorityScore: 70

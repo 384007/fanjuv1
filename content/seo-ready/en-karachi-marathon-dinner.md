@@ -4,7 +4,7 @@ canonicalPath: "/en/city/karachi/marathon-dinner"
 alternatePath: "/city/karachi/marathon-dinner"
 translationKey: "karachi-marathon-dinner"
 lang: "en"
-title: "Marathon Dinner in Karachi should not feel like a gamble; Fanju..."
+title: "Marathon Dinner in Karachi should not feel like a gamble; Fanju... | Fanju app"
 description: "A Thursday evening in Karachi, the kind where the air still carries the day’s heat but the street vendors have lit their lanterns, and you’re standing o…"
 pageType: "city_article"
 priorityScore: 70

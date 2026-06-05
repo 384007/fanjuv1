@@ -4,7 +4,7 @@ canonicalPath: "/en/city/istanbul/logistics-dinner"
 alternatePath: "/city/istanbul/logistics-dinner"
 translationKey: "istanbul-logistics-dinner"
 lang: "en"
-title: "When Logistics Dinner in Istanbul needs more than a group chat,..."
+title: "When Logistics Dinner in Istanbul needs more than a group chat,... | Fanju app"
 description: "Istanbul Logistics Dinner through the Fanju app offers a structured way to share a meal with locals and newcomers who value clear themes and boundaries,…"
 pageType: "city_article"
 priorityScore: 70

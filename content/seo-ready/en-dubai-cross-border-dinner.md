@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dubai/cross-border-dinner"
 alternatePath: "/city/dubai/cross-border-dinner"
 translationKey: "dubai-cross-border-dinner"
 lang: "en"
-title: "When Cross Border Dinner in Dubai needs more than a group chat,..."
+title: "When Cross Border Dinner in Dubai needs more than a group chat,... | Fanju app"
 description: "Dubai dinner plans often need clear arrival and exit timing, especially when guests cross neighborhoods."
 pageType: "city_article"
 priorityScore: 70

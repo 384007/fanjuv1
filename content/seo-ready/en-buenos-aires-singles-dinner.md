@@ -4,7 +4,7 @@ canonicalPath: "/en/city/buenos-aires/singles-dinner"
 alternatePath: "/city/buenos-aires/singles-dinner"
 translationKey: "buenos-aires-singles-dinner"
 lang: "en"
-title: "When Friday Night Calls for a Cross‑Town Buenos Aires Singles..."
+title: "When Friday Night Calls for a Cross‑Town Buenos Aires Singles... | Fanju app"
 description: "Your weekend schedule in Buenos Aires already balances tango rehearsals, a late‑night café, and the inevitable traffic that swells after the 6 p.m."
 pageType: "city_article"
 priorityScore: 70

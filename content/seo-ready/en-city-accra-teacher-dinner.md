@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/accra/teacher-dinner"
 alternatePath: "/city/accra/teacher-dinner"
-title: "Accra Teacher Dinner Guide"
+title: "Accra Teacher Dinner Guide | Fanju app"
 description: "Welcome to Accra! If you're new to the city and looking for genuine local connections, the Fanju app offers a unique way to experience authentic Ghanaia…"
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/athens/book-club-dinner"
 alternatePath: "/city/athens/book-club-dinner"
-title: "Athens Book Club Dinner Guide"
+title: "Athens Book Club Dinner Guide | Fanju app"
 description: "Just arrived in Athens this month and looking for ways to connect? The Fanju app offers a unique approach to social dining, facilitating small, intimate…"
 recoveredFromD1: true
 ---

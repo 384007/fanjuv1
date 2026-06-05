@@ -4,7 +4,7 @@ canonicalPath: "/en/city/zurich/firefighter-dinner"
 alternatePath: "/city/zurich/firefighter-dinner"
 translationKey: "zurich-firefighter-dinner"
 lang: "en"
-title: "A calmer way to approach Firefighter Dinner in Zurich through..."
+title: "A calmer way to approach Firefighter Dinner in Zurich through... | Fanju app"
 description: "In Zurich, where social rhythms lean toward precision and discretion, finding a space to connect over dinner can feel like navigating a quiet maze."
 pageType: "city_article"
 priorityScore: 70

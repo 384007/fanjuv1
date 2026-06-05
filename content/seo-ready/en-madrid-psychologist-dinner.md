@@ -4,7 +4,7 @@ canonicalPath: "/en/city/madrid/psychologist-dinner"
 alternatePath: "/city/madrid/psychologist-dinner"
 translationKey: "madrid-psychologist-dinner"
 lang: "en"
-title: "Should You Cross Town for a Psychologist Dinner in Madrid with..."
+title: "Should You Cross Town for a Psychologist Dinner in Madrid with... | Fanju app"
 description: "Arriving in Madrid, the sheer possibility of evening gatherings can feel overwhelming, especially when seeking something beyond casual drinks."
 pageType: "city_article"
 priorityScore: 70

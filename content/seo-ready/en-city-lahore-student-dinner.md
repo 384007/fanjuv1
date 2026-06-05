@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/lahore/student-dinner"
 alternatePath: "/city/lahore/student-dinner"
-title: "Lahore Student Dinner Guide"
+title: "Lahore Student Dinner Guide | Fanju app"
 description: "Discover the best way to connect with fellow students in Lahore through small, intimate dinners with Fanju app."
 recoveredFromD1: true
 ---

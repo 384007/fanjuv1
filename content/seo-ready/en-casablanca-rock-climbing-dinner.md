@@ -4,7 +4,7 @@ canonicalPath: "/en/city/casablanca/rock-climbing-dinner"
 alternatePath: "/city/casablanca/rock-climbing-dinner"
 translationKey: "casablanca-rock-climbing-dinner"
 lang: "en"
-title: "Solo‑traveler in Casablanca wonders if the Rock Climbing Dinner on..."
+title: "Solo‑traveler in Casablanca wonders if the Rock Climbing Dinner on... | Fanju app"
 description: "Arriving at the venue alone can feel like a test of confidence, especially when the host’s description mentions “a relaxed climb‑themed dinner” without…"
 pageType: "city_article"
 priorityScore: 70

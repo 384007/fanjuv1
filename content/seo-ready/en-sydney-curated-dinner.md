@@ -4,7 +4,7 @@ canonicalPath: "/en/city/sydney/curated-dinner"
 alternatePath: "/city/sydney/curated-dinner"
 translationKey: "sydney-curated-dinner"
 lang: "en"
-title: "Sydney Curated Dinner Guide"
+title: "Sydney Curated Dinner Guide | Fanju app"
 titleZh: "Sydney Curated Dinner Guide"
 pageType: "city_landing"
 priorityScore: 50

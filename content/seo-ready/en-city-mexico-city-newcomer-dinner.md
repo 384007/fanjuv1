@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/mexico-city/newcomer-dinner"
 alternatePath: "/city/mexico-city/newcomer-dinner"
-title: "Mexico City Newcomer Dinner Guide"
+title: "Mexico City Newcomer Dinner Guide | Fanju app"
 description: "Discover the authentic taste of Mexico City with Fanju app, a social dining app that connects you with like-minded people for small, clearly described m…"
 recoveredFromD1: true
 ---

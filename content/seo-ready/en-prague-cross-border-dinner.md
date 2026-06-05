@@ -4,7 +4,7 @@ canonicalPath: "/en/city/prague/cross-border-dinner"
 alternatePath: "/city/prague/cross-border-dinner"
 translationKey: "prague-cross-border-dinner"
 lang: "en"
-title: "A late‑summer evening in Prague’s Old Town: a second‑table Cross..."
+title: "A late‑summer evening in Prague’s Old Town: a second‑table Cross... | Fanju app"
 description: "The Fanju app positions itself as a bridge between cultures, allowing a second‑table to form when the first is full but the host still welcomes more gue…"
 pageType: "city_article"
 priorityScore: 70

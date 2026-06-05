@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/bogota/supper-club"
 alternatePath: "/city/bogota/supper-club"
-title: "Bogota Supper Club Guide"
+title: "Bogota Supper Club Guide | Fanju app"
 description: "Discover the vibrant world of supper clubs in Bogota with the Fanju app. This guide explores how to find and enjoy intimate dining experiences, fosterin…"
 recoveredFromD1: true
 ---

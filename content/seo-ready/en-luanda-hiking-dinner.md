@@ -4,7 +4,7 @@ canonicalPath: "/en/city/luanda/hiking-dinner"
 alternatePath: "/city/luanda/hiking-dinner"
 translationKey: "luanda-hiking-dinner"
 lang: "en"
-title: "Finding Comfort in Luanda’s After‑Work Hiking Dinner with the..."
+title: "Finding Comfort in Luanda’s After‑Work Hiking Dinner with the... | Fanju app"
 description: "In Luanda, dinner plans often need clear arrival and exit timing, especially when guests cross neighbourhoods that are busy after sunset."
 pageType: "city_article"
 priorityScore: 70

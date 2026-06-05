@@ -4,7 +4,7 @@ canonicalPath: "/en/city/fukuoka/early-riser-dinner"
 alternatePath: "/city/fukuoka/early-riser-dinner"
 translationKey: "fukuoka-early-riser-dinner"
 lang: "en"
-title: "A calmer way to approach Early Riser Dinner in Fukuoka through..."
+title: "A calmer way to approach Early Riser Dinner in Fukuoka through... | Fanju app"
 description: "Fukuoka's mornings carry a quiet rhythm—the scent of grilled yatai charcoal still faint in the air, convenience store onigiri warming under glass, and c…"
 pageType: "city_article"
 priorityScore: 70

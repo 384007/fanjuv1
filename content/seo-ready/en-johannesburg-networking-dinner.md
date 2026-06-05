@@ -4,7 +4,7 @@ canonicalPath: "/en/city/johannesburg/networking-dinner"
 alternatePath: "/city/johannesburg/networking-dinner"
 translationKey: "johannesburg-networking-dinner"
 lang: "en"
-title: "Finding a Private‑Table Networking Dinner in Johannesburg via the..."
+title: "Finding a Private‑Table Networking Dinner in Johannesburg via the... | Fanju app"
 description: "A private‑table setting in Rosebank can turn a networking event into a relaxed conversation over shared plates, but the decision hinges on three practic…"
 pageType: "city_article"
 priorityScore: 70

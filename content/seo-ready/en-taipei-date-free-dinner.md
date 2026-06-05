@@ -4,7 +4,7 @@ canonicalPath: "/en/city/taipei/date-free-dinner"
 alternatePath: "/city/taipei/date-free-dinner"
 translationKey: "taipei-date-free-dinner"
 lang: "en"
-title: "If you worry about unknown hosts, Taipei Date Free Dinner via..."
+title: "If you worry about unknown hosts, Taipei Date Free Dinner via... | Fanju app"
 description: "When the idea of a casual dinner feels risky, the first question is whether the event matches your personal comfort threshold."
 pageType: "city_article"
 priorityScore: 70

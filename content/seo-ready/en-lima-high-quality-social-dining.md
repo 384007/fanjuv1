@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lima/high-quality-social-dining"
 alternatePath: "/city/lima/high-quality-social-dining"
 translationKey: "lima-high-quality-social-dining"
 lang: "en"
-title: "Trustworthy Tables: Navigating High Quality Social Dining in Lima..."
+title: "Trustworthy Tables: Navigating High Quality Social Dining in Lima... | Fanju app"
 description: "When the weekend arrives in Lima, the desire for a meaningful social experience often surfaces, but the path to finding one can feel uncertain."
 pageType: "city_article"
 priorityScore: 70

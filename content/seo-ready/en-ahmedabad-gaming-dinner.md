@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ahmedabad/gaming-dinner"
 alternatePath: "/city/ahmedabad/gaming-dinner"
 translationKey: "ahmedabad-gaming-dinner"
 lang: "en"
-title: "The Gaming Dinner table Ahmedabad actually needs is the one Fanju..."
+title: "The Gaming Dinner table Ahmedabad actually needs is the one Fanju... | Fanju app"
 description: "Ahmedabad’s tech founders, startup operators, and independent professionals spend weekends in coffee shops or scrolling through networking events that n…"
 pageType: "city_article"
 priorityScore: 70

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/munich/community-builder-dinner"
 alternatePath: "/city/munich/community-builder-dinner"
 translationKey: "munich-community-builder-dinner"
 lang: "en"
-title: "Beyond the Marienplatz Rush: Finding Your Munich Community Builder..."
+title: "Beyond the Marienplatz Rush: Finding Your Munich Community Builder... | Fanju app"
 description: "The promise of Fanju app in Munich is to bridge the gap between the city's expansive energy and the intimate setting of a shared meal."
 pageType: "city_article"
 priorityScore: 70

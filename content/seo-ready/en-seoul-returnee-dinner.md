@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seoul/returnee-dinner"
 alternatePath: "/city/seoul/returnee-dinner"
 translationKey: "seoul-returnee-dinner"
 lang: "en"
-title: "When Returnee Dinner in Seoul needs more than a group chat, Fanju..."
+title: "When Returnee Dinner in Seoul needs more than a group chat, Fanju... | Fanju app"
 description: "From a host’s perspective, the ideal guest for a Seoul Returnee Dinner is someone looking for a narrative anchor in a new or familiar city."
 pageType: "city_article"
 priorityScore: 70

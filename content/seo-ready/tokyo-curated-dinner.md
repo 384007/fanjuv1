@@ -4,7 +4,7 @@ canonicalPath: "/city/tokyo/curated-dinner"
 alternatePath: "/en/city/tokyo/curated-dinner"
 translationKey: "tokyo-curated-dinner"
 lang: "zh"
-title: "东京 curated dinner Guide"
+title: "东京 curated dinner Guide | 饭局app"
 titleZh: "东京curated-dinner指南"
 pageType: "city_landing"
 priorityScore: 50

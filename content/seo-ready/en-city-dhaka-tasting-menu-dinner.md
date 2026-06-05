@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/dhaka/tasting-menu-dinner"
 alternatePath: "/city/dhaka/tasting-menu-dinner"
-title: "Dhaka Tasting Menu Dinner Guide"
+title: "Dhaka Tasting Menu Dinner Guide | Fanju app"
 description: "Discover the best tasting menu dinner experiences in Dhaka with Fanju app, a social dining app for small, clearly described meals and real-world connect…"
 recoveredFromD1: true
 ---

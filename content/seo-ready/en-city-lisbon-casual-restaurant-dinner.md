@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/lisbon/casual-restaurant-dinner"
 alternatePath: "/city/lisbon/casual-restaurant-dinner"
-title: "Lisbon Casual Restaurant Dinner Guide"
+title: "Lisbon Casual Restaurant Dinner Guide | Fanju app"
 description: "Discover the intimacy of small dinner tables in Lisbon with Fanju app, a social dining app that connects people for real-world connections and small, cl…"
 recoveredFromD1: true
 ---

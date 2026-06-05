@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/taipei/angel-investor-dinner"
 alternatePath: "/city/taipei/angel-investor-dinner"
-title: "A calmer way to approach Angel Investor Dinner in Taipei through..."
+title: "A calmer way to approach Angel Investor Dinner in Taipei through... | Fanju app"
 description: "Fanju app redefines how working professionals in Taipei connect after hours by focusing on small, intentional dinners with clear themes and real-world c…"
 recoveredFromD1: true
 ---

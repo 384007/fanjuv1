@@ -4,7 +4,7 @@ canonicalPath: "/city/san-francisco"
 alternatePath: "/en/city/san-francisco"
 translationKey: "san-francisco-social-dining"
 lang: "zh"
-title: "旧金山 Social Dining Guide"
+title: "旧金山 Social Dining Guide | 饭局app"
 titleZh: "旧金山 social dining / 饭局社交指南"
 pageType: "city_landing"
 priorityScore: 40

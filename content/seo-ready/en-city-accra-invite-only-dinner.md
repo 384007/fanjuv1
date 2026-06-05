@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/accra/invite-only-dinner"
 alternatePath: "/city/accra/invite-only-dinner"
-title: "Accra Invite Only Dinner Guide"
+title: "Accra Invite Only Dinner Guide | Fanju app"
 description: "Discover the authentic taste of Accra's dinner scene with Fanju app, a social dining app that brings people together for small, clearly described meals…"
 recoveredFromD1: true
 ---

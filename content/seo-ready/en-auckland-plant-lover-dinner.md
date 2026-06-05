@@ -4,7 +4,7 @@ canonicalPath: "/en/city/auckland/plant-lover-dinner"
 alternatePath: "/city/auckland/plant-lover-dinner"
 translationKey: "auckland-plant-lover-dinner"
 lang: "en"
-title: "A calmer way to approach Plant Lover Dinner in Auckland through..."
+title: "A calmer way to approach Plant Lover Dinner in Auckland through... | Fanju app"
 description: "For remote workers in Auckland, evenings can blur into silence after the laptop closes."
 pageType: "city_article"
 priorityScore: 70

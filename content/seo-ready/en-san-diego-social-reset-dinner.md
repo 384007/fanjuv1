@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/san-diego/social-reset-dinner"
 alternatePath: "/city/san-diego/social-reset-dinner"
-title: "A calmer way to approach Social Reset Dinner in San Diego through..."
+title: "A calmer way to approach Social Reset Dinner in San Diego through... | Fanju app"
 description: "Fanju app offers a grounded way to experience Social Reset Dinner in San Diego—a city where the rhythm of life shifts noticeably after 6 p.m., especiall…"
 recoveredFromD1: true
 ---

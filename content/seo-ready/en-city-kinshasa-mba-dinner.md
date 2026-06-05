@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/kinshasa/mba-dinner"
 alternatePath: "/city/kinshasa/mba-dinner"
-title: "Kinshasa MBA Dinner Guide"
+title: "Kinshasa MBA Dinner Guide | Fanju app"
 description: "Discover authentic local connections through dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

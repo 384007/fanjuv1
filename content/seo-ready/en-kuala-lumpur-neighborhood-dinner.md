@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kuala-lumpur/neighborhood-dinner"
 alternatePath: "/city/kuala-lumpur/neighborhood-dinner"
 translationKey: "kuala-lumpur-neighborhood-dinner"
 lang: "en"
-title: "The Neighborhood Dinner table Kuala Lumpur actually needs is the..."
+title: "The Neighborhood Dinner table Kuala Lumpur actually needs is the... | Fanju app"
 description: "Kuala Lumpur thrives on overlap—between old shophouses and glass towers, between Malay, Chinese, Indian, and expat communities, between the desire to be…"
 pageType: "city_article"
 priorityScore: 70

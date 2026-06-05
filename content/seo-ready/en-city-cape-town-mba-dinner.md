@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cape-town/mba-dinner"
 alternatePath: "/city/cape-town/mba-dinner"
-title: "Cape Town MBA Dinner Guide"
+title: "Cape Town MBA Dinner Guide | Fanju app"
 description: "Discover the world of social dining with Fanju app, where you can connect with like-minded professionals over delicious meals in a safe and welcoming en…"
 recoveredFromD1: true
 ---

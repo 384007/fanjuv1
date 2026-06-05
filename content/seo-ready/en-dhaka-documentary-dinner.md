@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dhaka/documentary-dinner"
 alternatePath: "/city/dhaka/documentary-dinner"
 translationKey: "dhaka-documentary-dinner"
 lang: "en"
-title: "Stumbling through a weekend dilemma: Dhaka Documentary Dinner and..."
+title: "Stumbling through a weekend dilemma: Dhaka Documentary Dinner and... | Fanju app"
 description: "A weekend decision in Dhaka hinges on how the event fits around your existing plans."
 pageType: "city_article"
 priorityScore: 70

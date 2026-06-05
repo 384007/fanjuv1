@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kolkata/international-student-dinner"
 alternatePath: "/city/kolkata/international-student-dinner"
 translationKey: "kolkata-international-student-dinner"
 lang: "en"
-title: "When International Student Dinner in Kolkata needs more than a..."
+title: "When International Student Dinner in Kolkata needs more than a... | Fanju app"
 description: "Arriving in a new city alone often means navigating a maze of generic meetups, but a well-organized International Student Dinner in Kolkata stands out b…"
 pageType: "city_article"
 priorityScore: 70

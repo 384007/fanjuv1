@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vienna/student-dinner"
 alternatePath: "/city/vienna/student-dinner"
 translationKey: "vienna-student-dinner"
 lang: "en"
-title: "Bridging the Post-Work Gap: Finding Comfort and Connection at..."
+title: "Bridging the Post-Work Gap: Finding Comfort and Connection at... | Fanju app"
 description: "Deciding whether a specific Student Dinner listed on Fanju app in Vienna is the right fit hinges on a careful evaluation of its presented atmosphere and…"
 pageType: "city_article"
 priorityScore: 70

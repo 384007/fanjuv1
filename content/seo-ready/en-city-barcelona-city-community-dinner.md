@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/barcelona/city-community-dinner"
 alternatePath: "/city/barcelona/city-community-dinner"
-title: "Barcelona City Community Dinner Guide"
+title: "Barcelona City Community Dinner Guide | Fanju app"
 description: "Discover the heart of Barcelona's community through a shared meal, facilitated by the Fanju app, a social dining platform for small, intimate gatherings…"
 recoveredFromD1: true
 ---

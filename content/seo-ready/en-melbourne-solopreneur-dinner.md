@@ -4,7 +4,7 @@ canonicalPath: "/en/city/melbourne/solopreneur-dinner"
 alternatePath: "/city/melbourne/solopreneur-dinner"
 translationKey: "melbourne-solopreneur-dinner"
 lang: "en"
-title: "What makes Solopreneur Dinner in Melbourne worth the risk; Fanju..."
+title: "What makes Solopreneur Dinner in Melbourne worth the risk; Fanju... | Fanju app"
 description: "As the sun sets over Melbourne, the city comes alive with possibilities, and for solopreneurs, the Fanju app provides a platform to connect with like-mi…"
 pageType: "city_article"
 priorityScore: 70

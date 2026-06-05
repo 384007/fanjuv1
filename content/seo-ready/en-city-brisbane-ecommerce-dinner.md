@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/brisbane/ecommerce-dinner"
 alternatePath: "/city/brisbane/ecommerce-dinner"
-title: "Brisbane Ecommerce Dinner Guide: Planning Your Weekend Around..."
+title: "Brisbane Ecommerce Dinner Guide: Planning Your Weekend Around... | Fanju app"
 description: "Planning a Brisbane weekend? Consider centering it around a unique Ecommerce Dinner experience, facilitated by the Fanju app."
 recoveredFromD1: true
 ---

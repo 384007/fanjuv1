@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/delhi/offline-social-dinner"
 alternatePath: "/city/delhi/offline-social-dinner"
-title: "Delhi Offline Social Dinner Guide"
+title: "Delhi Offline Social Dinner Guide | Fanju app"
 description: "Discover the authentic flavors of Delhi through Fanju app, a social dining platform that connects you with like-minded individuals for intimate, home-co…"
 recoveredFromD1: true
 ---

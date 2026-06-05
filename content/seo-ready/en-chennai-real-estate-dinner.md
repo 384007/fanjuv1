@@ -4,7 +4,7 @@ canonicalPath: "/en/city/chennai/real-estate-dinner"
 alternatePath: "/city/chennai/real-estate-dinner"
 translationKey: "chennai-real-estate-dinner"
 lang: "en"
-title: "When Real Estate Dinner in Chennai needs more than a group chat,..."
+title: "When Real Estate Dinner in Chennai needs more than a group chat,... | Fanju app"
 description: "A strong listing for a Real Estate Dinner in Chennai does not just list a time and place; it answers the immediate question of why you should drive acro…"
 pageType: "city_article"
 priorityScore: 70

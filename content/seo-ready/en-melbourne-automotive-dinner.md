@@ -4,7 +4,7 @@ canonicalPath: "/en/city/melbourne/automotive-dinner"
 alternatePath: "/city/melbourne/automotive-dinner"
 translationKey: "melbourne-automotive-dinner"
 lang: "en"
-title: "A Thursday night in Fitzroy: navigating a Melbourne Automotive..."
+title: "A Thursday night in Fitzroy: navigating a Melbourne Automotive... | Fanju app"
 description: "When you consider a dinner of gearheads in Melbourne, the first question is whether the setting feels safe enough to sit down with strangers."
 pageType: "city_article"
 priorityScore: 70

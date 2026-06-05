@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/dar-es-salaam/downtown-dinner"
 alternatePath: "/city/dar-es-salaam/downtown-dinner"
-title: "Dar es Salaam Downtown Dinner Guide"
+title: "Dar es Salaam Downtown Dinner Guide | Fanju app"
 description: "Discover the best of Dar es Salaam's downtown dining scene with Fanju app, a social dining app for small, clearly described meals and real-world connect…"
 recoveredFromD1: true
 ---

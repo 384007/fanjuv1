@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/auckland/music-dinner"
 alternatePath: "/city/auckland/music-dinner"
-title: "Auckland Music Dinner Guide"
+title: "Auckland Music Dinner Guide | Fanju app"
 description: "Discover the rhythm of Auckland's music scene through dinner with Fanju app, a social dining app for small, clearly described meals and real-world conne…"
 recoveredFromD1: true
 ---

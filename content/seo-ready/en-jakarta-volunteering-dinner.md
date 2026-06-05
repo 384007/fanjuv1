@@ -4,7 +4,7 @@ canonicalPath: "/en/city/jakarta/volunteering-dinner"
 alternatePath: "/city/jakarta/volunteering-dinner"
 translationKey: "jakarta-volunteering-dinner"
 lang: "en"
-title: "The Volunteering Dinner table Jakarta actually needs is the one..."
+title: "The Volunteering Dinner table Jakarta actually needs is the one... | Fanju app"
 description: "In Jakarta, where weekend nights often dissolve into last-minute plans and surface-level gatherings, the idea of hosting a meaningful dinner with strang…"
 pageType: "city_article"
 priorityScore: 70

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/kyoto/supper-club"
 alternatePath: "/city/kyoto/supper-club"
-title: "Kyoto Supper Club Guide"
+title: "Kyoto Supper Club Guide | Fanju app"
 description: "Discover the world of Supper Clubs in Kyoto with Fanju app, a social dining app that connects you with like-minded people for small, clearly described m…"
 recoveredFromD1: true
 ---

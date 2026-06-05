@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/hyderabad/urban-lifestyle-dinner"
 alternatePath: "/city/hyderabad/urban-lifestyle-dinner"
-title: "Hyderabad Urban Lifestyle Dinner Guide"
+title: "Hyderabad Urban Lifestyle Dinner Guide | Fanju app"
 description: "Discover the joy of small, in-person dinners with the Fanju app, a social dining platform that fosters real-world connections in the heart of Hyderabad."
 recoveredFromD1: true
 ---

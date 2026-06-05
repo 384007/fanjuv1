@@ -4,7 +4,7 @@ canonicalPath: "/en/city/johannesburg/climate-tech-dinner"
 alternatePath: "/city/johannesburg/climate-tech-dinner"
 translationKey: "johannesburg-climate-tech-dinner"
 lang: "en"
-title: "The Climate Tech Dinner table Johannesburg actually needs is the..."
+title: "The Climate Tech Dinner table Johannesburg actually needs is the... | Fanju app"
 description: "After another long meeting about carbon offsets and urban heat mapping, you leave the Johannesburg office wondering where real climate progress happens.…"
 pageType: "city_article"
 priorityScore: 70

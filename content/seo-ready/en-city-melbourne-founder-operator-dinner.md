@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/melbourne/founder-operator-dinner"
 alternatePath: "/city/melbourne/founder-operator-dinner"
-title: "Melbourne Founder Operator Dinner Guide: A Calm Approach for..."
+title: "Melbourne Founder Operator Dinner Guide: A Calm Approach for... | Fanju app"
 description: "Discover the Melbourne Founder Operator Dinner, a unique social dining experience facilitated by the Fanju app."
 recoveredFromD1: true
 ---

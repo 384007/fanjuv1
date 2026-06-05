@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/addis-ababa/community-dinner"
 alternatePath: "/city/addis-ababa/community-dinner"
-title: "Addis Ababa Community Dinner Guide"
+title: "Addis Ababa Community Dinner Guide | Fanju app"
 description: "Join a Fanju table for a unique dining experience in Addis Ababa, connecting with locals and fellow travelers in a relaxed atmosphere."
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/budapest/chinese-social-dining"
 alternatePath: "/city/budapest/chinese-social-dining"
 translationKey: "budapest-chinese-social-dining"
 lang: "en"
-title: "The Chinese Social Dining table Budapest actually needs is the one..."
+title: "The Chinese Social Dining table Budapest actually needs is the one... | Fanju app"
 description: "In Budapest, finding a meal that feels both spontaneous and meaningful can be harder than it sounds."
 pageType: "city_article"
 priorityScore: 70

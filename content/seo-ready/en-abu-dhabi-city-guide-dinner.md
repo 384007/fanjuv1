@@ -4,7 +4,7 @@ canonicalPath: "/en/city/abu-dhabi/city-guide-dinner"
 alternatePath: "/city/abu-dhabi/city-guide-dinner"
 translationKey: "abu-dhabi-city-guide-dinner"
 lang: "en"
-title: "City Guide Dinner in Abu Dhabi should not feel like a gamble;..."
+title: "City Guide Dinner in Abu Dhabi should not feel like a gamble;... | Fanju app"
 description: "Starting over in Abu Dhabi often means nights spent scrolling through options with no clear way in."
 pageType: "city_article"
 priorityScore: 70

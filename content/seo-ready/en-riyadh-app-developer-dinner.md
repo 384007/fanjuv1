@@ -4,7 +4,7 @@ canonicalPath: "/en/city/riyadh/app-developer-dinner"
 alternatePath: "/city/riyadh/app-developer-dinner"
 translationKey: "riyadh-app-developer-dinner"
 lang: "en"
-title: "When App Developer Dinner in Riyadh needs more than a group chat,..."
+title: "When App Developer Dinner in Riyadh needs more than a group chat,... | Fanju app"
 description: "This App Developer Dinner table is best suited for Riyadh-based app developers, designers, or product managers who actively seek to expand their local p…"
 pageType: "city_article"
 priorityScore: 70

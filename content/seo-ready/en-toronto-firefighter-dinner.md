@@ -4,7 +4,7 @@ canonicalPath: "/en/city/toronto/firefighter-dinner"
 alternatePath: "/city/toronto/firefighter-dinner"
 translationKey: "toronto-firefighter-dinner"
 lang: "en"
-title: "When you walk into a quiet Toronto neighbourhood and the firehouse..."
+title: "When you walk into a quiet Toronto neighbourhood and the firehouse... | Fanju app"
 description: "In the context of a Toronto Firefighter Dinner, Fanju app becomes the platform that curates a small, themed table rather than a broad public event."
 pageType: "city_article"
 priorityScore: 70

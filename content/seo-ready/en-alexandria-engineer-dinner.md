@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/alexandria/engineer-dinner"
 alternatePath: "/city/alexandria/engineer-dinner"
-title: "A calmer way to approach Engineer Dinner in Alexandria through..."
+title: "A calmer way to approach Engineer Dinner in Alexandria through... | Fanju app"
 description: "In Alexandria, where professional networks often blend with the city’s cultural fabric, finding meaningful social dinners can feel overwhelming—especial…"
 recoveredFromD1: true
 ---

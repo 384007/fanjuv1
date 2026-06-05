@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ahmedabad/scientist-dinner"
 alternatePath: "/city/ahmedabad/scientist-dinner"
 translationKey: "ahmedabad-scientist-dinner"
 lang: "en"
-title: "Scientist Dinner in Ahmedabad should not feel like a gamble; Fanju..."
+title: "Scientist Dinner in Ahmedabad should not feel like a gamble; Fanju... | Fanju app"
 description: "Ahmedabad moves in layers. The morning hum of pol life gives way to midday quiet, then evening reawakens with families walking along the Sabarmati River…"
 pageType: "city_article"
 priorityScore: 70

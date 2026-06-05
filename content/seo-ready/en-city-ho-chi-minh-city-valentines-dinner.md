@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/ho-chi-minh-city/valentines-dinner"
 alternatePath: "/city/ho-chi-minh-city/valentines-dinner"
-title: "Ho Chi Minh City Valentines Dinner Guide"
+title: "Ho Chi Minh City Valentines Dinner Guide | Fanju app"
 description: "Planning a memorable Valentine's weekend in Ho Chi Minh City? This guide positions your dinner as the centerpiece of your celebrations, offering practic…"
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ahmedabad/painting-dinner"
 alternatePath: "/city/ahmedabad/painting-dinner"
 translationKey: "ahmedabad-painting-dinner"
 lang: "en"
-title: "A calmer way to approach Painting Dinner in Ahmedabad through..."
+title: "A calmer way to approach Painting Dinner in Ahmedabad through... | Fanju app"
 description: "For those in Ahmedabad looking for a more intentional way to connect after work, the Fanju app offers a structured approach to Painting Dinner events."
 pageType: "city_article"
 priorityScore: 70

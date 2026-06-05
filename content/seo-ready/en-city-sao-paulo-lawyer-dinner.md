@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/sao-paulo/lawyer-dinner"
 alternatePath: "/city/sao-paulo/lawyer-dinner"
-title: "Sao Paulo Lawyer Dinner Guide"
+title: "Sao Paulo Lawyer Dinner Guide | Fanju app"
 description: "Discover the art of Lawyer Dinner in Sao Paulo with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

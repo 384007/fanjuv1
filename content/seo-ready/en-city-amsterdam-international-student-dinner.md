@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/amsterdam/international-student-dinner"
 alternatePath: "/city/amsterdam/international-student-dinner"
-title: "Amsterdam International Student Dinner Guide"
+title: "Amsterdam International Student Dinner Guide | Fanju app"
 description: "Just arrived in Amsterdam this month and looking to connect? The Fanju app offers a unique way for international students to find and join small, intima…"
 recoveredFromD1: true
 ---

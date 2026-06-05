@@ -4,7 +4,7 @@ canonicalPath: "/en/city/taipei/sports-coach-dinner"
 alternatePath: "/city/taipei/sports-coach-dinner"
 translationKey: "taipei-sports-coach-dinner"
 lang: "en"
-title: "A calmer way to approach Sports Coach Dinner in Taipei through..."
+title: "A calmer way to approach Sports Coach Dinner in Taipei through... | Fanju app"
 description: "In many cities, a casual dinner invite carries implied flexibility—people arrive late, conversations drift, and no one minds if the night dissolves into…"
 pageType: "city_article"
 priorityScore: 70

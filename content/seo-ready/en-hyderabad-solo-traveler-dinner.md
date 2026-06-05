@@ -4,7 +4,7 @@ canonicalPath: "/en/city/hyderabad/solo-traveler-dinner"
 alternatePath: "/city/hyderabad/solo-traveler-dinner"
 translationKey: "hyderabad-solo-traveler-dinner"
 lang: "en"
-title: "Solo Traveler Dinner in Hyderabad should not feel like a gamble;..."
+title: "Solo Traveler Dinner in Hyderabad should not feel like a gamble;... | Fanju app"
 description: "A solo traveler in Hyderabad stepping into a dinner with strangers used to mean crossing fingers—hoping the table would be warm, the conversation wouldn…"
 pageType: "city_article"
 priorityScore: 70

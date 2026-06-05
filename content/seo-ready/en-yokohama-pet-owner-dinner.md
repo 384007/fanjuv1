@@ -4,7 +4,7 @@ canonicalPath: "/en/city/yokohama/pet-owner-dinner"
 alternatePath: "/city/yokohama/pet-owner-dinner"
 translationKey: "yokohama-pet-owner-dinner"
 lang: "en"
-title: "After a long commute, Yokohama pet owners find a calming dinner..."
+title: "After a long commute, Yokohama pet owners find a calming dinner... | Fanju app"
 description: "Commuters also worry about timing; a vague “meet up sometime after work” can clash with family duties."
 pageType: "city_article"
 priorityScore: 70

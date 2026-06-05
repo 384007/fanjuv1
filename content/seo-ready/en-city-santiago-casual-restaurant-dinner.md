@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/santiago/casual-restaurant-dinner"
 alternatePath: "/city/santiago/casual-restaurant-dinner"
-title: "Santiago Casual Restaurant Dinner Guide"
+title: "Santiago Casual Restaurant Dinner Guide | Fanju app"
 description: "Discover the best casual restaurants for dinner in Santiago with Fanju app, a social dining app for small, clearly described meals and real-world connec…"
 recoveredFromD1: true
 ---

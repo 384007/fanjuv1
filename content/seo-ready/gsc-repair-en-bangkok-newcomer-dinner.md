@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangkok/newcomer-dinner"
 alternatePath: "/city/bangkok/newcomer-dinner"
 translationKey: "gsc-repair-bangkok-newcomer-dinner"
 lang: "en"
-title: "Bangkok Newcomer Dinner Guide"
+title: "Bangkok Newcomer Dinner Guide | Fanju app"
 description: "Bangkok newcomer dinner on Fanju helps new arrivals compare a public small-table dinner, host note, guest mix, cost, and safety boundaries before joining."
 pageType: "city_topic"
 priorityScore: 78

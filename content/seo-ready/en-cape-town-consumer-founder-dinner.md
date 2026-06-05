@@ -4,7 +4,7 @@ canonicalPath: "/en/city/cape-town/consumer-founder-dinner"
 alternatePath: "/city/cape-town/consumer-founder-dinner"
 translationKey: "cape-town-consumer-founder-dinner"
 lang: "en"
-title: "Resetting the Weekend with a Cape Town Consumer Founder Dinner via..."
+title: "Resetting the Weekend with a Cape Town Consumer Founder Dinner via... | Fanju app"
 description: "A weekend dinner that feels half‑planned can either energize your social life or leave you uneasy."
 pageType: "city_article"
 priorityScore: 70

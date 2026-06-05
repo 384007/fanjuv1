@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ahmedabad/city-arrival-dinner"
 alternatePath: "/city/ahmedabad/city-arrival-dinner"
 translationKey: "ahmedabad-city-arrival-dinner"
 lang: "en"
-title: "When the Evening Feels Too Loud: Finding a Calm Ahmedabad City..."
+title: "When the Evening Feels Too Loud: Finding a Calm Ahmedabad City... | Fanju app"
 description: "When you glance at a listing that mentions “near Manek Chowk” you can instantly picture the narrow lanes, the scent of jalebi, and the modest seating ar…"
 pageType: "city_article"
 priorityScore: 70

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/austin/weeknight-dinner"
 alternatePath: "/city/austin/weeknight-dinner"
 translationKey: "austin-weeknight-dinner"
 lang: "en"
-title: "When Weeknight Dinner in Austin needs more than a group chat,..."
+title: "When Weeknight Dinner in Austin needs more than a group chat,... | Fanju app"
 description: "In a city where crossing town during rush hour can turn a thirty-minute drive into an hour-long slog, the end time of a meal is as critical as the start…"
 pageType: "city_article"
 priorityScore: 70

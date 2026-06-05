@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/new-york/six-person-dinner"
 alternatePath: "/city/new-york/six-person-dinner"
-title: "New York Six Person Dinner Guide"
+title: "New York Six Person Dinner Guide | Fanju app"
 description: "Find social connections and a recurring social anchor in your week with Fanju app, a social dining app for small, clearly described meals and real-world…"
 recoveredFromD1: true
 ---

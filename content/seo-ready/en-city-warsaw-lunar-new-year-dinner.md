@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/warsaw/lunar-new-year-dinner"
 alternatePath: "/city/warsaw/lunar-new-year-dinner"
-title: "Warsaw Lunar New Year Dinner Guide"
+title: "Warsaw Lunar New Year Dinner Guide | Fanju app"
 description: "Discover authentic local connections through dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/mexico-city/social-reset-dinner"
 alternatePath: "/city/mexico-city/social-reset-dinner"
-title: "Mexico City Social Reset Dinner Guide"
+title: "Mexico City Social Reset Dinner Guide | Fanju app"
 description: "Discover the art of curated social dining in Mexico City with Fanju app, a platform that brings people together for meaningful connections over deliciou…"
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/ahmedabad/remote-worker-dinner"
 alternatePath: "/city/ahmedabad/remote-worker-dinner"
-title: "Ahmedabad Remote Worker Dinner Guide"
+title: "Ahmedabad Remote Worker Dinner Guide | Fanju app"
 description: "Join a Fanju table for a unique dining experience in Ahmedabad, connecting with like-minded remote workers from around the world."
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/baghdad/mba-dinner"
 alternatePath: "/city/baghdad/mba-dinner"
-title: "Baghdad MBA Dinner Guide"
+title: "Baghdad MBA Dinner Guide | Fanju app"
 description: "Discover the curated world of social dining in Baghdad with Fanju app, where meaningful connections and exquisite meals come together in a unique setting."
 recoveredFromD1: true
 ---

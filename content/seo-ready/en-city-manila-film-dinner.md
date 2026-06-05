@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/manila/film-dinner"
 alternatePath: "/city/manila/film-dinner"
-title: "Manila Film Dinner Guide"
+title: "Manila Film Dinner Guide | Fanju app"
 description: "Plan a unique and memorable film dinner experience in Manila with Fanju app, a social dining app that connects people for small, clearly described meals…"
 recoveredFromD1: true
 ---

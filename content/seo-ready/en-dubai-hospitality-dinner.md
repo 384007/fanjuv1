@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dubai/hospitality-dinner"
 alternatePath: "/city/dubai/hospitality-dinner"
 translationKey: "dubai-hospitality-dinner"
 lang: "en"
-title: "When Hospitality Dinner in Dubai needs more than a group chat,..."
+title: "When Hospitality Dinner in Dubai needs more than a group chat,... | Fanju app"
 description: "Dubai dinner plans often need clear arrival and exit timing, especially when guests cross neighbourhoods like Downtown or Dubai Marina."
 pageType: "city_article"
 priorityScore: 70

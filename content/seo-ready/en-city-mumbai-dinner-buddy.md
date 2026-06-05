@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/mumbai/dinner-buddy"
 alternatePath: "/city/mumbai/dinner-buddy"
-title: "Mumbai Dinner Buddy Guide: Finding Connection Over a Meal"
+title: "Mumbai Dinner Buddy Guide: Finding Connection Over a Meal | Fanju app"
 description: "Mumbai, a city that pulses with life, can sometimes feel overwhelmingly vast, leaving many feeling adrift."
 recoveredFromD1: true
 ---

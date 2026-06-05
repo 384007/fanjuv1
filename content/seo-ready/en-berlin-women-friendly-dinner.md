@@ -4,7 +4,7 @@ canonicalPath: "/en/city/berlin/women-friendly-dinner"
 alternatePath: "/city/berlin/women-friendly-dinner"
 translationKey: "berlin-women-friendly-dinner"
 lang: "en"
-title: "What makes Women Friendly Dinner in Berlin worth the risk; Fanju..."
+title: "What makes Women Friendly Dinner in Berlin worth the risk; Fanju... | Fanju app"
 description: "For women in Berlin who value quiet connection over loud networking, the idea of a group dinner can feel more exhausting than inviting."
 pageType: "city_article"
 priorityScore: 70

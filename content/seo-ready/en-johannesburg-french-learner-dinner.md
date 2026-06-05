@@ -4,7 +4,7 @@ canonicalPath: "/en/city/johannesburg/french-learner-dinner"
 alternatePath: "/city/johannesburg/french-learner-dinner"
 translationKey: "johannesburg-french-learner-dinner"
 lang: "en"
-title: "A Johannesburg Weekend Decision: Crafting Your French Learner..."
+title: "A Johannesburg Weekend Decision: Crafting Your French Learner... | Fanju app"
 description: "The app’s design encourages hosts to present a clear vision for their meal, detailing the theme, the expected conversation flow, and the intended vibe."
 pageType: "city_article"
 priorityScore: 70

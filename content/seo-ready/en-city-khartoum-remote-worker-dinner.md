@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/khartoum/remote-worker-dinner"
 alternatePath: "/city/khartoum/remote-worker-dinner"
-title: "Khartoum Remote Worker Dinner Guide"
+title: "Khartoum Remote Worker Dinner Guide | Fanju app"
 description: "Discover the authentic flavors of Khartoum with Fanju app, a social dining app that connects you with like-minded individuals for small, home-cooked mea…"
 recoveredFromD1: true
 ---

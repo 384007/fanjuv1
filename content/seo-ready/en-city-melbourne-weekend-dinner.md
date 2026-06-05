@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/melbourne/weekend-dinner"
 alternatePath: "/city/melbourne/weekend-dinner"
-title: "Melbourne Weekend Dinner Guide"
+title: "Melbourne Weekend Dinner Guide | Fanju app"
 description: "Discover the art of social dining in Melbourne with Fanju app, where you can enjoy curated meals and meaningful connections in a safe and welcoming envi…"
 recoveredFromD1: true
 ---

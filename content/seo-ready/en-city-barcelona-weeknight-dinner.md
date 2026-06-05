@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/barcelona/weeknight-dinner"
 alternatePath: "/city/barcelona/weeknight-dinner"
-title: "Barcelona Weeknight Dinner: Your Guide to Cozy Gatherings"
+title: "Barcelona Weeknight Dinner: Your Guide to Cozy Gatherings | Fanju app"
 description: "Discover the charm of weeknight dinners in Barcelona with the Fanju app. This guide, tailored for women seeking comfortable social dining, highlights ho…"
 recoveredFromD1: true
 ---

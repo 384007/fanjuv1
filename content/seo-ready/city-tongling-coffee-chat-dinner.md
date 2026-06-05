@@ -7,7 +7,7 @@ alternatePath: "/en/city/tongling/coffee-chat-dinner"
 translationKey: "gsc-repair-tongling-coffee-chat-dinner"
 pageType: "city_topic"
 priorityScore: 82
-title: "铜陵咖啡转晚餐社交指南"
+title: "铜陵咖啡转晚餐社交指南 | 饭局app"
 description: "在铜陵体验高端社交饭局，通过 Fanju / 饭局app 与新朋友共享美食和精彩时光。"
 recoveredFromD1: true
 ---

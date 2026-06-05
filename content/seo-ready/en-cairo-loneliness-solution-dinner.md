@@ -4,7 +4,7 @@ canonicalPath: "/en/city/cairo/loneliness-solution-dinner"
 alternatePath: "/city/cairo/loneliness-solution-dinner"
 translationKey: "cairo-loneliness-solution-dinner"
 lang: "en"
-title: "When Loneliness Solution Dinner in Cairo needs more than a group..."
+title: "When Loneliness Solution Dinner in Cairo needs more than a group... | Fanju app"
 description: "The specific nature of Cairo traffic and neighborhood geography means a generic dinner invitation often fails because it ignores the travel burden."
 pageType: "city_article"
 priorityScore: 70

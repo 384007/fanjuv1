@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/khartoum/founder-operator-dinner"
 alternatePath: "/city/khartoum/founder-operator-dinner"
-title: "Khartoum Founder Operator Dinner Guide"
+title: "Khartoum Founder Operator Dinner Guide | Fanju app"
 description: "Discover the world of social dining with Fanju app, a platform for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

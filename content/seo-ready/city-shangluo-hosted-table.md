@@ -4,11 +4,11 @@ score: 100
 lang: zh
 canonicalPath: "/city/shangluo/hosted-table"
 alternatePath: "/en/city/shangluo/hosted-table"
-title: "商洛主理人餐桌指南"
+title: "商洛主理人餐桌指南 | 饭局app"
 description: "在商洛寻找稳定线下锚点的远程工作者必读"
 recoveredFromD1: true
 ---
-# 商洛主理人餐桌指南
+# 商洛主理人餐桌指南 | 饭局app
 
 在商洛寻找稳定线下锚点的远程工作者必读
 

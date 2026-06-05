@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/madrid/social-reset-dinner"
 alternatePath: "/city/madrid/social-reset-dinner"
-title: "Madrid Social Reset Dinner Guide"
+title: "Madrid Social Reset Dinner Guide | Fanju app"
 description: "Discover the art of social dining in Madrid with Fanju app, a platform that connects like-minded individuals for intimate, meaningful meals."
 recoveredFromD1: true
 ---

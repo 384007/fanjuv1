@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/casablanca/curated-table"
 alternatePath: "/city/casablanca/curated-table"
-title: "Casablanca Curated Table Guide"
+title: "Casablanca Curated Table Guide | Fanju app"
 description: "Discover the charm of Casablanca through intimate, small-group dining experiences curated by Fanju app, where you can connect with like-minded individua…"
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/milan/translator-dinner"
 alternatePath: "/city/milan/translator-dinner"
 translationKey: "milan-translator-dinner"
 lang: "en"
-title: "Milan's Translator Dinner: Finding Connection Beyond the Crowd..."
+title: "Milan's Translator Dinner: Finding Connection Beyond the Crowd... | Fanju app"
 description: "Fanju app’s core premise in Milan is to create intimate dining experiences where conversation flows naturally around a chosen theme, like the Translator…"
 pageType: "city_article"
 priorityScore: 70

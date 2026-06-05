@@ -4,7 +4,7 @@ canonicalPath: "/en/city/denver/pr-dinner"
 alternatePath: "/city/denver/pr-dinner"
 translationKey: "denver-pr-dinner"
 lang: "en"
-title: "When the after‑work table feels lonely: navigating Denver PR..."
+title: "When the after‑work table feels lonely: navigating Denver PR... | Fanju app"
 description: "The first decision many Denver readers face is whether the promise of a themed dinner actually fills the social void left by remote work."
 pageType: "city_article"
 priorityScore: 70

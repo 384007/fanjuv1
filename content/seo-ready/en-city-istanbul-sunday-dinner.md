@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/istanbul/sunday-dinner"
 alternatePath: "/city/istanbul/sunday-dinner"
-title: "Istanbul Sunday Dinner Guide"
+title: "Istanbul Sunday Dinner Guide | Fanju app"
 description: "Discover the comfort of small-table dining in Istanbul with Fanju app, a social dining app that connects you with like-minded individuals for a unique a…"
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/perth/hospitality-dinner"
 alternatePath: "/city/perth/hospitality-dinner"
 translationKey: "perth-hospitality-dinner"
 lang: "en"
-title: "Hospitality Dinner in Perth should not feel like a gamble; Fanju..."
+title: "Hospitality Dinner in Perth should not feel like a gamble; Fanju... | Fanju app"
 description: "That initial invitation, the RSVP, the anticipation – these are all part of the build-up."
 pageType: "city_article"
 priorityScore: 70

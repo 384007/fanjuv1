@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/las-vegas/small-table-dinner"
 alternatePath: "/city/las-vegas/small-table-dinner"
-title: "Las Vegas Small Table Dinner Guide"
+title: "Las Vegas Small Table Dinner Guide | Fanju app"
 description: "Discover the authentic Las Vegas dining experience with Fanju app, a social dining app that connects you with like-minded individuals for small, clearly…"
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/luanda/holiday-dinner"
 alternatePath: "/city/luanda/holiday-dinner"
-title: "Luanda Holiday Dinner Guide"
+title: "Luanda Holiday Dinner Guide | Fanju app"
 description: "Discover Luanda's vibrant social scene with Fanju app, a platform for small, meaningful meals and genuine connections."
 recoveredFromD1: true
 ---

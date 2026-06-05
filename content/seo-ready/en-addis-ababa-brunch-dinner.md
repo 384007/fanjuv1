@@ -4,7 +4,7 @@ canonicalPath: "/en/city/addis-ababa/brunch-dinner"
 alternatePath: "/city/addis-ababa/brunch-dinner"
 translationKey: "addis-ababa-brunch-dinner"
 lang: "en"
-title: "When Brunch Social in Addis Ababa needs more than a group chat,..."
+title: "When Brunch Social in Addis Ababa needs more than a group chat,... | Fanju app"
 description: "Addis Ababa has a unique culture and atmosphere, and Fanju app takes this into account when hosting Brunch Social events."
 pageType: "city_article"
 priorityScore: 70

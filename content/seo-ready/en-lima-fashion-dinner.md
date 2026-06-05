@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lima/fashion-dinner"
 alternatePath: "/city/lima/fashion-dinner"
 translationKey: "lima-fashion-dinner"
 lang: "en"
-title: "When the runway feels lonely: navigating a Lima Fashion Dinner..."
+title: "When the runway feels lonely: navigating a Lima Fashion Dinner... | Fanju app"
 description: "Loneliness in a bustling metropolis like Lima often stems from the gap between seeing stylish crowds on Instagram and never sharing a table with them."
 pageType: "city_article"
 priorityScore: 70

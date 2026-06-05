@@ -4,7 +4,7 @@ canonicalPath: "/en/city/seattle/street-food-dinner"
 alternatePath: "/city/seattle/street-food-dinner"
 translationKey: "seattle-street-food-dinner"
 lang: "en"
-title: "When Street Food Dinner in Seattle needs more than a group chat,..."
+title: "When Street Food Dinner in Seattle needs more than a group chat,... | Fanju app"
 description: "Standing outside a Seattle restaurant on a rainy evening, checking your phone one last time, is the moment that decides whether a social dining app actu…"
 pageType: "city_article"
 priorityScore: 70

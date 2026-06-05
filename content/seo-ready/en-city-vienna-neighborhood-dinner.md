@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/vienna/neighborhood-dinner"
 alternatePath: "/city/vienna/neighborhood-dinner"
-title: "Vienna Neighborhood Dinner Guide"
+title: "Vienna Neighborhood Dinner Guide | Fanju app"
 description: "Discover the authentic side of Vienna through small, intimate dinners with like-minded professionals and entrepreneurs, facilitated by the Fanju app, a…"
 recoveredFromD1: true
 ---

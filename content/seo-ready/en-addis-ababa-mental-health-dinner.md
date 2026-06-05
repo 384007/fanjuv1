@@ -4,7 +4,7 @@ canonicalPath: "/en/city/addis-ababa/mental-health-dinner"
 alternatePath: "/city/addis-ababa/mental-health-dinner"
 translationKey: "addis-ababa-mental-health-dinner"
 lang: "en"
-title: "Weekend doubts and a clear table: navigating a Mental Health..."
+title: "Weekend doubts and a clear table: navigating a Mental Health... | Fanju app"
 description: "After a demanding workday, the idea of slipping into a quiet corner of a Bole neighbourhood café for a conversation about mental health can feel both in…"
 pageType: "city_article"
 priorityScore: 70

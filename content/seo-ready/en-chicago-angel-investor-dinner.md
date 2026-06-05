@@ -4,7 +4,7 @@ canonicalPath: "/en/city/chicago/angel-investor-dinner"
 alternatePath: "/city/chicago/angel-investor-dinner"
 translationKey: "chicago-angel-investor-dinner"
 lang: "en"
-title: "When Angel Investor Dinner in Chicago needs more than a group..."
+title: "When Angel Investor Dinner in Chicago needs more than a group... | Fanju app"
 description: "Navigating Chicago requires a practical sense of timing, especially when guests are crossing neighborhoods to reach a central venue."
 pageType: "city_article"
 priorityScore: 70

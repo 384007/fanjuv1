@@ -4,7 +4,7 @@ canonicalPath: "/en/city/casablanca/social-worker-dinner"
 alternatePath: "/city/casablanca/social-worker-dinner"
 translationKey: "casablanca-social-worker-dinner"
 lang: "en"
-title: "The Social Worker Dinner table Casablanca actually needs is the..."
+title: "The Social Worker Dinner table Casablanca actually needs is the... | Fanju app"
 description: "In Casablanca, where social rhythms often shift between family obligations, work demands, and the occasional café meetup, there’s little space for conve…"
 pageType: "city_article"
 priorityScore: 70

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/vienna/brand-dinner"
 alternatePath: "/city/vienna/brand-dinner"
-title: "Vienna Brand Dinner Guide"
+title: "Vienna Brand Dinner Guide | Fanju app"
 description: "Discover local food in Vienna with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

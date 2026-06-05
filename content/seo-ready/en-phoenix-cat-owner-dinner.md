@@ -4,7 +4,7 @@ canonicalPath: "/en/city/phoenix/cat-owner-dinner"
 alternatePath: "/city/phoenix/cat-owner-dinner"
 translationKey: "phoenix-cat-owner-dinner"
 lang: "en"
-title: "When Cat Owner Dinner in Phoenix needs more than a group chat,..."
+title: "When Cat Owner Dinner in Phoenix needs more than a group chat,... | Fanju app"
 description: "In a city defined by vast distances between distinct neighborhoods, a generic invitation rarely works because the cost of commuting across the valley is…"
 pageType: "city_article"
 priorityScore: 70

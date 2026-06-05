@@ -4,7 +4,7 @@ canonicalPath: "/en/city/san-diego/safe-social-dinner"
 alternatePath: "/city/san-diego/safe-social-dinner"
 translationKey: "san-diego-safe-social-dinner"
 lang: "en"
-title: "When Safe Social Dinner in San Diego needs more than a group chat,..."
+title: "When Safe Social Dinner in San Diego needs more than a group chat,... | Fanju app"
 description: "When planning a weekend in San Diego, the geography of the meal matters almost as much as the menu."
 pageType: "city_article"
 priorityScore: 70

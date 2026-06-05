@@ -4,7 +4,7 @@ canonicalPath: "/en/city/athens/accountant-dinner"
 alternatePath: "/city/athens/accountant-dinner"
 translationKey: "athens-accountant-dinner"
 lang: "en"
-title: "When the Numbers Meet the Plate: Athens Accountant Dinner Through..."
+title: "When the Numbers Meet the Plate: Athens Accountant Dinner Through... | Fanju app"
 description: "Many Athens readers worry that a social dinner might morph into a disguised date, especially when the invitation mentions “professional networking.” Is…"
 pageType: "city_article"
 priorityScore: 70

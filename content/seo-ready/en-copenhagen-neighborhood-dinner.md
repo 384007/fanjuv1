@@ -4,7 +4,7 @@ canonicalPath: "/en/city/copenhagen/neighborhood-dinner"
 alternatePath: "/city/copenhagen/neighborhood-dinner"
 translationKey: "copenhagen-neighborhood-dinner"
 lang: "en"
-title: "Neighborhood Dinner in Copenhagen should not feel like a gamble;..."
+title: "Neighborhood Dinner in Copenhagen should not feel like a gamble;... | Fanju app"
 description: "For remote workers in Copenhagen, weekday isolation can quietly shape your rhythm—coffee at the same kiosk, meetings over headphones, evenings stretchin…"
 pageType: "city_article"
 priorityScore: 70

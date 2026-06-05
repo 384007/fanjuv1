@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/berlin/solo-traveler-dinner"
 alternatePath: "/city/berlin/solo-traveler-dinner"
-title: "Berlin Solo Traveler Dinner Guide"
+title: "Berlin Solo Traveler Dinner Guide | Fanju app"
 description: "Join a social dining experience in Berlin with Fanju app, a platform for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

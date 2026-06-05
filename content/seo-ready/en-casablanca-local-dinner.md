@@ -4,7 +4,7 @@ canonicalPath: "/en/city/casablanca/local-dinner"
 alternatePath: "/city/casablanca/local-dinner"
 translationKey: "casablanca-local-dinner"
 lang: "en"
-title: "How Fanju Redefines Local Dinner in Casablanca for Meaningful..."
+title: "How Fanju Redefines Local Dinner in Casablanca for Meaningful... | Fanju app"
 description: "Discover how Fanju’s small-table dinners in Casablanca offer a safe, low-pressure way to meet locals, returnees, and bilingual professionals through sha…"
 pageType: "city_article"
 priorityScore: 70

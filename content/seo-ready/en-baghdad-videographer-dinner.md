@@ -4,7 +4,7 @@ canonicalPath: "/en/city/baghdad/videographer-dinner"
 alternatePath: "/city/baghdad/videographer-dinner"
 translationKey: "baghdad-videographer-dinner"
 lang: "en"
-title: "When the pressure to join feels heavy, Baghdad Videographer Dinner..."
+title: "When the pressure to join feels heavy, Baghdad Videographer Dinner... | Fanju app"
 description: "The first ten minutes of a Baghdad Videographer Dinner are often used to set a simple conversation frame, letting participants introduce their latest pr…"
 pageType: "city_article"
 priorityScore: 70

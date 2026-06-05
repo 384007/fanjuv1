@@ -4,7 +4,7 @@ canonicalPath: "/en/city/santiago/solo-traveler-dinner"
 alternatePath: "/city/santiago/solo-traveler-dinner"
 translationKey: "santiago-solo-traveler-dinner"
 lang: "en"
-title: "Evening in Bella Vista: Santiago Solo Traveler Dinner Meets Fanju..."
+title: "Evening in Bella Vista: Santiago Solo Traveler Dinner Meets Fanju... | Fanju app"
 description: "The Bella Vista neighbourhood offers a compact, public patio that lets you picture the room before stepping inside; strangers can see the tables, the li…"
 pageType: "city_article"
 priorityScore: 70

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangkok"
 alternatePath: "/city/bangkok"
 translationKey: "bangkok-social-dining"
 lang: "en"
-title: "Bangkok Social Dining Guide"
+title: "Bangkok Social Dining Guide | Fanju app"
 titleZh: "Bangkok Social Dining Guide"
 pageType: "city_landing"
 priorityScore: 40

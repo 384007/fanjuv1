@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/stockholm/founder-operator-dinner"
 alternatePath: "/city/stockholm/founder-operator-dinner"
-title: "Stockholm Founder Operator Dinner Guide"
+title: "Stockholm Founder Operator Dinner Guide | Fanju app"
 description: "Discover the intimate side of social dining with Fanju app, a platform for meaningful connections and delicious meals in the heart of Stockholm."
 recoveredFromD1: true
 ---

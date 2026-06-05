@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/copenhagen/holiday-dinner"
 alternatePath: "/city/copenhagen/holiday-dinner"
-title: "Copenhagen Holiday Dinner Guide"
+title: "Copenhagen Holiday Dinner Guide | Fanju app"
 description: "Plan a memorable holiday dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

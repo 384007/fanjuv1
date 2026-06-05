@@ -4,7 +4,7 @@ canonicalPath: "/en/city/houston/friendship-dinner"
 alternatePath: "/city/houston/friendship-dinner"
 translationKey: "houston-friendship-dinner"
 lang: "en"
-title: "When Friendship Dinner in Houston needs more than a group chat,..."
+title: "When Friendship Dinner in Houston needs more than a group chat,... | Fanju app"
 description: "A compelling listing does not simply announce a time and place; it immediately answers the question of why a busy Houstonian should cross town for this…"
 pageType: "city_article"
 priorityScore: 70

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lahore/cleantech-dinner"
 alternatePath: "/city/lahore/cleantech-dinner"
 translationKey: "lahore-cleantech-dinner"
 lang: "en"
-title: "When Cleantech Dinner in Lahore needs more than a group chat,..."
+title: "When Cleantech Dinner in Lahore needs more than a group chat,... | Fanju app"
 description: "In Lahore, dinner plans often need clear arrival and exit timing, especially when guests are crossing neighborhoods with unpredictable traffic patterns.…"
 pageType: "city_article"
 priorityScore: 70

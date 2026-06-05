@@ -4,7 +4,7 @@ canonicalPath: "/en/city/atlanta/private-equity-dinner"
 alternatePath: "/city/atlanta/private-equity-dinner"
 translationKey: "atlanta-private-equity-dinner"
 lang: "en"
-title: "After the market closes, an Atlanta Private Equity Dinner on Fanju..."
+title: "After the market closes, an Atlanta Private Equity Dinner on Fanju... | Fanju app"
 description: "A local‑life test asks whether the dinner fits naturally into the rhythm of an Atlanta evening."
 pageType: "city_article"
 priorityScore: 70

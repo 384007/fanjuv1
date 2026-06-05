@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kinshasa/open-table-dinner"
 alternatePath: "/city/kinshasa/open-table-dinner"
 translationKey: "kinshasa-open-table-dinner"
 lang: "en"
-title: "The Open Table Dinner table Kinshasa actually needs is the one..."
+title: "The Open Table Dinner table Kinshasa actually needs is the one... | Fanju app"
 description: "For a solo traveler arriving in Kinshasa after a long workday at a downtown office or NGO compound, the evening can feel more isolating than restful."
 pageType: "city_article"
 priorityScore: 70

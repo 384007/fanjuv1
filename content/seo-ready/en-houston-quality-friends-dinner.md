@@ -4,7 +4,7 @@ canonicalPath: "/en/city/houston/quality-friends-dinner"
 alternatePath: "/city/houston/quality-friends-dinner"
 translationKey: "houston-quality-friends-dinner"
 lang: "en"
-title: "Quality Friends Dinner in Houston should not feel like a gamble;..."
+title: "Quality Friends Dinner in Houston should not feel like a gamble;... | Fanju app"
 description: "When you're considering a Quality Friends Dinner in Houston, the unspoken question often revolves around who will be at the table."
 pageType: "city_article"
 priorityScore: 70

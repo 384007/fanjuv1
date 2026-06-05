@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lima/premium-restaurant-dinner"
 alternatePath: "/city/lima/premium-restaurant-dinner"
 translationKey: "lima-premium-restaurant-dinner"
 lang: "en"
-title: "Premium Restaurant Dinner in Lima should not feel like a gamble;..."
+title: "Premium Restaurant Dinner in Lima should not feel like a gamble;... | Fanju app"
 description: "Dining out in Lima after work should not be a leap of faith. Too often, premium restaurant meetups promise connection but deliver awkward silences or mi…"
 pageType: "city_article"
 priorityScore: 70

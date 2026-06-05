@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/paris/film-dinner"
 alternatePath: "/city/paris/film-dinner"
-title: "Paris Film Dinner Guide"
+title: "Paris Film Dinner Guide | Fanju app"
 description: "Discover the magic of Paris through a unique film dinner experience with Fanju app, a social dining app that brings people together for small, clearly d…"
 recoveredFromD1: true
 ---

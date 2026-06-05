@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/athens/coffee-chat-dinner"
 alternatePath: "/city/athens/coffee-chat-dinner"
-title: "Athens Coffee Chat Dinner Guide"
+title: "Athens Coffee Chat Dinner Guide | Fanju app"
 description: "Discover the authentic side of Athens through small, real-world connections with Fanju app, a social dining app for clearly described meals and genuine…"
 recoveredFromD1: true
 ---

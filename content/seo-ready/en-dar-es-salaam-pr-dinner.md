@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dar-es-salaam/pr-dinner"
 alternatePath: "/city/dar-es-salaam/pr-dinner"
 translationKey: "dar-es-salaam-pr-dinner"
 lang: "en"
-title: "PR Dinner in Dar es Salaam should not feel like a gamble; Fanju..."
+title: "PR Dinner in Dar es Salaam should not feel like a gamble; Fanju... | Fanju app"
 description: "After a long day managing client communications at a media house in Mikocheni, you glance at your phone."
 pageType: "city_article"
 priorityScore: 70

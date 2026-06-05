@@ -4,7 +4,7 @@ canonicalPath: "/en/city/copenhagen/english-speaking-dinner"
 alternatePath: "/city/copenhagen/english-speaking-dinner"
 translationKey: "copenhagen-english-speaking-dinner"
 lang: "en"
-title: "What makes English Speaking Dinner in Copenhagen worth the risk;..."
+title: "What makes English Speaking Dinner in Copenhagen worth the risk;... | Fanju app"
 description: "In many cities, starting a conversation with “Hi, I’m coming to your dinner” is enough."
 pageType: "city_article"
 priorityScore: 70

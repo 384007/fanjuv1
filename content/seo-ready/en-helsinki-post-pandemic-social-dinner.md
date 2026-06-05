@@ -4,7 +4,7 @@ canonicalPath: "/en/city/helsinki/post-pandemic-social-dinner"
 alternatePath: "/city/helsinki/post-pandemic-social-dinner"
 translationKey: "helsinki-post-pandemic-social-dinner"
 lang: "en"
-title: "For people trying Post Pandemic Social Dinner in Helsinki, Fanju..."
+title: "For people trying Post Pandemic Social Dinner in Helsinki, Fanju... | Fanju app"
 description: "In Helsinki, where long winters and quiet evenings shape social rhythms, the return to shared meals after years of distance has taken on a new intention…"
 pageType: "city_article"
 priorityScore: 70

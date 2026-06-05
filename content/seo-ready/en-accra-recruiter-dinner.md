@@ -4,7 +4,7 @@ canonicalPath: "/en/city/accra/recruiter-dinner"
 alternatePath: "/city/accra/recruiter-dinner"
 translationKey: "accra-recruiter-dinner"
 lang: "en"
-title: "When Accra professionals need clear signals before committing to a..."
+title: "When Accra professionals need clear signals before committing to a... | Fanju app"
 description: "Accra diners often wonder whether the listed venue is a vague lounge in Osu or a well‑known restaurant that can accommodate a professional conversation.…"
 pageType: "city_article"
 priorityScore: 70

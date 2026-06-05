@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/yokohama/networking-dinner"
 alternatePath: "/city/yokohama/networking-dinner"
-title: "Yokohama Networking Dinner Guide: Building Connections One Table..."
+title: "Yokohama Networking Dinner Guide: Building Connections One Table... | Fanju app"
 description: "Discover how the Fanju app fosters genuine connections through intimate networking dinners in Yokohama."
 recoveredFromD1: true
 ---

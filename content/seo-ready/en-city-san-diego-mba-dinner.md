@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/san-diego/mba-dinner"
 alternatePath: "/city/san-diego/mba-dinner"
-title: "San Diego MBA Dinner Guide"
+title: "San Diego MBA Dinner Guide | Fanju app"
 description: "Discover the world of MBA dinners in San Diego with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

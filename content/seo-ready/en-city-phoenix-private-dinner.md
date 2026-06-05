@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/phoenix/private-dinner"
 alternatePath: "/city/phoenix/private-dinner"
-title: "Phoenix Private Dinner Guide"
+title: "Phoenix Private Dinner Guide | Fanju app"
 description: "Discover the art of private dining in Phoenix with Fanju app, a social dining platform that connects professionals and entrepreneurs for meaningful conn…"
 recoveredFromD1: true
 ---

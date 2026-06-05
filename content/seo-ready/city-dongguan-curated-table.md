@@ -4,7 +4,7 @@ score: 100
 lang: zh
 canonicalPath: "/city/dongguan/curated-table"
 alternatePath: "/en/city/dongguan/curated-table"
-title: "东莞精选餐桌指南"
+title: "东莞精选餐桌指南 | 饭局app"
 description: "对于许多选择在家或在共享办公空间工作的东莞朋友来说，每周能有一个稳定、有温度的线下聚会，是保持生活节奏和社交活力的重要锚点。饭局app（Fanju）正是为此而生，它围绕着小桌吃饭、清晰的主题和真实的线下连接，为在东莞的你提供了一个发现和参与精选餐桌的平台。"
 recoveredFromD1: true
 ---

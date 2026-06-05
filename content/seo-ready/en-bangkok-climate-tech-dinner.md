@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangkok/climate-tech-dinner"
 alternatePath: "/city/bangkok/climate-tech-dinner"
 translationKey: "bangkok-climate-tech-dinner"
 lang: "en"
-title: "What makes Climate Tech Dinner in Bangkok worth the risk; Fanju..."
+title: "What makes Climate Tech Dinner in Bangkok worth the risk; Fanju... | Fanju app"
 description: "Climate Tech Dinner in Bangkok is not about romance, investor pitches, or networking badges."
 pageType: "city_article"
 priorityScore: 70

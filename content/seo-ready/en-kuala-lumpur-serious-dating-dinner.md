@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kuala-lumpur/serious-dating-dinner"
 alternatePath: "/city/kuala-lumpur/serious-dating-dinner"
 translationKey: "kuala-lumpur-serious-dating-dinner"
 lang: "en"
-title: "Kuala Lumpur has plenty of Serious Dating Dinner options; Fanju..."
+title: "Kuala Lumpur has plenty of Serious Dating Dinner options; Fanju... | Fanju app"
 description: "In Kuala Lumpur, where dating culture often leans toward crowded rooftop bars or fast-paced group meetups, finding a genuine connection can feel like se…"
 pageType: "city_article"
 priorityScore: 70

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tel-aviv/dentist-dinner"
 alternatePath: "/city/tel-aviv/dentist-dinner"
 translationKey: "tel-aviv-dentist-dinner"
 lang: "en"
-title: "When Dentist Dinner in Tel Aviv needs more than a group chat,..."
+title: "When Dentist Dinner in Tel Aviv needs more than a group chat,... | Fanju app"
 description: "Tel Aviv professionals often view an evening meal as a distinct transition between work and rest, making the end time as important as the start."
 pageType: "city_article"
 priorityScore: 70

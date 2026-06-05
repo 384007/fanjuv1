@@ -4,7 +4,7 @@ canonicalPath: "/en/city/riyadh/travel-lover-dinner"
 alternatePath: "/city/riyadh/travel-lover-dinner"
 translationKey: "riyadh-travel-lover-dinner"
 lang: "en"
-title: "When Riyadh’s Skyline Meets a Travel Lover Dinner: Finding the..."
+title: "When Riyadh’s Skyline Meets a Travel Lover Dinner: Finding the... | Fanju app"
 description: "If you tend to thrive in larger gatherings, the compact format could feel restrictive, especially when the host does not disclose the exact number of se…"
 pageType: "city_article"
 priorityScore: 70

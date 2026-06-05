@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/vienna/ai-founder-dinner"
 alternatePath: "/city/vienna/ai-founder-dinner"
-title: "Vienna AI Founder Dinner Guide: Building Trust in Small Gatherings"
+title: "Vienna AI Founder Dinner Guide: Building Trust in Small Gatherings | Fanju app"
 description: "Discover how the Fanju app facilitates intimate AI Founder Dinners in Vienna, emphasizing safety and genuine connection through carefully curated small-…"
 recoveredFromD1: true
 ---

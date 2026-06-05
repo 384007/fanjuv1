@@ -4,7 +4,7 @@ canonicalPath: "/en/city/jakarta/expat-family-dinner"
 alternatePath: "/city/jakarta/expat-family-dinner"
 translationKey: "jakarta-expat-family-dinner"
 lang: "en"
-title: "When Expat Family Dinner in Jakarta needs more than a group chat,..."
+title: "When Expat Family Dinner in Jakarta needs more than a group chat,... | Fanju app"
 description: "When you open a listing for an Expat Family Dinner in Jakarta, the first thing to check is the host's description of the venue."
 pageType: "city_article"
 priorityScore: 70

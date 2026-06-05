@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/accra/friendship-dinner"
 alternatePath: "/city/accra/friendship-dinner"
-title: "Accra Friendship Dinner Guide"
+title: "Accra Friendship Dinner Guide | Fanju app"
 description: "Discover the power of community building through small, intimate dinners with Fanju app, a social dining app that fosters real-world connections and mea…"
 recoveredFromD1: true
 ---

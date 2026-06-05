@@ -4,7 +4,7 @@ canonicalPath: "/en/city/hyderabad/christmas-dinner"
 alternatePath: "/city/hyderabad/christmas-dinner"
 translationKey: "hyderabad-christmas-dinner"
 lang: "en"
-title: "A calmer way to approach Christmas Dinner in Hyderabad through..."
+title: "A calmer way to approach Christmas Dinner in Hyderabad through... | Fanju app"
 description: "Planned spontaneity is what makes a Christmas Dinner in Hyderabad feel grounded rather than chaotic."
 pageType: "city_article"
 priorityScore: 70

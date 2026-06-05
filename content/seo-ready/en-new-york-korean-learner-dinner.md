@@ -4,7 +4,7 @@ canonicalPath: "/en/city/new-york/korean-learner-dinner"
 alternatePath: "/city/new-york/korean-learner-dinner"
 translationKey: "new-york-korean-learner-dinner"
 lang: "en"
-title: "When the after‑work rush in New York meets a Korean Learner..."
+title: "When the after‑work rush in New York meets a Korean Learner... | Fanju app"
 description: "The first tension many New York readers encounter is the commute from Midtown offices to a dinner venue in the Lower East Side."
 pageType: "city_article"
 priorityScore: 70

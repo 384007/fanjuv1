@@ -4,7 +4,7 @@ canonicalPath: "/en/city/lagos/third-place-dinner"
 alternatePath: "/city/lagos/third-place-dinner"
 translationKey: "lagos-third-place-dinner"
 lang: "en"
-title: "The Third Place Dinner table Lagos actually needs is the one Fanju..."
+title: "The Third Place Dinner table Lagos actually needs is the one Fanju... | Fanju app"
 description: "In Lagos, where weekend plans often dissolve into last-minute Lagos traffic or indecisive group chats, the Fanju app offers a structured alternative: th…"
 pageType: "city_article"
 priorityScore: 70

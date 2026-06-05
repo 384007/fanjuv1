@@ -4,7 +4,7 @@ canonicalPath: "/en/city/toronto/wine-dinner"
 alternatePath: "/city/toronto/wine-dinner"
 translationKey: "toronto-wine-dinner"
 lang: "en"
-title: "When Wine Dinner in Toronto needs more than a group chat, Fanju..."
+title: "When Wine Dinner in Toronto needs more than a group chat, Fanju... | Fanju app"
 description: "When considering a Wine Dinner in Toronto, especially if you're new to the city or the app, a crucial first step is to assess the clarity of the event’s…"
 pageType: "city_article"
 priorityScore: 70

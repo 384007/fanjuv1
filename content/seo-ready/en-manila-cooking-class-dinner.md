@@ -4,7 +4,7 @@ canonicalPath: "/en/city/manila/cooking-class-dinner"
 alternatePath: "/city/manila/cooking-class-dinner"
 translationKey: "manila-cooking-class-dinner"
 lang: "en"
-title: "After‑Hours Decision: Manila Cooking Class Dinner through the..."
+title: "After‑Hours Decision: Manila Cooking Class Dinner through the... | Fanju app"
 description: "When the kitchen lights flicker on, you’ll notice the room’s layout before the first stir."
 pageType: "city_article"
 priorityScore: 70

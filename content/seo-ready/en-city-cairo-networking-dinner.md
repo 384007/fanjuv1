@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cairo/networking-dinner"
 alternatePath: "/city/cairo/networking-dinner"
-title: "Cairo Networking Dinner Guide"
+title: "Cairo Networking Dinner Guide | Fanju app"
 description: "Discover the art of meaningful connections in Cairo with Fanju app, a social dining app that brings people together for small, structured meals and real…"
 recoveredFromD1: true
 ---

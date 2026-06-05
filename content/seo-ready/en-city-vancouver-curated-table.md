@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/vancouver/curated-table"
 alternatePath: "/city/vancouver/curated-table"
-title: "Vancouver Curated Table Guide"
+title: "Vancouver Curated Table Guide | Fanju app"
 description: "Discover the world of social dining in Vancouver with Fanju app, a platform that brings people together for small, clearly described meals and real-worl…"
 recoveredFromD1: true
 ---

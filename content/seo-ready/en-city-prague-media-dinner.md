@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/prague/media-dinner"
 alternatePath: "/city/prague/media-dinner"
-title: "Prague Media Dinner Guide"
+title: "Prague Media Dinner Guide | Fanju app"
 description: "Discover the authentic side of Prague through a unique social dining experience on the Fanju app, where you can enjoy small, delicious meals and forge m…"
 recoveredFromD1: true
 ---

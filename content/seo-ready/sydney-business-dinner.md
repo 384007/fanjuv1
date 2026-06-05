@@ -4,7 +4,7 @@ canonicalPath: "/city/sydney/business-dinner"
 alternatePath: "/en/city/sydney/business-dinner"
 translationKey: "sydney-business-dinner"
 lang: "zh"
-title: "悉尼 business dinner Guide"
+title: "悉尼 business dinner Guide | 饭局app"
 titleZh: "悉尼business-dinner指南"
 pageType: "city_landing"
 priorityScore: 50

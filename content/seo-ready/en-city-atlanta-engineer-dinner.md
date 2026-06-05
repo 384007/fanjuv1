@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/atlanta/engineer-dinner"
 alternatePath: "/city/atlanta/engineer-dinner"
-title: "Atlanta Engineer Dinner Guide"
+title: "Atlanta Engineer Dinner Guide | Fanju app"
 description: "Planning a weekend in Atlanta often revolves around finding the right experiences."
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/riyadh/offline-social-dinner"
 alternatePath: "/city/riyadh/offline-social-dinner"
-title: "Riyadh Offline Social Dinner Guide"
+title: "Riyadh Offline Social Dinner Guide | Fanju app"
 description: "Discover the magic of social dining in Riyadh with Fanju app, a platform that brings people together for small, meaningful meals and real-world connecti…"
 recoveredFromD1: true
 ---

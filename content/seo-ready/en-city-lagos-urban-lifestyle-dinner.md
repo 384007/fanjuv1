@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/lagos/urban-lifestyle-dinner"
 alternatePath: "/city/lagos/urban-lifestyle-dinner"
-title: "Lagos Urban Lifestyle Dinner Guide"
+title: "Lagos Urban Lifestyle Dinner Guide | Fanju app"
 description: "Discover the authentic side of Lagos through private, small-scale dinners with the Fanju app, a social dining platform that fosters meaningful connectio…"
 recoveredFromD1: true
 ---

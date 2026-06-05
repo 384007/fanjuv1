@@ -4,7 +4,7 @@ canonicalPath: "/en/city/jakarta/lgbtq-dinner"
 alternatePath: "/city/jakarta/lgbtq-dinner"
 translationKey: "jakarta-lgbtq-dinner"
 lang: "en"
-title: "Jakarta After‑Work LGBTQ Friendly Dinner Finds Community on the..."
+title: "Jakarta After‑Work LGBTQ Friendly Dinner Finds Community on the... | Fanju app"
 description: "Jakarta’s traffic can turn a short walk into a half‑hour trek, so the first decision point is whether the table’s location aligns with your post‑office…"
 pageType: "city_article"
 priorityScore: 70

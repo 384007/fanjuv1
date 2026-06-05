@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/tokyo/after-work-dinner"
 alternatePath: "/city/tokyo/after-work-dinner"
-title: "Tokyo After Work Dinner Guide"
+title: "Tokyo After Work Dinner Guide | Fanju app"
 description: "Discover the best after work dinner experiences in Tokyo with Fanju app, a social dining app for small, clearly described meals and real-world connectio…"
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/johannesburg/firefighter-dinner"
 alternatePath: "/city/johannesburg/firefighter-dinner"
 translationKey: "johannesburg-firefighter-dinner"
 lang: "en"
-title: "What makes Firefighter Dinner in Johannesburg worth the risk;..."
+title: "What makes Firefighter Dinner in Johannesburg worth the risk;... | Fanju app"
 description: "In Johannesburg, where commutes stretch past dark and social plans dissolve into last-minute cancellations, the idea of a curated dinner with strangers—…"
 pageType: "city_article"
 priorityScore: 70

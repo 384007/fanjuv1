@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/brisbane/city-community-dinner"
 alternatePath: "/city/brisbane/city-community-dinner"
-title: "Brisbane City Community Dinner Guide"
+title: "Brisbane City Community Dinner Guide | Fanju app"
 description: "Discover the joy of social dining with Fanju app, a platform that connects you with like-minded individuals for small, intimate meals and meaningful con…"
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/nagoya/international-student-dinner"
 alternatePath: "/city/nagoya/international-student-dinner"
-title: "Nagoya International Student Dinner Guide"
+title: "Nagoya International Student Dinner Guide | Fanju app"
 description: "Discover the nuances of organizing and attending international student dinners in Nagoya with Fanju app."
 recoveredFromD1: true
 ---

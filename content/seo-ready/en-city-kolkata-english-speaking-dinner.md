@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/kolkata/english-speaking-dinner"
 alternatePath: "/city/kolkata/english-speaking-dinner"
-title: "Kolkata English Speaking Dinner Guide: Authentic Local Experiences"
+title: "Kolkata English Speaking Dinner Guide: Authentic Local Experiences | Fanju app"
 description: "Discover authentic Kolkata through English speaking dinners with local hosts. The Fanju app connects you with small, curated dining experiences for genu…"
 recoveredFromD1: true
 ---

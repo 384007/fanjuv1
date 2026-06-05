@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/luanda/chinese-social-dining"
 alternatePath: "/city/luanda/chinese-social-dining"
-title: "Luanda Chinese Social Dining Guide"
+title: "Luanda Chinese Social Dining Guide | Fanju app"
 description: "Plan your weekend with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

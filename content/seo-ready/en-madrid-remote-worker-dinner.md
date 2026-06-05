@@ -4,7 +4,7 @@ canonicalPath: "/en/city/madrid/remote-worker-dinner"
 alternatePath: "/city/madrid/remote-worker-dinner"
 translationKey: "madrid-remote-worker-dinner"
 lang: "en"
-title: "Evening decision in Madrid: a Remote Worker Dinner you’ll find on..."
+title: "Evening decision in Madrid: a Remote Worker Dinner you’ll find on... | Fanju app"
 description: "Walking toward the bar in Madrid’s La Latina neighbourhood, you notice the contrast between the city’s lively streets and the modest table set for four.…"
 pageType: "city_article"
 priorityScore: 70

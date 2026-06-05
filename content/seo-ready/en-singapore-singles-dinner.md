@@ -4,7 +4,7 @@ canonicalPath: "/en/city/singapore/singles-dinner"
 alternatePath: "/city/singapore/singles-dinner"
 translationKey: "singapore-singles-dinner"
 lang: "en"
-title: "Singapore Singles Dinner Guide"
+title: "Singapore Singles Dinner Guide | Fanju app"
 titleZh: "Singapore Singles Dinner Guide"
 pageType: "city_landing"
 priorityScore: 50

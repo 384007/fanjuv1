@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vancouver/serious-dating-dinner"
 alternatePath: "/city/vancouver/serious-dating-dinner"
 translationKey: "vancouver-serious-dating-dinner"
 lang: "en"
-title: "When Vancouver’s Rainy Streets Meet a Serious Dating Dinner, Fanju..."
+title: "When Vancouver’s Rainy Streets Meet a Serious Dating Dinner, Fanju... | Fanju app"
 description: "If the description is vague, you’ll likely encounter the “skip signals” that many Vancouver diners warn about: an unclear venue, a missing price range,…"
 pageType: "city_article"
 priorityScore: 70

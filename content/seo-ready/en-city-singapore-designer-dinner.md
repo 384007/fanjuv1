@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/singapore/designer-dinner"
 alternatePath: "/city/singapore/designer-dinner"
-title: "Singapore Designer Dinner Guide"
+title: "Singapore Designer Dinner Guide | Fanju app"
 description: "Discover the world of social dining with Fanju app, a platform that connects like-minded individuals for intimate, small-table meals in the heart of Sin…"
 recoveredFromD1: true
 ---

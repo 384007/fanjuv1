@@ -4,7 +4,7 @@ canonicalPath: "/en/city/denver/waitlist-dinner"
 alternatePath: "/city/denver/waitlist-dinner"
 translationKey: "denver-waitlist-dinner"
 lang: "en"
-title: "Seeking clear signals before a second‑table dinner: Denver..."
+title: "Seeking clear signals before a second‑table dinner: Denver... | Fanju app"
 description: "Choosing a table in Capitol Hill means weighing the neighborhood’s vibe against your own rhythm."
 pageType: "city_article"
 priorityScore: 70

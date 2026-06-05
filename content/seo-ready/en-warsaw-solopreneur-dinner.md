@@ -4,7 +4,7 @@ canonicalPath: "/en/city/warsaw/solopreneur-dinner"
 alternatePath: "/city/warsaw/solopreneur-dinner"
 translationKey: "warsaw-solopreneur-dinner"
 lang: "en"
-title: "When Solopreneur Dinner in Warsaw needs more than a group chat,..."
+title: "When Solopreneur Dinner in Warsaw needs more than a group chat,... | Fanju app"
 description: "One practical question to ask before choosing this Solopreneur Dinner table is whether the time investment justifies crossing town during rush hour."
 pageType: "city_article"
 priorityScore: 70

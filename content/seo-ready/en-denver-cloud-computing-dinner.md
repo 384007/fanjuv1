@@ -4,7 +4,7 @@ canonicalPath: "/en/city/denver/cloud-computing-dinner"
 alternatePath: "/city/denver/cloud-computing-dinner"
 translationKey: "denver-cloud-computing-dinner"
 lang: "en"
-title: "When Cloud Computing Dinner in Denver needs more than a group..."
+title: "When Cloud Computing Dinner in Denver needs more than a group... | Fanju app"
 description: "A strong listing description for a dinner in Denver will immediately specify the technical sub-field being discussed, such as serverless architecture or cloud security, rather than using vague terms like \"tech talk.\""
 pageType: "city_article"
 priorityScore: 70

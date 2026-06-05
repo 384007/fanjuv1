@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/khartoum/social-reset-dinner"
 alternatePath: "/city/khartoum/social-reset-dinner"
-title: "A calmer way to approach Social Reset Dinner in Khartoum through..."
+title: "A calmer way to approach Social Reset Dinner in Khartoum through... | Fanju app"
 description: "Fanju app offers a quiet alternative to crowded meetups in Khartoum by focusing on small, intentional dinners where the setting is clear and the pace is…"
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vienna/senior-dinner"
 alternatePath: "/city/vienna/senior-dinner"
 translationKey: "vienna-senior-dinner"
 lang: "en"
-title: "Vienna's Small Table Promise: Finding Your Senior Dinner..."
+title: "Vienna's Small Table Promise: Finding Your Senior Dinner... | Fanju app"
 description: "Vienna's pace of life, particularly around its famed dinner hours, often requires a more deliberate approach to social planning."
 pageType: "city_article"
 priorityScore: 70

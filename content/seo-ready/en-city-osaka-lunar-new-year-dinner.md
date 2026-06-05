@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/osaka/lunar-new-year-dinner"
 alternatePath: "/city/osaka/lunar-new-year-dinner"
-title: "Osaka Lunar New Year Dinner Guide: Finding Trustworthy Gatherings"
+title: "Osaka Lunar New Year Dinner Guide: Finding Trustworthy Gatherings | Fanju app"
 description: "Discover how to find safe and authentic Lunar New Year dinners in Osaka with the Fanju app."
 recoveredFromD1: true
 ---

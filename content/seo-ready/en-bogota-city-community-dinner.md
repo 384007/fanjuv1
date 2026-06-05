@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bogota/city-community-dinner"
 alternatePath: "/city/bogota/city-community-dinner"
 translationKey: "bogota-city-community-dinner"
 lang: "en"
-title: "A calmer way to approach City Community Dinner in Bogota through..."
+title: "A calmer way to approach City Community Dinner in Bogota through... | Fanju app"
 description: "For those in Bogota looking to connect more meaningfully, the Fanju app offers a way to approach City Community Dinner not as another event to schedule,…"
 pageType: "city_article"
 priorityScore: 70

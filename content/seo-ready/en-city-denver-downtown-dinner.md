@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/denver/downtown-dinner"
 alternatePath: "/city/denver/downtown-dinner"
-title: "Denver Downtown Dinner Guide"
+title: "Denver Downtown Dinner Guide | Fanju app"
 description: "Find a small, structured dinner in Denver's downtown area with Fanju app, a social dining app that connects you with like-minded people for real-world c…"
 recoveredFromD1: true
 ---

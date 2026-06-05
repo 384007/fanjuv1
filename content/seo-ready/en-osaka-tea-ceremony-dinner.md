@@ -4,7 +4,7 @@ canonicalPath: "/en/city/osaka/tea-ceremony-dinner"
 alternatePath: "/city/osaka/tea-ceremony-dinner"
 translationKey: "osaka-tea-ceremony-dinner"
 lang: "en"
-title: "A calmer way to approach Tea Ceremony Dinner in Osaka through..."
+title: "A calmer way to approach Tea Ceremony Dinner in Osaka through... | Fanju app"
 description: "Osaka moves quickly, but its social rhythm respects quiet entry. Unlike the high-energy welcomes of Tokyo or the ceremonial formality of Kyoto, Osaka pr…"
 pageType: "city_article"
 priorityScore: 70

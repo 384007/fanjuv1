@@ -4,7 +4,7 @@ canonicalPath: "/en/city/chennai/travel-lover-dinner"
 alternatePath: "/city/chennai/travel-lover-dinner"
 translationKey: "chennai-travel-lover-dinner"
 lang: "en"
-title: "Bridging the Post-Work Gap: Finding Your Travel Lover Dinner in..."
+title: "Bridging the Post-Work Gap: Finding Your Travel Lover Dinner in... | Fanju app"
 description: "The end of a busy Chennai workday often leaves a distinct gap before the weekend truly begins."
 pageType: "city_article"
 priorityScore: 70

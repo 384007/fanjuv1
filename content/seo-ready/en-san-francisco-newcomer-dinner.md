@@ -4,7 +4,7 @@ canonicalPath: "/en/city/san-francisco/newcomer-dinner"
 alternatePath: "/city/san-francisco/newcomer-dinner"
 translationKey: "san-francisco-newcomer-dinner"
 lang: "en"
-title: "San Francisco Newcomer Dinner Guide"
+title: "San Francisco Newcomer Dinner Guide | Fanju app"
 titleZh: "San Francisco Newcomer Dinner Guide"
 pageType: "city_landing"
 priorityScore: 50

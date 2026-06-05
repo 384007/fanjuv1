@@ -4,7 +4,7 @@ canonicalPath: "/en/city/santiago/digital-nomad-dinner"
 alternatePath: "/city/santiago/digital-nomad-dinner"
 translationKey: "santiago-digital-nomad-dinner"
 lang: "en"
-title: "A calmer way to approach Digital Nomad Dinner in Santiago through..."
+title: "A calmer way to approach Digital Nomad Dinner in Santiago through... | Fanju app"
 description: "Considering your first Digital Nomad Dinner in Santiago can feel like stepping into a room full of strangers."
 pageType: "city_article"
 priorityScore: 70

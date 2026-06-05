@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/new-york/sunday-dinner"
 alternatePath: "/city/new-york/sunday-dinner"
-title: "New York Sunday Dinner Guide"
+title: "New York Sunday Dinner Guide | Fanju app"
 description: "The Fanju app offers a unique approach to combating urban loneliness in New York City."
 recoveredFromD1: true
 ---

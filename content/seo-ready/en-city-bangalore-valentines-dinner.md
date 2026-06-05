@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/bangalore/valentines-dinner"
 alternatePath: "/city/bangalore/valentines-dinner"
-title: "Bangalore Valentines Dinner Guide"
+title: "Bangalore Valentines Dinner Guide | Fanju app"
 description: "Plan a memorable Valentines Day dinner in Bangalore with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

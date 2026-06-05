@@ -4,7 +4,7 @@ canonicalPath: "/en/city/bangkok/community-builder-dinner"
 alternatePath: "/city/bangkok/community-builder-dinner"
 translationKey: "bangkok-community-builder-dinner"
 lang: "en"
-title: "A calmer way to approach Community Builder Dinner in Bangkok..."
+title: "A calmer way to approach Community Builder Dinner in Bangkok... | Fanju app"
 description: "If you’ve ever opened the Fanju app in Bangkok and hesitated over a Community Builder Dinner listing, you’re not alone."
 pageType: "city_article"
 priorityScore: 70

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/nairobi/mandarin-dinner"
 alternatePath: "/city/nairobi/mandarin-dinner"
-title: "Nairobi Mandarin Dinner Guide"
+title: "Nairobi Mandarin Dinner Guide | Fanju app"
 description: "Discover the authentic taste of Mandarin dinner in Nairobi with Fanju app, a social dining app that connects you with like-minded individuals for small,…"
 recoveredFromD1: true
 ---

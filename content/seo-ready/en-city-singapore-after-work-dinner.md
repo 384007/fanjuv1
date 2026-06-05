@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/singapore/after-work-dinner"
 alternatePath: "/city/singapore/after-work-dinner"
-title: "Singapore After Work Dinner Guide"
+title: "Singapore After Work Dinner Guide | Fanju app"
 description: "Discover the best ways to reboot your social habits with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

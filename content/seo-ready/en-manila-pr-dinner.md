@@ -4,7 +4,7 @@ canonicalPath: "/en/city/manila/pr-dinner"
 alternatePath: "/city/manila/pr-dinner"
 translationKey: "manila-pr-dinner"
 lang: "en"
-title: "When the doorway feels uncertain: deciding on a Manila PR Dinner..."
+title: "When the doorway feels uncertain: deciding on a Manila PR Dinner... | Fanju app"
 description: "The first ten minutes of a Manila PR Dinner often set the tone for whether the evening feels like a genuine community experiment or just another noisy m…"
 pageType: "city_article"
 priorityScore: 70

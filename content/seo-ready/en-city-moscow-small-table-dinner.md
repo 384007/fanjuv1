@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/moscow/small-table-dinner"
 alternatePath: "/city/moscow/small-table-dinner"
-title: "Moscow Small Table Dinner Guide"
+title: "Moscow Small Table Dinner Guide | Fanju app"
 description: "A social dining experience in Moscow, where you can connect with like-minded people over a small table dinner, without the pressure of a romantic relati…"
 recoveredFromD1: true
 ---

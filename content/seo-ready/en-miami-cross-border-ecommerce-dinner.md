@@ -4,7 +4,7 @@ canonicalPath: "/en/city/miami/cross-border-ecommerce-dinner"
 alternatePath: "/city/miami/cross-border-ecommerce-dinner"
 translationKey: "miami-cross-border-ecommerce-dinner"
 lang: "en"
-title: "When Cross Border Ecommerce Dinner in Miami needs more than a..."
+title: "When Cross Border Ecommerce Dinner in Miami needs more than a... | Fanju app"
 description: "When you look for a Cross Border Ecommerce Dinner in Miami, the first thing to verify is the specificity of the host's note."
 pageType: "city_article"
 priorityScore: 70

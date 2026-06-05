@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/mumbai/lawyer-dinner"
 alternatePath: "/city/mumbai/lawyer-dinner"
-title: "Mumbai Lawyer Dinner Guide"
+title: "Mumbai Lawyer Dinner Guide | Fanju app"
 description: "Discover the unique social dining experience of Fanju app, where you can connect with like-minded professionals over delicious meals in a relaxed atmosp…"
 recoveredFromD1: true
 ---

@@ -17,6 +17,8 @@ export default {
             return buildPageResponse(url, article, body, env, method === "HEAD")
           }
         }
+        // No D1 article — serve a generated fallback page so indexed URLs never 404
+        return buildFallbackCityPage(url, env, method === "HEAD")
       } catch (err) {
         console.error("Worker article error:", err)
         // fall through to Pages
@@ -28,10 +30,13 @@ export default {
 }
 
 async function _findReadyArticle(slug, env) {
+  // Query by slug, canonical_path, or alternate_path so that paths like
+  // /city/guangzhou/curated-dinner (stored as alternate_path on the en article) resolve correctly.
+  const normalized = `/${slug}`
   const direct = await env.FANJU_DB.prepare(
     `SELECT slug, lang, title, description, canonical_path, alternate_path, r2_key, body_html, status, updated_at
-     FROM articles WHERE slug = ? AND status = 'ready' LIMIT 1`,
-  ).bind(slug).first()
+     FROM articles WHERE status = 'ready' AND (slug = ? OR canonical_path = ? OR alternate_path = ?) LIMIT 1`,
+  ).bind(slug, normalized, normalized).first()
   if (direct) return direct
 
   return null
@@ -39,18 +44,22 @@ async function _findReadyArticle(slug, env) {
 
 async function _findAlternateReadyArticle(slug, env) {
   if (!slug.startsWith("en/")) {
+    const enSlug = `en/${slug}`
+    const enNormalized = `/${enSlug}`
     const alternate = await env.FANJU_DB.prepare(
       `SELECT slug, lang, title, description, canonical_path, alternate_path, r2_key, body_html, status, updated_at
-       FROM articles WHERE slug = ? AND status = 'ready' LIMIT 1`,
-    ).bind(`en/${slug}`).first()
+       FROM articles WHERE status = 'ready' AND (slug = ? OR canonical_path = ? OR alternate_path = ?) LIMIT 1`,
+    ).bind(enSlug, enNormalized, enNormalized).first()
     if (alternate) return { ...alternate, alternate_path: "" }
   }
 
   if (slug.startsWith("en/")) {
+    const zhSlug = slug.replace(/^en\//, "")
+    const zhNormalized = `/${zhSlug}`
     const alternate = await env.FANJU_DB.prepare(
       `SELECT slug, lang, title, description, canonical_path, alternate_path, r2_key, body_html, status, updated_at
-       FROM articles WHERE slug = ? AND status = 'ready' LIMIT 1`,
-    ).bind(slug.replace(/^en\//, "")).first()
+       FROM articles WHERE status = 'ready' AND (slug = ? OR canonical_path = ? OR alternate_path = ?) LIMIT 1`,
+    ).bind(zhSlug, zhNormalized, zhNormalized).first()
     if (alternate) return { ...alternate, alternate_path: "" }
   }
 

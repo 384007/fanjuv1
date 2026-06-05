@@ -4,7 +4,7 @@ canonicalPath: "/en/city/milan/bbq-dinner"
 alternatePath: "/city/milan/bbq-dinner"
 translationKey: "milan-bbq-dinner"
 lang: "en"
-title: "When a Solo Traveler Lands in Milan and Spots a Second-Table BBQ..."
+title: "When a Solo Traveler Lands in Milan and Spots a Second-Table BBQ... | Fanju app"
 description: "When you step off the tram onto Corso Como, the first thing to check is the listed start time."
 pageType: "city_article"
 priorityScore: 70

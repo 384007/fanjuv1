@@ -4,7 +4,7 @@ canonicalPath: "/en/city/alexandria/crafts-dinner"
 alternatePath: "/city/alexandria/crafts-dinner"
 translationKey: "alexandria-crafts-dinner"
 lang: "en"
-title: "When Crafts Dinner in Alexandria needs more than a group chat,..."
+title: "When Crafts Dinner in Alexandria needs more than a group chat,... | Fanju app"
 description: "Standing outside a venue in Alexandria, deciding whether to step inside for a Crafts Dinner, is a moment of high tension for an introvert."
 pageType: "city_article"
 priorityScore: 70

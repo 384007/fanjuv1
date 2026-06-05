@@ -4,7 +4,7 @@ canonicalPath: "/en/city/copenhagen/festival-dinner"
 alternatePath: "/city/copenhagen/festival-dinner"
 translationKey: "copenhagen-festival-dinner"
 lang: "en"
-title: "When the Second Table Opens: Copenhagen Festival Dinner Through..."
+title: "When the Second Table Opens: Copenhagen Festival Dinner Through... | Fanju app"
 description: "A host who regularly runs Festival Dinners in Copenhagen treats each second‑table invitation as a chance to extend the night without pressure."
 pageType: "city_article"
 priorityScore: 70

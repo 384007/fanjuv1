@@ -4,7 +4,7 @@ canonicalPath: "/en/city/rio-de-janeiro/offline-social-dinner"
 alternatePath: "/city/rio-de-janeiro/offline-social-dinner"
 translationKey: "rio-de-janeiro-offline-social-dinner"
 lang: "en"
-title: "Finding a Quiet Rio de Janeiro Offline Social Dinner with the..."
+title: "Finding a Quiet Rio de Janeiro Offline Social Dinner with the... | Fanju app"
 description: "In Rio de Janeiro’s historic Lapa neighbourhood, the host usually mentions the exact bar address and the expected arrival time, giving you a concrete se…"
 pageType: "city_article"
 priorityScore: 70

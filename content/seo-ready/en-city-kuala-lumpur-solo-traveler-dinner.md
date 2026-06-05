@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/kuala-lumpur/solo-traveler-dinner"
 alternatePath: "/city/kuala-lumpur/solo-traveler-dinner"
-title: "Kuala Lumpur Solo Traveler Dinner Guide"
+title: "Kuala Lumpur Solo Traveler Dinner Guide | Fanju app"
 description: "Discover the best way to connect with fellow travelers in Kuala Lumpur through small, structured dinners with Fanju app."
 recoveredFromD1: true
 ---

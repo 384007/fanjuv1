@@ -4,7 +4,7 @@ canonicalPath: "/en/city/phoenix/loneliness-solution-dinner"
 alternatePath: "/city/phoenix/loneliness-solution-dinner"
 translationKey: "phoenix-loneliness-solution-dinner"
 lang: "en"
-title: "Why Loneliness Solution Dinner in Phoenix works better when Fanju..."
+title: "Why Loneliness Solution Dinner in Phoenix works better when Fanju... | Fanju app"
 description: "Moving to Phoenix means adjusting to more than just the dry heat. The city stretches wide, neighborhoods blend into one another, and social life often o…"
 pageType: "city_article"
 priorityScore: 70

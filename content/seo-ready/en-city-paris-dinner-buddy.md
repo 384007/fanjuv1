@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/paris/dinner-buddy"
 alternatePath: "/city/paris/dinner-buddy"
-title: "Paris Dinner Buddy Guide"
+title: "Paris Dinner Buddy Guide | Fanju app"
 description: "Discover the art of building community through dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

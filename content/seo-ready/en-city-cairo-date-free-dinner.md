@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cairo/date-free-dinner"
 alternatePath: "/city/cairo/date-free-dinner"
-title: "Cairo Date Free Dinner Guide"
+title: "Cairo Date Free Dinner Guide | Fanju app"
 description: "Discover the joy of social dining in Cairo with Fanju app, a platform that connects people for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

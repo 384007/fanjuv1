@@ -4,7 +4,7 @@ canonicalPath: "/en/city/mexico-city/skateboarding-dinner"
 alternatePath: "/city/mexico-city/skateboarding-dinner"
 translationKey: "mexico-city-skateboarding-dinner"
 lang: "en"
-title: "A Mexico City dinner table for Skateboarding Dinner, with Fanju..."
+title: "A Mexico City dinner table for Skateboarding Dinner, with Fanju... | Fanju app"
 description: "In a sprawling metropolis like Mexico City, a generic listing often fails to capture the specific vibe that makes a Skateboarding Dinner worth the commu…"
 pageType: "city_article"
 priorityScore: 70

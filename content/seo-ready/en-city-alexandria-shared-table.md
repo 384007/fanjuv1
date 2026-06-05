@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/alexandria/shared-table"
 alternatePath: "/city/alexandria/shared-table"
-title: "Alexandria Shared Table Guide"
+title: "Alexandria Shared Table Guide | Fanju app"
 description: "Discover the benefits of shared dining with Fanju app, a social dining app that brings people together for small, structured meals and real-world connec…"
 recoveredFromD1: true
 ---

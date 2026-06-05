@@ -4,7 +4,7 @@ canonicalPath: "/en/city/hyderabad/expat-dinner"
 alternatePath: "/city/hyderabad/expat-dinner"
 translationKey: "hyderabad-expat-dinner"
 lang: "en"
-title: "When Expat Dinner in Hyderabad needs more than a group chat, Fanju..."
+title: "When Expat Dinner in Hyderabad needs more than a group chat, Fanju... | Fanju app"
 description: "Consider asking yourself whether you are willing to cross town for a specific conversation topic before you look at the menu."
 pageType: "city_article"
 priorityScore: 70

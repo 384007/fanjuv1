@@ -4,7 +4,7 @@ canonicalPath: "/en/city/stockholm/documentary-dinner"
 alternatePath: "/city/stockholm/documentary-dinner"
 translationKey: "stockholm-documentary-dinner"
 lang: "en"
-title: "What makes Documentary Dinner in Stockholm worth the risk; Fanju..."
+title: "What makes Documentary Dinner in Stockholm worth the risk; Fanju... | Fanju app"
 description: "The Fanju app helps people new to Stockholm find small, intentional dinners where conversation matters more than performance."
 pageType: "city_article"
 priorityScore: 70

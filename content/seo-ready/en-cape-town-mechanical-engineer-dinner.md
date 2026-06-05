@@ -4,7 +4,7 @@ canonicalPath: "/en/city/cape-town/mechanical-engineer-dinner"
 alternatePath: "/city/cape-town/mechanical-engineer-dinner"
 translationKey: "cape-town-mechanical-engineer-dinner"
 lang: "en"
-title: "What makes Mechanical Engineer Dinner in Cape Town worth the risk;..."
+title: "What makes Mechanical Engineer Dinner in Cape Town worth the risk;... | Fanju app"
 description: "Cape Town’s weekend rhythm often stumbles at the same point: what to do with Friday night when the week has drained you, but staying in feels like surre…"
 pageType: "city_article"
 priorityScore: 70

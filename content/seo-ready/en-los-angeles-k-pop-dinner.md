@@ -4,7 +4,7 @@ canonicalPath: "/en/city/los-angeles/k-pop-dinner"
 alternatePath: "/city/los-angeles/k-pop-dinner"
 translationKey: "los-angeles-k-pop-dinner"
 lang: "en"
-title: "K-Pop Dinner in Los Angeles: Crafting Connection at the Small..."
+title: "K-Pop Dinner in Los Angeles: Crafting Connection at the Small... | Fanju app"
 description: "From the host's side, a successful K-Pop Dinner in Los Angeles is about more than just finding fellow fans; it's about cultivating a specific kind of sh…"
 pageType: "city_article"
 priorityScore: 70

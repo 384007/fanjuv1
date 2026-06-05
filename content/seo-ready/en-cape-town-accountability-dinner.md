@@ -4,7 +4,7 @@ canonicalPath: "/en/city/cape-town/accountability-dinner"
 alternatePath: "/city/cape-town/accountability-dinner"
 translationKey: "cape-town-accountability-dinner"
 lang: "en"
-title: "What makes Accountability Dinner in Cape Town worth the risk;..."
+title: "What makes Accountability Dinner in Cape Town worth the risk;... | Fanju app"
 description: "For founders, freelancers, and mid-career professionals in Cape Town, the idea of a meaningful connection over dinner often feels out of reach."
 pageType: "city_article"
 priorityScore: 70

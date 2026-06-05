@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cape-town/downtown-dinner"
 alternatePath: "/city/cape-town/downtown-dinner"
-title: "Cape Town Downtown Dinner Guide"
+title: "Cape Town Downtown Dinner Guide | Fanju app"
 description: "Discover authentic local connections through dinner with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

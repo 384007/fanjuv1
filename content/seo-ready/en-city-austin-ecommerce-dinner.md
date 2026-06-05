@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/austin/ecommerce-dinner"
 alternatePath: "/city/austin/ecommerce-dinner"
-title: "Austin Ecommerce Dinner Guide"
+title: "Austin Ecommerce Dinner Guide | Fanju app"
 description: "Discover the rhythm of Austin through its unique neighborhoods, transit, and dining culture with Fanju app, a social dining app for small, clearly descr…"
 recoveredFromD1: true
 ---

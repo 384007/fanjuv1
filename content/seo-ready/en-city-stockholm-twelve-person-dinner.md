@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/stockholm/twelve-person-dinner"
 alternatePath: "/city/stockholm/twelve-person-dinner"
-title: "Stockholm Twelve Person Dinner Guide"
+title: "Stockholm Twelve Person Dinner Guide | Fanju app"
 description: "Discover the magic of social dining in Stockholm with Fanju app, a platform that connects people for small, meaningful meals and real-world connections."
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/toronto/app-developer-dinner"
 alternatePath: "/city/toronto/app-developer-dinner"
 translationKey: "toronto-app-developer-dinner"
 lang: "en"
-title: "App Developer Dinner in Toronto should not feel like a gamble;..."
+title: "App Developer Dinner in Toronto should not feel like a gamble;... | Fanju app"
 description: "A weekend meal in Toronto can easily become background noise if there’s no intention behind the gathering."
 pageType: "city_article"
 priorityScore: 70

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/london/weeknight-dinner"
 alternatePath: "/city/london/weeknight-dinner"
-title: "London Weeknight Dinner Guide: Finding Trustworthy Small Gatherings"
+title: "London Weeknight Dinner Guide: Finding Trustworthy Small Gatherings | Fanju app"
 description: "Discovering a comfortable and trustworthy weeknight dinner in London can feel like a challenge."
 recoveredFromD1: true
 ---

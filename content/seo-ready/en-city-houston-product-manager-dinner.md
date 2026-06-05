@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/houston/product-manager-dinner"
 alternatePath: "/city/houston/product-manager-dinner"
-title: "Houston Product Manager Dinner Guide"
+title: "Houston Product Manager Dinner Guide | Fanju app"
 description: "Discover the curated world of social dining in Houston with Fanju app, a platform that brings people together for meaningful connections over delicious…"
 recoveredFromD1: true
 ---

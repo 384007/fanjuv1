@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/paris/lunar-new-year-dinner"
 alternatePath: "/city/paris/lunar-new-year-dinner"
-title: "Paris Lunar New Year Dinner Guide"
+title: "Paris Lunar New Year Dinner Guide | Fanju app"
 description: "Planning a Lunar New Year dinner in Paris can feel daunting, especially if you prefer quieter, more intimate gatherings."
 recoveredFromD1: true
 ---

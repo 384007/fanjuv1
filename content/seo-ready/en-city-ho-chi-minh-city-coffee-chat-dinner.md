@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/ho-chi-minh-city/coffee-chat-dinner"
 alternatePath: "/city/ho-chi-minh-city/coffee-chat-dinner"
-title: "Ho Chi Minh City Coffee Chat Dinner Guide"
+title: "Ho Chi Minh City Coffee Chat Dinner Guide | Fanju app"
 description: "Discover the unique social dining experience of Coffee Chat Dinners in Ho Chi Minh City with the Fanju app."
 recoveredFromD1: true
 ---

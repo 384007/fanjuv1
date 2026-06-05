@@ -4,7 +4,7 @@ canonicalPath: "/en/city/vienna/environmental-engineer-dinner"
 alternatePath: "/city/vienna/environmental-engineer-dinner"
 translationKey: "vienna-environmental-engineer-dinner"
 lang: "en"
-title: "The Environmental Engineer Dinner table Vienna actually needs is..."
+title: "The Environmental Engineer Dinner table Vienna actually needs is... | Fanju app"
 description: "In a city like Vienna, where coffeehouse conversations can stretch for hours and social circles often form around shared academic or professional paths,…"
 pageType: "city_article"
 priorityScore: 70

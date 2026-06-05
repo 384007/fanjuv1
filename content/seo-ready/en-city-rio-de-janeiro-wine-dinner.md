@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/rio-de-janeiro/wine-dinner"
 alternatePath: "/city/rio-de-janeiro/wine-dinner"
-title: "Rio de Janeiro Wine Dinner Guide"
+title: "Rio de Janeiro Wine Dinner Guide | Fanju app"
 description: "Discover the best wine dinner experiences in Rio de Janeiro with Fanju app, a social dining app for small, clearly described meals and real-world connec…"
 recoveredFromD1: true
 ---

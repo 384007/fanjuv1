@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/austin/solo-traveler-dinner"
 alternatePath: "/city/austin/solo-traveler-dinner"
-title: "Austin Solo Traveler Dinner Guide: Finding Your Table"
+title: "Austin Solo Traveler Dinner Guide: Finding Your Table | Fanju app"
 description: "Austin's vibrant energy extends to its culinary scene, and for solo travelers, finding a welcoming dinner spot can be a delightful experience."
 recoveredFromD1: true
 ---

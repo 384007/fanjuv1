@@ -4,7 +4,7 @@ canonicalPath: "/en/city/chicago/post-pandemic-social-dinner"
 alternatePath: "/city/chicago/post-pandemic-social-dinner"
 translationKey: "chicago-post-pandemic-social-dinner"
 lang: "en"
-title: "Why Post Pandemic Social Dinner in Chicago works better when Fanju..."
+title: "Why Post Pandemic Social Dinner in Chicago works better when Fanju... | Fanju app"
 description: "A quiet dinner on a Tuesday in Logan Square changed how Lena, a UX designer who moved to Chicago from Minneapolis during the pandemic, thinks about meet…"
 pageType: "city_article"
 priorityScore: 70

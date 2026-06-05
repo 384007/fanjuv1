@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/cape-town/social-reset-dinner"
 alternatePath: "/city/cape-town/social-reset-dinner"
-title: "Cape Town Social Reset Dinner Guide"
+title: "Cape Town Social Reset Dinner Guide | Fanju app"
 description: "Discover the magic of Social Reset Dinners in Cape Town with Fanju app, a platform that connects like-minded individuals for small, meaningful meals and…"
 recoveredFromD1: true
 ---

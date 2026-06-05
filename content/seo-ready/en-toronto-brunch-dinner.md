@@ -4,7 +4,7 @@ canonicalPath: "/en/city/toronto/brunch-dinner"
 alternatePath: "/city/toronto/brunch-dinner"
 translationKey: "toronto-brunch-dinner"
 lang: "en"
-title: "When Brunch Social in Toronto needs more than a group chat, Fanju..."
+title: "When Brunch Social in Toronto needs more than a group chat, Fanju... | Fanju app"
 description: "You should also consider if the timing required for this Brunch Social fits your actual weekend rhythm."
 pageType: "city_article"
 priorityScore: 70

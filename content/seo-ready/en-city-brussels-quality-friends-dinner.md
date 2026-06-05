@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/brussels/quality-friends-dinner"
 alternatePath: "/city/brussels/quality-friends-dinner"
-title: "Brussels Quality Friends Dinner Guide"
+title: "Brussels Quality Friends Dinner Guide | Fanju app"
 description: "Discover the art of quality friendships through shared meals with Fanju app, a social dining platform that fosters meaningful connections in the heart o…"
 recoveredFromD1: true
 ---

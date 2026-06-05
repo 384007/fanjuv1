@@ -4,7 +4,7 @@ canonicalPath: "/en/city/tongling/art-dinner"
 alternatePath: "/city/tongling/art-dinner"
 translationKey: "gsc-repair-tongling-art-dinner"
 lang: "en"
-title: "Tongling Art Dinner Guide"
+title: "Tongling Art Dinner Guide | Fanju app"
 description: "Tongling art dinner on Fanju helps people compare a small-table dinner, public venue, host note, guest mix, and safety boundaries before joining."
 pageType: "city_topic"
 priorityScore: 76

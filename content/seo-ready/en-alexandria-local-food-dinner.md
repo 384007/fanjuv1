@@ -4,7 +4,7 @@ canonicalPath: "/en/city/alexandria/local-food-dinner"
 alternatePath: "/city/alexandria/local-food-dinner"
 translationKey: "alexandria-local-food-dinner"
 lang: "en"
-title: "Alexandria's Quiet Tables: Finding Your Local Food Dinner with..."
+title: "Alexandria's Quiet Tables: Finding Your Local Food Dinner with... | Fanju app"
 description: "Alexandria, with its blend of historic charm and modern life, presents unique social dynamics."
 pageType: "city_article"
 priorityScore: 70

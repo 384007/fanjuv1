@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/surat/trusted-rsvp-dinner"
 alternatePath: "/city/surat/trusted-rsvp-dinner"
-title: "Surat Trusted RSVP Dinner Guide"
+title: "Surat Trusted RSVP Dinner Guide | Fanju app"
 description: "Discover the power of small, meaningful connections with Fanju app, a social dining app that brings people together over delicious meals and real-world…"
 recoveredFromD1: true
 ---

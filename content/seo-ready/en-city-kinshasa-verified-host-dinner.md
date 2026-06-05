@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/kinshasa/verified-host-dinner"
 alternatePath: "/city/kinshasa/verified-host-dinner"
-title: "Kinshasa Verified Host Dinner Guide"
+title: "Kinshasa Verified Host Dinner Guide | Fanju app"
 description: "Discover the authentic side of Kinshasa through Fanju app, a social dining app that brings people together for small, clearly described meals and real-w…"
 recoveredFromD1: true
 ---

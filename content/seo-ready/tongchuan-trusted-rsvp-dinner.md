@@ -1,5 +1,5 @@
 ---
-status: ready
+status: "draft"
 score: 100
 lang: zh
 canonicalPath: "/city/tongchuan/trusted-rsvp-dinner"

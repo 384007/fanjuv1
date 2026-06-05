@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/santiago/marketing-dinner"
 alternatePath: "/city/santiago/marketing-dinner"
-title: "Santiago Marketing Dinner Guide"
+title: "Santiago Marketing Dinner Guide | Fanju app"
 description: "Discover the art of curated social dining in Santiago with Fanju app, a platform that connects like-minded professionals for intimate, high-quality meal…"
 recoveredFromD1: true
 ---

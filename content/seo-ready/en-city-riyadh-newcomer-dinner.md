@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/riyadh/newcomer-dinner"
 alternatePath: "/city/riyadh/newcomer-dinner"
-title: "Riyadh Newcomer Dinner Guide"
+title: "Riyadh Newcomer Dinner Guide | Fanju app"
 description: "Navigating Riyadh as a newcomer can feel overwhelming, but finding your footing is easier with the right connections."
 recoveredFromD1: true
 ---

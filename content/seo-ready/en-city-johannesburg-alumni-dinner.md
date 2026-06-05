@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/johannesburg/alumni-dinner"
 alternatePath: "/city/johannesburg/alumni-dinner"
-title: "Johannesburg Alumni Dinner Guide"
+title: "Johannesburg Alumni Dinner Guide | Fanju app"
 description: "Plan a memorable Alumni Dinner in Johannesburg with Fanju app, a social dining app that connects people over small, clearly described meals and real-wor…"
 recoveredFromD1: true
 ---

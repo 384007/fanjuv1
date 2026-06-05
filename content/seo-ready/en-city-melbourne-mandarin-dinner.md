@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/melbourne/mandarin-dinner"
 alternatePath: "/city/melbourne/mandarin-dinner"
-title: "Melbourne Mandarin Dinner Guide"
+title: "Melbourne Mandarin Dinner Guide | Fanju app"
 description: "Discover the nuances of hosting and attending a Mandarin dinner in Melbourne with the Fanju app."
 recoveredFromD1: true
 ---

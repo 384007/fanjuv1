@@ -8,7 +8,7 @@ title: "Finding Community in Nagoya's Bustling Streets: How Fanju App's..."
 description: "Discover the benefits of third place dinner in Nagoya, a city where social connections can be hard to come by."
 recoveredFromD1: true
 ---
-# Reclaiming Social Connections in Nagoya&#039;s Fast-Paced Lifestyle
+# Reclaiming Social Connections in Nagoya&#039;s Fast-Paced Lifestyle | Fanju app
 
 Fanju app is a social dining platform that brings people together for intimate, small-group meals in real-world settings. By joining a Fanju dinner, you can break free from the monotony of solo dining and forge meaningful connections with like-minded individuals in Nagoya.
 

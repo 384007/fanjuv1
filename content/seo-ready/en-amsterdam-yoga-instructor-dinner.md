@@ -4,7 +4,7 @@ canonicalPath: "/en/city/amsterdam/yoga-instructor-dinner"
 alternatePath: "/city/amsterdam/yoga-instructor-dinner"
 translationKey: "amsterdam-yoga-instructor-dinner"
 lang: "en"
-title: "Yoga Instructor Dinner in Amsterdam should not feel like a gamble;..."
+title: "Yoga Instructor Dinner in Amsterdam should not feel like a gamble;... | Fanju app"
 description: "Walking into a room full of strangers in Amsterdam can feel like stepping onto a stage without a script."
 pageType: "city_article"
 priorityScore: 70

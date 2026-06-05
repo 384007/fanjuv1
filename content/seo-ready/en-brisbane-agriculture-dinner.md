@@ -4,7 +4,7 @@ canonicalPath: "/en/city/brisbane/agriculture-dinner"
 alternatePath: "/city/brisbane/agriculture-dinner"
 translationKey: "brisbane-agriculture-dinner"
 lang: "en"
-title: "Should you trust a Brisbane Agriculture Dinner found on the Fanju..."
+title: "Should you trust a Brisbane Agriculture Dinner found on the Fanju... | Fanju app"
 description: "Loneliness in a sprawling city like Brisbane often stems from the lack of intimate, recurring gatherings where you can actually see faces."
 pageType: "city_article"
 priorityScore: 70

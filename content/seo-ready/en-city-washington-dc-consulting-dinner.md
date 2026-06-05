@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/washington-dc/consulting-dinner"
 alternatePath: "/city/washington-dc/consulting-dinner"
-title: "Washington DC Consulting Dinner Guide"
+title: "Washington DC Consulting Dinner Guide | Fanju app"
 description: "Navigating Washington DC's professional landscape can feel like a whirlwind, especially when you've just arrived."
 recoveredFromD1: true
 ---

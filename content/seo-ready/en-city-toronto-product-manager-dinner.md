@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/toronto/product-manager-dinner"
 alternatePath: "/city/toronto/product-manager-dinner"
-title: "Toronto Product Manager Dinner Guide"
+title: "Toronto Product Manager Dinner Guide | Fanju app"
 description: "Discover the world of social dining with Fanju app, where you can connect with like-minded professionals over delicious meals in a relaxed atmosphere."
 recoveredFromD1: true
 ---

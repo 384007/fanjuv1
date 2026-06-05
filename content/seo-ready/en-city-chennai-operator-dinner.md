@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/chennai/operator-dinner"
 alternatePath: "/city/chennai/operator-dinner"
-title: "Chennai Operator Dinner Guide"
+title: "Chennai Operator Dinner Guide | Fanju app"
 description: "Discover the world of Operator Dinners in Chennai with Fanju app, a social dining app that connects people for small, clearly described meals and real-w…"
 recoveredFromD1: true
 ---

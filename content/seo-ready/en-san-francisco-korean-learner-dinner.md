@@ -4,7 +4,7 @@ canonicalPath: "/en/city/san-francisco/korean-learner-dinner"
 alternatePath: "/city/san-francisco/korean-learner-dinner"
 translationKey: "san-francisco-korean-learner-dinner"
 lang: "en"
-title: "When San Francisco’s Quiet Korean Learner Dinner Meets the..."
+title: "When San Francisco’s Quiet Korean Learner Dinner Meets the... | Fanju app"
 description: "The first decision point is whether the invitation respects the subtle pressure that a professional‑table setting can generate."
 pageType: "city_article"
 priorityScore: 70

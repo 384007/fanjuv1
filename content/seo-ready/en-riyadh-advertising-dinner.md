@@ -4,7 +4,7 @@ canonicalPath: "/en/city/riyadh/advertising-dinner"
 alternatePath: "/city/riyadh/advertising-dinner"
 translationKey: "riyadh-advertising-dinner"
 lang: "en"
-title: "The Advertising Dinner table Riyadh actually needs is the one..."
+title: "The Advertising Dinner table Riyadh actually needs is the one... | Fanju app"
 description: "In Riyadh, Fanju app makes an advertising dinner credible by clarifying the table purpose, guest roles, venue privacy, timing, and follow-up expectation…"
 pageType: "city_article"
 priorityScore: 70

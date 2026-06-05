@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dallas/city-guide-dinner"
 alternatePath: "/city/dallas/city-guide-dinner"
 translationKey: "dallas-city-guide-dinner"
 lang: "en"
-title: "When Dallas diners crave community, not hype: navigating City..."
+title: "When Dallas diners crave community, not hype: navigating City... | Fanju app"
 description: "The first question many Dallas readers ask is whether the dinner will feel like a natural extension of their own street life or a contrived event design…"
 pageType: "city_article"
 priorityScore: 70

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/san-diego/product-manager-dinner"
 alternatePath: "/city/san-diego/product-manager-dinner"
-title: "San Diego Product Manager Dinner Guide"
+title: "San Diego Product Manager Dinner Guide | Fanju app"
 description: "Join a Product Manager Dinner in San Diego with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

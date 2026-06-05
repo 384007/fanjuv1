@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/mexico-city/slow-social-dinner"
 alternatePath: "/city/mexico-city/slow-social-dinner"
-title: "Mexico City Slow Social Dinner Guide"
+title: "Mexico City Slow Social Dinner Guide | Fanju app"
 description: "Discover the art of slow social dining in Mexico City with Fanju app, a platform that connects like-minded individuals for meaningful meals and real-wor…"
 recoveredFromD1: true
 ---

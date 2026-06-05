@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/chicago/small-table-dinner"
 alternatePath: "/city/chicago/small-table-dinner"
-title: "Chicago Small Table Dinner Guide"
+title: "Chicago Small Table Dinner Guide | Fanju app"
 description: "Discover the authentic Chicago experience with Fanju app, a social dining app that connects you with like-minded individuals for small, clearly describe…"
 recoveredFromD1: true
 ---

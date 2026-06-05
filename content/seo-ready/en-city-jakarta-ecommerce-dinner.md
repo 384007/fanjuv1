@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/jakarta/ecommerce-dinner"
 alternatePath: "/city/jakarta/ecommerce-dinner"
-title: "Jakarta Ecommerce Dinner Guide"
+title: "Jakarta Ecommerce Dinner Guide | Fanju app"
 description: "Discover the authentic side of Jakarta through Ecommerce Dinners with Fanju app, a social dining app that connects you with local hosts for small, clear…"
 recoveredFromD1: true
 ---

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/vienna/angel-investor-dinner"
 alternatePath: "/city/vienna/angel-investor-dinner"
-title: "Vienna Angel Investor Dinner Guide"
+title: "Vienna Angel Investor Dinner Guide | Fanju app"
 description: "Join a table of like-minded individuals at an Angel Investor Dinner in Vienna with Fanju app, a social dining app for small, clearly described meals and…"
 recoveredFromD1: true
 ---

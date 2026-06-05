@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/mexico-city/new-year-dinner"
 alternatePath: "/city/mexico-city/new-year-dinner"
-title: "Mexico City New Year Dinner Guide"
+title: "Mexico City New Year Dinner Guide | Fanju app"
 description: "Welcome to Mexico City! If you're looking for a special way to ring in the New Year, consider a curated dinner experience."
 recoveredFromD1: true
 ---

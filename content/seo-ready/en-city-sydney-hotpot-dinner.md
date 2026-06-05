@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/sydney/hotpot-dinner"
 alternatePath: "/city/sydney/hotpot-dinner"
-title: "Sydney Hotpot Dinner Guide"
+title: "Sydney Hotpot Dinner Guide | Fanju app"
 description: "Discover the authentic Sydney experience with Fanju app, a social dining app that connects you with like-minded individuals for small, clearly described…"
 recoveredFromD1: true
 ---

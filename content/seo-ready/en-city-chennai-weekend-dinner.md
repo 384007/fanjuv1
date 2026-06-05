@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/chennai/weekend-dinner"
 alternatePath: "/city/chennai/weekend-dinner"
-title: "Chennai Weekend Dinner Guide: After Work and Socialising"
+title: "Chennai Weekend Dinner Guide: After Work and Socialising | Fanju app"
 description: "Discover the best weekend dinner spots in Chennai with Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

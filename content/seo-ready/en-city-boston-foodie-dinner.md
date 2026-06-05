@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/boston/foodie-dinner"
 alternatePath: "/city/boston/foodie-dinner"
-title: "Boston Foodie Dinner Guide"
+title: "Boston Foodie Dinner Guide | Fanju app"
 description: "Discover the best of Boston's culinary scene with Fanju app, a social dining app that connects foodies for intimate, small-table experiences."
 recoveredFromD1: true
 ---

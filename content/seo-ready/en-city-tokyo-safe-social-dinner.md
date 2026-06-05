@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/tokyo/safe-social-dinner"
 alternatePath: "/city/tokyo/safe-social-dinner"
-title: "Tokyo Safe Social Dinner Guide"
+title: "Tokyo Safe Social Dinner Guide | Fanju app"
 description: "Navigating Tokyo solo can be an incredible adventure, and finding genuine connections over a meal is part of the experience."
 recoveredFromD1: true
 ---

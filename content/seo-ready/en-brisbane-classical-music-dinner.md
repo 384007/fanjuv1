@@ -4,7 +4,7 @@ canonicalPath: "/en/city/brisbane/classical-music-dinner"
 alternatePath: "/city/brisbane/classical-music-dinner"
 translationKey: "brisbane-classical-music-dinner"
 lang: "en"
-title: "A calmer way to approach Classical Music Dinner in Brisbane..."
+title: "A calmer way to approach Classical Music Dinner in Brisbane... | Fanju app"
 description: "For remote workers in Brisbane, the workday can dissolve into silence — headphones on, screens glowing, and no one to share a coffee break with."
 pageType: "city_article"
 priorityScore: 70

@@ -4,7 +4,7 @@ canonicalPath: "/en/city/atlanta/farm-to-table-dinner"
 alternatePath: "/city/atlanta/farm-to-table-dinner"
 translationKey: "atlanta-farm-to-table-dinner"
 lang: "en"
-title: "A calmer way to approach Farm To Table Dinner in Atlanta through..."
+title: "A calmer way to approach Farm To Table Dinner in Atlanta through... | Fanju app"
 description: "For anyone passing through Atlanta alone, the idea of a farm-to-table dinner can feel a bit daunting."
 pageType: "city_article"
 priorityScore: 70

@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/dublin/social-reset-dinner"
 alternatePath: "/city/dublin/social-reset-dinner"
-title: "Dublin Social Reset Dinner Guide"
+title: "Dublin Social Reset Dinner Guide | Fanju app"
 description: "Discover the art of intentional social dining with Fanju app, a platform that connects like-minded individuals for meaningful meals and real-world conne…"
 recoveredFromD1: true
 ---

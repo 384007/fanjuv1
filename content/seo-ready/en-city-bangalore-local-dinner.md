@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/bangalore/local-dinner"
 alternatePath: "/city/bangalore/local-dinner"
-title: "Bangalore Local Dinner Guide: Experience Authentic City Life"
+title: "Bangalore Local Dinner Guide: Experience Authentic City Life | Fanju app"
 description: "Discover authentic Bangalore dining experiences with the Fanju app. This guide explores how connecting with local hosts for small, intimate dinners offe…"
 recoveredFromD1: true
 ---

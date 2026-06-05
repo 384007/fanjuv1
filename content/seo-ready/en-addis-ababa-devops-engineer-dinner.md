@@ -4,7 +4,7 @@ canonicalPath: "/en/city/addis-ababa/devops-engineer-dinner"
 alternatePath: "/city/addis-ababa/devops-engineer-dinner"
 translationKey: "addis-ababa-devops-engineer-dinner"
 lang: "en"
-title: "Saturday night in Addis Ababa: a DevOps Engineer Dinner you can..."
+title: "Saturday night in Addis Ababa: a DevOps Engineer Dinner you can... | Fanju app"
 description: "Choosing a Saturday night table in Bole’s quieter cafés means weighing travel time against the benefit of meeting peers."
 pageType: "city_article"
 priorityScore: 70

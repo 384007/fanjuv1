@@ -4,7 +4,7 @@ canonicalPath: "/en/city/rome/comedy-dinner"
 alternatePath: "/city/rome/comedy-dinner"
 translationKey: "rome-comedy-dinner"
 lang: "en"
-title: "When the Door Opens in Rome: Deciding on a Comedy Dinner Through..."
+title: "When the Door Opens in Rome: Deciding on a Comedy Dinner Through... | Fanju app"
 description: "When you open the Fanju listing, the first thing you’ll see is a concise note from the host explaining why a comedy night fits Rome now—perhaps referenc…"
 pageType: "city_article"
 priorityScore: 70

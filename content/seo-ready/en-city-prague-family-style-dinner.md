@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/prague/family-style-dinner"
 alternatePath: "/city/prague/family-style-dinner"
-title: "Prague Family Style Dinner Guide"
+title: "Prague Family Style Dinner Guide | Fanju app"
 description: "Discover authentic local connections through dinner with the Fanju app, a social dining app for small, clearly described meals and real-world connections."
 recoveredFromD1: true
 ---

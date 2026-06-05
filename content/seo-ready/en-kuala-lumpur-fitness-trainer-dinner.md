@@ -4,7 +4,7 @@ canonicalPath: "/en/city/kuala-lumpur/fitness-trainer-dinner"
 alternatePath: "/city/kuala-lumpur/fitness-trainer-dinner"
 translationKey: "kuala-lumpur-fitness-trainer-dinner"
 lang: "en"
-title: "For Kuala Lumpur readers considering Fitness Trainer Dinner, Fanju..."
+title: "For Kuala Lumpur readers considering Fitness Trainer Dinner, Fanju... | Fanju app"
 description: "The app functions as a curated listing service rather than a discovery feed, presenting a Fitness Trainer Dinner in Kuala Lumpur as a finite event with…"
 pageType: "city_article"
 priorityScore: 70

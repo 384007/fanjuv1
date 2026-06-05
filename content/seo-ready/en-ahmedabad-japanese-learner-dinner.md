@@ -4,7 +4,7 @@ canonicalPath: "/en/city/ahmedabad/japanese-learner-dinner"
 alternatePath: "/city/ahmedabad/japanese-learner-dinner"
 translationKey: "ahmedabad-japanese-learner-dinner"
 lang: "en"
-title: "Tired of vague group chats? Find a calm Japanese Learner Dinner in..."
+title: "Tired of vague group chats? Find a calm Japanese Learner Dinner in... | Fanju app"
 description: "Choosing a private‑table experience means weighing how the dinner aligns with your daily schedule."
 pageType: "city_article"
 priorityScore: 70

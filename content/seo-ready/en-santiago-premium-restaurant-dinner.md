@@ -4,7 +4,7 @@ score: 100
 lang: en
 canonicalPath: "/en/city/santiago/premium-restaurant-dinner"
 alternatePath: "/city/santiago/premium-restaurant-dinner"
-title: "Why Premium Restaurant Dinner in Santiago works better when Fanju..."
+title: "Why Premium Restaurant Dinner in Santiago works better when Fanju... | Fanju app"
 description: "Fanju app helps people in Santiago find real, small-group dinners in the city’s best restaurants—meals that feel different from group meetups or chat-ba…"
 recoveredFromD1: true
 ---

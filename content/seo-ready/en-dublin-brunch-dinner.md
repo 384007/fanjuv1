@@ -4,7 +4,7 @@ canonicalPath: "/en/city/dublin/brunch-dinner"
 alternatePath: "/city/dublin/brunch-dinner"
 translationKey: "dublin-brunch-dinner"
 lang: "en"
-title: "When Brunch Social in Dublin needs more than a group chat, Fanju..."
+title: "When Brunch Social in Dublin needs more than a group chat, Fanju... | Fanju app"
 description: "A generic invite often fails because it ignores how Dubliners move between neighbourhoods, but a strong listing provides clear arrival and exit timing t…"
 pageType: "city_article"
 priorityScore: 70
