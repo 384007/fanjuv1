@@ -1,12 +1,18 @@
+import {
+  chatEndpointForKeyIndex,
+  getVendorKeys,
+  listAllEgresses,
+} from "./llm-egress.mjs"
+
 const DEFAULT_ORDER = "groq,nvidia,cerebras,gemini,openrouter,cloudflare"
 const providerCooldownUntil = new Map()
 
-// Multi-key support: GROQ_API_KEY, GROQ_API_KEY_2, GROQ_API_KEY_3, ...
-// Same pattern for CEREBRAS_API_KEY, NVIDIA_API_KEY
 const keyCooldownUntil = new Map() // "provider:keyIndex" -> timestamp
 const keyCursor = new Map() // provider -> next preferred key index
 
 function getProviderKeys(envPrefix) {
+  const vendor = envPrefixToVendor(envPrefix)
+  if (vendor) return getVendorKeys(vendor).map((row) => row.key)
   const keys = []
   const base = process.env[envPrefix]
   if (base) keys.push(base)
@@ -18,11 +24,35 @@ function getProviderKeys(envPrefix) {
   return keys
 }
 
+function envPrefixToVendor(envPrefix) {
+  const map = {
+    GROQ_API_KEY: "groq",
+    CEREBRAS_API_KEY: "cerebras",
+    NVIDIA_API_KEY: "nvidia",
+    GEMINI_API_KEY: "gemini",
+    MISTRAL_API_KEY: "mistral",
+  }
+  return map[envPrefix] || ""
+}
+
+function endpointForVendorKey(vendor, keyIndex, logLabel = "") {
+  const route = chatEndpointForKeyIndex(vendor, keyIndex)
+  if (logLabel) {
+    console.log(`[egress] ${logLabel} slot=${route.slot} kind=${route.egressKind} base=${route.baseUrl}`)
+  }
+  return route.endpoint
+}
+
 // Log key counts at startup
 ;["GROQ_API_KEY", "CEREBRAS_API_KEY", "NVIDIA_API_KEY", "GEMINI_API_KEY", "OPENROUTER_API_KEY"].forEach((prefix) => {
   const n = getProviderKeys(prefix).length
   console.log(`[ai-router] ${prefix}: ${n} key(s) loaded`)
 })
+const egressSummary = listAllEgresses(["groq", "cerebras", "nvidia", "gemini"])
+for (const [vendor, rows] of Object.entries(egressSummary)) {
+  const kinds = rows.map((r) => `key_${r.slot}=${r.egress_kind}`).join(", ")
+  if (kinds) console.log(`[ai-router] egress ${vendor}: ${kinds}`)
+}
 
 function cooldownKey(provider, keyIndex, ms) {
   const mapKey = `${provider}:${keyIndex}`
@@ -175,7 +205,7 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
       if ((keyCooldownUntil.get(`groq:${i}`) || 0) > Date.now()) continue
       try {
         return await callOpenAICompat({
-          label: `Groq[${i}]`, endpoint: "https://api.groq.com/openai/v1/chat/completions",
+          label: `Groq[${i}]`, endpoint: endpointForVendorKey("groq", i),
           apiKey: keys[i], model: process.env.GROQ_MODEL || "llama-3.3-70b-versatile",
           prompt, system, maxTokens: Math.min(maxTokens, Number.parseInt(process.env.GROQ_MAX_TOKENS || "4200", 10)),
           timeoutMs, tokenParam: "max_tokens", useJsonFormat: false,
@@ -188,7 +218,6 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
     throw Object.assign(new Error("Groq: all keys on cooldown"), { status: 429 })
   }
 
-  // groq2 — pinned to key index 1
   if (provider === "groq2") {
     const keys = getProviderKeys("GROQ_API_KEY")
     const i = 1; const apiKey = keys[i]
@@ -196,7 +225,7 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
     if ((keyCooldownUntil.get(`groq:${i}`) || 0) > Date.now()) throw Object.assign(new Error("groq2: key on cooldown"), { status: 429 })
     try {
       return await callOpenAICompat({
-        label: `Groq[${i}]`, endpoint: "https://api.groq.com/openai/v1/chat/completions",
+        label: `Groq[${i}]`, endpoint: endpointForVendorKey("groq", i),
         apiKey, model: process.env.GROQ_MODEL || "llama-3.3-70b-versatile",
         prompt, system, maxTokens: Math.min(maxTokens, Number.parseInt(process.env.GROQ_MAX_TOKENS || "4200", 10)),
         timeoutMs, tokenParam: "max_tokens", useJsonFormat: false,
@@ -206,30 +235,30 @@ async function callProvider(provider, { prompt, system, maxTokens, timeoutMs }) 
       throw err
     }
   }
-if (provider === "cerebras") {
-  const keys = getProviderKeys("CEREBRAS_API_KEY")
-  const models = ["gpt-oss-120b", "zai-glm-4.7", "llama-3.3-70b", "qwen-3-32b"]
-  for (const i of rotatingKeyIndexes("cerebras", keys.length)) {
-    if ((keyCooldownUntil.get(`cerebras:${i}`) || 0) > Date.now()) continue
-    for (const model of models) {
-      try {
-        return await callOpenAICompat({
-          label: `Cerebras[${i}]-${model}`, endpoint: "https://api.cerebras.ai/v1/chat/completions",
-          apiKey: keys[i], model,
-          prompt, system, maxTokens,
-          timeoutMs: Number.parseInt(process.env.CEREBRAS_TIMEOUT_MS || "30000", 10), tokenParam: "max_completion_tokens",
-        })
-      } catch (err) {
-        if (err?.status === 429) { cooldownKey("cerebras", i, retryDelayMs(err) || 60000); break }
-        if (err?.status === 404) { console.log(`Model ${model} not found, trying next model...`); continue }
-        throw err
+
+  if (provider === "cerebras") {
+    const keys = getProviderKeys("CEREBRAS_API_KEY")
+    const models = ["gpt-oss-120b", "zai-glm-4.7", "llama-3.3-70b", "qwen-3-32b"]
+    for (const i of rotatingKeyIndexes("cerebras", keys.length)) {
+      if ((keyCooldownUntil.get(`cerebras:${i}`) || 0) > Date.now()) continue
+      for (const model of models) {
+        try {
+          return await callOpenAICompat({
+            label: `Cerebras[${i}]-${model}`, endpoint: endpointForVendorKey("cerebras", i),
+            apiKey: keys[i], model,
+            prompt, system, maxTokens,
+            timeoutMs: Number.parseInt(process.env.CEREBRAS_TIMEOUT_MS || "30000", 10), tokenParam: "max_completion_tokens",
+          })
+        } catch (err) {
+          if (err?.status === 429) { cooldownKey("cerebras", i, retryDelayMs(err) || 60000); break }
+          if (err?.status === 404) { console.log(`Model ${model} not found, trying next model...`); continue }
+          throw err
+        }
       }
     }
+    throw Object.assign(new Error("Cerebras: all models failed or keys on cooldown"), { status: 429 })
   }
-  throw Object.assign(new Error("Cerebras: all models failed or keys on cooldown"), { status: 429 })
-}
 
-  // cerebras2/cerebras3/cerebras4 — each pinned to a specific key index for independent parallel use
   if (provider === "cerebras2" || provider === "cerebras3" || provider === "cerebras4" || provider === "cerebras5" || provider === "cerebras6") {
     const keyIndex = provider === "cerebras2" ? 1 : provider === "cerebras3" ? 2 : provider === "cerebras4" ? 3 : provider === "cerebras5" ? 4 : 5
     const keys = getProviderKeys("CEREBRAS_API_KEY")
@@ -245,7 +274,7 @@ if (provider === "cerebras") {
     for (const model of cerebras24Models) {
       try {
         return await callOpenAICompat({
-          label: `Cerebras[${keyIndex}]-${model}`, endpoint: "https://api.cerebras.ai/v1/chat/completions",
+          label: `Cerebras[${keyIndex}]-${model}`, endpoint: endpointForVendorKey("cerebras", keyIndex, provider),
           apiKey, model,
           prompt, system, maxTokens, timeoutMs, tokenParam: "max_completion_tokens", useJsonFormat: false,
         })
@@ -268,7 +297,7 @@ if (provider === "cerebras") {
       if ((keyCooldownUntil.get(`gemini:${i}`) || 0) > Date.now()) continue
       try {
         return await callOpenAICompat({
-          label: `Gemini[${i}]`, endpoint: "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+          label: `Gemini[${i}]`, endpoint: endpointForVendorKey("gemini", i),
           apiKey: keys[i], model: process.env.GEMINI_MODEL || "gemini-2.5-flash",
           prompt, system, maxTokens, timeoutMs, tokenParam: "max_tokens",
         })
@@ -280,7 +309,6 @@ if (provider === "cerebras") {
     throw Object.assign(new Error("Gemini: all keys on cooldown"), { status: 429 })
   }
 
-  // gemini2/gemini3/gemini4 — each pinned to a specific key index
   if (provider === "gemini2" || provider === "gemini3" || provider === "gemini4") {
     const keys = getProviderKeys("GEMINI_API_KEY")
     const i = provider === "gemini2" ? 1 : provider === "gemini3" ? 2 : 3
@@ -289,7 +317,7 @@ if (provider === "cerebras") {
     if ((keyCooldownUntil.get(`gemini:${i}`) || 0) > Date.now()) throw Object.assign(new Error(`${provider}: key on cooldown`), { status: 429 })
     try {
       return await callOpenAICompat({
-        label: `Gemini[${i}]`, endpoint: "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+        label: `Gemini[${i}]`, endpoint: endpointForVendorKey("gemini", i),
         apiKey, model: process.env.GEMINI_MODEL || "gemini-2.5-flash",
         prompt, system, maxTokens, timeoutMs, tokenParam: "max_tokens",
       })
@@ -305,7 +333,7 @@ if (provider === "cerebras") {
       if ((keyCooldownUntil.get(`nvidia:${i}`) || 0) > Date.now()) continue
       try {
         return await callOpenAICompat({
-          label: `NVIDIA[${i}]`, endpoint: "https://integrate.api.nvidia.com/v1/chat/completions",
+          label: `NVIDIA[${i}]`, endpoint: endpointForVendorKey("nvidia", i),
           apiKey: keys[i], model: process.env.NVIDIA_MODEL || "nvidia/llama-3.3-nemotron-super-49b-v1",
           prompt, system, maxTokens,
           timeoutMs: Number.parseInt(process.env.NVIDIA_TIMEOUT_MS || "30000", 10), tokenParam: "max_tokens",
@@ -318,7 +346,6 @@ if (provider === "cerebras") {
     throw Object.assign(new Error("NVIDIA: all keys on cooldown"), { status: 429 })
   }
 
-  // nvidia2 — pinned to key index 1
   if (provider === "nvidia2") {
     const keys = getProviderKeys("NVIDIA_API_KEY")
     const i = 1; const apiKey = keys[i]
@@ -326,7 +353,7 @@ if (provider === "cerebras") {
     if ((keyCooldownUntil.get(`nvidia:${i}`) || 0) > Date.now()) throw Object.assign(new Error("nvidia2: key on cooldown"), { status: 429 })
     try {
       return await callOpenAICompat({
-        label: `NVIDIA[${i}]`, endpoint: "https://integrate.api.nvidia.com/v1/chat/completions",
+        label: `NVIDIA[${i}]`, endpoint: endpointForVendorKey("nvidia", i),
         apiKey, model: process.env.NVIDIA_MODEL || "nvidia/llama-3.3-nemotron-super-49b-v1",
         prompt, system, maxTokens,
         timeoutMs: Number.parseInt(process.env.NVIDIA_TIMEOUT_MS || "30000", 10), tokenParam: "max_tokens",
@@ -405,7 +432,6 @@ export async function generateWithRouter({ prompt, system, maxTokens = 1200, tim
         soonestCooldownUntil = Math.min(soonestCooldownUntil, cooldownUntil)
       }
 
-      // 不要被 429 卡死，直接切下一个
       if (err.status === 429) {
         await sleep(1000)
       }

@@ -1236,11 +1236,30 @@ def list_outputs():
 def check_keys():
     """Check which AI keys are loaded: python3 -m modal run modal_growth_agent.py::check_keys"""
     import os
+    import subprocess
+
     for prefix in ["GROQ_API_KEY", "CEREBRAS_API_KEY", "NVIDIA_API_KEY", "GEMINI_API_KEY", "OPENROUTER_API_KEY"]:
         found = [k for k in [prefix] + [f"{prefix}_{i}" for i in range(2, 11)] if os.environ.get(k)]
         print(f"{prefix}: {len(found)} key(s) found: {found or 'NONE'}", flush=True)
-    for k in ["CLOUDFLARE_ACCOUNT_ID", "CLOUDFLARE_AI_API_TOKEN", "CLOUDFLARE_API_TOKEN", "GITHUB_TOKEN", "GH_TOKEN", "GITHUB_REPOSITORY", "GITHUB_REPO"]:
+    for k in [
+        "CF_PROXY_ACCESS_KEY",
+        "CF_PROXY_BASE_URL",
+        "DENO_PROXY_BASE_URL",
+        "VERCEL_PROXY_BASE_URL",
+        "CLOUDFLARE_ACCOUNT_ID",
+        "CLOUDFLARE_AI_API_TOKEN",
+        "CLOUDFLARE_API_TOKEN",
+        "GITHUB_TOKEN",
+        "GH_TOKEN",
+        "GITHUB_REPOSITORY",
+        "GITHUB_REPO",
+    ]:
         print(f"{k}: {'SET' if os.environ.get(k) else 'MISSING'}", flush=True)
+
+    prepare_workdir()
+    ensure_dependencies()
+    out = run_capture(["node", "scripts/seo/llm-egress.mjs"], cwd=WORKDIR, timeout=60)
+    print(out, flush=True)
 
 
 @app.function(image=image, secrets=[legacy_secret])
