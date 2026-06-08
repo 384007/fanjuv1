@@ -428,11 +428,15 @@ def prepare_workdir(use_github: bool = False) -> None:
 
     repo = github_repository()
     remote = f"https://x-access-token:{token}@github.com/{repo}.git"
-    run_args(
-        ["git", "clone", "--depth", "1", "--branch", "main", remote, WORKDIR],
-        timeout=900,
-        redacted=f"git clone --depth 1 --branch main https://x-access-token:***@github.com/{repo}.git {WORKDIR}",
-    )
+    try:
+        run_args(
+            ["git", "clone", "--depth", "1", "--branch", "main", remote, WORKDIR],
+            timeout=900,
+            redacted=f"git clone --depth 1 --branch main https://x-access-token:***@github.com/{repo}.git {WORKDIR}",
+        )
+    except RuntimeError as err:
+        print(f"WARN: git clone failed ({err}); using bundled image source", flush=True)
+        shutil.copytree(APP_DIR, workdir, symlinks=True)
 
     image_modules = Path(APP_DIR, "node_modules")
     work_modules = Path(WORKDIR, "node_modules")
