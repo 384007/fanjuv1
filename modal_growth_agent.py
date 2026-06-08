@@ -15,6 +15,10 @@ import modal
 
 app = modal.App("fanju-growth-agent")
 legacy_secret = modal.Secret.from_name("custom-secret")
+github_secret = modal.Secret.from_name("fanju-github-token")
+growth_env_secret = modal.Secret.from_name("fanju-growth-secrets")
+# custom-secret: AI keys + CF_PROXY_ACCESS_KEY; github/growth secrets supply GITHUB_* for publish.
+growth_secrets = [legacy_secret, github_secret, growth_env_secret]
 hourly_schedule = None if os.environ.get("FANJU_DISABLE_MODAL_SCHEDULE") == "1" else modal.Cron("0 * * * *", timezone="Asia/Singapore")
 
 APP_DIR = "/app"
@@ -881,7 +885,7 @@ def run_cloudflare_publish_pipeline(
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=growth_secrets,
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
     schedule=hourly_schedule,
@@ -892,7 +896,7 @@ def hourly_publish_cron():
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=growth_secrets,
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
 )
@@ -908,7 +912,7 @@ def run_once(rounds: int = 1, run_limit: int = 10, upload_r2: bool = True, submi
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=growth_secrets,
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
 )
@@ -919,7 +923,7 @@ def publish_prompt_bank_to_cloudflare(run_limit: int = 6, upload_r2: bool = True
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=growth_secrets,
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
 )
@@ -991,7 +995,7 @@ def publish_routes_to_cloudflare(target_routes: str, upload_r2: bool = True):
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=growth_secrets,
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
 )
@@ -1141,7 +1145,7 @@ def test_target_city_articles():
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=growth_secrets,
     volumes={OUTPUT_ROOT: volume},
     timeout=21600,
 )
@@ -1152,7 +1156,7 @@ def publish_prompt_bank_to_cloudflare_rounds(rounds: int = 10, run_limit: int = 
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=growth_secrets,
     volumes={OUTPUT_ROOT: volume},
     timeout=900,
 )
@@ -1167,7 +1171,7 @@ def submit_cloudflare_article_urls(platforms: str = "all"):
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=growth_secrets,
     timeout=120,
 )
 def debug_wordpress_env():
@@ -1209,7 +1213,7 @@ def debug_wordpress_env():
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=growth_secrets,
     volumes={OUTPUT_ROOT: volume},
     timeout=300,
 )
@@ -1232,7 +1236,7 @@ def list_outputs():
     return manifest
 
 
-@app.function(image=image, secrets=[legacy_secret])
+@app.function(image=image, secrets=growth_secrets)
 def check_keys():
     """Check which AI keys are loaded: python3 -m modal run modal_growth_agent.py::check_keys"""
     import os
@@ -1262,7 +1266,7 @@ def check_keys():
     print(out, flush=True)
 
 
-@app.function(image=image, secrets=[legacy_secret])
+@app.function(image=image, secrets=growth_secrets)
 def test_keys():
     """Test every AI key with a real request: python3 -m modal run modal_growth_agent.py::test_keys"""
     import subprocess
@@ -1274,7 +1278,7 @@ def test_keys():
 
 @app.function(
     image=image,
-    secrets=[legacy_secret],
+    secrets=growth_secrets,
     volumes={OUTPUT_ROOT: volume},
     timeout=86400,
 )
