@@ -12,6 +12,7 @@ import base64
 import importlib
 import json
 import os
+import re
 from datetime import datetime
 from typing import Any
 
@@ -75,6 +76,14 @@ class SeoCheckRequest(BaseModel):
     github_path: str
 
 
+# ── Helpers ─────────────────────────────────────────────────────────────────
+def _short_error(exc: Exception, max_len: int = 200) -> str:
+    """Return a cleaned, truncated error string safe for JSON responses."""
+    msg = str(exc)
+    msg = re.sub(r"\s+", " ", msg).strip()
+    return msg[:max_len]
+
+
 # ── Auth middleware ─────────────────────────────────────────────────────────
 def verify_token(authorization: str = Header(default="")):
     token = os.environ.get("CF_ADMIN_TOKEN", "")
@@ -83,6 +92,26 @@ def verify_token(authorization: str = Header(default="")):
 
 
 # ── GitHub helpers ──────────────────────────────────────────────────────────
+def _github_repo_name() -> str:
+    """
+    Resolve the target GitHub repository.
+    Supports two env-var styles:
+      1. GITHUB_REPOSITORY=384007/fanjuv1   (single var, owner/repo format)
+      2. GITHUB_CONTENT_OWNER=384007 + GITHUB_REPO=fanjuv1  (legacy two-var)
+    """
+    full = os.environ.get("GITHUB_REPOSITORY", "")
+    if full and "/" in full:
+        return full
+    owner = os.environ.get("GITHUB_CONTENT_OWNER", "")
+    repo = os.environ.get("GITHUB_REPO", "")
+    if not owner or not repo:
+        raise RuntimeError(
+            "GitHub repo not configured. Set GITHUB_REPOSITORY=owner/repo "
+            "or both GITHUB_CONTENT_OWNER and GITHUB_REPO."
+        )
+    return f"{owner}/{repo}"
+
+
 def github_client():
     from github import Github
 
@@ -91,13 +120,13 @@ def github_client():
 
 def read_github_file(path: str) -> str:
     g = github_client()
-    repo = g.get_repo(f"{os.environ['GITHUB_CONTENT_OWNER']}/{os.environ['GITHUB_REPO']}")
+    repo = g.get_repo(_github_repo_name())
     return repo.get_contents(path).decoded_content.decode("utf-8")
 
 
 def write_github_file(path: str, content: str, message: str) -> str:
     g = github_client()
-    repo = g.get_repo(f"{os.environ['GITHUB_CONTENT_OWNER']}/{os.environ['GITHUB_REPO']}")
+    repo = g.get_repo(_github_repo_name())
     try:
         existing = repo.get_contents(path)
         repo.update_file(path, message, content, existing.sha)
@@ -422,7 +451,7 @@ async def _check_one(platform: str) -> dict:
         expired = any(pat in final_url for pat in LOGIN_PATTERNS)
         return {"valid": not expired, "configured": True, "error": None}
     except Exception as e:
-        return {"valid": False, "configured": True, "error": str(e)[:200]}
+        return {"valid": False, "configured": True, "error": _short_error(e)}
 
 
 @web.post("/validate-cookies")
